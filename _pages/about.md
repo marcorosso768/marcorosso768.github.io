@@ -17,10 +17,12 @@ social: true # includes social icons at the bottom of the page
 
 If you are here not by a mistake, welcome to my personal website!
 
-I am a 4<sup>th</sup> year Ph.D. student and a Research Fellow in Economics at the University of Bologna
+I am a 4<sup>th</sup> year Ph.D. student in Economics under the supervision of [Paolo Vanin](https://sites.google.com/site/paolovanin/) and a Research Fellow under the supervision of [Giovanni Prarolo](https://sites.google.com/site/giovanniprarolo/) at the University of Bologna
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My research interests include political, crime, experimental, and behavioral economics, both theoretically and empirically.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Currently, I am focusing on:
+<ul>
+  <li>Self-Selection and Corruption<li>
+  <li>Local Crime News and Voting Behavior</li>
+<ul>
