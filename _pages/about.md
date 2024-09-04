@@ -23,6 +23,6 @@ My research interests include political, crime, experimental, and behavioral eco
 
 Currently, I am focusing on:
 <ul>
-  <li>Self-Selection and Corruption<li>
+  <li>Self-Selection and Corruption</li>
   <li>Local Crime News and Voting Behavior</li>
-<ul>
+</ul>
