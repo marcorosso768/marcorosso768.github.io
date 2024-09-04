@@ -2,32 +2,84 @@
 layout: default
 ---
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    .pdf-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    .controls {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      z-index: 1000;
+    }
+    .controls a {
+      display: inline-block;
+      margin-right: 10px;
+      padding: 10px;
+      color: #fff;
+      background-color: #007bff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="pdf-container">
     <!-- Light mode PDF -->
-    <iframe id="light-mode" src="{{ '/assets/pdf/cv-light.pdf' | relative_url }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0"></iframe>
+    <iframe id="light-mode" src="{{ '/assets/cv-light.pdf' | relative_url }}"></iframe>
     <!-- Dark mode PDF -->
-    <iframe id="dark-mode" src="{{ '/assets/pdf/cv-dark.pdf' | relative_url }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: none;" frameborder="0"></iframe>
-</div>
+    <iframe id="dark-mode" src="{{ '/assets/cv-dark.pdf' | relative_url }}" style="display: none;"></iframe>
+  </div>
 
-<script>
-  // Check if user prefers dark mode
-  const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  <div class="controls">
+    <a href="{{ '/assets/cv-light.pdf' | relative_url }}" download="cv-light.pdf">Download Light Mode CV</a>
+    <a href="{{ '/assets/cv-dark.pdf' | relative_url }}" download="cv-dark.pdf">Download Dark Mode CV</a>
+  </div>
 
-  function handleColorSchemeChange(e) {
-      if (e.matches) {
-          // Show dark mode PDF
-          document.getElementById('light-mode').style.display = 'none';
-          document.getElementById('dark-mode').style.display = 'block';
-      } else {
-          // Show light mode PDF
-          document.getElementById('light-mode').style.display = 'block';
-          document.getElementById('dark-mode').style.display = 'none';
-      }
-  }
+  <script>
+    // Check if user prefers dark mode
+    const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
 
-  // Initial check
-  handleColorSchemeChange(darkModeMediaQuery);
+    function handleColorSchemeChange(e) {
+        if (e.matches) {
+            // Show dark mode PDF
+            document.getElementById('light-mode').style.display = 'none';
+            document.getElementById('dark-mode').style.display = 'block';
+        } else {
+            // Show light mode PDF
+            document.getElementById('light-mode').style.display = 'block';
+            document.getElementById('dark-mode').style.display = 'none';
+        }
+    }
 
-  // Listen for color scheme changes
-  darkModeMediaQuery.addListener(handleColorSchemeChange);
-</script>
+    // Initial check
+    handleColorSchemeChange(darkModeMediaQuery);
+
+    // Listen for color scheme changes
+    darkModeMediaQuery.addListener(handleColorSchemeChange);
+  </script>
+</body>
+</html>
