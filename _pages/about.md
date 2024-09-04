@@ -5,7 +5,7 @@ permalink: /
 subtitle: <a href='https://dse.unibo.it/it'> Office 120 - Piazza Scaravilli 2, Bologna</a>. <br> University of Bologna, <a href='https://dse.unibo.it/it'>Department of Economics</a>. 
 
 profile:
-  align: right
+  align: right center
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: > # <p>555 your office number</p> <p>123 your address street</p> <p>Your City, State 12345</p>
