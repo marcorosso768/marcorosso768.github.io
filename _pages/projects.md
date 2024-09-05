@@ -15,7 +15,7 @@ nav_order: 1
 
 <p> - Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088"> Short-term effect of colorectal cancer on income: analysis of an Italian cohort. </a> <i> Journal of Epidemiology & Community Health </i>, 77:196-201. </p>
 
-<p id="abstract-1" class="abstract" style="display: none;">
+<p id="abstract-1" class="abstract" style="display: yes;">
   Abstract: lorem ipsum abstract for paper 1.
 </p>
 
