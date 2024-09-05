@@ -14,8 +14,8 @@ layout: default
   document.addEventListener('DOMContentLoaded', function() {
     function loadPDFBasedOnTheme() {
       const pdfViewer = document.getElementById('cv-pdf');
-      const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-      const theme = darkModeMediaQuery.matches ? 'dark' : 'light';
+      const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: "dark")');
+      const theme = darkModeMediaQuery.matches ? "dark" : "light";
 
       // Adjust the PDF source based on the theme
       pdfViewer.src = `{{ "/assets/pdf/cv-${theme}.pdf" | relative_url }}`;
