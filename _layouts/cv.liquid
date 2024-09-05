@@ -8,6 +8,13 @@ layout: default
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        /* Flex container to center the download button */
+        .button-container {
+            display: flex;
+            justify-content: center; /* Centers the button horizontally */
+            align-items: center; /* Vertically aligns the button */
+            margin: 20px 0; /* Adds space around the button */
+        }
 
         /* Style for the download button */
         .download-button {
@@ -19,20 +26,21 @@ layout: default
             text-align: center;
             text-decoration: none;
             margin-bottom: 20px;
-            display: inline-block; /* Ensure it's centered properly */
+            display: inline-block;
         }
 
         /* Embed the PDF */
         embed {
             width: 100%;
             max-width: 1200px;
-            height: 300%
+            height: 1500px; /* Adjust height to approximate 3 PDF pages */
         }
 
         /* Responsive behavior for mobile devices */
         @media (max-width: 768px) {
             embed {
-                height: 100%
+                width: 100%;
+                height: 1500px; /* Adjust height for smaller screens */
             }
 
             .download-button {
@@ -53,9 +61,11 @@ layout: default
     </div>
 
     <!-- Download button centered on the page -->
-    <a href="{{ "/assets/pdf/cv-light.pdf" | relative_url }}" download="[Marco Rosso] Curriculum Vitae.pdf" class="download-button">
-        download curriculum vitae
-    </a>
+    <div class="button-container">
+        <a href="{{ "/assets/pdf/cv-light.pdf" | relative_url }}" download="[Marco Rosso] Curriculum Vitae.pdf" class="download-button">
+            download curriculum vitae
+        </a>
+    </div>
 
     <!-- Embed the PDF -->
     <embed src="{{ site.baseurl }}/assets/pdf/cv-light.pdf" type="application/pdf" title="Curriculum Vitae">
