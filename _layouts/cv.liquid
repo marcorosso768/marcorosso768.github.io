@@ -13,43 +13,58 @@ layout: default
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
+        /* Style for the download button */
         .download-button {
-            margin-top: 60px;
             padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
             border: none;
-            text-align: center;
+            border-radius: 5px;
             text-transform: lowercase;
             cursor: pointer;
             font-size: 16px;
-            border-radius: 5px;
-            display: block;
-            margin: 0 auto 20px auto; /* Center the button */
-            background-color: #007bff;
-            color: white;
+            text-align: center;
+            margin-bottom: 20px;
             text-decoration: none;
         }
 
+        /* Embed the PDF */
         embed {
             width: 100%;
-            height: 100vh; /* Full viewport height */
+            max-width: 800px;
+            height: 80vh; /* Occupies 80% of the viewport height */
             border: none;
         }
 
+        /* Responsive behavior for mobile devices */
         @media (max-width: 768px) {
             embed {
-                height: calc(100vh - 80px); /* Adjust for mobile screens */
+                height: 70vh; /* Smaller height for mobile */
+            }
+
+            .download-button {
+                width: 90%;
+                max-width: 300px; /* Smaller width for mobile */
             }
         }
     </style>
 </head>
 <body>
-    <!-- Download button -->
-    <a href="{{ "/assets/pdf/cv-light.pdf" | relative_url }}" download="[Marco Rosso] Curriculum Vitae.pdf" class="download-button">download curriculum vitae</a>
 
-    <!-- Embed the PDF -->
+    <!-- Download button centered on the page -->
+    <a href="{{ "/assets/pdf/cv-light.pdf" | relative_url }}" download="[Marco Rosso] Curriculum Vitae.pdf" class="download-button">
+        download curriculum vitae
+    </a>
+
+    <!-- Embed the PDF, occupying 80% of the height -->
     <embed src="{{ site.baseurl }}/assets/pdf/cv-light.pdf" type="application/pdf">
+
 </body>
 </html>
