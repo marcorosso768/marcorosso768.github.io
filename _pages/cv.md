@@ -17,7 +17,6 @@ cv_pdf: assets/pdf/cv-light.pdf
 
 <!-- Responsive PDF viewer with fallback -->
 <div style="text-align: center;">
-  <object data="{{ cv_pdf | relative_url }}" type="application/pdf" width="80%" height="600px">
-    Your browser does not support viewing PDFs
+  <object data="{{ cv_pdf | relative_url }}" type="application/pdf" width="1200px" height="1200px">
   </object>
 </div>
