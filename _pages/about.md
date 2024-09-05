@@ -2,7 +2,7 @@
 layout: about
 title: about me
 permalink: /
-subtitle: <a href='https://dse.unibo.it/it'> Office 120 - Piazza Scaravilli 2, Bologna</a>. <br> University of Bologna, <a href='https://dse.unibo.it/it'>Department of Economics</a>. 
+subtitle: University of Bologna, <a href='https://dse.unibo.it/it'>Department of Economics</a>.  <br> Office 120 - <a href='https://dse.unibo.it/it'> Piazza Scaravilli 2, Bologna</a>.
 
 profile:
   align: right
