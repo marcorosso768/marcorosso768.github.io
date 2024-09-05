@@ -33,19 +33,36 @@ layout: default
         embed {
             width: 100%;
             max-width: 1200px;
-            height: 1500px; /* Adjust height to approximate 3 PDF pages */
+            height: 1500px; /* Approximate for 3 pages on large screens */
+        }
+
+        /* Responsive behavior for tablets (iPad) */
+        @media (max-width: 1024px) {
+            embed {
+                height: 1200px; /* Adjust height for tablets like iPads */
+            }
         }
 
         /* Responsive behavior for mobile devices */
         @media (max-width: 768px) {
             embed {
-                width: 100%;
-                height: 1500px; /* Adjust height for smaller screens */
+                height: 900px; /* Adjust height for smaller screens */
             }
 
             .download-button {
-                width: 90%;
+                width: 80%; /* Ensure button width scales well on small screens */
                 max-width: 300px;
+            }
+        }
+
+        /* Extra small mobile devices */
+        @media (max-width: 480px) {
+            embed {
+                height: 800px; /* Further reduce height for very small screens */
+            }
+
+            .download-button {
+                width: 90%; /* Ensure button takes up more space on tiny screens */
             }
         }
     </style>
