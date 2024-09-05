@@ -4,11 +4,11 @@ layout: default
 
 <!-- Download Button for Light Version -->
 <div id="download-btn-container" style="text-align: center; margin-bottom: 60px;">
-  <a id="download-btn" href="{{ "/assets/pdf/cv-light.pdf" | relative_url }}" download="[Marco Rosso] Curriculum Vitae.pdf" class="btn" style="text-transform: none;">download curriculum vitae</a>
+  <a id="download-btn" href="{{ "/assets/pdf/cv-light.pdf" | relative_url }}" download="[Marco Rosso] Curriculum Vitae.pdf" class="btn" style="text-transform: lowercase;">download curriculum vitae</a>
 </div>
 
-<div id="cv-container" style="margin-top: 60px;">
-  <iframe id="cv-pdf" src="{{ "/assets/pdf/cv-light.pdf" | relative_url }}" width="100%" height="auto" type="application/pdf"></iframe>
+<div id="cv-container" style="margin-top: 60px; position: relative; height: 80vh;">
+  <iframe id="cv-pdf" src="{{ "/assets/pdf/cv-light.pdf" | relative_url }}" width="100%" height="100%" type="application/pdf"></iframe>
 </div>
 
 <style>
@@ -29,16 +29,15 @@ layout: default
   document.addEventListener('DOMContentLoaded', function() {
     function loadPDFBasedOnTheme() {
       const pdfViewer = document.getElementById('cv-pdf');
-      const cvContainer = document.getElementById('cv-container');
       const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
 
       // Check if dark mode is enabled
       if (darkModeMediaQuery.matches) {
         pdfViewer.src = '{{ "/assets/pdf/cv-dark.pdf" | relative_url }}'; // Show dark theme PDF
-        cvContainer.className = 'cv-container-dark'; // Apply dark theme background
+        document.getElementById('cv-container').style.backgroundColor = '#333'; // Dark background color
       } else {
         pdfViewer.src = '{{ "/assets/pdf/cv-light.pdf" | relative_url }}'; // Show light theme PDF
-        cvContainer.className = 'cv-container-light'; // Apply light theme background
+        document.getElementById('cv-container').style.backgroundColor = '#fff'; // Light background color
       }
     }
 
@@ -51,11 +50,7 @@ layout: default
     // Show button only when at the top of the page
     function toggleDownloadButton() {
       const btnContainer = document.getElementById('download-btn-container');
-      if (window.scrollY === 0) {
-        btnContainer.style.display = 'block';
-      } else {
-        btnContainer.style.display = 'none';
-      }
+      btnContainer.style.display = (window.scrollY === 0) ? 'block' : 'none';
     }
 
     // Initial check
