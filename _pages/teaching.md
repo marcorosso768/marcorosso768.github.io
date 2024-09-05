@@ -2,13 +2,13 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description:
 nav: true
 nav_order: 3
 ---
 
 <a id="current course" href=".#current course">
-  <h2 class="category">current course</h2>
+  <h2 class="category">current courses</h2>
 </a>
 
 [since 2023] - Teaching Assistant for the course “Macroeconometrics" (assistant to Prof. Giuseppe Cavaliere), MSc in Economics and Econometrics, University of Bologna.
