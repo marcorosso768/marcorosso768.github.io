@@ -37,8 +37,8 @@ layout: default
         /* Embed the PDF */
         embed {
             width: 100%;
-            max-width: 800px;
-            height: 100%
+            max-width: 1200px;
+            height: 300%
         }
 
         /* Responsive behavior for mobile devices */
@@ -57,10 +57,12 @@ layout: default
 <body>
 
     <!-- Title -->
-    <header class="post-header">
+    <div class="post">
+        <header class="post-header">
         <h1 class="post-title">{{ page.title }}</h1>
         <p class="post-description">{{ page.description }}</p>
-    </header>
+        </header>
+    </div>
 
     <!-- Download button centered on the page -->
     <a href="{{ "/assets/pdf/cv-light.pdf" | relative_url }}" download="[Marco Rosso] Curriculum Vitae.pdf" class="download-button">
