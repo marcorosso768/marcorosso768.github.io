@@ -1,16 +1,15 @@
 ---
 layout: default
+title: CV
 ---
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-  <script src="{{ "/assets/js/scripts.js" | relative_url }}"></script>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -21,10 +20,13 @@ layout: default
             justify-content: center;
             height: 100vh;
             overflow: hidden; /* Prevent scrollbars */
+            text-align: center;
         }
 
         /* Style for the download button */
         .download-button {
+            padding: 10px 20px;
+            border: yes;
             border-radius: 5px;
             text-transform: lowercase;
             cursor: pointer;
@@ -32,6 +34,7 @@ layout: default
             text-align: center;
             text-decoration: none;
             margin-bottom: 20px;
+            display: inline-block; /* Ensure it's centered properly */
         }
 
         /* Embed the PDF */
@@ -55,6 +58,9 @@ layout: default
     </style>
 </head>
 <body>
+
+    <!-- Title -->
+    <h1>{{ page.title }}</h1>
 
     <!-- Download button centered on the page -->
     <a href="{{ "/assets/pdf/cv-light.pdf" | relative_url }}" download="[Marco Rosso] Curriculum Vitae.pdf" class="download-button">
