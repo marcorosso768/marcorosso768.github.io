@@ -2,31 +2,71 @@
 layout: default
 ---
 
-<!-- Download Button -->
-<div id="download-btn-container" style="text-align: center; margin-bottom: 20px;">
-  <a id="download-btn" href="{{ "/assets/pdf/cv-light.pdf" | relative_url }}" download="[Marco Rosso] Curriculum Vitae.pdf" class="btn" style="text-transform: none;">download curriculum vitae</a>
+<!-- Download Button for Light Version -->
+<div id="download-btn-container" style="text-align: center; margin-bottom: 60px;">
+  <a id="download-btn" href="{{ "/assets/pdf/cv-light.pdf" | relative_url }}" download="[Marco Rosso] Curriculum Vitae.pdf" class="btn" style="text-transform: none; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">download curriculum vitae</a>
 </div>
 
-<!-- PDF Display Area -->
-<div id="pdf-wrapper" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; overflow: hidden; margin: 0; padding: 0;">
-  <embed id="cv-pdf" src="{{ "/assets/pdf/cv-light.pdf" | relative_url }}" type="application/pdf" style="width: 100vw; height: 100vh; border: none;">
+<div id="cv-container" style="margin-top: 60px;">
+  <embed id="cv-pdf" src="{{ "/assets/pdf/cv-light.pdf" | relative_url }}" type="application/pdf" width="100%" height="1200px">
 </div>
+
+<style>
+  /* Default (light mode) styles */
+  .cv-container-light {
+    background-color: #ffffff; /* Light background */
+    color: #000000; /* Dark text */
+  }
+
+  /* Dark mode styles */
+  .cv-container-dark {
+    background-color: #333333; /* Dark background */
+    color: #ffffff; /* Light text */
+  }
+
+  /* Hidden by default, shown on scroll top */
+  #download-btn-container {
+    display: none;
+  }
+</style>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     function loadPDFBasedOnTheme() {
       const pdfViewer = document.getElementById('cv-pdf');
+      const cvContainer = document.getElementById('cv-container');
       const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-      const theme = darkModeMediaQuery.matches ? 'dark' : 'light';
 
-      // Adjust the PDF source based on the theme
-      pdfViewer.src = `{{ "/assets/pdf/cv-${theme}.pdf" | relative_url }}`;
+      // Check if dark mode is enabled
+      if (darkModeMediaQuery.matches) {
+        pdfViewer.src = '{{ "/assets/pdf/cv-dark.pdf" | relative_url }}'; // Show dark theme PDF
+        cvContainer.className = 'cv-container-dark'; // Apply dark theme background
+      } else {
+        pdfViewer.src = '{{ "/assets/pdf/cv-light.pdf" | relative_url }}'; // Show light theme PDF
+        cvContainer.className = 'cv-container-light'; // Apply light theme background
+      }
     }
 
-    // Load the correct PDF on page load
+    // Load the correct PDF and background color on page load
     loadPDFBasedOnTheme();
 
-    // Listen for changes in the theme and update the PDF accordingly
+    // Listen for changes in the theme and update the PDF and background color accordingly
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', loadPDFBasedOnTheme);
+
+    // Show button only when at the top of the page
+    function toggleDownloadButton() {
+      const btnContainer = document.getElementById('download-btn-container');
+      if (window.scrollY === 0) {
+        btnContainer.style.display = 'block';
+      } else {
+        btnContainer.style.display = 'none';
+      }
+    }
+
+    // Initial check
+    toggleDownloadButton();
+
+    // Check on scroll
+    window.addEventListener('scroll', toggleDownloadButton);
   });
 </script>
