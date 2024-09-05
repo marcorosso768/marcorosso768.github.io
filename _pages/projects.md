@@ -8,7 +8,7 @@ nav_order: 1
 ---
 
 <div class="projects">
-  <a id="publications" href=".#publications">
+  <a id="publications" href="javascript:void(0);" onclick="toggleAbstract('abstract-1')">
     <h2 class="category">publications</h2>
   </a>
 </div>
@@ -19,9 +19,8 @@ nav_order: 1
   Abstract: lorem ipsum abstract for paper 1.
 </p>
 
-
 <div class="projects">
-  <a id="working-papers" href=".#working-papers">
+  <a id="working-papers" href="javascript:void(0);" onclick="toggleAbstract('abstract-2')">
     <h2 class="category">working papers</h2>
   </a>
 </div>
@@ -39,22 +38,9 @@ nav_order: 1
 </p>
 
 <div class="projects">
-  <a id="work-in-progress" href=".#work-in-progress">
+  <a id="work-in-progress" href="javascript:void(0);" onclick="toggleAbstract('abstract-4')">
     <h2 class="category">work in progress</h2>
   </a>
 </div>
 
 <p> - <i> The Effect of Erasmus Programs on Voting </i> , with <a href="https://www.unibo.it/sitoweb/manuel.blasco2/en"> Manuel Blasco </a> </p>
-
-
-<!-- JavaScript -->
-<script>
-  function toggleAbstract(id) {
-    var abstract = document.getElementById(id);
-    if (abstract.style.display === "none") {
-      abstract.style.display = "block";
-    } else {
-      abstract.style.display = "none";
-    }
-  }
-</script>
