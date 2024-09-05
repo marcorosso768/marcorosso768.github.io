@@ -11,12 +11,9 @@ layout: default
     <style>
         body {
             font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
             margin: 0;
             padding: 0;
+            text-align: center;
         }
 
         .download-button {
@@ -28,30 +25,31 @@ layout: default
             cursor: pointer;
             font-size: 16px;
             border-radius: 5px;
+            display: block;
+            margin: 0 auto 20px auto; /* Center the button */
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
         }
 
-        .pdf-container {
-            margin-top: 20px;
+        embed {
             width: 100%;
-            max-width: 800px;
-            height: 100vh;
+            height: 100vh; /* Full viewport height */
+            border: none;
         }
 
-        iframe, embed {
-            width: 100%;
-            height: 100%;
+        @media (max-width: 768px) {
+            embed {
+                height: calc(100vh - 80px); /* Adjust for mobile screens */
+            }
         }
     </style>
 </head>
 <body>
     <!-- Download button -->
-    <div id="download-btn-container" style="text-align: center; margin-bottom: 20px;">
-        <a id="download-btn" href="{{ "/assets/pdf/cv-light.pdf" | relative_url }}" download="[Marco Rosso] Curriculum Vitae.pdf" class="btn" style="text-transform: none;">download curriculum vitae</a>
-    </div>
+    <a href="{{ "/assets/pdf/cv-light.pdf" | relative_url }}" download="[Marco Rosso] Curriculum Vitae.pdf" class="download-button">download curriculum vitae</a>
 
     <!-- Embed the PDF -->
-    <div class="pdf-container">
-        <embed src="{{ site.baseurl }}/assets/pdf/cv-light.pdf" type="application/pdf">
-    </div>
+    <embed src="{{ site.baseurl }}/assets/pdf/cv-light.pdf" type="application/pdf">
 </body>
 </html>
