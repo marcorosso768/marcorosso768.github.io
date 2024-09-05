@@ -1,85 +1,117 @@
 ---
 layout: default
 ---
+{% unless site.data.resume %}
+  <div class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        {{ page.title }}
+        {% if page.cv_pdf %}
+          <a
+            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="float-right"
+            ><i class="fa-solid fa-file-pdf"></i
+          ></a>
+        {% endif %}
+      </h1>
+      {% if page.description %}
+        <p class="post-description">{{ page.description }}</p>
+      {% endif %}
+    </header>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-    }
-    .pdf-container {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-    .controls {
-      position: fixed;
-      bottom: 20px;
-      left: 20px;
-      z-index: 1000;
-    }
-    .controls a {
-      display: inline-block;
-      margin-right: 10px;
-      padding: 10px;
-      color: #fff;
-      background-color: #007bff;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-  </style>
-</head>
-<body>
-  <div class="pdf-container">
-    <!-- Light mode PDF -->
-    <iframe id="light-mode" src="{{ '/assets/cv-light.pdf' | relative_url }}"></iframe>
-    <!-- Dark mode PDF -->
-    <iframe id="dark-mode" src="{{ '/assets/cv-dark.pdf' | relative_url }}" style="display: none;"></iframe>
+    <article>
+      <div class="cv">
+        {% for entry in site.data.cv %}
+          <a class="anchor" id="{{ entry.title }}"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+            <div>
+              {% if entry.type == 'list' %}
+                {% include cv/list.liquid %}
+              {% elsif entry.type == 'map' %}
+                {% include cv/map.liquid %}
+              {% elsif entry.type == 'nested_list' %}
+                {% include cv/nested_list.liquid %}
+              {% elsif entry.type == 'time_table' %}
+                {% include cv/time_table.liquid %}
+              {% elsif entry.type == 'list_groups' %}
+                {% include cv/list_groups.liquid %}
+              {% else %}
+                {{ entry.contents }}
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </article>
   </div>
+{% else %}
+  <div class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        {{ page.title }}
+        {% if page.cv_pdf %}
+          <a
+            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="float-right"
+            ><i class="fa-solid fa-file-pdf"></i
+          ></a>
+        {% endif %}
+      </h1>
+      {% if page.description %}
+        <p class="post-description">{{ page.description }}</p>
+      {% endif %}
+    </header>
 
-  <div class="controls">
-    <a href="{{ '/assets/cv-light.pdf' | relative_url }}" download="cv-light.pdf">Download Light Mode CV</a>
-    <a href="{{ '/assets/cv-dark.pdf' | relative_url }}" download="cv-dark.pdf">Download Dark Mode CV</a>
+    <article>
+      <div class="cv">
+        {% for data in site.data.resume %}
+          {% if site.jsonresume and site.jsonresume.size > 0 %}
+            {% unless site.jsonresume contains data[0] %}
+              {% continue %}
+            {% endunless %}
+          {% endif %}
+          {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
+          <a class="anchor" id="{{ data[0] }}"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+            <div>
+              {% case data[0] %}
+                {% when 'basics' %}
+                  {% include resume/basics.liquid %}
+                {% when 'education' %}
+                  {% include resume/education.liquid %}
+                {% when 'work' %}
+                  {% include resume/work.liquid %}
+                {% when 'volunteer' %}
+                  {% include resume/volunteer.liquid %}
+                {% when 'projects' %}
+                  {% include resume/projects.liquid %}
+                {% when 'awards' %}
+                  {% include resume/awards.liquid %}
+                {% when 'skills' %}
+                  {% include resume/skills.liquid %}
+                {% when 'publications' %}
+                  {% include resume/publications.liquid %}
+                {% when 'languages' %}
+                  {% include resume/languages.liquid %}
+                {% when 'interests' %}
+                  {% include resume/interests.liquid %}
+                {% when 'certificates' %}
+                  {% include resume/certificates.liquid %}
+                {% when 'references' %}
+                  {% include resume/references.liquid %}
+                {% else %}
+
+              {% endcase %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </article>
   </div>
-
-  <script>
-    // Check if user prefers dark mode
-    const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-
-    function handleColorSchemeChange(e) {
-        if (e.matches) {
-            // Show dark mode PDF
-            document.getElementById('light-mode').style.display = 'none';
-            document.getElementById('dark-mode').style.display = 'block';
-        } else {
-            // Show light mode PDF
-            document.getElementById('light-mode').style.display = 'block';
-            document.getElementById('dark-mode').style.display = 'none';
-        }
-    }
-
-    // Initial check
-    handleColorSchemeChange(darkModeMediaQuery);
-
-    // Listen for color scheme changes
-    darkModeMediaQuery.addListener(handleColorSchemeChange);
-  </script>
-</body>
-</html>
+{% endunless %}
