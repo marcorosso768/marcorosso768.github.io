@@ -7,21 +7,23 @@ layout: default
 </div>
 
 <script>
-  function loadPDFBasedOnTheme() {
-    const pdfViewer = document.getElementById('cv-pdf');
-    const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-    
-    // Check if dark mode is enabled
-    if (darkModeMediaQuery.matches) {
-      pdfViewer.src = '{{ "/assets/pdf/cv-dark.pdf" | relative_url }}';
-    } else {
-      pdfViewer.src = '{{ "/assets/pdf/cv-light.pdf" | relative_url }}';
+  document.addEventListener('DOMContentLoaded', function() {
+    function loadPDFBasedOnTheme() {
+      const pdfViewer = document.getElementById('cv-pdf');
+      const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
+      // Check if dark mode is enabled
+      if (darkModeMediaQuery.matches) {
+        pdfViewer.src = '{{ "/assets/pdf/cv-dark.pdf" | relative_url }}'; // Path to dark theme PDF
+      } else {
+        pdfViewer.src = '{{ "/assets/pdf/cv-light.pdf" | relative_url }}'; // Path to light theme PDF
+      }
     }
-  }
 
-  // Load the correct PDF on page load
-  loadPDFBasedOnTheme();
+    // Load the correct PDF on page load
+    loadPDFBasedOnTheme();
 
-  // Listen for changes in the theme and update the PDF accordingly
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', loadPDFBasedOnTheme);
+    // Listen for changes in the theme and update the PDF accordingly
+    darkModeMediaQuery.addEventListener('change', loadPDFBasedOnTheme);
+  });
 </script>
