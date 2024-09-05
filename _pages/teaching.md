@@ -19,7 +19,7 @@ nav_order: 2
 
 <p style="margin-left: 25px;"> Teaching Assistant for the Undergraduate Course "Microeconomics" <br> Economics, Politics and Social Sciences, <i> University of Bologna </i> <br> Assistant to Marco Casari </p>
 
-<p>2022/23-</p>
+<p>2022/25</p>
 
 <p style="margin-left: 25px;">Teaching Assistant for the Master Course "Game Theory" <br> Economics and Econometrics, <i> University of Bologna </i> <br> Assistant to Andrea Mattozzi </p>
 
