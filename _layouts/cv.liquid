@@ -115,3 +115,21 @@ layout: default
     </article>
   </div>
 {% endunless %}
+
+<script>
+  // Function to switch PDF based on theme mode
+  function updateCvPdfLink() {
+    const link = document.getElementById('cv-pdf-link');
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      link.href = '{{ "assets/pdf/cv-dark.pdf" | relative_url }}';
+    } else {
+      link.href = '{{ "assets/pdf/cv-light.pdf" | relative_url }}';
+    }
+  }
+
+  // Run on page load
+  updateCvPdfLink();
+
+  // Listen for changes in the color scheme
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateCvPdfLink);
+</script>
