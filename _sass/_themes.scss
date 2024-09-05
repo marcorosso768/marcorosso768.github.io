@@ -6,7 +6,7 @@
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
-  --global-text-color-light: #{$black-color};
+  --global-text-color-light: #{$red-color};
   --global-theme-color: #{$red-color};
   --global-hover-color: #{$red-color};
   --global-hover-text-color: #{$white-color};
@@ -71,7 +71,7 @@ html[data-theme="dark"] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$white-color};
-  --global-text-color-light: #{$white-color};
+  --global-text-color-light: #{$yellow-color};
   --global-theme-color: #{$yellow-color};
   --global-hover-color: #{$yellow-color};
   --global-hover-text-color: #{$white-color};
