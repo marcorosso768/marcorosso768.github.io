@@ -13,9 +13,10 @@ nav_order: 1
   </a>
 </div>
 
-<p>2023</p>
-  
-<p style="margin-left: 25px;"> Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088"> Short-term effect of colorectal cancer on income: analysis of an Italian cohort. </a> <i> Journal of Epidemiology & Community Health </i>, 77:196-201. </p>
+<ul>
+  <li> <p> Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088"> Short-term effect of colorectal cancer on income: analysis of an Italian cohort. </a> <i> Journal of Epidemiology & Community Health </i>, 77:196-201. </p> </li>
+</ul>
+
 
 <div class="projects">
   <a id="working-papers" href=".#working-papers">
@@ -23,12 +24,11 @@ nav_order: 1
   </a>
 </div>
 
-<p>
 <ul>
-  <li> <i> Crime Perception and Populism: Evidence from Individual Data </i> , with <a href="https://sites.google.com/site/giovanniprarolo/"> Giovanni Prarolo </a> </li>
-  <li> <i> Corruption, temptation, and self-selection in the public sector </i> </li>
+  <li> <p> <i> Crime Perception and Populism: Evidence from Individual Data </i> , with <a href="https://sites.google.com/site/giovanniprarolo/"> Giovanni Prarolo </a> </p> </li> 
+  <li> <p> <i> Corruption, temptation, and self-selection in the public sector </i> </p> </li>
 </ul>
-</p>
+
 
 <div class="projects">
   <a id="work-in-progress" href=".#work-in-progress">
@@ -36,8 +36,6 @@ nav_order: 1
   </a>
 </div>
 
-<p>
 <ul>
-  <li> <i> The Effect of Erasmus Programs on Voting </i> , with <a href="https://www.unibo.it/sitoweb/manuel.blasco2/en"> Manuel Blasco </a> </li>
+  <li> <p> <i> The Effect of Erasmus Programs on Voting </i> , with <a href="https://www.unibo.it/sitoweb/manuel.blasco2/en"> Manuel Blasco </a> </p> </li>
 </ul>
-</p>
