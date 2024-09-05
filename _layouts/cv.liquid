@@ -7,7 +7,6 @@ layout: default
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -39,13 +38,13 @@ layout: default
         embed {
             width: 100%;
             max-width: 800px;
-            height: calc(100vh - 80px); /* 80px accounts for the button and margin */
+            height: 100%
         }
 
         /* Responsive behavior for mobile devices */
         @media (max-width: 768px) {
             embed {
-                height: calc(100vh - 60px); /* Adjusted for mobile */
+                height: 100%
             }
 
             .download-button {
