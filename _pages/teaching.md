@@ -9,7 +9,7 @@ nav_order: 2
 
 <div class="projects">
   <a id="current-courses" href=".#current-courses">
-    <h2 class="category" color=var(--global-theme-color)> current courses </h2>
+    <h2 class="category"> current courses </h2>
   </a>
 </div>
 
