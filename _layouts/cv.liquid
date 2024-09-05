@@ -13,11 +13,12 @@ layout: default
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            height: 100vh;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden; /* Prevent scrollbars */
         }
 
         /* Style for the download button */
@@ -31,27 +32,26 @@ layout: default
             cursor: pointer;
             font-size: 16px;
             text-align: center;
-            margin-bottom: 20px;
             text-decoration: none;
+            margin-bottom: 20px;
         }
 
         /* Embed the PDF */
         embed {
             width: 100%;
             max-width: 800px;
-            height: 80vh; /* Occupies 80% of the viewport height */
-            border: none;
+            height: calc(100vh - 80px); /* 80px accounts for the button and margin */
         }
 
         /* Responsive behavior for mobile devices */
         @media (max-width: 768px) {
             embed {
-                height: 70vh; /* Smaller height for mobile */
+                height: calc(100vh - 60px); /* Adjusted for mobile */
             }
 
             .download-button {
                 width: 90%;
-                max-width: 300px; /* Smaller width for mobile */
+                max-width: 300px;
             }
         }
     </style>
@@ -63,7 +63,7 @@ layout: default
         download curriculum vitae
     </a>
 
-    <!-- Embed the PDF, occupying 80% of the height -->
+    <!-- Embed the PDF -->
     <embed src="{{ site.baseurl }}/assets/pdf/cv-light.pdf" type="application/pdf">
 
 </body>
