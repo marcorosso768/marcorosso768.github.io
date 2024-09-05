@@ -29,23 +29,24 @@ layout: default
             display: inline-block;
         }
 
-        /* Embed the PDF */
-        embed {
+        /* Embed the PDF via iframe */
+        iframe {
             width: 100%;
             max-width: 1200px;
-            height: 1500px; /* Approximate for 3 pages on large screens */
+            height: 1500px; /* Approximate for 3 pages */
+            border: none; /* Removes the default border */
         }
 
         /* Responsive behavior for tablets (iPad) */
         @media (max-width: 1024px) {
-            embed {
-                height: 1200px; /* Adjust height for tablets like iPads */
+            iframe {
+                height: 1200px; /* Adjust height for iPad */
             }
         }
 
         /* Responsive behavior for mobile devices */
         @media (max-width: 768px) {
-            embed {
+            iframe {
                 height: 900px; /* Adjust height for smaller screens */
             }
 
@@ -57,12 +58,12 @@ layout: default
 
         /* Extra small mobile devices */
         @media (max-width: 480px) {
-            embed {
-                height: 800px; /* Further reduce height for very small screens */
+            iframe {
+                height: 800px; /* Adjust height for very small screens */
             }
 
             .download-button {
-                width: 90%; /* Ensure button takes up more space on tiny screens */
+                width: 90%; /* Ensure button is still wide enough on tiny screens */
             }
         }
     </style>
@@ -84,8 +85,8 @@ layout: default
         </a>
     </div>
 
-    <!-- Embed the PDF -->
-    <embed src="{{ site.baseurl }}/assets/pdf/cv-light.pdf" type="application/pdf" title="Curriculum Vitae">
+    <!-- Embed the PDF using iframe for better mobile support -->
+    <iframe src="{{ site.baseurl }}/assets/pdf/cv-light.pdf" title="Curriculum Vitae"></iframe>
 
 </body>
 </html>
