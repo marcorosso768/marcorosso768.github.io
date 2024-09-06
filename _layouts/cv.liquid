@@ -30,40 +30,56 @@ layout: default
         }
 
         /* Embed the PDF via iframe */
-        iframe {
+        .iframe-container {
+            position: relative;
             width: 100%;
             max-width: 1200px;
-            height: 1500px; /* Approximate for 3 pages */
-            border: none; /* Removes the default border */
+            height: 0;
+            padding-bottom: 141.67%; /* 8.5x11 ratio to keep the aspect correct for PDF */
+            overflow: hidden; /* Ensures the iframe doesn't exceed its container */
+        }
+
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Scroll on smaller screens */
+        .iframe-container iframe {
+            overflow: auto; /* Allows scrolling for PDF pages */
         }
 
         /* Responsive behavior for tablets (iPad) */
         @media (max-width: 1024px) {
-            iframe {
-                height: 1200px; /* Adjust height for iPad */
+            .iframe-container {
+                padding-bottom: 125%; /* Adjust height ratio for iPad */
             }
         }
 
         /* Responsive behavior for mobile devices */
         @media (max-width: 768px) {
-            iframe {
-                height: 900px; /* Adjust height for smaller screens */
+            .iframe-container {
+                padding-bottom: 150%; /* Adjust height ratio for smaller screens */
             }
 
             .download-button {
-                width: 80%; /* Ensure button width scales well on small screens */
+                width: 80%;
                 max-width: 300px;
             }
         }
 
         /* Extra small mobile devices */
         @media (max-width: 480px) {
-            iframe {
-                height: 800px; /* Adjust height for very small screens */
+            .iframe-container {
+                padding-bottom: 170%; /* Adjust height ratio for very small screens */
             }
 
             .download-button {
-                width: 90%; /* Ensure button is still wide enough on tiny screens */
+                width: 90%;
             }
         }
     </style>
@@ -78,14 +94,16 @@ layout: default
         </header>
     </div>
 
-    <!-- Embed the PDF using iframe for better mobile support -->
-    <iframe src="{{ site.baseurl }}/assets/pdf/cv-light.pdf" title="Curriculum Vitae"></iframe>
-
     <!-- Download button centered on the page -->
     <div class="button-container">
         <a href="{{ "/assets/pdf/cv-light.pdf" | relative_url }}" download="[Marco Rosso] Curriculum Vitae.pdf" class="download-button">
             download curriculum vitae
         </a>
+    </div>
+
+    <!-- Embed the PDF using iframe for better mobile support -->
+    <div class="iframe-container">
+        <iframe src="{{ site.baseurl }}/assets/pdf/cv-light.pdf" title="Curriculum Vitae"></iframe>
     </div>
 
 </body>
