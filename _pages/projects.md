@@ -10,7 +10,7 @@ nav_order: 1
 <!-- Publications -->
 
 <div class="projects">
-  <a id="publications" href="javascript:void(0);" onclick="toggleVisibility('publications-content')" style="color: var(--global-theme-color);">
+  <a id="publications" href="javascript:void(0);" onclick="toggleVisibility('publications-content')">
     <h2 class="category"> publications </h2>
   </a>
 </div>
