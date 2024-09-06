@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am thrilled to be a visiting student at Universidad de San Andrés in Argentina. 🇦🇷 <br> Feel free to get in touch if you are nearby!
+I am thrilled to be a visiting student at the Universidad de San Andrés in Buenos Aires 🇦🇷

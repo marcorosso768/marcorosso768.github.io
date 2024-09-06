@@ -1,117 +1,92 @@
 ---
 layout: default
 ---
-{% unless site.data.resume %}
-  <div class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        {{ page.title }}
-        <a
-          id="cv-pdf-link"
-          href="assets/pdf/cv-light.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="float-right"
-        >
-          <i class="fa-solid fa-file-pdf"></i> Download CV
-        </a>
-      </h1>
-      {% if page.description %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <style>
+        /* Flex container to center the iframe */
+        .iframe-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        /* Responsive iframe */
+        iframe {
+            width: 100%; /* Full width for small screens */
+            max-width: 1200px; /* Maximum width for large screens */
+            border: none;
+            height: 80vh; /* Use viewport height to scale the iframe */
+            overflow: auto; /* Enable scrolling within the iframe */
+        }
+
+        /* Download button */
+        .button-container {
+            display: flex;
+            justify-content: center; /* Centers the button horizontally */
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .download-button {
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-transform: lowercase;
+            cursor: pointer;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        /* Responsive behavior for mobile devices */
+        @media (max-width: 768px) {
+            iframe {
+                height: 70vh; /* Adjust height for mobile devices */
+            }
+
+            .download-button {
+                width: 80%; /* Ensure button scales well */
+                max-width: 300px;
+            }
+        }
+
+        /* Extra small mobile devices */
+        @media (max-width: 480px) {
+            .download-button {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Title -->
+    <div class="post">
+        <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
         <p class="post-description">{{ page.description }}</p>
-      {% endif %}
-    </header>
+        </header>
+    </div>
 
-    <article>
-      <div class="cv">
-        {% for entry in site.data.cv %}
-          <a class="anchor" id="{{ entry.title }}"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
-            <div>
-              {% if entry.type == 'list' %}
-                {% include cv/list.liquid %}
-              {% elsif entry.type == 'map' %}
-                {% include cv/map.liquid %}
-              {% elsif entry.type == 'nested_list' %}
-                {% include cv/nested_list.liquid %}
-              {% elsif entry.type == 'time_table' %}
-                {% include cv/time_table.liquid %}
-              {% elsif entry.type == 'list_groups' %}
-                {% include cv/list_groups.liquid %}
-              {% else %}
-                {{ entry.contents }}
-              {% endif %}
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-    </article>
-  </div>
-{% else %}
-  <div class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        {{ page.title }}
-        <a
-          id="cv-pdf-link"
-          href="assets/pdf/cv-light.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="float-right"
-        >
-          <i class="fa-solid fa-file-pdf"></i> Download CV
+    <!-- Download button centered on the page -->
+    <div class="button-container">
+        <a href="{{ "/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf" | relative_url }}" download="[Marco Rosso] Curriculum Vitae.pdf" class="download-button">
+            download curriculum vitae
         </a>
-      </h1>
-      {% if page.description %}
-        <p class="post-description">{{ page.description }}</p>
-      {% endif %}
-    </header>
+    </div>
 
-    <article>
-      <div class="cv">
-        {% for data in site.data.resume %}
-          {% if site.jsonresume and site.jsonresume.size > 0 %}
-            {% unless site.jsonresume contains data[0] %}
-              {% continue %}
-            {% endunless %}
-          {% endif %}
-          {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
-          <a class="anchor" id="{{ data[0] }}"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
-            <div>
-              {% case data[0] %}
-                {% when 'basics' %}
-                  {% include resume/basics.liquid %}
-                {% when 'education' %}
-                  {% include resume/education.liquid %}
-                {% when 'work' %}
-                  {% include resume/work.liquid %}
-                {% when 'volunteer' %}
-                  {% include resume/volunteer.liquid %}
-                {% when 'projects' %}
-                  {% include resume/projects.liquid %}
-                {% when 'awards' %}
-                  {% include resume/awards.liquid %}
-                {% when 'skills' %}
-                  {% include resume/skills.liquid %}
-                {% when 'publications' %}
-                  {% include resume/publications.liquid %}
-                {% when 'languages' %}
-                  {% include resume/languages.liquid %}
-                {% when 'interests' %}
-                  {% include resume/interests.liquid %}
-                {% when 'certificates' %}
-                  {% include resume/certificates.liquid %}
-                {% when 'references' %}
-                  {% include resume/references.liquid %}
-                {% else %}
+    <!-- Embed the PDF using iframe for better mobile support -->
+    <div class="iframe-container">
+        <iframe src="{{ site.baseurl }}/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf" title="curriculum vitae"></iframe>
+    </div>
 
-              {% endcase %}
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-    </article>
-  </div>
-{% endunless %}
+</body>
+</html>
