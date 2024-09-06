@@ -6,17 +6,33 @@ layout: default
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <style>
-        /* Flex container to center the download button */
+        /* Flex container to center the iframe */
+        .iframe-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        /* Responsive iframe */
+        iframe {
+            width: 100%; /* Full width for small screens */
+            max-width: 1200px; /* Maximum width for large screens */
+            border: none;
+            height: auto; /* Let JS control height dynamically */
+        }
+
+        /* Download button */
         .button-container {
             display: flex;
             justify-content: center; /* Centers the button horizontally */
-            align-items: center; /* Vertically aligns the button */
-            margin: 20px 0; /* Adds space around the button */
+            align-items: center;
+            margin: 20px 0;
         }
 
-        /* Style for the download button */
         .download-button {
             padding: 10px 20px;
             border-radius: 5px;
@@ -29,60 +45,42 @@ layout: default
             display: inline-block;
         }
 
-        /* Embed the PDF via iframe */
-        .iframe-container {
-            position: relative;
-            width: 100%;
-            max-width: 1200px;
-            height: 0;
-            padding-bottom: 141.67%; /* 8.5x11 ratio to keep the aspect correct for PDF */
-            overflow: hidden; /* Ensures the iframe doesn't exceed its container */
-        }
-
-        iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-
-        /* Scroll on smaller screens */
-        .iframe-container iframe {
-            overflow: auto; /* Allows scrolling for PDF pages */
-        }
-
-        /* Responsive behavior for tablets (iPad) */
-        @media (max-width: 1024px) {
-            .iframe-container {
-                padding-bottom: 125%; /* Adjust height ratio for iPad */
-            }
-        }
-
         /* Responsive behavior for mobile devices */
         @media (max-width: 768px) {
-            .iframe-container {
-                padding-bottom: 150%; /* Adjust height ratio for smaller screens */
+            iframe {
+                max-width: 100%; /* Ensure iframe scales for mobile */
             }
 
             .download-button {
-                width: 80%;
+                width: 80%; /* Ensure button scales well */
                 max-width: 300px;
             }
         }
 
         /* Extra small mobile devices */
         @media (max-width: 480px) {
-            .iframe-container {
-                padding-bottom: 170%; /* Adjust height ratio for very small screens */
-            }
-
             .download-button {
                 width: 90%;
             }
         }
     </style>
+    <script>
+        // JavaScript to adjust iframe height to maintain aspect ratio
+        function adjustIframeHeight() {
+            var iframe = document.querySelector("iframe");
+            if (iframe) {
+                // Standard A4 aspect ratio: height is approximately 1.414 times the width
+                var aspectRatio = 1.414;
+                var iframeWidth = iframe.clientWidth;
+                var iframeHeight = iframeWidth * aspectRatio;
+                iframe.style.height = iframeHeight + "px";
+            }
+        }
+
+        // Adjust height on page load and window resize
+        window.onload = adjustIframeHeight;
+        window.onresize = adjustIframeHeight;
+    </script>
 </head>
 <body>
 
