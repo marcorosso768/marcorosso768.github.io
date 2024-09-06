@@ -7,11 +7,16 @@ nav: true
 nav_order: 1
 ---
 
+<!-- Publications -->
+
 <div class="projects">
-  <a id="publications" href="javascript:void(0);" onclick="toggleAbstract('abstract-1')">
-    <h2 class="category">publications</h2>
+  <a id="publications" href="javascript:void(0);" onclick="toggleVisibility('publications-content')">
+    <h2 class="category"> publications </h2>
   </a>
 </div>
+
+<!-- Show current courses by default -->
+<div id="publications-content" style="display: block;">
 
 <p style="margin-bottom: 0;"> • Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088"> Short-term effect of colorectal cancer on income: analysis of an Italian cohort. </a> <i> Journal of Epidemiology & Community Health </i>, 77:196-201. </p>
 
@@ -27,11 +32,18 @@ nav_order: 1
 <b>Conclusion</b> <i>Income loss does not seem to be related to an increase in part-time contracts, but rather to survivors’ reduced work capacity following the invasive treatments. Further research is needed to investigate the complex dynamics behind this association.</i>
 </div>
 
+</div>
+
+<!-- Working Papers -->
+
 <div class="projects">
-  <a id="working-papers" href="javascript:void(0);" onclick="toggleAbstract('abstract-2')">
-    <h2 class="category">working papers</h2>
+  <a id="working-papers" href="javascript:void(0);" onclick="toggleVisibility('working-papers-content')">
+    <h2 class="category"> working papers </h2>
   </a>
 </div>
+
+<!-- Show current courses by default -->
+<div id="working-papers-content" style="display: block;">
 
 <p style="margin-bottom: 0;"> • <i> Crime Perception and Populism: Evidence from Individual Data </i> , with <a href="https://sites.google.com/site/giovanniprarolo/"> Giovanni Prarolo </a> </p>
 
@@ -51,14 +63,22 @@ nav_order: 1
 <i> This paper presents a theoretical model that examines the impact of corruption opportunities on the self-selection process of individuals in the public sector. The study explores how the temptation of engaging in corruption influences individuals' career choices. The main finding of the research reveals a dual effect of corruption opportunities in the public sector. On one hand, such opportunities attract individuals with lower ambition and motivation, who are more likely to engage in unethical behavior. On the other hand, when the temptation to participate in corruption becomes significant, highly motivated individuals may be deterred from pursuing a career in the public sector due to self-control issues, leading them to opt for employment in the private sector instead. This finding highlights the importance of considering the impact of corruption and self-control problems on the quality and composition of the public sector workforce, which can have broader implications for economic outcomes. </i>
 </div>
 
+</div>
+
+<!-- Work in Progress -->
+
 <div class="projects">
-  <a id="work-in-progress" href="javascript:void(0);" onclick="toggleAbstract('abstract-4')">
-    <h2 class="category">work in progress</h2>
+  <a id="work-in-progress" href="javascript:void(0);" onclick="toggleVisibility('work-in-progress-content')">
+    <h2 class="category"> work in progress </h2>
   </a>
 </div>
 
+<!-- Hide work in progress by default -->
+<div id="work-in-progress-content" style="display: none;">
+
 <p> • <i> The Effect of Erasmus Programs on Voting </i> , with <a href="https://www.unibo.it/sitoweb/manuel.blasco2/en"> Manuel Blasco </a> </p>
 
+</div>
 
 <!-- Inline script -->
 <script>
@@ -70,4 +90,15 @@ function toggleAbstract(id) {
     abstract.style.display = "none";
   }
 }
+</script>
+<!-- Inline script -->
+<script>
+  function toggleVisibility(id) {
+    var content = document.getElementById(id);
+    if (content.style.display === "none") {
+      content.style.display = "block";
+    } else {
+      content.style.display = "none";
+    }
+  }
 </script>
