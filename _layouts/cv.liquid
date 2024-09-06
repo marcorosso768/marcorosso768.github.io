@@ -22,7 +22,8 @@ layout: default
             width: 100%; /* Full width for small screens */
             max-width: 1200px; /* Maximum width for large screens */
             border: none;
-            height: auto; /* Let JS control height dynamically */
+            height: 80vh; /* Use viewport height to scale the iframe */
+            overflow: auto; /* Enable scrolling within the iframe */
         }
 
         /* Download button */
@@ -48,7 +49,7 @@ layout: default
         /* Responsive behavior for mobile devices */
         @media (max-width: 768px) {
             iframe {
-                max-width: 100%; /* Ensure iframe scales for mobile */
+                height: 70vh; /* Adjust height for mobile devices */
             }
 
             .download-button {
@@ -64,23 +65,6 @@ layout: default
             }
         }
     </style>
-    <script>
-        // JavaScript to adjust iframe height to maintain aspect ratio
-        function adjustIframeHeight() {
-            var iframe = document.querySelector("iframe");
-            if (iframe) {
-                // Standard A4 aspect ratio: height is approximately 1.414 times the width
-                var aspectRatio = 1.414;
-                var iframeWidth = iframe.clientWidth;
-                var iframeHeight = iframeWidth * aspectRatio;
-                iframe.style.height = iframeHeight + "px";
-            }
-        }
-
-        // Adjust height on page load and window resize
-        window.onload = adjustIframeHeight;
-        window.onresize = adjustIframeHeight;
-    </script>
 </head>
 <body>
 
