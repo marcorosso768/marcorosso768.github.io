@@ -15,7 +15,7 @@ nav_order: 1
   </a>
 </div>
 
-<!-- Show current courses by default -->
+<!-- Show pubblications by default -->
 <div id="publications-content" style="display: block;">
 
 <p style="margin-bottom: 0;"> • Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088"> Short-term effect of colorectal cancer on income: analysis of an Italian cohort. </a> <i> Journal of Epidemiology & Community Health </i>, 77:196-201. </p>
@@ -42,8 +42,8 @@ nav_order: 1
   </a>
 </div>
 
-<!-- Show current courses by default -->
-<div id="working-papers-content" style="display: block;">
+<!-- Hide Working Papers by default -->
+<div id="working-papers-content" style="display: none;">
 
 <p style="margin-bottom: 0;"> • <i> Crime Perception and Populism: Evidence from Individual Data </i> , with <a href="https://sites.google.com/site/giovanniprarolo/"> Giovanni Prarolo </a> </p>
 
@@ -73,7 +73,7 @@ nav_order: 1
   </a>
 </div>
 
-<!-- Hide work in progress by default -->
+<!-- Hide Work in Progress by default -->
 <div id="work-in-progress-content" style="display: none;">
 
 <p> • <i> The Effect of Erasmus Programs on Voting </i> , with <a href="https://www.unibo.it/sitoweb/manuel.blasco2/en"> Manuel Blasco </a> </p>
