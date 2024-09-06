@@ -39,6 +39,8 @@ nav_order: 1
 <i> This study investigates the influence of crime news on individual voting behavior, focusing on the city of Bologna (IT). By conducting a survey of 5000 geolocated individuals and analyzing newspaper articles from 2011 to 2021, the research examines the differential effects of crime news pertaining to Italians and immigrants. To achieve identification, we estimate a fixed effect model including district trends and exploiting the plausible random variation in the timing of crimes between zones within the same district. Preliminary findings suggest that crime articles related to immigrants significantly impact voting behavior, leading to shifts in party preferences during national and local elections. These insights shed light on the dynamics of populism and democratic processes. The research offers valuable implications for understanding media influence on political outcomes and highlights the significance of crime news in shaping electoral choices. </i> </p>
 </div>
 
+<br>
+
 <p> - <i> Corruption, temptation, and self-selection in the public sector </i> </p>
 
 <p style="margin: 0;"><a href="javascript:void(0);" onclick="toggleAbstract('abstract-3')">Abstract:</a></p>
