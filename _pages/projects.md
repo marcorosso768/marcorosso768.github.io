@@ -44,9 +44,10 @@ nav_order: 1
 
 <p> - <i> Corruption, temptation, and self-selection in the public sector </i> </p>
 
-<p> Abstract:
-  <br>
+<p><a href="javascript:void(0);" onclick="toggleAbstract('abstract-1')">Abstract:</a></p>
+<div id="abstract-1" style="display:none;">
 <i> This paper presents a theoretical model that examines the impact of corruption opportunities on the self-selection process of individuals in the public sector. The study explores how the temptation of engaging in corruption influences individuals' career choices. The main finding of the research reveals a dual effect of corruption opportunities in the public sector. On one hand, such opportunities attract individuals with lower ambition and motivation, who are more likely to engage in unethical behavior. On the other hand, when the temptation to participate in corruption becomes significant, highly motivated individuals may be deterred from pursuing a career in the public sector due to self-control issues, leading them to opt for employment in the private sector instead. This finding highlights the importance of considering the impact of corruption and self-control problems on the quality and composition of the public sector workforce, which can have broader implications for economic outcomes. </i> </p>
+</div>
 
 <div class="projects">
   <a id="work-in-progress" href="javascript:void(0);" onclick="toggleAbstract('abstract-4')">
@@ -55,3 +56,15 @@ nav_order: 1
 </div>
 
 <p> - <i> The Effect of Erasmus Programs on Voting </i> , with <a href="https://www.unibo.it/sitoweb/manuel.blasco2/en"> Manuel Blasco </a> </p>
+
+<!-- Inline script -->
+<script>
+function toggleAbstract(id) {
+  var abstract = document.getElementById(id);
+  if (abstract.style.display === "none") {
+    abstract.style.display = "block";
+  } else {
+    abstract.style.display = "none";
+  }
+}
+</script>
