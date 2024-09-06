@@ -1,0 +1,1 @@
+function toggleAbstract(e){var t=document.getElementById(e);"none"===t.style.display?t.style.display="block":t.style.display="none"}
