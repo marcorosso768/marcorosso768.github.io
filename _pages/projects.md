@@ -9,7 +9,7 @@ nav_order: 1
 
 <!-- Publications -->
 
-<div class="projects" color="var(--global-theme-color)">
+<div class="projects" style="color: var(--global-theme-color);">
   <a id="publications" href="javascript:void(0);" onclick="toggleVisibility('publications-content')">
     <h2 class="category"> publications </h2>
   </a>
@@ -36,7 +36,7 @@ nav_order: 1
 
 <!-- Working Papers -->
 
-<div class="projects" color="var(--global-theme-color)">
+<div class="projects" style="color: var(--global-theme-color);">
   <a id="working-papers" href="javascript:void(0);" onclick="toggleVisibility('working-papers-content')">
     <h2 class="category"> working papers </h2>
   </a>
@@ -67,7 +67,7 @@ nav_order: 1
 
 <!-- Work in Progress -->
 
-<div class="projects" color="var(--global-theme-color)">
+<div class="projects" style="color: var(--global-theme-color);">
   <a id="work-in-progress" href="javascript:void(0);" onclick="toggleVisibility('work-in-progress-content')">
     <h2 class="category"> work in progress </h2>
   </a>
