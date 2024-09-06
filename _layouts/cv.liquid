@@ -78,15 +78,15 @@ layout: default
         </header>
     </div>
 
+    <!-- Embed the PDF using iframe for better mobile support -->
+    <iframe src="{{ site.baseurl }}/assets/pdf/cv-light.pdf" title="Curriculum Vitae"></iframe>
+
     <!-- Download button centered on the page -->
     <div class="button-container">
         <a href="{{ "/assets/pdf/cv-light.pdf" | relative_url }}" download="[Marco Rosso] Curriculum Vitae.pdf" class="download-button">
             download curriculum vitae
         </a>
     </div>
-
-    <!-- Embed the PDF using iframe for better mobile support -->
-    <iframe src="{{ site.baseurl }}/assets/pdf/cv-light.pdf" title="Curriculum Vitae"></iframe>
 
 </body>
 </html>
