@@ -71,7 +71,7 @@ layout: default
     <!-- Title -->
     <div class="post">
         <header class="post-header">
-        <h1 class="post-title">{{ page.title }}</h1>
+        <h1 class="post-title">{{ page.title }}
         <a
             href="{{ "/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf" | relative_url }}"
             download="[Marco Rosso] Curriculum Vitae.pdf"
@@ -80,15 +80,9 @@ layout: default
             class="float-right"
             ><i class="fa-solid fa-file-pdf"></i
           ></a>
+        </h1>
         <p class="post-description">{{ page.description }}</p>
         </header>
-    </div>
-
-    <!-- Download button centered on the page -->
-    <div class="button-container">
-        <a href="{{ "/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf" | relative_url }}" download="[Marco Rosso] Curriculum Vitae.pdf" class="download-button">
-            download curriculum vitae
-        </a>
     </div>
 
     <!-- Embed the PDF using iframe for better mobile support -->
