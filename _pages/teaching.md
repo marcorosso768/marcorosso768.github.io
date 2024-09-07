@@ -15,13 +15,13 @@ nav_order: 2
 
 <!-- Show current courses by default -->
 <div id="current-courses-content" style="display: block;">
-<p>2024/25</p>
+<p><big><b>2024/25</b></big></p>
   
 <p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);"><big>•</big></span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course "<span style="color: var(--global-theme-color);">Political Economy</span>" <br> Economics, Politics and Social Sciences, <i> University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Enrico Cantoni</span> </p>
 
 <p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);"><big>•</big></span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course "<span style="color: var(--global-theme-color);">Microeconomics</span>" <br> Economics, Politics and Social Sciences, <i> University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Marco Casari</span> </p>
 
-<p>2022/25</p>
+<p><big><b>2022/25</b></big></p>
 
 <p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);"><big>•</big></span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Master Course "<span style="color: var(--global-theme-color);">Game Theory</span>" <br> Economics and Econometrics, <i> University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Andrea Mattozzi</span> </p>
 
@@ -36,11 +36,11 @@ nav_order: 2
 
 <!-- Hide past courses by default -->
 <div id="past-courses-content" style="display: none;">
-<p>2022/24</p>
+<p><big><b>2022/24</b></big></p>
 
 <p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);"><big>•</big></span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course "<span style="color: var(--global-theme-color);">Globalization: Trade, Migrations and Multinationals</span>" <br> Economics and Finance, <i> University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Giovanni Prarolo</span> </p>
 
-<p>2021/22</p>
+<p><big><b>2021/22</b></big></p>
 
 <p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);"><big>•</big></span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Master Course "<span style="color: var(--global-theme-color);">Competion Economics and Policy</span>" <br> Economics and Management, <i> Forlì Campus, University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Francesca Barigozzi</span> </p>
 
@@ -48,7 +48,7 @@ nav_order: 2
 
 <p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);"><big>•</big></span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Master Course <span style="color: var(--global-theme-color);">Game Theory</span>" <br> Economics and Management, <i> Forlì Campus, University of Bologna </i> <br> Assistant to "<span style="color: var(--global-theme-color);">Natalia Montinari</span> </p>
 
-<p>2019/20</p>
+<p><big><b>2019/20</b></big></p>
 
 <p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);"><big>•</big></span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Master Course <span style="color: var(--global-theme-color);">Public Management and Public Economics</span>" <br> SAA School of Management, <i> University of Turin </i> <br> Assistant to "<span style="color: var(--global-theme-color);">Francesco Figari</span> </p>
 
