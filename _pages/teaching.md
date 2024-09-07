@@ -15,7 +15,7 @@ nav_order: 2
 
 <!-- Show current courses by default -->
 <div id="current-courses-content" style="display: block;">
-<p>2024/25</p>
+<p><b>2024/25</b></p>
   
 <p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">●</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course "<span style="color: var(--global-theme-color);">Political Economy</span>" <br> Economics, Politics and Social Sciences, <i> University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Enrico Cantoni</span> </p>
 
