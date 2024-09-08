@@ -46,13 +46,13 @@ nav_order: 2
 
 <p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course "<span style="color: var(--global-theme-color);">Microeconomics</span>" <br> Economics and Business, <i> Forlì Campus, University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Francesca Barigozzi</span> </p>
 
-<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Master Course <span style="color: var(--global-theme-color);">Game Theory</span>" <br> Economics and Management, <i> Forlì Campus, University of Bologna </i> <br> Assistant to "<span style="color: var(--global-theme-color);">Natalia Montinari</span> </p>
+<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Master Course "<span style="color: var(--global-theme-color);">Game Theory</span>" <br> Economics and Management, <i> Forlì Campus, University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Natalia Montinari</span> </p>
 
 <p><b>2019/20</b></p>
 
-<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Master Course <span style="color: var(--global-theme-color);">Public Management and Public Economics</span>" <br> SAA School of Management, <i> University of Turin </i> <br> Assistant to "<span style="color: var(--global-theme-color);">Francesco Figari</span> </p>
+<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Master Course "<span style="color: var(--global-theme-color);">Public Management and Public Economics</span>" <br> SAA School of Management, <i> University of Turin </i> <br> Assistant to <span style="color: var(--global-theme-color);">Francesco Figari</span> </p>
 
-<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <span style="color: var(--global-theme-color);">Microeconomics</span>" <br> SAA School of Management, <i> University of Turin </i> <br> Assistant to "<span style="color: var(--global-theme-color);">Nadia Campaniello</span> </p>
+<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course "<span style="color: var(--global-theme-color);">Microeconomics</span>" <br> SAA School of Management, <i> University of Turin </i> <br> Assistant to <span style="color: var(--global-theme-color);">Nadia Campaniello</span> </p>
 </div>
 
 <!-- Inline script -->
