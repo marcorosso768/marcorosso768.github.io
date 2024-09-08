@@ -17,15 +17,15 @@ nav_order: 2
 <div id="current-courses-content" style="display: block;">
 <p><b>2024/25</b></p>
   
-<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <i><span style="color: var(--global-theme-color);">Political Economy</span></i> <br> Economics, Politics and Social Sciences, <i> University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Enrico Cantoni</span> </p>
+<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <span style="color: var(--global-theme-color);">Political Economy</span> <br> Economics, Politics and Social Sciences, <i> University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Enrico Cantoni</span> </p>
 
-<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <i><span style="color: var(--global-theme-color);">Microeconomics</span></i> <br> Economics, Politics and Social Sciences, <i> University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Marco Casari</span> </p>
+<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <span style="color: var(--global-theme-color);">Microeconomics</span> <br> Economics, Politics and Social Sciences, <i> University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Marco Casari</span> </p>
 
 <p><b>2022/25</b></p>
 
-<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Master Course <i><span style="color: var(--global-theme-color);">Game Theory</span></i> <br> Economics and Econometrics, <i> University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Andrea Mattozzi</span> </p>
+<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Master Course <span style="color: var(--global-theme-color);">Game Theory</span> <br> Economics and Econometrics, <i> University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Andrea Mattozzi</span> </p>
 
-<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <i><span style="color: var(--global-theme-color);">Introduction to Behavioral Economics</span></i> <br> Economics and Finance, <i> University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Maria Bigoni</span> </p>
+<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <span style="color: var(--global-theme-color);">Introduction to Behavioral Economics</span> <br> Economics and Finance, <i> University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Maria Bigoni</span> </p>
 </div>
 
 <div class="projects">
@@ -38,21 +38,21 @@ nav_order: 2
 <div id="past-courses-content" style="display: none;">
 <p><b>2022/24</b></p>
 
-<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <i><span style="color: var(--global-theme-color);">Globalization: Trade, Migrations and Multinationals</span></i> <br> Economics and Finance, <i> University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Giovanni Prarolo</span> </p>
+<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <span style="color: var(--global-theme-color);">Globalization: Trade, Migrations and Multinationals</span> <br> Economics and Finance, <i> University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Giovanni Prarolo</span> </p>
 
 <p><b>2021/22</b></p>
 
-<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Master Course <i><span style="color: var(--global-theme-color);">Competion Economics and Policy</span></i> <br> Economics and Management, <i> Forlì Campus, University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Francesca Barigozzi</span> </p>
+<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Master Course <span style="color: var(--global-theme-color);">Competion Economics and Policy</span> <br> Economics and Management, <i> Forlì Campus, University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Francesca Barigozzi</span> </p>
 
-<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <i><span style="color: var(--global-theme-color);">Microeconomics</span></i> <br> Economics and Business, <i> Forlì Campus, University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Francesca Barigozzi</span> </p>
+<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <span style="color: var(--global-theme-color);">Microeconomics</span> <br> Economics and Business, <i> Forlì Campus, University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Francesca Barigozzi</span> </p>
 
-<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Master Course <i><span style="color: var(--global-theme-color);">Game Theory</span></i> <br> Economics and Management, <i> Forlì Campus, University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Natalia Montinari</span> </p>
+<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Master Course <span style="color: var(--global-theme-color);">Game Theory</span> <br> Economics and Management, <i> Forlì Campus, University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Natalia Montinari</span> </p>
 
 <p><b>2019/20</b></p>
 
-<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Master Course <i><span style="color: var(--global-theme-color);">Public Management and Public Economics</span></i> <br> SAA School of Management, <i> University of Turin </i> <br> Assistant to <span style="color: var(--global-theme-color);">Francesco Figari</span> </p>
+<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Master Course <span style="color: var(--global-theme-color);">Public Management and Public Economics</span> <br> SAA School of Management, <i> University of Turin </i> <br> Assistant to <span style="color: var(--global-theme-color);">Francesco Figari</span> </p>
 
-<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <i><span style="color: var(--global-theme-color);">Microeconomics</span></i> <br> SAA School of Management, <i> University of Turin </i> <br> Assistant to <span style="color: var(--global-theme-color);">Nadia Campaniello</span> </p>
+<p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <span style="color: var(--global-theme-color);">Microeconomics</span> <br> SAA School of Management, <i> University of Turin </i> <br> Assistant to <span style="color: var(--global-theme-color);">Nadia Campaniello</span> </p>
 </div>
 
 
