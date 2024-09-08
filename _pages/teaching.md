@@ -55,6 +55,7 @@ nav_order: 2
 <p style="margin-left: 25px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <span style="color: var(--global-theme-color);"><i>Microeconomics</i></span> <br> SAA School of Management, <i> University of Turin </i> <br> Assistant to <span style="color: var(--global-theme-color);">Nadia Campaniello</span> </p>
 </div>
 
+
 <!-- Inline script -->
 <script>
   function toggleVisibility(id) {
