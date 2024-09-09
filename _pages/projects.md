@@ -43,7 +43,7 @@ nav_order: 1
 </div>
 
 <!-- Hide Working Papers by default -->
-<div id="working-papers-content" style="display: none;">
+<div id="working-papers-content" style="display: block">
 
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> <i> Crime Perception and Populism: Evidence from Individual Data </i> , with <a href="https://sites.google.com/site/giovanniprarolo/"> Giovanni Prarolo </a> </p>
 
@@ -74,7 +74,7 @@ nav_order: 1
 </div>
 
 <!-- Hide Work in Progress by default -->
-<div id="work-in-progress-content" style="display: none;">
+<div id="work-in-progress-content" style="display: block;">
 
 <p> <span style="color: var(--global-theme-color);">•</span> <i> The Effect of Erasmus Programs on Voting </i> , with <a href="https://www.unibo.it/sitoweb/manuel.blasco2/en"> Manuel Blasco </a> </p>
 
