@@ -2,6 +2,7 @@
 layout: page
 permalink: /conferences/
 title: conferences
+nav: false
 ---
 
 <div class="projects">
