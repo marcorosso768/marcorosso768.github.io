@@ -3,8 +3,8 @@ layout: page
 permalink: /conferences/
 title: conferences
 description:
-nav: false
-nav_order:
+nav: true
+nav_order: 3
 ---
 
 <div class="projects">
