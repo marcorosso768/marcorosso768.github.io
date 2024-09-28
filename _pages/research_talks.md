@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /conferences/
+permalink: /researchtalks/
 title: research talks
 description:
 nav: true
