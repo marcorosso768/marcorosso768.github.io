@@ -22,6 +22,7 @@ nav_order: 4
 
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> &#8548; Ph.D. Workshop: <span style="color: var(--global-theme-color);"><b>speaker</b></span> <br> <i>Le Sparne, Pitigliano (GR), Italy</i> </p>
 
+</div>
 <!-- end -->
 
 <div class="projects">
@@ -47,6 +48,7 @@ nav_order: 4
 
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> Presentation of <i>"A Modern Guide to the Economics of Crime"</i> by Paolo Buonanno, Paolo Vanin, and Juan Vargas (Elgar, 2022): <span style="color: var(--global-theme-color);"><b>discussant</b></span> <br> <i>“Walter Bigiavi” Library, Bologna, Italy</i> </p>
 
+</div>
 <!-- end -->
 
 <div class="projects">
@@ -60,6 +62,7 @@ nav_order: 4
 
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> &#8546; Ph.D. Workshop: <span style="color: var(--global-theme-color);"><b>speaker</b></span> <br> <i>Le Sparne, Pitigliano (GR), Italy</i> </p>
 
+</div>
 <!-- end -->
 
 <div class="projects">
@@ -73,6 +76,7 @@ nav_order: 4
 
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> &#8545; Ph.D. Workshop: <span style="color: var(--global-theme-color);"><b>speaker</b></span> <br> <i>Le Sparne, Pitigliano (GR), Italy</i> </p>
 
+</div>
 <!-- end -->
 
 <!-- Inline script -->
