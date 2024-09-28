@@ -7,6 +7,8 @@ nav: true
 nav_order: 2
 ---
 
+<progress class="progress-bar" value="0" max="100"></progress>
+
 <div class="projects">
   <a id="current-courses" href="javascript:void(0);" onclick="toggleVisibility('current-courses-content')">
     <h2 class="category"> current courses </h2>
@@ -62,8 +64,26 @@ nav_order: 2
     var content = document.getElementById(id);
     if (content.style.display === "none") {
       content.style.display = "block";
+      updateProgressBar(); // Call the update function when content is shown
     } else {
       content.style.display = "none";
+      updateProgressBar(); // Update progress bar when content is hidden
     }
   }
+
+  function updateProgressBar() {
+    // Calculate the total height of the document
+    var totalHeight = document.body.scrollHeight;
+    var viewportHeight = window.innerHeight;
+    var scrolled = window.scrollY || window.pageYOffset;
+
+    // Calculate progress percentage
+    var progress = (scrolled / (totalHeight - viewportHeight)) * 100;
+
+    // Update the progress bar width
+    document.querySelector('.progress-bar').style.width = progress + "%";
+  }
+
+  // Event listener for scrolling to update the progress bar
+  window.addEventListener("scroll", updateProgressBar);
 </script>
