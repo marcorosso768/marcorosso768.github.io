@@ -18,9 +18,9 @@ nav_order: 1
 <!-- Show pubblications by default -->
 <div id="publications-content" style="display: block;">
 
-<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088"> Short-term effect of colorectal cancer on income: analysis of an Italian cohort.</a> <i> Journal of Epidemiology & Community Health</i>, 77:196-201. </p>
+<p> <span style="color: var(--global-theme-color);">•</span> Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088"> Short-term effect of colorectal cancer on income: analysis of an Italian cohort.</a> <i> Journal of Epidemiology & Community Health</i>, 77:196-201. </p>
 
-<p style="margin: 0; margin-left: 25px;"><a href="javascript:void(0);" onclick="toggleAbstract('abstract-1')">Abstract</a></p>
+<p style=" margin-left: 25px;"><a href="javascript:void(0);" onclick="toggleAbstract('abstract-1')">Abstract</a></p>
 
 <div id="abstract-1" style="display:none; margin: 0; margin-left: 25px;">
 <b>Introduction</b> <i>The ability to return to work after a cancer diagnosis is a key aspect of cancer survivorship and quality of life. Studies have reported a significant risk of income loss for cancer survivors; however, there is limited evidence of the Italian context.</i>
@@ -45,20 +45,19 @@ nav_order: 1
 <!-- Hide Working Papers by default -->
 <div id="working-papers-content" style="display: block">
 
-<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> <i> Crime Perception and Populism: Evidence from Individual Data</i>, with <a href="https://sites.google.com/site/giovanniprarolo/"> Giovanni Prarolo </a> </p>
+<p> <span style="color: var(--global-theme-color);">•</span> <i> Crime Perception and Populism: Evidence from Individual Data</i>, with <a href="https://sites.google.com/site/giovanniprarolo/"> Giovanni Prarolo </a> </p>
 
 <p style="margin: 0; margin-left: 25px;"><a href="javascript:void(0);" onclick="toggleAbstract('abstract-2')">Abstract</a></p>
 
-<div id="abstract-2" style="display:none; margin: 0; margin-left: 25px;">
+<div id="abstract-2" style="display:none; margin-left: 25px;">
 <i> This study investigates the influence of crime news on individual voting behavior, focusing on the city of Bologna (IT). By conducting a survey of 5000 geolocated individuals and analyzing newspaper articles from 2011 to 2021, the research examines the differential effects of crime news pertaining to Italians and immigrants. To achieve identification, we estimate a fixed effect model including district trends and exploiting the plausible random variation in the timing of crimes between zones within the same district. Preliminary findings suggest that crime articles related to immigrants significantly impact voting behavior, leading to shifts in party preferences during national and local elections. These insights shed light on the dynamics of populism and democratic processes. The research offers valuable implications for understanding media influence on political outcomes and highlights the significance of crime news in shaping electoral choices. </i>
 </div>
-
 
 <p> <span style="color: var(--global-theme-color);">•</span> <i> Corruption, temptation, and self-selection in the public sector </i> </p>
 
 <p style="margin: 0; margin-left: 25px;"><a href="javascript:void(0);" onclick="toggleAbstract('abstract-3')">Abstract</a></p>
 
-<div id="abstract-3" style="display:none; margin: 0; margin-left: 25px;">
+<div id="abstract-3" style="display:none; margin-left: 25px;">
 <i> This paper presents a theoretical model that examines the impact of corruption opportunities on the self-selection process of individuals in the public sector. The study explores how the temptation of engaging in corruption influences individuals' career choices. The main finding of the research reveals a dual effect of corruption opportunities in the public sector. On one hand, such opportunities attract individuals with lower ambition and motivation, who are more likely to engage in unethical behavior. On the other hand, when the temptation to participate in corruption becomes significant, highly motivated individuals may be deterred from pursuing a career in the public sector due to self-control issues, leading them to opt for employment in the private sector instead. This finding highlights the importance of considering the impact of corruption and self-control problems on the quality and composition of the public sector workforce, which can have broader implications for economic outcomes. </i>
 </div>
 
