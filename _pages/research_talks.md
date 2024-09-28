@@ -3,8 +3,8 @@ layout: page
 permalink: /researchtalks/
 title: research talks
 description:
-nav: true
-nav_order: 4
+nav: false
+nav_order:
 ---
 
 <div class="projects">
