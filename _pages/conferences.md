@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /researchtalks/
-title: research talks
+permalink: /conferences/
+title: conferences
 description:
 nav: false
 nav_order:
