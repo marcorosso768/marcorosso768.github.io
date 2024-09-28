@@ -105,6 +105,6 @@ function toggleAbstract(id) {
 
 <style>
 div.b {
-  line-height: 1.5;
+  line-height: 3.5;
 }
 </style>
