@@ -18,7 +18,7 @@ nav_order: 1
 <!-- Show pubblications by default -->
 <div id="publications-content" style="display: block;">
 
-<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088"> Short-term effect of colorectal cancer on income: analysis of an Italian cohort. </a> <i> Journal of Epidemiology & Community Health </i>, 77:196-201. </p>
+<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088"> Short-term effect of colorectal cancer on income: analysis of an Italian cohort. </a> <i> Journal of Epidemiology & Community Health</i>, 77:196-201. </p>
 
 <p style="margin: 0; margin-left: 0px;"><a href="javascript:void(0);" onclick="toggleAbstract('abstract-1')">Abstract</a></p>
 
@@ -45,7 +45,7 @@ nav_order: 1
 <!-- Hide Working Papers by default -->
 <div id="working-papers-content" style="display: block">
 
-<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> <i> Crime Perception and Populism: Evidence from Individual Data </i> , with <a href="https://sites.google.com/site/giovanniprarolo/"> Giovanni Prarolo </a> </p>
+<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> <i> Crime Perception and Populism: Evidence from Individual Data</i>, with <a href="https://sites.google.com/site/giovanniprarolo/"> Giovanni Prarolo </a> </p>
 
 <p style="margin: 0; margin-left: 0px;"><a href="javascript:void(0);" onclick="toggleAbstract('abstract-2')">Abstract</a></p>
 
