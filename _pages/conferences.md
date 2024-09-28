@@ -40,7 +40,7 @@ nav_order: 3
 
 <p> <span style="color: var(--global-theme-color);">•</span> Third Year Ph.D. Forum - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>University of Bologna, Bologna, Italy</i> </p>
 
-<p> <span style="color: var(--global-theme-color);">•</span> Presentation of <i>"A Modern Guide to the Economics of Crime"</i> by Paolo Buonanno, Paolo Vanin, and Juan Vargas (Elgar, 2022) - <span style="color: var(--global-theme-color);"><b>Discussant</b></span> <br> <i>“Walter Bigiavi” Library, Bologna, Italy</i> </p>
+<p> <span style="color: var(--global-theme-color);">•</span> Presentation of <i>"A Modern Guide to the Economics of Crime"</i> by P. Buonanno, P. Vanin, and J. Vargas (Elgar, 2022) - <span style="color: var(--global-theme-color);"><b>Discussant</b></span> <br> <i>“Walter Bigiavi” Library, Bologna, Italy</i> </p>
 
 </div>
 <!-- end -->
