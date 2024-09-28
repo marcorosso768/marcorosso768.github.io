@@ -54,7 +54,7 @@ nav_order: 1
 </div>
 
 
-<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> <i> Corruption, temptation, and self-selection in the public sector </i> </p>
+<p> <span style="color: var(--global-theme-color);">•</span> <i> Corruption, temptation, and self-selection in the public sector </i> </p>
 
 <p style="margin: 0; margin-left: 25px;"><a href="javascript:void(0);" onclick="toggleAbstract('abstract-3')">Abstract</a></p>
 
