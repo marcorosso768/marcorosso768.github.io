@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /conferences/
+permalink: /conf/
 title: conferences
 description:
 nav: true
