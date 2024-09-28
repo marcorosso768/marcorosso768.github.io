@@ -2,6 +2,7 @@
 layout: page
 permalink: /conferences/
 title: conferences
+description:
 nav: false
 nav_order: 5
 ---
