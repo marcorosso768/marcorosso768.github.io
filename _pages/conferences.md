@@ -46,6 +46,9 @@ nav_order: 4
 
 <br>
 
+<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> Third Year Ph.D. Forum - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>University of Bologna, Bologna, Italy</i> </p>
+<br>
+
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> Presentation of <i>"A Modern Guide to the Economics of Crime"</i> <br> by Paolo Buonanno, Paolo Vanin, and Juan Vargas (Elgar, 2022) - <span style="color: var(--global-theme-color);"><b>Discussant</b></span> <br> <i>“Walter Bigiavi” Library, Bologna, Italy</i> </p>
 
 </div>
@@ -60,7 +63,15 @@ nav_order: 4
 <!-- 2022 -->
 <div id="2022-content" style="display: block;">
 
+<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> WiP Seminar - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>University of Bologna, Bologna, Italy</i> </p>
+
+<br>
+
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> &#8546; Ph.D. Workshop - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>Le Sparne, Pitigliano (GR), Italy</i> </p>
+
+<br>
+
+<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> Second Year Ph.D. Forum - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>University of Bologna, Bologna, Italy</i> </p>
 
 </div>
 <!-- end -->
@@ -75,6 +86,14 @@ nav_order: 4
 <div id="2021-content" style="display: block;">
 
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> &#8545; Ph.D. Workshop - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>Le Sparne, Pitigliano (GR), Italy</i> </p>
+
+<br>
+
+<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> First Year Ph.D. Forum - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>University of Bologna, Bologna, Italy</i> </p>
+
+<br>
+
+<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> First Year Poster Session - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>University of Bologna, Bologna, Italy</i> </p>
 
 </div>
 <!-- end -->
