@@ -42,7 +42,7 @@ nav_order: 4
 
 <br>
 
-<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> Workshop for Ph.D. Students In Economentrics and Empirical Economics (WEEE) - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> Bertinoro (FC), Italy </p>
+<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> Workshop for Ph.D. Students In Economentrics and Empirical Economics (WEEE) - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>Bertinoro (FC), Italy</i></p>
 
 <br>
 
