@@ -34,11 +34,11 @@ nav_order: 4
 <!-- 2023 -->
 <div id="2023-content" style="display: block;">
 
-<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> &#8547; Ph.D. Workshop - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> Le Sparne, Pitigliano (GR), Italy </p>
+<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> &#8547; Ph.D. Workshop - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>Le Sparne, Pitigliano (GR), Italy</i></p>
 
 <br>
 
-<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> SAsCA Ph.D. Conference in Economics - <span style="color: var(--global-theme-color);"><b>Speaker and discussant</b></span> <br> University of Sassari, Sassari, Italy </p>
+<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> SAsCA Ph.D. Conference in Economics - <span style="color: var(--global-theme-color);"><b>Speaker and discussant</b></span> <br> <i>University of Sassari, Sassari, Italy</i></p>
 
 <br>
 
