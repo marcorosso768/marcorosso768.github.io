@@ -7,7 +7,4 @@ dropdown: true
 children:
   - title: conferences
     permalink: /conferences/
-  - title: divider
-  - title: news
-    permalink: /news/
 ---
