@@ -93,7 +93,7 @@ nav_order: 4
 
 <br>
 
-<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> First Year Poster Session - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>University of Bologna, Bologna, Italy</i> </p>
+<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> First Year Ph.D. Poster Session - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>University of Bologna, Bologna, Italy</i> </p>
 
 </div>
 <!-- end -->
