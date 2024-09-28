@@ -7,7 +7,9 @@ nav: true
 nav_order: 2
 ---
 
-<progress class="progress-bar" value="0" max="100"></progress>
+<div class="progress-container">
+  <div class="progress-bar" style="width: 0%;"></div>
+</div>
 
 <div class="projects">
   <a id="current-courses" href="javascript:void(0);" onclick="toggleVisibility('current-courses-content')">
@@ -17,7 +19,7 @@ nav_order: 2
 
 <!-- Show current courses by default -->
 <div id="current-courses-content" style="display: block;">
-<p><b>2024/25</b></p>
+  <p><b>2024/25</b></p>
   
 <p style="margin-left: 20px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <span style="color: var(--global-theme-color);"><i>Political Economy</i></span> <br> Economics, Politics and Social Sciences, <i> University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Enrico Cantoni</span> </p>
 
@@ -38,7 +40,7 @@ nav_order: 2
 
 <!-- Hide past courses by default -->
 <div id="past-courses-content" style="display: none;">
-<p><b>2022/24</b></p>
+  <p><b>2022/24</b></p>
 
 <p style="margin-left: 20px;"> <span style="color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <span style="color: var(--global-theme-color);"><i>Globalization: Trade, Migrations and Multinationals</i></span> <br> Economics and Finance, <i> University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Giovanni Prarolo</span> </p>
 
@@ -64,11 +66,10 @@ nav_order: 2
     var content = document.getElementById(id);
     if (content.style.display === "none") {
       content.style.display = "block";
-      updateProgressBar(); // Call the update function when content is shown
     } else {
       content.style.display = "none";
-      updateProgressBar(); // Update progress bar when content is hidden
     }
+    updateProgressBar(); // Update progress bar after toggling visibility
   }
 
   function updateProgressBar() {
@@ -80,10 +81,27 @@ nav_order: 2
     // Calculate progress percentage
     var progress = (scrolled / (totalHeight - viewportHeight)) * 100;
 
-    // Update the progress bar width
+    // Update the custom progress bar width
     document.querySelector('.progress-bar').style.width = progress + "%";
   }
 
   // Event listener for scrolling to update the progress bar
   window.addEventListener("scroll", updateProgressBar);
 </script>
+
+<style>
+.progress-container {
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  top: 56px;
+  left: 0;
+  height: 5px;
+}
+
+.progress-bar {
+  background-color: var(--global-theme-color);
+  width: 0%;
+  height: inherit;
+}
+</style>
