@@ -18,7 +18,7 @@ nav_order: 4
   
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> Ciclo de Seminarios del Departamento de Economía -  <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>Universidad de San Andrés, Buenos Aires, Argentina</i> </p>
 
-<br>
+<br style="line-height: 50%;" />
 
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> &#8548; Ph.D. Workshop - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>Le Sparne, Pitigliano (GR), Italy</i> </p>
 
@@ -36,18 +36,19 @@ nav_order: 4
 
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> &#8547; Ph.D. Workshop - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>Le Sparne, Pitigliano (GR), Italy</i></p>
 
-<br>
+<br style="line-height: 50%;" />
 
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> SAsCA Ph.D. Conference in Economics - <span style="color: var(--global-theme-color);"><b>Speaker and discussant</b></span> <br> <i>University of Sassari, Sassari, Italy</i></p>
 
-<br>
+<br style="line-height: 50%;" />
 
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> Workshop for Ph.D. Students In Economentrics and Empirical Economics (WEEE) - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>Bertinoro (FC), Italy</i></p>
 
-<br>
+<br style="line-height: 50%;" />
 
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> Third Year Ph.D. Forum - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>University of Bologna, Bologna, Italy</i> </p>
-<br>
+
+<br style="line-height: 50%;" />
 
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> Presentation of <i>"A Modern Guide to the Economics of Crime"</i> <br> by Paolo Buonanno, Paolo Vanin, and Juan Vargas (Elgar, 2022) - <span style="color: var(--global-theme-color);"><b>Discussant</b></span> <br> <i>“Walter Bigiavi” Library, Bologna, Italy</i> </p>
 
@@ -65,11 +66,11 @@ nav_order: 4
 
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> WiP Seminar - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>University of Bologna, Bologna, Italy</i> </p>
 
-<br>
+<br style="line-height: 50%;" />
 
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> &#8546; Ph.D. Workshop - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>Le Sparne, Pitigliano (GR), Italy</i> </p>
 
-<br>
+<br style="line-height: 50%;" />
 
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> Second Year Ph.D. Forum - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>University of Bologna, Bologna, Italy</i> </p>
 
@@ -87,11 +88,11 @@ nav_order: 4
 
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> &#8545; Ph.D. Workshop - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>Le Sparne, Pitigliano (GR), Italy</i> </p>
 
-<br>
+<br style="line-height: 50%;" />
 
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> First Year Ph.D. Forum - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>University of Bologna, Bologna, Italy</i> </p>
 
-<br>
+<br style="line-height: 50%;" />
 
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> First Year Ph.D. Poster Session - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>University of Bologna, Bologna, Italy</i> </p>
 
