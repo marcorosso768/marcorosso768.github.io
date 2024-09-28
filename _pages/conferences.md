@@ -30,7 +30,7 @@ nav_order: 3
 </div>
 
 <!-- 2023 -->
-<div id="2023-content" style="display: block;">
+<div id="2023-content" style="display: none;">
 
 <p> <span style="color: var(--global-theme-color);">•</span> &#8547; Ph.D. Workshop - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>Le Sparne, Pitigliano (GR), Italy</i></p>
 
@@ -52,7 +52,7 @@ nav_order: 3
 </div>
 
 <!-- 2022 -->
-<div id="2022-content" style="display: block;">
+<div id="2022-content" style="display: none;">
 
 <p> <span style="color: var(--global-theme-color);">•</span> WiP Seminar - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>University of Bologna, Bologna, Italy</i> </p>
 
@@ -70,7 +70,7 @@ nav_order: 3
 </div>
 
 <!-- 2021 -->
-<div id="2021-content" style="display: block;">
+<div id="2021-content" style="display: none;">
 
 <p> <span style="color: var(--global-theme-color);">•</span> &#8545; Ph.D. Workshop - <span style="color: var(--global-theme-color);"><b>Speaker</b></span> <br> <i>Le Sparne, Pitigliano (GR), Italy</i> </p>
 
