@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /conferences/
-title: conferences
+title: research talks
 description:
 nav: true
 nav_order: 4
@@ -16,7 +16,7 @@ nav_order: 4
 <!-- 2024 -->
 <div id="current-courses-content" style="display: block;">
   
-<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> <i> Ciclo de Seminarios del Departamento de Economía</i>, <b>Speaker</b> <br> Universidad de San Andrés, Buenos Aires, Argentina </p>
+<p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> Ciclo de Seminarios del Departamento de Economía, <span style="color: var(--global-theme-color);">Speaker</span> <br> <i>Universidad de San Andrés, Buenos Aires, Argentina</i> </p>
 
 <p style="margin-bottom: 0;"> <span style="color: var(--global-theme-color);">•</span> <i> &#8548; Ph.D. Workshop </i>, <b>Speaker</b> <br> Le Sparne, Pitigliano (GR), Italy </p>
 
