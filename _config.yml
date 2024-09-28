@@ -36,7 +36,7 @@ repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -103,7 +103,7 @@ whatsapp_number: # your WhatsApp number (full phone number in international form
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: https://www.unibo.it/sitoweb/marco.rosso4/en # work page URL
-x_username: # your X handle
+x_username: https://x.com/marcorosso768 # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
