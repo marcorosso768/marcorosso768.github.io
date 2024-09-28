@@ -7,4 +7,7 @@ dropdown: true
 children:
   - title: research talks
     permalink: /researchtalks/
+  - title: divider
+  - title: news
+    permalink: /news/
 ---
