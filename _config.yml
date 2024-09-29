@@ -13,6 +13,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: # add your own keywords or leave empty
 
+languages: ['en', 'it', 'es']
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.ico  #⚛️ the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -154,8 +155,7 @@ giscus:
   input_position: bottom # whether to display input form below (bottom) or above (top) the comments
   theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
-  languages: ['en', 'it', 'es']
-  default_lang: en
+  lang: en
 
 # Disqus comments (DEPRECATED)
 disqus_shortname: al-folio # put your disqus shortname
