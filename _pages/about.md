@@ -8,7 +8,7 @@ profile:
   align: center-right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-# more_info: >
+#  more_info: >
 #       <p>555 your office number</p>
 #       <p>123 your address street</p>
 #       <p>Your City, State 12345</p>
@@ -29,4 +29,5 @@ Currently, I am focusing on:
 <ul>
   <li>Self-Selection and Corruption</li>
   <li>Local Crime News and Voting Behavior</li>
+  <li>Effects of Erasmus Programs on Voting</li>
 </ul>
