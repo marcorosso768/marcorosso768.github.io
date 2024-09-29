@@ -23,45 +23,14 @@ layout: default
             max-width: 1200px; /* Maximum width for large screens */
             border: none;
             height: 80vh; /* Use viewport height to scale the iframe */
-            overflow: auto; /* Enable scrolling within the iframe */
-        }
-
-        /* Download button */
-        .button-container {
-            display: flex;
-            justify-content: center; /* Centers the button horizontally */
-            align-items: center;
-            margin: 20px 0;
-        }
-
-        .download-button {
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-transform: lowercase;
-            cursor: pointer;
-            font-size: 16px;
-            text-align: center;
-            text-decoration: none;
-            margin-bottom: 20px;
-            display: inline-block;
+            overflow-y: scroll; /* Enable vertical scrolling */
+            -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
         }
 
         /* Responsive behavior for mobile devices */
         @media (max-width: 768px) {
             iframe {
                 height: 70vh; /* Adjust height for mobile devices */
-            }
-
-            .download-button {
-                width: 80%; /* Ensure button scales well */
-                max-width: 300px;
-            }
-        }
-
-        /* Extra small mobile devices */
-        @media (max-width: 480px) {
-            .download-button {
-                width: 90%;
             }
         }
     </style>
@@ -86,9 +55,9 @@ layout: default
         </header>
     </div>
 
-    <!-- Embed the PDF using iframe for better mobile support -->
+    <!-- Embed the PDF using iframe with Google Docs Viewer for better mobile support -->
     <div class="iframe-container">
-        <iframe src="{{ site.baseurl }}/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf" title="curriculum vitae"></iframe>
+        <iframe src="https://docs.google.com/gview?url={{ site.baseurl }}/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf&embedded=true" title="curriculum vitae"></iframe>
     </div>
 
 </body>
