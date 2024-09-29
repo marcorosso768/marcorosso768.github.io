@@ -21,6 +21,7 @@ group :jekyll_plugins do
     gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'jekyll-multiple-languages-plugin'
 end
 group :other_plugins do
     gem 'css_parser'
