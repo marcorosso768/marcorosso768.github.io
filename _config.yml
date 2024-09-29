@@ -154,7 +154,8 @@ giscus:
   input_position: bottom # whether to display input form below (bottom) or above (top) the comments
   theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
-  lang: en
+  languages: ['en', 'it', 'es']
+  default_lang: en
 
 # Disqus comments (DEPRECATED)
 disqus_shortname: al-folio # put your disqus shortname
@@ -265,6 +266,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-multiple-languages-plugin
 
 # Sitemap settings
 defaults:
