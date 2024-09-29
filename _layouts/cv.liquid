@@ -23,8 +23,6 @@ layout: default
             max-width: 1200px; /* Maximum width for large screens */
             border: none;
             height: 80vh; /* Use viewport height to scale the iframe */
-            overflow-y: scroll; /* Enable vertical scrolling */
-            -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
         }
 
         /* Responsive behavior for mobile devices */
@@ -40,24 +38,14 @@ layout: default
     <!-- Title -->
     <div class="post">
         <header class="post-header">
-        <h1 class="post-title">{{ page.title }}
-        <a
-            href="{{ "/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf" | relative_url }}"
-            download="[Marco Rosso] Curriculum Vitae.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-            style="color: var(--global-text-color);"
-            ><i class="fa-solid fa-file-pdf"></i
-          ></a>
-        </h1>
+        <h1 class="post-title">{{ page.title }}</h1>
         <p class="post-description">{{ page.description }}</p>
         </header>
     </div>
 
-    <!-- Embed the PDF using iframe with Google Docs Viewer for better mobile support -->
+    <!-- Embed the PDF using iframe -->
     <div class="iframe-container">
-        <iframe src="https://docs.google.com/gview?url={{ site.baseurl }}/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf&embedded=true" title="curriculum vitae"></iframe>
+        <iframe src="{{ site.baseurl }}/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf" title="curriculum vitae"></iframe>
     </div>
 
 </body>
