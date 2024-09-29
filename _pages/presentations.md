@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /conferences/
-title: conferences
+permalink: /presentations/
+title: presentations
 description:
 nav: true
 nav_order: 3
