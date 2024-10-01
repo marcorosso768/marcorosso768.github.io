@@ -16,7 +16,7 @@ nav_order: 3
 <!-- 2024 -->
 <div id="2024-content" style="display: block;">
   
-<p style="padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> Ciclo de Seminarios del Departamento de Economía -  <span style="color: var(--global-theme-color);">Speaker</span> <br> <i>Universidad de San Andrés, Buenos Aires, Argentina..</i> </p>
+<p style="padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> Ciclo de Seminarios del Departamento de Economía -  <span style="color: var(--global-theme-color);">Speaker</span> <br> <i>Universidad de San Andrés, Buenos Aires, Argentina</i> </p>
 
 <p style="padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> &#8548; Ph.D. Workshop - <span style="color: var(--global-theme-color);">Speaker</span> <br> <i>Le Sparne, Pitigliano (GR), Italy</i> </p>
 
