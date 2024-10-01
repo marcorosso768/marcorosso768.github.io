@@ -7,7 +7,7 @@ first_name: Marco
 middle_name:
 last_name: Rosso
 email: marco.rosso4@unibo.it
-description: > Personal Academic website for Marco Rosso, Ph.D. student and research fellow at the University of Bologna
+description: Personal Academic website for Marco Rosso, Ph.D. student and research fellow at the University of Bologna
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -121,7 +121,7 @@ cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: google-site-verification=4uR9JL7g3oCelMHuWopGfG9XEd0mUHP84b7GwgBrS6Q # your google-site-verification ID (Google Search Console)
+google_site_verification: 4uR9JL7g3oCelMHuWopGfG9XEd0mUHP84b7GwgBrS6Q # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
