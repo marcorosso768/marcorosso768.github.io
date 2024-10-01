@@ -44,7 +44,7 @@ rss_icon: false
 
 navbar_fixed: false
 footer_fixed: false
-search_enabled: false
+search_enabled: true
 socials_in_search: false
 bib_search: false
 
@@ -121,25 +121,25 @@ cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
+google_site_verification: 4uR9JL7g3oCelMHuWopGfG9XEd0mUHP84b7GwgBrS6Q # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-#blog_name: al-folio # blog_name will be displayed in your blog page
-#blog_description: a simple whitespace theme for academics
-#permalink: /blog/:year/:title/
-#lsi: false # produce an index for related posts
+blog_name: al-folio # blog_name will be displayed in your blog page
+blog_description: a simple whitespace theme for academics
+permalink: /blog/:year/:title/
+lsi: false # produce an index for related posts
 
 # Pagination
-#pagination:
-  #enabled: false
+pagination:
+  enabled: false
 
-#related_blog_posts:
-  #enabled: false
-  #max_related: 5
+related_blog_posts:
+  enabled: false
+  max_related: 5
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
@@ -163,13 +163,13 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-#external_sources:
-  #- name: medium.com
-    #rss_url: https://medium.com/@al-folio/feed
-  #- name: Google Blog
-    #posts:
-      #- url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        #published_date: 2024-05-14
+external_sources:
+  - name: medium.com
+    rss_url: https://medium.com/@al-folio/feed
+  - name: Google Blog
+    posts:
+      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+        published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
