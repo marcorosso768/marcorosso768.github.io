@@ -42,9 +42,9 @@ rss_icon: false
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: false
+navbar_fixed: true
 footer_fixed: false
-search_enabled: false
+search_enabled: true
 socials_in_search: false
 bib_search: false
 
