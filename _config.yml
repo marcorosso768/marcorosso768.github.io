@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Academic website | Marco Rosso # the website title (if blank, full name will be used instead)
 first_name: Marco
 middle_name:
 last_name: Rosso
@@ -44,7 +44,7 @@ rss_icon: false
 
 navbar_fixed: false
 footer_fixed: false
-search_enabled: true
+search_enabled: false
 socials_in_search: false
 bib_search: false
 
@@ -121,7 +121,7 @@ cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: 4uR9JL7g3oCelMHuWopGfG9XEd0mUHP84b7GwgBrS6Q # your google-site-verification ID (Google Search Console)
+google_site_verification: google-site-verification=4uR9JL7g3oCelMHuWopGfG9XEd0mUHP84b7GwgBrS6Q # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
