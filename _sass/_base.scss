@@ -467,7 +467,7 @@ footer.fixed-bottom {
 /* A wrapper for the content and footer */
 .wrapper {
   //min-height: 81vh; //calc(100vh - 50%); /* Ensure the wrapper takes up at least the viewport height */
-  min-height: 100vh;
+  min-height: 82vh;
   display: flex;
   flex-direction: column;
 }
@@ -479,9 +479,9 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  background-color: var(--global-footer-bg-color);
+  background-color: var(--global-footer-text-color); // var(--global-footer-bg-color);
   font-size: 0.75rem;
-  border-top: 1px solid var(--global-divider-color);
+  border-top: 1px solid var(--global-footer-bg-color); // var(--global-divider-color);
   padding-top: 0px;
   padding-bottom: 0px;
   width: 100%; /* Ensure the footer takes the full width of the page */
@@ -493,7 +493,7 @@ footer.sticky-bottom {
   //font-size: 0.9rem;
 
   .container {
-    color: var(--global-footer-text-color);
+    color: var(--global-footer-bg-color); // var(--global-footer-text-color);
     padding-top: 2px; //9px
     padding-bottom: 2px; //8px
     text-align: center;
