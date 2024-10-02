@@ -466,8 +466,8 @@ footer.fixed-bottom {
 
 /* A wrapper for the content and footer */
 .wrapper {
-  //min-height: 81vh; //calc(100vh - 50%); /* Ensure the wrapper takes up at least the viewport height */
-  min-height: 83vh;
+  /* Ensure the wrapper takes up at least the viewport height */
+  min-height: 82.5vh; // 83vh;
   display: flex;
   flex-direction: column;
 }
