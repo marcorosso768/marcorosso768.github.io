@@ -20,7 +20,7 @@ nav_order: 1
 
   <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088"> Short-term effect of colorectal cancer on income: analysis of an Italian cohort. </a> <i> Journal of Epidemiology & Community Health</i>, 77:196-201. </p>
   
-  <p style="margin: 0; margin-left: 10px;"><a href="javascript:void(0);" onclick="toggleAbstract('abstract-1')"><p>&#9655</p> Abstract</a></p>
+  <p style="margin: 0; margin-left: 10px;"><a href="javascript:void(0);" onclick="toggleAbstract('abstract-1')">Abstract</a></p>
   <div id="abstract-1" style="display:none; margin: 0; margin-left: 10px;">
     <b>Introduction</b> <i>The ability to return to work after a cancer diagnosis is a key aspect of cancer survivorship and quality of life. Studies have reported a significant risk of income loss for cancer survivors; however, there is limited evidence of the Italian context.</i>
      <br>
@@ -82,21 +82,27 @@ nav_order: 1
 <script>
   function toggleAbstract(id) {
     var abstract = document.getElementById(id);
-    if (abstract.style.display === "none") {
+    var toggleButton = document.getElementById('toggle-' + id);
+    
+    if (abstract.style.display === "none" || abstract.style.display === "") {
       abstract.style.display = "block";
+      toggleButton.innerHTML = "&#9661; Abstract"; // Full down triangle
     } else {
       abstract.style.display = "none";
+      toggleButton.innerHTML = "&#9655; Abstract"; // Empty right triangle
     }
   }
-</script>
-<!-- Inline script -->
-<script>
+
   function toggleVisibility(id) {
     var content = document.getElementById(id);
-    if (content.style.display === "none") {
+    var toggleButton = document.getElementById('toggle-' + id);
+    
+    if (content.style.display === "none" || content.style.display === "") {
       content.style.display = "block";
+      toggleButton.innerHTML = "&#9661; Content"; // Full down triangle
     } else {
       content.style.display = "none";
+      toggleButton.innerHTML = "&#9655; Content"; // Empty right triangle
     }
   }
 </script>
