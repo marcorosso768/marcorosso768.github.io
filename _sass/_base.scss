@@ -456,16 +456,28 @@ footer.fixed-bottom {
   }
 }
 
+/* Ensure the body and html fill the entire height of the page */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content area should take up all available space */
+.main-content {
+  flex: 1; /* This will push the footer to the bottom */
+}
+
 footer.sticky-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
   border-top: 1px solid var(--global-divider-color);
-  //padding-top: 9px;
-  //padding-bottom: 8px;
-  bottom: 0px;
-  width: 100%;
-  left: 0;
-  margin: 0;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
+  width: 100%; /* Ensure the footer takes the full width of the page */
+  //left: 0;
+  //margin: 0;
   //border-top: 1px solid var(--global-divider-color);
   //padding-top: 40px;
   //padding-bottom: 40px;
