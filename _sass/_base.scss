@@ -469,6 +469,7 @@ html, body {
   flex: 1; /* This allows the wrapper to take up the remaining height */
   display: flex;
   flex-direction: column;
+  justify-content: space-between; /* Ensures the footer is at the bottom */
 }
 
 /* Main content will expand to fill available space */
