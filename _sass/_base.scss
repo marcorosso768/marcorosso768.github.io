@@ -457,13 +457,19 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
+  background-color: var(--global-footer-bg-color);
+  font-size: 0.75rem;
+  //border-top: 1px solid var(--global-divider-color);
+  //padding-top: 40px;
+  //padding-bottom: 40px;
+  //font-size: 0.9rem;
 
   .container {
+    color: var(--global-footer-text-color);
+    padding-top: 9px;
+    padding-bottom: 8px;
     text-align: center;
+    //text-align: center;
   }
 }
 
