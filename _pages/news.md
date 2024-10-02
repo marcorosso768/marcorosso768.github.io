@@ -4,4 +4,6 @@ title: news
 permalink: /news/
 ---
 
-{% include news.liquid %}
+<div class="wrapper">
+  {% include news.liquid %}
+</div>
