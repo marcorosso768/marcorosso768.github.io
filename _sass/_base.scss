@@ -456,14 +456,33 @@ footer.fixed-bottom {
   }
 }
 
+/* Ensure html and body take up the full viewport height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* A wrapper that contains the main content and the footer */
+.wrapper {
+  min-height: 100%;
+  position: relative; /* Make the wrapper the reference for absolute positioning */
+}
+
+/* Main content will expand to fill the space */
+.main-content {
+  padding-bottom: 100px; /* Space for the footer, adjust as needed */
+}
+
 footer.sticky-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
   border-top: 1px solid var(--global-divider-color);
   padding-top: 0px;
   padding-bottom: 0px;
-  width: 100%; /* Ensure the footer takes the full width of the page */
-  bottom: 0px;
+  position: absolute; /* Make footer stick at the bottom */
+  bottom: 0;
+  width: 100%; /* Ensure the footer takes the full width */
+  text-align: center; /* Center the footer text */
   //left: 0;
   //margin: 0;
   //border-top: 1px solid var(--global-divider-color);
