@@ -17,5 +17,5 @@ pagination:
 ---
 
 <div class="wrapper">
-  Coming soon...
+  Coming soon... maybe
 </div>
