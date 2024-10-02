@@ -466,7 +466,7 @@ html, body {
 
 /* A wrapper for the content and footer */
 .wrapper {
-  min-height: 100vh; /* Ensure the wrapper takes up at least the viewport height */
+  min-height: calc(100vh - 60px); /* Ensure the wrapper takes up at least the viewport height */
   display: flex;
   flex-direction: column;
 }
