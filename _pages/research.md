@@ -8,7 +8,6 @@ nav_order: 1
 ---
 
 <!-- Publications -->
-<div class="wrapper">
 <div class="projects">
   <a id="publications" href="javascript:void(0);" onclick="toggleVisibility('publications-content')">
     <h2 class="category"> publications </h2>
@@ -95,8 +94,6 @@ nav_order: 1
   <div id="work-in-progress-content" style="display: block;">
     <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i> The Effect of Erasmus Programs on Voting </i> , with <a href="https://www.unibo.it/sitoweb/manuel.blasco2/en"> Manuel Blasco </a> </p>
   </div>
-  
-</div>
 <!-- end -->
 
 <!-- Inline script -->
