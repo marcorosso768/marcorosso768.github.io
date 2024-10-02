@@ -14,7 +14,6 @@
     </div>
   </footer>
 {% else %}
-  <div class="wrapper">
   <footer class="sticky-bottom" role="contentinfo">
     {% if site.newsletter.enabled %}
       {% include scripts/newsletter.liquid %}
@@ -33,9 +32,7 @@
       {% endif %}
     </div>
   </footer>
-  </div>
 {% endif %}
-
 
 <script>
   function toggleText() {
