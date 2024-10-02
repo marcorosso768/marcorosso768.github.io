@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 2
 ---
-
+<div class="wrapper">
 <div class="projects">
   <a id="current-courses" href="javascript:void(0);" onclick="toggleVisibility('current-courses-content')">
     <h2 class="category"> current courses </h2>
@@ -54,7 +54,7 @@ nav_order: 2
 
 <p style="padding-left: 20px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <span style="color: var(--global-theme-color);"><i>Microeconomics</i></span> <br> SAA School of Management, <i> University of Turin </i> <br> Assistant to <span style="color: var(--global-theme-color);">Nadia Campaniello</span> </p>
 </div>
-
+</div>
 
 <!-- Inline script -->
 <script>
