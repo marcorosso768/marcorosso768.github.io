@@ -7,6 +7,7 @@ nav: true
 nav_order: 3
 ---
 
+<div class="wrapper">
 <div class="projects">
   <a id="2024" href="javascript:void(0);" onclick="toggleVisibility('2024-content')">
     <h2 class="category"> 2024 </h2>
@@ -80,7 +81,7 @@ nav_order: 3
 
 </div>
 <!-- end -->
-
+</div>
 <!-- Inline script -->
 <script>
   function toggleVisibility(id) {
