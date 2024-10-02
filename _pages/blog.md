@@ -16,6 +16,10 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
+<div class="wrapper">
+
 Page will be ready soon...
 
 ...maybe
+
+</div>
