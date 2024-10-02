@@ -7,5 +7,5 @@ dropdown: true
 children:
   - title: news
     permalink: /news/
-  - title: divider
+    # - title: divider
 ---
