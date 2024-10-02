@@ -18,6 +18,6 @@ pagination:
 
 <div class="wrapper">
 
-Page not available, sorry.
+Page not available.
 
 </div>
