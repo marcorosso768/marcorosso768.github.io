@@ -16,4 +16,4 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
-Page will ready soon!
+Page will be ready soon...
