@@ -22,7 +22,7 @@ nav_order: 1
 
   <!-- Abstract toggle link with triangle -->
   <p style="margin: 0; margin-left: 10px;">
-    <a href="javascript:void(0);" id="toggle-abstract-1" onclick="toggleAbstract('abstract-1')">&#9655; Abstract</a>
+    <a href="javascript:void(0);" id="toggle-abstract-1" onclick="toggleAbstract('abstract-1')">&#9657; Abstract</a>
   </p>
 
   <!-- Abstract content hidden by default -->
@@ -51,7 +51,7 @@ nav_order: 1
 
   <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i> Crime Perception and Populism: Evidence from Individual Data</i>, with <a href="https://sites.google.com/site/giovanniprarolo/"> Giovanni Prarolo </a> </p>
   
-  <p style="margin: 0; margin-left: 10px;"><a href="javascript:void(0);" onclick="toggleAbstract('abstract-2')">Abstract</a></p>
+  <p style="margin: 0; margin-left: 10px;"><a href="javascript:void(0);" onclick="toggleAbstract('abstract-2')">&#9657; Abstract</a></p>
   <div id="abstract-2" style="display:none; margin: 0; margin-left: 10px;">
     <i> This study investigates the influence of crime news on individual voting behavior, focusing on the city of Bologna (IT). By conducting a survey of 5000 geolocated individuals and analyzing newspaper articles from 2011 to 2021, the research examines the differential effects of crime news pertaining to Italians and immigrants. To achieve identification, we estimate a fixed effect model including district trends and exploiting the plausible random variation in the timing of crimes between zones within the same district. Preliminary findings suggest that crime articles related to immigrants significantly impact voting behavior, leading to shifts in party preferences during national and local elections. These insights shed light on the dynamics of populism and democratic processes. The research offers valuable implications for understanding media influence on political outcomes and highlights the significance of crime news in shaping electoral choices. </i> <br>
     <div class="b"><b>Keywords:</b> crime, elections, political parties, newspapers, individual voting behavior, dictionary-based classification</div>
@@ -59,7 +59,7 @@ nav_order: 1
   
   <p style="margin-bottom: 0; margin-top: 10px; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i> Corruption, temptation, and self-selection in the public sector </i> </p>
   
-  <p style="margin: 0; margin-left: 10px;"><a href="javascript:void(0);" onclick="toggleAbstract('abstract-3')">Abstract</a></p>
+  <p style="margin: 0; margin-left: 10px;"><a href="javascript:void(0);" onclick="toggleAbstract('abstract-3')">&#9657; Abstract</a></p>
   <div id="abstract-3" style="display:none; margin: 0; margin-bottom: 10px; margin-left: 10px;">
     <i> This paper presents a theoretical model that examines the impact of corruption opportunities on the self-selection process of individuals in the public sector. The study explores how the temptation of engaging in corruption influences individuals' career choices. The main finding of the research reveals a dual effect of corruption opportunities in the public sector. On one hand, such opportunities attract individuals with lower ambition and motivation, who are more likely to engage in unethical behavior. On the other hand, when the temptation to participate in corruption becomes significant, highly motivated individuals may be deterred from pursuing a career in the public sector due to self-control issues, leading them to opt for employment in the private sector instead. This finding highlights the importance of considering the impact of corruption and self-control problems on the quality and composition of the public sector workforce, which can have broader implications for economic outcomes. </i> <br>
     <div class="b"><b>Keywords:</b> self-selection, corruption, temptation, self-control</div>
@@ -92,10 +92,10 @@ nav_order: 1
     
     if (abstract.style.display === "none" || abstract.style.display === "") {
       abstract.style.display = "block";
-      toggleButton.innerHTML = "&#9661; Abstract"; // Full down triangle when abstract is open
+      toggleButton.innerHTML = "&#9662; Abstract"; // Full down triangle when abstract is open
     } else {
       abstract.style.display = "none";
-      toggleButton.innerHTML = "&#9655; Abstract"; // Empty right triangle when abstract is closed
+      toggleButton.innerHTML = "&#9657; Abstract"; // Empty right triangle when abstract is closed
     }
   }
 
