@@ -9,6 +9,3 @@ cv_pdf: assets/pdf/[Marco Rosso] Curriculum Vitae.pdf
 # toc:
 #  sidebar: left
 ---
-
-<div class="wrapper">
-</div>
