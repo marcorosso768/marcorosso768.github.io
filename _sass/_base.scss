@@ -467,7 +467,7 @@ footer.fixed-bottom {
 /* A wrapper for the content and footer */
 .wrapper {
   //min-height: 81vh; //calc(100vh - 50%); /* Ensure the wrapper takes up at least the viewport height */
-  min-height: 82vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
 }
@@ -497,6 +497,15 @@ footer.sticky-bottom {
     padding-top: 2px; //9px
     padding-bottom: 2px; //8px
     text-align: center;
+  }
+
+  a {
+      color: var(--global-footer-bg-color); // var(--global-footer-link-color);
+  
+      &:hover {
+        color: var(--global-footer-bg-color); // var(--global-theme-color);
+        text-decoration: none;
+      }
   }
 }
 
