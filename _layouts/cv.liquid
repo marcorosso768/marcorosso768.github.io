@@ -8,13 +8,14 @@ layout: default
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <style>
-        /* Flex container to center the iframe */
+        /* Flex container with scrollable overflow */
         .iframe-container {
             display: flex;
             justify-content: center;
             align-items: center;
             width: 100%;
-            /* margin: 20px 0; */
+            margin: 20px 0;
+            overflow: auto; /* Add scrolling capability to the iframe container */
         }
 
         /* Responsive iframe */
@@ -22,8 +23,8 @@ layout: default
             width: 100%; /* Full width for small screens */
             max-width: 1200px; /* Maximum width for large screens */
             border: none;
-            height: 100vh; /* Use viewport height to scale the iframe */
-            overflow: true; /* Enable scrolling within the iframe */
+            height: 80vh; /* Use viewport height to scale the iframe */
+            overflow: auto; /* Enable scrolling within the iframe */
         }
 
         /* Download button */
@@ -31,7 +32,7 @@ layout: default
             display: flex;
             justify-content: center; /* Centers the button horizontally */
             align-items: center;
-            /* margin: 20px 0; */
+            margin: 20px 0;
         }
 
         .download-button {
@@ -47,9 +48,9 @@ layout: default
         }
 
         /* Responsive behavior for mobile devices */
-        @media (max-width: 100vh) {
+        @media (max-width: 768px) {
             iframe {
-                height: 100vh; /* Adjust height for mobile devices */
+                height: 70vh; /* Adjust height for mobile devices */
             }
 
             .download-button {
@@ -59,7 +60,7 @@ layout: default
         }
 
         /* Extra small mobile devices */
-        @media (max-width: 100vh) {
+        @media (max-width: 480px) {
             .download-button {
                 width: 90%;
             }
