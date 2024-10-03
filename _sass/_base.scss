@@ -458,7 +458,7 @@ footer.fixed-bottom {
 
 /* Ensure html and body take up the full viewport height */
 html, body {
-  height: 100vh;
+  height: 100%;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -467,7 +467,7 @@ html, body {
 /* A wrapper for the content and footer */
 .wrapper {
   /* Ensure the wrapper takes up at least the viewport height */
-  min-height: 100vh; // 83vh;
+  min-height: 100vh; // 100%;
   display: flex;
   flex-direction: column;
 }
