@@ -20,11 +20,12 @@ layout: default
 
         /* Responsive iframe */
         iframe {
-            width: 100%; /* Full width for small screens */
-            max-width: 1200px; /* Maximum width for large screens */
+            width: 100%;
+            max-width: 1200px;
             border: none;
-            height: 80vh; /* Use viewport height to scale the iframe */
-            overflow: auto; /* Enable scrolling within the iframe */
+            height: 80vh;
+            overflow: scroll; /* Allow scroll inside the iframe */
+            -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
         }
 
         /* Download button */
