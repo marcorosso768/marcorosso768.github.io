@@ -48,25 +48,31 @@ layout: default
             display: inline-block;
         }
 
-        /* Responsive behavior for mobile devices */
-        @media (max-width: 768px) {
+        /* Responsive for tablet-sized screens */
+        @media (max-width: 1024px) {
             iframe {
-                height: 70vh; /* Adjust height for mobile devices */
-            }
-
-            .download-button {
-                width: 80%; /* Ensure button scales well */
-                max-width: 300px;
+                max-width: 90vw; /* Adjust width to 90% of the viewport width */
+                height: 70vh;    /* 70% of the viewport height */
             }
         }
-
-        /* Extra small mobile devices */
+        
+        /* Responsive for smaller tablets and large mobile phones */
+        @media (max-width: 768px) {
+            iframe {
+                max-width: 95vw; /* Slightly wider for mobile */
+                height: 65vh;    /* Increase the height for tablets */
+            }
+        }
+        
+        /* Responsive for small mobile screens */
         @media (max-width: 480px) {
-            .download-button {
-                width: 90%;
+            iframe {
+                max-width: 100vw; /* Use the full viewport width */
+                height: 60vh;     /* Adjust the height to fit smaller screens */
             }
         }
     </style>
+
 </head>
 <body>
     <!-- Title -->
