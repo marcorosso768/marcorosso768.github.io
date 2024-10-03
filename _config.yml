@@ -90,8 +90,8 @@ osf_id: # your OSF ID
 # pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
-research_gate_profile: # your profile on ResearchGate
-scholar_userid: # your Google Scholar ID
+research_gate_profile: https://www.researchgate.net/profile/Marco-Rosso-2 # your profile on ResearchGate
+scholar_userid: KYPkHrIAAAAJ # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
@@ -128,18 +128,18 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-#blog_name: al-folio # blog_name will be displayed in your blog page
-#blog_description: a simple whitespace theme for academics
-#permalink: /blog/:year/:title/
-#lsi: false # produce an index for related posts
+blog_name: blog # blog_name will be displayed in your blog page
+blog_description: # a simple whitespace theme for academics
+permalink: /blog/:year/:title/
+lsi: false # produce an index for related posts
 
 # Pagination
-#pagination:
-#  enabled: false
+pagination:
+  enabled: false
 
-#related_blog_posts:
-#  enabled: false
-#  max_related: 5
+related_blog_posts:
+  enabled: false
+  max_related: 5
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
