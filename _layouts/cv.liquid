@@ -8,28 +8,28 @@ layout: default
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <style>
-        /* Flex container to center the PDF */
-        .pdf-container {
+        /* Flex container to center the iframe */
+        .iframe-container {
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-direction: column;
             width: 100%;
             margin: 20px 0;
         }
 
-        /* Canvas for rendering the PDF */
-        #pdf-canvas {
-            border: 1px solid #ccc;
-            width: 100%;
-            max-width: 1200px;
-            background-color: #fff; /* Ensure white background */
+        /* Responsive iframe */
+        iframe {
+            width: 100%; /* Full width for small screens */
+            max-width: 1200px; /* Maximum width for large screens */
+            border: none;
+            height: 80vh; /* Use viewport height to scale the iframe */
+            overflow: auto; /* Enable scrolling within the iframe */
         }
 
         /* Download button */
         .button-container {
             display: flex;
-            justify-content: center;
+            justify-content: center; /* Centers the button horizontally */
             align-items: center;
             margin: 20px 0;
         }
@@ -42,37 +42,11 @@ layout: default
             font-size: 16px;
             text-align: center;
             text-decoration: none;
-            background-color: #007bff; /* Button color */
-            color: white; /* Button text color */
             margin-bottom: 20px;
             display: inline-block;
         }
-
-        /* Responsive adjustments for mobile devices */
-        @media (max-width: 768px) {
-            #pdf-canvas {
-                height: auto;
-                max-width: 90vw; /* Ensure the PDF canvas scales well */
-            }
-
-            .download-button {
-                width: 80%; /* Adjust button width on mobile */
-                font-size: 14px; /* Reduce font size for small screens */
-            }
-        }
-
-        @media (max-width: 480px) {
-            #pdf-canvas {
-                max-width: 100vw; /* Full width for small screens */
-            }
-
-            .download-button {
-                width: 90%; /* Button almost full width for very small screens */
-                font-size: 13px;
-            }
-        }
     </style>
-    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script> <!-- PDF.js library -->
+
 </head>
 <body>
     <!-- Title -->
@@ -93,48 +67,9 @@ layout: default
         </header>
     </div>
 
-    <!-- Embed the PDF using PDF.js with a canvas -->
-    <div class="pdf-container">
-        <canvas id="pdf-canvas"></canvas> <!-- Canvas to render PDF -->
+    <!-- Embed the PDF using iframe for better mobile support -->
+    <div class="iframe-container">
+        <iframe src="{{ site.baseurl }}/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf" title="curriculum vitae"></iframe>
     </div>
-
-    <!-- Download Button -->
-    <div class="button-container">
-        <a href="{{ "/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf" | relative_url }}" 
-           download="[Marco Rosso] Curriculum Vitae.pdf" 
-           class="download-button">Download PDF</a>
-    </div>
-
-    <script>
-        // URL of the PDF
-        var url = '{{ "/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf" | relative_url }}';
-
-        // Initialize PDF.js
-        var pdfjsLib = window['pdfjs-dist/build/pdf'];
-        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://mozilla.github.io/pdf.js/build/pdf.worker.js';
-
-        // Load the PDF
-        var loadingTask = pdfjsLib.getDocument(url);
-        loadingTask.promise.then(function(pdf) {
-            // Fetch the first page
-            pdf.getPage(1).then(function(page) {
-                var scale = 1.5; // Adjust the scale for better rendering
-                var viewport = page.getViewport({ scale: scale });
-
-                // Prepare canvas using PDF page dimensions
-                var canvas = document.getElementById('pdf-canvas');
-                var context = canvas.getContext('2d');
-                canvas.height = viewport.height;
-                canvas.width = viewport.width;
-
-                // Render PDF page into canvas context
-                var renderContext = {
-                    canvasContext: context,
-                    viewport: viewport
-                };
-                page.render(renderContext);
-            });
-        });
-    </script>
 </body>
 </html>
