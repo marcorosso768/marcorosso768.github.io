@@ -457,7 +457,8 @@ footer.fixed-bottom {
 }
 
 /* Ensure html and body take up the full viewport height */
-html, body {
+//html, body {
+html {
   height: 100%;
   margin: 0;
   display: flex;
