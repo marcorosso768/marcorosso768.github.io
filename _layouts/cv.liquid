@@ -9,63 +9,72 @@ layout: default
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <style>
 
-        /* Default iframe styles for larger screens */
-        .iframe-container iframe {
+        /* Flex container to center the iframe */
+        .iframe-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        /* Responsive iframe */
+        iframe {
             width: 100%; /* Full width for small screens */
             max-width: 1200px; /* Maximum width for large screens */
             border: none;
             height: 80vh; /* Use viewport height to scale the iframe */
-            overflow: scroll; /* Enable scrolling within the iframe */
+            overflow: auto; /* Enable scrolling within the iframe */
+        }
+
+        /* Default iframe styles */
+        .iframe-container iframe {
+            width: 100%;
+            max-width: 1200px;
+            border: none;
+            height: 100vh;
+            overflow: auto;
         }
         
-        /* Styles for mobile devices using touch input */
+        /* Hide iframe and show the message on mobile devices */
         @media (hover: none) and (pointer: coarse) {
-            .iframe-container iframe {
-                height: 100vh; /* Use full height for mobile devices */
-                max-width: 100%; /* Max width to prevent oversizing on mobile */
-                overflow: scroll; /* Ensure scrolling on mobile */
+            .iframe-container {
+                display: none; /* Hide iframe container on mobile devices */
+            }
+            .mobile-message {
+                display: block; /* Show the mobile message */
             }
         }
         
     </style>
 
 </head>
-<body>
-    <!-- Title -->
-    <div class="post">
-        <header class="post-header">
-        <h1 class="post-title" style="color: var(--global-theme-color);">{{ page.title }}
-        <a
-            href="{{ "/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf" | relative_url }}"
-            download="[Marco Rosso] Curriculum Vitae.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-            style="color: var(--global-text-color);"
-            ><i class="fa-solid fa-file-pdf"></i
-          ></a>
-        </h1>
-        <p class="post-description">{{ page.description }}</p>
-        </header>
-    </div>
-
-    <!-- Embed the PDF using iframe for better mobile support -->
-    <div class="iframe-container">
-        <iframe src="{{ site.baseurl }}/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf" title="curriculum vitae"></iframe>
-    </div>
-</body>
+    <body>
+        <!-- Title -->
+        <div class="post">
+            <header class="post-header">
+            <h1 class="post-title" style="color: var(--global-theme-color);">{{ page.title }}
+            <a
+                href="{{ "/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf" | relative_url }}"
+                download="[Marco Rosso] Curriculum Vitae.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="float-right"
+                style="color: var(--global-text-color);"
+                ><i class="fa-solid fa-file-pdf"></i
+              ></a>
+            </h1>
+            <p class="post-description">{{ page.description }}</p>
+            </header>
+        </div>
+    
+        <!-- Embed the PDF using iframe for better mobile support -->
+        <div class="iframe-container">
+            <iframe src="{{ site.baseurl }}/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf" title="curriculum vitae"></iframe>
+        </div>
+    
+        <!-- Fallback message for mobile devices -->
+        <div class="mobile-message" style="display: none; text-align: center; margin: 20px 0;">
+            <p>I am sorry, but the CV cannot be displayed on your device. Please click the PDF icon to view or download the CV.</p>
+        </div>
+    </body>
 </html>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        // Detect if it's a mobile device
-        const isMobile = /Mobi|Android/i.test(navigator.userAgent);
-
-        if (isMobile) {
-            // Apply specific styles or modify the iframe for mobile devices
-            const iframe = document.querySelector("iframe");
-            iframe.style.height = "100vh"; // Make iframe full height on mobile
-            iframe.style.maxWidth = "100%"; // Prevent it from being larger than the screen width
-        }
-    });
-</script>
