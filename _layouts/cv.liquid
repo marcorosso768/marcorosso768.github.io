@@ -27,20 +27,6 @@ layout: default
             }
         }
         
-        /* Additional styles for tablets (portrait and landscape) */
-        @media (max-width: 1024px) and (min-width: 768px) {
-            .iframe-container iframe {
-                height: 90vh; /* Slightly smaller height for tablet view */
-            }
-        }
-        
-        /* Specific styles for portrait mode */
-        @media (orientation: portrait) {
-            .iframe-container iframe {
-                height: 100vh; /* Full height in portrait mode */
-            }
-        }
-
     </style>
 
 </head>
@@ -69,3 +55,17 @@ layout: default
     </div>
 </body>
 </html>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Detect if it's a mobile device
+        const isMobile = /Mobi|Android/i.test(navigator.userAgent);
+
+        if (isMobile) {
+            // Apply specific styles or modify the iframe for mobile devices
+            const iframe = document.querySelector("iframe");
+            iframe.style.height = "100vh"; // Make iframe full height on mobile
+            iframe.style.maxWidth = "100%"; // Prevent it from being larger than the screen width
+        }
+    });
+</script>
