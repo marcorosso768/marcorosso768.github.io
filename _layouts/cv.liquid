@@ -8,23 +8,39 @@ layout: default
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <style>
-        /* Flex container to center the iframe */
-        .iframe-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            margin: 20px 0;
-        }
 
-        /* Responsive iframe */
-        iframe {
+        /* Default iframe styles for larger screens */
+        .iframe-container iframe {
             width: 100%; /* Full width for small screens */
             max-width: 1200px; /* Maximum width for large screens */
             border: none;
             height: 80vh; /* Use viewport height to scale the iframe */
-            overflow: auto; /* Enable scrolling within the iframe */
+            overflow: scroll; /* Enable scrolling within the iframe */
         }
+        
+        /* Styles for mobile devices using touch input */
+        @media (hover: none) and (pointer: coarse) {
+            .iframe-container iframe {
+                height: 100vh; /* Use full height for mobile devices */
+                max-width: 100%; /* Max width to prevent oversizing on mobile */
+                overflow: scroll; /* Ensure scrolling on mobile */
+            }
+        }
+        
+        /* Additional styles for tablets (portrait and landscape) */
+        @media (max-width: 1024px) and (min-width: 768px) {
+            .iframe-container iframe {
+                height: 90vh; /* Slightly smaller height for tablet view */
+            }
+        }
+        
+        /* Specific styles for portrait mode */
+        @media (orientation: portrait) {
+            .iframe-container iframe {
+                height: 100vh; /* Full height in portrait mode */
+            }
+        }
+
     </style>
 
 </head>
