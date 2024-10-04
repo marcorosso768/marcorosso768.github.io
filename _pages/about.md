@@ -2,7 +2,7 @@
 layout: about
 title: about me
 permalink: /
-subtitle: [University of Bologna](https://www.unibo.it/en/homepage), [Department of Economics](https://dse.unibo.it/en) <br> [Piazza Scaravilli 2, 40126, Bologna](https://goo.gl/maps/1icot9p1g97AWCD37)
+subtitle: <a href='https://www.unibo.it/en/homepage'>University of Bologna</a>, <a href='https://dse.unibo.it/en'>Department of Economics</a> <br> <a href='https://goo.gl/maps/1icot9p1g97AWCD37'>Piazza Scaravilli 2, 40126, Bologna</a>
 
 profile:
   align: center-right
