@@ -25,29 +25,30 @@ layout: default
             overflow: auto; /* Enable scrolling within the iframe */
         }
         
-        /* Hide iframe and show the message on mobile devices */
-        @media (hover: none) and (pointer: coarse) {
-            .iframe-container {
-                display: none; /* Hide iframe container on mobile devices */
-            }
-            .mobile-message {
-                display: block; /* Show the mobile message */
-                background-color: yellow; /* For debugging, apply a visible background color */
-                color: red; /* Set text color for visibility */
-            }
-        }
-
-        /* Default setting for the mobile message (hidden) */
+        /* Default: hide mobile message */
         .mobile-message {
             display: none;
         }
-        
+
+        /* Mobile devices: show message and hide iframe */
+        @media (max-width: 768px) {
+            .iframe-container {
+                display: none; /* Hide iframe on mobile devices */
+            }
+            .mobile-message {
+                display: block; /* Show the mobile message */
+                background-color: yellow; /* Optional background for visibility */
+                color: red; /* Optional text color */
+                text-align: center;
+                margin: 20px 0;
+            }
+        }
     </style>
 </head>
-    <body>
-        <!-- Title -->
-        <div class="post">
-            <header class="post-header">
+<body>
+    <!-- Title -->
+    <div class="post">
+        <header class="post-header">
             <h1 class="post-title" style="color: var(--global-theme-color);">{{ page.title }}
             <a
                 href="{{ "/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf" | relative_url }}"
@@ -60,17 +61,17 @@ layout: default
               ></a>
             </h1>
             <p class="post-description">{{ page.description }}</p>
-            </header>
-        </div>
-    
-        <!-- Embed the PDF using iframe for better mobile support -->
-        <div class="iframe-container">
-            <iframe src="{{ site.baseurl }}/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf" title="curriculum vitae"></iframe>
-        </div>
-    
-        <!-- Fallback message for mobile devices -->
-        <div class="mobile-message">
-            <p>I am sorry, but the CV cannot be displayed on your device. Please click the PDF icon to view or download the CV.</p>
-        </div>
-    </body>
+        </header>
+    </div>
+
+    <!-- Embed the PDF using iframe for better mobile support -->
+    <div class="iframe-container">
+        <iframe src="{{ site.baseurl }}/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf" title="curriculum vitae"></iframe>
+    </div>
+
+    <!-- Fallback message for mobile devices -->
+    <div class="mobile-message">
+        <p>I am sorry, but the CV cannot be displayed on your device. Please click the PDF icon to view or download the CV.</p>
+    </div>
+</body>
 </html>
