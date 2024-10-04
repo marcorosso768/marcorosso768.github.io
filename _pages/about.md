@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 
 Welcome to my personal website, I am glad you are here on purpose!
 
-I am a 4<sup>th</sup> year Ph.D. student in Economics under the supervision of [Paolo Vanin](https://sites.google.com/site/paolovanin/) and a Research Fellow under the supervision of [Giovanni Prarolo](https://sites.google.com/site/giovanniprarolo/) at the University of Bologna.
+I am a 4<sup>th</sup>-year Ph.D. student in Economics under the supervision of [Paolo Vanin](https://sites.google.com/site/paolovanin/) and a Research Fellow&mdash;working with [Giovanni Prarolo](https://sites.google.com/site/giovanniprarolo/)&mdash;at the University of Bologna.
 
 My research interests include political, crime, experimental, and behavioral economics, both theoretically and empirically.
 
