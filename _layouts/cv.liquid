@@ -8,7 +8,6 @@ layout: default
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <style>
-
         /* Flex container to center the iframe */
         .iframe-container {
             display: flex;
@@ -37,9 +36,13 @@ layout: default
                 color: red; /* Set text color for visibility */
             }
         }
+
+        /* Default setting for the mobile message (hidden) */
+        .mobile-message {
+            display: none;
+        }
         
     </style>
-
 </head>
     <body>
         <!-- Title -->
@@ -66,7 +69,7 @@ layout: default
         </div>
     
         <!-- Fallback message for mobile devices -->
-        <div class="mobile-message" style="display: none; text-align: center; margin: 20px 0;">
+        <div class="mobile-message">
             <p>I am sorry, but the CV cannot be displayed on your device. Please click the PDF icon to view or download the CV.</p>
         </div>
     </body>
