@@ -30,44 +30,45 @@ layout: default
             display: none;
         }
 
-        /* Tablets and smaller devices: show message and hide iframe */
-        @media (max-width: 1024px) {
+        /* Tablets and smaller devices in portrait and landscape: show message and hide iframe */
+        @media (max-width: 1280px) and (orientation: landscape), (max-width: 1024px) {
             .iframe-container {
-                display: none; /* Hide iframe on mobile devices */
+                display: none; /* Hide iframe on tablets and smaller devices */
             }
             .mobile-message {
                 display: block; /* Show the mobile message */
             }
         }
     </style>
+
 </head>
-<body>
-    <!-- Title -->
-    <div class="post">
-        <header class="post-header">
-            <h1 class="post-title" style="color: var(--global-theme-color);">{{ page.title }}
-            <a
-                href="{{ "/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf" | relative_url }}"
-                download="[Marco Rosso] Curriculum Vitae.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="float-right"
-                /*style="color: var(--global-text-color);"*/
-                ><i class="fa-solid fa-file-pdf"></i
-              ></a>
-            </h1>
-            <p class="post-description">{{ page.description }}</p>
-        </header>
-    </div>
-
-    <!-- Embed the PDF using iframe for better mobile support -->
-    <div class="iframe-container">
-        <iframe src="{{ site.baseurl }}/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf" title="curriculum vitae"></iframe>
-    </div>
-
-    <!-- Fallback message for mobile devices -->
-    <div class="mobile-message">
-        <p><i class="fa-solid fa-triangle-exclamation" style="color: var(--global-theme-color);"></i> Apologies, but the CV is not viewable on this device. Kindly click the PDF icon to view or download it. <i class="fa-solid fa-triangle-exclamation" style="color: var(--global-theme-color);"></i></p>
-    </div>
-</body>
+    <body>
+        <!-- Title -->
+        <div class="post">
+            <header class="post-header">
+                <h1 class="post-title" style="color: var(--global-theme-color);">{{ page.title }}
+                <a
+                    href="{{ "/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf" | relative_url }}"
+                    download="[Marco Rosso] Curriculum Vitae.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="float-right"
+                    /*style="color: var(--global-text-color);"*/
+                    ><i class="fa-solid fa-file-pdf"></i
+                  ></a>
+                </h1>
+                <p class="post-description">{{ page.description }}</p>
+            </header>
+        </div>
+    
+        <!-- Embed the PDF using iframe for better mobile support -->
+        <div class="iframe-container">
+            <iframe src="{{ site.baseurl }}/assets/pdf/[Marco Rosso] Curriculum Vitae.pdf" title="curriculum vitae"></iframe>
+        </div>
+    
+        <!-- Fallback message for mobile devices -->
+        <div class="mobile-message">
+            <p><i class="fa-solid fa-triangle-exclamation" style="color: var(--global-theme-color);"></i> Apologies, but the CV is not viewable on this device. Kindly click the PDF icon to view or download it. <i class="fa-solid fa-triangle-exclamation" style="color: var(--global-theme-color);"></i></p>
+        </div>
+    </body>
 </html>
