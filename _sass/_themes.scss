@@ -3,23 +3,23 @@
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #{$white-mod};
+  --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-mod};
-  --global-footer-bg-color: #{$white-mod};
-  --global-footer-text-color: #{$purple-color};
-  --global-footer-link-color: #{$purple-color};
+  --global-theme-color: #{$blue-color};
+  --global-hover-color: #{$blue-color};
+  --global-hover-text-color: #{$white-color};
+  --global-footer-bg-color: #{$white-color};
+  --global-footer-text-color: #{$blue-color};
+  --global-footer-link-color: #{$blue-color};
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: #{$black-color};
-  --global-card-bg-color: #{$white-mod};
+  --global-card-bg-color: #{$white-color};
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
-  --global-back-to-top-text-color: #{$white-mod};
-  --global-newsletter-bg-color: #{$white-mod};
+  --global-back-to-top-text-color: #{$white-color};
+  --global-newsletter-bg-color: #{$white-color};
   --global-newsletter-text-color: #{$black-color};
 
   --global-tip-block: #42b983;
@@ -35,6 +35,27 @@
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
+  #light-toggle-system {
+    padding-left: 10px;
+    padding-top: 12px;
+    display: block;
+  }
+
+  #light-toggle-dark {
+    display: none;
+  }
+
+  #light-toggle-light {
+    display: none;
+  }
+
+  .repo-img-light {
+    display: block;
+  }
+  .repo-img-dark {
+    display: none;
+  }
+
   #back-to-top {
     color: var(--global-back-to-top-text-color);
     background: var(--global-back-to-top-bg-color);
@@ -49,21 +70,34 @@
 html[data-theme="dark"] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$white-mod};
-  --global-text-color-light: #{$white-mod};
+  --global-text-color: #{$grey-color-light};
+  --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$yellow-color};
   --global-hover-color: #{$yellow-color};
-  --global-hover-text-color: #{$white-mod};
+  --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$yellow-color};
   --global-footer-link-color: #{$yellow-color};
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #{$white-mod};
-  --global-card-bg-color: #{$white-color};
+  --global-divider-color: #{$white-color};
+  --global-card-bg-color: #{$grey-900};
   --global-back-to-top-bg-color: rgba(#{red($white-color)}, #{green($white-color)}, #{blue($white-color)}, 0.5);
   --global-back-to-top-text-color: #{$black-color};
-  --global-newsletter-bg-color: #{$white-mod};
+  --global-newsletter-bg-color: #{$grey-color-light};
   --global-newsletter-text-color: #{$grey-color-dark};
+
+  --global-tip-block: #42b983;
+  --global-tip-block-bg: #e2f5ec;
+  --global-tip-block-text: #215d42;
+  --global-tip-block-title: #359469;
+  --global-warning-block: #e7c000;
+  --global-warning-block-bg: #fff8d8;
+  --global-warning-block-text: #6b5900;
+  --global-warning-block-title: #b29400;
+  --global-danger-block: #c00;
+  --global-danger-block-bg: #ffe0e0;
+  --global-danger-block-text: #600;
+  --global-danger-block-title: #c00;
 
   .repo-img-light {
     display: none;
@@ -74,6 +108,10 @@ html[data-theme="dark"] {
 }
 
 html[data-theme-setting="dark"] {
+  #light-toggle-system {
+    display: none;
+  }
+
   #light-toggle-dark {
     padding-left: 10px;
     padding-top: 12px;
@@ -91,6 +129,10 @@ html[data-theme-setting="dark"] {
 }
 
 html[data-theme-setting="light"] {
+  #light-toggle-system {
+    display: none;
+  }
+
   #light-toggle-dark {
     display: none;
   }
