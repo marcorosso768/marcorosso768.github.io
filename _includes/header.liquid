@@ -123,11 +123,11 @@
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
-              <input type="checkbox" id="theme-toggle" class="theme-toggle" />
-              <label for="theme-toggle" class="theme-label">
-                <i class="ti ti-sun-filled"></i>
-                <i class="ti ti-moon-filled"></i>
-              </label>
+              <button id="light-toggle" title="Change theme">
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+              </button>
             </li>
           {% endif %}
         </ul>
