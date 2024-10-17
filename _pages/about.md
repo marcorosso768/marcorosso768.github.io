@@ -26,8 +26,12 @@ I am a 4<sup>th</sup>-year Ph.D. student in Economics under the supervision of [
 My research interests include political, crime, experimental, and behavioral economics, both theoretically and empirically.
 
 Currently, I am focusing on:
-<ul>
+ <ul>
   <li>Self-Selection and Corruption</li>
   <li>Local Crime News and Voting Behavior</li>
   <li>Effects of Erasmus Programs on Voting</li>
 </ul>
+
+In addition to my Research Activities, I am the Teaching Assistant for the following courses: Introduction to Behavioral Economics, Game Theory, Political Economy, and Microeconomics.
+
+I am also proud to organize the <span style="color: var(--global-theme-color);">DSE Afterwork Drinks</span>, a monthly informal meeting where Faculty, Research Fellows, and Ph.D. Students can meet to discuss various topics while enjoying a beverage.
