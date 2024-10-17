@@ -21,9 +21,9 @@ social: true # includes social icons at the bottom of the page
 
 Welcome to my personal website, I am glad you are here on purpose!
 
-I am a <b>4<sup>th</sup>-year Ph.D. Student in Economics</b> under the supervision of [Paolo Vanin](https://sites.google.com/site/paolovanin/) and a <b>Research Fellow</b>&mdash;working with [Giovanni Prarolo](https://sites.google.com/site/giovanniprarolo/)&mdash;at the University of Bologna.
+I am a <b><u>4<sup>th</sup>-year Ph.D. Student in Economics</u></b> under the supervision of [Paolo Vanin](https://sites.google.com/site/paolovanin/) and a <b><u>Research Fellow</u></b>&mdash;working with [Giovanni Prarolo](https://sites.google.com/site/giovanniprarolo/)&mdash;at the University of Bologna.
 
-My <b>Research Interests</b> include <b>Political</b>, <b>Crime</b>, <b>Experimental</b>, and <b>Behavioral Economics</b>, both theoretically and empirically.
+My <b><u>Research Interests</u></b> include <b><u>Political</u></b>, <b><u>Crime</u></b>, <b><u>Experimental</u></b>, and <b><u>Behavioral Economics</u></b>, both theoretically and empirically.
 
 Currently, I am focusing on:
  <ul>
@@ -32,6 +32,6 @@ Currently, I am focusing on:
   <li>Effects of Erasmus Programs on Voting</li>
 </ul>
 
-In addition to my Research Activities, I am the <b>Teaching Assistant</b> for the following courses: <b>Introduction to Behavioral Economics</b>, <b>Game Theory</b>, <b>Political Economy</b>, and <b>Microeconomics</b>.
+In addition to my Research Activities, I am the <b><u>Teaching Assistant</u></b> for the following courses: <b><u>Introduction to Behavioral Economics</u></b>, <b><u>Game Theory</u></b>, <b><u>Political Economy</u></b>, and <b><u>Microeconomics</u></b>.
 
-I am also proud to organize the <b>DSE Afterwork Drinks</b>, a monthly informal meeting where Faculty, Research Fellows, and Ph.D. Students can meet to discuss various topics while enjoying a beverage.
+I am also proud to organize the <b><u>DSE Afterwork Drinks</u></b>, a monthly informal meeting where Faculty, Research Fellows, and Ph.D. Students can meet to discuss various topics while enjoying a beverage.
