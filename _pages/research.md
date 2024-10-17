@@ -48,7 +48,7 @@ nav_order: 1
 <!-- Hide Working Papers by default -->
 <div id="working-papers-content" style="display: block">
 
-  <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i>Crime Perception and Voting Behaviour: Evidence from Individual Data</i>, joint with <a href="https://sites.google.com/site/giovanniprarolo/"> Giovanni Prarolo </a> </p>
+  <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i>Crime Perception and Voting Behavior: Evidence from Individual Data</i>, joint with <a href="https://sites.google.com/site/giovanniprarolo/"> Giovanni Prarolo </a> </p>
   
   <!-- Abstract toggle link with triangle -->
   <p style="margin: 0; margin-left: 10px;">
