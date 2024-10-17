@@ -9,7 +9,7 @@ subtitle: >
 
 profile:
   align: center-right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: true # crops the image to make it circular
  # more_info: >
  #       <p><i class="fa-solid fa-location-dot"></i> Buenos Aires, Argentina</p>
