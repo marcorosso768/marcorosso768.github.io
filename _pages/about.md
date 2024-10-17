@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-       <p> <i class="fa fa-fw fa-map-marker"></i> Buenos Aires, Argentina</p>
+       <p><i class="fa-solid fa-location-dot"></i> Buenos Aires, Argentina</p>
 #       <p>123 your address street</p>
 #       <p>Your City, State 12345</p>
     
@@ -21,9 +21,9 @@ social: true # includes social icons at the bottom of the page
 
 Welcome to my personal website, I am glad you are here on purpose!
 
-I am a <b>4<sup>th</sup>-year Ph.D. Student in Economics</b> under the supervision of [Paolo Vanin](https://sites.google.com/site/paolovanin/) and a <b>Research Fellow</u></b>&mdash;working with [Giovanni Prarolo](https://sites.google.com/site/giovanniprarolo/)&mdash;at the University of Bologna.
+I am a <b>4<sup>th</sup>-year Ph.D. Student in Economics</b> under the supervision of [Paolo Vanin](https://sites.google.com/site/paolovanin/) and a <b>Research Fellow</b>&mdash;working with [Giovanni Prarolo](https://sites.google.com/site/giovanniprarolo/)&mdash;at the University of Bologna.
 
-My <b>Research Interests</u></b> include <b>Political</u></b>, <b>Crime</u></b>, <b>Experimental</u></b>, and <b>Behavioral Economics</u></b>, both theoretically and empirically.
+My <b>Research Interests</b> include <b>Political</b>, <b>Crime</b>, <b>Experimental</b>, and <b>Behavioral Economics</b>, both theoretically and empirically.
 
 Currently, I am focusing on:
  <ul>
@@ -32,6 +32,6 @@ Currently, I am focusing on:
   <li>Effects of Erasmus Programs on Voting</li>
 </ul>
 
-In addition to my Research Activities, I am the <b>Teaching Assistant</u></b> for the following courses: <b>Introduction to Behavioral Economics</u></b>, <b>Game Theory</u></b>, <b>Political Economy</u></b>, and <b>Microeconomics</u></b>.
+In addition to my Research Activities, I am the <b>Teaching Assistant</b> for the following courses: <b>Introduction to Behavioral Economics</b>, <b>Game Theory</b>, <b>Political Economy</b>, and <b>Microeconomics</b>.
 
-I am also proud to organize the <b>DSE Afterwork Drinks</u></b>, a monthly informal meeting where Faculty, Research Fellows, and Ph.D. Students can meet to discuss various topics while enjoying a beverage.
+I am also proud to organize the <b>DSE Afterwork Drinks</b>, a monthly informal meeting where Faculty, Research Fellows, and Ph.D. Students can meet to discuss various topics while enjoying a beverage.
