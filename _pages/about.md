@@ -3,9 +3,9 @@ layout: about
 title: about me
 permalink: /
 subtitle: >
-  <a href='https://www.unibo.it/en/homepage'>University of Bologna</a>, <a href='https://dse.unibo.it/en'>Department of Economics</a> <br>
+  <a style="margin-top: -30px;" href='https://www.unibo.it/en/homepage'>University of Bologna</a>, <a href='https://dse.unibo.it/en'>Department of Economics</a> <br>
   <a href='https://goo.gl/maps/1icot9p1g97AWCD37'>Piazza Scaravilli 2, 40126, Bologna</a> <br>
-  <p style="font-size: 10pt; margin-top: -10px;"> <i class="fa-solid fa-location-dot"></i> Buenos Aires, Argentina</p>
+  <p style="font-size: 10pt; margin-top: -15px;"> <i class="fa-solid fa-location-dot"></i> Buenos Aires, Argentina</p>
 
 profile:
   align: center-right
