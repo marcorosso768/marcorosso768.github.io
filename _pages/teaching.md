@@ -18,7 +18,7 @@ nav_order: 2
 <div id="current-courses-content" style="display: block;">
   <p><b>2024/25</b></p>
     
-  <p style="padding-left: 20px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'><i>Political Economy</i></a> <br> Economics, Politics and Social Sciences, <i> University of Bologna </i> <br> Assistant to <a href='https://www.unibo.it/sitoweb/enrico.cantoni'>Enrico Cantoni<a/> </p>
+  <p style="padding-left: 20px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'><i>Political Economy</i></a> <br> Economics, Politics and Social Sciences, <i> University of Bologna </i> <br> Assistant to <a href='https://www.unibo.it/sitoweb/enrico.cantoni'>Enrico Cantoni</a> </p>
   
   <p style="padding-left: 20px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/502710'><i>Microeconomics</i></a> <br> Economics, Politics and Social Sciences, <i> University of Bologna </i> <br> Assistant to <a href='https://www.unibo.it/sitoweb/marco.casari'>Marco Casari</a> </p>
   
@@ -27,6 +27,7 @@ nav_order: 2
   <p style="padding-left: 20px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Master Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/491971'><i>Game Theory</i></a> <br> Economics and Econometrics, <i> University of Bologna </i> <br> Assistant to <a href='https://www.unibo.it/sitoweb/andrea.mattozzi'>Andrea Mattozzi</a> </p>
   
   <p style="padding-left: 20px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/467276'><i>Introduction to Behavioral Economics</i></a> <br> Economics and Finance, <i> University of Bologna </i> <br> Assistant to <a href='https://www.unibo.it/sitoweb/maria.bigoni'>Maria Bigoni</a> </p>
+
 </div>
 <!-- end -->
 
