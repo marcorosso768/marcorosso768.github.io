@@ -19,23 +19,17 @@
       {% include scripts/newsletter.liquid %}
     {% endif %}
 
-     <div class="container mt-0 d-flex justify-content-between align-items-center">
-        <div class="copyright">
-          &copy; Copyright {{ site.time | date: '%Y' }}
-          {{ site.first_name }}
-          {{ site.middle_name }}
-          {{ site.last_name }}. {{ site.footer_text }}
-        </div>
-        <div class="impressum">
-          {% if site.impressum_path %}
-            <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-          {% endif %}
-        </div>
-        <div class="last-updated text-right">
-          {% if site.last_updated %}
-            Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-          {% endif %}
-        </div>
-      </div>
+         <div class="container mt-0">
+      &copy; Copyright {{ site.time | date: '%Y' }}
+      {{ site.first_name }}
+      {{ site.middle_name }}
+      {{ site.last_name }}. {{ site.footer_text }}
+      {% if site.impressum_path %}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+      {% endif %}
+      {% if site.last_updated %}
+        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+      {% endif %}
+    </div>
   </footer>
 {% endif %}
