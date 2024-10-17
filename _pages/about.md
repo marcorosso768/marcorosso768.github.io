@@ -24,7 +24,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Welcome to my personal website, I am glad you are here on purpose!.
+Welcome to my personal website, I am glad you are here on purpose!
 
 I am a <b style="color: $white-color;">4<sup>th</sup>-year Ph.D. Student in Economics</b> under the supervision of [Paolo Vanin](https://sites.google.com/site/paolovanin/) and a <b style="color: $white-color;">Research Fellow</b>&mdash;working with [Giovanni Prarolo](https://sites.google.com/site/giovanniprarolo/)&mdash;at the University of Bologna.
 
