@@ -18,7 +18,7 @@ nav_order: 2
 <div id="current-courses-content" style="display: block;">
   <p><b>2024/25</b></p>
     
-  <p style="padding-left: 20px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <span style="color: var(--global-theme-color);"><i>Political Economy</i></span> <br> Economics, Politics and Social Sciences, <i> University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Enrico Cantoni</span> </p>
+  <p style="padding-left: 20px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <i>[Political Economy](https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855)</i> <br> Economics, Politics and Social Sciences, <i> University of Bologna </i> <br> Assistant to [Enrico Cantoni](https://www.unibo.it/sitoweb/enrico.cantoni) </p>
   
   <p style="padding-left: 20px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <span style="color: var(--global-theme-color);">Teaching Assistant</span> for the Undergraduate Course <span style="color: var(--global-theme-color);"><i>Microeconomics</i></span> <br> Economics, Politics and Social Sciences, <i> University of Bologna </i> <br> Assistant to <span style="color: var(--global-theme-color);">Marco Casari</span> </p>
   
