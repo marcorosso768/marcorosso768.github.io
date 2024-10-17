@@ -2,15 +2,13 @@
 layout: about
 title: about me
 permalink: /
-subtitle: <a href='https://www.unibo.it/en/homepage'>University of Bologna</a>, <a href='https://dse.unibo.it/en'>Department of Economics</a> <br> <a href='https://goo.gl/maps/1icot9p1g97AWCD37'>Piazza Scaravilli 2, 40126, Bologna</a>
+subtitle: <p><i class="fa-solid fa-location-dot"></i> Buenos Aires, Argentina</p> <br> <a href='https://www.unibo.it/en/homepage'>University of Bologna</a>, <a href='https://dse.unibo.it/en'>Department of Economics</a> <br> <a href='https://goo.gl/maps/1icot9p1g97AWCD37'>Piazza Scaravilli 2, 40126, Bologna</a>
 
 profile:
   align: center-right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  more_info: >
-      <p><i class="fa-solid fa-location-dot"></i> Buenos Aires, Argentina</p>
-
+ # more_info: >
 #       <p>555 your office number</p>
 #       <p>123 your address street</p>
 #       <p>Your City, State 12345</p>
