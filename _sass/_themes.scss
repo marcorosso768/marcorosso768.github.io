@@ -3,23 +3,23 @@
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #{$white-mod};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$purple-color};
   --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$white-color};
+  --global-hover-text-color: #{$white-mod};
+  --global-footer-bg-color: #{$white-mod};
   --global-footer-text-color: #{$purple-color};
   --global-footer-link-color: #{$purple-color};
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: #{$black-color};
-  --global-card-bg-color: #{$white-color};
+  --global-card-bg-color: #{$white-mod};
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
-  --global-back-to-top-text-color: #{$white-color};
-  --global-newsletter-bg-color: #{$white-color};
+  --global-back-to-top-text-color: #{$white-mod};
+  --global-newsletter-bg-color: #{$white-mod};
   --global-newsletter-text-color: #{$black-color};
 
   --global-tip-block: #42b983;
@@ -74,12 +74,12 @@ html[data-theme="dark"] {
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$yellow-color};
   --global-hover-color: #{$yellow-color};
-  --global-hover-text-color: #{$white-color};
+  --global-hover-text-color: #{$white-mod};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$yellow-color};
   --global-footer-link-color: #{$yellow-color};
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #{$white-color};
+  --global-divider-color: #{$white-mod};
   --global-card-bg-color: #{$grey-900};
   --global-back-to-top-bg-color: rgba(#{red($white-color)}, #{green($white-color)}, #{blue($white-color)}, 0.5);
   --global-back-to-top-text-color: #{$black-color};
