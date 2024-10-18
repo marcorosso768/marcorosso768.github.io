@@ -70,8 +70,8 @@
 html[data-theme="dark"] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
+  --global-text-color: #{$white-mod};
+  --global-text-color-light: #{$white-mod};
   --global-theme-color: #{$yellow-color};
   --global-hover-color: #{$yellow-color};
   --global-hover-text-color: #{$white-mod};
@@ -80,10 +80,10 @@ html[data-theme="dark"] {
   --global-footer-link-color: #{$yellow-color};
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #{$white-mod};
-  --global-card-bg-color: #{$grey-900};
-  --global-back-to-top-bg-color: rgba(#{red($white-mod)}, #{green($white-mod)}, #{blue($white-mod)}, 0.5);
+  --global-card-bg-color: #{$white-color};
+  --global-back-to-top-bg-color: rgba(#{red($white-color)}, #{green($white-color)}, #{blue($white-color)}, 0.5);
   --global-back-to-top-text-color: #{$black-color};
-  --global-newsletter-bg-color: #{$grey-color-light};
+  --global-newsletter-bg-color: #{$white-mod};
   --global-newsletter-text-color: #{$grey-color-dark};
 
   --global-tip-block: #42b983;
