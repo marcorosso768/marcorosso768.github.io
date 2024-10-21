@@ -2,4 +2,4 @@
 
 [<i class="fa-solid fa-envelope"></i> paolo.vanin@unibo.it](mailto:paolo.vanin@unibo.it) <br>
 [<i class="fa-solid fa-graduation-cap"></i> UniBo website](https://www.unibo.it/sitoweb/paolo.vanin/en) <br>
-[<i class="fa-solid fa-arrow-up-right-from-square"></i> Personal website](https://sites.google.com/site/paolovanin/)
+[<i class="fa-solid fa-link"></i> Personal website](https://sites.google.com/site/paolovanin/)
