@@ -11,17 +11,14 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: right
     image: prof_pic.jpg
-    content: >
-      <p>prova</p>
+    content: about.md
     image_circular: true # crops the image to make it circular
   - align: left
     image: prof_pic.jpg
-    content: >
-      <p>prova</p>
+    content: about.md
     image_circular: true # crops the image to make it circular
   - align: right
     image: prof_pic.jpg
-    content: >
-      <p>prova</p>
+    content: about.md
     image_circular: true # crops the image to make it circular
 ---
