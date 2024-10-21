@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /references/
 title: references
-description: references
+description:
 nav: false
 nav_order:
 
