@@ -13,7 +13,7 @@ profiles:
     image: prof_pic_PV.png
     content: about_PV.md
     image_circular: true # crops the image to make it circular
-  - align: left
+  - align: right
     image: prof_pic_GP.jpeg
     content: about_GP.md
     image_circular: true # crops the image to make it circular
