@@ -5,7 +5,7 @@ layout: page
   <article>
     {% if page.profiles %}
       {% for profile in page.profiles %}
-        <hr1>
+        <hr id="profile">
         <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
           {% if profile.image %}
             {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
