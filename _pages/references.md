@@ -12,16 +12,16 @@ profiles:
   - align: right
     image: prof_pic.jpg
     content: >
-      <p></p>
+      <p>prova</p>
     image_circular: true # crops the image to make it circular
   - align: left
     image: prof_pic.jpg
     content: >
-      <p></p>
+      <p>prova</p>
     image_circular: true # crops the image to make it circular
   - align: right
     image: prof_pic.jpg
     content: >
-      <p></p>
+      <p>prova</p>
     image_circular: true # crops the image to make it circular
 ---
