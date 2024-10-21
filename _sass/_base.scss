@@ -23,6 +23,11 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
+hr.profile {
+  border-top: 1px solid var(--global-theme-color);
+  width: 100%;
+}
+
 table {
   td,
   th {
