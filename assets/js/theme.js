@@ -3,10 +3,10 @@
 // Toggle through light and dark theme settings.
 let toggleThemeSetting = () => {
   let themeSetting = determineThemeSetting();
-  if (themeSetting == "light") {
-    setThemeSetting("dark");
-  } else {
+  if (themeSetting == "dark") {
     setThemeSetting("light");
+  } else {
+    setThemeSetting("dark");
   }
 };
 
@@ -231,7 +231,7 @@ let initTheme = () => {
   });
 
   // Add event listener to the system theme preference change.
-  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches }) => {
-    applyTheme();
-  });
+  //window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches }) => {
+  //  applyTheme();
+  //});
 };
