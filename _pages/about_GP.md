@@ -4,4 +4,4 @@
 
 [<i class="fa-solid fa-envelope"></i> &nbsp;giovanni.prarolo@unibo.it](mailto:giovanni.prarolo@unibo.it) <br>
 [<i class="fa-solid fa-building-columns"></i> UniBo website](https://www.unibo.it/sitoweb/giovanni.prarolo/en) <br>
-[<i class="fa-solid fa-arrow-up-right-from-square"></i> &nbsp;personal website](https://sites.google.com/site/giovanniprarolo/)
+[<i class="fa-solid fa-globe"></i> &nbsp;personal website](https://sites.google.com/site/giovanniprarolo/)
