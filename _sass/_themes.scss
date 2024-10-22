@@ -2,7 +2,7 @@
  * Themes
  ******************************************************************************/
 
-:root {
+html[data-theme="light"] {
   --global-bg-color: #{$white-mod};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
@@ -34,16 +34,6 @@
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
-
-  #light-toggle-light {
-    padding-left: 10px;
-    padding-top: 12px;
-    display: block;
-  }
-
-  #light-toggle-dark {
-    display: none;
-  }
 
   .repo-img-light {
     display: block;
@@ -104,16 +94,16 @@ html[data-theme="dark"] {
 }
 
 html[data-theme-setting="dark"] {
-  #light-toggle-light {
-    display: none;
-  }
-
-  #light-toggle-dark {
+   #light-toggle-dark {
     padding-left: 10px;
     padding-top: 12px;
     display: block;
   }
-
+  
+  #light-toggle-light {
+    display: none;
+  }
+  
   #back-to-top {
     color: var(--global-back-to-top-text-color);
     background: var(--global-back-to-top-bg-color);
