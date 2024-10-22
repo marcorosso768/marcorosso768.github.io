@@ -2,6 +2,8 @@
 
 <span style="font-size: 15pt;"> Full Professor </span> <br> Department of Economics <br> <span style="font-size: 10pt;"> Academic discipline: ECON-02/A Economic Policy </span> <br> <span style="font-size: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italy</span>
 
+Research Interests: Question-, Data-, and Tool-Driven, erratic around the themes of Political Economics, Long-Term Development, the Role of Trade, and Cultural Diversity.
+
 [<i class="fa-solid fa-envelope"></i> &nbsp;giovanni.prarolo@unibo.it](mailto:giovanni.prarolo@unibo.it) <br>
 [<i class="fa-solid fa-building-columns"></i> &nbsp;UniBo website](https://www.unibo.it/sitoweb/giovanni.prarolo/en) <br>
 [<i class="fa-solid fa-globe"></i> &nbsp;personal website](https://sites.google.com/site/giovanniprarolo/)
