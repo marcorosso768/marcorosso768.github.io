@@ -21,7 +21,7 @@ let setThemeSetting = (themeSetting) => {
 
 // Apply the computed dark or light theme to the website.
 let applyTheme = () => {
-  let theme = determineComputedTheme();
+  let theme = determineThemeSetting();
 
   transTheme();
   setHighlight(theme);
@@ -203,31 +203,17 @@ let transTheme = () => {
   }, 500);
 };
 
-// Determine the expected state of the theme toggle, which can be "dark" or "light".
-// Default is the user's system theme.
+// Determine the expected state of the theme toggle, which can be "dark" or "light". Default is user's system theme.
 let determineThemeSetting = () => {
   let themeSetting = localStorage.getItem("theme");
   if (themeSetting != "dark" && themeSetting != "light") {
-    const userPref = window.matchMedia;
-    if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
-      return "dark";
+   if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      themeSetting = "dark";
     } else {
-      return "light";
-  }
-  return themeSetting
-};
-
-// Determine the computed theme, which can be "dark" or "light". If not, 
-// the computed theme is determined based on the user's system preference.
-let determineComputedTheme = () => {
-  let themeSetting = determineThemeSetting();
-    const userPref = window.matchMedia;
-    if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
-      return "dark";
-    } else {
-      return "light";
+      themeSetting = "light";
     }
   }
+  return themeSetting;
 };
 
 let initTheme = () => {
