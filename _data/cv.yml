@@ -18,7 +18,7 @@
       institution: University of Bologna
       department: Depeartment of Economics
       location: Bologna, Italy
-      description: supervisor: Paolo Vanin
+      description: "supervisor: Paolo Vanin"
     - title: Master of Arts in Economics
       year: June 2020
       location: Turin, Italy
@@ -28,7 +28,7 @@
       location: Turin, Italy
       institution: University of Turin
       department: Department of Economics
-      description: supervisor: Giovanni Mastrobuoni
+      description: "supervisor: Giovanni Mastrobuoni"
     - title: "Bachelor's degree of Mathematics"
       year: December 2015
       location: Turin, Italy
@@ -43,13 +43,13 @@
       location: "Buones Aires, <br> Argentina"
       institution: Universidad de San Andrés
       department: Department of Economics
-      description: local advisor: Tommy E. Murphy
+      description: "local advisor: Tommy E. Murphy"
     - title: "Visitor Master's Candidate"
       year: Jan-Mar 2019
       location: Turin, Italy
       institution: Regional Public Health Observatory (SEPI)
       department: Public Health Department (Local Health Board TO3)
-      description: supervisor: Fulvio Ricceri
+      description: "supervisor: Fulvio Ricceri"
 
 - title: academic activities
 
