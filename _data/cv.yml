@@ -68,13 +68,18 @@
   type: list_groups_language
   contents: [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "Italian",
+      "fluency": "Native",
       "icon": ""
     },
     {
       "language": "English",
       "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Basic",
       "icon": ""
     }
   ]
