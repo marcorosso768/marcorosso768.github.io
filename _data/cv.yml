@@ -113,14 +113,3 @@
     - title: Co-founder and co-organizer of the Reading Group on “Political Economics of Violence and Corruption”
       year: "2021-2022"
       institution: University of Bologna
-
-- title: hobbies
-  type: list_groups
-  contents:
-    - name: "<i class="fa-solid fa-martini-glass" style="color:var(--global-theme-color);"></i>&nbsp; mixologist"
-    - name: "<i class="fa-solid fa-book-open" style="color:var(--global-theme-color);"></i>&nbsp; comics"
-    - name: "<i class="fa-solid fa-baseball" style="color:var(--global-theme-color);"></i>&nbsp; tennis"
-    - name: "<i class="fa-regular fa-futbol" style="color:var(--global-theme-color);"></i>&nbsp; soccer"
-    - name: "<i class="fa-solid fa-mountain" style="color:var(--global-theme-color);"></i>&nbsp; climbing"
-    - name: "<i class="fa-solid fa-person-running" style="color:var(--global-theme-color);"></i>&nbsp; running"
-    - name: "<i class="fa-solid fa-gamepad" style="color:var(--global-theme-color);"></i>&nbsp; games"
