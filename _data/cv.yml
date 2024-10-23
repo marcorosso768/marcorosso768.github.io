@@ -18,7 +18,7 @@
       institution: University of Bologna
       department: DSE - Depeartment of Economics
       location: "Bologna, <br> Italy"
-      maindescription: "supervisor: Paolo Vanin"
+      maindescription: 'supervisor: <a href="https://sites.google.com/site/paolovanin/">Paolo Vanin</a>'
     - title: Master of Arts in Economics
       year: "2020"
       location: "Turin, <br> Italy"
@@ -28,7 +28,7 @@
       location: "Turin, <br> Italy"
       institution: University of Turin
       department: ESOMAS - Department of Economics
-      maindescription: "supervisor: Giovanni Mastrobuoni"
+      maindescription: 'supervisor: <a href="https://sites.google.com/site/giovannimastrobuoni/">Giovanni Mastrobuoni</a>'
     - title: "Bachelor's degree of Mathematics"
       year: "2015"
       location: "Turin, <br> Italy"
@@ -44,13 +44,13 @@
       location: "Buones Aires, <br> Argentina"
       institution: Universidad de San Andrés
       department: Departamento de Economía
-      maindescription: "local advisor: Tommy E. Murphy"
+      maindescription: 'local advisor: <a href="https://www.tommy-e-murphy.com">Tommy E. Murphy</a>'
     - title: "Visitor Master's Candidate"
       year: winter 2019
       location: "Turin, <br> Italy"
       institution: Regional Public Health Observatory (SEPI)
       department: Public Health Department (Local Health Board TO3)
-      maindescription: "supervisor: Fulvio Ricceri"
+      maindescription: 'supervisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
 
 - title: academic activities
   type: time_table
@@ -60,7 +60,7 @@
       location: "Bologna, <br> Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
-      maindescription: "supervisors: Jonathan Neil Chapman and Giovanni Prarolo"
+      maindescription: 'supervisors: <a href="https://jnchapman.com">Jonathan Neil Chapman</a> and <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
     - title: Participation on the Committee for the International SAT Test used for University Admissions
       year: "2024"
       location: "Bologna, <br> Italy"
@@ -70,19 +70,19 @@
       location: "Bologna, <br> Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
-      maindescription: "supervisors: Maria Bigoni and Stefania Bortolotti"
+      maindescription: 'supervisors: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en">Maria Bigoni</a> and <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
     - title: Generation and Preparation of Support Material for the Econometrics Course
       year: "2023"
       location: "Bologna, <br> Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
-      maindescription: "supervisors: Margherita Fort and Denni Tommasi"
+      maindescription: 'supervisors: <a href="https://www.unibo.it/sitoweb/margherita.fort/en">Margherita Fort</a> and <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
     - title: Research Assistant
       year: "2018"
       location: "Turin, <br> Italy"
       institution: Collegio Carlo Alberto
       department: Center for Research on Pensions and Welfare Policies (CeRP)
-      maindescription: "supervisor: Elsa Fornero"
+      maindescription: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero</a>'
 
 - title: refereeing for academic journals
   type: map
@@ -106,7 +106,7 @@
     - title: 'Organizer of the "Department Afterwork Drinks"'
       year: 2022-
       institution: University of Bologna
-    - title: Co-organizer of the “Research in Steps” (RiS) Seminars Series for Ph.D. Students
+    - title: 'Co-organizer of the "Research in Steps" (RiS) Seminars Series for Ph.D. Students'
       year: 2022-2023
       institution: University of Bologna
     - title: 'Co-founder and co-organizer of the Reading Group on "Political Economics of Violence and Corruption"'
