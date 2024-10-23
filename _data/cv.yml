@@ -29,7 +29,13 @@
 - title: hobbies
   type: list
   contents:
-    - <span style="border-width:3px; border-style:solid; border-color:#FF0000; padding: 1em;">mixologist</span> comics, tennis, soccer, climbing, running, games
+    - <i class="fa-solid fa-martini-glass" style="color:var(--global-theme-color);"></i>mixologist comics, tennis, soccer, climbing, running, games
+
+
+
+
+
+
 
 - title: General Information
   type: map
