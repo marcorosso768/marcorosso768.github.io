@@ -48,11 +48,11 @@ nav_order: 1
 <!-- Hide Working Papers by default -->
 <div id="working-papers-content" style="display: block">
 
-  <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i>Crime Perception and Voting Behavior: Evidence from Individual Data</i>, joint with <a href="https://sites.google.com/site/giovanniprarolo/"><i> Giovanni Prarolo </i>i></a> </p>
+  <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i>Crime Perception and Voting Behavior: Evidence from Individual Data</i>, joint with <a href="https://sites.google.com/site/giovanniprarolo/"><i> Giovanni Prarolo </i></a> </p>
   
   <!-- Abstract toggle link with triangle -->
   <p style="margin: 0; margin-left: 10px;">
-    <a href="javascript:void(0);" id="toggle-abstract-2" onclick="toggleAbstract('abstract-2')"><i>&#9657; Abstract</i>i></a>
+    <a href="javascript:void(0);" id="toggle-abstract-2" onclick="toggleAbstract('abstract-2')"><i>&#9657; Abstract</i></a>
   </p>
   
   <!-- Abstract content hidden by default -->
