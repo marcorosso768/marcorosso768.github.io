@@ -34,7 +34,7 @@
       location: Turin, Italy
       institution: University of Turin
       department: Department of Mathematics
-      maindescription: "supervisor: <a href:"https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis</a>"
+      maindescription: 'supervisor: <a href:"https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis</a>'
 
 - title: visiting periods
   type: time_table
