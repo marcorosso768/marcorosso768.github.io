@@ -116,31 +116,30 @@
 - title: languages
   type: list_groups
   contents:
-    - category: "Languages"
+    - category: "Italian"
       items:
-        - name: "Italian"
-          level: "native"
-        - name: "English"
-          level: "fluent"
-        - name: "Spanish"
-          level: "basic"
+        - level: "native"
+    - category: "English"
+      items:
+        - level: "fluent"
+    - category: "Spanish"
+      items:
+        - level: "basic"
 
 - title: hobbies
   type: list_groups
   contents:
-    - category: "Hobbies"
-      items:
-        - name: "mixology"
-          icon: "fa-solid fa-martini-glass"
-        - name: "comics"
-          icon: "fa-solid fa-book-open"
-        - name: "tennis"
-          icon: "fa-solid fa-baseball"
-        - name: "soccer"
-          icon: "fa-regular fa-futbol"
-        - name: "climbing"
-          icon: "fa-solid fa-mountain"
-        - name: "running"
-          icon: "fa-solid fa-person-running"
-        - name: "games"
-          icon: "fa-solid fa-gamepad"
+    - category: "mixology"
+      icon: "fa-solid fa-martini-glass"
+    - category: "comics"
+      icon: "fa-solid fa-book-open"
+    - category: "tennis"
+      icon: "fa-solid fa-baseball"
+    - category: "soccer"
+      icon: "fa-regular fa-futbol"
+    - category: "climbing"
+      icon: "fa-solid fa-mountain"
+    - category: "running"
+      icon: "fa-solid fa-person-running"
+    - category: "games"
+      icon: "fa-solid fa-gamepad"
