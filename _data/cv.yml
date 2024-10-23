@@ -29,7 +29,7 @@
   type: map
   contents:
     - name: 
-      value: <span style="color: var(--global-theme-color);">•</span> <i>Journal of Economics & Management Strategy</i>
+      value: <span style="color: var(--global-theme-color);">•</span> Journal of Economics & Management Strategy
 
 - title: awards, grants, and scholarships
   type: time_table
