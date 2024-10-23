@@ -548,7 +548,7 @@ footer.sticky-bottom {
 
 .flex-item {
   flex: 1 1 auto; /* Allow the items to grow and shrink */
-  width: 150px; /* Set the minimum width for each column */
+  width: 100px; /* Set the minimum width for each column */
   /* max-width: 150px; /* Optional: limit the maximum width for each column */
   margin: 10px; /* Add spacing between columns */
   box-sizing: border-box; /* Ensure padding and border are included in the width */
