@@ -15,13 +15,37 @@
   contents:
     - title: Ph.D. in Economics
       year: since 2020
+      institution: University of Bologna
+      department: Depeartment of Economics
       location: Bologna, Italy
     - title: Master of Arts in Economics
       year: June 2020
       location: Turin, Italy
-      department: Collegio Carlo Alberto
+      institution: Collegio Carlo Alberto
+    - title: Two-Year Master Degree in Economics
+      year: March 2019
+      location: Turin, Italy
+      insitution: University of Turin
+      department: Department of Economics
+    - title: "Bachelor's degree of Mathematics"
+      year: December 2015
+      location: Turin, Italy
+      insitution: University of Turin
+      department: Departmente of Mathematics
 
 - title: visiting periods
+  type: time_table
+  contents:
+    - title: Visiting Ph.D. Student
+      year: fall 2024
+      location: Buones Aires, Argentina
+      institution: Universidad de San Andrés
+      department: Department of Economics
+    - title: "Visitor Master's Candidate"
+      year: Jan-Mar 2019
+      location: Turin, Italy
+      insitution: Regional Public Health Observatory (SEPI)
+      department: Public Health Department (Local Health Board TO3)
 
 - title: academic activities
 
@@ -34,6 +58,16 @@
 - title: awards, grants, and scholarships
 
 - title: networking activities
+
+- title: languages
+  type: list-group
+  contents:
+    - language: Italian
+    - fluency: native speaker
+    - language: English
+    - fluency: fluent
+    - language: Spanish
+    - fluency: basic
 
 - title: hobbies
   type: list
