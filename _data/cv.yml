@@ -127,9 +127,9 @@
         - name: "basic"
 
 - title: hobbies
-  type: list_groups_hobbies
+  type: list_groups
   contents:
-    - category: "mixology"
+    - category: "<span style="color:var(--global-text-color);">mixology</span>"
       icon: "fa-solid fa-martini-glass"
     - category: "comics"
       icon: "fa-solid fa-book-open"
