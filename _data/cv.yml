@@ -64,6 +64,16 @@
 
 - title: networking activities
 
+- title: languages
+  type: list_groups_language
+  contents:
+    - "language": "Italian"
+      "fluency": native speaker
+    - "language": "English"
+      "fluency": fluent
+    - language: "Spanish"
+      "fluency": basic
+
 - title: hobbies
   type: list
   contents:
