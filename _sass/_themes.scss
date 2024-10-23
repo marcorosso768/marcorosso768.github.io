@@ -122,16 +122,3 @@ html[data-theme="dark"] {
     z-index: $back-to-top-z-index;
   }
 }
-
-html[data-theme-setting="light"] {
-
-  #light-toggle-dark {
-    display: none;
-  }
-
-  #light-toggle-light {
-    padding-left: 10px;
-    padding-top: 12px;
-    display: block;
-  }
-}
