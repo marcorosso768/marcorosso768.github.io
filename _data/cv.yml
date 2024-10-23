@@ -1,3 +1,15 @@
+- title: current positions
+  type: map
+  contents:
+    - name: 
+      value: Visiting Ph.D. Student, <i>Universidad de San Andrés, Buenos Aires</i>
+    - name: 
+      value: Research Fellow, <i>University of Bologna</i>
+    - name: 
+      value: Ph.D. Candidate in Economics, <i>University of Bologna</i>
+    - name: 
+      value: Teaching Assistant, <i>University of Bologna</i>
+
 - title: General Information
   type: map
   contents:
