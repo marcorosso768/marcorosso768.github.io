@@ -2,7 +2,7 @@
  * Themes
  ******************************************************************************/
 
-:root {
+html[data-theme="light"] {
   --global-bg-color: #{$white-mod};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
