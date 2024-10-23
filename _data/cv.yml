@@ -18,6 +18,7 @@
       institution: University of Bologna
       department: Depeartment of Economics
       location: Bologna, Italy
+      maindescription: supervisor: Paolo Vanin
     - title: Master of Arts in Economics
       year: June 2020
       location: Turin, Italy
@@ -27,6 +28,7 @@
       location: Turin, Italy
       insitution: University of Turin
       department: Department of Economics
+      maindescription: supervisor: Giovanni Mastrobuoni
     - title: "Bachelor's degree of Mathematics"
       year: December 2015
       location: Turin, Italy
@@ -41,11 +43,13 @@
       location: Buones Aires, Argentina
       institution: Universidad de San Andrés
       department: Department of Economics
+      maindescription: local advisor: Tommy E. Murphy
     - title: "Visitor Master's Candidate"
       year: Jan-Mar 2019
       location: Turin, Italy
       insitution: Regional Public Health Observatory (SEPI)
       department: Public Health Department (Local Health Board TO3)
+      maindescription: supervisor: Fulvio Ricceri
 
 - title: academic activities
 
@@ -60,7 +64,7 @@
 - title: networking activities
 
 - title: languages
-  type: list-group
+  type: list-groups
   contents:
     - language: Italian
     - fluency: native speaker
