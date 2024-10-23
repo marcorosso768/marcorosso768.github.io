@@ -10,6 +10,27 @@
     - name: 
       value: Teaching Assistant, <i>University of Bologna</i>
 
+- title: fields of interest
+
+- title: education
+
+- title: visiting periods
+
+- title: academic activities
+
+- title: refereeing for academic journals
+
+- title: awards, grants, and scholarships
+
+- title: networking activities
+
+- title: languages
+
+- title: hobbies
+  type: list
+  contents:
+    - mixologist, comics, tennis, soccer, climbing, running, games
+
 - title: General Information
   type: map
   contents:
