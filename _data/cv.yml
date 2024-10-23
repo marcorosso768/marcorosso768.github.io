@@ -66,7 +66,7 @@
 
 - title: languages
   type: list_groups_language
-    contents: [
+  contents: [
     {
       "language": "German",
       "fluency": "Native speaker",
