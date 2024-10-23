@@ -41,12 +41,6 @@
   contents:
     - title: Ph.D. in Economics
 
-- title: languages
-  type: map
-  contents:
-    - name: 
-      value: Italian (native), English (fluent), and Spanish (basic)
-
 - title: hobbies
   type: list
   contents:
