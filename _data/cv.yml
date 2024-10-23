@@ -1,16 +1,14 @@
 - title: current positions
   type: map
   contents:
-    - name: <i class="fa-solid fa-graduation-cap" style="color:var(--global-theme-color);"></i>
-      value: Visiting Ph.D. Student, <i>Universidad de San Andrés, Buenos Aires</i>
-    - name: <i class="fa-solid fa-suitcase" style="color:var(--global-theme-color);"></i>
-      value: Research Fellow, <i>University of Bologna</i>
-    - name: <i class="fa-solid fa-graduation-cap" style="color:var(--global-theme-color);"></i>
-      value: Ph.D. Candidate in Economics, <i>University of Bologna</i>
-    - name: <i class="fa-solid fa-suitcase" style="color:var(--global-theme-color);"></i>
-      value: Teaching Assistant, <i>University of Bologna</i>
-
-- title: fields of interest
+    - name:
+      value: <i class="fa-solid fa-graduation-cap" style="color:var(--global-theme-color);"></i>&nbsp; Visiting Ph.D. Student, <i>Universidad de San Andrés, Buenos Aires</i>
+    - name: 
+      value: <i class="fa-solid fa-suitcase" style="color:var(--global-theme-color);"></i>&nbsp; Research Fellow, <i>University of Bologna</i>
+    - name: 
+      value: <i class="fa-solid fa-graduation-cap" style="color:var(--global-theme-color);"></i>&nbsp; Ph.D. Candidate in Economics, <i>University of Bologna</i>
+    - name: 
+      value: <i class="fa-solid fa-suitcase" style="color:var(--global-theme-color);"></i>&nbsp; Teaching Assistant, <i>University of Bologna</i>
 
 - title: education
 
@@ -29,7 +27,7 @@
 - title: hobbies
   type: list
   contents:
-    - <i class="fa-solid fa-martini-glass" style="color:var(--global-theme-color);"></i>&nbsp;mixologist <i class="fa-solid fa-book-open"style="color:var(--global-theme-color);"></i>&nbsp;comics <i class="fa-solid fa-baseball"style="color:var(--global-theme-color);"></i>&nbsp;tennis <i class="fa-regular fa-futbol"style="color:var(--global-theme-color);"></i>&nbsp;soccer <i class="fa-solid fa-mountain"style="color:var(--global-theme-color);"></i>&nbsp;climbing <i class="fa-solid fa-person-running"style="color:var(--global-theme-color);"></i>&nbsp;running <i class="fa-solid fa-gamepad"style="color:var(--global-theme-color);"></i>&nbsp;games
+    - <i class="fa-solid fa-martini-glass" style="color:var(--global-theme-color);"></i>&nbsp; mixologist &nbsp;<i class="fa-solid fa-book-open"style="color:var(--global-theme-color);"></i>&nbsp; comics &nbsp;<i class="fa-solid fa-baseball"style="color:var(--global-theme-color);"></i>&nbsp; tennis &nbsp;<i class="fa-regular fa-futbol"style="color:var(--global-theme-color);"></i>&nbsp; soccer &nbsp;<i class="fa-solid fa-mountain"style="color:var(--global-theme-color);"></i>&nbsp; climbing &nbsp;<i class="fa-solid fa-person-running"style="color:var(--global-theme-color);"></i>&nbsp; running &nbsp;<i class="fa-solid fa-gamepad"style="color:var(--global-theme-color);"></i>&nbsp; games
 
 
 
