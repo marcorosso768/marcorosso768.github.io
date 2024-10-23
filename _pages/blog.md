@@ -20,4 +20,4 @@ pagination:
     <h1>{{ site.blog_name }}</h1>
   </div>
   
-  Coming soon...
+  <i>Coming soon...</i>
