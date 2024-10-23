@@ -540,14 +540,18 @@ footer.sticky-bottom {
 
 .flex-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; /* Adjusts spacing between items */
+  flex-wrap: wrap; /* Allow wrapping to new rows if needed */
+  justify-content: center; /* Center the items horizontally */
+  align-items: flex-start; /* Align the items at the top of the container */
+  padding: 10px; /* Optional: add some padding around the container */
 }
 
 .flex-item {
-  flex: 1 1 auto; /* Allow items to grow and shrink based on available space */
-  /* min-width: 200px; /* You can adjust the minimum width for each column */
-  margin: 10px; /* Space between items */
+  flex: 1 1 auto; /* Allow the items to grow and shrink */
+  min-width: 200px; /* Set the minimum width for each column */
+  /* max-width: 300px; /* Optional: limit the maximum width for each column */
+  margin: 10px; /* Add spacing between columns */
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
 
 .table-cv-map {
