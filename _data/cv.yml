@@ -114,21 +114,29 @@
       institution: University of Bologna
 
 - title: languages
+  type: list_groups
+  contents:
+    - "Italian"
+      name: native
+    - "English"
+      name: fluent
+    - "Spanish"
+      name: basic
 
 - title: hobbies
   type: list_groups
   contents:
-    - item: mixologist
+    - mixologist
       icon: "fa-solid fa-martini-glass"
-    - item: comics
+    - comics
       icon: "fa-solid fa-book-open"
-    - item: tennis
+    - tennis
       icon: "fa-solid fa-baseball"
-    - item: soccer
+    - soccer
       icon: "fa-regular fa-futbol"
-    - item: climbinb
+    - climbing
       icon: "fa-solid fa-mountain"
-    - item: running
+    - running
       icon: "fa-solid fa-person-running"
-    - item: games
+    - games
       icon: "fa-solid fa-gamepad"
