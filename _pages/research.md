@@ -21,7 +21,7 @@ nav_order: 1
 
   <!-- Abstract toggle link with triangle -->
   <p style="margin: 0; margin-left: 10px;">
-    <a href="javascript:void(0);" id="toggle-abstract-1" onclick="toggleAbstract('abstract-1')">&#9657; Abstract</a>
+    <a href="javascript:void(0);" id="toggle-abstract-1" onclick="toggleAbstract('abstract-1')"><i>&#9657; Abstract</i>i></a>
   </p>
 
   <!-- Abstract content hidden by default -->
@@ -48,11 +48,11 @@ nav_order: 1
 <!-- Hide Working Papers by default -->
 <div id="working-papers-content" style="display: block">
 
-  <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i>Crime Perception and Voting Behavior: Evidence from Individual Data</i>, joint with <a href="https://sites.google.com/site/giovanniprarolo/"> Giovanni Prarolo </a> </p>
+  <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i>Crime Perception and Voting Behavior: Evidence from Individual Data</i>, joint with <a href="https://sites.google.com/site/giovanniprarolo/"><i> Giovanni Prarolo </i>i></a> </p>
   
   <!-- Abstract toggle link with triangle -->
   <p style="margin: 0; margin-left: 10px;">
-    <a href="javascript:void(0);" id="toggle-abstract-2" onclick="toggleAbstract('abstract-2')">&#9657; Abstract</a>
+    <a href="javascript:void(0);" id="toggle-abstract-2" onclick="toggleAbstract('abstract-2')"><i>&#9657; Abstract</i>i></a>
   </p>
   
   <!-- Abstract content hidden by default -->
@@ -68,7 +68,7 @@ nav_order: 1
   
   <!-- Abstract toggle link with triangle -->
   <p style="margin: 0; margin-left: 10px;">
-    <a href="javascript:void(0);" id="toggle-abstract-3" onclick="toggleAbstract('abstract-3')">&#9657; Abstract</a>
+    <a href="javascript:void(0);" id="toggle-abstract-3" onclick="toggleAbstract('abstract-3')"><i>&#9657; Abstract</i>i></a>
   </p>
   
   <!-- Abstract content hidden by default -->
@@ -93,9 +93,9 @@ nav_order: 1
 <!-- Hide Work in Progress by default -->
 <div id="work-in-progress-content" style="display: block;">
   
-  <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i> Public Goods Provision and Voting Turnout </i> , joint with <a href="https://sites.google.com/view/mgeiras/inicio"> Martín Gonzalez-Eiras </a> and <a href="https://sites.google.com/site/giovanniprarolo/"> Giovanni Prarolo </a> </p>
+  <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i> Public Goods Provision and Voting Turnout </i> , joint with <a href="https://sites.google.com/view/mgeiras/inicio"><i> Martín Gonzalez-Eiras </i>i></a> and <a href="https://sites.google.com/site/giovanniprarolo/"><i> Giovanni Prarolo </i>i></a> </p>
     
-  <p style="margin-bottom: 0; margin-top: 10px; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i> The Effect of Erasmus Programs on Voting </i> , joint with <a href="https://www.unibo.it/sitoweb/manuel.blasco2/en"> Manuel Blasco </a> </p>
+  <p style="margin-bottom: 0; margin-top: 10px; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i> The Effect of Erasmus Programs on Voting </i> , joint with <a href="https://www.unibo.it/sitoweb/manuel.blasco2/en"><i> Manuel Blasco </i>i></a> </p>
 
 </div>
 <!-- end -->
