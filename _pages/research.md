@@ -68,7 +68,7 @@ nav_order: 1
   
   <!-- Abstract toggle link with triangle -->
   <p style="margin: 0; margin-left: 10px;">
-    <a href="javascript:void(0);" id="toggle-abstract-3" onclick="toggleAbstract('abstract-3')">&#9657; <i>Abstract</i>i></a>
+    <a href="javascript:void(0);" id="toggle-abstract-3" onclick="toggleAbstract('abstract-3')">&#9657; <i>Abstract</i></a>
   </p>
   
   <!-- Abstract content hidden by default -->
