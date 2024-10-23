@@ -118,13 +118,13 @@
   contents:
     - category: "Italian"
       items:
-        - level: "native"
+        - name: "native"
     - category: "English"
       items:
-        - level: "fluent"
+        - name: "fluent"
     - category: "Spanish"
       items:
-        - level: "basic"
+        - name: "basic"
 
 - title: hobbies
   type: list_groups
