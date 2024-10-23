@@ -116,27 +116,27 @@
 - title: languages
   type: list_groups
   contents:
-    - "Italian"
-      name: native
-    - "English"
-      name: fluent
-    - "Spanish"
-      name: basic
+    - name: "Italian"
+      level: native
+    - name: "English"
+      level: fluent
+    - name: "Spanish"
+      level: basic
 
 - title: hobbies
   type: list_groups
   contents:
-    - mixologist
+    - name: mixologist
       icon: "fa-solid fa-martini-glass"
-    - comics
+    - name: comics
       icon: "fa-solid fa-book-open"
-    - tennis
+    - name: tennis
       icon: "fa-solid fa-baseball"
-    - soccer
+    - name: soccer
       icon: "fa-regular fa-futbol"
-    - climbing
+    - name: climbing
       icon: "fa-solid fa-mountain"
-    - running
+    - name: running
       icon: "fa-solid fa-person-running"
-    - games
+    - name: games
       icon: "fa-solid fa-gamepad"
