@@ -44,13 +44,6 @@
   <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
 {% endif %}
 
-<!-- Open Graph tags for sharing -->
-<meta property="og:title" content="{% if site.title == 'blank' %}{{ author_name }}{% else %}{{ site.title }}{% endif %}">
-<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-<meta property="og:image" content="www.marcorosso.com/assets/img/MR.png">
-<meta property="og:url" content="{{ page.url }}">
-<meta property="og:type" content="website">
-
 {% assign is_blog_post = false %}
 {% if page.url != '/blog/index.html' and page.url contains '/blog/' %}
   {% unless page.url contains '/tag/' or page.url contains '/category/' %}
