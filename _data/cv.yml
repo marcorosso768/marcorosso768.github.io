@@ -26,11 +26,10 @@
 - title: networking activities
 
 - title: languages
-  type: list
+  type: map
   contents:
-    - Italian: native
-    - English: fluent
-    - Spanish: basic
+    - name: 
+      value: Italian: native, English: fluent, and Spanish: basic
 
 - title: hobbies
   type: list
