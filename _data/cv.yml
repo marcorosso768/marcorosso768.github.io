@@ -61,7 +61,7 @@
       institution: University of Bologna
       department: DSE - Department of Economics
       maindescription: "supervisors: Jonathan Neil Chapman and Giovanni Prarolo"
-    - title: "Participation on the Committee for the International SAT Test used for University Admissions"
+    - title: Participation on the Committee for the International SAT Test used for University Admissions
       year: May 2024
       location: Bologna, Italy
       institution: College Board (New York)
@@ -94,10 +94,10 @@
   type: time_table
   contents:
     - title: 4-Year Scholarship, Ph.D. Program in Economics
-      year: "2020"
+      year: 2020
       institution: University of Bologna
     - title: Master Thesis Recommendation for Publication (Italian Merit Title)
-      year: "2019"
+      year: 2019
       institution: University of Turin
       
 
@@ -105,11 +105,11 @@
   type: time_table
   contents:
     - title: Organizer of the “Department Afterwork Drinks”
-      year: "since 2022"
+      year: since 2022
       institution: University of Bologna
     - title: Co-organizer of the “Research in Steps” (RiS) Seminars Series for Ph.D. Students
-      year: "2022-2023"
+      year: 2022-2023
       institution: University of Bologna
     - title: Co-founder and co-organizer of the Reading Group on “Political Economics of Violence and Corruption”
-      year: "2021-2022"
+      year: 2021-2022
       institution: University of Bologna
