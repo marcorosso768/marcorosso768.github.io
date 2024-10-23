@@ -4,13 +4,16 @@
     - name:
       value: <i class="fa-solid fa-graduation-cap" style="color:var(--global-theme-color);"></i>&nbsp; Visiting Ph.D. Student, <i>Universidad de San Andrés, Buenos Aires</i>
     - name: 
-      value: <i class="fa-solid fa-suitcase" style="color:var(--global-theme-color);"></i>&nbsp; Research Fellow, <i>University of Bologna</i>
+      value: <i class="fa-solid fa-suitcase" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp; Research Fellow, <i>University of Bologna</i>
     - name: 
       value: <i class="fa-solid fa-graduation-cap" style="color:var(--global-theme-color);"></i>&nbsp; Ph.D. Candidate in Economics, <i>University of Bologna</i>
     - name: 
-      value: <i class="fa-solid fa-suitcase" style="color:var(--global-theme-color);"></i>&nbsp; Teaching Assistant, <i>University of Bologna</i>
+      value: <i class="fa-solid fa-suitcase" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp; Teaching Assistant, <i>University of Bologna</i>
 
 - title: education
+  type: time_table
+  contents:
+    - title: Ph.D. in Economics
 
 - title: visiting periods
 
@@ -27,7 +30,7 @@
 - title: hobbies
   type: list
   contents:
-    - <i class="fa-solid fa-martini-glass" style="color:var(--global-theme-color);"></i>&nbsp; mixologist &nbsp;<i class="fa-solid fa-book-open"style="color:var(--global-theme-color);"></i>&nbsp; comics &nbsp;<i class="fa-solid fa-baseball"style="color:var(--global-theme-color);"></i>&nbsp; tennis &nbsp;<i class="fa-regular fa-futbol"style="color:var(--global-theme-color);"></i>&nbsp; soccer &nbsp;<i class="fa-solid fa-mountain"style="color:var(--global-theme-color);"></i>&nbsp; climbing &nbsp;<i class="fa-solid fa-person-running"style="color:var(--global-theme-color);"></i>&nbsp; running &nbsp;<i class="fa-solid fa-gamepad"style="color:var(--global-theme-color);"></i>&nbsp; games
+    - <i class="fa-solid fa-martini-glass" style="color:var(--global-theme-color);"></i>&nbsp; mixologist &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-book-open"style="color:var(--global-theme-color);"></i>&nbsp; comics &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-baseball"style="color:var(--global-theme-color);"></i>&nbsp; tennis &nbsp;&nbsp;&nbsp;<i class="fa-regular fa-futbol"style="color:var(--global-theme-color);"></i>&nbsp; soccer &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-mountain"style="color:var(--global-theme-color);"></i>&nbsp; climbing &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-person-running"style="color:var(--global-theme-color);"></i>&nbsp; running &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-gamepad"style="color:var(--global-theme-color);"></i>&nbsp; games
 
 
 
