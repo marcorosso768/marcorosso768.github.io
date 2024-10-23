@@ -16,9 +16,9 @@
     - title: Ph.D. in Economics
       year: since 2020
       institution: University of Bologna
-      department: Depeartment of Economics
+      department: DSE - Depeartment of Economics
       location: Bologna, Italy
-      description: "supervisor: Paolo Vanin"
+      maindescription: "supervisor: Paolo Vanin"
     - title: Master of Arts in Economics
       year: June 2020
       location: Turin, Italy
@@ -27,13 +27,14 @@
       year: March 2019
       location: Turin, Italy
       institution: University of Turin
-      department: Department of Economics
-      description: "supervisor: Giovanni Mastrobuoni"
+      department: ESOMAS - Department of Economics
+      maindescription: "supervisor: Giovanni Mastrobuoni"
     - title: "Bachelor's degree of Mathematics"
       year: December 2015
       location: Turin, Italy
       institution: University of Turin
-      department: Departmente of Mathematics
+      deparment: Department of Mathematics
+      maindescription: "supervisor: Vittoria Demichelis"
 
 - title: visiting periods
   type: time_table
@@ -42,14 +43,14 @@
       year: fall 2024
       location: "Buones Aires, <br> Argentina"
       institution: Universidad de San Andrés
-      department: Department of Economics
-      description: "local advisor: Tommy E. Murphy"
+      department: Departamento de Economía
+      maindescription: "local advisor: Tommy E. Murphy"
     - title: "Visitor Master's Candidate"
       year: Jan-Mar 2019
       location: Turin, Italy
       institution: Regional Public Health Observatory (SEPI)
       department: Public Health Department (Local Health Board TO3)
-      description: "supervisor: Fulvio Ricceri"
+      maindescription: "supervisor: Fulvio Ricceri"
 
 - title: academic activities
 
@@ -66,12 +67,12 @@
 - title: languages
   type: list-groups
   contents:
-    - language: "Italian"
-      fluency: native speaker
-    - language: "English"
-      fluency: fluent
-    - language: "Spanish"
-      fluency: basic
+    - "language": "Italian",
+      "fluency": native speaker
+    - "language": "English",
+      "fluency": fluent
+    - language: "Spanish",
+      "fluency": basic
 
 - title: hobbies
   type: list
