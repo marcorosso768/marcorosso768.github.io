@@ -127,7 +127,7 @@
         - name: "basic"
 
 - title: hobbies
-  type: list_groups
+  type: list_groups_hobbies
   contents:
     - category: "mixology"
       icon: "fa-solid fa-martini-glass"
