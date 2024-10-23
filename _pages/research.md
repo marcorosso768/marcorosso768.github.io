@@ -63,7 +63,6 @@ nav_order: 1
       <b>Keywords:</b> crime, elections, political parties, newspapers, individual voting behavior, dictionary-based classification
     </div>
   </div>
-
   
   <p style="margin-bottom: 0; margin-top: 10px; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i> Corruption, temptation, and self-selection in the public sector </i> </p>
   
