@@ -14,24 +14,24 @@
   type: time_table
   contents:
     - title: Ph.D. in Economics
-      year: 2020-
+      year: "2020-"
       institution: University of Bologna
       department: DSE - Depeartment of Economics
-      location: Bologna, Italy
+      location: "Bologna, <br> Italy"
       maindescription: "supervisor: Paolo Vanin"
     - title: Master of Arts in Economics
       year: "2020"
-      location: Turin, Italy
+      location: "Turin, <br> Italy"
       institution: Collegio Carlo Alberto
     - title: Two-Year Master Degree in Economics
       year: "2019"
-      location: Turin, Italy
+      location: "Turin, <br> Italy"
       institution: University of Turin
       department: ESOMAS - Department of Economics
       maindescription: "supervisor: Giovanni Mastrobuoni"
     - title: "Bachelor's degree of Mathematics"
       year: "2015"
-      location: Turin, Italy
+      location: "Turin, <br> Italy"
       institution: University of Turin
       department: Department of Mathematics
       maindescription: 'supervisor: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis</a>'
@@ -47,7 +47,7 @@
       maindescription: "local advisor: Tommy E. Murphy"
     - title: "Visitor Master's Candidate"
       year: winter 2019
-      location: Turin, Italy
+      location: "Turin, <br> Italy"
       institution: Regional Public Health Observatory (SEPI)
       department: Public Health Department (Local Health Board TO3)
       maindescription: "supervisor: Fulvio Ricceri"
@@ -57,29 +57,29 @@
   contents:
     - title: "Research Fellow: Democratization, the media, socio-economic context, and voting behavior"
       year: 2024-
-      location: Bologna, Italy
+      location: "Bologna, <br> Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
       maindescription: "supervisors: Jonathan Neil Chapman and Giovanni Prarolo"
     - title: Participation on the Committee for the International SAT Test used for University Admissions
       year: "2024"
-      location: Bologna, Italy
+      location: "Bologna, <br> Italy"
       institution: College Board (New York)
     - title: Implementation of Online Experiments in the Context of the MinUTo Project
       year: "2024"
-      location: Bologna, Italy
+      location: "Bologna, <br> Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
       maindescription: "supervisors: Maria Bigoni and Stefania Bortolotti"
     - title: Generation and Preparation of Support Material for the Econometrics Course
       year: "2023"
-      location: Bologna, Italy
+      location: "Bologna, <br> Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
       maindescription: "supervisors: Margherita Fort and Denni Tommasi"
     - title: Research Assistant
       year: "2018"
-      location: Turin, Italy
+      location: "Turin, <br> Italy"
       institution: Collegio Carlo Alberto
       department: Center for Research on Pensions and Welfare Policies (CeRP)
       maindescription: "supervisor: Elsa Fornero"
@@ -132,15 +132,15 @@
     - title: In-House and On-Stage Data Gathering Operator
       year: 2016-2021
       firm: Deltatre
-      location: Turin, Italy
+      location: "Turin, <br> Italy"
     - title: Youth Football Coach
       year: 2014-2016
       soccer: A.P.D. Pecetto
-      location: Pecetto, Italy
+      location: "Pecetto, <br> Italy"
     - title: Youth Football Coach
       year: 2013-2014
       soccer: C.S.F. Carmagnola
-      location: Carmagnola, Italy
+      location: "Carmagnola, <br> Italy"
 
 
 - title: hobbies
