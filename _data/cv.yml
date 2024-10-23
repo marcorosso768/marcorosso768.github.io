@@ -1,13 +1,13 @@
 - title: current positions
   type: map
   contents:
-    - name: 
+    - name: <i class="fa-solid fa-graduation-cap" style="color:var(--global-theme-color);"></i>
       value: Visiting Ph.D. Student, <i>Universidad de San Andrés, Buenos Aires</i>
-    - name: 
+    - name: <i class="fa-solid fa-suitcase" style="color:var(--global-theme-color);"></i>
       value: Research Fellow, <i>University of Bologna</i>
-    - name: 
+    - name: <i class="fa-solid fa-graduation-cap" style="color:var(--global-theme-color);"></i>
       value: Ph.D. Candidate in Economics, <i>University of Bologna</i>
-    - name: 
+    - name: <i class="fa-solid fa-suitcase" style="color:var(--global-theme-color);"></i>
       value: Teaching Assistant, <i>University of Bologna</i>
 
 - title: fields of interest
