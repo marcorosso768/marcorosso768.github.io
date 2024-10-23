@@ -118,17 +118,17 @@
 - title: hobbies
   type: list_groups
   contents:
-    - name: mixologist
+    - item: mixologist
       icon: "fa-solid fa-martini-glass"
-    - name: comics
+    - item: comics
       icon: "fa-solid fa-book-open"
-    - name: tennis
+    - item: tennis
       icon: "fa-solid fa-baseball"
-    - name: soccer
+    - item: soccer
       icon: "fa-regular fa-futbol"
-    - name: climbinb
+    - item: climbinb
       icon: "fa-solid fa-mountain"
-    - name: running
+    - item: running
       icon: "fa-solid fa-person-running"
-    - name: games
+    - item: games
       icon: "fa-solid fa-gamepad"
