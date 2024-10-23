@@ -66,7 +66,7 @@
 
 - title: languages
   type: list_groups_language
-  contents:
+  content:
     - "language": "Italian"
       "fluency": native speaker
     - "language": "English"
@@ -76,7 +76,7 @@
 
 - title: hobbies
   type: list_groups
-  contents:
+  content:
     - name: <i class="fa-solid fa-martini-glass" style="color:var(--global-theme-color);"></i>&nbsp; mixologist
     - name: <i class="fa-solid fa-book-open"style="color:var(--global-theme-color);"></i>&nbsp; comics
     - name: <i class="fa-solid fa-baseball"style="color:var(--global-theme-color);"></i>&nbsp; tennis 
