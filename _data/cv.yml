@@ -131,15 +131,15 @@
   contents:
     - category: '<span style="color:var(--global-text-color);"> mixology </span>'
       icon: "fa-solid fa-martini-glass"
-    - category: "comics"
+    - category: '<span style="color:var(--global-text-color);"> comics </span>'
       icon: "fa-solid fa-book-open"
-    - category: "tennis"
+    - category: '<span style="color:var(--global-text-color);"> tennis </span>'
       icon: "fa-solid fa-baseball"
-    - category: "soccer"
+    - category: '<span style="color:var(--global-text-color);"> soccer </span>'
       icon: "fa-regular fa-futbol"
-    - category: "climbing"
+    - category: '<span style="color:var(--global-text-color);"> climbing </span>'
       icon: "fa-solid fa-mountain"
-    - category: "running"
+    - category: '<span style="color:var(--global-text-color);"> running </span>'
       icon: "fa-solid fa-person-running"
-    - category: "games"
+    - category: '<span style="color:var(--global-text-color);"> games </span>'
       icon: "fa-solid fa-gamepad"
