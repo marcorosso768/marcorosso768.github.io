@@ -1,16 +1,12 @@
 <div class="list-groups">
-  {% for content in entry.contents %}
+  {% for hobby in entry.contents %}
     <div class="list-group col-md-6">
       <table class="table-cv list-group-table">
         <tbody>
           <tr>
             <td class="list-group-category-icon"></td>
-            <td colspan="1" class="list-group-category">Hobbies</td>
-          </tr>
-          <tr>
-            <td></td>
             <td class="list-group-name">
-              {{ content.name | safe }}
+              {{ hobby.name | safe }}
             </td>
           </tr>
         </tbody>
