@@ -89,18 +89,7 @@
   contents:
     - name: 
       value: <i>Journal of Economics &amp; Management Strategy</i>
-
-- title: awards, grants, and scholarships
-  type: time_table
-  contents:
-    - title: 4-Year Scholarship, Ph.D. Program in Economics
-      year: m2020
-      institution: University of Bologna
-    - title: Master Thesis Recommendation for Publication (Italian Merit Title)
-      year: m2019
-      institution: University of Turin
       
-
 - title: networking activities
   type: time_table
   contents:
