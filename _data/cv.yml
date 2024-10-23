@@ -67,11 +67,11 @@
   type: list-groups
   contents:
     - language: Italian
-    - fluency: native speaker
+      fluency: native speaker
     - language: English
-    - fluency: fluent
+      fluency: fluent
     - language: Spanish
-    - fluency: basic
+      fluency: basic
 
 - title: hobbies
   type: list
