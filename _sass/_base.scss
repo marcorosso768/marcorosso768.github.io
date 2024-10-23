@@ -524,14 +524,14 @@ footer.sticky-bottom {
 
   .card {
     background-color: var(--global-card-bg-color);
-    border: 1px solid var(--global-divider-color);
+    border: 1px solid var(--global-theme-color);
 
     .list-group-item {
       background-color: inherit;
-      border-color: var(--global-divider-color);
-
+      border-color: var(--global-card-bg-color);
+        
       .badge {
-        color: var(--global-card-bg-color) !important;
+        color: var($white-color) !important;
         background-color: var(--global-theme-color) !important;
       }
     }
