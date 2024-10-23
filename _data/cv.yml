@@ -116,3 +116,19 @@
 - title: languages
 
 - title: hobbies
+  type: list_groups
+  contents:
+    - name: mixologist
+      icon: "fa-solid fa-martini-glass"
+    - name: comics
+      icon: "fa-solid fa-book-open"
+    - name: tennis
+      icon: "fa-solid fa-baseball"
+    - name: soccer
+      icon: "fa-regular fa-futbol"
+    - name: climbinb
+      icon: "fa-solid fa-mountain"
+    - name: running
+      icon: "fa-solid fa-person-running"
+    - name: games
+      icon: "fa-solid fa-gamepad"
