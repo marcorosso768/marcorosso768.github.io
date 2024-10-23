@@ -26,11 +26,14 @@
 - title: networking activities
 
 - title: languages
+  type: list
+  contents:
+    - <p style="text-align:center;"> Italian: native, English: fluent, and Spanish: basic </p>
 
 - title: hobbies
   type: list
   contents:
-    - <i class="fa-solid fa-martini-glass" style="color:var(--global-theme-color);"></i>&nbsp; mixologist &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-book-open"style="color:var(--global-theme-color);"></i>&nbsp; comics &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-baseball"style="color:var(--global-theme-color);"></i>&nbsp; tennis &nbsp;&nbsp;&nbsp;<i class="fa-regular fa-futbol"style="color:var(--global-theme-color);"></i>&nbsp; soccer &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-mountain"style="color:var(--global-theme-color);"></i>&nbsp; climbing &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-person-running"style="color:var(--global-theme-color);"></i>&nbsp; running &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-gamepad"style="color:var(--global-theme-color);"></i>&nbsp; games
+    - <p style="text-align:center;"><i class="fa-solid fa-martini-glass" style="color:var(--global-theme-color);"></i>&nbsp; mixologist &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-book-open"style="color:var(--global-theme-color);"></i>&nbsp; comics &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-baseball"style="color:var(--global-theme-color);"></i>&nbsp; tennis &nbsp;&nbsp;&nbsp;<i class="fa-regular fa-futbol"style="color:var(--global-theme-color);"></i>&nbsp; soccer &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-mountain"style="color:var(--global-theme-color);"></i>&nbsp; climbing &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-person-running"style="color:var(--global-theme-color);"></i>&nbsp; running &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-gamepad"style="color:var(--global-theme-color);"></i>&nbsp; games </p>
 
 
 
