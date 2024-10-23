@@ -14,7 +14,10 @@
             {% for item in content.items %}
               {% assign i = i | plus: 1 %}
             {% endfor %}
-            <td colspan="{{ i }}" class="list-group-category"><span style="color:var(--global-text-color);">{{ content.category }}</span></td>
+            <!-- Apply the var(--global-text-color) to category text -->
+            <td colspan="{{ i }}" class="list-group-category">
+              <span style="color: var(--global-text-color);">{{ content.category }}</span>
+            </td>
           </tr>
           {% for item in content.items %}
             <tr>
