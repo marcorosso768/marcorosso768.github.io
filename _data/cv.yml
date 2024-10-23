@@ -66,27 +66,26 @@
 
 - title: languages
   type: list_groups_language
-  contents: [
-    {
+  contents:
+    - {
       "language": "Italian",
       "fluency": "Native",
       "icon": ""
     },
-    {
+    - {
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
-    },
-    {
+    }
+    - {
       "language": "Spanish",
       "fluency": "Basic",
       "icon": ""
     }
-  ]
 
 - title: hobbies
-  type: list_hobbies
-  content:
+  type: list_groups
+  contents:
     - name: "<i class="fa-solid fa-martini-glass" style="color:var(--global-theme-color);"></i>&nbsp; mixologist"
     - name: "<i class="fa-solid fa-book-open" style="color:var(--global-theme-color);"></i>&nbsp; comics"
     - name: "<i class="fa-solid fa-baseball" style="color:var(--global-theme-color);"></i>&nbsp; tennis"
