@@ -129,7 +129,7 @@
 - title: hobbies
   type: list_groups
   contents:
-    - category: "<span style="color:var(--global-text-color);">mixology</span>"
+    - category: '<span style="color:var(--global-text-color);"> mixology </span>'
       icon: "fa-solid fa-martini-glass"
     - category: "comics"
       icon: "fa-solid fa-book-open"
