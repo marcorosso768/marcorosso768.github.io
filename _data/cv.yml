@@ -66,13 +66,18 @@
 
 - title: languages
   type: list_groups_language
-  content:
-    - "language": "Italian"
-      "fluency": native speaker
-    - "language": "English"
-      "fluency": fluent
-    - language: "Spanish"
-      "fluency": basic
+    contents: [
+    {
+      "language": "German",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    }
+  ]
 
 - title: hobbies
   type: list_groups
