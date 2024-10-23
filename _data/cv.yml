@@ -18,7 +18,7 @@
       institution: University of Bologna
       department: DSE - Depeartment of Economics
       location: "Bologna, <br> Italy"
-      maindescription: 'supervisor: <a href="https://sites.google.com/site/paolovanin/"><i>Paolo Vanin</i></a>'
+      maindescription: '<span style="font-size: 10pt;">supervisor: <a href="https://sites.google.com/site/paolovanin/"><i>Paolo Vanin</i></a></span>'
     - title: Master of Arts in Economics
       year: "2020"
       location: "Turin, <br> Italy"
@@ -28,13 +28,13 @@
       location: "Turin, <br> Italy"
       institution: University of Turin
       department: ESOMAS - Department of Economics
-      maindescription: 'supervisor: <a href="https://sites.google.com/site/giovannimastrobuoni/"><i>Giovanni Mastrobuoni</i></a>'
+      maindescription: '<span style="font-size: 10pt;">supervisor: <a href="https://sites.google.com/site/giovannimastrobuoni/"><i>Giovanni Mastrobuoni</i></a></span>'
     - title: "Bachelor's degree of Mathematics"
       year: "2015"
       location: "Turin, <br> Italy"
       institution: University of Turin
       department: Department of Mathematics
-      maindescription: 'supervisor: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo"><i>Vittoria Demichelis</i></a>'
+      maindescription: '<span style="font-size: 10pt;">supervisor: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo"><i>Vittoria Demichelis</i></a></span>'
 
 - title: visiting periods
   type: time_table
@@ -44,13 +44,13 @@
       location: "Buones Aires, <br> Argentina"
       institution: Universidad de San Andrés
       department: Departamento de Economía
-      maindescription: 'local advisor: <a href="https://www.tommy-e-murphy.com"><i>Tommy E. Murphy</i></a>'
+      maindescription: '<span style="font-size: 10pt;">local advisor: <a href="https://www.tommy-e-murphy.com"><i>Tommy E. Murphy</i></a></span>'
     - title: "Visitor Master's Candidate"
       year: winter 2019
       location: "Turin, <br> Italy"
       institution: Regional Public Health Observatory (SEPI)
       department: Public Health Department (Local Health Board TO3)
-      maindescription: 'supervisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo"><i>Fulvio Ricceri</i></a>'
+      maindescription: '<span style="font-size: 10pt;">supervisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo"><i>Fulvio Ricceri</i></a></span>'
 
 - title: academic activities
   type: time_table
@@ -60,7 +60,7 @@
       location: "Bologna, <br> Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
-      maindescription: 'supervisors: <a href="https://jnchapman.com"><i>Jonathan Neil Chapman</i></a> and <a href="https://sites.google.com/site/giovanniprarolo/"><i>Giovanni Prarolo</i></a>'
+      maindescription: '<span style="font-size: 10pt;">supervisors: <a href="https://jnchapman.com"><i>Jonathan Neil Chapman</i></a> and <a href="https://sites.google.com/site/giovanniprarolo/"><i>Giovanni Prarolo</i></a></span>'
     - title: Participation on the Committee for the International SAT Test used for University Admissions
       year: "2024"
       location: "Bologna, <br> Italy"
@@ -70,19 +70,19 @@
       location: "Bologna, <br> Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
-      maindescription: 'supervisors: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en"><i>Maria Bigoni</i></a> and <a href="https://sites.google.com/site/stefaniabortolotti/home"><i>Stefania Bortolotti</i></a>'
+      maindescription: '<span style="font-size: 10pt;">supervisors: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en"><i>Maria Bigoni</i></a> and <a href="https://sites.google.com/site/stefaniabortolotti/home"><i>Stefania Bortolotti</i></a></span>'
     - title: Generation and Preparation of Support Material for the Econometrics Course
       year: "2023"
       location: "Bologna, <br> Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
-      maindescription: 'supervisors: <a href="https://www.unibo.it/sitoweb/margherita.fort/en"><i>Margherita Fort</i></a> and <a href="https://sites.google.com/site/dennitommasi/"><i>Denni Tommasi</i></a>'
+      maindescription: '<span style="font-size: 10pt;">supervisors: <a href="https://www.unibo.it/sitoweb/margherita.fort/en"><i>Margherita Fort</i></a> and <a href="https://sites.google.com/site/dennitommasi/"><i>Denni Tommasi</i></a></span>'
     - title: Research Assistant
       year: "2018"
       location: "Turin, <br> Italy"
       institution: Collegio Carlo Alberto
       department: Center for Research on Pensions and Welfare Policies (CeRP)
-      maindescription: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html"><i>Elsa Fornero</i></a>'
+      maindescription: '<span style="font-size: 10pt;">supervisor: <a href="http://sites.carloalberto.org/fornero/home.html"><i>Elsa Fornero</i></a></span>'
 
 - title: refereeing for academic journals
   type: map
