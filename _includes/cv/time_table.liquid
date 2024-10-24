@@ -66,16 +66,19 @@
                     <td class="department">{{ content.department }}</td>
                   </tr>
                 {% endif %}
+                {% if content.maindescription %}
+                  <tr>
+                    <td style="vertical-align: top; text-align: center" class="supervisor">
+                      <i class="fa-solid fa-circle-dot" style="color:var(--global-theme-color); font-size: 10pt;"></i>
+                    </td>
+                    <td class="supervisor"><span style="font-size: 10pt;">{{ content.supervisor }}</span></td>
+                  </tr>
+                {% endif %}
               </tbody>
             </table>
           {% endif %}
           {% if content.maindescription %}
-              <tr>
-                <td style="vertical-align: top; text-align: center" class="maindescription">
-                  <i class="fa-solid fa-circle-dot" style="color:var(--global-theme-color);"></i>
-                </td>
-                <td class="maindescription">{{ content.maindescription }}</td>
-              </tr>
+            <div class="ml-1 ml-md-4">{{ content.maindescription }}</div>
           {% endif %}
           {% if content.description %}
             <ul class="items">
