@@ -31,7 +31,7 @@
           {% if content.title %}
             <h6 class="title font-weight-bold ml-1 ml-md-4">{{ content.title }}</h6>
           {% endif %}
-          {% if content.department or content.institution or content.firm or content.soccer %}
+          {% if content.department or content.institution or content.firm or content.soccer or content.supervisor %}
             <table class="table-cv ml-1 ml-md-4 institution">
               <tbody>
                 {% if content.soccer %}
@@ -66,7 +66,7 @@
                     <td class="department">{{ content.department }}</td>
                   </tr>
                 {% endif %}
-                {% if content.maindescription %}
+                {% if content.supervisor %}
                   <tr>
                     <td style="vertical-align: top; text-align: center" class="supervisor">
                       <i class="fa-solid fa-circle-dot" style="color:var(--global-theme-color); font-size: 10pt;"></i>
