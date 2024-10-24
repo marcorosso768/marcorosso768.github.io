@@ -75,8 +75,8 @@
 - title: refereeing for academic journals
   type: map
   contents:
-    - name: '<i class="fa-solid fa-book-open" style="color:var(--global-theme-color); font-size:10pt;"></i>'
-      value: '<i style="font-size:10pt;">Journal of Economics &amp; Management Strategy</i>'
+    - name:
+      value: '<span style="font-size:10pt;"><i class="fa-solid fa-book-open" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<i style="font-size:10pt;">Journal of Economics &amp; Management Strategy</i></span>'
 
 - title: awards, grants, and scholarships
   type: time_table
