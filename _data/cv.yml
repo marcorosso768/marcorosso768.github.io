@@ -154,9 +154,9 @@
       icon: "fa-solid fa-mountain"
     - category: '<span style="color:var(--global-text-color);"> tennis </span>'
       icon: "fa-solid fa-baseball"
-    - category: '<span style="color:var(--global-text-color);"> football </span>'
-      icon: "fa-regular fa-futbol"
     - category: '<span style="color:var(--global-text-color);"> running </span>'
       icon: "fa-solid fa-person-running"
     - category: '<span style="color:var(--global-text-color);"> games </span>'
       icon: "fa-solid fa-gamepad"
+    - category: '<span style="color:var(--global-text-color);"> football </span>'
+      icon: "fa-regular fa-futbol"
