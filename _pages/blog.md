@@ -22,4 +22,4 @@ pagination:
 
 <br>
 
-<i>Coming soon...</i>
+<i>Coming soon... stay tuned!</i>
