@@ -547,20 +547,43 @@ footer.sticky-bottom {
 //  gap: 5px; /* Control space between rows and columns */
 //}
 
+//.flex-container {
+//  display: flex;
+//  flex-wrap: wrap; /* Allow wrapping to new rows */
+//  justify-content: center; /* Center horizontally */
+//  align-items: flex-start; /* Align at the top */
+//  padding: 5px; /* Reduce padding around the container */
+//  column-gap: 5px; /* Space between columns */
+//  row-gap: 3px; /* Reduced space between rows */
+//}
+
+//.flex-item {
+//  flex: 1 1 auto; /* Make items responsive to available space */
+//  min-width: 150px; /* Set minimum width for each item */
+//  max-width: 200px; /* Optional: define maximum width */
+//  padding: 8px; /* Adjust padding */
+//  box-sizing: border-box; /* Ensure padding and border are included in the width */
+//  text-align: left; /* Align text to the left */
+//  min-height: 25px; /* Ensure a consistent height across items */
+//  display: flex;
+//  flex-direction: column; /* Align content vertically */
+//  justify-content: space-between; /* Distribute items within flex-item */
+//}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap; /* Allow wrapping to new rows */
-  //justify-content: center; /* Center horizontally */
+  justify-content: center; /* Center horizontally */
   align-items: flex-start; /* Align at the top */
   padding: 5px; /* Reduce padding around the container */
-  column-gap: 5px; /* Space between columns */
+  column-gap: 10px; /* Space between columns */
   row-gap: 3px; /* Reduced space between rows */
 }
 
 .flex-item {
-  flex: 1 1 auto; /* Make items responsive to available space */
+  flex: 1 1 calc(25% - 20px); /* Ensure a maximum of 4 items per row, accounting for gaps */
   min-width: 150px; /* Set minimum width for each item */
-  max-width: 200px; /* Optional: define maximum width */
+  max-width: calc(25% - 20px); /* Optional: Set a maximum width per item */
   padding: 8px; /* Adjust padding */
   box-sizing: border-box; /* Ensure padding and border are included in the width */
   text-align: left; /* Align text to the left */
