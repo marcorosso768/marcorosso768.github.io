@@ -1,158 +1,166 @@
-- title: current positions
-  type: map
-  contents:
-    - name:
-      value: <i class="fa-solid fa-graduation-cap" style="color:var(--global-theme-color);"></i>&nbsp; Visiting Ph.D. Student, <i>Universidad de San Andrés, Buenos Aires</i>
-    - name: 
-      value: <i class="fa-solid fa-suitcase" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp; Research Fellow, <i>University of Bologna</i>
-    - name: 
-      value: <i class="fa-solid fa-graduation-cap" style="color:var(--global-theme-color);"></i>&nbsp; Ph.D. Candidate in Economics, <i>University of Bologna</i>
-    - name: 
-      value: <i class="fa-solid fa-suitcase" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp; Teaching Assistant, <i>University of Bologna</i>
+#- title: current positions
+#  type: map
+#  contents:
+#    - name:
+#      value: <i class="fa-solid fa-graduation-cap" style="color:var(--global-theme-color);"></i>&nbsp; Visiting Ph.D. Student, <i>Universidad de San Andrés, Buenos Aires</i>
+#    - name: 
+#      value: <i class="fa-solid fa-suitcase" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp; Research Fellow, <i>University of Bologna</i>
+#    - name: 
+#      value: <i class="fa-solid fa-graduation-cap" style="color:var(--global-theme-color);"></i>&nbsp; Ph.D. Candidate in Economics, <i>University of Bologna</i>
+#    - name: 
+#      value: <i class="fa-solid fa-suitcase" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp; Teaching Assistant, <i>University of Bologna</i>
 
 - title: education
   type: time_table
   contents:
     - title: Ph.D. in Economics
+      year: "2020-"
+      institution: University of Bologna
+      department: DSE - Depeartment of Economics
+      location: "Bologna, <br> Italy"
+      supervisor: 'supervisor: <a href="https://sites.google.com/site/paolovanin/"><i>Paolo Vanin</i></a>'
+    - title: Master of Arts in Economics
+      year: "2020"
+      location: "Turin, <br> Italy"
+      institution: Collegio Carlo Alberto
+    - title: Two-Year Master Degree in Economics
+      year: "2019"
+      location: "Turin, <br> Italy"
+      institution: University of Turin
+      department: ESOMAS - Department of Economics
+      supervisor: 'supervisor: <a href="https://sites.google.com/site/giovannimastrobuoni/"><i>Giovanni Mastrobuoni</i></a>'
+    - title: "Bachelor's degree of Mathematics"
+      year: "2015"
+      location: "Turin, <br> Italy"
+      institution: University of Turin
+      department: Department of Mathematics
+      supervisor: 'supervisor: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo"><i>Vittoria Demichelis</i></a>'
 
 - title: visiting periods
   type: time_table
   contents:
-    - title: Ph.D. in Economics
+    - title: Visiting Ph.D. Student
+      year: fall 2024
+      location: "Buones Aires, <br> Argentina"
+      institution: Universidad de San Andrés
+      department: Departamento de Economía
+      supervisor: 'local advisor: <a href="https://www.tommy-e-murphy.com"><i>Tommy E. Murphy</i></a>'
+    - title: "Visitor Master's Candidate"
+      year: winter 2019
+      location: "Turin, <br> Italy"
+      institution: Regional Public Health Observatory (SEPI)
+      department: Public Health Department (Local Health Board TO3)
+      supervisor: 'supervisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo"><i>Fulvio Ricceri</i></a>'
 
 - title: academic activities
   type: time_table
   contents:
-    - title: Ph.D. in Economics
+    - title: "Research Fellow: Democratization, the media, socio-economic context, and voting behavior"
+      year: 2024-
+      location: "Bologna, <br> Italy"
+      institution: University of Bologna
+      department: DSE - Department of Economics
+      supervisor: 'supervisors: <a href="https://jnchapman.com"><i>Jonathan Neil Chapman</i></a> and <a href="https://sites.google.com/site/giovanniprarolo/"><i>Giovanni Prarolo</i></a>'
+    - title: Participation on the Committee for the International SAT Test used for University Admissions
+      year: "2024"
+      location: "Bologna, <br> Italy"
+      institution: College Board (New York)
+    - title: Implementation of Online Experiments in the Context of the MinUTo Project
+      year: "2024"
+      location: "Bologna, <br> Italy"
+      institution: University of Bologna
+      department: DSE - Department of Economics
+      supervisor: '<span style="font-size: 10pt;">supervisors: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en"><i>Maria Bigoni</i></a> and <a href="https://sites.google.com/site/stefaniabortolotti/home"><i>Stefania Bortolotti</i></a></span>'
+    - title: Generation and Preparation of Support Material for the Econometrics Course
+      year: "2023"
+      location: "Bologna, <br> Italy"
+      institution: University of Bologna
+      department: DSE - Department of Economics
+      supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/margherita.fort/en"><i>Margherita Fort</i></a> and <a href="https://sites.google.com/site/dennitommasi/"><i>Denni Tommasi</i></a>'
+    - title: Research Assistant
+      year: "2018"
+      location: "Turin, <br> Italy"
+      institution: Collegio Carlo Alberto
+      department: Center for Research on Pensions and Welfare Policies (CeRP)
+      supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html"><i>Elsa Fornero</i></a>'
 
 - title: refereeing for academic journals
   type: map
   contents:
     - name: 
-      value: <span style="color: var(--global-theme-color);">•</span> <i>Journal of Economics & Management Strategy</i>
+      value: <i>Journal of Economics &amp; Management Strategy</i>
 
 - title: awards, grants, and scholarships
   type: time_table
   contents:
-    - title: Ph.D. in Economics
+    - title: 4-Year Scholarship, Ph.D. Program in Economics
+      year: "2020"
+      institution: University of Bologna
+    - title: Master Thesis Recommendation for Publication (Italian Merit Title)
+      year: "2019"
+      institution: University of Turin
 
 - title: networking activities
   type: time_table
   contents:
-    - title: Ph.D. in Economics
+    - title: 'Organizer of the "Department Afterwork Drinks"'
+      year: 2022-
+      institution: University of Bologna
+    - title: 'Co-organizer of the "Research in Steps" (RiS) Seminars Series for Ph.D. Students'
+      year: 2022-2023
+      institution: University of Bologna
+    - title: 'Co-founder and co-organizer of the Reading Group on "Political Economics of Violence and Corruption"'
+      year: 2021-2022
+      institution: University of Bologna
 
 - title: languages
-  type: map
+  type: list_groups
   contents:
-    - name: 
-      value: Italian (native), English (fluent), and Spanish (basic)
+    - category: "Italian"
+      items:
+        - name: "native"
+    - category: "English"
+      items:
+        - name: "fluent"
+    - category: "Spanish"
+      items:
+        - name: "basic"
+
+- title: other experience
+  type: time_table
+  contents:
+    - title: In-House and On-Stage Data Gathering Operator
+      year: 2016-2021
+      firm: Deltatre
+      location: "Turin, <br> Italy"
+    - title: Youth Football Coach
+      year: 2014-2016
+      soccer: A.P.D. Pecetto
+      location: "Pecetto, <br> Italy"
+    - title: Youth Football Coach
+      year: 2013-2014
+      soccer: C.S.F. Carmagnola
+      location: "Carmagnola, <br> Italy"
+
 
 - title: hobbies
-  type: list
+  type: list_groups
   contents:
-    - <i class="fa-solid fa-martini-glass" style="color:var(--global-theme-color);"></i>&nbsp; mixologist &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-book-open"style="color:var(--global-theme-color);"></i>&nbsp; comics &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-baseball"style="color:var(--global-theme-color);"></i>&nbsp; tennis &nbsp;&nbsp;&nbsp;<i class="fa-regular fa-futbol"style="color:var(--global-theme-color);"></i>&nbsp; soccer &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-mountain"style="color:var(--global-theme-color);"></i>&nbsp; climbing &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-person-running"style="color:var(--global-theme-color);"></i>&nbsp; running &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-gamepad"style="color:var(--global-theme-color);"></i>&nbsp; games
+    - category: '<span style="color:var(--global-text-color);"> mixology </span>'
+      icon: "fa-solid fa-martini-glass"
+    - category: '<span style="color:var(--global-text-color);"> running </span>'
+      icon: "fa-solid fa-person-running"
+    - category: '<span style="color:var(--global-text-color);"> tennis </span>'
+      icon: "fa-solid fa-baseball"
+    - category: '<span style="color:var(--global-text-color);"> climbing </span>'
+      icon: "fa-solid fa-mountain"
+    - category: '<span style="color:var(--global-text-color);"> football </span>'
+      icon: "fa-regular fa-futbol" 
+    - category: '<span style="color:var(--global-text-color);"> comics </span>'
+      icon: "fa-solid fa-book-open"
+    - category: '<span style="color:var(--global-text-color);"> video games </span>'
+      icon: "fa-solid fa-gamepad"
+    - category: '<span style="color:var(--global-text-color);"> board games </span>'
+      icon: "fa-solid fa-puzzle-piece"
 
 
-
-
-
-
-
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      location: casa
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

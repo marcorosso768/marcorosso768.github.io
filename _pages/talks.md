@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /presentations/
-title: presentations
+permalink: /talks/
+title: talks
 description:
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 <div class="projects">

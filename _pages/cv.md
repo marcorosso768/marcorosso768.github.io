@@ -4,8 +4,8 @@ permalink: /curriculum_vitae/
 title: curriculum vitae
 nav: true
 nav_order: 4
-cv_pdf: Marco_Rosso_Curriculum_Vitae.pdf
-description: A complete and detailed version is available by clicking PDF icon.
+cv_pdf: pdf/[Marco Rosso] Curriculum Vitae.pdf
+description: <i>A complete and detailed version is available by clicking PDF icon</i>
 # toc:
  # sidebar: left
 ---

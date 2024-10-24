@@ -19,5 +19,6 @@ pagination:
   <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
   </div>
-  
-  Coming soon...
+
+  <br>
+  <i>Coming soon...</i>
