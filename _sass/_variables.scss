@@ -16,12 +16,14 @@ $green-color-lime: #b7d12a !default;
 $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
-$purple-color: #b509ac !default;
+$purple-color: #7809a4 !default;
+// $purple-color: #b509ac !default;
 $purple-color-dark: #813382 !default;
 $light-purple-color: lighten($purple-color, 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
-$yellow-color: #efcc00 !default;
+$yellow-color: #ffce00 !default;
+// $yellow-color: #efcc00 !default;
 
 $grey-color: #828282 !default;
 $grey-color-light: lighten($grey-color, 40%);
