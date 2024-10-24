@@ -547,14 +547,14 @@ footer.sticky-bottom {
 }
 
 .flex-item {
-  flex: 1 1 75px; /* Adjust width - ensures equal column width, even if wrapping */
-  min-width: 100px; /* Set minimum width for each item */
+  flex: 1 1 100px; /* Adjust width - ensures equal column width, even if wrapping */
+  min-width: 150px; /* Set minimum width for each item */
   max-width: 200px; /* Optional: define maximum width */
   margin: 5px; /* Reduce margin between items */
   padding: 10px; /* Reduce padding inside each item */
   box-sizing: border-box; /* Ensure padding and border are included in the width */
   text-align: left; /* Align text to the left */
-  min-height: 15px; /* Ensure a consistent height across items */
+  min-height: 25px; /* Ensure a consistent height across items */
   display: flex;
   flex-direction: column; /* Align content vertically */
   justify-content: space-between; /* Distribute items within flex-item */
