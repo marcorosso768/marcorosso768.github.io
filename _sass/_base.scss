@@ -544,14 +544,15 @@ footer.sticky-bottom {
   justify-content: center; /* Center horizontally */
   align-items: flex-start; /* Align at the top */
   padding: 5px; /* Reduce padding around the container */
+  gap: 2px; /* Reduce space between columns and rows */
 }
 
 .flex-item {
   flex: 1 1 100px; /* Adjust width - ensures equal column width, even if wrapping */
   min-width: 150px; /* Set minimum width for each item */
   max-width: 200px; /* Optional: define maximum width */
-  margin: 5px; /* Reduce margin between items */
-  padding: 10px; /* Reduce padding inside each item */
+  margin: 2px; /* Further reduce margin between items */
+  padding: 8px; /* Reduce padding inside each item */
   box-sizing: border-box; /* Ensure padding and border are included in the width */
   text-align: left; /* Align text to the left */
   min-height: 25px; /* Ensure a consistent height across items */
@@ -561,20 +562,20 @@ footer.sticky-bottom {
 }
 
 .list-group-category {
-  margin-bottom: 5px; /* Reduce space between category and items */
+  margin-bottom: 3px; /* Reduce space between category and items */
 }
 
 .list-group-category-icon {
-  margin-bottom: 3px; /* Reduce space below the icon */
+  margin-bottom: 2px; /* Reduce space below the icon */
 }
 
 .list-group-name {
   font-weight: bold;
-  margin-bottom: 3px; /* Reduce space below the name */
+  margin-bottom: 2px; /* Reduce space below the name */
 }
 
 .list-group-level, .list-group-school, .list-group-time, .list-group-link {
-  margin-top: 3px; /* Reduce space between other elements */
+  margin-top: 2px; /* Reduce space between other elements */
 }
 
 .table-cv-map {
