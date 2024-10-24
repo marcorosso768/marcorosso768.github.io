@@ -21,7 +21,7 @@ let setThemeSetting = (themeSetting) => {
 
 // Apply the computed dark or light theme to the website.
 let applyTheme = () => {
-  let theme = determineThemeSetting();
+  let theme = determineComputedTheme();
 
   transTheme();
   setHighlight(theme);
@@ -214,6 +214,17 @@ let determineThemeSetting = () => {
     }
   }
   return themeSetting;
+};
+
+// Determine the computed theme, which can be "dark" or "light". If the theme setting is
+// "system", the computed theme is determined based on the user's system preference.
+let determineComputedTheme = () => {
+  let themeSetting = determineThemeSetting();
+  if (themeSetting == "dark") {
+    return "dark";
+  } else {
+    return "light";
+  }
 };
 
 let initTheme = () => {
