@@ -58,7 +58,7 @@
       location: "Bologna, <br> Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
-      supervisor: '<span style="font-size: 10pt;">supervisors: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en"><i>Maria Bigoni</i></a> and <a href="https://sites.google.com/site/stefaniabortolotti/home"><i>Stefania Bortolotti</i></a></span>'
+      supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en"><i>Maria Bigoni</i></a> and <a href="https://sites.google.com/site/stefaniabortolotti/home"><i>Stefania Bortolotti</i></a>'
     - title: Generation and Preparation of Support Material for the Econometrics Course
       year: "2023"
       location: "Bologna, <br> Italy"
@@ -76,7 +76,7 @@
   type: map
   contents:
     - name: 
-      value: <i>Journal of Economics &amp; Management Strategy</i>
+      value: '<span style="font-size:12pt; color:var(--global-theme-color);"><i class="fa-solid fa-book-open"></i><i>Journal of Economics &amp; Management Strategy</i></span>'
 
 - title: awards, grants, and scholarships
   type: time_table
@@ -112,7 +112,7 @@
         - name: "fluent"
     - category: "Spanish"
       items:
-        - name: "basic"
+        - name: "intermediate"
 
 - title: other experience
   type: time_table
@@ -145,7 +145,7 @@
     - category: '<span style="color:var(--global-text-color);"> football </span>'
       icon: "fa-regular fa-futbol" 
     - category: '<span style="color:var(--global-text-color);"> comics </span>'
-      icon: "fa-solid fa-book-open"
+      icon: "fa-solid fa-book"
     - category: '<span style="color:var(--global-text-color);"> video games </span>'
       icon: "fa-solid fa-gamepad"
     - category: '<span style="color:var(--global-text-color);"> board games </span>'
