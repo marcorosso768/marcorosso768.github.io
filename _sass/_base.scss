@@ -544,15 +544,14 @@ footer.sticky-bottom {
   justify-content: center; /* Center horizontally */
   align-items: flex-start; /* Align at the top */
   padding: 5px; /* Reduce padding around the container */
-  gap: 2px; /* Reduce space between columns and rows */
+  gap: 5px; /* Control space between rows and columns */
 }
 
 .flex-item {
-  flex: 1 1 100px; /* Adjust width - ensures equal column width, even if wrapping */
+  flex: 1 1 auto; /* Make items responsive to available space */
   min-width: 150px; /* Set minimum width for each item */
   max-width: 200px; /* Optional: define maximum width */
-  margin: 2px; /* Further reduce margin between items */
-  padding: 8px; /* Reduce padding inside each item */
+  padding: 8px; /* Adjust padding */
   box-sizing: border-box; /* Ensure padding and border are included in the width */
   text-align: left; /* Align text to the left */
   min-height: 25px; /* Ensure a consistent height across items */
