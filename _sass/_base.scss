@@ -538,13 +538,23 @@ footer.sticky-bottom {
   }
 }
 
+// .flex-container {
+//  display: flex;
+//  flex-wrap: wrap; /* Allow wrapping to new rows */
+//  justify-content: center; /* Center horizontally */
+//  align-items: flex-start; /* Align at the top */
+//  padding: 5px; /* Reduce padding around the container */
+//  gap: 5px; /* Control space between rows and columns */
+//}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap; /* Allow wrapping to new rows */
-  justify-content: center; /* Center horizontally */
+  //justify-content: center; /* Center horizontally */
   align-items: flex-start; /* Align at the top */
   padding: 5px; /* Reduce padding around the container */
-  gap: 5px; /* Control space between rows and columns */
+  column-gap: 5px; /* Space between columns */
+  row-gap: 3px; /* Reduced space between rows */
 }
 
 .flex-item {
