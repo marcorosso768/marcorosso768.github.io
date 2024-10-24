@@ -543,38 +543,38 @@ footer.sticky-bottom {
   flex-wrap: wrap; /* Allow wrapping to new rows */
   justify-content: center; /* Center horizontally */
   align-items: flex-start; /* Align at the top */
-  padding: 10px;
+  padding: 5px; /* Reduce padding around the container */
 }
 
 .flex-item {
-  flex: 1 1 100px; /* Adjust width - ensures equal column width, even if wrapping */
-  min-width: 150px; /* Set minimum width for each item */
+  flex: 1 1 75px; /* Adjust width - ensures equal column width, even if wrapping */
+  min-width: 100px; /* Set minimum width for each item */
   max-width: 200px; /* Optional: define maximum width */
-  margin: 10px;
-  padding: 15px;
+  margin: 5px; /* Reduce margin between items */
+  padding: 10px; /* Reduce padding inside each item */
   box-sizing: border-box; /* Ensure padding and border are included in the width */
-  text-align: left; /* Center text horizontally */
-  min-height: 25px; /* Ensure a consistent height across items */
-  display: flex; 
+  text-align: left; /* Align text to the left */
+  min-height: 15px; /* Ensure a consistent height across items */
+  display: flex;
   flex-direction: column; /* Align content vertically */
   justify-content: space-between; /* Distribute items within flex-item */
 }
 
 .list-group-category {
-  margin-bottom: 10px; /* Space between category and items */
+  margin-bottom: 5px; /* Reduce space between category and items */
 }
 
 .list-group-category-icon {
-  margin-bottom: 5px;
+  margin-bottom: 3px; /* Reduce space below the icon */
 }
 
 .list-group-name {
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 3px; /* Reduce space below the name */
 }
 
 .list-group-level, .list-group-school, .list-group-time, .list-group-link {
-  margin-top: 5px;
+  margin-top: 3px; /* Reduce space between other elements */
 }
 
 .table-cv-map {
