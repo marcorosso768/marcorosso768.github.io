@@ -21,7 +21,7 @@ nav_order: 1
 <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: journal icon and project title -->
       <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-          ><i class="fa-solid fa-newspaper" style="color: var(--global-theme-color);"></i>
+          <i class="fa-solid fa-newspaper" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
           <span>Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088"> Short-term effect of colorectal cancer on income: analysis of an Italian cohort. </a> <i> Journal of Epidemiology & Community Health</i>, 77:196-201.</span>
