@@ -6,6 +6,7 @@ description:
 nav: true
 nav_order: 2
 ---
+
 <!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
   <a id="toggle-content-4" href="javascript:void(0);" onclick="toggleVisibility('content-4')">
