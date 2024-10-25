@@ -25,7 +25,8 @@ nav_order: 3
             <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color);"></i>
         </div>
         <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-            <span><b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/enrico.cantoni'><i>Enrico Cantoni</i></a> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'><i>Political Economy</i></a>
+            <span>
+              <b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/enrico.cantoni'><i>Enrico Cantoni</i></a> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'><i>Political Economy</i></a>
             </span>
         </div>
         <!-- Second row: Building icon and department text -->
@@ -33,7 +34,7 @@ nav_order: 3
             <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
                 <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color);"></i>
             </div>
-            <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+            <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
                 <span>Economics, Politics and Social Sciences, <i>University of Bologna</i></span>
             </div>
         </div>
@@ -43,32 +44,27 @@ nav_order: 3
   <br>
 
   <div style="margin-left: 10px">
-    <div style="display: flex; flex-direction: column; gap: 0;">
+    <div style="margin: 0; padding: 0; position: relative;">
         <!-- First row: Chalkboard icon and teaching assistant text -->
-        <div style="display: flex; align-items: flex-start;">
-            <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-                 <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color);"></i>
-            </div>
-            <span style="margin-left: 10px;"><b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/enrico.cantoni'><i>Enrico Cantoni</i></a> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'><i>Political Economy</i></a>
+        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+            <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color);"></i>
+        </div>
+        <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+            <span>
+              <b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/marco.casari'><i>Marco Casari</i></a> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/502710'><i>Microeconomics</i></a>
             </span>
         </div>
         <!-- Second row: Building icon and department text -->
-        <div style="display: flex; align-items: flex-start; margin-top: 0;">
-            <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-                <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+        <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+                <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color);"></i>
             </div>
-            <span style="margin-left: 10px; font-size: 10pt;">Economics, Politics and Social Sciences, <i>University of Bologna</i></span>
+            <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
+                <span>Economics, Politics and Social Sciences, <i>University of Bologna</i></span>
+            </div>
         </div>
     </div>
   </div>
-
-  <br>
-  
-  <p style="padding-left: 20px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span>
-    <b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/marco.casari'><i>Marco Casari</i></a> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/502710'><i>Microeconomics</i></a>
-    <br>
-  <span style="font-size:10pt;">Economics, Politics and Social Sciences, <i> University of Bologna </i></span>
-  </p>
   
   <p><b>2022/25</b></p>
   
