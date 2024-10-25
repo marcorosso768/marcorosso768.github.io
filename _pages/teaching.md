@@ -32,7 +32,7 @@ nav_order: 3
         <!-- Second row: Building icon and department text -->
         <div style="display: flex; align-items: flex-start; margin-top: 0;">
             <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-                <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color);"></i>
+                <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color); font-size: 10pt;"></i>
             </div>
             <span style="margin-left: 10px; font-size: 10pt;">Economics, Politics and Social Sciences, <i>University of Bologna</i></span>
         </div>
