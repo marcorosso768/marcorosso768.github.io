@@ -1,15 +1,3 @@
-#- title: current positions
-#  type: map
-#  contents:
-#    - name:
-#      value: <i class="fa-solid fa-graduation-cap" style="color:var(--global-theme-color);"></i>&nbsp; Visiting Ph.D. Student, <i>Universidad de San Andrés, Buenos Aires</i>
-#    - name: 
-#      value: <i class="fa-solid fa-suitcase" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp; Research Fellow, <i>University of Bologna</i>
-#    - name: 
-#      value: <i class="fa-solid fa-graduation-cap" style="color:var(--global-theme-color);"></i>&nbsp; Ph.D. Candidate in Economics, <i>University of Bologna</i>
-#    - name: 
-#      value: <i class="fa-solid fa-suitcase" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp; Teaching Assistant, <i>University of Bologna</i>
-
 - title: education
   type: time_table
   contents:
@@ -70,7 +58,7 @@
       location: "Bologna, <br> Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
-      supervisor: '<span style="font-size: 10pt;">supervisors: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en"><i>Maria Bigoni</i></a> and <a href="https://sites.google.com/site/stefaniabortolotti/home"><i>Stefania Bortolotti</i></a></span>'
+      supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en"><i>Maria Bigoni</i></a> and <a href="https://sites.google.com/site/stefaniabortolotti/home"><i>Stefania Bortolotti</i></a>'
     - title: Generation and Preparation of Support Material for the Econometrics Course
       year: "2023"
       location: "Bologna, <br> Italy"
@@ -87,8 +75,8 @@
 - title: refereeing for academic journals
   type: map
   contents:
-    - name: 
-      value: <i>Journal of Economics &amp; Management Strategy</i>
+    - name:
+      value: '<span style="font-size:10pt;"><i class="fa-solid fa-book-open" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<i style="font-size:10pt;">Journal of Economics &amp; Management Strategy</i></span>'
 
 - title: awards, grants, and scholarships
   type: time_table
@@ -124,7 +112,7 @@
         - name: "fluent"
     - category: "Spanish"
       items:
-        - name: "basic"
+        - name: "intermediate"
 
 - title: other experience
   type: time_table
@@ -157,7 +145,7 @@
     - category: '<span style="color:var(--global-text-color);"> football </span>'
       icon: "fa-regular fa-futbol" 
     - category: '<span style="color:var(--global-text-color);"> comics </span>'
-      icon: "fa-solid fa-book-open"
+      icon: "fa-solid fa-book"
     - category: '<span style="color:var(--global-text-color);"> video games </span>'
       icon: "fa-solid fa-gamepad"
     - category: '<span style="color:var(--global-text-color);"> board games </span>'

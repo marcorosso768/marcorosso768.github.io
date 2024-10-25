@@ -16,9 +16,10 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
-  <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-  </div>
+<div class="header-bar">
+  <h1>{{ site.blog_name }}</h1>
+</div>
 
-  <br>
-  <i>Coming soon...</i>
+<br>
+
+<i>Coming soon...</i>
