@@ -46,7 +46,7 @@ nav_order: 2
         <span>Ciclo de Seminarios del Departamento de Economía - <span style="color: var(--global-theme-color);">Speaker</span></span>
     </div>
     <!-- Second row: Location icon and location text -->
-    <div style="margin-top: 10px; position: relative;">
+    <div style="margin-top: 0px; position: relative; font-size: 10pt;">
         <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
             <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
         </div>
