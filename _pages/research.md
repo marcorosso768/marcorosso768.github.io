@@ -21,11 +21,11 @@ nav_order: 1
 
   <!-- Abstract toggle link with triangle -->
   <p style="margin: 0; margin-left: 10px;">
-    <a href="javascript:void(0);" id="toggle-abstract-1" onclick="toggleAbstract('abstract-1')"><i class="fa-solid fa-chevron-right"></i> <i>Abstract</i></a>
+    <a href="javascript:void(0);" id="toggle-abstract-1" onclick="toggleAbstract('abstract-1')">&#9657; <i>Abstract</i></a>
   </p>
 
   <!-- Abstract content hidden by default -->
-  <div id="abstract-1" style="display:none; margin: 0; margin-left: 10px; font-size:10pt;">  
+  <div id="abstract-1" style="display:none; margin: 0; margin-left: 10px;">  
     <b>Introduction</b> The ability to return to work after a cancer diagnosis is a key aspect of cancer survivorship and quality of life. Studies have reported a significant risk of income loss for cancer survivors; however, there is limited evidence of the Italian context.
      <br>
     <b>Methods</b> The Work Histories Italian Panel (WHIP)-Salute database was used to select a cohort of incident cases of colorectal cancer (CRC) among workers in the private sector, based on hospital discharges. A propensity score matching was used to find a balanced control group for several confounders. Ordinary least square and logistic regressions were used to estimate the effect of a CRC diagnosis on annual income and the probability of switching from a full-time contract to a part-time one considering 3 years after the diagnosis.
@@ -52,11 +52,11 @@ nav_order: 1
   
   <!-- Abstract toggle link with triangle -->
   <p style="margin: 0; margin-left: 10px;">
-    <a href="javascript:void(0);" id="toggle-abstract-2" onclick="toggleAbstract('abstract-2')"><i class="fa-solid fa-chevron-right"></i> <i>Abstract</i></a>
+    <a href="javascript:void(0);" id="toggle-abstract-2" onclick="toggleAbstract('abstract-2')">&#9657; <i>Abstract</i></a>
   </p>
   
   <!-- Abstract content hidden by default -->
-  <div id="abstract-2" style="display:none; margin: 0; margin-left: 10px; font-size:10pt;">
+  <div id="abstract-2" style="display:none; margin: 0; margin-left: 10px;">
     This study examines the impact of crime salience on individual voting behavior, using geolocated crime-related news as a proxy for public concern about crime in the lead-up to elections. Drawing on a retrospective survey of 5000 geolocated individuals across five elections—two national and three administrative—the analysis primarily focuses on national polls, where the absence of local confounders enhances external validity. The results are mixed overall, showing no significant effect on voting behavior when crimes are committed by Italians. However, crimes attributed to immigrants elicit a substantial individual electoral response. Voters tend to withdraw support from the populist Five Star Movement (M5S), known for its ambiguous stance on immigration and instead align with right-wing parties, particularly the Center-Right coalition, which emphasizes law and order. The response to immigrant-related crime also varies by demographic characteristics: high-skilled and educated voters are more likely to abandon M5S, while low-skilled and less-educated voters tend to desert the far-right Lega. In administrative elections, the effect of crime salience diverges. Crimes committed by Italians result in the punishment of incumbents, while immigrant-related crimes lead to increased voter abstention, possibly reflecting the social costs associated with party-switching among left-leaning voters. These findings provide novel insights into the relationship between crime salience, particularly regarding immigration, and individual voting behavior.
     <br>
     <div class="b">
@@ -68,11 +68,11 @@ nav_order: 1
   
   <!-- Abstract toggle link with triangle -->
   <p style="margin: 0; margin-left: 10px;">
-    <a href="javascript:void(0);" id="toggle-abstract-3" onclick="toggleAbstract('abstract-3')"><i class="fa-solid fa-chevron-right"></i> <i>Abstract</i></a>
+    <a href="javascript:void(0);" id="toggle-abstract-3" onclick="toggleAbstract('abstract-3')">&#9657; <i>Abstract</i></a>
   </p>
   
   <!-- Abstract content hidden by default -->
-  <div id="abstract-3" style="display:none; margin: 0; margin-bottom: 10px; margin-left: 10px; font-size:10pt;">
+  <div id="abstract-3" style="display:none; margin: 0; margin-bottom: 10px; margin-left: 10px;">
     This paper presents a theoretical model that examines the impact of corruption opportunities on the self-selection process of individuals in the public sector. The study explores how the temptation of engaging in corruption influences individuals' career choices. The main finding of the research reveals a dual effect of corruption opportunities in the public sector. On one hand, such opportunities attract individuals with lower ambition and motivation, who are more likely to engage in unethical behavior. On the other hand, when the temptation to participate in corruption becomes significant, highly motivated individuals may be deterred from pursuing a career in the public sector due to self-control issues, leading them to opt for employment in the private sector instead. This finding highlights the importance of considering the impact of corruption and self-control problems on the quality and composition of the public sector workforce, which can have broader implications for economic outcomes.
     <br>
     <div class="b">
@@ -109,10 +109,10 @@ nav_order: 1
     
     if (abstract.style.display === "none" || abstract.style.display === "") {
       abstract.style.display = "block";
-      toggleButton.innerHTML = "<i class="fa-solid fa-chevron-down"></i> Abstract"; // Full down triangle when abstract is open
+      toggleButton.innerHTML = "&#9662; Abstract"; // Full down triangle when abstract is open
     } else {
       abstract.style.display = "none";
-      toggleButton.innerHTML = "<i class="fa-solid fa-chevron-right"></i> Abstract"; // Empty right triangle when abstract is closed
+      toggleButton.innerHTML = "&#9657; Abstract"; // Empty right triangle when abstract is closed
     }
   }
 
