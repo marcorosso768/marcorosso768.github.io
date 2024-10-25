@@ -19,19 +19,22 @@ nav_order: 2
   <div style="display: flex; align-items: center;">
     <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
     <span style="margin-left: 15px;">Ciclo de Seminarios del Departamento de Economía - <span style="color: var(--global-theme-color);">Speaker</span></span>
-</div>
-<div style="display: flex; align-items: center;">
+  </div>
+  <div style="display: flex; align-items: center;">
     <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
     <span style="margin-left: 15px;"><i>Universidad de San Andrés, Buenos Aires, Argentina</i></span>
-</div>
-  
-  <p>
+  </div>
+
+<br>
+
+  <div style="display: flex; align-items: center;">
     <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
-    <span style="marging-left: 15px;">&#8548; Ph.D. Workshop</span>
-    <br>
-    <span style="font-size:10pt;">&nbsp;&nbsp;<i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
-    <span style="margin-left: 15px;"><i >Le Sparne, Pitigliano (GR), Italy</i></span></span>
-  </p>
+    <span style="margin-left: 15px;">&#8548; Ph.D. Workshop</span>
+  </div>
+  <div style="display: flex; align-items: center;">
+    <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+    <span style="margin-left: 15px;"><i>Le Sparne, Pitigliano (GR), Italy</i></span>
+  </div>
 
 </div>
 <!-- end -->
