@@ -19,9 +19,9 @@ nav_order: 3
   <p><b>2024/25</b></p>
     
   <p style="padding-left: 20px;"> <span style="margin-left: -10px; color: var(--global-theme-color);"><i class="fa-solid fa-chalkboard-user"></i></span>
-    <b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/enrico.cantoni'><i>Enrico Cantoni</i></a> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'><i>Political Economy</i></a>
+    &nbsp;<b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/enrico.cantoni'><i>Enrico Cantoni</i></a> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'><i>Political Economy</i></a>
     <br>
-  <span style="font-size:10pt;">&nbsp;&nbsp;<i class="fa-solid fa-building-columns" style="color: var(--global-theme-color); margin-left: -10px;"></i>&nbsp; Economics, Politics and Social Sciences, <i> University of Bologna </i></span>
+  <span style="font-size:10pt;">&nbsp;<i class="fa-solid fa-building-columns" style="color: var(--global-theme-color); margin-left: -10px;"></i>&nbsp;&nbsp; Economics, Politics and Social Sciences, <i> University of Bologna </i></span>
   </p>
   
   <p style="padding-left: 20px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span>
