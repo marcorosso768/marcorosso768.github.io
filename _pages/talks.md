@@ -9,7 +9,7 @@ nav_order: 2
 <!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
   <a id="toggle-content-4" href="javascript:void(0);" onclick="toggleVisibility('content-4')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down"></i> 2024 </h2>
+    <h2 class="category"><i class="fa-solid fa-chevron-down fa-xs"></i> 2024 </h2>
   </a>
 </div>
 
@@ -59,14 +59,15 @@ nav_order: 2
 </div>
 <!-- end -->
 
+<!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
-  <a id="2023" href="javascript:void(0);" onclick="toggleVisibility('2023-content')">
-    <h2 class="category"> 2023 </h2>
+  <a id="toggle-content-3" href="javascript:void(0);" onclick="toggleVisibility('content-3')">
+    <h2 class="category"><i class="fa-solid fa-chevron-right fa-xs"></i> 2023 </h2>
   </a>
 </div>
 
-<!-- 2023 -->
-<div id="2023-content" style="display: none;">
+<!-- 2023 section hidden by default -->
+<div id="content-3" style="display: none;">
 
   <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: Person icon and seminar title -->
@@ -175,14 +176,15 @@ nav_order: 2
 </div>
 <!-- end -->
 
+<!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
-  <a id="2022" href="javascript:void(0);" onclick="toggleVisibility('2022-content')">
-    <h2 class="category"> 2022 </h2>
+  <a id="toggle-content-2" href="javascript:void(0);" onclick="toggleVisibility('content-2')">
+    <h2 class="category"><i class="fa-solid fa-chevron-right fa-xs"></i> 2022 </h2>
   </a>
 </div>
 
-<!-- 2022 -->
-<div id="2022-content" style="display: none;">
+<!-- 2022 section hidden by default -->
+<div id="content-2" style="display: none;">
 
   <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: Person icon and seminar title -->
@@ -248,14 +250,15 @@ nav_order: 2
 </div>
 <!-- end -->
 
+<!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
-  <a id="2021" href="javascript:void(0);" onclick="toggleVisibility('2021-content')">
-    <h2 class="category"> 2021 </h2>
+  <a id="toggle-content-1" href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+    <h2 class="category"><i class="fa-solid fa-chevron-right fa-xs"></i> 2021 </h2>
   </a>
 </div>
 
-<!-- 2021 -->
-<div id="2021-content" style="display: none;">
+<!-- 2021 section hidden by default -->
+<div id="content-1" style="display: none;">
 
   <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: Person icon and seminar title -->
@@ -329,10 +332,10 @@ nav_order: 2
     
     if (content.style.display === "none") {
       content.style.display = "block";
-      toggleButton.className = "fa-solid fa-chevron-down"; // Change to down icon
+      toggleButton.className = "fa-solid fa-chevron-down fa-xs"; // Change to down icon
     } else {
       content.style.display = "none";
-      toggleButton.className = "fa-solid fa-chevron-right"; // Change to right icon
+      toggleButton.className = "fa-solid fa-chevron-right fa-xs"; // Change to right icon
     }
   }  
 </script>
