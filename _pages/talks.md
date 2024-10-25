@@ -16,13 +16,14 @@ nav_order: 2
 <!-- 2024 -->
 <div id="2024-content" style="display: block;">
   
-  <p>
+  <div style="display: flex; align-items: center;">
     <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
-    <span style="marging-left: 15px;">Ciclo de Seminarios del Departamento de Economía - <span style="color: var(--global-theme-color);">Speaker</span></span>
-    <br>
-    <span style="font-size:10pt;">&nbsp;&nbsp;<i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
-    <span style="margin-left: 15px;"><i>Universidad de San Andrés, Buenos Aires, Argentina</i></span></span>
-  </p>
+    <span style="margin-left: 15px;">Ciclo de Seminarios del Departamento de Economía - <span style="color: var(--global-theme-color);">Speaker</span></span>
+</div>
+<div style="display: flex; align-items: center;">
+    <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+    <span style="margin-left: 15px;"><i>Universidad de San Andrés, Buenos Aires, Argentina</i></span>
+</div>
   
   <p>
     <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
