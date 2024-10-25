@@ -327,6 +327,7 @@ nav_order: 2
 
 <!-- Inline script -->
 <script>
+  // Toggle the visibility of the sections
   function toggleVisibility(id) {
     var content = document.getElementById(id);
     var toggleButton = document.getElementById('toggle-' + id).querySelector('i');
