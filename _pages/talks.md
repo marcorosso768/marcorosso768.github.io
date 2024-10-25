@@ -18,24 +18,23 @@ nav_order: 2
 
 <div style="margin: 0; padding: 0;">
     <!-- First row: Person icon and seminar title -->
-    <div style="display: flex;flex-direction: column; gap: 0; ">
-        <div style="width: 25px; align-items: center;">
-            <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
-        </div>
-        <div style="margin-left: 5px; display: inline-block;">
-            Ciclo de Seminarios del Departamento de Economía - <span style="color: var(--global-theme-color);">Speaker</span>
-        </div>
+    <div style="display: inline-block; vertical-align: top; width: 25px; text-align: center;">
+        <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color); position: relative; top: 0.15em;"></i>
+    </div>
+    <div style="display: inline-block; padding-left: 5px; width: calc(100% - 30px); text-indent: -5px;">
+        Ciclo de Seminarios del Departamento de Economía - <span style="color: var(--global-theme-color);">Speaker</span>
     </div>
     <!-- Second row: Location icon and location text -->
-    <div style="display: flex; flex-direction: column; gap: 0; margin-top: 0;">
-        <div style="width: 25px; align-items: center;">
-            <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+    <div style="margin-top: 0; font-size: 10pt;">
+        <div style="display: inline-block; vertical-align: top; width: 25px; text-align: center;">
+            <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); position: relative; top: 0.15em;"></i>
         </div>
-        <div style="margin-left: 5px; display: inline-block;">
+        <div style="display: inline-block; padding-left: 5px; width: calc(100% - 30px); text-indent: -5px;">
             <i>Universidad de San Andrés, Buenos Aires, Argentina</i>
         </div>
     </div>
 </div>
+
 
 <br>
 
