@@ -6,15 +6,15 @@ description:
 nav: true
 nav_order: 2
 ---
-
+<!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
-  <a id="2024" href="javascript:void(0);" onclick="toggleVisibility('2024-content')">
-    <h2 class="category"> 2024 </h2>
+  <a id="toggle-content-4" href="javascript:void(0);" onclick="toggleVisibility('content-4')">
+    <h2 class="category"><i class="fa-solid fa-chevron-down"></i> 2024 </h2>
   </a>
 </div>
 
-<!-- 2024 -->
-<div id="2024-content" style="display: block;">
+<!-- 2024 section show by default -->
+<div id="content-4" style="display: block;">
 
   <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: Person icon and seminar title -->
@@ -29,7 +29,7 @@ nav_order: 2
           <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+          <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
               <i>Universidad de San Andrés, Buenos Aires, Argentina</i>
           </div>
       </div>
@@ -50,7 +50,7 @@ nav_order: 2
           <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+          <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
               <i>Le Sparne, Pitigliano (GR), Italy</i>
           </div>
       </div>
@@ -81,7 +81,7 @@ nav_order: 2
           <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+          <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
               <i>Le Sparne, Pitigliano (GR), Italy</i>
           </div>
       </div>
@@ -102,7 +102,7 @@ nav_order: 2
           <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+          <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
               <i>University of Sassari, Sassari, Italy</i>
           </div>
       </div>
@@ -123,7 +123,7 @@ nav_order: 2
           <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+          <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
               <i>Bertinoro (FC), Italy</i>
           </div>
       </div>
@@ -144,7 +144,7 @@ nav_order: 2
           <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+          <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
               <i>University of Bologna, Bologna, Italy</i>
           </div>
       </div>
@@ -166,7 +166,7 @@ nav_order: 2
           <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+          <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
               <i>“Walter Bigiavi” Library, Bologna, Italy</i>
           </div>
       </div>
@@ -197,7 +197,7 @@ nav_order: 2
           <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+          <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
               <i>University of Bologna, Bologna, Italy</i>
           </div>
       </div>
@@ -218,7 +218,7 @@ nav_order: 2
           <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+          <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
               <i>Le Sparne, Pitigliano (GR), Italy</i>
           </div>
       </div>
@@ -239,7 +239,7 @@ nav_order: 2
           <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+          <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
               <i>University of Bologna, Bologna, Italy</i>
           </div>
       </div>
@@ -270,7 +270,7 @@ nav_order: 2
           <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+          <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
               <i>Le Sparne, Pitigliano (GR), Italy</i>
           </div>
       </div>
@@ -291,7 +291,7 @@ nav_order: 2
           <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+          <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
               <i>University of Bologna, Bologna, Italy</i>
           </div>
       </div>
@@ -312,7 +312,7 @@ nav_order: 2
           <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+          <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
               <i>University of Bologna, Bologna, Italy</i>
           </div>
       </div>
@@ -325,10 +325,14 @@ nav_order: 2
 <script>
   function toggleVisibility(id) {
     var content = document.getElementById(id);
+    var toggleButton = document.getElementById('toggle-' + id).querySelector('i');
+    
     if (content.style.display === "none") {
       content.style.display = "block";
+      toggleButton.className = "fa-solid fa-chevron-down"; // Change to down icon
     } else {
       content.style.display = "none";
+      toggleButton.className = "fa-solid fa-chevron-right"; // Change to right icon
     }
-  }
+  }  
 </script>
