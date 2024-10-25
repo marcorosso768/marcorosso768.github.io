@@ -18,48 +18,26 @@ nav_order: 2
 
 <div style="margin: 0; padding: 0;">
     <!-- First row: Person icon and seminar title -->
-    <div style="display: flex; align-items: center; margin-bottom: 5px;">
-        <div style="width: 25px; text-align: center;">
+    <div style="display: flex;flex-direction: column; gap: 0; ">
+        <div style="width: 25px; align-items: center;">
             <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
         </div>
-        <div style="margin-left: 5px; line-height: 1.5;">
+        <div style="margin-left: 5px; display: inline-block;">
             Ciclo de Seminarios del Departamento de Economía - <span style="color: var(--global-theme-color);">Speaker</span>
         </div>
     </div>
     <!-- Second row: Location icon and location text -->
-    <div style="display: flex; align-items: center;">
-        <div style="width: 25px; text-align: center;">
+    <div style="display: flex; flex-direction: column; gap: 0; margin-top: 0;">
+        <div style="width: 25px; align-items: center;">
             <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
         </div>
-        <div style="margin-left: 5px; line-height: 1.5;">
+        <div style="margin-left: 5px; display: inline-block;">
             <i>Universidad de San Andrés, Buenos Aires, Argentina</i>
         </div>
     </div>
 </div>
 
 <br>
-
-<div style="margin: 0; padding: 0;">
-    <!-- First row: Person icon and seminar title -->
-    <div style="display: flex; align-items: flex-start; margin-bottom: 5px;">
-        <div style="width: 25px; text-align: center; display: flex; align-items: center;">
-            <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
-        </div>
-        <div style="margin-left: 5px;">
-            <span style="display: inline-block;">Ciclo de Seminarios del Departamento de Economía - 
-            <span style="color: var(--global-theme-color);">Speaker</span></span>
-        </div>
-    </div>
-    <!-- Second row: Location icon and location text -->
-    <div style="display: flex; align-items: flex-start;">
-        <div style="width: 25px; text-align: center;">
-            <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
-        </div>
-        <div style="margin-left: 5px;">
-            <i>Universidad de San Andrés, Buenos Aires, Argentina</i>
-        </div>
-    </div>
-</div>
 
   <br>
 
