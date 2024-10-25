@@ -22,7 +22,7 @@ nav_order: 1
   <!-- Abstract toggle link with Font Awesome icons -->
   <p style="margin: 0; margin-left: 10px;">
     <a href="javascript:void(0);" id="toggle-abstract-1" onclick="toggleAbstract('abstract-1')">
-      <i class="fa-solid fa-chevron-right fa-xs"></i> <i>Abstract</i>
+      <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Abstract</i>
     </a>
   </p>
 
