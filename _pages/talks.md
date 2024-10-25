@@ -16,7 +16,7 @@ nav_order: 2
 <!-- 2024 -->
 <div id="2024-content" style="display: block;">
   
-  <p style="padding-left: 30px;"> <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color); margin-left: -30px;"></i> Ciclo de Seminarios del Departamento de Economía - <span style="color: var(--global-theme-color);">Speaker</span>
+  <p style="padding-left: 30px;"> <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color); margin-left: -30px;"></i>&nbsp; Ciclo de Seminarios del Departamento de Economía - <span style="color: var(--global-theme-color);">Speaker</span>
     <br>
   <span style="font-size:10pt;">&nbsp;&nbsp;<span style="margin-left: -30px;"><i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i></span>&nbsp;&nbsp; <i>Universidad de San Andrés, Buenos Aires, Argentina</i></span> </p>
   
