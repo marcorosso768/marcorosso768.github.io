@@ -51,17 +51,17 @@
   {% endunless %}
 {% endif %}
 
+
   {% if site.serve_og_meta %}
   <!-- OpenGraph -->
-  <meta property="og:site_name" content="{{ title }}">
+  <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
-  <meta property="og:title" content="{{ title }}">
+  <meta property="og:title" content="{{ site.title }}">
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
   <meta property="og:description" content="{{ site.description }}">
-  {% if site.og_image %}
-    <meta property="og:image" content="{{ site.og_image }}">
-  {% endif %}
+  <meta property="og:image" content="{{ site.og_image }}">
   <meta property="og:locale" content="{{ site.lang }}">
+  {% if site.serve_og_meta %}
 
   <!-- Twitter card -->
   <meta name="twitter:card" content="summary">
