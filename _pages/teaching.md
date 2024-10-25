@@ -65,12 +65,58 @@ nav_order: 3
         </div>
     </div>
   </div>
+
+  <br>
   
   <p><b>2022/25</b></p>
+
+  <div style="margin-left: 10px">
+    <div style="margin: 0; padding: 0; position: relative;">
+        <!-- First row: Chalkboard icon and teaching assistant text -->
+        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+            <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color);"></i>
+        </div>
+        <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+            <span>
+              <b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/andrea.mattozzi'><i>Andrea Mattozzi</i></a> for the Master Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/491971'><i>Game Theory</i></a>
+            </span>
+        </div>
+        <!-- Second row: Building icon and department text -->
+        <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+                <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color);"></i>
+            </div>
+            <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
+                <span>Economics and Econometrics, <i>University of Bologna</i></span>
+            </div>
+        </div>
+    </div>
+  </div>
   
-  <p style="padding-left: 20px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <b>Teaching Assistant</b> for the Master Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/491971'><i>Game Theory</i></a> <br> <span style="font-size:10pt;">Economics and Econometrics, <i> University of Bologna </i></span> <br> Assistant to <a href='https://www.unibo.it/sitoweb/andrea.mattozzi'><i>Andrea Mattozzi</i></a> </p>
-  
-  <p style="padding-left: 20px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <b>Teaching Assistant</b> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/467276'><i>Introduction to Behavioral Economics</i></a> <br> <span style="font-size:10pt;">Economics and Finance, <i> University of Bologna </i></span> <br> Assistant to <a href='https://www.unibo.it/sitoweb/maria.bigoni'><i>Maria Bigoni</i></a> </p>
+  <br>
+
+  <div style="margin-left: 10px">
+    <div style="margin: 0; padding: 0; position: relative;">
+        <!-- First row: Chalkboard icon and teaching assistant text -->
+        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+            <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color);"></i>
+        </div>
+        <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+            <span>
+              <b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/maria.bigoni'><i>Maria Bigoni</i></a> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/467276'><i>Introduction to Behavioral Economics</i></a>
+            </span>
+        </div>
+        <!-- Second row: Building icon and department text -->
+        <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+                <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color);"></i>
+            </div>
+            <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
+                <span>Economics and Finance, <i>University of Bologna</i></span>
+            </div>
+        </div>
+    </div>
+  </div>
 
 </div>
 <!-- end -->
@@ -87,8 +133,29 @@ nav_order: 3
   
   <!-- 2022/24 -->
   <p><b>2022/24</b></p>
-  
-  <p style="padding-left: 20px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <b>Teaching Assistant</b> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2023/422038'><i>Globalization: Trade, Migrations and Multinationals</i></a> <br> <span style="font-size:10pt;">Economics and Finance, <i> University of Bologna </i></span> <br> Assistant to <a href='https://www.unibo.it/sitoweb/giovanni.prarolo'><i>Giovanni Prarolo</i></a> and <a href='https://www.unibo.it/sitoweb/rohit.ticku'><i>Rohit Ticku</i></a> </p>
+
+  <div style="margin-left: 10px">
+    <div style="margin: 0; padding: 0; position: relative;">
+        <!-- First row: Chalkboard icon and teaching assistant text -->
+        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+            <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color);"></i>
+        </div>
+        <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+            <span>
+              <b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/giovanni.prarolo'><i>Giovanni Prarolo</i></a> and <a href='https://www.unibo.it/sitoweb/rohit.ticku'><i>Rohit Ticku</i></a> for the Undergraduate Course <<a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2023/422038'><i>Globalization: Trade, Migrations and Multinationals</i></a>
+            </span>
+        </div>
+        <!-- Second row: Building icon and department text -->
+        <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+                <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color);"></i>
+            </div>
+            <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
+                <span>Economics and Finance, <i>University of Bologna</i></span>
+            </div>
+        </div>
+    </div>
+  </div>
   <!-- end -->
   
   <!-- 2021/22 -->
