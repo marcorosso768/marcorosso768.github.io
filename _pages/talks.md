@@ -9,7 +9,7 @@ nav_order: 2
 <!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
   <a id="toggle-content-4" href="javascript:void(0);" onclick="toggleVisibility('content-4')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-xs"></i> 2024 </h2>
+    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> 2024 </h2>
   </a>
 </div>
 
@@ -62,7 +62,7 @@ nav_order: 2
 <!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
   <a id="toggle-content-3" href="javascript:void(0);" onclick="toggleVisibility('content-3')">
-    <h2 class="category"><i class="fa-solid fa-chevron-right fa-xs"></i> 2023 </h2>
+    <h2 class="category"><i class="fa-solid fa-chevron-right fa-2xs"></i> 2023 </h2>
   </a>
 </div>
 
@@ -179,7 +179,7 @@ nav_order: 2
 <!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
   <a id="toggle-content-2" href="javascript:void(0);" onclick="toggleVisibility('content-2')">
-    <h2 class="category"><i class="fa-solid fa-chevron-right fa-xs"></i> 2022 </h2>
+    <h2 class="category"><i class="fa-solid fa-chevron-right fa-2xs"></i> 2022 </h2>
   </a>
 </div>
 
@@ -253,7 +253,7 @@ nav_order: 2
 <!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
   <a id="toggle-content-1" href="javascript:void(0);" onclick="toggleVisibility('content-1')">
-    <h2 class="category"><i class="fa-solid fa-chevron-right fa-xs"></i> 2021 </h2>
+    <h2 class="category"><i class="fa-solid fa-chevron-right fa-2xs"></i> 2021 </h2>
   </a>
 </div>
 
@@ -332,10 +332,10 @@ nav_order: 2
     
     if (content.style.display === "none") {
       content.style.display = "block";
-      toggleButton.className = "fa-solid fa-chevron-down fa-xs"; // Change to down icon
+      toggleButton.className = "fa-solid fa-chevron-down fa-2xs"; // Change to down icon
     } else {
       content.style.display = "none";
-      toggleButton.className = "fa-solid fa-chevron-right fa-xs"; // Change to right icon
+      toggleButton.className = "fa-solid fa-chevron-right fa-2xs"; // Change to right icon
     }
   }  
 </script>
