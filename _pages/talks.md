@@ -18,7 +18,7 @@ nav_order: 2
 
 <div style="margin: 0; padding: 0;">
     <!-- First row: Person icon and seminar title -->
-    <div style="display: inline-block; vertical-align: center; width: 25px; text-align: center;">
+    <div style="display: inline-block; vertical-align: center; width: 25px; text-align: center; position: relative; top: 0em;">
         <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
     </div>
     <div style="display: inline-block; padding-left: 5px; width: calc(100% - 30px); text-indent: -5px;">
@@ -26,7 +26,7 @@ nav_order: 2
     </div>
     <!-- Second row: Location icon and location text -->
     <div style="margin-top: 0; font-size: 10pt;">
-        <div style="display: inline-block; vertical-align: center; width: 25px; text-align: center;">
+        <div style="display: inline-block; vertical-align: center; width: 25px; text-align: center; position: relative; top: 0em;">
             <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
         </div>
         <div style="display: inline-block; padding-left: 5px; width: calc(100% - 30px); text-indent: -5px;">
