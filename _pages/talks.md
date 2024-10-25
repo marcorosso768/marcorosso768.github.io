@@ -19,7 +19,7 @@ nav_order: 2
   <div style="display: flex; flex-direction: column; gap: 0;">
       <!-- First row: Person icon and seminar title -->
       <div style="display: flex; align-items: flex-start;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
+          <div style="width: 25px; display: flex; justify-content: center; align-self: normal;">
               <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
           </div>
           <span style="margin-left: 10px;">Ciclo de Seminarios del Departamento de Economía -
@@ -27,7 +27,7 @@ nav_order: 2
       </div>
       <!-- Second row: Location icon and location text -->
       <div style="display: flex; align-items: flex-start; margin-top: 0;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
+          <div style="width: 25px; display: flex; justify-content: center; align-self: normal;">
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
           </div>
           <span style="margin-left: 10px; font-size: 10pt;"><i>Universidad de San Andrés, Buenos Aires, Argentina</i></span>
