@@ -25,7 +25,7 @@ nav_order: 2
     </div>
     <!-- Second row: Location icon and location text -->
     <div style="display: flex; align-items: flex-start; margin-top: 0;">
-        <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+        &nbsp;<i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
         <span style="margin-left: 10px;"><i>Universidad de San Andrés, Buenos Aires, Argentina</i></span>
     </div>
   </div>
