@@ -18,7 +18,7 @@ nav_order: 1
 <!-- Publications section show by default -->
 <div id="content-3" style="display: block;">
 
-<div style="margin: 0; padding: 0; position: relative;">
+  <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: journal icon and project title -->
       <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
           <i class="fa-solid fa-newspaper" style="color: var(--global-theme-color);"></i>
@@ -60,7 +60,7 @@ nav_order: 1
 <!-- Working Papers section show by default -->
 <div id="content-2" style="display: block;">
 
-<div style="margin: 0; padding: 0; position: relative;">
+  <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: open book icon and project title -->
       <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
           <i class="fa-solid fa-book-open" style="color: var(--global-theme-color);"></i>
@@ -110,10 +110,9 @@ nav_order: 1
               <div class="b">
                 <b>Keywords:</b> self-selection, corruption, temptation, self-control
               </div>
-            </div>
           </div>
+        </div>
       </div>
-  </div>
   
 </div>
 <!-- end -->
