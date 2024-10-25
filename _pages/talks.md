@@ -21,7 +21,7 @@ nav_order: 2
       <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
           <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
-      <div style="display: inline-block; padding-left: 30px;">
+      <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
           <span>Ciclo de Seminarios del Departamento de Economía - <span style="color: var(--global-theme-color);">Speaker</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
@@ -29,7 +29,7 @@ nav_order: 2
           <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <div style="display: inline-block; padding-left: 30px;">
+          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
               <i>Universidad de San Andrés, Buenos Aires, Argentina</i>
           </div>
       </div>
@@ -42,36 +42,17 @@ nav_order: 2
       <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
           <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
-      <div style="display: inline-block; padding-left: 30px; line-height: 1.1em;">
-          <span>Ciclo de Seminarios del Departamento de Economía - <span style="color: var(--global-theme-color);">Speaker</span></span>
+      <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+          <span>&#8548; Ph.D. Workshop</span>
       </div>
       <!-- Second row: Location icon and location text -->
       <div style="margin-top: 0px; position: relative; font-size: 10pt;">
           <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <div style="display: inline-block; padding-left: 30px; line-height: 1.1em;">
-              <i>Universidad de San Andrés, Buenos Aires, Argentina</i>
+          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+              <i>Le Sparne, Pitigliano (GR), Italy</i>
           </div>
-      </div>
-  </div>
-
-  <br>
-
-  <div style="display: flex; flex-direction: column; gap: 0;">
-      <!-- First row: Person icon and seminar title -->
-      <div style="display: flex; align-items: flex-start;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
-          </div>
-          <span style="margin-left: 10px;">&#8548; Ph.D. Workshop</span>
-      </div>
-      <!-- Second row: Location icon and location text -->
-      <div style="display: flex; align-items: flex-start; margin-top: 0;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
-          </div>
-          <span style="margin-left: 10px; font-size: 10pt;"><i>Le Sparne, Pitigliano (GR), Italy</i></span>
       </div>
   </div>
 
@@ -167,21 +148,23 @@ nav_order: 2
   
   <br>
 
-  <div style="display: flex; flex-direction: column; gap: 0;">
+  <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: Person icon and seminar title -->
-      <div style="display: flex; align-items: flex-start;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
-          </div>
-          <span style="margin-left: 10px;">Presentation of <i>"A Modern Guide to the Economics of Crime"</i> by P. Buonanno, P. Vanin, and J. Vargas (Elgar, 2022) -
-        <span style="color: var(--global-theme-color);">Discussant</span></span>
+      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+          <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
+      </div>
+      <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
+          <span>Presentation of <i>"A Modern Guide to the Economics of Crime"</i> by P. Buonanno, P. Vanin, and J. Vargas (Elgar, 2022) - 
+          <span style="color: var(--global-theme-color);">Discussant</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
-      <div style="display: flex; align-items: flex-start; margin-top: 0;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+      <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+          <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <span style="margin-left: 10px; font-size: 10pt;"><i>“Walter Bigiavi” Library, Bologna, Italy</i></span>
+          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+              <i>“Walter Bigiavi” Library, Bologna, Italy</i>
+          </div>
       </div>
   </div>
 
