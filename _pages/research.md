@@ -19,13 +19,15 @@ nav_order: 1
 
   <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088"> Short-term effect of colorectal cancer on income: analysis of an Italian cohort. </a> <i> Journal of Epidemiology & Community Health</i>, 77:196-201. </p>
 
-  <!-- Abstract toggle link with triangle -->
+  <!-- Abstract toggle link with Font Awesome icons -->
   <p style="margin: 0; margin-left: 10px;">
-    <a href="javascript:void(0);" id="toggle-abstract-1" onclick="toggleAbstract('abstract-1')">&#9657; <i>Abstract</i></a>
+    <a href="javascript:void(0);" id="toggle-abstract-1" onclick="toggleAbstract('abstract-1')">
+      <i class="fa-solid fa-chevron-right"></i> <i>Abstract</i>
+    </a>
   </p>
 
   <!-- Abstract content hidden by default -->
-  <div id="abstract-1" style="display:none; margin: 0; margin-left: 10px;">  
+  <div id="abstract-1" style="display:none; margin: 0; margin-left: 10px;">
     <b>Introduction</b> The ability to return to work after a cancer diagnosis is a key aspect of cancer survivorship and quality of life. Studies have reported a significant risk of income loss for cancer survivors; however, there is limited evidence of the Italian context.
      <br>
     <b>Methods</b> The Work Histories Italian Panel (WHIP)-Salute database was used to select a cohort of incident cases of colorectal cancer (CRC) among workers in the private sector, based on hospital discharges. A propensity score matching was used to find a balanced control group for several confounders. Ordinary least square and logistic regressions were used to estimate the effect of a CRC diagnosis on annual income and the probability of switching from a full-time contract to a part-time one considering 3 years after the diagnosis.
@@ -50,9 +52,11 @@ nav_order: 1
 
   <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i>Crime Perception and Voting Behavior: Evidence from Individual Data</i>, joint with <a href="https://sites.google.com/site/giovanniprarolo/"><i> Giovanni Prarolo </i></a> </p>
   
-  <!-- Abstract toggle link with triangle -->
+  <!-- Abstract toggle link with Font Awesome icons -->
   <p style="margin: 0; margin-left: 10px;">
-    <a href="javascript:void(0);" id="toggle-abstract-2" onclick="toggleAbstract('abstract-2')">&#9657; <i>Abstract</i></a>
+    <a href="javascript:void(0);" id="toggle-abstract-2" onclick="toggleAbstract('abstract-2')">
+      <i class="fa-solid fa-chevron-right"></i> <i>Abstract</i>
+    </a>
   </p>
   
   <!-- Abstract content hidden by default -->
@@ -66,9 +70,11 @@ nav_order: 1
   
   <p style="margin-bottom: 0; margin-top: 10px; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i> Corruption, temptation, and self-selection in the public sector </i> </p>
   
-  <!-- Abstract toggle link with triangle -->
+  <!-- Abstract toggle link with Font Awesome icons -->
   <p style="margin: 0; margin-left: 10px;">
-    <a href="javascript:void(0);" id="toggle-abstract-3" onclick="toggleAbstract('abstract-3')">&#9657; <i>Abstract</i></a>
+    <a href="javascript:void(0);" id="toggle-abstract-3" onclick="toggleAbstract('abstract-3')">
+      <i class="fa-solid fa-chevron-right"></i> <i>Abstract</i>
+    </a>
   </p>
   
   <!-- Abstract content hidden by default -->
@@ -102,17 +108,17 @@ nav_order: 1
 
 <!-- Inline script -->
 <script>
-  // Toggle the visibility of the abstract and switch the triangle symbol
+  // Toggle the visibility of the abstract and switch the icon
   function toggleAbstract(id) {
     var abstract = document.getElementById(id);
-    var toggleButton = document.getElementById('toggle-' + id);
-    
+    var toggleButton = document.getElementById('toggle-' + id).querySelector('i');
+
     if (abstract.style.display === "none" || abstract.style.display === "") {
       abstract.style.display = "block";
-      toggleButton.innerHTML = "&#9662; Abstract"; // Full down triangle when abstract is open
+      toggleButton.className = "fa-solid fa-chevron-down"; // Change to down icon
     } else {
       abstract.style.display = "none";
-      toggleButton.innerHTML = "&#9657; Abstract"; // Empty right triangle when abstract is closed
+      toggleButton.className = "fa-solid fa-chevron-right"; // Change to right icon
     }
   }
 
