@@ -20,7 +20,7 @@ nav_order: 2
     <br>
   <span style="font-size:10pt;">&nbsp;&nbsp;<i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>&nbsp;&nbsp; <i>Universidad de San Andrés, Buenos Aires, Argentina</i></span> </p>
   
-  <p> <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>&nbsp; &#8548; Ph.D. Workshop
+  <p> &nbsp;<span style="margin-left: -10px; color: var(--global-theme-color);">•</span>&nbsp; &#8548; Ph.D. Workshop
     <br>
   <span style="font-size:10pt;">&nbsp;&nbsp;<i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>&nbsp;&nbsp; <i >Le Sparne, Pitigliano (GR), Italy</i></span> </p>
 
