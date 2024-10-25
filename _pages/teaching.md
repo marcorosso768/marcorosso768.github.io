@@ -21,14 +21,18 @@ nav_order: 3
   <div style="padding-left: 10px;">
     <!-- First row: Chalkboard icon and teaching assistant text -->
     <div style="display: flex;">
+      <div style="width: 24px; display: flex; justify-content: center;">
         <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color); min-width: 20px;"></i>
-        <span style="margin-left: 20px;"> <b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/enrico.cantoni'><i>Enrico Cantoni</i></a> for the Undergraduate Course 
+      </div>
+        <span style="margin-left: 15px;"> <b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/enrico.cantoni'><i>Enrico Cantoni</i></a> for the Undergraduate Course 
         <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'><i>Political Economy</i></a></span>
     </div>
     <!-- Second row: Building icon and department text -->
     <div style="display: flex; align-items: flex-start;">
+      <div style="width: 24px; display: flex; justify-content: center;">
         <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color); min-width: 20px;"></i>
-        <span style="margin-left: 20px; font-size: 10pt;">Economics, Politics and Social Sciences, <i>University of Bologna</i></span>
+      </div>
+        <span style="margin-left: 15px; font-size: 10pt;">Economics, Politics and Social Sciences, <i>University of Bologna</i></span>
     </div>
   </div>
 
