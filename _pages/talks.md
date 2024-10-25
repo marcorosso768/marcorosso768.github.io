@@ -22,7 +22,7 @@ nav_order: 2
   
   <p style="padding-left: 10px;"> &nbsp;<span style="margin-left: -10px; color: var(--global-theme-color);">•</span>&nbsp; &#8548; Ph.D. Workshop
     <br>
-  <span style="font-size:10pt;">&nbsp;&nbsp;<i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); "margin-left: -10px;"></i>&nbsp;&nbsp; <i >Le Sparne, Pitigliano (GR), Italy</i></span> </p>
+  <span style="font-size:10pt;">&nbsp;&nbsp;<i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); margin-left: -10px;"></i>&nbsp;&nbsp; <i >Le Sparne, Pitigliano (GR), Italy</i></span> </p>
 
 </div>
 <!-- end -->
