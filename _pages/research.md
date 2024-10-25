@@ -55,7 +55,7 @@ nav_order: 1
   <!-- Abstract toggle link with Font Awesome icons -->
   <p style="margin: 0; margin-left: 10px;">
     <a href="javascript:void(0);" id="toggle-abstract-2" onclick="toggleAbstract('abstract-2')">
-      <i class="fa-solid fa-chevron-right fa-xs"></i> <i>Abstract</i>
+      <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Abstract</i>
     </a>
   </p>
   
@@ -73,7 +73,7 @@ nav_order: 1
   <!-- Abstract toggle link with Font Awesome icons -->
   <p style="margin: 0; margin-left: 10px;">
     <a href="javascript:void(0);" id="toggle-abstract-3" onclick="toggleAbstract('abstract-3')">
-      <i class="fa-solid fa-chevron-right fa-xs"></i> <i>Abstract</i>
+      <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Abstract</i>
     </a>
   </p>
   
@@ -115,10 +115,10 @@ nav_order: 1
 
     if (abstract.style.display === "none" || abstract.style.display === "") {
       abstract.style.display = "block";
-      toggleButton.className = "fa-solid fa-chevron-down fa-xs"; // Change to down icon
+      toggleButton.className = "fa-solid fa-chevron-down fa-2xs"; // Change to down icon
     } else {
       abstract.style.display = "none";
-      toggleButton.className = "fa-solid fa-chevron-right fa-xs"; // Change to right icon
+      toggleButton.className = "fa-solid fa-chevron-right fa-2xs"; // Change to right icon
     }
   }
 
