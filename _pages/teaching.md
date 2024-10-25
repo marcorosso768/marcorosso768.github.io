@@ -7,6 +7,7 @@ nav: true
 nav_order: 3
 ---
 
+<!-- Current Courses -->
 <!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
   <a id="toggle-content-2" href="javascript:void(0);" onclick="toggleVisibility('content-2')">
@@ -122,6 +123,7 @@ nav_order: 3
 </div>
 <!-- end -->
 
+<!-- Past Courses -->
 <!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
   <a id="toggle-content-1" href="javascript:void(0);" onclick="toggleVisibility('content-1')">
@@ -297,6 +299,7 @@ nav_order: 3
 
 <!-- Inline script -->
 <script>
+  // Toggle the visibility of the sections
   function toggleVisibility(id) {
     var content = document.getElementById(id);
     var toggleButton = document.getElementById('toggle-' + id).querySelector('i');
