@@ -27,14 +27,14 @@ nav_order: 1
           <span>Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088"> Short-term effect of colorectal cancer on income: analysis of an Italian cohort. </a> <i> Journal of Epidemiology & Community Health</i>, 77:196-201.</span>
       </div>
       <!-- Second row: Location icon and location text -->
-      <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+      <div style="margin-top: 0px; position: relative;">
           <!-- Abstract toggle link with Font Awesome icons -->
-          <p style="margin: 0; margin-left: 10px;">
+          <p style="display: inline-block; padding-left: 30px;">
             <a href="javascript:void(0);" id="toggle-abstract-1" onclick="toggleAbstract('abstract-1')">
               <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Abstract</i>
             </a>
           </p>
-          <div id="abstract-1" style="display:inline-block; display:none; padding-left: 30px; line-height: 12pt;">
+          <div id="abstract-1" style="display:inline-block; display:none; padding-left: 30px; line-height: 12pt; font-size: 10pt;">
               <b>Introduction</b> The ability to return to work after a cancer diagnosis is a key aspect of cancer survivorship and quality of life. Studies have reported a significant risk of income loss for cancer survivors; however, there is limited evidence of the Italian context.
               <br>
               <b>Methods</b> The Work Histories Italian Panel (WHIP)-Salute database was used to select a cohort of incident cases of colorectal cancer (CRC) among workers in the private sector, based on hospital discharges. A propensity score matching was used to find a balanced control group for several confounders. Ordinary least square and logistic regressions were used to estimate the effect of a CRC diagnosis on annual income and the probability of switching from a full-time contract to a part-time one considering 3 years after the diagnosis.
