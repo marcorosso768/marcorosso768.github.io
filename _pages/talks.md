@@ -34,7 +34,25 @@ nav_order: 2
     </div>
   </div>
 
-<br>
+<div style="display: flex; flex-direction: column; gap: 0;">
+    <!-- First row: Person icon and seminar title -->
+    <div style="display: flex; align-items: flex-start;">
+        <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
+            <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
+        </div>
+        <span style="margin-left: 10px;">Ciclo de Seminarios del Departamento de Economía -
+        <span style="color: var(--global-theme-color);">Speaker</span></span>
+    </div>
+    <!-- Second row: Location icon and location text -->
+    <div style="display: flex; align-items: flex-start; margin-top: 0;">
+        <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
+            <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+        </div>
+        <span style="margin-left: 10px;"><i>Universidad de San Andrés, Buenos Aires, Argentina</i></span>
+    </div>
+</div>
+
+  <br>
 
   <div style="display: flex; flex-direction: column; gap: 0;">
     <!-- First row: Person icon and seminar title -->
