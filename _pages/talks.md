@@ -18,11 +18,11 @@ nav_order: 2
   
   <p> <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>&nbsp; Ciclo de Seminarios del Departamento de Economía - <span style="color: var(--global-theme-color);">Speaker</span>
     <br>
-  <span style="font-size:10pt;">&nbsp;<i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>&nbsp; <i>Universidad de San Andrés, Buenos Aires, Argentina</i></span> </p>
+  <span style="font-size:10pt;">&nbsp;&nbsp;<i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>&nbsp;&nbsp; <i>Universidad de San Andrés, Buenos Aires, Argentina</i></span> </p>
   
-  <p> <span style="color: var(--global-theme-color);">•</span> &#8548; Ph.D. Workshop
+  <p> <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>&nbsp; &#8548; Ph.D. Workshop
     <br>
-  <span style="font-size:10pt;"><i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>&nbsp;<i >Le Sparne, Pitigliano (GR), Italy</i></span> </p>
+  <span style="font-size:10pt;">&nbsp;&nbsp;<i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>&nbsp;&nbsp; <i >Le Sparne, Pitigliano (GR), Italy</i></span> </p>
 
 </div>
 <!-- end -->
