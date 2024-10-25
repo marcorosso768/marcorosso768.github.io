@@ -34,6 +34,8 @@ nav_order: 2
     </div>
   </div>
 
+<br>
+
 <div style="display: flex; flex-direction: column; gap: 0;">
     <!-- First row: Person icon and seminar title -->
     <div style="display: flex; align-items: flex-start;">
