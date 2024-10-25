@@ -18,7 +18,7 @@ nav_order: 3
 <!-- current courses show by default -->
 <div id="content-2" style="display: block;">
 
-  <p><b>2024/25</b></p>
+  <p><i class="fa-solid fa-minus"></i><b>2024/25</b></p>
 
   <div style="margin-left: 10px">
     <div style="margin: 0; padding: 0; position: relative;">
@@ -70,7 +70,7 @@ nav_order: 3
 
   <br>
   
-  <p><b>2022/25</b></p>
+  <p><i class="fa-solid fa-minus"></i><b>2022/25</b></p>
 
   <div style="margin-left: 10px">
     <div style="margin: 0; padding: 0; position: relative;">
@@ -135,7 +135,7 @@ nav_order: 3
 <div id="content-1" style="display: none;">
   
   <!-- 2022/24 -->
-  <p><b>2022/24</b></p>
+  <p><i class="fa-solid fa-minus"></i><b>2022/24</b></p>
 
   <div style="margin-left: 10px">
     <div style="margin: 0; padding: 0; position: relative;">
@@ -164,7 +164,7 @@ nav_order: 3
   <br>
   
   <!-- 2021/22 -->
-  <p><b>2021/22</b></p>
+  <p><i class="fa-solid fa-minus"></i><b>2021/22</b></p>
 
   <div style="margin-left: 10px">
     <div style="margin: 0; padding: 0; position: relative;">
@@ -243,7 +243,7 @@ nav_order: 3
   <br>
   
   <!-- 2019/20 -->
-  <p><b>2019/20</b></p>
+  <p><i class="fa-solid fa-minus"></i><b>2019/20</b></p>
 
   <div style="margin-left: 10px">
     <div style="margin: 0; padding: 0; position: relative;">
