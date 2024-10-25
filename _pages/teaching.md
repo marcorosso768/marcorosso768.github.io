@@ -17,20 +17,22 @@ nav_order: 3
 <!-- Show current courses by default -->
 <div id="current-courses-content" style="display: block;">
   <p><b>2024/25</b></p>
-    
-  <div style="display: flex; flex-direction: column; padding-left: 10px; gap: 0;">
+
+  <div style="padding-left: 10px;">
     <!-- First row: Chalkboard icon and teaching assistant text -->
-    <div style="display: flex; align-items: flex-start;">
-        <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color);"></i>
-        <span style="margin-left: 10px;"><b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/enrico.cantoni'><i>Enrico Cantoni</i></a> for the Undergraduate Course 
+    <div style="display: flex;">
+        <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color); min-width: 20px;"></i>
+        <span style="margin-left: 20px;"> <b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/enrico.cantoni'><i>Enrico Cantoni</i></a> for the Undergraduate Course 
         <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'><i>Political Economy</i></a></span>
     </div>
     <!-- Second row: Building icon and department text -->
-    <div style="display: flex; align-items: flex-start; margin-top: 0;">
-        <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color);"></i>
-        <span style="margin-left: 10px; font-size:10pt;">Economics, Politics and Social Sciences, <i> University of Bologna </i></span>
+    <div style="display: flex; align-items: flex-start;">
+        <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color); min-width: 20px;"></i>
+        <span style="margin-left: 20px; font-size: 10pt;">Economics, Politics and Social Sciences, <i>University of Bologna</i></span>
     </div>
   </div>
+
+  <br>
   
   <p style="padding-left: 20px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span>
     <b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/marco.casari'><i>Marco Casari</i></a> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/502710'><i>Microeconomics</i></a>
