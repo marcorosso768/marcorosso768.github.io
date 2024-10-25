@@ -26,7 +26,7 @@ nav_order: 1
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
           <span>Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088"> Short-term effect of colorectal cancer on income: analysis of an Italian cohort. </a> <i> Journal of Epidemiology & Community Health</i>, 77:196-201.</span>
       </div>
-      <!-- Second row: Location icon and location text -->
+      <!-- Second row: abstract -->
       <div style="margin-top: 0px; position: relative;">
           <!-- Abstract toggle link with Font Awesome icons -->
           <div style="display: inline-block; padding-left: 30px; font-size: 11pt;">
@@ -61,14 +61,14 @@ nav_order: 1
 <div id="content-2" style="display: block;">
 
 <div style="margin: 0; padding: 0; position: relative;">
-      <!-- First row: journal icon and project title -->
+      <!-- First row: open book icon and project title -->
       <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
           <i class="fa-solid fa-book-open" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
           <span><i>Crime Perception and Voting Behavior: Evidence from Individual Data</i>, joint with <a href="https://sites.google.com/site/giovanniprarolo/"><i> Giovanni Prarolo </i></a></span>
       </div>
-      <!-- Second row: Location icon and location text -->
+      <!-- Second row: abstract -->
       <div style="margin-top: 0px; position: relative;">
           <!-- Abstract toggle link with Font Awesome icons -->
           <div style="display: inline-block; padding-left: 30px; font-size: 11pt;">
@@ -88,42 +88,33 @@ nav_order: 1
 
 <br>
 
-  <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i>Crime Perception and Voting Behavior: Evidence from Individual Data</i>, joint with <a href="https://sites.google.com/site/giovanniprarolo/"><i> Giovanni Prarolo </i></a> </p>
-  
-  <!-- Abstract toggle link with Font Awesome icons -->
-  <p style="margin: 0; margin-left: 10px;">
-    <a href="javascript:void(0);" id="toggle-abstract-5" onclick="toggleAbstract('abstract-5')">
-      <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Abstract</i>
-    </a>
-  </p>
-  
-  <!-- Abstract content hidden by default -->
-  <div id="abstract-5" style="display:none; margin: 0; margin-left: 10px; font-size: 10pt;">
-    This study examines the impact of crime salience on individual voting behavior, using geolocated crime-related news as a proxy for public concern about crime in the lead-up to elections. Drawing on a retrospective survey of 5000 geolocated individuals across five elections—two national and three administrative—the analysis primarily focuses on national polls, where the absence of local confounders enhances external validity. The results are mixed overall, showing no significant effect on voting behavior when crimes are committed by Italians. However, crimes attributed to immigrants elicit a substantial individual electoral response. Voters tend to withdraw support from the populist Five Star Movement (M5S), known for its ambiguous stance on immigration and instead align with right-wing parties, particularly the Center-Right coalition, which emphasizes law and order. The response to immigrant-related crime also varies by demographic characteristics: high-skilled and educated voters are more likely to abandon M5S, while low-skilled and less-educated voters tend to desert the far-right Lega. In administrative elections, the effect of crime salience diverges. Crimes committed by Italians result in the punishment of incumbents, while immigrant-related crimes lead to increased voter abstention, possibly reflecting the social costs associated with party-switching among left-leaning voters. These findings provide novel insights into the relationship between crime salience, particularly regarding immigration, and individual voting behavior.
-    <br>
-    <div class="b">
-      <b>Keywords:</b> crime, elections, political parties, newspapers, individual voting behavior, dictionary-based classification
-    </div>
+  <div style="margin: 0; padding: 0; position: relative;">
+      <!-- First row: open book icon and project title -->
+      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+          <i class="fa-solid fa-book-open" style="color: var(--global-theme-color);"></i>
+      </div>
+      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+          <span><i> Corruption, temptation, and self-selection in the public sector </i></span>
+      </div>
+      <!-- Second row: abstract -->
+      <div style="margin-top: 0px; position: relative;">
+          <!-- Abstract toggle link with Font Awesome icons -->
+          <div style="display: inline-block; padding-left: 30px; font-size: 11pt;">
+            <a href="javascript:void(0);" id="toggle-abstract-3" onclick="toggleAbstract('abstract-3')">
+              <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Abstract</i>
+            </a>
+          </div>
+          <div id="abstract-3" style="display:inline-block; display:none; padding-left: 30px; line-height: 12pt; font-size: 10pt;">
+              This paper presents a theoretical model that examines the impact of corruption opportunities on the self-selection process of individuals in the public sector. The study explores how the temptation of engaging in corruption influences individuals' career choices. The main finding of the research reveals a dual effect of corruption opportunities in the public sector. On one hand, such opportunities attract individuals with lower ambition and motivation, who are more likely to engage in unethical behavior. On the other hand, when the temptation to participate in corruption becomes significant, highly motivated individuals may be deterred from pursuing a career in the public sector due to self-control issues, leading them to opt for employment in the private sector instead. This finding highlights the importance of considering the impact of corruption and self-control problems on the quality and composition of the public sector workforce, which can have broader implications for economic outcomes.
+              <br>
+              <div class="b">
+                <b>Keywords:</b> self-selection, corruption, temptation, self-control
+              </div>
+            </div>
+          </div>
+      </div>
   </div>
   
-  <p style="margin-bottom: 0; margin-top: 10px; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i> Corruption, temptation, and self-selection in the public sector </i> </p>
-  
-  <!-- Abstract toggle link with Font Awesome icons -->
-  <p style="margin: 0; margin-left: 10px;">
-    <a href="javascript:void(0);" id="toggle-abstract-3" onclick="toggleAbstract('abstract-3')">
-      <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Abstract</i>
-    </a>
-  </p>
-  
-  <!-- Abstract content hidden by default -->
-  <div id="abstract-3" style="display:none; margin: 0; margin-bottom: 10px; margin-left: 10px;  font-size: 10pt;">
-    This paper presents a theoretical model that examines the impact of corruption opportunities on the self-selection process of individuals in the public sector. The study explores how the temptation of engaging in corruption influences individuals' career choices. The main finding of the research reveals a dual effect of corruption opportunities in the public sector. On one hand, such opportunities attract individuals with lower ambition and motivation, who are more likely to engage in unethical behavior. On the other hand, when the temptation to participate in corruption becomes significant, highly motivated individuals may be deterred from pursuing a career in the public sector due to self-control issues, leading them to opt for employment in the private sector instead. This finding highlights the importance of considering the impact of corruption and self-control problems on the quality and composition of the public sector workforce, which can have broader implications for economic outcomes.
-    <br>
-    <div class="b">
-      <b>Keywords:</b> self-selection, corruption, temptation, self-control
-    </div>
-  </div>
-
 </div>
 <!-- end -->
 
@@ -137,10 +128,28 @@ nav_order: 1
 
 <!-- Working Papers section show by default -->
 <div id="content-1" style="display: block;">
-  
-  <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i> Public Goods Provision and Voting Turnout </i> , joint with <a href="https://sites.google.com/view/mgeiras/inicio"><i> Martín Gonzalez-Eiras </i></a> and <a href="https://sites.google.com/site/giovanniprarolo/"><i> Giovanni Prarolo </i></a> </p>
-    
-  <p style="margin-bottom: 0; margin-top: 10px; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i> The Effect of Erasmus Programs on Voting </i> , joint with <a href="https://www.unibo.it/sitoweb/manuel.blasco2/en"><i> Manuel Blasco </i></a> </p>
+
+  <div style="margin: 0; padding: 0; position: relative;">
+      <!-- First row: bookmark icon and project title -->
+      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+          <i class="fa-solid fa-bookmark" style="color: var(--global-theme-color);"></i>
+      </div>
+      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+          <span><i> Public Goods Provision and Voting Turnout </i> , joint with <a href="https://sites.google.com/view/mgeiras/inicio"><i> Martín Gonzalez-Eiras </i></a> and <a href="https://sites.google.com/site/giovanniprarolo/"><i> Giovanni Prarolo </i></a></span>
+      </div>
+  </div>
+
+  <br>
+
+  <div style="margin: 0; padding: 0; position: relative;">
+      <!-- First row: bookmark icon and project title -->
+      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+          <i class="fa-solid fa-bookmark" style="color: var(--global-theme-color);"></i>
+      </div>
+      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+          <span><i> The Effect of Erasmus Programs on Voting </i> , joint with <a href="https://www.unibo.it/sitoweb/manuel.blasco2/en"><i> Manuel Blasco </i></a></span>
+      </div>
+  </div>
 
 </div>
 <!-- end -->
