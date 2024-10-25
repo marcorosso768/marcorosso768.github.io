@@ -18,14 +18,44 @@ nav_order: 1
 <!-- Publications section show by default -->
 <div id="content-3" style="display: block;">
 
-  <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088"> Short-term effect of colorectal cancer on income: analysis of an Italian cohort. </a> <i> Journal of Epidemiology & Community Health</i>, 77:196-201. </p>
+<div style="margin: 0; padding: 0; position: relative;">
+      <!-- First row: journal icon and project title -->
+      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+          ><i class="fa-solid fa-newspaper" style="color: var(--global-theme-color);"></i>
+      </div>
+      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+          <span>Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088"> Short-term effect of colorectal cancer on income: analysis of an Italian cohort. </a> <i> Journal of Epidemiology & Community Health</i>, 77:196-201.</span>
+      </div>
+      <!-- Second row: Location icon and location text -->
+      <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+          <!-- Abstract toggle link with Font Awesome icons -->
+          <p style="margin: 0; margin-left: 10px;">
+            <a href="javascript:void(0);" id="toggle-abstract-1" onclick="toggleAbstract('abstract-1')">
+              <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Abstract</i>
+            </a>
+          </p>
+          <div id="abstract-1" style="display:inline-block; display:none; padding-left: 30px; line-height: 12pt;">
+              <b>Introduction</b> The ability to return to work after a cancer diagnosis is a key aspect of cancer survivorship and quality of life. Studies have reported a significant risk of income loss for cancer survivors; however, there is limited evidence of the Italian context.
+              <br>
+              <b>Methods</b> The Work Histories Italian Panel (WHIP)-Salute database was used to select a cohort of incident cases of colorectal cancer (CRC) among workers in the private sector, based on hospital discharges. A propensity score matching was used to find a balanced control group for several confounders. Ordinary least square and logistic regressions were used to estimate the effect of a CRC diagnosis on annual income and the probability of switching from a full-time contract to a part-time one considering 3 years after the diagnosis.
+              <br>
+              <b>Results</b> Overall, we identified 925 CRC incident cases from 2006 until 2012. Our results confirm a statistically significant reduction in survivors’ income compared with controls. This reduction was greater in the first year and then tend to decrease, with an average income loss over 3 years of about €12 000. Stratified analyses by sex and position confirmed the overall trend while indicating a strong effect modification. Regarding the switching from full-time to part-time employment, the results were never significant.
+              <br>
+              <b>Conclusion</b> Income loss does not seem to be related to an increase in part-time contracts, but rather to survivors’ reduced work capacity following the invasive treatments. Further research is needed to investigate the complex dynamics behind this association.
+          </div>
+      </div>
+  </div>
 
-  <!-- Abstract toggle link with Font Awesome icons -->
-  <p style="margin: 0; margin-left: 10px;">
-    <a href="javascript:void(0);" id="toggle-abstract-1" onclick="toggleAbstract('abstract-1')">
-      <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Abstract</i>
-    </a>
-  </p>
+  <br>
+
+  <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088"> Short-term effect of colorectal cancer on income: analysis of an Italian cohort. </a> <i> Journal of Epidemiology & Community Health</i>, 77:196-201. </p>
+<!-- Abstract toggle link with Font Awesome icons -->
+          <p style="margin: 0; margin-left: 10px;">
+            <a href="javascript:void(0);" id="toggle-abstract-1" onclick="toggleAbstract('abstract-1')">
+              <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Abstract</i>
+            </a>
+          </p>
+
 
   <!-- Abstract content hidden by default -->
   <div id="abstract-1" style="display:none; margin: 0; margin-left: 10px; font-size: 10pt;">
