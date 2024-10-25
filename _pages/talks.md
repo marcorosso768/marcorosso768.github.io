@@ -16,26 +16,26 @@ nav_order: 2
 <!-- 2024 -->
 <div id="2024-content" style="display: block;">
 
-  <div style="margin: 0; padding: 0;">
+<div style="margin: 0; padding: 0;">
     <!-- First row: Person icon and seminar title -->
-    <div style="display: inline-block; vertical-align: top;">
-      <div style="width: 25px; text-align: center;">
-        <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
-      </div>
-      <div style="padding-left: 5px; text-indent: -5px; display: inline-block; width: 100%; line-height: 1.5;">
-        Ciclo de Seminarios del Departamento de Economía - <span style="color: var(--global-theme-color);">Speaker</span>
-      </div>
+    <div style="display: flex; align-items: center; margin-bottom: 5px;">
+        <div style="width: 25px; text-align: center;">
+            <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
+        </div>
+        <div style="margin-left: 5px; line-height: 1.5;">
+            Ciclo de Seminarios del Departamento de Economía - <span style="color: var(--global-theme-color);">Speaker</span>
+        </div>
     </div>
     <!-- Second row: Location icon and location text -->
-    <div style="margin-top: 0;">
-      <div style="display: inline-block; vertical-align: top; width: 25px; text-align: center;">
-        <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
-      </div>
-      <div style="padding-left: 5px; text-indent: -5px; display: inline-block; width: 100%; line-height: 1.5;">
-        <i>Universidad de San Andrés, Buenos Aires, Argentina</i>
-      </div>
+    <div style="display: flex; align-items: center;">
+        <div style="width: 25px; text-align: center;">
+            <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+        </div>
+        <div style="margin-left: 5px; line-height: 1.5;">
+            <i>Universidad de San Andrés, Buenos Aires, Argentina</i>
+        </div>
     </div>
-  </div>
+</div>
 
   <br>
 
