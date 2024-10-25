@@ -23,9 +23,9 @@ nav_order: 2
         <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
     </div>
-    <span style="text-indent: 5px;">Ciclo de Seminarios del Departamento de Economía -
-      <span style="color: var(--global-theme-color);">Speaker</span>
-    </span>
+    <div style="text-indent: 5px;">
+      Ciclo de Seminarios del Departamento de Economía - <span style="color: var(--global-theme-color);">Speaker</span>
+    </div>
     <!-- Second row: Location icon and location text -->
     <div style="margin-top: 0;">
       <div style="display: inline-block; vertical-align: top; width: 25px; text-align: center;">
