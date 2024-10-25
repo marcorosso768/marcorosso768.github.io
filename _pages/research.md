@@ -29,11 +29,11 @@ nav_order: 1
       <!-- Second row: Location icon and location text -->
       <div style="margin-top: 0px; position: relative;">
           <!-- Abstract toggle link with Font Awesome icons -->
-          <p style="display: inline-block; padding-left: 30px;">
+          <div style="display: inline-block; padding-left: 30px; font-size: 12pt;">
             <a href="javascript:void(0);" id="toggle-abstract-1" onclick="toggleAbstract('abstract-1')">
               <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Abstract</i>
             </a>
-          </p>
+          </div>
           <div id="abstract-1" style="display:inline-block; display:none; padding-left: 30px; line-height: 12pt; font-size: 10pt;">
               <b>Introduction</b> The ability to return to work after a cancer diagnosis is a key aspect of cancer survivorship and quality of life. Studies have reported a significant risk of income loss for cancer survivors; however, there is limited evidence of the Italian context.
               <br>
