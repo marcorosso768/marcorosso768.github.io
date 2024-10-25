@@ -19,14 +19,37 @@ nav_order: 3
   <p><b>2024/25</b></p>
 
   <div style="margin-left: 10px">
+    <div style="margin: 0; padding: 0; position: relative;">
+        <!-- First row: Chalkboard icon and teaching assistant text -->
+        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+            <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color);"></i>
+        </div>
+        <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+            <span><b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/enrico.cantoni'><i>Enrico Cantoni</i></a> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'><i>Political Economy</i></a>
+            </span>
+        </div>
+        <!-- Second row: Building icon and department text -->
+        <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+                <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color);"></i>
+            </div>
+            <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+                <span>Economics, Politics and Social Sciences, <i>University of Bologna</i></span>
+            </div>
+        </div>
+    </div>
+  </div>
+  
+  <br>
+
+  <div style="margin-left: 10px">
     <div style="display: flex; flex-direction: column; gap: 0;">
         <!-- First row: Chalkboard icon and teaching assistant text -->
         <div style="display: flex; align-items: flex-start;">
             <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
                  <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color);"></i>
             </div>
-            <span style="margin-left: 10px;"><b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/enrico.cantoni'><i>Enrico Cantoni</i></a> for the Undergraduate 
-            Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'><i>Political Economy</i></a>
+            <span style="margin-left: 10px;"><b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/enrico.cantoni'><i>Enrico Cantoni</i></a> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'><i>Political Economy</i></a>
             </span>
         </div>
         <!-- Second row: Building icon and department text -->
