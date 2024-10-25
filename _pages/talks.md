@@ -68,81 +68,85 @@ nav_order: 2
 <!-- 2023 -->
 <div id="2023-content" style="display: none;">
 
-  <div style="display: flex; flex-direction: column; gap: 0;">
+  <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: Person icon and seminar title -->
-      <div style="display: flex; align-items: flex-start;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
-          </div>
-          <span style="margin-left: 10px;">&#8547; Ph.D. Workshop -
-        <span style="color: var(--global-theme-color);">Speaker</span></span>
+      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+          <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
+      </div>
+      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+          <span>&#8547; Ph.D. Workshop - <span style="color: var(--global-theme-color);">Speaker</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
-      <div style="display: flex; align-items: flex-start; margin-top: 0;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+      <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+          <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <span style="margin-left: 10px; font-size: 10pt;"><i>Le Sparne, Pitigliano (GR), Italy</i></span>
+          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+              <i>Le Sparne, Pitigliano (GR), Italy</i>
+          </div>
       </div>
   </div>
 
   <br>
 
-  <div style="display: flex; flex-direction: column; gap: 0;">
+  <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: Person icon and seminar title -->
-      <div style="display: flex; align-items: flex-start;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
-          </div>
-          <span style="margin-left: 10px;">SAsCA Ph.D. Conference in Economics -
-        <span style="color: var(--global-theme-color);">Speaker and discussant</span></span>
+      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+          <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
+      </div>
+      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+          <span>SAsCA Ph.D. Conference in Economics - <span style="color: var(--global-theme-color);">Speaker and discussant</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
-      <div style="display: flex; align-items: flex-start; margin-top: 0;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+      <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+          <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <span style="margin-left: 10px; font-size: 10pt;"><i>University of Sassari, Sassari, Italy</i></span>
+          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+              <i>University of Sassari, Sassari, Italy</i>
+          </div>
       </div>
   </div>
 
   <br>
 
-  <div style="display: flex; flex-direction: column; gap: 0;">
+  <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: Person icon and seminar title -->
-      <div style="display: flex; align-items: flex-start;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
-          </div>
-          <span style="margin-left: 10px;">Workshop for Ph.D. Students In Economentrics and Empirical Economics (WEEE) -
-        <span style="color: var(--global-theme-color);">Speaker</span></span>
+      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+          <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
+      </div>
+      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+          <span>Workshop for Ph.D. Students In Economentrics and Empirical Economics (WEEE) - <span style="color: var(--global-theme-color);">Speaker</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
-      <div style="display: flex; align-items: flex-start; margin-top: 0;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+      <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+          <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <span style="margin-left: 10px; font-size: 10pt;"><i>Bertinoro (FC), Italy</i></span>
+          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+              <i>Bertinoro (FC), Italy</i>
+          </div>
       </div>
   </div>
 
   <br>
 
-  <div style="display: flex; flex-direction: column; gap: 0;">
+  <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: Person icon and seminar title -->
-      <div style="display: flex; align-items: flex-start;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
-          </div>
-          <span style="margin-left: 10px;">Third Year Ph.D. Forum -
-        <span style="color: var(--global-theme-color);">Speaker</span></span>
+      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+          <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
+      </div>
+      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+          <span>Third Year Ph.D. Forum - <span style="color: var(--global-theme-color);">Speaker</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
-      <div style="display: flex; align-items: flex-start; margin-top: 0;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+      <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+          <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <span style="margin-left: 10px; font-size: 10pt;"><i>University of Bologna, Bologna, Italy</i></span>
+          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+              <i>University of Bologna, Bologna, Italy</i>
+          </div>
       </div>
   </div>
   
@@ -180,61 +184,64 @@ nav_order: 2
 <!-- 2022 -->
 <div id="2022-content" style="display: none;">
 
-  <div style="display: flex; flex-direction: column; gap: 0;">
+  <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: Person icon and seminar title -->
-      <div style="display: flex; align-items: flex-start;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
-          </div>
-          <span style="margin-left: 10px;">WiP Seminar -
-        <span style="color: var(--global-theme-color);">Speaker</span></span>
+      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+          <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
+      </div>
+      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+          <span>WiP Seminar - <span style="color: var(--global-theme-color);">Speaker</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
-      <div style="display: flex; align-items: flex-start; margin-top: 0;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+      <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+          <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <span style="margin-left: 10px; font-size: 10pt;"><i>University of Bologna, Bologna, Italy</i></span>
+          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+              <i>University of Bologna, Bologna, Italy</i>
+          </div>
       </div>
   </div>
 
   <br>
 
-  <div style="display: flex; flex-direction: column; gap: 0;">
+  <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: Person icon and seminar title -->
-      <div style="display: flex; align-items: flex-start;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
-          </div>
-          <span style="margin-left: 10px;">&#8546; Ph.D. Workshop -
-        <span style="color: var(--global-theme-color);">Speaker</span></span>
+      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+          <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
+      </div>
+      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+          <span>&#8546; Ph.D. Workshop - <span style="color: var(--global-theme-color);">Speaker</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
-      <div style="display: flex; align-items: flex-start; margin-top: 0;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+      <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+          <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <span style="margin-left: 10px; font-size: 10pt;"><i>Le Sparne, Pitigliano (GR), Italy</i></span>
+          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+              <i>Le Sparne, Pitigliano (GR), Italy</i>
+          </div>
       </div>
   </div>
-  
+
   <br>
 
-  <div style="display: flex; flex-direction: column; gap: 0;">
+  <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: Person icon and seminar title -->
-      <div style="display: flex; align-items: flex-start;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
-          </div>
-          <span style="margin-left: 10px;">Second Year Ph.D. Forum -
-        <span style="color: var(--global-theme-color);">Speaker</span></span>
+      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+          <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
+      </div>
+      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+          <span>Second Year Ph.D. Forum - <span style="color: var(--global-theme-color);">Speaker</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
-      <div style="display: flex; align-items: flex-start; margin-top: 0;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+      <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+          <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <span style="margin-left: 10px; font-size: 10pt;"><i>University of Bologna, Bologna, Italy</i></span>
+          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+              <i>University of Bologna, Bologna, Italy</i>
+          </div>
       </div>
   </div>
 
@@ -250,61 +257,64 @@ nav_order: 2
 <!-- 2021 -->
 <div id="2021-content" style="display: none;">
 
-  <div style="display: flex; flex-direction: column; gap: 0;">
+  <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: Person icon and seminar title -->
-      <div style="display: flex; align-items: flex-start;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
-          </div>
-          <span style="margin-left: 10px;">&#8545; Ph.D. Workshop -
-        <span style="color: var(--global-theme-color);">Speaker</span></span>
+      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+          <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
+      </div>
+      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+          <span>&#8545; Ph.D. Workshop - <span style="color: var(--global-theme-color);">Speaker</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
-      <div style="display: flex; align-items: flex-start; margin-top: 0;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+      <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+          <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <span style="margin-left: 10px; font-size: 10pt;"><i>Le Sparne, Pitigliano (GR), Italy</i></span>
+          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+              <i>Le Sparne, Pitigliano (GR), Italy</i>
+          </div>
       </div>
   </div>
 
   <br>
 
-  <div style="display: flex; flex-direction: column; gap: 0;">
+  <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: Person icon and seminar title -->
-      <div style="display: flex; align-items: flex-start;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
-          </div>
-          <span style="margin-left: 10px;">First Year Ph.D. Forum -
-        <span style="color: var(--global-theme-color);">Speaker</span></span>
+      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+          <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
+      </div>
+      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+          <span>First Year Ph.D. Forum - <span style="color: var(--global-theme-color);">Speaker</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
-      <div style="display: flex; align-items: flex-start; margin-top: 0;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+      <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+          <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <span style="margin-left: 10px; font-size: 10pt;"><i>University of Bologna, Bologna, Italy</i></span>
+          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+              <i>University of Bologna, Bologna, Italy</i>
+          </div>
       </div>
   </div>
 
   <br>
 
-  <div style="display: flex; flex-direction: column; gap: 0;">
+  <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: Person icon and seminar title -->
-      <div style="display: flex; align-items: flex-start;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
-          </div>
-          <span style="margin-left: 10px;">First Year Ph.D. Poster Session -
-        <span style="color: var(--global-theme-color);">Speaker</span></span>
+      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+          <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
+      </div>
+      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+          <span>First Year Ph.D. Poster Session - <span style="color: var(--global-theme-color);">Speaker</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
-      <div style="display: flex; align-items: flex-start; margin-top: 0;">
-          <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+      <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+          <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
-          <span style="margin-left: 10px; font-size: 10pt;"><i>University of Bologna, Bologna, Italy</i></span>
+          <div style="display: inline-block; padding-left: 30px; line-height: 10pt;">
+              <i>University of Bologna, Bologna, Italy</i>
+          </div>
       </div>
   </div>
   
