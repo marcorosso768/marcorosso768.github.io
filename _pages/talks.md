@@ -36,7 +36,7 @@ nav_order: 2
     <!-- First row: Person icon and seminar title -->
     <div style="display: flex; align-items: flex-start;">
         <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
-        <span style="margin-left: 10px;">&#8548; Ph.D. Workshop
+        <span style="margin-left: 10px;">&#8548; Ph.D. Workshop</span>
     </div>
     <!-- Second row: Location icon and location text -->
     <div style="display: flex; align-items: flex-start; margin-top: 0;">
@@ -57,24 +57,80 @@ nav_order: 2
 <!-- 2023 -->
 <div id="2023-content" style="display: none;">
 
-  <p style="padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> &#8547; Ph.D. Workshop - <span style="color: var(--global-theme-color);">Speaker</span> <br> <i style="font-size:10pt;">Le Sparne, Pitigliano (GR), Italy</i></p>
-  
-  <p style="padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> SAsCA Ph.D. Conference in Economics - <span style="color: var(--global-theme-color);">Speaker and discussant</span> <br> <i style="font-size:10pt;">University of Sassari, Sassari, Italy</i></p>
-  
-  <p style="padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> Workshop for Ph.D. Students In Economentrics and Empirical Economics (WEEE) - <span style="color: var(--global-theme-color);">Speaker</span> <br> <i style="font-size:10pt;">Bertinoro (FC), Italy</i></p>
-  
-  <p style="padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> Third Year Ph.D. Forum - <span style="color: var(--global-theme-color);">Speaker</span> <br> <i style="font-size:10pt;">University of Bologna, Bologna, Italy</i> </p>
+  <div style="display: flex; flex-direction: column; gap: 0;">
+    <!-- First row: Person icon and seminar title -->
+    <div style="display: flex; align-items: flex-start;">
+        <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
+        <span style="margin-left: 10px;">&#8547; Ph.D. Workshop -
+        <span style="color: var(--global-theme-color);">Speaker</span></span>
+    </div>
+    <!-- Second row: Location icon and location text -->
+    <div style="display: flex; align-items: flex-start; margin-top: 0;">
+        <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+        <span style="margin-left: 10px;"><i>Le Sparne, Pitigliano (GR), Italy</i></span>
+    </div>
+  </div>
+
+  <br>
 
   <div style="display: flex; flex-direction: column; gap: 0;">
     <!-- First row: Person icon and seminar title -->
-    <div style="display: flex; align-items: center;">
-        <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color); min-width: 20px; text-align: center;"></i>
-        <span style="margin-left: 10px;">Presentation of <i>"A Modern Guide to the Economics of Crime"</i> by P. Buonanno, P. Vanin, and J. Vargas (Elgar, 2022) - 
+    <div style="display: flex; align-items: flex-start;">
+        <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
+        <span style="margin-left: 10px;">SAsCA Ph.D. Conference in Economics -
+        <span style="color: var(--global-theme-color);">Speaker and discussant</span></span>
+    </div>
+    <!-- Second row: Location icon and location text -->
+    <div style="display: flex; align-items: flex-start; margin-top: 0;">
+        <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+        <span style="margin-left: 10px;"><i>University of Sassari, Sassari, Italy</i></span>
+    </div>
+  </div>
+
+  <br>
+
+  <div style="display: flex; flex-direction: column; gap: 0;">
+    <!-- First row: Person icon and seminar title -->
+    <div style="display: flex; align-items: flex-start;">
+        <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
+        <span style="margin-left: 10px;">Workshop for Ph.D. Students In Economentrics and Empirical Economics (WEEE) -
+        <span style="color: var(--global-theme-color);">Speaker</span></span>
+    </div>
+    <!-- Second row: Location icon and location text -->
+    <div style="display: flex; align-items: flex-start; margin-top: 0;">
+        <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+        <span style="margin-left: 10px;"><i>Bertinoro (FC), Italy</i></span>
+    </div>
+  </div>
+
+  <br>
+
+  <div style="display: flex; flex-direction: column; gap: 0;">
+    <!-- First row: Person icon and seminar title -->
+    <div style="display: flex; align-items: flex-start;">
+        <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
+        <span style="margin-left: 10px;">Third Year Ph.D. Forum -
+        <span style="color: var(--global-theme-color);">Speaker</span></span>
+    </div>
+    <!-- Second row: Location icon and location text -->
+    <div style="display: flex; align-items: flex-start; margin-top: 0;">
+        <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+        <span style="margin-left: 10px;"><i>University of Bologna, Bologna, Italy</i></span>
+    </div>
+  </div>
+
+  <br>
+
+  <div style="display: flex; flex-direction: column; gap: 0;">
+    <!-- First row: Person icon and seminar title -->
+    <div style="display: flex; align-items: flex-start;">
+        <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
+        <span style="margin-left: 10px;">Presentation of <i>"A Modern Guide to the Economics of Crime"</i> by P. Buonanno, P. Vanin, and J. Vargas (Elgar, 2022) -
         <span style="color: var(--global-theme-color);">Discussant</span></span>
     </div>
     <!-- Second row: Location icon and location text -->
-    <div style="display: flex; align-items: center; margin-top: 0;">
-        <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); min-width: 20px; text-align: center;"></i>
+    <div style="display: flex; align-items: flex-start; margin-top: 0;">
+        <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
         <span style="margin-left: 10px;"><i>“Walter Bigiavi” Library, Bologna, Italy</i></span>
     </div>
   </div>
