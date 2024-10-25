@@ -29,7 +29,7 @@ nav_order: 1
       <!-- Second row: Location icon and location text -->
       <div style="margin-top: 0px; position: relative;">
           <!-- Abstract toggle link with Font Awesome icons -->
-          <div style="display: inline-block; padding-left: 30px; font-size: 12pt;">
+          <div style="display: inline-block; padding-left: 30px; font-size: 11pt;">
             <a href="javascript:void(0);" id="toggle-abstract-1" onclick="toggleAbstract('abstract-1')">
               <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Abstract</i>
             </a>
@@ -46,28 +46,6 @@ nav_order: 1
       </div>
   </div>
 
-  <br>
-
-  <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088"> Short-term effect of colorectal cancer on income: analysis of an Italian cohort. </a> <i> Journal of Epidemiology & Community Health</i>, 77:196-201. </p>
-<!-- Abstract toggle link with Font Awesome icons -->
-          <p style="margin: 0; margin-left: 10px;">
-            <a href="javascript:void(0);" id="toggle-abstract-1" onclick="toggleAbstract('abstract-1')">
-              <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Abstract</i>
-            </a>
-          </p>
-
-
-  <!-- Abstract content hidden by default -->
-  <div id="abstract-1" style="display:none; margin: 0; margin-left: 10px; font-size: 10pt;">
-    <b>Introduction</b> The ability to return to work after a cancer diagnosis is a key aspect of cancer survivorship and quality of life. Studies have reported a significant risk of income loss for cancer survivors; however, there is limited evidence of the Italian context.
-     <br>
-    <b>Methods</b> The Work Histories Italian Panel (WHIP)-Salute database was used to select a cohort of incident cases of colorectal cancer (CRC) among workers in the private sector, based on hospital discharges. A propensity score matching was used to find a balanced control group for several confounders. Ordinary least square and logistic regressions were used to estimate the effect of a CRC diagnosis on annual income and the probability of switching from a full-time contract to a part-time one considering 3 years after the diagnosis.
-     <br>
-    <b>Results</b> Overall, we identified 925 CRC incident cases from 2006 until 2012. Our results confirm a statistically significant reduction in survivors’ income compared with controls. This reduction was greater in the first year and then tend to decrease, with an average income loss over 3 years of about €12 000. Stratified analyses by sex and position confirmed the overall trend while indicating a strong effect modification. Regarding the switching from full-time to part-time employment, the results were never significant.
-     <br>
-    <b>Conclusion</b> Income loss does not seem to be related to an increase in part-time contracts, but rather to survivors’ reduced work capacity following the invasive treatments. Further research is needed to investigate the complex dynamics behind this association.
-  </div>
-
 </div>
 <!-- end -->
 
@@ -82,17 +60,45 @@ nav_order: 1
 <!-- Working Papers section show by default -->
 <div id="content-2" style="display: block;">
 
+<div style="margin: 0; padding: 0; position: relative;">
+      <!-- First row: journal icon and project title -->
+      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+          <i class="fa-solid fa-book-open" style="color: var(--global-theme-color);"></i>
+      </div>
+      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+          <span><i>Crime Perception and Voting Behavior: Evidence from Individual Data</i>, joint with <a href="https://sites.google.com/site/giovanniprarolo/"><i> Giovanni Prarolo </i></a></span>
+      </div>
+      <!-- Second row: Location icon and location text -->
+      <div style="margin-top: 0px; position: relative;">
+          <!-- Abstract toggle link with Font Awesome icons -->
+          <div style="display: inline-block; padding-left: 30px; font-size: 11pt;">
+            <a href="javascript:void(0);" id="toggle-abstract-2" onclick="toggleAbstract('abstract-2')">
+              <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Abstract</i>
+            </a>
+          </div>
+          <div id="abstract-2" style="display:inline-block; display:none; padding-left: 30px; line-height: 12pt; font-size: 10pt;">
+              This study examines the impact of crime salience on individual voting behavior, using geolocated crime-related news as a proxy for public concern about crime in the lead-up to elections. Drawing on a retrospective survey of 5000 geolocated individuals across five elections—two national and three administrative—the analysis primarily focuses on national polls, where the absence of local confounders enhances external validity. The results are mixed overall, showing no significant effect on voting behavior when crimes are committed by Italians. However, crimes attributed to immigrants elicit a substantial individual electoral response. Voters tend to withdraw support from the populist Five Star Movement (M5S), known for its ambiguous stance on immigration and instead align with right-wing parties, particularly the Center-Right coalition, which emphasizes law and order. The response to immigrant-related crime also varies by demographic characteristics: high-skilled and educated voters are more likely to abandon M5S, while low-skilled and less-educated voters tend to desert the far-right Lega. In administrative elections, the effect of crime salience diverges. Crimes committed by Italians result in the punishment of incumbents, while immigrant-related crimes lead to increased voter abstention, possibly reflecting the social costs associated with party-switching among left-leaning voters. These findings provide novel insights into the relationship between crime salience, particularly regarding immigration, and individual voting behavior.
+            <br>
+            <div class="b">
+              <b>Keywords:</b> crime, elections, political parties, newspapers, individual voting behavior, dictionary-based classification
+            </div>
+          </div>
+      </div>
+  </div>
+
+<br>
+
   <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i>Crime Perception and Voting Behavior: Evidence from Individual Data</i>, joint with <a href="https://sites.google.com/site/giovanniprarolo/"><i> Giovanni Prarolo </i></a> </p>
   
   <!-- Abstract toggle link with Font Awesome icons -->
   <p style="margin: 0; margin-left: 10px;">
-    <a href="javascript:void(0);" id="toggle-abstract-2" onclick="toggleAbstract('abstract-2')">
+    <a href="javascript:void(0);" id="toggle-abstract-5" onclick="toggleAbstract('abstract-5')">
       <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Abstract</i>
     </a>
   </p>
   
   <!-- Abstract content hidden by default -->
-  <div id="abstract-2" style="display:none; margin: 0; margin-left: 10px; font-size: 10pt;">
+  <div id="abstract-5" style="display:none; margin: 0; margin-left: 10px; font-size: 10pt;">
     This study examines the impact of crime salience on individual voting behavior, using geolocated crime-related news as a proxy for public concern about crime in the lead-up to elections. Drawing on a retrospective survey of 5000 geolocated individuals across five elections—two national and three administrative—the analysis primarily focuses on national polls, where the absence of local confounders enhances external validity. The results are mixed overall, showing no significant effect on voting behavior when crimes are committed by Italians. However, crimes attributed to immigrants elicit a substantial individual electoral response. Voters tend to withdraw support from the populist Five Star Movement (M5S), known for its ambiguous stance on immigration and instead align with right-wing parties, particularly the Center-Right coalition, which emphasizes law and order. The response to immigrant-related crime also varies by demographic characteristics: high-skilled and educated voters are more likely to abandon M5S, while low-skilled and less-educated voters tend to desert the far-right Lega. In administrative elections, the effect of crime salience diverges. Crimes committed by Italians result in the punishment of incumbents, while immigrant-related crimes lead to increased voter abstention, possibly reflecting the social costs associated with party-switching among left-leaning voters. These findings provide novel insights into the relationship between crime salience, particularly regarding immigration, and individual voting behavior.
     <br>
     <div class="b">
