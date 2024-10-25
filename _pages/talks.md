@@ -21,7 +21,7 @@ nav_order: 2
       <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
           <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
-      <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
+      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
           <span>Ciclo de Seminarios del Departamento de Economía - <span style="color: var(--global-theme-color);">Speaker</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
@@ -42,7 +42,7 @@ nav_order: 2
       <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
           <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
-      <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
+      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
           <span>&#8548; Ph.D. Workshop</span>
       </div>
       <!-- Second row: Location icon and location text -->
@@ -153,7 +153,7 @@ nav_order: 2
       <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
           <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
-      <div style="display: inline-block; padding-left: 30px; line-height: 14pt;">
+      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
           <span>Presentation of <i>"A Modern Guide to the Economics of Crime"</i> by P. Buonanno, P. Vanin, and J. Vargas (Elgar, 2022) - 
           <span style="color: var(--global-theme-color);">Discussant</span></span>
       </div>
