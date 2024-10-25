@@ -21,7 +21,7 @@ nav_order: 1
 
   <!-- Abstract toggle link with triangle -->
   <p style="margin: 0; margin-left: 10px;">
-    <a href="javascript:void(0);" id="toggle-abstract-1" onclick="toggleAbstract('abstract-1')">&#9657; <i>Abstract</i></a>
+    <a href="javascript:void(0);" id="toggle-abstract-1" onclick="toggleAbstract('abstract-1')"><i class="fa-solid fa-chevron-right"></i> <i>Abstract</i></a>
   </p>
 
   <!-- Abstract content hidden by default -->
@@ -52,7 +52,7 @@ nav_order: 1
   
   <!-- Abstract toggle link with triangle -->
   <p style="margin: 0; margin-left: 10px;">
-    <a href="javascript:void(0);" id="toggle-abstract-2" onclick="toggleAbstract('abstract-2')">&#9657; <i>Abstract</i></a>
+    <a href="javascript:void(0);" id="toggle-abstract-2" onclick="toggleAbstract('abstract-2')"><i class="fa-solid fa-chevron-right"></i> <i>Abstract</i></a>
   </p>
   
   <!-- Abstract content hidden by default -->
@@ -68,7 +68,7 @@ nav_order: 1
   
   <!-- Abstract toggle link with triangle -->
   <p style="margin: 0; margin-left: 10px;">
-    <a href="javascript:void(0);" id="toggle-abstract-3" onclick="toggleAbstract('abstract-3')">&#9657; <i>Abstract</i></a>
+    <a href="javascript:void(0);" id="toggle-abstract-3" onclick="toggleAbstract('abstract-3')"><i class="fa-solid fa-chevron-right"></i> <i>Abstract</i></a>
   </p>
   
   <!-- Abstract content hidden by default -->
@@ -109,10 +109,10 @@ nav_order: 1
     
     if (abstract.style.display === "none" || abstract.style.display === "") {
       abstract.style.display = "block";
-      toggleButton.innerHTML = "&#9662; Abstract"; // Full down triangle when abstract is open
+      toggleButton.innerHTML = "<i class="fa-solid fa-chevron-down"></i> Abstract"; // Full down triangle when abstract is open
     } else {
       abstract.style.display = "none";
-      toggleButton.innerHTML = "&#9657; Abstract"; // Empty right triangle when abstract is closed
+      toggleButton.innerHTML = "<i class="fa-solid fa-chevron-right"></i> Abstract"; // Empty right triangle when abstract is closed
     }
   }
 
