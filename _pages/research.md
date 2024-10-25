@@ -8,14 +8,15 @@ nav_order: 1
 ---
 
 <!-- Publications -->
+<!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
-  <a id="publications" href="javascript:void(0);" onclick="toggleVisibility('publications-content')">
-    <h2 class="category"> publications </h2>
+  <a id="toggle-content-3" href="javascript:void(0);" onclick="toggleVisibility('content-3')">
+    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> publications </h2>
   </a>
 </div>
 
-<!-- Show pubblications by default -->
-<div id="publications-content" style="display: block;">
+<!-- Publications section show by default -->
+<div id="content-3" style="display: block;">
 
   <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088"> Short-term effect of colorectal cancer on income: analysis of an Italian cohort. </a> <i> Journal of Epidemiology & Community Health</i>, 77:196-201. </p>
 
@@ -41,14 +42,15 @@ nav_order: 1
 <!-- end -->
 
 <!-- Working Papers -->
+<!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
-  <a id="working-papers" href="javascript:void(0);" onclick="toggleVisibility('working-papers-content')">
-    <h2 class="category"> working papers </h2>
+  <a id="toggle-content-2" href="javascript:void(0);" onclick="toggleVisibility('content-2')">
+    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> working papers </h2>
   </a>
 </div>
 
-<!-- Hide Working Papers by default -->
-<div id="working-papers-content" style="display: block">
+<!-- Working Papers section show by default -->
+<div id="content-2" style="display: block;">
 
   <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i>Crime Perception and Voting Behavior: Evidence from Individual Data</i>, joint with <a href="https://sites.google.com/site/giovanniprarolo/"><i> Giovanni Prarolo </i></a> </p>
   
@@ -90,14 +92,15 @@ nav_order: 1
 <!-- end -->
 
 <!-- Work in Progress -->
+<!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
-  <a id="work-in-progress" href="javascript:void(0);" onclick="toggleVisibility('work-in-progress-content')">
-    <h2 class="category"> work in progress </h2>
+  <a id="toggle-content-1" href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> work in progress </h2>
   </a>
 </div>
 
-<!-- Hide Work in Progress by default -->
-<div id="work-in-progress-content" style="display: block;">
+<!-- Working Papers section show by default -->
+<div id="content-1" style="display: block;">
   
   <p style="margin-bottom: 0; padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> <i> Public Goods Provision and Voting Turnout </i> , joint with <a href="https://sites.google.com/view/mgeiras/inicio"><i> Martín Gonzalez-Eiras </i></a> and <a href="https://sites.google.com/site/giovanniprarolo/"><i> Giovanni Prarolo </i></a> </p>
     
@@ -121,15 +124,17 @@ nav_order: 1
       toggleButton.className = "fa-solid fa-chevron-right fa-2xs"; // Change to right icon
     }
   }
-
-  // Optionally, if you need the visibility toggle for other content
+  // Toggle the visibility of the sections
   function toggleVisibility(id) {
     var content = document.getElementById(id);
+    var toggleButton = document.getElementById('toggle-' + id).querySelector('i');
     
-    if (content.style.display === "none" || content.style.display === "") {
+    if (content.style.display === "none") {
       content.style.display = "block";
+      toggleButton.className = "fa-solid fa-chevron-down fa-2xs"; // Change to down icon
     } else {
       content.style.display = "none";
+      toggleButton.className = "fa-solid fa-chevron-right fa-2xs"; // Change to right icon
     }
   }
 </script>
