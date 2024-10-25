@@ -23,7 +23,7 @@ nav_order: 2
         <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
     </div>
-    <div style="margin-left: 5px;">
+    <div style="padding-left: 5px; text-indent: -5px; display: inline-block; width: 100%; line-height: 1.5;">
       Ciclo de Seminarios del Departamento de Economía - <span style="color: var(--global-theme-color);">Speaker</span>
     </div>
     <!-- Second row: Location icon and location text -->
@@ -31,7 +31,7 @@ nav_order: 2
       <div style="display: inline-block; vertical-align: top; width: 25px; text-align: center;">
         <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
       </div>
-      <div style="margin-left: 5px; font-size: 10pt;">
+      <div style="padding-left: 5px; text-indent: -5px; display: inline-block; width: 100%; line-height: 1.5;">
         <i>Universidad de San Andrés, Buenos Aires, Argentina</i>
       </div>
     </div>
