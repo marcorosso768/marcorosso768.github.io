@@ -18,27 +18,31 @@ nav_order: 2
   
   <div style="display: flex; flex-direction: column; gap: 0;">
     <!-- First row: Person icon and seminar title -->
-    <div style="display: flex; align-items: center;">
-        <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color); min-width: 20px; text-align: center;"></i>
-        <span style="margin-left: 10px;">Ciclo de Seminarios del Departamento de Economía - 
+    <div style="display: flex; align-items: flex-start;">
+        <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
+        <span style="margin-left: 10px;">Ciclo de Seminarios del Departamento de Economía -
         <span style="color: var(--global-theme-color);">Speaker</span></span>
     </div>
     <!-- Second row: Location icon and location text -->
-    <div style="display: flex; align-items: center; margin-top: 0;">
-        <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); min-width: 20px; text-align: center;"></i>
+    <div style="display: flex; align-items: flex-start; margin-top: 0;">
+        <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
         <span style="margin-left: 10px;"><i>Universidad de San Andrés, Buenos Aires, Argentina</i></span>
     </div>
   </div>
 
 <br>
 
-  <div style="display: flex; align-items: center;">
-    <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
-    <span style="margin-left: 15px;">&#8548; Ph.D. Workshop</span>
-  </div>
-  <div style="display: flex; align-items: center;">
-    <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
-    <span style="margin-left: 15px;"><i>Le Sparne, Pitigliano (GR), Italy</i></span>
+  <div style="display: flex; flex-direction: column; gap: 0;">
+    <!-- First row: Person icon and seminar title -->
+    <div style="display: flex; align-items: flex-start;">
+        <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
+        <span style="margin-left: 10px;">&#8548; Ph.D. Workshop
+    </div>
+    <!-- Second row: Location icon and location text -->
+    <div style="display: flex; align-items: flex-start; margin-top: 0;">
+        <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+        <span style="margin-left: 10px;"><i>Le Sparne, Pitigliano (GR), Italy</i></span>
+    </div>
   </div>
 
 </div>
@@ -60,8 +64,20 @@ nav_order: 2
   <p style="padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> Workshop for Ph.D. Students In Economentrics and Empirical Economics (WEEE) - <span style="color: var(--global-theme-color);">Speaker</span> <br> <i style="font-size:10pt;">Bertinoro (FC), Italy</i></p>
   
   <p style="padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> Third Year Ph.D. Forum - <span style="color: var(--global-theme-color);">Speaker</span> <br> <i style="font-size:10pt;">University of Bologna, Bologna, Italy</i> </p>
-  
-  <p style="padding-left: 10px;"> <span style="margin-left: -10px; color: var(--global-theme-color);">•</span> Presentation of <i>"A Modern Guide to the Economics of Crime"</i> by P. Buonanno, P. Vanin, and J. Vargas (Elgar, 2022) - <span style="color: var(--global-theme-color);">Discussant</span> <br> <i style="font-size:10pt;">“Walter Bigiavi” Library, Bologna, Italy</i> </p>
+
+  <div style="display: flex; flex-direction: column; gap: 0;">
+    <!-- First row: Person icon and seminar title -->
+    <div style="display: flex; align-items: center;">
+        <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color); min-width: 20px; text-align: center;"></i>
+        <span style="margin-left: 10px;">Presentation of <i>"A Modern Guide to the Economics of Crime"</i> by P. Buonanno, P. Vanin, and J. Vargas (Elgar, 2022) - 
+        <span style="color: var(--global-theme-color);">Discussant</span></span>
+    </div>
+    <!-- Second row: Location icon and location text -->
+    <div style="display: flex; align-items: center; margin-top: 0;">
+        <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); min-width: 20px; text-align: center;"></i>
+        <span style="margin-left: 10px;"><i>“Walter Bigiavi” Library, Bologna, Italy</i></span>
+    </div>
+  </div>
 
 </div>
 <!-- end -->
