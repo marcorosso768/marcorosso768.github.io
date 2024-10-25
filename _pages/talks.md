@@ -28,9 +28,9 @@ nav_order: 2
       <!-- Second row: Location icon and location text -->
       <div style="display: flex; align-items: flex-start; margin-top: 0;">
           <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
           </div>
-          <span style="margin-left: 10px;"><i>Universidad de San Andrés, Buenos Aires, Argentina</i></span>
+          <span style="margin-left: 10px; font-size: 10pt;"><i>Universidad de San Andrés, Buenos Aires, Argentina</i></span>
       </div>
   </div>
 
@@ -47,9 +47,9 @@ nav_order: 2
       <!-- Second row: Location icon and location text -->
       <div style="display: flex; align-items: flex-start; margin-top: 0;">
           <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
           </div>
-          <span style="margin-left: 10px;"><i>Le Sparne, Pitigliano (GR), Italy</i></span>
+          <span style="margin-left: 10px; font-size: 10pt;"><i>Le Sparne, Pitigliano (GR), Italy</i></span>
       </div>
   </div>
 
@@ -77,9 +77,9 @@ nav_order: 2
       <!-- Second row: Location icon and location text -->
       <div style="display: flex; align-items: flex-start; margin-top: 0;">
           <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
           </div>
-          <span style="margin-left: 10px;"><i>Le Sparne, Pitigliano (GR), Italy</i></span>
+          <span style="margin-left: 10px; font-size: 10pt;"><i>Le Sparne, Pitigliano (GR), Italy</i></span>
       </div>
   </div>
 
@@ -97,9 +97,9 @@ nav_order: 2
       <!-- Second row: Location icon and location text -->
       <div style="display: flex; align-items: flex-start; margin-top: 0;">
           <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
           </div>
-          <span style="margin-left: 10px;"><i>University of Sassari, Sassari, Italy</i></span>
+          <span style="margin-left: 10px; font-size: 10pt;"><i>University of Sassari, Sassari, Italy</i></span>
       </div>
   </div>
 
@@ -117,9 +117,9 @@ nav_order: 2
       <!-- Second row: Location icon and location text -->
       <div style="display: flex; align-items: flex-start; margin-top: 0;">
           <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
           </div>
-          <span style="margin-left: 10px;"><i>Bertinoro (FC), Italy</i></span>
+          <span style="margin-left: 10px; font-size: 10pt;"><i>Bertinoro (FC), Italy</i></span>
       </div>
   </div>
 
@@ -137,9 +137,9 @@ nav_order: 2
       <!-- Second row: Location icon and location text -->
       <div style="display: flex; align-items: flex-start; margin-top: 0;">
           <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
           </div>
-          <span style="margin-left: 10px;"><i>University of Bologna, Bologna, Italy</i></span>
+          <span style="margin-left: 10px; font-size: 10pt;"><i>University of Bologna, Bologna, Italy</i></span>
       </div>
   </div>
   
@@ -157,9 +157,9 @@ nav_order: 2
       <!-- Second row: Location icon and location text -->
       <div style="display: flex; align-items: flex-start; margin-top: 0;">
           <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
           </div>
-          <span style="margin-left: 10px;"><i>“Walter Bigiavi” Library, Bologna, Italy</i></span>
+          <span style="margin-left: 10px; font-size: 10pt;"><i>“Walter Bigiavi” Library, Bologna, Italy</i></span>
       </div>
   </div>
 
@@ -187,9 +187,9 @@ nav_order: 2
       <!-- Second row: Location icon and location text -->
       <div style="display: flex; align-items: flex-start; margin-top: 0;">
           <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
           </div>
-          <span style="margin-left: 10px;"><i>University of Bologna, Bologna, Italy</i></span>
+          <span style="margin-left: 10px; font-size: 10pt;"><i>University of Bologna, Bologna, Italy</i></span>
       </div>
   </div>
 
@@ -207,9 +207,9 @@ nav_order: 2
       <!-- Second row: Location icon and location text -->
       <div style="display: flex; align-items: flex-start; margin-top: 0;">
           <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
           </div>
-          <span style="margin-left: 10px;"><i>Le Sparne, Pitigliano (GR), Italy</i></span>
+          <span style="margin-left: 10px; font-size: 10pt;"><i>Le Sparne, Pitigliano (GR), Italy</i></span>
       </div>
   </div>
   
@@ -227,9 +227,9 @@ nav_order: 2
       <!-- Second row: Location icon and location text -->
       <div style="display: flex; align-items: flex-start; margin-top: 0;">
           <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
           </div>
-          <span style="margin-left: 10px;"><i>University of Bologna, Bologna, Italy</i></span>
+          <span style="margin-left: 10px; font-size: 10pt;"><i>University of Bologna, Bologna, Italy</i></span>
       </div>
   </div>
 
@@ -257,9 +257,9 @@ nav_order: 2
       <!-- Second row: Location icon and location text -->
       <div style="display: flex; align-items: flex-start; margin-top: 0;">
           <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
           </div>
-          <span style="margin-left: 10px;"><i>Le Sparne, Pitigliano (GR), Italy</i></span>
+          <span style="margin-left: 10px; font-size: 10pt;"><i>Le Sparne, Pitigliano (GR), Italy</i></span>
       </div>
   </div>
 
@@ -277,9 +277,9 @@ nav_order: 2
       <!-- Second row: Location icon and location text -->
       <div style="display: flex; align-items: flex-start; margin-top: 0;">
           <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
           </div>
-          <span style="margin-left: 10px;"><i>University of Bologna, Bologna, Italy</i></span>
+          <span style="margin-left: 10px; font-size: 10pt;"><i>University of Bologna, Bologna, Italy</i></span>
       </div>
   </div>
 
@@ -297,9 +297,9 @@ nav_order: 2
       <!-- Second row: Location icon and location text -->
       <div style="display: flex; align-items: flex-start; margin-top: 0;">
           <div style="width: 24px; display: flex; justify-content: center; align-self: flex-start;">
-              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
           </div>
-          <span style="margin-left: 10px;"><i>University of Bologna, Bologna, Italy</i></span>
+          <span style="margin-left: 10px; font-size: 10pt;"><i>University of Bologna, Bologna, Italy</i></span>
       </div>
   </div>
   
