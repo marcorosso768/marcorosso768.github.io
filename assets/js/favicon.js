@@ -1,6 +1,6 @@
 let setFavicon = () => {
   let themeSetting = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light";
-  let baseIconPath = themeSetting === "dark" ? "/favicons/favicon_dark/" : "/favicons/favicon_light/";
+  let baseIconPath = themeSetting === "dark" ? "assets/img/favicons/favicon_dark/" : "assets/img/favicons/favicon_light/";
 
   // Define favicon files
   let faviconLinks = [
