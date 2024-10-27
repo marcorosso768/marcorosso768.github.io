@@ -162,8 +162,8 @@
 {% endif %}
 
 <script>
-let determineTheme = () => {
-  let themeSetting = localStorage.getItem("theme");
+determineTheme = () => {
+  themeSetting = localStorage.getItem("theme");
   if (themeSetting != "dark" && themeSetting != "light") {
    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
       themeSetting = "dark";
