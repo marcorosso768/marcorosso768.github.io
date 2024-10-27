@@ -37,3 +37,5 @@ Currently, I am focusing on:
 In addition to my Research Activities, I am the <b style="color: $white-color;">Teaching Assistant</b> for the following courses: <b style="color: $white-color;">Introduction to Behavioral Economics</b>, <b style="color: $white-color;">Game Theory</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Microeconomics</b>.
 
 I am also the organizer of the <b style="color: $white-color;">DSE Afterwork Drinks</b>, a monthly informal meeting where Faculty, Research Fellows, and Ph.D. Students can meet to discuss various topics while enjoying a beverage.
+
+Last but not least, my favorite quote is <i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>
