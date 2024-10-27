@@ -1,6 +1,6 @@
 {
-  "name": "Marco Rosso",
-  "short_name": "MR",
+  "name": "MyWebSite",
+  "short_name": "MySite",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -15,7 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#000000",
-  "background_color": "#000000",
+  "theme_color": "#1c1c1d",
+  "background_color": "#1c1c1d",
   "display": "standalone"
 }
