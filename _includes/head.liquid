@@ -57,7 +57,7 @@
   >
 {% endif %}
 
-{% if site.icon contains 'favicon/' %}
+{% if site.icon contains 'favicons/' %}
   <!-- For old IEs -->
   <link rel="shortcut icon" href="{{ site.icon | append: 'favicon.ico' | relative_url | bust_file_cache }}">     
   <!-- For new browsers - multisize ico  -->
