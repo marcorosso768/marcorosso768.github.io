@@ -58,7 +58,7 @@
 {% endif %}
 
 {% if site.icon contains 'favicons/' %}
-  {% if determineThemeSetting() == "dark"}
+  {% if determineTheme == "dark"}
     <link rel="icon" type="image/png" href="{{ site.icon | append: 'favicon_dark/favicon-96x96.png' | relative_url | bust_file_cache }}" sizes="96x96">
     <link rel="icon" type="image/svg+xml" href="{{ site.icon | append: 'favicon_dark/favicon.svg' | relative_url | bust_file_cache }}">
     <link rel="shortcut icon" href="{{ site.icon | append: 'favicon_dark/favicon.ico' | relative_url | bust_file_cache }}">
@@ -162,7 +162,7 @@
 {% endif %}
 
 <script>
-let determineThemeSetting = () => {
+let determineTheme = () => {
   let themeSetting = localStorage.getItem("theme");
   if (themeSetting != "dark" && themeSetting != "light") {
    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -172,5 +172,5 @@ let determineThemeSetting = () => {
     }
   }
   return themeSetting;
-};
+}
 <script>
