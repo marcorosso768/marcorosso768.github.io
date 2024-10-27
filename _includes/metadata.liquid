@@ -53,12 +53,12 @@
 
 {% if site.serve_og_meta %}
   <!-- OpenGraph -->
-  <meta property="og:site_name" content="{{ title }}">
+  <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
-  <meta property="og:title" content="{% if page.title %}{Marco Rosso - { title }} | {Marco Rosso - { page.title }}{% else %}{Marco Rosso - { title }}{% endif %}">
-  <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
+  <meta property="og:title" content="{% if page.title %}Marco Rosso | {{ page.title }}{% else %}Marco Rosso | {{ site.title }}{% endif %}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:description" content="{{ site.description }}">
-  <meta property="og:image" content="{{ site.og_image }}">
+  <meta property="og:image" content="{{ site.og_image | absolute_url }}">
   <meta property="og:locale" content="{{ site.lang }}">
 
   <!-- Twitter card -->
