@@ -57,46 +57,33 @@
   >
 {% endif %}
 
-{% if site.icon contains 'favicon/' %}
-  <!-- For old IEs -->
-  <link rel="shortcut icon" href="{{ site.icon | append: 'favicon.ico' | relative_url | bust_file_cache }}" />
-  <!-- For new browsers - multisize ico -->
-  <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="{{ site.icon | append: 'favicon.ico' | relative_url | bust_file_cache }}">
-  <!-- For iPad with high-resolution Retina display running iOS ≥ 7 -->
-  <link rel="apple-touch-icon" sizes="152x152" href="{{ site.icon | append: 'favicon-152-precomposed.png' | relative_url | bust_file_cache }}">
-  <!-- For iPad with high-resolution Retina display running iOS ≤ 6 -->
-  <link rel="apple-touch-icon" sizes="144x144" href="{{ site.icon | append: 'favicon-144-precomposed.png' | relative_url | bust_file_cache }}">
-  <!-- For iPhone with high-resolution Retina display running iOS ≥ 7 -->
-  <link rel="apple-touch-icon" sizes="120x120" href="{{ site.icon | append: 'favicon-120-precomposed.png' | relative_url | bust_file_cache }}">
-  <!-- For iPhone with high-resolution Retina display running iOS ≤ 6 -->
-  <link rel="apple-touch-icon" sizes="114x114" href="{{ site.icon | append: 'favicon-114-precomposed.png' | relative_url | bust_file_cache }}">
-  <!-- For iPhone 6+ -->
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.icon | append: 'favicon-180-precomposed.png' | relative_url | bust_file_cache }}">
-  <!-- For first- and second-generation iPad -->
-  <link rel="apple-touch-icon" sizes="72x72" href="{{ site.icon | append: 'favicon-72-precomposed.png' | relative_url | bust_file_cache }}">
-  <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices -->
-  <link rel="apple-touch-icon" sizes="57x57" href="{{ site.icon | append: 'favicon-57.png' | relative_url | bust_file_cache }}">
-  <!-- For Old Chrome -->
-  <link rel="icon" sizes="32x32" href="{{ site.icon | append: 'favicon-32.png' | relative_url | bust_file_cache }}" >
-  <!-- For IE10 Metro -->
-  <meta name="msapplication-TileColor" content="#FFFFFF">
-  <meta name="msapplication-TileImage" content="{{ site.icon | append: 'favicon-144.png' | relative_url | bust_file_cache }}">
-  <meta name="theme-color" content="#ffffff">
-  <!-- Chrome for Android -->
-  <link rel="manifest" href="{{ site.icon | append: 'manifest.json' | relative_url | bust_file_cache }}">
-  <link rel="icon" sizes="192x192" href="{{ site.icon | append: 'favicon-192.png' | relative_url | bust_file_cache }}">
-{% else %}
-  <!-- Emoji Favicon Fallback -->
-  <link
-    rel="shortcut icon"
-    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>"
-  >
+{% if site.icon.size <= 4 %}
+  <!-- Favicon for small icon sizes as inline SVG -->
+  <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>">
+{% elsif site.icon != blank %}
+  <!-- Favicon link if icon is defined in the configuration -->
+  <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/favicon/' | relative_url | bust_file_cache }}">
 {% endif %}
+<!-- Apple Touch Icons for various devices -->
+<link rel="apple-touch-icon" sizes="152x152" href="{{ '/assets/img/favicon/favicon-152-precomposed.png' | relative_url }}">
+<link rel="apple-touch-icon" sizes="144x144" href="{{ '/assets/img/favicon/favicon-144-precomposed.png' | relative_url }}">
+<link rel="apple-touch-icon" sizes="120x120" href="{{ '/assets/img/favicon/favicon-120-precomposed.png' | relative_url }}">
+<link rel="apple-touch-icon" sizes="114x114" href="{{ '/assets/img/favicon/favicon-114-precomposed.png' | relative_url }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/favicon/favicon-180-precomposed.png' | relative_url }}">
+<link rel="apple-touch-icon" sizes="72x72" href="{{ '/assets/img/favicon/favicon-72-precomposed.png' | relative_url }}">
+<link rel="apple-touch-icon" sizes="57x57" href="{{ '/assets/img/favicon/favicon-57.png' | relative_url }}">
+<!-- Favicon for old Chrome -->
+<link rel="icon" sizes="32x32" href="{{ '/assets/img/favicon/favicon-32.png' | relative_url }}">
+<!-- Favicon for IE10 Metro -->
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="{{ '/assets/img/favicon/favicon-144.png' | relative_url }}">
+<meta name="theme-color" content="#ffffff">
+<!-- Android Chrome -->
+<link rel="manifest" href="{{ '/assets/img/favicon/manifest.json' | relative_url }}">
+<link rel="icon" sizes="192x192" href="{{ '/assets/img/favicon/favicon-192.png' | relative_url }}">
+<!-- Additional Links -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-
-
-
 
 <!-- Dark Mode -->
 <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
