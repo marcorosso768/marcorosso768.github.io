@@ -11,7 +11,6 @@ profile:
   align: center-right
   image: profile_pictures/prof_pic_MR.jpg
   image_circular: true # crops the image to make it circular
-
 #  more_info: >
 #       <p>555 your office number</p>
 #       <p>123 your address street</p>
