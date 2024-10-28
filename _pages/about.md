@@ -9,7 +9,7 @@ subtitle: >
 
 profile:
   align: center-right
-  image: prof_pic.jpg
+  image: profile_pictures/prof_pic_MR.jpg
   image_circular: true # crops the image to make it circular
 #  more_info: >
 #       <p>555 your office number</p>
@@ -21,7 +21,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Welcome to my personal website&mdash;glad to have you here intentionally (or at least I hope so)!
+Welcome to my personal website&mdash;glad to have you here intentionally (or at least I hope so!).
 
 I am a <b style="color: $white-color;">4<sup>th</sup>-year Ph.D. Student in Economics</b> and a <b style="color: $white-color;">Research Fellow</b>&mdash;equivalent to a Post-Doc position in Italy&mdash;at the University of Bologna.
 
@@ -38,3 +38,4 @@ In addition to my Research Activities, I am the <b style="color: $white-color;">
 
 I am also the organizer of the <b style="color: $white-color;">DSE Afterwork Drinks</b>, a monthly informal meeting where Faculty, Research Fellows, and Ph.D. Students can meet to discuss various topics while enjoying a beverage.
 
+Last but not least, my favorite quote is <i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>
