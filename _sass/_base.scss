@@ -1435,7 +1435,7 @@ ninja-keys::part(ninja-input-wrapper) {
 .embed-container iframe,
 .embed-container blockquote {
   width: 100%;           /* Make the embed full-width within the container */
-  height: auto;          /* Allow the height to adjust automatically */
+  height: 100%;          /* Allow the height to adjust automatically */
 }
 
 @media (max-width: 600px) {
