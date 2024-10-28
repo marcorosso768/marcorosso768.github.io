@@ -1429,6 +1429,7 @@ ninja-keys::part(ninja-input-wrapper) {
 
 .embed-container {
   max-width: 100%;       /* Ensure the container doesn’t overflow the screen */
+  height: 100%;
   overflow: hidden;      /* Hide overflow if necessary */
 }
 
