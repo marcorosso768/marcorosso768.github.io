@@ -11,8 +11,10 @@ let setFavicon = () => {
 
   // Define favicon files with cache-busting URLs
   let faviconLinks = [
+    { rel: "icon", type: "image/png",  href: `${baseIconPath}favicon-16x16.png?v=${timestamp}`, sizes: "16x16"},
+    { rel: "icon", type: "image/png",  href: `${baseIconPath}favicon-32x32.png?v=${timestamp}`, sizes: "32x32"},
     { rel: "icon", type: "image/png", href: `${baseIconPath}favicon-96x96.png?v=${timestamp}`, sizes: "96x96" },
-    { rel: "icon", type: "image/svg+xml", href: `${baseIconPath}favicon.svg?v=${timestamp}` },
+    { rel: "icon", type: "image/svg+xml", href: `${baseIconPath}favicon.svg?v=${timestamp}`},
     { rel: "shortcut icon", href: `${baseIconPath}favicon.ico?v=${timestamp}` },
     { rel: "apple-touch-icon", sizes: "180x180", href: `${baseIconPath}apple-touch-icon.png?v=${timestamp}` },
     { rel: "manifest", href: `${baseIconPath}site.webmanifest?v=${timestamp}` },
