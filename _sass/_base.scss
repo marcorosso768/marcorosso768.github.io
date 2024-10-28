@@ -1440,11 +1440,3 @@ ninja-keys::part(ninja-input-wrapper) {
   height: auto;          /* Allow the height to adjust automatically */
   overflow: hidden;
 }
-
-@media (max-width: 600px) {
-  .embed-container {
-    max-width: 300px;   /* Specify a smaller max width for very small screens */
-    height: auto;
-    overflow: hidden; 
-  }
-}
