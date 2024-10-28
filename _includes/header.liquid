@@ -4,7 +4,7 @@
     <div class="container">
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          {% if site.title == 'blank' %}
+          {% if site.title != 'blank' %}
             {% if site.first_name %}
               <span style="color: var(--global-theme-color);">
               {{- site.first_name -}}
