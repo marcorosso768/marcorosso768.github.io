@@ -1443,7 +1443,7 @@ ninja-keys::part(ninja-input-wrapper) {
 @media (max-width: 600px) {
   .embed-container {
     max-width: 300px;   /* Specify a smaller max width for very small screens */
-    height: 100vh;
+    min-height: 200px;
     overflow: hidden; 
   }
 }
