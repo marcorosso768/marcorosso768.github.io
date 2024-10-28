@@ -1430,18 +1430,21 @@ ninja-keys::part(ninja-input-wrapper) {
 /* Base Container */
 .embed-container {
   max-width: 100%;       /* Ensure the container doesn’t overflow the screen */
+  height: auto;
   overflow: hidden;      /* Hide overflow if necessary */
 }
 
-/* Instagram Embed */
-.embed-container.instagram-embed blockquote {
-  width: 100%;           /* Full width for Instagram embed */
-  height: auto;          /* Allow height to adjust automatically */
+.embed-container iframe,
+.embed-container blockquote {
+  width: 100%;           /* Make the embed full-width within the container */
+  height: auto;          /* Allow the height to adjust automatically */
   overflow: hidden;
 }
 
-/* Responsive Adjustments */
 @media (max-width: 600px) {
   .embed-container {
-    max-width: 300px;   /* Smaller max width for mobile */
+    max-width: 300px;   /* Specify a smaller max width for very small screens */
+    height: auto;
+    overflow: hidden; 
   }
+}
