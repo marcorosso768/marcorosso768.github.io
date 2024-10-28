@@ -1429,19 +1429,21 @@ ninja-keys::part(ninja-input-wrapper) {
 
 .embed-container {
   max-width: 100%;       /* Ensure the container doesn’t overflow the screen */
-  height: 100%;
+  height: 100vh;
   overflow: hidden;      /* Hide overflow if necessary */
 }
 
 .embed-container iframe,
 .embed-container blockquote {
   width: 100%;           /* Make the embed full-width within the container */
-  height: 100%;          /* Allow the height to adjust automatically */
+  height: 100vh;          /* Allow the height to adjust automatically */
+  overflow: hidden;
 }
 
 @media (max-width: 600px) {
   .embed-container {
     max-width: 300px;   /* Specify a smaller max width for very small screens */
-    height: 100%;
+    height: 100vh;
+    overflow: hidden; 
   }
 }
