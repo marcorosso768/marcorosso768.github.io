@@ -1426,17 +1426,3 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
-
-/* Base Container */
-.embed-container {
-  max-width: 100%;       /* Ensure the container doesn’t overflow the screen */
-  height: auto;
-  overflow: hidden;      /* Hide overflow if necessary */
-}
-
-.embed-container iframe,
-.embed-container blockquote {
-  width: 100%;           /* Make the embed full-width within the container */
-  height: auto;          /* Allow the height to adjust automatically */
-  overflow: hidden;
-}
