@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Marco Rosso # the website title (if blank, full name will be used instead)
+title: Marco Rosso # the website title (if blank, full name will be used instead) note: the code now works with if !=blank use full name
 first_name: Marco
 middle_name:
 last_name: Rosso
