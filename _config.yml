@@ -7,6 +7,7 @@ first_name: Marco
 middle_name:
 last_name: Rosso
 email: marco.rosso4@unibo.it
+department_url: https://www.unibo.it/sitoweb/marco.rosso4/en # department page URL
 description: Personal Academic website of Marco Rosso, Ph.D. Student and Research Fellow at the University of Bologna
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -76,7 +77,7 @@ wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.
 # -----------------------------------------------------------------------------
 
 contact_note: > 
-  You can asso find me here:
+  You can also find me here:
 
 acm_id: # your dl.acm.org/profile/id
 ger_url: # your ger URL
@@ -111,7 +112,6 @@ stackoverflow_id: # your stackoverflow id
 unsplash_id: # your unsplash id
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
-UniBo_url: https://www.unibo.it/sitoweb/marco.rosso4/en # insitution page URL
 work_url: # work page URL
 x_username: marcorosso768 # your X handle
 youtube_id: # your youtube chel id (youtube.com/@<youtube_id>)
