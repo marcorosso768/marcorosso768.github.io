@@ -1,6 +1,17 @@
 {% if site.email %}
   <a href="mailto:{{ site.email | encode_email }}" title="e-mail"><i class="fa-solid fa-envelope"></i></a>
 {% endif %}
+
 {% if site.whatsapp_number %}
   <a href="https://wa.me/{{ site.whatsapp_number }}" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+{% endif %}
+{% if site.telegram_username %}
+  <a href="https://telegram.me/{{ site.telegram_username }}" title="telegram"><i class="fa-brands fa-telegram"></i></a>
+{% endif %}
+{% if site.wechat_qr %}
+  <a id="WeChatBtn" title="WeChat"><i class="fa-brands fa-weixin"></i></a>
+  <div id="WeChatMod" class="wechat-modal">
+    <img src="{{ site.wechat_qr | prepend: 'assets/img/' | relative_url }}" alt="WeChat QR" id="WeChatQR">
+  </div>
+  {% include scripts/wechatModal.liquid %}
 {% endif %}
