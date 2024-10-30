@@ -1,8 +1,8 @@
 {% if site.email %}
   <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
 {% endif %}
-{% if site.work_url %}
-  <a href="{{ site.work_url }}" title="Work"><i class="fa-solid fa-building-columns"></i></a>
+{% if site.UniBo_url %}
+  <a href="{{ site.UniBo_url }}" title="UniBo"><i class="fa-solid fa-building-columns"></i></a>
 {% endif %}
 {% if site.linkedin_username %}
   <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
@@ -23,6 +23,9 @@
   <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
 {% endif %}
 
+{% if site.work_url %}
+  <a href="{{ site.work_url }}" title="Work"><i class="fa-solid fa-briefcase"></i></a>
+{% endif %}
 {% if site.telegram_username %}
   <a href="https://telegram.me/{{ site.telegram_username }}" title="telegram"><i class="fa-brands fa-telegram"></i></a>
 {% endif %}
