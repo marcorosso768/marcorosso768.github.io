@@ -25,15 +25,17 @@
           {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}
-        <!-- Social Icons -->
-        <div class="navbar-brand social" style="display: flex; align-items: center;">
-            <div style="display: inline-flex; align-items: center;">
-                {% include social_header.liquid %}
-            </div>
-            <a style="font-size: 10pt; margin-left: 5px; display: inline-flex; align-items: center;" href="mailto:marcorosso4@unibo.it">
-                <i>contact me</i>
-            </a>
+      <!-- Social Icons -->
+      <div class="navbar-brand social" style="margin: 0; padding: 0; position: relative;">
+        <div style="display: inline-block; text-align: center; position: absolute; top: 0;">
+          {% include social_header.liquid %}
         </div>
+        <div style="display: inline-block; line-height: 16pt;">
+          <a style="font-size: 10pt; margin-left: 5px; display: inline-flex; align-items: center;" href="mailto:marcorosso4@unibo.it">
+            <b>contact me</b>
+          </a>
+        </div>
+      </div>
       {% endif %}
       <!-- Navbar Toggle -->
       <button
