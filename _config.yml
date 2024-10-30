@@ -76,7 +76,7 @@ wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.
 # -----------------------------------------------------------------------------
 
 contact_note: > 
-  You can find me also on these platforms:
+  You can asso find me here:
 
 acm_id: # your dl.acm.org/profile/id
 ger_url: # your ger URL
