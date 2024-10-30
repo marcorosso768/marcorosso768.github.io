@@ -334,28 +334,6 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-.navbar-brand.contacts {
-    padding-bottom: 0;
-    padding-top: 0;
-    font-size: 1rem;
-    color: var(--global-theme-color);
-    margin-right: 5px;
-
-    a {
-      i::before {
-        color: var(--global-theme-color);
-        transition-property: all 0.2s ease-in-out;
-      }
-
-      &:hover {
-        i::before {
-          color: var(--global-theme-color);
-        }
-      }
-    }
-  }
-}
-
 .navbar-toggler {
   .icon-bar {
     display: block;
