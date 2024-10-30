@@ -317,10 +317,11 @@ ul.task-list input[type="checkbox"] {
     padding-bottom: 0;
     padding-top: 0;
     font-size: 1rem;
+    color: var(--global-theme-color);
 
     a {
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-theme-color);
         transition-property: all 0.2s ease-in-out;
       }
 
