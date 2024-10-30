@@ -7,6 +7,7 @@ first_name: Marco
 middle_name:
 last_name: Rosso
 email: marco.rosso4@unibo.it
+#department_website: https://www.unibo.it/sitoweb/marco.rosso4/en
 description: Personal Academic website of Marco Rosso, Ph.D. Student and Research Fellow at the University of Bologna
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -64,21 +65,32 @@ serve_schema_org: false # Include Schema.org in the HTML head
 og_image: assets/img/og_image/MR.png # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
+# Contact integration
+# -----------------------------------------------------------------------------
+
+whatsapp_number: # 393403117583 # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+telegram_username: # your Telegram user name
+wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
+
+# -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
+
+contact_note: > 
+  You can also find me here:
 
 acm_id: # your dl.acm.org/profile/id
 ger_url: # your ger URL
 bluesky_url: # your bluesky URL
 dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
-facebook_id: # your facebook id
+facebook_id: marcorosso768 # your facebook id
 flickr_id: # your flickr id
 github_username: marcorosso768 # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 inspirehep_id: # Inspire HEP author ID
-instagram_id: # your instagram id
+instagram_id: marcorosso768 # your instagram id
 kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
@@ -88,7 +100,7 @@ mastodon_username: # your mastodon instance+username in the format instance.tld/
 medium_username: # your Medium username
 orcid_id: 0000-0002-3814-2210 # your ORCID ID
 osf_id: # your OSF ID
-# pinterest_id: # your pinterest id
+pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: https://www.researchgate.net/profile/Marco-Rosso-2 # your profile on ResearchGate
@@ -97,19 +109,13 @@ scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
 stackoverflow_id: # your stackoverflow id
-telegram_username: # your Telegram user name
 unsplash_id: # your unsplash id
-wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
-work_url: https://www.unibo.it/sitoweb/marco.rosso4/en # work page URL
+work_url: # work page URL
 x_username: marcorosso768 # your X handle
 youtube_id: # your youtube chel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
-
-contact_note: > 
-  Feel free to reach me by e-mail
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -430,7 +436,7 @@ enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
-enable_navbar_social: false # enables displaying social links in the navbar on the about page
+enable_navbar_social: true # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position

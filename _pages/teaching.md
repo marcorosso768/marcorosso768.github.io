@@ -34,7 +34,7 @@ nav_order: 3
         <!-- Second row: Building icon and department text -->
         <div style="margin-top: 0px; position: relative; font-size: 10pt;">
             <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-                <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color);"></i>
+                <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
                 <span>Economics, Politics and Social Sciences, <i>University of Bologna</i></span>
@@ -59,7 +59,7 @@ nav_order: 3
         <!-- Second row: Building icon and department text -->
         <div style="margin-top: 0px; position: relative; font-size: 10pt;">
             <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-                <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color);"></i>
+                <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
                 <span>Economics, Politics and Social Sciences, <i>University of Bologna</i></span>
@@ -86,7 +86,7 @@ nav_order: 3
         <!-- Second row: Building icon and department text -->
         <div style="margin-top: 0px; position: relative; font-size: 10pt;">
             <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-                <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color);"></i>
+                <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
                 <span>Economics and Econometrics, <i>University of Bologna</i></span>
@@ -111,7 +111,7 @@ nav_order: 3
         <!-- Second row: Building icon and department text -->
         <div style="margin-top: 0px; position: relative; font-size: 10pt;">
             <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-                <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color);"></i>
+                <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
                 <span>Economics and Finance, <i>University of Bologna</i></span>
@@ -151,7 +151,7 @@ nav_order: 3
         <!-- Second row: Building icon and department text -->
         <div style="margin-top: 0px; position: relative; font-size: 10pt;">
             <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-                <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color);"></i>
+                <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
                 <span>Economics and Finance, <i>University of Bologna</i></span>
@@ -180,7 +180,7 @@ nav_order: 3
         <!-- Second row: Building icon and department text -->
         <div style="margin-top: 0px; position: relative; font-size: 10pt;">
             <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-                <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color);"></i>
+                <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
                 <span>Economics and Management, <i>Forlì Campus, University of Bologna</i></span>
@@ -205,7 +205,7 @@ nav_order: 3
         <!-- Second row: Building icon and department text -->
         <div style="margin-top: 0px; position: relative; font-size: 10pt;">
             <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-                <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color);"></i>
+                <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
                 <span>Economics and Business, <i>Forlì Campus, University of Bologna</i></span>
@@ -230,7 +230,7 @@ nav_order: 3
         <!-- Second row: Building icon and department text -->
         <div style="margin-top: 0px; position: relative; font-size: 10pt;">
             <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-                <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color);"></i>
+                <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
                 <span>Economics and Management, <i>Forlì Campus, University of Bologna</i></span>
@@ -259,7 +259,7 @@ nav_order: 3
         <!-- Second row: Building icon and department text -->
         <div style="margin-top: 0px; position: relative; font-size: 10pt;">
             <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-                <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color);"></i>
+                <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
                 <span>SAA School of Management, <i>University of Turin</i></span>
@@ -284,7 +284,7 @@ nav_order: 3
         <!-- Second row: Building icon and department text -->
         <div style="margin-top: 0px; position: relative; font-size: 10pt;">
             <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-                <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color);"></i>
+                <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
                 <span>SAA School of Management, <i>University of Turin</i></span>

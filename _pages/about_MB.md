@@ -5,4 +5,4 @@
 <p style="font-size: 10pt;"> Research Interests: <i> Experimental Economics, applied to the study of Cooperation in Repeated Social Dilemmas, Industrial Organization, and Learning </i></p>
 
 <i>[<i class="fa-solid fa-envelope"></i> &nbsp;maria.bigoni@unibo.it](mailto:maria.bigoni@unibo.it)</i> <br>
-<i>[<i class="fa-solid fa-building-columns"></i> &nbsp;UniBo website](https://www.unibo.it/sitoweb/maria.bigoni/en)</i>
+<i>[<i class="fa-solid fa-landmark"></i> &nbsp;UniBo website](https://www.unibo.it/sitoweb/maria.bigoni/en)</i>
