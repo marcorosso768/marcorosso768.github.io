@@ -2,11 +2,11 @@
   type: map
   contents:
     - name:
-      value: '<span style="font-size:12pt;"><i class="fa-solid fa-envelope" style="color:var(--global-theme-color); text-align: center; top: 1.5pt;"></i>&nbsp;&nbsp;<a href="mailto:marco.rosso4@unibo.it">marco.rosso4@unibo.it</a> </span>'
+      value: '<span style="font-size:12pt;"><i class="fa-solid fa-envelope" style="color:var(--global-theme-color); text-align: center; line-height: 16pt;"></i>&nbsp;<a href="mailto:marco.rosso4@unibo.it">marco.rosso4@unibo.it</a> </span>'
     - name:
-      value: '<span style="font-size:12pt;"><i class="fa-regular fa-envelope" style="color:var(--global-theme-color); text-align: center; top: 1.5pt;"></i>&nbsp;&nbsp;<a href="mailto:m.rosso@me.com">m.rosso@me.com</a> </span>'
+      value: '<span style="font-size:12pt;"><i class="fa-regular fa-envelope" style="color:var(--global-theme-color); text-align: center; line-height: 16pt;"></i>&nbsp;<a href="mailto:m.rosso@me.com">m.rosso@me.com</a> </span>'
     - name:
-      value: '<span style="font-size:12pt;"><i class="fa-solid fa-landmark" style="color:var(--global-theme-color); text-align: center;"></i>&nbsp;&nbsp;<a href="https://www.unibo.it/sitoweb/marco.rosso4/en">UniBo website</a> </span>'
+      value: '<span style="font-size:12pt;"><i class="fa-solid fa-landmark" style="color:var(--global-theme-color); text-align: center; line-height: 16pt;"></i>&nbsp;<a href="https://www.unibo.it/sitoweb/marco.rosso4/en">UniBo website</a> </span>'
 
 - title: education
   type: time_table
