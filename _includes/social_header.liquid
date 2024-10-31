@@ -1,8 +1,8 @@
 {% if site.email %}
   <a href="mailto:{{ site.email | encode_email }}" title="e-mail"><i class="fa-solid fa-envelope"></i></a>
 {% endif %}
-{% if site.department_website %}
-  <a href="{{ site.department_website }}" title="UniBo"><i class="fa-solid fa-landmark"></i></a>
+{% if site.personal_email %}
+  <a href="mailto:{{ site.personal_email | encode_email }}" title="personal e-mail"><i class="fa-regular fa-envelope"></i></a>
 {% endif %}
 
 {% if site.whatsapp_number %}
@@ -17,4 +17,7 @@
     <img src="{{ site.wechat_qr | prepend: 'assets/img/' | relative_url }}" alt="WeChat QR" id="WeChatQR">
   </div>
   {% include scripts/wechatModal.liquid %}
+{% endif %}
+{% if site.department_website %}
+  <a href="{{ site.department_website }}" title="UniBo"><i class="fa-solid fa-landmark"></i></a>
 {% endif %}

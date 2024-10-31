@@ -4,6 +4,6 @@
 
 <p style="font-size: 10pt;"> Research Interests: <i> Theory and Empirics of Long-Term Development, Political Economics, Social Economics, Crime Economics, and Microeconomic Theory. </i></p>
 
-<i>[<i class="fa-solid fa-envelope"></i> &nbsp;paolo.vanin@unibo.it](mailto:paolo.vanin@unibo.it)</i> <br>
-<i>[<i class="fa-solid fa-landmark"></i> &nbsp;UniBo website](https://www.unibo.it/sitoweb/paolo.vanin/en)</i> <br>
-<i>[<i class="fa-solid fa-globe"></i> &nbsp;personal website](https://sites.google.com/site/paolovanin/)</i>
+<span style="vertical-align: middle; line-height: 1; color: var(--global-theme-color);"><i class="fa-solid fa-envelope"></i></span>&nbsp;&nbsp;<a href="mailto:paolo.vanin@unibo.it">paolo.vanin@unibo.it</a> <br>
+<i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i> &nbsp;[UniBo website](https://www.unibo.it/sitoweb/paolo.vanin/en) <br>
+<span style="vertical-align: middle; line-height: 1; color: var(--global-theme-color);"><i class="fa-solid fa-globe"></i></span>&nbsp;&nbsp;<a href="https://sites.google.com/site/paolovanin/">personal website</a>

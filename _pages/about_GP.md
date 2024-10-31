@@ -4,6 +4,7 @@
 
 <p style="font-size: 10pt;"> Research Interests: <i> Question-, Data-, and Tool-Driven, erratic around the themes of Political Economics, Long-Term Development, the Role of Trade, and Cultural Diversity. </i></p>
 
-<i>[<i class="fa-solid fa-envelope"></i> &nbsp;giovanni.prarolo@unibo.it](mailto:giovanni.prarolo@unibo.it)</i> <br>
-<i>[<i class="fa-solid fa-landmark"></i> &nbsp;UniBo website](https://www.unibo.it/sitoweb/giovanni.prarolo/en)</i> <br>
-<i>[<i class="fa-solid fa-globe"></i> &nbsp;personal website](https://sites.google.com/site/giovanniprarolo/)</i>
+
+<span style="vertical-align: middle; line-height: 1; color: var(--global-theme-color);"><i class="fa-solid fa-envelope"></i></span>&nbsp;&nbsp;<a href="mailto:giovanni.prarolo@unibo.it">giovanni.prarolo@unibo.it</a> <br>
+<i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i> &nbsp;[UniBo website](https://www.unibo.it/sitoweb/giovanni.prarolo/en) <br>
+<span style="vertical-align: middle; line-height: 1; color: var(--global-theme-color);"><i class="fa-solid fa-globe"></i></span>&nbsp;&nbsp;<a href="https://sites.google.com/site/giovanniprarolo/">personal website</a>
