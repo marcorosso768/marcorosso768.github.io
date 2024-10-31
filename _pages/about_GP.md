@@ -6,5 +6,5 @@
 
 
 <span style="vertical-align: middle; line-height: 1; color: var(--global-theme-color);"><i class="fa-solid fa-envelope"></i></span>&nbsp;&nbsp;<a href="mailto:giovanni.prarolo@unibo.it">giovanni.prarolo@unibo.it</a> <br>
-<i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i> &nbsp;&nbsp;[UniBo website](https://www.unibo.it/sitoweb/giovanni.prarolo/en) <br>
+<i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i> &nbsp;[UniBo website](https://www.unibo.it/sitoweb/giovanni.prarolo/en) <br>
 <span style="vertical-align: middle; line-height: 1; color: var(--global-theme-color);"><i class="fa-solid fa-globe"></i></span>&nbsp;&nbsp;<a href="https://sites.google.com/site/giovanniprarolo/">personal website</a>
