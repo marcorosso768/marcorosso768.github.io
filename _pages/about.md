@@ -4,8 +4,8 @@ title: about me
 permalink: /
 subtitle: >
   <p style="font-size: 10pt; margin-top: -20px;"> <i class="fa-solid fa-landmark"></i> academic discipline: ECON-01/A Economics </p>
-  <p style="font-size: 10pt; margin-top: -20px; margin-left: 1.5px;"> <i class="fa-solid fa-location-dot"></i> <span style="padding-left:1.5px;">current location: Buenos Aires, Argentina</span></p>
-  <p style="margin-top: -10pt;"><a href='https://www.unibo.it/en/homepage'><i>University of Bologna,</i></a> <a href='https://dse.unibo.it/en'><i>Department of Economics</i></a></p>
+  <p style="font-size: 10pt; margin-top: -15px; margin-left: 1.5px;"> <i class="fa-solid fa-location-dot"></i> <span style="padding-left:1.5px;">current location: Buenos Aires, Argentina</span></p>
+  <p><a href='https://www.unibo.it/en/homepage'><i>University of Bologna,</i></a> <a href='https://dse.unibo.it/en'><i>Department of Economics</i></a></p>
   <p style="margin-top: -10pt;"><a href='https://goo.gl/maps/1icot9p1g97AWCD37'><i>Piazza Scaravilli 2, 40126, Bologna</i></a></p>
 
 profile:
