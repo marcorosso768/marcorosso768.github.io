@@ -58,6 +58,9 @@
 {% endif %}
 
 {% if site.icon contains 'favicons/' %}
+  <!-- Add apple-mobile-web-app-title meta tag in HTML -->
+  <meta name="apple-mobile-web-app-title" content="MR">
+  <!-- Include the favicon management script -->
   <script src="{{ '/assets/js/favicon.js' | relative_url }}"></script>
 {% else %}
   <link
