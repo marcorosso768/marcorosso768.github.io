@@ -3,9 +3,9 @@ layout: about
 title: about me
 permalink: /
 subtitle: >
-  <p style="font-size: 10pt; margin-top: -20px; margin-left: 3.5px;"> <i class="fa-solid fa-landmark"></i><a href='https://www.unibo.it/en/homepage'><i>University of Bologna,</i></a> <a href='https://dse.unibo.it/en'><i>Department of Economics</i></a></p>
-  <p style="font-size: 10pt; margin-top: -15pt; padding-left: 5px"><a href='https://goo.gl/maps/1icot9p1g97AWCD37'><i>Piazza Scaravilli 2, 40126, Bologna</i></a></p>
-  <p style="font-size: 10pt; margin-top: -15px; margin-left: 5px;"> <i class="fa-solid fa-location-dot"></i> <span style="padding-left:1.5px;">current location: Buenos Aires, Argentina</span></p>
+  <p style="font-size: 10pt; margin-top: -15px; margin-left: 3.5px;"> <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i><a href='https://www.unibo.it/en/homepage' style="padding left: 2.5px;"><i>University of Bologna,</i></a> <a href='https://dse.unibo.it/en'><i>Department of Economics</i></a></p>
+  <p style="font-size: 10pt; margin-top: -15pt; margin-left: 7px"><a href='https://goo.gl/maps/1icot9p1g97AWCD37'><i>Piazza Scaravilli 2, 40126, Bologna</i></a></p>
+  <p style="font-size: 10pt; margin-top: -15px; margin-left: 5px;"> <i class="fa-solid fa-location-dot"></i> <span style="padding-left: 1.5px;">current location: Buenos Aires, Argentina</span></p>
 
 profile:
   align: center-right
