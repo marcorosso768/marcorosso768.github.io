@@ -5,7 +5,7 @@ permalink: /
 subtitle: >
   <a href='https://www.unibo.it/en/homepage'><i>University of Bologna,</i></a> <a href='https://dse.unibo.it/en'><i>Department of Economics</i></a> <br>
   <a href='https://goo.gl/maps/1icot9p1g97AWCD37'><i>Piazza Scaravilli 2, 40126, Bologna</i></a>
-  <p style="font-size: 10pt; margin-top: -15px;">&nbsp;<i class="fa-solid fa-location-dot"></i> current location: Buenos Aires, Argentina</p>
+  <p style="font-size: 10pt; margin-top: -15px; margin-left: 2px;"> <i class="fa-solid fa-location-dot"></i> <span style="padding-left:2px;">current location: Buenos Aires, Argentina</span></p>
   <p style="font-size: 10pt; margin-top: -15px;"> <i class="fa-solid fa-landmark"></i> academic discipline: ECON-01/A Economics </p>
 profile:
   align: center-right
