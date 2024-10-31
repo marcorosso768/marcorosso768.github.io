@@ -5,9 +5,6 @@ permalink: /
 subtitle: >
   <a href='https://www.unibo.it/en/homepage'><i>University of Bologna,</i></a> <a href='https://dse.unibo.it/en'><i>Department of Economics</i></a> <br>
   <a href='https://goo.gl/maps/1icot9p1g97AWCD37'><i>Piazza Scaravilli 2, 40126, Bologna</i></a> <br>
-  <span style="font-size: 10pt; margin-top: -5px;"> Academic discipline: ECON-01/A Economics </span> <br>
-  <span style="font-size: 10pt; margin-top: -5px;"> <i class="fa-solid fa-location-dot"></i> current location: Buenos Aires, Argentina</span>
-
 profile:
   align: center-right
   image: profile_pictures/prof_pic_MR.jpg
@@ -21,6 +18,9 @@ news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+
+<span style="font-size: 10pt; margin-top: -30px;"> Academic discipline: ECON-01/A Economics </span> <br>
+<span style="font-size: 10pt; margin-top: -15px;"> <i class="fa-solid fa-location-dot"></i> current location: Buenos Aires, Argentina</span> <br>
 
 Welcome to my personal website&mdash;glad to have you here intentionally (or at least I hope so!).
 
