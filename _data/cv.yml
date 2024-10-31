@@ -8,8 +8,6 @@
     - name:
       value: '<span style="font-size:12pt;"><i class="fa-solid fa-landmark" style="color:var(--global-theme-color); text-align: center;"></i>&nbsp;&nbsp;<a href="https://www.unibo.it/sitoweb/marco.rosso4/en">UniBo website</a> </span>'
 
-       
-
 - title: education
   type: time_table
   contents:
