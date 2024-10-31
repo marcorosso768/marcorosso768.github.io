@@ -19,8 +19,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<p style="font-size: 10pt; margin-top: -30px;"> <i class="fa-solid fa-location-dot"></i> current location: Buenos Aires, Argentina</p>
-<p style="font-size: 10pt; margin-top: -20px;"> Academic discipline: ECON-01/A Economics </p>
+<p style="font-size: 10pt; margin-top: -20px;"> <i class="fa-solid fa-location-dot"></i> current location: Buenos Aires, Argentina</p>
+<p style="font-size: 10pt; margin-top: -15px;"> Academic discipline: ECON-01/A Economics </p>
 
 Welcome to my personal website&mdash;glad to have you here intentionally (or at least I hope so!).
 
