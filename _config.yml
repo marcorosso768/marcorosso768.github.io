@@ -238,6 +238,8 @@ kramdown:
 include:
   - _it/_pages
   - _en/_pages
+  - _it/_news
+  - _en/_news
 exclude:
   - _pages
   - bin/
