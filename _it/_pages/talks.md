@@ -1,6 +1,7 @@
 ---
 layout: page
-permalink: /talks/
+lang: it
+permalink: /it/talks/
 title: talks
 description:
 nav: true
