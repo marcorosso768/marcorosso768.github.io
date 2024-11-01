@@ -198,11 +198,14 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  news:
-    defaults:
-      layout: post
+  it_news:
+    layout: post
     output: true
-    permalink: /:collection/:title/
+    permalink: /it/news/:title/
+  en_news:
+    layout: post
+    output: true
+    permalink: /en/news/:title/
   projects:
     output: false
     permalink: /:collection/:title/
