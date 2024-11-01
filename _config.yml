@@ -25,26 +25,7 @@ last_updated: true # set to true if you want to display last updated in the foot
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
-defaults:
-  # Configurazione per le pagine in italiano
-  - scope:
-      path: "it/"
-    values:
-      lang: "it"
-      permalink: "/it/:path/"
-
-  # Configurazione per le pagine in inglese
-  - scope:
-      path: "en/"
-    values:
-      lang: "en"
-      permalink: "/en/:path/"
-
-# Variabili per il supporto multilingue
-languages:
-  - it
-  - en
-
+languages: ["en", "it"]
 default_lang: "en"
 
 # -----------------------------------------------------------------------------
