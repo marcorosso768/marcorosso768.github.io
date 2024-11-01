@@ -1,5 +1,4 @@
 {% if site.footer_fixed %}
-  
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
       &copy; Copyright {{ site.time | date: '%Y' }}
@@ -14,16 +13,13 @@
       {% endif %}
     </div>
   </footer>
-
 {% else %}
-  
   <footer class="sticky-bottom mt-5" role="contentinfo">
-    
     {% if site.newsletter.enabled %}
       {% include scripts/newsletter.liquid %}
     {% endif %}
 
-    <div class="container mt-0">
+         <div class="container mt-0">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
       {{ site.middle_name }}
@@ -34,7 +30,6 @@
       {% if site.last_updated %}
         Last updated: {{ 'now' | date: '%B %d, %Y' }}.
       {% endif %}
-      </div>
-
+    </div>
   </footer>
 {% endif %}

@@ -3,7 +3,7 @@
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
       {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/{{ page.lang }}/">
+        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title != 'blank' %}
             {% if site.first_name %}
               <span style="color: var(--global-theme-color);">
@@ -100,7 +100,7 @@
                       {% if child.title == 'divider' %}
                         <div class="dropdown-divider"></div>
                       {% else %}
-                        <a class="dropdown-item {% if page.title == child.title %}active{% endif %}" href="{{ '/' | append: page.lang | append: child.permalink | relative_url }}">
+                        <a class="dropdown-item {% if page.title == child.title %}active{% endif %}" href="{{ child.permalink | relative_url }}">
                           {{- child.title -}}
                         </a>
                       {% endif %}
@@ -111,7 +111,7 @@
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
                   {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
-                  <a class="nav-link" href="{{ '/' | append: page.lang | append: url | relative_url }}">
+                  <a class="nav-link" href="{{ url | relative_url }}">
                     {{- p.title }}
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>
@@ -121,18 +121,6 @@
               {% endif %}
             {% endif %}
           {% endfor %}
-
-          <!-- Language Selector -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Language
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="languageDropdown">
-              <a class="dropdown-item" href="{{ '/en/' | append: page.url | relative_url }}">EN</a>
-              <a class="dropdown-item" href="{{ '/it/' | append: page.url | relative_url }}">IT</a>
-            </div>
-          </li>
-
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">

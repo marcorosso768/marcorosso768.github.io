@@ -1,12 +1,6 @@
 <div class="news">
-  {% if page.lang == "it" %}
-    {% assign news = site.it_news %}
-  {% else %}
-    {% assign news = site.en_news %}
-  {% endif %}
-
-  {% if news != blank %}
-    {% assign news_size = news | size %}
+  {% if site.news != blank %}
+    {% assign news_size = site.news | size %}
     <div
       class="table-responsive"
       {% if include.limit and site.announcements.scrollable and news_size > 3 %}
@@ -14,7 +8,7 @@
       {% endif %}
     >
       <table class="table table-sm table-borderless">
-        {% assign news = news | reverse %}
+        {% assign news = site.news | reverse %}
         {% if include.limit and site.announcements.limit %}
           {% assign news_limit = site.announcements.limit %}
         {% else %}
