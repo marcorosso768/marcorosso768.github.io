@@ -1,6 +1,7 @@
 ---
 layout: profiles
-permalink: /references/
+lang: en
+permalink: /en/references/
 title: references
 description:
 nav: false
