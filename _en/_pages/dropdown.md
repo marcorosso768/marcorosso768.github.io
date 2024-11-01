@@ -6,11 +6,11 @@ nav_order: 5
 dropdown: true
 children:
   - title: references
-    permalink: /references/
+    permalink: /en/references/
   - title: divider
   - title: blog
-    permalink: /blog/
+    permalink: /en/blog/
   - title: divider
   - title: news
-    permalink: /news/
+    permalink: /en/news/
 ---
