@@ -1,6 +1,7 @@
 ---
 layout: cv
-permalink: /curriculum_vitae/
+lang: en
+permalink: /en/curriculum_vitae/
 title: curriculum vitae
 nav: true
 nav_order: 4
