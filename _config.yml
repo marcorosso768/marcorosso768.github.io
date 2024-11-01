@@ -236,8 +236,8 @@ kramdown:
 
 # Includes & excludes
 include:
-  - "_it"
-  - "_en"
+  - _it
+  - _en
 exclude:
   - _pages
   - bin/
