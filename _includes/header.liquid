@@ -100,7 +100,7 @@
                       {% if child.title == 'divider' %}
                         <div class="dropdown-divider"></div>
                       {% else %}
-                        <a class="dropdown-item {% if page.title == child.title %}active{% endif %}" href="{{ child.permalink | relative_url }}">
+                        <a class="dropdown-item {% if page.title == child.title %}active{% endif %}" href="{{ '/' | append: page.lang | append: child.permalink | relative_url }}">
                           {{- child.title -}}
                         </a>
                       {% endif %}
@@ -111,7 +111,7 @@
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
                   {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
-                  <a class="nav-link" href="{{ url | relative_url }}">
+                  <a class="nav-link" href="{{ '/' | append: page.lang | append: url | relative_url }}">
                     {{- p.title }}
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>
@@ -128,8 +128,8 @@
               Language
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="languageDropdown">
-              <a class="dropdown-item" href="/en/{{ page.url }}">EN</a>
-              <a class="dropdown-item" href="/it/{{ page.url }}">IT</a>
+              <a class="dropdown-item" href="{{ '/en/' | append: page.url | relative_url }}">EN</a>
+              <a class="dropdown-item" href="{{ '/it/' | append: page.url | relative_url }}">IT</a>
             </div>
           </li>
 
