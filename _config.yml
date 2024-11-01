@@ -16,7 +16,7 @@ footer_text: >
 keywords: political economics, crime economics, microeconomics theory, game theory, experimental economics, behavioural economics
   # add your own keywords or leave empty
 
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+# lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: /assets/img/favicons/  #⚛️ the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://marcorosso.com # marcorosso768.github.io # the base hostname & protocol for your site
@@ -24,6 +24,28 @@ baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
+
+defaults:
+  # Configurazione per le pagine in italiano
+  - scope:
+      path: "it/"
+    values:
+      lang: "it"
+      permalink: "/it/:path/"
+
+  # Configurazione per le pagine in inglese
+  - scope:
+      path: "en/"
+    values:
+      lang: "en"
+      permalink: "/en/:path/"
+
+# Variabili per il supporto multilingue
+languages:
+  - it
+  - en
+
+default_lang: "en"
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -230,7 +252,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages"]
+include: ["_pages" "_it" "_en"]
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -246,7 +268,6 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages_removed
   - purgecss.config.js
   - README.md
   - readme_preview/
