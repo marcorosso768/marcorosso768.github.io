@@ -16,7 +16,7 @@ footer_text: >
 keywords: political economics, crime economics, microeconomics theory, game theory, experimental economics, behavioural economics
   # add your own keywords or leave empty
 
-# lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: /assets/img/favicons/  #⚛️ the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://marcorosso.com # marcorosso768.github.io # the base hostname & protocol for your site
@@ -25,8 +25,8 @@ last_updated: true # set to true if you want to display last updated in the foot
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
-lang: ["en", "it"]
-default_lang: "en"
+#lang: ["en", "it"]
+#default_lang: "en"
 
 # -----------------------------------------------------------------------------
 # Theme
