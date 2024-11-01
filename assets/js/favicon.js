@@ -6,16 +6,13 @@ let setFavicon = () => {
   let themeSetting = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light";
   let baseIconPath = themeSetting === "dark" ? "assets/img/favicons/favicon_dark/" : "assets/img/favicons/favicon_light/";
 
-  // Cache-busting parameter
-  let timestamp = new Date().getTime();
-
-  // Define favicon files with cache-busting URLs
+  // Define favicon files
   let faviconLinks = [
-    { rel: "icon", type: "image/ico", href: `${baseIconPath}favicon.ico?v=${timestamp}`, sizes: "any"},
-    { rel: "icon", type: "image/svg+xml", href: `${baseIconPath}favicon.svg?v=${timestamp}`},
-    { rel: "icon", type: "image/png", href: `${baseIconPath}favicon-96x96.png?v=${timestamp}`, sizes: "96x96"},
-    { rel: "apple-touch-icon", sizes: "180x180", href: `${baseIconPath}apple-touch-icon.png?v=${timestamp}`},
-    { rel: "manifest", href: `${baseIconPath}site.webmanifest?v=${timestamp}` },
+    { rel: "icon", type: "image/ico", href: `${baseIconPath}favicon.ico`, sizes: "any" },
+    { rel: "icon", type: "image/svg+xml", href: `${baseIconPath}favicon.svg` },
+    { rel: "icon", type: "image/png", href: `${baseIconPath}favicon-96x96.png`, sizes: "96x96" },
+    { rel: "apple-touch-icon", sizes: "180x180", href: `${baseIconPath}apple-touch-icon.png` },
+    { rel: "manifest", href: `${baseIconPath}site.webmanifest` },
   ];
 
   // Set each favicon link
@@ -26,8 +23,8 @@ let setFavicon = () => {
   });
 };
 
-// Run on page load and when theme changes with a slight delay for Safari
-window.addEventListener('DOMContentLoaded', setFavicon);
+// Run on page load and when theme changes
+window.addEventListener('load', setFavicon);
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
   setTimeout(setFavicon, 100); // Delay of 100ms
 });
