@@ -1,6 +1,7 @@
 ---
 layout: page
-permalink: /teaching/
+lang: en
+permalink: /en/teaching/
 title: teaching
 description:
 nav: true
