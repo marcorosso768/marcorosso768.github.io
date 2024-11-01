@@ -1,6 +1,7 @@
 ---
 layout: default
-permalink: /blog/
+lang: it
+permalink: /it/blog/
 title: blog
 nav: false
 nav_order:
