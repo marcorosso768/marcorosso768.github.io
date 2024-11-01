@@ -1,6 +1,7 @@
 ---
 layout: page
-permalink: /research/
+lang: it
+permalink: /it/research/
 title: research
 description:
 nav: true
