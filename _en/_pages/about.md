@@ -1,6 +1,7 @@
 ---
 layout: about
 title: about me
+lang: en
 permalink: /en/
 subtitle: >
   <p style="font-size: 10pt; margin-top: -15px; margin-left: 3.5px;"> <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i><span style="padding-left: 2.5px;"><a href='https://dse.unibo.it/en'><i>Department of Economics,</i></a> <a href='https://www.unibo.it/en/homepage'><i>University of Bologna</i></a></span></p>
