@@ -1,4 +1,5 @@
 {% if site.footer_fixed %}
+  
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
       &copy; Copyright {{ site.time | date: '%Y' }}
@@ -13,13 +14,16 @@
       {% endif %}
     </div>
   </footer>
+
 {% else %}
+  
   <footer class="sticky-bottom mt-5" role="contentinfo">
+    
     {% if site.newsletter.enabled %}
       {% include scripts/newsletter.liquid %}
     {% endif %}
 
-         <div class="container mt-0">
+    <div class="container mt-0">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
       {{ site.middle_name }}
@@ -30,6 +34,16 @@
       {% if site.last_updated %}
         Last updated: {{ 'now' | date: '%B %d, %Y' }}.
       {% endif %}
-    </div>
+      </div>
+
+      </div class="container mt-0" style="margin-right: 0;">
+        <nav class="language-selector">
+          <ul>
+            <li><a href="/it/" {% if page.lang == "it" %}class="active"{% endif %}>Italiano</a></li>
+            <li><a href="/en/" {% if page.lang == "en" %}class="active"{% endif %}>English</a></li>
+          </ul>
+        </nav>
+      </div>
+
   </footer>
 {% endif %}
