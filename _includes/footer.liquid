@@ -36,13 +36,11 @@
       {% endif %}
       </div>
 
-      </div class="container mt-0" style="margin-right: 0;">
-        <nav class="language-selector">
-          <ul>
-            <li><a href="/it/" {% if page.lang == "it" %}class="active"{% endif %}>Italiano</a></li>
-            <li><a href="/en/" {% if page.lang == "en" %}class="active"{% endif %}>English</a></li>
-          </ul>
-        </nav>
+      </div class="container mt-0" style="margin-right: 10px;">
+        <div class="language-switcher">
+          <a href="/en{{ page.url | remove_first: '/it' }}" class="lang-button">English</a>
+          <a href="/it{{ page.url | remove_first: '/en' }}" class="lang-button">Italiano</a>
+        </div>
       </div>
 
   </footer>
