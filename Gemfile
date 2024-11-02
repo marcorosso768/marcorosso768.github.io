@@ -11,6 +11,7 @@ group :jekyll_plugins do
     gem 'jekyll-link-attributes'
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
+    gem 'jekyll-polyglot'
     gem 'jekyll-regex-replace'
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
@@ -18,7 +19,6 @@ group :jekyll_plugins do
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
 end
