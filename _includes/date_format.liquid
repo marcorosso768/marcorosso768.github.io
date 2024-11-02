@@ -1,22 +1,33 @@
-{% assign months = 'january|february|march|april|may|june|july|august|september|october|november|december' | split: '|' %}
-{% assign m = include.date | date: '%-m' | minus: 1 %}
+{% assign months = site.data[site.active_lang].strings.months | split: '|' %}
+{% assign month_index = include.date | date: '%-m' | minus: 1 %}
 {% assign day = include.date | date: '%d' %}
-{% capture month %}{{ months[m] }}{% endcapture %}
-{% capture month %}{{ site.data[site.active_lang].strings.months[include.format][month] }}{% endcapture %}
+{% assign month_name = months[month_index] %}
 {% assign year = include.date | date: '%Y' %}
 
 {% comment %}
-  Here, add language specific date formats
+  Language-specific date formats
 {% endcomment %}
 
-{%- if site.active_lang == 'en' -%}
-  {{ month }} {{ day }}, {{ year }}
-{%- elsif site.active_lang == 'es' -%}
-  el {{ day }} de {{ month }} de {{ year }}
-{%- elsif site.active_lang == 'it' -%}
-  {{ day }} {{ month }} {{ year }}
-{%- else -%}
-  {{ day }}
-  {{ month }}
-  {{ year }}
-{%- endif -%}
+{% if include.format == 'long' %}
+  {% case site.active_lang %}
+    {% when 'en' %}
+      {{ month_name }} {{ day }}, {{ year }}
+    {% when 'es' %}
+      {{ day }} de {{ month_name }} de {{ year }}
+    {% when 'it' %}
+      {{ day }} {{ month_name }} {{ year }}
+    {% else %}
+      {{ day }} {{ month_name }} {{ year }}
+  {% endcase %}
+{% elsif include.format == 'short' %}
+  {% case site.active_lang %}
+    {% when 'en' %}
+      {{ month_name }} {{ day }}, {{ year }}
+    {% when 'es' %}
+      {{ day }}-{{ month_name }}-{{ year }}
+    {% when 'it' %}
+      {{ day }} {{ month_name }} {{ year }}
+    {% else %}
+      {{ day }} {{ month_name }} {{ year }}
+  {% endcase %}
+{% endif %}
