@@ -12,23 +12,23 @@
 {% if include.format == 'long' %}
   {% case site.active_lang %}
     {% when 'en' %}
-      {{ month_name }} {{ day }}, {{ year }}
+      {{ month }} {{ day }}, {{ year }}
     {% when 'es' %}
-      {{ day }} de {{ month_name }} de {{ year }}
+      {{ day }} de {{ month }} de {{ year }}
     {% when 'it' %}
-      {{ day }} {{ month_name }} {{ year }}
+      {{ day }} {{ month }} {{ year }}
     {% else %}
-      {{ day }} {{ month_name }} {{ year }}
+      {{ day }} {{ month }} {{ year }}
   {% endcase %}
 {% elsif include.format == 'short' %}
   {% case site.active_lang %}
     {% when 'en' %}
-      {{ month_name }} {{ day }}, {{ year }}
+      {{ month }} {{ day }}, {{ year }}
     {% when 'es' %}
-      {{ day }}-{{ month_name }}-{{ year }}
+      {{ day }}-{{ month }}-{{ year }}
     {% when 'it' %}
-      {{ day }} {{ month_name }} {{ year }}
+      {{ day }} {{ month }} {{ year }}
     {% else %}
-      {{ day }} {{ month_name }} {{ year }}
+      {{ day }} {{ month }} {{ year }}
   {% endcase %}
 {% endif %}
