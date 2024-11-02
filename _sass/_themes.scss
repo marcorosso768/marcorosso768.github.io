@@ -2,6 +2,8 @@
  * Themes
  ******************************************************************************/
 
+@use "sass:color";
+
 :root {
   --global-bg-color: #{$white-mod};
   --global-code-bg-color: #{$code-bg-color-light};
@@ -17,7 +19,12 @@
   --global-divider-color: #{$black-color};
   --global-card-bg-color: #{$white-mod};
   --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
+  --global-back-to-top-bg-color: rgba(
+    #{red($black-color)}, 
+    #{green($black-color)}, 
+    #{blue($black-color)}, 
+    0.4
+  );
   --global-back-to-top-text-color: #{$white-mod};
   --global-newsletter-bg-color: #{$white-mod};
   --global-newsletter-text-color: #{$black-color};
@@ -77,7 +84,12 @@ html[data-theme="dark"] {
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #{$white-mod};
   --global-card-bg-color: #{$grey-900};
-  --global-back-to-top-bg-color: rgba(#{red($white-color)}, #{green($white-color)}, #{blue($white-color)}, 0.5);
+  --global-back-to-top-bg-color: rgba(
+    #{red($white-color)}, 
+    #{green($white-color)}, 
+    #{blue($white-color)}, 
+    0.5
+  );
   --global-back-to-top-text-color: #{$black-color};
   --global-newsletter-bg-color: #{$white-mod};
   --global-newsletter-text-color: #{$grey-color-dark};
