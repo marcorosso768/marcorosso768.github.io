@@ -9,7 +9,8 @@ categories:
 citation:
   bibtex: "or as a BibTeX entry:"
   introduction: "If you found this useful, please cite this as:"
-contact_note: You can even add a little note about which of these is the best way to reach you.
+contact_note: contacts:
+social_note: You can also find me here:
 cv:
   address: Address
   area: Area
@@ -62,9 +63,8 @@ cv:
   volunteer: Volunteer
   work: Work
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> theme.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 latest_posts: latest posts
 months:
   long:
@@ -93,7 +93,7 @@ months:
     october: Oct
     november: Nov
     december: Dec
-news: news
+news: latest news
 newsletter:
   back: Back
   error: "Oops! Something went wrong, please try again."
@@ -110,7 +110,7 @@ pagination:
 post:
   created_in: Created in
   created_by: by
-  last_updated: last updated in
+  last_updated: last updated:
 references: References
 related_posts:
   description: "Here are some more articles you might like to read next:"
@@ -119,26 +119,26 @@ search:
   dark_theme:
     description: Change the theme of the site to Dark
     title: Change theme to dark
-  dropdown: Dropdown
-  email: Send an email
+  dropdown: dropdown
+  email: send an email
   footer:
     close: to close
     navigate: to navigate
     parent: move to parent
     select: to select
-  languages: Languages
+  languages: languages
   light_theme:
-    description: Change the theme of the site to Light
-    title: Change theme to light
-  navigation: Navigation menu
-  news: News
-  placeholder: Type to start searching
-  posts: Posts
-  projects: Projects
-  socials: Socials
+    description: change the theme of the site to Light
+    title: change theme to light
+  navigation: navigation menu
+  news: news
+  placeholder: type to start searching
+  posts: posts
+  projects: projects
+  socials: socials
   system_theme:
-    description: Change the theme of the site to System Default
-    title: Use system default theme
-  theme: Theme
+    description: change the theme of the site to System Default
+    title: use system default theme
+  theme: yheme
 selected_publications: selected publications
-site_description: A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+site_description: Personal Academic website of Marco Rosso, Ph.D. Student and Research Fellow at the University of Bologna
