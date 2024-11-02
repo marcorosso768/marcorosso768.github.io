@@ -20,19 +20,62 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>
-  {% if site.title == 'blank' %}
-    {% capture title %}{{ author_name }}{% endcapture %}
+{% if site.title == 'blank' %}
+  {% capture title %}{{ author_name }}{% endcapture %}
+{% else %}
+  {% capture title %}{{ site.title }}{% endcapture %}
+{% endif %}
+{% if page.title != null and page.title != '' %}
+  {% if page.url == '/blog/index.html' %}
+    {% capture page_title %}{{ site.data[site.active_lang].strings.blog.navigation_title }}{% endcapture %}
   {% else %}
-    {% capture title %}{{ site.title }}{% endcapture %}
+    {% assign page_title = page.title %}
   {% endif %}
+{% else %}
+  {% assign page_title = null %}
+{% endif %}
+{% if page_title %}
+  {% assign title_array = '' | split: ',' %}
+  {% assign splitted_description_by_space = page_title | split: ' ' %}
+  {% for outer_part in splitted_description_by_space %}
+    {% if outer_part contains '.' %}
+      {% capture contains_localization %}{% localization_exists {{ outer_part }} %}{% endcapture %}
+      {% if contains_localization == 'true' %}
+        {% assign first_part = outer_part | split: '.' | first %}
+        {% assign last_part = outer_part | split: '.' | last %}
+        {% capture temp_var %}{{ site.data[site.active_lang].strings[first_part][last_part] }}{% endcapture %}
+        {% assign title_array = title_array | push: temp_var %}
+      {% else %}
+        {% capture temp_var %}{{ outer_part }}{% endcapture %}
+        {% assign title_array = title_array | push: temp_var %}
+      {% endif %}
+    {% else %}
+      {% capture temp_var %}{{ outer_part }}{% endcapture %}
+      {% assign title_array = title_array | push: temp_var %}
+    {% endif %}
+  {% endfor %}
+  {% assign page_title = title_array | join: ' ' %}
+{% endif %}
+{% if page.description %}
+  {% assign description = page.description %}
+{% else %}
+  {% assign description = site.data[site.active_lang].strings.site_description %}
+{% endif %}
+<title>
   {% if page.url == '/blog/index.html' %}
     {{ page.title }} | {{ title }}
+  {% elsif page.url contains '/blog/' %}
+    {% capture blog_year %}{{ page.url | slice: 0, 11 }}{% endcapture %}
+    {% if page.url == blog_year %}
+      {{ page.date | date: '%Y' }} | {{ title }}
+    {% else %}
+      {{ page_title }} | {{ title }}
+    {% endif %}
   {% elsif page.title != 'blank' and page.url != '/' %}
     {% if page.title == null or page.title == '' %}
       {{ page.date | date: '%Y' }} | {{ title }}
     {% else %}
-      {{ page.title }} | {{ title }}
+      {{ page_title }} | {{ title }}
     {% endif %}
   {% else %}
     {{ title }}
