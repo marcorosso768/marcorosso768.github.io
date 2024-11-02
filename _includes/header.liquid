@@ -31,39 +31,46 @@
           <div style="display: inline-block; line-height: 1; font-size: 12pt; color: var(--global-theme-color);">
               <b>{{ site.data[site.active_lang].strings.contact_note }}</b>
           </div>
-          <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: 2.5px">
+          <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: 2.5px;">
             {% include social_header.liquid %}
           </div>
         </div>
       </div>
-          <!-- Toggle language -->
-          <div style="margin: 0; padding: 0; position: relative;">
-            {% if site.languages.size >= 2 %}
-              <li class="nav-item dropdown" style="list-style-type: none;">
-                <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
-                  {% if site.country_flag %}
-                    <span class="fi fi-{{ site.active_lang | split: '-' | last }}"></span>
-                  {% else %}
-                    {{ site.active_lang | upcase }}
-                  {% endif %}
-                </a>
-                <div class="dropdown-menu">
-                  {% for l in site.languages %}
-                    {% if l != site.active_lang %}
-                      <a class="dropdown-item" onclick="setLanguage('{{ l }}')">
-                        {% if site.country_flag %}
-                          <span class="fi fi-{{ l | split: '-' | last }}"></span>
-                        {% else %}
-                          {{ l | upcase }}
-                        {% endif %}
-                      </a>
-                    {% endif %}
-                  {% endfor %}
-                </div>
-              </li>
-            {% endif %}
-          </div>
       {% endif %}
+
+      <!-- Toggle language -->
+      <div style="margin: 0; padding: 0; position: relative;">
+      <div style="display: inline-block; line-height: 1; font-size: 12pt; color: var(--global-theme-color);">
+              <b>{{ site.data[site.active_lang].strings.lang_note }}</b>
+      </div>
+      <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: 2.5px; color: var(--global-theme-color);">        
+        {% if site.languages.size >= 2 %}
+          <li class="nav-item dropdown" style="list-style-type: none;">
+            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
+              {% if site.country_flag %}
+                <span class="fi fi-{{ site.active_lang | split: '-' | last }}"></span>
+              {% else %}
+                {{ site.active_lang | upcase }}
+              {% endif %}
+            </a>
+            <div class="dropdown-menu">
+              {% for l in site.languages %}
+                {% if l != site.active_lang %}
+                  <a class="dropdown-item" onclick="setLanguage('{{ l }}')">
+                    {% if site.country_flag %}
+                      <span class="fi fi-{{ l | split: '-' | last }}"></span>
+                    {% else %}
+                      {{ l | upcase }}
+                    {% endif %}
+                  </a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </li>
+        {% endif %}
+      </div>
+
+
 
       <!-- Navbar Toggle -->
       <button
