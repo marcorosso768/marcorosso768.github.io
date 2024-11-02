@@ -1,1 +1,1 @@
-function languageURL(e){const n="en",a=window.location.pathname.replace(/^\/(en|it|es)(\/|$)/,"/");return e===n?`{{ site.baseurl }}${a}`:`{{ site.baseurl }}/${e}${a}`}
+function setLanguage(e){const n="en",a=window.location.pathname.replace(/^\/(en|it|es)(\/|$)/,"/"),o=e===n?a:`/${e}${a}`;localStorage.setItem("userLanguage",e),window.location.href=o}
