@@ -4,7 +4,7 @@ layout: about
 title: su di me
 permalink: /
 subtitle: >
-  <p style="font-size: 10pt; margin-top: -15px; margin-left: 3.5px;"> <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i><span style="margin-left: 5px;"><a href='https://dse.unibo.it'><i>Dipartimento di Scienze Economiche,</i></a> <a href='https://www.unibo.it/homepage'><i>Università di&nbsp;Bologna</i></a></span></p>
+  <p style="font-size: 10pt; margin-top: -15px; margin-left: 3.5px;"> <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i><span style="padding-left: 5px;"><a href='https://dse.unibo.it'><i>Dipartimento di Scienze Economiche,</i></a> <a href='https://www.unibo.it/homepage'><i>Università di&nbsp;Bologna</i></a></span></p>
   <p style="font-size: 10pt; margin-top: -12.5pt; margin-left: 19.5px"><a href='https://goo.gl/maps/1icot9p1g97AWCD37'><i>Piazza Scaravilli 2, 40126, Bologna</i></a></p>
   <p style="font-size: 10pt; margin-top: -15px; margin-left: 5px;"> <i class="fa-solid fa-location-dot"></i> <span style="padding-left: 1.5px;">posizione attuale: Buenos Aires, Argentina</span></p>
 
