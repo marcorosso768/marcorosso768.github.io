@@ -69,6 +69,9 @@ og_image: assets/img/og_image/MR.png # The site-wide (default for all links) Ope
 # Contact integration
 # -----------------------------------------------------------------------------
 
+contact_note: > 
+  contacts:
+
 whatsapp_number: # 393403117583 # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 telegram_username: # your Telegram user name
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
@@ -77,7 +80,7 @@ wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.
 # Social integration
 # -----------------------------------------------------------------------------
 
-contact_note: > 
+social_note: > 
   You can also find me here:
 
 acm_id: # your dl.acm.org/profile/id
