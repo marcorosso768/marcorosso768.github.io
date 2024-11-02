@@ -36,37 +36,36 @@
           </div>
         </div>
       
-      
-      <!-- Toggle language -->
-
-      <div style="display: inline-block; line-height: 1; font-size: 12pt; color: var(--global-theme-color);">
-              <b>{{ site.data[site.active_lang].strings.lang_note }}</b>
-      </div>
-      <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: 2.5px; color: var(--global-theme-color);">        
-        {% if site.languages.size >= 2 %}
-          <li class="nav-item dropdown" style="list-style-type: none;">
-            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
-              {% if site.country_flag %}
-                <span class="fi fi-{{ site.active_lang | split: '-' | last }}"></span>
-              {% else %}
-                {{ site.active_lang | upcase }}
-              {% endif %}
-            </a>
-            <div class="dropdown-menu">
-              {% for l in site.languages %}
-                {% if l != site.active_lang %}
-                  <a class="dropdown-item" onclick="setLanguage('{{ l }}')">
-                    {% if site.country_flag %}
-                      <span class="fi fi-{{ l | split: '-' | last }}"></span>
-                    {% else %}
-                      {{ l | upcase }}
-                    {% endif %}
-                  </a>
+        <!-- Toggle language -->
+        <div style="display: inline-block; line-height: 1; font-size: 12pt; color: var(--global-theme-color);">
+          <b>{{ site.data[site.active_lang].strings.lang_note }}</b>
+        </div>
+        <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: 2.5px; color: var(--global-theme-color);">        
+          {% if site.languages.size >= 2 %}
+            <li class="nav-item dropdown" style="list-style-type: none; color(--global-theme-color);">
+              <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" style="color(--global-theme-color);">
+                {% if site.country_flag %}
+                  <span class="fi fi-{{ site.active_lang | split: '-' | last }}" style="color(--global-theme-color);"></span>
+                {% else %}
+                  <span style="color(--global-theme-color);">{{ site.active_lang | upcase }}</span>
                 {% endif %}
-              {% endfor %}
-            </div>
-          </li>
-        {% endif %}
+              </a>
+              <div class="dropdown-menu" style="color(--global-theme-color);">
+                {% for l in site.languages %}
+                  {% if l != site.active_lang %}
+                    <a class="dropdown-item" onclick="setLanguage('{{ l }}')">
+                      {% if site.country_flag %}
+                        <span class="fi fi-{{ l | split: '-' | last }}" style="color(--global-theme-color);"></span>
+                      {% else %}
+                        <span style="color(--global-theme-color);">{{ l | upcase }}</span>
+                      {% endif %}
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </li>
+          {% endif %}
+        </div>
       </div>
       {% endif %}
 
