@@ -1,7 +1,8 @@
-{% assign months = site.data[site.active_lang].strings.months | split: '|' %}
-{% assign month_index = include.date | date: '%-m' | minus: 1 %}
+{% assign months = 'january|february|march|april|may|june|july|august|september|october|november|december' | split: '|' %}
+{% assign m = include.date | date: '%-m' | minus: 1 %}
 {% assign day = include.date | date: '%d' %}
-{% assign month_name = months[month_index] %}
+{% capture month %}{{ months[m] }}{% endcapture %}
+{% capture month %}{{ site.data[site.active_lang].strings.months[include.format][month] }}{% endcapture %}
 {% assign year = include.date | date: '%Y' %}
 
 {% comment %}
