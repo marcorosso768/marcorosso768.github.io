@@ -9,6 +9,12 @@ function setLanguage(language) {
     localStorage.setItem('userLanguage', language); // Store the user's choice for future visits
     sessionStorage.setItem('languageRedirected', 'true'); // Mark that we handled redirection in this session
     window.location.href = newPath; // Redirect to the new path
+  } else {
+    // If not on the homepage, just store the language and clear the session redirect flag
+    localStorage.setItem('userLanguage', language);
+    sessionStorage.removeItem('languageRedirected'); // Clear flag to allow further changes
+    const newPath = language === defaultLanguage ? '/' : `/${language}/`;
+    window.location.href = newPath; // Redirect to the selected language path
   }
 }
 
