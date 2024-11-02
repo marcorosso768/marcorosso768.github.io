@@ -1,0 +1,34 @@
+{% assign months = 'january|february|march|april|may|june|july|august|september|october|november|december' | split: '|' %}
+{% assign m = include.date | date: '%-m' | minus: 1 %}
+{% assign day = include.date | date: '%d' %}
+{% capture month %}{{ months[m] }}{% endcapture %}
+{% capture month %}{{ site.data[site.active_lang].strings.months[include.format][month] }}{% endcapture %}
+{% assign year = include.date | date: '%Y' %}
+
+{% comment %}
+  Language-specific date formats
+{% endcomment %}
+
+{% if include.format == 'long' %}
+  {% case site.active_lang %}
+    {% when 'en' %}
+      {{ month }} {{ day }}, {{ year }}
+    {% when 'es' %}
+      {{ day }} de {{ month }} de {{ year }}
+    {% when 'it' %}
+      {{ day }} {{ month }} {{ year }}
+    {% else %}
+      {{ day }} {{ month }} {{ year }}
+  {% endcase %}
+{% elsif include.format == 'short' %}
+  {% case site.active_lang %}
+    {% when 'en' %}
+      {{ month }} {{ day }}, {{ year }}
+    {% when 'es' %}
+      {{ day }}-{{ month }}-{{ year }}
+    {% when 'it' %}
+      {{ day }} {{ month }} {{ year }}
+    {% else %}
+      {{ day }} {{ month }} {{ year }}
+  {% endcase %}
+{% endif %}

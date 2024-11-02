@@ -29,14 +29,46 @@
       <div style="margin: 0; padding: 0; position: relative;">
         <div class="navbar-brand social">
           <div style="display: inline-block; line-height: 1; font-size: 12pt; color: var(--global-theme-color);">
-              <b>contacts:</b>
+              <b>{{ site.data[site.active_lang].strings.contact_note }}</b>
           </div>
-          <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: 2.5px">
+          <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: 2.5px;">
             {% include social_header.liquid %}
           </div>
         </div>
+      
+        <!-- Toggle language -->
+        <!-- <div style="display: inline-block; line-height: 1; font-size: 12pt; margin-left: -7.5px; color: var(  global-theme-color);"> -->
+          <!-- <b>{{ site.data[site.active_lang].strings.lang_note }}</b> -->
+        <!-- </div> -->
+        <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: -15px; color: var(--global-theme-color);">        
+          {% if site.languages.size >= 2 %}
+            <li class="nav-item dropdown" style="list-style-type: none; color: var(--global-theme-color);">
+              <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" style="color: var(--global-theme-color);">
+                {% if site.country_flag %}
+                  <span class="fi fi-{{ site.active_lang | split: '-' | last }}" style="color: var(--global-theme-color);"></span>
+                {% else %}
+                  <span style="color: var(--global-theme-color);">{{ site.active_lang | upcase }}</span>
+                {% endif %}
+              </a>
+              <div class="dropdown-menu" style="color: var(--global-theme-color);">
+                {% for l in site.languages %}
+                  {% if l != site.active_lang %}
+                    <a class="dropdown-item" onclick="setLanguage('{{ l }}')" style="color: var(--global-theme-color);">
+                      {% if site.country_flag %}
+                        <span class="fi fi-{{ l | split: '-' | last }}" style="color: var(--global-theme-color);"></span>
+                      {% else %}
+                        <span style="color: var(--global-theme-color);">{{ l | upcase }}</span>
+                      {% endif %}
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </li>
+          {% endif %}
+        </div>
       </div>
       {% endif %}
+
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
@@ -83,7 +115,6 @@
                 <li class="nav-item dropdown {% if page.title == p.title or has_active_child %}active{% endif %}">
                   <a
                     class="nav-link dropdown-toggle"
-                    href="#"
                     id="navbarDropdown"
                     role="button"
                     data-toggle="dropdown"
@@ -122,6 +153,7 @@
             {% endif %}
           {% endfor %}
           {% if site.search_enabled %}
+
             <!-- Search -->
             <li class="nav-item">
               <button id="search-toggle" title="Search" onclick="openSearchModal()">
@@ -129,6 +161,7 @@
               </button>
             </li>
           {% endif %}
+
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
@@ -142,7 +175,8 @@
       </div>
     </div>
   </nav>
-  {% if site.enable_progressbar %}
+
+    {% if site.enable_progressbar %}
     <!-- Scrolling Progress Bar -->
     <progress id="progress" value="0">
       <div class="progress-container">
