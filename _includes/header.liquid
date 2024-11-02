@@ -36,9 +36,7 @@
           </div>
         </div>
       </div>
-      {% endif %}
-
-          <!-- Toggle language -->
+      <!-- Toggle language -->
           {% if site.languages.size >= 2 %}
             {% if site.languages.size == 2 %}
               {% if site.active_lang == site.languages.first %}
@@ -117,8 +115,7 @@
             {% endif %}
           {% endif %}
           <script src="{{ site.baseurl }}/js/language-toggle.js"></script>
-
-
+      {% endif %}
 
       <!-- Navbar Toggle -->
       <button
