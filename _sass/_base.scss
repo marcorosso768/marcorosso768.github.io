@@ -205,9 +205,8 @@ ul.task-list input[type="checkbox"] {
     margin-bottom: 5px;
     margin-top: 5px;
     text-align: center;
-    font-size: 10pt;
-    // font-family: monospace;
-
+    font-size: 10pt; // font-family: monospace;
+    
     p {
       display: inline-block;
       margin: 0;
@@ -261,7 +260,9 @@ ul.task-list input[type="checkbox"] {
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);
-
+  min-width: 1rem;
+  width: fit-content;
+  
   a:not(.active) {
     color: var(--global-text-color);
   }
