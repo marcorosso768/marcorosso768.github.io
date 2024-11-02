@@ -1,12 +1,12 @@
 ---
 page_id: about
 layout: about
-title: about me
+title: sobre mí
 permalink: /
 subtitle: >
-  <p style="font-size: 10pt; margin-top: -15px; margin-left: 3.5px;"> <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i><span style="padding-left: 2.5px;"><a href='https://dse.unibo.it/en'><i>Department of Economics,</i></a> <a href='https://www.unibo.it/en/homepage'><i>University of Bologna</i></a></span></p>
-  <p style="font-size: 10pt; margin-top: -12.5pt; margin-left: 19.5px"><a href='https://goo.gl/maps/1icot9p1g97AWCD37'><i>Piazza Scaravilli 2, 40126, Bologna</i></a></p>
-  <p style="font-size: 10pt; margin-top: -15px; margin-left: 5px;"> <i class="fa-solid fa-location-dot"></i> <span style="padding-left: 1.5px;">current location: Buenos Aires, Argentina</span></p>
+  <p style="font-size: 10pt; margin-top: -15px; margin-left: 3.5px;"> <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i><span style="padding-left: 2.5px;"><a href='https://dse.unibo.it/en'><i>Departamento de Economía,</i></a> <a href='https://www.unibo.it/en/homepage'><i>Universidad de Bolonia</i></a></span></p>
+  <p style="font-size: 10pt; margin-top: -12.5pt; margin-left: 19.5px"><a href='https://goo.gl/maps/1icot9p1g97AWCD37'><i>Piazza Scaravilli 2, 40126, Bolonia</i></a></p>
+  <p style="font-size: 10pt; margin-top: -15px; margin-left: 5px;"> <i class="fa-solid fa-location-dot"></i> <span style="padding-left: 1.5px;">ubicación actual: Buenos Aires, Argentina</span></p>
 
 profile:
   align: center-right
@@ -22,21 +22,21 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Welcome to my personal website&mdash;glad to have you here intentionally (or at least I hope so!).
+¡Bienvenido a mi sitio web personal!&mdash;me alegra tenerte aquí intencionalmente (o al menos eso espero).
 
-I am a <b style="color: $white-color;">4<sup>th</sup>-year Ph.D. Student in Economics</b> and a <b style="color: $white-color;">Research Fellow</b>&mdash;equivalent to a Post-Doc position in Italy&mdash;at the University of Bologna.
+Soy <b style="color: $white-color;">estudiante de doctorado de 4<sup>o</sup> año en Economía</b> y <b style="color: $white-color;">investigador postdoctoral</b>&mdash;equivalente a una posición de postdoc en Italia&mdash;en la Universidad de Bolonia.
 
-My <b style="color: $white-color;">Research Interests</b> include <b style="color: $white-color;">Political</b>, <b style="color: $white-color;">Crime</b>, <b style="color: $white-color;">Experimental</b>, and <b style="color: $white-color;">Behavioral Economics</b>, both theoretically and empirically.
+Mis <b style="color: $white-color;">Intereses de investigación</b> incluyen la <b style="color: $white-color;">Economía Política</b>, <b style="color: $white-color;">del Crimen</b>, <b style="color: $white-color;">Experimental</b> y <b style="color: $white-color;">Conductual</b>, tanto desde una perspectiva teórica como empírica.
 
-Currently, I am focusing on:
- <ul>
-  <li>Self-Selection and Corruption</li>
-  <li>Local Crime News and Voting Behavior</li>
-  <li>Effects of Erasmus Programs on Voting</li>
+Actualmente, me enfoco en:
+<ul>
+  <li>Selección propia y corrupción</li>
+  <li>Noticias de crímenes locales y comportamiento electoral</li>
+  <li>Efectos de los programas Erasmus en el voto</li>
 </ul>
 
-In addition to my Research Activities, I am <b style="color: $white-color;">Teaching Assistant</b> for the following courses: <b style="color: $white-color;">Introduction to Behavioral Economics</b>, <b style="color: $white-color;">Game Theory</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Microeconomics</b>.
+Además de mis actividades de investigación, soy <b style="color: $white-color;">asistente de docencia</b> en los siguientes cursos: <b style="color: $white-color;">Introducción a la Economía del Comportamiento</b>, <b style="color: $white-color;">Teoría de Juegos</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Microeconomía</b>.
 
-I am also the organizer of the <b style="color: $white-color;">DSE Afterwork Drinks</b>, a monthly informal meeting where Faculty, Research Fellows, and Ph.D. Students can meet to discuss various topics while enjoying a beverage.
+También organizo los <b style="color: $white-color;">Aperitivos del Departamento</b>, un encuentro informal mensual donde la Facultad, los investigadores y los estudiantes de doctorado pueden reunirse para discutir varios temas mientras disfrutan de una bebida.
 
-Last but not least, my favorite quote is <i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>
+Por último, pero no menos importante, mi cita favorita es  <i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>
