@@ -40,7 +40,7 @@
           <div style="margin: 0; padding: 0; position: relative;">
             {% if site.languages.size >= 2 %}
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
                   {% if site.country_flag %}
                     <span class="fi fi-{{ site.active_lang | split: '-' | last }}"></span>
                   {% else %}
@@ -50,7 +50,7 @@
                 <div class="dropdown-menu">
                   {% for l in site.languages %}
                     {% if l != site.active_lang %}
-                      <a class="dropdown-item" href="#" onclick="setLanguage('{{ l }}')">
+                      <a class="dropdown-item" onclick="setLanguage('{{ l }}')">
                         {% if site.country_flag %}
                           <span class="fi fi-{{ l | split: '-' | last }}"></span>
                         {% else %}
@@ -111,7 +111,6 @@
                 <li class="nav-item dropdown {% if page.title == p.title or has_active_child %}active{% endif %}">
                   <a
                     class="nav-link dropdown-toggle"
-                    href="#"
                     id="navbarDropdown"
                     role="button"
                     data-toggle="dropdown"
