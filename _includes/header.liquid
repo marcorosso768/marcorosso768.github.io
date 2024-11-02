@@ -39,7 +39,7 @@
           <!-- Toggle language -->
           <div style="margin: 0; padding: 0; position: relative;">
             {% if site.languages.size >= 2 %}
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown" style="list-style-type: none;">
                 <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
                   {% if site.country_flag %}
                     <span class="fi fi-{{ site.active_lang | split: '-' | last }}"></span>
