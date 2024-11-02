@@ -7,8 +7,7 @@ first_name: Marco
 middle_name:
 last_name: Rosso
 email: marco.rosso4@unibo.it
-keywords: political economics, crime economics, microeconomics theory, game theory, experimental economics, behavioural economics
-                                                                                                                  # add your own keywords or leave empty
+keywords: political economics, crime economics, microeconomics theory, game theory, experimental economics, behavioural economics # add your own keywords or leave empty
 icon: /assets/img/favicons/  #⚛️ the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://marcorosso.com # marcorosso768.github.io # the base hostname & protocol for your site
