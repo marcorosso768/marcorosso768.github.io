@@ -1,16 +1,10 @@
-// Function to generate the URL based on the selected language
-function languageURL(language) {
-  const currentURL = window.location.pathname;
-  const defaultLanguage = 'en'; // Set the default language here
-
-  // Remove any leading language prefix from the current URL
-  const pathWithoutLang = currentURL.replace(/^\/(en|it|es)(\/|$)/, '/');
-
-  // If the selected language is the default, return the base URL + path
-  if (language === defaultLanguage) {
-    return `{{ site.baseurl }}${pathWithoutLang}`;
-  } else {
-    // For other languages, add the language prefix before the path
-    return `{{ site.baseurl }}/${language}${pathWithoutLang}`;
-  }
+function setLanguage(language) {
+  // Adjust the URL for the selected language
+  const defaultLanguage = 'en'; // Set your default language here
+  const pathWithoutLang = window.location.pathname.replace(/^\/(en|it|es)(\/|$)/, '/');
+  const newPath = language === defaultLanguage ? pathWithoutLang : `/${language}${pathWithoutLang}`;
+  
+  // Store the user's language choice and redirect
+  localStorage.setItem('userLanguage', language);
+  window.location.href = newPath;
 }
