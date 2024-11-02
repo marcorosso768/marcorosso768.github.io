@@ -37,7 +37,7 @@ Attualmente sto lavorando principalmente su:
 
 Oltre alle mie attività di ricerca, sono <b style="color: $white-color;">tutor didattico</b> dei seguenti corsi: <b style="color: $white-color;">Introduzione all’Economia Comportamentale</b>, <b style="color: $white-color;">Teoria dei Giochi</b>, <b style="color: $white-color;">Economia Politica</b> e <b style="color: $white-color;">Microeconomia</b>.
 
-Sono inoltre l’organizzatore dell'<b style="color: $white-color;">Aperitivo del DSE</b>, un incontro informale mensile in cui docenti, assegnisti e dottorandi possono discutere di vari argomenti davanti a una bevanda.
+Sono inoltre l’organizzatore degli <b style="color: $white-color;">Aperitivi di Dipartimento</b>, un incontro informale mensile in cui docenti, assegnisti e dottorandi possono discutere di vari argomenti davanti a una bevanda.
 
 Infine, la mia citazione preferita è <i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>
 
