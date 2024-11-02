@@ -639,23 +639,23 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-#jekyll_get_json:
+jekyll_get_json:
 #  - data: resume_en
 #    json: assets/json/resume_en.json # it can also be an url
 #  - data: resume_it
 #    json: assets/json/resume_it.json # it can also be an url
 #  - data: resume_es
 #    json: assets/json/resume_es.json # it can also be an url
-#jsonresume:
-#  - basics
-#  - work
-#  - education
-#  - publications
-#  - projects
-#  - volunteer
-#  - awards
-#  - certificates
-#  - skills
-#  - languages
-#  - interests
+jsonresume:
+  - basics
+  - work
+  - education
+  - publications
+  - projects
+  - volunteer
+  - awards
+  - certificates
+  - skills
+  - languages
+  - interests
 #  - references
