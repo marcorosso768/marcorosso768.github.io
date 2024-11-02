@@ -8,6 +8,7 @@ middle_name:
 last_name: Rosso
 email: marco.rosso4@unibo.it
 icon: /assets/img/favicons/  #⚛️ the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+keywords:
 
 url: https://marcorosso.com # marcorosso768.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
