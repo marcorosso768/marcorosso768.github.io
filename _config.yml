@@ -7,6 +7,16 @@ first_name: Marco
 middle_name:
 last_name: Rosso
 email: marco.rosso4@unibo.it
+personal_email: m.rosso@me.com
+#department_website: https://www.unibo.it/sitoweb/marco.rosso4/en
+description: Personal Academic website of Marco Rosso, Ph.D. Student and Research Fellow at the University of Bologna
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+keywords: political economics, crime economics, microeconomics theory, game theory, experimental economics, behavioural economics
+  # add your own keywords or leave empty
+
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: /assets/img/favicons/  #⚛️ the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://marcorosso.com # marcorosso768.github.io # the base hostname & protocol for your site
@@ -62,13 +72,13 @@ og_image: assets/img/og_image/MR.png # The site-wide (default for all links) Ope
 whatsapp_number: # 393403117583 # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 telegram_username: # your Telegram user name
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-personal_email: m.rosso@me.com
-department_website: # https://www.unibo.it/sitoweb/marco.rosso4/en
-
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
+
+contact_note: > 
+  You can also find me here:
 
 acm_id: # your dl.acm.org/profile/id
 ger_url: # your ger URL
@@ -126,14 +136,15 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
+blog_name: blog # blog_name will be displayed in your blog page
+blog_description: # a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
   enabled: false
-  title: ":title - pagination.page :num"
-  
+
 related_blog_posts:
   enabled: false
   max_related: 5
@@ -151,9 +162,10 @@ giscus:
   input_position: bottom # whether to display input form below (bottom) or above (top) the comments
   theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
+  lang: en
 
 # Disqus comments (DEPRECATED)
-# disqus_shortname: MR # put your disqus shortname
+disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -254,7 +266,6 @@ plugins:
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
-  - jekyll-polyglot
   - jekyll-regex-replace
   - jekyll/scholar
   - jekyll-sitemap
@@ -271,7 +282,6 @@ defaults:
       sitemap: false
 
 sass:
-  sourcemap: never
   style: compressed
 
 # -----------------------------------------------------------------------------
@@ -382,17 +392,6 @@ external_links:
   rel: external nofollow noopener
   target: _blank
   exclude:
-
-# -----------------------------------------------------------------------------
-# Jekyll Polyglot
-# -----------------------------------------------------------------------------
-
-languages: ["en-us", "it", "es-ar"]
-default_lang: "en-us"
-exclude_from_localization: ["assets"]
-lang_from_path: true
-country_flag: false # set true for allowing flag symbol in language toggle
-parallel_localization: false
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
@@ -636,10 +635,8 @@ third_party_libraries:
 # -----------------------------------------------------------------------------
 
 jekyll_get_json:
-  - data: resume_en-us
-    json: assets/json/resume_en-us.json # it can also be an url
-  - data: resume_pt-br
-    json: assets/json/resume_pt-br.json # it can also be an url
+  - data: resume
+    json: assets/json/resume.json # it can also be an url
 jsonresume:
   - basics
   - work
