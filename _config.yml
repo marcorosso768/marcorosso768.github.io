@@ -266,6 +266,7 @@ plugins:
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
+  - jekyll-polyglot
   - jekyll-regex-replace
   - jekyll/scholar
   - jekyll-sitemap
@@ -392,6 +393,17 @@ external_links:
   rel: external nofollow noopener
   target: _blank
   exclude:
+
+# -----------------------------------------------------------------------------
+# Jekyll Polyglot
+# -----------------------------------------------------------------------------
+
+languages: ["en-us", "it", "es-ar"]
+default_lang: "en-us"
+exclude_from_localization: ["assets"]
+lang_from_path: true
+country_flag: false # set true for allowing flag symbol in language toggle
+parallel_localization: false
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
@@ -629,24 +641,3 @@ third_party_libraries:
       js: "https://cdn.jsdelivr.net/npm/vega-lite@{{version}}/build/vega-lite.min.js"
       js_map: "https://cdn.jsdelivr.net/npm/vega-lite@{{version}}/build/vega-lite.min.js.map"
     version: "5.16.3"
-
-# -----------------------------------------------------------------------------
-# Get external JSON data
-# -----------------------------------------------------------------------------
-
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
