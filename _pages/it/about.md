@@ -22,9 +22,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Benvenutə sul mio sito personale&mdash;sono felice che tu sia qui intenzionalmente (o almeno lo spero!).
+Benvenutə nel mio sito personale&mdash;sono felice che siate qui intenzionalmente (o almeno lo spero!).
 
-Sono un <b style="color: $white-color;">dottorando in Economia al 4<sup>o</sup> anno</b> e <b style="color: $white-color;">Assegnista di Ricerca</b>&mdash;equivalente a una posizione di Post-Doc in Italia&mdash;presso l'Università di Bologna.
+Sono un <b style="color: $white-color;">dottorando in Economia al 4<sup>o</sup> anno</b> e <b style="color: $white-color;">Assegnista di Ricerca</b>&mdash;posizione equivalente a un Post-Doc in Italia&mdash;presso l'Università di Bologna.
 
 I miei <b style="color: $white-color;">interessi di ricerca</b> comprendono <b style="color: $white-color;">Economia Politica</b>, <b style="color: $white-color;">Economia del Crimine</b>, <b style="color: $white-color;">Economia Sperimentale</b> e l'<b style="color: $white-color;">Economia Comportamentale</b>, sia a livello teorico che empirico.
 
@@ -41,4 +41,4 @@ Sono inoltre l’organizzatore dell'<b style="color: $white-color;">Aperitivo de
 
 Infine, la mia citazione preferita è <i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>
 
-<i style="font-size: 10pt;">P.S. La versione in italiano di questo sito è stata creata per permette a mia madre di capire di cosa mi occupo.</i>
+<i style="font-size: 10pt;">P.S. La versione in italiano di questo sito è stata creata principalmente per permettere ai miei genitori di capire di cosa mi occupo.</i>
