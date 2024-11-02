@@ -129,7 +129,7 @@
               </button>
             </li>
           {% endif %}
-          <!-- Toogle language -->
+          <!-- Toggle language -->
           {% if site.languages.size >= 2 %}
             {% if site.languages.size == 2 %}
               {% if site.active_lang == site.languages.first %}
@@ -139,20 +139,20 @@
               {% endif %}
               <li class="nav-item active">
                 {% if site.active_lang == site.default_lang %}
-                  <a class="nav-link" {% static_href -%} href="{{ site.baseurl }}/{{ other_language }}{{ page.url }}" {%- endstatic_href %}>
+                  <a class="nav-link" href="#" onclick="setLanguage('{{ other_language }}')">
                     {% if site.country_flag %}
-                      <span class="fi fi-{{ other_language | split: "-" | last }}"></span>
+                      <span class="fi fi-{{ other_language | split: '-' | last }}"></span>
                     {% else %}
                       {{ other_language | upcase }}
-                    {%- endif -%}
+                    {% endif %}
                   </a>
                 {% else %}
-                  <a class="nav-link" {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %}>
+                  <a class="nav-link" href="#" onclick="setLanguage('{{ site.default_lang }}')">
                     {% if site.country_flag %}
-                      <span class="fi fi-{{ site.default_lang | split: "-" | last }}"></span>
+                      <span class="fi fi-{{ site.default_lang | split: '-' | last }}"></span>
                     {% else %}
                       {{ site.default_lang | upcase }}
-                    {%- endif -%}
+                    {% endif %}
                   </a>
                 {% endif %}
               </li>
@@ -168,10 +168,10 @@
                   aria-expanded="false"
                 >
                   {% if site.country_flag %}
-                    <span class="fi fi-{{ site.active_lang | split: "-" | last }}"></span>
+                    <span class="fi fi-{{ site.active_lang | split: '-' | last }}"></span>
                   {% else %}
                     {{- site.active_lang | upcase }}
-                  {%- endif -%}
+                  {% endif %}
                   {% if page.title == p.title %}
                     <span class="sr-only">(current)</span>
                   {% endif %}
@@ -184,20 +184,20 @@
                         <div class="dropdown-divider"></div>
                       {% endif %}
                       {% if l == site.default_lang %}
-                        <a class="dropdown-item" {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %}>
+                        <a class="dropdown-item" href="#" onclick="setLanguage('{{ site.default_lang }}')">
                           {% if site.country_flag %}
-                            <span class="fi fi-{{ l | split: "-" | last }}"></span>
+                            <span class="fi fi-{{ l | split: '-' | last }}"></span>
                           {% else %}
                             {{ l | upcase }}
-                          {%- endif -%}
+                          {% endif %}
                         </a>
                       {% else %}
-                        <a class="dropdown-item" {% static_href -%} href="{{ site.baseurl }}/{{ l }}{{ page.url }}" {%- endstatic_href %}>
+                        <a class="dropdown-item" href="#" onclick="setLanguage('{{ l }}')">
                           {% if site.country_flag %}
-                            <span class="fi fi-{{ l | split: "-" | last }}"></span>
+                            <span class="fi fi-{{ l | split: '-' | last }}"></span>
                           {% else %}
                             {{ l | upcase }}
-                          {%- endif -%}
+                          {% endif %}
                         </a>
                       {% endif %}
                       {% assign language_set = true %}
