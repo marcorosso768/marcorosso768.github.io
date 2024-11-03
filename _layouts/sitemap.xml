@@ -1,0 +1,24 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {% for page in site.pages %}
+    {% assign page_path = page.url %}
+    <url>
+      <loc>{{ site.url }}{{ page_path }}</loc>
+      {% if page.language == "en" %}
+        <xhtml:link rel="alternate" hreflang="it" href="{{ site.url }}/it{{ page_path }}" />
+        <xhtml:link rel="alternate" hreflang="es" href="{{ site.url }}/es{{ page_path }}" />
+      {% elsif page.language == "it" %}
+        <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ page_path | remove: '/it' }}" />
+        <xhtml:link rel="alternate" hreflang="es" href="{{ site.url }}/es{{ page_path | remove: '/it' }}" />
+      {% elsif page.language == "es" %}
+        <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ page_path | remove: '/es' }}" />
+        <xhtml:link rel="alternate" hreflang="it" href="{{ site.url }}/it{{ page_path | remove: '/es' }}" />
+      {% endif %}
+    </url>
+  {% endfor %}
+</urlset>
