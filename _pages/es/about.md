@@ -24,7 +24,7 @@ social: true # includes social icons at the bottom of the page
 
 ¡Bienvenido a mi sitio web personal!&mdash;me alegra tenerte aquí intencionalmente (o al menos eso espero).
 
-Soy <b style="color: $white-color;">estudiante de doctorado de 4<sup>o</sup> año en Economía</b> y <b style="color: $white-color;">investigador postdoctoral</b>&mdash;equivalente a una posición de postdoc en Italia&mdash;en la Universidad de Bolonia.
+Soy <b style="color: $white-color;">estudiante de doctorado de 4<sup>o</sup> año en Economía</b> y <b style="color: $white-color;">investigador postdoctoral</b> en la Universidad de Bolonia.
 
 Mis <b style="color: $white-color;">Intereses de investigación</b> incluyen la <b style="color: $white-color;">Economía Política</b>, <b style="color: $white-color;">del Crimen</b>, <b style="color: $white-color;">Experimental</b> y <b style="color: $white-color;">Conductual</b>, tanto desde una perspectiva teórica como empírica.
 
