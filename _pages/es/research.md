@@ -1,8 +1,8 @@
 ---
 page_id: research
 layout: page
-permalink: /research/
-title: research
+permalink: /investigación/
+title: investigación
 description:
 nav: true
 nav_order: 1
