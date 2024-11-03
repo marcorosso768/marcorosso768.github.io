@@ -1,5 +1,7 @@
 ---
-layout: content
+permalink: /robots.txt
 ---
 User-agent: *
+Disallow:
+
 Sitemap: {{ site.url }}/sitemap.xml
