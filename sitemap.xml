@@ -7,31 +7,25 @@ permalink: /sitemap.xml
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   {% assign languages = "en,it,es" | split: "," %}
   {% for page in site.pages %}
-    {% assign page_path = page.url %}
-    {% if page_path contains "/en/" %}
-      <!-- English (default, no language prefix in loc) -->
+    {% assign page_path = page.url | remove: '/' %}
+    {% for lang in languages %}
       <url>
-        <loc>{{ site.url }}{{ site.baseurl }}{{ page_path | remove: '/en' }}</loc>
+        <!-- Main URL for this language version -->
+        {% if lang == "en" %}
+          <loc>{{ site.url }}{{ site.baseurl }}/{{ page_path }}</loc>
+        {% else %}
+          <loc>{{ site.url }}{{ site.baseurl }}/{{ lang }}/{{ page_path }}</loc>
+        {% endif %}
+        
         <!-- Alternate language links -->
-        <xhtml:link rel="alternate" hreflang="it" href="{{ site.url }}{{ site.baseurl }}/it{{ page_path | remove: '/en' }}" />
-        <xhtml:link rel="alternate" hreflang="es" href="{{ site.url }}{{ site.baseurl }}/es{{ page_path | remove: '/en' }}" />
+        {% for alternate_lang in languages %}
+          {% if alternate_lang == "en" %}
+            <xhtml:link rel="alternate" hreflang="{{ alternate_lang }}" href="{{ site.url }}{{ site.baseurl }}/{{ page_path }}" />
+          {% else %}
+            <xhtml:link rel="alternate" hreflang="{{ alternate_lang }}" href="{{ site.url }}{{ site.baseurl }}/{{ alternate_lang }}/{{ page_path }}" />
+          {% endif %}
+        {% endfor %}
       </url>
-    {% elsif page_path contains "/it/" %}
-      <!-- Italian version -->
-      <url>
-        <loc>{{ site.url }}{{ site.baseurl }}{{ page_path }}</loc>
-        <!-- Alternate language links -->
-        <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ site.baseurl }}{{ page_path | remove: '/it' }}" />
-        <xhtml:link rel="alternate" hreflang="es" href="{{ site.url }}{{ site.baseurl }}/es{{ page_path | remove: '/it' }}" />
-      </url>
-    {% elsif page_path contains "/es/" %}
-      <!-- Spanish version -->
-      <url>
-        <loc>{{ site.url }}{{ site.baseurl }}{{ page_path }}</loc>
-        <!-- Alternate language links -->
-        <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ site.baseurl }}{{ page_path | remove: '/es' }}" />
-        <xhtml:link rel="alternate" hreflang="it" href="{{ site.url }}{{ site.baseurl }}/it{{ page_path | remove: '/es' }}" />
-      </url>
-    {% endif %}
+    {% endfor %}
   {% endfor %}
 </urlset>
