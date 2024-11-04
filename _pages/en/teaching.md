@@ -4,6 +4,8 @@ layout: page
 permalink: /teaching/
 title: teaching
 description:
+subtitle: >
+    <p style="color: var(--global-theme-color); margin-top: -25px;"><b><a href='https://marcorosso.com/it/insegnamento/'>insegnamento</a>&nbsp;|&nbsp;<a href='https://marcorosso.com/es/docencia/'>docencia</a></b></p>
 nav: true
 nav_order: 3
 ---
