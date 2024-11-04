@@ -4,6 +4,8 @@ layout: page
 permalink: /research/
 title: research
 description:
+subtitle: >
+    <p style="color: var(--global-theme-color); margin-top: -25px;"><b><a href='https://marcorosso.com/es/ricerca/'>ricerca</a>&nbsp;|&nbsp;<a href='https://marcorosso.com/es/investigación/'>investigación</a></b></p>
 nav: true
 nav_order: 1
 ---
