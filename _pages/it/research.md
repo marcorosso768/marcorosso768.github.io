@@ -1,8 +1,8 @@
 ---
 page_id: research
 layout: page
-permalink: /research/
-title: research
+permalink: /ricerca/
+title: ricerca
 description:
 nav: true
 nav_order: 1
@@ -12,7 +12,7 @@ nav_order: 1
 <!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
   <a id="toggle-content-3" href="javascript:void(0);" onclick="toggleVisibility('content-3')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> publications </h2>
+    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> pubblicazioni </h2>
   </a>
 </div>
 

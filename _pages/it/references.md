@@ -1,8 +1,8 @@
 ---
 page_id: profiles
 layout: profiles
-permalink: /references/
-title: references
+permalink: /referenze/
+title: referenze
 description:
 nav: false
 nav_order:

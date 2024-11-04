@@ -1,8 +1,8 @@
 ---
 page_id: talks
 layout: page
-permalink: /talks/
-title: talks
+permalink: /conferencias/
+title: conferencias
 description:
 nav: true
 nav_order: 2

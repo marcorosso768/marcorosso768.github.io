@@ -100,10 +100,9 @@
   <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
   <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
-  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data[site.active_lang].strings.site_description }}{% endif %}">
-  {% if page.og_image or site.og_image %}
-    <meta property="og:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
-  {% endif %}
+  <meta property="og:description" content="{{ site.data[site.active_lang].strings.site_description }}">
+  <!-- Fixed OpenGraph image for all languages -->
+  <meta property="og:image" content="{{ site.url }}/assets/img/og_image/MR.png">
   <meta property="og:locale" content="{{ site.lang }}">
 
 {% if site.serve_og_meta %}
@@ -112,7 +111,7 @@
   <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
   <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
-  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data[site.active_lang].strings.site_description }}{% endif %}">
+  <meta property="og:description" content="{{ site.data[site.active_lang].strings.site_description }}">
   <!-- Fixed OpenGraph image for all languages -->
   <meta property="og:image" content="{{ site.url }}/assets/img/og_image/MR.png">
   <meta property="og:locale" content="{{ site.lang }}">
@@ -122,7 +121,7 @@
   <!-- Twitter card -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data[site.active_lang].strings.site_description }}{% endif %}">
+  <meta name="twitter:description" content="{{ site.data[site.active_lang].strings.site_description }}">
   <meta name="twitter:image" content="{{ site.url }}/assets/img/og_image/MR.png">
   {% if site.x_username %}
     <meta name="twitter:site" content="@{{ site.x_username }}">

@@ -1,8 +1,8 @@
 ---
 page_id: teaching
 layout: page
-permalink: /teaching/
-title: teaching
+permalink: /insegnamento/
+title: insegnamento
 description:
 nav: true
 nav_order: 3

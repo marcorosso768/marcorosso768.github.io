@@ -1,4 +1,4 @@
-# modified multi-language-al-folio and al-folio
+# modified multi-language-al-folio and al-folio theme
 
 <div align="center">
 
