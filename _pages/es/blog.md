@@ -3,6 +3,8 @@ page_id: blog
 layout: default
 permalink: /blog/
 title: blog
+subtitle: >
+    <p style="color: var(--global-theme-color); margin-top: -5px;"><a href="#" onclick="window.location.href='https://marcorosso.com/blog/'; return false;">English</a>&nbsp;|&nbsp;<a href='https://marcorosso.com/it/blog/'>italiano</a></p>
 nav: false
 nav_order:
 pagination:
@@ -17,9 +19,10 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
-<div class="header-bar">
-  <h1>{{ site.blog_name }}</h1>
-</div>
+  <div class="header-bar">
+    <h1>{{ page.title }}</h1>
+    <h2>{{ page.subtitle }}</h2>
+  </div>
 
 <br>
 

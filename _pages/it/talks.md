@@ -3,6 +3,8 @@ page_id: talks
 layout: page
 permalink: /conferenze/
 title: conferenze
+subtitle: >
+    <p style="color: var(--global-theme-color); margin-top: -20px;"><a href="#" onclick="window.location.href='https://marcorosso.com/talks/'; return false;">talks</a>&nbsp;|&nbsp;<a href='https://marcorosso.com/es/conferencias/'>conferencias</a></p>
 description:
 nav: true
 nav_order: 2

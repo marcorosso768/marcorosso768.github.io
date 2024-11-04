@@ -3,10 +3,12 @@ page_id: cv
 layout: cv
 permalink: /curriculum_vitae/
 title: curriculum vitae
+subtitle: >
+    <p style="color: var(--global-theme-color); margin-top: -20px;"><a href="#" onclick="window.location.href='https://marcorosso.com/curriculum_vitae/'; return false;">English</a>&nbsp;|&nbsp;<a href='https://marcorosso.com/es/curriculum_vitae/'>español</a></p>
 nav: true
 nav_order: 4
-cv_pdf: pdf/[Marco Rosso] Curriculum Vitae.pdf
-description: <i>A complete and detailed version is available by clicking on the PDF icon.</i>
+cv_pdf: pdf/it/[Marco Rosso] Curriculum Vitae.pdf
+description: <i>Una versione completa e dettagliata è disponibile facendo clic sull'icona PDF (solo in inglese).</i>
 # toc:
  # sidebar: left
 ---

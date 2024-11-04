@@ -18,6 +18,9 @@ layout: default
           ></a>
         {% endif %}
       </h1>
+      {% if page.subtitle %}
+        <p class="desc">{{ page.subtitle }}</p>
+      {% endif %}
       {% if page.description %}
         <p class="post-description">{{ page.description }}</p>
       {% endif %}
