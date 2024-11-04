@@ -7,7 +7,7 @@ nav_order: 5
 dropdown: true
 children:
   - title: referencia
-    permalink: /references/
+    permalink: /referencia/
   - title: divider
   - title: blog
     permalink: /blog/
