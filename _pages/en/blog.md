@@ -19,17 +19,11 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
-{% assign blog_name_size = page.blog_name | size %}
-{% assign blog_description_size = page.description | size %}
-
-{% if blog_name_size > 0 or blog_description_size > 0 %}
-
   <div class="header-bar">
-    <h1>{{ page.blog_name }}</h1>
+    <h1>{{ page.title }}</h1>
     <h2>{{ page.subtitle }}</h2>
     <h3>{{ page.description }}</h3>
   </div>
-  {% endif %}
 
 <br>
 
