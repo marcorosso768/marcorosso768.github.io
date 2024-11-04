@@ -1,7 +1,7 @@
 archive_category: um arquivo de postagens desta categoria
 archive_tag: um arquivo de postagens com este marcador
 archive_year: um arquivo de postagens deste ano
-blog: blog
+blog:
   navigation_title: blog
 categories:
   fun: diversão
