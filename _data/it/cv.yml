@@ -6,7 +6,7 @@
     - name:
       value: '<span style="font-size:12pt;"><i class="fa-regular fa-envelope" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="mailto:m.rosso@me.com">m.rosso@me.com</a> </span>'
     - name:
-      value: '<span style="font-size:12pt;"><i class="fa-solid fa-landmark" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<a href="https://www.unibo.it/sitoweb/marco.rosso4/en">UniBo website</a> </span>'
+      value: '<span style="font-size:12pt;"><i class="fa-solid fa-landmark" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<a href="https://www.unibo.it/sitoweb/marco.rosso4/en">sito personale di UniBo</a> </span>'
 
 - title: istruzione
   type: time_table
@@ -46,36 +46,36 @@
     - title: "Master's Candidate in visitae"
       year: inverno 2019
       location: "Torino, <br> Italia"
-      institution: Regional Public Health Observatory (SEPI)
-      department: Public Health Department (Local Health Board TO3)
+      institution: Servizio Sovrazonale di Epidemiologia (SEPI)
+      department: Dipartimento di Sanità Pubblica (Azienda Sanitaria Locale TO3)
       supervisor: 'relatore: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo"><i>Fulvio Ricceri</i></a>'
 
 - title: attività accademiche
   type: time_table
   contents:
-    - title: "Research Fellow: Democratization, the media, socio-economic context, and voting behavior"
+    - title: "Assegno di Ricerca: democratizzazione, media, fattori socio-economici e comportamento elettorale"
       year: 2024-
       location: "Bologna, <br> Italia"
       institution: Università di Bologna
-      department: DSE - Department of Economics
+      department: DSE - Dipartimento di Scienze Economiche
       supervisor: 'supervisors: <a href="https://jnchapman.com"><i>Jonathan Neil Chapman</i></a> and <a href="https://sites.google.com/site/giovanniprarolo/"><i>Giovanni Prarolo</i></a>'
-    - title: Participation on the Committee for the International SAT Test used for University Admissions
+    - title: "Partecipazione nella Commissione di Valutazione del Test Internazionale SAT usato per l'ammissione all'università"
       year: "2024"
       location: "Bologna, <br> Italia"
       institution: College Board (New York)
-    - title: Implementation of Online Experiments in the Context of the MinUTo Project
+    - title: Implementazione di Esperimenti Online per il Progetto MinUTo
       year: "2024"
       location: "Bologna, <br> Italia"
       institution: Università di Bologna
-      department: DSE - Department of Economics
+      department: DSE - Dipartimento di Scienze Economiche
       supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en"><i>Maria Bigoni</i></a> and <a href="https://sites.google.com/site/stefaniabortolotti/home"><i>Stefania Bortolotti</i></a>'
-    - title: Generation and Preparation of Support Material for the Econometrics Course
+    - title: Generazione e Praparazione di Materiale di Supporto alla Didattica per il Corso di Econometria
       year: "2023"
       location: "Bologna, <br> Italia"
       institution: Università di Bologna
-      department: DSE - Department of Economics
+      department: DSE - Dipartimento di Scienze Economiche
       supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/margherita.fort/en"><i>Margherita Fort</i></a> and <a href="https://sites.google.com/site/dennitommasi/"><i>Denni Tommasi</i></a>'
-    - title: Research Assistant
+    - title: Assistente di Ricarca
       year: "2018"
       location: "Torino, <br> Italia"
       institution: Collegio Carlo Alberto
