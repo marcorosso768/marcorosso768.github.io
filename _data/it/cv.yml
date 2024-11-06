@@ -114,13 +114,13 @@
 - title: conoscenze linguistiche
   type: list_groups
   contents:
-    - category: "Italiano"
+    - category: "italiano"
       items:
         - name: "madrelingua"
-    - category: "Inglese"
+    - category: "inglese"
       items:
         - name: "fluente"
-    - category: "Spagnolo"
+    - category: "spagnolo"
       items:
         - name: "intermedio"
 
