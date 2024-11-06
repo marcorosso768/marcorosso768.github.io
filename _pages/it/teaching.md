@@ -148,7 +148,7 @@ nav_order: 3
         </div>
         <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
             <span>
-              <b>Assistente alla didattica</b> di <a href='https://www.unibo.it/sitoweb/giovanni.prarolo'><i>Giovanni Prarolo</i></a> and <a href='https://www.unibo.it/sitoweb/rohit.ticku'><i>Rohit Ticku</i></a> per il corso <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2023/422038'><i>Globalization: Trade, Migrations and Multinationals</i></a> (laurea triennale)
+              <b>Assistente alla didattica</b> di <a href='https://www.unibo.it/sitoweb/giovanni.prarolo'><i>Giovanni Prarolo</i></a> e <a href='https://www.unibo.it/sitoweb/rohit.ticku'><i>Rohit Ticku</i></a> per il corso <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2023/422038'><i>Globalization: Trade, Migrations and Multinationals</i></a> (laurea triennale)
             </span>
         </div>
         <!-- Second row: Building icon and department text -->
