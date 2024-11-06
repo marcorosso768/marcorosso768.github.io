@@ -14,7 +14,7 @@ nav_order: 1
 <!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
   <a id="toggle-content-3" href="javascript:void(0);" onclick="toggleVisibility('content-3')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> publications </h2>
+    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> publicaciones </h2>
   </a>
 </div>
 
@@ -56,7 +56,7 @@ nav_order: 1
 <!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
   <a id="toggle-content-2" href="javascript:void(0);" onclick="toggleVisibility('content-2')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> working papers </h2>
+    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> borradores </h2>
   </a>
 </div>
 
@@ -124,7 +124,7 @@ nav_order: 1
 <!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
   <a id="toggle-content-1" href="javascript:void(0);" onclick="toggleVisibility('content-1')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> work in progress </h2>
+    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> investigación en desarrollo </h2>
   </a>
 </div>
 
