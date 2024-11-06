@@ -64,8 +64,8 @@ cv:
   volunteer: Voluntário
   work: Trabalho
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Creado con <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> y los temas <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> y <a href="https://github.com/alshedivat/al-folio">al-folio</a>. 
+  Alojado en <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 latest_posts: ultimas novedades
 months:
   long:
