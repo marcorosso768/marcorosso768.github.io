@@ -1428,3 +1428,8 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+option:checked {
+    background-color: var(--global-bg-color); /* Background color for the selected option */
+    color: var(--global-theme-color); /* Text color for the selected option */
+}
