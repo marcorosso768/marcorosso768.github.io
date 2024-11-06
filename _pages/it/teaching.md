@@ -31,7 +31,7 @@ nav_order: 3
         </div>
         <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
             <span>
-              <b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/enrico.cantoni'><i>Enrico Cantoni</i></a> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'><i>Political Economy</i></a>
+              <b>Assistente alla didattica</b> di <a href='https://www.unibo.it/sitoweb/enrico.cantoni'><i>Enrico Cantoni</i></a> per il corso <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'><i>Political Economy</i></a> (laurea triennale)
             </span>
         </div>
         <!-- Second row: Building icon and department text -->
@@ -40,7 +40,7 @@ nav_order: 3
                 <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>Economics, Politics and Social Sciences, <i>University of Bologna</i></span>
+                <span>Economics, Politics and Social Sciences, <i>Università di Bologna</i></span>
             </div>
         </div>
     </div>
@@ -56,7 +56,7 @@ nav_order: 3
         </div>
         <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
             <span>
-              <b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/marco.casari'><i>Marco Casari</i></a> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/502710'><i>Microeconomics</i></a>
+              <b>Assistente alla didattica</b> di <a href='https://www.unibo.it/sitoweb/marco.casari'><i>Marco Casari</i></a> per il corso <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/502710'><i>Microeconomics</i></a> (laurea triennale)
             </span>
         </div>
         <!-- Second row: Building icon and department text -->
@@ -65,7 +65,7 @@ nav_order: 3
                 <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>Economics, Politics and Social Sciences, <i>University of Bologna</i></span>
+                <span>Economics, Politics and Social Sciences, <i>Università di Bologna</i></span>
             </div>
         </div>
     </div>
@@ -83,7 +83,7 @@ nav_order: 3
         </div>
         <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
             <span>
-              <b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/andrea.mattozzi'><i>Andrea Mattozzi</i></a> for the Master Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/491971'><i>Game Theory</i></a>
+              <b>Assistente alla didattica</b> di <a href='https://www.unibo.it/sitoweb/andrea.mattozzi'><i>Andrea Mattozzi</i></a> per il corso <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/491971'><i>Game Theory</i></a> (laurea magistrale)
             </span>
         </div>
         <!-- Second row: Building icon and department text -->
@@ -92,7 +92,7 @@ nav_order: 3
                 <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>Economics and Econometrics, <i>University of Bologna</i></span>
+                <span>Economics and Econometrics, <i>Università di Bologna</i></span>
             </div>
         </div>
     </div>
@@ -108,7 +108,7 @@ nav_order: 3
         </div>
         <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
             <span>
-              <b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/maria.bigoni'><i>Maria Bigoni</i></a> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/467276'><i>Introduction to Behavioral Economics</i></a>
+              <b>Assistente alla didattica</b> di <a href='https://www.unibo.it/sitoweb/maria.bigoni'><i>Maria Bigoni</i></a> per il corso <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/467276'><i>Introduction to Behavioral Economics</i></a> (laurea triennale)
             </span>
         </div>
         <!-- Second row: Building icon and department text -->
@@ -117,7 +117,7 @@ nav_order: 3
                 <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>Economics and Finance, <i>University of Bologna</i></span>
+                <span>Economics and Finance, <i>Università di Bologna</i></span>
             </div>
         </div>
     </div>
@@ -148,7 +148,7 @@ nav_order: 3
         </div>
         <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
             <span>
-              <b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/giovanni.prarolo'><i>Giovanni Prarolo</i></a> and <a href='https://www.unibo.it/sitoweb/rohit.ticku'><i>Rohit Ticku</i></a> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2023/422038'><i>Globalization: Trade, Migrations and Multinationals</i></a>
+              <b>Assistente alla didattica</b> di <a href='https://www.unibo.it/sitoweb/giovanni.prarolo'><i>Giovanni Prarolo</i></a> and <a href='https://www.unibo.it/sitoweb/rohit.ticku'><i>Rohit Ticku</i></a> per il corso <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2023/422038'><i>Globalization: Trade, Migrations and Multinationals</i></a> (laurea triennale)
             </span>
         </div>
         <!-- Second row: Building icon and department text -->
@@ -157,7 +157,7 @@ nav_order: 3
                 <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>Economics and Finance, <i>University of Bologna</i></span>
+                <span>Economics and Finance, <i>Università di Bologna</i></span>
             </div>
         </div>
     </div>
@@ -177,7 +177,7 @@ nav_order: 3
         </div>
         <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
             <span>
-              <b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/francesca.barigozzi'><i>Francesca Barigozzi</i></a> for the Master Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2021/413556'><i>Competion Economics and Policy</i></a>
+              <b>Assistente alla didattica</b> di <a href='https://www.unibo.it/sitoweb/francesca.barigozzi'><i>Francesca Barigozzi</i></a> per il corso <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2021/413556'><i>Economia e Politica della Concorrenza</i></a> (laurea magistrale)
             </span>
         </div>
         <!-- Second row: Building icon and department text -->
@@ -186,7 +186,7 @@ nav_order: 3
                 <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>Economics and Management, <i>Forlì Campus, University of Bologna</i></span>
+                <span>Economia e Management, <i>Campus di Forlì, Università di Bologna</i></span>
             </div>
         </div>
     </div>
@@ -202,7 +202,7 @@ nav_order: 3
         </div>
         <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
             <span>
-              <b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/francesca.barigozzi'><i>Francesca Barigozzi</i></a> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2021/413375'><i>Microeconomics</i></a>
+              <b>Assistente alla didattica</b> di <a href='https://www.unibo.it/sitoweb/francesca.barigozzi'><i>Francesca Barigozzi</i></a> per il corso <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2021/413375'><i>Microeconomics</i></a> (laurea triennale)
             </span>
         </div>
         <!-- Second row: Building icon and department text -->
@@ -211,7 +211,7 @@ nav_order: 3
                 <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>Economics and Business, <i>Forlì Campus, University of Bologna</i></span>
+                <span>Economics and Business, <i>Campus di Forlì, Università di Bologna</i></span>
             </div>
         </div>
     </div>
@@ -227,7 +227,7 @@ nav_order: 3
         </div>
         <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
             <span>
-              <b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/natalia.montinari2'><i>Natalia Montinari</i></a> for the Master Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2021/413555'><i>Game Theory</i></a>
+              <b>Assistente alla didattica</b> di <a href='https://www.unibo.it/sitoweb/natalia.montinari2'><i>Natalia Montinari</i></a> per il corso <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2021/413555'><i>Teoria dei Giochi</i></a> (laurea magistrale)
             </span>
         </div>
         <!-- Second row: Building icon and department text -->
@@ -236,7 +236,7 @@ nav_order: 3
                 <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>Economics and Management, <i>Forlì Campus, University of Bologna</i></span>
+                <span>Economia e Management, <i>Campus di Forlì, Università di Bologna</i></span>
             </div>
         </div>
     </div>
@@ -256,7 +256,7 @@ nav_order: 3
         </div>
         <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
             <span>
-              <b>Teaching Assistant</b> to <a href='https://www.management.unito.it/do/docenti.pl/Alias?francesco.figari#tab-profilo'><i>Francesco Figari</i></a> for the Master Course <a href='https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=qeeh_1920'><i>Public Management and Public Economics</i></a>
+              <b>Assistente alla didattica</b> di <a href='https://www.management.unito.it/do/docenti.pl/Alias?francesco.figari#tab-profilo'><i>Francesco Figari</i></a> per il corso <a href='https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=qeeh_1920'><i>Public Management and Public Economics</i></a> (laurea magistrale)
             </span>
         </div>
         <!-- Second row: Building icon and department text -->
@@ -265,7 +265,7 @@ nav_order: 3
                 <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>SAA School of Management, <i>University of Turin</i></span>
+                <span>SAA School of Management, <i>Università degli Studi di Torino</i></span>
             </div>
         </div>
     </div>
@@ -281,7 +281,7 @@ nav_order: 3
         </div>
         <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
             <span>
-              <b>Teaching Assistant</b> to <a href='https://www.esomas.unito.it/do/docenti.pl/Alias?nadia.campaniello#tab-profilo'><i>Nadia Campaniello</i></a> for the Undergraduate Course <a href='https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=wwm1_1920'><i>Microeconomics</i></a>
+              <b>Assistente alla didattica</b> di <a href='https://www.esomas.unito.it/do/docenti.pl/Alias?nadia.campaniello#tab-profilo'><i>Nadia Campaniello</i></a> per il corso <a href='https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=wwm1_1920'><i>Microeconomics</i></a> (laurea triennale)
             </span>
         </div>
         <!-- Second row: Building icon and department text -->
@@ -290,7 +290,7 @@ nav_order: 3
                 <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>SAA School of Management, <i>University of Turin</i></span>
+                <span>SAA School of Management, <i>Università degli Studi di Torino</i></span>
             </div>
         </div>
     </div>
