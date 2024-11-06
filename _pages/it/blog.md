@@ -26,4 +26,4 @@ pagination:
 
 <br>
 
-<i>Coming soon...</i>
+<i>Prossimamente...</i>
