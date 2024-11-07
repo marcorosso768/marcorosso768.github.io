@@ -24,7 +24,7 @@ social: true # includes social icons at the bottom of the page
 
 Benvenutə nel mio sito personale&mdash;sono felice che siate qui intenzionalmente (o almeno lo spero!).
 
-Sono un <b style="color: $white-color;">dottorando in Economia al 4<sup>o</sup> anno</b> e <b style="color: $white-color;">Assegnista di Ricerca</b>&mdash;posizione equivalente a un Post-Doc in Italia&mdash;presso l'Università di Bologna.
+Sono un <b style="color: $white-color;">dottorando in Economia al 5<sup>o</sup> anno</b> e <b style="color: $white-color;">Assegnista di Ricerca</b>&mdash;posizione equivalente a un Post-Doc in Italia&mdash;presso l'Università di Bologna.
 
 I miei <b style="color: $white-color;">interessi di ricerca</b> comprendono <b style="color: $white-color;">Economia Politica</b>, <b style="color: $white-color;">Economia del Crimine</b>, <b style="color: $white-color;">Economia Sperimentale</b> e l'<b style="color: $white-color;">Economia Comportamentale</b>, sia a livello teorico che empirico.
 
