@@ -9,7 +9,7 @@
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}
       {% if site.last_updated %}
-        {% assign current_lang = site.data[site.active_lang] %}
+        {% assign current_lang = site.active_lang %}
         {% if current_lang == "en" %}
           Last updated: {{ 'now' | date: '%B %d, %Y' }}.
         {% elsif current_lang == "it" %}
@@ -35,7 +35,7 @@
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}
       {% if site.last_updated %}
-        {% assign current_lang = site.data[site.active_lang] %}
+        {% assign current_lang = site.active_lang %}
         {% if current_lang == "en" %}
           Last updated: {{ 'now' | date: '%B %d, %Y' }}.
         {% elsif current_lang == "it" %}
