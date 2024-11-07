@@ -19,6 +19,27 @@ nav_order: 2
 
 <!-- 2024 section show by default -->
 <div id="content-4" style="display: block;">
+    
+  <div style="margin: 0; padding: 0; position: relative;">
+      <!-- First row: Person icon and seminar title -->
+      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+          <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
+      </div>
+      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+          <span>PRIN Workshop on The Economics of Culture: Ethnicity, Gender, and their Interactions - <span style="color: var(--global-theme-color);">Speaker</span></span>
+      </div>
+      <!-- Second row: Location icon and location text -->
+      <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+          <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+              <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
+          </div>
+          <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
+              <i>Università di Modena e Reggio-Emilia, Modena, Italia</i>
+          </div>
+      </div>
+  </div>
+
+  <br>
 
   <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: Person icon and seminar title -->
@@ -34,7 +55,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>Universidad de San Andrés, Buenos Aires, Argentina</i>
+              <i>Università di San Andrés, Buenos Aires, Argentina</i>
           </div>
       </div>
   </div>
@@ -55,7 +76,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>Le Sparne, Pitigliano (GR), Italy</i>
+              <i>Le Sparne, Pitigliano (GR), Italia</i>
           </div>
       </div>
   </div>
@@ -87,7 +108,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>Le Sparne, Pitigliano (GR), Italy</i>
+              <i>Le Sparne, Pitigliano (GR), Italia</i>
           </div>
       </div>
   </div>
@@ -108,7 +129,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>University of Sassari, Sassari, Italy</i>
+              <i>Università di Sassari, Sassari, Italia</i>
           </div>
       </div>
   </div>
@@ -129,7 +150,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>Bertinoro (FC), Italy</i>
+              <i>Bertinoro (FC), Italia</i>
           </div>
       </div>
   </div>
@@ -150,7 +171,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>University of Bologna, Bologna, Italy</i>
+              <i>Università di Bologna, Bologna, Italia</i>
           </div>
       </div>
   </div>
@@ -163,7 +184,7 @@ nav_order: 2
           <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>Presentation of <i>"A Modern Guide to the Economics of Crime"</i> by P. Buonanno, P. Vanin, and J. Vargas (Elgar, 2022) - 
+          <span>Presentazione del libro <i>"A Modern Guide to the Economics of Crime"</i> da parte di P. Buonanno, P. Vanin, and J. Vargas (Elgar, 2022) - 
           <span style="color: var(--global-theme-color);">Discussant</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
@@ -172,7 +193,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>“Walter Bigiavi” Library, Bologna, Italy</i>
+              <i>Biblioteca “Walter Bigiavi”, Bologna, Italia</i>
           </div>
       </div>
   </div>
@@ -204,7 +225,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>University of Bologna, Bologna, Italy</i>
+              <i>Università di Bologna, Bologna, Italia</i>
           </div>
       </div>
   </div>
@@ -225,7 +246,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>Le Sparne, Pitigliano (GR), Italy</i>
+              <i>Le Sparne, Pitigliano (GR), Italia</i>
           </div>
       </div>
   </div>
@@ -246,7 +267,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>University of Bologna, Bologna, Italy</i>
+              <i>Università di Bologna, Bologna, Italia</i>
           </div>
       </div>
   </div>
@@ -278,7 +299,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>Le Sparne, Pitigliano (GR), Italy</i>
+              <i>Le Sparne, Pitigliano (GR), Italia</i>
           </div>
       </div>
   </div>
@@ -299,7 +320,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>University of Bologna, Bologna, Italy</i>
+              <i>Università di Bologna, Bologna, Italia</i>
           </div>
       </div>
   </div>
@@ -320,7 +341,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>University of Bologna, Bologna, Italy</i>
+              <i>University di Bologna, Bologna, Italia</i>
           </div>
       </div>
   </div>
