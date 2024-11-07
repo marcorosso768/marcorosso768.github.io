@@ -24,7 +24,7 @@ social: true # includes social icons at the bottom of the page
 
 Welcome to my personal website&mdash;glad to have you here intentionally (or at least I hope so!).
 
-I am a <b style="color: $white-color;">4<sup>th</sup>-year Ph.D. Student in Economics</b> and a <b style="color: $white-color;">Research Fellow</b>&mdash;equivalent to a Post-Doc position in Italy&mdash;at the University of Bologna.
+I am a <b style="color: $white-color;">5<sup>th</sup>-year Ph.D. Student in Economics</b> and a <b style="color: $white-color;">Research Fellow</b>&mdash;equivalent to a Post-Doc position in Italy&mdash;at the University of Bologna.
 
 My <b style="color: $white-color;">Research Interests</b> include <b style="color: $white-color;">Political Economy</b>, <b style="color: $white-color;">Economy of Crime</b>, <b style="color: $white-color;">Experimental Economics</b>, and <b style="color: $white-color;">Behavioral Economics</b>, both theoretically and empirically.
 
