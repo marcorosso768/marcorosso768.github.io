@@ -260,8 +260,8 @@ ul.task-list input[type="checkbox"] {
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);
-  //min-width: 1rem;
-  //width: fit-content;
+  min-width: 1rem;
+  width: fit-content;
   
   a:not(.active) {
     color: var(--global-text-color);
@@ -271,9 +271,9 @@ ul.task-list input[type="checkbox"] {
     color: var(--global-hover-color);
   }
 
-//  .dropdown-divider {
-//    border-top: 1px solid var(--global-divider-color) !important;
-//  }
+  .dropdown-divider {
+    border-top: 1px solid var(--global-divider-color) !important;
+  }
 }
 
 .dropdown-item {
