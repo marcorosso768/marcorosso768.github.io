@@ -376,6 +376,25 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+/* Remove the blue focus outline from dropdown items */
+//.dropdown-item:focus,
+//.dropdown-toggle:focus {
+//  outline: none;
+//  box-shadow: none;
+//}
+
+/* Style active and hover states */
+.dropdown-item:active,
+.dropdown-item:hover {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Webkit browsers (Chrome, Safari) */
+//::-webkit-focus-ring-color {
+//  color: transparent;
+//}
+
 #light-toggle,
 #search-toggle {
   padding: 0;
