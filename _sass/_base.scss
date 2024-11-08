@@ -391,9 +391,15 @@ ul.task-list input[type="checkbox"] {
 }
 
 /* Webkit browsers (Chrome, Safari) */
-//::-webkit-focus-ring-color {
-//  color: transparent;
-//}
+::-webkit-focus-ring-color {
+  color: transparent;
+}
+
+/* Change the color of the selected text globally */
+::selection {
+  color: var(--global-bg-color); /* Text color when selected */
+  background-color: var(--global-theme-color); /* Background color of the selection */
+}
 
 #light-toggle,
 #search-toggle {
