@@ -1435,3 +1435,13 @@ ninja-keys::part(ninja-input-wrapper) {
   color: var(--global-bg-color); /* Text color when selected */
   background-color: var(--global-theme-color); /* Background color of the selection */
 }
+
+select option:checked,
+select option:hover {
+    box-shadow: 0 0 10px 100px #000 inset;
+}
+
+select:focus > option:checked { 
+    background: var(--global-theme-color);
+    color: var(--global-bg-color);
+}
