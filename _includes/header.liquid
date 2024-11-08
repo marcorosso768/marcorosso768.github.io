@@ -40,10 +40,12 @@
         <!-- <div style="display: inline-block; line-height: 1; font-size: 12pt; margin-left: -7.5px; color: var(  global-theme-color);"> -->
           <!-- <b>{{ site.data[site.active_lang].strings.lang_note }}</b> -->
         <!-- </div> -->
-        <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: -15px; color: var(--global-theme-color);">        
-          {% if site.languages.size >= 2 %}
-            <li class="nav-item dropdown" style="list-style-type: none; color: var(--global-theme-color);">
-              <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" style="color: var(--global-theme-color);">
+        <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: -15px; color: var(--global-theme-color);">
+        {% if site.languages.size >= 2 %}
+          <ul class="navbar-nav" style="list-style-type: none; padding-left: 0; color: var(--global-theme-color);">
+            <li class="nav-item dropdown" style="color: var(--global-theme-color);">
+              <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" style="color: var(--global-theme-color);">
+                <i class="fa fa-language" aria-hidden="true"></i>
                 {% if site.country_flag %}
                   <span class="fi fi-{{ site.active_lang | split: '-' | last }}" style="color: var(--global-theme-color);"></span>
                 {% else %}
@@ -54,6 +56,7 @@
                 {% for l in site.languages %}
                   {% if l != site.active_lang %}
                     <a class="dropdown-item" onclick="setLanguage('{{ l }}')" style="color: var(--global-theme-color);">
+                      <i class="fa fa-language" aria-hidden="true"></i>
                       {% if site.country_flag %}
                         <span class="fi fi-{{ l | split: '-' | last }}" style="color: var(--global-theme-color);"></span>
                       {% else %}
@@ -64,8 +67,9 @@
                 {% endfor %}
               </div>
             </li>
-          {% endif %}
-        </div>
+          </ul>
+        {% endif %}
+      </div>
       </div>
       {% endif %}
 
