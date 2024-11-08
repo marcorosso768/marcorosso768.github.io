@@ -1,16 +1,20 @@
 let setFavicon = () => {
   // Remove old favicons
   document.querySelectorAll('link[rel*="icon"], link[rel="apple-touch-icon"], link[rel="manifest"]').forEach(link => link.remove());
-  
+
+  // Determine the current language from the URL
+  const pathSegments = window.location.pathname.split('/');
+  const lang = pathSegments[1] || 'en'; // Default to 'en' if no language prefix is found
+
   // Determine theme and base icon path
-  let themeSetting = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light";
-  let baseIconPath = themeSetting === "dark" ? "assets/img/favicons/favicon_dark/" : "assets/img/favicons/favicon_light/";
-  
+  const themeSetting = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light";
+  const baseIconPath = `assets/img/favicons/${themeSetting === "dark" ? 'favicon_dark' : 'favicon_light'}/`;
+
   // Cache-busting parameter
-  let timestamp = new Date().getTime();
-  
+  const timestamp = new Date().getTime();
+
   // Define favicon files with cache-busting URLs
-  let faviconLinks = [
+  const faviconLinks = [
     { rel: "icon", type: "image/png", href: `${baseIconPath}favicon-96x96.png?v=${timestamp}`, sizes: "96x96" },
     { rel: "icon", type: "image/svg+xml", href: `${baseIconPath}favicon.svg?v=${timestamp}` },
     { rel: "shortcut icon", href: `${baseIconPath}favicon.ico?v=${timestamp}` },
@@ -20,20 +24,21 @@ let setFavicon = () => {
 
   // Set each favicon link
   faviconLinks.forEach(attrs => {
-    let link = document.createElement("link");
+    const link = document.createElement("link");
     Object.keys(attrs).forEach(attr => link.setAttribute(attr, attrs[attr]));
     document.head.appendChild(link);
   });
-  
-  // Optional: Fallback static favicon for iOS
-  let staticLink = document.createElement("link");
+
+  // Optional: Fallback static favicon for iOS, based on theme
+  const staticLink = document.createElement("link");
+  const staticIconPath = `${baseIconPath}favicon_static_${themeSetting}.png`;
   staticLink.setAttribute("rel", "icon");
-  staticLink.setAttribute("href", "assets/img/favicons/favicon_static.png");  // Static icon for iOS reliability
+  staticLink.setAttribute("href", staticIconPath);
   document.head.appendChild(staticLink);
 };
 
 // Run on page load and when theme changes with a slight delay for Safari and Chrome on iOS
-window.addEventListener('DOMContentLoaded', setFavicon);
+window.addEventListener('DOMContentLoaded', () => setTimeout(setFavicon, 100));
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-  setTimeout(setFavicon, 100); // Delay of 100ms
+  setTimeout(setFavicon, 200); // Increased delay for Safari reliability
 });
