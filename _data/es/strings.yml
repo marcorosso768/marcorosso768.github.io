@@ -11,7 +11,7 @@ citation:
   introduction: "Se você achou isso útil, por favor cite como:"
 contact_note: "contactos:"
 social_note: "También puedes encontrarme aquí:"
-lang_note: "idioma:"
+lang_note: "idiomas:"
 cv:
   address: Endereço
   area: Área
@@ -127,7 +127,7 @@ search:
     navigate: para navegar
     parent: voltar um nível
     select: para selecionar
-  languages: Idiomas
+  languages: idiomas
   light_theme:
     description: Muda o tema do site para claro
     title: Muda o tema para claro
