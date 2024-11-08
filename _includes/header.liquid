@@ -48,18 +48,19 @@
                   <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" aria-label="Select language" style="color: var(--global-theme-color);">
                     <i class="fa fa-language" aria-hidden="true"></i>
                   </a>
-                  <!-- Dropdown Menu (Language Options) -->
+                  <!-- Dropdown Menu (Language Options with Custom Names) -->
                   <div class="dropdown-menu dropdown-menu-right" style="color: var(--global-theme-color);">
+                    {% assign language_names = site.data.language_names %}
                     {% for l in site.languages %}
-                      {% if l != site.active_lang %}
-                        <a class="dropdown-item" onclick="setLanguage('{{ l }}')" style="color: var(--global-theme-color);" aria-label="Change language to {{ l | upcase }}">
-                          {% if site.country_flag %}
-                            <span class="fi fi-{{ l | split: '-' | last }}" style="color: var(--global-theme-color);"></span>
-                          {% else %}
-                            <span style="color: var(--global-theme-color);">{{ l | upcase }}</span>
-                          {% endif %}
-                        </a>
-                      {% endif %}
+                      <a class="dropdown-item {% if l == site.active_lang %}active{% endif %}" onclick="setLanguage('{{ l }}')" style="color: var(--global-theme-color);" aria-label="Change language to {{ l | upcase }}">
+                        {% if site.country_flag %}
+                          <span class="fi fi-{{ l | split: '-' | last }}" style="color: var(--global-theme-color);"></span>
+                        {% endif %}
+                        <!-- Custom Language Name -->
+                        <span style="color: var(--global-theme-color);">
+                          {{ language_names[l] | default: l | upcase }}
+                        </span>
+                      </a>
                     {% endfor %}
                   </div>
                 </li>
