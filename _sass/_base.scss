@@ -271,10 +271,10 @@ ul.task-list input[type="checkbox"] {
     color: var(--global-hover-color);
   }
 
-  .dropdown-divider {
-    border-top: 1px solid var(--global-divider-color) !important;
-  }
-}
+//  .dropdown-divider {
+//    border-top: 1px solid var(--global-divider-color) !important;
+//  }
+//}
 
 .dropdown-item {
   color: var(--global-text-color);
@@ -1427,17 +1427,4 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
-}
-
-/* Remove the blue focus outline from dropdown items */
-.dropdown-item:focus,
-.dropdown-toggle:focus {
-  outline: none;
-  box-shadow: none;
-}
-
-/* Optional: Add a custom focus style if desired */
-.dropdown-item:focus {
-  background-color: var(--global-theme-color-light);
-  color: #fff;
 }
