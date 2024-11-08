@@ -377,11 +377,11 @@ ul.task-list input[type="checkbox"] {
 }
 
 /* Remove the blue focus outline from dropdown items */
-//.dropdown-item:focus,
-//.dropdown-toggle:focus {
-//  outline: none;
-//  box-shadow: none;
-//}
+.dropdown-item:focus,
+.dropdown-toggle:focus {
+  outline: none;
+  box-shadow: none;
+}
 
 /* Style active and hover states */
 .dropdown-item:active,
@@ -393,12 +393,6 @@ ul.task-list input[type="checkbox"] {
 /* Webkit browsers (Chrome, Safari) */
 ::-webkit-focus-ring-color {
   color: transparent;
-}
-
-/* Change the color of the selected text globally */
-::selection {
-  color: var(--global-bg-color); /* Text color when selected */
-  background-color: var(--global-theme-color); /* Background color of the selection */
 }
 
 #light-toggle,
@@ -1452,5 +1446,11 @@ ninja-keys::part(ninja-input-wrapper) {
 // highlight-search-term
 ::highlight(search) {
   background-color: var(--global-theme-color);
-  color: var(--global-text-color);
+  color: var(--global-bg-color);
+}
+
+/* Change the color of the selected text globally */
+::selection {
+  color: var(--global-bg-color); /* Text color when selected */
+  background-color: var(--global-theme-color); /* Background color of the selection */
 }
