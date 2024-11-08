@@ -266,18 +266,9 @@ ul.task-list input[type="checkbox"] {
   a:not(.active) {
     color: var(--global-text-color);
   }
-
-  a.selected {
-    color: var(--global-bg-color);
-    background-color: var(--global-theme-color);
-  }
   
   a:hover {
     color: var(--global-hover-color);
-  }
-
-  a.selected:hover {
-  color: var(--global-theme-color);
   }
 
   .dropdown-divider {
@@ -294,6 +285,31 @@ ul.task-list input[type="checkbox"] {
     background-color: var(--global-bg-color);
   }
 }
+
+//
+
+/* Remove outline and box-shadow for dropdown items */
+.dropdown-item:focus,
+.dropdown-item:active,
+.dropdown-toggle:focus,
+.dropdown-toggle:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Remove the default focus ring on Webkit browsers (Chrome, Safari) */
+*:focus-visible {
+  outline: none !important;
+}
+
+/* Customize focus state if needed (optional) */
+.dropdown-item:focus,
+.dropdown-item:active {
+  background-color: var(--global-theme-color-light);
+  color: #fff;
+}
+
+//
 
 .navbar.navbar-light {
   a {
