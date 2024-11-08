@@ -64,36 +64,36 @@ cv:
   volunteer: Voluntário
   work: Trabalho
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  Creado con <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> y los temas <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> y <a href="https://github.com/alshedivat/al-folio">al-folio</a>. 
+  Creado con <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> y los temas <a href="https://github.com/george-gca/multi-language-al-folio">multi-language</a> y <a href="https://github.com/alshedivat/al-folio">al-folio</a>. 
   Alojado en <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 latest_posts: ultimas novedades
 months:
   long:
-    january: Janeiro
-    february: Fevereiro
-    march: Março
-    april: Abril
-    may: Maio
-    june: Junho
-    july: Julho
-    august: Agosto
-    september: Setembro
-    october: Outubro
-    november: Novembro
-    december: Dezembro
+    january: enero
+    february: febrero
+    march: marzo
+    april: abril
+    may: mayo
+    june: junio
+    july: julio
+    august: agosto
+    september: septiembre
+    october: octubre
+    november: noviembre
+    december: diciembre
   short:
-    january: Jan
-    february: Fev
-    march: Mar
-    april: Abr
-    may: Mai
-    june: Jun
-    july: Jul
-    august: Ago
-    september: Set
-    october: Out
-    november: Nov
-    december: Dez
+    january: ene
+    february: feb
+    march: mar
+    april: abr
+    may: may
+    june: jun
+    july: jul
+    august: ago
+    september: set
+    october: oct
+    november: nov
+    december: dic
 news: últimas novedades
 newsletter:
   back: Voltar
