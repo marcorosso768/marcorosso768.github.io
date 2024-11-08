@@ -1432,16 +1432,10 @@ ninja-keys::part(ninja-input-wrapper) {
 
 /* Change the color of the selected text globally */
 ::selection {
-  color: var(--global-bg-color); /* Text color when selected */
-  background-color: var(--global-theme-color); /* Background color of the selection */
+  color: var(--global-bg-color) !important; /* Text color when selected */
+  background-color: var(--global-theme-color) !important; /* Background color of the selection */
 }
 
-/* turn it off completely */
-select:active, select:hover {
-  outline: none
-}
-
-/* make it red instead (with with same width and style) */
-select:active, select:hover {
-  outline-color: red
-}
+.dropdown-menu>.active>a {color:black; background-color:red;}
+.dropdown-menu>.active>a:focus {color:black; background-color:red;}
+.dropdown-menu>.active>a:hover {color:black; background-color:red;}
