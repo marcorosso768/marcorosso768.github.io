@@ -8,10 +8,8 @@ dropdown: true
 children:
   - title: referencia
     permalink: /referencia/
-  - title: divider
   - title: blog
     permalink: /blog/
-  - title: divider
   - title: novedades
     permalink: /novedades/
 ---
