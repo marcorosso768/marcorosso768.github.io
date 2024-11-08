@@ -1428,3 +1428,16 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+/* Remove the blue focus outline from dropdown items */
+.dropdown-item:focus,
+.dropdown-toggle:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Optional: Add a custom focus style if desired */
+.dropdown-item:focus {
+  background-color: var(--global-theme-color-light);
+  color: #fff;
+}
