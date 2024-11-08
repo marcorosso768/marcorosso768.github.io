@@ -267,15 +267,16 @@ ul.task-list input[type="checkbox"] {
     color: var(--global-text-color);
   }
 
-  a.active {
+  a.selected {
     color: var(--global-bg-color);
+    background-color: var(--global-theme-color);
   }
   
   a:hover {
     color: var(--global-hover-color);
   }
 
-  a.active:hover {
+  a.selected:hover {
   color: var(--global-theme-color);
   }
 
