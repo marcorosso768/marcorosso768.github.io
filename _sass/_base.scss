@@ -278,6 +278,7 @@ ul.task-list input[type="checkbox"] {
 
 .dropdown-item {
   color: var(--global-text-color);
+  line-height: 1;
 
   &:hover {
     color: var(--global-hover-color);
