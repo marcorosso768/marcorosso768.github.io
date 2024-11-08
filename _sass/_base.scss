@@ -267,8 +267,16 @@ ul.task-list input[type="checkbox"] {
     color: var(--global-text-color);
   }
 
+  a.active {
+    color: var(--global-bg-color);
+  }
+  
   a:hover {
     color: var(--global-hover-color);
+  }
+
+  a.active:hover {
+  color: var(--global-theme-color);
   }
 
   .dropdown-divider {
@@ -1435,7 +1443,3 @@ ninja-keys::part(ninja-input-wrapper) {
   color: var(--global-bg-color) !important; /* Text color when selected */
   background-color: var(--global-theme-color) !important; /* Background color of the selection */
 }
-
-.dropdown-menu>.active>a {color:black; background-color:red;}
-.dropdown-menu>.active>a:focus {color:black; background-color:red;}
-.dropdown-menu>.active>a:hover {color:black; background-color:red;}
