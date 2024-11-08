@@ -8,7 +8,7 @@ let setFavicon = () => {
 
   // Determine theme and base icon path
   const themeSetting = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light";
-  const baseIconPath = `assets/img/favicons/${themeSetting === "dark" ? 'favicon_dark' : 'favicon_light'}/`;
+  const baseIconPath = `assets/img/favicons/${lang}/${themeSetting === "dark" ? 'favicon_dark' : 'favicon_light'}/`;
 
   // Cache-busting parameter
   const timestamp = new Date().getTime();
