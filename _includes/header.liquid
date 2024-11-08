@@ -26,51 +26,47 @@
         </a>
       {% elsif site.enable_navbar_social %}
       <!-- Social Icons -->
-      <div style="margin: 0; padding: 0; position: relative;">
-        <div class="navbar-brand social">
-          <div style="display: inline-block; line-height: 1; font-size: 12pt; color: var(--global-theme-color);">
-              <b>{{ site.data[site.active_lang].strings.contact_note }}</b>
+        <div style="margin: 0; padding: 0; position: relative;">
+          <div class="navbar-brand social">
+            <div style="display: inline-block; line-height: 1; font-size: 12pt; color: var(--global-theme-color);">
+                <b>{{ site.data[site.active_lang].strings.contact_note }}</b>
+            </div>
+            <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: 2.5px;">
+              {% include social_header.liquid %}
+            </div>
           </div>
-          <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: 2.5px;">
-            {% include social_header.liquid %}
-          </div>
-        </div>
-      
-        <!-- Toggle language -->
-        <!-- <div style="display: inline-block; line-height: 1; font-size: 12pt; margin-left: -7.5px; color: var(  global-theme-color);"> -->
-        <!-- <b>{{ site.data[site.active_lang].strings.lang_note }}</b> -->
-        <!-- </div> -->
+        
+          <!-- Toggle language -->
+          <!-- <div style="display: inline-block; line-height: 1; font-size: 12pt; margin-left: -7.5px; color: var(  global-theme-color);"> -->
+          <!-- <b>{{ site.data[site.active_lang].strings.lang_note }}</b> -->
+          <!-- </div> -->
           <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: -15px; color: var(--global-theme-color);">
-          {% if site.languages.size >= 2 %}
-            <ul class="navbar-nav" style="list-style-type: none; padding-left: 0; color: var(--global-theme-color);">
-              <li class="nav-item dropdown" style="color: var(--global-theme-color);">
-                <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" style="color: var(--global-theme-color);">
-                  <i class="fa-light fa-language"></i>
-                  {% if site.country_flag %}
-                    <span class="fi fi-{{ site.active_lang | split: '-' | last }}" style="color: var(--global-theme-color);"></span>
-                  {% else %}
-                    <span style="color: var(--global-theme-color);">{{ site.active_lang | upcase }}</span>
-                  {% endif %}
-                </a>
-                <div class="dropdown-menu" style="color: var(--global-theme-color);">
-                  {% for l in site.languages %}
-                    {% if l != site.active_lang %}
-                      <a class="dropdown-item" onclick="setLanguage('{{ l }}')" style="color: var(--global-theme-color);">
-                        <i class="fa-light fa-language"></i>
-                        {% if site.country_flag %}
-                          <span class="fi fi-{{ l | split: '-' | last }}" style="color: var(--global-theme-color);"></span>
-                        {% else %}
-                          <span style="color: var(--global-theme-color);">{{ l | upcase }}</span>
-                        {% endif %}
-                      </a>
-                    {% endif %}
-                  {% endfor %}
-                </div>
-              </li>
-            </ul>
-          {% endif %}
+            {% if site.languages.size >= 2 %}
+              <ul class="navbar-nav" style="list-style-type: none; padding-left: 0; color: var(--global-theme-color);">
+                <li class="nav-item dropdown" style="color: var(--global-theme-color);">
+                  <!-- Dropdown Toggle (Icon Only) -->
+                  <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" aria-label="Select language" style="color: var(--global-theme-color);">
+                    <i class="fa fa-language" aria-hidden="true"></i>
+                  </a>
+                  <!-- Dropdown Menu (Language Options) -->
+                  <div class="dropdown-menu dropdown-menu-right" style="color: var(--global-theme-color);">
+                    {% for l in site.languages %}
+                      {% if l != site.active_lang %}
+                        <a class="dropdown-item" onclick="setLanguage('{{ l }}')" style="color: var(--global-theme-color);" aria-label="Change language to {{ l | upcase }}">
+                          {% if site.country_flag %}
+                            <span class="fi fi-{{ l | split: '-' | last }}" style="color: var(--global-theme-color);"></span>
+                          {% else %}
+                            <span style="color: var(--global-theme-color);">{{ l | upcase }}</span>
+                          {% endif %}
+                        </a>
+                      {% endif %}
+                    {% endfor %}
+                  </div>
+                </li>
+              </ul>
+            {% endif %}
+          </div>
         </div>
-      </div>
       {% endif %}
 
       <!-- Navbar Toggle -->
