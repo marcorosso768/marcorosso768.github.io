@@ -1436,12 +1436,12 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color); /* Background color of the selection */
 }
 
-select option:checked,
-select option:hover {
-    box-shadow: 0 0 10px 100px #000 inset;
+/* turn it off completely */
+select:active, select:hover {
+  outline: none
 }
 
-select:focus > option:checked { 
-    background: var(--global-theme-color);
-    color: var(--global-bg-color);
+/* make it red instead (with with same width and style) */
+select:active, select:hover {
+  outline-color: red
 }
