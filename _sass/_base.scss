@@ -289,18 +289,11 @@ ul.task-list input[type="checkbox"] {
 //
 
 /* Override the default active and focus styles for dropdown items */
-.dropdown-item:focus,
-.dropdown-item:active,
-.dropdown-item.show {
+.dropdown-item:active {
   background-color: var(--global-theme-color) !important;
   color: #fff !important;
   outline: none !important;
   box-shadow: none !important;
-}
-
-/* Remove blue selection color in Webkit browsers (Chrome, Safari) */
-::-moz-focus-inner {
-  border: 0;
 }
 
 //
