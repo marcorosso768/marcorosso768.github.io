@@ -1432,24 +1432,22 @@ ninja-keys::part(ninja-input-wrapper) {
 
 /* Change the color of the selected text globally */
 ::selection {
-  color: var(--global-bg-color) !important; /* Text color when selected */
-  background-color: var(--global-theme-color) !important; /* Background color of the selection */
+  color: var(--global-bg-color) !important;
+  background-color: var(--global-selection-color) !important;
+  
+  /* For older browsers and mobile devices */
+  -webkit-text-fill-color: var(--global-bg-color) !important;
+  -webkit-background-color: var(--global-selection-color) !important;
+  -moz-text-fill-color: var(--global-bg-color) !important;
+  -moz-background-color: var(--global-selection-color) !important;
+
+  /* Specific for iOS devices */
+  -webkit-tap-highlight-color: transparent; /* Prevent blue highlight on tap */
 }
 
-.dropdown-menu .dropdown-item:active, 
-.dropdown-menu .dropdown-item:focus {
-  background-color: transparent !important;
-  color: inherit !important;
+.dropdown-item.active, .dropdown-item:active {
+    color: var(--global-theme-color) !important;
+    font-weight: bolder !important;
+    text-decoration: none !important;
+    background-color: var(--global-bg-color) !important;
 }
-
-//
-
-/* Override the default active and focus styles for dropdown items */
-//.dropdown-item:active {
-//  background-color: var(--global-theme-color) !important;
-//  color: #fff !important;
-//  outline: none !important;
-//  box-shadow: none !important;
-//}
-
-//

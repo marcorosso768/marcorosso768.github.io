@@ -37,8 +37,32 @@ let setFavicon = () => {
   document.head.appendChild(staticLink);
 };
 
-// Run on page load and when theme changes with a slight delay for Safari and Chrome on iOS
-window.addEventListener('DOMContentLoaded', () => setTimeout(setFavicon, 100));
-window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-  setTimeout(setFavicon, 200); // Increased delay for Safari reliability
-});
+// Helper function to re-run favicon setting on navigation
+const initFavicon = () => {
+  setFavicon();
+  // Listen for theme changes
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+    setTimeout(setFavicon, 200); // Slight delay for Safari
+  });
+};
+
+// Run on initial load
+window.addEventListener('DOMContentLoaded', () => setTimeout(initFavicon, 100));
+
+// Handle client-side navigation (SPA support)
+window.addEventListener('popstate', initFavicon);
+window.addEventListener('pushstate', initFavicon);
+window.addEventListener('replaceState', initFavicon);
+
+// Override pushState and replaceState to trigger favicon update
+const originalPushState = history.pushState;
+history.pushState = function () {
+  originalPushState.apply(this, arguments);
+  initFavicon();
+};
+
+const originalReplaceState = history.replaceState;
+history.replaceState = function () {
+  originalReplaceState.apply(this, arguments);
+  initFavicon();
+};
