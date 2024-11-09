@@ -1434,11 +1434,15 @@ ninja-keys::part(ninja-input-wrapper) {
 ::selection {
   color: var(--global-bg-color) !important;
   background-color: var(--global-selection-color) !important;
+  
   /* For older browsers and mobile devices */
   -webkit-text-fill-color: var(--global-bg-color) !important;
   -webkit-background-color: var(--global-selection-color) !important;
   -moz-text-fill-color: var(--global-bg-color) !important;
   -moz-background-color: var(--global-selection-color) !important;
+
+  /* Specific for iOS devices */
+  -webkit-tap-highlight-color: transparent; /* Prevent blue highlight on tap */
 }
 
 .dropdown-item.active, .dropdown-item:active {
@@ -1447,15 +1451,3 @@ ninja-keys::part(ninja-input-wrapper) {
     text-decoration: none !important;
     background-color: var(--global-bg-color) !important;
 }
-
-//
-
-/* Override the default active and focus styles for dropdown items */
-//.dropdown-item:active {
-//  background-color: var(--global-theme-color) !important;
-//  color: #fff !important;
-//  outline: none !important;
-//  box-shadow: none !important;
-//}
-
-//
