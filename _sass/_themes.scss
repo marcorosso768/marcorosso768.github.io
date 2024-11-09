@@ -29,7 +29,7 @@
     #{red($bright-purple-color)}, 
     #{green($bright-purple-color)}, 
     #{blue($bright-purple-color)}, 
-    0.5
+    0.3
   );
   --global-back-to-top-text-color: #{$white-mod};
   --global-newsletter-bg-color: #{$white-mod};
@@ -100,7 +100,7 @@ html[data-theme="dark"] {
     #{red($bright-yellow-color)}, 
     #{green($bright-yellow-color)}, 
     #{blue($bright-yellow-color)}, 
-    0.5
+    0.3
   );
   --global-back-to-top-text-color: #{$black-color};
   --global-newsletter-bg-color: #{$white-mod};
