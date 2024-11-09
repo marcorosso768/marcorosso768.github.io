@@ -1436,20 +1436,10 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color) !important; /* Background color of the selection */
 }
 
-/* Vendor prefixes */
-::-moz-selection {
-  color: var(--global-bg-color) !important;
-  background-color: var(--global-theme-color) !important;
-}
-
-::-webkit-selection {
-  color: var(--global-bg-color) !important;
-  background-color: var(--global-theme-color) !important;
-}
-
-::active {
-  color: var(--global-bg-color) !important; /* Text color when selected */
-  background-color: var(--global-theme-color) !important; /* Background color of the selection */
+.dropdown-menu .dropdown-item:active, 
+.dropdown-menu .dropdown-item:focus {
+  background-color: transparent;
+  color: inherit;
 }
 
 //
