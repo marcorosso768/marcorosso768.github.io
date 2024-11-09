@@ -286,18 +286,6 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-//
-
-/* Override the default active and focus styles for dropdown items */
-.dropdown-item:active {
-  background-color: var(--global-theme-color) !important;
-  color: #fff !important;
-  outline: none !important;
-  box-shadow: none !important;
-}
-
-//
-
 .navbar.navbar-light {
   a {
     &:hover {
@@ -1458,3 +1446,20 @@ ninja-keys::part(ninja-input-wrapper) {
   color: var(--global-bg-color) !important;
   background-color: var(--global-theme-color) !important;
 }
+
+::active {
+  color: var(--global-bg-color) !important; /* Text color when selected */
+  background-color: var(--global-theme-color) !important; /* Background color of the selection */
+}
+
+//
+
+/* Override the default active and focus styles for dropdown items */
+//.dropdown-item:active {
+//  background-color: var(--global-theme-color) !important;
+//  color: #fff !important;
+//  outline: none !important;
+//  box-shadow: none !important;
+//}
+
+//
