@@ -25,6 +25,12 @@
     #{blue($black-color)}, 
     0.4
   );
+  --global-selection-color: rgba(
+    #{red($purple-color)}, 
+    #{green($purple-color)}, 
+    #{blue($purple-color)}, 
+    0.5
+  );
   --global-back-to-top-text-color: #{$white-mod};
   --global-newsletter-bg-color: #{$white-mod};
   --global-newsletter-text-color: #{$black-color};
@@ -88,6 +94,12 @@ html[data-theme="dark"] {
     #{red($white-color)}, 
     #{green($white-color)}, 
     #{blue($white-color)}, 
+    0.5
+  );
+  --global-selection-color: rgba(
+    #{red($yellow-color)}, 
+    #{green($yellow-color)}, 
+    #{blue($yellow-color)}, 
     0.5
   );
   --global-back-to-top-text-color: #{$black-color};
