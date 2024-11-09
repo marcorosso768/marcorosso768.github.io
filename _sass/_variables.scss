@@ -17,14 +17,12 @@ $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
 $purple-color: #7809a4 !default;
-$bright-purple-color: lighten(saturate($purple-color, 20%), 15%); // Increase saturation by 20%, lightness by 15%
 // $purple-color: #b509ac !default;
 $purple-color-dark: #813382 !default;
 $light-purple-color: lighten($purple-color, 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #ffce00 !default;
-$bright-yellow-color: lighten(saturate($yellow-color, 20%), 15%); // Increase saturation by 20%, lightness by 15%
 // $yellow-color: #efcc00 !default;
 
 $grey-color: #828282 !default;
