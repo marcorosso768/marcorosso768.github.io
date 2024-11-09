@@ -26,10 +26,10 @@
     0.4
   );
   --global-selection-color: rgba(
-    #{red($bright-purple-color)}, 
-    #{green($bright-purple-color)}, 
-    #{blue($bright-purple-color)}, 
-    0.3
+    red(120), 
+    green(9), 
+    blue(164), 
+    0.7
   );
   --global-back-to-top-text-color: #{$white-mod};
   --global-newsletter-bg-color: #{$white-mod};
@@ -97,10 +97,10 @@ html[data-theme="dark"] {
     0.5
   );
   --global-selection-color: rgba(
-    #{red($bright-yellow-color)}, 
-    #{green($bright-yellow-color)}, 
-    #{blue($bright-yellow-color)}, 
-    0.3
+    red(255), 
+    green(206), 
+    blue(0), 
+    0.7
   );
   --global-back-to-top-text-color: #{$black-color};
   --global-newsletter-bg-color: #{$white-mod};
