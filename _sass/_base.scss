@@ -1438,8 +1438,8 @@ ninja-keys::part(ninja-input-wrapper) {
 
 .dropdown-menu .dropdown-item:active, 
 .dropdown-menu .dropdown-item:focus {
-  background-color: transparent;
-  color: inherit;
+  background-color: transparent !important;
+  color: inherit !important;
 }
 
 //
