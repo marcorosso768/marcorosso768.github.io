@@ -26,9 +26,9 @@
     0.4
   );
   --global-selection-color: rgba(
-    #{red($purple-color)}, 
-    #{green($purple-color)}, 
-    #{blue($purple-color)}, 
+    #{red($bright-purple-color)}, 
+    #{green($bright-purple-color)}, 
+    #{blue($bright-purple-color)}, 
     0.5
   );
   --global-back-to-top-text-color: #{$white-mod};
@@ -97,9 +97,9 @@ html[data-theme="dark"] {
     0.5
   );
   --global-selection-color: rgba(
-    #{red($yellow-color)}, 
-    #{green($yellow-color)}, 
-    #{blue($yellow-color)}, 
+    #{red($bright-yellow-color)}, 
+    #{green($bright-yellow-color)}, 
+    #{blue($bright-yellow-color)}, 
     0.5
   );
   --global-back-to-top-text-color: #{$black-color};
