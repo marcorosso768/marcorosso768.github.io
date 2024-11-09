@@ -1433,17 +1433,19 @@ ninja-keys::part(ninja-input-wrapper) {
 /* Change the color of the selected text globally */
 ::selection {
   color: var(--global-bg-color) !important;
-  background-color: rgba(var(--global-theme-color), 0.5) !important;
+  background-color: rgba(red(var(--global-theme-color)), green(var(--global-theme-color)), blue(var(--global-theme-color)), 0.5) !important;
   /* For older browsers and mobile devices */
   -webkit-text-fill-color: var(--global-bg-color) !important;
-  -webkit-background-color: rgba(var(--global-theme-color), 0.5) !important;
+  -webkit-background-color: rgba(red(var(--global-theme-color)), green(var(--global-theme-color)), blue(var(--global-theme-color)), 0.5) !important;
   -moz-text-fill-color: var(--global-bg-color) !important;
-  -moz-background-color: rgba(var(--global-theme-color), 0.5) !important;
+  -moz-background-color: rgba(red(var(--global-theme-color)), green(var(--global-theme-color)), blue(var(--global-theme-color)), 0.5) !important;
 }
 
 .dropdown-item.active, .dropdown-item:active {
     color: var(--global-theme-color) !important;
     font-weight: bolder !important;
+    text-decoration: none !important;
+    background-color: var(--global-bg-color) !important;
 }
 
 //
