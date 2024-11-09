@@ -25,7 +25,12 @@
     #{blue($black-color)}, 
     0.4
   );
-  --global-selection-color: rgba( 120, 9, 164, 0.7 );
+  --global-selection-color: rgba(
+    #{red($purple-color)}, 
+    #{green($purple-color)}, 
+    #{blue($purple-color)}, 
+    0.7
+  );
   --global-back-to-top-text-color: #{$white-mod};
   --global-newsletter-bg-color: #{$white-mod};
   --global-newsletter-text-color: #{$black-color};
@@ -91,7 +96,12 @@ html[data-theme="dark"] {
     #{blue($white-color)}, 
     0.5
   );
-  --global-selection-color: rgba( 255, 206, 0, 0.7 );
+  --global-selection-color: rgba(
+    #{red($yellow-color)}, 
+    #{green($yellow-color)}, 
+    #{blue($yellow-color)}, 
+    0.7
+  );
   --global-back-to-top-text-color: #{$black-color};
   --global-newsletter-bg-color: #{$white-mod};
   --global-newsletter-text-color: #{$grey-color-dark};
