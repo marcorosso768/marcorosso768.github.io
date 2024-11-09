@@ -4,14 +4,14 @@ archive_year: um arquivo de postagens deste ano
 blog:
   navigation_title: blog
 categories:
-  fun: diversão
-  work: trabalho
+  fun: diversión
+  work: trabajo
 citation:
   bibtex: "ou como uma citação em BibTeX:"
   introduction: "Se você achou isso útil, por favor cite como:"
 contact_note: "contactos:"
 social_note: "También puedes encontrarme aquí:"
-lang_note: "idioma:"
+lang_note: "idiomas:"
 cv:
   address: Endereço
   area: Área
@@ -62,38 +62,38 @@ cv:
   url: Url
   username: Usuário
   volunteer: Voluntário
-  work: Trabalho
+  work: Trabajo
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  Creado con <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> y los temas <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> y <a href="https://github.com/alshedivat/al-folio">al-folio</a>. 
+  Creado con <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> y los temas <a href="https://github.com/george-gca/multi-language-al-folio">multi-language</a> y <a href="https://github.com/alshedivat/al-folio">al-folio</a>. 
   Alojado en <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 latest_posts: ultimas novedades
 months:
   long:
-    january: Janeiro
-    february: Fevereiro
-    march: Março
-    april: Abril
-    may: Maio
-    june: Junho
-    july: Julho
-    august: Agosto
-    september: Setembro
-    october: Outubro
-    november: Novembro
-    december: Dezembro
+    january: enero
+    february: febrero
+    march: marzo
+    april: abril
+    may: mayo
+    june: junio
+    july: julio
+    august: agosto
+    september: septiembre
+    october: octubre
+    november: noviembre
+    december: diciembre
   short:
-    january: Jan
-    february: Fev
-    march: Mar
-    april: Abr
-    may: Mai
-    june: Jun
-    july: Jul
-    august: Ago
-    september: Set
-    october: Out
-    november: Nov
-    december: Dez
+    january: ene
+    february: feb
+    march: mar
+    april: abr
+    may: may
+    june: jun
+    july: jul
+    august: ago
+    september: set
+    october: oct
+    november: nov
+    december: dic
 news: últimas novedades
 newsletter:
   back: Voltar
@@ -127,12 +127,12 @@ search:
     navigate: para navegar
     parent: voltar um nível
     select: para selecionar
-  languages: Idiomas
+  languages: idiomas
   light_theme:
     description: Muda o tema do site para claro
     title: Muda o tema para claro
   navigation: Menu de navegação
-  news: Novidades
+  news: novedades
   placeholder: Digite para iniciar a busca
   posts: Postagens
   projects: Projetos
@@ -142,4 +142,4 @@ search:
     title: Usa o tema padrão do sistema
   theme: Tema
 selected_publications: publicações selecionadas
-site_description: Um tema simples para acadêmicos. Baseado no design do [*folio](https://github.com/bogoli/-folio).
+site_description: “Sitio web académico personal de Marco Rosso, Doctorando e Investigador Postdoctoral en la Universidad de Bolonia”

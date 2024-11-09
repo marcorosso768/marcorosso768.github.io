@@ -26,47 +26,46 @@
         </a>
       {% elsif site.enable_navbar_social %}
       <!-- Social Icons -->
-      <div style="margin: 0; padding: 0; position: relative;">
-        <div class="navbar-brand social">
-          <div style="display: inline-block; line-height: 1; font-size: 12pt; color: var(--global-theme-color);">
-              <b>{{ site.data[site.active_lang].strings.contact_note }}</b>
+        <div style="margin: 0; padding: 0; position: relative;">
+          <div class="navbar-brand social">
+            <div style="display: inline-block; line-height: 1; font-size: 12pt; color: var(--global-theme-color);">
+                <b>{{ site.data[site.active_lang].strings.contact_note }}</b>
+            </div>
+            <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: 2.5px;">
+              {% include social_header.liquid %}
+            </div>
           </div>
-          <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: 2.5px;">
-            {% include social_header.liquid %}
-          </div>
-        </div>
-      
-        <!-- Toggle language -->
-        <!-- <div style="display: inline-block; line-height: 1; font-size: 12pt; margin-left: -7.5px; color: var(  global-theme-color);"> -->
+        
+          <!-- Toggle language -->
+          <!-- <div style="display: inline-block; line-height: 1; font-size: 12pt; margin-left: -7.5px; color: var(  global-theme-color);"> -->
           <!-- <b>{{ site.data[site.active_lang].strings.lang_note }}</b> -->
-        <!-- </div> -->
-        <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: -15px; color: var(--global-theme-color);">        
-          {% if site.languages.size >= 2 %}
-            <li class="nav-item dropdown" style="list-style-type: none; color: var(--global-theme-color);">
-              <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" style="color: var(--global-theme-color);">
-                {% if site.country_flag %}
-                  <span class="fi fi-{{ site.active_lang | split: '-' | last }}" style="color: var(--global-theme-color);"></span>
-                {% else %}
-                  <span style="color: var(--global-theme-color);">{{ site.active_lang | upcase }}</span>
-                {% endif %}
-              </a>
-              <div class="dropdown-menu" style="color: var(--global-theme-color);">
-                {% for l in site.languages %}
-                  {% if l != site.active_lang %}
-                    <a class="dropdown-item" onclick="setLanguage('{{ l }}')" style="color: var(--global-theme-color);">
-                      {% if site.country_flag %}
-                        <span class="fi fi-{{ l | split: '-' | last }}" style="color: var(--global-theme-color);"></span>
-                      {% else %}
-                        <span style="color: var(--global-theme-color);">{{ l | upcase }}</span>
-                      {% endif %}
-                    </a>
-                  {% endif %}
-                {% endfor %}
-              </div>
-            </li>
-          {% endif %}
+          <!-- </div> -->
+          <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: -15px;">
+            {% if site.languages.size >= 2 %}
+              <ul class="navbar-nav" style="list-style-type: none; padding-left: 0;">
+                <li class="nav-item dropdown">
+                  <!-- Dropdown Toggle (Icon Only) -->
+                  <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" aria-label="Select language" style="color: var(--global-theme-color);">
+                    <i class="fa fa-language" aria-hidden="true" style="color: var(--global-theme-color);"></i>
+                  </a>
+                  <!-- Dropdown Menu (Language Options with Custom Names in Default Color) -->
+                  <div class="dropdown-menu dropdown-menu-right">
+                    {% assign language_names = site.data.language_names %}
+                    {% for l in site.languages %}
+                      <a class="dropdown-item {% if l == site.active_lang %}active{% endif %}" onclick="setLanguage('{{ l }}')" aria-label="Change language to {{ l }}">
+                        {% if site.country_flag %}
+                          <span class="fi fi-{{ l | split: '-' | last }}"></span>
+                        {% endif %}
+                        <!-- Custom Language Name (Default Case) -->
+                        {{ language_names[l] | default: l }}
+                      </a>
+                    {% endfor %}
+                  </div>
+                </li>
+              </ul>
+            {% endif %}
+          </div>
         </div>
-      </div>
       {% endif %}
 
       <!-- Navbar Toggle -->

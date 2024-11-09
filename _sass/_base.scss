@@ -266,7 +266,7 @@ ul.task-list input[type="checkbox"] {
   a:not(.active) {
     color: var(--global-text-color);
   }
-
+  
   a:hover {
     color: var(--global-hover-color);
   }
@@ -278,6 +278,7 @@ ul.task-list input[type="checkbox"] {
 
 .dropdown-item {
   color: var(--global-text-color);
+  line-height: 1;
 
   &:hover {
     color: var(--global-hover-color);
@@ -1426,5 +1427,29 @@ ninja-keys::part(ninja-input-wrapper) {
 // highlight-search-term
 ::highlight(search) {
   background-color: var(--global-theme-color);
-  color: var(--global-text-color);
+  color: var(--global-bg-color);
 }
+
+/* Change the color of the selected text globally */
+::selection {
+  color: var(--global-bg-color) !important; /* Text color when selected */
+  background-color: var(--global-theme-color) !important; /* Background color of the selection */
+}
+
+.dropdown-menu .dropdown-item:active, 
+.dropdown-menu .dropdown-item:focus {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+
+//
+
+/* Override the default active and focus styles for dropdown items */
+//.dropdown-item:active {
+//  background-color: var(--global-theme-color) !important;
+//  color: #fff !important;
+//  outline: none !important;
+//  box-shadow: none !important;
+//}
+
+//
