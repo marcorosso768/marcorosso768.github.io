@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: su di me
 permalink: /
-subtitle: about_it
+include_file: about_it
 
 profile:
   align: center-right
