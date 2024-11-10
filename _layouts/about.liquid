@@ -11,7 +11,11 @@ layout: default
           {{ site.title }}
         {% endif %}
       </h1>
-      <p class="desc">{% include {{ page.subtitle }} %}</p>
+      {% if page.subtitle != 'blank' %}
+        <p class="desc">{{ page.subtitle }}</p>
+      {% elseif page.include_file != 'blank' %}
+        <p class="desc"> {% include {{ page.include_file }}.html %}</p>
+      {% endif %}
     </header>
   
     <article>
