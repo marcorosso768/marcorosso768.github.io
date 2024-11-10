@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: su di me
 permalink: /
-subtitle: {{ about_it }}
+subtitle: {{ include.about_it.liquid }}
 
 profile:
   align: center-right
