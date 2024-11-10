@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: su di me
 permalink: /
-subtitle: {{ include.about_it.liquid }}
+subtitle: "{% include about_it.html %}"
 
 profile:
   align: center-right
