@@ -3,7 +3,8 @@ page_id: about
 layout: about
 title: su di me
 permalink: /
-subtitle: > <div style="font-size: 10pt; margin: 0; padding: 0; position: relative;">
+subtitle: >
+<div style="font-size: 10pt; margin: 0; padding: 0; position: relative;">
     <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
         <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
     </div>
