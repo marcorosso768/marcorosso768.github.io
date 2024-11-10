@@ -145,7 +145,7 @@
   type: list_groups
   contents:
     - category: '<span style="color:var(--global-text-color);"> mixology </span>'
-      icon: "fa-solid fa-martini-glass"
+      icon: "fas fa-cocktail"
     - category: '<span style="color:var(--global-text-color);"> running </span>'
       icon: "fa-solid fa-person-running"
     - category: '<span style="color:var(--global-text-color);"> tennis </span>'
