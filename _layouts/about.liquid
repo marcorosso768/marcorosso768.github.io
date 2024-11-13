@@ -12,7 +12,7 @@ layout: default
         {% endif %}
       </h1>
         {% if page.subtitle != 'blank' %}
-          <p class="desc">{{ page.subtitle }}</p>
+          <p class="desc">{{ site.data[page.lang].subtitle.content }}</p>
         {% endif %}
     </header>
   
