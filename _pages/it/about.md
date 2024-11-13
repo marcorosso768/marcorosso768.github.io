@@ -22,7 +22,7 @@ subtitle: >
             </span>
         </div>
         <!-- Second row: Location icon and actula location -->
-        <div style="position: relative; margin-bottom: 15px; line-height: 14pt;">
+        <div style="margin-bottom: 15px;">
             <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; margin-top: -12pt; line-height: 14pt;">
                 <i class="fa-solid fa-location-dot" style="font-size: 10pt;"></i>
             </div>
