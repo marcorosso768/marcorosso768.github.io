@@ -12,7 +12,7 @@ subtitle: >
         <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; margin-top: -15pt;">
             <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
         </div>
-        <div style="display: inline-block; padding-left: 30px;">
+        <div style="display: inline-block; padding-left: 30px; margin-top: -15pt;">
             <span style="color: var(--global-theme-color); font-size: 10pt;">
               <a href="https://dse.unibo.it/en"><i>Department of Economics,</i></a>
               <a href="https://www.unibo.it/en/homepage"><i>University of Bologna</i></a><br>
