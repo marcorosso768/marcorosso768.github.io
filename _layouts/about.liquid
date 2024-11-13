@@ -11,7 +11,9 @@ layout: default
           {{ site.title }}
         {% endif %}
       </h1>
-        <span>{{ site.data[page.lang].subtitle.content }}</span>
+        {% if page.subtitle != 'blank' %}
+          <p class="desc">{{ page.subtitle }}</p>
+        {% endif %}
     </header>
   
     <article>
