@@ -24,7 +24,7 @@ subtitle: >
         </div>
         <!-- Second row: Location icon and location text -->
         <div style="margin-top: 0px; position: relative; font-size: 10pt; margin-top: -12.5pt;">
-            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; font-size: 10pt;">
                 <i class="fa-solid fa-location-dot"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px;">
