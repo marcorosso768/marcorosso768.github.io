@@ -4,7 +4,7 @@ layout: about
 title: about me
 permalink: /
 subtitle: >
-   <div style="margin: 0; padding: 0; position: relative;">
+   '<div style="margin: 0; padding: 0; position: relative;">
     <p style="margin-top: -20px; margin-left: 3.5px; font-weight: bold">
       Ph.D. Student | Research Fellow | Teaching Assistant
     </p>
@@ -26,7 +26,7 @@ subtitle: >
         current location: Buenos Aires, Argentina <br>
       </div>
     </div>
-  </div>
+  </div>'
   
 profile:
   align: center-right
