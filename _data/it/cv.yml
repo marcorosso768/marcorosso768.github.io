@@ -91,6 +91,9 @@
 - title: premi, sovvenzioni e borse di studio
   type: time_table
   contents:
+    - title: Borsa di Studio Marco Polo per la Mobilità Internazionale
+      year: "2024"
+      institution: Università di Bologna
     - title: Borsa di Studio di 4 anni, Dottorato in Economia
       year: "2020"
       institution: Università di Bologna
@@ -101,6 +104,9 @@
 - title: attività di networking
   type: time_table
   contents:
+    - title: 'Organizzatore delle "Partite Settimanali di Calcio del Dipartimento"'
+      year: 2022-
+      institution: Università di Bologna
     - title: 'Organizzatore degli "Aperitivi di Dipartimento"'
       year: 2022-
       institution: Università di Bologna
