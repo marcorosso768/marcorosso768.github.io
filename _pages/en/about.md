@@ -4,7 +4,7 @@ layout: about
 title: about me
 permalink: /
 subtitle: >
-    <div style="margin-top: -15px;">
+    <div style="margin-top: -20px;">
         <p style="font-weight: 500;">Ph.D. Student | Research Fellow | Teaching Assistant</p>
     </div>
     <div style="margin: 0; padding: 0; position: relative; margin-bottom: 15px;">
