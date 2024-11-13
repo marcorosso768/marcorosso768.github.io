@@ -38,13 +38,13 @@ nav_order: 1
             </a>
           </div>
           <div id="abstract-1" style="display:inline-block; display:none; padding-left: 30px; line-height: 12pt; font-size: 10pt;">
-              <b>Introduction</b> The ability to return to work after a cancer diagnosis is a key aspect of cancer survivorship and quality of life. Studies have reported a significant risk of income loss for cancer survivors; however, there is limited evidence of the Italian context.
+              <b>Introducción</b> La capacidad de regresar al trabajo después de un diagnóstico de cáncer es un aspecto clave de la supervivencia al cáncer y de la calidad de vida. Los estudios han reportado un riesgo significativo de pérdida de ingresos para los sobrevivientes de cáncer; sin embargo, existe evidencia limitada en el contexto italiano.
               <br>
-              <b>Methods</b> The Work Histories Italian Panel (WHIP)-Salute database was used to select a cohort of incident cases of colorectal cancer (CRC) among workers in the private sector, based on hospital discharges. A propensity score matching was used to find a balanced control group for several confounders. Ordinary least square and logistic regressions were used to estimate the effect of a CRC diagnosis on annual income and the probability of switching from a full-time contract to a part-time one considering 3 years after the diagnosis.
+              <b>Métodos</b> Se utilizó la base de datos del Panel de Historias Laborales Italianas (WHIP)-Salute para seleccionar una cohorte de casos incidentes de cáncer colorrectal (CRC) entre trabajadores del sector privado, basándose en los egresos hospitalarios. Se utilizó el emparejamiento por puntuación de propensión para encontrar un grupo control equilibrado para varios factores de confusión. Se emplearon regresiones de mínimos cuadrados ordinarios y logísticas para estimar el efecto del diagnóstico de CRC sobre los ingresos anuales y la probabilidad de pasar de un contrato a tiempo completo a uno a tiempo parcial, considerando 3 años después del diagnóstico.
               <br>
-              <b>Results</b> Overall, we identified 925 CRC incident cases from 2006 until 2012. Our results confirm a statistically significant reduction in survivors’ income compared with controls. This reduction was greater in the first year and then tend to decrease, with an average income loss over 3 years of about €12 000. Stratified analyses by sex and position confirmed the overall trend while indicating a strong effect modification. Regarding the switching from full-time to part-time employment, the results were never significant.
+              <b>Resultados</b> En total, identificamos 925 casos incidentes de CRC desde 2006 hasta 2012. Nuestros resultados confirman una reducción estadísticamente significativa en los ingresos de los sobrevivientes en comparación con los controles. Esta reducción fue mayor en el primer año y luego tendió a disminuir, con una pérdida promedio de ingresos durante 3 años de alrededor de €12,000. Los análisis estratificados por sexo y posición confirmaron la tendencia general, aunque indicaron una fuerte modificación del efecto. En cuanto al cambio de empleo de tiempo completo a tiempo parcial, los resultados nunca fueron significativos.
               <br>
-              <b>Conclusion</b> Income loss does not seem to be related to an increase in part-time contracts, but rather to survivors’ reduced work capacity following the invasive treatments. Further research is needed to investigate the complex dynamics behind this association.
+              <b>Conclusión</b> La pérdida de ingresos no parece estar relacionada con un aumento de los contratos a tiempo parcial, sino más bien con la reducida capacidad laboral de los sobrevivientes después de los tratamientos invasivos. Se necesita más investigación para analizar las complejas dinámicas detrás de esta asociación.
           </div>
       </div>
   </div>
@@ -69,7 +69,7 @@ nav_order: 1
           <i class="fa-solid fa-book-open" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span><i>Crime Perception and Voting Behavior: Evidence from Individual Data</i>, joint with <a href="https://sites.google.com/site/giovanniprarolo/"><i> Giovanni Prarolo </i></a></span>
+          <span><i>Crime Perception and Voting Behavior: Evidence from Individual Data</i>, en colaboración con <a href="https://sites.google.com/site/giovanniprarolo/"><i> Giovanni Prarolo </i></a></span>
       </div>
       <!-- Second row: abstract -->
       <div style="margin-top: 0px; position: relative;">
@@ -80,10 +80,10 @@ nav_order: 1
             </a>
           </div>
           <div id="abstract-2" style="display:inline-block; display:none; padding-left: 30px; line-height: 12pt; font-size: 10pt;">
-              This study examines the impact of crime salience on individual voting behavior, using geolocated crime-related news as a proxy for public concern about crime in the lead-up to elections. Drawing on a retrospective survey of 5000 geolocated individuals across five elections—two national and three administrative—the analysis primarily focuses on national polls, where the absence of local confounders enhances external validity. The results are mixed overall, showing no significant effect on voting behavior when crimes are committed by Italians. However, crimes attributed to immigrants elicit a substantial individual electoral response. Voters tend to withdraw support from the populist Five Star Movement (M5S), known for its ambiguous stance on immigration and instead align with right-wing parties, particularly the Center-Right coalition, which emphasizes law and order. The response to immigrant-related crime also varies by demographic characteristics: high-skilled and educated voters are more likely to abandon M5S, while low-skilled and less-educated voters tend to desert the far-right Lega. In administrative elections, the effect of crime salience diverges. Crimes committed by Italians result in the punishment of incumbents, while immigrant-related crimes lead to increased voter abstention, possibly reflecting the social costs associated with party-switching among left-leaning voters. These findings provide novel insights into the relationship between crime salience, particularly regarding immigration, and individual voting behavior.
+              Este estudio examina el impacto de la saliencia del crimen en el comportamiento electoral individual, utilizando noticias relacionadas con crímenes geolocalizados como un indicador de la preocupación pública por el crimen en el período previo a las elecciones. Basado en una encuesta retrospectiva de 5000 individuos geolocalizados a través de cinco elecciones—dos nacionales y tres administrativas—el análisis se enfoca principalmente en las encuestas nacionales, donde la ausencia de factores locales de confusión mejora la validez externa. Los resultados son mixtos en general, mostrando que no hay un efecto significativo en el comportamiento electoral cuando los crímenes son cometidos por italianos. Sin embargo, los crímenes atribuidos a inmigrantes generan una respuesta electoral sustancial. Los votantes tienden a retirar su apoyo al Movimiento Cinco Estrellas (M5S), conocido por su postura ambigua sobre la inmigración, y en su lugar se alinean con partidos de derecha, particularmente la coalición de centro-derecha, que enfatiza la ley y el orden. La respuesta a los crímenes relacionados con inmigrantes también varía según las características demográficas: los votantes altamente calificados y educados son más propensos a abandonar el M5S, mientras que los votantes de menor cualificación y menos educados tienden a desertar hacia la ultraderecha de la Lega. En las elecciones administrativas, el efecto de la saliencia del crimen diverge. Los crímenes cometidos por italianos resultan en el castigo de los incumbentes, mientras que los crímenes relacionados con inmigrantes conducen a un aumento de la abstención electoral, lo que posiblemente refleja los costos sociales asociados con el cambio de partido entre los votantes de izquierda. Estos hallazgos ofrecen nuevos conocimientos sobre la relación entre la saliencia del crimen, especialmente en relación con la inmigración, y el comportamiento electoral individual.
             <br>
             <div class="b">
-              <b>Keywords:</b> crime, elections, political parties, newspapers, individual voting behavior, dictionary-based classification
+              <b>Palabras clave:</b> crimen, elecciones, partidos políticos, periódicos, comportamiento electoral individual, clasificación basada en diccionario
             </div>
           </div>
       </div>
@@ -108,10 +108,10 @@ nav_order: 1
             </a>
           </div>
           <div id="abstract-3" style="display:inline-block; display:none; padding-left: 30px; line-height: 12pt; font-size: 10pt;">
-              This paper presents a theoretical model that examines the impact of corruption opportunities on the self-selection process of individuals in the public sector. The study explores how the temptation of engaging in corruption influences individuals' career choices. The main finding of the research reveals a dual effect of corruption opportunities in the public sector. On one hand, such opportunities attract individuals with lower ambition and motivation, who are more likely to engage in unethical behavior. On the other hand, when the temptation to participate in corruption becomes significant, highly motivated individuals may be deterred from pursuing a career in the public sector due to self-control issues, leading them to opt for employment in the private sector instead. This finding highlights the importance of considering the impact of corruption and self-control problems on the quality and composition of the public sector workforce, which can have broader implications for economic outcomes.
+              Este artículo presenta un modelo teórico que examina el impacto de las oportunidades de corrupción en el proceso de auto-selección de individuos en el sector público. El estudio explora cómo la tentación de involucrarse en corrupción influye en las decisiones de carrera de los individuos. El principal hallazgo de la investigación revela un efecto dual de las oportunidades de corrupción en el sector público. Por un lado, tales oportunidades atraen a individuos con menor ambición y motivación, quienes son más propensos a involucrarse en comportamientos poco éticos. Por otro lado, cuando la tentación de participar en la corrupción se vuelve significativa, los individuos altamente motivados pueden verse desalentados a seguir una carrera en el sector público debido a problemas de autocontrol, lo que los lleva a optar por el empleo en el sector privado en su lugar. Este hallazgo destaca la importancia de considerar el impacto de la corrupción y los problemas de autocontrol en la calidad y composición de la fuerza laboral del sector público, lo que puede tener implicaciones más amplias para los resultados económicos.
               <br>
               <div class="b">
-                <b>Keywords:</b> self-selection, corruption, temptation, self-control
+                <b>Palabras clave:</b> Auto-selección, corrupción, tentación, autocontrol
               </div>
           </div>
         </div>
@@ -137,7 +137,7 @@ nav_order: 1
           <i class="fa-solid fa-bookmark" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span><i> Public Goods Provision and Voting Turnout </i> , joint with <a href="https://sites.google.com/view/mgeiras/inicio"><i> Martín Gonzalez-Eiras </i></a> and <a href="https://sites.google.com/site/giovanniprarolo/"><i> Giovanni Prarolo </i></a></span>
+          <span><i> Public Goods Provision and Voting Turnout </i>, en colaboración con <a href="https://sites.google.com/view/mgeiras/inicio"><i> Martín Gonzalez-Eiras </i></a> y <a href="https://sites.google.com/site/giovanniprarolo/"><i> Giovanni Prarolo </i></a></span>
       </div>
   </div>
 
@@ -149,7 +149,7 @@ nav_order: 1
           <i class="fa-solid fa-bookmark" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span><i> The Effect of Erasmus Programs on Voting </i> , joint with <a href="https://www.unibo.it/sitoweb/manuel.blasco2/en"><i> Manuel Blasco </i></a></span>
+          <span><i> The Effect of Erasmus Programs on Voting </i>, en colaboración con <a href="https://www.unibo.it/sitoweb/manuel.blasco2/en"><i> Manuel Blasco </i></a></span>
       </div>
   </div>
 
