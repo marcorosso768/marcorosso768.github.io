@@ -5,21 +5,31 @@ title: about me
 permalink: /
 subtitle: >
     <div style="margin-top: -20px;">
-      <p style="font-weight: bold;">Ph.D. Student | Research Fellow | Teaching Assistant</p>
+        <p style="font-weight: bold;">Ph.D. Student | Research Fellow | Teaching Assistant</p>
     </div>
-    <div style="display: flex; align-items: flex-start; gap: 10px; margin-top: 5px;">
-      <div style="display: flex; align-items: center; gap: 5px;">
-        <i class="fa-solid fa-landmark" style="color: var(--global-theme-color); font-size: 10pt;"></i>
-        <span style="color: var(--global-theme-color); font-size: 10pt;">
-          <a href="https://dse.unibo.it/en"><i>Department of Economics,</i></a>
-          <a href="https://www.unibo.it/en/homepage"><i>University of Bologna</i></a><br>
-          <a href="https://goo.gl/maps/1icot9p1g97AWCD37"><i>Piazza Scaravilli 2, 40126, Bologna</i></a>
-        </span>
-      </div>
-      <div style="display: flex; align-items: center; gap: 5px;">
-        <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color); font-size: 10pt;"></i>
-        <span style="font-size: 10pt;">Current location: Buenos Aires, Argentina</span>
-      </div>
+    <div style="margin: 0; padding: 0; position: relative;">
+        <!-- First row: Person icon and seminar title -->
+        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+            <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
+        </div>
+        <div style="display: inline-block; padding-left: 30px;">
+            <span style="color: var(--global-theme-color); font-size: 10pt;">
+              <a href="https://dse.unibo.it/en"><i>Department of Economics,</i></a>
+              <a href="https://www.unibo.it/en/homepage"><i>University of Bologna</i></a><br>
+              <a href="https://goo.gl/maps/1icot9p1g97AWCD37"><i>Piazza Scaravilli 2, 40126, Bologna</i></a>
+            </span>
+        </div>
+        <!-- Second row: Location icon and location text -->
+        <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div style="display: inline-block; padding-left: 30px;">
+                <span style="font-size: 10pt;">
+                    Current location: Buenos Aires, Argentina
+                </span>
+            </div>
+        </div>
     </div>
   
 profile:
@@ -35,6 +45,8 @@ news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+
+<br>
 
 Welcome to my personal website&mdash;glad to have you here intentionally (or at least I hope so!).
 
