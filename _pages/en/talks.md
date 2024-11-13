@@ -34,7 +34,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>University of Modena and Reggio-Emilia, Modena, Italy</i>
+              <i>University of Modena and Reggio-Emilia, Italy</i>
           </div>
       </div>
   </div>
