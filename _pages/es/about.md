@@ -15,13 +15,13 @@ subtitle: >
         <div style="display: inline-block; padding-left: 25px; margin-top: -10pt; line-height: 14pt;">
             <span style="color: var(--global-theme-color); font-size: 10pt;">
               <a href="https://dse.unibo.it/en"><i>Departamento de Economía,</i></a>
-              <a href="https://www.unibo.it/en/homepage"><i>Universidad de Bolonia</i></a>
+              <a href="https://www.unibo.it/en/homepage"><i>Universidad&nbsp;de&nbsp;Bolonia</i></a>
               <p>
                   <a href="https://goo.gl/maps/1icot9p1g97AWCD37"><i>Piazza Scaravilli 2, 40126, Bologna</i></a>
               </p>
             </span>
         </div>
-       <!-- Second row: Location icon and actula location -->
+        <!-- Second row: Location icon and actula location -->
         <div style="margin-top: -12pt; position: relative; font-size: 10pt; margin-bottom: 15px; line-height: 14pt;">
             <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; line-height: 14pt;">
                 <i class="fa-solid fa-location-dot" style="font-size: 10pt;"></i>
