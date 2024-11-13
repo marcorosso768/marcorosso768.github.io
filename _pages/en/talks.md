@@ -129,7 +129,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>University of Sassari, Sassari, Italy</i>
+              <i>University of Sassari, Italy</i>
           </div>
       </div>
   </div>
@@ -171,7 +171,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>University of Bologna, Bologna, Italy</i>
+              <i>University of Bologna, Italy</i>
           </div>
       </div>
   </div>
@@ -225,7 +225,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>University of Bologna, Bologna, Italy</i>
+              <i>University of Bologna, Italy</i>
           </div>
       </div>
   </div>
@@ -267,7 +267,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>University of Bologna, Bologna, Italy</i>
+              <i>University of Bologna, Italy</i>
           </div>
       </div>
   </div>
@@ -320,7 +320,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>University of Bologna, Bologna, Italy</i>
+              <i>University of Bologna, Italy</i>
           </div>
       </div>
   </div>
@@ -341,7 +341,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>University of Bologna, Bologna, Italy</i>
+              <i>University of Bologna, Italy</i>
           </div>
       </div>
   </div>
