@@ -9,7 +9,7 @@ subtitle: >
     </div>
     <div style="margin: 0; padding: 0; position: relative;">
         <!-- First row: Person icon and seminar title -->
-        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; margin-top: -12.5pt;">
+        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; margin-top: -12.5pt; font-size: 10pt;">
             <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
         </div>
         <div style="display: inline-block; padding-left: 30px; margin-top: -12.5pt;">
