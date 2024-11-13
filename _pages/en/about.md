@@ -5,7 +5,7 @@ title: about me
 permalink: /
 subtitle: >
     <div style="margin-top: -20px;">
-        <p style="font-weight: 500;">Ph.D. Student | Research Fellow | Teaching Assistant</p>
+        <p style="font-weight: 600;">Ph.D. Student | Research Fellow | Teaching&nbsp;Assistant</p>
     </div>
     <div style="margin: 0; padding: 0; position: relative;">
         <!-- First row: University icon and department name -->
@@ -16,13 +16,13 @@ subtitle: >
             <span style="color: var(--global-theme-color); font-size: 10pt;">
               <a href="https://dse.unibo.it/en"><i>Department of Economics,</i></a>
               <a href="https://www.unibo.it/en/homepage"><i>University of Bologna</i></a>
-              <p style="margin-top: -7pt;">
+              <p style="margin-top: -5pt;">
                   <a href="https://goo.gl/maps/1icot9p1g97AWCD37"><i>Piazza Scaravilli 2, 40126, Bologna</i></a>
               </p>
             </span>
         </div>
         <!-- Second row: Location icon and actula location -->
-        <div style="position: relative; font-size: 10pt; margin-top: -14pt;">
+        <div style="position: relative; font-size: 10pt; margin-top: -10pt;">
             <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; font-size: 10pt;">
                 <i class="fa-solid fa-location-dot"></i>
             </div>
@@ -32,6 +32,7 @@ subtitle: >
                 </span>
             </div>
         </div>
+        <br>
     </div>
   
 profile:
