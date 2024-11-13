@@ -6,51 +6,51 @@
     - name:
       value: '<span style="font-size:12pt;"><i class="fa-solid fa-envelope" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="mailto:marco.rosso4@unibo.it">marco.rosso4@unibo.it</a> </span>'
     - name:
-      value: '<span style="font-size:12pt;"><i class="fa-solid fa-landmark" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<a href="https://www.unibo.it/sitoweb/marco.rosso4/en">personal page on UniBo website</a> </span>'
+      value: '<span style="font-size:12pt;"><i class="fa-solid fa-landmark" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<a href="https://www.unibo.it/sitoweb/marco.rosso4/en">página personal en el sitio web de UniBo</a> </span>'
 
 - title: educación
   type: time_table
   contents:
-    - title: Ph.D. in Economics
+    - title: Doctorado en Economía
       year: "2020-"
-      institution: University of Bologna
-      department: DSE - Depeartment of Economics
-      location: "Bologna, <br> Italy"
+      institution: Universidad de Bolonia
+      department: DSE - Departamento de Economía
+      location: "Bolonia, <br> Italia"
       supervisor: 'supervisor: <a href="https://sites.google.com/site/paolovanin/"><i>Paolo Vanin</i></a>'
-    - title: Master of Arts in Economics
+    - title: Máster en Economía
       year: "2020"
-      location: "Turin, <br> Italy"
+      location: "Turín, <br> Italia"
       institution: Collegio Carlo Alberto
-    - title: Two-Year Master Degree in Economics
+    - title: Maestría de Dos Años en Economía
       year: "2019"
-      location: "Turin, <br> Italy"
-      institution: University of Turin
-      department: ESOMAS - Department of Economics
+      location: "Turín, <br> Italia"
+      institution: Universidad de Turín
+      department: ESOMAS - Departamento de Economía
       supervisor: 'supervisor: <a href="https://sites.google.com/site/giovannimastrobuoni/"><i>Giovanni Mastrobuoni</i></a>'
-    - title: "Bachelor's degree of Mathematics"
+    - title: Licenciatura en Matemáticas
       year: "2015"
-      location: "Turin, <br> Italy"
-      institution: University of Turin
-      department: Department of Mathematics
+      location: "Turín, <br> Italia"
+      institution: Universidad de Turín
+      department: Departamento de Matemáticas
       supervisor: 'supervisor: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo"><i>Vittoria Demichelis</i></a>'
 
-- title: visiting periods
+- title: períodos de visita
   type: time_table
   contents:
-    - title: Visiting Ph.D. Student
-      year: fall 2024
+    - title: Doctorando Visitante
+      year: primavera 2024
       location: "Buones Aires, <br> Argentina"
       institution: Universidad de San Andrés
       department: Departamento de Economía
-      supervisor: 'local advisor: <a href="https://www.tommy-e-murphy.com"><i>Tommy E. Murphy</i></a>'
-    - title: "Visitor Master's Candidate"
-      year: winter 2019
-      location: "Turin, <br> Italy"
-      institution: Regional Public Health Observatory (SEPI)
-      department: Public Health Department (Local Health Board TO3)
+      supervisor: 'asesor local: <a href="https://www.tommy-e-murphy.com"><i>Tommy E. Murphy</i></a>'
+    - title: "Candidato a Maestría Visitante"
+      year: invierno 2019
+      location: "Turín, <br> Italia"
+      institution: Observatorio Regional de Salud Pública (SEPI)
+      department: Departamento de Salud Pública (Junta de Salud Local TO3)
       supervisor: 'supervisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo"><i>Fulvio Ricceri</i></a>'
 
-- title: academic activities
+- title: actividades académicas
   type: time_table
   contents:
     - title: "Research Fellow: Democratization, the media, socio-economic context, and voting behavior"
@@ -82,13 +82,13 @@
       department: Center for Research on Pensions and Welfare Policies (CeRP)
       supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html"><i>Elsa Fornero</i></a>'
 
-- title: refereeing for academic journals
+- title: revisión para revistas académicas
   type: map
   contents:
     - name:
       value: '<span style="font-size:10pt;"><i class="fa-solid fa-newspaper" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<i style="font-size:10pt;">Journal of Economics &amp; Management Strategy</i></span>'
 
-- title: awards, grants, and scholarships
+- title: premios, becas y subvenciones
   type: time_table
   contents:
     - title: 'Incentivo "Marco Polo" para la Movilidad Internacional en la Investigación'
@@ -101,7 +101,7 @@
       year: "2019"
       institution: Universidad de Turín
 
-- title: networking activities
+- title: actividades de networking
   type: time_table
   contents:
     - title: 'Organizador de los "Partidos Semanales de Fútbol del Departamento"'
@@ -117,7 +117,7 @@
       year: 2021-2022
       institution: University of Bologna
 
-- title: languages
+- title: idiomas
   type: list_groups
   contents:
     - category: "Italian"
@@ -130,7 +130,7 @@
       items:
         - name: "intermediate"
 
-- title: other experience
+- title: otras experiencias
   type: time_table
   contents:
     - title: In-House and On-Stage Data Gathering Operator
@@ -147,24 +147,24 @@
       location: "Carmagnola, <br> Italy"
 
 
-- title: hobbies
+- title: pasatiempos
   type: list_groups
   contents:
-    - category: '<span style="color:var(--global-text-color);"> mixology </span>'
+    - category: '<span style="color:var(--global-text-color);"> mixología </span>'
       icon: "fas fa-cocktail"
-    - category: '<span style="color:var(--global-text-color);"> running </span>'
+    - category: '<span style="color:var(--global-text-color);"> correr </span>'
       icon: "fa-solid fa-person-running"
-    - category: '<span style="color:var(--global-text-color);"> tennis </span>'
+    - category: '<span style="color:var(--global-text-color);"> tenis </span>'
       icon: "fa-solid fa-baseball"
-    - category: '<span style="color:var(--global-text-color);"> climbing </span>'
+    - category: '<span style="color:var(--global-text-color);"> escalada </span>'
       icon: "fa-solid fa-mountain"
-    - category: '<span style="color:var(--global-text-color);"> football </span>'
+    - category: '<span style="color:var(--global-text-color);"> fútbol </span>'
       icon: "fa-regular fa-futbol" 
-    - category: '<span style="color:var(--global-text-color);"> comics </span>'
+    - category: '<span style="color:var(--global-text-color);"> cómics </span>'
       icon: "fa-solid fa-book"
-    - category: '<span style="color:var(--global-text-color);"> video games </span>'
+    - category: '<span style="color:var(--global-text-color);"> videojuegos </span>'
       icon: "fa-solid fa-gamepad"
-    - category: '<span style="color:var(--global-text-color);"> board games </span>'
+    - category: '<span style="color:var(--global-text-color);"> juegos de mesa </span>'
       icon: "fa-solid fa-puzzle-piece"
 
 
