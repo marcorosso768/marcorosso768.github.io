@@ -34,7 +34,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>Università di Modena e Reggio-Emilia, Modena, Italia</i>
+              <i>Università di Modena e Reggio-Emilia, Italia</i>
           </div>
       </div>
   </div>
@@ -129,7 +129,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>Università di Sassari, Sassari, Italia</i>
+              <i>Università di Sassari, Italia</i>
           </div>
       </div>
   </div>
@@ -171,7 +171,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>Università di Bologna, Bologna, Italia</i>
+              <i>Università di Bologna, Italia</i>
           </div>
       </div>
   </div>
@@ -225,7 +225,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>Università di Bologna, Bologna, Italia</i>
+              <i>Università di Bologna, Italia</i>
           </div>
       </div>
   </div>
@@ -267,7 +267,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>Università di Bologna, Bologna, Italia</i>
+              <i>Università di Bologna, Italia</i>
           </div>
       </div>
   </div>
@@ -320,7 +320,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>Università di Bologna, Bologna, Italia</i>
+              <i>Università di Bologna, Italia</i>
           </div>
       </div>
   </div>
@@ -341,7 +341,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>University di Bologna, Bologna, Italia</i>
+              <i>University di Bologna, Italia</i>
           </div>
       </div>
   </div>
