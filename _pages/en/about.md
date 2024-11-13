@@ -5,13 +5,13 @@ title: about me
 permalink: /
 subtitle: >
   <div style="margin: 0; padding: 0; position: relative;">
-    <span style="margin-top: -20px; margin-left: 3.5px; font-weight: bold">
+    <p style="margin-top: -20px; margin-left: 3.5px; font-weight: bold">
       Ph.D. Student | Research Fellow | Teaching Assistant
-    </span>
+    </p>
     <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; font-size: 10pt; margin-top: -10px; margin-left: 3.5px;">
       <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
     </div>
-    <div style="display: inline-block; padding-left: 30px; line-height: 1;">
+    <div style="display: inline-block; padding-left: 30px;>
       <span style="color: var(--global-theme-color);">
         <a href="https://dse.unibo.it/en"><i>Department of Economics,</i></a>
         <a href="https://www.unibo.it/en/homepage"><i>University of Bologna</i></a>
