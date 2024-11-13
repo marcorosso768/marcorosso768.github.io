@@ -4,7 +4,7 @@ layout: about
 title: about me
 permalink: /
 subtitle: >
-  {{ site.data[site.active_lang].subtitle.content }}
+  {{ site.data[site.active_lang].subtitle.content | markdownify }}
 
 profile:
   align: center-right
