@@ -9,7 +9,7 @@ subtitle: >
     </div>
     <div style="margin: 0; padding: 0; position: relative;">
         <!-- First row: University icon and department name -->
-        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; margin-top: -7.5pt;">
+        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; margin-top: -7.5pt; font-size: 10pt;">
             <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
         </div>
         <div style="display: inline-block; padding-left: 30px; margin-top: -7.5pt;">
@@ -17,7 +17,7 @@ subtitle: >
               <a href="https://dse.unibo.it/en"><i>Department of Economics,</i></a>
               <a href="https://www.unibo.it/en/homepage"><i>University of Bologna</i></a>
               <br>
-              <span style="display: inline-block; margin-top: -12.5pt;">
+              <span style="display: inline-block; margin-top: -17.5pt;">
                   <a href="https://goo.gl/maps/1icot9p1g97AWCD37"><i>Piazza Scaravilli 2, 40126, Bologna</i></a>
               <span>
             </span>
