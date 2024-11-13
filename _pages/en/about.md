@@ -7,24 +7,23 @@ subtitle: >
     <p style="margin-top: -20px; margin-left: 3.5px; font-weight: bold">
       Ph.D. Student | Research Fellow | Teaching Assistant
     </p>
-    <div style="display: inline-block; width: 15px; text-align: center; position: absolute; top: 0; font-size: 12pt; margin-top: -20px;">
+    <p style="display: inline-block; width: 15px; text-align: center; position: absolute; top: 0; font-size: 12pt; margin-top: -20px;">
       <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
-    </div>
+    </p>
     <div style="display: inline-block; padding-left: 15px;">
-      <span style="color: var(--global-theme-color);">
-        <a href="https://dse.unibo.it/en"><i style="font-size: 12pt;">Department of Economics,</i></a>
-        <a href="https://www.unibo.it/en/homepage"><i style="font-size: 12pt;">University of Bologna</i></a> <br>
-        <a href="https://goo.gl/maps/1icot9p1g97AWCD37"><i style="font-size: 12pt;">Piazza Scaravilli 2, 40126, Bologna</i></a>
-      </span>
+      <p style="color: var(--global-theme-color);">
+        <a href="https://dse.unibo.it/en"><i style="font-size: 11pt;">Department of Economics,</i></a>
+        <a href="https://www.unibo.it/en/homepage"><i style="font-size: 11pt;">University of Bologna</i></a> <br>
+        <a href="https://goo.gl/maps/1icot9p1g97AWCD37"><i style="font-size: 11pt;">Piazza Scaravilli 2, 40126, Bologna</i></a>
+      </p>
     </div>
     <div style="margin-top: 0px; position: relative; font-size: 10pt;">
       <div style="display: inline-block; width: 15px; text-align: center; position: absolute; top: 0;">
         <i class="fa-solid fa-location-dot"></i>
       </div>
       <div style="display: inline-block; padding-left: 15px;">
-        current location: Buenos Aires, Argentina
+        <p> current location: Buenos Aires, Argentina </p>
       </div>
-      <br>
     </div>
   
 profile:
@@ -40,7 +39,6 @@ news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-
 
 Welcome to my personal website&mdash;glad to have you here intentionally (or at least I hope so!).
 
