@@ -4,9 +4,35 @@ layout: about
 title: sobre mí
 permalink: /
 subtitle: >
-  <p style="font-size: 10pt; margin-top: -15px; margin-left: 3.5px;"> <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i><span style="padding-left: 2.5px;"><a href='https://dse.unibo.it/en'><i>Departamento de Economía,</i></a> <a href='https://www.unibo.it/en/homepage'><i>Universidad de Bolonia</i></a></span></p>
-  <p style="font-size: 10pt; margin-top: -12.5pt; margin-left: 19.5px"><a href='https://goo.gl/maps/1icot9p1g97AWCD37'><i>Piazza Scaravilli 2, 40126, Bolonia</i></a></p>
-  <p style="font-size: 10pt; margin-top: -15px; margin-left: 5px;"> <i class="fa-solid fa-location-dot"></i> <span style="padding-left: 1.5px;">ubicación actual: Buenos Aires, Argentina</span></p>
+    <div style="margin-top: -20px;">
+        <p style="font-weight: 500;">Doctorando | Investigador Postdoctoral | Asistente&nbsp;de&nbsp;Docencia</p>
+    </div>
+    <div style="margin: 0; padding: 0; position: relative;">
+        <!-- First row: University icon and department name -->
+        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; margin-top: -10pt; line-height: 14pt;">
+            <i class="fa-solid fa-landmark" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+        </div>
+        <div style="display: inline-block; padding-left: 25px; margin-top: -10pt; line-height: 14pt;">
+            <span style="color: var(--global-theme-color); font-size: 10pt;">
+              <a href="https://dse.unibo.it/en"><i>Departamento de Economía,</i></a>
+              <a href="https://www.unibo.it/en/homepage"><i>Universidad de Bolonia</i></a>
+              <p>
+                  <a href="https://goo.gl/maps/1icot9p1g97AWCD37"><i>Piazza Scaravilli 2, 40126, Bologna</i></a>
+              </p>
+            </span>
+        </div>
+       <!-- Second row: Location icon and actula location -->
+        <div style="margin-top: -12pt; position: relative; font-size: 10pt; margin-bottom: 15px; line-height: 14pt;">
+            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; line-height: 14pt;">
+                <i class="fa-solid fa-location-dot" style="font-size: 10pt;"></i>
+            </div>
+            <div style="display: inline-block; padding-left: 25px; margin-top: -12pt; line-height: 14pt;">
+                <span style="font-size: 10pt;">
+                    ubicación actual: Buenos Aires, Argentina
+                </span>
+            </div>
+        </div>
+    </div>
 
 profile:
   align: center-right
