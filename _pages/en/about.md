@@ -46,8 +46,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<br>
-
 Welcome to my personal website&mdash;glad to have you here intentionally (or at least I hope so!).
 
 I am a <b style="color: $white-color;">5<sup>th</sup>-year Ph.D. Student in Economics</b> and a <b style="color: $white-color;">Research Fellow</b>&mdash;equivalent to a Post-Doc position in Italy&mdash;at the University of Bologna.
