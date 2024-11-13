@@ -4,27 +4,29 @@ layout: about
 title: about me
 permalink: /
 subtitle: >
+   <div style="margin: 0; padding: 0; position: relative;">
     <p style="margin-top: -20px; margin-left: 3.5px; font-weight: bold">
       Ph.D. Student | Research Fellow | Teaching Assistant
     </p>
-    <p style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; font-size: 10pt; margin-top: -10px; margin-left: 3.5px;">
+    <div style="display: inline-block; width: 5px; text-align: center; position: absolute; top: 0; font-size: 10pt; margin-top: -10px; margin-left: 3.5px;">
       <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
     </div>
-    <p style="display: inline-block; padding-left: 30px;>
+    <div style="display: inline-block; padding-left: 20px;">
       <span style="color: var(--global-theme-color);">
         <a href="https://dse.unibo.it/en"><i>Department of Economics,</i></a>
-        <a href="https://www.unibo.it/en/homepage"><i>University of Bologna</i></a>
+        <a href="https://www.unibo.it/en/homepage"><i>University of Bologna</i></a> <br>
         <a href="https://goo.gl/maps/1icot9p1g97AWCD37"><i>Piazza Scaravilli 2, 40126, Bologna</i></a>
       </span>
-    </p>
-    <p style="margin-top: 0px; position: relative; font-size: 10pt;">
-      <p style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+    </div>
+    <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
         <i class="fa-solid fa-location-dot"></i>
-      </p>
-      <p style="display: inline-block; padding-left: 30px; line-height: 10pt;">
-        current location: Buenos Aires, Argentina
-      </p>
-    </p>
+      </div>
+      <div style="display: inline-block; padding-left: 10px;">
+        current location: Buenos Aires, Argentina <br>
+      </div>
+    </div>
+  </div>
   
 profile:
   align: center-right
