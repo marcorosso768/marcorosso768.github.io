@@ -7,17 +7,17 @@ subtitle: >
     <p style="margin-top: -20px; margin-left: 3.5px; font-weight: bold">
       Ph.D. Student | Research Fellow | Teaching Assistant
     </p>
-    <p style="display: inline-block; width: 20px; text-align: center; position: absolute; top: 0; font-size: 10pt; margin-top: -30px;">
+    <p style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; font-size: 10pt; margin-top: -30px;">
       <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
     </p>
     <p style="display: inline-block; padding-left: 20px; font-size: 10pt;">
       <span style="color: var(--global-theme-color);">
         <a href="https://dse.unibo.it/en"><i>Department of Economics,</i></a>
         <a href="https://www.unibo.it/en/homepage"><i>University of Bologna</i></a> <br>
-        <a href="https://goo.gl/maps/1icot9p1g97AWCD37"><i>Piazza Scaravilli 2, 40126, Bologna</i></a>
+        <a href="https://goo.gl/maps/1icot9p1g97AWCD37"><i>Piazza Scaravilli 2, 40126, Bologna</i></a> <br>
       </span>
     </p>
-      <p style="display: inline-block; width: 20px; text-align: center; position: absolute; top: 0; margin-top: -30px; font-size: 10pt;">
+      <p style="display: inline-block; width: 50px; text-align: center; position: absolute; top: 0; margin-top: -30px; font-size: 10pt;">
         <i class="fa-solid fa-location-dot"></i>
       </p>
       <p style="display: inline-block; padding-left: 20px; font-size: 10pt">
