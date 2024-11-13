@@ -91,16 +91,22 @@
 - title: awards, grants, and scholarships
   type: time_table
   contents:
-    - title: 4-Year Scholarship, Ph.D. Program in Economics
+    - title: Beca Marco Polo para la Movilidad Internacional
+      year: "2024"
+      institution: Universidad de Bolonia
+    - title: Beca de 4 Años, Programa de Doctorado en Economía
       year: "2020"
-      institution: University of Bologna
-    - title: Master Thesis Recommendation for Publication (Italian Merit Title)
+      institution: Universidad de Bolonia
+    - title: Recomendación de Tesis de Maestría para Publicación (Distinción de Mérito Italiano)
       year: "2019"
-      institution: University of Turin
+      institution: Universidad de Turín
 
 - title: networking activities
   type: time_table
   contents:
+    - title: 'Organizador de los "Partidos Semanales de Fútbol del Departamento"'
+      year: 2023-
+      institution: Universidad de Bolonia
     - title: 'Organizer of the "Department Afterwork Drinks"'
       year: 2022-
       institution: University of Bologna
