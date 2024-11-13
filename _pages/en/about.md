@@ -9,10 +9,10 @@ subtitle: >
     </div>
     <div style="margin: 0; padding: 0; position: relative;">
         <!-- First row: University icon and department name -->
-        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; line-height: 12pt; margin-top: -7.5pt;">
+        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; margin-top: -7.5pt;">
             <i class="fa-solid fa-landmark" style="color: var(--global-theme-color); font-size: 10pt;"></i>
         </div>
-        <div style="display: inline-block; padding-left: 25px; line-height: 12pt; margin-top: -7.5pt;">
+        <div style="display: inline-block; padding-left: 25px; margin-top: -7.5pt;">
             <span style="color: var(--global-theme-color); font-size: 10pt;">
               <a href="https://dse.unibo.it/en"><i>Department of Economics,</i></a>
               <a href="https://www.unibo.it/en/homepage"><i>University of Bologna</i></a>
@@ -23,10 +23,10 @@ subtitle: >
         </div>
         <!-- Second row: Location icon and actula location -->
         <div style="position: relative; font-size: 10pt; margin-top: -12.5pt;">
-            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; line-height: 12pt; font-size: 10pt;">
+            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; font-size: 10pt;">
                 <i class="fa-solid fa-location-dot"></i>
             </div>
-            <div style="display: inline-block; padding-left: 25px; line-height: 12pt;">
+            <div style="display: inline-block; padding-left: 25px;">
                 <span style="font-size: 10pt;">
                     Current location: Buenos Aires, Argentina
                 </span>
