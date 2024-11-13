@@ -12,7 +12,7 @@ subtitle: >
         <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; margin-top: -10pt;">
             <i class="fa-solid fa-landmark" style="color: var(--global-theme-color); font-size: 10pt;"></i>
         </div>
-        <div style="display: inline-block; padding-left: 25px; margin-top: -10pt;">
+        <div style="display: inline-block; padding-left: 25px; margin-top: -10pt; line-height: 12pt;">
             <span style="color: var(--global-theme-color); font-size: 10pt;">
               <a href="https://dse.unibo.it"><i>Dipartimento di Scienze Economiche,</i></a>
               <a href="https://www.unibo.it/it"><i>Università&nbsp;di&nbsp;Bologna</i></a>
@@ -22,7 +22,7 @@ subtitle: >
             </span>
         </div>
         <!-- Second row: Location icon and actula location -->
-        <div style="position: relative; font-size: 10pt; margin-top: -11pt; margin-bottom: 15px">
+        <div style="position: relative; font-size: 10pt; margin-top: -12pt; margin-bottom: 15px">
             <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; font-size: 10pt;">
                 <i class="fa-solid fa-location-dot"></i>
             </div>
