@@ -137,7 +137,7 @@ nav_order: 1
           <i class="fa-solid fa-bookmark" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span><i> Public Goods Provision and Voting Turnout </i> , joint with <a href="https://sites.google.com/view/mgeiras/inicio"><i> Martín Gonzalez-Eiras </i></a> and <a href="https://sites.google.com/site/giovanniprarolo/"><i> Giovanni Prarolo </i></a></span>
+          <span><i> Public Goods Provision and Voting Turnout </i>, joint with <a href="https://sites.google.com/view/mgeiras/inicio"><i> Martín Gonzalez-Eiras </i></a> and <a href="https://sites.google.com/site/giovanniprarolo/"><i> Giovanni Prarolo </i></a></span>
       </div>
   </div>
 
@@ -149,7 +149,7 @@ nav_order: 1
           <i class="fa-solid fa-bookmark" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span><i> The Effect of Erasmus Programs on Voting </i> , joint with <a href="https://www.unibo.it/sitoweb/manuel.blasco2/en"><i> Manuel Blasco </i></a></span>
+          <span><i> The Effect of Erasmus Programs on Voting </i>, joint with <a href="https://www.unibo.it/sitoweb/manuel.blasco2/en"><i> Manuel Blasco </i></a></span>
       </div>
   </div>
 
