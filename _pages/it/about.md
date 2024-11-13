@@ -22,11 +22,11 @@ subtitle: >
             </span>
         </div>
         <!-- Second row: Location icon and actula location -->
-        <div style="position: relative; font-size: 10pt; margin-top: -12pt; margin-bottom: 15px; line-height: 14pt;">
-            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; font-size: 10pt; line-height: 14pt;">
-                <i class="fa-solid fa-location-dot"></i>
+        <div style="position: relative; margin-bottom: 15px; line-height: 14pt;">
+            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; margin-top: -12pt; line-height: 14pt;">
+                <i class="fa-solid fa-location-dot" style="font-size: 10pt;"></i>
             </div>
-            <div style="display: inline-block; padding-left: 25px; line-height: 14pt;">
+            <div style="display: inline-block; padding-left: 25px; margin-top: -12pt; line-height: 14pt;">
                 <span style="font-size: 10pt;">
                     posizione attuale: Buenos Aires, Argentina
                 </span>
