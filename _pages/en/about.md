@@ -17,7 +17,7 @@ subtitle: >
               <a href="https://dse.unibo.it/en"><i>Department of Economics,</i></a>
               <a href="https://www.unibo.it/en/homepage"><i>University of Bologna</i></a>
               <br>
-              <span style="margin-top: -15pt;">
+              <span style="margin-top: -17.5pt;">
                   <a href="https://goo.gl/maps/1icot9p1g97AWCD37"><i>Piazza Scaravilli 2, 40126, Bologna</i></a>
               <span>
             </span>
