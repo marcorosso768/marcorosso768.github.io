@@ -7,24 +7,22 @@ subtitle: >
     <p style="margin-top: -20px; margin-left: 3.5px; font-weight: bold">
       Ph.D. Student | Research Fellow | Teaching Assistant
     </p>
-    <p style="display: inline-block; width: 15px; text-align: center; position: absolute; top: 0; font-size: 12pt; margin-top: -20px;">
+    <p style="display: inline-block; width: 20px; text-align: center; position: absolute; top: 0; font-size: 10pt; margin-top: -30px;">
       <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
     </p>
-    <div style="display: inline-block; padding-left: 15px;">
-      <p style="color: var(--global-theme-color);">
-        <a href="https://dse.unibo.it/en"><i style="font-size: 11pt;">Department of Economics,</i></a>
-        <a href="https://www.unibo.it/en/homepage"><i style="font-size: 11pt;">University of Bologna</i></a> <br>
-        <a href="https://goo.gl/maps/1icot9p1g97AWCD37"><i style="font-size: 11pt;">Piazza Scaravilli 2, 40126, Bologna</i></a>
-      </p>
-    </div>
-    <div style="margin-top: 0px; position: relative; font-size: 10pt;">
-      <div style="display: inline-block; width: 15px; text-align: center; position: absolute; top: 0;">
+    <p style="display: inline-block; padding-left: 20px; font-size: 10pt;">
+      <span style="color: var(--global-theme-color);">
+        <a href="https://dse.unibo.it/en"><i>Department of Economics,</i></a>
+        <a href="https://www.unibo.it/en/homepage"><i>University of Bologna</i></a> <br>
+        <a href="https://goo.gl/maps/1icot9p1g97AWCD37"><i>Piazza Scaravilli 2, 40126, Bologna</i></a>
+      </span>
+    </p>
+      <p style="display: inline-block; width: 20px; text-align: center; position: absolute; top: 0; margin-top: -30px; font-size: 10pt;">
         <i class="fa-solid fa-location-dot"></i>
-      </div>
-      <div style="display: inline-block; padding-left: 15px;">
-        <p> current location: Buenos Aires, Argentina </p>
-      </div>
-    </div>
+      </p>
+      <p style="display: inline-block; padding-left: 20px; font-size: 10pt">
+        current location: Buenos Aires, Argentina
+      </p>
   
 profile:
   align: center-right
