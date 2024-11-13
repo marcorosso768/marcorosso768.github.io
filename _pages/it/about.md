@@ -16,7 +16,7 @@ subtitle: >
             <span style="color: var(--global-theme-color); font-size: 10pt;">
               <a href="https://dse.unibo.it"><i>Dipartimento di Scienze Economiche,</i></a>
               <a href="https://www.unibo.it/it"><i>Università&nbsp;di&nbsp;Bologna</i></a>
-              <p style="margin-top: -2.5pt;">
+              <p>
                   <a href="https://goo.gl/maps/1icot9p1g97AWCD37"><i>Piazza Scaravilli 2, 40126, Bologna</i></a>
               </p>
             </span>
