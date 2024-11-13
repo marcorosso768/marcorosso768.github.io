@@ -7,7 +7,7 @@ subtitle: >
     <div style="margin-top: -20px;">
         <p style="font-weight: 500;">Ph.D. Student | Research Fellow | Teaching Assistant</p>
     </div>
-    <div style="margin: 0; padding: 0; position: relative;">
+    <div style="margin: 0; padding: 0; position: relative; margin-bottom: 20px;">
         <!-- First row: University icon and department name -->
         <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0; margin-top: -10pt;">
             <i class="fa-solid fa-landmark" style="color: var(--global-theme-color); font-size: 10pt;"></i>
@@ -32,7 +32,6 @@ subtitle: >
                 </span>
             </div>
         </div>
-    <br>
     </div>
   
 profile:
