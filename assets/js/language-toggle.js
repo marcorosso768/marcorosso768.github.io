@@ -3,6 +3,8 @@ function setLanguage(language) {
   const defaultLanguage = 'en';
   const currentPath = window.location.pathname;
   const isHomepage = currentPath === '/';
+  // Parse the JSON data from the HTML script element
+  const urlMap = JSON.parse(document.getElementById('urlMapData').textContent);
 
   // Determine the current language based on the URL prefix
   const currentLanguage = isHomepage ? defaultLanguage : (currentPath.split('/')[1] || defaultLanguage);
