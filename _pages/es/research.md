@@ -34,7 +34,7 @@ nav_order: 1
           <!-- Abstract toggle link with Font Awesome icons -->
           <div style="display: inline-block; padding-left: 30px; font-size: 11pt;">
             <a href="javascript:void(0);" id="toggle-abstract-1" onclick="toggleAbstract('abstract-1')">
-              <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Abstract</i>
+              <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Resumen</i>
             </a>
           </div>
           <div id="abstract-1" style="display:inline-block; display:none; padding-left: 30px; line-height: 12pt; font-size: 10pt;">
@@ -76,7 +76,7 @@ nav_order: 1
           <!-- Abstract toggle link with Font Awesome icons -->
           <div style="display: inline-block; padding-left: 30px; font-size: 11pt;">
             <a href="javascript:void(0);" id="toggle-abstract-2" onclick="toggleAbstract('abstract-2')">
-              <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Abstract</i>
+              <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Resumen</i>
             </a>
           </div>
           <div id="abstract-2" style="display:inline-block; display:none; padding-left: 30px; line-height: 12pt; font-size: 10pt;">
@@ -104,7 +104,7 @@ nav_order: 1
           <!-- Abstract toggle link with Font Awesome icons -->
           <div style="display: inline-block; padding-left: 30px; font-size: 11pt;">
             <a href="javascript:void(0);" id="toggle-abstract-3" onclick="toggleAbstract('abstract-3')">
-              <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Abstract</i>
+              <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Resumen</i>
             </a>
           </div>
           <div id="abstract-3" style="display:inline-block; display:none; padding-left: 30px; line-height: 12pt; font-size: 10pt;">
