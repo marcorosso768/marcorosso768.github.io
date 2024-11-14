@@ -1,33 +1,25 @@
-// Function to set language, store it, and redirect
+// Function to set language, store it, and change the language of the current page
 function setLanguage(language) {
   const defaultLanguage = 'en';
-  const isHomepage = window.location.pathname === '/';
+  const currentPath = window.location.pathname;
+  const isHomepage = currentPath === '/';
 
-  // Only store and redirect if on the homepage
-  if (isHomepage) {
-    const newPath = language === defaultLanguage ? '/' : `/${language}/`;
-    localStorage.setItem('userLanguage', language); // Store the user's choice for future visits
-    sessionStorage.setItem('languageRedirected', 'true'); // Mark that we handled redirection in this session
-    window.location.href = newPath; // Redirect to the new path
+  // Fetch the URL mapping from the YAML file
+  const urlMap = {{ site.data.url_map | jsonify }};
+  const currentLanguage = isHomepage ? defaultLanguage : currentPath.split('/')[1];
+
+  // Determine the new path based on the selected language
+  let newPath;
+  if (language === defaultLanguage) {
+    newPath = urlMap[defaultLanguage][currentPath] || '/';
   } else {
-    // If not on the homepage, just store the language and clear the session redirect flag
-    localStorage.setItem('userLanguage', language);
-    sessionStorage.removeItem('languageRedirected'); // Clear flag to allow further changes
-    const newPath = language === defaultLanguage ? '/' : `/${language}/`;
-    window.location.href = newPath; // Redirect to the selected language path
+    newPath = urlMap[language][currentPath] || `/${language}/`;
   }
+
+  // Store the user's choice for future visits
+  localStorage.setItem('userLanguage', language);
+  sessionStorage.removeItem('languageRedirected'); // Clear flag to allow further changes
+
+  // Redirect to the mapped URL
+  window.location.href = newPath;
 }
-
-// Apply language preference on homepage load, only if no redirect was done in the session
-document.addEventListener("DOMContentLoaded", function() {
-  const userLanguage = localStorage.getItem('userLanguage') || 'en';
-  const isHomepage = window.location.pathname === '/';
-  const hasRedirected = sessionStorage.getItem('languageRedirected');
-
-  // Only redirect on the homepage if no redirect has been done in this session
-  if (isHomepage && userLanguage !== 'en' && !hasRedirected) {
-    const newURL = `/${userLanguage}/`;
-    sessionStorage.setItem('languageRedirected', 'true'); // Prevent further redirects in this session
-    window.location.href = newURL;
-  }
-});
