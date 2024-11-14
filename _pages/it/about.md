@@ -1,7 +1,7 @@
 ---
 page_id: about
 layout: about
-title: su di me
+title: su&nbsp;di me
 permalink: /
 subtitle: >
     <div style="margin-top: -20px;">
