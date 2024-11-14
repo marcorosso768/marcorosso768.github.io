@@ -35,36 +35,6 @@
               {% include social_header.liquid %}
             </div>
           </div>
-        
-          <!-- Toggle language -->
-          <!-- <div style="display: inline-block; line-height: 1; font-size: 12pt; margin-left: -7.5px; color: var(  global-theme-color);"> -->
-          <!-- <b>{{ site.data[site.active_lang].strings.lang_note }}</b> -->
-          <!-- </div> -->
-          <div style="display: inline-block; vertical-align: middle; horizontal-align: ceenter; line-height: 1; font-size: 12pt; margin-left: -15px;">
-            {% if site.languages.size >= 2 %}
-              <ul class="navbar-nav" style="list-style-type: none; padding-left: 0;">
-                <li class="nav-item dropdown">
-                  <!-- Dropdown Toggle (Icon Only) -->
-                  <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" aria-label="Select language" style="color: var(--global-theme-color);">
-                    <i class="fa fa-language" aria-hidden="true" style="color: var(--global-theme-color);"></i>
-                  </a>
-                  <!-- Dropdown Menu (Language Options with Custom Names in Default Color) -->
-                  <div class="dropdown-menu dropdown-menu-right">
-                    {% assign language_names = site.data.language_names %}
-                    {% for l in site.languages %}
-                      <a class="dropdown-item {% if l == site.active_lang %}active{% endif %}" onclick="setLanguage('{{ l }}')" aria-label="Change language to {{ l }}">
-                        {% if site.country_flag %}
-                          <span class="fi fi-{{ l | split: '-' | last }}"></span>
-                        {% endif %}
-                        <!-- Custom Language Name (Default Case) -->
-                        {{ language_names[l] | default: l }}
-                      </a>
-                    {% endfor %}
-                  </div>
-                </li>
-              </ul>
-            {% endif %}
-          </div>
         </div>
       {% endif %}
 
@@ -164,12 +134,42 @@
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
-              <button id="light-toggle" title="Change theme">
+              <button id="light-toggle" title="Change theme" style="color: var(--global-theme-color);">
                 <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
                 <i class="ti ti-sun-filled" id="light-toggle-light"></i>
               </button>
             </li>
           {% endif %}
+
+          <!-- Toggle language -->
+          <!-- <div style="display: inline-block; line-height: 1; font-size: 12pt; margin-left: -7.5px; color: var(  global-theme-color);"> -->
+          <!-- <b>{{ site.data[site.active_lang].strings.lang_note }}</b> -->
+          <!-- </div> -->
+          <div style="display: inline-block; vertical-align: middle; horizontal-align: ceenter; line-height: 1; font-size: 12pt; margin-left: -15px;">
+            {% if site.languages.size >= 2 %}
+              <ul class="navbar-nav" style="list-style-type: none; padding-left: 0;">
+                <li class="nav-item dropdown">
+                  <!-- Dropdown Toggle (Icon Only) -->
+                  <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" aria-label="Select language" style="color: var(--global-theme-color);">
+                    <i class="fa fa-language" aria-hidden="true" style="color: var(--global-theme-color);"></i>
+                  </a>
+                  <!-- Dropdown Menu (Language Options with Custom Names in Default Color) -->
+                  <div class="dropdown-menu dropdown-menu-right">
+                    {% assign language_names = site.data.language_names %}
+                    {% for l in site.languages %}
+                      <a class="dropdown-item {% if l == site.active_lang %}active{% endif %}" onclick="setLanguage('{{ l }}')" aria-label="Change language to {{ l }}">
+                        {% if site.country_flag %}
+                          <span class="fi fi-{{ l | split: '-' | last }}"></span>
+                        {% endif %}
+                        <!-- Custom Language Name (Default Case) -->
+                        {{ language_names[l] | default: l }}
+                      </a>
+                    {% endfor %}
+                  </div>
+                </li>
+              </ul>
+            {% endif %}
+          </div>
         </ul>
       </div>
     </div>
