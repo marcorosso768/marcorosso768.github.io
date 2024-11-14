@@ -4,7 +4,7 @@ layout: page
 permalink: /talks/
 title: talks
 subtitle: >
-    <p style="color: var(--global-theme-color); margin-top: -20px;"><a href='https://marcorosso.com/it/conferenze/'>conferenze</a>&nbsp;|&nbsp;<a href='https://marcorosso.com/es/conferencias/'>conferencias</a></p>
+    <p style="color: var(--global-theme-color); margin-top: -20px; font-weight: 500;"><a href='https://marcorosso.com/it/conferenze/'>conferenze</a>&nbsp;|&nbsp;<a href='https://marcorosso.com/es/conferencias/'>conferencias</a></p>
 description:
 nav: true
 nav_order: 2
