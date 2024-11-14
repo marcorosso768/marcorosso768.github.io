@@ -10,18 +10,34 @@ function setLanguage(language) {
 
   // Determine the new path based on the selected language
   let newPath;
+
+  // If switching to the default language (English)
   if (language === defaultLanguage) {
-    // For default language, use the English URL without a prefix
+    // Use the English URL without a prefix
     newPath = urlMap[defaultLanguage][currentPath] || '/';
   } else {
-    // For other languages, look up the corresponding URL
+    // Look up the current page in the selected language
     newPath = urlMap[language][currentPath] || `/${language}/`;
   }
 
-  // Store the user's choice for future visits
+  // Store the user's language choice for future visits
   localStorage.setItem('userLanguage', language);
   sessionStorage.removeItem('languageRedirected'); // Clear flag to allow further changes
 
   // Redirect to the mapped URL
   window.location.href = newPath;
 }
+
+// Apply language preference on homepage load, only if no redirect was done in the session
+document.addEventListener("DOMContentLoaded", function() {
+  const userLanguage = localStorage.getItem('userLanguage') || 'en';
+  const isHomepage = window.location.pathname === '/';
+  const hasRedirected = sessionStorage.getItem('languageRedirected');
+
+  // Only redirect on the homepage if no redirect has been done in this session
+  if (isHomepage && userLanguage !== 'en' && !hasRedirected) {
+    const newURL = `/${userLanguage}/`;
+    sessionStorage.setItem('languageRedirected', 'true'); // Prevent further redirects in this session
+    window.location.href = newURL;
+  }
+});
