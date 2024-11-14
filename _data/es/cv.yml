@@ -6,159 +6,163 @@
     - name:
       value: '<span style="font-size:12pt;"><i class="fa-solid fa-envelope" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="mailto:marco.rosso4@unibo.it">marco.rosso4@unibo.it</a> </span>'
     - name:
-      value: '<span style="font-size:12pt;"><i class="fa-solid fa-landmark" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<a href="https://www.unibo.it/sitoweb/marco.rosso4/en">personal page on UniBo website</a> </span>'
+      value: '<span style="font-size:12pt;"><i class="fa-solid fa-landmark" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<a href="https://www.unibo.it/sitoweb/marco.rosso4/en">página personal en el sitio web de UniBo</a> </span>'
 
 - title: educación
   type: time_table
   contents:
-    - title: Ph.D. in Economics
+    - title: Doctorado en Economía
       year: "2020-"
-      institution: University of Bologna
-      department: DSE - Depeartment of Economics
-      location: "Bologna, <br> Italy"
+      institution: Universidad de Bolonia
+      department: DSE - Departamento de Economía
+      location: "Bolonia, <br> Italia"
       supervisor: 'supervisor: <a href="https://sites.google.com/site/paolovanin/"><i>Paolo Vanin</i></a>'
-    - title: Master of Arts in Economics
+    - title: Máster en Economía
       year: "2020"
-      location: "Turin, <br> Italy"
+      location: "Turín, <br> Italia"
       institution: Collegio Carlo Alberto
-    - title: Two-Year Master Degree in Economics
+    - title: Maestría de Dos Años en Economía
       year: "2019"
-      location: "Turin, <br> Italy"
-      institution: University of Turin
-      department: ESOMAS - Department of Economics
+      location: "Turín, <br> Italia"
+      institution: Universidad de Turín
+      department: ESOMAS - Departamento de Economía
       supervisor: 'supervisor: <a href="https://sites.google.com/site/giovannimastrobuoni/"><i>Giovanni Mastrobuoni</i></a>'
-    - title: "Bachelor's degree of Mathematics"
+    - title: Licenciatura en Matemáticas
       year: "2015"
-      location: "Turin, <br> Italy"
-      institution: University of Turin
-      department: Department of Mathematics
+      location: "Turín, <br> Italia"
+      institution: Universidad de Turín
+      department: Departamento de Matemáticas
       supervisor: 'supervisor: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo"><i>Vittoria Demichelis</i></a>'
 
-- title: visiting periods
+- title: períodos de visita
   type: time_table
   contents:
-    - title: Visiting Ph.D. Student
-      year: fall 2024
+    - title: Doctorando Visitante
+      year: primavera 2024
       location: "Buones Aires, <br> Argentina"
       institution: Universidad de San Andrés
       department: Departamento de Economía
-      supervisor: 'local advisor: <a href="https://www.tommy-e-murphy.com"><i>Tommy E. Murphy</i></a>'
-    - title: "Visitor Master's Candidate"
-      year: winter 2019
-      location: "Turin, <br> Italy"
-      institution: Regional Public Health Observatory (SEPI)
-      department: Public Health Department (Local Health Board TO3)
+      supervisor: 'asesor local: <a href="https://www.tommy-e-murphy.com"><i>Tommy E. Murphy</i></a>'
+    - title: "Candidato a Maestría Visitante"
+      year: invierno 2019
+      location: "Turín, <br> Italia"
+      institution: Observatorio Regional de Salud Pública (SEPI)
+      department: Departamento de Salud Pública (Junta de Salud Local TO3)
       supervisor: 'supervisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo"><i>Fulvio Ricceri</i></a>'
 
-- title: academic activities
+- title: actividades académicas
   type: time_table
   contents:
-    - title: "Research Fellow: Democratization, the media, socio-economic context, and voting behavior"
+    - title: "Investigador Postdoctoral: Democratización, los medios de comunicación, contexto socioeconómico y comportamiento electoral"
       year: 2024-
-      location: "Bologna, <br> Italy"
-      institution: University of Bologna
-      department: DSE - Department of Economics
+      location: "Bolonia, <br> Italia"
+      institution: Universidad de Bolonia
+      department: DSE - Departamento de Economía
       supervisor: 'supervisors: <a href="https://jnchapman.com"><i>Jonathan Neil Chapman</i></a> and <a href="https://sites.google.com/site/giovanniprarolo/"><i>Giovanni Prarolo</i></a>'
-    - title: Participation on the Committee for the International SAT Test used for University Admissions
+    - title: Participación en el Comité del Examen SAT Internacional utilizado para las Admisiones Universitarias
       year: "2024"
-      location: "Bologna, <br> Italy"
+      location: "Bolonia, <br> Italia"
       institution: College Board (New York)
-    - title: Implementation of Online Experiments in the Context of the MinUTo Project
+    - title: Implementación de Experimentos en Línea en el Contexto del Proyecto MinUTo
       year: "2024"
-      location: "Bologna, <br> Italy"
-      institution: University of Bologna
-      department: DSE - Department of Economics
+      location: "Bolonia, <br> Italia"
+      institution: Universidad de Bolonia
+      department: DSE - Departamento de Economía
       supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en"><i>Maria Bigoni</i></a> and <a href="https://sites.google.com/site/stefaniabortolotti/home"><i>Stefania Bortolotti</i></a>'
-    - title: Generation and Preparation of Support Material for the Econometrics Course
+    - title: Generación y preparación de material de apoyo para el curso de Econometría
       year: "2023"
-      location: "Bologna, <br> Italy"
-      institution: University of Bologna
-      department: DSE - Department of Economics
+      location: "Bolonia, <br> Italia"
+      institution: Universidad de Bolonia
+      department: DSE - Departamento de Economía
       supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/margherita.fort/en"><i>Margherita Fort</i></a> and <a href="https://sites.google.com/site/dennitommasi/"><i>Denni Tommasi</i></a>'
-    - title: Research Assistant
+    - title: Asistente de investigación
       year: "2018"
-      location: "Turin, <br> Italy"
+      location: "Turín, <br> Italia"
       institution: Collegio Carlo Alberto
-      department: Center for Research on Pensions and Welfare Policies (CeRP)
+      department: Centro de Investigación sobre Pensiones y Políticas de Bienestar (CeRP)
       supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html"><i>Elsa Fornero</i></a>'
 
-- title: refereeing for academic journals
+- title: revisión para revistas académicas
   type: map
   contents:
     - name:
       value: '<span style="font-size:10pt;"><i class="fa-solid fa-newspaper" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<i style="font-size:10pt;">Journal of Economics &amp; Management Strategy</i></span>'
 
-- title: awards, grants, and scholarships
+- title: premios, becas y subvenciones
   type: time_table
   contents:
-    - title: 4-Year Scholarship, Ph.D. Program in Economics
+    - title: 'Incentivo "Marco Polo" para la Movilidad Internacional en la Investigación'
+      year: "2024"
+      institution: Universidad de Bolonia
+    - title: Beca de 4 Años, Programa de Doctorado en Economía
       year: "2020"
-      institution: University of Bologna
-    - title: Master Thesis Recommendation for Publication (Italian Merit Title)
+      institution: Universidad de Bolonia
+    - title: Recomendación de Tesis de Maestría para Publicación (Distinción de Mérito Italiano)
       year: "2019"
-      institution: University of Turin
+      institution: Universidad de Turín
 
-- title: networking activities
+- title: actividades de networking
   type: time_table
   contents:
-    - title: 'Organizer of the "Department Afterwork Drinks"'
+    - title: 'Organizador de los "Partidos Semanales de Fútbol del Departamento"'
+      year: 2023-
+      institution: Universidad de Bolonia
+    - title: 'Organizador de los "Afterwork Drinks del Departamento"'
       year: 2022-
-      institution: University of Bologna
-    - title: 'Co-organizer of the "Research in Steps" (RiS) Seminars Series for Ph.D. Students'
+      institution: Universidad de Bolonia
+    - title: 'Co-organizador de la serie de seminarios "Research in Steps" (RiS) para estudiantes de doctorado'
       year: 2022-2023
-      institution: University of Bologna
-    - title: 'Co-founder and co-organizer of the Reading Group on "Political Economics of Violence and Corruption"'
+      institution: Universidad de Bolonia
+    - title: 'Co-fundador y co-organizador del grupo de lectura sobre la "Economía Política de la Violencia y la Corrupción"'
       year: 2021-2022
-      institution: University of Bologna
+      institution: Universidad de Bolonia
 
-- title: languages
+- title: idiomas
   type: list_groups
   contents:
-    - category: "Italian"
+    - category: "italiano"
       items:
-        - name: "native"
-    - category: "English"
+        - name: "nativo"
+    - category: "inglés"
       items:
-        - name: "fluent"
-    - category: "Spanish"
+        - name: "fluido"
+    - category: "español"
       items:
-        - name: "intermediate"
+        - name: "intermedio"
 
-- title: other experience
+- title: otras experiencias
   type: time_table
   contents:
-    - title: In-House and On-Stage Data Gathering Operator
+    - title: Operador de recolección de datos interno y en el escenario
       year: 2016-2021
       firm: Deltatre
-      location: "Turin, <br> Italy"
-    - title: Youth Football Coach
+      location: "Turín, <br> Italia"
+    - title: Entrenador de fútbol juvenil
       year: 2014-2016
       soccer: A.P.D. Pecetto
-      location: "Pecetto, <br> Italy"
-    - title: Youth Football Coach
+      location: "Pecetto, <br> Italia"
+    - title: Entrenador de fútbol juvenil
       year: 2013-2014
       soccer: C.S.F. Carmagnola
-      location: "Carmagnola, <br> Italy"
+      location: "Carmagnola, <br> Italia"
 
 
-- title: hobbies
+- title: pasatiempos
   type: list_groups
   contents:
-    - category: '<span style="color:var(--global-text-color);"> mixology </span>'
+    - category: '<span style="color:var(--global-text-color);"> mixología </span>'
       icon: "fas fa-cocktail"
-    - category: '<span style="color:var(--global-text-color);"> running </span>'
+    - category: '<span style="color:var(--global-text-color);"> correr </span>'
       icon: "fa-solid fa-person-running"
-    - category: '<span style="color:var(--global-text-color);"> tennis </span>'
+    - category: '<span style="color:var(--global-text-color);"> tenis </span>'
       icon: "fa-solid fa-baseball"
-    - category: '<span style="color:var(--global-text-color);"> climbing </span>'
+    - category: '<span style="color:var(--global-text-color);"> escalada </span>'
       icon: "fa-solid fa-mountain"
-    - category: '<span style="color:var(--global-text-color);"> football </span>'
+    - category: '<span style="color:var(--global-text-color);"> fútbol </span>'
       icon: "fa-regular fa-futbol" 
-    - category: '<span style="color:var(--global-text-color);"> comics </span>'
+    - category: '<span style="color:var(--global-text-color);"> cómics </span>'
       icon: "fa-solid fa-book"
-    - category: '<span style="color:var(--global-text-color);"> video games </span>'
+    - category: '<span style="color:var(--global-text-color);"> videojuegos </span>'
       icon: "fa-solid fa-gamepad"
-    - category: '<span style="color:var(--global-text-color);"> board games </span>'
+    - category: '<span style="color:var(--global-text-color);"> juegos de mesa </span>'
       icon: "fa-solid fa-puzzle-piece"
-
-
