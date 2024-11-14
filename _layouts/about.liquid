@@ -46,8 +46,8 @@ layout: default
       {% if page.news and site.announcements.enabled %}
         <h2>
           <a href="{% case site.active_lang %}
-            {% when 'it' %}{{ '/novità/' | relative_url }}
-            {% when 'es' %}{{ '/novidades/' | relative_url }}
+            {% when 'it' %}{{ '/it/novità/' | relative_url }}
+            {% when 'es' %}{{ '/es/novedades/' | relative_url }}
             {% else %}{{ '/news/' | relative_url }}
           {% endcase %}"
           style="color: var(--global-theme-color)">
