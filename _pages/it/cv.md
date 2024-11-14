@@ -2,7 +2,7 @@
 page_id: cv
 layout: cv
 permalink: /curriculum_vitae/
-title: curriculum vitae
+title: curriculum&nbsp;vitae
 subtitle: >
     <p style="color: var(--global-theme-color); margin-top: -20px;"><a href="#" onclick="window.location.href='https://marcorosso.com/curriculum_vitae/'; return false;">English</a>&nbsp;|&nbsp;<a href='https://marcorosso.com/es/curriculum_vitae/'>español</a></p>
 nav: true
