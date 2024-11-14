@@ -1,7 +1,7 @@
 ---
 id: dropdown
 layout: page
-title: other
+title: more
 nav: true
 nav_order: 5
 dropdown: true
