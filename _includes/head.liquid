@@ -72,10 +72,10 @@
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
 <!-- Language -->
-<script src="{{ site.baseurl }}/assets/js/language-toggle.js"></script>
 <script id="urlMapData" type="application/json">
   {{ site.data.url_map | jsonify }}
 </script>
+<script src="/assets/js/language-toggle.js"></script>
 
 <!-- Dark Mode -->
 <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
