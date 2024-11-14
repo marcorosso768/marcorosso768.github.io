@@ -1,4 +1,4 @@
-// Function to set language, store it, and change the language of the current page
+// Function to set language, store it, and redirect based on the URL mapping
 function setLanguage(language) {
   const defaultLanguage = 'en';
   const currentPath = window.location.pathname;
@@ -6,13 +6,15 @@ function setLanguage(language) {
 
   // Fetch the URL mapping from the YAML file
   const urlMap = {{ site.data.url_map | jsonify }};
-  const currentLanguage = isHomepage ? defaultLanguage : currentPath.split('/')[1];
+  const currentLanguage = isHomepage ? defaultLanguage : (currentPath.split('/')[1] || defaultLanguage);
 
   // Determine the new path based on the selected language
   let newPath;
   if (language === defaultLanguage) {
+    // For default language, use the English URL without a prefix
     newPath = urlMap[defaultLanguage][currentPath] || '/';
   } else {
+    // For other languages, look up the corresponding URL
     newPath = urlMap[language][currentPath] || `/${language}/`;
   }
 
