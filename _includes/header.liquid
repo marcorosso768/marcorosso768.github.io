@@ -121,31 +121,11 @@
               {% endif %}
             {% endif %}
           {% endfor %}
-          {% if site.search_enabled %}
-
-            <!-- Search -->
-            <li class="nav-item">
-              <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
-              </button>
-            </li>
-          {% endif %}
-
-          {% if site.enable_darkmode %}
-            <!-- Toogle theme mode -->
-            <li class="toggle-container">
-              <button id="light-toggle" title="Change theme" style="color: var(--global-theme-color);">
-                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
-                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
-              </button>
-            </li>
-          {% endif %}
 
           <!-- Toggle language -->
           <!-- <div style="display: inline-block; line-height: 1; font-size: 12pt; margin-left: -7.5px; color: var(  global-theme-color);"> -->
           <!-- <b>{{ site.data[site.active_lang].strings.lang_note }}</b> -->
           <!-- </div> -->
-          <div style="font-size: 12pt; margin-left: 4pt;">
             {% if site.languages.size >= 2 %}
               <ul class="navbar-nav" style="list-style-type: none; padding-left: 0;">
                 <li class="nav-item dropdown">
@@ -169,7 +149,26 @@
                 </li>
               </ul>
             {% endif %}
-          </div>
+            
+            {% if site.search_enabled %}
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              </button>
+            </li>
+            {% endif %}
+
+            {% if site.enable_darkmode %}
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme" style="color: var(--global-theme-color);">
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+              </button>
+            </li>
+          {% endif %}
+
         </ul>
       </div>
     </div>
