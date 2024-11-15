@@ -26,7 +26,7 @@ nav_order: 2
           <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>PRIN Workshop on The Economics of Culture: Ethnicity, Gender, and their Interactions - <span style="color: var(--global-theme-color);">Speaker</span></span>
+          <span>PRIN Workshop on The Economics of Culture: Ethnicity, Gender, and their Interactions - <span style="color: var(--global-theme-color);">Ponente</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
       <div style="margin-top: 0px; position: relative; font-size: 10pt;">
@@ -34,7 +34,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>University of Modena and Reggio-Emilia, Modena, Italy</i>
+              <i>Universidad de Módena y Reggio Emilia, Italia</i>
           </div>
       </div>
   </div>
@@ -47,7 +47,7 @@ nav_order: 2
           <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>Ciclo de Seminarios del Departamento de Economía - <span style="color: var(--global-theme-color);">Speaker</span></span>
+          <span>Ciclo de Seminarios del Departamento de Economía - <span style="color: var(--global-theme-color);">Ponente</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
       <div style="margin-top: 0px; position: relative; font-size: 10pt;">
@@ -76,7 +76,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>Le Sparne, Pitigliano (GR), Italy</i>
+              <i>Le Sparne, Pitigliano (GR), Italia</i>
           </div>
       </div>
   </div>
@@ -100,7 +100,7 @@ nav_order: 2
           <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>&#8547; Ph.D. Workshop - <span style="color: var(--global-theme-color);">Speaker</span></span>
+          <span>&#8547; Ph.D. Workshop - <span style="color: var(--global-theme-color);">Ponente</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
       <div style="margin-top: 0px; position: relative; font-size: 10pt;">
@@ -121,7 +121,7 @@ nav_order: 2
           <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>SAsCA Ph.D. Conference in Economics - <span style="color: var(--global-theme-color);">Speaker and discussant</span></span>
+          <span>SAsCA Ph.D. Conference in Economics - <span style="color: var(--global-theme-color);">Ponente y comentador</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
       <div style="margin-top: 0px; position: relative; font-size: 10pt;">
@@ -129,7 +129,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>University of Sassari, Sassari, Italy</i>
+              <i>Universidad de Sassari, Italia</i>
           </div>
       </div>
   </div>
@@ -142,7 +142,7 @@ nav_order: 2
           <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>Workshop for Ph.D. Students In Economentrics and Empirical Economics (WEEE) - <span style="color: var(--global-theme-color);">Speaker</span></span>
+          <span>Workshop for Ph.D. Students In Economentrics and Empirical Economics (WEEE) - <span style="color: var(--global-theme-color);">Ponente</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
       <div style="margin-top: 0px; position: relative; font-size: 10pt;">
@@ -150,7 +150,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>Bertinoro (FC), Italy</i>
+              <i>Bertinoro (FC), Italia</i>
           </div>
       </div>
   </div>
@@ -163,7 +163,7 @@ nav_order: 2
           <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>Third Year Ph.D. Forum - <span style="color: var(--global-theme-color);">Speaker</span></span>
+          <span>Third Year Ph.D. Forum - <span style="color: var(--global-theme-color);">Ponente</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
       <div style="margin-top: 0px; position: relative; font-size: 10pt;">
@@ -171,7 +171,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>University of Bologna, Bologna, Italy</i>
+              <i>Universidad de Bolonia, Italia</i>
           </div>
       </div>
   </div>
@@ -184,8 +184,7 @@ nav_order: 2
           <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>Presentation of <i>"A Modern Guide to the Economics of Crime"</i> by P. Buonanno, P. Vanin, and J. Vargas (Elgar, 2022) - 
-          <span style="color: var(--global-theme-color);">Discussant</span></span>
+          <span>Presentación del libro <i>"A Modern Guide to the Economics of Crime"</i> by P. Buonanno, P. Vanin, and J. Vargas (Elgar, 2022) - <span style="color: var(--global-theme-color);">Comentador</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
       <div style="margin-top: 0px; position: relative; font-size: 10pt;">
@@ -193,7 +192,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>“Walter Bigiavi” Library, Bologna, Italy</i>
+              <i>Biblioteca "Walter Bigiavi", Bolonia, Italia</i>
           </div>
       </div>
   </div>
@@ -217,7 +216,7 @@ nav_order: 2
           <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>WiP Seminar - <span style="color: var(--global-theme-color);">Speaker</span></span>
+          <span>WiP Seminar - <span style="color: var(--global-theme-color);">Ponente</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
       <div style="margin-top: 0px; position: relative; font-size: 10pt;">
@@ -225,7 +224,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>University of Bologna, Bologna, Italy</i>
+              <i>Universidad de Bolonia, Italia</i>
           </div>
       </div>
   </div>
@@ -238,7 +237,7 @@ nav_order: 2
           <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>&#8546; Ph.D. Workshop - <span style="color: var(--global-theme-color);">Speaker</span></span>
+          <span>&#8546; Ph.D. Workshop - <span style="color: var(--global-theme-color);">Ponente</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
       <div style="margin-top: 0px; position: relative; font-size: 10pt;">
@@ -246,7 +245,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>Le Sparne, Pitigliano (GR), Italy</i>
+              <i>Le Sparne, Pitigliano (GR), Italia</i>
           </div>
       </div>
   </div>
@@ -259,7 +258,7 @@ nav_order: 2
           <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>Second Year Ph.D. Forum - <span style="color: var(--global-theme-color);">Speaker</span></span>
+          <span>Second Year Ph.D. Forum - <span style="color: var(--global-theme-color);">Ponente</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
       <div style="margin-top: 0px; position: relative; font-size: 10pt;">
@@ -267,7 +266,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>University of Bologna, Bologna, Italy</i>
+              <i>Universidad de Bolonia, Italia</i>
           </div>
       </div>
   </div>
@@ -291,7 +290,7 @@ nav_order: 2
           <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>&#8545; Ph.D. Workshop - <span style="color: var(--global-theme-color);">Speaker</span></span>
+          <span>&#8545; Ph.D. Workshop - <span style="color: var(--global-theme-color);">Ponente</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
       <div style="margin-top: 0px; position: relative; font-size: 10pt;">
@@ -299,7 +298,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>Le Sparne, Pitigliano (GR), Italy</i>
+              <i>Le Sparne, Pitigliano (GR), Italia</i>
           </div>
       </div>
   </div>
@@ -312,7 +311,7 @@ nav_order: 2
           <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>First Year Ph.D. Forum - <span style="color: var(--global-theme-color);">Speaker</span></span>
+          <span>First Year Ph.D. Forum - <span style="color: var(--global-theme-color);">Ponente</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
       <div style="margin-top: 0px; position: relative; font-size: 10pt;">
@@ -320,7 +319,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>University of Bologna, Bologna, Italy</i>
+              <i>Universidad de Bolonia, Italia</i>
           </div>
       </div>
   </div>
@@ -333,7 +332,7 @@ nav_order: 2
           <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>First Year Ph.D. Poster Session - <span style="color: var(--global-theme-color);">Speaker</span></span>
+          <span>First Year Ph.D. Poster Session - <span style="color: var(--global-theme-color);">Ponente</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
       <div style="margin-top: 0px; position: relative; font-size: 10pt;">
@@ -341,7 +340,7 @@ nav_order: 2
               <i class="fa-solid fa-location-dot" style="color: var(--global-theme-color);"></i>
           </div>
           <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-              <i>University of Bologna, Bologna, Italy</i>
+              <i>Universidad de Bolonia, Italia</i>
           </div>
       </div>
   </div>
