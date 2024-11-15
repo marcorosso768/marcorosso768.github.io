@@ -184,8 +184,7 @@ nav_order: 2
           <i class="fa-solid fa-person-chalkboard" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>Presentazione del libro <i>"A Modern Guide to the Economics of Crime"</i> da parte di P. Buonanno, P. Vanin, and J. Vargas (Elgar, 2022) - 
-          <span style="color: var(--global-theme-color);">Discussant</span></span>
+          <span>Presentazione del libro <i>"A Modern Guide to the Economics of Crime"</i> da parte di P. Buonanno, P. Vanin, and J. Vargas (Elgar, 2022) - <span style="color: var(--global-theme-color);">Discussant</span></span>
       </div>
       <!-- Second row: Location icon and location text -->
       <div style="margin-top: 0px; position: relative; font-size: 10pt;">
