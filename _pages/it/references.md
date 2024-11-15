@@ -4,7 +4,7 @@ layout: profiles
 permalink: /referenze/
 title: referenze
 subtitle: >
-    <p style="color: var(--global-theme-color); margin-top: -20px;"><a href="#" onclick="window.location.href='https://marcorosso.com/references/'; return false;">references</a>&nbsp;|&nbsp;<a href='https://marcorosso.com/es/referencia/'>referencia</a></p>
+    <p style="color: var(--global-theme-color); margin-top: -20px; font-weight: normal;"><a href="#" onclick="window.location.href='https://marcorosso.com/references/'; return false;">references</a>&nbsp;|&nbsp;<a href='https://marcorosso.com/es/referencia/'>referencia</a></p>
 description:
 nav: false
 nav_order:

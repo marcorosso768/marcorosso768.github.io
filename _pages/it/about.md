@@ -1,7 +1,7 @@
 ---
 page_id: about
 layout: about
-title: su di me
+title: su&nbsp;di me
 permalink: /
 subtitle: >
     <div style="margin-top: -20px;">
@@ -67,4 +67,4 @@ Sono inoltre l’organizzatore degli <b style="color: $white-color;">Aperitivi d
 
 Infine, la mia citazione preferita è <i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>
 
-<i style="font-size: 10pt;">P.S. La versione in italiano di questo sito è stata creata principalmente per permettere ai miei genitori di capire di cosa mi occupo. 🫠</i>
+<i style="font-size: 10pt;">P.S. La versione in italiano di questo sito è stata creata principalmente per permettere ai miei genitori di capire di cosa mi occupo. 🥰</i>
