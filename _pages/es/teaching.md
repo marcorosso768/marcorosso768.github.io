@@ -14,7 +14,7 @@ nav_order: 3
 <!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
   <a id="toggle-content-2" href="javascript:void(0);" onclick="toggleVisibility('content-2')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> current courses </h2>
+    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> cursos actuales </h2>
   </a>
 </div>
 
@@ -130,7 +130,7 @@ nav_order: 3
 <!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
   <a id="toggle-content-1" href="javascript:void(0);" onclick="toggleVisibility('content-1')">
-    <h2 class="category"><i class="fa-solid fa-chevron-right fa-2xs"></i> past courses </h2>
+    <h2 class="category"><i class="fa-solid fa-chevron-right fa-2xs"></i> cursos pasados </h2>
   </a>
 </div>
 
