@@ -65,7 +65,7 @@ nav_order: 3
                 <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>Economics, Politics and Social Sciences, <i>>Universidad de Bolonia</i></span>
+                <span>Economics, Politics and Social Sciences, <i>Universidad de Bolonia</i></span>
             </div>
         </div>
     </div>
@@ -92,7 +92,7 @@ nav_order: 3
                 <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>Economics and Econometrics, <i>>Universidad de Bolonia</i></span>
+                <span>Economics and Econometrics, <i>Universidad de Bolonia</i></span>
             </div>
         </div>
     </div>
@@ -117,7 +117,7 @@ nav_order: 3
                 <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
             </div>
             <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>Economics and Finance, <i>>Universidad de Bolonia</i></span>
+                <span>Economics and Finance, <i>Universidad de Bolonia</i></span>
             </div>
         </div>
     </div>
