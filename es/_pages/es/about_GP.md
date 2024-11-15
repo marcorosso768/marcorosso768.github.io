@@ -1,6 +1,6 @@
 <span style="font-size: 20pt; color: var(--global-theme-color);"> Giovanni Prarolo </span> <br> <span style="font-size: 12pt; color: var(--global-theme-color);"> Supervisor de Postdoctorado </span>
 
-<span style="font-size: 15pt;"> Profesor Titular </span> <br> Departamento de Economía <br> <span style="font-size: 10pt;"> Disciplina académica: ECON-02/A Política Económica </span> <br> <span style="font-size: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Boloña, Italia</span>
+<span style="font-size: 15pt;"> Profesor Titular </span> <br> Departamento de Economía <br> <span style="font-size: 10pt;"> Disciplina académica: ECON-02/A Política Económica </span> <br> <span style="font-size: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bolonia, Italia</span>
 
 <p style="font-size: 10pt;"> Áreas de investigación: <i> Impulsado por Preguntas, Datos y Herramientas, errático en torno a los temas de Economía Política, Desarrollo a Largo Plazo, el Papel del Comercio y la Diversidad Cultural </i></p>
 
