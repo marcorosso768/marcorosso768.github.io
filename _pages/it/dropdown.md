@@ -11,5 +11,5 @@ children:
   - title: blog
     permalink: /blog/
   - title: novità
-    permalink: /novità/
+    permalink: /novita/
 ---
