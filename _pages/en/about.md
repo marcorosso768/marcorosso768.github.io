@@ -28,7 +28,7 @@ subtitle: >
             </div>
             <div style="display: inline-block; padding-left: 20px; margin-top: -12pt; line-height: 14pt;">
                 <span style="font-size: 10pt;">
-                    current location: Buenos Aires, Argentina
+                    current location: Bologna, Italy
                 </span>
             </div>
         </div>
