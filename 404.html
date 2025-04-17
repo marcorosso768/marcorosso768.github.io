@@ -5,86 +5,10 @@ permalink: /404.html
 description: "The page you are looking for doesn't exist."
 ---
 
-<style>
-  #error-page {
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    padding: 4rem 1rem;
-    color: #111;
-    position: relative;
-  }
-
-  .big-404 {
-    font-size: 6rem;
-    animation: float404 3s ease-in-out infinite alternate;
-  }
-
-  @keyframes float404 {
-    from { transform: translateY(0); }
-    to { transform: translateY(-10px); }
-  }
-
-  .fade-in {
-    opacity: 0;
-    animation: fadeIn 2s ease-in forwards;
-    animation-delay: 1s;
-  }
-
-  @keyframes fadeIn {
-    to { opacity: 1; }
-  }
-
-  .bounce-link {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.75rem 1.5rem;
-    background-color: #b40000;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: 600;
-    animation: pulse 2s infinite;
-  }
-
-  @keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.05); }
-    100% { transform: scale(1); }
-  }
-
-  .floating-sheet {
-    position: absolute;
-    top: 2rem;
-    right: 2rem;
-    width: 50px;
-    opacity: 0.4;
-    animation: floatSheet 6s ease-in-out infinite alternate;
-  }
-
-  @keyframes floatSheet {
-    0% { transform: rotate(-5deg) translateY(0); }
-    100% { transform: rotate(8deg) translateY(-20px); }
-  }
-
-  @media (prefers-color-scheme: dark) {
-    #error-page {
-      background-color: #1a1a1a;
-      color: #eee;
-    }
-    .bounce-link {
-      background-color: #e63946;
-    }
-    .floating-sheet {
-      filter: brightness(1.1);
-    }
-  }
-</style>
-
-<div id="error-page">
-  <h1 class="big-404">404</h1>
-  <p id="message" class="fade-in">Loading…</p>
-  <a id="link" href="{{ site.baseurl | prepend: site.url }}" class="bounce-link">Homepage</a>
-  <img src="{{ '/assets/images/foglio.svg' | relative_url }}" alt="Pagina volante" class="floating-sheet">
+<div style="text-align: center; padding: 2rem;">
+  <h1>404</h1>
+  <p id="message">Loading…</p>
+  <p><a id="link" href="{{ site.baseurl | prepend: site.url }}">Homepage</a></p>
 </div>
 
 <script>
