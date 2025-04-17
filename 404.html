@@ -65,13 +65,26 @@ description: "The page you are looking for doesn't exist."
     0% { transform: rotate(-5deg) translateY(0); }
     100% { transform: rotate(8deg) translateY(-20px); }
   }
+
+  @media (prefers-color-scheme: dark) {
+    #error-page {
+      background-color: #1a1a1a;
+      color: #eee;
+    }
+    .bounce-link {
+      background-color: #e63946;
+    }
+    .floating-sheet {
+      filter: brightness(1.1);
+    }
+  }
 </style>
 
 <div id="error-page">
   <h1 class="big-404">404</h1>
   <p id="message" class="fade-in">Loading…</p>
   <a id="link" href="{{ site.baseurl | prepend: site.url }}" class="bounce-link">Homepage</a>
-  <img src="{{ '/assets/img/foglio.svg' | relative_url }}" alt="Pagina volante" class="floating-sheet">
+  <img src="{{ '/assets/images/foglio.svg' | relative_url }}" alt="Pagina volante" class="floating-sheet">
 </div>
 
 <script>
@@ -79,17 +92,17 @@ description: "The page you are looking for doesn't exist."
     en: {
       message: "It looks like you're lost. Redirecting to the homepage...",
       home: "Homepage",
-      redirect: "/"
+      redirect: "{{ site.baseurl | prepend: site.url }}"
     },
     it: {
       message: "Sembra che tu ti sia perso. Verrai reindirizzato alla homepage...",
       home: "Homepage",
-      redirect: "/it"
+      redirect: "{{ site.baseurl | prepend: site.url }}/it"
     },
     es: {
       message: "Parece que te has perdido. Redirigiendo a la página principal...",
       home: "Página principal",
-      redirect: "/es"
+      redirect: "{{ site.baseurl | prepend: site.url }}/es"
     }
   };
 
