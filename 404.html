@@ -1,113 +1,112 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>404 - Page not found</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: page
+title: "404 – Page not found"
+permalink: /404.html
+description: "The page you are looking for doesn't exist."
+---
 
-  <!-- Font Raleway -->
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  #error-page {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 4rem 1rem;
+    color: #111;
+    position: relative;
+  }
 
-  <style>
-    :root {
-      --bg-color: #eeeeee;
-      --text-color: #111111;
-      --accent-color: #b40000;
-    }
-    body {
-      font-family: 'Raleway', sans-serif;
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      text-align: center;
-      padding: 4rem 1rem;
-    }
-    .container {
-      max-width: 600px;
-      margin: 0 auto;
-      background: transparent;
-      padding: 2rem;
-    }
-    h1 {
-      font-size: 4rem;
-      margin-bottom: 1rem;
-      font-weight: 600;
-    }
-    p {
-      font-size: 1.2rem;
-      margin-bottom: 2rem;
-    }
-    a.button {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.75rem 1.5rem;
-      background-color: var(--accent-color);
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: 600;
-    }
-    a.button:hover {
-      background-color: #8f0000;
-    }
-    img.logo {
-      width: 80px;
-      margin-bottom: 2rem;
-    }
-  </style>
+  .big-404 {
+    font-size: 6rem;
+    animation: float404 3s ease-in-out infinite alternate;
+  }
 
-  <script>
-    const messages = {
-      en: {
-        title: "404 - Page not found",
-        message: "Looks like you're lost. Redirecting to the homepage...",
-        redirect: "/",
-        lang: "en",
-        button: "Go to homepage"
-      },
-      it: {
-        title: "404 - Pagina non trovata",
-        message: "Sembra che tu ti sia perso. Ti reindirizziamo alla home...",
-        redirect: "/it",
-        lang: "it",
-        button: "Vai alla home"
-      },
-      es: {
-        title: "404 - Página no encontrada",
-        message: "Parece que estás perdido. Redirigiendo a la página principal...",
-        redirect: "/es",
-        lang: "es",
-        button: "Ir a la página principal"
-      }
-    };
+  @keyframes float404 {
+    from { transform: translateY(0); }
+    to { transform: translateY(-10px); }
+  }
 
-    const path = window.location.pathname;
-    const langMatch = path.match(/^\/(it|es)\b/);
-    const lang = langMatch ? langMatch[1] : 'en';
-    const content = messages[lang] || messages['en'];
-    const currentPath = window.location.pathname;
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+    animation-delay: 1s;
+  }
 
-    document.addEventListener("DOMContentLoaded", () => {
-      document.title = content.title;
-      document.getElementById("message").textContent = content.message;
-      document.getElementById("btn").href = content.redirect;
-      document.getElementById("btn").textContent = content.button;
-      document.documentElement.lang = content.lang;
+  @keyframes fadeIn {
+    to { opacity: 1; }
+  }
 
-      const homepagePaths = ['/', '/it', '/es'];
-      if (!homepagePaths.includes(currentPath.replace(/\/$/, ''))) {
-        setTimeout(() => {
-          window.location.href = content.redirect;
-        }, 3000);
-      }
-    });
-  </script>
-</head>
-<body>
-  <div class="container">
-    <img src="/assets/images/logo.png" alt="Logo" class="logo">
-    <h1>404</h1>
-    <p id="message">Loading...</p>
-    <a id="btn" href="/" class="button">Homepage</a>
-  </div>
-</body>
-</html>
+  .bounce-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #b40000;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+
+  .floating-sheet {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    width: 50px;
+    opacity: 0.4;
+    animation: floatSheet 6s ease-in-out infinite alternate;
+  }
+
+  @keyframes floatSheet {
+    0% { transform: rotate(-5deg) translateY(0); }
+    100% { transform: rotate(8deg) translateY(-20px); }
+  }
+</style>
+
+<div id="error-page">
+  <h1 class="big-404">404</h1>
+  <p id="message" class="fade-in">Loading…</p>
+  <a id="link" href="{{ site.baseurl | prepend: site.url }}" class="bounce-link">Homepage</a>
+  <img src="{{ '/assets/images/foglio.svg' | relative_url }}" alt="Pagina volante" class="floating-sheet">
+</div>
+
+<script>
+  const translations = {
+    en: {
+      message: "It looks like you're lost. Redirecting to the homepage...",
+      home: "Homepage",
+      redirect: "/"
+    },
+    it: {
+      message: "Sembra che tu ti sia perso. Verrai reindirizzato alla homepage...",
+      home: "Homepage",
+      redirect: "/it"
+    },
+    es: {
+      message: "Parece que te has perdido. Redirigiendo a la página principal...",
+      home: "Página principal",
+      redirect: "/es"
+    }
+  };
+
+  const path = window.location.pathname;
+  const langMatch = path.match(/^\/(it|es)\b/);
+  const lang = langMatch ? langMatch[1] : 'en';
+  const t = translations[lang];
+
+  document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("message").textContent = t.message;
+    document.getElementById("link").textContent = t.home;
+    document.getElementById("link").href = t.redirect;
+
+    if (!path.match(/^\/(it|es)?\/?$/)) {
+      setTimeout(() => {
+        window.location.href = t.redirect;
+      }, 3000);
+    }
+  });
+</script>
