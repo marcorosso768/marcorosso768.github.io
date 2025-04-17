@@ -1,28 +1,31 @@
 <!DOCTYPE html>
-<html lang="en"> <!-- Sovrascriviamo via JS sotto -->
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>404 - Page not found</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Import Raleway -->
+  <!-- Font Raleway -->
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
 
   <style>
+    :root {
+      --bg-color: #eeeeee;
+      --text-color: #111111;
+      --accent-color: #b40000;
+    }
     body {
       font-family: 'Raleway', sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
+      background-color: var(--bg-color);
+      color: var(--text-color);
       text-align: center;
       padding: 4rem 1rem;
     }
     .container {
       max-width: 600px;
       margin: 0 auto;
-      background: white;
-      padding: 3rem;
-      border-radius: 12px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      background: transparent;
+      padding: 2rem;
     }
     h1 {
       font-size: 4rem;
@@ -33,22 +36,22 @@
       font-size: 1.2rem;
       margin-bottom: 2rem;
     }
-    img.logo {
-      width: 100px;
-      margin-bottom: 1.5rem;
-    }
     a.button {
       display: inline-block;
       margin-top: 1rem;
       padding: 0.75rem 1.5rem;
-      background-color: #333;
+      background-color: var(--accent-color);
       color: white;
       text-decoration: none;
       border-radius: 8px;
       font-weight: 600;
     }
     a.button:hover {
-      background-color: #555;
+      background-color: #8f0000;
+    }
+    img.logo {
+      width: 80px;
+      margin-bottom: 2rem;
     }
   </style>
 
@@ -57,30 +60,31 @@
       en: {
         title: "404 - Page not found",
         message: "Looks like you're lost. Redirecting to the homepage...",
-        redirect: "/en/",
+        redirect: "/",
         lang: "en",
         button: "Go to homepage"
       },
       it: {
         title: "404 - Pagina non trovata",
         message: "Sembra che tu ti sia perso. Ti reindirizziamo alla home...",
-        redirect: "/it/",
+        redirect: "/it",
         lang: "it",
         button: "Vai alla home"
       },
       es: {
         title: "404 - Página no encontrada",
         message: "Parece que estás perdido. Redirigiendo a la página principal...",
-        redirect: "/es/",
+        redirect: "/es",
         lang: "es",
         button: "Ir a la página principal"
       }
     };
 
     const path = window.location.pathname;
-    const langMatch = path.match(/^\/(en|it|es)\b/);
+    const langMatch = path.match(/^\/(it|es)\b/);
     const lang = langMatch ? langMatch[1] : 'en';
     const content = messages[lang] || messages['en'];
+    const currentPath = window.location.pathname;
 
     document.addEventListener("DOMContentLoaded", () => {
       document.title = content.title;
@@ -89,17 +93,18 @@
       document.getElementById("btn").textContent = content.button;
       document.documentElement.lang = content.lang;
 
-      setTimeout(() => {
-        window.location.href = content.redirect;
-      }, 3000);
+      const homepagePaths = ['/', '/it', '/es'];
+      if (!homepagePaths.includes(currentPath.replace(/\/$/, ''))) {
+        setTimeout(() => {
+          window.location.href = content.redirect;
+        }, 3000);
+      }
     });
   </script>
 </head>
 <body>
   <div class="container">
-    <!-- Logo opzionale -->
     <img src="/assets/images/logo.png" alt="Logo" class="logo">
-
     <h1>404</h1>
     <p id="message">Loading...</p>
     <a id="btn" href="/" class="button">Homepage</a>
