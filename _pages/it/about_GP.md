@@ -1,6 +1,6 @@
 <span style="font-size: 20pt; color: var(--global-theme-color);"> Giovanni Prarolo </span> <br> <span style="font-size: 12pt; color: var(--global-theme-color);"> Supervisor dell'Assegno di Ricerca </span>
 
-<span style="font-size: 15pt;"> Professore ordinario </span> <br> Dipartimento di Scienze Economiche <br> <span style="font-size: 10pt;"> Settore scientifico disciplinare: ECON-02/A Politica Economica </span> <br> <span style="font-size: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italiaa</span>
+<span style="font-size: 15pt;"> Professore ordinario </span> <br> Dipartimento di Scienze Economiche <br> <span style="font-size: 10pt;"> Settore scientifico disciplinare: ECON-02/A Politica Economica </span> <br> <span style="font-size: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italia</span>
 
 <p style="font-size: 10pt;"> Interessi di ricerca: <i> guidati da domande, dati e strumenti, si sviluppano in modo erratico attorno ai temi dell'Economia Politica, dello Sviluppo a Lungo Periodo, del Ruolo del Commercio e della Diversità Culturale </i></p>
 

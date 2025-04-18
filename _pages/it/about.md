@@ -48,23 +48,27 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Benvenutə nel mio sito personale&mdash;sono felice che siate qui intenzionalmente (o almeno lo spero!).
+Benvenutə nel mio sito personale—felice che tu sia arrivatə di tua spontanea volontà (o che tu abbia cliccato per sbaglio: succede anche ai migliori).
 
-Sono un <b style="color: $white-color;">dottorando in Economia al 5<sup>o</sup> anno</b> e <b style="color: $white-color;">Assegnista di Ricerca</b>&mdash;posizione equivalente a un Post-Doc in Italia&mdash;presso l'Università di Bologna.
+Sono un <b style="color: $white-color;">dottorando al 5<sup>o</sup> anno in Economia</b> e <b style="color: $white-color;">post-doc</b> (sì, esistono ancora) presso l'Università di Bologna.
 
-I miei <b style="color: $white-color;">interessi di ricerca</b> comprendono <b style="color: $white-color;">Economia Politica</b>, <b style="color: $white-color;">Economia del Crimine</b>, <b style="color: $white-color;">Economia Sperimentale</b> e l'<b style="color: $white-color;">Economia Comportamentale</b>, sia a livello teorico che empirico.
+I miei <b style="color: $white-color;">interessi di ricerca</b> orbitano attorno a <b style="color: $white-color;">Economia Politica</b>, <b style="color: $white-color;">Economia del Crimine</b>, <b style="color: $white-color;">Economia Sperimentale</b> e <b style="color: $white-color;">Comportamentale</b>—per chi ama le domande scomode, i dilemmi etici e i dataset introvabili.
 
-Attualmente sto lavorando principalmente su:
+In questo momento sto cercando di rispondere a cose tipo:
 <ul>
-  <li>Auto-selezione e corruzione</li>
-  <li>Notizie locali sul crimine e comportamento elettorale</li>
-  <li>Effetti dei programmi Erasmus sul voto</li>
+  <li>Chi sceglie di entrare nel settore pubblico sapendo di poter rubare... perché lo assumiamo?</li>
+  <li>Le notizie sui crimini influenzano davvero il nostro voto?</li>
+  <li>L’Erasmus ci cambia? (O cambia solo la nostra playlist su Spotify?)</li>
 </ul>
 
-Oltre alle mie attività di ricerca, sono <b style="color: $white-color;">tutor didattico</b> dei seguenti corsi: <b style="color: $white-color;">Introduzione all’Economia Comportamentale</b>, <b style="color: $white-color;">Teoria dei Giochi</b>, <b style="color: $white-color;">Economia Politica</b> e <b style="color: $white-color;">Microeconomia</b>.
+Quando non cerco di dare senso al caos (spoiler: il caos vince), faccio il <b style="color: $white-color;">tutor didattico</b> per corsi come: <b style="color: $white-color;">Introduzione all’Economia Comportamentale</b>, <b style="color: $white-color;">Teoria dei Giochi</b>, <b style="color: $white-color;">Economia Politica</b> e <b style="color: $white-color;">Microeconomia</b>. Cioè, cerco di spiegare concetti complessi con esempi improbabili e finta consapevolezza.
 
-Sono inoltre l’organizzatore degli <b style="color: $white-color;">Aperitivi di Dipartimento</b>, un incontro informale mensile in cui docenti, assegnisti e dottorandi possono discutere di vari argomenti davanti a una bevanda.
+Per non farmi mancare nulla, sono anche <b style="color: $white-color;">rappresentante degli assegnisti di ricerca</b> sia in <b style="color: $white-color;">Consiglio</b> che in <b style="color: $white-color;">Giunta di Dipartimento</b>. Tradotto: partecipo a lunghe riunioni con molte slide e annuisco in modo professionale.
 
-Infine, la mia citazione preferita è <i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>
+E, infine, per dare un senso all'esistenza: organizzo gli <b style="color: $white-color;">Aperitivi di Dipartimento</b>. Un evento mensile in cui parliamo di accademia, vita, sogni infranti e bandi in scadenza—ma con un drink in mano, che cambia tutto.
 
-<i style="font-size: 10pt;">P.S. La versione in italiano di questo sito è stata creata principalmente per permettere ai miei genitori di capire di cosa mi occupo. 🥰</i>
+La mia citazione preferita?  
+<i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>  
+Se hai riso, sappi che potremmo anche diventare amicə. Se no... prova a rileggere.
+
+<i style="font-size: 10pt;">P.S. Questa pagina in italiano è principalmente per i miei genitori, così capiscono cosa faccio e possono smettere di dire ai loro amici che “studio ancora”. 🥰</i>

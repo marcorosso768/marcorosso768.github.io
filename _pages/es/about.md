@@ -48,21 +48,25 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-¡Bienvenido a mi sitio web personal!&mdash;me alegra tenerte aquí intencionalmente (o al menos eso espero).
+Bienvenid@ a mi sitio personal-me alegra que hayas llegado por voluntad propia (o que hayas hecho clic por error: le pasa hasta a l@s mejores).
 
-Soy <b style="color: $white-color;">estudiante de doctorado de 5<sup>o</sup> año en Economía</b> y <b style="color: $white-color;">investigador postdoctoral</b> en la Universidad de Bolonia.
+Soy <b style="color: $white-color;">Doctorando de quinto año en Economía</b> y <b style="color: $white-color;">Post-Doc</b> (sí, aún quedamos algun@s) en la Universidad de Bolonia.
 
-Mis <b style="color: $white-color;">Intereses de investigación</b> incluyen la <b style="color: $white-color;">Economía Política</b>, <b style="color: $white-color;">del Crimen</b>, <b style="color: $white-color;">Experimental</b> y <b style="color: $white-color;">Conductual</b>, tanto desde una perspectiva teórica como empírica.
+Mis <b style="color: $white-color;">intereses de investigación</b> giran en torno a la <b style="color: $white-color;">Economía Política</b>, la <b style="color: $white-color;">Economía del Crimen</b>, la <b style="color: $white-color;">Economía Experimental</b> y la <b style="color: $white-color;">Economía del Comportamiento</b>: ideal para quienes disfrutan de preguntas incómodas, dilemas éticos y datasets imposibles de encontrar.
 
-Actualmente, me enfoco en:
+En este momento, estoy intentando entender cosas como:
 <ul>
-  <li>Selección propia y corrupción</li>
-  <li>Noticias de crímenes locales y comportamiento electoral</li>
-  <li>Efectos de los programas Erasmus en el voto</li>
+  <li>¿Quién elige entrar al sector público sabiendo que podría robar... y por qué lo contratamos?</li>
+  <li>¿Las noticias sobre crímenes realmente afectan nuestro voto?</li>
+  <li>¿El Erasmus nos transforma? (¿O solo cambia nuestra playlist de Spotify?)</li>
 </ul>
 
-Además de mis actividades de investigación, soy <b style="color: $white-color;">asistente de docencia</b> en los siguientes cursos: <b style="color: $white-color;">Introducción a la Economía del Comportamiento</b>, <b style="color: $white-color;">Teoría de Juegos</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Microeconomía</b>.
+Cuando no intento darle sentido al caos (spoiler: gana el caos), trabajo como <b style="color: $white-color;">Asistente de Docencia</b> en cursos como: <b style="color: $white-color;">Introducción a la Economía del Comportamiento</b>, <b style="color: $white-color;">Teoría de Juegos</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Microeconomía</b>. O sea, intento explicar conceptos complejos con ejemplos improbables y falsa seguridad.
 
-También organizo los <b style="color: $white-color;">Aperitivos del Departamento</b>, un encuentro informal mensual donde la Facultad, los investigadores y los estudiantes de doctorado pueden reunirse para discutir varios temas mientras disfrutan de una bebida.
+Por si fuera poco, también soy <b style="color: $white-color;">Representante de Investigador@s Post-Doc</b> tanto en el <b style="color: $white-color;">Consejo de Departamento</b> como en la <b style="color: $white-color;">Junta de Departamento</b>. Traducción: asisto a reuniones largas con muchas diapositivas y asiento de forma profesional.
 
-Por último, pero no menos importante, mi cita favorita es  <i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>
+Y, finalmente, para no perder del todo la fe en la vida: organizo los <b style="color: $white-color;">Aperitivos del Departamento</b>. Un evento mensual donde hablamos de academia, vida, sueños rotos y convocatorias que están por cerrarse—pero con una copa en la mano, que cambia todo.
+
+¿Mi cita favorita?
+<i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>
+Si te reíste, podríamos hasta ser amig@s. Si no… dale otra leída.
