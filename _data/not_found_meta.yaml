@@ -1,0 +1,4 @@
+page_id: not_found
+layout: page
+permalink: /404.html
+redirect: true
