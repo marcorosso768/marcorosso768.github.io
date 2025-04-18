@@ -2,16 +2,10 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {%- comment -%} Build a variable for the contact page path based on the selected language {% endcomment %}
-      {% capture contact_path %}
-        {% if site.active_lang == 'it' %}
-          contatti
-        {% elsif site.active_lang == 'es' %}
-          contactos
-        {% else %}
-          contacts
-        {% endif %}
-      {% endcapture %}
+      {%- comment -%} Determine contact page path without extra whitespace {% endcomment %}
+      {%- capture contact_path -%}
+        {%- if site.active_lang == 'it' -%}contatti{%- elsif site.active_lang == 'es' -%}contactos{%- else -%}contacts{%- endif -%}
+      {%- endcapture -%}
 
       {% if page.permalink != '/' %}
         <!-- Main brand with name -->
@@ -31,8 +25,8 @@
           {%- endif -%}
         </a>
         <!-- Envelope icon linking to the contact page -->
-        <a class="navbar-brand ml-2" href="{{ site.baseurl }}/{{ contact_path }}/">
-          <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: 2.5px;">
+        <a href="{{ site.baseurl }}/{{ contact_path }}/">
+          <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: 1px; color: var(--global-theme-color);">
             <i class="fa-regular fa-envelope"></i>
           </div>
         </a>
@@ -52,20 +46,18 @@
         </div>
         -->
         <!-- Replacement with contact_note and envelope icon, both linking to the contact page -->
-        <div style="margin: 0; padding: 0; position: relative;">
-          <div class="navbar-brand social">
-            <a class="navbar-brand d-flex align-items-center" href="{{ site.baseurl }}/{{ contact_path }}/">
+        <a href="{{ site.baseurl }}/{{ contact_path }}/">
+          <div style="margin: 0; padding: 0; position: relative;">
+            <div class="navbar-brand social">
               <div style="display: inline-block; line-height: 1; font-size: 12pt; color: var(--global-theme-color);">
-                <span style="font-weight: bolder; color: var(--global-theme-color);">
-                  {{ site.data[site.active_lang].strings.contact_note }}
-                </span>
-              </div>
-              <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: 2.5px;">
                 <i class="fa-regular fa-envelope"></i>
               </div>
-            </a>
+              <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: 2.5px;">
+                <span style="font-weight: bolder; color: var(--global-theme-color);">{{ site.data[site.active_lang].strings.contact_note }}</span>
+              </div>
+            </div>
           </div>
-        </div>
+        </a>
       {% endif %}
 
       <!-- Navbar Toggle -->
