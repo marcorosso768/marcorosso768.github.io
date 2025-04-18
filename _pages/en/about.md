@@ -48,21 +48,26 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Welcome to my personal website&mdash;glad to have you here intentionally (or at least I hope so!).
+Welcome to my personal website—glad you’re here voluntarily (or that you misclicked your way into my academic life. Happens to the best of us).
 
-I am a <b style="color: $white-color;">5<sup>th</sup>-year Ph.D. Student in Economics</b> and a <b style="color: $white-color;">Research Fellow</b>&mdash;equivalent to a Post-Doc position in Italy&mdash;at the University of Bologna.
+I’m a <b style="color: $white-color;">5<sup>th</sup>-year Ph.D. student in Economics</b> and a <b style="color: $white-color;">post-doc</b> (yes, that mythical creature) at the University of Bologna.
 
-My <b style="color: $white-color;">Research Interests</b> include <b style="color: $white-color;">Political Economy</b>, <b style="color: $white-color;">Economy of Crime</b>, <b style="color: $white-color;">Experimental Economics</b>, and <b style="color: $white-color;">Behavioral Economics</b>, both theoretically and empirically.
+My <b style="color: $white-color;">research interests</b> orbit around <b style="color: $white-color;">Political Economy</b>, <b style="color: $white-color;">Economics of Crime</b>, <b style="color: $white-color;">Experimental Economics</b>, and <b style="color: $white-color;">Behavioral Economics</b>—for people who enjoy uncomfortable questions, ethical paradoxes, and data that actively resists being analyzed.
 
-Currently, I am focusing on:
- <ul>
-  <li>Self-Selection and Corruption</li>
-  <li>Local Crime News and Voting Behavior</li>
-  <li>Effects of Erasmus Programs on Voting</li>
+Right now, I’m trying to make sense of things like:
+<ul>
+  <li>Who enters the public sector knowing they could be corrupt… and why do we hire them?</li>
+  <li>Do local crime stories really change the way we vote?</li>
+  <li>Does the Erasmus experience change us? (Or just our Spotify algorithm?)</li>
 </ul>
 
-In addition to my Research Activities, I am <b style="color: $white-color;">Teaching Assistant</b> for the following courses: <b style="color: $white-color;">Introduction to Behavioral Economics</b>, <b style="color: $white-color;">Game Theory</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Microeconomics</b>.
+When I’m not losing to chaos in the name of research, I’m a <b style="color: $white-color;">Teaching Assistant</b> for courses such as: <b style="color: $white-color;">Introduction to Behavioral Economics</b>, <b style="color: $white-color;">Game Theory</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Microeconomics</b>.  
+I try to explain complicated things using improbable metaphors and suspicious confidence.
 
-I am also the organizer of the <b style="color: $white-color;">DSE Afterwork Drinks</b>, a monthly informal meeting where Faculty, Research Fellows, and Ph.D. Students can meet to discuss various topics while enjoying a beverage.
+As a side quest, I’m also a <b style="color: $white-color;">representative of post-docs</b> in both the <b style="color: $white-color;">Department Council</b> and the <b style="color: $white-color;">Department Committee</b>. Which means I attend long meetings with too many slides and nod thoughtfully.
 
-Last but not least, my favorite quote is <i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>
+And to keep spirits high, I organize the <b style="color: $white-color;">DSE Afterwork Drinks</b>—a monthly informal gathering where people talk about academia, politics, life, and existential dread… all with a drink in hand, which helps.
+
+My favorite quote?  
+<i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>  
+If you laughed, we might just get along. If not… try rereading it.
