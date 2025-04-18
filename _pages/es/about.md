@@ -50,7 +50,7 @@ social: true # includes social icons at the bottom of the page
 
 ¡Bienvenid@s a mi sitio web personal! Me alegra que hayas llegado por voluntad propia (o que hayas hecho clic por error—nos pasa a l@s mejores).
 
-Soy <b style="color: $white-color;">doctorand@ de quinto año en Economía</b> y <b style="color: $white-color;">postdoc</b> (sí, eso todavía existe… por ahora) en la Universidad de Bolonia.
+Soy <b style="color: $white-color;">doctorando de quinto año en Economía</b> y <b style="color: $white-color;">postdoc</b> (sí, eso todavía existe… por ahora) en la Universidad de Bolonia.
 
 Mis <b style="color: $white-color;">intereses de investigación</b> giran en torno a la <b style="color: $white-color;">Economía Política</b>, la <b style="color: $white-color;">Economía del Crimen</b>, la <b style="color: $white-color;">Economía Experimental</b> y la <b style="color: $white-color;">Economía del Comportamiento</b>—ideal para quienes disfrutan de preguntas incómodas, dilemas éticos y bases de datos imposibles.
 
