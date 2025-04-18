@@ -1,7 +1,7 @@
 title:
-  en: "Error 404: Page not found"
-  it: "Error 404: Pagina non trovata"
-  es: "Error 404: Página no encontrada"
+  en: "Page not found"
+  it: "Pagina non trovata"
+  es: "Página no encontrada"
 
 description:
   en: "The page you are looking for doesn't exist."
