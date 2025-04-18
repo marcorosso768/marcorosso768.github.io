@@ -48,21 +48,26 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-¡Bienvenido a mi sitio web personal!&mdash;me alegra tenerte aquí intencionalmente (o al menos eso espero).
+¡Bienvenid@ a mi sitio web personal! Me alegra que hayas llegado por voluntad propia (o que hayas hecho clic por error—nos pasa a l@s mejores).
 
-Soy <b style="color: $white-color;">estudiante de doctorado de 5<sup>o</sup> año en Economía</b> y <b style="color: $white-color;">investigador postdoctoral</b> en la Universidad de Bolonia.
+Soy <b style="color: $white-color;">doctorand@ de quinto año en Economía</b> y <b style="color: $white-color;">postdoc</b> (sí, eso todavía existe… por ahora) en la Universidad de Bolonia.
 
-Mis <b style="color: $white-color;">Intereses de investigación</b> incluyen la <b style="color: $white-color;">Economía Política</b>, <b style="color: $white-color;">del Crimen</b>, <b style="color: $white-color;">Experimental</b> y <b style="color: $white-color;">Conductual</b>, tanto desde una perspectiva teórica como empírica.
+Mis <b style="color: $white-color;">intereses de investigación</b> giran en torno a la <b style="color: $white-color;">Economía Política</b>, la <b style="color: $white-color;">Economía del Crimen</b>, la <b style="color: $white-color;">Economía Experimental</b> y la <b style="color: $white-color;">Economía del Comportamiento</b>—ideal para quienes disfrutan de preguntas incómodas, dilemas éticos y bases de datos imposibles.
 
-Actualmente, me enfoco en:
+Actualmente intento entender cosas como:
 <ul>
-  <li>Selección propia y corrupción</li>
-  <li>Noticias de crímenes locales y comportamiento electoral</li>
-  <li>Efectos de los programas Erasmus en el voto</li>
+  <li>¿Quién entra al sector público sabiendo que podría corromperse… y por qué lo contratamos?</li>
+  <li>¿Las noticias sobre crímenes locales afectan realmente nuestro voto?</li>
+  <li>¿El programa Erasmus nos cambia? (¿O solo cambia nuestro algoritmo de Spotify?)</li>
 </ul>
 
-Además de mis actividades de investigación, soy <b style="color: $white-color;">asistente de docencia</b> en los siguientes cursos: <b style="color: $white-color;">Introducción a la Economía del Comportamiento</b>, <b style="color: $white-color;">Teoría de Juegos</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Microeconomía</b>.
+Cuando no estoy perdiendo ante el caos con dignidad investigadora, soy <b style="color: $white-color;">asistente de docencia</b> en cursos como: <b style="color: $white-color;">Introducción a la Economía del Comportamiento</b>, <b style="color: $white-color;">Teoría de Juegos</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Microeconomía</b>.  
+Intento explicar cosas difíciles con ejemplos absurdos y falsa seguridad.
 
-También organizo los <b style="color: $white-color;">Aperitivos del Departamento</b>, un encuentro informal mensual donde la Facultad, los investigadores y los estudiantes de doctorado pueden reunirse para discutir varios temas mientras disfrutan de una bebida.
+Como actividad secundaria (y tal vez error de juicio), también soy <b style="color: $white-color;">representante de l@s postdocs</b> tanto en el <b style="color: $white-color;">Consejo de Departamento</b> como en la <b style="color: $white-color;">Junta de Departamento</b>. En resumen: asisto a reuniones largas, asiento con convicción, y a veces digo algo útil.
 
-Por último, pero no menos importante, mi cita favorita es  <i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>
+Y para darle un poco de sentido a la existencia, organizo los <b style="color: $white-color;">Aperitivos del Departamento</b>, un evento mensual informal donde hablamos de academia, política, vida y convocatorias imposibles—pero con una copa en la mano, que todo lo arregla.
+
+¿Mi cita favorita?  
+<i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>  
+Si te reíste, probablemente nos llevaríamos bien. Si no… vuelve a intentarlo.
