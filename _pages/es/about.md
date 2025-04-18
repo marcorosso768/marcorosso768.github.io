@@ -48,7 +48,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-¡Bienvenid@ a mi sitio web personal! Me alegra que hayas llegado por voluntad propia (o que hayas hecho clic por error—nos pasa a l@s mejores).
+¡Bienvenid@s a mi sitio web personal! Me alegra que hayas llegado por voluntad propia (o que hayas hecho clic por error—nos pasa a l@s mejores).
 
 Soy <b style="color: $white-color;">doctorand@ de quinto año en Economía</b> y <b style="color: $white-color;">postdoc</b> (sí, eso todavía existe… por ahora) en la Universidad de Bolonia.
 
