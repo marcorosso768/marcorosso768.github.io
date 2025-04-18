@@ -48,26 +48,26 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Welcome to my personal website—glad you’re here voluntarily (or that you misclicked your way into my academic life. Happens to the best of us).
+Welcome to my personal website—glad you got here of your own free will (or maybe you clicked by mistake: happens to the best of us).
 
-I’m a <b style="color: $white-color;">5<sup>th</sup>-year Ph.D. student in Economics</b> and a <b style="color: $white-color;">post-doc</b> (yes, that mythical creature) at the University of Bologna.
+I’m a <b style="color: $white-color;">5<sup>th</sup>-year PhD candidate in Economics</b> and a <b style="color: $white-color;">Post-Doc</b> (yes, we still exist) at the University of Bologna.
 
-My <b style="color: $white-color;">research interests</b> orbit around <b style="color: $white-color;">Political Economy</b>, <b style="color: $white-color;">Economics of Crime</b>, <b style="color: $white-color;">Experimental Economics</b>, and <b style="color: $white-color;">Behavioral Economics</b>—for people who enjoy uncomfortable questions, ethical paradoxes, and data that actively resists being analyzed.
+My <b style="color: $white-color;">research interests</b> orbit around <b style="color: $white-color;">Political Economy</b>, <b style="color: $white-color;">Economics of Crime</b>, <b style="color: $white-color;">Experimental Economics</b>, and <b style="color: $white-color;">Behavioral Economics</b>—perfect for anyone who enjoys uncomfortable questions, ethical dilemmas, and datasets that are impossible to find.
 
 Right now, I’m trying to make sense of things like:
 <ul>
-  <li>Who enters the public sector knowing they could be corrupt… and why do we hire them?</li>
-  <li>Do local crime stories really change the way we vote?</li>
-  <li>Does the Erasmus experience change us? (Or just our Spotify algorithm?)</li>
+  <li>Who chooses to enter the public sector knowing they could steal… and why do we hire them?</li>
+  <li>Do crime-related news stories actually influence how we vote?</li>
+  <li>Does Erasmus really change us? (Or just our Spotify playlists?)</li>
 </ul>
 
-When I’m not losing to chaos in the name of research, I’m a <b style="color: $white-color;">Teaching Assistant</b> for courses such as: <b style="color: $white-color;">Introduction to Behavioral Economics</b>, <b style="color: $white-color;">Game Theory</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Microeconomics</b>.  
-I try to explain complicated things using improbable metaphors and suspicious confidence.
+When I’m not trying to make sense of chaos (spoiler: chaos wins), I work as a <b style="color: $white-color;">Teaching Assistant</b> for courses like: <b style="color: $white-color;">Introduction to Behavioral Economics</b>, <b style="color: $white-color;">Game Theory</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Microeconomics</b>. Basically, I try to explain complex concepts using unlikely metaphors and fake confidence.
 
-As a side quest, I’m also a <b style="color: $white-color;">representative of post-docs</b> in both the <b style="color: $white-color;">Department Council</b> and the <b style="color: $white-color;">Department Committee</b>. Which means I attend long meetings with too many slides and nod thoughtfully.
+To top it off, I’m also the <b style="color: $white-color;">Representative for Research Fellows</b> both in the <b style="color: $white-color;">Department Council</b> and the <b style="color: $white-color;">Department Committee</b>.. Translation: I sit through long meetings with too many slides and nod professionally.
 
-And to keep spirits high, I organize the <b style="color: $white-color;">DSE Afterwork Drinks</b>—a monthly informal gathering where people talk about academia, politics, life, and existential dread… all with a drink in hand, which helps.
+And finally, to give meaning to this whole circus: I organize the <b style="color: $white-color;">DSE Afterwork Drinks</b>. A monthly event where we talk about academia, life, broken dreams, and calls for proposals about to expire—though with a drink in hand, which changes everything.
 
-My favorite quote?  
-<i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>  
-If you laughed, we might just get along. If not… try rereading it.
+My favorite quote?
+<i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>
+If you laughed, we might actually become friends. If not… try reading it again.
+
