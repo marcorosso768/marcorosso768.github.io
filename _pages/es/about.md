@@ -48,26 +48,25 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-¡Bienvenid@s a mi sitio web personal! Me alegra que hayas llegado por voluntad propia (o que hayas hecho clic por error—nos pasa a l@s mejores).
+¡Bienvenid@ a mi sitio personal! Me alegra que hayas llegado por voluntad propia (o que hayas hecho clic por error: le pasa hasta a l@s mejores).
 
-Soy <b style="color: $white-color;">doctorando de quinto año en Economía</b> y <b style="color: $white-color;">postdoc</b> (sí, eso todavía existe… por ahora) en la Universidad de Bolonia.
+Soy <b style="color: $white-color;">Doctorando de quinto año en Economía</b> y <b style="color: $white-color;">Post-Doc</b> (sí, aún quedamos algun@s) en la Universidad de Bolonia.
 
-Mis <b style="color: $white-color;">intereses de investigación</b> giran en torno a la <b style="color: $white-color;">Economía Política</b>, la <b style="color: $white-color;">Economía del Crimen</b>, la <b style="color: $white-color;">Economía Experimental</b> y la <b style="color: $white-color;">Economía del Comportamiento</b>—ideal para quienes disfrutan de preguntas incómodas, dilemas éticos y bases de datos imposibles.
+Mis <b style="color: $white-color;">intereses de investigación</b> giran en torno a la <b style="color: $white-color;">Economía Política</b>, la <b style="color: $white-color;">Economía del Crimen</b>, la <b style="color: $white-color;">Economía Experimental</b> y la <b style="color: $white-color;">Economía del Comportamiento</b>: ideal para quienes disfrutan de preguntas incómodas, dilemas éticos y datasets imposibles de encontrar.
 
-Actualmente intento entender cosas como:
+En este momento, estoy intentando entender cosas como:
 <ul>
-  <li>¿Quién entra al sector público sabiendo que podría corromperse… y por qué lo contratamos?</li>
-  <li>¿Las noticias sobre crímenes locales afectan realmente nuestro voto?</li>
-  <li>¿El programa Erasmus nos cambia? (¿O solo cambia nuestro algoritmo de Spotify?)</li>
+  <li>¿Quién elige entrar al sector público sabiendo que podría robar... y por qué lo contratamos?</li>
+  <li>¿Las noticias sobre crímenes realmente afectan nuestro voto?</li>
+  <li>¿El Erasmus nos transforma? (¿O solo cambia nuestra playlist de Spotify?)</li>
 </ul>
 
-Cuando no estoy perdiendo ante el caos con dignidad investigadora, soy <b style="color: $white-color;">asistente de docencia</b> en cursos como: <b style="color: $white-color;">Introducción a la Economía del Comportamiento</b>, <b style="color: $white-color;">Teoría de Juegos</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Microeconomía</b>.  
-Intento explicar cosas difíciles con ejemplos absurdos y falsa seguridad.
+Cuando no intento darle sentido al caos (spoiler: gana el caos), trabajo como <b style="color: $white-color;">Asistente de Docencia</b> en cursos como: <b style="color: $white-color;">Introducción a la Economía del Comportamiento</b>, <b style="color: $white-color;">Teoría de Juegos</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Microeconomía</b>. O sea, intento explicar conceptos complejos con ejemplos improbables y falsa seguridad.
 
-Como actividad secundaria (y tal vez error de juicio), también soy <b style="color: $white-color;">representante de l@s postdocs</b> tanto en el <b style="color: $white-color;">Consejo de Departamento</b> como en la <b style="color: $white-color;">Junta de Departamento</b>. En resumen: asisto a reuniones largas, asiento con convicción, y a veces digo algo útil.
+Por si fuera poco, también soy <b style="color: $white-color;">Representante de Investigador@s Post-Doc</b> tanto en el <b style="color: $white-color;">Consejo de Departamento</b> como en la <b style="color: $white-color;">Junta de Departamento</b>. Traducción: asisto a reuniones largas con muchas diapositivas y asiento de forma profesional.
 
-Y para darle un poco de sentido a la existencia, organizo los <b style="color: $white-color;">Aperitivos del Departamento</b>, un evento mensual informal donde hablamos de academia, política, vida y convocatorias imposibles—pero con una copa en la mano, que todo lo arregla.
+Y, finalmente, para no perder del todo la fe en la vida: organizo los <b style="color: $white-color;">Aperitivos del Departamento</b>. Un evento mensual donde hablamos de academia, vida, sueños rotos y convocatorias que están por cerrarse—pero con una copa en la mano, que cambia todo.
 
-¿Mi cita favorita?  
-<i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>  
-Si te reíste, probablemente nos llevaríamos bien. Si no… vuelve a intentarlo.
+¿Mi cita favorita?
+<i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>
+Si te reíste, podríamos hasta ser amig@s. Si no… dale otra leída.
