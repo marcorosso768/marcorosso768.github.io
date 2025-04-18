@@ -9,17 +9,26 @@
 
       {% if page.permalink != '/' %}
         <!-- Main brand with name -->
-        <div class="d-flex align-items-center">
-          <a class="navbar-brand title font-weight-lighter mb-0" href="{{ site.baseurl }}/">
-            {% if site.first_name %}<span>{{ site.first_name }}</span>{% endif %}
-            {% if site.middle_name %}<span>{{ site.middle_name }}</span>{% endif %}
-            {% if site.last_name %}<span class="font-weight-bold">{{ site.last_name }}</span>{% endif %}
-          </a>
+        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+          {%- if site.title != 'blank' -%}
+            {% if site.first_name %}
+              <span style="color: var(--global-theme-color);">{{- site.first_name -}}</span>
+            {% endif %}
+            {% if site.middle_name %}
+              <span style="color: var(--global-theme-color);">{{- site.middle_name -}}</span>
+            {% endif %}
+            {% if site.last_name %}
+              <span class="font-weight-bold" style="color: var(--global-theme-color);">{{- site.last_name -}}</span>
+            {% endif %}
+          {%- else -%}
+            {{- site.title -}}
+          {%- endif -%}
+        </a>
         <!-- Envelope icon linking to the contact page -->
-          <a href="{{ site.baseurl }}/{{ contact_path }}/" class="ml-2" style="font-size:12pt; color: var(--global-theme-color);">
+        <a class="d-inline-block" style="font-size: 12pt; line-height: 1; vertical-align: middle; color: var(--global-theme-color); margin-left: -2.5px;" href="{{ site.baseurl }}/{{ contact_path }}/">
             <i class="fa-regular fa-envelope"></i>
-          </a>
-        </div>
+        </a>
+
 
       {% elsif site.enable_navbar_social %}
         <!--
