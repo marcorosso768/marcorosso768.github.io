@@ -8,29 +8,26 @@
       {%- endcapture -%}
 
       {% if page.permalink != '/' %}
-        <div class="d-inline-flex align-items-center">
-          <!-- Main brand with name -->
-          <a class="navbar-brand title font-weight-lighter mb-0" href="{{ site.baseurl }}/">
-            {%- if site.title != 'blank' -%}
-              {% if site.first_name %}
-                <span style="color: var(--global-theme-color);">{{- site.first_name -}}</span>
-              {% endif %}
-              {% if site.middle_name %}
-                <span style="color: var(--global-theme-color);">{{- site.middle_name -}}</span>
-              {% endif %}
-              {% if site.last_name %}
-                <span class="font-weight-bold" style="color: var(--global-theme-color);">{{- site.last_name -}}</span>
-              {% endif %}
-            {%- else -%}
-              {{- site.title -}}
-            {%- endif -%}
-          </a>
-          <!-- Envelope icon linking to the contact page -->
-          <a class="ml-1" style="font-size: 12pt; color: var(--global-theme-color);" href="{{ site.baseurl }}/{{ contact_path }}/">
+        <!-- Main brand with name -->
+        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+          {%- if site.title != 'blank' -%}
+            {% if site.first_name %}
+              <span style="color: var(--global-theme-color);">{{- site.first_name -}}</span>
+            {% endif %}
+            {% if site.middle_name %}
+              <span style="color: var(--global-theme-color);">{{- site.middle_name -}}</span>
+            {% endif %}
+            {% if site.last_name %}
+              <span class="font-weight-bold" style="color: var(--global-theme-color);">{{- site.last_name -}}</span>
+            {% endif %}
+          {%- else -%}
+            {{- site.title -}}
+          {%- endif -%}
+        </a>
+        <!-- Envelope icon linking to the contact page -->
+        <a class="d-inline-block ml-1" style="font-size: 12pt; vertical-align: middle; color: var(--global-theme-color);" href="{{ site.baseurl }}/{{ contact_path }}/">
             <i class="fa-regular fa-envelope"></i>
-          </a>
-        </div>
-      {% endif %}
+        </a>
 
       {% elsif site.enable_navbar_social %}
         <!--
