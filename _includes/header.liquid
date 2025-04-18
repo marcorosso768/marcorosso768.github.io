@@ -25,10 +25,8 @@
           {%- endif -%}
         </a>
         <!-- Envelope icon linking to the contact page -->
-        <a href="{{ site.baseurl }}/{{ contact_path }}/">
-          <div style="display: inline-block; font-size: 12pt; margin-left: 0px; color: var(--global-theme-color);">
+        <a class="d-inline-block ml-2" style="font-size: 12pt; color: var(--global-theme-color);" href="{{ site.baseurl }}/{{ contact_path }}/">
             <i class="fa-regular fa-envelope"></i>
-          </div>
         </a>
 
       {% elsif site.enable_navbar_social %}
