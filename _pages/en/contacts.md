@@ -18,20 +18,11 @@ subtitle: >
 
 <!-- e-mail section show by default -->
 <div id="content-1" style="display: block;">
-
-  <div style="margin: 0; padding: 0; position: relative;">
-      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-          <i class="fa-regular fa-envelope" style="color: var(--global-theme-color);"></i>
-      </div>
-      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span><a href="mailto:m.rosso@me.com">m.rosso@me.com</a></span>
-      </div>
-  </div>
     <div>
-        <span style="font-size:12pt;">&nbsp;&nbsp;<i class="fa-regular fa-envelope" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;&nbsp;<a href="mailto:m.rosso@me.com">m.rosso@me.com</a> </span>
+        <span style="font-size:12pt;">&thinsp;&nbsp;<i class="fa-regular fa-envelope" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;&nbsp;<a href="mailto:m.rosso@me.com">m.rosso@me.com</a> </span>
     </div>
     <div>
-        <span style="font-size:12pt;">&nbsp;&nbsp;<i class="fa-solid fa-envelope" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;&nbsp;<a href="mailto:marco.rosso4@unibo.it">marco.rosso4@unibo.it</a> </span>
+        <span style="font-size:12pt;">&thinsp;&nbsp;<i class="fa-solid fa-envelope" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;&nbsp;<a href="mailto:marco.rosso4@unibo.it">marco.rosso4@unibo.it</a> </span>
     </div>
   <div style="margin: 0; padding: 0; position: relative;">
       <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
