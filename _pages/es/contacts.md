@@ -87,7 +87,7 @@ subtitle: >
           <i class="fa-solid fa-landmark" style="color:var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span><a href="https://www.unibo.it/sitoweb/marco.rosso4/en">UniBo webpage</a></span>
+          <span><a href="https://www.unibo.it/sitoweb/marco.rosso4/en">Página web de UniBo</a></span>
       </div>
   </div>
   
@@ -126,7 +126,7 @@ subtitle: >
           <i class="fa-brands fa-x-twitter" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span><a href="https://x.com/{{ site.x_username }}">X</a></span>
+          <span><a href="https://x.com/{{ site.x_username }}">X (Q.E.P.D. Twitter)</a></span>
       </div>
   </div>
 
