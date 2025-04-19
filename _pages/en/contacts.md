@@ -71,7 +71,7 @@ subtitle: >
           <i class="ai ai-google-scholar" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>X: <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}">Google Scholar</a></span>
+          <span><a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}">Google Scholar</a></span>
       </div>
   </div>
   <div style="margin: 0; padding: 0; position: relative;">
@@ -79,7 +79,7 @@ subtitle: >
           <i class="ai ai-researchgate" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>X: <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/">ResearchGate</a></span>
+          <span><a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/">ResearchGate</a></span>
       </div>
   </div>
   <div style="margin: 0; padding: 0; position: relative;">
@@ -87,7 +87,7 @@ subtitle: >
           <i class="fa-brands fa-github" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>X: <a href="https://github.com/{{ site.github_username }}">GitHub</a></span>
+          <span><a href="https://github.com/{{ site.github_username }}">GitHub</a></span>
       </div>
   </div>
   
