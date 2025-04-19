@@ -27,8 +27,8 @@ subtitle: >
           <span><a href="mailto:m.rosso@me.com">m.rosso@me.com</a></span>
       </div>
   </div>
-    <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-        <span style="font-size:12pt;"><i class="fa-regular fa-envelope" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;&nbsp;<a style="color:var(--global-text-color);" href="mailto:m.rosso@me.com">m.rosso@me.com</a> </span>
+    <div>
+        <span style="font-size:12pt;">&nbsp;<i class="fa-regular fa-envelope" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;&nbsp;<a href="mailto:m.rosso@me.com">m.rosso@me.com</a> </span>
     </div>
   <div style="margin: 0; padding: 0; position: relative;">
       <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
@@ -38,6 +38,8 @@ subtitle: >
           <span><a href="mailto:marco.rosso4@unibo.it">marco.rosso4@unibo.it</a></span>
       </div>
   </div>
+
+<!--  style="color:var(--global-text-color);" -->
 
 </div>
 <!-- end -->
