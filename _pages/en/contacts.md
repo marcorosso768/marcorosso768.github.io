@@ -52,14 +52,6 @@ subtitle: >
 
   <div style="margin: 0; padding: 0; position: relative;">
       <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-          <i class="fa-solid fa-landmark" style="color:var(--global-theme-color);"></i>
-      </div>
-      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span><a href="https://www.unibo.it/sitoweb/marco.rosso4/en">UniBo webpage</a></span>
-      </div>
-  </div>
-  <div style="margin: 0; padding: 0; position: relative;">
-      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
           <i class="ai ai-orcid" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
@@ -90,6 +82,14 @@ subtitle: >
           <span><a href="https://github.com/{{ site.github_username }}">GitHub</a></span>
       </div>
   </div>
+  <div style="margin: 0; padding: 0; position: relative;">
+      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+          <i class="fa-solid fa-landmark" style="color:var(--global-theme-color);"></i>
+      </div>
+      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+          <span><a href="https://www.unibo.it/sitoweb/marco.rosso4/en">UniBo webpage</a></span>
+      </div>
+  </div>
   
 </div>
 <!-- end -->
@@ -107,26 +107,26 @@ subtitle: >
 
   <div style="margin: 0; padding: 0; position: relative;">
       <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-          <i class="fa-regular fa-envelope" style="color: var(--global-theme-color);"></i>
+          <i class="fa-brands fa-linkedin" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>Linkedin: <a href="mailto:m.rosso@me.com">m.rosso@me.com</a></span>
+          <span><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a></span>
       </div>
   </div>
   <div style="margin: 0; padding: 0; position: relative;">
       <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-          <i class="fa-solid fa-envelope" style="color: var(--global-theme-color);"></i>
+          <i class="fa-brands fa-bluesky" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>BlueSky: <a href="mailto:marco.rosso4@unibo.it">marco.rosso4@unibo.it</a></span>
+          <span><a href="https://bsky.app/profile/{{ site.bluesky_url }}">Bluesky</a></span>
       </div>
   </div>
     <div style="margin: 0; padding: 0; position: relative;">
       <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-          <i class="fa-solid fa-envelope" style="color: var(--global-theme-color);"></i>
+          <i class="fa-brands fa-x-twitter" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>X: <a href="mailto:marco.rosso4@unibo.it">marco.rosso4@unibo.it</a></span>
+          <span>X: <a href="https://twitter.com/{{ site.x_username }}">X</a></span>
       </div>
   </div>
 
