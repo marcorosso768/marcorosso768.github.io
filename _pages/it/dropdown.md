@@ -6,10 +6,12 @@ nav: true
 nav_order: 5
 dropdown: true
 children:
-  - title: referenze
-    permalink: /referenze/
-  - title: blog
-    permalink: /blog/
   - title: novità
     permalink: /novita/
+  - title: blog
+    permalink: /blog/
+  - title: referenze
+    permalink: /referenze/
+  - title: contatti
+    permalink: /contatti/
 ---

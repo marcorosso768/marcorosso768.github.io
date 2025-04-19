@@ -67,6 +67,6 @@ Por si fuera poco, también soy <b style="color: $white-color;">Representante de
 
 Y, finalmente, para no perder del todo la fe en la vida: organizo los <b style="color: $white-color;">Aperitivos del Departamento</b>. Un evento mensual donde hablamos de academia, vida, sueños rotos y convocatorias que están por cerrarse—pero con una copa en la mano, que cambia todo.
 
-¿Mi cita favorita?
-<i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>
+¿Mi cita favorita?<br>
+<i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i><br>
 Si te reíste, podríamos hasta ser amig@s. Si no… dale otra leída.
