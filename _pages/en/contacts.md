@@ -27,8 +27,8 @@ subtitle: >
           <span><a href="mailto:m.rosso@me.com">m.rosso@me.com</a></span>
       </div>
   </div>
-    <div>
-        <span style="font-size:12pt;"><i class="fa-regular fa-envelope" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a style="color:var(--global-text-color);" href="mailto:m.rosso@me.com">m.rosso@me.com</a> </span>
+    <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+        <span style="font-size:12pt;"><i class="fa-regular fa-envelope" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;&nbsp;<a style="color:var(--global-text-color);" href="mailto:m.rosso@me.com">m.rosso@me.com</a> </span>
     </div>
   <div style="margin: 0; padding: 0; position: relative;">
       <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
