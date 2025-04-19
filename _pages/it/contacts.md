@@ -144,7 +144,7 @@ subtitle: >
 <!-- location section show by default -->
 <div id="content-4" style="display: block;">
     <div style="display: flex; justify-content: center;">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11383.504888058369!2d11.352124!3d44.497203!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd4bb0ed9d74f%3A0x851bdc6a12c818e2!2sFacolt%C3%A0%20di%20Economia%20-%20Universit%C3%A0%20di%20Bologna!5e0!3m2!1sit!2sit!4v1745051034168!5m2!1sit!2sit" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11383.504888058369!2d11.352124!3d44.497203!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd4bb0ed9d74f%3A0x851bdc6a12c818e2!2sFacolt%C3%A0%20di%20Economia%20-%20Universit%C3%A0%20di%20Bologna!5e0!3m2!1sit!2sit!4v1745051034168!5m2!1sit!2sit" width="800" height="600" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </div>
 <!-- end -->
