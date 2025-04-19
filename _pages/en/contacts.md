@@ -19,7 +19,7 @@ subtitle: >
 <!-- e-mail section show by default -->
 <div id="content-1" style="display: block;">
     <div>
-        <span style="font-size:12pt;">&thinsp;&nbsp;<i class="fa-regular fa-envelope" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;&nbsp;<a href="mailto:m.rosso@me.com">m.rosso@me.com</a> </span>
+        <span style="font-size:12pt;">&thinsp;<i class="fa-regular fa-envelope" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;&nbsp;<a href="mailto:m.rosso@me.com">m.rosso@me.com</a> </span>
     </div>
     <div>
         <span style="font-size:12pt;">&thinsp;&nbsp;<i class="fa-solid fa-envelope" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;&nbsp;<a href="mailto:marco.rosso4@unibo.it">marco.rosso4@unibo.it</a> </span>
