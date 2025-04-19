@@ -87,7 +87,7 @@ subtitle: >
           <i class="fa-solid fa-landmark" style="color:var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span><a href="https://www.unibo.it/sitoweb/marco.rosso4/en">Pagina UniBo</a></span>
+          <span><a href="https://www.unibo.it/sitoweb/marco.rosso4/">Pagina UniBo</a></span>
       </div>
   </div>
   
