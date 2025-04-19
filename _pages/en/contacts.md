@@ -126,7 +126,7 @@ subtitle: >
           <i class="fa-brands fa-x-twitter" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span><a href="https://twitter.com/{{ site.x_username }}">X</a></span>
+          <span><a href="https://x.com/{{ site.x_username }}">X</a></span>
       </div>
   </div>
 
