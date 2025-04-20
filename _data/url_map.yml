@@ -8,6 +8,7 @@ en:
   "/it/ricerca/": "/research/"
   "/it/conferenze/": "/talks/"
   "/it/insegnamento/": "/teaching/"
+  "/it/contatti/": "/contacts/"
   # Spanish to English mappings
   "/es/": "/"
   "/es/blog/": "/blog/"
@@ -17,6 +18,7 @@ en:
   "/es/investigacion/": "/research/"
   "/es/conferencias/": "/talks/"
   "/es/docencia/": "/teaching/"
+  "/es/contactos/": "/contacts/"
 
 it:
   # English to Italian mappings
@@ -28,6 +30,7 @@ it:
   "/research/": "/it/ricerca/"
   "/talks/": "/it/conferenze/"
   "/teaching/": "/it/insegnamento/"
+  "/contacts/": "it/contatti/"
   # Spanish to Italian mappings
   "/es/": "/it/"
   "/es/blog/": "/it/blog/"
@@ -37,7 +40,7 @@ it:
   "/es/investigacion/": "/it/ricerca/"
   "/es/conferencias/": "/it/conferenze/"
   "/es/docencia/": "/it/insegnamento/"
-
+  "/es/contactos/": "it/contatti/"
 
 es:
   # English to Spanish mappings
@@ -49,6 +52,7 @@ es:
   "/research/": "/es/investigacion/"
   "/talks/": "/es/conferencias/"
   "/teaching/": "/es/docencia/"
+  "/contacts/": "/es/contactos/"
   # Italian to Spanish mappings
   "/it/": "/es/"
   "/it/blog/": "/es/blog/"
@@ -58,3 +62,4 @@ es:
   "/it/ricerca/": "/es/investigacion/"
   "/it/conferenze/": "/es/conferencias/"
   "/it/insegnamento/": "/es/docencia/"
+  "it/contatti/": "/es/contactos/"
