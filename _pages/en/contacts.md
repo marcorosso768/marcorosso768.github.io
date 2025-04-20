@@ -73,7 +73,7 @@ subtitle: >
         <span style="font-size:12pt;">&thinsp;&#8202;<i class="fa-brands fa-bluesky" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="https://bsky.app/profile/{{ site.bluesky_url }}">Bluesky</a> </span>
     </div>
     <div>
-        <span style="font-size:12pt;">&thinsp;&#8202;<i class="fa-brands fa-x-twitter" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;&nbsp;<a href="https://x.com/{{ site.x_username }}">X <i>(R.I.P. Twitter)</i></a> </span>
+        <span style="font-size:12pt;">&thinsp;&#8202;<i class="fa-brands fa-x-twitter" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;&#8202;<a href="https://x.com/{{ site.x_username }}"><i>R.I.P. Twitter</i></a> </span>
     </div>
 </div>
 <!-- end -->
