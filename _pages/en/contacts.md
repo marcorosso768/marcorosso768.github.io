@@ -67,40 +67,14 @@ subtitle: >
 <!-- social networks section show by default -->
 <div id="content-3" style="display: block;">
     <div>
-        <span style="font-size:12pt;">&thinsp;&#8202;<i class="fa-solid fa-landmark" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="https://www.unibo.it/sitoweb/marco.rosso4/en">UniBo personal webpage</a> </span>
+        <span style="font-size:12pt;">&thinsp;&#8202;<i class="fa-brands fa-linkedin" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a> </span>
     </div>
     <div>
-        <span style="font-size:12pt;">&thinsp;&#8202;<i class="fa-solid fa-landmark" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="https://www.unibo.it/sitoweb/marco.rosso4/en">UniBo personal webpage</a> </span>
+        <span style="font-size:12pt;">&thinsp;&#8202;<i class="fa-brands fa-bluesky" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="https://bsky.app/profile/{{ site.bluesky_url }}">Bluesky</a> </span>
     </div>
     <div>
-        <span style="font-size:12pt;">&thinsp;&#8202;<i class="fa-solid fa-landmark" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="https://www.unibo.it/sitoweb/marco.rosso4/en">UniBo personal webpage</a> </span>
+        <span style="font-size:12pt;">&thinsp;&#8202;<i class="fa-brands fa-x-twitter" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="https://x.com/{{ site.x_username }}">X <i>(R.I.P. Twitter)</i></a> </span>
     </div>
-
-  <div style="margin: 0; padding: 0; position: relative;">
-      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-          <i class="fa-brands fa-linkedin" style="color: var(--global-theme-color);"></i>
-      </div>
-      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a></span>
-      </div>
-  </div>
-  <div style="margin: 0; padding: 0; position: relative;">
-      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-          <i class="fa-brands fa-bluesky" style="color: var(--global-theme-color);"></i>
-      </div>
-      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span><a href="https://bsky.app/profile/{{ site.bluesky_url }}">Bluesky</a></span>
-      </div>
-  </div>
-    <div style="margin: 0; padding: 0; position: relative;">
-      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-          <i class="fa-brands fa-x-twitter" style="color: var(--global-theme-color);"></i>
-      </div>
-      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span><a href="https://x.com/{{ site.x_username }}">X (R.I.P. Twitter)</a></span>
-      </div>
-  </div>
-
 </div>
 <!-- end -->
 
