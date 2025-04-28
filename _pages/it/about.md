@@ -50,7 +50,7 @@ social: true # includes social icons at the bottom of the page
 
 Benvenutə nel mio sito personale—felice che tu sia arrivatə di tua spontanea volontà (o che tu abbia cliccato per sbaglio: succede anche ai migliori).
 
-Sono un <b style="color: $white-color;">dottorando al 5<sup>o</sup> anno in Economia</b> e <b style="color: $white-color;">post-doc</b> (sì, esistono ancora) presso l'Università di Bologna.
+Sono un <b style="color: $white-color;">dottorando al 5<sup>o</sup> anno in Economia</b> e un <b style="color: $white-color;">post-doc</b> (sì, esistono ancora) presso l'Università di Bologna.
 
 I miei <b style="color: $white-color;">interessi di ricerca</b> orbitano attorno a <b style="color: $white-color;">Economia Politica</b>, <b style="color: $white-color;">Economia del Crimine</b>, <b style="color: $white-color;">Economia Sperimentale</b> e <b style="color: $white-color;">Comportamentale</b>—per chi ama le domande scomode, i dilemmi etici e i dataset introvabili.
 
@@ -61,7 +61,7 @@ In questo momento sto cercando di rispondere a cose tipo:
   <li>L’Erasmus ci cambia? (O cambia solo la nostra playlist su Spotify?)</li>
 </ul>
 
-Quando non cerco di dare senso al caos (spoiler: il caos vince), faccio il <b style="color: $white-color;">tutor didattico</b> per corsi come: <b style="color: $white-color;">Introduzione all’Economia Comportamentale</b>, <b style="color: $white-color;">Teoria dei Giochi</b>, <b style="color: $white-color;">Economia Politica</b> e <b style="color: $white-color;">Microeconomia</b>. Cioè, cerco di spiegare concetti complessi con esempi improbabili e finta consapevolezza.
+Quando non cerco di dare senso al caos (spoiler: il caos vince), sono <b style="color: $white-color;">tutor didattico</b> per i seguenti corsi: <b style="color: $white-color;">Introduzione all’Economia Comportamentale</b>, <b style="color: $white-color;">Teoria dei Giochi</b>, <b style="color: $white-color;">Economia Politica</b> e <b style="color: $white-color;">Microeconomia</b>. Cioè, cerco di spiegare concetti complessi con esempi improbabili e finta consapevolezza.
 
 Per non farmi mancare nulla, sono anche <b style="color: $white-color;">rappresentante degli assegnisti di ricerca</b> sia in <b style="color: $white-color;">Consiglio</b> che in <b style="color: $white-color;">Giunta di Dipartimento</b>. Tradotto: partecipo a lunghe riunioni con molte slide e annuisco in modo professionale.
 
@@ -71,4 +71,4 @@ La mia citazione preferita?
 <i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>  
 Se hai riso, sappi che potremmo anche diventare amicə. Se no... prova a rileggere.
 
-<i style="font-size: 10pt;">P.S. Questa pagina in italiano è principalmente per i miei genitori, così capiscono cosa faccio e possono smettere di dire ai loro amici che “studio ancora”. 🥰</i>
+<i style="font-size: 10pt;">P.S. La versione del sito in italiano è stata pensata principalmente per la mia famiglia, così che possa capire cosa faccio e smettere di dire ai loro amici che “studio ancora”. 🥰</i>

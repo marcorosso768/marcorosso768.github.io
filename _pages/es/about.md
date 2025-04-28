@@ -61,7 +61,7 @@ En este momento, estoy intentando entender cosas como:
   <li>¿El Erasmus nos transforma? (¿O solo cambia nuestra playlist de Spotify?)</li>
 </ul>
 
-Cuando no intento darle sentido al caos (spoiler: gana el caos), trabajo como <b style="color: $white-color;">Asistente de Docencia</b> en cursos como: <b style="color: $white-color;">Introducción a la Economía del Comportamiento</b>, <b style="color: $white-color;">Teoría de Juegos</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Microeconomía</b>. O sea, intento explicar conceptos complejos con ejemplos improbables y falsa seguridad.
+Cuando no intento darle sentido al caos (spoiler: gana el caos), soy <b style="color: $white-color;">Asistente de Docencia</b> de los siguientes cursos: <b style="color: $white-color;">Introducción a la Economía del Comportamiento</b>, <b style="color: $white-color;">Teoría de Juegos</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Microeconomía</b>. O sea, intento explicar conceptos complejos con ejemplos improbables y falsa seguridad.
 
 Por si fuera poco, también soy <b style="color: $white-color;">Representante de Investigador@s Post-Doc</b> tanto en el <b style="color: $white-color;">Consejo de Departamento</b> como en la <b style="color: $white-color;">Junta de Departamento</b>. Traducción: asisto a reuniones largas con muchas diapositivas y asiento de forma profesional.
 
