@@ -38,8 +38,9 @@ subtitle: >
 
 <!-- online resources section show by default -->
 <div id="content-2" style="display: block;">
-    <div>
-        <span style="font-size:12pt; color: $white-color;">&thinsp;&#8202;<i class="fa-solid fa-landmark fa-fw" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="https://www.unibo.it/sitoweb/marco.rosso4/en">UniBo personal webpage</a> </span>
+    <div style="display: flex; align-items: center; font-size:12pt; color: $white-color;">
+      <i class="fa-solid fa-landmark fa-fw" style="color:var(--global-theme-color); margin-right:8px;"></i>
+      <a href="https://www.unibo.it/sitoweb/marco.rosso4/en" style="color:inherit;">UniBo personal webpage</a>
     </div>
     <div>
         <span style="font-size:12pt; color: $white-color;">&thinsp;&#8202;<i class="ai ai-orcid fa-fw" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="https://orcid.org/{{ site.orcid_id }}">ORCID</a> </span>
