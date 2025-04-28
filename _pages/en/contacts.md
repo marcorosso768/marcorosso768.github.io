@@ -45,10 +45,10 @@ subtitle: >
         <span style="font-size:12pt;">&thinsp;&#8202;<i class="ai ai-orcid" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="https://orcid.org/{{ site.orcid_id }}" style="color: $white-color";>ORCID</a> </span>
     </div>
     <div>
-        <span style="font-size:12pt;">&thinsp;&#8202;<i class="ai ai-google-scholar" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;&nbsp;<a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" style="color: $white-color";>Google Scholar</a> </span>
+        <span style="font-size:12pt;">&nbsp;&thinsp;&#8202;<i class="ai ai-google-scholar" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" style="color: $white-color";>Google Scholar</a> </span>
     </div>
     <div>
-        <span style="font-size:12pt;">&thinsp;&#8202;<i class="ai ai-researchgate" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;&nbsp;<a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" style="color: $white-color";>ResearchGate</a> </span>
+        <span style="font-size:12pt;">&nbsp;&thinsp;&#8202;<i class="ai ai-researchgate" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" style="color: $white-color";>ResearchGate</a> </span>
     </div>
     <div>
         <span style="font-size:12pt;">&thinsp;&#8202;<i class="fa-brands fa-github" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="https://github.com/{{ site.github_username }}" style="color: $white-color";>GitHub</a> </span>
@@ -67,13 +67,13 @@ subtitle: >
 <!-- social networks section show by default -->
 <div id="content-3" style="display: block;">
     <div>
-        <span style="font-size:12pt;">&thinsp;&#8202;<i class="fa-brands fa-linkedin" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" style="color: $white-color";>LinkedIn</a> </span>
+        <span style="font-size:12pt;">&nbsp;&thinsp;&#8202;<i class="fa-brands fa-linkedin" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" style="color: $white-color";>LinkedIn</a> </span>
     </div>
     <div>
         <span style="font-size:12pt;">&thinsp;&#8202;<i class="fa-brands fa-bluesky" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="https://bsky.app/profile/{{ site.bluesky_url }}" style="color: $white-color";>Bluesky</a> </span>
     </div>
     <div>
-        <span style="font-size:12pt;">&thinsp;&#8202;<i class="fa-brands fa-x-twitter" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;&#8202;<a href="https://x.com/{{ site.x_username }}" style="color: $white-color";><i>R.I.P. Twitter</i></a> </span>
+        <span style="font-size:12pt;">&nbsp;&thinsp;&#8202;<i class="fa-brands fa-x-twitter" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&#8202;<a href="https://x.com/{{ site.x_username }}" style="color: $white-color";><i>R.I.P.</i> Twitter</a> </span>
     </div>
 </div>
 <!-- end -->
