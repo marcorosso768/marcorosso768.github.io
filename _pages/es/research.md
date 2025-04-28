@@ -149,7 +149,7 @@ nav_order: 1
           <i class="fa-solid fa-bookmark" style="color: var(--global-theme-color);"></i>
       </div>
       <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span><i> The Effect of Erasmus Programs on Voting </i>, en colaboración con <a href="https://www.unibo.it/sitoweb/manuel.blasco2/en"><i> Manuel Blasco </i></a></span>
+          <span><i> The Effect of Erasmus Programs on Voting </i></span>
       </div>
   </div>
 
