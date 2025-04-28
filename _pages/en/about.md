@@ -61,7 +61,7 @@ Right now, I’m trying to make sense of things like:
   <li>Does Erasmus really change us? (Or just our Spotify playlists?)</li>
 </ul>
 
-When I’m not trying to make sense of chaos (spoiler: chaos wins), I work as a <b style="color: $white-color;">Teaching Assistant</b> for courses like: <b style="color: $white-color;">Introduction to Behavioral Economics</b>, <b style="color: $white-color;">Game Theory</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Microeconomics</b>. Basically, I try to explain complex concepts using unlikely metaphors and fake confidence.
+When I’m not trying to make sense of chaos (spoiler: chaos wins), I am the <b style="color: $white-color;">Teaching Assistant</b> for the following courses: <b style="color: $white-color;">Introduction to Behavioral Economics</b>, <b style="color: $white-color;">Game Theory</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Microeconomics</b>. Basically, I try to explain complex concepts using unlikely metaphors and fake confidence.
 
 To top it off, I’m also the <b style="color: $white-color;">Representative for Research Fellows</b> both in the <b style="color: $white-color;">Department Council</b> and the <b style="color: $white-color;">Department Committee</b>. Translation: I sit through long meetings with too many slides and nod professionally.
 
