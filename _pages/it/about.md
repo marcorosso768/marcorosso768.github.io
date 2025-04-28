@@ -61,7 +61,7 @@ In questo momento sto cercando di rispondere a cose tipo:
   <li>L’Erasmus ci cambia? (O cambia solo la nostra playlist su Spotify?)</li>
 </ul>
 
-Quando non cerco di dare senso al caos (spoiler: il caos vince), sono <b style="color: $white-color;">tutor didattico</b> per corsi come: <b style="color: $white-color;">Introduzione all’Economia Comportamentale</b>, <b style="color: $white-color;">Teoria dei Giochi</b>, <b style="color: $white-color;">Economia Politica</b> e <b style="color: $white-color;">Microeconomia</b>. Cioè, cerco di spiegare concetti complessi con esempi improbabili e finta consapevolezza.
+Quando non cerco di dare senso al caos (spoiler: il caos vince), sono <b style="color: $white-color;">tutor didattico</b> per i seguenti corsi: <b style="color: $white-color;">Introduzione all’Economia Comportamentale</b>, <b style="color: $white-color;">Teoria dei Giochi</b>, <b style="color: $white-color;">Economia Politica</b> e <b style="color: $white-color;">Microeconomia</b>. Cioè, cerco di spiegare concetti complessi con esempi improbabili e finta consapevolezza.
 
 Per non farmi mancare nulla, sono anche <b style="color: $white-color;">rappresentante degli assegnisti di ricerca</b> sia in <b style="color: $white-color;">Consiglio</b> che in <b style="color: $white-color;">Giunta di Dipartimento</b>. Tradotto: partecipo a lunghe riunioni con molte slide e annuisco in modo professionale.
 
