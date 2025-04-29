@@ -16,12 +16,12 @@ subtitle: >
 </div>
 
 <div id="content-1" style="display: block;">
-  <div class="icon-link">
+  <div class="icon-link indented">
     <i class="fa-regular fa-envelope fa-fw"></i>
     <a href="mailto:m.rosso@me.com">m.rosso@me.com</a>
   </div>
 
-  <div class="icon-link">
+  <div class="icon-link indented">
     <i class="fa-solid fa-envelope fa-fw"></i>
     <a href="mailto:marco.rosso4@unibo.it">marco.rosso4@unibo.it</a>
   </div>
@@ -35,27 +35,27 @@ subtitle: >
 </div>
 
 <div id="content-2" style="display: block;">
-  <div class="icon-link">
+  <div class="icon-link indented">
     <i class="fa-solid fa-landmark fa-fw"></i>
     <a href="https://www.unibo.it/sitoweb/marco.rosso4/en" target="_blank" rel="noopener noreferrer">personal page on UniBo website</a>
   </div>
 
-  <div class="icon-link">
+  <div class="icon-link indented">
     <i class="ai ai-orcid fa-fw"></i>
     <a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" rel="noopener noreferrer">ORCID</a>
   </div>
 
-  <div class="icon-link">
+  <div class="icon-link indented">
     <i class="ai ai-google-scholar fa-fw"></i>
     <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="nofollow noopener noreferrer">Google Scholar</a>
   </div>
 
-  <div class="icon-link">
+  <div class="icon-link indented">
     <i class="ai ai-researchgate fa-fw"></i>
     <a href="https://www.researchgate.net/profile/{{ site.research_gate_profile }}/" target="_blank" rel="noopener noreferrer">ResearchGate</a>
   </div>
 
-  <div class="icon-link">
+  <div class="icon-link indented">
     <i class="fa-brands fa-github fa-fw"></i>
     <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">GitHub</a>
   </div>
@@ -69,19 +69,21 @@ subtitle: >
 </div>
 
 <div id="content-3" style="display: block;">
-  <div class="icon-link">
+  <div class="icon-link indented">
     <i class="fa-brands fa-linkedin fa-fw"></i>
     <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
   </div>
 
-  <div class="icon-link">
+  <div class="icon-link indented">
     <i class="fa-brands fa-bluesky fa-fw"></i>
     <a href="https://bsky.app/profile/{{ site.bluesky_url }}" target="_blank" rel="noopener noreferrer">Bluesky</a>
   </div>
 
   <div class="icon-link">
     <i class="fa-brands fa-x-twitter fa-fw"></i>
-    <a href="https://x.com/{{ site.x_username }}" target="_blank" rel="noopener noreferrer"><i style="color:$white;">R.I.P.</i> Twitter</a>
+    <a href="https://x.com/{{ site.x_username }}" target="_blank" rel="noopener noreferrer">
+      <span><i>R.I.P.</i> Twitter</span>
+    </a>
   </div>
 </div>
 
