@@ -41,7 +41,7 @@ table {
 }
 
 a {
-    color: inherit;
+    color: var(--global-theme-color);
     text-decoration: none;
     transition: color var(--transition-duration) var(--transition-easing), transform var(--transition-duration) var(--transition-easing);
 
