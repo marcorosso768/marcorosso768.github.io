@@ -6,9 +6,9 @@ lang: it
 title: contatti
 description:
 subtitle: >
-    <p class="lang-links">
-        <a href="{{ '/contacts/' | relative_url }}" hreflang="en">contacts</a>&nbsp;|&nbsp;<a href="https://marcorosso.com/es/contactos/" hreflang="es">contactos</a>
-    </p>
+    <div class="lang-links">
+        <a href="/contacts/" hreflang="en">contacts</a>&nbsp;|&nbsp;<a href="/es/contactos/" hreflang="es">contactos</a>
+    </div>
 ---
 
 <!-- e-mail -->
