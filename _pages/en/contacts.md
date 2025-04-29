@@ -2,6 +2,7 @@
 page_id: contacts
 layout: page
 permalink: /contacts/
+lang: en
 title: contacts
 description:
 subtitle: >
