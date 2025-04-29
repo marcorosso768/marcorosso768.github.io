@@ -5,7 +5,7 @@ permalink: /contacts/
 title: contacts
 description:
 subtitle: >
-    <p style="color: var(--global-theme-color); margin-top: -20px; font-weight: normal;"><a href='https://marcorosso.com/it/contatti/'>contatti</a>&nbsp;|&nbsp;<a href='https://marcorosso.com/es/contactos/'>contactos</a></p>
+    <p style="color: var(--global-theme-color); margin-top: -20px; font-weight: normal;"><a href='https://marcorosso.com/it/contatti/'>contatti</a>&nbsp;|&nbsp;<a href='https://marcorosso.com/es/contactos/' style="transition: color var(--transition-duration) var(--transition-easing), transform var(--transition-duration) var(--transition-easing);">contactos</a></p>
 ---
 
 <!-- E-mail Section -->
