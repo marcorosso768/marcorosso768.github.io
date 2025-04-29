@@ -112,3 +112,29 @@ body.sticky-bottom-footer {
   color: inherit;
   font-style: italic; /* mantiene il corsivo */
 }
+
+/*****************************************************************************
+* Subtitles
+*****************************************************************************/
+
+.lang-links {
+  color: var(--global-theme-color);
+  margin-top: -20px;
+  font-weight: normal;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition: color var(--transition-duration) var(--transition-easing), transform var(--transition-duration) var(--transition-easing);
+
+    &:hover {
+      color: var(--global-hover-color);
+      transform: scale(1.03);
+    }
+
+    &:active {
+      color: var(--global-active-color);
+      transform: scale(0.98);
+    }
+  }
+}
