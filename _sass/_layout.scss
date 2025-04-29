@@ -103,3 +103,13 @@ body.sticky-bottom-footer {
     }
   }
 }
+
+.icon-link a span {
+  display: inline;
+  color: inherit;
+}
+
+.icon-link a span i {
+  font-style: italic;
+  color: inherit;
+}
