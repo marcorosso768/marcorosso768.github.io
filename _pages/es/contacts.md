@@ -7,7 +7,7 @@ title: contactos
 description:
 subtitle: >
     <div class="lang-links">
-        <a href="https://marcorosso.com/contacts/" onclick="event.preventDefault(); window.location.href=this.href;">contacts</a>&nbsp;|&nbsp;<a href="/it/contatti/" hreflang="it">contatti</a>
+        <a href="#" onclick="window.location.href='https://marcorosso.com/contacts/'; return false;">contacts</a>&nbsp;|&nbsp;<a href="/it/contatti/" hreflang="it">contatti</a>
     </div>
 ---
 
