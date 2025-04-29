@@ -47,7 +47,7 @@ subtitle: >
 
   <div class="icon-link">
     <i class="ai ai-google-scholar fa-fw"></i>
-    <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+    <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="nofollow noopener noreferrer">Google Scholar</a>
   </div>
 
   <div class="icon-link">
@@ -81,7 +81,7 @@ subtitle: >
 
   <div class="icon-link">
     <i class="fa-brands fa-x-twitter fa-fw"></i>
-    <a href="https://x.com/{{ site.x_username }}" target="_blank" rel="noopener noreferrer"><i>R.I.P.</i> Twitter</a>
+    <a href="https://x.com/{{ site.x_username }}" target="_blank" rel="noopener noreferrer"><i style="color:$white;">R.I.P.</i> Twitter</a>
   </div>
 </div>
 
