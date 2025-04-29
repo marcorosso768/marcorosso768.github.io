@@ -319,6 +319,7 @@ ul.task-list input[type="checkbox"] {
     padding-bottom: 0;
     padding-top: 0;
     font-size: 1rem;
+    font-weight: normal;
     color: var(--global-theme-color);
 
     a {
@@ -1467,7 +1468,7 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 /* === PATCH: Hover discreto per i link normali === */
-a {
+.navbar .dropdown-menu a {
   color: var(--global-theme-color);
   text-decoration: none;
   transition: color var(--transition-duration) var(--transition-easing), 
@@ -1486,12 +1487,11 @@ a {
 }
 
 /* Nessun effetto "scale" nei dropdown o in navbar */
-.navbar .dropdown-menu a,
 .dropdown-item,
-.navbar-nav .nav-link {
+.nav-link {
   transform: none !important;
   &:hover {
     transform: none !important;
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
