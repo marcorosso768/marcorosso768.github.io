@@ -1,7 +1,8 @@
 ---
 page_id: contacts
 layout: page
-permalink: /contactos/
+permalink: /es/contactos/
+lang: es
 title: contactos
 description:
 subtitle: >
