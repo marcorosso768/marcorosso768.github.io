@@ -81,7 +81,7 @@ subtitle: >
 
   <div class="icon-link">
     <i class="fa-brands fa-x-twitter fa-fw"></i>
-    <a href="https://x.com/{{ site.x_username }}" target="_blank" rel="noopener noreferrer"><em>R.I.P.</em>Twitter</a>
+    <a href="https://x.com/{{ site.x_username }}" target="_blank" rel="noopener noreferrer"><em>R.I.P.</em> Twitter</a>
   </div>
 </div>
 
