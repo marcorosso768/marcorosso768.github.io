@@ -5,9 +5,9 @@ permalink: /contactos/
 title: contactos
 description:
 subtitle: >
-    <p class="lang-links">
-        <a href="https://marcorosso.com/contacts/" hreflang="en">contacts</a>&nbsp;|&nbsp;<a href="https://marcorosso.com/it/contatti/">contatti</a>
-    </p>
+    <div class="lang-links">
+        <a href="https://marcorosso.com/contacts/">contacts</a>&nbsp;|&nbsp;<a href="https://marcorosso.com/it/contatti/">contatti</a>
+    </div>
 ---
 
 <!-- e-mail -->
