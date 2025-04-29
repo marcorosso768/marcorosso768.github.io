@@ -75,7 +75,7 @@ body.sticky-bottom-footer {
   display: flex;
   align-items: center;
   font-size: 12pt;
-  color: $white-color;
+  color: var(--global-text-color);
   margin-bottom: 8px;
 
   i {
