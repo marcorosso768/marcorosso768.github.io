@@ -40,7 +40,7 @@ table {
   }
 }
 
-a {
+/*a {
     color: var(--global-theme-color);
     text-decoration: none;
     transition: color var(--transition-duration) var(--transition-easing), transform var(--transition-duration) var(--transition-easing);
@@ -60,8 +60,8 @@ a {
       color: var(--global-active-color);
       transform: scale(var(--active-scale));
     }
-  }
-/* a, */
+  }*/
+a, 
 table.table a {
   color: var(--global-theme-color);
 
