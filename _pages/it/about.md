@@ -71,4 +71,4 @@ La mia citazione preferita?
 <i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>  
 Se hai riso, sappi che potremmo anche diventare amicə. Se no... prova a rileggere.
 
-<i style="font-size: 10pt;">P.S. La versione del sito in italiano è stata pensata principalmente per la mia famiglia, così che possa capire cosa faccio e smettere di dire ai loro amici che “studio ancora” 🥰</i>
+<i style="font-size: 10pt;">P.S. La versione del sito in italiano è stata pensata principalmente per la mia famiglia, così che possa capire cosa faccio e smettere di dire ai loro amici che “studio ancora”.. 🥰</i>
