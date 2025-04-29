@@ -5,7 +5,9 @@ permalink: /research/
 title: research
 description:
 subtitle: >
-    <p style="color: var(--global-theme-color); margin-top: -20px; font-weight: normal;"><a href='https://marcorosso.com/it/ricerca/'>ricerca</a>&nbsp;|&nbsp;<a href='https://marcorosso.com/es/investigacion/'>investigación</a></p>
+    <div class="lang-links">
+        <a href="it/ricerca/" hreflang="it">ricerca</a>&nbsp;|&nbsp;<a href="/es/investigacion/" hreflang="es">investigación</a>
+    </div>
 nav: true
 nav_order: 1
 ---

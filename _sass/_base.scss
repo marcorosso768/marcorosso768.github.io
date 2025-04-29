@@ -40,7 +40,7 @@ table {
   }
 }
 
-a,
+a, 
 table.table a {
   color: var(--global-theme-color);
 
@@ -255,6 +255,23 @@ ul.task-list input[type="checkbox"] {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+
+   a {
+    color: inherit;
+    text-decoration: none;
+    transition: color var(--transition-duration) var(--transition-easing), transform var(--transition-duration) var(--transition-easing);
+    
+    &:hover {
+      color: var(--global-hover-color);
+      transform: scale(var(--hover-scale));
+      text-decoration: none;
+    }
+    
+    &:active {
+      color: var(--global-active-color);
+      transform: scale(var(--active-scale));
+    }
+  }
 }
 
 .navbar .dropdown-menu {
@@ -318,8 +335,7 @@ ul.task-list input[type="checkbox"] {
   .navbar-brand.social {
     padding-bottom: 0;
     padding-top: 0;
-    font-size: 1rem;
-    color: var(--global-theme-color);
+    font-weight: normal;
 
     a {
       i::before {
@@ -776,6 +792,20 @@ footer.sticky-bottom {
     margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: right;
+    font-size: 1.4em;
+    /* transition: transform 0.3s ease;  aggiunto per animazione */
+
+  i {
+    transition: transform 0.3s ease; /* anche l'icona avrà animazione */
+  }
+
+  &:hover {
+    /* transform: scale(1.03);  ingrandisce tutto il titolo (compresa l'icona) */
+
+    i {
+      transform: scale(1.2); /* l'icona si ingrandisce un po' di più rispetto al testo */
+    }
+  }
   }
 }
 

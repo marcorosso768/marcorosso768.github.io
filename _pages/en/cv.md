@@ -4,7 +4,9 @@ layout: cv
 permalink: /curriculum_vitae/
 title: curriculum vitae
 subtitle: >
-    <p style="color: var(--global-theme-color); margin-top: -20px; font-weight: normal;"><a href='https://marcorosso.com/it/curriculum_vitae/'>italiano</a>&nbsp;|&nbsp;<a href='https://marcorosso.com/es/curriculum_vitae/'>español</a></p>
+    <div class="lang-links">
+        <a href="/it/curriculum_vitae/" hreflang="it">italiano</a>&nbsp;|&nbsp;<a href="/es/curriculum_vitae/" hreflang="es">español</a>
+    </div>
 nav: true
 nav_order: 4
 cv_pdf: /[Marco Rosso] Curriculum Vitae.pdf
