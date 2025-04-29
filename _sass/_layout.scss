@@ -133,7 +133,7 @@ body.sticky-bottom-footer {
     &:hover {
       color: var(--global-hover-color);
       transform: scale(var(--hover-scale));
-      text-decoration: underline;
+      text-decoration: none;
     }
     
     &:active {
