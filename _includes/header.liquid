@@ -45,20 +45,18 @@
         </div>
         -->
         <!-- Replacement with contact_note and envelope icon, both linking to the contact page -->
-        <span style="font-weight: normal !important;">
         <a href="{{ site.baseurl }}/{{ contact_path }}/" >
-          <div style="margin: 0; padding: 0; position: relative;">
-            <div class="navbar-brand social" style="font-weight: normal;">
+          <div class="font-weight-normal" style="margin: 0; padding: 0; position: relative;">
+            <div class="navbar-brand social">
               <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt;">
                 <i class="fa-regular fa-envelope fa-fw"></i>
               </div>
-              <div style="display: inline-block; line-height: 1; font-size: 12pt; margin-left: 2.5px; font-weight: normal;">
-                <span style="font-weight: normal !important;">{{ site.data[site.active_lang].strings.contact_note }}</span>
+              <div style="display: inline-block; line-height: 1; font-size: 12pt; margin-left: 2.5px;">
+                {{ site.data[site.active_lang].strings.contact_note }}
               </div>
             </div>
           </div>
         </a>
-        </span>
       {% endif %}
 
       <!-- Navbar Toggle -->
