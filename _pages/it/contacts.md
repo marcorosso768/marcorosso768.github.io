@@ -1,7 +1,7 @@
 ---
 page_id: contacts
 layout: page
-permalink: /it/contatti/
+permalink: /contatti/
 lang: it
 title: contatti
 description:
