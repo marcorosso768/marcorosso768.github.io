@@ -7,7 +7,7 @@ title: contacts
 description:
 subtitle: >
     <p class="lang-links">
-      <a href="https://marcorosso.com/it/contatti/" hreflang="it">contatti</a>&nbsp;|&nbsp;<a href="https://marcorosso.com/es/contactos/ "hreflang="es">contactos</a>
+      <a href="https://marcorosso.com/it/contatti/" hreflang="it">contatti</a>&nbsp;|&nbsp;<a href="https://marcorosso.com/es/contactos/" hreflang="es">contactos</a>
     </p>
 ---
 
