@@ -777,14 +777,14 @@ footer.sticky-bottom {
     margin-bottom: 1rem;
     text-align: right;
     font-size: 1.4em;
-    transition: transform 0.3s ease; /* aggiunto per animazione */
+    /* transition: transform 0.3s ease;  aggiunto per animazione */
 
   i {
     transition: transform 0.3s ease; /* anche l'icona avrà animazione */
   }
 
   &:hover {
-    transform: scale(1.03); /* ingrandisce tutto il titolo (compresa l'icona) */
+    /* transform: scale(1.03);  ingrandisce tutto il titolo (compresa l'icona) */
 
     i {
       transform: scale(1.2); /* l'icona si ingrandisce un po' di più rispetto al testo */
