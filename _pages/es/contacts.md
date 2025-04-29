@@ -7,7 +7,7 @@ title: contactos
 description:
 subtitle: >
     <div class="lang-links">
-        <a href="{{ '/contacts/' | t }}">contacts</a>contacts</a>&nbsp;|&nbsp;<a href="https://marcorosso.com/it/contatti/">contatti</a>
+      <a href="/contacts/" hreflang="en">contacts</a>&nbsp;|&nbsp;<a href="/it/contatti/" hreflang="it">contatti</a>
     </div>
 ---
 
