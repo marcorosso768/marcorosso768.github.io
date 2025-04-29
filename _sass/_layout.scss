@@ -58,7 +58,11 @@ body.sticky-bottom-footer {
 
 :root {
   --white-color: #ffffff;
-  --indent-margin: 16px;
+  --indent-margin: 8px;
+  --transition-duration: 0.3s;
+  --transition-easing: ease;
+  --hover-scale: 1.03;
+  --active-scale: 0.98;
 }
 
 /* Indentation utility class */
@@ -102,14 +106,4 @@ body.sticky-bottom-footer {
       transform: scale(var(--active-scale));
     }
   }
-}
-
-.icon-link a span {
-  display: inline;
-  color: inherit;
-}
-
-.icon-link a span i {
-  font-style: italic;
-  color: inherit;
 }
