@@ -1466,32 +1466,3 @@ ninja-keys::part(ninja-input-wrapper) {
     text-decoration: none !important;
     background-color: var(--global-bg-color) !important;
 }
-
-/* === PATCH: Hover discreto per i link normali === */
-.navbar .dropdown-menu a {
-  color: var(--global-theme-color);
-  text-decoration: none;
-  transition: color var(--transition-duration) var(--transition-easing), 
-              transform var(--transition-duration) var(--transition-easing);
-
-  &:hover {
-    color: var(--global-hover-color);
-    text-decoration: underline;
-    transform: scale(1.03);
-  }
-
-  &:active {
-    color: var(--global-active-color);
-    transform: scale(1.02);
-  }
-}
-
-/* Nessun effetto "scale" nei dropdown o in navbar */
-.dropdown-item,
-.nav-link {
-  transform: none !important;
-  &:hover {
-    transform: none !important;
-    text-decoration: none;
-  }
-}
