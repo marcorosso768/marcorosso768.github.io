@@ -118,22 +118,25 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 .lang-links {
-  color: var(--global-theme-color);
+  display: flex;
   margin-top: -20px;
-  font-size: 12pt;
+  margin-left: 0;
+  color: var(--global-theme-color);
+  font-weight: bold;
+  flex-wrap: wrap;
+  font-size: 10pt;
 
   a {
     color: inherit;
     text-decoration: none;
-    font-size: inherit;
     transition: color var(--transition-duration) var(--transition-easing), transform var(--transition-duration) var(--transition-easing);
-
+    
     &:hover {
       color: var(--global-hover-color);
       transform: scale(var(--hover-scale));
       text-decoration: underline;
     }
-
+    
     &:active {
       color: var(--global-active-color);
       transform: scale(var(--active-scale));
