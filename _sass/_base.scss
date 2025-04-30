@@ -431,6 +431,11 @@ ul.task-list input[type="checkbox"] {
   color: inherit;
 }
 
+.nav-link:hover .contact-label,
+.nav-link:hover i {
+  color: inherit;
+}
+
 // Social (bottom)
 
 .social {
