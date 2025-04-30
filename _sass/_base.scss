@@ -172,7 +172,7 @@ ul.task-list input[type="checkbox"] {
 // Card
 
 .card {
-  background-color: var(--global-theme-color);
+  background-color: var(--global-theme-color); //default var(--global-card-bg-color)
   border-color: var(--global-theme-color);
   
   .card-img {
@@ -251,7 +251,7 @@ ul.task-list input[type="checkbox"] {
 /* Navbar customization */
 
 :root {
-  --hover-scale-small: 1.01;
+  --hover-scale-small: 1.05;
   --hover-scale: 1.05;
   --hover-scale-big: 1.1;
   --transition-easing: ease-in-out;
