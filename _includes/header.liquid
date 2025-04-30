@@ -45,9 +45,12 @@
         </div>
         -->
         <!-- Replacement with contact_note and envelope icon, both linking to the contact page -->
-          <div class="icon-link">
-              <a href="{{ site.baseurl }}/{{ contact_path }}/" ><i class="fa-regular fa-envelope fa-fw"></i>{{ site.data[site.active_lang].strings.contact_note }}</a>
-          </div>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/{{ contact_path }}/">
+            <i class="fa-regular fa-envelope fa-fw"></i>
+            {{ site.data[site.active_lang].strings.contact_note }}
+          </a>
+        </li>
       {% endif %}
 
       <!-- Navbar Toggle -->
@@ -142,7 +145,21 @@
               <ul class="navbar-nav" style="list-style-type: none; padding-left: 0;">
                 <li class="nav-item dropdown">
                   <!-- Dropdown Toggle (Icon Only) -->
-                  <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" aria-label="Select language" style="color: var(--global-theme-color);">
+                  <a class="nav-link dropdown-toggle"
+                     role="button"
+                     data-toggle="dropdown"
+                     aria-expanded="false"
+                     aria-label="{% case site.active_lang %}
+                       {% when 'it' %}Seleziona lingua
+                       {% when 'es' %}Seleccionar idioma
+                       {% else %}Select language
+                     {% endcase %}"
+                     title="{% case site.active_lang %}
+                       {% when 'it' %}Seleziona lingua
+                       {% when 'es' %}Seleccionar idioma
+                       {% else %}Select language
+                     {% endcase %}"
+                     style="color: var(--global-theme-color);">
                     <i class="fa fa-language" aria-hidden="true" style="color: var(--global-theme-color); font-size: 15pt; vertical-align: middle;"></i>
                   </a>
                   <!-- Dropdown Menu (Language Options with Custom Names in Default Color) -->
@@ -179,7 +196,7 @@
             {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
-              <button id="light-toggle" title="{% case request.locale.iso_code %}
+              <button id="light-toggle" title="{% case site.active_lang %}
                 {% when 'it' %}Cambia tema
                 {% when 'es' %}Cambiar tema
                 {% else %}Change theme
