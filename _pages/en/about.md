@@ -5,23 +5,35 @@ title: about me
 permalink: /
 subtitle: >
     <div style="margin-top: -20px;">
-        <p style="font-weight: 500;">Ph.D. Candidate | Research Fellow | Teaching&nbsp;Assistant</p>
+        <p style="font-weight: 500;">Ph.D. Candidate | Post-Doc | Teaching&nbsp;Assistant</p>
     </div>
-    <div class="university-contact">
-      <div class="department-details">
-        <i class="fa-solid fa-landmark contact-icon"></i>
-        <div class="contact-text">
-          <a href="https://dse.unibo.it/en">Dipartimento di Scienze Economiche, Università di Bologna</a><br />
-          <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna</a>
+    <div style="margin: 0; padding: 0; position: relative;">
+        <!-- First row: University icon and department name -->
+        <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; margin-top: -10pt; line-height: 14pt;">
+            <i class="fa-solid fa-landmark" style="color: var(--global-theme-color); font-size: 10pt;"></i>
         </div>
-      </div>
-      <div class="location-info">
-        <i class="fa-solid fa-location-dot contact-icon"></i>
-        <div class="contact-text">
-          posizione attuale: Bologna, Italia
+        <div style="display: inline-block; padding-left: 20px; margin-top: -10pt; line-height: 14pt;">
+            <span style="color: var(--global-theme-color); font-size: 10pt;">
+              <a href="https://dse.unibo.it/en"><i>Department of Economics,</i></a>
+              <a href="https://www.unibo.it/en/homepage"><i>University of Bologna</i></a>
+              <p>
+                  <a href="https://goo.gl/maps/1icot9p1g97AWCD37"><i>Piazza Scaravilli 2, 40126, Bologna</i></a>
+              </p>
+            </span>
         </div>
-      </div>
+        <!-- Second row: Location icon and actul location -->
+        <div style="margin-top: -12pt; position: relative; font-size: 10pt; margin-bottom: 15px; line-height: 14pt;">
+            <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; line-height: 14pt;">
+                <i class="fa-solid fa-location-dot" style="font-size: 10pt;"></i>
+            </div>
+            <div style="display: inline-block; padding-left: 20px; margin-top: -12pt; line-height: 14pt;">
+                <span style="font-size: 10pt;">
+                    current location: Bologna, Italy
+                </span>
+            </div>
+        </div>
     </div>
+
 profile:
   align: center-right
   image: profile_pictures/prof_pic_MR.jpg
