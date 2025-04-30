@@ -425,6 +425,12 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.contact-icon,
+.contact-icon i,
+.contact-icon .contact-label {
+  color: inherit;
+}
+
 // Social (bottom)
 
 .social {
