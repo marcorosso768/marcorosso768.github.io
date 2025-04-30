@@ -1,3 +1,14 @@
-en: English
-it: italiano
-es: español
+en:
+  en: English
+  it: Italian
+  es: Spanish
+
+it:
+  en: Inglese
+  it: Italiano
+  es: Spagnolo
+
+es:
+  en: Inglés
+  it: Italiano
+  es: Español
