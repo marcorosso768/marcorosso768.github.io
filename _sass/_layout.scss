@@ -170,13 +170,14 @@ body.sticky-bottom-footer {
 * Mobile menù
 *****************************************************************************/
 
-/*
 @media (max-width: 576px) {
   #light-toggle {
-    padding-right: 1rem;
+      display: inline-block;
+      padding-right: 1rem;
   }
 }
 
+/*
 @media (max-width: 576px) {
   #light-toggle {
     display: inline-block;
