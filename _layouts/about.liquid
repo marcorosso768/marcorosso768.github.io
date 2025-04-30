@@ -45,7 +45,7 @@ layout: default
       <!-- News -->
       {% if page.news and site.announcements.enabled %}
         <h2>
-          <a href="{% case site.active_lang %}{% when 'it' %}{{ '/it/novita/' | relative_url }}{% when 'es' %}{{ '/es/novedades/' | relative_url }}{% else %}{{ '/news/' | relative_url }}{% endcase %}" class="news-link">
+          <a class="news-effect" href="{% case site.active_lang %}{% when 'it' %}{{ '/it/novita/' | relative_url }}{% when 'es' %}{{ '/es/novedades/' | relative_url }}{% else %}{{ '/news/' | relative_url }}{% endcase %}">
             {{ site.data[site.active_lang].strings.news }}
           </a>
         </h2>
