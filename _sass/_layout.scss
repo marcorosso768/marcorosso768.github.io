@@ -171,16 +171,8 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 @media (max-width: 576px) {
-  #navbarNav .nav-item button#light-toggle {
-    display: block;
-    width: 100%;
-    text-align: right;
+  #light-toggle {
     padding-right: 1rem;
-  }
-
-  #navbarNav .nav-item button#light-toggle i {
-    font-size: 14pt;
-    vertical-align: middle;
   }
 }
 
