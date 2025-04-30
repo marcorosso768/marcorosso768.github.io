@@ -31,6 +31,7 @@
         -->
 
       {% elsif site.enable_navbar_social %}
+      <ul class="navbar-nav mr-auto">
         <!--
         Social Icons (commented out for future reuse)
         <div style="margin: 0; padding: 0; position: relative;">
@@ -45,16 +46,17 @@
         </div>
         -->
         <!-- Replacement with contact_note and envelope icon, both linking to the contact page -->
-        <li class="nav-item" style="list-style-type: none;">
+        <li class="nav-item">
           <a class="nav-link" href="{{ site.baseurl }}/{{ contact_path }}/">
             <span style="display: inline-block; vertical-align: middle;">
-              <i class="fa-regular fa-envelope fa-fw"></i>
+              <i class="fa-regular fa-envelope fa-fw" style="vertical-align: middle; font-size: 14pt;"></i>
             </span>
             <span style="display: inline-block; vertical-align: middle;">
               {{ site.data[site.active_lang].strings.contact_note }}
             </span>
           </a>
         </li>
+      </ul>
       {% endif %}
 
       <!-- Navbar Toggle -->
