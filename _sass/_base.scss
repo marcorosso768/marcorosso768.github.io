@@ -263,8 +263,9 @@ ul.task-list input[type="checkbox"] {
   background-color: var(--global-bg-color);
   opacity: 0.95;
 
-  a:not(.dropdown-item) {
-    color: inherit;
+  a:not(.dropdown-item),
+  button.nav-link {
+    color: var(--global-text-color);
     text-decoration: none;
     transition: color var(--transition-duration) var(--transition-easing),
                 transform var(--transition-duration) var(--transition-easing);
@@ -272,7 +273,6 @@ ul.task-list input[type="checkbox"] {
     &:hover {
       color: var(--global-hover-color);
       transform: scale(var(--hover-scale));
-      text-decoration: none;
     }
 
     &:active {
@@ -309,71 +309,40 @@ ul.task-list input[type="checkbox"] {
 
   &:hover {
     color: var(--global-hover-color);
-    background-color: var(--global-bg-color);
     transform: scale(var(--hover-scale-small));
   }
 }
 
 .navbar.navbar-light {
-  a {
-    &:hover {
-      text-decoration: none;
-    }
-  }
-
   .navbar-brand {
     color: var(--global-text-color);
   }
 
   .navbar-nav .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
     color: var(--global-text-color);
     transition: color var(--transition-duration) var(--transition-easing),
                 transform var(--transition-duration) var(--transition-easing);
 
-    .contact-icon i,
-    .contact-label {
-      color: inherit;
-      transition: inherit;
-    }
-
     &:hover {
       color: var(--global-hover-color);
       transform: scale(var(--hover-scale));
+    }
 
-      .contact-icon i,
-      .contact-label {
-        color: var(--global-hover-color);
-      }
+    .contact-icon i,
+    .contact-label {
+      transition: inherit;
     }
   }
 
   .navbar-nav .nav-item.active > .nav-link {
-    background-color: inherit;
     font-weight: bolder;
     color: var(--global-theme-color);
 
     &:hover {
       color: var(--global-hover-color);
-    }
-  }
-
-  .navbar-brand.social {
-    padding-bottom: 0;
-    padding-top: 0;
-    font-size: 1rem;
-    color: var(--global-theme-color);
-
-    a {
-      i::before {
-        color: var(--global-theme-color);
-        transition-property: all var(--transition-duration) var(--transition-easing);
-      }
-
-      &:hover {
-        i::before {
-          color: var(--global-theme-color);
-        }
-      }
     }
   }
 }
@@ -402,30 +371,31 @@ ul.task-list input[type="checkbox"] {
     transform: rotate(-45deg);
     transform-origin: 10% 90%;
   }
+
+  &.collapsed {
+    .top-bar {
+      transform: rotate(0);
+    }
+
+    .middle-bar {
+      opacity: 1;
+    }
+
+    .bottom-bar {
+      transform: rotate(0);
+    }
+  }
 }
 
-.navbar-toggler.collapsed {
-  .top-bar {
-    transform: rotate(0);
-  }
-
-  .middle-bar {
-    opacity: 1;
-  }
-
-  .bottom-bar {
-    transform: rotate(0);
-  }
-}
-
-#light-toggle,
-#search-toggle {
+#light-toggle.nav-link,
+#search-toggle.nav-link {
+  display: flex;
+  align-items: center;
   padding: 0;
   border: 0;
-  background-color: inherit;
+  background: none;
+  font-size: 1rem;
   color: var(--global-text-color);
-  transition: color var(--transition-duration) var(--transition-easing),
-              transform var(--transition-duration) var(--transition-easing);
 
   &:hover {
     color: var(--global-hover-color);
@@ -434,7 +404,7 @@ ul.task-list input[type="checkbox"] {
 
   &:active {
     color: var(--global-active-color);
-    transform: scale(var(--hover-scale));
+    transform: scale(var(--hover-scale-small));
   }
 }
 
