@@ -329,6 +329,22 @@ ul.task-list input[type="checkbox"] {
       color: var(--global-hover-color);
     }
   }
+    .nav-link {
+    transition: color var(--transition-duration) var(--transition-easing),
+                transform var(--transition-duration) var(--transition-easing);
+
+    .contact-label {
+      transition: inherit;
+    }
+
+    &:hover {
+      color: var(--global-hover-color);
+
+      .contact-label {
+        color: var(--global-hover-color);
+      }
+    }
+  }
 
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
