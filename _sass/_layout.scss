@@ -188,3 +188,17 @@ body.sticky-bottom-footer {
   color: var(--global-active-color);
   transform: scale(var(--active-scale));
 }
+
+/*****************************************************************************
+* Latest news
+*****************************************************************************/
+
+.news-link {
+  color: var(--global-theme-color);
+  transition: color var(--transition-duration) var(--transition-easing), transform var(--transition-duration) var(--transition-easing);
+
+  &:hover {
+    color: var(--global-hover-color);
+    transform: scale(var(--hover-scale-small));
+  }
+}
