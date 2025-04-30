@@ -46,17 +46,12 @@
         </div>
         -->
         <!-- Replacement with contact_note and envelope icon, both linking to the contact page -->
-        <li class="nav-item">
-          <a class="nav-link" href="{{ site.baseurl }}/{{ contact_path }}/">
-            <span style="display: inline-block; vertical-align: middle;">
-              <i class="fa-regular fa-envelope fa-fw" style="vertical-align: middle; font-size: 14pt;"></i>
-            </span>
-            <span style="display: inline-block; vertical-align: middle;">
+          <a class="nav-link px-0" href="{{ site.baseurl }}/{{ contact_path }}/" style="color: var(--global-theme-color); font-size: 14pt;" title="{{ site.data[site.active_lang].strings.contact_note }}">
+            <i class="fa-regular fa-envelope fa-fw" style="vertical-align: middle;"></i>
+            <span style="vertical-align: middle;">
               {{ site.data[site.active_lang].strings.contact_note }}
             </span>
           </a>
-        </li>
-      </ul>
       {% endif %}
 
       <!-- Navbar Toggle -->
