@@ -45,12 +45,10 @@
         </div>
         -->
         <!-- Replacement with contact_note and envelope icon, both linking to the contact page -->
-        <div class="d-flex align-items-center mr-auto">
-          <a class="nav-link" href="{{ site.baseurl }}/{{ contact_path }}/" title="{{ site.data[site.active_lang].strings.contact_note }}">
-            <i class="fa-regular fa-envelope fa-fw" style="vertical-align: middle;"></i>
-            <span style="vertical-align: middle;">
-              {{ site.data[site.active_lang].strings.contact_note }}
-            </span>
+        <div class="d-flex align-items-center mr-auto pl-0">
+          <a class="nav-link d-flex align-items-center" href="{{ site.baseurl }}/{{ contact_path }}/" title="{{ site.data[site.active_lang].strings.contact_note }}">
+            <i class="fa-regular fa-envelope fa-fw mr-1"></i>
+            <span>{{ site.data[site.active_lang].strings.contact_note }}</span>
           </a>
         </div>
       {% endif %}
