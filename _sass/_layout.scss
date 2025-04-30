@@ -147,13 +147,20 @@ body.sticky-bottom-footer {
 * Latest news
 *****************************************************************************/
 
-.news-link {
+.news-effect {
   color: var(--global-theme-color);
-  transition: color var(--transition-duration) var(--transition-easing), 
+  text-decoration: none;
+  transition: color var(--transition-duration) var(--transition-easing),
               transform var(--transition-duration) var(--transition-easing);
-}
 
-.news-link:hover {
-  color: var(--global-hover-color);
-  transform: scale(var(--hover-scale-big));
+  &:hover {
+    color: var(--global-hover-color);
+    transform: scale(var(--hover-scale-big));
+    text-decoration: none;
+  }
+
+  &:active {
+    color: var(--global-active-color);
+    transform: scale(var(--active-scale));
+  }
 }
