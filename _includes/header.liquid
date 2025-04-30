@@ -48,8 +48,10 @@
         <ul class="navbar-nav mr-auto pl-0">
           <li class="nav-item">
             <a class="nav-link d-flex align-items-center" href="{{ site.baseurl }}/{{ contact_path }}/" title="{{ site.data[site.active_lang].strings.contact_note }}">
-              <i class="fa-regular fa-envelope fa-fw" style="margin-right: 0.4rem;"></i>
-              <span class="contact-label">{{ site.data[site.active_lang].strings.contact_note }}</span>
+              <span class="contact-icon d-inline-flex align-items-center">
+                <i class="fa-regular fa-envelope fa-fw mr-1"></i>
+                <span class="contact-label ml-1">{{ site.data[site.active_lang].strings.contact_note }}</span>
+              </span>
             </a>
           </li>
         </ul>
