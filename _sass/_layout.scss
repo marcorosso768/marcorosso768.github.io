@@ -171,10 +171,10 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 @media (max-width: 576px) {
-  #navbarNav .nav-item button#light-toggle {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
+  #light-toggle {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
