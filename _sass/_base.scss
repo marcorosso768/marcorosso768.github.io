@@ -338,37 +338,36 @@ ul.task-list input[type="checkbox"] {
 
       .contact-icon i,
       .contact-label {
-        color: inherit;
+        color: var(--global-hover-color);
       }
     }
+  }
+} // <-- fine navbar.navbar-light
+
+.navbar-nav .nav-item.active > .nav-link {
+  background-color: inherit;
+  font-weight: bolder;
+  color: var(--global-theme-color);
+
+  &:hover {
+    color: var(--global-hover-color);
   }
 }
 
-  .navbar-nav .nav-item.active > .nav-link {
-    background-color: inherit;
-    font-weight: bolder;
-    color: var(--global-theme-color);
+.navbar-brand.social {
+  padding-bottom: 0;
+  padding-top: 0;
+  font-weight: normal;
+
+  a {
+    i::before {
+      color: var(--global-theme-color);
+      transition-property: all 0.2s ease-in-out;
+    }
 
     &:hover {
-      color: var(--global-hover-color);
-    }
-  }
-
-  .navbar-brand.social {
-    padding-bottom: 0;
-    padding-top: 0;
-    font-weight: normal;
-
-    a {
       i::before {
         color: var(--global-theme-color);
-        transition-property: all 0.2s ease-in-out;
-      }
-
-      &:hover {
-        i::before {
-          color: var(--global-theme-color);
-        }
       }
     }
   }
