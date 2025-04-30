@@ -45,18 +45,9 @@
         </div>
         -->
         <!-- Replacement with contact_note and envelope icon, both linking to the contact page -->
-        <a href="{{ site.baseurl }}/{{ contact_path }}/" >
-          <div class="font-weight-normal" style="margin: 0; padding: 0; position: relative;">
-            <div class="navbar-brand social">
-              <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt;">
-                <i class="fa-regular fa-envelope fa-fw"></i>
-              </div>
-              <div style="display: inline-block; line-height: 1; font-size: 12pt; margin-left: 2.5px;">
-                {{ site.data[site.active_lang].strings.contact_note }}
-              </div>
-            </div>
+          <div class="icon-link">
+              <a href="{{ site.baseurl }}/{{ contact_path }}/" ><i class="fa-regular fa-envelope fa-fw"></i>{{ site.data[site.active_lang].strings.contact_note }}</a>
           </div>
-        </a>
       {% endif %}
 
       <!-- Navbar Toggle -->
@@ -156,14 +147,19 @@
                   </a>
                   <!-- Dropdown Menu (Language Options with Custom Names in Default Color) -->
                   <div class="dropdown-menu dropdown-menu-right">
-                    {% assign language_names = site.data.language_names %}
+                    {% assign lang_labels = site.data.language_names[site.active_lang] | default: site.data.language_names.en %}
                     {% for l in site.languages %}
-                      <a class="dropdown-item {% if l == site.active_lang %}active{% endif %}" onclick="setLanguage('{{ l }}')" aria-label="Change language to {{ l }}">
+                      <a class="dropdown-item {% if l == site.active_lang %}active{% endif %}"
+                         onclick="setLanguage('{{ l }}')"
+                         aria-label="{% case site.active_lang %}
+                           {% when 'it' %}Cambia lingua in {{ lang_labels[l] | escape }}
+                           {% when 'es' %}Cambiar idioma a {{ lang_labels[l] | escape }}
+                           {% else %}Change language to {{ lang_labels[l] | escape }}
+                         {% endcase %}">
                         {% if site.country_flag %}
                           <span class="fi fi-{{ l | split: '-' | last }}"></span>
                         {% endif %}
-                        <!-- Custom Language Name (Default Case) -->
-                        {{ language_names[l] | default: l }}
+                        {{ lang_labels[l] | default: l | escape }}
                       </a>
                     {% endfor %}
                   </div>
@@ -183,7 +179,11 @@
             {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
-              <button id="light-toggle" title="Change theme" style="color: var(--global-theme-color);">
+              <button id="light-toggle" title="{% case request.locale.iso_code %}
+                {% when 'it' %}Cambia tema
+                {% when 'es' %}Cambiar tema
+                {% else %}Change theme
+              {% endcase %}" style="color: var(--global-theme-color);">
                 <i class="ti ti-moon-filled" id="light-toggle-dark" style="font-size: 14pt; vertical-align: middle;"></i>
                 <i class="ti ti-sun-filled" id="light-toggle-light" style="font-size: 14pt; vertical-align: middle;"></i>
               </button>
