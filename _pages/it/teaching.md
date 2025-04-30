@@ -5,7 +5,9 @@ permalink: /insegnamento/
 title: insegnamento
 description:
 subtitle: >
-    <p style="color: var(--global-theme-color); margin-top: -20px; font-weight: normal;"><a href="#" onclick="window.location.href='https://marcorosso.com/teaching/'; return false;">teaching</a>&nbsp;|&nbsp;<a href='https://marcorosso.com/es/docencia/'>docencia</a></p>
+    <div class="lang-links">
+        <a href="#" onclick="window.location.href='https://marcorosso.com/teaching/'; return false;">teaching</a>&nbsp;|&nbsp;<a href="/es/docencia/" hreflang="es">docencia</a>
+    </div>
 nav: true
 nav_order: 3
 ---

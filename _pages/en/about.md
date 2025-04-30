@@ -5,7 +5,7 @@ title: about me
 permalink: /
 subtitle: >
     <div style="margin-top: -20px;">
-        <p style="font-weight: 500;">Ph.D. Candidate | Research Fellow | Teaching&nbsp;Assistant</p>
+        <p style="font-weight: 500;">Ph.D. Candidate | Post-Doc | Teaching&nbsp;Assistant</p>
     </div>
     <div style="margin: 0; padding: 0; position: relative;">
         <!-- First row: University icon and department name -->
@@ -21,7 +21,7 @@ subtitle: >
               </p>
             </span>
         </div>
-        <!-- Second row: Location icon and actula location -->
+        <!-- Second row: Location icon and actul location -->
         <div style="margin-top: -12pt; position: relative; font-size: 10pt; margin-bottom: 15px; line-height: 14pt;">
             <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; line-height: 14pt;">
                 <i class="fa-solid fa-location-dot" style="font-size: 10pt;"></i>
@@ -33,7 +33,7 @@ subtitle: >
             </div>
         </div>
     </div>
-  
+
 profile:
   align: center-right
   image: profile_pictures/prof_pic_MR.jpg

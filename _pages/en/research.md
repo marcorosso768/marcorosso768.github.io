@@ -6,7 +6,7 @@ title: research
 description:
 subtitle: >
     <div class="lang-links">
-        <a href="it/ricerca/" hreflang="it">ricerca</a>&nbsp;|&nbsp;<a href="/es/investigacion/" hreflang="es">investigación</a>
+        <a href="/it/ricerca/" hreflang="it">ricerca</a>&nbsp;|&nbsp;<a href="/es/investigacion/" hreflang="es">investigación</a>
     </div>
 nav: true
 nav_order: 1
