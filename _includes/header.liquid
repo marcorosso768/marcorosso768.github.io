@@ -46,10 +46,10 @@
         -->
         <!-- Replacement with contact_note and envelope icon, both linking to the contact page -->
         <ul class="navbar-nav mr-auto pl-0">
-          <li class="nav-item d-flex align-items-center">
-            <a class="nav-link" href="{{ site.baseurl }}/{{ contact_path }}/" title="{{ site.data[site.active_lang].strings.contact_note }}">
-              <span class="d-inline-flex align-items-center">
-                <i class="fa-regular fa-envelope fa-fw mr-1" aria-hidden="true"></i>
+          <li class="nav-item">
+            <a class="nav-link d-flex align-items-center" href="{{ site.baseurl }}/{{ contact_path }}/" title="{{ site.data[site.active_lang].strings.contact_note }}">
+              <span class="contact-icon d-inline-flex align-items-center">
+                <i class="fa-regular fa-envelope fa-fw mr-2"></i>
                 <span class="contact-label">{{ site.data[site.active_lang].strings.contact_note }}</span>
               </span>
             </a>
