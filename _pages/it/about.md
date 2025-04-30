@@ -33,7 +33,7 @@ subtitle: >
             </div>
         </div>
     </div>
-
+    
 profile:
   align: center-right
   image: profile_pictures/prof_pic_MR.jpg
