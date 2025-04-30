@@ -11,19 +11,14 @@ subtitle: >
       <div class="department-details">
         <i class="fa-solid fa-landmark contact-icon"></i>
         <div class="contact-text">
-          <a href="https://dse.unibo.it/en"><i>Department of Economics,</i></a>
-          <a href="https://www.unibo.it/en/homepage"><i>University of Bologna</i></a>
-          <p>
-            <a href="https://goo.gl/maps/1icot9p1g97AWCD37">
-              <i>Piazza Scaravilli 2, 40126, Bologna</i>
-            </a>
-          </p>
+          <a href="https://dse.unibo.it/en">Dipartimento di Scienze Economiche, Università di Bologna</a><br />
+          <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna</a>
         </div>
       </div>
       <div class="location-info">
         <i class="fa-solid fa-location-dot contact-icon"></i>
         <div class="contact-text">
-          current location: Bologna, Italy
+          posizione attuale: Bologna, Italia
         </div>
       </div>
     </div>
