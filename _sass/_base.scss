@@ -250,12 +250,16 @@ ul.task-list input[type="checkbox"] {
 
 // Navbar customization
 
+:root {
+  --hover-scale-small: 1.02;
+  --hover-scale-big: 1.2;
+}
+
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
-
 
   a:not(.dropdown-item) {
     color: inherit;
@@ -297,10 +301,13 @@ ul.task-list input[type="checkbox"] {
 .dropdown-item {
   color: var(--global-text-color);
   line-height: 1;
+  transition: color var(--transition-duration) var(--transition-easing),
+              transform var(--transition-duration) var(--transition-easing);
 
   &:hover {
     color: var(--global-hover-color);
     background-color: var(--global-bg-color);
+    transform: scale(var(--hover-scale-small));
   }
 }
 
@@ -404,7 +411,7 @@ ul.task-list input[type="checkbox"] {
 
   &:hover {
     color: var(--global-hover-color);
-    transform: scale(var(--hover-scale));
+    transform: scale(var(--hover-scale-big));
   }
 
   &:active {
