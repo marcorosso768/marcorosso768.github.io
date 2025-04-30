@@ -255,7 +255,10 @@ ul.task-list input[type="checkbox"] {
   --hover-scale: 1.05;
   --hover-scale-big: 1.1;
   --transition-easing: ease-in-out;
+  --hover-bg-transparent: rgba(255, 255, 255, 0.1);
 }
+
+// Navbar customization
 
 .navbar {
   box-shadow: none;
@@ -263,35 +266,34 @@ ul.task-list input[type="checkbox"] {
   background-color: var(--global-bg-color);
   opacity: 0.95;
 
-  a:not(.dropdown-item),
-  button.nav-link {
-    color: var(--global-text-color);
+  a:not(.dropdown-item) {
+    color: inherit;
     text-decoration: none;
-    transition: color var(--transition-duration) var(--transition-easing),
-                transform var(--transition-duration) var(--transition-easing);
+    transition: color var(--transition-duration) var(--transition-easing), transform var(--transition-duration) var(--transition-easing);
 
     &:hover {
       color: var(--global-hover-color);
       transform: scale(var(--hover-scale));
+      text-decoration: none;
     }
 
     &:active {
       color: var(--global-active-color);
-      transform: scale(var(--hover-scale-small));
+      transform: scale(var(--active-scale));
     }
   }
-}
+}  
 
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);
   min-width: 1rem;
   width: fit-content;
-
+  
   a:not(.active) {
     color: var(--global-text-color);
   }
-
+  
   a:hover {
     color: var(--global-hover-color);
   }
@@ -309,40 +311,56 @@ ul.task-list input[type="checkbox"] {
 
   &:hover {
     color: var(--global-hover-color);
+    background-color: var(--hover-bg-transparent);
     transform: scale(var(--hover-scale-small));
   }
 }
 
 .navbar.navbar-light {
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   .navbar-brand {
     color: var(--global-text-color);
   }
 
-  .navbar-nav .nav-link {
-    display: flex;
-    align-items: center;
-    gap: 0.3rem;
+  .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
-    transition: color var(--transition-duration) var(--transition-easing),
-                transform var(--transition-duration) var(--transition-easing);
 
     &:hover {
       color: var(--global-hover-color);
-      transform: scale(var(--hover-scale));
-    }
-
-    .contact-icon i,
-    .contact-label {
-      transition: inherit;
     }
   }
 
   .navbar-nav .nav-item.active > .nav-link {
+    background-color: inherit;
     font-weight: bolder;
     color: var(--global-theme-color);
 
     &:hover {
       color: var(--global-hover-color);
+    }
+  }
+
+  .navbar-brand.social {
+    padding-bottom: 0;
+    padding-top: 0;
+    font-weight: normal;
+
+    a {
+      i::before {
+        color: var(--global-theme-color);
+        transition-property: all 0.2s ease-in-out;
+      }
+
+      &:hover {
+        i::before {
+          color: var(--global-theme-color);
+        }
+      }
     }
   }
 }
@@ -355,7 +373,7 @@ ul.task-list input[type="checkbox"] {
     background-color: var(--global-text-color);
     border-radius: 1px;
     margin-bottom: 4px;
-    transition: all var(--transition-duration);
+    transition: all 0.2s;
   }
 
   .top-bar {
@@ -371,31 +389,30 @@ ul.task-list input[type="checkbox"] {
     transform: rotate(-45deg);
     transform-origin: 10% 90%;
   }
+}
 
-  &.collapsed {
-    .top-bar {
-      transform: rotate(0);
-    }
+.navbar-toggler.collapsed {
+  .top-bar {
+    transform: rotate(0);
+  }
 
-    .middle-bar {
-      opacity: 1;
-    }
+  .middle-bar {
+    opacity: 1;
+  }
 
-    .bottom-bar {
-      transform: rotate(0);
-    }
+  .bottom-bar {
+    transform: rotate(0);
   }
 }
 
-#light-toggle.nav-link,
-#search-toggle.nav-link {
-  display: flex;
-  align-items: center;
+#light-toggle,
+#search-toggle {
   padding: 0;
   border: 0;
-  background: none;
-  font-size: 1rem;
+  background-color: inherit;
   color: var(--global-text-color);
+  transition: color var(--transition-duration) var(--transition-easing),
+              transform var(--transition-duration) var(--transition-easing);
 
   &:hover {
     color: var(--global-hover-color);
@@ -404,7 +421,7 @@ ul.task-list input[type="checkbox"] {
 
   &:active {
     color: var(--global-active-color);
-    transform: scale(var(--hover-scale-small));
+    transform: scale(var(--active-scale));
   }
 }
 
