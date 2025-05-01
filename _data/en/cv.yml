@@ -1,13 +1,3 @@
-- title: contacts
-  type: map
-  contents:
-    - name:
-      value: '<span style="font-size:12pt;"><i class="fa-regular fa-envelope" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="mailto:m.rosso@me.com">m.rosso@me.com</a> </span>'
-    - name:
-      value: '<span style="font-size:12pt;"><i class="fa-solid fa-envelope" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="mailto:marco.rosso4@unibo.it">marco.rosso4@unibo.it</a> </span>'
-    - name:
-      value: '<span style="font-size:12pt;"><i class="fa-solid fa-landmark" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<a href="https://www.unibo.it/sitoweb/marco.rosso4/en">personal page on UniBo website</a> </span>'
-
 - title: education
   type: time_table
   contents:
@@ -151,20 +141,20 @@
   type: list_groups
   contents:
     - category: '<span style="color:var(--global-text-color);"> mixology </span>'
-      icon: "fas fa-cocktail"
+      icon: "fas fa-cocktail fa-fw"
     - category: '<span style="color:var(--global-text-color);"> running </span>'
-      icon: "fa-solid fa-person-running"
+      icon: "fa-solid fa-person-running fa-fw"
     - category: '<span style="color:var(--global-text-color);"> tennis </span>'
-      icon: "fa-solid fa-baseball"
+      icon: "fa-solid fa-baseball fa-fw"
     - category: '<span style="color:var(--global-text-color);"> climbing </span>'
-      icon: "fa-solid fa-mountain"
+      icon: "fa-solid fa-mountain fa-fw"
     - category: '<span style="color:var(--global-text-color);"> football </span>'
-      icon: "fa-regular fa-futbol" 
+      icon: "fa-regular fa-futbol fa-fw" 
     - category: '<span style="color:var(--global-text-color);"> comics </span>'
-      icon: "fa-solid fa-book"
+      icon: "fa-solid fa-book fa-fw"
     - category: '<span style="color:var(--global-text-color);"> video games </span>'
-      icon: "fa-solid fa-gamepad"
+      icon: "fa-solid fa-gamepad fa-fw"
     - category: '<span style="color:var(--global-text-color);"> board games </span>'
-      icon: "fa-solid fa-puzzle-piece"
+      icon: "fa-solid fa-puzzle-piece fa-fw"
 
 
