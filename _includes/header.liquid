@@ -199,26 +199,23 @@
 
             {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
-            <li class="nav-item">
+            <li class="toggle-container">
               <button id="light-toggle"
-                      class="nav-link"
                       title="{% case site.active_lang %}
-                        {% when 'it' %}Cambia tema
-                        {% when 'es' %}Cambiar tema
-                        {% else %}Change theme
-                      {% endcase %}"
+                              {% when 'it' %}Cambia tema
+                              {% when 'es' %}Cambiar tema
+                              {% else %}Change theme
+                             {% endcase %}"
                       style="color: var(--global-theme-color); background: none; border: none;">
                 <i class="ti ti-moon-filled fa-fw" id="light-toggle-dark" style="font-size: 14pt; vertical-align: middle;"></i>
                 <i class="ti ti-sun-filled fa-fw" id="light-toggle-light" style="font-size: 14pt; vertical-align: middle;"></i>
               </button>
             </li>
           {% endif %}
-
         </ul>
       </div>
     </div>
   </nav>
-
     {% if site.enable_progressbar %}
     <!-- Scrolling Progress Bar -->
     <progress id="progress" value="0">
