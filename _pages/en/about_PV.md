@@ -1,4 +1,4 @@
-<div class="indented" style="font-size: 20pt; color: var(--global-theme-color);"> Paolo Vanin </div> <br> <span class="indented" style="font-size: 12pt; color: var(--global-theme-color);"> <i>Ph.D. Supervisor</i> </span>
+<div class="indented" style="display: inline-block;"> <span style="font-size: 20pt; color: var(--global-theme-color);"> Paolo Vanin </span> <br> <span style="font-size: 12pt; color: var(--global-theme-color);"> <i>Ph.D. Supervisor</i> </span> </div>
 
 <span class="indented" style="font-size: 15pt;"> Full Professor </span> <br> <span class="indented"> Department of Economics </span> <br> <span class="indented" style="font-size: 10pt;"> Academic discipline: ECON-01/A Economics </span> <br> <span class="indented" style="font-size: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italy</span>
 
