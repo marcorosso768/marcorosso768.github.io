@@ -45,16 +45,20 @@
         </div>
         -->
         <!-- Replacement with contact_note and envelope icon, both linking to the contact page -->
-        <ul class="navbar-nav mr-auto pl-0 ml-0" style="margin-left: 0; padding-left: 0;">
-          <li class="nav-item">
-            <a class="nav-link d-flex align-items-center" 
-               href="{{ site.baseurl }}/{{ contact_path }}/" 
-               title="{{ site.data[site.active_lang].strings.contact_note }}">
-                <i class="fa-solid fa-address-card fa-fw ml-0"></i>
-                <span class="contact-label ml-1">{{ site.data[site.active_lang].strings.contact_note }}</span>
-            </a>
-          </li>
-        </ul>
+        <div style="margin: 0; padding: 0; position: relative;">
+          <div class="navbar-brand social">
+            <ul class="navbar-nav mr-auto pl-0 ml-0">
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center" 
+                   href="{{ site.baseurl }}/{{ contact_path }}/" 
+                   title="{{ site.data[site.active_lang].strings.contact_note }}">
+                    <i class="fa-solid fa-address-card fa-fw ml-0"></i>
+                    <span class="contact-label ml-1">{{ site.data[site.active_lang].strings.contact_note }}</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       {% endif %}
 
       <!-- Navbar Toggle -->
