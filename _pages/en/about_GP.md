@@ -1,4 +1,4 @@
-<span style="font-size: 20pt; color: var(--global-theme-color);"> Giovanni Prarolo </span> <br> <span style="font-size: 12pt; color: var(--global-theme-color);"> Research Fellowship Supervisor </span>
+<span style="font-size: 20pt; color: var(--global-theme-color);"> Giovanni Prarolo </span> <br> <span style="font-size: 12pt; color: var(--global-theme-color);"> <i>Research Fellowship Supervisor</i> </span>
 
 <span style="font-size: 15pt;"> Full Professor </span> <br> Department of Economics <br> <span style="font-size: 10pt;"> Academic discipline: ECON-02/A Economic Policy </span> <br> <span style="font-size: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italy</span>
 
