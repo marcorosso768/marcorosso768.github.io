@@ -122,18 +122,22 @@ body.sticky-bottom-footer {
 * CV icon
 *****************************************************************************/
 
-a.float-right:hover i {
-  color: var(--global-hover-color);
-  text-decoration: none;
+a.float-right i {
   transition: 
     color var(--transition-duration) var(--transition-easing),
-    font-style var(--transition-duration) var(--transition-easing);
+    font-style var(--transition-duration) var(--transition-easing),
+    transform var(--transition-duration) var(--transition-easing);
+}
+
+a.float-right:hover i {
+  color: var(--global-hover-color);
+  transform: scale(var(--hover-scale-bbig));
 }
 
 a.float-right:link:hover i,
 a.float-right:visited:hover i,
 a.float-right:active i {
-  color: inherit; 
+  color: inherit;
 }
 
 /*****************************************************************************
