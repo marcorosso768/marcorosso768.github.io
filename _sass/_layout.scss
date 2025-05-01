@@ -147,6 +147,8 @@ a.float-right:active i {
 /* Responsive font size just for location text */
 .responsive-location {
   font-size: 1rem;
+  word-break: break-word;
+  text-align: center;
 }
 
 @media (max-width: 576px) {
