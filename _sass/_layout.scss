@@ -108,6 +108,16 @@ body.sticky-bottom-footer {
   }
 }
 
+.icon-link a em {
+  color: inherit;
+  font-style: italic;
+  transition: color var(--transition-duration) var(--transition-easing);
+}
+
+.icon-link a:hover em {
+  color: var(--global-hover-color);
+}
+
 /*****************************************************************************
 * Subtitles
 *****************************************************************************/
