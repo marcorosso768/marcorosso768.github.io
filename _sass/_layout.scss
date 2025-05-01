@@ -123,26 +123,17 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 a.float-right:hover i {
-  color: inherit;
+  color: var(--global-hover-color);
   text-decoration: none;
   transition: 
     color var(--transition-duration) var(--transition-easing),
     font-style var(--transition-duration) var(--transition-easing);
+}
 
-  &:link,
-  &:visited {
-    color: inherit;
-  }
-
-  &:hover {
-    color: var(--global-hover-color);
-    font-style: italic;
-    text-decoration: underline;
-  }
-
-  &:active {
-    color: var(--global-active-color);
-  }
+a.float-right:link:hover i,
+a.float-right:visited:hover i,
+a.float-right:active i {
+  color: inherit; 
 }
 
 /*****************************************************************************
