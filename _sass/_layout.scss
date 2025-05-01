@@ -190,29 +190,35 @@ a.float-right:active i {
 
 .blog-links {
   display: flex;
-  justify-content: center; // this horizontally centers flex items
-  text-align: center; // this helps if text within children needs centering
+  justify-content: center;
+  align-items: center;
   margin-top: -5px;
-  color: var(--global-theme-color);
+  font-size: 0.9rem;
   font-weight: normal;
+  color: var(--global-theme-color);
   flex-wrap: wrap;
-  font-size: 12pt;
 
   a {
     color: inherit;
     text-decoration: none;
+    margin: 0 4px;
     transition: color var(--transition-duration) var(--transition-easing), transform var(--transition-duration) var(--transition-easing);
-    
+
     &:hover {
       color: var(--global-hover-color);
       transform: scale(var(--hover-scale));
-      text-decoration: none;
     }
-    
+
     &:active {
       color: var(--global-active-color);
       transform: scale(var(--active-scale));
     }
+  }
+
+  .separator {
+    margin: 0 4px;
+    color: var(--global-theme-color);
+    font-weight: normal;
   }
 }
 
