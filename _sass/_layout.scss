@@ -61,7 +61,7 @@ body.sticky-bottom-footer {
   --transition-duration: 0.3s;
   --hover-scale: 1.05;
   --active-scale: 0.98;
-  --hover-scale-bbig: 1.3;
+  --hover-scale-bbig: 1.4;
 }
 
 /* Indentation utility class */
@@ -69,7 +69,6 @@ body.sticky-bottom-footer {
   margin-left: var(--indent-margin);
 }
 
-/* Icon + Link Style */
 .icon-link {
   @extend .indented;
   display: flex;
@@ -87,7 +86,9 @@ body.sticky-bottom-footer {
   a {
     color: inherit;
     text-decoration: none;
-    transition: color var(--transition-duration) var(--transition-easing), transform var(--transition-duration) var(--transition-easing);
+    transition: 
+      color var(--transition-duration) var(--transition-easing),
+      font-style var(--transition-duration) var(--transition-easing);
 
     &:link,
     &:visited {
@@ -96,20 +97,64 @@ body.sticky-bottom-footer {
 
     &:hover {
       color: var(--global-hover-color);
+      font-style: italic;
       text-decoration: underline;
-      transform: scale(var(--hover-scale));
     }
 
     &:active {
       color: var(--global-active-color);
-      transform: scale(var(--active-scale));
+      font-style: italic;
     }
   }
 }
 
 .icon-link a em {
   color: inherit;
-  font-style: italic; /* mantiene il corsivo */
+  font-style: italic;
+  transition: color var(--transition-duration) var(--transition-easing);
+}
+
+.icon-link a:hover em {
+  color: var(--global-hover-color);
+}
+
+/*****************************************************************************
+* CV icon
+*****************************************************************************/
+
+a.float-right i {
+  transition: 
+    color var(--transition-duration) var(--transition-easing),
+    font-style var(--transition-duration) var(--transition-easing),
+    transform var(--transition-duration) var(--transition-easing);
+}
+
+a.float-right:hover i {
+  color: var(--global-hover-color);
+  transform: scale(var(--hover-scale-bbig));
+}
+
+a.float-right:link:hover i,
+a.float-right:visited:hover i,
+a.float-right:active i {
+  color: inherit;
+}
+
+/*****************************************************************************
+* CV list
+*****************************************************************************/
+
+/* Responsive font size just for location text */
+.responsive-location {
+  font-size: 1rem;
+  word-break: break-word;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .responsive-location {
+    font-size: 0.8rem;
+  }
 }
 
 /*****************************************************************************
@@ -143,6 +188,40 @@ body.sticky-bottom-footer {
   }
 }
 
+.blog-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5px;
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: var(--global-theme-color);
+  flex-wrap: wrap;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    margin: 0 4px;
+    transition: color var(--transition-duration) var(--transition-easing), transform var(--transition-duration) var(--transition-easing);
+
+    &:hover {
+      color: var(--global-hover-color);
+      transform: scale(var(--hover-scale));
+    }
+
+    &:active {
+      color: var(--global-active-color);
+      transform: scale(var(--active-scale));
+    }
+  }
+
+  .separator {
+    margin: 0 4px;
+    color: var(--global-theme-color);
+    font-weight: normal;
+  }
+}
+
 /*****************************************************************************
 * Latest news
 *****************************************************************************/
@@ -165,27 +244,6 @@ body.sticky-bottom-footer {
     transform: scale(var(--active-scale));
   }
 }
-
-/*****************************************************************************
-* Mobile menù
-*****************************************************************************/
-
-@media (max-width: 576px) {
-  #light-toggle {
-      display: inline-block;
-      padding-right: 1rem;
-  }
-}
-
-/*
-@media (max-width: 576px) {
-  #light-toggle {
-    display: inline-block;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
-*/
 
 /*****************************************************************************
 * 

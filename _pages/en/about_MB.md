@@ -1,8 +1,15 @@
-<span style="font-size: 20pt; color: var(--global-theme-color);"> Maria Bigoni </span>
+<div class="indented" style="display: inline-block;"> <p> <span style="font-size: 20pt; color: var(--global-theme-color);"> Maria Bigoni </span> </p> </div>
 
-<span style="font-size: 15pt;"> Full Professor </span> <br> Department of Economics <br> <span style="font-size: 10pt;"> Academic discipline: ECON-01/A Economics </span> <br> <span style="font-size: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italy</span>
+<span class="indented" style="font-size: 15pt;"> Full Professor </span> <br> <span class="indented"> Department of Economics </span> <br> <span class="indented" style="font-size: 10pt;"> Academic discipline: ECON-01/A Economics </span> <br> <span class="indented" style="font-size: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italy</span>
 
-<p style="font-size: 10pt;"> Research Interests: <i> Experimental Economics, applied to the study of Cooperation in Repeated Social Dilemmas, Industrial Organization, and Learning </i></p>
+<p class="indented" style="font-size: 10pt;"> Research Interests: <i> Experimental Economics, applied to the study of Cooperation in Repeated Social Dilemmas, Industrial Organization, and Learning </i></p>
 
-<span style="vertical-align: middle; line-height: 1; color: var(--global-theme-color);"><i class="fa-solid fa-envelope"></i></span>&nbsp;&nbsp;<a href="mailto:maria.bigoni@unibo.it">maria.bigoni@unibo.it</a> <br>
-<i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i> &nbsp;[personal page on UniBo website](https://www.unibo.it/sitoweb/maria.bigoni/en) 
+<div class="icon-link indented">
+  <i class="fa-solid fa-envelope fa-fw"></i>
+  <a href="mailto:maria.bigoni@unibo.it">maria.bigoni@unibo.it</a>
+</div>
+
+<div class="icon-link indented">
+  <i class="fa-solid fa-landmark fa-fw"></i>
+  <a href="https://www.unibo.it/sitoweb/maria.bigoni/en">personal page on UniBo website</a>
+</div>

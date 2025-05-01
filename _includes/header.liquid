@@ -45,16 +45,18 @@
         </div>
         -->
         <!-- Replacement with contact_note and envelope icon, both linking to the contact page -->
-        <ul class="navbar-nav mr-auto pl-0 ml-0">
-          <li class="nav-item">
-            <a class="nav-link d-flex align-items-center" 
-               href="{{ site.baseurl }}/{{ contact_path }}/" 
-               title="{{ site.data[site.active_lang].strings.contact_note }}">
-                <i class="fa-solid fa-address-card fa-fw ml-0"></i>
-                <span class="contact-label ml-1">{{ site.data[site.active_lang].strings.contact_note }}</span>
-            </a>
-          </li>
-        </ul>
+        <div style="margin-left: -6pt;">
+            <ul class="navbar-nav mr-auto pl-0 ml-0">
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center" 
+                   href="{{ site.baseurl }}/{{ contact_path }}/" 
+                   title="{{ site.data[site.active_lang].strings.contact_note }}">
+                    <i class="fa-solid fa-address-card fa-fw ml-0"></i>
+                    <span class="contact-label ml-1">{{ site.data[site.active_lang].strings.contact_note }}</span>
+                </a>
+              </li>
+            </ul>
+        </div>
       {% endif %}
 
       <!-- Navbar Toggle -->
@@ -199,26 +201,29 @@
 
             {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
-            <li class="nav-item">
+            <li class="toggle-container" style="margin-right:8pt;">
               <button id="light-toggle"
-                      class="nav-link"
+                      aria-expanded="false"
+                      aria-label="{% case site.active_lang %}
+                                   {% when 'it' %}Cambiare tema
+                                   {% when 'es' %}Cambiar tema
+                                   {% else %}Change theme
+                                  {% endcase %}"
                       title="{% case site.active_lang %}
-                        {% when 'it' %}Cambia tema
-                        {% when 'es' %}Cambiar tema
-                        {% else %}Change theme
-                      {% endcase %}"
+                              {% when 'it' %}Cambiare tema
+                              {% when 'es' %}Cambiar tema
+                              {% else %}Change theme
+                            {% endcase %}"
                       style="color: var(--global-theme-color); background: none; border: none;">
                 <i class="ti ti-moon-filled fa-fw" id="light-toggle-dark" style="font-size: 14pt; vertical-align: middle;"></i>
                 <i class="ti ti-sun-filled fa-fw" id="light-toggle-light" style="font-size: 14pt; vertical-align: middle;"></i>
               </button>
             </li>
           {% endif %}
-
         </ul>
       </div>
     </div>
   </nav>
-
     {% if site.enable_progressbar %}
     <!-- Scrolling Progress Bar -->
     <progress id="progress" value="0">

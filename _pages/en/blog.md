@@ -4,7 +4,11 @@ layout: default
 permalink: /blog/
 title: blog
 subtitle: >
-    <p style="color: var(--global-theme-color); margin-top: -5px; font-weight: normal;"><a href='https://marcorosso.com/it/blog/'>italiano</a>&nbsp;|&nbsp;<a href='https://marcorosso.com/es/blog/'>español</a></p>
+    <div class="blog-links">
+      <a href="https://marcorosso.com/it/blog/">italiano</a>
+      <span class="separator">|</span>
+      <a href="https://marcorosso.com/es/blog/">español</a>
+    </div>
 nav: false
 nav_order:
 pagination:
