@@ -1,6 +1,6 @@
 <span class="indented" style="font-size: 20pt; color: var(--global-theme-color);"> Paolo Vanin </span> <br> <span class="indented" style="font-size: 12pt; color: var(--global-theme-color);"> <i>Ph.D. Supervisor</i> </span>
 
-<span class="indented" style="font-size: 15pt;"> Full Professor </span> <br> Department of Economics <br> <span class="indented" style="font-size: 10pt;"> Academic discipline: ECON-01/A Economics </span> <br> <span class="indented" style="font-size: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italy</span>
+<span class="indented" style="font-size: 15pt;"> Full Professor </span> <br> <span class="indented"> Department of Economics </span> <br> <span class="indented" style="font-size: 10pt;"> Academic discipline: ECON-01/A Economics </span> <br> <span class="indented" style="font-size: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italy</span>
 
 <p class="indented" style="font-size: 10pt;"> Research Interests: <i> Theory and Empirics of Long-Term Development, Political Economics, Social Economics, Crime Economics, and Microeconomic Theory </i></p>
 
