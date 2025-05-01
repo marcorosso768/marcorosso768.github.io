@@ -3,13 +3,13 @@
     <li class="list-group-item">
      <div class="row">
         {% if content.year %}
-          <div class="col-xs-2 cl-sm-2 col-md-2 d-flex flex-column align-items-center" style="width: 75px;">
-            <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+          <div class="col-3 d-flex flex-column align-items-center justify-content-start">
+            <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle text-center" style="min-width: 60px;">
               {{- content.year -}}
             </span>
             {% if content.location %}
-              <p class="location text-center mt-2 mb-0" style="white-space: nowrap;">
-                <i class="fa-solid fa-location-dot iconlocation"></i>
+              <p class="location text-center mt-2 mb-0" style="max-width: 90px; font-size: 0.9em;">
+                <i class="fa-solid fa-location-dot iconlocation fa-fw"></i>
                 {{ content.location }}
               </p>
             {% endif %}
