@@ -3,28 +3,22 @@
   contents:
     - name:
       value: >
-        <div style="display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-users fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 0.5em;"></i>
-          <div style="font-variant: small-caps;">
-            Research Fellows' Representative
+        <div style="font-size:10pt; display: flex; flex-direction: column; gap: 0.6em;">
+          <div style="display: flex; align-items: flex-start;">
+            <i class="fa-solid fa-users fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 1.5em; line-height: 1.4;"></i>
+            <div style="font-variant: small-caps;">Research Fellows' Representative</div>
           </div>
-        </div>
-        <div style="display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-building-columns fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 0.5em;"></i>
-          <div style="font-variant: small-caps;">
-            Research Fellow
+          <div style="display: flex; align-items: flex-start;">
+            <i class="fa-solid fa-building-columns fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 1.5em; line-height: 1.4;"></i>
+            <div style="font-variant: small-caps;">Research Fellow</div>
           </div>
-        </div>
-        <div style="display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-chalkboard-user fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 0.5em;"></i>
-          <div style="font-variant: small-caps;">
-            Teaching Assistant
+          <div style="display: flex; align-items: flex-start;">
+            <i class="fa-solid fa-chalkboard-user fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 1.5em; line-height: 1.4;"></i>
+            <div style="font-variant: small-caps;">Teaching Assistant</div>
           </div>
-        </div>
-        <div style="display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-graduation-cap fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 0.5em;"></i>
-          <div style="font-variant: small-caps;">
-            Ph.D. Candidate in Economics
+          <div style="display: flex; align-items: flex-start;">
+            <i class="fa-solid fa-graduation-cap fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 1.5em; line-height: 1.4;"></i>
+            <div style="font-variant: small-caps;">Ph.D. Candidate in Economics</div>
           </div>
         </div>
 
@@ -165,7 +159,7 @@
     - name:
       value: >
         <div style="font-size:10pt; display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 0.5em; line-height: 1.2; padding-top: 1px;"></i>
+          <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 1.5em; line-height: 1.2; padding-top: 1px;"></i>
           <div>
             <i>Journal of Economics &amp; Management Strategy</i>
           </div>
@@ -192,7 +186,7 @@
     - name:
       value: >
         <div style="font-size:10pt; display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-laptop-code fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 0.5em; line-height: 1.2; padding-top: 1px;"></i>
+          <i class="fa-solid fa-laptop-code fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 1.5em; line-height: 1.2; padding-top: 1px;"></i>
           <div style="font-variant: small-caps; line-height: 1.4;">
             Stata, Python, &lt;HTML&gt;, QGIS, Qualtrics, MATLAB, R, C++, LaTeX, MS Office
           </div>
