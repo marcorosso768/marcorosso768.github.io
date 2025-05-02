@@ -156,7 +156,7 @@
   type: map
   contents:
     - name:
-      value: '<span style="font-size:10pt;"><i class="fa-solid fa-laptop fa-fw" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<span style="font-variant: small-caps;"> Stata, Python, <HTML>, QGIS, Qualtrics, MATLAB, R, C++, LaTeX, MS Office </span></span>'
+      value: '<span style="font-size:10pt;"><i class="fa-solid fa-laptop fa-fw" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<span style="font-variant: small-caps;"> Stata, Python, &lt;HTML&gt;, QGIS, Qualtrics, MATLAB, R, C++, LaTeX, MS Office </span></span>'
 
 - title: other experience
   type: time_table
