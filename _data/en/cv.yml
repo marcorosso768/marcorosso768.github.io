@@ -9,15 +9,15 @@
             <div style="font-variant: small-caps;">Research Fellows' Representative</div>
           </div>
           <div style="display: flex; align-items: flex-start;">
-            <i class="fa-solid fa-building-columns fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 1.5em; line-height: 1.4;"></i>
+            <i class="fa-solid fa-building-columns fa-fw" style="color:var(--global-theme-color); margin-right: 1em; margin-left: 1em; line-height: 1.4;"></i>
             <div style="font-variant: small-caps;">Research Fellow</div>
           </div>
           <div style="display: flex; align-items: flex-start;">
-            <i class="fa-solid fa-chalkboard-user fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 1.5em; line-height: 1.4;"></i>
+            <i class="fa-solid fa-chalkboard-user fa-fw" style="color:var(--global-theme-color); margin-right: 1em; margin-left: 1em; line-height: 1.4;"></i>
             <div style="font-variant: small-caps;">Teaching Assistant</div>
           </div>
           <div style="display: flex; align-items: flex-start;">
-            <i class="fa-solid fa-graduation-cap fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 1.5em; line-height: 1.4;"></i>
+            <i class="fa-solid fa-graduation-cap fa-fw" style="color:var(--global-theme-color); margin-right: 1em; margin-left: 1em; line-height: 1.4;"></i>
             <div style="font-variant: small-caps;">Ph.D. Candidate in Economics</div>
           </div>
         </div>
