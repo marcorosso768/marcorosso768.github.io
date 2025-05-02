@@ -1,4 +1,4 @@
-<div class="interests-container d-flex flex-wrap justify-content-center gap-2">
+<div class="interests-container d-flex flex-wrap justify-content-center">
   {% for content in entry.contents %}
     {% if content.field %}
       <span class="interest-badge text-uppercase">
@@ -7,21 +7,3 @@
     {% endif %}
   {% endfor %}
 </div>
-
-<style>
-.interests-container {
-  padding: 1rem;
-  gap: 0.5rem; /* space between badges */
-}
-
-.interest-badge {
-  border: 2px solid var(--global-theme-color);
-  color: var(--global-theme-color);
-  background-color: transparent;
-  font-weight: bold;
-  font-size: 0.85rem;
-  padding: 0.3rem 0.8rem;
-  border-radius: 0.3rem;
-  text-align: center;
-}
-</style>
