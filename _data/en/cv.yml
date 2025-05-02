@@ -1,4 +1,4 @@
-- title: current position
+- title: current positions
   type: list_groups
   contents:
     - category: "<span style=\"font-variant: small-caps; color:var(--global-text-color);\"> Research Fellows' Representative </span>"
