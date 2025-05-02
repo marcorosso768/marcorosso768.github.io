@@ -13,6 +13,18 @@
 - title: field of interest
   type: list_groups
   contents:
+    - category: '<span style="color:var(--global-text-color);"> Economics of Crime </span>'
+      icon:
+    - category: '<span style="color:var(--global-text-color);"> Political Economics </span>'
+      icon:
+    - category: '<span style="color:var(--global-text-color);"> Game Theory </span>'
+      icon:
+    - category: '<span style="color:var(--global-text-color);"> Microeconomics </span>'
+      icon:
+    - category: '<span style="color:var(--global-text-color);"> Experimental Economics </span>'
+      icon:
+    - category: '<span style="color:var(--global-text-color);"> Behavioural Economics </span>'
+      icon:
 
 - title: education
   type: time_table
