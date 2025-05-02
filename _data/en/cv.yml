@@ -137,8 +137,14 @@
   type: map
   contents:
     - name:
-      value: '<span style="font-size:10pt;"><i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<i style="font-size:10pt;">Journal of Economics &amp; Management Strategy</i></span>'
-
+      value: >
+        <div style="font-size:10pt; display: flex; align-items: flex-start;">
+          <i class="fa-solid fa-laptop-code fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em;"></i>
+          <div style="font-variant: small-caps; line-height: 1.4;">
+            Stata, Python, &lt;HTML&gt;, QGIS, Qualtrics, MATLAB, R, C++, LaTeX, MS Office
+          </div>
+        </div>
+        
 - title: languages
   type: list_groups
   contents:
