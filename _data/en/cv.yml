@@ -26,12 +26,12 @@
 - title: field of interest
   type: interest
   contents:
-    - field: '<span style="color:var(--global-text-color);"> Economics of Crime </span>'
-    - field: '<span style="color:var(--global-text-color);"> Political Economics </span>'
-    - field: '<span style="color:var(--global-text-color);"> Game Theory </span>'
-    - field: '<span style="color:var(--global-text-color);"> Microeconomics </span>'
-    - field: '<span style="color:var(--global-text-color);"> Experimental Economics </span>'
-    - field: '<span style="color:var(--global-text-color);"> Behavioural Economics </span>'
+    - field: Economics of Crime
+    - field: Political Economics
+    - field: Game Theory
+    - field: Microeconomics
+    - field: Experimental Economics
+    - field: Behavioural Economics
     
 
 - title: education
