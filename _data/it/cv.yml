@@ -1,13 +1,3 @@
-- title: contatti
-  type: map
-  contents:
-    - name:
-      value: '<span style="font-size:12pt;"><i class="fa-regular fa-envelope" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="mailto:m.rosso@me.com">m.rosso@me.com</a> </span>'
-    - name:
-      value: '<span style="font-size:12pt;"><i class="fa-solid fa-envelope" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="mailto:marco.rosso4@unibo.it">marco.rosso4@unibo.it</a> </span>'
-    - name:
-      value: '<span style="font-size:12pt;"><i class="fa-solid fa-landmark" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<a href="https://www.unibo.it/sitoweb/marco.rosso4/">pagina personale sul sito di UniBo</a> </span>'
-
 - title: istruzione
   type: time_table
   contents:
