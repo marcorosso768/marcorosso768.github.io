@@ -1,9 +1,14 @@
-<div class="interests-container d-flex flex-wrap justify-content-center">
-  {% for content in entry.contents %}
-    {% if content.field %}
-      <span class="interest-badge text-uppercase">
-        {{ content.field }}
-      </span>
-    {% endif %}
-  {% endfor %}
+<div class="card mb-3">
+  <div class="card-body">
+    <h5 class="card-title">{{ entry.title }}</h5>
+    <div class="interests-container d-flex flex-wrap justify-content-center">
+      {% for item in entry.contents %}
+        {% if item.field %}
+          <span class="interest-badge text-uppercase">
+            {{ item.field }}
+          </span>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
 </div>
