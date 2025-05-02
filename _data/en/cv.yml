@@ -1,14 +1,32 @@
 - title: current positions
-  type: list_groups
+  type: map
   contents:
-    - category: "<span style=\"font-variant: small-caps; color:var(--global-text-color);\"> Research Fellows' Representative </span>"
-      icon: "fa-solid fa-users fa-fw"
-    - category: '<span style="font-variant: small-caps; color:var(--global-text-color);"> Research Fellow </span>'
-      icon: "fa-solid fa-building-columns fa-fw"
-    - category: '<span style="font-variant: small-caps; color:var(--global-text-color);"> Teaching Assistant </span>'
-      icon: "fa-solid fa-chalkboard-user fa-fw"
-    - category: '<span style="color:var(--global-text-color);"> <span style="font-variant: small-caps;">Ph.D. Candidate</span> in <span style="font-variant: small-caps; ">Economics</span></span>'
-      icon: "fa-solid fa-graduation-cap fa-fw"
+    - name:
+      value: >
+        <div display: flex; align-items: center;">
+          <i class="fa-solid fa-users fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 1em;"></i>
+          <div style="font-variant: small-caps; line-height: 1.4;">
+            Research Fellows' Representative
+          </div>
+        </div>
+        <div display: flex; align-items: center;">
+          <i class="fa-solid fa-building-columns fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 1em;"></i>
+          <div style="font-variant: small-caps; line-height: 1.4;">
+            Research Fellow
+          </div>
+        </div>
+        <div display: flex; align-items: center;">
+          <i class="fa-solid fa-chalkboard-user fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 1em;"></i>
+          <div style="font-variant: small-caps; line-height: 1.4;">
+            Teaching Assistant
+          </div>
+        </div>
+        <div display: flex; align-items: center;">
+          <i class="fa-solid fa-graduation-cap fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 1em;"></i>
+          <div style="font-variant: small-caps; line-height: 1.4;">
+            Ph.D. Candidate <span style="font-variant: normal;">in</span> Economics
+          </div>
+        </div>
 
 - title: field of interest
   type: list_groups
@@ -138,8 +156,8 @@
   contents:
     - name:
       value: >
-        <div style="font-size:10pt; display: flex; align-items: center;">
-          <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 2em;"></i>
+        <div style="font-size:10pt; display: flex; align-items: flex-start;">
+          <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 1em; line-height: 1.2; padding-top: 1px;"></i>
           <div>
             <i>Journal of Economics &amp; Management Strategy</i>
           </div>
@@ -163,8 +181,8 @@
   contents:
     - name:
       value: >
-        <div style="font-size:10pt; display: flex; align-items: center;">
-          <i class="fa-solid fa-laptop-code fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 2em;"></i>
+        <div style="font-size:10pt; display: flex; align-items: flex-start;">
+          <i class="fa-solid fa-laptop-code fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 1em; line-height: 1.2; padding-top: 1px;"></i>
           <div style="font-variant: small-caps; line-height: 1.4;">
             Stata, Python, &lt;HTML&gt;, QGIS, Qualtrics, MATLAB, R, C++, LaTeX, MS Office
           </div>
