@@ -3,7 +3,7 @@
   contents:
     - name:
       value: >
-        <div style="font-size:10pt; display: flex; flex-direction: column; gap: 0.6em;">
+        <div style="display: flex; flex-direction: column; gap: 0.6em;">
           <div style="display: flex; align-items: flex-start;">
             <i class="fa-solid fa-users fa-fw" style="color:var(--global-theme-color); margin-right: 0.5em; margin-left: 1.5em; line-height: 1.4;"></i>
             <div style="font-variant: small-caps;">Research Fellows' Representative</div>
