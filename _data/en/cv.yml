@@ -1,3 +1,11 @@
+- title: current position
+  type: list_groups
+  contents:
+
+- title: field of interest
+  type: list_groups
+  contents:
+
 - title: education
   type: time_table
   contents:
@@ -72,12 +80,6 @@
       department: Center for Research on Pensions and Welfare Policies (CeRP)
       supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html"><i>Elsa Fornero</i></a>'
 
-- title: refereeing for academic journals
-  type: map
-  contents:
-    - name:
-      value: '<span style="font-size:10pt;"><i class="fa-solid fa-newspaper" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<i style="font-size:10pt;">Journal of Economics &amp; Management Strategy</i></span>'
-
 - title: awards, grants, and scholarships
   type: time_table
   contents:
@@ -90,6 +92,10 @@
     - title: Master Thesis Recommendation for Publication (Italian Merit Title)
       year: "2019"
       institution: University of Turin
+
+- title: academic service
+  type: time_table
+  contents:
 
 - title: networking activities
   type: time_table
@@ -107,6 +113,12 @@
       year: 2021-2022
       institution: University of Bologna
 
+- title: refereeing for academic journals
+  type: map
+  contents:
+    - name:
+      value: '<span style="font-size:10pt;"><i class="fa-solid fa-newspaper" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<i style="font-size:10pt;">Journal of Economics &amp; Management Strategy</i></span>'
+
 - title: languages
   type: list_groups
   contents:
@@ -119,6 +131,12 @@
     - category: "Spanish"
       items:
         - name: "intermediate"
+
+- title: computer skills
+  type: map
+  contents:
+    - name:
+      value: '<span style="font-size:10pt;"><i class="fa-solid fa-newspaper" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<i style="font-size:10pt;">Journal of Economics &amp; Management Strategy</i></span>'
 
 - title: other experience
   type: time_table
