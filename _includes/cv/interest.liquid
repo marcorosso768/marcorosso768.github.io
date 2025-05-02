@@ -1,10 +1,27 @@
-<ul class="card-text font-weight-light list-group list-group-flush">
+<div class="interests-container d-flex flex-wrap justify-content-center gap-2">
   {% for content in entry.contents %}
-    <li class="list-group-item">
-        <div class="col-12 col-md-2 d-flex flex-column align-items-center mb-2 mb-md-0">
-          {% if content.field %}
-            <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
-              {{- content.field -}}
-            </span>
-          {% endif %}
-</ul>
+    {% if content.field %}
+      <span class="interest-badge text-uppercase">
+        {{ content.field }}
+      </span>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<style>
+.interests-container {
+  padding: 1rem;
+  gap: 0.5rem; /* space between badges */
+}
+
+.interest-badge {
+  border: 2px solid var(--global-theme-color);
+  color: var(--global-theme-color);
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 0.85rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.3rem;
+  text-align: center;
+}
+</style>
