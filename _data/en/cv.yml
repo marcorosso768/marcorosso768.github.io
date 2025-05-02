@@ -1,13 +1,13 @@
 - title: current position
   type: list_groups
   contents:
-    - category: "<span id=\"small-caps\" style=\"color:var(--global-text-color);\"> Research Fellows' Representative </span>"
+    - category: "<span style=\"font-variant: small-caps; color:var(--global-text-color);\"> Research Fellows' Representative </span>"
       icon: "fa-solid fa-users fa-fw"
-    - category: '<span id="small-caps" style="color:var(--global-text-color);"> Research Fellow </span>'
+    - category: '<span style="font-variant: small-caps; color:var(--global-text-color);"> Research Fellow </span>'
       icon: "fa-solid fa-building-columns fa-fw"
-    - category: '<span id="small-caps" style="color:var(--global-text-color);"> Teaching Assistant </span>'
+    - category: '<span style="font-variant: small-caps; color:var(--global-text-color);"> Teaching Assistant </span>'
       icon: "fa-solid fa-chalkboard-user fa-fw"
-    - category: '<span style="color:var(--global-text-color);"> <span id="small-caps">Ph.D. Candidate</span> in <span id="small-caps">Economics</span> </span>'
+    - category: '<span style="color:var(--global-text-color);"> <span style="font-variant: small-caps;">Ph.D. Candidate</span> in <span style="font-variant: small-caps; ">Economics</span></span>'
       icon: "fa-solid fa-graduation-cap fa-fw"
 
 - title: field of interest
@@ -156,7 +156,7 @@
   type: map
   contents:
     - name:
-      value: '<span style="font-size:10pt;"><i class="fa-solid fa-square-binary fa-fw" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<span id="small-caps"> Stata, Python, <HTML> QGIS, Qualtrics, MATLAB, R, C++, LaTeX, MS Office </span></span>'
+      value: '<span style="font-size:10pt;"><i class="fa-solid fa-square-binary fa-fw" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<span style="font-variant: small-caps; > Stata, Python, <HTML> QGIS, Qualtrics, MATLAB, R, C++, LaTeX, MS Office </span></span>'
 
 - title: other experience
   type: time_table
