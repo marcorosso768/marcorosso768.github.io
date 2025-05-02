@@ -43,6 +43,8 @@ layout: default
                 {% include cv/time_table.liquid %}
               {% elsif entry.type == 'list_groups' %}
                 {% include cv/list_groups.liquid %}
+              {% elsif entry.type == 'interest' %}
+                {% include cv/interest.liquid %}
               {% else %}
                 {{ entry.contents }}
               {% endif %}

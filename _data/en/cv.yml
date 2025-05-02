@@ -1,3 +1,37 @@
+- title: current positions
+  type: map
+  contents:
+    - name:
+      value: >
+        <div style="display: flex; flex-direction: column; gap: 0.6em;">
+          <div style="display: flex; align-items: flex-start;">
+            <i class="fa-solid fa-users fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; margin-left: 0.75em; line-height: 1.4;"></i>
+            <div style="font-variant: small-caps;">Research Fellows' Representative</div>
+          </div>
+          <div style="display: flex; align-items: flex-start;">
+            <i class="fa-solid fa-building-columns fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; margin-left: 0.75em; line-height: 1.4;"></i>
+            <div style="font-variant: small-caps;">Post-Doc</div>
+          </div>
+          <div style="display: flex; align-items: flex-start;">
+            <i class="fa-solid fa-chalkboard-user fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; margin-left: 0.75em; line-height: 1.4;"></i>
+            <div style="font-variant: small-caps;">Teaching Assistant</div>
+          </div>
+          <div style="display: flex; align-items: flex-start;">
+            <i class="fa-solid fa-graduation-cap fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; margin-left: 0.75em; line-height: 1.4;"></i>
+            <div style="font-variant: small-caps;">Ph.D. Candidate in Economics</div>
+          </div>
+        </div>
+
+- title: field of interest
+  type: interest
+  contents:
+    - field: Economics of Crime
+    - field: Political Economics
+    - field: Game Theory
+    - field: Microeconomics
+    - field: Experimental Economics
+    - field: Behavioural Economics
+    
 - title: education
   type: time_table
   contents:
@@ -49,10 +83,6 @@
       institution: University of Bologna
       department: DSE - Department of Economics
       supervisor: 'supervisors: <a href="https://jnchapman.com"><i>Jonathan Neil Chapman</i></a> and <a href="https://sites.google.com/site/giovanniprarolo/"><i>Giovanni Prarolo</i></a>'
-    - title: Participation on the Committee for the International SAT Test used for University Admissions
-      year: "2024"
-      location: "Bologna, Italy"
-      institution: College Board (New York)
     - title: Implementation of Online Experiments in the Context of the MinUTo Project
       year: "2024"
       location: "Bologna, Italy"
@@ -72,41 +102,77 @@
       department: Center for Research on Pensions and Welfare Policies (CeRP)
       supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html"><i>Elsa Fornero</i></a>'
 
-- title: refereeing for academic journals
-  type: map
-  contents:
-    - name:
-      value: '<span style="font-size:10pt;"><i class="fa-solid fa-newspaper" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<i style="font-size:10pt;">Journal of Economics &amp; Management Strategy</i></span>'
-
 - title: awards, grants, and scholarships
   type: time_table
   contents:
     - title: '"Marco Polo" Incentive to International Mobility for Research'
       year: "2024"
+      location: "Bologna, Italy"
       institution: University of Bologna
     - title: 4-Year Scholarship, Ph.D. Program in Economics
       year: "2020"
+      location: "Bologna, Italy"
       institution: University of Bologna
     - title: Master Thesis Recommendation for Publication (Italian Merit Title)
       year: "2019"
+      location: "Turin, Italy"
       institution: University of Turin
 
+- title: academic service
+  type: time_table
+  contents:
+    - title: "Representatives of Research Fellows in the Board of the Department of Economics"
+      year: 2025-
+      location: "Bologna, Italy"
+      institution: University of Bologna
+      department: DSE - Department of Economics
+    - title: "Representatives of Research Fellows in the Council of the Department of Economics"
+      year: 2025-
+      location: "Bologna, Italy"
+      institution: University of Bologna
+      department: DSE - Department of Economics
+    - title: Committee Member, International SAT Test for University Admissions
+      year: 2024-
+      location: "Bologna, Italy"
+      institution: University of Bologna, in collaboration with the College Board (New York)
+      department: DSE - Department of Economics
+   
 - title: networking activities
   type: time_table
   contents:
     - title: "Organizer of the \"Department's Weekly Football Matches\""
       year: 2023-
+      location: "Bologna, Italy"
       institution: University of Bologna
+      department: DSE - Department of Economics
     - title: 'Organizer of the "Department Afterwork Drinks"'
       year: 2022-
+      location: "Bologna, Italy"
       institution: University of Bologna
+      department: DSE - Department of Economics
     - title: 'Co-organizer of the "Research in Steps" (RiS) Seminars Series for Ph.D. Students'
       year: 2022-2023
+      location: "Bologna, Italy"
       institution: University of Bologna
+      department: DSE - Department of Economics
     - title: 'Co-founder and co-organizer of the Reading Group on "Political Economics of Violence and Corruption"'
       year: 2021-2022
+      location: "Bologna, Italy"
       institution: University of Bologna
+      department: DSE - Department of Economics
 
+- title: refereeing for academic journals
+  type: map
+  contents:
+    - name:
+      value: >
+        <div style="font-size:11pt; display: flex; align-items: flex-start;">
+          <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; margin-left: 0.75em; line-height: 1.2; padding-top: 1px;"></i>
+          <div>
+            <i>Journal of Economics &amp; Management Strategy</i>
+          </div>
+        </div>
+    
 - title: languages
   type: list_groups
   contents:
@@ -120,6 +186,18 @@
       items:
         - name: "intermediate"
 
+- title: computer skills
+  type: map
+  contents:
+    - name:
+      value: >
+        <div style="font-size:11pt; display: flex; align-items: flex-start;">
+          <i class="fa-solid fa-laptop-code fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; margin-left: 0.75em; line-height: 1.2; padding-top: 1px;"></i>
+          <div style="font-variant: small-caps; line-height: 1.4;">
+            Stata, Python, &lt;HTML&gt;, QGIS, Qualtrics, MATLAB, R, C++, LaTeX, MS Office
+          </div>
+        </div>
+   
 - title: other experience
   type: time_table
   contents:
@@ -135,7 +213,6 @@
       year: 2013-2014
       soccer: C.S.F. Carmagnola
       location: "Carmagnola, Italy"
-
 
 - title: hobbies
   type: list_groups
@@ -156,5 +233,3 @@
       icon: "fa-solid fa-gamepad fa-fw"
     - category: '<span style="color:var(--global-text-color);"> board games </span>'
       icon: "fa-solid fa-puzzle-piece fa-fw"
-
-
