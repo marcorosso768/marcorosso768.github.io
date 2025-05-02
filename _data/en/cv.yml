@@ -10,7 +10,7 @@
           </div>
           <div style="display: flex; align-items: flex-start;">
             <i class="fa-solid fa-building-columns fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; margin-left: 0.75em; line-height: 1.4;"></i>
-            <div style="font-variant: small-caps;">Research Fellow</div>
+            <div style="font-variant: small-caps;">Post-Doc</div>
           </div>
           <div style="display: flex; align-items: flex-start;">
             <i class="fa-solid fa-chalkboard-user fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; margin-left: 0.75em; line-height: 1.4;"></i>
