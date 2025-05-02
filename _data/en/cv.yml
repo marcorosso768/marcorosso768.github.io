@@ -28,6 +28,7 @@
           </div>
         </div>
 
+
 - title: field of interest
   type: list_groups
   contents:
@@ -43,6 +44,7 @@
       icon:
     - category: '<span style="color:var(--global-text-color);"> Behavioural Economics </span>'
       icon:
+
 
 - title: education
   type: time_table
@@ -70,6 +72,7 @@
       department: Department of Mathematics
       supervisor: 'supervisor: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo"><i>Vittoria Demichelis</i></a>'
 
+
 - title: visiting periods
   type: time_table
   contents:
@@ -85,6 +88,7 @@
       institution: Regional Public Health Observatory (SEPI)
       department: Public Health Department (Local Health Board TO3)
       supervisor: 'supervisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo"><i>Fulvio Ricceri</i></a>'
+
 
 - title: academic activities
   type: time_table
@@ -118,6 +122,7 @@
       department: Center for Research on Pensions and Welfare Policies (CeRP)
       supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html"><i>Elsa Fornero</i></a>'
 
+
 - title: awards, grants, and scholarships
   type: time_table
   contents:
@@ -131,9 +136,11 @@
       year: "2019"
       institution: University of Turin
 
+
 - title: academic service
   type: time_table
   contents:
+
 
 - title: networking activities
   type: time_table
@@ -151,6 +158,7 @@
       year: 2021-2022
       institution: University of Bologna
 
+
 - title: refereeing for academic journals
   type: map
   contents:
@@ -162,6 +170,7 @@
             <i>Journal of Economics &amp; Management Strategy</i>
           </div>
         </div>
+
         
 - title: languages
   type: list_groups
@@ -176,6 +185,7 @@
       items:
         - name: "intermediate"
 
+
 - title: computer skills
   type: map
   contents:
@@ -187,6 +197,7 @@
             Stata, Python, &lt;HTML&gt;, QGIS, Qualtrics, MATLAB, R, C++, LaTeX, MS Office
           </div>
         </div>
+
         
 - title: other experience
   type: time_table
