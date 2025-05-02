@@ -137,7 +137,7 @@
   type: map
   contents:
     - name:
-      value: '<span style="font-size:10pt;"><i class="fa-solid fa-newspaper" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<i style="font-size:10pt;">Journal of Economics &amp; Management Strategy</i></span>'
+      value: '<span style="font-size:10pt;"><i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<i style="font-size:10pt;">Journal of Economics &amp; Management Strategy</i></span>'
 
 - title: languages
   type: list_groups
@@ -156,7 +156,7 @@
   type: map
   contents:
     - name:
-      value: '<span style="font-size:10pt;"><i class="fa-solid fa-newspaper" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<i style="font-size:10pt;">Journal of Economics &amp; Management Strategy</i></span>'
+      value: '<span style="font-size:10pt;"><i class="fa-solid fa-square-binary fa-fw" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<span id="small-caps"> Stata, Python, <HTML> QGIS, Qualtrics, MATLAB, R, C++, LaTeX, MS Office </span></span>'
 
 - title: other experience
   type: time_table
