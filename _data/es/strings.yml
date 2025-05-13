@@ -144,5 +144,6 @@ search:
 selected_publications: publicações selecionadas
 site_description: “Sitio web académico personal de Marco Rosso, Doctorando e Investigador Postdoctoral en la Universidad de Bolonia”
 abstract:
+  label: "Resumen"
   show: "Mostrar resumen"
   hide: "Ocultar resumen"
