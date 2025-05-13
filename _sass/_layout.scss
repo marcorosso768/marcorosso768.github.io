@@ -122,19 +122,11 @@ body.sticky-bottom-footer {
 * Abstract
 *****************************************************************************/
 
-.icon-entry {
-  display: flex;
-  align-items: flex-start;
-  font-size: 12pt;
-  margin-bottom: 10px;
-  margin-left: var(--indent-margin);
-}
-
-.icon-entry i.fa-fw {
-  margin-right: 8px;
-  margin-top: 3px;
-  color: var(--global-theme-color);
-  flex-shrink: 0;
+:root {
+  --icon-size: 1em;
+  --icon-fw: 1.25em;
+  --icon-spacing: 8px;
+  --icon-text-offset: calc(var(--icon-fw) + var(--icon-spacing));
 }
 
 .abstract-toggle-pill {
@@ -143,10 +135,11 @@ body.sticky-bottom-footer {
   gap: 6px;
   font-size: 10pt;
   padding: 2px 10px;
-  margin: 6px 0 0 calc(var(--indent-margin) + 32px); // icon offset
+  margin-top: 4px;
+  margin-left: calc(var(--indent-margin) + var(--icon-text-offset));
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-theme-color);
-  border-radius: 999px;
+  border-radius: 12px; //999px
   cursor: pointer;
   user-select: none;
   color: var(--global-theme-color);
@@ -168,22 +161,24 @@ body.sticky-bottom-footer {
 
 .abstract {
   overflow: hidden;
-  max-height: 0;
   opacity: 0;
+  max-height: 0;
   pointer-events: none;
+
   font-size: 10pt;
   background-color: var(--global-card-bg-color);
   border: 1px solid var(--global-theme-color);
   border-radius: 12px;
-  padding: 0;
-  margin-top: 6px;
-  margin-left: calc(var(--indent-margin) + 32px); // align with text
+  margin-top: 4px;
+  margin-left: calc(var(--indent-margin) + var(--icon-text-offset));
   margin-right: var(--indent-margin);
+  padding: 0 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+
   transition:
-    max-height 0.4s ease,
-    padding 0.3s ease,
-    opacity 0.3s ease;
+    opacity 0.25s ease,
+    max-height 0.3s ease,
+    padding 0.2s ease;
 }
 
 .abstract.open {
