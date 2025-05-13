@@ -119,6 +119,66 @@ body.sticky-bottom-footer {
 }
 
 /*****************************************************************************
+* Abstract
+*****************************************************************************/
+
+.icon-entry {
+  display: flex;
+  align-items: flex-start;
+  font-size: 12pt;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.icon-entry i.fa-fw {
+  margin-right: 8px;
+  margin-top: 3px;
+  color: var(--global-theme-color);
+  flex-shrink: 0;
+}
+
+.abstract-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11pt;
+  margin-top: 2px;
+  margin-left: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.abstract-toggle i {
+  transition: transform 0.3s ease;
+}
+
+.abstract-toggle:hover i {
+  transform: scale(1.4);
+}
+
+.abstract {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease;
+  margin-left: 30px;
+  font-size: 10pt;
+}
+
+.abstract.open {
+  max-height: 1000px;
+}
+
+.abstract span {
+  font-style: normal;
+  transition: font-style 0.3s ease;
+  display: inline-block;
+}
+
+.abstract span:hover {
+  font-style: italic;
+}
+
+/*****************************************************************************
 * CV: icon
 *****************************************************************************/
 
