@@ -1,1 +1,1 @@
-function toggleVisibility(e){const t=document.getElementById(e),l=document.getElementById(`toggle-${e}`).querySelector("i");"none"!==t.style.display?(t.style.display="none",l.style.transform="rotate(0deg)"):(t.style.display="block",l.style.transform="rotate(90deg)")}
+function toggleVisibility(e){const t=document.getElementById(e),o=document.getElementById(`toggle-${e}`).querySelector("i"),l="none"!==t.style.display;t.style.display=l?"none":"block",o.style.transform=l?"rotate(0deg)":"rotate(90deg)"}
