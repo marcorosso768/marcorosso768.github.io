@@ -32,6 +32,7 @@ nav_order: 1
     </a> 
     <i>Journal of Epidemiology & Community Health</i>
   </span>
+  </div>
 
 <div id="toggle-abstract-crc" class="abstract-toggle-pill"
      onclick="toggleAbstract('abstract-crc', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)"
