@@ -3,6 +3,7 @@ function toggleAbstract(id, showText, hideText) {
   const toggle = document.getElementById("toggle-" + id);
   const icon = document.getElementById("icon-" + id);
   const label = document.getElementById("label-" + id);
+
   const isOpen = abstract.classList.contains("open");
 
   if (isOpen) {
