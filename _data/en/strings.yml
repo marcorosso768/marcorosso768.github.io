@@ -143,3 +143,6 @@ search:
   theme: Theme
 selected_publications: selected publications
 site_description: Personal Academic website of Marco Rosso, Ph.D. Student and Research Fellow at the University of Bologna
+abstract:
+  show: "Show abstract"
+  hide: "Hide abstract"
