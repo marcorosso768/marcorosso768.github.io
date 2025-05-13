@@ -122,85 +122,101 @@ body.sticky-bottom-footer {
 * Abstract
 *****************************************************************************/
 
+:root {
+  --icon-size: 1em;
+  --icon-fw: 1.25em;
+  --icon-spacing: 8px;
+  --icon-text-offset: calc(var(--icon-fw) + var(--icon-spacing));
+}
+
+/* Icona + testo della pubblicazione */
 .icon-entry {
   display: flex;
   align-items: flex-start;
   font-size: 12pt;
   margin-bottom: 10px;
   margin-left: var(--indent-margin);
-}
 
-.icon-entry i.fa-fw {
-  margin-right: 8px;
-  margin-top: 3px;
-  color: var(--global-theme-color);
-  flex-shrink: 0;
-}
+  i.fa-fw {
+    margin-right: var(--icon-spacing);
+    margin-top: 3px;
+    color: var(--global-theme-color);
+    flex-shrink: 0;
+  }
 
-.icon-entry a {
-  color: var(--global-theme-color);
-  text-decoration: none;
-  font-style: normal;
-  transition: font-style 0.3s ease, text-decoration 0.3s ease;
+  span {
+    display: inline-block;
+    padding-left: var(--icon-text-offset);
+  }
 
-  &:hover {
-    font-style: italic;
-    text-decoration: underline;
+  a {
+    color: var(--global-theme-color);
+    text-decoration: none;
+    font-style: normal;
+    transition: font-style 0.3s ease, text-decoration 0.3s ease;
+
+    &:hover {
+      font-style: italic;
+      text-decoration: underline;
+    }
   }
 }
 
-/* Toggle pill */
+/* Bottone "Abstract" */
 .abstract-toggle-pill {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
   font-size: 10pt;
   padding: 2px 10px;
   margin-top: 6px;
-  margin-left: calc(var(--indent-margin) + 32px); // icon offset
+  margin-left: var(--indent-margin);
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-theme-color);
-  border-radius: 12px; //999px;
+  border-radius: 12px;
   cursor: pointer;
   user-select: none;
   color: var(--global-theme-color);
-  transition: background-color 0.2s ease, transform 0.2s ease;
+  transition: background-color 0.2s ease;
+
+  i {
+    transition: transform 0.3s ease;
+  }
+
+  .toggle-label {
+    font-style: normal;
+    transition: font-style 0.3s ease;
+  }
+
+  &:hover .toggle-label {
+    font-style: italic;
+  }
 }
 
-.abstract-toggle-pill:hover .abstract-label {
-  font-style: italic;
-}
-
-.abstract-toggle-pill i {
-  transition: transform 0.3s ease;
-}
-
-/* Abstract card */
+/* Contenitore abstract */
 .abstract {
   overflow: hidden;
-  max-height: 0;
   opacity: 0;
+  max-height: 0;
   pointer-events: none;
   font-size: 10pt;
   background-color: var(--global-card-bg-color);
   border: 1px solid var(--global-theme-color);
   border-radius: 12px;
-  padding: 0;
-  margin-top: 6px;
-  margin-left: calc(var(--indent-margin) + 32px);
+  margin-top: 4px;
+  margin-bottom: 12px;
+  margin-left: var(--indent-margin);
   margin-right: var(--indent-margin);
+  padding: 1px 20px; // Evita salto brutto
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-  transition:
-    max-height 0.4s ease,
-    padding 0.3s ease,
-    opacity 0.3s ease;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
 }
 
 .abstract.open {
   max-height: 2000px;
   opacity: 1;
   pointer-events: auto;
-  padding: 15px 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 /*****************************************************************************
