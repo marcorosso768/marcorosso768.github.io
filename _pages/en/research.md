@@ -14,13 +14,14 @@ nav_order: 1
 
 <!-- Publications Section -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> publications </h2>
-  </a>
-</div>
+<a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+  <h2 class="category">
+    <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i> publications
+  </h2>
+</a>
 
 <div id="content-1" style="display: block;">
-   <div class="icon-entry indented">
+  <div class="icon-entry indented">
   <i class="fa-solid fa-newspaper fa-fw"></i>
   <span>
     Farina E., Rosso M., Dansero L., et al. (2023). 
@@ -54,10 +55,12 @@ nav_order: 1
 
 <!-- Working Papers Section -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> working papers </h2>
-  </a>
-</div>
+
+<a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
+  <h2 class="category">
+    <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i> working papers
+  </h2>
+</a>
 
 <div id="content-2" style="display: block;">
 
@@ -108,10 +111,12 @@ nav_order: 1
 
 <!-- Work in Progress Section -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> work in progress </h2>
-  </a>
-</div>
+
+<a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
+  <h2 class="category">
+    <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i> working papers
+  </h2>
+</a>
 
 <div id="content-3" style="display: block;">
 
