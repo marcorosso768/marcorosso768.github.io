@@ -165,8 +165,8 @@ body.sticky-bottom-footer {
   gap: 6px;
   font-size: 10pt;
   padding: 2px 10px;
-  margin-top: -6px; // per ridurre spazio col titolo sopra
-  margin-bottom: 6px; // lasciamo spazio solo all'abstract aperto
+  margin-top: -10px; // per ridurre spazio col titolo sopra
+  margin-bottom: 4px; // lasciamo spazio solo all'abstract aperto
   margin-left: var(--abstract-left-offset);
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-theme-color);
@@ -202,7 +202,7 @@ body.sticky-bottom-footer {
   border-radius: 6px;
   margin-left: var(--abstract-left-offset);
   margin-right: var(--indent-margin);
-  margin-top: -6px;
+  margin-top: -2px;
   margin-bottom: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   max-height: 0;
