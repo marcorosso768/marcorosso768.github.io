@@ -832,21 +832,21 @@ footer.sticky-bottom {
   
     i {
       color: var(--global-theme-color);
-      transform: scale(1); // freccia piccola di default
+      transform: scale(1); // base scale
       transition: transform 0.3s ease;
     }
   
-    // Hover normale
+    // Hover su freccia normale (non ruotata)
     &:hover i {
       transform: scale(var(--hover-scale-bbig)); // es. 1.4
     }
   
-    // Quando ruotata (clic)
+    // Quando ruotata (cliccata): solo rotazione
     i.rotated {
-      transform: rotate(90deg) scale(1); // ruota, ma rimane piccola
+      transform: rotate(90deg); // ← nessuna scala qui
     }
   
-    // Quando ruotata e hover
+    // Quando ruotata e hover: rotazione + scala
     &:hover i.rotated {
       transform: rotate(90deg) scale(var(--hover-scale-bbig));
     }
