@@ -818,35 +818,35 @@ footer.sticky-bottom {
   }
 
   h2.category {
-  color: var(--global-theme-color);
-  border-bottom: 1px solid var(--global-theme-color);
-  padding-top: 0.5rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  text-align: right;
-  font-size: 1.4em;
+    color: var(--global-theme-color);
+    border-bottom: 1px solid var(--global-theme-color);
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: right;
+    font-size: 1.4em;
 
     span {
       color: inherit;
     }
-  
+
     i {
       color: var(--global-theme-color);
-      transform: scale(1); // base scale
       transition: transform 0.3s ease;
+      transform: rotate(0deg) scale(1); // di default piccola e non ruotata
     }
-  
-    // Hover su freccia normale (non ruotata)
+
+    // Hover normale su freccia non cliccata
     &:hover i {
-      transform: scale(var(--hover-scale-bbig)); // es. 1.4
+      transform: rotate(0deg) scale(var(--hover-scale-bbig)); // es: 1.4
     }
-  
-    // Quando ruotata (cliccata): solo rotazione
+
+    // Dopo clic → ruota ma non scala
     i.rotated {
-      transform: rotate(90deg); // ← nessuna scala qui
+      transform: rotate(90deg) scale(1); // solo rotazione
     }
-  
-    // Quando ruotata e hover: rotazione + scala
+
+    // Quando ruotata e passa il mouse sopra → ruota e scala
     &:hover i.rotated {
       transform: rotate(90deg) scale(var(--hover-scale-bbig));
     }
