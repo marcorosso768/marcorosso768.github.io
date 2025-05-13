@@ -100,20 +100,3 @@ subtitle: >
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5691.752434268042!2d11.352124100000001!3d44.4972031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd4bb0ed9d74f%3A0x851bdc6a12c818e2!2sFaculty%20of%20Economics%20-%20University%20of%20Bologna!5e0!3m2!1sen!2sit!4v1745046255408!5m2!1sen!2sit" width="800" height="600" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 </div>
-
-<!-- Inline script -->
-<script>
-    // Toggle the visibility of the sections
-    function toggleVisibility(id) {
-      var content = document.getElementById(id);
-      var icon = content.previousElementSibling.querySelector('i');
-    
-      if (content.style.display === "none") {
-        content.style.display = "block";
-        icon.className = "fa-solid fa-chevron-down fa-2xs";
-      } else {
-        content.style.display = "none";
-        icon.className = "fa-solid fa-chevron-right fa-2xs";
-      }
-    }
-</script>
