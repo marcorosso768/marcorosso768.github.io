@@ -165,8 +165,8 @@ body.sticky-bottom-footer {
   gap: 6px;
   font-size: 10pt;
   padding: 2px 10px;
-  margin-top: -10px;
-  margin-bottom: 12px;
+  margin-top: -12px;
+  margin-bottom: 6px;
   margin-left: 36px;
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-theme-color);
@@ -204,10 +204,10 @@ body.sticky-bottom-footer {
   font-size: 10pt;
   background-color: var(--global-card-bg-color);
   border: 1px solid var(--global-theme-color);
-  border-radius: 12px;
+  border-radius: 6px;
   margin-left: 36px;
   margin-right: var(--indent-margin);
-  margin-top: -10px;
+  margin-top: -12px;
   margin-bottom: 12px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   max-height: 0;
