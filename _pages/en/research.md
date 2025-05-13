@@ -58,7 +58,7 @@ nav_order: 1
 
 <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
   <h2 class="category">
-    <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i> working papers
+    <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i> working papers
   </h2>
 </a>
 
@@ -114,7 +114,7 @@ nav_order: 1
 
 <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
   <h2 class="category">
-    <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i> working papers
+    <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-3"></i> working papers
   </h2>
 </a>
 
