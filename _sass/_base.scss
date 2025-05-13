@@ -826,6 +826,10 @@ footer.sticky-bottom {
     text-align: right;
     font-size: 1.4em;
 
+    span {
+    color: inherit;
+    }
+    
     i {
       color: var(--global-theme-color);
       transform: scale(1); // default piccola
