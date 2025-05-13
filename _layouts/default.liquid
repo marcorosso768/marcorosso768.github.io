@@ -20,6 +20,21 @@
     {% include head.liquid %}
   </head>
 
+{% if page.page_id == "research" %}
+  <link rel="stylesheet" href="/assets/css/abstract-toggle.css">
+  <script>
+    const ABSTRACT_TEXT = {
+      show: "{{ site.translations[page.lang].show_abstract }}",
+      hide: "{{ site.translations[page.lang].hide_abstract }}"
+    };
+  </script>
+  <script src="/assets/js/toggle-abstract.js" defer></script>
+  <script src="/assets/js/toggle-sections.js" defer></script>
+{% endif %}
+{% if page.page_id == "contacts" %}
+<script src="/assets/js/toggle-sections.js" defer></script>
+{% endif %}
+
     <!-- Body -->
     <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
       <div class="wrapper">
