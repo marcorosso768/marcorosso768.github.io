@@ -7,11 +7,21 @@ function toggleVisibility(id) {
   // Toggle visibilità sezione
   section.style.display = isVisible ? "none" : "block";
 
-  // Aggiorna rotazione freccia
+  // Gestione freccia
   if (chevron) {
-    chevron.classList.toggle("rotated", !isVisible);
+    // Cambia l'icona base
     chevron.classList.remove("fa-chevron-right", "fa-chevron-down");
-    chevron.classList.add(!isVisible ? "fa-chevron-down" : "fa-chevron-right");
+    chevron.classList.add(isVisible ? "fa-chevron-right" : "fa-chevron-down");
+
+    // Per l'effetto scala e rotazione:
+    if (isVisible) {
+      // Aspetta un attimo prima di rimuovere la classe .rotated per non troncare l'animazione
+      setTimeout(() => {
+        chevron.classList.remove("rotated");
+      }, 300); // Durata della transizione in _layout.scss
+    } else {
+      chevron.classList.add("rotated");
+    }
   }
 
   // Chiude tutti gli abstract nella sezione (se presenti)
