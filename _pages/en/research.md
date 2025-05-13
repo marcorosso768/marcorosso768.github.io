@@ -32,7 +32,7 @@ nav_order: 1
     </div>
     <div id="toggle-abstract-crc" class="abstract-toggle-pill" onclick="toggleAbstract('abstract-crc', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)" title="{{ site.data.strings.abstract.show }}">
       <i class="fa-solid fa-chevron-right fa-2xs" id="icon-abstract-crc"></i>
-      <span id="label-abstract-crc" class="toggle-label" style="color:var(--global-theme-color);">{{ site.data.strings.abstract.label }}</span>
+      <span id="label-abstract-crc" class="toggle-label" style="color:var(--global-theme-color);"> {{ site.data.strings.abstract.label }}</span>
     </div>
 
 <div id="abstract-crc" class="abstract">
@@ -67,7 +67,7 @@ nav_order: 1
 
 <div id="toggle-abstract-crime" class="abstract-toggle-pill" onclick="toggleAbstract('abstract-crc', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)" title="{{ site.data.strings.abstract.show }}">
   <i class="fa-solid fa-chevron-right fa-2xs" id="icon-abstract-crc"></i>
-  <span id="label-abstract-crc" class="toggle-label" style="color:var(--global-theme-color);">{{ site.data.strings.abstract.label }}</span>
+  <span id="label-abstract-crc" class="toggle-label" style="color:var(--global-theme-color);"> {{ site.data.strings.abstract.label }}</span>
 </div>
 
 <div id="abstract-crime" class="abstract">
@@ -82,7 +82,7 @@ nav_order: 1
 
 <div id="toggle-abstract-corruption" class="abstract-toggle-pill" onclick="toggleAbstract('abstract-crc', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)" title="{{ site.data.strings.abstract.show }}">
   <i class="fa-solid fa-chevron-right fa-2xs" id="icon-abstract-crc"></i>
-  <span id="label-abstract-crc" class="toggle-label" style="color:var(--global-theme-color);">{{ site.data.strings.abstract.label }}</span>
+  <span id="label-abstract-crc" class="toggle-label" style="color:var(--global-theme-color);"> {{ site.data.strings.abstract.label }}</span>
 </div>
 
 <div id="abstract-corruption" class="abstract">
