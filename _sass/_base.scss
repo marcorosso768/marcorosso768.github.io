@@ -818,26 +818,25 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: var(--global-theme-color);
-    border-bottom: 1px solid var(--global-theme-color);
-    padding-top: 0.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: right;
-    font-size: 1.4em;
-    /* transition: transform 0.3s ease;  aggiunto per animazione */
-
-  i {
-    transition: transform 0.3s ease; /* anche l'icona avrà animazione */
-  }
-
-  &:hover {
-    /* transform: scale(1.03);  ingrandisce tutto il titolo (compresa l'icona) */
+  color: var(--global-theme-color);
+  border-bottom: 1px solid var(--global-theme-color);
+  padding-top: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: right;
+  font-size: 1.4em;
 
     i {
-      transform: scale(var(--hover-scale-bbig)); /* l'icona si ingrandisce un po' di più rispetto al testo */
+      transition: transform 0.3s ease;
     }
-  }
+  
+    &:hover i {
+      transform: scale(var(--hover-scale-bbig)); // ingrandisce al passaggio del mouse
+    }
+  
+    i.rotated {
+      transform: rotate(90deg) scale(var(--hover-scale-bbig)); // freccia ruotata e scalata se sezione è aperta
+    }
   }
 }
 
