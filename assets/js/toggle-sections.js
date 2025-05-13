@@ -7,7 +7,7 @@ function toggleVisibility(id) {
 
   // Toggle chevron rotation
   if (chevron) {
-    chevron.style.transform = isVisible ? 'rotate(0deg)' : 'rotate(180deg)';
+    chevron.style.transform = isVisible ? 'rotate(0deg)' : 'rotate(90deg)';
     chevron.style.transition = 'transform 0.3s ease';
   }
 
