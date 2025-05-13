@@ -1,32 +1,19 @@
-.abstract-toggle-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 11pt;
-  padding: 6px 12px;
-  margin-left: 30px;
-  margin-top: 8px;
-  background-color: #f0f0f0;
-  border-radius: 999px;
-  cursor: pointer;
-  user-select: none;
-  transition: background-color 0.2s ease, transform 0.2s ease;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
-}
+function toggleAbstract(id, showText, hideText) {
+  const abstract = document.getElementById(id);
+  const icon = document.getElementById("icon-" + id);
+  const label = document.getElementById("label-" + id);
 
-.abstract-toggle-pill:hover {
-  background-color: #e6e6e6;
-  transform: translateY(-1px);
-}
+  const isOpen = abstract.classList.contains("open");
 
-.abstract-toggle-pill i {
-  transition: transform 0.3s ease;
-}
+  // Chiudi tutto prima
+  document.querySelectorAll('.abstract').forEach(el => el.classList.remove('open'));
+  document.querySelectorAll('.toggle-label').forEach(el => el.innerText = showText);
+  document.querySelectorAll('.abstract-toggle-pill i').forEach(el => el.className = "fa-solid fa-chevron-right fa-2xs");
 
-.abstract-toggle-pill:hover i {
-  transform: scale(1.3);
-}
-
-.toggle-label {
-  font-style: normal;
+  // Se non era aperto, aprilo
+  if (!isOpen) {
+    abstract.classList.add("open");
+    icon.className = "fa-solid fa-chevron-down fa-2xs";
+    label.innerText = hideText;
+  }
 }
