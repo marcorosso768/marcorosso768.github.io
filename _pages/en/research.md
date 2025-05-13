@@ -23,13 +23,13 @@ nav_order: 1
 
   <div class="icon-entry">
     <i class="fa-solid fa-newspaper fa-fw" title="Peer-reviewed publication"></i>
-      Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088" target="_blank" rel="noopener noreferrer"><em>Short-term effect of colorectal cancer on income</em></a>. <i>Journal of Epidemiology & Community Health</i>
+      <span>Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088" target="_blank" rel="noopener noreferrer"><em>Short-term effect of colorectal cancer on income</em></a>. <i>Journal of Epidemiology & Community Health</i></span>
   </div>
 
-  <div class="abstract-toggle" onclick="toggleAbstract('abstract-1', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)">
-    <i class="fa-solid fa-chevron-right fa-2xs" id="icon-abstract-1"></i>
-    <span id="label-abstract-1" class="toggle-label">{{ site.data.strings.abstract.show }}</span>
-  </div>
+<div class="abstract-toggle-pill" onclick="toggleAbstract('abstract-1', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)">
+  <i class="fa-solid fa-chevron-right fa-2xs" id="icon-abstract-1"></i>
+  <span id="label-abstract-1" class="toggle-label">{{ site.data.strings.abstract.show }}</span>
+</div>
 
   <div id="abstract-1" class="abstract">
     <span>
@@ -56,13 +56,13 @@ nav_order: 1
 
   <div class="icon-entry">
     <i class="fa-solid fa-book-open fa-fw" title="Working paper"></i>
-      <em>Crime Perception and Voting Behavior</em> (with <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>)
+      <span><em>Crime Perception and Voting Behavior</em> (with <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>)</span>
   </div>
 
-  <div class="abstract-toggle" onclick="toggleAbstract('abstract-2', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)">
-    <i class="fa-solid fa-chevron-right fa-2xs" id="icon-abstract-2"></i>
-    <span id="label-abstract-2" class="toggle-label">{{ site.data.strings.abstract.show }}</span>
-  </div>
+<div class="abstract-toggle-pill" onclick="toggleAbstract('abstract-1', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)">
+  <i class="fa-solid fa-chevron-right fa-2xs" id="icon-abstract-1"></i>
+  <span id="label-abstract-1" class="toggle-label">{{ site.data.strings.abstract.show }}</span>
+</div>
 
   <div id="abstract-2" class="abstract">
     <span>
@@ -71,10 +71,10 @@ nav_order: 1
     </span>
   </div>
 
-  <div class="icon-entry">
-    <i class="fa-solid fa-book-open fa-fw" title="Working paper"></i>
-    <span><em>Corruption, temptation, and self-selection in the public sector</em></span>
-  </div>
+<div class="abstract-toggle-pill" onclick="toggleAbstract('abstract-1', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)">
+  <i class="fa-solid fa-chevron-right fa-2xs" id="icon-abstract-1"></i>
+  <span id="label-abstract-1" class="toggle-label">{{ site.data.strings.abstract.show }}</span>
+</div>
 
   <div class="abstract-toggle" onclick="toggleAbstract('abstract-3', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)">
     <i class="fa-solid fa-chevron-right fa-2xs" id="icon-abstract-3"></i>
@@ -100,7 +100,7 @@ nav_order: 1
 <div id="content-3" style="display: block;">
   <div class="icon-entry">
     <i class="fa-solid fa-bookmark fa-fw" title="In progress"></i>
-      <em>Public Goods Provision and Voting Turnout</em> (with <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a> and <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>)
+      <span><em>Public Goods Provision and Voting Turnout</em> (with <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a> and <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>)</span>
   </div>
 
   <div class="icon-entry">
