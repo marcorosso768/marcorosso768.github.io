@@ -20,6 +20,7 @@ nav_order: 1
       <span>publications</span>
     </h2>
   </a>
+</div>
 
 <div id="content-1" style="display: block;">
   <div class="icon-entry indented">
@@ -52,8 +53,6 @@ nav_order: 1
               <b>Conclusion</b> Income loss does not seem to be related to an increase in part-time contracts, but rather to survivors’ reduced work capacity following the invasive treatments. Further research is needed to investigate the complex dynamics behind this association.
 </div>
 
-</div>
-
 <!-- Working Papers Section -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
@@ -62,17 +61,18 @@ nav_order: 1
       <span>working papers</span>
     </h2>
   </a>
+</div>
 
 <div id="content-2" style="display: block;">
-
-<div class="icon-entry indented">
-  <i class="fa-solid fa-book-open fa-fw"></i>
-  <span>
-    <em>Crime Perception and Voting Behavior</em> 
-    (with 
-    <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">
-      Giovanni Prarolo</a>)
-  </span>
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-book-open fa-fw"></i>
+      <span>
+        <em>Crime Perception and Voting Behavior</em> 
+        (with 
+        <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">
+          Giovanni Prarolo</a>)
+      </span>
+    </div>
 </div>
 
 <div id="toggle-abstract-crime" class="abstract-toggle-pill"
@@ -108,8 +108,6 @@ nav_order: 1
       <br><b>Keywords:</b> corruption, self-selection, motivation, ethics.
 </div>
 
-</div>
-
 <!-- Work in Progress Section -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
@@ -118,24 +116,24 @@ nav_order: 1
       <span>work in progress</span>
     </h2>
   </a>
+</div>
 
 <div id="content-3" style="display: block;">
-
-<div class="icon-entry indented">
-  <i class="fa-solid fa-bookmark fa-fw" title="In progress"></i>
-  <span>
-    <em>Public Goods Provision and Voting Turnout</em> (with 
-    <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">
-      Martín Gonzalez-Eiras
-    </a> and 
-    <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">
-      Giovanni Prarolo
-    </a>)
-  </span>
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-bookmark fa-fw" title="In progress"></i>
+      <span>
+        <em>Public Goods Provision and Voting Turnout</em> (with 
+        <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">
+          Martín Gonzalez-Eiras
+        </a> and 
+        <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">
+          Giovanni Prarolo
+        </a>)
+      </span>
+    </div>
 </div>
 
 <div class="icon-entry indented">
     <i class="fa-solid fa-bookmark fa-fw" title="In progress"></i>
     <span><em>The Effect of Erasmus Programs on Voting</em></span>
-  </div>
 </div>
