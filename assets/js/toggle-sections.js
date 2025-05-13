@@ -1,22 +1,16 @@
 function toggleVisibility(id) {
   const section = document.getElementById(id);
   const chevron = document.getElementById("chevron-" + id);
-  const isVisible = section.style.display === "block";
 
-  // Toggle visibilità sezione
+  const isVisible = section.style.display === "block";
   section.style.display = isVisible ? "none" : "block";
 
+  // Ruota
   if (chevron) {
-    // Temporaneamente scala la freccia
-    chevron.style.transform = `rotate(${isVisible ? 0 : 90}deg) scale(1.4)`;
-
-    // Dopo l'animazione torna a scala 1
-    setTimeout(() => {
-      chevron.style.transform = `rotate(${isVisible ? 0 : 90}deg) scale(1)`;
-    }, 300);
+    chevron.classList.toggle("rotated", !isVisible);
   }
 
-  // Chiudi gli abstract, se presenti
+  // Chiudi abstract se stai chiudendo la sezione
   if (isVisible) {
     section.querySelectorAll(".abstract").forEach(el => el.classList.remove("open"));
   }
