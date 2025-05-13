@@ -144,5 +144,6 @@ search:
 selected_publications: selected publications
 site_description: "Sito web accademico personale di Marco Rosso, Dottorando e Assegnista di Ricerca presso l'Università di Bologna"
 abstract:
+  label: "Abstract"
   show: "Mostra abstract"
   hide: "Nascondi abstract"
