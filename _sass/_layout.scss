@@ -119,24 +119,23 @@ body.sticky-bottom-footer {
 }
 
 /*****************************************************************************
-* Abstract
+* Abstract & Section Styling
 *****************************************************************************/
 
 :root {
   --icon-size: 1em;
   --icon-fw: 1.25em;
   --icon-spacing: 8px;
-  --icon-text-offset: calc(var(--icon-fw) + var(--icon-spacing));
-  --abstract-left-offset: calc(var(--indent-margin) + var(--icon-fw) + var(--icon-spacing));
+  --abstract-left-offset: 36px; // Fisso per compatibilità
 }
 
-/* Voce singola con icona e testo */
+/* Entry con icona e testo */
 .icon-entry {
   display: flex;
   align-items: flex-start;
   font-size: 12pt;
-  margin-bottom: 1rem; // Spazio costante
   margin-left: var(--indent-margin);
+  margin-bottom: 1rem; // Sempre costante, anche senza abstract
 }
 
 .icon-entry i.fa-fw {
@@ -146,7 +145,7 @@ body.sticky-bottom-footer {
   flex-shrink: 0;
 }
 
-/* Link dentro le voci */
+/* Link nei titoli */
 .icon-entry a {
   color: var(--global-theme-color);
   text-decoration: none;
@@ -159,15 +158,15 @@ body.sticky-bottom-footer {
   }
 }
 
-/* Bottone pillola per il toggle abstract */
+/* Pillola toggle */
 .abstract-toggle-pill {
   display: inline-flex;
   align-items: center;
   gap: 6px;
   font-size: 10pt;
   padding: 2px 10px;
-  margin-top: -6px; // Riduce spazio tra icona e pill
-  margin-bottom: 0; // Uniforme con abstract aperto
+  margin-top: -10px; // per ridurre spazio col titolo sopra
+  margin-bottom: 0; // lasciamo spazio solo all'abstract aperto
   margin-left: var(--abstract-left-offset);
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-theme-color);
@@ -178,7 +177,7 @@ body.sticky-bottom-footer {
   transition: background-color 0.2s ease;
 }
 
-/* Etichetta "Abstract" con effetto italic al passaggio */
+/* Testo abstract corsivo su hover */
 .abstract-toggle-pill .toggle-label {
   margin-left: 2px;
   font-style: normal;
@@ -189,12 +188,12 @@ body.sticky-bottom-footer {
   font-style: italic;
 }
 
-/* Freccia (rotazione via JS, niente hover zoom) */
+/* Freccia della pillola */
 .abstract-toggle-pill i {
   transition: transform 0.3s ease;
 }
 
-/* Blocco abstract */
+/* Box abstract */
 .abstract {
   overflow: hidden;
   font-size: 10pt;
@@ -204,7 +203,7 @@ body.sticky-bottom-footer {
   margin-left: var(--abstract-left-offset);
   margin-right: var(--indent-margin);
   margin-top: 4px;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   max-height: 0;
   opacity: 0;
@@ -222,23 +221,25 @@ body.sticky-bottom-footer {
   opacity: 1;
   pointer-events: auto;
   padding: 15px 20px;
+  margin-bottom: 1rem;
 }
 
 /*****************************************************************************
-* Section Toggles (projects)
+* Section Titles (projects)
 *****************************************************************************/
 
-/* Freccia animata */
+/* Freccia */
 .projects h2 i {
   transition: transform 0.3s ease;
+  color: var(--global-theme-color);
 }
 
-/* Ingrandimento al passaggio del mouse */
+/* Ingrandimento al passaggio */
 .projects a:hover i {
   transform: scale(1.2);
 }
 
-/* Rotazione per sezione aperta */
+/* Rotazione quando sezione è aperta */
 .projects h2 i.rotated {
   transform: rotate(90deg);
 }
