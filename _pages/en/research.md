@@ -20,20 +20,25 @@ nav_order: 1
 </div>
 
 <div id="content-1" style="display: block;">
-    <div class="icon-entry indented">
-      <i class="fa-solid fa-newspaper fa-fw"></i>
-      <span>
-        Farina E., Rosso M., Dansero L., et al. (2023). 
-        <a href="https://doi.org/10.1136/jech-2022-220088" target="_blank" rel="noopener noreferrer">
-          Short-term effect of colorectal cancer on income.
-        </a> 
-        <i>Journal of Epidemiology & Community Health</i>
-      </span>
-    </div>
-    <div id="toggle-abstract-crc" class="abstract-toggle-pill" onclick="toggleAbstract('abstract-crc', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)" title="{{ site.data.strings.abstract.show }}">
-      <i class="fa-solid fa-chevron-right fa-2xs" id="icon-abstract-crc"></i>
-      <span id="label-abstract-crc" class="toggle-label" style="color:var(--global-theme-color);"> {{ site.data.strings.abstract.label }}</span>
-    </div>
+   <div class="icon-entry indented">
+  <i class="fa-solid fa-newspaper fa-fw"></i>
+  <span>
+    Farina E., Rosso M., Dansero L., et al. (2023). 
+    <a href="https://doi.org/10.1136/jech-2022-220088" target="_blank" rel="noopener noreferrer">
+      Short-term effect of colorectal cancer on income.
+    </a> 
+    <i>Journal of Epidemiology & Community Health</i>
+  </span>
+</div>
+
+<div id="toggle-abstract-crc" class="abstract-toggle-pill"
+     onclick="toggleAbstract('abstract-crc', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)"
+     title="{{ site.data.strings.abstract.show }}">
+  <i class="fa-solid fa-chevron-right fa-2xs" id="icon-abstract-crc"></i>
+  <span id="label-abstract-crc" class="toggle-label" style="color:var(--global-theme-color);">
+    {{ site.data.strings.abstract.label }}
+  </span>
+</div>
 
 <div id="abstract-crc" class="abstract">
       <b>Introduction</b> The ability to return to work after a cancer diagnosis is a key aspect of cancer survivorship and quality of life. Studies have reported a significant risk of income loss for cancer survivors; however, there is limited evidence of the Italian context.
@@ -61,13 +66,19 @@ nav_order: 1
   <span>
     <em>Crime Perception and Voting Behavior</em>
     (with 
-    <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>)
+    <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">
+      Giovanni Prarolo
+    </a>)
   </span>
 </div>
 
-<div id="toggle-abstract-crime" class="abstract-toggle-pill" onclick="toggleAbstract('abstract-crc', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)" title="{{ site.data.strings.abstract.show }}">
-  <i class="fa-solid fa-chevron-right fa-2xs" id="icon-abstract-crc"></i>
-  <span id="label-abstract-crc" class="toggle-label" style="color:var(--global-theme-color);"> {{ site.data.strings.abstract.label }}</span>
+<div id="toggle-abstract-crime" class="abstract-toggle-pill"
+     onclick="toggleAbstract('abstract-crime', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)"
+     title="{{ site.data.strings.abstract.show }}">
+  <i class="fa-solid fa-chevron-right fa-2xs" id="icon-abstract-crime"></i>
+  <span id="label-abstract-crime" class="toggle-label" style="color:var(--global-theme-color);">
+    {{ site.data.strings.abstract.label }}
+  </span>
 </div>
 
 <div id="abstract-crime" class="abstract">
@@ -80,9 +91,13 @@ nav_order: 1
   <em>Corruption, temptation, and self-selection in the public sector</em>
 </div>
 
-<div id="toggle-abstract-corruption" class="abstract-toggle-pill" onclick="toggleAbstract('abstract-crc', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)" title="{{ site.data.strings.abstract.show }}">
-  <i class="fa-solid fa-chevron-right fa-2xs" id="icon-abstract-crc"></i>
-  <span id="label-abstract-crc" class="toggle-label" style="color:var(--global-theme-color);"> {{ site.data.strings.abstract.label }}</span>
+<div id="toggle-abstract-corruption" class="abstract-toggle-pill"
+     onclick="toggleAbstract('abstract-corruption', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)"
+     title="{{ site.data.strings.abstract.show }}">
+  <i class="fa-solid fa-chevron-right fa-2xs" id="icon-abstract-corruption"></i>
+  <span id="label-abstract-corruption" class="toggle-label" style="color:var(--global-theme-color);">
+    {{ site.data.strings.abstract.label }}
+  </span>
 </div>
 
 <div id="abstract-corruption" class="abstract">
