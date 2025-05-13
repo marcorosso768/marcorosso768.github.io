@@ -1,10 +1,13 @@
 function toggleVisibility(id) {
-  const content = document.getElementById(id);
-  const toggle = document.getElementById(`toggle-${id}`);
-  const icon = toggle.querySelector("i");
+  const section = document.getElementById(id);
+  const chevron = document.querySelector(`a[onclick*="${id}"] i`);
 
-  const isOpen = content.style.display !== "none";
+  const isVisible = section.style.display === 'block';
+  section.style.display = isVisible ? 'none' : 'block';
 
-  content.style.display = isOpen ? "none" : "block";
-  icon.style.transform = isOpen ? "rotate(0deg)" : "rotate(90deg)";
+  // Toggle chevron rotation
+  if (chevron) {
+    chevron.style.transform = isVisible ? 'rotate(0deg)' : 'rotate(180deg)';
+    chevron.style.transition = 'transform 0.3s ease';
+  }
 }
