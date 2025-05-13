@@ -64,11 +64,10 @@ nav_order: 1
 <div class="icon-entry indented">
   <i class="fa-solid fa-book-open fa-fw"></i>
   <span>
-    <em>Crime Perception and Voting Behavior</em>
+    <em>Crime Perception and Voting Behavior</em> 
     (with 
     <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">
-      Giovanni Prarolo
-    </a>)
+      Giovanni Prarolo</a>)
   </span>
 </div>
 
