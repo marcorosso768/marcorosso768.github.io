@@ -16,7 +16,7 @@ subtitle: >
   <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
-      <span>e-mail</span>
+      <span> e-mail </span>
     </h2>
   </a>
 </div>
@@ -36,7 +36,10 @@ subtitle: >
 <!-- Online Resources Section -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> online resources </h2>
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
+      <span> online resources </span>
+    </h2>
   </a>
 </div>
 
