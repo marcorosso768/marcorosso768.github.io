@@ -26,8 +26,8 @@ nav_order: 1
   <span>
     Farina E., Rosso M., Dansero L., et al. (2023). 
     <a href="https://doi.org/10.1136/jech-2022-220088" target="_blank" rel="noopener noreferrer">
-      <em>Short-term effect of colorectal cancer on income</em>
-    </a>. 
+      Short-term effect of colorectal cancer on income.
+    </a> 
     <i>Journal of Epidemiology & Community Health</i>
   </span>
 </div>
@@ -63,7 +63,7 @@ nav_order: 1
   <span>
     <em>Crime Perception and Voting Behavior</em>
     (with 
-    <a href=href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>)
+    <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>)
   </span>
 </div>
 
