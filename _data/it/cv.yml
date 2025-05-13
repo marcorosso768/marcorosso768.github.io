@@ -1,3 +1,27 @@
+- title: posizioni attuali
+  type: map
+  contents:
+    - name:
+      value: >
+        <div style="display: flex; flex-direction: column; gap: 0.6em;">
+          <div style="display: flex; align-items: flex-start;">
+            <i class="fa-solid fa-graduation-cap fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; margin-left: 0.75em; line-height: 1.4;"></i>
+            <div style="font-variant: small-caps;">Dottorando in Economia</div>
+          </div>
+          <div style="display: flex; align-items: flex-start;">
+            <i class="fa-solid fa-chalkboard-user fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; margin-left: 0.75em; line-height: 1.4;"></i>
+            <div style="font-variant: small-caps;">Assistente alla Didattica</div>
+          </div>
+          <div style="display: flex; align-items: flex-start;">
+            <i class="fa-solid fa-building-columns fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; margin-left: 0.75em; line-height: 1.4;"></i>
+            <div style="font-variant: small-caps;">Assegnista di Ricerca</div>
+          </div>
+          <div style="display: flex; align-items: flex-start;">
+            <i class="fa-solid fa-users fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; margin-left: 0.75em; line-height: 1.4;"></i>
+            <div style="font-variant: small-caps;">Rappresentante degli Assegnisti di Ricerca</div>
+          </div>
+        </div>
+
 - title: istruzione
   type: time_table
   contents:
