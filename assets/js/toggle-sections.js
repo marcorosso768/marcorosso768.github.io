@@ -8,7 +8,7 @@ function toggleVisibility(id) {
 
   if (chevron) {
     // Temporaneamente scala la freccia
-    chevron.style.transform = `rotate(${isVisible ? 0 : 90}deg) scale(1.2)`;
+    chevron.style.transform = `rotate(${isVisible ? 0 : 90}deg) scale(1.4)`;
 
     // Dopo l'animazione torna a scala 1
     setTimeout(() => {
