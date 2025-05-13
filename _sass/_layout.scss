@@ -75,7 +75,7 @@ body.sticky-bottom-footer {
   align-items: center;
   font-size: 12pt;
   color: var(--global-text-color);
-  margin-bottom: 1rem; //8px;
+  margin-bottom: 8px;
 
   i {
     color: var(--global-theme-color);
@@ -135,7 +135,7 @@ body.sticky-bottom-footer {
   align-items: flex-start;
   font-size: 12pt;
   margin-left: var(--indent-margin);
-  margin-bottom: 1rem; // Sempre costante, anche senza abstract
+  margin-bottom: 8px; // Sempre costante, anche senza abstract
 }
 
 .icon-entry i.fa-fw {
@@ -165,8 +165,8 @@ body.sticky-bottom-footer {
   gap: 6px;
   font-size: 10pt;
   padding: 2px 10px;
-  margin-top: -10px; // per ridurre spazio col titolo sopra
-  margin-bottom: 0; // lasciamo spazio solo all'abstract aperto
+  margin-top: -6px; // per ridurre spazio col titolo sopra
+  margin-bottom: 6px; // lasciamo spazio solo all'abstract aperto
   margin-left: var(--abstract-left-offset);
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-theme-color);
@@ -202,8 +202,8 @@ body.sticky-bottom-footer {
   border-radius: 6px;
   margin-left: var(--abstract-left-offset);
   margin-right: var(--indent-margin);
-  margin-top: 4px;
-  margin-bottom: 0;
+  margin-top: -6px;
+  margin-bottom: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   max-height: 0;
   opacity: 0;
@@ -221,27 +221,7 @@ body.sticky-bottom-footer {
   opacity: 1;
   pointer-events: auto;
   padding: 15px 20px;
-  margin-bottom: 1rem;
-}
-
-/*****************************************************************************
-* Section Titles (projects)
-*****************************************************************************/
-
-/* Freccia */
-.projects h2 i {
-  transition: transform 0.3s ease;
-  color: var(--global-theme-color);
-}
-
-/* Ingrandimento al passaggio */
-.projects a:hover i {
-  transform: scale(1.2);
-}
-
-/* Rotazione quando sezione è aperta */
-.projects h2 i.rotated {
-  transform: rotate(90deg);
+  margin-bottom: 8px;
 }
 
 /*****************************************************************************
