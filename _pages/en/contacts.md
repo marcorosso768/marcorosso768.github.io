@@ -14,7 +14,10 @@ subtitle: >
 <!-- E-mail Section -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> e-mail </h2>
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
+      <span>e-mail</span>
+    </h2>
   </a>
 </div>
 
