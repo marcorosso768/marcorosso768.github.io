@@ -127,7 +127,7 @@ body.sticky-bottom-footer {
   align-items: flex-start;
   font-size: 12pt;
   margin-bottom: 10px;
-  margin-left: 30px;
+  margin-left: var(--indent-margin);
 }
 
 .icon-entry i.fa-fw {
@@ -141,19 +141,20 @@ body.sticky-bottom-footer {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-size: 11pt;
-  padding: 4px 10px;
-  margin: 4px 0 0 30px; /* piccolo top, sinistra coerente */
-  background-color: #f0f0f0;
+  font-size: 10pt;
+  padding: 2px 10px;
+  margin: 6px 0 0 calc(var(--indent-margin) + 32px); // icon offset
+  background-color: var(--global-bg-color);
+  border: 1px solid var(--global-theme-color);
   border-radius: 999px;
   cursor: pointer;
   user-select: none;
+  color: var(--global-theme-color);
   transition: background-color 0.2s ease, transform 0.2s ease;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
 }
 
 .abstract-toggle-pill:hover {
-  background-color: #e6e6e6;
+  background-color: var(--global-bg-color-hover, #1f1f1f);
   transform: translateY(-1px);
 }
 
@@ -168,18 +169,28 @@ body.sticky-bottom-footer {
 .abstract {
   overflow: hidden;
   max-height: 0;
-  transition: max-height 0.5s ease;
-  margin: 10px 30px 0 30px;
+  opacity: 0;
+  pointer-events: none;
   font-size: 10pt;
-  border-radius: 10px;
-  background-color: #1c1c1c;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-theme-color);
+  border-radius: 12px;
   padding: 0;
+  margin-top: 6px;
+  margin-left: calc(var(--indent-margin) + 32px); // align with text
+  margin-right: var(--indent-margin);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  transition:
+    max-height 0.4s ease,
+    padding 0.3s ease,
+    opacity 0.3s ease;
 }
 
 .abstract.open {
-  padding: 15px 20px;
   max-height: 2000px;
+  opacity: 1;
+  pointer-events: auto;
+  padding: 15px 20px;
 }
 
 /*****************************************************************************
