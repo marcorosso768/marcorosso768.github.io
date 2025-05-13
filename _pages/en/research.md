@@ -32,9 +32,14 @@ nav_order: 1
   </span>
 </div>
 
-<div class="abstract-toggle-pill" onclick="toggleAbstract('abstract-crc', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)">
+<div class="abstract-toggle-pill"
+     id="toggle-abstract-crc"
+     onclick="toggleAbstract('abstract-crc', '{{ site.data.strings.abstract.show }}', '{{ site.data.strings.abstract.hide }}')"
+     title="{{ site.data.strings.abstract.show }}"
+     data-show="{{ site.data.strings.abstract.show }}"
+     data-hide="{{ site.data.strings.abstract.hide }}">
   <i class="fa-solid fa-chevron-right fa-2xs" id="icon-abstract-crc"></i>
-  <span id="label-abstract-crc" class="toggle-label">{{ site.data.strings.abstract.show }}</span>
+  <span class="abstract-label" id="label-abstract-crc">{{ site.data.strings.abstract.label }}</span>
 </div>
 
 <div id="abstract-crc" class="abstract">
@@ -67,9 +72,14 @@ nav_order: 1
   </span>
 </div>
 
-<div class="abstract-toggle-pill" onclick="toggleAbstract('abstract-crime', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)">
-  <i class="fa-solid fa-chevron-right fa-2xs" id="icon-abstract-crime"></i>
-  <span id="label-abstract-crime" class="toggle-label">{{ site.data.strings.abstract.show }}</span>
+<div class="abstract-toggle-pill"
+     id="toggle-abstract-crc"
+     onclick="toggleAbstract('abstract-crc', '{{ site.data.strings.abstract.show }}', '{{ site.data.strings.abstract.hide }}')"
+     title="{{ site.data.strings.abstract.show }}"
+     data-show="{{ site.data.strings.abstract.show }}"
+     data-hide="{{ site.data.strings.abstract.hide }}">
+  <i class="fa-solid fa-chevron-right fa-2xs" id="icon-abstract-crc"></i>
+  <span class="abstract-label" id="label-abstract-crc">{{ site.data.strings.abstract.label }}</span>
 </div>
 
 <div id="abstract-crime" class="abstract">
@@ -82,9 +92,14 @@ nav_order: 1
   <em>Corruption, temptation, and self-selection in the public sector</em>
 </div>
 
-<div class="abstract-toggle-pill" onclick="toggleAbstract('abstract-corruption', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)">
-  <i class="fa-solid fa-chevron-right fa-2xs" id="icon-abstract-corruption"></i>
-  <span id="label-abstract-corruption" class="toggle-label">{{ site.data.strings.abstract.show }}</span>
+<div class="abstract-toggle-pill"
+     id="toggle-abstract-crc"
+     onclick="toggleAbstract('abstract-crc', '{{ site.data.strings.abstract.show }}', '{{ site.data.strings.abstract.hide }}')"
+     title="{{ site.data.strings.abstract.show }}"
+     data-show="{{ site.data.strings.abstract.show }}"
+     data-hide="{{ site.data.strings.abstract.hide }}">
+  <i class="fa-solid fa-chevron-right fa-2xs" id="icon-abstract-crc"></i>
+  <span class="abstract-label" id="label-abstract-crc">{{ site.data.strings.abstract.label }}</span>
 </div>
 
 <div id="abstract-corruption" class="abstract">
