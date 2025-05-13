@@ -1,1 +1,1 @@
-function toggleVisibility(e){const l=document.getElementById(e),t=(document.querySelector(`a[onclick*="${e}"] i`),"block"===l.style.display);l.style.display=t?"none":"block",t&&l.querySelectorAll(".abstract").forEach(e=>{e.classList.remove("open")})}
+function toggleVisibility(e){const t=document.getElementById(e),l=document.querySelector(`a[onclick*="${e}"] i`),o="block"===t.style.display;t.style.display=o?"none":"block",l&&l.classList.toggle("rotated",!o),o&&t.querySelectorAll(".abstract").forEach(e=>e.classList.remove("open"))}
