@@ -5,12 +5,6 @@ function toggleVisibility(id) {
   const isVisible = section.style.display === 'block';
   section.style.display = isVisible ? 'none' : 'block';
 
-  // Toggle chevron rotation
-  if (chevron) {
-    chevron.style.transform = isVisible ? 'rotate(0deg)' : 'rotate(-90deg)';
-    chevron.style.transition = 'transform 0.3s ease';
-  }
-
   // Se stiamo chiudendo, chiudi anche gli abstract all’interno
   if (isVisible) {
     section.querySelectorAll('.abstract').forEach(el => {
