@@ -818,32 +818,37 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: var(--global-theme-color);
-    border-bottom: 1px solid var(--global-theme-color);
-    padding-top: 0.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: right;
-    font-size: 1.4em;
+  color: var(--global-theme-color);
+  border-bottom: 1px solid var(--global-theme-color);
+  padding-top: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: right;
+  font-size: 1.4em;
 
     span {
-    color: inherit;
+      color: inherit;
     }
-    
+  
     i {
       color: var(--global-theme-color);
-      transform: scale(1); // default piccola
+      transform: scale(1); // freccia piccola di default
       transition: transform 0.3s ease;
     }
-
-    // Hover → ingrandisce solo temporaneamente
+  
+    // Hover normale
     &:hover i {
-      transform: scale(var(--hover-scale-bbig)); // tipo 1.2
+      transform: scale(var(--hover-scale-bbig)); // es. 1.4
     }
-
-    // Rotazione senza scala
+  
+    // Quando ruotata (clic)
     i.rotated {
-      transform: rotate(90deg) scale(1); // ruota ma torna piccola
+      transform: rotate(90deg) scale(1); // ruota, ma rimane piccola
+    }
+  
+    // Quando ruotata e hover
+    &:hover i.rotated {
+      transform: rotate(90deg) scale(var(--hover-scale-bbig));
     }
   }
 }
