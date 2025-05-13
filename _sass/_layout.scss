@@ -166,8 +166,8 @@ body.sticky-bottom-footer {
   font-size: 10pt;
   padding: 2px 10px;
   margin-top: 4px;
-  margin-bottom: 12px;
-  margin-left: var(--indent-margin); //calc(var(--indent-margin) + var(--icon-fw) + var(--icon-spacing));
+  margin-bottom: 4px;
+  margin-left: calc(var(--indent-margin) + var(--indent-margin));
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-theme-color);
   border-radius: 12px;
@@ -205,7 +205,7 @@ body.sticky-bottom-footer {
   background-color: var(--global-card-bg-color);
   border: 1px solid var(--global-theme-color);
   border-radius: 12px;
-  margin-left: calc(var(--indent-margin) + var(--icon-fw) + var(--icon-spacing));
+  margin-left: calc(var(--indent-margin) + var(--indent-margin));
   margin-right: var(--indent-margin);
   margin-top: 4px;
   margin-bottom: 8px;
@@ -222,6 +222,8 @@ body.sticky-bottom-footer {
 }
 
 .abstract.open {
+  margin-top: 4px;
+  margin-bottom: 8px;
   max-height: 2000px;
   opacity: 1;
   pointer-events: auto;
