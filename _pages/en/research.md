@@ -21,13 +21,15 @@ nav_order: 1
 
 <div id="content-1" style="display: block;">
 
-  <div class="icon-entry">
-  <i class="fa-solid fa-newspaper fa-fw" title="Peer-reviewed publication"></i>
-  Farina E., Rosso M., Dansero L., et al. (2023). 
-  <a href="https://doi.org/10.1136/jech-2022-220088" target="_blank" rel="noopener noreferrer">
-    <em>Short-term effect of colorectal cancer on income</em>
-  </a>. 
-  <i>Journal of Epidemiology & Community Health</i>
+<div class="icon-entry indented">
+  <i class="fa-solid fa-newspaper fa-fw"></i>
+  <span>
+    Farina E., Rosso M., Dansero L., et al. (2023). 
+    <a href="https://doi.org/10.1136/jech-2022-220088" target="_blank" rel="noopener noreferrer">
+      <em>Short-term effect of colorectal cancer on income</em>
+    </a>. 
+    <i>Journal of Epidemiology & Community Health</i>
+  </span>
 </div>
 
 <div class="abstract-toggle-pill" onclick="toggleAbstract('abstract-crc', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)">
@@ -56,10 +58,12 @@ nav_order: 1
 
 <div id="content-2" style="display: block;">
 
-<div class="icon-entry">
-  <i class="fa-solid fa-book-open fa-fw" title="Working paper"></i>
-  <em>Crime Perception and Voting Behavior</em> (with 
-  <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>)
+<div class="icon-entry indented">
+  <i class="fa-solid fa-book-open fa-fw"></i>
+  <span>
+    <em>Crime Perception and Voting Behavior</em>
+    (with 
+    <a href=href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>)
 </div>
 
 <div class="abstract-toggle-pill" onclick="toggleAbstract('abstract-crime', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)">
@@ -72,7 +76,7 @@ nav_order: 1
       <br><b>Keywords:</b> crime, voting, political behavior, salience.
   </div>
 
-<div class="icon-entry">
+<div class="icon-entry indented">
   <i class="fa-solid fa-book-open fa-fw" title="Working paper"></i>
   <em>Corruption, temptation, and self-selection in the public sector</em>
 </div>
@@ -98,7 +102,7 @@ nav_order: 1
 
 <div id="content-3" style="display: block;">
 
-<div class="icon-entry">
+<div class="icon-entry indented">
   <i class="fa-solid fa-bookmark fa-fw" title="In progress"></i>
   <span>
     <em>Public Goods Provision and Voting Turnout</em> (with 
@@ -111,7 +115,7 @@ nav_order: 1
   </span>
 </div>
 
-  <div class="icon-entry">
+  <div class="icon-entry indented">
     <i class="fa-solid fa-bookmark fa-fw" title="In progress"></i>
     <span><em>The Effect of Erasmus Programs on Voting</em></span>
   </div>
