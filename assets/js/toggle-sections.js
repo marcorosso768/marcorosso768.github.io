@@ -1,0 +1,1 @@
+function toggleVisibility(e){const l=document.getElementById(e),s=l.previousElementSibling.querySelector("i");"none"===l.style.display||""===l.style.display?(l.style.display="block",s.className="fa-solid fa-chevron-down fa-2xs"):(l.style.display="none",s.className="fa-solid fa-chevron-right fa-2xs")}
