@@ -136,6 +136,7 @@ body.sticky-bottom-footer {
   font-size: 12pt;
   margin-left: var(--indent-margin);
   margin-bottom: 8px; // Sempre costante, anche senza abstract
+  overflow: hidden;
 }
 
 .icon-entry i.fa-fw {
@@ -162,15 +163,15 @@ body.sticky-bottom-footer {
 .abstract-toggle-pill {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 1px;
   font-size: 10pt;
-  padding: 2px 10px;
-  margin-top: -16px; // per ridurre spazio col titolo sopra
+  padding: 2px 8px;
+  margin-top: -8px; // per ridurre spazio col titolo sopra
   margin-bottom: 8px; // lasciamo spazio solo all'abstract aperto
   margin-left: var(--abstract-left-offset);
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-theme-color);
-  border-radius: 6px;
+  border-radius: 2px;
   cursor: pointer;
   user-select: none;
   color: var(--global-theme-color);
@@ -199,7 +200,7 @@ body.sticky-bottom-footer {
   font-size: 10pt;
   background-color: var(--global-card-bg-color);
   border: 1px solid var(--global-theme-color);
-  border-radius: 6px;
+  border-radius: 2px;
   margin-left: var(--abstract-left-offset);
   margin-right: var(--indent-margin);
   margin-top: -2px;
