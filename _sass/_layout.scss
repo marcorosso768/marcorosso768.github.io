@@ -230,12 +230,12 @@ body.sticky-bottom-footer {
   padding: 15px 20px;
 }
 
-.projects a i {
-  transition: transform 0.3s ease;
+.projects h2:hover i {
+  transform: scale(1.2);
 }
 
-.projects a:hover i {
-  transform: scale(1.2);
+.projects h2 i {
+  transition: transform 0.3s ease;
 }
 
 /*****************************************************************************
