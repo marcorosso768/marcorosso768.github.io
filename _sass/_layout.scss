@@ -167,7 +167,7 @@ body.sticky-bottom-footer {
   padding: 2px 10px;
   margin-top: 4px;
   margin-bottom: 12px;
-  margin-left: calc(var(--indent-margin) + var(--icon-fw) + var(--icon-spacing));
+  margin-left: var(--indent-margin); //calc(var(--indent-margin) + var(--icon-fw) + var(--icon-spacing));
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-theme-color);
   border-radius: 12px;
@@ -184,7 +184,7 @@ body.sticky-bottom-footer {
 
 /* Etichetta "Abstract" con effetto italic al passaggio */
 .abstract-toggle-pill .toggle-label {
-  margin-left: 6px;
+  margin-left: 2px;
   font-style: normal;
   transition: font-style 0.3s ease;
 }
@@ -217,7 +217,7 @@ body.sticky-bottom-footer {
 
   transition:
     max-height 0.4s ease,
-    opacity 0.3s ease,
+    opacity 0.3s ease 0.1s,
     padding 0.3s ease;
 }
 
@@ -226,6 +226,14 @@ body.sticky-bottom-footer {
   opacity: 1;
   pointer-events: auto;
   padding: 15px 20px;
+}
+
+.projects a i {
+  transition: transform 0.3s ease;
+}
+
+.projects a:hover i {
+  transform: scale(1.2);
 }
 
 /*****************************************************************************
