@@ -127,6 +127,7 @@ body.sticky-bottom-footer {
   --icon-fw: 1.25em;
   --icon-spacing: 8px;
   --icon-text-offset: calc(var(--icon-fw) + var(--icon-spacing));
+  --abstract-left-offset: calc(var(--indent-margin) + var(--icon-fw) + var(--icon-spacing));
 }
 
 /* Voce singola con icona e testo */
@@ -134,7 +135,7 @@ body.sticky-bottom-footer {
   display: flex;
   align-items: flex-start;
   font-size: 12pt;
-  margin-bottom: 8px;
+  margin-bottom: 1rem; // Spazio costante
   margin-left: var(--indent-margin);
 }
 
@@ -165,22 +166,17 @@ body.sticky-bottom-footer {
   gap: 6px;
   font-size: 10pt;
   padding: 2px 10px;
-  margin-top: -6px;
-  margin-bottom: 8px;
-  margin-left: 36px;
+  margin-top: -6px; // Riduce spazio tra icona e pill
+  margin-bottom: 0; // Uniforme con abstract aperto
+  margin-left: var(--abstract-left-offset);
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-theme-color);
   border-radius: 6px;
   cursor: pointer;
   user-select: none;
   color: var(--global-theme-color);
-  transition: background-color 0.2s ease, transform 0.2s ease;
+  transition: background-color 0.2s ease;
 }
-
-//.abstract-toggle-pill:hover {
-//  background-color: var(--global-bg-color-hover);
-//  transform: translateY(-1px);
-//}
 
 /* Etichetta "Abstract" con effetto italic al passaggio */
 .abstract-toggle-pill .toggle-label {
@@ -193,22 +189,22 @@ body.sticky-bottom-footer {
   font-style: italic;
 }
 
-/* Freccia (rotazione gestita via JS) */
+/* Freccia (rotazione via JS, niente hover zoom) */
 .abstract-toggle-pill i {
   transition: transform 0.3s ease;
 }
 
-/* Blocco abstract nascosto o visibile */
+/* Blocco abstract */
 .abstract {
   overflow: hidden;
   font-size: 10pt;
   background-color: var(--global-card-bg-color);
   border: 1px solid var(--global-theme-color);
   border-radius: 6px;
-  margin-left: 36px;
+  margin-left: var(--abstract-left-offset);
   margin-right: var(--indent-margin);
-  margin-top: -6px;
-  margin-bottom: 8px;
+  margin-top: 4px;
+  margin-bottom: 1rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   max-height: 0;
   opacity: 0;
@@ -222,27 +218,29 @@ body.sticky-bottom-footer {
 }
 
 .abstract.open {
-  margin-top: -10px;
-  margin-bottom: 12px;
   max-height: 2000px;
   opacity: 1;
   pointer-events: auto;
   padding: 15px 20px;
 }
 
-/* Freccia delle sezioni */
+/*****************************************************************************
+* Section Toggles (projects)
+*****************************************************************************/
+
+/* Freccia animata */
 .projects h2 i {
   transition: transform 0.3s ease;
 }
 
-/* Effetto ingrandimento su hover */
+/* Ingrandimento al passaggio del mouse */
 .projects a:hover i {
   transform: scale(1.2);
 }
 
-/* Rotazione se la sezione è aperta */
+/* Rotazione per sezione aperta */
 .projects h2 i.rotated {
-  transform: rotate(90deg); // da destra a giù
+  transform: rotate(90deg);
 }
 
 /*****************************************************************************
