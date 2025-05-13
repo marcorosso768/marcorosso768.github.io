@@ -1,30 +1,22 @@
 function toggleVisibility(id) {
   const section = document.getElementById(id);
   const chevron = document.getElementById("chevron-" + id);
-
   const isVisible = section.style.display === "block";
 
   // Toggle visibilità sezione
   section.style.display = isVisible ? "none" : "block";
 
-  // Gestione freccia
   if (chevron) {
-    // Cambia l'icona base
-    chevron.classList.remove("fa-chevron-right", "fa-chevron-down");
-    chevron.classList.add(isVisible ? "fa-chevron-right" : "fa-chevron-down");
+    // Temporaneamente scala la freccia
+    chevron.style.transform = `rotate(${isVisible ? 0 : 90}deg) scale(1.2)`;
 
-    // Per l'effetto scala e rotazione:
-    if (isVisible) {
-      // Aspetta un attimo prima di rimuovere la classe .rotated per non troncare l'animazione
-      setTimeout(() => {
-        chevron.classList.remove("rotated");
-      }, 300); // Durata della transizione in _layout.scss
-    } else {
-      chevron.classList.add("rotated");
-    }
+    // Dopo l'animazione torna a scala 1
+    setTimeout(() => {
+      chevron.style.transform = `rotate(${isVisible ? 0 : 90}deg) scale(1)`;
+    }, 300);
   }
 
-  // Chiude tutti gli abstract nella sezione (se presenti)
+  // Chiudi gli abstract, se presenti
   if (isVisible) {
     section.querySelectorAll(".abstract").forEach(el => el.classList.remove("open"));
   }
