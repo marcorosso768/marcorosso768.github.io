@@ -135,7 +135,7 @@ body.sticky-bottom-footer {
   align-items: flex-start;
   font-size: 12pt;
   margin-left: var(--indent-margin);
-  margin-bottom: 8px; // Sempre costante, anche senza abstract
+  margin-bottom: 4px; // Sempre costante, anche senza abstract
   overflow: hidden;
 }
 
@@ -573,3 +573,72 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
 /*****************************************************************************
 * 
 *****************************************************************************/
+
+:root {
+  --toggle-spacing: 36px;
+  --toggle-radius: 6px;
+  --toggle-gap: 8px;
+}
+
+/* Contenitore di più toggle-pillole */
+.pill-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--toggle-gap);
+  margin-left: var(--toggle-spacing);
+  //margin-top: -6px;
+  margin-bottom: 4px;
+}
+
+/* Singola pillola cliccabile */
+.toggle-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10pt;
+  padding: 2px 10px;
+  background-color: var(--global-bg-color);
+  border: 1px solid var(--global-theme-color);
+  border-radius: var(--toggle-radius);
+  cursor: pointer;
+  user-select: none;
+  color: var(--global-theme-color);
+  transition: background-color 0.2s ease;
+
+  i {
+    transition: transform 0.3s ease;
+  }
+
+  &.rotated i {
+    transform: rotate(90deg);
+  }
+
+  .toggle-label {
+    margin-left: 2px;
+    font-style: normal;
+    transition: font-style 0.3s ease;
+  }
+
+  &:hover .toggle-label {
+    font-style: italic;
+  }
+}
+
+/* Box che appare quando toggle è attivo */
+.toggle-box {
+  display: none;
+  margin-left: var(--toggle-spacing);
+  margin-right: var(--indent-margin);
+  margin-top: 4px;
+  margin-bottom: 1rem;
+  padding: 15px 20px;
+  background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-theme-color);
+  border-radius: var(--toggle-radius);
+  font-size: 10pt;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.toggle-box.open {
+  display: block;
+}
