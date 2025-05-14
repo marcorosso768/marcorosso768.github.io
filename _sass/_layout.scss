@@ -443,7 +443,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
 // 1. seminar-entry con due flex-row
 // -----------------------------------------------------------------------------
 .seminar-entry {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 
   &.indented {
     margin-left: var(--indent-margin);
@@ -492,7 +492,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
 
     &::before {
       content: "\f3c5";  // codepoint di location-dot
-      margin-left: 2px;
+      margin-left: 3px;
     }
 
     & .seminar-entry__location-text {
@@ -501,6 +501,74 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
     }
   }
 }
+
+/*****************************************************************************
+* Teaching
+*****************************************************************************/
+
+// -----------------------------------------------------------------------------
+// 1. seminar-entry con due flex-row
+// -----------------------------------------------------------------------------
+.teaching-entry {
+  margin-bottom: 1.5rem;
+
+  &.indented {
+    margin-left: var(--indent-margin);
+  }
+
+  // ogni “riga” è un flex container
+  &__row {
+    display:        flex;
+    column-gap:     $gap-horizontal;
+    align-items:    center;   // di default tutte le row centrano
+
+    // icona via pseudo-elemento in colonna zero
+    &::before {
+      @include fa-base;
+      display:      inline-block;
+      width:        $fa-fw-width;    // stesso di fa-fw
+      text-align:   center;
+      font-size:    1em;             // pari all’altezza del testo
+      color:        var(--global-theme-color);
+    }
+  }
+  
+  // la riga del titolo (più linee possibili)
+  &__row--title {
+    margin-bottom:  $gap-vertical;
+    align-items:    flex-start;    // icona allineata in alto
+
+    &::before {
+      content: "\f51c";   // il tuo codepoint “person-chalkboard”
+    }
+    // testo principale (titolo + “Speaker”)
+    & .seminar-entry__content {
+      line-height: 1.2;
+      .highlight {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  // la riga della location
+  &__row--location {
+    align-items:    flex-start; //center;       // icona centrata verticalmente
+    font-size:      0.9em;
+    font-style:     italic;
+    line-height:    1;
+
+    &::before {
+      content: "\f19c";  // codepoint di location-dot
+      margin-left: 3px;
+    }
+
+    & .seminar-entry__location-text {
+      line-height:    1;
+      /* niente altro, il flex-gap fa già il suo lavoro */
+    }
+  }
+}
+
 
 /*****************************************************************************
 * 
