@@ -11,11 +11,11 @@ function initTogglePills() {
       const currentBox = document.getElementById(targetId);
       const isOpen = currentBox.classList.contains('open');
 
-      // Chiude tutto
+      // Chiude tutte
       boxes.forEach(b => b.classList.remove('open'));
       pills.forEach(p => p.querySelector('i')?.classList.remove('rotated'));
 
-      // Se non era già aperta, apri
+      // Apre quella cliccata (se chiusa)
       if (!isOpen) {
         currentBox.classList.add('open');
         icon?.classList.add('rotated');
@@ -23,3 +23,6 @@ function initTogglePills() {
     });
   });
 }
+
+// Avvio automatico dopo caricamento DOM
+document.addEventListener("DOMContentLoaded", initTogglePills);
