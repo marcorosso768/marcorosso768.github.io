@@ -19,8 +19,19 @@ nav_order: 2
   </a>
 </div>
 
-<!-- 2024 section show by default -->
-<div id="content-4" style="display: block;">
+<div class="projects">
+  <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
+      <span>invited talks</span>
+    </h2>
+  </a>
+</div>
+
+<!-- invited talks section show by default -->
+<div id="content-1" style="display: block;">
+
+<p><b>2024</b></p>
 
   <div class="seminar-entry indented">
     <div class="seminar-entry__icon"></div>
@@ -49,7 +60,17 @@ nav_order: 2
       </div>
     </div>
   </div>
-    
+</div>
+
+<!--END TEST NEW LAYOUT-->
+
+  <div class="projects">
+  <a id="toggle-content-4" href="javascript:void(0);" onclick="toggleVisibility('content-4')">
+    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> 2024 </h2>
+  </a>
+</div>
+
+<div id="content-4" style="display: block;">
   <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: Person icon and seminar title -->
       <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
@@ -306,13 +327,13 @@ nav_order: 2
 
 <!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
-  <a id="toggle-content-1" href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+  <a id="toggle-content-1" href="javascript:void(0);" onclick="toggleVisibility('content-11')">
     <h2 class="category"><i class="fa-solid fa-chevron-right fa-2xs"></i> 2021 </h2>
   </a>
 </div>
 
 <!-- 2021 section hidden by default -->
-<div id="content-1" style="display: none;">
+<div id="content-11" style="display: none;">
 
   <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: Person icon and seminar title -->
