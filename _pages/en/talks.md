@@ -26,11 +26,11 @@ nav_order: 2
 <div id="content-1" style="display: block;">
 
 <!-- 2024 -->
-<div style="margin-left: 4px; margin-bottom: 1rem; font-size: 12pt;">
+<div style="margin-left: 0px; margin-bottom: 1rem; font-size: 12pt;">
     <div style="display: inline-block; text-align: center; position: absolute;">
         <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
     </div>
-    <div style="display: inline-block; padding-left: 4px; line-height: 12pt;">
+    <div style="display: inline-block; padding-left: 20px; line-height: 12pt;">
         <span>
             <b>2024</b>
         </span>
@@ -82,11 +82,11 @@ nav_order: 2
 <div id="content-2" style="display: block;">
 
 <!-- 2025 -->
-<div style="margin-left: 4px; margin-bottom: 1rem; font-size: 12pt;">
+<div style="margin-left: 0px; margin-bottom: 1rem; font-size: 12pt;">
     <div style="display: inline-block; text-align: center; position: absolute;">
         <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
     </div>
-    <div style="display: inline-block; padding-left: 4px; line-height: 12pt;">
+    <div style="display: inline-block; padding-left: 20px; line-height: 12pt;">
         <span>
             <b>2025</b>
         </span>
@@ -108,11 +108,11 @@ nav_order: 2
   </div>
 
 <!-- 2024 -->
-<div style="margin-left: 4px; margin-bottom: 1rem; font-size: 12pt;">
+<div style="margin-left: 0px; margin-bottom: 1rem; font-size: 12pt;">
     <div style="display: inline-block; text-align: center; position: absolute;">
         <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
     </div>
-    <div style="display: inline-block; padding-left: 4px; line-height: 12pt;">
+    <div style="display: inline-block; padding-left: 20px; line-height: 12pt;">
         <span>
             <b>2024</b>
         </span>
@@ -133,11 +133,11 @@ nav_order: 2
   </div>
 
 <!-- 2023 -->
-<div style="margin-left: 4px; margin-bottom: 1rem; font-size: 12pt;">
+<div style="margin-left: 0px; margin-bottom: 1rem; font-size: 12pt;">
     <div style="display: inline-block; text-align: center; position: absolute;">
         <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
     </div>
-    <div style="display: inline-block; padding-left: 4px; line-height: 12pt;">
+    <div style="display: inline-block; padding-left: 20px; line-height: 12pt;">
         <span>
             <b>2023</b>
         </span>
@@ -201,11 +201,11 @@ nav_order: 2
   </div>
 
 <!-- 2022 -->
-<div style="margin-left: 4px; margin-bottom: 1rem; font-size: 12pt;">
+<div style="margin-left: 0px; margin-bottom: 1rem; font-size: 12pt;">
     <div style="display: inline-block; text-align: center; position: absolute;">
         <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
     </div>
-    <div style="display: inline-block; padding-left: 4px; line-height: 12pt;">
+    <div style="display: inline-block; padding-left: 20px; line-height: 12pt;">
         <span>
             <b>2022</b>
         </span>
@@ -255,11 +255,11 @@ nav_order: 2
   </div>
 
 <!-- 2021 -->
-<div style="margin-left: 4px; margin-bottom: 1rem; font-size: 12pt;">
+<div style="margin-left: 0px; margin-bottom: 1rem; font-size: 12pt;">
     <div style="display: inline-block; text-align: center; position: absolute;">
         <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
     </div>
-    <div style="display: inline-block; padding-left: 4px; line-height: 12pt;">
+    <div style="display: inline-block; padding-left: 20px; line-height: 12pt;">
         <span>
             <b>2021</b>
         </span>
@@ -311,11 +311,11 @@ nav_order: 2
 <div id="content-3" style="display: block;">
 
 <!-- 2023 -->
-<div style="margin-left: 4px; margin-bottom: 1rem; font-size: 12pt;">
+<div style="margin-left: 0px; margin-bottom: 1rem; font-size: 12pt;">
     <div style="display: inline-block; text-align: center; position: absolute;">
         <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
     </div>
-    <div style="display: inline-block; padding-left: 4px; line-height: 12pt;">
+    <div style="display: inline-block; padding-left: 20px; line-height: 12pt;">
         <span>
             <b>2023</b>
         </span>
@@ -337,11 +337,11 @@ nav_order: 2
   </div>
 
 <!-- 2021 -->
-<div style="margin-left: 4px; margin-bottom: 1rem; font-size: 12pt;">
+<div style="margin-left: 0px; margin-bottom: 1rem; font-size: 12pt;">
     <div style="display: inline-block; text-align: center; position: absolute;">
         <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
     </div>
-    <div style="display: inline-block; padding-left: 4px; line-height: 12pt;">
+    <div style="display: inline-block; padding-left: 20px; line-height: 12pt;">
         <span>
             <b>2021</b>
         </span>
