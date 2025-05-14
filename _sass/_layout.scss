@@ -419,25 +419,6 @@ a.float-right:active i {
 }
 
 // -----------------------------------------------------------------------------
-// 1. Variabili & Reset Font Awesome Base (assumo che @font-face sia già dichiarato)
-// -----------------------------------------------------------------------------
-$fa-family       : "Font Awesome 6 Free";
-$fa-solid-weight : 900;
-$fa-fw-width     : 1.25em;
-
-@mixin fa-base {
-  font-family:        $fa-family;
-  font-weight:        $fa-solid-weight;
-  font-style:         normal;
-  font-variant:       normal;
-  text-transform:     none;
-  line-height:        1;
-  speak:              none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing:    grayscale;
-}
-
-// -----------------------------------------------------------------------------
 // 0. Font-Awesome base (assumo che @font-face sia già lì sopra)
 // -----------------------------------------------------------------------------
 $fa-family       : "Font Awesome 6 Free";
@@ -459,7 +440,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
 }
 
 // -----------------------------------------------------------------------------
-// 1. .seminar-entry con due flex-row
+// 1. seminar-entry con due flex-row
 // -----------------------------------------------------------------------------
 .seminar-entry {
   margin-bottom: 1rem;
@@ -471,8 +452,8 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   // ogni “riga” è un flex container
   &__row {
     display:        flex;
-    align-items:    center;
     column-gap:     $gap-horizontal;
+    align-items:    center;   // di default tutte le row centrano
 
     // icona via pseudo-elemento in colonna zero
     &::before {
@@ -484,10 +465,11 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
       color:        var(--global-theme-color);
     }
   }
-
-  // la riga del titolo
+  
+  // la riga del titolo (più linee possibili)
   &__row--title {
     margin-bottom:  $gap-vertical;
+    align-items:    flex-start;    // icona allineata in alto
 
     &::before {
       content: "\e53d";   // il tuo codepoint “person-chalkboard”
@@ -503,9 +485,10 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
 
   // la riga della location
   &__row--location {
-    font-size:     0.9em;
-    font-style:    italic;
-    line-height:   1.1;
+    align-items:    center;       // icona centrata verticalmente
+    font-size:      0.9em;
+    font-style:     italic;
+    line-height:    1.1;
 
     &::before {
       content: "\f3c5";  // codepoint di location-dot
