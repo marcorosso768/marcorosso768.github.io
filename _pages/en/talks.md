@@ -25,7 +25,7 @@ nav_order: 2
 <!-- invited talks section show by default -->
 <div id="content-1" style="display: block;">
 
-<p style="font-size:2rem; color:var(--global-theme-color);"><b>2024</b></p>
+<p style="font-size:1.5rem; color:var(--global-theme-color);"><b>2024</b></p>
 
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
@@ -411,7 +411,7 @@ nav_order: 2
 <!-- invited talks section show by default -->
 <div id="content-3" style="display: block;">
 
-<p style="font-size:2rem; color:var(--global-theme-color);"><b>2023</b></p>
+<p style="font-size:1rem; color:var(--global-theme-color);"><b>2023</b></p>
 
   <div class="seminar-entry indented">
     <div class="seminar-entry__row seminar-entry__row--title">
@@ -427,7 +427,7 @@ nav_order: 2
     </div>
   </div>
 
-<p style="font-size:2rem; color:var(--global-theme-color);"><b>2021</b></p>
+<p style="font-size:1rem; color:var(--global-theme-color);"><b>2021</b></p>
 
   <div class="seminar-entry indented">
     <div class="seminar-entry__row seminar-entry__row--title">
