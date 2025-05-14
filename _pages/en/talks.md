@@ -25,7 +25,7 @@ nav_order: 2
 <!-- section show by default -->
 <div id="content-1" style="display: block;">
 
-<p style="font-size:1rem; color:var(--global-theme-color);"><b>2024</b></p>
+<p style="font-size:1rem; color:var(--global-theme-color);"><i class="fa-solid fa-calendar-days"></i> <b>2024</b></p>
 
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
@@ -71,7 +71,7 @@ nav_order: 2
 <!-- section show by default -->
 <div id="content-2" style="display: block;">
 
-<p style="font-size:1rem; color:var(--global-theme-color);"><b>2025</b></p>
+<p style="font-size:1rem; color:var(--global-theme-color);"><i class="fa-solid fa-calendar-days"></i> <b>2025</b></p>
 
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
@@ -102,7 +102,7 @@ nav_order: 2
     </div>
   </div>
 
-<p style="font-size:1rem; color:var(--global-theme-color);"><b>2023</b></p>
+<p style="font-size:1rem; color:var(--global-theme-color);"><i class="fa-solid fa-calendar-days"></i> <b>2023</b></p>
 
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
@@ -160,7 +160,7 @@ nav_order: 2
     </div>
   </div>
 
-<p style="font-size:1rem; color:var(--global-theme-color);"><b>2022</b></p>
+<p style="font-size:1rem; color:var(--global-theme-color);"><b><i class="fa-solid fa-calendar-days"></i> 2022</b></p>
 
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
@@ -204,7 +204,7 @@ nav_order: 2
     </div>
   </div>
 
-<p style="font-size:1rem; color:var(--global-theme-color);"><b>2021</b></p>
+<p style="font-size:1rem; color:var(--global-theme-color);"><b><i class="fa-solid fa-calendar-days"></i> 2021</b></p>
 
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
@@ -250,7 +250,7 @@ nav_order: 2
 <!-- section show by default -->
 <div id="content-3" style="display: block;">
 
-<p style="font-size:1rem; color:var(--global-theme-color);"><b>2023</b></p>
+<p style="font-size:1rem; color:var(--global-theme-color);"><i class="fa-solid fa-calendar-days"></i> <b>2023</b></p>
 
   <div class="seminar-entry indented">
     <div class="seminar-entry__row seminar-entry__row--title">
@@ -266,7 +266,7 @@ nav_order: 2
     </div>
   </div>
 
-<p style="font-size:1rem; color:var(--global-theme-color);"><b>2021</b></p>
+<p style="font-size:1rem; color:var(--global-theme-color);"><i class="fa-solid fa-calendar-days"></i> <b>2021</b></p>
 
   <div class="seminar-entry indented">
     <div class="seminar-entry__row seminar-entry__row--title">
