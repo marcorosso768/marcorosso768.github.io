@@ -23,7 +23,7 @@ nav_order: 1
 </div>
 
 <div id="content-1" style="display: block;">
-  <div class="icon-entry indented">
+  <div class="icon-entry indented" style="line-height: 1.25;">
   <i class="fa-solid fa-newspaper fa-fw"></i>
   <span>
     Farina E., Rosso M., Dansero L., et al. (2023). 
@@ -32,7 +32,7 @@ nav_order: 1
     </a> 
     <i>Journal of Epidemiology & Community Health</i>
   </span>
-  </div>
+  
 
 <div id="toggle-abstract-crc" class="abstract-toggle-pill"
      onclick="toggleAbstract('abstract-crc', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)"
@@ -51,6 +51,7 @@ nav_order: 1
               <b>Results</b> Overall, we identified 925 CRC incident cases from 2006 until 2012. Our results confirm a statistically significant reduction in survivors’ income compared with controls. This reduction was greater in the first year and then tend to decrease, with an average income loss over 3 years of about €12 000. Stratified analyses by sex and position confirmed the overall trend while indicating a strong effect modification. Regarding the switching from full-time to part-time employment, the results were never significant.
               <br>
               <b>Conclusion</b> Income loss does not seem to be related to an increase in part-time contracts, but rather to survivors’ reduced work capacity following the invasive treatments. Further research is needed to investigate the complex dynamics behind this association.
+</div>
 </div>
 </div>
 <!-- Working Papers Section -->
