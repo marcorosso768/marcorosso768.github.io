@@ -411,32 +411,34 @@ nav_order: 2
 <!-- invited talks section show by default -->
 <div id="content-3" style="display: block;">
 
-<p><b>2024</b></p>
+<p><b>2023</b></p>
 
   <div class="seminar-entry indented">
     <div class="seminar-entry__icon"></div>
     <div class="seminar-entry__content">
-      PRIN Workshop on The Economics of Culture: Ethnicity, Gender, and their Interactions —
-      <span class="highlight">Speaker</span>
+      <i>"A Modern Guide to the Economics of Crime"</i> (Elgar, 2022) —
+      <span class="highlight">Discussant</span>
     </div>
     <div class="seminar-entry__location">
       <div class="seminar-entry__location-icon"></div>
       <div class="seminar-entry__location-text">
-        University of Modena and Reggio-Emilia, Italy
+        “Walter Bigiavi” Library, Bologna, Italy
       </div>
     </div>
   </div>
 
+<p><b>2021</b></p>
+
   <div class="seminar-entry indented">
     <div class="seminar-entry__icon"></div>
     <div class="seminar-entry__content">
-      Ciclo de Seminarios del Departamento de Economía —
+      First Year Ph.D. Poster Session —
       <span class="highlight">Speaker</span>
     </div>
     <div class="seminar-entry__location">
       <div class="seminar-entry__location-icon"></div>
       <div class="seminar-entry__location-text">
-        Universidad de San Andrés, Buenos Aires, Argentina
+        University of Bologna, Italy
       </div>
     </div>
   </div>
