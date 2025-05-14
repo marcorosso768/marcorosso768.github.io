@@ -16,7 +16,7 @@ subtitle: >
   <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
-      <span>e-mail</span>
+      <span> e-mail </span>
     </h2>
   </a>
 </div>
@@ -36,7 +36,10 @@ subtitle: >
 <!-- Online Resources Section -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> online resources </h2>
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
+      <span> online resources </span>
+    </h2>
   </a>
 </div>
 
@@ -70,7 +73,10 @@ subtitle: >
 <!-- Social Networks Section -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> social networks </h2>
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-3"></i>
+      <span> social networks </span>
+    </h2>
   </a>
 </div>
 
@@ -94,7 +100,10 @@ subtitle: >
 <!-- Location Section -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-4')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> location </h2>
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-4"></i>
+      <span> location </span>
+    </h2>
   </a>
 </div>
 

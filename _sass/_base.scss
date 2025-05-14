@@ -827,23 +827,28 @@ footer.sticky-bottom {
     font-size: 1.4em;
 
     span {
-    color: inherit;
+      color: inherit;
     }
-    
+
     i {
       color: var(--global-theme-color);
-      transform: scale(1); // default piccola
       transition: transform 0.3s ease;
+      transform: rotate(0deg) scale(1); // di default piccola e non ruotata
     }
 
-    // Hover → ingrandisce solo temporaneamente
+    // Hover normale su freccia non cliccata
     &:hover i {
-      transform: scale(var(--hover-scale-bbig)); // tipo 1.2
+      transform: rotate(0deg) scale(var(--hover-scale-bbig)); // es: 1.4
     }
 
-    // Rotazione senza scala
+    // Dopo clic → ruota ma non scala
     i.rotated {
-      transform: rotate(90deg) scale(1); // ruota ma torna piccola
+      transform: rotate(90deg) scale(1); // solo rotazione
+    }
+
+    // Quando ruotata e passa il mouse sopra → ruota e scala
+    &:hover i.rotated {
+      transform: rotate(90deg) scale(var(--hover-scale-bbig));
     }
   }
 }

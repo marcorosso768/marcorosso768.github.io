@@ -135,7 +135,7 @@ body.sticky-bottom-footer {
   align-items: flex-start;
   font-size: 12pt;
   margin-left: var(--indent-margin);
-  margin-bottom: 8px; // Sempre costante, anche senza abstract
+  margin-bottom: 4px; // Sempre costante, anche senza abstract
   overflow: hidden;
 }
 
@@ -157,72 +157,6 @@ body.sticky-bottom-footer {
     font-style: italic;
     text-decoration: underline;
   }
-}
-
-/* Pillola toggle */
-.abstract-toggle-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 1px;
-  font-size: 10pt;
-  padding: 2px 8px;
-  margin-top: -8px; // per ridurre spazio col titolo sopra
-  margin-bottom: 8px; // lasciamo spazio solo all'abstract aperto
-  margin-left: var(--abstract-left-offset);
-  background-color: var(--global-bg-color);
-  border: 1px solid var(--global-theme-color);
-  border-radius: 2px;
-  cursor: pointer;
-  user-select: none;
-  color: var(--global-theme-color);
-  transition: background-color 0.2s ease;
-}
-
-/* Testo abstract corsivo su hover */
-.abstract-toggle-pill .toggle-label {
-  margin-left: 2px;
-  font-style: normal;
-  transition: font-style 0.3s ease;
-}
-
-.abstract-toggle-pill:hover .toggle-label {
-  font-style: italic;
-}
-
-/* Freccia della pillola */
-.abstract-toggle-pill i {
-  transition: transform 0.3s ease;
-}
-
-/* Box abstract */
-.abstract {
-  overflow: hidden;
-  font-size: 10pt;
-  background-color: var(--global-card-bg-color);
-  border: 1px solid var(--global-theme-color);
-  border-radius: 2px;
-  margin-left: var(--abstract-left-offset);
-  margin-right: var(--indent-margin);
-  margin-top: -2px;
-  margin-bottom: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-  max-height: 0;
-  opacity: 0;
-  padding: 0 20px;
-  pointer-events: none;
-
-  transition:
-    max-height 0.4s ease,
-    opacity 0.3s ease 0.1s,
-    padding 0.3s ease;
-}
-
-.abstract.open {
-  max-height: 2000px;
-  opacity: 1;
-  pointer-events: auto;
-  padding: 15px 20px;
-  margin-bottom: 8px;
 }
 
 /*****************************************************************************
@@ -376,5 +310,269 @@ a.float-right:active i {
 }
 
 /*****************************************************************************
-* 
+* Talks
 *****************************************************************************/
+
+// -----------------------------------------------------------------------------
+// 0. Self-host Font Awesome (tutti i family/weight che hai disponibili)
+// -----------------------------------------------------------------------------
+@font-face {
+  font-family: "Font Awesome 6 Brands";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url("/assets/webfonts/fa-brands-400.woff2") format("woff2"),
+    url("/assets/webfonts/fa-brands-400.ttf")   format("truetype");
+}
+
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-weight: 400;   // regular
+  src:
+    url("/assets/webfonts/fa-regular-400.woff2") format("woff2"),
+    url("/assets/webfonts/fa-regular-400.ttf")   format("truetype");
+}
+
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-weight: 900;   // solid
+  src:
+    url("/assets/webfonts/fa-solid-900.woff2") format("woff2"),
+    url("/assets/webfonts/fa-solid-900.ttf")   format("truetype");
+}
+
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-weight: 400;   // v4 compatibility shim
+  src:
+    url("/assets/webfonts/fa-v4compatibility.woff2") format("woff2"),
+    url("/assets/webfonts/fa-v4compatibility.ttf")   format("truetype");
+}
+
+// -----------------------------------------------------------------------------
+// 0. Font-Awesome base (assumo che @font-face sia già lì sopra)
+// -----------------------------------------------------------------------------
+$fa-family       : "Font Awesome 6 Free";
+$fa-solid-weight : 900;
+$fa-fw-width     : 1.25em;   // larghezza di .fa-fw
+$gap-horizontal  : 0.5em;    // spazio icona ⇢ testo
+$gap-vertical    : 0.25em;   // spazio tra le due righe
+
+@mixin fa-base {
+  font-family:             $fa-family;
+  font-weight:             $fa-solid-weight;
+  font-style:              normal;
+  font-variant:            normal;
+  text-transform:          none;
+  line-height:             1;
+  speak:                   none;
+  -webkit-font-smoothing:  antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// -----------------------------------------------------------------------------
+// 1. seminar-entry con due flex-row
+// -----------------------------------------------------------------------------
+.seminar-entry {
+  margin-bottom: 1.5rem;
+
+  &.indented {
+    margin-left: var(--indent-margin);
+  }
+
+  // ogni “riga” è un flex container
+  &__row {
+    display:        flex;
+    column-gap:     $gap-horizontal;
+    align-items:    center;   // di default tutte le row centrano
+
+    // icona via pseudo-elemento in colonna zero
+    &::before {
+      @include fa-base;
+      display:      inline-block;
+      width:        $fa-fw-width;    // stesso di fa-fw
+      text-align:   center;
+      font-size:    1em;             // pari all’altezza del testo
+      color:        var(--global-theme-color);
+    }
+  }
+  
+  // la riga del titolo (più linee possibili)
+  &__row--title {
+    margin-bottom:  $gap-vertical;
+    align-items:    flex-start;    // icona allineata in alto
+
+    &::before {
+      content: "\e53d";   // il tuo codepoint “person-chalkboard”
+    }
+    // testo principale (titolo + “Speaker”)
+    & .seminar-entry__content {
+      line-height: 1.2;
+      .highlight {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  // la riga della location
+  &__row--location {
+    align-items:    flex-start; //center;       // icona centrata verticalmente
+    font-size:      0.9em;
+    font-style:     italic;
+    line-height:    1;
+
+    &::before {
+      content: "\f3c5";  // codepoint di location-dot
+      margin-left: 3px;
+    }
+
+    & .seminar-entry__location-text {
+      line-height:    1;
+      /* niente altro, il flex-gap fa già il suo lavoro */
+    }
+  }
+}
+
+/*****************************************************************************
+* Teaching
+*****************************************************************************/
+
+// -----------------------------------------------------------------------------
+// 1. seminar-entry con due flex-row
+// -----------------------------------------------------------------------------
+.teaching-entry {
+  margin-bottom: 1.5rem;
+
+  &.indented {
+    margin-left: var(--indent-margin);
+  }
+
+  // ogni “riga” è un flex container
+  &__row {
+    display:        flex;
+    column-gap:     $gap-horizontal;
+    align-items:    center;   // di default tutte le row centrano
+
+    // icona via pseudo-elemento in colonna zero
+    &::before {
+      @include fa-base;
+      display:      inline-block;
+      width:        $fa-fw-width;    // stesso di fa-fw
+      text-align:   center;
+      font-size:    1em;             // pari all’altezza del testo
+      color:        var(--global-theme-color);
+    }
+  }
+  
+  // la riga del titolo (più linee possibili)
+  &__row--title {
+    margin-bottom:  $gap-vertical;
+    align-items:    flex-start;    // icona allineata in alto
+
+    &::before {
+      content: "\f51c";   // il tuo codepoint “person-chalkboard”
+    }
+    // testo principale (titolo + “Speaker”)
+    & .teaching-entry__content {
+      line-height: 1.2;
+      .highlight {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  // la riga della location
+  &__row--location {
+    align-items:    flex-start; //center;       // icona centrata verticalmente
+    font-size:      0.9em;
+    font-style:     italic;
+    line-height:    1;
+
+    &::before {
+      content: "\f19c";  // codepoint di location-dot
+      margin-left: 3px;
+    }
+
+    & .teaching-entry__location-text {
+      line-height:    1;
+      /* niente altro, il flex-gap fa già il suo lavoro */
+    }
+  }
+}
+
+/*****************************************************************************
+* PILLS
+*****************************************************************************/
+
+:root {
+  --toggle-spacing: 36px;
+  --toggle-radius: 2px;
+  --toggle-gap: 8px;
+}
+
+/* Contenitore di più toggle-pillole */
+.pill-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--toggle-gap);
+  margin-left: var(--toggle-spacing);
+  margin-bottom: 4px;
+}
+
+/* Singola pillola cliccabile */
+.toggle-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10pt;
+  padding: 2px 10px;
+  background-color: var(--global-bg-color);
+  border: 1px solid var(--global-theme-color);
+  border-radius: var(--toggle-radius);
+  cursor: pointer;
+  user-select: none;
+  color: var(--global-theme-color);
+  transition: background-color 0.2s ease;
+
+  i {
+    transition: transform 0.3s ease;
+  }
+
+  /* Rotazione della freccia quando la pillola è aperta */
+  &.rotated i {
+    transform: rotate(90deg);
+  }
+
+  .toggle-label {
+    margin-left: 2px;
+    font-style: normal;
+    color: var(--global-theme-color);
+    transition: font-style 0.3s ease;
+  }
+
+  &:hover .toggle-label {
+    font-style: italic;
+  }
+}
+
+/* Box che appare quando toggle è attivo */
+.toggle-box {
+  display: none;
+  margin-left: var(--toggle-spacing);
+  margin-right: var(--indent-margin);
+  margin-top: 4px;
+  margin-bottom: 1rem;
+  padding: 2px 8px;
+  background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-theme-color);
+  border-radius: var(--toggle-radius);
+  font-size: 10pt;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.toggle-box.open {
+  display: block;
+}

@@ -14,7 +14,10 @@ subtitle: >
 <!-- E-mail Section -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> e-mail </h2>
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
+      <span> e-mail </span>
+    </h2>
   </a>
 </div>
 
@@ -33,7 +36,10 @@ subtitle: >
 <!-- Online Resources Section -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> risorse online </h2>
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
+      <span> risorse online </span>
+    </h2>
   </a>
 </div>
 
@@ -67,7 +73,10 @@ subtitle: >
 <!-- Social Networks Section -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> social network </h2>
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-3"></i>
+      <span> social network </span>
+    </h2>
   </a>
 </div>
 
@@ -91,7 +100,10 @@ subtitle: >
 <!-- Location Section -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-4')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> indirizzo </h2>
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-4"></i>
+      <span> indirizzo </span>
+    </h2>
   </a>
 </div>
 
@@ -100,20 +112,3 @@ subtitle: >
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11383.504888058369!2d11.352124!3d44.497203!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd4bb0ed9d74f%3A0x851bdc6a12c818e2!2sFacolt%C3%A0%20di%20Economia%20-%20Universit%C3%A0%20di%20Bologna!5e0!3m2!1sit!2sit!4v1745051034168!5m2!1sit!2sit" width="800" height="600" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 </div>
-
-<!-- Inline script -->
-<script>
-    // Toggle the visibility of the sections
-    function toggleVisibility(id) {
-      var content = document.getElementById(id);
-      var icon = content.previousElementSibling.querySelector('i');
-    
-      if (content.style.display === "none") {
-        content.style.display = "block";
-        icon.className = "fa-solid fa-chevron-down fa-2xs";
-      } else {
-        content.style.display = "none";
-        icon.className = "fa-solid fa-chevron-right fa-2xs";
-      }
-    }
-</script>
