@@ -569,14 +569,13 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   }
 }
 
-
 /*****************************************************************************
-* 
+* PILLS
 *****************************************************************************/
 
 :root {
   --toggle-spacing: 36px;
-  --toggle-radius: 6px;
+  --toggle-radius: 2px;
   --toggle-gap: 8px;
 }
 
@@ -617,6 +616,8 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
     margin-left: 2px;
     font-style: normal;
     transition: font-style 0.3s ease;
+    color: var(--global-theme-color);
+}
   }
 
   &:hover .toggle-label {
@@ -631,7 +632,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   margin-right: var(--indent-margin);
   margin-top: 4px;
   margin-bottom: 1rem;
-  padding: 15px 20px;
+  padding: 2px 8px;
   background-color: var(--global-card-bg-color);
   border: 1px solid var(--global-theme-color);
   border-radius: var(--toggle-radius);
