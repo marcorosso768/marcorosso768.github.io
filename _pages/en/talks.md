@@ -25,7 +25,14 @@ nav_order: 2
 <!-- section show by default -->
 <div id="content-1" style="display: block;">
 
-<p style="font-size:1rem; color:var(--global-theme-color);"><i class="fa-solid fa-calendar-days"></i> <b>2024</b></p>
+<div class="indented" style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+    <i class="fa-solid fa-calendar-days" style="color: var(--global-theme-color);"></i>
+</div>
+<div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+    <span>
+        2024
+    </span>
+</div>
 
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
