@@ -23,7 +23,7 @@ nav_order: 1
 </div>
 
 <div id="content-1" style="display: block;">
-<div style="line-height: 1.25;">
+<div style="line-height: 1.2;">
   <div class="icon-entry indented">
   <i class="fa-solid fa-newspaper fa-fw"></i>
   <span>
@@ -35,7 +35,6 @@ nav_order: 1
   </span>
   </div>
   
-
 <div id="toggle-abstract-crc" class="abstract-toggle-pill"
      onclick="toggleAbstract('abstract-crc', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)"
      title="{{ site.data.strings.abstract.show }}">
@@ -67,6 +66,8 @@ nav_order: 1
 </div>
 
 <div id="content-2" style="display: block;">
+
+<div style="line-height: 1.2;">
     <div class="icon-entry indented">
       <i class="fa-solid fa-book-open fa-fw"></i>
       <span>
@@ -77,18 +78,25 @@ nav_order: 1
       </span>
     </div>
 
-<div id="toggle-abstract-crime" class="abstract-toggle-pill"
-     onclick="toggleAbstract('abstract-crime', ABSTRACT_TEXT.show, ABSTRACT_TEXT.hide)"
-     title="{{ site.data.strings.abstract.show }}">
-  <i class="fa-solid fa-chevron-right fa-2xs" id="icon-abstract-crime"></i>
-  <span id="label-abstract-crime" class="toggle-label" style="color:var(--global-theme-color);">
-    {{ site.data.strings.abstract.label }}
-  </span>
+<div class="pill-container">
+  <div class="pill-button toggle-pill" data-target="abstract-crime">
+    <i class="fa-solid fa-chevron-right fa-2xs"></i>
+    <span class="toggle-label">Abstract</span>
+  </div>
+  <div class="pill-button toggle-pill" data-target="keywords-crime">
+    <i class="fa-solid fa-chevron-right fa-2xs"></i>
+    <span class="toggle-label">Keywords</span>
+  </div>
 </div>
 
-<div id="abstract-crime" class="abstract">
-      This study examines the impact of crime salience on individual voting behavior, using geolocated crime-related news as a proxy for public concern about crime in the lead-up to elections. Drawing on a retrospective survey of 5000 geolocated individuals across five elections—two national and three administrative—the analysis primarily focuses on national polls, where the absence of local confounders enhances external validity. The results are mixed overall, showing no significant effect on voting behavior when crimes are committed by Italians. However, crimes attributed to immigrants elicit a substantial individual electoral response. Voters tend to withdraw support from the populist Five Star Movement (M5S), known for its ambiguous stance on immigration and instead align with right-wing parties, particularly the Center-Right coalition, which emphasizes law and order. The response to immigrant-related crime also varies by demographic characteristics: high-skilled and educated voters are more likely to abandon M5S, while low-skilled and less-educated voters tend to desert the far-right Lega. In administrative elections, the effect of crime salience diverges. Crimes committed by Italians result in the punishment of incumbents, while immigrant-related crimes lead to increased voter abstention, possibly reflecting the social costs associated with party-switching among left-leaning voters. These findings provide novel insights into the relationship between crime salience, particularly regarding immigration, and individual voting behavior.
-      <br><b>Keywords:</b> crime, voting, political behavior, salience.
+<div id="abstract-crime" class="toggle-box">
+  This study examines the impact of local crime salience on individual voting behavior, using geolocated crime-related news as a proxy for public concern about crime. Drawing on a retrospective survey of 5000 individuals across several election rounds, our analysis exploits the occurrence of a criminal event in the vicinity of a voter in the lead-up to elections. The results for general elections are mixed overall, showing no effects on voting behavior when crimes are committed by Italians. Conversely, crimes attributed to immigrants results in lower support for the populist right-wing parties, sometimes having an ambiguous stance on immigration, and instead higher support for the more traditional right-wing parties, which emphasizes law and order. In administrative elections, the effect of crime salience diverges. Crimes committed by Italians result in the punishment of incumbents, while immigrant-related crimes lead to increased voter abstention, possibly reflecting the social stigma associated with party-switching among left-leaning voters, the incumbent party. These findings provide novel insights into the relationship between crime salience, particularly regarding immigration, and individual voting behavior.
+</div>
+
+<div id="keywords-crime" class="toggle-box">
+  crime, elections, political parties, newspapers, individual voting behavior, dictionary-based classification
+</div>
+
 </div>
 
 <div class="icon-entry indented">
