@@ -25,16 +25,16 @@ nav_order: 2
 <!-- invited talks section show by default -->
 <div id="content-1" style="display: block;">
 
-<p><b>2024</b></p>
+<p style="font-size:2rem; color:var(--global-theme-color);"><b>2024</b></p>
 
   <div class="seminar-entry indented">
-    <div class="seminar-entry__icon"></div>
-    <div class="seminar-entry__content">
-      PRIN Workshop on The Economics of Culture: Ethnicity, Gender, and their Interactions —
-      <span class="highlight">Speaker</span>
-    </div>
-    <div class="seminar-entry__location">
-      <div class="seminar-entry__location-icon"></div>
+   <div class="seminar-entry__row seminar-entry__row--title">
+      <div class="seminar-entry__content">
+          PRIN Workshop on The Economics of Culture: Ethnicity, Gender, and their Interactions —
+          <span class="highlight">Speaker</span>
+      </div>
+   </div>
+    <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         University of Modena and Reggio-Emilia, Italy
       </div>
@@ -42,13 +42,13 @@ nav_order: 2
   </div>
 
   <div class="seminar-entry indented">
-    <div class="seminar-entry__icon"></div>
-    <div class="seminar-entry__content">
-      Ciclo de Seminarios del Departamento de Economía —
-      <span class="highlight">Speaker</span>
+    <div class="seminar-entry__row seminar-entry__row--title">
+          <div class="seminar-entry__content">
+              Ciclo de Seminarios del Departamento de Economía —
+              <span class="highlight">Speaker</span>
+      </div>
     </div>
-    <div class="seminar-entry__location">
-      <div class="seminar-entry__location-icon"></div>
+    <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         Universidad de San Andrés, Buenos Aires, Argentina
       </div>
@@ -411,32 +411,32 @@ nav_order: 2
 <!-- invited talks section show by default -->
 <div id="content-3" style="display: block;">
 
-<p><b>2023</b></p>
+<p style="font-size:2rem; color:var(--global-theme-color);"><b>2023</b></p>
 
   <div class="seminar-entry indented">
-    <div class="seminar-entry__icon"></div>
-    <div class="seminar-entry__content">
-      <i>"A Modern Guide to the Economics of Crime"</i> (Elgar, 2022) —
-      <span class="highlight">Discussant</span>
+    <div class="seminar-entry__row seminar-entry__row--title">
+      <div class="seminar-entry__content">
+          <i>"A Modern Guide to the Economics of Crime"</i> (Elgar, 2022) —
+          <span class="highlight">Discussant</span>
+      </div>
     </div>
-    <div class="seminar-entry__location">
-      <div class="seminar-entry__location-icon"></div>
+    <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         “Walter Bigiavi” Library, Bologna, Italy
       </div>
     </div>
   </div>
 
-<p><b>2021</b></p>
+<p style="font-size:2rem; color:var(--global-theme-color);"><b>2021</b></p>
 
   <div class="seminar-entry indented">
-    <div class="seminar-entry__icon"></div>
-    <div class="seminar-entry__content">
-      First Year Ph.D. Poster Session —
-      <span class="highlight">Speaker</span>
+    <div class="seminar-entry__row seminar-entry__row--title">
+      <div class="seminar-entry__content">
+          First Year Ph.D. Poster Session —
+          <span class="highlight">Speaker</span>
+      </div>
     </div>
-    <div class="seminar-entry__location">
-      <div class="seminar-entry__location-icon"></div>
+    <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         University of Bologna, Italy
       </div>
