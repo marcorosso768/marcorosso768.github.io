@@ -14,12 +14,6 @@ nav_order: 2
 
 <!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
-  <a id="toggle-content-4" href="javascript:void(0);" onclick="toggleVisibility('content-4')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> 2024 </h2>
-  </a>
-</div>
-
-<div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
