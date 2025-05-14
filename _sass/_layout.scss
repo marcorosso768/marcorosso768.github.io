@@ -382,34 +382,60 @@ a.float-right:active i {
 // Variables to be re-used
 $fa-family: "Font Awesome 6 Free";
 $fa-weight: 900;
-$fa-size: 1em;
-$fa-fw-width: 1.25em;  // fixed widht as fa-fw
+$fa-fw-width: 1.25em;
 
+@mixin fa-base {
+  font-family: $fa-family;
+  font-weight: $fa-weight;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// --- seminar-entry ---
 .seminar-entry {
   position: relative;
   margin: 0 0 1rem;
   padding: 0;
 
-  // icon “presentation”
-  &__icon {
+  // applica indentazione se c'è la classe
+  &.indented {
+    margin-left: var(--indent-margin);
+  }
+
+  // container di entrambe le icone
+  &__icon,
+  &__location-icon {
     position: absolute;
-    top: 0; left: 0;
-    display: inline-block;
-    width: $fa-fw-width;      // fixed width
+    top: 0;
+    left: 0;
+    width: $fa-fw-width;    // fixed width
     text-align: center;
 
     &::before {
-      content: "\f51c";        // codepoint fa-person-chalkboard
-      font-family: $fa-family;
-      font-weight: $fa-weight;
+      @include fa-base;
       display: inline-block;
-      font-size: $fa-size;
+      font-size: 1.25em;    // leggermente più grande per pareggiare
       color: var(--global-theme-color);
     }
   }
 
+  // icona “person-chalkboard”
+  &__icon::before {
+    content: "\f51c";
+  }
+
+  // icona “location-dot”
+  &__location-icon::before {
+    content: "\f3c5";
+  }
+
   &__content {
-    margin-left: $fa-fw-width + 0.2em; // space after icon
+    margin-left: $fa-fw-width + 0.2em;
     line-height: 16pt;
 
     .highlight {
@@ -418,26 +444,8 @@ $fa-fw-width: 1.25em;  // fixed widht as fa-fw
   }
 
   &__location {
-    position: relative;
     margin-top: 0.2em;
     font-size: 10pt;
-
-    &-icon {
-      position: absolute;
-      top: 0; left: 0;
-      display: inline-block;
-      width: $fa-fw-width;    // fixed width
-      text-align: center;
-
-      &::before {
-        content: "\f3c5";      // codepoint fa-location-dot
-        font-family: $fa-family;
-        font-weight: $fa-weight;
-        display: inline-block;
-        font-size: $fa-size;
-        color: var(--global-theme-color);
-      }
-    }
 
     &-text {
       margin-left: $fa-fw-width + 0.2em;
