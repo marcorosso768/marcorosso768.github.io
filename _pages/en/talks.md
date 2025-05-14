@@ -127,7 +127,7 @@ nav_order: 2
    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
-        Le Sparne, Pitigliano (GR), Italy
+        Le Sparne — Pitigliano (GR), Italy
       </div>
     </div>
   </div>
@@ -153,7 +153,7 @@ nav_order: 2
    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
-        Le Sparne, Pitigliano (GR), Italy
+        Le Sparne — Pitigliano (GR), Italy
       </div>
     </div>
   </div>
@@ -235,7 +235,7 @@ nav_order: 2
    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
-        Le Sparne, Pitigliano (GR), Italy
+        Le Sparne — Pitigliano (GR), Italy
       </div>
     </div>
   </div>
@@ -275,7 +275,7 @@ nav_order: 2
    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
-        Le Sparne, Pitigliano (GR), Italy
+        Le Sparne — Pitigliano (GR), Italy
       </div>
     </div>
   </div>
