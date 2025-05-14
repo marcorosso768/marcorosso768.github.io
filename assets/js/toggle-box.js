@@ -7,18 +7,21 @@ function initTogglePills() {
       const container = pill.closest('.pill-container');
       const boxes = container.parentElement.querySelectorAll('.toggle-box');
       const pills = container.querySelectorAll('.toggle-pill');
-
+    
       const currentBox = document.getElementById(targetId);
       const isOpen = currentBox.classList.contains('open');
-
+    
       // Chiude tutte
       boxes.forEach(b => b.classList.remove('open'));
-      pills.forEach(p => p.querySelector('i')?.classList.remove('rotated'));
-
-      // Apre quella cliccata (se chiusa)
+      pills.forEach(p => {
+        const icon = p.querySelector('i');
+        if (icon) icon.classList.remove('rotated');
+      });
+    
+      // Apre quella cliccata (se era chiusa)
       if (!isOpen) {
         currentBox.classList.add('open');
-        icon?.classList.add('rotated');
+        if (icon) icon.classList.add('rotated');
       }
     });
   });
