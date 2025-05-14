@@ -291,4 +291,4 @@ nav_order: 2
   </div>
   
 </div>
-<!-- END SECTION -->
+<!-- END OF BOOK DISCUSSIONS AND OTHER EVENTS SECTION -->
