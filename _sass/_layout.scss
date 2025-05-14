@@ -419,11 +419,11 @@ a.float-right:active i {
 }
 
 // -----------------------------------------------------------------------------
-// 1. Variabili & Mixin
+// 1. Variabili & Reset Font Awesome Base (assumo che @font-face sia già dichiarato)
 // -----------------------------------------------------------------------------
 $fa-family       : "Font Awesome 6 Free";
 $fa-solid-weight : 900;
-$fa-fw-width     : 1.25em; // larghezza di .fa-fw
+$fa-fw-width     : 1.25em;
 
 @mixin fa-base {
   font-family:        $fa-family;
@@ -438,37 +438,40 @@ $fa-fw-width     : 1.25em; // larghezza di .fa-fw
 }
 
 // -----------------------------------------------------------------------------
-// 2. .seminar-entry
+// 2. Grid layout per ogni voce
 // -----------------------------------------------------------------------------
 .seminar-entry {
-  position: relative;
-  margin:   0 0 1rem;
-  padding:  0;
-
-  // se aggiungi .indented, sposta tutto di var(--indent-margin)
+  display: grid;
+  grid-template-columns: $fa-fw-width auto;
+  grid-template-rows: auto auto;
+  column-gap: 0.3em;   // spazio orizzontale tra icona e testo
+  row-gap:    0.2em;   // spazio verticale tra titolo e location
+  margin:     0 0 1rem;
+  
   &.indented {
     margin-left: var(--indent-margin);
   }
 
-  // — icon “person-chalkboard”
+  // --- icona principale sulla riga 1, colonna 1 ---
   &__icon {
-    position: absolute;
-    top: 0; left: 0;
-    width: $fa-fw-width;
-    text-align: center;
+    grid-column: 1;
+    grid-row:    1;
+    justify-self: center;
+    align-self:   center;
 
     &::before {
       @include fa-base;
-      content:   "\e53d";
-      display:   inline-block;
-      font-size: 1em;        // pari all'altezza del testo
+      content:   "\e53d";       // il tuo codepoint personalizzato
+      font-size: 1em;           // pari all’altezza del testo
       color:     var(--global-theme-color);
+      display:   inline-block;
     }
   }
 
-  // — titolo & “Speaker”
+  // --- titolo + “Speaker” riga 1, colonna 2 ---
   &__content {
-    margin-left: $fa-fw-width + 0.3em;
+    grid-column: 2;
+    grid-row:    1;
     line-height: 1.2;
 
     .highlight {
@@ -476,32 +479,29 @@ $fa-fw-width     : 1.25em; // larghezza di .fa-fw
     }
   }
 
-  // — location
-  &__location {
-    position: relative;    // icona relativa a qui
-    margin-top: 0.2em;
-    font-size:  0.9em;
-    font-style: italic;
+  // --- icona location riga 2, colonna 1 ---
+  &__location-icon {
+    grid-column: 1;
+    grid-row:    2;
+    justify-self: center;
+    align-self:   center;
 
-    &-icon {
-      position: absolute;
-      top: 0; left: 0;
-      width: $fa-fw-width;
-      text-align: center;
-
-      &::before {
-        @include fa-base;
-        content:   "\f3c5";  // fa-location-dot
-        display:   inline-block;
-        font-size: 1em;
-        color:     var(--global-theme-color);
-      }
+    &::before {
+      @include fa-base;
+      content:   "\f3c5";      // fa-location-dot
+      font-size: 1em;
+      color:     var(--global-theme-color);
+      display:   inline-block;
     }
+  }
 
-    &-text {
-      margin-left: $fa-fw-width + 0.3em;
-      line-height: 1.1;
-    }
+  // --- testo location riga 2, colonna 2 ---
+  &__location-text {
+    grid-column: 2;
+    grid-row:    2;
+    font-size:   0.9em;      // un filo più piccolo
+    font-style:  italic;
+    line-height: 1.1;
   }
 }
 
