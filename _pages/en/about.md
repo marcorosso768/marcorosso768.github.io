@@ -10,7 +10,7 @@ subtitle: >
     <div style="margin: 0; padding: 0; position: relative;">
         <!-- First row: University icon and department name -->
         <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; margin-top: -10pt; line-height: 14pt;">
-            <i class="fas fa-university" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+            <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color); font-size: 10pt;"></i>
         </div>
         <div style="display: inline-block; padding-left: 20px; margin-top: -10pt; line-height: 14pt;">
             <span style="color: var(--global-theme-color); font-size: 10pt;">
