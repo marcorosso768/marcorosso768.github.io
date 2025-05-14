@@ -382,7 +382,7 @@ a.float-right:active i {
 // Variables to be re-used
 $fa-family: "Font Awesome 6 Free";
 $fa-weight: 900;
-$fa-fw-width: 1.25em;
+$fa-fw-w: 1.25em;
 
 @mixin fa-base {
   font-family: $fa-family;
@@ -390,67 +390,70 @@ $fa-fw-width: 1.25em;
   font-style: normal;
   font-variant: normal;
   text-transform: none;
-  speak: none;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-// --- seminar-entry ---
+// wrapper generale
 .seminar-entry {
   position: relative;
   margin: 0 0 1rem;
   padding: 0;
 
-  // applica indentazione se c'è la classe
   &.indented {
     margin-left: var(--indent-margin);
   }
 
-  // container di entrambe le icone
-  &__icon,
-  &__location-icon {
+  // prima icona (persona‐lavagna)
+  &__icon {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: $fa-fw-width;    // fixed width
+    top: 0; left: 0;
+    width: $fa-fw-w;
     text-align: center;
 
     &::before {
       @include fa-base;
+      content: "\f51c";              // fa-person-chalkboard  citeturn0search0
+      font-size: 1em;                // stessa dimensione del testo
+      color: var(--global-theme-color);
       display: inline-block;
-      font-size: 1.25em;    // leggermente più grande per pareggiare
-      color: var(--global-theme-color);
     }
   }
 
-  // icona “person-chalkboard”
-  &__icon::before {
-    content: "\f51c";
-  }
-
-  // icona “location-dot”
-  &__location-icon::before {
-    content: "\f3c5";
-  }
-
+  // contenuto principale (titolo + speaker)
   &__content {
-    margin-left: $fa-fw-width + 0.2em;
-    line-height: 16pt;
-
-    .highlight {
-      color: var(--global-theme-color);
-    }
+    margin-left: $fa-fw-w + 0.3em;   // lascia spazio icona + un pochino
+    line-height: 1.2;
   }
 
+  .highlight { color: var(--global-theme-color); }
+
+  // blocco location
   &__location {
+    position: relative;             // ora l'icona sarà rispetto a qui
     margin-top: 0.2em;
-    font-size: 10pt;
+    font-size: 0.9em;
+    font-style: italic;
+
+    &-icon {
+      position: absolute;
+      top: 0; left: 0;
+      width: $fa-fw-w;
+      text-align: center;
+
+      &::before {
+        @include fa-base;
+        content: "\f3c5";            // fa-location-dot
+        font-size: 1em;
+        color: var(--global-theme-color);
+        display: inline-block;
+      }
+    }
 
     &-text {
-      margin-left: $fa-fw-width + 0.2em;
-      line-height: 12pt;
-      font-style: italic;
+      margin-left: $fa-fw-w + 0.3em;
+      line-height: 1.1;
     }
   }
 }
