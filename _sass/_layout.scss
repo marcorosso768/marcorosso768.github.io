@@ -488,13 +488,14 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
     align-items:    center;       // icona centrata verticalmente
     font-size:      0.9em;
     font-style:     italic;
-    line-height:    1.1;
+    line-height:    1;
 
     &::before {
       content: "\f3c5";  // codepoint di location-dot
     }
 
     & .seminar-entry__location-text {
+      line-height:    1;
       /* niente altro, il flex-gap fa già il suo lavoro */
     }
   }
