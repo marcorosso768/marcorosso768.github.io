@@ -26,13 +26,13 @@ nav_order: 2
 <div id="content-1" style="display: block;">
 
 <!-- 2024 -->
-<div style="margin-left: var(--indent-margin); margin-bottom: 1rem;">
+<div style="margin-left: 4px; margin-bottom: 1rem; font-size: 10px;">
     <div style="display: inline-block; text-align: center; position: absolute;">
         <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
     </div>
-    <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+    <div style="display: inline-block; padding-left: 25px; line-height: 16pt;">
         <span>
-            2024
+            <b>2024</b>
         </span>
     </div>
 </div>
@@ -82,13 +82,13 @@ nav_order: 2
 <div id="content-2" style="display: block;">
 
 <!-- 2025 -->
-<div style="margin-left: var(--indent-margin); margin-bottom: 1rem;">
+<div style="margin-left: 4px; margin-bottom: 1rem; font-size: 10px;">
     <div style="display: inline-block; text-align: center; position: absolute;">
         <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
     </div>
-    <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+    <div style="display: inline-block; padding-left: 25px; line-height: 16pt;">
         <span>
-            2025
+            <b>2025</b>
         </span>
     </div>
 </div>
@@ -108,13 +108,13 @@ nav_order: 2
   </div>
 
 <!-- 2024 -->
-<div style="margin-left: var(--indent-margin); margin-bottom: 1rem;">
+<div style="margin-left: 4px; margin-bottom: 1rem; font-size: 10px;">
     <div style="display: inline-block; text-align: center; position: absolute;">
         <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
     </div>
-    <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+    <div style="display: inline-block; padding-left: 25px; line-height: 16pt;">
         <span>
-            2024
+            <b>2024</b>
         </span>
     </div>
 </div>
@@ -133,13 +133,13 @@ nav_order: 2
   </div>
 
 <!-- 2023 -->
-<div style="margin-left: var(--indent-margin); margin-bottom: 1rem;">
+<div style="margin-left: 4px; margin-bottom: 1rem; font-size: 10px;">
     <div style="display: inline-block; text-align: center; position: absolute;">
         <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
     </div>
-    <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+    <div style="display: inline-block; padding-left: 25px; line-height: 16pt;">
         <span>
-            2023
+            <b>2023</b>
         </span>
     </div>
 </div>
@@ -201,13 +201,13 @@ nav_order: 2
   </div>
 
 <!-- 2022 -->
-<div style="margin-left: var(--indent-margin); margin-bottom: 1rem;">
+<div style="margin-left: 4px; margin-bottom: 1rem; font-size: 10px;">
     <div style="display: inline-block; text-align: center; position: absolute;">
         <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
     </div>
-    <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+    <div style="display: inline-block; padding-left: 25px; line-height: 16pt;">
         <span>
-            2022
+            <b>2022</b>
         </span>
     </div>
 </div>
@@ -255,13 +255,13 @@ nav_order: 2
   </div>
 
 <!-- 2021 -->
-<div style="margin-left: var(--indent-margin); margin-bottom: 1rem;">
+<div style="margin-left: 4px; margin-bottom: 1rem; font-size: 10px;">
     <div style="display: inline-block; text-align: center; position: absolute;">
         <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
     </div>
-    <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+    <div style="display: inline-block; padding-left: 25px; line-height: 16pt;">
         <span>
-            2021
+            <b>2021</b>
         </span>
     </div>
 </div>
@@ -311,13 +311,13 @@ nav_order: 2
 <div id="content-3" style="display: block;">
 
 <!-- 2023 -->
-<div style="margin-left: var(--indent-margin); margin-bottom: 1rem;">
+<div style="margin-left: 4px; margin-bottom: 1rem; font-size: 10px;">
     <div style="display: inline-block; text-align: center; position: absolute;">
         <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
     </div>
-    <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+    <div style="display: inline-block; padding-left: 25px; line-height: 16pt;">
         <span>
-            2023
+            <b>2023</b>
         </span>
     </div>
 </div>
@@ -337,13 +337,13 @@ nav_order: 2
   </div>
 
 <!-- 2021 -->
-<div style="margin-left: var(--indent-margin); margin-bottom: 1rem;">
+<div style="margin-left: 4px; margin-bottom: 1rem; font-size: 10px;">
     <div style="display: inline-block; text-align: center; position: absolute;">
         <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
     </div>
-    <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+    <div style="display: inline-block; padding-left: 25px; line-height: 16pt;">
         <span>
-            2021
+            <b>2021</b>
         </span>
     </div>
 </div>
@@ -364,20 +364,3 @@ nav_order: 2
   
 </div>
 <!-- END SECTION -->
-
-<!-- Inline script -->
-<script>
-  // Toggle the visibility of the sections
-  function toggleVisibility(id) {
-    var content = document.getElementById(id);
-    var toggleButton = document.getElementById('toggle-' + id).querySelector('i');
-    
-    if (content.style.display === "none") {
-      content.style.display = "block";
-      toggleButton.className = "fa-solid fa-chevron-down fa-2xs"; // Change to down icon
-    } else {
-      content.style.display = "none";
-      toggleButton.className = "fa-solid fa-chevron-right fa-2xs"; // Change to right icon
-    }
-  }  
-</script>
