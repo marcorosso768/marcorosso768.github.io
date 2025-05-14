@@ -380,13 +380,13 @@ a.float-right:active i {
 *****************************************************************************/
 
 // -----------------------------------------------------------------------------
-// 0. Self-host Font Awesome: tutti i formati
+// 0. Self-host Font Awesome (tutti i family/weight che hai disponibili)
 // -----------------------------------------------------------------------------
 @font-face {
   font-family: "Font Awesome 6 Brands";
   font-style: normal;
   font-weight: 400;
-  src: 
+  src:
     url("/assets/webfonts/fa-brands-400.woff2") format("woff2"),
     url("/assets/webfonts/fa-brands-400.ttf")   format("truetype");
 }
@@ -394,7 +394,7 @@ a.float-right:active i {
 @font-face {
   font-family: "Font Awesome 6 Free";
   font-style: normal;
-  font-weight: 400;   // per le icone “regular”
+  font-weight: 400;   // regular
   src:
     url("/assets/webfonts/fa-regular-400.woff2") format("woff2"),
     url("/assets/webfonts/fa-regular-400.ttf")   format("truetype");
@@ -403,7 +403,7 @@ a.float-right:active i {
 @font-face {
   font-family: "Font Awesome 6 Free";
   font-style: normal;
-  font-weight: 900;   // per le icone “solid”
+  font-weight: 900;   // solid
   src:
     url("/assets/webfonts/fa-solid-900.woff2") format("woff2"),
     url("/assets/webfonts/fa-solid-900.ttf")   format("truetype");
@@ -412,18 +412,18 @@ a.float-right:active i {
 @font-face {
   font-family: "Font Awesome 6 Free";
   font-style: normal;
-  font-weight: 400;   // compatibilità con v4 (shim)
+  font-weight: 400;   // v4 compatibility shim
   src:
     url("/assets/webfonts/fa-v4compatibility.woff2") format("woff2"),
     url("/assets/webfonts/fa-v4compatibility.ttf")   format("truetype");
 }
 
 // -----------------------------------------------------------------------------
-// 1. Variabili e mixin
+// 1. Variabili & Mixin
 // -----------------------------------------------------------------------------
 $fa-family       : "Font Awesome 6 Free";
 $fa-solid-weight : 900;
-$fa-fw-width     : 1.25em;
+$fa-fw-width     : 1.25em; // larghezza di .fa-fw
 
 @mixin fa-base {
   font-family:        $fa-family;
@@ -438,19 +438,19 @@ $fa-fw-width     : 1.25em;
 }
 
 // -----------------------------------------------------------------------------
-// 2. Styling per i seminar-entry
+// 2. .seminar-entry
 // -----------------------------------------------------------------------------
 .seminar-entry {
   position: relative;
   margin:   0 0 1rem;
   padding:  0;
 
-  // se aggiungi .indented al blocco, si sposterà di var(--indent-margin)
+  // se aggiungi .indented, sposta tutto di var(--indent-margin)
   &.indented {
     margin-left: var(--indent-margin);
   }
 
-  // — Icona “chalkboard-user”
+  // — icon “person-chalkboard”
   &__icon {
     position: absolute;
     top: 0; left: 0;
@@ -459,14 +459,14 @@ $fa-fw-width     : 1.25em;
 
     &::before {
       @include fa-base;
-      content:   "\f51c";      // codepoint di fa-chalkboard-user
+      content:   "\e53d";
       display:   inline-block;
-      font-size: 1em;          // stessa altezza del testo
+      font-size: 1em;        // pari all'altezza del testo
       color:     var(--global-theme-color);
     }
   }
 
-  // — Titolo + Speaker
+  // — titolo & “Speaker”
   &__content {
     margin-left: $fa-fw-width + 0.3em;
     line-height: 1.2;
@@ -476,9 +476,9 @@ $fa-fw-width     : 1.25em;
     }
   }
 
-  // — Location
+  // — location
   &__location {
-    position: relative;
+    position: relative;    // icona relativa a qui
     margin-top: 0.2em;
     font-size:  0.9em;
     font-style: italic;
@@ -491,7 +491,7 @@ $fa-fw-width     : 1.25em;
 
       &::before {
         @include fa-base;
-        content:   "\f3c5";    // codepoint di fa-location-dot
+        content:   "\f3c5";  // fa-location-dot
         display:   inline-block;
         font-size: 1em;
         color:     var(--global-theme-color);
