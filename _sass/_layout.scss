@@ -485,13 +485,14 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
 
   // la riga della location
   &__row--location {
-    align-items:    center;       // icona centrata verticalmente
+    align-items:    flex-start; //center;       // icona centrata verticalmente
     font-size:      0.9em;
     font-style:     italic;
     line-height:    1;
 
     &::before {
       content: "\f3c5";  // codepoint di location-dot
+      margin-left: 2px;
     }
 
     & .seminar-entry__location-text {
