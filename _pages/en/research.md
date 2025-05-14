@@ -23,7 +23,8 @@ nav_order: 1
 </div>
 
 <div id="content-1" style="display: block;">
-  <div class="icon-entry indented" style="line-height: 1.25;">
+<div style="line-height: 1.25;">
+  <div class="icon-entry indented">
   <i class="fa-solid fa-newspaper fa-fw"></i>
   <span>
     Farina E., Rosso M., Dansero L., et al. (2023). 
@@ -32,6 +33,7 @@ nav_order: 1
     </a> 
     <i>Journal of Epidemiology & Community Health</i>
   </span>
+  </div>
   
 
 <div id="toggle-abstract-crc" class="abstract-toggle-pill"
