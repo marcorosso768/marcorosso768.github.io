@@ -27,5 +27,8 @@ function initTogglePills() {
   });
 }
 
-// Avvio automatico dopo caricamento DOM
-document.addEventListener("DOMContentLoaded", initTogglePills);
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initTogglePills);
+} else {
+  initTogglePills();
+}
