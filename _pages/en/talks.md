@@ -26,7 +26,7 @@ nav_order: 2
 <div id="content-1" style="display: block;">
 
 <div style="margin-left: var(--indent-margin); margin-bottom: 1rem;">
-    <div style="display: inline-block; text-align: center; position: absolute; top: 0;">
+    <div style="display: inline-block; text-align: center; position: absolute;">
         <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
     </div>
     <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
