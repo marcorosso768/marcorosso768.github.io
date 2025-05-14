@@ -542,7 +542,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
       content: "\f51c";   // il tuo codepoint “person-chalkboard”
     }
     // testo principale (titolo + “Speaker”)
-    & .seminar-entry__content {
+    & .teaching-entry__content {
       line-height: 1.2;
       .highlight {
         color: var(--global-theme-color);
@@ -562,7 +562,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
       margin-left: 3px;
     }
 
-    & .seminar-entry__location-text {
+    & .teaching-entry__location-text {
       line-height:    1;
       /* niente altro, il flex-gap fa già il suo lavoro */
     }
