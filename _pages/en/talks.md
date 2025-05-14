@@ -25,6 +25,7 @@ nav_order: 2
 <!-- section show by default -->
 <div id="content-1" style="display: block;">
 
+<!-- 2024 -->
 <div style="margin-left: var(--indent-margin); margin-bottom: 1rem;">
     <div style="display: inline-block; text-align: center; position: absolute;">
         <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
@@ -80,7 +81,17 @@ nav_order: 2
 <!-- section show by default -->
 <div id="content-2" style="display: block;">
 
-<p style="font-size:1rem; color:var(--global-theme-color);"><i class="fa-solid fa-calendar-days"></i> <b>2025</b></p>
+<!-- 2025 -->
+<div style="margin-left: var(--indent-margin); margin-bottom: 1rem;">
+    <div style="display: inline-block; text-align: center; position: absolute;">
+        <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
+    </div>
+    <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+        <span>
+            2025
+        </span>
+    </div>
+</div>
 
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
@@ -96,7 +107,17 @@ nav_order: 2
     </div>
   </div>
 
-<p style="font-size:1rem; color:var(--global-theme-color);"><b>2024</b></p>
+<!-- 2024 -->
+<div style="margin-left: var(--indent-margin); margin-bottom: 1rem;">
+    <div style="display: inline-block; text-align: center; position: absolute;">
+        <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
+    </div>
+    <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+        <span>
+            2024
+        </span>
+    </div>
+</div>
 
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
@@ -111,7 +132,17 @@ nav_order: 2
     </div>
   </div>
 
-<p style="font-size:1rem; color:var(--global-theme-color);"><i class="fa-solid fa-calendar-days"></i> <b>2023</b></p>
+<!-- 2023 -->
+<div style="margin-left: var(--indent-margin); margin-bottom: 1rem;">
+    <div style="display: inline-block; text-align: center; position: absolute;">
+        <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
+    </div>
+    <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+        <span>
+            2023
+        </span>
+    </div>
+</div>
 
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
@@ -169,7 +200,17 @@ nav_order: 2
     </div>
   </div>
 
-<p style="font-size:1rem; color:var(--global-theme-color);"><b><i class="fa-solid fa-calendar-days"></i> 2022</b></p>
+<!-- 2022 -->
+<div style="margin-left: var(--indent-margin); margin-bottom: 1rem;">
+    <div style="display: inline-block; text-align: center; position: absolute;">
+        <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
+    </div>
+    <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+        <span>
+            2022
+        </span>
+    </div>
+</div>
 
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
@@ -213,7 +254,17 @@ nav_order: 2
     </div>
   </div>
 
-<p style="font-size:1rem; color:var(--global-theme-color);"><b><i class="fa-solid fa-calendar-days"></i> 2021</b></p>
+<!-- 2021 -->
+<div style="margin-left: var(--indent-margin); margin-bottom: 1rem;">
+    <div style="display: inline-block; text-align: center; position: absolute;">
+        <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
+    </div>
+    <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+        <span>
+            2021
+        </span>
+    </div>
+</div>
 
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
@@ -259,12 +310,22 @@ nav_order: 2
 <!-- section show by default -->
 <div id="content-3" style="display: block;">
 
-<p style="font-size:1rem; color:var(--global-theme-color);"><i class="fa-solid fa-calendar-days"></i> <b>2023</b></p>
+<!-- 2023 -->
+<div style="margin-left: var(--indent-margin); margin-bottom: 1rem;">
+    <div style="display: inline-block; text-align: center; position: absolute;">
+        <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
+    </div>
+    <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+        <span>
+            2023
+        </span>
+    </div>
+</div>
 
   <div class="seminar-entry indented">
     <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
-          <i>"A Modern Guide to the Economics of Crime"</i> (Elgar, 2022) —
+          <i>“A Modern Guide to the Economics of Crime”</i> (Elgar, 2022) —
           <span class="highlight">Discussant</span>
       </div>
     </div>
@@ -275,7 +336,17 @@ nav_order: 2
     </div>
   </div>
 
-<p style="font-size:1rem; color:var(--global-theme-color);"><i class="fa-solid fa-calendar-days"></i> <b>2021</b></p>
+<!-- 2021 -->
+<div style="margin-left: var(--indent-margin); margin-bottom: 1rem;">
+    <div style="display: inline-block; text-align: center; position: absolute;">
+        <i class="fa-solid fa-calendar-days fa-fw" style="color: var(--global-theme-color);"></i>
+    </div>
+    <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+        <span>
+            2021
+        </span>
+    </div>
+</div>
 
   <div class="seminar-entry indented">
     <div class="seminar-entry__row seminar-entry__row--title">
