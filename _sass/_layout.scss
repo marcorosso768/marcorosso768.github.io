@@ -376,5 +376,77 @@ a.float-right:active i {
 }
 
 /*****************************************************************************
+* Talks
+*****************************************************************************/
+
+// Variables to be re-used
+$fa-family: "Font Awesome 6 Free";
+$fa-weight: 900;
+$fa-size: 1em;
+$fa-fw-width: 1.25em;  // fixed widht as fa-fw
+
+.seminar-entry {
+  position: relative;
+  margin: 0 0 1rem;
+  padding: 0;
+
+  // icon “presentation”
+  &__icon {
+    position: absolute;
+    top: 0; left: 0;
+    display: inline-block;
+    width: $fa-fw-width;      // fixed width
+    text-align: center;
+
+    &::before {
+      content: "\f51c";        // codepoint fa-person-chalkboard
+      font-family: $fa-family;
+      font-weight: $fa-weight;
+      display: inline-block;
+      font-size: $fa-size;
+      color: var(--global-theme-color);
+    }
+  }
+
+  &__content {
+    margin-left: $fa-fw-width + 0.2em; // space after icon
+    line-height: 16pt;
+
+    .highlight {
+      color: var(--global-theme-color);
+    }
+  }
+
+  &__location {
+    position: relative;
+    margin-top: 0.2em;
+    font-size: 10pt;
+
+    &-icon {
+      position: absolute;
+      top: 0; left: 0;
+      display: inline-block;
+      width: $fa-fw-width;    // fixed width
+      text-align: center;
+
+      &::before {
+        content: "\f3c5";      // codepoint fa-location-dot
+        font-family: $fa-family;
+        font-weight: $fa-weight;
+        display: inline-block;
+        font-size: $fa-size;
+        color: var(--global-theme-color);
+      }
+    }
+
+    &-text {
+      margin-left: $fa-fw-width + 0.2em;
+      line-height: 12pt;
+      font-style: italic;
+    }
+  }
+}
+
+/*****************************************************************************
 * 
 *****************************************************************************/
