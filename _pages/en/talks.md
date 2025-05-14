@@ -54,6 +54,7 @@ nav_order: 2
       </div>
     </div>
   </div>
+  
 </div>
 
 <!--END TEST NEW LAYOUT-->
@@ -131,13 +132,13 @@ nav_order: 2
 
 <!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
-  <a id="toggle-content-3" href="javascript:void(0);" onclick="toggleVisibility('content-3')">
+  <a id="toggle-content-3" href="javascript:void(0);" onclick="toggleVisibility('content-31')">
     <h2 class="category"><i class="fa-solid fa-chevron-right fa-2xs"></i> 2023 </h2>
   </a>
 </div>
 
 <!-- 2023 section hidden by default -->
-<div id="content-3" style="display: none;">
+<div id="content-31" style="display: none;">
 
   <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: Person icon and seminar title -->
@@ -392,6 +393,55 @@ nav_order: 2
   
 </div>
 <!-- end -->
+
+
+
+<!-- BOOK DISCUSSIONS AND OTHER EVENTS -->
+
+<!-- Section title toggle link with Font Awesome icons -->
+<div class="projects">
+  <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-3"></i>
+      <span>book discussions and other events</span>
+    </h2>
+  </a>
+</div>
+
+<!-- invited talks section show by default -->
+<div id="content-3" style="display: block;">
+
+<p><b>2024</b></p>
+
+  <div class="seminar-entry indented">
+    <div class="seminar-entry__icon"></div>
+    <div class="seminar-entry__content">
+      PRIN Workshop on The Economics of Culture: Ethnicity, Gender, and their Interactions —
+      <span class="highlight">Speaker</span>
+    </div>
+    <div class="seminar-entry__location">
+      <div class="seminar-entry__location-icon"></div>
+      <div class="seminar-entry__location-text">
+        University of Modena and Reggio-Emilia, Italy
+      </div>
+    </div>
+  </div>
+
+  <div class="seminar-entry indented">
+    <div class="seminar-entry__icon"></div>
+    <div class="seminar-entry__content">
+      Ciclo de Seminarios del Departamento de Economía —
+      <span class="highlight">Speaker</span>
+    </div>
+    <div class="seminar-entry__location">
+      <div class="seminar-entry__location-icon"></div>
+      <div class="seminar-entry__location-text">
+        Universidad de San Andrés, Buenos Aires, Argentina
+      </div>
+    </div>
+  </div>
+  
+</div>
 
 <!-- Inline script -->
 <script>
