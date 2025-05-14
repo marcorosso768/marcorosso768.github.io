@@ -21,6 +21,34 @@ nav_order: 2
 
 <!-- 2024 section show by default -->
 <div id="content-4" style="display: block;">
+
+  <div class="seminar-entry indented">
+    <div class="seminar-entry__icon"></div>
+    <div class="seminar-entry__content">
+      PRIN Workshop on The Economics of Culture: Ethnicity, Gender, and their Interactions —
+      <span class="highlight">Speaker</span>
+    </div>
+    <div class="seminar-entry__location">
+      <div class="seminar-entry__location-icon"></div>
+      <div class="seminar-entry__location-text">
+        University of Modena and Reggio-Emilia, Italy
+      </div>
+    </div>
+  </div>
+
+  <div class="seminar-entry indented">
+    <div class="seminar-entry__icon"></div>
+    <div class="seminar-entry__content">
+      Ciclo de Seminarios del Departamento de Economía —
+      <span class="highlight">Speaker</span>
+    </div>
+    <div class="seminar-entry__location">
+      <div class="seminar-entry__location-icon"></div>
+      <div class="seminar-entry__location-text">
+        Universidad de San Andrés, Buenos Aires, Argentina
+      </div>
+    </div>
+  </div>
     
   <div style="margin: 0; padding: 0; position: relative;">
       <!-- First row: Person icon and seminar title -->
