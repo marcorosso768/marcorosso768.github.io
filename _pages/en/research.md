@@ -23,7 +23,7 @@ nav_order: 1
 </div>
 
 <div id="content-1" style="display: block;">
-  <div style="line-height: 1.2;">
+  <div style="line-height: 1.2; margin-bottom: 1rem;">
     <div class="icon-entry indented">
       <i class="fa-solid fa-newspaper fa-fw"></i>
       <span>
@@ -57,7 +57,7 @@ nav_order: 1
 </div>
 
 <div id="content-2" style="display: block;">
-  <div style="line-height: 1.2;">
+  <div style="line-height: 1.2; margin-bottom: 1rem;">
     <div class="icon-entry indented">
       <i class="fa-solid fa-book-open fa-fw"></i>
       <span>
@@ -84,7 +84,7 @@ nav_order: 1
     </div>
  </div>
 
- <div style="line-height: 1.2;">
+ <div style="line-height: 1.2; margin-bottom: 1rem;">
     <div class="icon-entry indented">
       <i class="fa-solid fa-book-open fa-fw" title="Working paper"></i>
       <em>Corruption, temptation, and self-selection in the public sector</em>
@@ -119,7 +119,7 @@ nav_order: 1
 </div>
 
 <div id="content-3" style="display: block;">
-  <div style="line-height: 1.2;">
+  <div style="line-height: 1.2; margin-bottom: 1rem;">
     <div class="icon-entry indented">
       <i class="fa-solid fa-bookmark fa-fw"></i>
       <span>
@@ -139,7 +139,7 @@ nav_order: 1
     </div> -->
  </div>
 
- <div style="line-height: 1.2;">
+ <div style="line-height: 1.2; margin-bottom: 1rem;">
     <div class="icon-entry indented">
       <i class="fa-solid fa-bookmark fa-fw" title="In progress"></i>
       <span><em>The Effect of Erasmus Programs on Voting</em></span>
