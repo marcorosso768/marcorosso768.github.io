@@ -567,8 +567,8 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   margin-left: var(--toggle-spacing);
   margin-right: var(--indent-margin);
   margin-top: 4px;
-  margin-bottom: 1rem;
-  padding: 0.5em 0.5em;
+  margin-bottom: 0;// margin-bottom: 1rem;
+  padding: 1em 1em;
   background-color: var(--global-card-bg-color);
   border: 1px solid var(--global-theme-color);
   border-radius: var(--toggle-radius);
