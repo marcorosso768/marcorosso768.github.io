@@ -24,17 +24,21 @@ function expandBox(box) {
   box.classList.add("active");
   box.style.opacity = 1;
 
-  // Forza il reflow
+  // Primo reflow: forza il rendering
   box.offsetHeight;
 
-  // Delay di un singolo frame per lasciare il browser respirare
+  // Aspetta un frame per settare la maxHeight del box
   requestAnimationFrame(() => {
-    box.style.maxHeight = box.scrollHeight + "px";
+    const boxHeight = box.scrollHeight;
+    box.style.maxHeight = boxHeight + "px";
 
-    const section = box.closest(".toggle-section.expanded");
-    if (section) {
-      section.style.maxHeight = section.scrollHeight + "px";
-    }
+    // Poi aspetta un altro frame per aggiornare la sezione
+    requestAnimationFrame(() => {
+      const section = box.closest(".toggle-section.expanded");
+      if (section) {
+        section.style.maxHeight = section.scrollHeight + "px";
+      }
+    });
   });
 }
 
