@@ -58,32 +58,37 @@ nav_order: 1
 <div id="content-2" class="toggle-section expanded">
 
   <!-- Paper 1 -->
-  <div class="icon-entry indented">
-    <i class="fa-solid fa-book-open fa-fw"></i>
-    <span>
-      <em>Crime Perception and Voting Behavior</em> (with 
-      <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">
-        Giovanni Prarolo</a>)
-    </span>
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-book-open fa-fw"></i>
+      <span>
+        <em>Crime Perception and Voting Behavior</em> (with 
+        <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">
+          Giovanni Prarolo
+        </a>)
+      </span>
+    </div>
+    <div class="pill-container">
+      <div class="pill-button toggle-pill" data-target="abstract-crime">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Abstract</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="keywords-crime">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Keywords</span>
+      </div>
+    </div>
+    <div id="abstract-crime" class="toggle-box">
+     This study examines the impact of local crime salience on individual voting behavior, using geolocated crime-related news as a proxy for public concern about crime. Drawing on a retrospective survey of 5000 individuals across several election rounds, our analysis exploits the occurrence of a criminal event in the vicinity of a voter in the lead-up to elections. The results for general elections are mixed overall, showing no effects on voting behavior when crimes are committed by Italians. Conversely, crimes attributed to immigrants results in lower support for the populist right-wing parties, sometimes having an ambiguous stance on immigration, and instead higher support for the more traditional right-wing parties, which emphasizes law and order. In administrative elections, the effect of crime salience diverges. Crimes committed by Italians result in the punishment of incumbents, while immigrant-related crimes lead to increased voter abstention, possibly reflecting the social stigma associated with party-switching among left-leaning voters, the incumbent party. These findings provide novel insights into the relationship between crime salience, particularly regarding immigration, and individual voting behavior.
+    </div>
+    <div id="keywords-crime" class="toggle-box">
+       crime, elections, political parties, newspapers, individual voting behavior, dictionary-based classification
+    </div>
   </div>
 
-  <div class="pill-container">
-    <div class="pill-button toggle-pill" data-target="abstract-crime">
-      <i class="fa-solid fa-chevron-right fa-2xs"></i>
-      <span class="toggle-label">Abstract</span>
-    </div>
-    <div class="pill-button toggle-pill" data-target="keywords-crime">
-      <i class="fa-solid fa-chevron-right fa-2xs"></i>
-      <span class="toggle-label">Keywords</span>
-    </div>
-  </div>
+</div>
 
-  <div id="abstract-crime" class="toggle-box">
-    This study examines the impact of local crime salience on individual voting behavior, using geolocated crime-related news as a proxy for public concern about crime. Drawing on a retrospective survey of 5000 individuals across several election rounds, our analysis exploits the occurrence of a criminal event in the vicinity of a voter in the lead-up to elections. The results for general elections are mixed overall, showing no effects on voting behavior when crimes are committed by Italians. Conversely, crimes attributed to immigrants results in lower support for the populist right-wing parties, sometimes having an ambiguous stance on immigration, and instead higher support for the more traditional right-wing parties, which emphasizes law and order. In administrative elections, the effect of crime salience diverges. Crimes committed by Italians result in the punishment of incumbents, while immigrant-related crimes lead to increased voter abstention, possibly reflecting the social stigma associated with party-switching among left-leaning voters, the incumbent party. These findings provide novel insights into the relationship between crime salience, particularly regarding immigration, and individual voting behavior.
-  </div>
-  <div id="keywords-crime" class="toggle-box">
-    crime, elections, political parties, newspapers, individual voting behavior, dictionary-based classification
-  </div>
+<!-- Working Papers Section -->
 
   <!-- Paper 2 -->
   <div class="icon-entry indented">
