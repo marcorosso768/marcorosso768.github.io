@@ -6,7 +6,7 @@ function initTogglePills() {
     pill.addEventListener('click', () => {
       const isOpen = box.classList.contains('active');
 
-      // Chiude tutto
+      // Chiudi tutto
       document.querySelectorAll('.toggle-box').forEach(b => collapseBox(b));
       document.querySelectorAll('.toggle-pill').forEach(p => p.classList.remove('rotated'));
 
@@ -23,17 +23,22 @@ function expandBox(box) {
   box.classList.add('active');
   box.style.opacity = 1;
 
+  // Forza reflow
+  box.offsetHeight;
+
   requestAnimationFrame(() => {
     box.style.maxHeight = box.scrollHeight + 'px';
+
+    const section = box.closest('.toggle-section.expanded');
+    if (section) {
+      section.style.maxHeight = section.scrollHeight + 'px';
+    }
   });
 
-  // Aggiorna la sezione DOPO l'espansione effettiva
-  box.addEventListener('transitionend', () => updateSectionHeight(box), { once: true });
-
-  // Fallback in caso il browser ignori transitionend
+  // Fallback nel caso transitionend non venga chiamato
   setTimeout(() => {
     updateSectionHeight(box);
-  }, 600);
+  }, 700);
 }
 
 function collapseBox(box) {
@@ -48,7 +53,7 @@ function collapseBox(box) {
       box.style.display = 'none';
       updateSectionHeight(box);
     }
-  }, 500);
+  }, 600);
 }
 
 function updateSectionHeight(box) {
