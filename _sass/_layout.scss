@@ -519,7 +519,13 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   flex-wrap: wrap;
   gap: var(--toggle-gap);
   margin-left: var(--toggle-spacing);
-  margin-bottom: 4px;
+  margin-bottom: 0; // niente margine extra sotto
+}
+
+/* Wrapper pillola + box */
+.pill-group {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Singola pillola cliccabile */
@@ -541,7 +547,6 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
     transition: transform 0.3s ease;
   }
 
-  /* Rotazione della freccia quando la pillola è aperta */
   &.rotated i {
     transform: rotate(90deg);
   }
@@ -563,18 +568,18 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   max-height: 0;
   overflow: hidden;
   opacity: 0;
-  transition: max-height 0.4s ease, opacity 0.3s ease;
+  transition: max-height 0.7s ease-in-out, opacity 0.5s ease-in-out;
   margin-left: var(--toggle-spacing);
   margin-right: var(--indent-margin);
-  margin-top: 4px;
-  margin-bottom: 0;// margin-bottom: 1rem;
-  padding: 1em 1em;
+  margin-top: 6px;
+  margin-bottom: 0.75rem;
+  padding: 1em;
   background-color: var(--global-card-bg-color);
   border: 1px solid var(--global-theme-color);
   border-radius: var(--toggle-radius);
   font-size: 10pt;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-  pointer-events: none; // impedisce interazioni durante chiusura
+  pointer-events: none;
 }
 
 .toggle-box.active {
@@ -586,14 +591,15 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
 * SECTIONS
 *****************************************************************************/
 
-section.toggle-section {
+.toggle-section {
   max-height: 0;
   overflow: hidden;
   opacity: 0;
   transition: max-height 0.5s ease, opacity 0.4s ease;
+  line-height: 1.2; // qui! per il tuo spacing perfetto
 }
 
-section.toggle-section.expanded {
+.toggle-section.expanded {
   opacity: 1;
 }
 
