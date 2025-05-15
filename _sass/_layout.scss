@@ -581,3 +581,22 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   opacity: 1;
   pointer-events: auto;
 }
+
+/*****************************************************************************
+* SECTIONS
+*****************************************************************************/
+
+section.toggle-section {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.5s ease, opacity 0.4s ease;
+}
+
+section.toggle-section.expanded {
+  opacity: 1;
+}
+
+/*****************************************************************************
+* 
+*****************************************************************************/
