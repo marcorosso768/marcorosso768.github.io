@@ -33,7 +33,7 @@ function expandBox(box) {
 
 function collapseBox(box) {
   box.style.maxHeight = box.scrollHeight + "px";
-  box.offsetHeight; // forzo reflow
+  box.offsetHeight; // forza reflow
   box.style.maxHeight = "0";
   box.style.opacity = 0;
   box.classList.remove("active");
@@ -44,8 +44,10 @@ function collapseBox(box) {
   }
 
   setTimeout(() => {
-    box.style.display = "none";
-  }, 500); // deve corrispondere alla durata della transition
+    if (!box.classList.contains("active")) {
+      box.style.display = "none";
+    }
+  }, 500); // deve corrispondere alla transition del CSS
 }
 
 if (document.readyState === "loading") {
