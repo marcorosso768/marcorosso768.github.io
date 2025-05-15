@@ -6,10 +6,11 @@ function initTogglePills() {
     pill.addEventListener('click', () => {
       const isOpen = box.classList.contains('active');
 
-      // Chiude tutte le box e resetta pillole
+      // Chiude tutte le box
       document.querySelectorAll('.toggle-box').forEach(b => collapseBox(b));
       document.querySelectorAll('.toggle-pill').forEach(p => p.classList.remove('rotated'));
 
+      // Apre se non era aperta
       if (!isOpen) {
         expandBox(box);
         pill.classList.add('rotated');
@@ -19,6 +20,7 @@ function initTogglePills() {
 }
 
 function expandBox(box) {
+  box.style.display = "block";
   box.classList.add("active");
   box.style.maxHeight = box.scrollHeight + "px";
   box.style.opacity = 1;
@@ -31,7 +33,7 @@ function expandBox(box) {
 
 function collapseBox(box) {
   box.style.maxHeight = box.scrollHeight + "px";
-  box.offsetHeight;
+  box.offsetHeight; // forzo reflow
   box.style.maxHeight = "0";
   box.style.opacity = 0;
   box.classList.remove("active");
@@ -40,6 +42,10 @@ function collapseBox(box) {
   if (section) {
     section.style.maxHeight = section.scrollHeight + "px";
   }
+
+  setTimeout(() => {
+    box.style.display = "none";
+  }, 500); // deve corrispondere alla durata della transition
 }
 
 if (document.readyState === "loading") {
