@@ -22,17 +22,20 @@ function initTogglePills() {
 function expandBox(box) {
   box.style.display = "block";
   box.classList.add("active");
-
-  // Forza un reflow per assicurare che scrollHeight sia corretto
-  box.offsetHeight;
-
-  box.style.maxHeight = box.scrollHeight + "px";
   box.style.opacity = 1;
 
-  const section = box.closest(".toggle-section.expanded");
-  if (section) {
-    section.style.maxHeight = section.scrollHeight + "px";
-  }
+  // Forza il reflow
+  box.offsetHeight;
+
+  // Delay di un singolo frame per lasciare il browser respirare
+  requestAnimationFrame(() => {
+    box.style.maxHeight = box.scrollHeight + "px";
+
+    const section = box.closest(".toggle-section.expanded");
+    if (section) {
+      section.style.maxHeight = section.scrollHeight + "px";
+    }
+  });
 }
 
 function collapseBox(box) {
