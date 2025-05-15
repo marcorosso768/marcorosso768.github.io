@@ -9,7 +9,6 @@ function toggleVisibility(id) {
 
     section.querySelectorAll(".toggle-box").forEach(box => collapseBox(box));
     section.querySelectorAll(".toggle-pill").forEach(p => p.classList.remove("rotated"));
-    section.querySelectorAll(".abstract").forEach(el => el.classList.remove("open"));
   } else {
     expandSection(section);
     if (chevron) chevron.classList.add("rotated");
@@ -30,7 +29,6 @@ function collapseSection(section) {
   section.classList.remove("expanded");
 }
 
-// Sezioni aperte di default
 function initExpandedSections() {
   document.querySelectorAll('.toggle-section.expanded').forEach(section => {
     section.style.maxHeight = section.scrollHeight + "px";
