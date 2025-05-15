@@ -139,15 +139,6 @@ nav_order: 1
         <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>)
       </span>
     </div>
-<!--    <div class="pill-container">
-      <div class="pill-button toggle-pill" data-target="abstract-turnout">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Abstract</span>
-      </div>
-    </div>
-    <div id="abstract-turnout" class="toggle-box">
-      We investigate how the provision of local public goods affects citizens' voting turnout...
-    </div> -->
   </div>
 
   <!-- Paper 2 -->
@@ -156,15 +147,6 @@ nav_order: 1
       <i class="fa-solid fa-bookmark fa-fw" title="In progress"></i>
       <span><em>The Effect of Erasmus Programs on Voting</em></span>
     </div>
-<!--    <div class="pill-container">
-      <div class="pill-button toggle-pill" data-target="abstract-erasmus">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Abstract</span>
-      </div>
-    </div>
-    <div id="abstract-erasmus" class="toggle-box">
-      This project explores how participation in Erasmus+ mobility programs influences political behavior among young European voters...
-    </div> -->
   </div>
 
 </div>
