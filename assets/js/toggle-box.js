@@ -22,6 +22,10 @@ function initTogglePills() {
 function expandBox(box) {
   box.style.display = "block";
   box.classList.add("active");
+
+  // Forza un reflow per assicurare che scrollHeight sia corretto
+  box.offsetHeight;
+
   box.style.maxHeight = box.scrollHeight + "px";
   box.style.opacity = 1;
 
@@ -33,7 +37,7 @@ function expandBox(box) {
 
 function collapseBox(box) {
   box.style.maxHeight = box.scrollHeight + "px";
-  box.offsetHeight; // forza reflow
+  box.offsetHeight; // forzo reflow
   box.style.maxHeight = "0";
   box.style.opacity = 0;
   box.classList.remove("active");
@@ -47,7 +51,7 @@ function collapseBox(box) {
     if (!box.classList.contains("active")) {
       box.style.display = "none";
     }
-  }, 500); // deve corrispondere alla transition del CSS
+  }, 500); // deve corrispondere alla durata della transition nel CSS
 }
 
 if (document.readyState === "loading") {
