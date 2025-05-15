@@ -6,11 +6,10 @@ function initTogglePills() {
     pill.addEventListener('click', () => {
       const isOpen = box.classList.contains('active');
 
-      // Chiudi tutte
+      // Chiude tutte le box e resetta pillole
       document.querySelectorAll('.toggle-box').forEach(b => collapseBox(b));
       document.querySelectorAll('.toggle-pill').forEach(p => p.classList.remove('rotated'));
 
-      // Apre se chiusa
       if (!isOpen) {
         expandBox(box);
         pill.classList.add('rotated');
