@@ -1,26 +1,35 @@
 function initTogglePills() {
   document.querySelectorAll('.toggle-pill').forEach(pill => {
     const targetId = pill.getAttribute('data-target');
+    const box = document.getElementById(targetId);
 
     pill.addEventListener('click', () => {
-      const container = pill.closest('.pill-container');
-      const boxes = container.parentElement.querySelectorAll('.toggle-box');
-      const pills = container.querySelectorAll('.toggle-pill');
-    
-      const currentBox = document.getElementById(targetId);
-      const isOpen = currentBox.classList.contains('open');
-    
-      // Chiude tutte le box e rimuove la rotazione
-      boxes.forEach(b => b.classList.remove('open'));
-      pills.forEach(p => p.classList.remove('rotated'));
-    
-      // Apre quella cliccata (se era chiusa)
-      if (!isOpen) {
-        currentBox.classList.add('open');
+      const isExpanded = box.classList.contains('active');
+
+      // Chiude tutti gli altri box
+      document.querySelectorAll('.toggle-box').forEach(b => collapseBox(b));
+      document.querySelectorAll('.toggle-pill').forEach(p => p.classList.remove('rotated'));
+
+      // Se non era aperto, aprilo
+      if (!isExpanded) {
+        expandBox(box);
         pill.classList.add('rotated');
       }
     });
   });
+}
+
+function expandBox(box) {
+  box.classList.add('active');
+  box.style.maxHeight = box.scrollHeight + 'px';
+}
+
+function collapseBox(box) {
+  box.style.maxHeight = box.scrollHeight + 'px'; // imposta prima l'altezza attuale
+  // forza un reflow per far funzionare la transizione
+  box.offsetHeight;
+  box.style.maxHeight = '0';
+  box.classList.remove('active');
 }
 
 if (document.readyState === "loading") {
