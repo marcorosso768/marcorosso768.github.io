@@ -1,7 +1,6 @@
 function initTogglePills() {
   document.querySelectorAll('.toggle-pill').forEach(pill => {
     const targetId = pill.getAttribute('data-target');
-    const icon = pill.querySelector('i');
 
     pill.addEventListener('click', () => {
       const container = pill.closest('.pill-container');
@@ -11,17 +10,14 @@ function initTogglePills() {
       const currentBox = document.getElementById(targetId);
       const isOpen = currentBox.classList.contains('open');
     
-      // Chiude tutte
+      // Chiude tutte le box e rimuove la rotazione
       boxes.forEach(b => b.classList.remove('open'));
-      pills.forEach(p => {
-        const icon = p.querySelector('i');
-        if (icon) icon.classList.remove('rotated');
-      });
+      pills.forEach(p => p.classList.remove('rotated'));
     
       // Apre quella cliccata (se era chiusa)
       if (!isOpen) {
         currentBox.classList.add('open');
-        if (icon) icon.classList.add('rotated');
+        pill.classList.add('rotated');
       }
     });
   });
