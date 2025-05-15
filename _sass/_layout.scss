@@ -568,6 +568,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
 *****************************************************************************/
 
 .toggle-box {
+  display: none;
   max-height: 0;
   overflow: hidden;
   opacity: 0;
@@ -586,6 +587,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
 }
 
 .toggle-box.active {
+  display: block;
   opacity: 1;
   pointer-events: auto;
   margin-bottom: 1rem;
