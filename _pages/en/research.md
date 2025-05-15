@@ -22,7 +22,7 @@ nav_order: 1
   </a>
 </div>
 
-<div id="content-1" style="display: block;">
+<div id="content-1" class="toggle-section expanded">
   <div style="line-height: 1.2; margin-bottom: 1rem;">
     <div class="icon-entry indented">
       <i class="fa-solid fa-newspaper fa-fw"></i>
@@ -31,7 +31,8 @@ nav_order: 1
         <a href="https://doi.org/10.1136/jech-2022-220088" target="_blank" rel="noopener noreferrer">
           Short-term effect of colorectal cancer on income.
         </a> 
-        <i>Journal of Epidemiology & Community Health</i>
+        <i>Journal of Epidemiology & Community Health</i>, 
+          77:196-201.
       </span>
     </div>
     <div class="pill-container">
@@ -56,7 +57,7 @@ nav_order: 1
   </a>
 </div>
 
-<div id="content-2" style="display: block;">
+<div id="content-2" class="toggle-section expanded">
   <div style="line-height: 1.2; margin-bottom: 1rem;">
     <div class="icon-entry indented">
       <i class="fa-solid fa-book-open fa-fw"></i>
@@ -118,7 +119,7 @@ nav_order: 1
   </a>
 </div>
 
-<div id="content-3" style="display: block;">
+<div id="content-3" class="toggle-section expanded">
   <div style="line-height: 1.2; margin-bottom: 1rem;">
     <div class="icon-entry indented">
       <i class="fa-solid fa-bookmark fa-fw"></i>
