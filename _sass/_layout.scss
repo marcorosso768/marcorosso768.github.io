@@ -563,6 +563,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   max-height: 0;
   overflow: hidden;
   opacity: 0;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
   margin-left: var(--toggle-spacing);
   margin-right: var(--indent-margin);
   margin-top: 4px;
@@ -573,10 +574,10 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   border-radius: var(--toggle-radius);
   font-size: 10pt;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-  transition: max-height 0.4s ease, opacity 0.3s ease; 
+  pointer-events: none; // impedisce interazioni durante chiusura
 }
 
-.toggle-box.open {
-  max-height: 500px;
+.toggle-box.active {
   opacity: 1;
+  pointer-events: auto;
 }
