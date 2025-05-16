@@ -8,5 +8,6 @@ subtitle: >
     </div>
 permalink: /news/
 ---
-
+<div id="content-text" class="toggle-section expanded">
   {% include news.liquid %}
+</div>
