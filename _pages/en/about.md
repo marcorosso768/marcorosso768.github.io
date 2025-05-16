@@ -48,8 +48,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<div id="content-text" class="toggle-section expanded">
-
 Welcome to my personal website—glad you got here of your own free will (or maybe you clicked by mistake: happens to the best of us).
 
 I’m a <b style="color: $white-color;">5<sup>th</sup>-year PhD candidate in Economics</b> and a <b style="color: $white-color;">Post-Doc</b> (yes, we still exist) at the University of Bologna.
@@ -72,5 +70,3 @@ And finally, to give meaning to this whole circus: I organize the <b style="colo
 My favorite quote?<br>
 <i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i><br>
 If you laughed, we might actually become friends. If not… try reading it again.
-
-</div>
