@@ -6,11 +6,10 @@ function initTogglePills() {
     pill.addEventListener('click', () => {
       const isOpen = box.classList.contains('active');
 
-      // Chiude tutte le box
-      document.querySelectorAll('.toggle-box').forEach(collapseBox);
+      // Chiudi tutto
+      document.querySelectorAll('.toggle-box').forEach(b => collapseBox(b));
       document.querySelectorAll('.toggle-pill').forEach(p => p.classList.remove('rotated'));
 
-      // Apre solo se non era già aperta
       if (!isOpen) {
         expandBox(box);
         pill.classList.add('rotated');
@@ -20,41 +19,48 @@ function initTogglePills() {
 }
 
 function expandBox(box) {
-  box.style.display = "block";
-  box.classList.add("active");
-
-  // forza reflow
-  box.offsetHeight;
-
-  // imposta max-height per l’animazione
-  box.style.maxHeight = box.scrollHeight + "px";
+  box.style.display = 'block';
+  box.classList.add('active');
   box.style.opacity = 1;
 
-  // aggiorna sezione contenitore
-  const section = box.closest(".toggle-section.expanded");
-  if (section) {
-    section.style.maxHeight = section.scrollHeight + "px";
-  }
+  // Forza reflow
+  box.offsetHeight;
+
+  requestAnimationFrame(() => {
+    box.style.maxHeight = box.scrollHeight + 'px';
+
+    const section = box.closest('.toggle-section.expanded');
+    if (section) {
+      section.style.maxHeight = section.scrollHeight + 'px';
+    }
+  });
+
+  // Fallback nel caso transitionend non venga chiamato
+  setTimeout(() => {
+    updateSectionHeight(box);
+  }, 700);
 }
 
 function collapseBox(box) {
-  box.style.maxHeight = box.scrollHeight + "px";
+  box.style.maxHeight = box.scrollHeight + 'px';
   box.offsetHeight;
-  box.style.maxHeight = "0";
+  box.style.maxHeight = '0';
   box.style.opacity = 0;
-  box.classList.remove("active");
-
-  // aggiorna sezione contenitore
-  const section = box.closest(".toggle-section.expanded");
-  if (section) {
-    section.style.maxHeight = section.scrollHeight + "px";
-  }
+  box.classList.remove('active');
 
   setTimeout(() => {
-    if (!box.classList.contains("active")) {
-      box.style.display = "none";
+    if (!box.classList.contains('active')) {
+      box.style.display = 'none';
+      updateSectionHeight(box);
     }
-  }, 500); // deve coincidere con la transition
+  }, 600);
+}
+
+function updateSectionHeight(box) {
+  const section = box.closest('.toggle-section.expanded');
+  if (section) {
+    section.style.maxHeight = section.scrollHeight + 'px';
+  }
 }
 
 if (document.readyState === 'loading') {
