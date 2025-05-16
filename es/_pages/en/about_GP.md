@@ -1,5 +1,3 @@
-<div id="content-text" class="toggle-section expanded">
-
 <div class="indented" style="display: inline-block;"> <p> <span style="font-size: 20pt; color: var(--global-theme-color);"> Giovanni Prarolo </span> <br> <span style="font-size: 12pt; color: var(--global-theme-color);"> <i>Research Fellowship Supervisor</i> </span> </p> </div>
 
 <span class="indented" style="font-size: 15pt;"> Full Professor </span> <br> <span class="indented"> Department of Economics </span> <br> <span class="indented" style="font-size: 10pt;"> Academic discipline: ECON-02/A Economic Policy </span> <br> <span class="indented" style="font-size: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italy</span>
@@ -19,6 +17,4 @@
 <div class="icon-link indented">
   <i class="fa-solid fa-globe fa-fw"></i>
   <a href="https://sites.google.com/site/giovanniprarolo/">personal website</a>
-</div>
-
 </div>
