@@ -1,97 +1,77 @@
+document.addEventListener('DOMContentLoaded', initTogglePills);
+
 function initTogglePills() {
   document.querySelectorAll('.toggle-pill').forEach(pill => {
-    const targetId = pill.dataset.target;
-    const box = document.getElementById(targetId);
-
+    const box = document.getElementById(pill.dataset.target);
     pill.addEventListener('click', () => {
       const isOpen = box.classList.contains('active');
 
-      // Chiudi tutto
-      document.querySelectorAll('.toggle-box').forEach(b => collapseBox(b));
-      document.querySelectorAll('.toggle-pill').forEach(p => p.classList.remove('rotated'));
+      // chiudo tutte le altre
+      document.querySelectorAll('.toggle-pill.rotated').forEach(p => {
+        const b = document.getElementById(p.dataset.target);
+        collapseBox(b, p);
+      });
 
-      if (!isOpen) {
-        expandBox(box, pill);
-      }
+      if (!isOpen) expandBox(box, pill);
     });
   });
 }
 
-/** Espande il singolo toggle-box e la section padre */
 function expandBox(box, pill) {
-  const section = box.closest('.toggle-section');
+  const section = box.closest('.toggle-section.expanded');
 
-  // Imposta altezza iniziale
-  box.style.display = 'block';
-  box.style.maxHeight = '0';
-  box.style.opacity = '0';
+  // preparo il box
+  box.style.display    = 'block';
+  box.style.maxHeight  = '0px';
+  box.style.opacity    = '0';
   box.classList.add('active');
   pill.classList.add('rotated');
 
-  // Forza reflow
+  // forza reflow
   box.offsetHeight;
 
-  // Inizia entrambe le transizioni in un colpo solo
+  // parte animazione box (altezza + opacità) e sezione (solo altezza)
   requestAnimationFrame(() => {
     box.style.maxHeight = box.scrollHeight + 'px';
-    box.style.opacity = '1';
-
-    if (section) {
-      section.style.maxHeight = section.scrollHeight + 'px';
-      section.style.opacity = '1';
-    }
+    box.style.opacity   = '1';
+    if (section) section.style.maxHeight = section.scrollHeight + 'px';
   });
 
-  // Al termine della transizione del box, “sblocca” la section
-  const onEnd = e => {
+  // dopo che il box ha finito di crescere:
+  box.addEventListener('transitionend', function handler(e) {
     if (e.propertyName === 'max-height') {
-      if (section) {
-        // Rimuovi la max-height per renderla auto-adattante
-        section.style.maxHeight = 'none';
-      }
-      box.removeEventListener('transitionend', onEnd);
+      // sblocco l'altezza perché si adatti a qualunque contenuto futuro
+      box.style.maxHeight = 'none';
+      if (section) section.style.maxHeight = 'none';
+      box.removeEventListener('transitionend', handler);
     }
-  };
-  box.addEventListener('transitionend', onEnd);
+  });
 }
 
-function collapseBox(box) {
-  const pill = document.querySelector(`.toggle-pill[data-target="${box.id}"]`);
-  const section = box.closest('.toggle-section');
+function collapseBox(box, pill) {
+  const section = box.closest('.toggle-section.expanded');
 
-  // Se la section era “auto”, prima la blocchiamo alla sua altezza corrente
-  if (section && getComputedStyle(section).maxHeight === 'none') {
-    section.style.maxHeight = section.scrollHeight + 'px';
-  }
+  // sezione ferma all'altezza corrente
+  if (section) section.style.maxHeight = section.scrollHeight + 'px';
 
-  // Forza reflow
-  box.offsetHeight;
-
-  // Avvia collasso
-  box.style.maxHeight = '0';
-  box.style.opacity = '0';
+  // preparo il box per collassare
+  box.style.maxHeight = box.scrollHeight + 'px';
+  box.offsetHeight; // reflow
+  box.style.maxHeight = '0px';
+  box.style.opacity   = '0';
   box.classList.remove('active');
-  if (pill) pill.classList.remove('rotated');
+  pill.classList.remove('rotated');
 
-  if (section) {
-    section.style.maxHeight = section.scrollHeight + 'px'; // partenza
-    section.offsetHeight; // reflow
-    section.style.maxHeight = '0';
-    section.style.opacity = '0';
-    section.classList.remove('expanded');
-  }
-
-  // Alla fine nascondi il box
-  box.addEventListener('transitionend', function hide(e) {
+  box.addEventListener('transitionend', function handler(e) {
     if (e.propertyName === 'max-height') {
       box.style.display = 'none';
-      box.removeEventListener('transitionend', hide);
+      if (section) {
+        // ridà alla sezione l'altezza giusta per il nuovo contenuto
+        section.style.maxHeight = section.scrollHeight + 'px';
+        // poi sblocco anch’essa
+        setTimeout(() => section.style.maxHeight = 'none', 0);
+      }
+      box.removeEventListener('transitionend', handler);
     }
   });
-}
-
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initTogglePills);
-} else {
-  initTogglePills();
 }
