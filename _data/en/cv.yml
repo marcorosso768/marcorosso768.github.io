@@ -1,3 +1,4 @@
+<div id="content-text" class="toggle-section expanded">
 - title: current positions
   type: map
   contents:
@@ -233,3 +234,4 @@
       icon: "fa-solid fa-gamepad fa-fw"
     - category: '<span style="color:var(--global-text-color);"> board games </span>'
       icon: "fa-solid fa-puzzle-piece fa-fw"
+</div>
