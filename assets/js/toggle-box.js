@@ -22,21 +22,24 @@ function expandBox(box) {
   box.classList.add("active");
   box.style.opacity = 1;
 
-  // PRIMO frame: forziamo reflow
+  // PRIMO frame → reflow iniziale
   requestAnimationFrame(() => {
-    box.style.maxHeight = "0"; // partenza chiara
+    box.style.maxHeight = "0";
     box.offsetHeight;
 
-    // SECONDO frame: ora il browser è pronto
+    // SECONDO frame → espansione vera
     requestAnimationFrame(() => {
       const fullHeight = box.scrollHeight;
       box.style.maxHeight = fullHeight + "px";
+    });
 
+    // TERZO step → aggiorna altezza sezione madre DOPO che il box si è aperto
+    setTimeout(() => {
       const section = box.closest(".toggle-section.expanded");
       if (section) {
         section.style.maxHeight = section.scrollHeight + "px";
       }
-    });
+    }, 350); // metà della transizione (dipende dal tuo SCSS)
   });
 }
 
@@ -56,7 +59,7 @@ function collapseBox(box) {
     if (!box.classList.contains("active")) {
       box.style.display = "none";
     }
-  }, 500); // Deve coincidere con la transition nel CSS
+  }, 500);
 }
 
 if (document.readyState === 'loading') {
