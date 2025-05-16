@@ -6,9 +6,11 @@ function initTogglePills() {
     pill.addEventListener('click', () => {
       const isOpen = box.classList.contains('active');
 
-      document.querySelectorAll('.toggle-box').forEach(b => collapseBox(b));
+      // Chiude tutte le box
+      document.querySelectorAll('.toggle-box').forEach(collapseBox);
       document.querySelectorAll('.toggle-pill').forEach(p => p.classList.remove('rotated'));
 
+      // Apre solo se non era già aperta
       if (!isOpen) {
         expandBox(box);
         pill.classList.add('rotated');
@@ -20,24 +22,19 @@ function initTogglePills() {
 function expandBox(box) {
   box.style.display = "block";
   box.classList.add("active");
-  box.style.opacity = 1;
 
-  // Reflow forzato
+  // forza reflow
   box.offsetHeight;
 
-  // Imposta altezza per l’animazione
+  // imposta max-height per l’animazione
   box.style.maxHeight = box.scrollHeight + "px";
+  box.style.opacity = 1;
 
-  // Quando la transizione finisce, aggiorna anche la sezione madre
-  box.addEventListener("transitionend", function handler(e) {
-    if (e.propertyName === "max-height") {
-      const section = box.closest(".toggle-section.expanded");
-      if (section) {
-        section.style.maxHeight = section.scrollHeight + "px";
-      }
-      box.removeEventListener("transitionend", handler);
-    }
-  });
+  // aggiorna sezione contenitore
+  const section = box.closest(".toggle-section.expanded");
+  if (section) {
+    section.style.maxHeight = section.scrollHeight + "px";
+  }
 }
 
 function collapseBox(box) {
@@ -47,6 +44,7 @@ function collapseBox(box) {
   box.style.opacity = 0;
   box.classList.remove("active");
 
+  // aggiorna sezione contenitore
   const section = box.closest(".toggle-section.expanded");
   if (section) {
     section.style.maxHeight = section.scrollHeight + "px";
@@ -56,7 +54,7 @@ function collapseBox(box) {
     if (!box.classList.contains("active")) {
       box.style.display = "none";
     }
-  }, 500);
+  }, 500); // deve coincidere con la transition
 }
 
 if (document.readyState === 'loading') {
