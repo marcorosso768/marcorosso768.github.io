@@ -6,25 +6,60 @@ function initTogglePills() {
     pill.addEventListener('click', () => {
       const isOpen = box.classList.contains('active');
 
-      document.querySelectorAll('.toggle-box').forEach(b => {
-        b.classList.remove('active');
-        b.style.display = 'none';
-      });
+      // Chiude tutto
+      document.querySelectorAll('.toggle-box').forEach(b => collapseBox(b));
       document.querySelectorAll('.toggle-pill').forEach(p => p.classList.remove('rotated'));
 
+      // Se non era aperta, aprila
       if (!isOpen) {
-        box.style.display = 'block';
-        requestAnimationFrame(() => {
-          box.classList.add('active');
-        });
+        expandBox(box);
         pill.classList.add('rotated');
       }
     });
   });
 }
 
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initTogglePills);
+function expandBox(box) {
+  box.style.display = "block";
+  box.classList.add("active");
+  box.style.opacity = 1;
+
+  // reflow
+  box.offsetHeight;
+
+  // transizione vera
+  box.style.maxHeight = box.scrollHeight + "px";
+
+  // aggiorna sezione contenitore
+  requestAnimationFrame(() => {
+    const section = box.closest(".toggle-section.expanded");
+    if (section) {
+      section.style.maxHeight = section.scrollHeight + "px";
+    }
+  });
+}
+
+function collapseBox(box) {
+  box.style.maxHeight = box.scrollHeight + "px";
+  box.offsetHeight;
+  box.style.maxHeight = "0";
+  box.style.opacity = 0;
+  box.classList.remove("active");
+
+  const section = box.closest(".toggle-section.expanded");
+  if (section) {
+    section.style.maxHeight = section.scrollHeight + "px";
+  }
+
+  setTimeout(() => {
+    if (!box.classList.contains("active")) {
+      box.style.display = "none";
+    }
+  }, 500);
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initTogglePills);
 } else {
   initTogglePills();
 }
