@@ -22,24 +22,21 @@ function expandBox(box) {
   box.classList.add("active");
   box.style.opacity = 1;
 
-  // PRIMO frame → reflow iniziale
-  requestAnimationFrame(() => {
-    box.style.maxHeight = "0";
-    box.offsetHeight;
+  // Reflow forzato
+  box.offsetHeight;
 
-    // SECONDO frame → espansione vera
-    requestAnimationFrame(() => {
-      const fullHeight = box.scrollHeight;
-      box.style.maxHeight = fullHeight + "px";
-    });
+  // Imposta altezza per l’animazione
+  box.style.maxHeight = box.scrollHeight + "px";
 
-    // TERZO step → aggiorna altezza sezione madre DOPO che il box si è aperto
-    setTimeout(() => {
+  // Quando la transizione finisce, aggiorna anche la sezione madre
+  box.addEventListener("transitionend", function handler(e) {
+    if (e.propertyName === "max-height") {
       const section = box.closest(".toggle-section.expanded");
       if (section) {
         section.style.maxHeight = section.scrollHeight + "px";
       }
-    }, 350); // metà della transizione (dipende dal tuo SCSS)
+      box.removeEventListener("transitionend", handler);
+    }
   });
 }
 
