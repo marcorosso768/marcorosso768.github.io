@@ -29,6 +29,5 @@ pagination:
   </div>
 
 <br>
-<div id="content-text" class="toggle-section expanded">
+
 <i>Coming soon...</i>
-</div>
