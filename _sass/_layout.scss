@@ -611,18 +611,21 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   max-height: 0;
   overflow: hidden;
   opacity: 0;
+  padding-top: 0;
+  padding-bottom: 0;
   margin-left: var(--toggle-spacing);
   margin-right: var(--indent-margin);
   margin-top: 6px;
   margin-bottom: 0;
-  padding: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
   background-color: var(--global-card-bg-color);
   border: 1px solid var(--global-theme-color);
   border-radius: var(--toggle-radius);
   font-size: 10pt;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   pointer-events: none;
-  transition: max-height 0.6s ease, opacity 0.4s ease;
+  transition: max-height 0.6s ease, opacity 0.4s ease, padding 0.4s ease;
 }
 
 .toggle-box.active {
@@ -630,6 +633,8 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   opacity: 1;
   pointer-events: auto;
   margin-bottom: 1rem;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 /*****************************************************************************
