@@ -6,7 +6,6 @@ function initTogglePills() {
     pill.addEventListener('click', () => {
       const isOpen = box.classList.contains('active');
 
-      // Chiudi tutto
       document.querySelectorAll('.toggle-box').forEach(b => collapseBox(b));
       document.querySelectorAll('.toggle-pill').forEach(p => p.classList.remove('rotated'));
 
@@ -19,48 +18,45 @@ function initTogglePills() {
 }
 
 function expandBox(box) {
-  box.style.display = 'block';
-  box.classList.add('active');
+  box.style.display = "block";
+  box.classList.add("active");
   box.style.opacity = 1;
 
-  // Forza reflow
-  box.offsetHeight;
-
+  // PRIMO frame: forziamo reflow
   requestAnimationFrame(() => {
-    box.style.maxHeight = box.scrollHeight + 'px';
+    box.style.maxHeight = "0"; // partenza chiara
+    box.offsetHeight;
 
-    const section = box.closest('.toggle-section.expanded');
-    if (section) {
-      section.style.maxHeight = section.scrollHeight + 'px';
-    }
+    // SECONDO frame: ora il browser è pronto
+    requestAnimationFrame(() => {
+      const fullHeight = box.scrollHeight;
+      box.style.maxHeight = fullHeight + "px";
+
+      const section = box.closest(".toggle-section.expanded");
+      if (section) {
+        section.style.maxHeight = section.scrollHeight + "px";
+      }
+    });
   });
-
-  // Fallback nel caso transitionend non venga chiamato
-  setTimeout(() => {
-    updateSectionHeight(box);
-  }, 700);
 }
 
 function collapseBox(box) {
-  box.style.maxHeight = box.scrollHeight + 'px';
+  box.style.maxHeight = box.scrollHeight + "px";
   box.offsetHeight;
-  box.style.maxHeight = '0';
+  box.style.maxHeight = "0";
   box.style.opacity = 0;
-  box.classList.remove('active');
+  box.classList.remove("active");
+
+  const section = box.closest(".toggle-section.expanded");
+  if (section) {
+    section.style.maxHeight = section.scrollHeight + "px";
+  }
 
   setTimeout(() => {
-    if (!box.classList.contains('active')) {
-      box.style.display = 'none';
-      updateSectionHeight(box);
+    if (!box.classList.contains("active")) {
+      box.style.display = "none";
     }
-  }, 600);
-}
-
-function updateSectionHeight(box) {
-  const section = box.closest('.toggle-section.expanded');
-  if (section) {
-    section.style.maxHeight = section.scrollHeight + 'px';
-  }
+  }, 500); // Deve coincidere con la transition nel CSS
 }
 
 if (document.readyState === 'loading') {
