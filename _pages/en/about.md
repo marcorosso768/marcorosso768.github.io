@@ -70,4 +70,3 @@ And finally, to give meaning to this whole circus: I organize the <b style="colo
 My favorite quote?<br>
 <i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i><br>
 If you laughed, we might actually become friends. If not… try reading it again.
-

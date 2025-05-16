@@ -8,5 +8,4 @@ subtitle: >
     </div>
 permalink: /news/
 ---
-
   {% include news.liquid %}

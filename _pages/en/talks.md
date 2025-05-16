@@ -22,8 +22,7 @@ nav_order: 2
   </a>
 </div>
 
-<!-- section show by default -->
-<div id="content-1" style="display: block;">
+<div id="content-1" class="toggle-section expanded">
 
 <!-- 2024 -->
 <p><b>2024</b></p>
@@ -69,8 +68,7 @@ nav_order: 2
   </a>
 </div>
 
-<!-- section show by default -->
-<div id="content-2" style="display: block;">
+<div id="content-2" class="toggle-section expanded">
 
 <!-- 2025 -->
 <p><b>2025</b></p>
@@ -253,8 +251,7 @@ nav_order: 2
   </a>
 </div>
 
-<!-- section show by default -->
-<div id="content-3" style="display: block;">
+<div id="content-3" class="toggle-section expanded">
 
 <!-- 2023 -->
 <p><b>2023</b></p>
