@@ -20,6 +20,7 @@
     {% include head.liquid %}
   </head>
 
+  <script src="/assets/js/toggle-sections.js" defer></script>
   {% if page.page_id == "research" %}
     <link rel="stylesheet" href="/assets/css/abstract-toggle.css">
     <script>
@@ -28,14 +29,7 @@
         hide: "{{ site.data.strings.abstract.hide | escape }}"
       };
     </script>
-    <script src="/assets/js/toggle-sections.js" defer></script>
     <script src="/assets/js/toggle-box.js" defer></script>
-  {% endif %}
-  {% if page.page_id == "contacts" %}
-  <script src="/assets/js/toggle-sections.js" defer></script>
-  {% endif %}
-  {% if page.page_id == "talks" %}
-  <script src="/assets/js/toggle-sections.js" defer></script>
   {% endif %}
 
     <!-- Body -->
@@ -44,7 +38,8 @@
         <div class="main-content">
             <!-- Header -->
             {% include header.liquid %}
-        
+
+		        <div class="toggle-section expanded">
             <!-- Content -->
             <div class="container mt-5" role="main">
               {% if page.toc and page.toc.sidebar %}
@@ -71,6 +66,7 @@
                 {{ content }}
               {% endif %}
             </div>
+						</div>
         </div>
         <!-- Footer -->
         {% include footer.liquid %}
