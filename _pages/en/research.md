@@ -67,8 +67,7 @@ nav_order: 1
       <span>
         <em>Crime Perception and Voting Behavior</em> (with 
         <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">
-          Giovanni Prarolo
-        </a>)
+          Giovanni Prarolo</a>)
       </span>
     </div>
     <div class="pill-container">
