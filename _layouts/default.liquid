@@ -40,7 +40,6 @@
             {% include header.liquid %}
 
             <!-- Content -->
-<div id="content-text" class="toggle-section expanded">
             <div class="container mt-5 expanded" role="main" >
               {% if page.toc and page.toc.sidebar %}
                 {% if page.toc.sidebar == 'right' %}
@@ -71,7 +70,7 @@
         <!-- Footer -->
         {% include footer.liquid %}
       </div>
-</div>        
+      
       <!-- JavaScripts -->
     {% include scripts/jquery.liquid %}
     {% include scripts/bootstrap.liquid %}
