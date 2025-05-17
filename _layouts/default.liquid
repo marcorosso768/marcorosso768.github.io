@@ -39,9 +39,8 @@
             <!-- Header -->
             {% include header.liquid %}
 
-		        <div class="toggle-section expanded">
             <!-- Content -->
-            <div class="container mt-5" role="main">
+            <div class="container mt-5 toggle-section expanded" role="main" >
               {% if page.toc and page.toc.sidebar %}
                 {% if page.toc.sidebar == 'right' %}
                   <div class="row">
@@ -66,7 +65,6 @@
                 {{ content }}
               {% endif %}
             </div>
-						</div>
         </div>
         <!-- Footer -->
         {% include footer.liquid %}
