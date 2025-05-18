@@ -28,26 +28,26 @@ nav_order: 3
 <p><b>2024-</b></p>
 
   <div class="teaching-entry indented">
-   <div class="teaching-entry__row seminar-entry__row--title">
+   <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'><i>Political Economy</i></a> with <a href='https://www.unibo.it/sitoweb/enrico.cantoni'><i>Enrico Cantoni</i></a>
+          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'>Political Economy</a> with <a href='https://www.unibo.it/sitoweb/enrico.cantoni'>Enrico Cantoni</a>
       </div>
    </div>
-    <div class="teaching-entry__row seminar-entry__row--location">
-      <div class="teaching-entry__location-text">
+   <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
         Economics, Politics and Social Sciences — Undergraduate
       </div>
     </div>
   </div>
 
-<div class="teaching-entry indented">
-   <div class="teaching-entry__row seminar-entry__row--title">
+  <div class="teaching-entry indented">
+   <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/502710'><i>Microeconomics</i></a> with <a href='https://www.unibo.it/sitoweb/marco.casari'><i>Marco Casari</i></a>
+          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/502710'>Microeconomics</a> with <a href='https://www.unibo.it/sitoweb/marco.casari'>Marco Casari</a>
       </div>
    </div>
-    <div class="teaching-entry__row seminar-entry__row--location">
-      <div class="teaching-entry__location-text">
+   <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
         Economics, Politics and Social Sciences — Undergraduate
       </div>
     </div>
