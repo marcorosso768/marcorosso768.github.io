@@ -450,7 +450,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   }
   
   a {
-      color: inherit;
+      color: var(--global-theme-color);
       text-decoration: none;
       transition: 
         color var(--transition-duration) var(--transition-easing),
