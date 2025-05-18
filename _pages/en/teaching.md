@@ -23,6 +23,21 @@ nav_order: 3
 
 <div id="content-1" class="toggle-section expanded">
 
+<div class="toggle-subsection expanded" id="subsection-1-1">
+  <h4 onclick="toggleSubsectionVisibility('subsection-1-1')">University of Bologna</h4>
+  <p>Testo interno sobrio e non interessato al passaggio del mouse.</p>
+</div>
+
+<div class="toggle-subsection expanded" id="subsection-1-1">
+  <h4 onclick="toggleSubsectionVisibility('subsection-1-1')">Forlì Campus, University of Bologna</h4>
+  <p>Testo interno sobrio e non interessato al passaggio del mouse.</p>
+</div>
+
+<div class="toggle-subsection expanded" id="subsection-1-1">
+  <h4 onclick="toggleSubsectionVisibility('subsection-1-1')">SAA - School of Management, University of Turin</h4>
+  <p>Testo interno sobrio e non interessato al passaggio del mouse.</p>
+</div>
+
 </div>
 
 <!-- Current Courses -->
@@ -144,13 +159,13 @@ nav_order: 3
 <!-- Past Courses -->
 <!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
-  <a id="toggle-content-1" href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+  <a id="toggle-content-4" href="javascript:void(0);" onclick="toggleVisibility('content-4')">
     <h2 class="category"><i class="fa-solid fa-chevron-right fa-2xs"></i> past courses </h2>
   </a>
 </div>
 
 <!-- past courses section hidden by default -->
-<div id="content-1" style="display: none;">
+<div id="content-4" style="display: none;">
   
   <!-- 2022/24 -->
   <p><b>2022/24</b></p>
