@@ -603,7 +603,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
 }
 
 /*****************************************************************************
-* Toggle Box (Abstract / Keywords / Altro)
+* Toggle Box (Abstract / Keywords / Other)
 *****************************************************************************/
 
 .toggle-box {
@@ -651,6 +651,38 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
 
 .toggle-section.expanded {
   opacity: 1;
+}
+
+/*****************************************************************************
+* Toggle SubSection
+*****************************************************************************/
+
+.toggle-subsection {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  color: var(--global-text-color);
+  line-height: 1.2;
+  transition: 
+    max-height 0.6s ease,
+    opacity 0.4s ease,
+    color 0.3s ease,
+    font-style 0.3s ease,
+    text-decoration 0.3s ease;
+}
+
+.toggle-subsection.expanded {
+  opacity: 1;
+}
+
+.toggle-subsection:hover {
+  color: var(--global-theme-color);
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 /*****************************************************************************
