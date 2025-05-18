@@ -27,11 +27,11 @@ function expandBox(box) {
   box.offsetHeight;
 
   requestAnimationFrame(() => {
-    box.style.maxHeight = box.scrollHeight + 'px';
+    box.style.maxHeight = box.scrollHeight + "em";
 
     const section = box.closest('.toggle-section.expanded');
     if (section) {
-      section.style.maxHeight = section.scrollHeight + 'px';
+      section.style.maxHeight = section.scrollHeight + "em";
     }
   });
 
@@ -42,7 +42,7 @@ function expandBox(box) {
 }
 
 function collapseBox(box) {
-  box.style.maxHeight = box.scrollHeight + 'px';
+  box.style.maxHeight = box.scrollHeight + "em";
   box.offsetHeight;
   box.style.maxHeight = '0';
   box.style.opacity = 0;
@@ -59,7 +59,7 @@ function collapseBox(box) {
 function updateSectionHeight(box) {
   const section = box.closest('.toggle-section.expanded');
   if (section) {
-    section.style.maxHeight = section.scrollHeight + 'px';
+    section.style.maxHeight = section.scrollHeight + "em";
   }
 }
 
