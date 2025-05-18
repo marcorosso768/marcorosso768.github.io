@@ -25,7 +25,32 @@ nav_order: 3
 
 <div class="toggle-subsection expanded" id="subsection-1-1">
   <h4 onclick="toggleSubsectionVisibility('subsection-1-1')">University of Bologna</h4>
-  <p>Testo interno sobrio e non interessato al passaggio del mouse.</p>
+
+<p><b>2024/25</b></p>
+
+  <div style="margin-left: 10px">
+    <div style="margin: 0; padding: 0; position: relative;">
+        <!-- First row: Chalkboard icon and teaching assistant text -->
+        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+            <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color);"></i>
+        </div>
+        <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
+            <span>
+              <b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/enrico.cantoni'><i>Enrico Cantoni</i></a> for the Undergraduate Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'><i>Political Economy</i></a>
+            </span>
+        </div>
+        <!-- Second row: Building icon and department text -->
+        <div style="margin-top: 0px; position: relative; font-size: 10pt;">
+            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
+                <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
+            </div>
+            <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
+                <span>Economics, Politics and Social Sciences, <i>University of Bologna</i></span>
+            </div>
+        </div>
+    </div>
+  </div>
+  
 </div>
 
 <div class="toggle-subsection expanded" id="subsection-1-1">
