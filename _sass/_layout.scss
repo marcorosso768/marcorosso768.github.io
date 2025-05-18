@@ -448,6 +448,30 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
       /* niente altro, il flex-gap fa già il suo lavoro */
     }
   }
+  
+  a {
+      color: inherit;
+      text-decoration: none;
+      transition: 
+        color var(--transition-duration) var(--transition-easing),
+        font-style var(--transition-duration) var(--transition-easing);
+  
+      &:link,
+      &:visited {
+        color: inherit;
+      }
+  
+      &:hover {
+        color: var(--global-hover-color);
+        font-style: italic;
+        text-decoration: underline;
+      }
+  
+      &:active {
+        color: var(--global-active-color);
+        font-style: italic;
+      }
+    }
 }
 
 /*****************************************************************************
