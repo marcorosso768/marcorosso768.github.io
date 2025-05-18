@@ -440,7 +440,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
 
     &::before {
       content: "\f19c";  // codepoint di location-dot
-      margin-left: 3px;
+      margin-left: 2px;
     }
 
     & .teaching-entry__course-text {
