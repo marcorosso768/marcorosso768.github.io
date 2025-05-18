@@ -6,11 +6,10 @@ function initTogglePills() {
     pill.addEventListener('click', () => {
       const isOpen = box.classList.contains('active');
 
-      // Close all boxes
+      // Chiudi tutto
       document.querySelectorAll('.toggle-box').forEach(b => collapseBox(b));
       document.querySelectorAll('.toggle-pill').forEach(p => p.classList.remove('rotated'));
 
-      // Open if not already open
       if (!isOpen) {
         expandBox(box);
         pill.classList.add('rotated');
@@ -24,7 +23,8 @@ function expandBox(box) {
   box.classList.add('active');
   box.style.opacity = 1;
 
-  box.offsetHeight; // force reflow
+  // Forza reflow
+  box.offsetHeight;
 
   requestAnimationFrame(() => {
     box.style.maxHeight = box.scrollHeight + "em";
@@ -35,40 +35,25 @@ function expandBox(box) {
     }
   });
 
-  // fallback update
+  // Fallback nel caso transitionend non venga chiamato
   setTimeout(() => {
     updateSectionHeight(box);
   }, 700);
 }
 
 function collapseBox(box) {
-  const section = box.closest('.toggle-section.expanded');
-
-  // set current height before transition
   box.style.maxHeight = box.scrollHeight + "em";
-  if (section) {
-    section.style.maxHeight = section.scrollHeight + "em";
-  }
-
-  box.offsetHeight; // force reflow
-
-  // initiate transition
+  box.offsetHeight;
   box.style.maxHeight = '0';
   box.style.opacity = 0;
   box.classList.remove('active');
 
-  if (section) {
-    // compute new max-height immediately for smooth section update
-    const otherBoxes = Array.from(section.querySelectorAll('.toggle-box.active'));
-    const otherHeights = otherBoxes.reduce((sum, el) => sum + el.scrollHeight, 0);
-    section.style.maxHeight = (section.scrollHeight - box.scrollHeight + otherHeights) + 'em';
-  }
-
   setTimeout(() => {
     if (!box.classList.contains('active')) {
       box.style.display = 'none';
+      updateSectionHeight(box);
     }
-  }, 600); // match transition duration
+  }, 600);
 }
 
 function updateSectionHeight(box) {
