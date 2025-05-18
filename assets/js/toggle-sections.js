@@ -17,12 +17,12 @@ function toggleVisibility(id) {
 
 function expandSection(section) {
   section.classList.add("expanded");
-  section.style.maxHeight = section.scrollHeight + "px";
+  section.style.maxHeight = section.scrollHeight + "em";
   section.style.opacity = 1;
 }
 
 function collapseSection(section) {
-  section.style.maxHeight = section.scrollHeight + "px";
+  section.style.maxHeight = section.scrollHeight + "em";
   section.offsetHeight;
   section.style.maxHeight = "0";
   section.style.opacity = 0;
@@ -31,7 +31,7 @@ function collapseSection(section) {
 
 function initExpandedSections() {
   document.querySelectorAll('.toggle-section.expanded').forEach(section => {
-    section.style.maxHeight = section.scrollHeight + "px";
+    section.style.maxHeight = section.scrollHeight + "em";
     section.style.opacity = 1;
   });
 }
