@@ -129,7 +129,7 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2021/413555'>>Game Theory</a> with <a href='https://www.unibo.it/sitoweb/natalia.montinari2'>Natalia Montinari</a>
+          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2021/413555'>Game Theory</a> with <a href='https://www.unibo.it/sitoweb/natalia.montinari2'>Natalia Montinari</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
