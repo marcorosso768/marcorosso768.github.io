@@ -42,18 +42,33 @@ function expandBox(box) {
 }
 
 function collapseBox(box) {
+  const section = box.closest('.toggle-section.expanded');
+
+  // imposta subito altezza attuale per entrambe
   box.style.maxHeight = box.scrollHeight + "em";
-  box.offsetHeight;
+  if (section) {
+    section.style.maxHeight = section.scrollHeight + "em";
+  }
+
+  box.offsetHeight; // forza reflow
+
+  // avvia transizione contemporanea
   box.style.maxHeight = '0';
   box.style.opacity = 0;
   box.classList.remove('active');
 
+  if (section) {
+    // sottrai box chiusa dal totale per la transizione
+    const otherBoxes = Array.from(section.querySelectorAll('.toggle-box.active'));
+    const otherHeights = otherBoxes.reduce((sum, el) => sum + el.scrollHeight, 0);
+    section.style.maxHeight = (section.scrollHeight - box.scrollHeight + otherHeights) + 'em';
+  }
+
   setTimeout(() => {
     if (!box.classList.contains('active')) {
       box.style.display = 'none';
-      updateSectionHeight(box);
     }
-  }, 600);
+  }, 600); // = durata transition
 }
 
 function updateSectionHeight(box) {
