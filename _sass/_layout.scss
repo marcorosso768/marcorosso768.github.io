@@ -661,24 +661,30 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   max-height: 0;
   overflow: hidden;
   opacity: 0;
-  font-weight: bold;
-  font-style: normal;
-  text-decoration: none;
+  font-weight: normal;
   color: var(--global-text-color);
   line-height: 1.2;
-  transition: 
+  transition:
     max-height 0.6s ease,
-    opacity 0.4s ease,
-    color 0.3s ease,
-    font-style 0.3s ease,
-    text-decoration 0.3s ease;
+    opacity 0.4s ease;
 }
 
 .toggle-subsection.expanded {
   opacity: 1;
 }
 
-.toggle-subsection:hover {
+.toggle-subsection h4 {
+  cursor: pointer;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  transition:
+    color 0.3s ease,
+    font-style 0.3s ease,
+    text-decoration 0.3s ease;
+}
+
+.toggle-subsection h4:hover {
   color: var(--global-theme-color);
   font-style: italic;
   font-weight: bold;
