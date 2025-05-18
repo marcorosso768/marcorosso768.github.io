@@ -5,8 +5,8 @@ function toggleVisibility(id) {
 
   if (isExpanded) {
     collapseSection(section);
+    
     if (chevron) chevron.classList.remove("rotated");
-
     section.querySelectorAll(".toggle-box").forEach(box => collapseBox(box));
     section.querySelectorAll(".toggle-pill").forEach(p => p.classList.remove("rotated"));
   } else {
@@ -35,6 +35,15 @@ function initExpandedSections() {
   document.querySelectorAll('.toggle-section.expanded').forEach(section => {
     section.style.maxHeight = section.scrollHeight + "em";
     section.style.opacity = 1;
+  });
+}
+
+function resetSubsectionsIn(section) {
+  section.querySelectorAll('.toggle-subsection').forEach(subsection => {
+    collapseSubsection(subsection);
+    subsection.style.color = "";
+    subsection.style.fontStyle = "";
+    subsection.style.textDecoration = "";
   });
 }
 
