@@ -17,12 +17,10 @@ function toggleVisibility(id) {
 
 function expandSection(section) {
   section.classList.add("expanded");
+  // 👇 HACK: uso "em" al posto di "px" per rendere la transizione visivamente più fluida.
+  // ATTENZIONE: scrollHeight è in pixel, quindi questo non è tecnicamente corretto, ma funziona..
+  section.style.maxHeight = section.scrollHeight + "em";
   section.style.opacity = 1;
-  section.offsetHeight;
-
-  requestAnimationFrame(() => {
-    section.style.maxHeight = section.scrollHeight + "em";
-  });
 }
 
 function collapseSection(section) {
