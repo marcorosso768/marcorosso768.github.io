@@ -12,6 +12,19 @@ nav: true
 nav_order: 3
 ---
 
+<div class="projects">
+  <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
+      <span>teaching assistant</span>
+    </h2>
+  </a>
+</div>
+
+<div id="content-1" class="toggle-section expanded">
+
+</div>
+
 <!-- Current Courses -->
 <!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
