@@ -435,8 +435,8 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   &__row--course {
     align-items:    flex-start; //center;       // icona centrata verticalmente
     font-size:      0.9em;
-    font-style:     italic;
-    line-height:    1;
+    //font-style:     italic;
+    line-height:    15px;
 
     &::before {
       content: "\f19c";  // codepoint di location-dot
@@ -444,7 +444,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
     }
 
     & .teaching-entry__course-text {
-      line-height:    1;
+      line-height:    15px;
       /* niente altro, il flex-gap fa già il suo lavoro */
     }
   }
