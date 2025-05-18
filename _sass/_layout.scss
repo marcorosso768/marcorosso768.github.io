@@ -444,7 +444,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   }
 
   // la riga della location
-  &__row--location {
+  &__row--course {
     align-items:    flex-start; //center;       // icona centrata verticalmente
     font-size:      0.9em;
     font-style:     italic;
@@ -455,7 +455,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
       margin-left: 3px;
     }
 
-    & .teaching-entry__location-text {
+    & .teaching-entry__course-text {
       line-height:    1;
       /* niente altro, il flex-gap fa già il suo lavoro */
     }
