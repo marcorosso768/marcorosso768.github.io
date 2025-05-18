@@ -31,6 +31,9 @@
     </script>
     <script src="/assets/js/toggle-box.js" defer></script>
   {% endif %}
+  {% if page.page_id == "teaching" %}
+    <script src="/assets/js/toggle-subsection.js" defer></script>
+  {% endif %}
 
     <!-- Body -->
     <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
@@ -40,7 +43,7 @@
             {% include header.liquid %}
 
             <!-- Content -->
-            <div class="container mt-5 expanded" role="main" >
+            <div class="container mt-5" role="main">
               {% if page.toc and page.toc.sidebar %}
                 {% if page.toc.sidebar == 'right' %}
                   <div class="row">
