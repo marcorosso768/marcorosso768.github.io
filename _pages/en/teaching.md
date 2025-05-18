@@ -30,7 +30,7 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'>Political Economy</a> with <a href='https://www.unibo.it/sitoweb/enrico.cantoni'>Enrico Cantoni</a>
+          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'>Political Economy</a> with <a href='https://www.unibo.it/sitoweb/enrico.cantoni'>Enrico Cantoni </a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
