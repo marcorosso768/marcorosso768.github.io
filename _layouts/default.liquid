@@ -31,6 +31,9 @@
     </script>
     <script src="/assets/js/toggle-box.js" defer></script>
   {% endif %}
+  {% if page.page_id == "teaching" %}
+    <script src="/assets/js/toggle-subsections.js" defer></script>
+  {% endif %}
 
     <!-- Body -->
     <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
