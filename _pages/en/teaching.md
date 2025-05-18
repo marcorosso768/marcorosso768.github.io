@@ -35,7 +35,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics, Politics and Social Sciences — Undergraduate
+        Undergraduate
       </div>
     </div>
   </div>
@@ -48,7 +48,35 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics, Politics and Social Sciences — Undergraduate
+        Undergraduate
+      </div>
+    </div>
+  </div>
+
+<p><b>2022-</b></p>
+
+  <div class="teaching-entry indented">
+   <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
+          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/491971'>Game Theory</a> with <a href='https://www.unibo.it/sitoweb/andrea.mattozzi'>Andrea Mattozzi</a>
+      </div>
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        Graduate
+      </div>
+    </div>
+  </div>
+
+  <div class="teaching-entry indented">
+   <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
+          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/467276'>Introduction to Behavioral Economics</a> with <a href='https://www.unibo.it/sitoweb/maria.bigoni'>Maria Bigoni</a>
+      </div>
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        Undergraduate
       </div>
     </div>
   </div>
@@ -128,7 +156,7 @@ nav_order: 3
         </div>
         <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
             <span>
-              <b>Teaching Assistant</b> to <a href='https://www.unibo.it/sitoweb/andrea.mattozzi'><i>Andrea Mattozzi</i></a> for the Master Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/491971'><i>Game Theory</i></a>
+              <b>Teaching Assistant</b> to  for the Master Course <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/491971'><i>Game Theory</i></a>
             </span>
         </div>
         <!-- Second row: Building icon and department text -->
