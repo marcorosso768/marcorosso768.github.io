@@ -13,22 +13,8 @@
           </tr>
           {% for item in content.items %}
             <tr>
-              <td></td>
-              <td class="list-group-name">
-                <b>{{ item.name }}</b>
-              </td>
               {% if item.level %}
                 <td class="list-group-level">{{ item.level }}</td>
-              {% endif %}
-              {% if item.school %}
-                <td class="list-group-school">{{ item.school }}
-              {% endif %}
-              {% if item.time %}
-                <br>
-                <span class="list-group-time">{{ item.time }}</span>
-                </td>
-              {% else %}
-                </td>
               {% endif %}
               {% if item.link %}
                 <td class="list-group-link">
