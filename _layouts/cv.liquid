@@ -45,6 +45,8 @@ layout: default
                 {% include cv/list_groups.liquid %}
               {% elsif entry.type == 'interest' %}
                 {% include cv/interest.liquid %}
+              {% elsif entry.type == 'list_languages' %}
+                {% include cv/list_languages.liquid %}
               {% else %}
                 {{ entry.contents }}
               {% endif %}
