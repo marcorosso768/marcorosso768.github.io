@@ -1,4 +1,34 @@
 /******************************************************************************
+ * Hover on links
+ ******************************************************************************/
+
+a {
+      text-decoration: none;
+      color: var(--global-theme-color);
+      transition: 
+        color var(--transition-duration) var(--transition-easing),
+        font-style var(--transition-duration) var(--transition-easing);
+  
+      &:link {
+        color: var(--global-theme-color);
+      }
+      &:visited {
+        color: inherit;
+      }
+  
+      &:hover {
+        color: var(--global-hover-color);
+        font-style: italic;
+        text-decoration: underline;
+      }
+  
+      &:active {
+        color: var(--global-active-color);
+        font-style: italic;
+      }
+}
+
+/******************************************************************************
  * Content
  ******************************************************************************/
 
@@ -460,7 +490,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
         color: var(--global-theme-color);
       }
       &:visited {
-        color: var(--global-highlight-color); // inherit;
+        color: inherit;
       }
   
       &:hover {
