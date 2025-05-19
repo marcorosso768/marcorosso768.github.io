@@ -94,13 +94,13 @@
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
-      supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/margherita.fort/en"><i>Margherita Fort</i></a> and <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
+      supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/margherita.fort/en">Margherita Fort</a> and <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
     - title: Research Assistant
       year: "2018"
       location: "Turin, Italy"
       institution: Collegio Carlo Alberto
       department: Center for Research on Pensions and Welfare Policies (CeRP)
-      supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero<</a>'
+      supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero</a>'
 
 - title: awards, grants, and scholarships
   type: time_table
