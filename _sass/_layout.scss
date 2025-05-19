@@ -198,12 +198,35 @@ a.float-right:active i {
 * CV: field of interest
 *****************************************************************************/
 
+//.interests-container {
+//  display: flex;
+//  flex-wrap: wrap;
+//  justify-content: center;
+//  gap: 0.5rem;
+//  padding: 0.5rem;
+//}
+
+//.interest-badge {
+//  border: 2px solid var(--global-theme-color);
+//  color: var(--global-text-color);
+//  background-color: transparent;
+//  font-weight: normal !important;
+//  font-size: 11px;
+//  padding: 0.3rem 0.8rem;
+//  border-radius: 0.3rem;
+//  text-align: center;
+//}
+
 .interests-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.5rem;
   padding: 0.5rem;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
 }
 
 .interest-badge {
@@ -215,6 +238,12 @@ a.float-right:active i {
   padding: 0.3rem 0.8rem;
   border-radius: 0.3rem;
   text-align: center;
+
+  // Forza la centratura delle box su smartphone
+  @media (max-width: 768px) {
+    margin: 0.3rem auto;
+    min-width: 140px; // opzionale: imposta una larghezza minima per allineamento uniforme
+  }
 }
 
 /*****************************************************************************
