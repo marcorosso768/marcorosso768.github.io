@@ -54,17 +54,17 @@ subtitle: >
 
   <div class="icon-link indented">
     <i class="ai ai-orcid fa-fw"></i>
-    <a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" rel="noopener noreferrer">ORCID</a>
+    <a href="https://orcid.org/0000-0002-3814-2210" target="_blank" rel="noopener noreferrer">ORCID</a>
   </div>
 
   <div class="icon-link indented">
     <i class="ai ai-google-scholar fa-fw"></i>
-    <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+    <a href="https://scholar.google.com/citations?user=KYPkHrIAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
   </div>
 
   <div class="icon-link indented">
     <i class="ai ai-researchgate fa-fw"></i>
-    <a href="https://www.researchgate.net/profile/{{ site.research_gate_profile }}/" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+    <a href="https://www.researchgate.net/profile/Marco-Rosso-2" target="_blank" rel="noopener noreferrer">ResearchGate</a>
   </div>
 
   <div class="icon-link indented">
@@ -88,17 +88,17 @@ subtitle: >
 
   <div class="icon-link indented">
     <i class="fa-brands fa-linkedin fa-fw"></i>
-    <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a href="https://www.linkedin.com/in/marcorosso768/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
   </div>
 
   <div class="icon-link indented">
     <i class="fa-brands fa-bluesky fa-fw"></i>
-    <a href="https://bsky.app/profile/{{ site.bluesky_url }}" target="_blank" rel="noopener noreferrer">Bluesky</a>
+    <a href="https://bsky.app/profile/marcorosso.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a>
   </div>
 
   <div class="icon-link">
     <i class="fa-brands fa-x-twitter fa-fw"></i>
-    <a href="https://x.com/{{ site.x_username }}" target="_blank" rel="noopener noreferrer"><em>R.I.P.</em> Twitter</a>
+    <a href="https://x.com/marcorosso768" target="_blank" rel="noopener noreferrer"><em>R.I.P.</em> Twitter</a>
   </div>
   
 </div>
@@ -116,7 +116,8 @@ subtitle: >
 <div id="content-4" class="toggle-section expanded">
 
   <div style="display: flex; justify-content: center;">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5691.752434268042!2d11.352124100000001!3d44.4972031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd4bb0ed9d74f%3A0x851bdc6a12c818e2!2sFaculty%20of%20Economics%20-%20University%20of%20Bologna!5e0!3m2!1sen!2sit!4v1745046255408!5m2!1sen!2sit" width="800" height="600" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5869.619707905097!2d11.352124!3d44.497203!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd4bb0ed9d74f%3A0x851bdc6a12c818e2!2sFaculty%20of%20Economics%20-%20University%20of%20Bologna!5e1!3m2!1sen!2sit!4v1747640523184!5m2!1sen!2sit"
+width="800" height="600" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
   
 </div>
