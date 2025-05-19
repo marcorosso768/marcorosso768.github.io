@@ -45,7 +45,7 @@ subtitle: >
 
 <div id="content-2" style="display: block;">
   <div class="icon-link indented">
-    <i class="fa-solid fa-landmark fa-fw"></i>
+    <i class="fa-solid fa-building-columns fa-fw"></i>
     <a href="https://www.unibo.it/sitoweb/marco.rosso4/" target="_blank" rel="noopener noreferrer">pagina personale sul sito di UniBo</a>
   </div>
 
