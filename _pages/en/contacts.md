@@ -48,7 +48,7 @@ subtitle: >
 <div id="content-2" class="toggle-section expanded">
 
   <div class="icon-link indented">
-    <i class="fa-solid fa-landmark fa-fw"></i>
+    <i class="fa-solid fa-building-columns fa-fw"></i>
     <a href="https://www.unibo.it/sitoweb/marco.rosso4/en" target="_blank" rel="noopener noreferrer">personal page on UniBo website</a>
   </div>
 
