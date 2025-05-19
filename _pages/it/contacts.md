@@ -51,17 +51,17 @@ subtitle: >
 
   <div class="icon-link indented">
     <i class="ai ai-orcid fa-fw"></i>
-    <a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" rel="noopener noreferrer">ORCID</a>
+    <a href="https://orcid.org/0000-0002-3814-2210" target="_blank" rel="noopener noreferrer">ORCID</a>
   </div>
 
   <div class="icon-link indented">
     <i class="ai ai-google-scholar fa-fw"></i>
-    <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+    <a href="https://scholar.google.com/citations?user=KYPkHrIAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
   </div>
 
   <div class="icon-link indented">
     <i class="ai ai-researchgate fa-fw"></i>
-    <a href="https://www.researchgate.net/profile/{{ site.research_gate_profile }}/" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+    <a href="https://www.researchgate.net/profile/Marco-Rosso-2" target="_blank" rel="noopener noreferrer">ResearchGate</a>
   </div>
 
   <div class="icon-link indented">
@@ -83,17 +83,17 @@ subtitle: >
 <div id="content-3" style="display: block;">
   <div class="icon-link indented">
     <i class="fa-brands fa-linkedin fa-fw"></i>
-    <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a href="https://www.linkedin.com/in/marcorosso768/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
   </div>
 
   <div class="icon-link indented">
     <i class="fa-brands fa-bluesky fa-fw"></i>
-    <a href="https://bsky.app/profile/{{ site.bluesky_url }}" target="_blank" rel="noopener noreferrer">Bluesky</a>
+    <a href="https://bsky.app/profile/marcorosso.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a>
   </div>
 
   <div class="icon-link">
     <i class="fa-brands fa-x-twitter fa-fw"></i>
-    <a href="https://x.com/{{ site.x_username }}" target="_blank" rel="noopener noreferrer"><em>R.I.P.</em> Twitter</a>
+    <a href="https://x.com/marcorosso768" target="_blank" rel="noopener noreferrer"><em>R.I.P.</em> Twitter</a>
   </div>
 </div>
 
