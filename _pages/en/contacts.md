@@ -88,7 +88,7 @@ subtitle: >
 
   <div class="icon-link indented">
     <i class="fa-brands fa-linkedin fa-fw"></i>
-    <a href="https://www.linkedin.com/in/marcorosso768/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a href="https://www.linkedin.com/in/marcorosso768" target="_blank" rel="noopener noreferrer">LinkedIn</a>
   </div>
 
   <div class="icon-link indented">
