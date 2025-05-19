@@ -1,31 +1,38 @@
 /******************************************************************************
- * Hover on links
+ * Hover on external links only
  ******************************************************************************/
 
-a {
-      text-decoration: none;
-      color: var(--global-theme-color);
-      transition: 
-        color var(--transition-duration) var(--transition-easing),
-        font-style var(--transition-duration) var(--transition-easing);
-  
-      &:link {
-        color: var(--global-theme-color);
-      }
-      &:visited {
-        color: inherit;
-      }
-  
-      &:hover {
-        color: var(--global-hover-color);
-        font-style: italic;
-        text-decoration: underline;
-      }
-  
-      &:active {
-        color: var(--global-active-color);
-        font-style: italic;
-      }
+a.external {
+  text-decoration: none;
+  color: var(--global-theme-color);
+  transition: 
+    color var(--transition-duration) var(--transition-easing),
+    font-style var(--transition-duration) var(--transition-easing);
+
+  &:link {
+    color: var(--global-theme-color);
+  }
+
+  &:visited {
+    color: inherit;
+  }
+
+  &:hover {
+    color: var(--global-hover-color);
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+  &:active {
+    color: var(--global-active-color);
+    font-style: italic;
+  }
+
+  //&::after {
+  //  content: " ↗"; // simbolo opzionale per link esterni
+  //  font-size: 0.85em;
+  //  margin-left: 0.2em;
+  //}
 }
 
 /******************************************************************************
