@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const t=window.location.origin;document.querySelectorAll("a[href^='http']").forEach(e=>{const o=!e.href.startsWith(t),r=!e.href.startsWith("mailto:"),a=!e.href.startsWith("tel:");o&&r&&a&&e.classList.add("external")})});
