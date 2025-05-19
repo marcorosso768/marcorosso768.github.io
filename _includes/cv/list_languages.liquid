@@ -13,16 +13,9 @@
           </tr>
           {% for item in content.items %}
             <tr>
-              {% if item.level %}
-                <td class="list-group-level">{{ item.level }}</td>
-              {% endif %}
-              {% if item.link %}
-                <td class="list-group-link">
-                  <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">
-                    {% if item.linkname %}{{ item.linkname }}{% else %}DOC{% endif %}
-                  </a>
-                </td>
-              {% endif %}
+              <td class="list-group-name">
+                <b>{{ item.name }}</b>
+              </td>
             </tr>
           {% endfor %}
         </tbody>
