@@ -20,7 +20,8 @@
     {% include head.liquid %}
   </head>
 
-  <script src="/assets/js/toggle-sections.js" defer></script>
+  <script src="{{ '/assets/js/external-links.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/toggle-sections.js' | relative_url }}" defer></script>
   {% if page.page_id == "research" %}
     <link rel="stylesheet" href="/assets/css/abstract-toggle.css">
     <script>
@@ -29,10 +30,10 @@
         hide: "{{ site.data.strings.abstract.hide | escape }}"
       };
     </script>
-    <script src="/assets/js/toggle-box.js" defer></script>
+    <script src="{{ '/assets/js/toggle-box.js' | relative_url }}" defer></script>
   {% endif %}
   {% if page.page_id == "teaching" %}
-    <script src="/assets/js/toggle-subsection.js" defer></script>
+    <script src="{{ '/assets/js/toggle-subsection.js' | relative_url }}" defer></script>
   {% endif %}
 
     <!-- Body -->
