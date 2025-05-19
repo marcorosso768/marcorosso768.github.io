@@ -66,7 +66,7 @@ subtitle: >
 
   <div class="icon-link indented">
     <i class="fa-brands fa-github fa-fw"></i>
-    <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a href="https://github.com/marcorosso768" target="_blank" rel="noopener noreferrer">GitHub</a>
   </div>
 </div>
 
