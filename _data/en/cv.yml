@@ -177,13 +177,16 @@
   type: list_groups
   contents:
     - category: "Italian"
+      icon:
       items:
         - name: "native"
     - category: "English"
       items:
+      icon:
         - name: "fluent"
     - category: "Spanish"
       items:
+      icon:
         - name: "intermediate"
 
 - title: computer skills
