@@ -1,9 +1,7 @@
-<div class="interests-container d-flex flex-wrap justify-content-center">
-  {% for item in entry.contents %}
-    {% if item.field %}
-      <span class="interest-badge">
-        {{ item.field }}
-      </span>
-    {% endif %}
-  {% endfor %}
+<div class="cv-section cv-section--interest">
+  <div class="button-container">
+    {% for item in entry.contents %}
+      <div class="interest-tag">{{ item.field }}</div>
+    {% endfor %}
+  </div>
 </div>
