@@ -223,10 +223,6 @@ a.float-right:active i {
   justify-content: center;
   gap: 0.5rem;
   padding: 0.5rem;
-
-  @media (max-width: 768px) {
-    justify-content: center;
-  }
 }
 
 .interest-badge {
@@ -238,11 +234,15 @@ a.float-right:active i {
   padding: 0.3rem 0.8rem;
   border-radius: 0.3rem;
   text-align: center;
+  min-width: 140px;
+}
 
-  // Forza la centratura delle box su smartphone
-  @media (max-width: 768px) {
-    margin: 0.3rem auto;
-    min-width: 140px; // opzionale: imposta una larghezza minima per allineamento uniforme
+@media (max-width: 768px) {
+  .interest-badge:nth-child(3),
+  .interest-badge:nth-child(4) {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 }
 
