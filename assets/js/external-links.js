@@ -1,13 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const currentOrigin = window.location.origin;
+  const siteBase = "https://marcorosso.com"; // baseurl
 
-  document.querySelectorAll("a[href^='http']").forEach(link => {
-    const isExternal = !link.href.startsWith(currentOrigin);
-    const isNotMail = !link.href.startsWith("mailto:");
-    const isNotTel = !link.href.startsWith("tel:");
+  document.querySelectorAll("a[href]").forEach(link => {
+    const href = link.getAttribute("href");
 
-    if (isExternal && isNotMail && isNotTel) {
+    const isMailto = href.startsWith("mailto:");
+    const isTel = href.startsWith("tel:");
+    const isHttp = href.startsWith("http");
+
+    const isExternal = 
+      (isHttp && !href.startsWith(siteBase)) || isMailto || isTel;
+
+    if (isExternal) {
       link.classList.add("external");
+      link.setAttribute("target", "_blank");
+      link.setAttribute("rel", "noopener noreferrer");
     }
   });
 });
