@@ -456,9 +456,11 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
         color var(--transition-duration) var(--transition-easing),
         font-style var(--transition-duration) var(--transition-easing);
   
-      &:link,
+      &:link {
+        color: var(--global-theme-color);
+      }
       &:visited {
-        color: inherit;
+        color: var(--global-highlight-color); // inherit;
       }
   
       &:hover {
