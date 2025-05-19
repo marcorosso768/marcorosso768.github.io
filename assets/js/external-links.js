@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const siteBase = "https://marcorosso.com"; // baseurl
+  const siteBase = "https://marcorosso.com"; // Your base URL
 
-  document.querySelectorAll("a[href]").forEach(link => {
+  document.querySelectorAll("a[href]:not(.no-external)").forEach(link => {
     const href = link.getAttribute("href");
 
     const isMailto = href.startsWith("mailto:");
     const isTel = href.startsWith("tel:");
     const isHttp = href.startsWith("http");
 
-    const isExternal = 
+    const isExternal =
       (isHttp && !href.startsWith(siteBase)) || isMailto || isTel;
 
     if (isExternal) {
