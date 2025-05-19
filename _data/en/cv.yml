@@ -40,7 +40,7 @@
       institution: University of Bologna
       department: DSE - Depeartment of Economics
       location: "Bologna, Italy"
-      supervisor: 'supervisor: <a href="https://sites.google.com/site/paolovanin/"><i>Paolo Vanin</i></a>'
+      supervisor: 'supervisor: <a href="https://sites.google.com/site/paolovanin/">Paolo Vanin</a>'
     - title: Master of Arts in Economics
       year: "2020"
       location: "Turin, Italy"
@@ -50,13 +50,13 @@
       location: "Turin, Italy"
       institution: University of Turin
       department: ESOMAS - Department of Economics
-      supervisor: 'supervisor: <a href="https://sites.google.com/site/giovannimastrobuoni/"><i>Giovanni Mastrobuoni</i></a>'
+      supervisor: 'supervisor: <a href="https://sites.google.com/site/giovannimastrobuoni/">Giovanni Mastrobuoni</a>'
     - title: "Bachelor's degree of Mathematics"
       year: "2015"
       location: "Turin, Italy"
       institution: University of Turin
       department: Department of Mathematics
-      supervisor: 'supervisor: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo"><i>Vittoria Demichelis</i></a>'
+      supervisor: 'supervisor: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis<</a>'
 
 - title: visiting periods
   type: time_table
@@ -66,13 +66,13 @@
       location: "Buones Aires, Argentina"
       institution: Universidad de San Andrés
       department: Departamento de Economía
-      supervisor: 'local advisor: <a href="https://www.tommy-e-murphy.com"><i>Tommy E. Murphy</i></a>'
+      supervisor: 'local advisor: <a href="https://www.tommy-e-murphy.com">Tommy E. Murphy</a>'
     - title: "Visitor Master's Candidate"
       year: winter 2019
       location: "Turin, Italy"
       institution: Regional Public Health Observatory (SEPI)
       department: Public Health Department (Local Health Board TO3)
-      supervisor: 'supervisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo"><i>Fulvio Ricceri</i></a>'
+      supervisor: 'supervisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
 
 - title: academic activities
   type: time_table
@@ -82,25 +82,25 @@
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
-      supervisor: 'supervisors: <a href="https://jnchapman.com"><i>Jonathan Neil Chapman</i></a> and <a href="https://sites.google.com/site/giovanniprarolo/"><i>Giovanni Prarolo</i></a>'
+      supervisor: 'supervisors: <a href="https://jnchapman.com">Jonathan Neil Chapman</a> and <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
     - title: Implementation of Online Experiments in the Context of the MinUTo Project
       year: "2024"
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
-      supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en"><i>Maria Bigoni</i></a> and <a href="https://sites.google.com/site/stefaniabortolotti/home"><i>Stefania Bortolotti</i></a>'
+      supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en">Maria Bigoni</a> and <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
     - title: Generation and Preparation of Support Material for the Econometrics Course
       year: "2023"
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
-      supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/margherita.fort/en"><i>Margherita Fort</i></a> and <a href="https://sites.google.com/site/dennitommasi/"><i>Denni Tommasi</i></a>'
+      supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/margherita.fort/en"><i>Margherita Fort</i></a> and <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
     - title: Research Assistant
       year: "2018"
       location: "Turin, Italy"
       institution: Collegio Carlo Alberto
       department: Center for Research on Pensions and Welfare Policies (CeRP)
-      supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html"><i>Elsa Fornero</i></a>'
+      supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero<</a>'
 
 - title: awards, grants, and scholarships
   type: time_table
@@ -166,7 +166,7 @@
   contents:
     - name:
       value: >
-        <div style="font-size:11pt; display: flex; align-items: flex-start; margin-left: 2rem;">
+        <div style="font-size:11pt; display: flex; align-items: flex-start; margin-left: 0.75em;">
           <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1.2; padding-top: 1px;"></i>
           <div>
             <i>Journal of Economics &amp; Management Strategy</i>
@@ -191,7 +191,7 @@
   contents:
     - name:
       value: >
-        <div style="font-size:11pt; display: flex; align-items: flex-start; margin-left: 2rem;">
+        <div style="font-size:11pt; display: flex; align-items: flex-start; margin-left: 0.75em;">
           <i class="fa-solid fa-laptop-code fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1.2; padding-top: 1px;"></i>
           <div style="font-variant: small-caps; line-height: 1.4;">
             Stata, Python, &lt;HTML&gt;, QGIS, Qualtrics, MATLAB, R, C++, LaTeX, MS Office
