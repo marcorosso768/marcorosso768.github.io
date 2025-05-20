@@ -111,15 +111,6 @@ div.list-groups {
   align-content: center;
 }
 
-div.list-groups {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 1rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
 div.list-group {
   box-sizing: border-box;
   flex: 0 0 calc(50% - 0.5rem);  // Due colonne
@@ -187,15 +178,9 @@ div.list-languages {
 
 div.list-language {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  flex: 0 0 0 calc(33% - 1rem);  // Due colonne
   align-items: flex-start;
   margin-bottom: 2rem;
-
-  @media (max-width: 576px) {
-    flex: 1 1 1 33%;
-    max-width: 33%;
-  }
 }
 
 td.list-language-category {
