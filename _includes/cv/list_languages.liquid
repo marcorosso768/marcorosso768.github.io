@@ -1,7 +1,7 @@
 <div class="list-languages flex-container ml-2 ml-sm-4">
   {% for content in entry.contents %}
     <div class="list-languages flex-item">
-      <table class="table-cv list-group-table">
+      <table class="table-cv list-language-table">
         <tbody>
           <tr>
             <!-- Calculate colspan number for category title -->
@@ -13,7 +13,7 @@
           </tr>
           {% for item in content.items %}
             <tr>
-              <td class="list-languages-name">
+              <td class="list-language-name">
                 <b>{{ item.name }}</b>
               </td>
             </tr>
