@@ -118,9 +118,9 @@ div.list-group {
   align-items: flex-start;
   margin-bottom: 2rem;
 
-  @media (max-width: 576px) {
-    flex: 1 1 45%;
-    max-width: 45%;
+  @media (max-width: 812px) {
+    flex: 1 1 40%;
+    max-width: 40%;
     //margin-right: 4%;
   }
 }
