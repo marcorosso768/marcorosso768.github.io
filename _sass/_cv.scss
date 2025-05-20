@@ -112,20 +112,11 @@ div.list-groups {
 }
 
 div.list-group {
-  box-sizing: border-box;
-  flex: 0 0 calc(50% - 0.5rem);  // Due colonne
-  max-width: calc(50% - 0.5rem);
-  margin-bottom: 1.5rem;
-
-  @media (min-width: 768px) {
-    flex: 0 0 calc(25% - 1rem);  // Quattro colonne su desktop
-    max-width: calc(25% - 1rem);
-  }
-}
-
-.list-group-table {
-  width: 100%;
-  table-layout: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 2rem;
 }
 
 td.list-group-category {
@@ -178,7 +169,8 @@ div.list-languages {
 
 div.list-language {
   display: flex;
-  flex: 0 0 0 calc(33% - 1rem);  // Due colonne
+  flex-wrap: wrap;
+  flex-direction: column;
   align-items: flex-start;
   margin-bottom: 2rem;
 }
@@ -186,13 +178,6 @@ div.list-language {
 td.list-language-category {
   color: var(--global-theme-color);
   margin-bottom: 0.5rem;
-}
-
-td.list-language-category-icon {
-  font-size: 0.8rem;
-  color: var(--global-theme-color);
-  width: 1.4rem;
-  padding-right: 0.4rem;
 }
 
 td.list-language-name {
