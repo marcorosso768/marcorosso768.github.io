@@ -117,6 +117,12 @@ div.list-group {
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 2rem;
+
+  @media (min-width: 400px) and (max-width: 576px) {
+    flex: 1 1 48%;
+    max-width: 48%;
+    //margin-right: 4%;
+  }
 }
 
 td.list-group-category {
@@ -153,6 +159,47 @@ p.list-group-time {
 
 td.list-group-link {
   padding-left: 0.5rem;
+}
+
+/*****************************
+ * CV LIST_LANGUAGES styles
+ *****************************/
+
+div.list-languages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-content: center;
+}
+
+div.list-languages {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+
+  @media (min-width: 400px) and (max-width: 576px) {
+    flex: 1 1 1 33%;
+    max-width: 33%;
+  }
+}
+
+td.list-languages-category {
+  color: var(--global-theme-color);
+  margin-bottom: 0.5rem;
+}
+
+td.list-group-category-icon {
+  font-size: 0.8rem;
+  color: var(--global-theme-color);
+  width: 1.4rem;
+  padding-right: 0.4rem;
+}
+
+td.list-languages-name {
+  font-size: 0.8rem;
 }
 
 /*****************************
