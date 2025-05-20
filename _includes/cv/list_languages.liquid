@@ -1,7 +1,7 @@
-<div class="list-groups flex-container ml-1 ml-sm-4">
+<div class="list-languages flex-container ml-1 ml-sm-4">
   {% for content in entry.contents %}
-    <div class="list-group flex-item">
-      <table class="table-cv list-group-table">
+    <div class="list-languages flex-item">
+      <table class="table-cv list-languages-table">
         <tbody>
           <tr>
             <!-- Calculate colspan number for category title -->
@@ -9,11 +9,11 @@
             {% for item in content.items %}
               {% assign i = i | plus: 1 %}
             {% endfor %}
-            <td colspan="{{ i }}" class="list-group-category">{{ content.category }}</td>
+            <td colspan="{{ i }}" class="list-languages-category">{{ content.category }}</td>
           </tr>
           {% for item in content.items %}
             <tr>
-              <td class="list-group-name">
+              <td class="list-languages-name">
                 <b>{{ item.name }}</b>
               </td>
             </tr>
