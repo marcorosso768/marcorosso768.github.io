@@ -118,6 +118,17 @@ div.list-group {
   align-items: flex-start;
   margin-bottom: 2rem;
   width: 7em;
+  
+  .flex-item {
+    flex: 1 1 calc(25% - 20px);
+    padding: 8px;
+    box-sizing: border-box;
+    text-align: left;
+    min-height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 
 td.list-group-category {
