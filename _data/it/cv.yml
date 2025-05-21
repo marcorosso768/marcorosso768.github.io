@@ -229,7 +229,7 @@
       icon: "fa-regular fa-futbol" 
     - category: '<span style="color:var(--global-text-color);"> fumetti </span>'
       icon: "fa-solid fa-book"
-    - category: '<span style="color:var(--global-text-color);"> video games </span>'
+    - category: '<span style="color:var(--global-text-color);"> video&nbsp;games </span>'
       icon: "fa-solid fa-gamepad"
     - category: '<span style="color:var(--global-text-color);"> giochi&nbsp;da&nbsp;tavolo </span>'
       icon: "fa-solid fa-puzzle-piece"
