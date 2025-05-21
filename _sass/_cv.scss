@@ -120,6 +120,7 @@ div.list-group {
   width: 7em;
   
   .flex-item {
+    all: unset;
     flex: 1 1 calc(25% - 20px);
     padding: 8px;
     box-sizing: border-box;
