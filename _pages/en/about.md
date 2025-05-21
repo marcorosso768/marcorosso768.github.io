@@ -35,7 +35,7 @@ subtitle: >
     </div>
 
 profile:
-  align: center-right
+  align: right
   image: profile_pictures/prof_pic_MR.jpg
   image_circular: true # crops the image to make it circular
 #  more_info: >
