@@ -115,27 +115,27 @@
       institution: Università di Bologna
     - title: Dignità di Stampa per la Tesi Magistrale (Titolo di merito italiano)
       year: "2019"
-      location: "Turin, Italy"
-      institution: Università of Torino
+      location: "Torino, Italia"
+      institution: Università di Torino
 
 - title: incarichi accademici
   type: time_table
   contents:
-    - title: "Representatives of Research Fellows in the Board of the Department of Economics"
+    - title: "Rappresentante degli Assegnisti nel Consiglio di Dipartimento"
       year: 2025-
-      location: "Bologna, Italy"
-      institution: University of Bologna
-      department: DSE - Department of Economics
-    - title: "Representatives of Research Fellows in the Council of the Department of Economics"
+      location: "Bologna, Italia"
+      institution: Università di Bologna
+      department: DSE - Dipartimento di Scienze Economiche
+    - title: "Rappresentante degli Assegnisti nel Collegio di Dipartimento"
       year: 2025-
-      location: "Bologna, Italy"
-      institution: University of Bologna
-      department: DSE - Department of Economics
-    - title: Committee Member, International SAT Test for University Admissions
+      location: "Bologna, Italia"
+      institution: Università di Bologna
+      department: DSE - Dipartimento di Scienze Economiche
+    - title: Membro della Commissione per il test internazionale SAT
       year: 2024-
-      location: "Bologna, Italy"
-      institution: University of Bologna, in collaboration with the College Board (New York)
-      department: DSE - Department of Economics
+      location: "Bologna, Italia"
+      institution: Università di Bologna, in collaborazione con College Board (New York)
+      department: DSE - Dipartimento di Scienze Economiche
    
 - title: attività di networking
   type: time_table
@@ -231,7 +231,7 @@
       icon: "fa-solid fa-book"
     - category: '<span style="color:var(--global-text-color);"> video games </span>'
       icon: "fa-solid fa-gamepad"
-    - category: '<span style="color:var(--global-text-color);"> giochi da tavolo </span>'
+    - category: '<span style="color:var(--global-text-color);"> giochi&nbsp;da&nbsp;tavolo </span>'
       icon: "fa-solid fa-puzzle-piece"
 
 
