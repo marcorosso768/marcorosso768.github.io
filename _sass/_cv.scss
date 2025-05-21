@@ -116,11 +116,11 @@ div.list-group {
   flex-wrap: wrap;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 2rem;
+  //margin-bottom: 2rem;
   width: 7em;
   
   &.flex-item {
-    //all: unset;
+    all: unset;
     flex: 1 1 calc(25% - 20px);
     padding: 8px;
     box-sizing: border-box;
@@ -178,7 +178,7 @@ div.list-languages {
   justify-content: flex-start;
   flex-direction: row;
   align-content: center;
-  //margin-bottom: -1.5em;
+  margin-bottom: 1.5em;
 }
 
 div.list-language {
@@ -186,11 +186,11 @@ div.list-language {
   flex-wrap: wrap;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 2rem;
+  //margin-bottom: 2rem;
   width: 7em;
 
   &.flex-item {
-    //all: unset;
+    all: unset;
     flex: 1 1 calc(25% - 20px);
     padding: 8px;
     box-sizing: border-box;
