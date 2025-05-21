@@ -120,8 +120,8 @@ div.list-group {
   width: 7em;
   
   &.flex-item {
-    all: unset;
-    //flex: 1 1 calc(25% - 20px);
+    //all: unset;
+    flex: 1 1 calc(25% - 20px);
     padding: 8px;
     box-sizing: border-box;
     text-align: left;
@@ -178,7 +178,7 @@ div.list-languages {
   justify-content: flex-start;
   flex-direction: row;
   align-content: center;
-  margin-bottom: -1.5em;
+  //margin-bottom: -1.5em;
 }
 
 div.list-language {
@@ -190,8 +190,8 @@ div.list-language {
   width: 7em;
 
   &.flex-item {
-    all: unset;
-    // flex: 1 1 calc(25% - 20px);
+    //all: unset;
+    flex: 1 1 calc(25% - 20px);
     padding: 8px;
     box-sizing: border-box;
     text-align: left;
