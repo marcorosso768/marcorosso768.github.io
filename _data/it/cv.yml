@@ -72,7 +72,7 @@
       location: "Torino, Italia"
       institution: Servizio Sovrazonale di Epidemiologia (SEPI)
       department: Dipartimento di Sanità Pubblica (Azienda Sanitaria Locale TO3)
-      supervisor: 'relatore: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
+      supervisor: 'supervisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
 
 - title: attività accademiche
   type: time_table
@@ -82,25 +82,25 @@
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE - Dipartimento di Scienze Economiche
-      supervisor: 'supervisori: <a href="https://jnchapman.com">Jonathan Neil Chapman</a> e <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
+      supervisor: 'supervisor: <a href="https://jnchapman.com">Jonathan Neil Chapman</a> e <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
     - title: Implementazione di Esperimenti Online per il Progetto MinUTo
       year: "2024"
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE - Dipartimento di Scienze Economiche
-      supervisor: 'supervisore: <a href="https://www.unibo.it/sitoweb/maria.bigoni/it">Maria Bigoni</a> e<a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
+      supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/maria.bigoni/it">Maria Bigoni</a> e <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
     - title: Generazione e Praparazione di Materiale di Supporto alla Didattica per il Corso di Econometria
       year: "2023"
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE - Dipartimento di Scienze Economiche
-      supervisor: 'supervisori: <a href="https://www.unibo.it/sitoweb/margherita.fort/en">Margherita Fort</a> and <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
+      supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/margherita.fort/en">Margherita Fort</a> and <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
     - title: Assistente di Ricarca
       year: "2018"
       location: "Torino, Italia"
       institution: Collegio Carlo Alberto
       department: Center for Research on Pensions and Welfare Policies (CeRP)
-      supervisor: 'supervisora: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero</a>'
+      supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero</a>'
 
 - title: premi, sovvenzioni e borse di studio
   type: time_table
@@ -204,15 +204,15 @@
     - title: Operatore per la raccolta dati in sede e sul campo
       year: 2016-2021
       firm: Deltatre
-      location: "Torino, <br> Italia"
+      location: "Torino, Italia"
     - title: Allenatore di calcio giovanile
       year: 2014-2016
       soccer: A.P.D. Pecetto
-      location: "Pecetto, <br> Italia"
+      location: "Pecetto, Italia"
     - title: Allenatore di calcio giovanile
       year: 2013-2014
       soccer: C.S.F. Carmagnola
-      location: "Carmagnola, <br> Italia"
+      location: "Carmagnola, Italia"
 
 - title: hobby
   type: list_groups
