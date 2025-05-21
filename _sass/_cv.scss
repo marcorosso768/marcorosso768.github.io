@@ -132,6 +132,11 @@ div.list-group {
   }
 }
 
+div.list-group:last-child {
+  margin-right: 0;        // ignora il margine destro
+  margin-left: auto;      // spingilo a sinistra nella colonna di destra
+}
+
 td.list-group-category {
   color: var(--global-theme-color);
   margin-bottom: 0.5rem;
