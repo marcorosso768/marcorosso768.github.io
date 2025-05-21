@@ -132,9 +132,8 @@ div.list-group {
   }
 }
 
-div.list-group:last-child {
-  margin-right: 0;        // ignora il margine destro
-  margin-left: auto;      // spingilo a sinistra nella colonna di destra
+div.list-group.last-entry {
+  align-self: flex-start;
 }
 
 td.list-group-category {
