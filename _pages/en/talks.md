@@ -87,7 +87,7 @@ nav_order: 2
     </div>
   </div>
 
-<!-- 2024 -->
+<!-- 2024 
 <p><b>2024</b></p>
 
   <div class="seminar-entry indented">
@@ -101,7 +101,7 @@ nav_order: 2
         Le Sparne — Pitigliano (GR), Italy
       </div>
     </div>
-  </div>
+  </div> -->
 
 <!-- 2023 -->
 <p><b>2023</b></p>
