@@ -26,4 +26,4 @@ pagination:
 
 <br>
 
-<i>Prossimamente...</i>
+<i>Prossimamente....</i>

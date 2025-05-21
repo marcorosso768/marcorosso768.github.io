@@ -676,7 +676,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   font-size: 10pt;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   pointer-events: none;
-  transition: max-height 0.8s ease, opacity 0.4s ease, padding 0.4s ease; //0.6s
+  transition: max-height 0.6s ease, opacity 0.4s ease, padding 0.4s ease; //0.6s
 }
 
 .toggle-box.active {
@@ -696,7 +696,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   max-height: 0;
   overflow: hidden;
   opacity: 0;
-  transition: max-height 0.8s ease, opacity 0.4s ease; //max-height 0.6s ease, opacity 0.4s ease; //, padding 0.4s ease;
+  transition: max-height 0.6s ease, opacity 0.4s ease; //max-height 0.6s ease, opacity 0.4s ease; //, padding 0.4s ease;
   line-height: 1.2;
 }
 
