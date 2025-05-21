@@ -86,7 +86,7 @@ nav_order: 3
 <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2023/422038'>Globalization: Trade, Migrations and Multinationals</a> with <a href='https://www.unibo.it/sitoweb/giovanni.prarolo'>Giovanni Prarolo</a> and <a href='https://www.unibo.it/sitoweb/rohit.ticku'>Rohit Ticku</a> <h4 style="font-size: smaller;">(2023/24)</h4>
+          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2023/422038'>Globalization: Trade, Migrations and Multinationals</a> with <a href='https://www.unibo.it/sitoweb/giovanni.prarolo'>Giovanni Prarolo</a> and <a href='https://www.unibo.it/sitoweb/rohit.ticku'>Rohit Ticku</a> <span style="font-size: smaller;">(2023/24)</span>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
