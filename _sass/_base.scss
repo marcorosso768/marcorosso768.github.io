@@ -200,9 +200,6 @@ ul.task-list input[type="checkbox"] {
 
 .profile {
   width: 100%;
-  {% if page.profile.align == 'right' %}
-    margin-top: -6em;
-  {% endif %}
 
   .more-info {
     margin-bottom: 5px;
@@ -228,6 +225,9 @@ ul.task-list input[type="checkbox"] {
 @media (min-width: 576px) {
   .profile {
     width: 30%;
+    {% if page.profile.align == 'right' %}
+      margin-top: -6em;
+    {% endif %}
 
     .address {
       p {
