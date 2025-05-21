@@ -119,7 +119,7 @@ div.list-group {
   margin-bottom: 2rem;
   width: 7em;
   
-  .flex-item {
+  &.flex-item {
     all: unset;
     flex: 1 1 calc(25% - 20px);
     padding: 8px;
