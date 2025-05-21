@@ -22,17 +22,17 @@
           </div>
         </div>
 
-- title: field of interest
+- title: interessi di ricerca
   type: interest
   contents:
-    - field: Economics of Crime
-    - field: Political Economics
+    - field: Economia del Crimine
+    - field: Economia Politica
     - field: Teoria dei Giochi
-    - field: Microeconomics
-    - field: Experimental Economics
-    - field: Behavioural Economics
+    - field: Microeconomia
+    - field: Economia Sperimentale
+    - field: Economia Comportamentale
     
-- title: istruzione
+- title: formazione
   type: time_table
   contents:
     - title: Dottorato in Economia
@@ -74,33 +74,33 @@
       department: Dipartimento di Sanità Pubblica (Azienda Sanitaria Locale TO3)
       supervisor: 'relatore: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
 
-- title: academic activities
+- title: attività accademiche
   type: time_table
   contents:
-    - title: "Research Fellow: Democratization, the media, socio-economic context, and voting behavior"
+    - title: "Assegno di Ricerca: democratizzazione, media, fattori socio-economici e comportamento elettorale"
       year: 2024-
-      location: "Bologna, Italy"
-      institution: University of Bologna
-      department: DSE - Department of Economics
-      supervisor: 'supervisors: <a href="https://jnchapman.com">Jonathan Neil Chapman</a> and <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
-    - title: Implementation of Online Experiments in the Context of the MinUTo Project
+      location: "Bologna, Italia"
+      institution: Università di Bologna
+      department: DSE - Dipartimento di Scienze Economiche
+      supervisor: 'supervisori: <a href="https://jnchapman.com">Jonathan Neil Chapman</a> e <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
+    - title: Implementazione di Esperimenti Online per il Progetto MinUTo
       year: "2024"
-      location: "Bologna, Italy"
-      institution: University of Bologna
-      department: DSE - Department of Economics
-      supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en">Maria Bigoni</a> and <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
-    - title: Generation and Preparation of Support Material for the Econometrics Course
+      location: "Bologna, Italia"
+      institution: Università di Bologna
+      department: DSE - Dipartimento di Scienze Economiche
+      supervisor: 'supervisore: <a href="https://www.unibo.it/sitoweb/maria.bigoni/it">Maria Bigoni</a> e<a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
+    - title: Generazione e Praparazione di Materiale di Supporto alla Didattica per il Corso di Econometria
       year: "2023"
-      location: "Bologna, Italy"
-      institution: University of Bologna
-      department: DSE - Department of Economics
-      supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/margherita.fort/en">Margherita Fort</a> and <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
-    - title: Research Assistant
+      location: "Bologna, Italia"
+      institution: Università di Bologna
+      department: DSE - Dipartimento di Scienze Economiche
+      supervisor: 'supervisori: <a href="https://www.unibo.it/sitoweb/margherita.fort/en">Margherita Fort</a> and <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
+    - title: Assistente di Ricarca
       year: "2018"
-      location: "Turin, Italy"
+      location: "Torino, Italia"
       institution: Collegio Carlo Alberto
       department: Center for Research on Pensions and Welfare Policies (CeRP)
-      supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero</a>'
+      supervisor: 'supervisora: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero</a>'
 
 - title: premi, sovvenzioni e borse di studio
   type: time_table
@@ -118,7 +118,7 @@
       location: "Turin, Italy"
       institution: Università of Torino
 
-- title: academic service
+- title: incarichi accademici
   type: time_table
   contents:
     - title: "Representatives of Research Fellows in the Board of the Department of Economics"
@@ -174,7 +174,7 @@
         </div>
     
 - title: conoscenze linguistiche
-  type: list_groups
+  type: list_languages
   contents:
     - category: "italiano"
       items:
@@ -233,41 +233,6 @@
       icon: "fa-solid fa-gamepad"
     - category: '<span style="color:var(--global-text-color);"> giochi da tavolo </span>'
       icon: "fa-solid fa-puzzle-piece"
-
-
-
-
-- title: attività accademiche
-  type: time_table
-  contents:
-    - title: "Assegno di Ricerca: democratizzazione, media, fattori socio-economici e comportamento elettorale"
-      year: 2024-
-      location: "Bologna, <br> Italia"
-      institution: Università di Bologna
-      department: DSE - Dipartimento di Scienze Economiche
-      supervisor: 'supervisor: <a href="https://jnchapman.com"><i>Jonathan Neil Chapman</i></a> e <a href="https://sites.google.com/site/giovanniprarolo/"><i>Giovanni Prarolo</i></a>'
-    - title: "Partecipazione nella Commissione di Valutazione del Test Internazionale SAT usato per l'ammissione all'università"
-      year: "2024"
-      location: "Bologna, <br> Italia"
-      institution: College Board (New York)
-    - title: Implementazione di Esperimenti Online per il Progetto MinUTo
-      year: "2024"
-      location: "Bologna, <br> Italia"
-      institution: Università di Bologna
-      department: DSE - Dipartimento di Scienze Economiche
-      supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en"><i>Maria Bigoni</i></a> e <a href="https://sites.google.com/site/stefaniabortolotti/home"><i>Stefania Bortolotti</i></a>'
-    - title: Generazione e Praparazione di Materiale di Supporto alla Didattica per il Corso di Econometria
-      year: "2023"
-      location: "Bologna, <br> Italia"
-      institution: Università di Bologna
-      department: DSE - Dipartimento di Scienze Economiche
-      supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/margherita.fort/en"><i>Margherita Fort</i></a> e <a href="https://sites.google.com/site/dennitommasi/"><i>Denni Tommasi</i></a>'
-    - title: Assistente di Ricarca
-      year: "2018"
-      location: "Torino, <br> Italia"
-      institution: Collegio Carlo Alberto
-      department: Center for Research on Pensions and Welfare Policies (CeRP)
-      supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html"><i>Elsa Fornero</i></a>'
 
 
 
