@@ -109,7 +109,6 @@ div.list-groups {
   justify-content: flex-start;
   flex-direction: row;
   align-content: center;
-  width: 9rem;
 }
 
 div.list-group {
@@ -118,6 +117,7 @@ div.list-group {
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 2rem;
+  width: 9rem;
 }
 
 td.list-group-category {
@@ -166,7 +166,6 @@ div.list-languages {
   justify-content: flex-start;
   flex-direction: row;
   align-content: center;
-  width: 9rem;
 }
 
 div.list-language {
@@ -175,6 +174,7 @@ div.list-language {
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 2rem;
+  width: 9rem;
 }
 
 td.list-language-category {
