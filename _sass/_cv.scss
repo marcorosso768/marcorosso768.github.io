@@ -132,8 +132,11 @@ div.list-group {
   }
 }
 
-div.list-group.last-entry {
-  margin-right: 0 !important;
+html[lang="it"] {
+  div.list-group.flex-item.last-entry {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
 }
 
 td.list-group-category {
