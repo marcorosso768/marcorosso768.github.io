@@ -109,7 +109,9 @@ div.list-groups {
   justify-content: flex-start;
   flex-direction: row;
   align-content: center;
-  gap: 3px 3px;
+  gap: 1em 3px;
+  padding-left: 0.9em;
+  padding-bottom: 1em;
 }
 
 div.list-group {
