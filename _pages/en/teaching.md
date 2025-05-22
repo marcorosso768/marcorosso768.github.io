@@ -36,7 +36,7 @@ nav_order: 3
 <!-- TOGGLE CONTENT -->
 <div id="subsection-unibo" class="toggle-section expanded">
 
-<p style="margin-left: 0.25em;"><b>2024-</b></p>
+<p style="margin-left: 0.1em;"><b>2024-</b></p>
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -64,7 +64,7 @@ nav_order: 3
     </div>
   </div>
 
-<p style="margin-left: 0.25em;"><b>2022-</b></p>
+<p style="margin-left: 0.1em;"><b>2022-</b></p>
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -92,7 +92,7 @@ nav_order: 3
     </div>
   </div>
 
-<p style="margin-left: 0.25em;"><b>2022/24</b></p>
+<p style="margin-left: 0.1em;"><b>2022/24</b></p>
 
 <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -122,7 +122,7 @@ nav_order: 3
 <!-- TOGGLE CONTENT -->
 <div id="subsection-uniboforli" class="toggle-section expanded">
 
-<p style="margin-left: 0.25em;"><b>2021/22</b></p>
+<p style="margin-left: 0.1em;"><b>2021/22</b></p>
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -178,7 +178,7 @@ nav_order: 3
 <!-- TOGGLE CONTENT -->
 <div id="subsection-unito" class="toggle-section expanded">
 
-<p style="margin-left: 0.25em;"><b>2019/20</b></p>
+<p style="margin-left: 0.1em;"><b>2019/20</b></p>
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
