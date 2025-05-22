@@ -134,8 +134,8 @@ div.list-group {
 
 html[lang="it"] {
   div.list-group.flex-item.last-entry {
-    flex: 1 1 100%;
-    max-width: 100%;
+    flex: 0 0 auto;
+    max-width: none;
   }
 }
 
