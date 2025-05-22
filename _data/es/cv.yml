@@ -1,121 +1,178 @@
-- title: contactos
+- title: current positions
   type: map
   contents:
     - name:
-      value: '<span style="font-size:12pt;"><i class="fa-regular fa-envelope" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="mailto:m.rosso@me.com">m.rosso@me.com</a> </span>'
-    - name:
-      value: '<span style="font-size:12pt;"><i class="fa-solid fa-envelope" style="color:var(--global-theme-color); vertical-align: middle; line-height: 1;"></i>&nbsp;&nbsp;<a href="mailto:marco.rosso4@unibo.it">marco.rosso4@unibo.it</a> </span>'
-    - name:
-      value: '<span style="font-size:12pt;"><i class="fa-solid fa-landmark" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<a href="https://www.unibo.it/sitoweb/marco.rosso4/en">página personal en el sitio web de UniBo</a> </span>'
+      value: >
+        <div style="display: flex; flex-direction: column; gap: 0.6em;">
+          <div style="display: flex; align-items: flex-start;">
+            <i class="fa-solid fa-graduation-cap fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1.4;"></i>
+            <div style="font-variant: small-caps;">Doctorando en Economía</div>
+          </div>
+          <div style="display: flex; align-items: flex-start;">
+            <i class="fa-solid fa-chalkboard-user fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1.4;"></i>
+            <div style="font-variant: small-caps;">Asistente de Docencia</div>
+          </div>
+          <div style="display: flex; align-items: flex-start;">
+            <i class="fa-solid fa-building-columns fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1.4;"></i>
+            <div style="font-variant: small-caps;">Investigador Postdoctoral</div>
+          </div>
+          <div style="display: flex; align-items: flex-start;">
+            <i class="fa-solid fa-users fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1.4;"></i>
+            <div style="font-variant: small-caps;">Representante de los Investigadores Postdoctorales</div>
+          </div>
+        </div>
 
-- title: educación
+- title: áreas de interés
+  type: interest
+  contents:
+    - field: Economía del Crimen
+    - field: Economía Política
+    - field: Teoría de Juegos
+    - field: Microeconomía
+    - field: Economía Experimental
+    - field: Economía del Comportamiento
+            
+- title: formación
   type: time_table
   contents:
     - title: Doctorado en Economía
       year: "2020-"
       institution: Universidad de Bolonia
       department: DSE - Departamento de Economía
-      location: "Bolonia, <br> Italia"
-      supervisor: 'supervisor: <a href="https://sites.google.com/site/paolovanin/"><i>Paolo Vanin</i></a>'
+      location: "Bolonia, Italia"
+      supervisor: 'supervisor: <a href="https://sites.google.com/site/paolovanin/">Paolo Vanin</a>'
     - title: Máster en Economía
       year: "2020"
-      location: "Turín, <br> Italia"
+      location: "Turín, Italia"
       institution: Collegio Carlo Alberto
-    - title: Maestría de Dos Años en Economía
+    - title: Maestría en Economía
       year: "2019"
-      location: "Turín, <br> Italia"
+      location: "Turín, Italia"
       institution: Universidad de Turín
       department: ESOMAS - Departamento de Economía
-      supervisor: 'supervisor: <a href="https://sites.google.com/site/giovannimastrobuoni/"><i>Giovanni Mastrobuoni</i></a>'
+      supervisor: 'supervisor: <a href="https://sites.google.com/site/giovannimastrobuoni/">Giovanni Mastrobuoni</a>'
     - title: Licenciatura en Matemáticas
       year: "2015"
-      location: "Turín, <br> Italia"
+      location: "Turín, Italia"
       institution: Universidad de Turín
       department: Departamento de Matemáticas
-      supervisor: 'supervisor: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo"><i>Vittoria Demichelis</i></a>'
+      supervisor: 'supervisora: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis</a>'
 
 - title: períodos de visita
   type: time_table
   contents:
     - title: Doctorando Visitante
       year: primavera 2024
-      location: "Buones Aires, <br> Argentina"
+      location: "Buones Aires, Argentina"
       institution: Universidad de San Andrés
       department: Departamento de Economía
-      supervisor: 'asesor local: <a href="https://www.tommy-e-murphy.com"><i>Tommy E. Murphy</i></a>'
+      supervisor: 'supervisor local: <a href="https://www.tommy-e-murphy.com">Tommy E. Murphy</a>'
     - title: "Candidato a Maestría Visitante"
       year: invierno 2019
-      location: "Turín, <br> Italia"
+      location: "Turín, Italia"
       institution: Observatorio Regional de Salud Pública (SEPI)
       department: Departamento de Salud Pública (Junta de Salud Local TO3)
-      supervisor: 'supervisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo"><i>Fulvio Ricceri</i></a>'
+      supervisor: 'supervisor local: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
 
 - title: actividades académicas
   type: time_table
   contents:
     - title: "Investigador Postdoctoral: Democratización, los medios de comunicación, contexto socioeconómico y comportamiento electoral"
       year: 2024-
-      location: "Bolonia, <br> Italia"
+      location: "Bolonia, Italia"
       institution: Universidad de Bolonia
       department: DSE - Departamento de Economía
-      supervisor: 'supervisors: <a href="https://jnchapman.com"><i>Jonathan Neil Chapman</i></a> and <a href="https://sites.google.com/site/giovanniprarolo/"><i>Giovanni Prarolo</i></a>'
-    - title: Participación en el Comité del Examen SAT Internacional utilizado para las Admisiones Universitarias
-      year: "2024"
-      location: "Bolonia, <br> Italia"
-      institution: College Board (New York)
+      supervisor: 'supervisores: <a href="https://jnchapman.com">Jonathan Neil Chapman</a> y <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
     - title: Implementación de Experimentos en Línea en el Contexto del Proyecto MinUTo
       year: "2024"
-      location: "Bolonia, <br> Italia"
+      location: "Bolonia, Italia"
       institution: Universidad de Bolonia
       department: DSE - Departamento de Economía
-      supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en"><i>Maria Bigoni</i></a> and <a href="https://sites.google.com/site/stefaniabortolotti/home"><i>Stefania Bortolotti</i></a>'
+      supervisor: 'supervisores: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en">Maria Bigoni</a> y <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
     - title: Generación y preparación de material de apoyo para el curso de Econometría
       year: "2023"
-      location: "Bolonia, <br> Italia"
+      location: "Bolonia, Italia"
       institution: Universidad de Bolonia
       department: DSE - Departamento de Economía
-      supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/margherita.fort/en"><i>Margherita Fort</i></a> and <a href="https://sites.google.com/site/dennitommasi/"><i>Denni Tommasi</i></a>'
+      supervisor: 'supervisores: <a href="https://www.unibo.it/sitoweb/margherita.fort/en"><i>Margherita Fort</i></a> y <a href="https://sites.google.com/site/dennitommasi/"><i>Denni Tommasi</i></a>'
     - title: Asistente de investigación
       year: "2018"
-      location: "Turín, <br> Italia"
+      location: "Turín, Italia"
       institution: Collegio Carlo Alberto
       department: Centro de Investigación sobre Pensiones y Políticas de Bienestar (CeRP)
-      supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html"><i>Elsa Fornero</i></a>'
-
-- title: revisión para revistas académicas
-  type: map
-  contents:
-    - name:
-      value: '<span style="font-size:10pt;"><i class="fa-solid fa-newspaper" style="color:var(--global-theme-color);"></i>&nbsp;&nbsp;<i style="font-size:10pt;">Journal of Economics &amp; Management Strategy</i></span>'
+      supervisor: 'supervisora: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero</a>'
 
 - title: premios, becas y subvenciones
   type: time_table
   contents:
     - title: 'Incentivo "Marco Polo" para la Movilidad Internacional en la Investigación'
       year: "2024"
+      location: "Bolonia, Italia"
       institution: Universidad de Bolonia
     - title: Beca de 4 Años, Programa de Doctorado en Economía
       year: "2020"
+      location: "Bolonia, Italia"
       institution: Universidad de Bolonia
     - title: Recomendación de Tesis de Maestría para Publicación (Distinción de Mérito Italiano)
       year: "2019"
+      location: "Turín, Italia"
       institution: Universidad de Turín
+
+- title: servicio académico
+  type: time_table
+  contents:
+    - title: "Representante de los Investigadores Postdoctorales en el Consejo del Departamento"
+      year: 2025-
+      location: "Bolonia, Italia"
+      institution: Universidad de Bolonia
+      department: DSE - Departamento de Economía
+    - title: "Representante de los Investigadores Postdoctorales en la Junta del Departamento"
+      year: 2025-
+      location: "Bolonia, Italia"
+      institution: Universidad de Bolonia
+      department: DSE - Departamento de Economía
+    - title: Miembro del comité del examen internacional SAT para la admisión a las Universidades
+      year: 2024-
+      location: "Bolonia, Italia"
+      institution: Universidad de Bolonia, en colaboración con College Board de Nueva York
+      department: DSE - Departamento de Economía
 
 - title: actividades de networking
   type: time_table
   contents:
-    - title: 'Organizador de los "Partidos Semanales de Fútbol del Departamento"'
-      year: 2023-
-      institution: Universidad de Bolonia
     - title: 'Organizador de los "Afterwork Drinks del Departamento"'
       year: 2022-
+      location: "Bolonia, Italia"
       institution: Universidad de Bolonia
+      department: DSE - Departamento de Economía
+    - title: 'Organizador de los "Partidos Semanales de Fútbol del Departamento"'
+      year: 2023-24
+      location: "Bolonia, Italia"
+      institution: Universidad de Bolonia
+      department: DSE - Departamento de Economía
     - title: 'Co-organizador de la serie de seminarios "Research in Steps" (RiS) para estudiantes de doctorado'
       year: 2022-2023
+      location: "Bolonia, Italia"
       institution: Universidad de Bolonia
+      department: DSE - Departamento de Economía
     - title: 'Co-fundador y co-organizador del grupo de lectura sobre la "Economía Política de la Violencia y la Corrupción"'
       year: 2021-2022
+      location: "Bolonia, Italia"
       institution: Universidad de Bolonia
+      department: DSE - Departamento de Economía
+      
+
+- title: revisión para revistas académicas
+  type: map
+  contents:
+    - name:
+      value: >
+        <div style="font-size:11pt; display: flex; align-items: flex-start;">
+          <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
+          <div style="line-height: 1.2;">
+            <i>Journal of Economics &amp; Management Strategy</i>
+          </div>
+        </div>
 
 - title: idiomas
   type: list_languages
@@ -130,22 +187,33 @@
       items:
         - name: "intermedio"
 
+- title: competencias informáticas
+  type: map
+  contents:
+    - name:
+      value: >
+        <div style="font-size:11pt; display: flex; align-items: flex-start;">
+          <i class="fa-solid fa-laptop-code fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1.2; padding-top: 1px;"></i>
+          <div style="font-variant: small-caps; line-height: 1.4;">
+            Stata, Python, QGIS, Qualtrics, MATLAB, R, C++, LaTeX, MS Office, &lt;HTML&gt;
+          </div>
+        </div>
+
 - title: otras experiencias
   type: time_table
   contents:
     - title: Operador de recolección de datos interno y en el escenario
       year: 2016-2021
       firm: Deltatre
-      location: "Turín, <br> Italia"
+      location: "Turín, Italia"
     - title: Entrenador de fútbol juvenil
       year: 2014-2016
       soccer: A.P.D. Pecetto
-      location: "Pecetto, <br> Italia"
+      location: "Pecetto, Italia"
     - title: Entrenador de fútbol juvenil
       year: 2013-2014
       soccer: C.S.F. Carmagnola
-      location: "Carmagnola, <br> Italia"
-
+      location: "Carmagnola, Italia"
 
 - title: pasatiempos
   type: list_groups
