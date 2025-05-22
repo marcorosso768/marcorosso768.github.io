@@ -58,7 +58,7 @@
       department: Departamento de Matemáticas
       supervisor: 'supervisora: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis</a>'
 
-- title: períodos de visita
+- title: períodos en visita
   type: time_table
   contents:
     - title: Doctorando Visitante
