@@ -710,8 +710,13 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
 
 .subsection {
   a {
-    text-decoration: none;
-    color: var(--global-text-color);
+    text-decoration: none !important;
+    color: inherit;
+
+    &:hover {
+      text-decoration: none !important;
+      color: inherit;
+    }
   }
 
   h2.subsection {
