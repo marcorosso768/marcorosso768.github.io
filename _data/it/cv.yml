@@ -219,19 +219,19 @@
   contents:
     - category: 'mixology'
       icon: "fas fa-cocktail fa-fw"
-    - category: '<span style="color:var(--global-text-color);"> corsa </span>'
+    - category: 'corsa'
       icon: "fa-solid fa-person-running fa-fw"
-    - category: '<span style="color:var(--global-text-color);"> tennis </span>'
+    - category: 'tennis'
       icon: "fa-solid fa-baseball fa-fw"
-    - category: '<span style="color:var(--global-text-color);"> arrampicata </span>'
+    - category: 'arrampicata'
       icon: "fa-solid fa-mountain fa-fw"
-    - category: '<span style="color:var(--global-text-color);"> calcio </span>'
+    - category: 'calcio'
       icon: "fa-regular fa-futbol fa-fw" 
-    - category: '<span style="color:var(--global-text-color);"> fumetti </span>'
+    - category: 'fumetti'
       icon: "fa-solid fa-book fa-fw"
-    - category: '<span style="color:var(--global-text-color);"> video&nbsp;games </span>'
+    - category: 'video&nbsp;games'
       icon: "fa-solid fa-gamepad fa-fw"
-    - category: '<span style="color:var(--global-text-color);"> giochi&nbsp;da&nbsp;tavolo </span>'
+    - category: 'giochi&nbsp;da&nbsp;tavolo'
       icon: "fa-solid fa-puzzle-piece fa-fw"
 
 
