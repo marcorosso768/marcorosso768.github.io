@@ -28,7 +28,7 @@ nav_order: 3
    style="text-decoration: none; color: inherit;">
   <h2 class="category">
     <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-section-unibo"></i>
-    <b>University of Bologna</b>
+    <span style="font-weight: bold; font-size:Large;">University of Bologna</span>
   </h2>
 </a>
 
