@@ -58,7 +58,7 @@
       department: Dipartimento di Matematica
       supervisor: 'relatrice: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis</a>'
 
-- title: periodi di visita
+- title: periodi in visita
   type: time_table
   contents:
     - title: Dottorando in visita
@@ -72,7 +72,7 @@
       location: "Torino, Italia"
       institution: Servizio Sovrazonale di Epidemiologia (SEPI)
       department: Dipartimento di Sanità Pubblica (Azienda Sanitaria Locale TO3)
-      supervisor: 'supervisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
+      supervisor: 'supervisor locale: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
 
 - title: attività accademiche
   type: time_table
