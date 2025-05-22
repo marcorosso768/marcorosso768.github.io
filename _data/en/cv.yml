@@ -229,7 +229,7 @@
       icon: "fa-regular fa-futbol fa-fw" 
     - category: 'comics'
       icon: "fa-solid fa-book fa-fw"
-    - category: 'board games'
-      icon: "fa-solid fa-puzzle-piece fa-fw"
     - category: 'video games'
       icon: "fa-solid fa-gamepad fa-fw"
+    - category: 'board games'
+      icon: "fa-solid fa-puzzle-piece fa-fw"
