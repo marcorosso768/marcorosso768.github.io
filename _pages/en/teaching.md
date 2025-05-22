@@ -23,9 +23,20 @@ nav_order: 3
 
 <div id="content-1" class="toggle-section expanded">
 
-<p><b style="font-size:Large;">University of Bologna</b></p>
+<!-- TOGGLE TRIGGER -->
+<div class="subsection">
+  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-unibo')">
+    <h2 class="subsection">
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-unibo"></i>
+       <span>University of Bologna</span>
+    </h2>
+  </a>
+</div>
 
-<p><b>2024-</b></p>
+<!-- TOGGLE CONTENT -->
+<div id="subsection-unibo" class="toggle-section expanded">
+
+<p style="margin-left: 0.1em;"><b>2024-</b></p>
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -53,7 +64,7 @@ nav_order: 3
     </div>
   </div>
 
-<p><b>2022-</b></p>
+<p style="margin-left: 0.1em;"><b>2022-</b></p>
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -81,7 +92,7 @@ nav_order: 3
     </div>
   </div>
 
-<p><b>2022/24</b></p>
+<p style="margin-left: 0.1em;"><b>2022/24</b></p>
 
 <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -96,9 +107,22 @@ nav_order: 3
     </div>
   </div>
 
-<p><b style="font-size:Large;">University of Bologna — Forlì Campus</b></p>
+</div>
 
-<p><b>2021/22</b></p>
+<!-- TOGGLE TRIGGER -->
+<div class="subsection">
+  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-uniboforli')">
+    <h2 class="subsection">
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-uniboforli"></i>
+       <span>University of Bologna — Forlì Campus</span>
+    </h2>
+  </a>
+</div>
+
+<!-- TOGGLE CONTENT -->
+<div id="subsection-uniboforli" class="toggle-section expanded">
+
+<p style="margin-left: 0.1em;"><b>2021/22</b></p>
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -139,9 +163,22 @@ nav_order: 3
     </div>
   </div>
 
-<p><b style="font-size:Large;">University of Turin</b></p>
+</div>
 
-<p><b>2019/20</b></p>
+<!-- TOGGLE TRIGGER -->
+<div class="subsection">
+  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-unito')">
+    <h2 class="subsection">
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-unito"></i>
+       <span>University of Turin</span>
+    </h2>
+  </a>
+</div>
+
+<!-- TOGGLE CONTENT -->
+<div id="subsection-unito" class="toggle-section expanded">
+
+<p style="margin-left: 0.1em;"><b>2019/20</b></p>
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -168,5 +205,7 @@ nav_order: 3
       </div>
     </div>
   </div>
+
+</div>
 
 </div>

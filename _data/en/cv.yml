@@ -56,7 +56,7 @@
       location: "Turin, Italy"
       institution: University of Turin
       department: Department of Mathematics
-      supervisor: 'supervisor: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis<</a>'
+      supervisor: 'supervisor: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis</a>'
 
 - title: visiting periods
   type: time_table
@@ -72,7 +72,7 @@
       location: "Turin, Italy"
       institution: Regional Public Health Observatory (SEPI)
       department: Public Health Department (Local Health Board TO3)
-      supervisor: 'supervisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
+      supervisor: 'local advisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
 
 - title: academic activities
   type: time_table
@@ -217,19 +217,19 @@
 - title: hobbies
   type: list_groups
   contents:
-    - category: '<span style="color:var(--global-text-color);"> mixology </span>'
+    - category: 'mixology'
       icon: "fas fa-cocktail fa-fw"
-    - category: '<span style="color:var(--global-text-color);"> running </span>'
+    - category: 'running'
       icon: "fa-solid fa-person-running fa-fw"
-    - category: '<span style="color:var(--global-text-color);"> tennis </span>'
+    - category: 'tennis'
       icon: "fa-solid fa-baseball fa-fw"
-    - category: '<span style="color:var(--global-text-color);"> climbing </span>'
+    - category: 'climbing'
       icon: "fa-solid fa-mountain fa-fw"
-    - category: '<span style="color:var(--global-text-color);"> football </span>'
+    - category: 'football'
       icon: "fa-regular fa-futbol fa-fw" 
-    - category: '<span style="color:var(--global-text-color);"> comics </span>'
+    - category: 'comics'
       icon: "fa-solid fa-book fa-fw"
-    - category: '<span style="color:var(--global-text-color);"> video games </span>'
+    - category: 'video games'
       icon: "fa-solid fa-gamepad fa-fw"
-    - category: '<span style="color:var(--global-text-color);"> board games </span>'
+    - category: 'board games'
       icon: "fa-solid fa-puzzle-piece fa-fw"

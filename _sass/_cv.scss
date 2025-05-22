@@ -109,6 +109,7 @@ div.list-groups {
   justify-content: flex-start;
   flex-direction: row;
   align-content: center;
+  gap: 3px 3px;
 }
 
 div.list-group {
@@ -120,8 +121,7 @@ div.list-group {
   width: 7em;
   
   &.flex-item {
-    all: unset;
-    flex: 1 1 calc(25% - 20px);
+    flex: 1 1 calc(50% - 1em);
     padding: 8px;
     box-sizing: border-box;
     text-align: left;
@@ -130,15 +130,19 @@ div.list-group {
     flex-direction: column;
     justify-content: space-between;
   }
-}
-
-div.list-group.last-entry {
-  margin-right: 0 !important;
+  
+  @media (min-width: 576px) {
+    &.flex-item {
+      all: unset;
+      flex: 1 1 calc(25% - 1em);
+    }
+  }
 }
 
 td.list-group-category {
-  color: var(--global-theme-color);
+  color: var(--global-text-color);
   margin-bottom: 0.5rem;
+  white-space: nowrap;
 }
 
 td.list-group-category-icon {

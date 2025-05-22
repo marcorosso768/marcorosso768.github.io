@@ -56,9 +56,9 @@
       location: "Torino, Italia"
       institution: Università degli Studi di Torino
       department: Dipartimento di Matematica
-      supervisor: 'relatrice: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis<</a>'
+      supervisor: 'relatrice: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis</a>'
 
-- title: periodi di visita
+- title: periodi in visita
   type: time_table
   contents:
     - title: Dottorando in visita
@@ -72,7 +72,7 @@
       location: "Torino, Italia"
       institution: Servizio Sovrazonale di Epidemiologia (SEPI)
       department: Dipartimento di Sanità Pubblica (Azienda Sanitaria Locale TO3)
-      supervisor: 'supervisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
+      supervisor: 'supervisor locale: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
 
 - title: attività accademiche
   type: time_table
@@ -94,7 +94,7 @@
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE - Dipartimento di Scienze Economiche
-      supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/margherita.fort/en">Margherita Fort</a> and <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
+      supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/margherita.fort/en">Margherita Fort</a> e <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
     - title: Assistente di Ricarca
       year: "2018"
       location: "Torino, Italia"
@@ -186,7 +186,7 @@
       items:
         - name: "intermedio"
 
-- title: computer skills
+- title: competenze informatiche
   type: map
   contents:
     - name:
@@ -194,7 +194,7 @@
         <div style="font-size:11pt; display: flex; align-items: flex-start;">
           <i class="fa-solid fa-laptop-code fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1.2; padding-top: 1px;"></i>
           <div style="font-variant: small-caps; line-height: 1.4;">
-            Stata, Python, &lt;HTML&gt;, QGIS, Qualtrics, MATLAB, R, C++, LaTeX, MS Office
+            Stata, Python, QGIS, Qualtrics, MATLAB, R, C++, LaTeX, MS Office, &lt;HTML&gt;
           </div>
         </div>
 
@@ -217,22 +217,22 @@
 - title: hobby
   type: list_groups
   contents:
-    - category: '<span style="color:var(--global-text-color);"> mixology </span>'
-      icon: "fas fa-cocktail"
-    - category: '<span style="color:var(--global-text-color);"> corsa </span>'
-      icon: "fa-solid fa-person-running"
-    - category: '<span style="color:var(--global-text-color);"> tennis </span>'
-      icon: "fa-solid fa-baseball"
-    - category: '<span style="color:var(--global-text-color);"> arrampicata </span>'
-      icon: "fa-solid fa-mountain"
-    - category: '<span style="color:var(--global-text-color);"> calcio </span>'
-      icon: "fa-regular fa-futbol" 
-    - category: '<span style="color:var(--global-text-color);"> fumetti </span>'
-      icon: "fa-solid fa-book"
-    - category: '<span style="color:var(--global-text-color);"> video&nbsp;games </span>'
-      icon: "fa-solid fa-gamepad"
-    - category: '<span style="color:var(--global-text-color);"> giochi&nbsp;da&nbsp;tavolo </span>'
-      icon: "fa-solid fa-puzzle-piece"
+    - category: 'mixology'
+      icon: "fas fa-cocktail fa-fw"
+    - category: 'corsa'
+      icon: "fa-solid fa-person-running fa-fw"
+    - category: 'tennis'
+      icon: "fa-solid fa-baseball fa-fw"
+    - category: 'arrampicata'
+      icon: "fa-solid fa-mountain fa-fw"
+    - category: 'calcio'
+      icon: "fa-regular fa-futbol fa-fw" 
+    - category: 'fumetti'
+      icon: "fa-solid fa-book fa-fw"
+    - category: 'video games'
+      icon: "fa-solid fa-gamepad fa-fw"
+    - category: 'giochi da tavolo'
+      icon: "fa-solid fa-puzzle-piece fa-fw"
 
 
 
