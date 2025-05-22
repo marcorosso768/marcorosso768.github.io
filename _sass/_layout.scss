@@ -712,7 +712,6 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   a {
     text-decoration: none;
     color: var(--global-text-color);
-    margin-left: 0.25em;
   }
 
   h2.subsection {
@@ -721,6 +720,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
     margin-bottom: 0.25em; //1rem;
     text-align: left;
     font-size: Large;
+    margin-left: 0.25em;
 
     span {
       color: inherit;
