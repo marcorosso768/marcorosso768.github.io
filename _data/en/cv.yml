@@ -217,19 +217,19 @@
 - title: hobbies
   type: list_groups
   contents:
-    - category: '<span style="color:var(--global-text-color);"> mixology </span>'
+    - category: 'mixology'
       icon: "fas fa-cocktail fa-fw"
-    - category: '<span style="color:var(--global-text-color);"> running </span>'
+    - category: 'running'
       icon: "fa-solid fa-person-running fa-fw"
-    - category: '<span style="color:var(--global-text-color);"> tennis </span>'
+    - category: 'tennis'
       icon: "fa-solid fa-baseball fa-fw"
-    - category: '<span style="color:var(--global-text-color);"> climbing </span>'
+    - category: 'climbing'
       icon: "fa-solid fa-mountain fa-fw"
-    - category: '<span style="color:var(--global-text-color);"> football </span>'
+    - category: 'football'
       icon: "fa-regular fa-futbol fa-fw" 
-    - category: '<span style="color:var(--global-text-color);"> comics </span>'
+    - category: 'comics'
       icon: "fa-solid fa-book fa-fw"
-    - category: '<span style="color:var(--global-text-color);"> video games </span>'
+    - category: 'video games'
       icon: "fa-solid fa-gamepad fa-fw"
-    - category: '<span style="color:var(--global-text-color);"> board games </span>'
+    - category: 'board games'
       icon: "fa-solid fa-puzzle-piece fa-fw"
