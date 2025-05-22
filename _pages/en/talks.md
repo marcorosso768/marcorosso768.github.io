@@ -25,7 +25,7 @@ nav_order: 2
 <div id="content-1" class="toggle-section expanded">
 
 <!-- 2024 -->
-<p><b>2024</b></p>
+<p style="margin-left: 0.1em;"><b>2024</b></p>
 
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
@@ -71,7 +71,7 @@ nav_order: 2
 <div id="content-2" class="toggle-section expanded">
 
 <!-- 2025 -->
-<p><b>2025</b></p>
+<p style="margin-left: 0.1em;"><b>2025</b></p>
 
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
@@ -88,7 +88,7 @@ nav_order: 2
   </div>
 
 <!-- 2024 
-<p><b>2024</b></p>
+<p style="margin-left: 0.1em;"><b>2024</b></p>
 
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
@@ -104,7 +104,7 @@ nav_order: 2
   </div> -->
 
 <!-- 2023 -->
-<p><b>2023</b></p>
+<p style="margin-left: 0.1em;"><b>2023</b></p>
 
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
@@ -163,7 +163,7 @@ nav_order: 2
   </div>
 
 <!-- 2022 -->
-<p><b>2022</b></p>
+<p style="margin-left: 0.1em;"><b>2022</b></p>
 
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
@@ -208,7 +208,7 @@ nav_order: 2
   </div>
 
 <!-- 2021 -->
-<p><b>2021</b></p>
+<p style="margin-left: 0.1em;"><b>2021</b></p>
 
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
@@ -254,7 +254,7 @@ nav_order: 2
 <div id="content-3" class="toggle-section expanded">
 
 <!-- 2023 -->
-<p><b>2023</b></p>
+<p style="margin-left: 0.1em;"><b>2023</b></p>
 
   <div class="seminar-entry indented">
     <div class="seminar-entry__row seminar-entry__row--title">
@@ -271,7 +271,7 @@ nav_order: 2
   </div>
 
 <!-- 2021 -->
-<p><b>2021</b></p>
+<p style="margin-left: 0.1em;"><b>2021</b></p>
 
   <div class="seminar-entry indented">
     <div class="seminar-entry__row seminar-entry__row--title">
