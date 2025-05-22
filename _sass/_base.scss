@@ -225,9 +225,6 @@ ul.task-list input[type="checkbox"] {
   @media (min-width: 576px) {
     .profile {
       width: 30%;
-      {% if page.page_id == "about" %}
-      margin-top: -6em;
-      {% endif %}
   
     .address {
       p {
