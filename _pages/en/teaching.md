@@ -23,7 +23,18 @@ nav_order: 3
 
 <div id="content-1" class="toggle-section expanded">
 
-<p><b style="font-size:Large;">University of Bologna</b></p>
+<!-- TOGGLE TRIGGER -->
+<a href="javascript:void(0);" onclick="toggleVisibility('section-unibo')"
+   style="text-decoration: none; color: inherit;">
+  <p style="margin-bottom: 0;">
+    <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-section-unibo"
+       style="margin-right: 0.5rem;"></i>
+    <b style="font-size:Large;">University of Bologna</b>
+  </p>
+</a>
+
+<!-- TOGGLE CONTENT -->
+<div id="section-unibo" class="toggle-section expanded">
 
 <p><b>2024-</b></p>
 
@@ -95,6 +106,8 @@ nav_order: 3
       </div>
     </div>
   </div>
+
+</div>
 
 <p><b style="font-size:Large;">University of Bologna — Forlì Campus</b></p>
 
