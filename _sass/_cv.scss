@@ -109,6 +109,7 @@ div.list-groups {
   justify-content: flex-start;
   flex-direction: row;
   align-content: center;
+  gap: 3px 3px;
 }
 
 div.list-group {
@@ -129,22 +130,12 @@ div.list-group {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-}
-
-html[lang="it"] .list-group.flex-item.last-entry,
-html[lang="es"] .list-group.flex-item.last-entry {
-  flex: 0 0 auto !important;
-  width: auto !important;
-  max-width: none !important;
-  align-self: flex-start !important;
-  position: relative !important;
-  right: -1rem !important;
 }
 
 td.list-group-category {
   color: var(--global-text-color);
   margin-bottom: 0.5rem;
+  white-space: nowrap;
 }
 
 td.list-group-category-icon {
