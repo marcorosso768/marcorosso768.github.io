@@ -24,17 +24,17 @@ nav_order: 3
 <div id="content-1" class="toggle-section expanded">
 
 <!-- TOGGLE TRIGGER -->
-<div>
-  <a href="javascript:void(0);" onclick="toggleVisibility('section-unibo')" style="text-decoration: none; color: inherit;">
-    <h2 class="category">
-       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-section-unibo"></i>
-       <span style="font-weight: bold; font-size:Large;">University of Bologna</span>
+<div class="subsection">
+  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-unibo')" style="text-decoration: none; color: inherit;">
+    <h2 class="subsection">
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-unibo"></i>
+       <span>University of Bologna</span>
     </h2>
   </a>
 </div>
 
 <!-- TOGGLE CONTENT -->
-<div id="section-unibo" class="toggle-section expanded">
+<div id="subsection-unibo" class="toggle-section expanded">
 
 <p><b>2024-</b></p>
 
