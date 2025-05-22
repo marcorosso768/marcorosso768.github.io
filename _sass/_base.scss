@@ -222,14 +222,16 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
-@media (min-width: 576px) {
-  .profile {
-    width: 30%;
-    margin-top: -6em;
+#about {
+    @media (min-width: 576px) {
+    .profile {
+      width: 30%;
+      margin-top: -6em;
 
     .address {
       p {
         display: block;
+        }
       }
     }
   }
