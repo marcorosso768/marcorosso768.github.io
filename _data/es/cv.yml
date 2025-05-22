@@ -118,7 +118,7 @@
       institution: Universidad de Bolonia
 
 - title: idiomas
-  type: list_groups
+  type: list_languages
   contents:
     - category: "italiano"
       items:
@@ -162,7 +162,7 @@
       icon: "fa-regular fa-futbol fa-fw" 
     - category: 'cómics'
       icon: "fa-solid fa-book fa-fw"
-    - category: 'juegos&nbsp;de&nbsp;mesa'
-      icon: "fa-solid fa-puzzle-piece fa-fw"
     - category: 'videojuegos'
       icon: "fa-solid fa-gamepad fa-fw"
+    - category: 'juegos de mesa'
+      icon: "fa-solid fa-puzzle-piece fa-fw"
