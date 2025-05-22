@@ -94,7 +94,7 @@
       location: "Bolonia, Italia"
       institution: Universidad de Bolonia
       department: DSE - Departamento de Economía
-      supervisor: 'supervisores: <a href="https://www.unibo.it/sitoweb/margherita.fort/en"><i>Margherita Fort</i></a> y <a href="https://sites.google.com/site/dennitommasi/"><i>Denni Tommasi</i></a>'
+      supervisor: 'supervisores: <a href="https://www.unibo.it/sitoweb/margherita.fort/en">Margherita Fort</a> y <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
     - title: Asistente de investigación
       year: "2018"
       location: "Turín, Italia"
@@ -159,8 +159,7 @@
       year: 2021-2022
       location: "Bolonia, Italia"
       institution: Universidad de Bolonia
-      department: DSE - Departamento de Economía
-      
+      department: DSE - Departamento de Economía   
 
 - title: revisión para revistas académicas
   type: map
