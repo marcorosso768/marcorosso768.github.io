@@ -132,12 +132,16 @@ div.list-group {
   }
 }
 
-//html[lang="it"] {
-//  div.list-group.flex-item.last-entry {
-//    flex: 0 0 auto;
-//    max-width: none;
-//  }
-//}
+html[lang="it"] .list-group.flex-item.last-entry,
+html[lang="es"] .list-group.flex-item.last-entry {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: none;
+  align-self: flex-start;
+
+  position: relative;
+  right: -1rem;
+}
 
 td.list-group-category {
   color: var(--global-text-color);
