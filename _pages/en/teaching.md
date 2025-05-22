@@ -27,8 +27,8 @@ nav_order: 3
 <a href="javascript:void(0);" onclick="toggleVisibility('section-unibo')"
    style="text-decoration: none; color: inherit;">
   <h2 class="category">
-    <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-section-unibo" style="margin-right: 0.5rem;"></i>
-    <b style="font-size:Large;">University of Bologna</b>
+    <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-section-unibo"></i>
+    <b>University of Bologna</b>
   </h2>
 </a>
 
