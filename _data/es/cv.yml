@@ -150,19 +150,19 @@
 - title: pasatiempos
   type: list_groups
   contents:
-    - category: '<span style="color:var(--global-text-color);"> mixología </span>'
-      icon: "fas fa-cocktail"
-    - category: '<span style="color:var(--global-text-color);"> correr </span>'
-      icon: "fa-solid fa-person-running"
-    - category: '<span style="color:var(--global-text-color);"> tenis </span>'
-      icon: "fa-solid fa-baseball"
-    - category: '<span style="color:var(--global-text-color);"> escalada </span>'
-      icon: "fa-solid fa-mountain"
-    - category: '<span style="color:var(--global-text-color);"> fútbol </span>'
-      icon: "fa-regular fa-futbol" 
-    - category: '<span style="color:var(--global-text-color);"> cómics </span>'
-      icon: "fa-solid fa-book"
-    - category: '<span style="color:var(--global-text-color);"> videojuegos </span>'
-      icon: "fa-solid fa-gamepad"
-    - category: '<span style="color:var(--global-text-color);"> juegos de mesa </span>'
-      icon: "fa-solid fa-puzzle-piece"
+    - category: 'mixología'
+      icon: "fas fa-cocktail fa-fw"
+    - category: 'correr'
+      icon: "fa-solid fa-person-running fa-fw"
+    - category: 'tenis'
+      icon: "fa-solid fa-baseball fa-fw"
+    - category: 'escalada'
+      icon: "fa-solid fa-mountain fa-fw"
+    - category: 'fútbol'
+      icon: "fa-regular fa-futbol fa-fw" 
+    - category: 'cómics'
+      icon: "fa-solid fa-book fa-fw"
+    - category: 'videojuegos'
+      icon: "fa-solid fa-gamepad fa-fw"
+    - category: 'juegos&nbsp;de&nbsp;mesa'
+      icon: "fa-solid fa-puzzle-piece fa-fw"
