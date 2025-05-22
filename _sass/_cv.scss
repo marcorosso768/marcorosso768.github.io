@@ -121,7 +121,6 @@ div.list-group {
   width: 7em;
   
   &.flex-item {
-    all: unset;
     flex: 1 1 calc(50% - 1em);
     padding: 8px;
     box-sizing: border-box;
@@ -134,6 +133,7 @@ div.list-group {
   
   @media (min-width: 576px) {
     &.flex-item {
+      all: unset;
       flex: 1 1 calc(25% - 1em);
     }
   }
