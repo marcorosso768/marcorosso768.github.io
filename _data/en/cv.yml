@@ -166,7 +166,7 @@
   contents:
     - name:
       value: >
-        <div style="font-size:11pt; display: flex; align-items: flex-start;">
+        <div style="font-size:11pt; display: flex; align-items: flex-start; margin-left: 1px;">
           <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
           <div style="line-height: 1.2;">
             <i>Journal of Economics &amp; Management Strategy</i>
@@ -191,7 +191,7 @@
   contents:
     - name:
       value: >
-        <div style="font-size:11pt; display: flex; align-items: flex-start;">
+        <div style="font-size:11pt; display: flex; align-items: flex-start; margin-left: 2px;">
           <i class="fa-solid fa-laptop-code fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1.2; padding-top: 1px;"></i>
           <div style="font-variant: small-caps; line-height: 1.4;">
             Stata, Python, QGIS, Qualtrics, MATLAB, R, C++, LaTeX, MS Office, &lt;HTML&gt;
