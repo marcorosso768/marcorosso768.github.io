@@ -56,7 +56,7 @@
       location: "Torino, Italia"
       institution: Università degli Studi di Torino
       department: Dipartimento di Matematica
-      supervisor: 'relatrice: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis<</a>'
+      supervisor: 'relatrice: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis</a>'
 
 - title: periodi di visita
   type: time_table
@@ -94,7 +94,7 @@
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE - Dipartimento di Scienze Economiche
-      supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/margherita.fort/en">Margherita Fort</a> and <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
+      supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/margherita.fort/en">Margherita Fort</a> e <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
     - title: Assistente di Ricarca
       year: "2018"
       location: "Torino, Italia"
