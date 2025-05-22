@@ -713,6 +713,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
 .subsection {
   a {
     text-decoration: none;
+    color: var(--global-text-color);
     margin-left: 0.25em;
   }
 
