@@ -265,7 +265,7 @@ nav_order: 2
     </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
-        “Walter Bigiavi” Library, Bologna, Italy
+        “Walter Bigiavi” Library — Bologna, Italy
       </div>
     </div>
   </div>
@@ -282,7 +282,7 @@ nav_order: 2
     </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
-        University of Bologna, Italy
+        University of Bologna — Bologna, Italy
       </div>
     </div>
   </div>
