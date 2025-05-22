@@ -217,22 +217,22 @@
 - title: hobby
   type: list_groups
   contents:
-    - category: '<span style="color:var(--global-text-color);"> mixology </span>'
-      icon: "fas fa-cocktail"
+    - category: 'mixology'
+      icon: "fas fa-cocktail fa-fw"
     - category: '<span style="color:var(--global-text-color);"> corsa </span>'
-      icon: "fa-solid fa-person-running"
+      icon: "fa-solid fa-person-running fa-fw"
     - category: '<span style="color:var(--global-text-color);"> tennis </span>'
-      icon: "fa-solid fa-baseball"
+      icon: "fa-solid fa-baseball fa-fw"
     - category: '<span style="color:var(--global-text-color);"> arrampicata </span>'
-      icon: "fa-solid fa-mountain"
+      icon: "fa-solid fa-mountain fa-fw"
     - category: '<span style="color:var(--global-text-color);"> calcio </span>'
-      icon: "fa-regular fa-futbol" 
+      icon: "fa-regular fa-futbol fa-fw" 
     - category: '<span style="color:var(--global-text-color);"> fumetti </span>'
-      icon: "fa-solid fa-book"
+      icon: "fa-solid fa-book fa-fw"
     - category: '<span style="color:var(--global-text-color);"> video&nbsp;games </span>'
-      icon: "fa-solid fa-gamepad"
+      icon: "fa-solid fa-gamepad fa-fw"
     - category: '<span style="color:var(--global-text-color);"> giochi&nbsp;da&nbsp;tavolo </span>'
-      icon: "fa-solid fa-puzzle-piece"
+      icon: "fa-solid fa-puzzle-piece fa-fw"
 
 
 
