@@ -26,11 +26,10 @@ nav_order: 3
 <!-- TOGGLE TRIGGER -->
 <a href="javascript:void(0);" onclick="toggleVisibility('section-unibo')"
    style="text-decoration: none; color: inherit;">
-  <p style="margin-bottom: 0;">
-    <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-section-unibo"
-       style="margin-right: 0.5rem;"></i>
+  <h2 class="category">
+    <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-section-unibo" style="margin-right: 0.5rem;"></i>
     <b style="font-size:Large;">University of Bologna</b>
-  </p>
+  </h2>
 </a>
 
 <!-- TOGGLE CONTENT -->
