@@ -25,7 +25,7 @@ nav_order: 3
 
 <!-- TOGGLE TRIGGER -->
 <div class="subsection">
-  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-unibo')" style="text-decoration: none; color: inherit;">
+  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-unibo')">
     <h2 class="subsection">
        <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-unibo"></i>
        <span>University of Bologna</span>
@@ -109,7 +109,18 @@ nav_order: 3
 
 </div>
 
-<p><b style="font-size:Large;">University of Bologna — Forlì Campus</b></p>
+<!-- TOGGLE TRIGGER -->
+<div class="subsection">
+  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-uniboforli')">
+    <h2 class="subsection">
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-uniboforli"></i>
+       <span>University of Bologna — Forlì Campus</span>
+    </h2>
+  </a>
+</div>
+
+<!-- TOGGLE CONTENT -->
+<div id="subsection-uniboforli" class="toggle-section expanded">
 
 <p><b>2021/22</b></p>
 
@@ -152,7 +163,20 @@ nav_order: 3
     </div>
   </div>
 
-<p><b style="font-size:Large;">University of Turin</b></p>
+</div>
+
+<!-- TOGGLE TRIGGER -->
+<div class="subsection">
+  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-unito')">
+    <h2 class="subsection">
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-unito"></i>
+       <span>University of Turin</span>
+    </h2>
+  </a>
+</div>
+
+<!-- TOGGLE CONTENT -->
+<div id="subsection-unito" class="toggle-section expanded">
 
 <p><b>2019/20</b></p>
 
@@ -181,5 +205,7 @@ nav_order: 3
       </div>
     </div>
   </div>
+
+</div>
 
 </div>
