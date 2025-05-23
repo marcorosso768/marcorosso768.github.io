@@ -134,8 +134,20 @@
     - title: Miembro del comité del examen internacional SAT para la admisión a las Universidades
       year: 2024-
       location: "Bolonia, Italia"
-      institution: Universidad de Bolonia, en colaboración con College Board de Nueva York
-      department: DSE - Departamento de Economía
+      institution: Universidad de Bolonia
+      department: en colaboración con College Board de Nueva York
+
+- title: revisión para revistas académicas
+  type: map
+  contents:
+    - name:
+      value: >
+        <div style="font-size:11pt; display: flex; align-items: flex-start;">
+          <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
+          <div style="line-height: 1.2;">
+            <i>Journal of Economics &amp; Management Strategy</i>
+          </div>
+        </div>
 
 - title: actividades de networking
   type: time_table
@@ -160,18 +172,6 @@
       location: "Bolonia, Italia"
       institution: Universidad de Bolonia
       department: DSE - Departamento de Economía   
-
-- title: revisión para revistas académicas
-  type: map
-  contents:
-    - name:
-      value: >
-        <div style="font-size:11pt; display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
-          <div style="line-height: 1.2;">
-            <i>Journal of Economics &amp; Management Strategy</i>
-          </div>
-        </div>
 
 - title: idiomas
   type: list_languages
