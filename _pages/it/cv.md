@@ -9,8 +9,8 @@ subtitle: >
     </div>
 nav: true
 nav_order: 4
-cv_pdf: /[Marco Rosso] Curriculum Vitae.pdf
-description: <i>Una versione completa e dettagliata è disponibile facendo clic sull'icona PDF (solo in inglese).</i>
+cv_pdf: /[Marco Rosso] Curriculum Vitae_it.pdf
+description: <i>Una versione completa e dettagliata è disponibile facendo clic sull'icona PDF.</i>
 # toc:
  # sidebar: left
 ---
