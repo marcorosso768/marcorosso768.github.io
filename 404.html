@@ -1,17 +1,16 @@
 ---
 layout: page
+title:
 permalink: /404.html
 ---
 
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title" style="color: var(--global-theme-color);"><i class="fa-solid fa-file-circle-question"></i> <span id="title-text"></span></h1>
-    {% if page.subtitle %}
-      <p class="desc">{{ page.subtitle }}</p>
-    {% endif %}
-    {% if page.description %}
-      <p class="error-description"></p>
-    {% endif %}
+    <h1 class="post-title" style="color: var(--global-theme-color);">
+      <i class="fa-solid fa-file-circle-question"></i>
+      <span id="title-text"></span>
+    </h1>
+    <p id="error-description" class="desc"></p>
   </header>
 </div>
 
@@ -52,23 +51,27 @@ permalink: /404.html
 
   const text = content[lang] || content.en;
 
+  // Update <title>
   document.title = text.title;
 
-  const meta = document.querySelector('meta[name="description"]');
+  // Update <meta name="description">
+  let meta = document.querySelector('meta[name="description"]');
   if (meta) {
     meta.setAttribute("content", text.description);
   } else {
-    const newMeta = document.createElement("meta");
-    newMeta.name = "description";
-    newMeta.content = text.description;
-    document.head.appendChild(newMeta);
+    meta = document.createElement("meta");
+    meta.name = "description";
+    meta.content = text.description;
+    document.head.appendChild(meta);
   }
 
+  // Populate HTML
   document.getElementById("title-text").textContent = text.title;
   document.getElementById("error-description").innerHTML = `<i>${text.description}</i>`;
   document.getElementById("message-line-1").textContent = text.line1;
   document.getElementById("message-line-2").innerHTML = text.line2;
 
+  // Redirect after 7 seconds
   setTimeout(() => {
     window.location.replace(text.redirect);
   }, 7000);
