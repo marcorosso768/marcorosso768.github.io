@@ -14,8 +14,8 @@ subtitle: >
         </div>
         <div style="display: inline-block; padding-left: 20px; margin-top: -10pt; line-height: 14pt;">
             <span style="color: var(--global-theme-color); font-size: 10pt;">
-                <a href="https://dse.unibo.it/en">Department of Economics,</a>
-                <a href="https://www.unibo.it/en/homepage">University of Bologna</a>
+                <a href="https://www.unibo.it/en/homepage">University of Bologna,</a>
+                <a href="https://dse.unibo.it/en">Department of Economics</a>
                   <br>
                 <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna</a>
             </span>
