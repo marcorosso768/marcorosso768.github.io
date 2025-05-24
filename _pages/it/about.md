@@ -17,7 +17,7 @@ subtitle: >
                 <a href="https://www.unibo.it/it">Università di Bologna,</a>
                 <a href="https://dse.unibo.it">Dipartimento di Scienze Economiche</a>
                   <br>
-                <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna</a>
+                <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna, Italia</a>
             </span>
         </div>
         <!-- Second row: Location icon and actula location -->
