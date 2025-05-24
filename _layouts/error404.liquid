@@ -1,0 +1,12 @@
+---
+layout: page
+---
+<div id="localized-404" style="text-align:center; padding:2rem;">
+  <p id="message-line-1"></p>
+  <p id="message-line-2"></p>
+</div>
+
+<script>
+  window.__NOT_FOUND_TEXTS__ = {{ site.data.not_found_texts | jsonify }};
+</script>
+<script defer src="{{ '/assets/js/error404.js' | relative_url }}"></script>
