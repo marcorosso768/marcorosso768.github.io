@@ -16,7 +16,7 @@ nav_order: 3
   <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
-      <span>collaborazioni didattiche</span>
+      <span>assistente alla didattica</span>
     </h2>
   </a>
 </div>
