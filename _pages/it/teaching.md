@@ -41,12 +41,12 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'>Political Economy</a> con <a href='https://www.unibo.it/sitoweb/enrico.cantoni'>Enrico Cantoni</a>
+          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'>Economia Politica</a> con <a href='https://www.unibo.it/sitoweb/enrico.cantoni'>Enrico Cantoni</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics, Politics and Social Sciences — Laurea triennale
+        Economics, Politics and Social Sciences — Laurea triennale (in inglese)
       </div>
     </div>
   </div>
@@ -54,12 +54,12 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/502710'>Microeconomics</a> con <a href='https://www.unibo.it/sitoweb/marco.casari'>Marco Casari</a>
+          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/502710'>Microeconomia</a> con <a href='https://www.unibo.it/sitoweb/marco.casari'>Marco Casari</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics, Politics and Social Sciences — Laurea triennale
+        Economics, Politics and Social Sciences — Laurea triennale (in inglese)
       </div>
     </div>
   </div>
@@ -69,12 +69,12 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/491971'>Game Theory</a> con <a href='https://www.unibo.it/sitoweb/andrea.mattozzi'>Andrea Mattozzi</a>
+          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/491971'>Teoria dei Giochi</a> con <a href='https://www.unibo.it/sitoweb/andrea.mattozzi'>Andrea Mattozzi</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Econometrics — Laurea magistrale
+        Economics and Econometrics — Laurea magistrale (in inglese)
       </div>
     </div>
   </div>
@@ -82,12 +82,12 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/467276'>Introduction to Behavioral Economics</a> con <a href='https://www.unibo.it/sitoweb/maria.bigoni'>Maria Bigoni</a>
+          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/467276'>Introduzione all'Economia Comportamentale</a> con <a href='https://www.unibo.it/sitoweb/maria.bigoni'>Maria Bigoni</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Finance — Laurea triennale
+        Economics and Finance — Laurea triennale (in inglese)
       </div>
     </div>
   </div>
@@ -97,12 +97,12 @@ nav_order: 3
 <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2023/422038'>Globalization: Trade, Migrations and Multinationals</a> con <a href='https://www.unibo.it/sitoweb/giovanni.prarolo'>Giovanni Prarolo</a> e <a href='https://www.unibo.it/sitoweb/rohit.ticku'>Rohit Ticku</a> <span style="font-size: smaller; white-space: nowrap;">(2023/24)</span>
+          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2023/422038'>Globalizzazione: Commercio, Migrazioni e Multinazionali</a> con <a href='https://www.unibo.it/sitoweb/giovanni.prarolo'>Giovanni Prarolo</a> e <a href='https://www.unibo.it/sitoweb/rohit.ticku'>Rohit Ticku</a> <span style="font-size: smaller; white-space: nowrap;">(2023/24)</span>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Finance — Laurea triennale
+        Economics and Finance — Laurea triennale (in inglese)
       </div>
     </div>
   </div>
@@ -140,12 +140,12 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2021/413375'>Microeconomics</a> con <a href='https://www.unibo.it/sitoweb/francesca.barigozzi'>Francesca Barigozzi</a>
+          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2021/413375'>Microeconomia</a> con <a href='https://www.unibo.it/sitoweb/francesca.barigozzi'>Francesca Barigozzi</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Business — Laurea triennale
+        Economics and Business — Laurea triennale (in inglese)
       </div>
     </div>
   </div>
@@ -183,12 +183,12 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=qeeh_1920'>Public Management and Public Economics</a> con <a href='https://www.management.unito.it/do/docenti.pl/Alias?francesco.figari#tab-profilo'>Francesco Figari</a>
+          <a href='https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=qeeh_1920'>Gestione Pubblica ed Economia Pubblica</a> con <a href='https://www.management.unito.it/do/docenti.pl/Alias?francesco.figari#tab-profilo'>Francesco Figari</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Business and Management — Laurea triennale
+        Business and Management — Laurea triennale (in inglese)
       </div>
     </div>
   </div>
@@ -196,12 +196,12 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-           <a href='https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=wwm1_1920'>Microeconomics</a> con <a href='https://www.esomas.unito.it/do/docenti.pl/Alias?nadia.campaniello#tab-profilo'>Nadia Campaniello</a>
+           <a href='https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=wwm1_1920'>Microeconomia</a> con <a href='https://www.esomas.unito.it/do/docenti.pl/Alias?nadia.campaniello#tab-profilo'>Nadia Campaniello</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Business and Management — Laurea triennale
+        Business and Management — Laurea triennale (in inglese)
       </div>
     </div>
   </div>
