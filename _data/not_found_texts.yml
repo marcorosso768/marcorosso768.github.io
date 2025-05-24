@@ -11,12 +11,10 @@ description:
 message:
   en: >
     It looks like you're lost. You’ll be redirected to the homepage in a few seconds.  
-    If not, click [here to go back home]({{ site.baseurl | prepend: site.url }}).
-
+    If not, click [here to go back home](/).
   it: >
     Sembra che tu ti sia perso. Verrai reindirizzato alla homepage tra pochi secondi.  
-    In caso contrario, clicca [qui per tornare alla home]({{ site.baseurl | prepend: site.url }}/it).
-
+    In caso contrario, clicca [qui per tornare alla home](/it/).
   es: >
     Parece que estás perdido. Serás redirigido a la página de inicio en unos segundos.  
-    Si eso no ocurre, haz clic [aquí para volver al inicio]({{ site.baseurl | prepend: site.url }}/es).
+    Si eso no ocurre, haz clic [aquí para volver al inicio](/es/).
