@@ -1,6 +1,6 @@
 <div class="indented" style="display: inline-block;"> <p> <span style="font-size: 20pt; color: var(--global-theme-color);"> Paolo Vanin </span> <br> <span style="font-size: 12pt; color: var(--global-theme-color);"> <i>Supervisor de Doctorado</i> </span> </p> </div>
 
-<span class="indented" style="font-size: 15pt;"> Profesor Titular </span> <br> <span class="indented"> Universidad de Bolonia </span> <br> <span class="indented"> Departamento de Economía </span> <br> <span class="indented" style="font-size: 10pt; display: inline-block;"> Disciplina Académica: ECON-01/A Economía </span> <br> <span class="indented" style="font-size: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bolonia, Italia</span>
+<span class="indented" style="font-size: 15pt;"> Profesor Titular </span> <br> <span class="indented"> University of Bologna </span> <br> <span class="indented"> Departamento de Economía </span> <br> <span class="indented" style="font-size: 10pt; display: inline-block;"> Disciplina Académica: ECON-01/A Economía </span> <br> <span class="indented" style="font-size: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bolonia, Italia</span>
 
 <p class="indented" style="font-size: 10pt;"> Áreas de Investigación: <i> Teoría y Empírica del Desarrollo a Largo Plazo, Economía Política, Economía Social, Economía del Crimen y Teoría Microeconómica </i></p>
 
