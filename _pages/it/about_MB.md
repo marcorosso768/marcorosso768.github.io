@@ -1,8 +1,15 @@
-<span style="font-size: 20pt; color: var(--global-theme-color);"> Maria Bigoni </span>
+<div class="indented" style="display: inline-block;"> <p> <span style="font-size: 20pt; color: var(--global-theme-color);"> Maria Bigoni </span> </p> </div>
 
-<span style="font-size: 15pt;"> Professoressa ordinaria </span> <br> Dipartimento di Scienze Economiche <br> <span style="font-size: 10pt;"> Settore scientifico disciplinare: ECON-01/A Economia Politica </span> <br> <span style="font-size: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italia</span>
+<span class="indented" style="font-size: 15pt;"> Professoressa ordinaria </span> <br> <span class="indented"> Dipartimento di Scienze Economiche, Università odi Bologna </span> <br> <span class="indented" style="font-size: 10pt;"> Settore scientifico disciplinare: ECON-01/A Economia Politica </span> <br> <span class="indented" style="font-size: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italia</span>
 
-<p style="font-size: 10pt;"> Interessi di ricerca: <i> Economia Sperimentale, applicata allo studio della Cooperazione nei Dilemmi Sociali Ripetuti, Organizzazione Industriale e Apprendimento </i></p>
+<p class="indented" style="font-size: 10pt;"> Interessi di ricerca: <i> Economia Sperimentale, applicata allo studio della Cooperazione nei Dilemmi Sociali Ripetuti, Organizzazione Industriale e Apprendimento</i></p>
 
-<span style="vertical-align: middle; line-height: 1; color: var(--global-theme-color);"><i class="fa-solid fa-envelope"></i></span>&nbsp;&nbsp;<a href="mailto:maria.bigoni@unibo.it">maria.bigoni@unibo.it</a> <br>
-<i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i> &nbsp;[pagina personale sul sito di UniBo](https://www.unibo.it/sitoweb/maria.bigoni/) 
+<div class="icon-link indented">
+  <i class="fa-solid fa-envelope fa-fw"></i>
+  <a href="mailto:maria.bigoni@unibo.it">maria.bigoni@unibo.it</a>
+</div>
+
+<div class="icon-link indented">
+  <i class="fa-solid fa-building-columns fa-fw"></i>
+  <a href="https://www.unibo.it/sitoweb/maria.bigoni/en">pagina personale sul sito di UniBo</a>
+</div>
