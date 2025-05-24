@@ -1,0 +1,45 @@
+---
+layout: page
+permalink: /404.html
+page_id: error_404
+lang: {{ site.active_lang }}
+---
+
+{% assign lang = site.active_lang %}
+{% assign t = site.data.not_found_texts %}
+
+{% comment %}
+  Per supportare fallback se non trovi la lingua
+{% endcomment %}
+{% unless t.message[lang] %}
+  {% assign lang = "en" %}
+{% endunless %}
+
+{% assign title404 = t.title[lang] %}
+{% assign desc404 = t.description[lang] %}
+{% assign message404 = t.message[lang] | newline_to_br | split: '<br />' %}
+
+{% capture redirect_path %}
+  {% if lang == "en" %}
+    /
+  {% else %}
+    /{{ lang }}/
+  {% endif %}
+{% endcapture %}
+
+<!-- Metadata dinamici -->
+<meta name="description" content="{{ desc404 | strip_html }}">
+
+<div class="text-center p-4">
+  <h1 id="error-title">{{ title404 }}</h1>
+  <p id="error-description" class="lead">{{ desc404 }}</p>
+  <p>{{ message404[0] }}</p>
+  <p>{{ message404[1] }}</p>
+  <p><a href="{{ redirect_path | strip }}">← {{ site.data.language_names[lang] | capitalize }} homepage</a></p>
+</div>
+
+<script>
+  setTimeout(() => {
+    window.location.replace("{{ redirect_path | strip }}");
+  }, 7000);
+</script>
