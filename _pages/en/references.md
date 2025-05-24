@@ -5,7 +5,7 @@ permalink: /references/
 title: references
 subtitle: >
     <div class="lang-links">
-        <a href="/it/referenze/" hreflang="it">referenze</a>&nbsp;|&nbsp;<a href="/es/referencias/" hreflang="es">referencia</a>
+        <a href="/it/referenze/" hreflang="it">referenze</a>&nbsp;|&nbsp;<a href="/es/referencias/" hreflang="es">referencias</a>
     </div>
 description:
 nav: false
