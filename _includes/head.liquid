@@ -1,5 +1,7 @@
 <!-- Metadata, OpenGraph and Schema.org -->
+{% include metadata.liquid %}
 
+<!-- Title & Meta Description -->
 <title>
   {% if page.title %}
     {{ page.title | escape }}
@@ -9,8 +11,6 @@
 </title>
 
 <meta name="description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
-
-{% include metadata.liquid %}
 
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
