@@ -10,8 +10,8 @@ children:
     permalink: /novedades/
   - title: blog
     permalink: /blog/
-  - title: referencia
-    permalink: /referencia/
+  - title: referencias
+    permalink: /referencias/
   - title: contactos
     permalink: /contactos/
 ---

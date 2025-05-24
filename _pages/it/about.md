@@ -5,7 +5,7 @@ title: su&nbsp;di me
 permalink: /
 subtitle: >
     <div style="margin-top: -20px;">
-        <p style="font-weight: 500;">Dottorando | Assegnista di Ricerca | Assistente&nbsp;alla&nbsp;Didattica</p>
+        <p style="font-weight: 500;">Dottorando | Assistente&nbsp;alla&nbsp;didattica | Assegnista&nbsp;di&nbsp;Ricerca</p>
     </div>
     <div style="margin: 0; padding: 0; position: relative;">
         <!-- First row: University icon and department name -->
@@ -14,10 +14,10 @@ subtitle: >
         </div>
         <div style="display: inline-block; padding-left: 20px; margin-top: -10pt; line-height: 14pt;">
             <span style="color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
-                <a href="https://dse.unibo.it">Dipartimento di Scienze Economiche,</a>
-                <a href="https://www.unibo.it/it">Università di Bologna</a>
+                <a href="https://www.unibo.it/it">Università di Bologna,</a>
+                <a href="https://dse.unibo.it">Dipartimento di Scienze Economiche</a>
                   <br>
-                <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna</a>
+                <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna, Italia</a>
             </span>
         </div>
         <!-- Second row: Location icon and actula location -->

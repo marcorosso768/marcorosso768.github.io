@@ -5,7 +5,7 @@ title: about me
 permalink: /
 subtitle: >
     <div style="margin-top: -20px;">
-        <p style="font-weight: 500;">Ph.D. Candidate | Post-Doc | Teaching&nbsp;Assistant</p>
+        <p style="font-weight: 500;">Ph.D. Candidate | Teaching&nbsp;Assistant | Post-Doc</p>
     </div>
     <div style="margin: 0; padding: 0; position: relative;">
         <!-- First row: University icon and department name -->
@@ -14,10 +14,10 @@ subtitle: >
         </div>
         <div style="display: inline-block; padding-left: 20px; margin-top: -10pt; line-height: 14pt;">
             <span style="color: var(--global-theme-color); font-size: 10pt;">
-                <a href="https://dse.unibo.it/en">Department of Economics,</a>
-                <a href="https://www.unibo.it/en/homepage">University of Bologna</a>
+                <a href="https://www.unibo.it/en/homepage">University of Bologna,</a>
+                <a href="https://dse.unibo.it/en">Department of Economics</a>
                   <br>
-                <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna</a>
+                <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna, Italy</a>
             </span>
         </div>
         <!-- Second row: Location icon and actul location -->
@@ -62,7 +62,7 @@ Right now, I’m trying to make sense of things like:
 
 When I’m not trying to make sense of chaos (spoiler: chaos wins), I am the <b style="color: $white-color;">Teaching Assistant</b> for the following courses: <b style="color: $white-color;">Introduction to Behavioral Economics</b>, <b style="color: $white-color;">Game Theory</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Microeconomics</b>. Basically, I try to explain complex concepts using unlikely metaphors and fake confidence.
 
-To top it off, I’m also the <b style="color: $white-color;">Representative for Research Fellows</b> both in the <b style="color: $white-color;">Department Council</b> and the <b style="color: $white-color;">Department Committee</b>. Translation: I sit through long meetings with too many slides and nod professionally.
+To top it off, I’m also the <b style="color: $white-color;">Representative for Research Fellows</b> both on the <b style="color: $white-color;">Department Council</b> and the <b style="color: $white-color;">Executive Committee</b>. Translation: I sit through long meetings with too many slides and nod professionally.
 
 And finally, to give meaning to this whole circus: I organize the <b style="color: $white-color;">DSE Afterwork Drinks</b>. A monthly event where we talk about academia, life, broken dreams, and calls for proposals about to expire—though with a drink in hand, which changes everything.
 
