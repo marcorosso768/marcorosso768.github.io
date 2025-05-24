@@ -170,7 +170,7 @@ nav_order: 3
   <a href="javascript:void(0);" onclick="toggleVisibility('subsection-unito')">
     <h2 class="subsection">
        <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-unito"></i>
-       <span>Università degli Studi di Torino - SAA Scuola di Amministrazione Aziendale</span>
+       <span>Università degli Studi di Torino — SAA Scuola di Amministrazione Aziendale</span>
     </h2>
   </a>
 </div>
