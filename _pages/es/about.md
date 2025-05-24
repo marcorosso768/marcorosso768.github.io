@@ -49,22 +49,22 @@ social: true # includes social icons at the bottom of the page
 
 Bienvenid@ a mi sitio personal-me alegra que hayas llegado por voluntad propia (o que hayas hecho clic por error: le pasa hasta a l@s mejores).
 
-Soy <b style="color: $white-color;">Doctorando de quinto año en Economía</b> y <b style="color: $white-color;">Post-Doc</b> (sí, aún quedamos algun@s) en la Universidad de Bolonia.
+Soy <b style="color: $white-color;">doctorando de quinto año en Economía</b> y <b style="color: $white-color;">Investigador Posdoctoral</b> (sí, aún quedamos algun@s) en la University of Bologna.
 
-Mis <b style="color: $white-color;">intereses de investigación</b> giran en torno a la <b style="color: $white-color;">Economía Política</b>, la <b style="color: $white-color;">Economía del Crimen</b>, la <b style="color: $white-color;">Economía Experimental</b> y la <b style="color: $white-color;">Economía del Comportamiento</b>: ideal para quienes disfrutan de preguntas incómodas, dilemas éticos y datasets imposibles de encontrar.
+Mis <b style="color: $white-color;">intereses de investigación</b> giran en torno a la <b style="color: $white-color;">Economía Política</b>, la <b style="color: $white-color;">Economía del Crimen</b>, la <b style="color: $white-color;">Economía Experimental</b> y la <b style="color: $white-color;">Economía del Comportamiento</b>: ideales para quienes disfrutan de preguntas incómodas, dilemas éticos y datasets imposibles de encontrar.
 
-En este momento, estoy intentando entender cosas como:
+Actualmente, intento entender cosas como:
 <ul>
   <li>¿Quién elige entrar al sector público sabiendo que podría robar... y por qué lo contratamos?</li>
   <li>¿Las noticias sobre crímenes realmente afectan nuestro voto?</li>
   <li>¿El Erasmus nos transforma? (¿O solo cambia nuestra playlist de Spotify?)</li>
 </ul>
 
-Cuando no intento darle sentido al caos (spoiler: gana el caos), soy <b style="color: $white-color;">Asistente de Docencia</b> de los siguientes cursos: <b style="color: $white-color;">Introducción a la Economía del Comportamiento</b>, <b style="color: $white-color;">Teoría de Juegos</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Microeconomía</b>. O sea, intento explicar conceptos complejos con ejemplos improbables y falsa seguridad.
+Cuando no intento darle sentido al caos (spoiler: gana el caos), soy <b style="color: $white-color;">Asistente de Docencia</b> en los siguientes cursos: <b style="color: $white-color;">Introducción a la Economía del Comportamiento</b>, <b style="color: $white-color;">Teoría de Juegos</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Microeconomía</b>. O sea, intento explicar conceptos complejos con ejemplos improbables y falsa seguridad.
 
-Por si fuera poco, también soy <b style="color: $white-color;">Representante de Investigador@s Post-Doc</b> tanto en el <b style="color: $white-color;">Consejo de Departamento</b> como en la <b style="color: $white-color;">Junta de Departamento</b>. Traducción: asisto a reuniones largas con muchas diapositivas y asiento de forma profesional.
+Por si fuera poco, también soy <b style="color: $white-color;">Representante de Investigador@s Posdoctorales</b> tanto en el <b style="color: $white-color;">Consejo de Departamento</b> como en la <b style="color: $white-color;">Junta de Departamento</b>. Traducción: asisto a reuniones largas con muchas diapositivas y asiento de forma profesional.
 
-Y, finalmente, para no perder del todo la fe en la vida: organizo los <b style="color: $white-color;">Aperitivos del Departamento</b>. Un evento mensual donde hablamos de academia, vida, sueños rotos y convocatorias que están por cerrarse—pero con una copa en la mano, que cambia todo.
+Y, para no perder del todo la fe en la vida: organizo los <b style="color: $white-color;">Aperitivos del Departamento</b>, un evento mensual donde hablamos de academia, vida, sueños rotos y convocatorias que están por cerrarse —pero con una copa en la mano, que cambia todo.
 
 ¿Mi cita favorita?<br>
 <i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i><br>
