@@ -50,29 +50,29 @@
       location: "Turín, Italia"
       institution: Universidad de Turín
       department: ESOMAS - Departamento de Economía
-      supervisor: 'supervisor: <a href="https://sites.google.com/site/giovannimastrobuoni/">Giovanni Mastrobuoni</a>'
+      supervisor: 'director de tesis: <a href="https://sites.google.com/site/giovannimastrobuoni/">Giovanni Mastrobuoni</a>'
     - title: Licenciatura en Matemáticas
       year: "2015"
       location: "Turín, Italia"
       institution: Universidad de Turín
       department: Departamento de Matemáticas
-      supervisor: 'supervisora: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis</a>'
+      supervisor: 'directora de tesis: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis</a>'
 
 - title: períodos en visita
   type: time_table
   contents:
     - title: Doctorando Visitante
-      year: primavera 2024
+      year: ago-dic 2024
       location: "Buones Aires, Argentina"
       institution: Universidad de San Andrés
       department: Departamento de Economía
-      supervisor: 'supervisor local: <a href="https://www.tommy-e-murphy.com">Tommy E. Murphy</a>'
-    - title: "Candidato a Maestría Visitante"
-      year: invierno 2019
+      supervisor: 'director local: <a href="https://www.tommy-e-murphy.com">Tommy E. Murphy</a>'
+    - title: "Investigador de Maestría Visitante"
+      year: ene-mar 2019
       location: "Turín, Italia"
       institution: Observatorio Regional de Salud Pública (SEPI)
       department: Departamento de Salud Pública (Junta de Salud Local TO3)
-      supervisor: 'supervisor local: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
+      supervisor: 'director local: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
 
 - title: actividades académicas
   type: time_table
@@ -88,32 +88,32 @@
       location: "Bolonia, Italia"
       institution: Universidad de Bolonia
       department: DSE - Departamento de Economía
-      supervisor: 'supervisores: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en">Maria Bigoni</a> y <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
-    - title: Generación y preparación de material de apoyo para el curso de Econometría
+      supervisor: 'supervisoras: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en">Maria Bigoni</a> y <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
+    - title: Elaboración y Preparación de Material de Apoyo para el curso de Econometría
       year: "2023"
       location: "Bolonia, Italia"
       institution: Universidad de Bolonia
       department: DSE - Departamento de Economía
       supervisor: 'supervisores: <a href="https://www.unibo.it/sitoweb/margherita.fort/en">Margherita Fort</a> y <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
-    - title: Asistente de investigación
+    - title: Asistente de Investigación
       year: "2018"
       location: "Turín, Italia"
       institution: Collegio Carlo Alberto
       department: Centro de Investigación sobre Pensiones y Políticas de Bienestar (CeRP)
       supervisor: 'supervisora: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero</a>'
 
-- title: premios, becas y subvenciones
+- title: premios, becas y financiaciones
   type: time_table
   contents:
-    - title: 'Incentivo "Marco Polo" para la Movilidad Internacional en la Investigación'
+    - title: 'Incentivo "Marco Polo" para la Movilidad Internacional en Investigación'
       year: "2024"
       location: "Bolonia, Italia"
       institution: Universidad de Bolonia
-    - title: Beca de 4 Años, Programa de Doctorado en Economía
+    - title: Beca Doctoral de 4 Años, Programa de Doctorado en Economía
       year: "2020"
       location: "Bolonia, Italia"
       institution: Universidad de Bolonia
-    - title: Recomendación de Tesis de Maestría para Publicación (Distinción de Mérito Italiano)
+    - title: Mención para Publicación de Tesis de Maestría (Título de Mérito Académico en Italia)
       year: "2019"
       location: "Turín, Italia"
       institution: Universidad de Turín
@@ -121,23 +121,23 @@
 - title: servicio académico
   type: time_table
   contents:
-    - title: "Representante de los Investigadores Postdoctorales en el Consejo del Departamento"
+    - title: "Representante de los Investigadores Postdoctorales en el Consejo de Departamento"
       year: 2025-
       location: "Bolonia, Italia"
       institution: Universidad de Bolonia
       department: DSE - Departamento de Economía
-    - title: "Representante de los Investigadores Postdoctorales en la Junta del Departamento"
+    - title: "Representante de los Investigadores Postdoctorales en el Comité Ejecutivo del Departamento"
       year: 2025-
       location: "Bolonia, Italia"
       institution: Universidad de Bolonia
       department: DSE - Departamento de Economía
-    - title: Miembro del comité del examen internacional SAT para la admisión a las Universidades
+    - title: Miembro del Comité del Examen Internacional SAT para el Ingreso Universitario
       year: 2024-
       location: "Bolonia, Italia"
       institution: Universidad de Bolonia
-      department: en colaboración con College Board de Nueva York
+      department: en colaboración con College Board (Nueva York)
 
-- title: revisión para revistas académicas
+- title: evaluación para revistas académicas
   type: map
   contents:
     - name:
@@ -149,10 +149,10 @@
           </div>
         </div>
 
-- title: actividades de networking
+- title: actividades de integración académica
   type: time_table
   contents:
-    - title: 'Organizador de los "Afterwork Drinks del Departamento"'
+    - title: 'Organizador de los Aperitivos del Departamento'
       year: 2022-
       location: "Bolonia, Italia"
       institution: Universidad de Bolonia
@@ -162,12 +162,12 @@
       location: "Bolonia, Italia"
       institution: Universidad de Bolonia
       department: DSE - Departamento de Economía
-    - title: 'Co-organizador de la serie de seminarios "Research in Steps" (RiS) para estudiantes de doctorado'
+    - title: 'Coorganizador del Ciclo de Seminarios ``Research in Steps'' (RiS) para Doctorandos'
       year: 2022-2023
       location: "Bolonia, Italia"
       institution: Universidad de Bolonia
       department: DSE - Departamento de Economía
-    - title: 'Co-fundador y Co-organizador del Grupo de Lectura sobre la "Economía Política de la Violencia y la Corrupción"'
+    - title: 'Cofundador y Coorganizador del Grupo de Lectura "Economía Política de la Violencia y la Corrupción"'
       year: 2021-2022
       location: "Bolonia, Italia"
       institution: Universidad de Bolonia
@@ -181,7 +181,7 @@
         - name: "nativo"
     - category: "inglés"
       items:
-        - name: "fluido"
+        - name: "avanzado"
     - category: "español"
       items:
         - name: "intermedio"
@@ -201,15 +201,15 @@
 - title: otras experiencias
   type: time_table
   contents:
-    - title: Operador de recolección de datos interno y en el escenario
+    - title: Operador de Recolección de Datos en Sede y en Eventos en Vivo
       year: 2016-2021
       firm: Deltatre
       location: "Turín, Italia"
-    - title: Entrenador de fútbol juvenil
+    - title: Entrenador de Fútbol Juvenil
       year: 2014-2016
       soccer: A.P.D. Pecetto
       location: "Pecetto, Italia"
-    - title: Entrenador de fútbol juvenil
+    - title: Entrenador de Fútbol Juvenil
       year: 2013-2014
       soccer: C.S.F. Carmagnola
       location: "Carmagnola, Italia"
@@ -217,7 +217,7 @@
 - title: pasatiempos
   type: list_groups
   contents:
-    - category: 'mixología'
+    - category: 'coctelería'
       icon: "fas fa-cocktail fa-fw"
     - category: 'correr'
       icon: "fa-solid fa-person-running fa-fw"
