@@ -1,7 +1,7 @@
 ---
 page_id: research
 layout: page
-permalink: /investigacion/
+permalink: /investigación/
 title: investigación
 description:
 subtitle: >
