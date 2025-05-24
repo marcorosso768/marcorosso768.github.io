@@ -5,7 +5,7 @@ title: about me
 permalink: /
 subtitle: >
     <div style="margin-top: -20px;">
-        <p style="font-weight: 500;">Ph.D. Candidate | Post-Doc | Teaching&nbsp;Assistant</p>
+        <p style="font-weight: 500;">Ph.D. Candidate | Teaching&nbsp;Assistant | Post-Doc</p>
     </div>
     <div style="margin: 0; padding: 0; position: relative;">
         <!-- First row: University icon and department name -->
