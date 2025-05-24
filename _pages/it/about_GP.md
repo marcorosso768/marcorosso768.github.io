@@ -11,7 +11,7 @@
 
 <div class="icon-link indented">
   <i class="fa-solid fa-building-columns fa-fw"></i>
-  <a href="https://www.unibo.it/sitoweb/giovanni.prarolo/en">pagina personale sul sito di UniBo</a>
+  <a href="https://www.unibo.it/sitoweb/giovanni.prarolo/">pagina personale sul sito di UniBo</a>
 </div>
 
 <div class="icon-link indented">
