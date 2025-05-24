@@ -1,7 +1,8 @@
 ---
 page_id: blog
 layout: default
-permalink: /blog/
+lang: it
+permalink: /it/blog/
 title: blog
 subtitle: >
     <p style="color: var(--global-theme-color); margin-top: -5px; font-weight: normal;"><a href="#" onclick="window.location.href='https://marcorosso.com/blog/'; return false;">English</a>&nbsp;|&nbsp;<a href='https://marcorosso.com/es/blog/'>español</a></p>
