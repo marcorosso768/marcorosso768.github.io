@@ -5,7 +5,7 @@ title: sobre mí
 permalink: /
 subtitle: >
     <div style="margin-top: -20px;">
-        <p style="font-weight: 500;">Doctorando | Investigador Postdoctoral | Asistente&nbsp;de&nbsp;Docencia</p>
+        <p style="font-weight: 500;">Doctorando | Asistente&nbsp;de&nbsp;Docencia | Investigador&nbsp;Postdoctoral</p>
     </div>
     <div style="margin: 0; padding: 0; position: relative;">
         <!-- First row: University icon and department name -->
