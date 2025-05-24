@@ -8,7 +8,7 @@ permalink: /404.html
   <header class="post-header">
     <h1 class="post-title" style="color: var(--global-theme-color);">
       <i class="fa-solid fa-file-circle-question"></i>
-      <span id="title-text"></span>
+      <span id="title-text" style="color: var(--global-theme-color);"></span>
     </h1>
     <p id="error-description" class="desc"></p>
   </header>
@@ -27,22 +27,22 @@ permalink: /404.html
 
   const content = {
     en: {
-      title: "Page not found",
-      description: "The page you are looking for doesn't exist or has been moved...",
+      title: "page not found",
+      description: "the page you are looking for doesn't exist or has been moved...",
       line1: "You seem to be lost. You will be redirected to the homepage in a few seconds.",
       line2: 'If not, click <a href="/">here to go back to the homepage</a>.',
       redirect: "/"
     },
     it: {
-      title: "Pagina non trovata",
-      description: "La pagina che stai cercando non esiste o è stata spostata...",
+      title: "pagina non trovata",
+      description: "la pagina che stai cercando non esiste o è stata spostata...",
       line1: "Sembra che tu ti sia perso. Verrai reindirizzato alla homepage tra pochi secondi.",
       line2: 'In caso contrario, clicca <a href="/it/">qui per tornare alla home</a>.',
       redirect: "/it/"
     },
     es: {
-      title: "Página no encontrada",
-      description: "La página que buscas no existe o ha sido movida...",
+      title: "página no encontrada",
+      description: "la página que buscas no existe o ha sido movida...",
       line1: "Parece que estás perdido. Serás redirigido a la página de inicio en unos segundos.",
       line2: 'Si eso no ocurre, haz clic <a href="/es/">aquí para volver al inicio</a>.',
       redirect: "/es/"
