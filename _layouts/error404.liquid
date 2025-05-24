@@ -1,12 +1,28 @@
 ---
-layout: default
+layout: null
 ---
-<div id="localized-404" style="text-align:center; padding:2rem;">
-  <h1 style="color: var(--theme-color); margin-bottom:1.5rem;">
-    {{ page.title }}
-    <i class="fa-solid fa-file-circle-question" style="margin-left:0.5rem"></i>
-  </h1>
+<!doctype html>
+<html lang="{{ page.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>404 – {{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <div id="localized-404" style="text-align:center; padding:2rem;">
+    <h1 style="color: var(--theme-color); margin-bottom:1.5rem;">
+      {{ page.title }} <i class="fa-solid fa-file-circle-question"></i>
+    </h1>
+    <p id="message-line-1"></p>
+    <p id="message-line-2"></p>
+  </div>
 
-  <p id="message-line-1"></p>
-  <p id="message-line-2"></p>
-</div>
+  <!-- 1) inietto i testi multilingua -->
+  <script>
+    window.__NOT_FOUND_TEXTS__ = {{ site.data.not_found_texts | jsonify }};
+  </script>
+  <!-- 2) includo il mio JS che popola i due <p> -->
+  <script defer src="{{ '/assets/js/error404.js' | relative_url }}"></script>
+</body>
+</html>
