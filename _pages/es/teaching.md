@@ -12,309 +12,197 @@ nav: true
 nav_order: 3
 ---
 
-<!-- Current Courses -->
-<!-- Section title toggle link with Font Awesome icons -->
 <div class="projects">
-  <a id="toggle-content-2" href="javascript:void(0);" onclick="toggleVisibility('content-2')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> cursos actuales </h2>
+  <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
+      <span>asistente de docencia</span>
+    </h2>
   </a>
 </div>
 
-<!-- current courses show by default -->
-<div id="content-2" style="display: block;">
+<div id="content-1" class="toggle-section expanded">
 
-  <p><b>2024/25</b></p>
-
-  <div style="margin-left: 10px">
-    <div style="margin: 0; padding: 0; position: relative;">
-        <!-- First row: Chalkboard icon and teaching assistant text -->
-        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-            <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color);"></i>
-        </div>
-        <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-            <span>
-              <b>Asistente de docencia</b> de <a href='https://www.unibo.it/sitoweb/enrico.cantoni'><i>Enrico Cantoni</i></a> para el curso de grado <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'><i>Political Economy</i></a>
-            </span>
-        </div>
-        <!-- Second row: Building icon and department text -->
-        <div style="margin-top: 0px; position: relative; font-size: 10pt;">
-            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-                <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
-            </div>
-            <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>Economics, Politics and Social Sciences, <i>Universidad de Bolonia</i></span>
-            </div>
-        </div>
-    </div>
-  </div>
-  
-  <br>
-
-  <div style="margin-left: 10px">
-    <div style="margin: 0; padding: 0; position: relative;">
-        <!-- First row: Chalkboard icon and teaching assistant text -->
-        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-            <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color);"></i>
-        </div>
-        <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-            <span>
-              <b>Asistente de docencia</b> de <a href='https://www.unibo.it/sitoweb/marco.casari'><i>Marco Casari</i></a>  para el curso de grado <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/502710'><i>Microeconomics</i></a>
-            </span>
-        </div>
-        <!-- Second row: Building icon and department text -->
-        <div style="margin-top: 0px; position: relative; font-size: 10pt;">
-            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-                <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
-            </div>
-            <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>Economics, Politics and Social Sciences, <i>Universidad de Bolonia</i></span>
-            </div>
-        </div>
-    </div>
-  </div>
-
-  <br>
-  
-  <p><b>2022/25</b></p>
-
-  <div style="margin-left: 10px">
-    <div style="margin: 0; padding: 0; position: relative;">
-        <!-- First row: Chalkboard icon and teaching assistant text -->
-        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-            <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color);"></i>
-        </div>
-        <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-            <span>
-              <b>Asistente de docencia</b> de <a href='https://www.unibo.it/sitoweb/andrea.mattozzi'><i>Andrea Mattozzi</i></a> para el curso de máster <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/491971'><i>Game Theory</i></a>
-            </span>
-        </div>
-        <!-- Second row: Building icon and department text -->
-        <div style="margin-top: 0px; position: relative; font-size: 10pt;">
-            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-                <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
-            </div>
-            <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>Economics and Econometrics, <i>Universidad de Bolonia</i></span>
-            </div>
-        </div>
-    </div>
-  </div>
-  
-  <br>
-
-  <div style="margin-left: 10px">
-    <div style="margin: 0; padding: 0; position: relative;">
-        <!-- First row: Chalkboard icon and teaching assistant text -->
-        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-            <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color);"></i>
-        </div>
-        <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-            <span>
-              <b>Asistente de docencia</b> de <a href='https://www.unibo.it/sitoweb/maria.bigoni'><i>Maria Bigoni</i></a> para el curso de grado <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/467276'><i>Introduction to Behavioral Economics</i></a>
-            </span>
-        </div>
-        <!-- Second row: Building icon and department text -->
-        <div style="margin-top: 0px; position: relative; font-size: 10pt;">
-            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-                <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
-            </div>
-            <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>Economics and Finance, <i>Universidad de Bolonia</i></span>
-            </div>
-        </div>
-    </div>
-  </div>
-
-</div>
-<!-- end -->
-
-<!-- Past Courses -->
-<!-- Section title toggle link with Font Awesome icons -->
-<div class="projects">
-  <a id="toggle-content-1" href="javascript:void(0);" onclick="toggleVisibility('content-1')">
-    <h2 class="category"><i class="fa-solid fa-chevron-right fa-2xs"></i> cursos pasados </h2>
+<!-- University of Bologna -->
+<div class="subsection">
+  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-unibo')">
+    <h2 class="subsection">
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-unibo"></i>
+       <span>University of Bologna</span>
+    </h2>
   </a>
 </div>
 
-<!-- past courses section hidden by default -->
-<div id="content-1" style="display: none;">
-  
-  <!-- 2022/24 -->
-  <p><b>2022/24</b></p>
+<div id="subsection-unibo" class="toggle-section expanded">
 
-  <div style="margin-left: 10px">
-    <div style="margin: 0; padding: 0; position: relative;">
-        <!-- First row: Chalkboard icon and teaching assistant text -->
-        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-            <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color);"></i>
-        </div>
-        <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-            <span>
-               <b>Asistente de docencia</b> de <a href='https://www.unibo.it/sitoweb/giovanni.prarolo'><i>Giovanni Prarolo</i></a> y <a href='https://www.unibo.it/sitoweb/rohit.ticku'><i>Rohit Ticku</i></a> para el curso de grado <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2023/422038'><i>Globalization: Trade, Migrations and Multinationals</i></a>
-            </span>
-        </div>
-        <!-- Second row: Building icon and department text -->
-        <div style="margin-top: 0px; position: relative; font-size: 10pt;">
-            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-                <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
-            </div>
-            <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>Economics and Finance, <i>Universidad de Bolonia</i></span>
-            </div>
-        </div>
+<p style="margin-left: 0.1em;"><b>2024-</b></p>
+
+  <div class="teaching-entry indented">
+    <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
+        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2024/468855'>Economía Política</a> con <a href='https://www.unibo.it/sitoweb/enrico.cantoni/en'>Enrico Cantoni</a>
+      </div>
     </div>
-  </div>
-  <!-- end -->
-  
-  <br>
-  
-  <!-- 2021/22 -->
-  <p><b>2021/22</b></p>
-
-  <div style="margin-left: 10px">
-    <div style="margin: 0; padding: 0; position: relative;">
-        <!-- First row: Chalkboard icon and teaching assistant text -->
-        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-            <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color);"></i>
-        </div>
-        <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-            <span>
-              <b>Asistente de docencia</b> de <a href='https://www.unibo.it/sitoweb/francesca.barigozzi'><i>Francesca Barigozzi</i></a> para el curso de máster <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2021/413556'><i>Economía y Política de la Competencia</i></a>
-            </span>
-        </div>
-        <!-- Second row: Building icon and department text -->
-        <div style="margin-top: 0px; position: relative; font-size: 10pt;">
-            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-                <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
-            </div>
-            <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>Economics and Management, <i>Campus de Forlì, Universidad de Bolonia</i></span>
-            </div>
-        </div>
+    <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        Economics, Politics and Social Sciences — Licenciatura (en inglés)
+      </div>
     </div>
   </div>
 
-  <br>
-
-  <div style="margin-left: 10px">
-    <div style="margin: 0; padding: 0; position: relative;">
-        <!-- First row: Chalkboard icon and teaching assistant text -->
-        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-            <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color);"></i>
-        </div>
-        <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-            <span>
-              <b>Asistente de docencia</b> de <a href='https://www.unibo.it/sitoweb/francesca.barigozzi'><i>Francesca Barigozzi</i></a> para el curso de grado <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2021/413375'><i>Microeconomics</i></a>
-            </span>
-        </div>
-        <!-- Second row: Building icon and department text -->
-        <div style="margin-top: 0px; position: relative; font-size: 10pt;">
-            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-                <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
-            </div>
-            <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>Economics and Business, <i>Campus de Forlì, Universidad de Bolonia</i></span>
-            </div>
-        </div>
+  <div class="teaching-entry indented">
+    <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
+        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2024/502710'>Microeconomía</a> con <a href='https://www.unibo.it/sitoweb/marco.casari/en'>Marco Casari</a>
+      </div>
+    </div>
+    <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        Economics, Politics and Social Sciences — Licenciatura (en inglés)
+      </div>
     </div>
   </div>
 
-  <br>
+<p style="margin-left: 0.1em;"><b>2022-</b></p>
 
-  <div style="margin-left: 10px">
-    <div style="margin: 0; padding: 0; position: relative;">
-        <!-- First row: Chalkboard icon and teaching assistant text -->
-        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-            <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color);"></i>
-        </div>
-        <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-            <span>
-              <b>Asistente de docencia</b> de <a href='https://www.unibo.it/sitoweb/natalia.montinari2'><i>Natalia Montinari</i></a> para el curso de máster <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2021/413555'><i>Teoría de Juegos</i></a>
-            </span>
-        </div>
-        <!-- Second row: Building icon and department text -->
-        <div style="margin-top: 0px; position: relative; font-size: 10pt;">
-            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-                <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
-            </div>
-            <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>Economics and Management, <i>Campus de Forlì, Universidad de Bolonia</i></span>
-            </div>
-        </div>
+  <div class="teaching-entry indented">
+    <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
+        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2024/491971'>Teoría de Juegos</a> con <a href='https://www.unibo.it/sitoweb/andrea.mattozzi/en'>Andrea Mattozzi</a>
+      </div>
     </div>
-  </div>
-  <!-- end -->
-  
-  <br>
-  
-  <!-- 2019/20 -->
-  <p><b>2019/20</b></p>
-
-  <div style="margin-left: 10px">
-    <div style="margin: 0; padding: 0; position: relative;">
-        <!-- First row: Chalkboard icon and teaching assistant text -->
-        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-            <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color);"></i>
-        </div>
-        <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-            <span>
-              <b>Asistente de docencia</b> de <a href='https://www.management.unito.it/do/docenti.pl/Alias?francesco.figari#tab-profilo'><i>Francesco Figari</i></a> para el curso de máster <a href='https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=qeeh_1920'><i>Public Management and Public Economics</i></a>
-            </span>
-        </div>
-        <!-- Second row: Building icon and department text -->
-        <div style="margin-top: 0px; position: relative; font-size: 10pt;">
-            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-                <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
-            </div>
-            <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>SAA School of Management, <i>Universidad de Turín</i></span>
-            </div>
-        </div>
+    <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        Economics and Econometrics — Maestría (en inglés)
+      </div>
     </div>
   </div>
 
-  <br>
-
-  <div style="margin-left: 10px">
-    <div style="margin: 0; padding: 0; position: relative;">
-        <!-- First row: Chalkboard icon and teaching assistant text -->
-        <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-            <i class="fa-solid fa-chalkboard-user" style="color: var(--global-theme-color);"></i>
-        </div>
-        <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-            <span>
-              <b>Asistente de docencia</b> de <a href='https://www.esomas.unito.it/do/docenti.pl/Alias?nadia.campaniello#tab-profilo'><i>Nadia Campaniello</i></a> para el curso de grado <a href='https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=wwm1_1920'><i>Microeconomics</i></a>
-            </span>
-        </div>
-        <!-- Second row: Building icon and department text -->
-        <div style="margin-top: 0px; position: relative; font-size: 10pt;">
-            <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-                <i class="fa-solid fa-landmark" style="color: var(--global-theme-color);"></i>
-            </div>
-            <div style="display: inline-block; padding-left: 30px; line-height: 12pt;">
-                <span>SAA School of Management, <i>Universidad de Turín</i></span>
-            </div>
-        </div>
+  <div class="teaching-entry indented">
+    <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
+        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2024/467276'>Introducción a la Economía del Comportamiento</a> con <a href='https://www.unibo.it/sitoweb/maria.bigoni/en'>Maria Bigoni</a>
+      </div>
+    </div>
+    <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        Economics and Finance — Licenciatura (en inglés)
+      </div>
     </div>
   </div>
-  <!-- end -->
-  
+
+<p style="margin-left: 0.1em;"><b>2022/24</b></p>
+
+  <div class="teaching-entry indented">
+    <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
+        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2023/422038'>Globalización: Comercio, Migraciones y Multinacionales</a> con <a href='https://www.unibo.it/sitoweb/giovanni.prarolo/en'>Giovanni Prarolo</a> y <a href='https://www.unibo.it/sitoweb/rohit.ticku/en'>Rohit Ticku</a> <span style="font-size: smaller; white-space: nowrap;">(2023/24)</span>
+      </div>
+    </div>
+    <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        Economics and Finance — Licenciatura (en inglés)
+      </div>
+    </div>
+  </div>
+
 </div>
-<!-- end -->
 
-<!-- Inline script -->
-<script>
-  // Toggle the visibility of the sections
-  function toggleVisibility(id) {
-    var content = document.getElementById(id);
-    var toggleButton = document.getElementById('toggle-' + id).querySelector('i');
-    
-    if (content.style.display === "none") {
-      content.style.display = "block";
-      toggleButton.className = "fa-solid fa-chevron-down fa-2xs"; // Change to down icon
-    } else {
-      content.style.display = "none";
-      toggleButton.className = "fa-solid fa-chevron-right fa-2xs"; // Change to right icon
-    }
-  }  
-</script>
+<!-- Campus Forlì -->
+<div class="subsection">
+  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-uniboforli')">
+    <h2 class="subsection">
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-uniboforli"></i>
+       <span>University of Bologna — Campus de Forlì</span>
+    </h2>
+  </a>
+</div>
+
+<div id="subsection-uniboforli" class="toggle-section expanded">
+
+<p style="margin-left: 0.1em;"><b>2021/22</b></p>
+
+  <div class="teaching-entry indented">
+    <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
+        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2021/413556'>Economía y Política de la Competencia</a> con <a href='https://www.unibo.it/sitoweb/francesca.barigozzi/en'>Francesca Barigozzi</a>
+      </div>
+    </div>
+    <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        Economics and Management — Maestría (en italiano)
+      </div>
+    </div>
+  </div>
+
+  <div class="teaching-entry indented">
+    <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
+        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2021/413375'>Microeconomía</a> con <a href='https://www.unibo.it/sitoweb/francesca.barigozzi/en'>Francesca Barigozzi</a>
+      </div>
+    </div>
+    <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        Economics and Business — Licenciatura (en inglés)
+      </div>
+    </div>
+  </div>
+
+  <div class="teaching-entry indented">
+    <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
+        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2021/413555'>Teoría de Juegos</a> con <a href='https://www.unibo.it/sitoweb/natalia.montinari2/en'>Natalia Montinari</a>
+      </div>
+    </div>
+    <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+         Economics and Management — Maestría (en italiano)
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- University of Turin -->
+<div class="subsection">
+  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-unito')">
+    <h2 class="subsection">
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-unito"></i>
+       <span>University of Turin — SAA School of Management</span>
+    </h2>
+  </a>
+</div>
+
+<div id="subsection-unito" class="toggle-section expanded">
+
+<p style="margin-left: 0.1em;"><b>2019/20</b></p>
+
+  <div class="teaching-entry indented">
+    <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
+        <a href='https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=qeeh_1920'>Gestión Pública y Economía Pública</a> con <a href='https://www.management-en.unito.it/do/docenti.pl/Alias?francesco.figari#tab-profilo'>Francesco Figari</a>
+      </div>
+    </div>
+    <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        Business and Management — Licenciatura (en inglés)
+      </div>
+    </div>
+  </div>
+
+  <div class="teaching-entry indented">
+    <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
+        <a href='https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=wwm1_1920'>Microeconomía</a> con <a href='https://www.esomas-en.unito.it/do/docenti.pl/Alias?nadia.campaniello#tab-profilo'>Nadia Campaniello</a>
+      </div>
+    </div>
+    <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        Business and Management — Licenciatura (en inglés)
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</div>
