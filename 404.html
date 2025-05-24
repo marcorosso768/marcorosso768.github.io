@@ -5,61 +5,64 @@ permalink: /404.html
 ---
 
 <div class="container text-center" style="padding: 2rem;">
-  {% case site.active_lang %}
-    {% when 'it' %}
-      <h1 id="error-title">
-        <i class="fa-solid fa-file-circle-question"></i> Pagina non trovata
-      </h1>
-      <p id="error-description"><i>La pagina che stai cercando non esiste o è stata spostata...</i></p>
-      <p>Sembra che tu ti sia perso. Verrai reindirizzato alla homepage tra pochi secondi.</p>
-      <p>In caso contrario, clicca <a href="/it/">qui per tornare alla home</a>.</p>
-      <script>setTimeout(() => { window.location.replace('/it/'); }, 7000);</script>
-
-    {% when 'es' %}
-      <h1 id="error-title">
-        <i class="fa-solid fa-file-circle-question"></i> Página no encontrada
-      </h1>
-      <p id="error-description"><i>La página que buscas no existe o ha sido movida...</i></p>
-      <p>Parece que estás perdido. Serás redirigido a la página de inicio en unos segundos.</p>
-      <p>Si eso no ocurre, haz clic <a href="/es/">aquí para volver al inicio</a>.</p>
-      <script>setTimeout(() => { window.location.replace('/es/'); }, 7000);</script>
-
-    {% else %}
-      <h1 id="error-title">
-        <i class="fa-solid fa-file-circle-question"></i> Page not found
-      </h1>
-      <p id="error-description"><i>The page you are looking for doesn't exist or has been moved...</i></p>
-      <p>You seem to be lost. You will be redirected to the homepage in a few seconds.</p>
-      <p>If not, click <a href="/">here to go back to the homepage</a>.</p>
-      <script>setTimeout(() => { window.location.replace('/'); }, 7000);</script>
-  {% endcase %}
+  <h1 id="error-title">
+    <i class="fa-solid fa-file-circle-question"></i> <span id="title-text"></span>
+  </h1>
+  <p id="error-description"></p>
+  <p id="message-line-1"></p>
+  <p id="message-line-2"></p>
 </div>
 
 <script>
-  const lang = "{{ site.active_lang }}";
+  const path = window.location.pathname;
+  const lang = path.startsWith("/it") ? "it"
+             : path.startsWith("/es") ? "es"
+             : "en";
 
-  const titles = {
-    en: "Page not found",
-    it: "Pagina non trovata",
-    es: "Página no encontrada"
+  const content = {
+    en: {
+      title: "Page not found",
+      description: "The page you are looking for doesn't exist or has been moved...",
+      line1: "You seem to be lost. You will be redirected to the homepage in a few seconds.",
+      line2: 'If not, click <a href="/">here to go back to the homepage</a>.',
+      redirect: "/"
+    },
+    it: {
+      title: "Pagina non trovata",
+      description: "La pagina che stai cercando non esiste o è stata spostata...",
+      line1: "Sembra che tu ti sia perso. Verrai reindirizzato alla homepage tra pochi secondi.",
+      line2: 'In caso contrario, clicca <a href="/it/">qui per tornare alla home</a>.',
+      redirect: "/it/"
+    },
+    es: {
+      title: "Página no encontrada",
+      description: "La página que buscas no existe o ha sido movida...",
+      line1: "Parece que estás perdido. Serás redirigido a la página de inicio en unos segundos.",
+      line2: 'Si eso no ocurre, haz clic <a href="/es/">aquí para volver al inicio</a>.',
+      redirect: "/es/"
+    }
   };
-  const descriptions = {
-    en: "The page you are looking for doesn't exist or has been moved.",
-    it: "La pagina che stai cercando non esiste o è stata spostata.",
-    es: "La página que buscas no existe o ha sido movida."
-  };
 
-  // Update <title>
-  document.title = titles[lang] || titles.en;
+  const text = content[lang] || content.en;
 
-  // Update <meta name="description">
-  let meta = document.querySelector('meta[name="description']");
+  document.title = text.title;
+
+  const meta = document.querySelector('meta[name="description"]');
   if (meta) {
-    meta.setAttribute("content", descriptions[lang] || descriptions.en);
+    meta.setAttribute("content", text.description);
   } else {
-    meta = document.createElement("meta");
-    meta.name = "description";
-    meta.content = descriptions[lang] || descriptions.en;
-    document.head.appendChild(meta);
+    const newMeta = document.createElement("meta");
+    newMeta.name = "description";
+    newMeta.content = text.description;
+    document.head.appendChild(newMeta);
   }
+
+  document.getElementById("title-text").textContent = text.title;
+  document.getElementById("error-description").innerHTML = `<i>${text.description}</i>`;
+  document.getElementById("message-line-1").textContent = text.line1;
+  document.getElementById("message-line-2").innerHTML = text.line2;
+
+  setTimeout(() => {
+    window.location.replace(text.redirect);
+  }, 7000);
 </script>
