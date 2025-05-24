@@ -1,8 +1,8 @@
 ---
 page_id: profiles
 layout: profiles
-permalink: /referencia/
-title: referencia
+permalink: /referencias/
+title: referencias
 subtitle: >
     <div class="lang-links">
        <a href="#" onclick="window.location.href='https://marcorosso.com/references/'; return false;">references</a>&nbsp;|&nbsp;<a href="/it/referenze/" hreflang="it">referenze</a>
