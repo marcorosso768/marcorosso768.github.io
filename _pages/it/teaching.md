@@ -170,7 +170,7 @@ nav_order: 3
   <a href="javascript:void(0);" onclick="toggleVisibility('subsection-unito')">
     <h2 class="subsection">
        <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-unito"></i>
-       <span>Università degli Studi di Torino</span>
+       <span>Università degli Studi di Torino - SAA Scuola di Amministrazione Aziendale</span>
     </h2>
   </a>
 </div>
@@ -188,7 +188,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        SAA: Scuola di Amministrazione Aziendale — Laurea magistrale
+        Business and Management — Laurea triennale
       </div>
     </div>
   </div>
@@ -201,7 +201,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        SAA: Scuola di Amministrazione Aziendale — Laurea triennale
+        Business and Management — Laurea triennale
       </div>
     </div>
   </div>
