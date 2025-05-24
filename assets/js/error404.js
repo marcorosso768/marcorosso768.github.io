@@ -47,4 +47,30 @@ document.addEventListener("DOMContentLoaded", function () {
     var home = lang === "en" ? "/" : "/" + lang + "/";
     window.location.replace(home);
   }, 7000);
+
+  // 8. Aggiorna dinamicamente la navbar nella pagina 404 con la lingua corrente
+  const supportedLanguages = ["en", "it", "es"];
+
+  document.querySelectorAll("nav a[href^='/']").forEach((link) => {
+    const href = link.getAttribute("href");
+    if (!href) return;
+
+    const alreadyLocalized = supportedLanguages.some(l => href.startsWith(`/${l}/`));
+    const currentLang = lang;
+
+    if (!alreadyLocalized) {
+      // Non ha prefisso lingua: aggiungilo (tranne che per "en")
+      if (currentLang !== "en") {
+        link.setAttribute("href", `/${currentLang}${href}`);
+      }
+    } else {
+      // Ha un prefisso lingua sbagliato: correggilo
+      supportedLanguages.forEach(l => {
+        if (l !== currentLang && href.startsWith(`/${l}/`)) {
+          const newHref = href.replace(`/${l}/`, currentLang === "en" ? "/" : `/${currentLang}/`);
+          link.setAttribute("href", newHref);
+        }
+      });
+    }
+  });
 });
