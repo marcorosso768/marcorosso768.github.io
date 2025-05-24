@@ -276,6 +276,24 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  
+  - scope:
+      path: "_pages/en"
+      path_regex: ".*404.*"
+    values:
+      layout: page
+
+  - scope:
+      path: "_pages/it"
+      path_regex: ".*404.*"
+    values:
+      layout: page
+
+  - scope:
+      path: "_pages/es"
+      path_regex: ".*404.*"
+    values:
+      layout: page
 
 sass:
   sourcemap: never
