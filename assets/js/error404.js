@@ -1,18 +1,18 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
   // 1. Prendi tutti i testi da data/not_found_texts
-  const texts = window.__NOT_FOUND_TEXTS__;
+  var texts = window.__NOT_FOUND_TEXTS__;
 
   // 2. Determina la lingua da URL
-  const path = window.location.pathname;
-  const lang = path.startsWith("/it") ? "it"
-             : path.startsWith("/es") ? "es"
-             : "en";
+  var path = window.location.pathname;
+  var lang = path.indexOf("/it") === 0 ? "it"
+           : path.indexOf("/es") === 0 ? "es"
+           : "en";
 
   // 3. Prendi il messaggio localizzato (fallback su EN se manca)
-  const raw = (texts.message && texts.message[lang]) || (texts.message && texts.message.en) || "";
+  var raw = (texts.message && texts.message[lang]) || (texts.message && texts.message.en) || "";
 
   // 4. Converte link markdown in <a> e splitta in righe
-  const lines = raw
+  var lines = raw
     .replace(/\[([^\]]+)]\(([^)]+)\)/g, '<a href="$2">$1</a>')
     .split(/\n|<br\s*\/?>|\s{2,}/);
 
@@ -21,17 +21,17 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("message-line-2").innerHTML = lines[1] || "";
 
   // 6. Imposta dinamicamente <title>, descrizione e header
-  if (texts.title?.[lang]) {
+  if (texts.title && texts.title[lang]) {
     document.title = texts.title[lang];
-    const elTitle = document.getElementById("error-title");
+    var elTitle = document.getElementById("error-title");
     if (elTitle) elTitle.textContent = texts.title[lang];
   }
 
-  if (texts.description?.[lang]) {
-    const elDesc = document.getElementById("error-description");
+  if (texts.description && texts.description[lang]) {
+    var elDesc = document.getElementById("error-description");
     if (elDesc) elDesc.textContent = texts.description[lang];
 
-    let meta = document.querySelector('meta[name="description"]');
+    var meta = document.querySelector('meta[name="description"]');
     if (meta) {
       meta.setAttribute("content", texts.description[lang]);
     } else {
@@ -43,8 +43,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // 7. Redirect automatico dopo 7 secondi alla home localizzata
-  setTimeout(() => {
-    const home = lang === "en" ? "/" : `/${lang}/`;
+  setTimeout(function () {
+    var home = lang === "en" ? "/" : "/" + lang + "/";
     window.location.replace(home);
   }, 7000);
 });
