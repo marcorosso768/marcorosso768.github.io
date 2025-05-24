@@ -16,7 +16,7 @@ nav_order: 2
   <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
-      <span>ponencias invitadas</span>
+      <span>invitaciones</span>
     </h2>
   </a>
 </div>
