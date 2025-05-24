@@ -31,7 +31,7 @@ nav_order: 2
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
           PRIN Workshop su Economia della Cultura: Etnia, Genere e le loro Interazioni —
-          <span class="highlight">Relatore</span>
+          <span class="highlight"><i>Relatore</i></span>
       </div>
    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
@@ -45,7 +45,7 @@ nav_order: 2
     <div class="seminar-entry__row seminar-entry__row--title">
           <div class="seminar-entry__content">
               Ciclo de Seminarios del Departamento de Economía —
-              <span class="highlight">Relatore</span>
+              <span class="highlight"><i>Relatore</i></span>
       </div>
     </div>
     <div class="seminar-entry__row seminar-entry__row--location">
@@ -77,7 +77,7 @@ nav_order: 2
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
           BoMoPaV Economics Meeting —
-          <span class="highlight">Relatore</span>
+          <span class="highlight"><i>Relatore</i></span>
       </div>
    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
@@ -110,7 +110,7 @@ nav_order: 2
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
          &#8547; Ph.D. Workshop —
-          <span class="highlight">Relatore</span>
+          <span class="highlight"><i>Relatore</i></span>
       </div>
    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
@@ -124,7 +124,7 @@ nav_order: 2
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
          SAsCA Ph.D. Conference in Economics —
-          <span class="highlight">Relatore and discussant</span>
+          <span class="highlight"><i>Relatore e discussant</i></span>
       </div>
    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
@@ -138,7 +138,7 @@ nav_order: 2
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
          Workshop per Dottorandi in Econometria ed Economia Empirica (WEEE) —
-          <span class="highlight">Relatore</span>
+          <span class="highlight"><i>Relatore</i></span>
       </div>
    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
@@ -152,7 +152,7 @@ nav_order: 2
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
          Third Year Ph.D. Forum —
-          <span class="highlight">Relatore</span>
+          <span class="highlight"><i>Relatore</i></span>
       </div>
    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
@@ -169,7 +169,7 @@ nav_order: 2
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
          WiP Seminar —
-          <span class="highlight">Relatore</span>
+          <span class="highlight"><i>Relatore</i></span>
       </div>
    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
@@ -183,7 +183,7 @@ nav_order: 2
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
          &#8546; Ph.D. Workshop —
-          <span class="highlight">Relatore</span>
+          <span class="highlight"><i>Relatore</i></span>
       </div>
    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
@@ -197,7 +197,7 @@ nav_order: 2
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
          Second Year Ph.D. Forum —
-          <span class="highlight">Relatore</span>
+          <span class="highlight"><i>Relatore</i></span>
       </div>
    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
@@ -214,7 +214,7 @@ nav_order: 2
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
          &#8545; Ph.D. Workshop —
-          <span class="highlight">Relatore</span>
+          <span class="highlight"><i>Relatore</i></span>
       </div>
    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
@@ -228,7 +228,7 @@ nav_order: 2
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
          First Year Ph.D. Forum —
-          <span class="highlight">Relatore</span>
+          <span class="highlight"><i>Relatore</i></span>
       </div>
    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
@@ -260,7 +260,7 @@ nav_order: 2
     <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
           <i>“A Modern Guide to the Economics of Crime”</i> (Elgar, 2022) —
-          <span class="highlight">Discussant</span>
+          <span class="highlight"><i>Discussant</i></span>
       </div>
     </div>
     <div class="seminar-entry__row seminar-entry__row--location">
@@ -277,7 +277,7 @@ nav_order: 2
     <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
           First Year Ph.D. Poster Session —
-          <span class="highlight">Relatore</span>
+          <span class="highlight"><i>Relatore</i></span>
       </div>
     </div>
     <div class="seminar-entry__row seminar-entry__row--location">
