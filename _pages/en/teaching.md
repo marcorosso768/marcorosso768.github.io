@@ -41,7 +41,7 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/468855'>Political Economy</a> with <a href='https://www.unibo.it/sitoweb/enrico.cantoni'>Enrico Cantoni </a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2024/468855'>Political Economy</a> with <a href='https://www.unibo.it/sitoweb/enrico.cantoni/en'>Enrico Cantoni </a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
@@ -54,7 +54,7 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/502710'>Microeconomics</a> with <a href='https://www.unibo.it/sitoweb/marco.casari'>Marco Casari</a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2024/502710'>Microeconomics</a> with <a href='https://www.unibo.it/sitoweb/marco.casari/en'>Marco Casari</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
@@ -69,7 +69,7 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/491971'>Game Theory</a> with <a href='https://www.unibo.it/sitoweb/andrea.mattozzi'>Andrea Mattozzi</a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2024/491971'>Game Theory</a> with <a href='https://www.unibo.it/sitoweb/andrea.mattozzi/en'>Andrea Mattozzi</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
@@ -82,7 +82,7 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/467276'>Introduction to Behavioral Economics</a> with <a href='https://www.unibo.it/sitoweb/maria.bigoni'>Maria Bigoni</a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2024/467276'>Introduction to Behavioral Economics</a> with <a href='https://www.unibo.it/sitoweb/maria.bigoni/en'>Maria Bigoni</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
@@ -97,7 +97,7 @@ nav_order: 3
 <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2023/422038'>Globalization: Trade, Migrations and Multinationals</a> with <a href='https://www.unibo.it/sitoweb/giovanni.prarolo'>Giovanni Prarolo</a> and <a href='https://www.unibo.it/sitoweb/rohit.ticku'>Rohit Ticku</a> <span style="font-size: smaller; white-space: nowrap;">(2023/24)</span>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2023/422038'>Globalization: Trade, Migrations and Multinationals</a> with <a href='https://www.unibo.it/sitoweb/giovanni.prarolo/en'>Giovanni Prarolo</a> and <a href='https://www.unibo.it/sitoweb/rohit.ticku/en'>Rohit Ticku</a> <span style="font-size: smaller; white-space: nowrap;">(2023/24)</span>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
@@ -127,7 +127,7 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2021/413556'>Competion Economics and Policy</a> with <a href='https://www.unibo.it/sitoweb/francesca.barigozzi'>Francesca Barigozzi</a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2021/413556'>Competion Economics and Policy</a> with <a href='https://www.unibo.it/sitoweb/francesca.barigozzi/en'>Francesca Barigozzi</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
@@ -140,7 +140,7 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2021/413375'>Microeconomics</a> with <a href='https://www.unibo.it/sitoweb/francesca.barigozzi'>Francesca Barigozzi</a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2021/413375'>Microeconomics</a> with <a href='https://www.unibo.it/sitoweb/francesca.barigozzi/en'>Francesca Barigozzi</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
@@ -153,7 +153,7 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2021/413555'>Game Theory</a> with <a href='https://www.unibo.it/sitoweb/natalia.montinari2'>Natalia Montinari</a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2021/413555'>Game Theory</a> with <a href='https://www.unibo.it/sitoweb/natalia.montinari2/en'>Natalia Montinari</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
@@ -170,7 +170,7 @@ nav_order: 3
   <a href="javascript:void(0);" onclick="toggleVisibility('subsection-unito')">
     <h2 class="subsection">
        <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-unito"></i>
-       <span>University of Turin</span>
+       <span>University of Turin — SAA School of Management</span>
     </h2>
   </a>
 </div>
@@ -183,12 +183,12 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=qeeh_1920'>Public Management and Public Economics</a> with <a href='https://www.management.unito.it/do/docenti.pl/Alias?francesco.figari#tab-profilo'>Francesco Figari</a>
+          <a href='https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=qeeh_1920'>Public Management and Public Economics</a> with <a href='https://www.management-en.unito.it/do/docenti.pl/Alias?francesco.figari#tab-profilo'>Francesco Figari</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        SAA School of Management — Graduate
+        Business and Management — Undegraduate
       </div>
     </div>
   </div>
@@ -196,12 +196,12 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-           <a href='https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=wwm1_1920'>Microeconomics</a> with <a href='https://www.esomas.unito.it/do/docenti.pl/Alias?nadia.campaniello#tab-profilo'>Nadia Campaniello</a>
+           <a href='https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=wwm1_1920'>Microeconomics</a> with <a href='https://www.esomas-en.unito.it/do/docenti.pl/Alias?nadia.campaniello#tab-profilo'>Nadia Campaniello</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        SAA School of Management — Undergraduate
+        Business and Management — Undergraduate
       </div>
     </div>
   </div>
