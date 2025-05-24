@@ -12,184 +12,140 @@ nav: true
 nav_order: 1
 ---
 
-<!-- Publications -->
-<!-- Section title toggle link with Font Awesome icons -->
+<!-- Sezione Pubblicazioni -->
 <div class="projects">
-  <a id="toggle-content-3" href="javascript:void(0);" onclick="toggleVisibility('content-3')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> pubblicazioni </h2>
+  <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
+      <span>pubblicazioni</span>
+    </h2>
   </a>
 </div>
 
-<!-- Publications section show by default -->
-<div id="content-3" style="display: block;">
+<div id="content-1" class="toggle-section expanded">
 
-  <div style="margin: 0; padding: 0; position: relative;">
-      <!-- First row: journal icon and project title -->
-      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-          <i class="fa-solid fa-newspaper" style="color: var(--global-theme-color);"></i>
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-newspaper fa-fw"></i>
+      <span>
+        Farina E., Rosso M., Dansero L., et al. (2023). 
+        <a href="https://doi.org/10.1136/jech-2022-220088" target="_blank" rel="noopener noreferrer">
+          Short-term effect of colorectal cancer on income: analysis of an Italian cohort.
+        </a> 
+        <i>Journal of Epidemiology & Community Health</i>, 77:196–201.
+      </span>
+    </div>
+    <div class="pill-container">
+      <div class="pill-button toggle-pill" data-target="abstract-crc">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Abstract</span>
       </div>
-      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span>Farina E., Rosso M., Dansero L., et al. (2023). <a href="https://doi.org/10.1136/jech-2022-220088"> Short-term effect of colorectal cancer on income: analysis of an Italian cohort. </a> <i> Journal of Epidemiology & Community Health</i>, 77:196-201.</span>
-      </div>
-      <!-- Second row: abstract -->
-      <div style="margin-top: 0px; position: relative;">
-          <!-- Abstract toggle link with Font Awesome icons -->
-          <div style="display: inline-block; padding-left: 30px; font-size: 11pt;">
-            <a href="javascript:void(0);" id="toggle-abstract-1" onclick="toggleAbstract('abstract-1')">
-              <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Abstract</i>
-            </a>
-          </div>
-          <div id="abstract-1" style="display:inline-block; display:none; padding-left: 30px; line-height: 12pt; font-size: 10pt;">
-              <b>Introduzione</b> La capacità di tornare al lavoro dopo una diagnosi di cancro è un aspetto chiave della sopravvivenza al cancro e della qualità della vita. Studi hanno riportato un rischio significativo di perdita di reddito per i sopravvissuti al cancro; tuttavia, vi sono evidenze limitate nel contesto italiano.
-              <br>
-              <b>Metodi</b> Il database Work Histories Italian Panel (WHIP)-Salute è stato utilizzato per selezionare una coorte di casi incidenti di cancro colorettale (CRC) tra i lavoratori del settore privato, basandosi sulle dimissioni ospedaliere. È stato utilizzato un propensity score matching per trovare un gruppo di controllo bilanciato per diversi confondenti. Regressioni ordinarie dei minimi quadrati e logistiche sono state impiegate per stimare l'effetto di una diagnosi di CRC sul reddito annuo e sulla probabilità di passaggio da un contratto a tempo pieno a uno a tempo parziale, considerando un periodo di 3 anni dopo la diagnosi.
-              <br>
-              <b>Risultati</b> In totale, sono stati identificati 925 casi incidenti di CRC dal 2006 al 2012. I nostri risultati confermano una riduzione statisticamente significativa del reddito dei sopravvissuti rispetto ai controlli. Questa riduzione è stata maggiore nel primo anno e ha mostrato una tendenza a diminuire nel tempo, con una perdita di reddito media su 3 anni di circa €12.000. Le analisi stratificate per sesso e posizione confermano la tendenza generale, evidenziando al contempo una forte modifica dell’effetto. Per quanto riguarda il passaggio dal lavoro a tempo pieno a quello a tempo parziale, i risultati non sono mai stati significativi.
-              <br>
-              <b>Conclusione</b> La perdita di reddito non sembra essere correlata a un aumento dei contratti a tempo parziale, ma piuttosto a una ridotta capacità lavorativa dei sopravvissuti in seguito ai trattamenti invasivi. Sono necessarie ulteriori ricerche per indagare le dinamiche complesse alla base di questa associazione.
-          </div>
-      </div>
+    </div>
+    <div id="abstract-crc" class="toggle-box">
+      <b>Introduzione</b> La possibilità di tornare al lavoro dopo una diagnosi di cancro è un aspetto chiave della sopravvivenza e della qualità della vita. Diversi studi hanno riportato un rischio significativo di perdita di reddito per i sopravvissuti al cancro; tuttavia, le evidenze relative al contesto italiano sono limitate. <br> <b>Metodi</b> È stato utilizzato il database Work Histories Italian Panel (WHIP)-Salute per selezionare una coorte di casi incidenti di cancro colorettale (CRC) tra i lavoratori del settore privato, basandosi sulle dimissioni ospedaliere. È stato utilizzato il propensity score matching per trovare un gruppo di controllo bilanciato rispetto a diversi confondenti. Sono state stimate regressioni OLS e logistiche per valutare l’effetto della diagnosi di CRC sul reddito annuo e sulla probabilità di passare da un contratto a tempo pieno a uno part-time nei tre anni successivi alla diagnosi. <br> <b>Risultati</b> Complessivamente, sono stati identificati 925 casi incidenti di CRC tra il 2006 e il 2012. I risultati confermano una riduzione statisticamente significativa del reddito dei sopravvissuti rispetto ai controlli. Questa riduzione è maggiore nel primo anno e tende poi a diminuire, con una perdita media di circa €12.000 nei tre anni. Le analisi stratificate per sesso e posizione lavorativa confermano il trend generale, evidenziando tuttavia una forte eterogeneità. Per quanto riguarda il passaggio da lavoro a tempo pieno a part-time, i risultati non sono mai significativi. <br> <b>Conclusione</b> La perdita di reddito non sembra essere legata a un aumento dei contratti part-time, ma piuttosto a una ridotta capacità lavorativa dei sopravvissuti a seguito dei trattamenti invasivi. Ulteriori ricerche sono necessarie per approfondire le dinamiche alla base di tale associazione.
+    </div>
   </div>
 
 </div>
-<!-- end -->
 
-<!-- Working Papers -->
-<!-- Section title toggle link with Font Awesome icons -->
+<!-- Sezione Articoli in Preparazione -->
 <div class="projects">
-  <a id="toggle-content-2" href="javascript:void(0);" onclick="toggleVisibility('content-2')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> bozze </h2>
+  <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
+      <span>articoli in preparazione</span>
+    </h2>
   </a>
 </div>
 
-<!-- Working Papers section show by default -->
-<div id="content-2" style="display: block;">
+<div id="content-2" class="toggle-section expanded">
 
-  <div style="margin: 0; padding: 0; position: relative;">
-      <!-- First row: open book icon and project title -->
-      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-          <i class="fa-solid fa-book-open" style="color: var(--global-theme-color);"></i>
+  <!-- Paper 1 -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-book-open fa-fw"></i>
+      <span>
+        <em>Crime Perception and Voting Behavior: Evidence from Individual Data</em> (con 
+        <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">
+          Giovanni Prarolo</a>)
+      </span>
+    </div>
+    <div class="pill-container">
+      <div class="pill-button toggle-pill" data-target="abstract-crime">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Abstract</span>
       </div>
-      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span><i>Crime Perception and Voting Behavior: Evidence from Individual Data</i>, insieme a <a href="https://sites.google.com/site/giovanniprarolo/"><i> Giovanni Prarolo </i></a></span>
+      <div class="pill-button toggle-pill" data-target="keywords-crime">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Parole chiave</span>
       </div>
-      <!-- Second row: abstract -->
-      <div style="margin-top: 0px; position: relative;">
-          <!-- Abstract toggle link with Font Awesome icons -->
-          <div style="display: inline-block; padding-left: 30px; font-size: 11pt;">
-            <a href="javascript:void(0);" id="toggle-abstract-2" onclick="toggleAbstract('abstract-2')">
-              <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Abstract</i>
-            </a>
-          </div>
-          <div id="abstract-2" style="display:inline-block; display:none; padding-left: 30px; line-height: 12pt; font-size: 10pt;">
-              Questo studio esamina l'impatto della rilevanza della criminalità sul comportamento di voto individuale, utilizzando le notizie geolocalizzate sulla criminalità come proxy per la preoccupazione pubblica riguardo alla criminalità nel periodo precedente alle elezioni. Basandosi su un sondaggio retrospettivo di 5000 individui geolocalizzati attraverso cinque elezioni—due nazionali e tre amministrative—l'analisi si concentra principalmente sulle elezioni nazionali, dove l'assenza di fattori confondenti locali rafforza la validità esterna. I risultati sono complessivamente contrastanti e non mostrano effetti significativi sul comportamento di voto quando i crimini sono commessi da italiani. Tuttavia, i crimini attribuiti a immigrati provocano una significativa risposta elettorale individuale. Gli elettori tendono a ritirare il loro supporto al Movimento 5 Stelle (M5S), noto per la sua posizione ambigua sull'immigrazione, e si orientano verso i partiti di destra, in particolare la coalizione di Centrodestra, che enfatizza la legge e l’ordine. La risposta ai crimini legati agli immigrati varia anche in base alle caratteristiche demografiche: gli elettori con alta istruzione e competenze abbandonano più frequentemente il M5S, mentre quelli con bassa istruzione e meno competenze tendono a lasciare la Lega di estrema destra. Nelle elezioni amministrative, l'effetto della rilevanza della criminalità differisce. I crimini commessi da italiani portano a una punizione del partito in carica, mentre i crimini legati agli immigrati aumentano l’astensione, riflettendo probabilmente i costi sociali associati al cambiamento di partito tra gli elettori di sinistra. Questi risultati forniscono nuovi spunti sul rapporto tra la rilevanza della criminalità, in particolare in riferimento all'immigrazione, e il comportamento di voto individuale.
-            <br>
-            <div class="b">
-              <b>Parole chiave:</b> criminalità, elezioni, partiti politici, giornali, comportamento di voto individuale, classificazione basata su dizionario
-            </div>
-          </div>
-      </div>
+    </div>
+    <div id="abstract-crime" class="toggle-box">
+      Questo studio analizza l’impatto della salienza del crimine locale sul comportamento di voto individuale, utilizzando le notizie geolocalizzate relative alla criminalità come proxy della preoccupazione pubblica per la sicurezza. Basandosi su un sondaggio retrospettivo condotto su 5000 individui in più tornate elettorali, l’analisi sfrutta il verificarsi di un evento criminale nelle vicinanze del votante nel periodo antecedente le elezioni. I risultati per le elezioni politiche generali sono nel complesso ambigui: non si osservano effetti significativi quando i crimini sono commessi da italiani. Al contrario, i crimini attribuiti a immigrati riducono il supporto verso i partiti populisti di destra, talvolta ambigui sul tema dell’immigrazione, e aumentano invece il sostegno verso i partiti di destra tradizionali, che enfatizzano l’ordine pubblico. Nelle elezioni amministrative, l’effetto della salienza del crimine è differente: i crimini commessi da italiani portano a una punizione degli incumbent, mentre quelli legati agli immigrati aumentano l’astensione, probabilmente riflettendo lo stigma sociale legato al cambio di partito tra gli elettori di sinistra, spesso coincidente con il partito di governo. Questi risultati offrono nuove evidenze sulla relazione tra criminalità, immigrazione e comportamento elettorale individuale.
+    </div>
+    <div id="keywords-crime" class="toggle-box">
+      crimine, elezioni, partiti politici, giornali, comportamento elettorale individuale, classificazione basata su dizionario
+    </div>
   </div>
 
-<br>
+  <!-- Paper 2 -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-book-open fa-fw" title="Working paper"></i>
+      <span>
+        <em>Corruption, temptation, and self-selection in the public sector</em>
+      </span>
+    </div>
+    <div class="pill-container">
+      <div class="pill-button toggle-pill" data-target="abstract-corruption">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Abstract</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="keywords-corruption">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Parole chiave</span>
+      </div>
+    </div>
+    <div id="abstract-corruption" class="toggle-box">
+      Questo articolo presenta un modello teorico che analizza l’impatto delle opportunità di corruzione sul processo di auto-selezione degli individui nel settore pubblico. Lo studio esplora come la tentazione di comportamenti corrotti influenzi le scelte di carriera. Il risultato principale evidenzia un duplice effetto delle opportunità di corruzione nel settore pubblico. Da un lato, tali opportunità attraggono individui meno ambiziosi e motivati, più inclini a comportamenti non etici. Dall’altro lato, quando la tentazione di corrompere è elevata, anche individui altamente motivati possono evitare il settore pubblico a causa di problemi di autocontrollo, preferendo invece il settore privato. Questi risultati mettono in luce l'importanza di considerare corruzione e autocontrollo nella qualità e composizione della forza lavoro pubblica, con implicazioni rilevanti per l’economia.
+    </div>
+    <div id="keywords-corruption" class="toggle-box">
+      settore pubblico, corruzione, auto-selezione, motivazione, etica
+    </div>
+  </div>
 
-  <div style="margin: 0; padding: 0; position: relative;">
-      <!-- First row: open book icon and project title -->
-      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-          <i class="fa-solid fa-book-open" style="color: var(--global-theme-color);"></i>
-      </div>
-      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span><i> Corruption, temptation, and self-selection in the public sector </i></span>
-      </div>
-      <!-- Second row: abstract -->
-      <div style="margin-top: 0px; position: relative;">
-          <!-- Abstract toggle link with Font Awesome icons -->
-          <div style="display: inline-block; padding-left: 30px; font-size: 11pt;">
-            <a href="javascript:void(0);" id="toggle-abstract-3" onclick="toggleAbstract('abstract-3')">
-              <i class="fa-solid fa-chevron-right fa-2xs"></i> <i>Abstract</i>
-            </a>
-          </div>
-          <div id="abstract-3" style="display:inline-block; display:none; padding-left: 30px; line-height: 12pt; font-size: 10pt;">
-             Questo articolo presenta un modello teorico che esamina l'impatto delle opportunità di corruzione sul processo di auto-selezione degli individui nel settore pubblico. Lo studio esplora come la tentazione di impegnarsi nella corruzione influenzi le scelte professionali degli individui. Il principale risultato della ricerca evidenzia un effetto duale delle opportunità di corruzione nel settore pubblico. Da un lato, tali opportunità attraggono individui con minore ambizione e motivazione, che sono più propensi a impegnarsi in comportamenti non etici. Dall'altro lato, quando la tentazione di partecipare alla corruzione diventa significativa, gli individui altamente motivati potrebbero essere dissuasi dal perseguire una carriera nel settore pubblico a causa di problemi di autocontrollo, optando invece per un impiego nel settore privato. Questo risultato sottolinea l'importanza di considerare l'impatto della corruzione e dei problemi di autocontrollo sulla qualità e composizione della forza lavoro del settore pubblico, che può avere implicazioni più ampie per i risultati economici.
-              <br>
-              <div class="b">
-                <b>Parole chiave:</b> auto-selezione, corruzione, tentazione, autocontrollo.
-              </div>
-          </div>
-        </div>
-      </div>
-  
 </div>
-<!-- end -->
 
-<!-- Work in Progress -->
-<!-- Section title toggle link with Font Awesome icons -->
+<!-- Sezione Studi in Corso -->
 <div class="projects">
-  <a id="toggle-content-1" href="javascript:void(0);" onclick="toggleVisibility('content-1')">
-    <h2 class="category"><i class="fa-solid fa-chevron-down fa-2xs"></i> ricerche in corso </h2>
+  <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-3"></i>
+      <span>studi in corso</span>
+    </h2>
   </a>
 </div>
 
-<!-- Working Papers section show by default -->
-<div id="content-1" style="display: block;">
+<div id="content-3" class="toggle-section expanded">
 
-  <div style="margin: 0; padding: 0; position: relative;">
-      <!-- First row: bookmark icon and project title -->
-      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-          <i class="fa-solid fa-bookmark" style="color: var(--global-theme-color);"></i>
-      </div>
-      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span><i> Public Goods Provision and Voting Turnout </i>, insieme a <a href="https://sites.google.com/view/mgeiras/inicio"><i> Martín Gonzalez-Eiras </i></a> e <a href="https://sites.google.com/site/giovanniprarolo/"><i> Giovanni Prarolo </i></a></span>
-      </div>
+  <!-- Paper 1 -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-bookmark fa-fw"></i>
+      <span>
+        <em>Public Goods Provision and Voting Turnout</em> (con 
+        <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a> e 
+        <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>)
+      </span>
+    </div>
   </div>
 
-  <br>
-
-  <div style="margin: 0; padding: 0; position: relative;">
-      <!-- First row: bookmark icon and project title -->
-      <div style="display: inline-block; width: 25px; text-align: center; position: absolute; top: 0;">
-          <i class="fa-solid fa-bookmark" style="color: var(--global-theme-color);"></i>
-      </div>
-      <div style="display: inline-block; padding-left: 30px; line-height: 16pt;">
-          <span><i> The Effect of Erasmus Programs on Voting </i></span>
-      </div>
+  <!-- Paper 2 -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-bookmark fa-fw" title="In progress"></i>
+      <span><em>The Effect of Erasmus Programs on Voting</em></span>
+    </div>
   </div>
 
 </div>
-<!-- end -->
-
-<!-- Inline script -->
-<script>
-  // Toggle the visibility of the abstract and switch the icon
-  function toggleAbstract(id) {
-    var abstract = document.getElementById(id);
-    var toggleButton = document.getElementById('toggle-' + id).querySelector('i');
-
-    if (abstract.style.display === "none" || abstract.style.display === "") {
-      abstract.style.display = "block";
-      toggleButton.className = "fa-solid fa-chevron-down fa-2xs"; // Change to down icon
-    } else {
-      abstract.style.display = "none";
-      toggleButton.className = "fa-solid fa-chevron-right fa-2xs"; // Change to right icon
-    }
-  }
-  // Toggle the visibility of the sections
-  function toggleVisibility(id) {
-    var content = document.getElementById(id);
-    var toggleButton = document.getElementById('toggle-' + id).querySelector('i');
-    
-    if (content.style.display === "none") {
-      content.style.display = "block";
-      toggleButton.className = "fa-solid fa-chevron-down fa-2xs"; // Change to down icon
-    } else {
-      content.style.display = "none";
-      toggleButton.className = "fa-solid fa-chevron-right fa-2xs"; // Change to right icon
-    }
-  }
-</script>
-
-<style>
-  div.b {
-    margin-top: 5px;
-  }
-</style>
