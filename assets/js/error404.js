@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
              : "en";
 
   // 3. Prendi il messaggio localizzato (fallback su EN se manca)
-  const raw = texts.message?.[lang] || texts.message?.en || "";
+  const raw = (texts.message && texts.message[lang]) || (texts.message && texts.message.en) || "";
 
   // 4. Converte link markdown in <a> e splitta in righe
   const lines = raw
