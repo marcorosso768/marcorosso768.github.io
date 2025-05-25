@@ -28,7 +28,7 @@ pagination:
 
   <div class="header-bar">
     <h1>{{ page.blog_name }}</h1>
-    <h2 style="color: var(--global-theme-color); margin-top: -5px; font-size: .9rem; font-weight: normal;"><div class="blog-links">
+    <h2 style="color: var(--global-theme-color); margin-top: -5px; font-size: .9rem; font-weight: normal;">
          <div class="blog-links">
             <a href="https://marcorosso.com/it/blog/">italiano</a>
           <span class="separator">|</span>
