@@ -1,4 +1,6 @@
-<div class="indented"> <p> <span style="font-size: 20pt; color: var(--global-theme-color);"> Paolo Vanin </span> <br> <span style="font-size: 12pt; color: var(--global-theme-color);"> <i>Ph.D. Supervisor</i> </span> </p> </div>
+<span class="indented" style="font-size: 20pt; color: var(--global-theme-color); display: block;"> Paolo Vanin </span>
+<br>
+<span class="indented" style="font-size: 12pt; color: var(--global-theme-color); display: block;"> <i>Ph.D. Supervisor</i> </span>
 
 <span class="indented" style="font-size: 15pt; display: block;"> Full Professor </span>
 <span class="indented" style="display: block;"> University of Bologna </span>
