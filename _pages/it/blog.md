@@ -4,7 +4,8 @@ layout: default
 lang: it
 permalink: /blog/
 title: blog
-subtitle: >
+blog_name: blog
+description: >
     <p style="color: var(--global-theme-color); margin-top: -5px; font-weight: normal;"><a href="#" onclick="window.location.href='https://marcorosso.com/blog/'; return false;">English</a>&nbsp;|&nbsp;<a href='https://marcorosso.com/es/blog/'>español</a></p>
 nav: false
 nav_order:
@@ -22,14 +23,14 @@ pagination:
 
 <div class="post">
 
-{% assign blog_name_size = page.title | size %}
-{% assign blog_subtitle_size = page.subtitle | size %}
+{% assign blog_name_size = page.blog_name | size %}
+{% assign blog_description_size = page.description | size %}
 
-{% if blog_name_size > 0 or blog_subtitle_size > 0 %}
+{% if blog_name_size > 0 or blog_description_size > 0 %}
 
   <div class="header-bar">
-    <h1>{{ page.title }}</h1>
-    <h2>{{ page.subtitle }}</h2>
+    <h1>{{ page.blog_name }}</h1>
+    <h2>{{ page.description }}</h2>
   </div>
   {% endif %}
 
