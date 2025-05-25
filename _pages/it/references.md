@@ -5,7 +5,9 @@ permalink: /referenze/
 title: referenze
 subtitle: >
     <div class="lang-links">
-        <a href="#" onclick="window.location.href='https://marcorosso.com/references/'; return false;">references</a>&nbsp;|&nbsp;<a href="/es/referencias/" hreflang="es">referencias</a>
+        <a href="#" onclick="window.location.href='https://marcorosso.com/references/'; return false;">references</a>
+        <span class="separator">|</span>
+        <a href="/es/referencias/" hreflang="es">referencias</a>
     </div>
 description:
 nav: false
