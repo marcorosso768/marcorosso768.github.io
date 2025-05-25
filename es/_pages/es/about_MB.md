@@ -1,8 +1,12 @@
-<div class="indented"> <p> <span style="font-size: 20pt; color: var(--global-theme-color);"> Maria Bigoni </span> </p> </div>
+<span class="indented" style="font-size: 20pt; color: var(--global-theme-color); display: block; line-height: 1; margin-bottom: 10pt;"> Maria Bigoni </span>
 
-<span class="indented" style="font-size: 15pt; display: inline-block;"> Profesora Titular </span> <br> <span class="indented"> University of Bologna </span> <br> <span class="indented" style="display: inline-block;"> Departamento de Economía </span> <br> <span class="indented" style="font-size: 10pt; display: inline-block;"> Disciplina Académica: ECON-01/A Economía </span> <br> <span class="indented" style="font-size: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bolonia, Italia</span>
+<span class="indented" style="font-size: 15pt; display: block; line-height: 1; margin-bottom: 4pt;"> Profesora Titular </span>
+<span class="indented" style="display: block; line-height: 1; margin-bottom: 4pt;"> University of Bologna </span> 
+<span class="indented" style="display: block; line-height: 1; margin-bottom: 6pt;"> Departamento de Economía </span>
+<span class="indented" style="font-size: 10pt; display: block; ; line-height: 1; margin-bottom: 10pt;"> Disciplina Académica: ECON-01/A Economía </span>
+<span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 4pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bolonia, Italia</span>
 
-<p class="indented" style="font-size: 10pt;"> Áreas de Investigación: <i> Economía Experimental, aplicada al estudio de la Cooperación en Dilemas Sociales Repetidos, Organización Industrial y Aprendizaje </i></p>
+<span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 4pt;"> Áreas de Investigación: <i> Economía Experimental, aplicada al estudio de la Cooperación en Dilemas Sociales Repetidos, Organización Industrial y Aprendizaje </i></p>
 
 <div class="icon-link indented">
   <i class="fa-solid fa-envelope fa-fw"></i>
