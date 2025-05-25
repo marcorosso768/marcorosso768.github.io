@@ -1,6 +1,11 @@
-<div class="indented"> <p> <span style="font-size: 20pt; color: var(--global-theme-color);"> Maria Bigoni </span> </p> </div>
-
-<span class="indented" style="font-size: 15pt; display: inline-block;"> Professoressa Ordinaria </span> <br> <span class="indented"> Università di Bologna </span> <br> <span class="indented" style="display: inline-block;"> Dipartimento di Scienze Economiche </span> <br> <span class="indented" style="font-size: 10pt; display: inline-block;"> Settore Scientifico Disciplinare: ECON-01/A Economia Politica </span> <br> <span class="indented" style="font-size: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italia</span>
+<span class="indented" style="font-size: 20pt; color: var(--global-theme-color); display: block;"> Maria Bigoni </span>
+  
+<span class="indented" style="font-size: 15pt; display: block;"> Professoressa Ordinaria </span>
+<span class="indented" style="display: block;"> Università di Bologna </span>
+<span class="indented" style="display: block;"> Dipartimento di Scienze Economiche </span>
+<span class="indented" style="font-size: 10pt; display: block;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italia</span>
+<br>
+<span class="indented" style="font-size: 10pt; display: block;"> Settore Scientifico Disciplinare: ECON-01/A Economia Politica </span>
 
 <p class="indented" style="font-size: 10pt;"> Interessi di Ricerca: <i> Economia Sperimentale, applicata allo studio della Cooperazione nei Dilemmi Sociali Ripetuti, Organizzazione Industriale e Apprendimento</i></p>
 
