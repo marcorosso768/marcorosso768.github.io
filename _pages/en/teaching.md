@@ -6,7 +6,9 @@ title: teaching
 description:
 subtitle: >
     <div class="lang-links">
-        <a href="/it/insegnamento/" hreflang="it">insegnamento</a>&nbsp;|&nbsp;<a href="/es/docencia/" hreflang="es">docencia</a>
+        <a href="/it/insegnamento/" hreflang="it">insegnamento</a>
+        <span class="separator">|</span>
+        <a href="/es/docencia/" hreflang="es">docencia</a>
     </div>
 nav: true
 nav_order: 3
