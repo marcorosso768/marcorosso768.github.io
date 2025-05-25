@@ -4,6 +4,7 @@
 <span class="indented" style="display: block;"> University of Bologna </span>
 <span class="indented" style="display: block;"> Department of Economics </span>
 <span class="indented" style="font-size: 10pt; display: block;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italy</span>
+<br>
 <span class="indented" style="font-size: 10pt; display: block;"> Academic Discipline: ECON-02/A Economic Policy </span>
 
 <p class="indented" style="font-size: 10pt;"> Research Interests: <i> Question-, Data-, and Tool-Driven, erratic around the themes of Political Economics, Long-Term Development, the Role of Trade, and Cultural Diversity </i></p>
