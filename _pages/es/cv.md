@@ -5,7 +5,9 @@ permalink: /curriculum_vitae/
 title: curriculum vitae
 subtitle: >
     <div class="lang-links">
-        <a href="#" onclick="window.location.href='https://marcorosso.com/curriculum_vitae/'; return false;">English</a>&nbsp;|&nbsp;<a href="/it/curriculum_vitae/" hreflang="it">italiano</a>
+        <a href="#" onclick="window.location.href='https://marcorosso.com/curriculum_vitae/'; return false;">English</a>
+        <span class="separator">|</span>
+        <a href="/it/curriculum_vitae/" hreflang="it">italiano</a>
     </div>
 nav: true
 nav_order: 4
