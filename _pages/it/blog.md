@@ -5,8 +5,7 @@ lang: it
 permalink: /blog/
 title: blog
 blog_name: blog
-description: >
-    <p style="color: var(--global-theme-color); margin-top: -5px; font-weight: normal;"><a href="#"        onclick="window.location.href='https://marcorosso.com/blog/'; return false;">English</a>&nbsp;|&nbsp;<a href='https://marcorosso.com/es/blog/'>español</a></p>
+description:
 nav: false
 nav_order:
 pagination:
@@ -30,7 +29,7 @@ pagination:
 
   <div class="header-bar">
     <h1>{{ page.blog_name }}</h1>
-    <h2>{{ page.description | raw }}</h2>
+    <h2 style="color: var(--global-theme-color); margin-top: -5px; font-weight: normal; text-align: center;"><a href="#" onclick="window.location.href='https://marcorosso.com/blog/'; return false;">English</a>&nbsp;|&nbsp;<a href="https://marcorosso.com/es/blog/">español</a></h2>
   </div>
   {% endif %}
 
