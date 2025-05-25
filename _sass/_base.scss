@@ -172,8 +172,10 @@ ul.task-list input[type="checkbox"] {
 // Card
 
 .card {
-  background-color: var(--global-theme-color); //default var(--global-card-bg-color)
-  border-color: var(--global-theme-color);
+  background-color: var(--global-card-bg-color); 
+  border-color: 1px solid var(--global-theme-color);
+  // background-color: var(--global-card-bg-color)
+  // border-color: var(--global-theme-color);
   
   .card-img {
     width: 100%;
