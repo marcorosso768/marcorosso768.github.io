@@ -1,14 +1,14 @@
-<span class="indented" style="font-size: 20pt; color: var(--global-theme-color); display: block; line-height: 0.8;"> Paolo Vanin </span>
-<span class="indented" style="font-size: 12pt; color: var(--global-theme-color); display: block; line-height: 0.8;"> <i>Supervisor del Dottorato</i> </span>
+<span class="indented" style="font-size: 20pt; color: var(--global-theme-color); display: block; line-height: 1;"> Paolo Vanin </span>
+<span class="indented" style="font-size: 12pt; color: var(--global-theme-color); display: block; line-height: 1;"> <i>Supervisor del Dottorato</i> </span>
 
-<span class="indented" style="font-size: 15pt; display: block; line-height: 0.8;"> Professore Ordinario </span>
-<span class="indented" style="display: block; line-height: 0.8;"> Università di Bologna </span>
-<span class="indented" style="display: block; line-height: 0.8;"> Dipartimento di Scienze Economiche </span>
-<span class="indented" style="font-size: 10pt; display: block; ; line-height: 0.8;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italia</span>
+<span class="indented" style="font-size: 15pt; display: block; line-height: 1;"> Professore Ordinario </span>
+<span class="indented" style="display: block; line-height: 1;"> Università di Bologna </span>
+<span class="indented" style="display: block; line-height: 1;"> Dipartimento di Scienze Economiche </span>
+<span class="indented" style="font-size: 10pt; display: block; ; line-height: 1;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italia</span>
 <br>
-<span class="indented" style="font-size: 10pt; display: block; line-height: 0.8;"> Settore Scientifico Disciplinare: ECON-01/A Economia Politica </span>
+<span class="indented" style="font-size: 10pt; display: block; line-height: 1;"> Settore Scientifico Disciplinare: ECON-01/A Economia Politica </span>
 
-<span class="indented" style="font-size: 10pt; display: block; line-height: 0.8;"> Interessi di Ricerca: <i> teoria e evidenze empiriche dello Sviluppo a Lungo Periodo, Economia Politica, Economia Sociale, Economia della Criminalità e Teoria Microeconomica </i></span>
+<span class="indented" style="font-size: 10pt; display: block; line-height: 1;"> Interessi di Ricerca: <i> teoria e evidenze empiriche dello Sviluppo a Lungo Periodo, Economia Politica, Economia Sociale, Economia della Criminalità e Teoria Microeconomica </i></span>
 
 <div class="icon-link indented">
   <i class="fa-solid fa-envelope fa-fw"></i>
