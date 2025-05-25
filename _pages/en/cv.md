@@ -5,7 +5,9 @@ permalink: /curriculum_vitae/
 title: curriculum vitae
 subtitle: >
     <div class="lang-links">
-        <a href="/it/curriculum_vitae/" hreflang="it">italiano</a>&nbsp;|&nbsp;<a href="/es/curriculum_vitae/" hreflang="es">español</a>
+        <a href="/it/curriculum_vitae/" hreflang="it">italiano</a>
+        <span class="separator">|</span>
+        <a href="/es/curriculum_vitae/" hreflang="es">español</a>
     </div>
 nav: true
 nav_order: 4
