@@ -6,13 +6,11 @@ lang: it
 title: contatti
 description:
 subtitle: >
-    <h2 style="color: var(--global-theme-color); margin-top: -5px; font-size: .9rem; font-weight: normal;">
-         <div class="blog-links">
+         <div class="lang-links">
             <a href="#" onclick="window.location.href='https://marcorosso.com/contacts/'; return false;">contacts</a>
             <span class="separator">|</span>
             <a href="/es/contactos/" hreflang="es">contactos</a>
         </div>
-    </h2>
 ---
 
 <!-- E-mail Section -->
