@@ -1,15 +1,14 @@
 <span class="indented" style="font-size: 20pt; color: var(--global-theme-color); display: block;"> Giovanni Prarolo </span>
-<br>
 <span class="indented" style="font-size: 12pt; color: var(--global-theme-color); display: block;"> <i>Research Fellowship Supervisor</i> </span>
 
 <span class="indented" style="font-size: 15pt; display: block;"> Full Professor </span>
 <span class="indented" style="display: block;"> University of Bologna </span>
 <span class="indented" style="display: block;"> Department of Economics </span>
-<span class="indented" style="font-size: 10pt; display: block;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italy</span>
+<span class="indented" style="font-size: 10pt; display: block; line-height: 12pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italy</span>
 <br>
 <span class="indented" style="font-size: 10pt; display: block;"> Academic Discipline: ECON-02/A Economic Policy </span>
 
-<p class="indented" style="font-size: 10pt;"> Research Interests: <i> Question-, Data-, and Tool-Driven, erratic around the themes of Political Economics, Long-Term Development, the Role of Trade, and Cultural Diversity </i></p>
+<span class="indented" style="font-size: 10pt; display: block;"> Research Interests: <i> Question-, Data-, and Tool-Driven, erratic around the themes of Political Economics, Long-Term Development, the Role of Trade, and Cultural Diversity </i></span>
 
 <div class="icon-link indented">
   <i class="fa-solid fa-envelope fa-fw"></i>
