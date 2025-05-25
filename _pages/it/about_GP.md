@@ -1,5 +1,4 @@
 <span class="indented" style="font-size: 20pt; color: var(--global-theme-color); display: block;"> Giovanni Prarolo </span>
-<br>
 <span class="indented" style="font-size: 12pt; color: var(--global-theme-color); display: block;"> <i>Supervisor dell'Assegno di Ricerca</i> </span>
   
 <span class="indented" style="font-size: 15pt; display: block;"> Professore Ordinario </span>
