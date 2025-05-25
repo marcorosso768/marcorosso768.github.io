@@ -7,7 +7,7 @@ nav_order: 5
 dropdown: true
 children:
   - title: novità
-    permalink: /novita/
+    permalink: /novità/
   - title: blog
     permalink: /blog/
   - title: referenze
