@@ -6,11 +6,11 @@ lang: it
 title: contatti
 description:
 subtitle: >
-         <div class="lang-links">
-            <a href="#" onclick="window.location.href='https://marcorosso.com/contacts/'; return false;">contacts</a>
-            <span class="separator">|</span>
-            <a href="/es/contactos/" hreflang="es">contactos</a>
-        </div>
+    <div class="lang-links">
+        <a href="#" onclick="window.location.href='https://marcorosso.com/contacts/'; return false;">contacts</a>
+        <span class="separator">|</span>
+        <a href="/es/contactos/" hreflang="es">contactos</a>
+    </div>
 ---
 
 <!-- E-mail Section -->
