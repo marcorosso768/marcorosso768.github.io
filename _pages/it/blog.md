@@ -29,7 +29,7 @@ pagination:
 
   <div class="header-bar">
     <h1>{{ page.blog_name }}</h1>
-    <h2 style="color: var(--global-theme-color); margin-top: -5px;"><a href="#" onclick="window.location.href='https://marcorosso.com/blog/'; return false;">English</a>&nbsp;|&nbsp;<a href="https://marcorosso.com/es/blog/">español</a></h2>
+    <h2 style="color: var(--global-theme-color); margin-top: -5px; font-size: .9rem; font-weight: normal;"><a href="#" onclick="window.location.href='https://marcorosso.com/blog/'; return false;">English</a>&nbsp;|&nbsp;<a href="https://marcorosso.com/es/blog/">español</a></h2>
   </div>
   {% endif %}
 
