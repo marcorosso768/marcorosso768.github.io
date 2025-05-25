@@ -4,7 +4,7 @@
 <span class="indented" style="font-size: 15pt; display: block; line-height: 1; margin-bottom: 4pt;"> Full Professor </span>
 <span class="indented" style="display: block; line-height: 1; margin-bottom: 4pt;"> University of Bologna </span>
 <span class="indented" style="display: block; line-height: 1; margin-bottom: 6pt;"> Department of Economics </span>
-<span class="indented" style="font-size: 10pt; display: block; ; line-height: 1; margin-bottom: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italy</span>
+<span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italy</span>
 <span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 4pt;"> Academic Discipline: ECON-02/A Economic Policy </span>
 
 <span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 4pt;"> Research Interests: <i> Question-, Data-, and Tool-Driven, erratic around the themes of Political Economics, Long-Term Development, the Role of Trade, and Cultural Diversity </i></span>
