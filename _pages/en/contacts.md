@@ -7,7 +7,9 @@ title: contacts
 description:
 subtitle: >
     <div class="lang-links">
-        <a href="/it/contatti/" hreflang="it">contatti</a>&nbsp;|&nbsp;<a href="/es/contactos/" hreflang="es">contactos</a>
+        <a href="/it/contatti/" hreflang="it">contatti</a>
+        <span class="separator">|</span>
+        <a href="/es/contactos/" hreflang="es">contactos</a>
     </div>
 ---
 
