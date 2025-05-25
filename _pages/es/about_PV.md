@@ -4,7 +4,7 @@
 <span class="indented" style="font-size: 15pt; display: block; line-height: 1; margin-bottom: 4pt;"> Profesor Titular </span>
 <span class="indented" style="display: block; line-height: 1; margin-bottom: 4pt;"> University of Bologna </span>
 <span class="indented" style="display: block; line-height: 1; margin-bottom: 6pt;"> Departamento de Economía </span>
-<span class="indented" style="font-size: 10pt; display: block; ; line-height: 1; margin-bottom: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bolonia, Italia</span>
+<span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bolonia, Italia</span>
 <span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 4pt;"> Disciplina Académica: ECON-01/A Economía </span>
 
 <span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 4pt;"> Áreas de Investigación: <i> Teoría y Empírica del Desarrollo a Largo Plazo, Economía Política, Economía Social, Economía del Crimen y Teoría Microeconómica </i></span>
