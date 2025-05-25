@@ -22,10 +22,16 @@ pagination:
 
 <div class="post">
 
+{% assign blog_name_size = page.title | size %}
+{% assign blog_subtitle_size = page.subtitle | size %}
+
+{% if blog_name_size > 0 or blog_subtitle_size > 0 %}
+
   <div class="header-bar">
     <h1>{{ page.title }}</h1>
     <h2>{{ page.subtitle }}</h2>
   </div>
+  {% endif %}
 
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
