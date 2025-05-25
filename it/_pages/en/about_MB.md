@@ -1,4 +1,4 @@
-<div class="indented"> <p> <span style="font-size: 20pt; color: var(--global-theme-color);"> Maria Bigoni </span> </p> </div>
+<span class="indented" style="font-size: 20pt; color: var(--global-theme-color); display: block;"> Maria Bigoni </span>
 
 <span class="indented" style="font-size: 15pt; display: block;"> Full Professor </span>
 <span class="indented" style="display: block;"> University of Bologna </span>
