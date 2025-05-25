@@ -4,7 +4,6 @@
 <span class="indented" style="display: block;"> University of Bologna </span>
 <span class="indented" style="display: block;"> Department of Economics </span>
 <span class="indented" style="font-size: 10pt; display: block;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italy</span>
-<br>
 <span class="indented" style="font-size: 10pt; display: block;"> Academic Discipline: ECON-01/A Economics </span>
 
 <p class="indented" style="font-size: 10pt;"> Research Interests: <i> Experimental Economics, applied to the study of Cooperation in Repeated Social Dilemmas, Industrial Organization, and Learning </i></p>
