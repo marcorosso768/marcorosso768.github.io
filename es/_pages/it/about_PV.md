@@ -4,7 +4,7 @@
 <span class="indented" style="font-size: 15pt; display: block; line-height: 1; margin-bottom: 4pt;"> Professore Ordinario </span>
 <span class="indented" style="display: block; line-height: 1; margin-bottom: 4pt;"> Università di Bologna </span>
 <span class="indented" style="display: block; line-height: 1; margin-bottom: 6pt;"> Dipartimento di Scienze Economiche </span>
-<span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italia</span>
+<span class="indented" style="font-size: 10pt; display: block; ; line-height: 1; margin-bottom: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italia</span>
 <span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 4pt;"> Settore Scientifico Disciplinare: ECON-01/A Economia Politica </span>
 
 <span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 4pt;"> Interessi di Ricerca: <i> teoria e evidenze empiriche dello Sviluppo a Lungo Periodo, Economia Politica, Economia Sociale, Economia della Criminalità e Teoria Microeconomica </i></span>
