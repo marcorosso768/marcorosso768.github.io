@@ -5,7 +5,9 @@ permalink: /conferencias/
 title: conferencias
 subtitle: >
     <div class="lang-links">
-           <a href="#" onclick="window.location.href='https://marcorosso.com/talks/'; return false;">talks</a>&nbsp;|&nbsp;<a href="/it/conferenze/" hreflang="it">conferenze</a>
+           <a href="#" onclick="window.location.href='https://marcorosso.com/talks/'; return false;">talks</a>
+           <span class="separator">|</span>
+           <a href="/it/conferenze/" hreflang="it">conferenze</a>
     </div>
 description:
 nav: true

@@ -6,7 +6,9 @@ title: ricerca
 description:
 subtitle: >
     <div class="lang-links">
-        <a href="#" onclick="window.location.href='https://marcorosso.com/research/'; return false;">research</a>&nbsp;|&nbsp;<a href="/es/investigación/" hreflang="es">investigación</a>
+        <a href="#" onclick="window.location.href='https://marcorosso.com/research/'; return false;">research</a>
+        <span class="separator">|</span>
+        <a href="/es/investigación/" hreflang="es">investigación</a>
     </div>
 nav: true
 nav_order: 1

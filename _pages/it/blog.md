@@ -1,10 +1,11 @@
 ---
 page_id: blog
 layout: default
+lang: it
 permalink: /blog/
 title: blog
-subtitle: >
-    <p style="color: var(--global-theme-color); margin-top: -5px; font-weight: normal;"><a href="#" onclick="window.location.href='https://marcorosso.com/blog/'; return false;">English</a>&nbsp;|&nbsp;<a href='https://marcorosso.com/es/blog/'>español</a></p>
+blog_name: blog
+description:
 nav: false
 nav_order:
 pagination:
@@ -28,7 +29,13 @@ pagination:
 
   <div class="header-bar">
     <h1>{{ page.blog_name }}</h1>
-    <h2>{{ page.description }}</h2>
+    <h2 style="color: var(--global-theme-color); margin-top: -5px; font-size: .9rem; font-weight: normal;">
+         <div class="blog-links">
+            <a href="#" onclick="window.location.href='https://marcorosso.com/blog/'; return false;">English</a>
+            <span class="separator">|</span>
+            <a href="https://marcorosso.com/es/blog/">español</a>
+        </div>
+      </h2>
   </div>
   {% endif %}
 

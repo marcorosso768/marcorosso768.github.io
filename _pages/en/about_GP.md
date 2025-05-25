@@ -1,8 +1,13 @@
-<div class="indented" style="display: inline-block;"> <p> <span style="font-size: 20pt; color: var(--global-theme-color);"> Giovanni Prarolo </span> <br> <span style="font-size: 12pt; color: var(--global-theme-color);"> <i>Research Fellowship Supervisor</i> </span> </p> </div>
+<span class="indented" style="font-size: 20pt; color: var(--global-theme-color); display: block; line-height: 1; margin-bottom: 4pt;"> Giovanni Prarolo </span>
+<span class="indented" style="font-size: 12pt; color: var(--global-theme-color); display: block; line-height: 1; margin-bottom: 10pt;"> <i>Research Fellowship Supervisor</i> </span>
 
-<span class="indented" style="font-size: 15pt;"> Full Professor </span> <br> <span class="indented"> University of Bologna </span> <br> <span class="indented"> Department of Economics </span> <br> <span class="indented" style="font-size: 10pt; display: inline-block;"> Academic Discipline: ECON-02/A Economic Policy </span> <br> <span class="indented" style="font-size: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italy</span>
+<span class="indented" style="font-size: 15pt; display: block; line-height: 1; margin-bottom: 4pt;"> Full Professor </span>
+<span class="indented" style="display: block; line-height: 1; margin-bottom: 4pt;"> University of Bologna </span>
+<span class="indented" style="display: block; line-height: 1; margin-bottom: 6pt;"> Department of Economics </span>
+<span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italy</span>
+<span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 4pt;"> Academic Discipline: ECON-02/A Economic Policy </span>
 
-<p class="indented" style="font-size: 10pt;"> Research Interests: <i> Question-, Data-, and Tool-Driven, erratic around the themes of Political Economics, Long-Term Development, the Role of Trade, and Cultural Diversity </i></p>
+<span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 4pt;"> Research Interests: <i> Question-, Data-, and Tool-Driven, erratic around the themes of Political Economics, Long-Term Development, the Role of Trade, and Cultural Diversity </i></span>
 
 <div class="icon-link indented">
   <i class="fa-solid fa-envelope fa-fw"></i>

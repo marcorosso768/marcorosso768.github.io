@@ -6,7 +6,9 @@ title: insegnamento
 description:
 subtitle: >
     <div class="lang-links">
-        <a href="#" onclick="window.location.href='https://marcorosso.com/teaching/'; return false;">teaching</a>&nbsp;|&nbsp;<a href="/es/docencia/" hreflang="es">docencia</a>
+        <a href="#" onclick="window.location.href='https://marcorosso.com/teaching/'; return false;">teaching</a>
+        <span class="separator">|</span>
+        <a href="/es/docencia/" hreflang="es">docencia</a>
     </div>
 nav: true
 nav_order: 3

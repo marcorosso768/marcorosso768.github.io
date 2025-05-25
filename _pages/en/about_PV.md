@@ -1,8 +1,13 @@
-<div class="indented" style="display: inline-block;"> <p> <span style="font-size: 20pt; color: var(--global-theme-color);"> Paolo Vanin </span> <br> <span style="font-size: 12pt; color: var(--global-theme-color);"> <i>Ph.D. Supervisor</i> </span> </p> </div>
+<span class="indented" style="font-size: 20pt; color: var(--global-theme-color); display: block; line-height: 1; margin-bottom: 4pt;"> Paolo Vanin </span>
+<span class="indented" style="font-size: 12pt; color: var(--global-theme-color); display: block; line-height: 1; margin-bottom: 10pt;"> <i>Ph.D. Supervisor</i> </span>
 
-<span class="indented" style="font-size: 15pt;"> Full Professor </span> <br> <span class="indented"> University of Bologna </span> <br> <span class="indented"> Department of Economics </span> <br> <span class="indented" style="font-size: 10pt; display: inline-block;"> Academic Discipline: ECON-01/A Economics </span> <br> <span class="indented" style="font-size: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italy</span>
+<span class="indented" style="font-size: 15pt; display: block; line-height: 1; margin-bottom: 4pt;"> Full Professor </span>
+<span class="indented" style="display: block; line-height: 1; margin-bottom: 4pt;"> University of Bologna </span>
+<span class="indented" style="display: block; line-height: 1; margin-bottom: 6pt;"> Department of Economics </span>
+<span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italy</span>
+<span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 4pt;"> Academic Discipline: ECON-01/A Economics </span>
 
-<p class="indented" style="font-size: 10pt;"> Research Interests: <i> Theory and Empirics of Long-Term Development, Political Economics, Social Economics, Crime Economics, and Microeconomic Theory </i></p>
+<span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 4pt;"> Research Interests: <i> Theory and Empirics of Long-Term Development, Political Economics, Social Economics, Crime Economics, and Microeconomic Theory </i></span>
 
 <div class="icon-link indented">
   <i class="fa-solid fa-envelope fa-fw"></i>

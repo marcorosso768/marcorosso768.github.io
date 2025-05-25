@@ -5,7 +5,9 @@ permalink: /talks/
 title: talks
 subtitle: >
     <div class="lang-links">
-        <a href="/it/conferenze/" hreflang="it">conferenze</a>&nbsp;|&nbsp;<a href="/es/conferencias/" hreflang="es">conferencias</a>
+        <a href="/it/conferenze/" hreflang="it">conferenze</a>
+        <span class="separator">|</span>
+        <a href="/es/conferencias/" hreflang="es">conferencias</a>
     </div>
 description:
 nav: true
