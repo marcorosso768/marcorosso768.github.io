@@ -1,7 +1,7 @@
 <span class="indented" style="font-size: 20pt; color: var(--global-theme-color); display: block; line-height: 1; margin-bottom: 10pt;"> Maria Bigoni </span>
 
 <span class="indented" style="font-size: 15pt; display: block; line-height: 1; margin-bottom: 4pt;"> Full Professor </span>
-<span class="indented" style="display: block; line-height: 1; margin-bottom: 4pt;">> University of Bologna </span>
+<span class="indented" style="display: block; line-height: 1; margin-bottom: 4pt;"> University of Bologna </span>
 <span class="indented" style="display: block; line-height: 1; margin-bottom: 6pt;"> Department of Economics </span>
 <span class="indented" style="font-size: 10pt; display: block; ; line-height: 1; margin-bottom: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italy</span>
 
