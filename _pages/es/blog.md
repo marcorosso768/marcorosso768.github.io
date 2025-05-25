@@ -28,7 +28,13 @@ pagination:
 
   <div class="header-bar">
     <h1>{{ page.blog_name }}</h1>
-    <h2 style="color: var(--global-theme-color); margin-top: -5px; font-size: .9rem; font-weight: normal;"><a href="#" onclick="window.location.href='https://marcorosso.com/blog/'; return false;">English</a>&nbsp;|&nbsp;<a href='https://marcorosso.com/it/blog/'>italiano</a></h2>
+      <h2 style="color: var(--global-theme-color); margin-top: -5px; font-size: .9rem; font-weight: normal;">
+         <div class="blog-links">
+            <a href="#" onclick="window.location.href='https://marcorosso.com/blog/'; return false;">English</a>
+            <span class="separator">|</span>
+            <a href='https://marcorosso.com/it/blog/'>italiano</a>
+        </div>
+      </h2>
   </div>
   {% endif %}
 
