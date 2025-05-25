@@ -1,6 +1,4 @@
-<span class="indented" style="font-size: 20pt; color: var(--global-theme-color); display: block;"> Giovanni Prarolo </span>
-<br>
-<span class="indented" style="font-size: 12pt; color: var(--global-theme-color); display: block;"> <i>Research Fellowship Supervisor</i> </span>
+<div class="indented"> <p> <span style="font-size: 20pt; color: var(--global-theme-color);"> Giovanni Prarolo </span> <br> <span style="font-size: 12pt; color: var(--global-theme-color);"> <i>Research Fellowship Supervisor</i> </span> </p> </div>
 
 <span class="indented" style="font-size: 15pt; display: block;"> Full Professor </span>
 <span class="indented" style="display: block;"> University of Bologna </span>
