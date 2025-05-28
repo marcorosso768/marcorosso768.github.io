@@ -637,7 +637,9 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
     margin-right: 4px;
     color: var(--global-theme-color);
   }
-
+  .no-external {
+  }
+    
   .toggle-label {
     font-style: normal;
     color: var(--global-theme-color);
