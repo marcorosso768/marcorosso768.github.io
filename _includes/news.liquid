@@ -26,6 +26,7 @@
             </td>
           </tr>
         {% endfor %}
+        {% if site.baseurl == "/it" or site.baseurl == "/es" or site.baseurl == "/" %}
           <tr>
             <th scope="row" style="width: 20%"></th>
             <td>
@@ -34,6 +35,7 @@
               </a>
             </td>
           </tr>
+        {% endif %}
       </table>
     </div>
   {% else %}
