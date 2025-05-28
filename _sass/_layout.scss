@@ -646,6 +646,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
 
   &:hover .toggle-label {
     font-style: italic;
+    text-decoration: none;
   }
 
   //&:hover {
