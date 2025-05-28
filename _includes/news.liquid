@@ -26,17 +26,6 @@
             </td>
           </tr>
         {% endfor %}
-        {% assign lang = site.baseurl | remove: "/" | default: "en" %}
-        {% if lang == "it" or lang == "es" or lang == "en" %}
-          <tr>
-            <th scope="row" style="width: 20%"></th>
-            <td>
-              <a class="about-news" href="{% case site.active_lang %}{% when 'it' %}{{ '/it/novita/' | relative_url }}{% when 'es' %}{{ '/es/novedades/' | relative_url }}{% else %}{{ '/news/' | relative_url }}{% endcase %}">
-                  {{ site.data[site.active_lang].strings.more }}
-              </a>
-            </td>
-          </tr>
-        {% endif %}
       </table>
     </div>
   {% else %}
