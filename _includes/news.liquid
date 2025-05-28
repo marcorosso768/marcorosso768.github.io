@@ -26,6 +26,9 @@
             </td>
           </tr>
         {% endfor %}
+        <a style="font-style: bold;" href="{% case site.active_lang %}{% when 'it' %}{{ '/it/novita/' | relative_url }}{% when 'es' %}{{ '/es/novedades/' | relative_url }}{% else %}{{ '/news/' | relative_url }}{% endcase %}">
+            {{ site.data[site.active_lang].strings.more }}
+        </a>
       </table>
     </div>
   {% else %}
