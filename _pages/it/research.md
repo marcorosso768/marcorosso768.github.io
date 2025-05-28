@@ -83,7 +83,7 @@ nav_order: 1
       </div>
       <a href="/assets/pdf/slides/[Marco Rosso] Crime Perception and Voting Behaviour. Evidence from Individual Data (slides).pdf" class="pill-link">
         <i class="fa-solid fa-download fa-2xs"></i>
-        <span class="toggle-label">Diapositivas</span>
+        <span class="toggle-label">Slide</span>
       </a>
     </div>
     <div id="abstract-crime" class="toggle-box">
