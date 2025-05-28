@@ -83,7 +83,10 @@ nav_order: 1
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">Palabras clave</span>
       </div>
-    </div>
+      <a href="/assets/pdf/slides/[Marco Rosso] Crime Perception and Voting Behaviour. Evidence from Individual Data (slides).pdf" class="pill-link">
+        <i class="fa-solid fa-download fa-2xs"></i>
+        <span class="toggle-label">Diapositivas</span>
+      </a>
     <div id="abstract-crime" class="toggle-box">
       Este estudio examina el impacto de la relevancia local del crimen en el comportamiento de voto individual, utilizando noticias geolocalizadas sobre crímenes como un proxy de la preocupación pública por la criminalidad. Basándonos en una encuesta retrospectiva de 5000 individuos a lo largo de varias rondas electorales, nuestro análisis explota la ocurrencia de un evento criminal en las cercanías de un votante en el periodo previo a las elecciones. Los resultados para las elecciones generales son mixtos, sin mostrar efectos en el comportamiento de voto cuando los delitos son cometidos por ciudadanos italianos. Por el contrario, los crímenes atribuidos a inmigrantes resultan en un menor apoyo a los partidos populistas de derecha, a veces con una postura ambigua sobre la inmigración, y en cambio un mayor apoyo a los partidos de derecha más tradicionales, que enfatizan el orden y la ley. En las elecciones administrativas, el efecto de la relevancia del crimen diverge. Los delitos cometidos por italianos resultan en el castigo de los incumbentes, mientras que los crímenes relacionados con inmigrantes conducen a una mayor abstención, posiblemente reflejando el estigma social asociado al cambio de partido entre votantes de izquierda, que apoyan al partido en el poder. Estos hallazgos aportan nuevas perspectivas sobre la relación entre la relevancia del crimen, especialmente en lo relativo a la inmigración, y el comportamiento de voto individual.
     </div>
