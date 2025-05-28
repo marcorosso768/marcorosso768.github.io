@@ -26,7 +26,8 @@
             </td>
           </tr>
         {% endfor %}
-        {% if site.baseurl == "/it" or site.baseurl == "/es" or site.baseurl == "/" %}
+        {% assign lang = site.baseurl | remove: "/" | default: "en" %}
+        {% if lang == "it" or lang == "es" or lang == "en" %}
           <tr>
             <th scope="row" style="width: 20%"></th>
             <td>
