@@ -26,9 +26,14 @@
             </td>
           </tr>
         {% endfor %}
-        <a style="font-style: bold;" href="{% case site.active_lang %}{% when 'it' %}{{ '/it/novita/' | relative_url }}{% when 'es' %}{{ '/es/novedades/' | relative_url }}{% else %}{{ '/news/' | relative_url }}{% endcase %}">
-            {{ site.data[site.active_lang].strings.more }}
-        </a>
+          <tr>
+            <th scope="row" style="width: 20%"></th>
+            <td>
+              <a style="font-style: bold;" href="{% case site.active_lang %}{% when 'it' %}{{ '/it/novita/' | relative_url }}{% when 'es' %}{{ '/es/novedades/' | relative_url }}{% else %}{{ '/news/' | relative_url }}{% endcase %}">
+                  {{ site.data[site.active_lang].strings.more }}
+              </a>
+            </td>
+          </tr>
       </table>
     </div>
   {% else %}
