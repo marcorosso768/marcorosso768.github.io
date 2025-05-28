@@ -643,7 +643,11 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
     color: var(--global-theme-color);
     transition: font-style 0.3s ease;
   }
-
+  
+  &:hover {
+    text-decoration: none;
+  }
+  
   &:hover .toggle-label {
     font-style: italic;
   }
