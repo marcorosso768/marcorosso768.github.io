@@ -81,6 +81,10 @@ nav_order: 1
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">Parole chiave</span>
       </div>
+      <a href="/assets/pdf/slides/[Marco Rosso] Crime Perception and Voting Behaviour. Evidence from Individual Data (slides).pdf" class="pill-link">
+        <i class="fa-solid fa-download fa-2xs"></i>
+        <span class="toggle-label">Diapositivas</span>
+      </a>
     </div>
     <div id="abstract-crime" class="toggle-box">
       Questo studio analizza l’impatto della salienza del crimine locale sul comportamento di voto individuale, utilizzando le notizie geolocalizzate relative alla criminalità come proxy della preoccupazione pubblica per la sicurezza. Basandosi su un sondaggio retrospettivo condotto su 5000 individui in più tornate elettorali, l’analisi sfrutta il verificarsi di un evento criminale nelle vicinanze del votante nel periodo antecedente le elezioni. I risultati per le elezioni politiche generali sono nel complesso ambigui: non si osservano effetti significativi quando i crimini sono commessi da italiani. Al contrario, i crimini attribuiti a immigrati riducono il supporto verso i partiti populisti di destra, talvolta ambigui sul tema dell’immigrazione, e aumentano invece il sostegno verso i partiti di destra tradizionali, che enfatizzano l’ordine pubblico. Nelle elezioni amministrative, l’effetto della salienza del crimine è differente: i crimini commessi da italiani portano a una punizione degli incumbent, mentre quelli legati agli immigrati aumentano l’astensione, probabilmente riflettendo lo stigma sociale legato al cambio di partito tra gli elettori di sinistra, spesso coincidente con il partito di governo. Questi risultati offrono nuove evidenze sulla relazione tra criminalità, immigrazione e comportamento elettorale individuale.
