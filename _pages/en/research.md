@@ -81,9 +81,7 @@ nav_order: 1
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">Keywords</span>
       </div>
-    </div>
-    <div class="pill-container">
-      <a href="/assets/pdf/slides/[Marco Rosso] Crime Perception and Voting Behaviour. Evidence from Individual Data (slide).pdf" class="pill-link" download>
+      <a href="/assets/pdf/slides/[Marco Rosso] Crime Perception and Voting Behaviour. Evidence from Individual Data (slides).pdf" class="pill-link">
         <i class="fa-solid fa-download fa-2xs"></i>
         <span class="toggle-label">Slides</span>
       </a>
