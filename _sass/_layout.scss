@@ -770,3 +770,12 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
 /*****************************************************************************
 * 
 *****************************************************************************/
+.about-news {
+  align-items: center;
+  color: var(--global-theme-color);
+
+  &:hover {
+    text-decoration: none;
+    font-style: italic;
+  }
+}
