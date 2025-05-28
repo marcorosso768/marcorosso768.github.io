@@ -648,20 +648,20 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
     font-style: italic;
   }
 
-  &:hover {
-    background-color: var(--global-theme-color);
-    color: var(--global-bg-color);
+  //&:hover {
+  //  background-color: var(--global-theme-color);
+  //  color: var(--global-bg-color);
 
-    i,
-    .toggle-label {
-      color: var(--global-bg-color);
-    }
-  }
+  //  i,
+   // .toggle-label {
+   //   color: var(--global-bg-color);
+   // }
+ // }
 }
 
-a.pill-link:not(.external) {
+//a.pill-link:not(.external) {
   // avoid conflict with .external rules
-}
+//}
 
 /*****************************************************************************
 * Toggle Box (Abstract / Keywords / Other)
