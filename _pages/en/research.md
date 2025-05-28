@@ -82,6 +82,12 @@ nav_order: 1
         <span class="toggle-label">Keywords</span>
       </div>
     </div>
+    <div class="pill-container">
+      <a href="/assets/pdf/slides/[Marco Rosso] Crime Perception and Voting Behaviour. Evidence from Individual Data (slide).pdf" class="pill-link" download>
+        <i class="fa-solid fa-download fa-2xs"></i>
+        <span class="toggle-label">Slides</span>
+      </a>
+    </div>
     <div id="abstract-crime" class="toggle-box">
      This study examines the impact of local crime salience on individual voting behavior, using geolocated crime-related news as a proxy for public concern about crime. Drawing on a retrospective survey of 5000 individuals across several election rounds, our analysis exploits the occurrence of a criminal event in the vicinity of a voter in the lead-up to elections. The results for general elections are mixed overall, showing no effects on voting behavior when crimes are committed by Italians. Conversely, crimes attributed to immigrants results in lower support for the populist right-wing parties, sometimes having an ambiguous stance on immigration, and instead higher support for the more traditional right-wing parties, which emphasizes law and order. In administrative elections, the effect of crime salience diverges. Crimes committed by Italians result in the punishment of incumbents, while immigrant-related crimes lead to increased voter abstention, possibly reflecting the social stigma associated with party-switching among left-leaning voters, the incumbent party. These findings provide novel insights into the relationship between crime salience, particularly regarding immigration, and individual voting behavior.
     </div>
