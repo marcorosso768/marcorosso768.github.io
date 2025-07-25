@@ -12,14 +12,6 @@
             <i class="fa-solid fa-chalkboard-user fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1.4;"></i>
             <div style="font-variant: small-caps;">Asistente de Docencia</div>
           </div>
-          <div style="display: flex; align-items: flex-start;">
-            <i class="fa-solid fa-building-columns fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1.4;"></i>
-            <div style="font-variant: small-caps;">Investigador Postdoctoral</div>
-          </div>
-          <div style="display: flex; align-items: flex-start;">
-            <i class="fa-solid fa-users fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1.4;"></i>
-            <div style="font-variant: small-caps;">Representante de los Investigadores Postdoctorales</div>
-          </div>
         </div>
 
 - title: áreas de interés
@@ -78,7 +70,7 @@
   type: time_table
   contents:
     - title: "Investigador Postdoctoral: Democratización, los medios de comunicación, contexto socioeconómico y comportamiento electoral"
-      year: 2024-
+      year: mayo 2024 - julio 2025
       location: "Bolonia, Italia"
       institution: University of Bologna
       department: DSE - Departamento de Economía
