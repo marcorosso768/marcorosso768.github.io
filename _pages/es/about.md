@@ -5,7 +5,7 @@ title: sobre mí
 permalink: /
 subtitle: >
     <div style="margin-top: -20px;">
-        <p style="font-weight: 500;">Doctorando | Asistente&nbsp;de&nbsp;Docencia | Investigador&nbsp;Postdoctoral</p>
+        <p style="font-weight: 500;">Doctorando | Asistente&nbsp;de&nbsp;Docencia</p>
     </div>
     <div style="margin: 0; padding: 0; position: relative;">
         <!-- First row: University icon and department name -->
@@ -49,7 +49,7 @@ social: true # includes social icons at the bottom of the page
 
 Bienvenid@ a mi sitio personal-me alegra que hayas llegado por voluntad propia (o que hayas hecho clic por error: le pasa hasta a l@s mejores).
 
-Soy <b style="color: $white-color;">doctorando de quinto año en Economía</b> y <b style="color: $white-color;">Investigador Posdoctoral</b> (sí, aún quedamos algun@s) en la University of Bologna.
+Soy <b style="color: $white-color;">doctorando de quinto año en Economía</b> en la University of Bologna.
 
 Mis <b style="color: $white-color;">intereses de investigación</b> giran en torno a la <b style="color: $white-color;">Economía Política</b>, la <b style="color: $white-color;">Economía del Crimen</b>, la <b style="color: $white-color;">Economía Experimental</b> y la <b style="color: $white-color;">Economía del Comportamiento</b>: ideales para quienes disfrutan de preguntas incómodas, dilemas éticos y datasets imposibles de encontrar.
 
@@ -61,8 +61,6 @@ Actualmente, intento entender cosas como:
 </ul>
 
 Cuando no intento darle sentido al caos (spoiler: gana el caos), soy <b style="color: $white-color;">Asistente de Docencia</b> en los siguientes cursos: <b style="color: $white-color;">Introducción a la Economía del Comportamiento</b>, <b style="color: $white-color;">Teoría de Juegos</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Microeconomía</b>. O sea, intento explicar conceptos complejos con ejemplos improbables y falsa seguridad.
-
-Por si fuera poco, también soy <b style="color: $white-color;">Representante de Investigador@s Posdoctorales</b> tanto en el <b style="color: $white-color;">Consejo de Departamento</b> como en la <b style="color: $white-color;">Junta de Departamento</b>. Traducción: asisto a reuniones largas con muchas diapositivas y asiento de forma profesional.
 
 Y, para no perder del todo la fe en la vida: organizo los <b style="color: $white-color;">Aperitivos del Departamento</b>, un evento mensual donde hablamos de academia, vida, sueños rotos y convocatorias que están por cerrarse —pero con una copa en la mano, que cambia todo.
 
