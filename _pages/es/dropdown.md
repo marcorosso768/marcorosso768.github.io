@@ -12,6 +12,4 @@ children:
     permalink: /contactos/
   - title: novedades
     permalink: /novedades/
-  - title: blog
-    permalink: /blog/
 ---
