@@ -12,14 +12,6 @@
             <i class="fa-solid fa-chalkboard-user fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1.4;"></i>
             <div style="font-variant: small-caps;">Assistente alla Didattica</div>
           </div>
-          <div style="display: flex; align-items: flex-start;">
-            <i class="fa-solid fa-building-columns fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1.4;"></i>
-            <div style="font-variant: small-caps;">Assegnista di Ricerca</div>
-          </div>
-          <div style="display: flex; align-items: flex-start;">
-            <i class="fa-solid fa-users fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1.4;"></i>
-            <div style="font-variant: small-caps;">Rappresentante degli Assegnisti di Ricerca</div>
-          </div>
         </div>
 
 - title: interessi di ricerca
@@ -78,7 +70,7 @@
   type: time_table
   contents:
     - title: "Assegno di Ricerca: democratizzazione, media, fattori socio-economici e comportamento elettorale"
-      year: 2024-
+      year: maggio 2024 - luglio 2025
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE - Dipartimento di Scienze Economiche
@@ -125,12 +117,12 @@
   type: time_table
   contents:
     - title: "Rappresentante degli Assegnisti nel Consiglio di Dipartimento"
-      year: 2025-
+      year: "2025"
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE - Dipartimento di Scienze Economiche
     - title: "Rappresentante degli Assegnisti nella Giunta di Dipartimento"
-      year: 2025-
+      year: "2025"
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE - Dipartimento di Scienze Economiche
