@@ -138,6 +138,14 @@ nav_order: 1
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-bookmark fa-fw"></i>
+      <span><em>Parenthood and the Ballot Box: How Parents’ and Children’s Ages Shape Turnout</em></span>
+    </div>
+  </div>
+  
+  <!-- Paper 2 -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-bookmark fa-fw"></i>
       <span>
         <em>Public Goods Provision and Voting Turnout</em> (with 
         <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a> and 
@@ -146,10 +154,10 @@ nav_order: 1
     </div>
   </div>
 
-  <!-- Paper 2 -->
+  <!-- Paper 3 -->
   <div class="entry-block">
     <div class="icon-entry indented">
-      <i class="fa-solid fa-bookmark fa-fw" title="In progress"></i>
+      <i class="fa-solid fa-bookmark fa-fw"></i>
       <span><em>The Effect of Erasmus Programs on Voting</em></span>
     </div>
   </div>
