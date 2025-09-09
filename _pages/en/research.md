@@ -68,9 +68,9 @@ nav_order: 1
       <i class="fa-solid fa-book-open fa-fw"></i>
       <span>
         <em>Childcare and Civic Participation: Parental Age, Child Stage, and Voter Turnout</em> (with
-          <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a>,
-          <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>,
-         <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a>, and
+          <a href="https://sites.google.com/site/giorgiobellettiniwebpage">Giorgio Bellettini</a>,
+          <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni">Carlotta Berti Ceroni</a>,
+          <a href="https://sites.google.com/view/mgeiras/inicio">Martín Gonzalez-Eiras</a>, and
           <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>)
       </span>
     </div>
@@ -100,7 +100,7 @@ nav_order: 1
   </div>
 
 
-  <!-- Paper 3 -->
+  <!-- Paper 2 -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-book-open fa-fw"></i>
