@@ -67,6 +67,44 @@ nav_order: 1
     <div class="icon-entry indented">
       <i class="fa-solid fa-book-open fa-fw"></i>
       <span>
+        <em>Childcare and Civic Participation: Parental Age, Child Stage, and Voter Turnout</em> (with
+          <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a>,
+          <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>,
+         <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a>, and
+          <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>)
+      </span>
+    </div>
+    <div class="pill-container">
+      <div class="pill-button toggle-pill" data-target="abstract-ageturnout">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Abstract</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="keywords-ageturnout">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Keywords</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="jel-ageturnout">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">JEL</span>
+      </div>
+    </div>
+    <div id="abstract-ageturnout" class="toggle-box">
+     This paper examines how parenthood and parental age influence voter turnout using a comprehensive administrative panel that covers the universe of registered voters in Bologna across four municipal and national elections between 2004 and 2013. We link individual turnout records to detailed demographic, fiscal, and geospatial information, including the location and catchment areas of public childcare facilities and the distance to polling stations. This unique linkage allows us to identify parents, measure the age of their youngest child, and control for a rich set of individual and spatial characteristics. Linear probability models with individual and year fixed effects show no average turnout difference between parents and non-parents once permanent heterogeneity is absorbed. However, sizable turnout penalties emerge when children are very young: parents of infants (0–2) and preschoolers (3–5) vote three to five percentage points less than comparable non-parents. These penalties diminish by roughly 0.2 percentage points per additional year of parental age and disappear around age forty; parents of older children show no gap. The negative effect is concentrated among mothers, while fathers’ turnout remains unaffected. Robustness checks including neighborhood fixed effects, additional socioeconomic controls, and measures of residential proximity to childcare facilities confirm these results and show that access to schools plays no role in shaping turnout. Taken together, the findings suggest that intensive childcare demands, rather than the physical availability of childcare infrastructure, constrain political participation. They underscore the importance of life-cycle factors in models of voter behavior and highlight how delayed fertility and declining birth rates can skew democratic representation by reducing the political voice of younger families.
+    </div>
+    <div id="keywords-ageturnout" class="toggle-box">
+       voter turnout; childcare; age; electoral participation; fixed effects.
+    </div>
+    <div id="jel-ageturnout" class="toggle-box">
+       D72; J13; J22; H75.
+    </div>
+  </div>
+
+
+  <!-- Paper 3 -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-book-open fa-fw"></i>
+      <span>
         <em>Crime Perception and Voting Behavior</em> (with 
         <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">
           Giovanni Prarolo</a>)
@@ -81,20 +119,28 @@ nav_order: 1
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">Keywords</span>
       </div>
+      <div class="pill-button toggle-pill" data-target="jel-crime">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">JEL</span>
+      </div>
       <a href="/assets/pdf/slides/[Marco Rosso] Crime Perception and Voting Behaviour. Evidence from Individual Data (slides).pdf" class="pill-link no-external">
         <i class="fa-solid fa-download fa-2xs"></i>
         <span class="toggle-label" title="last version: BoMoPaV Economics Meeting 2025">Slides</span>
       </a>
     </div>
     <div id="abstract-crime" class="toggle-box">
-     This study examines the impact of local crime salience on individual voting behavior, using geolocated crime-related news as a proxy for public concern about crime. Drawing on a retrospective survey of 5000 individuals across several election rounds, our analysis exploits the occurrence of a criminal event in the vicinity of a voter in the lead-up to elections. The results for general elections are mixed overall, showing no effects on voting behavior when crimes are committed by Italians. Conversely, crimes attributed to immigrants results in lower support for the populist right-wing parties, sometimes having an ambiguous stance on immigration, and instead higher support for the more traditional right-wing parties, which emphasizes law and order. In administrative elections, the effect of crime salience diverges. Crimes committed by Italians result in the punishment of incumbents, while immigrant-related crimes lead to increased voter abstention, possibly reflecting the social stigma associated with party-switching among left-leaning voters, the incumbent party. These findings provide novel insights into the relationship between crime salience, particularly regarding immigration, and individual voting behavior.
+     This study examines the impact of local crime on individual voting behavior, using geolocated crime-related news as a proxy for public concern about crime. Drawing on a retrospective survey of 5000 individuals across several election rounds, our analysis exploits the occurrence of a criminal event in the vicinity of a voter in the lead-up to elections. The results for general elections are mixed overall, showing no effects on voting behavior when crimes are committed by Italians. Conversely, crimes attributed to immigrants result in lower support for the populist right-wing parties, sometimes having an ambiguous stance on immigration, and instead higher support for the more traditional right-wing parties, which emphasizes law and order. In administrative elections, the effect of crime diverges. Crimes committed by Italians result in the punishment of incumbents, while immigrant-related crimes lead to increased voter abstention, possibly reflecting the social stigma associated with party-switching among left-leaning voters, the incumbent party. These findings provide novel insights into the relationship between crime salience, particularly regarding immigration, and individual voting behavior.
     </div>
     <div id="keywords-crime" class="toggle-box">
-       crime, elections, political parties, newspapers, individual voting behavior, dictionary-based classification
+       crime; elections; political parties; newspapers; individual voting behavior; dictionary-based classification.
+    </div>
+    <div id="jel-crime" class="toggle-box">
+       D72; K42; J15; D83; L82.
     </div>
   </div>
 
-  <!-- Paper 2 -->
+
+  <!-- Paper 3 -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-book-open fa-fw" title="Working paper"></i>
@@ -111,12 +157,18 @@ nav_order: 1
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">Keywords</span>
       </div>
+      <div class="pill-button toggle-pill" data-target="jel-corruption">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">JEL</span>
     </div>
     <div id="abstract-corruption" class="toggle-box">
       This paper presents a theoretical model that examines the impact of corruption opportunities on the self-selection process of individuals in the public sector. The study explores how the temptation of engaging in corruption influences individuals' career choices. The main finding of the research reveals a dual effect of corruption opportunities in the public sector. On one hand, such opportunities attract individuals with lower ambition and motivation, who are more likely to engage in unethical behavior. On the other hand, when the temptation to participate in corruption becomes significant, highly motivated individuals may be deterred from pursuing a career in the public sector due to self-control issues, leading them to opt for employment in the private sector instead. This finding highlights the importance of considering the impact of corruption and self-control problems on the quality and composition of the public sector workforce, which can have broader implications for economic outcomes.
     </div>
     <div id="keywords-corruption" class="toggle-box">
-      public sector, corruption, self-selection, motivation, ethics
+      public sector; self-selection; corruption; temptation; self-control.
+    </div>
+    <div id="jel-corruption" class="toggle-box">
+       D73; H83; K42; J45; D91.
     </div>
   </div>
 
@@ -135,26 +187,6 @@ nav_order: 1
 <div id="content-3" class="toggle-section expanded">
 
   <!-- Paper 1 -->
-  <div class="entry-block">
-    <div class="icon-entry indented">
-      <i class="fa-solid fa-bookmark fa-fw"></i>
-      <span><em>Parenthood and the Ballot Box: How Parents’ and Children’s Ages Shape Turnout</em></span>
-    </div>
-  </div>
-  
-  <!-- Paper 2 -->
-  <div class="entry-block">
-    <div class="icon-entry indented">
-      <i class="fa-solid fa-bookmark fa-fw"></i>
-      <span>
-        <em>Public Goods Provision and Voting Turnout</em> (with 
-        <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a> and 
-        <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>)
-      </span>
-    </div>
-  </div>
-
-  <!-- Paper 3 -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-bookmark fa-fw"></i>
