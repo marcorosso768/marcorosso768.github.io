@@ -65,7 +65,7 @@ nav_order: 1
   <!-- Paper 1 -->
   <div class="entry-block">
     <div class="icon-entry indented">
-      <i class="fa-solid fa-book-open fa-fw"></i>
+      <i class="fa-solid fa-file-lines fa-fw"></i>
       <span>
         <em>Childcare and Civic Participation: Parental Age, Child Stage, and Voter Turnout</em> (with
           <a href="https://sites.google.com/site/giorgiobellettiniwebpage">Giorgio Bellettini</a>,
@@ -103,7 +103,7 @@ nav_order: 1
   <!-- Paper 2 -->
   <div class="entry-block">
     <div class="icon-entry indented">
-      <i class="fa-solid fa-book-open fa-fw"></i>
+      <i class="fa-solid fa-file-lines fa-fw"></i>
       <span>
         <em>Crime Perception and Voting Behavior: Evidence from Individual Data</em> (with 
         <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">
@@ -143,7 +143,7 @@ nav_order: 1
   <!-- Paper 3 -->
   <div class="entry-block">
     <div class="icon-entry indented">
-      <i class="fa-solid fa-book-open fa-fw" title="Working paper"></i>
+      <i class="fa-solid fa-file-lines fa-fw" title="Working paper"></i>
       <span>
         <em>Corruption, temptation, and self-selection in the public sector</em>
       </span>
