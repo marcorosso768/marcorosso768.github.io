@@ -24,8 +24,10 @@ nav_order: 1
   </a>
 </div>
 
+<!-- Content -->
 <div id="content-1" class="toggle-section expanded">
 
+  <!-- Paper 1 -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-newspaper fa-fw"></i>
@@ -60,6 +62,7 @@ nav_order: 1
   </a>
 </div>
 
+<!-- Content -->
 <div id="content-2" class="toggle-section expanded">
 
   <!-- Paper 1 -->
@@ -140,7 +143,6 @@ nav_order: 1
     </div>
   </div>
 
-
   <!-- Paper 3 -->
   <div class="entry-block">
     <div class="icon-entry indented">
@@ -186,6 +188,7 @@ nav_order: 1
   </a>
 </div>
 
+<!-- Content -->
 <div id="content-3" class="toggle-section expanded">
 
   <!-- Paper 1 -->
