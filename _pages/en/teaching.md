@@ -38,7 +38,7 @@ nav_order: 3
 <!-- TOGGLE CONTENT -->
 <div id="subsection-unibo" class="toggle-section expanded">
 
-<p style="margin-left: 0.1em;"><b>2024-</b></p>
+<p style="margin-left: 0.1em;"><b>2024/25</b></p>
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
