@@ -5,10 +5,10 @@ title: about me
 permalink: /
 subtitle: >
     <div style="margin-top: -20px;">
-        <p style="font-weight: 500;">Ph.D. Candidate | Teaching&nbsp;Assistant</p>
+        <p style="font-weight: 500;">Ph.D. Candidate</p>
     </div>
     <div style="margin: 0; padding: 0; position: relative;">
-        <!-- First row: University icon and department name -->
+        <!-- First row: University icon and department name | Teaching&nbsp;Assistant -->
         <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; margin-top: -10pt; line-height: 14pt;">
             <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color); font-size: 10pt;"></i>
         </div>
@@ -57,7 +57,7 @@ Right now, I’m trying to make sense of things like:
 <ul>
   <li>Who chooses to enter the public sector knowing they could steal… and why do we hire them?</li>
   <li>Do crime-related news stories actually influence how we vote?</li>
-  <li>Does Erasmus really change us? (Or just our Spotify playlists?)</li>
+  <li>Does the age we become parents make us skip the ballot box… or just bedtime?</li>
 </ul>
 
 When I’m not trying to make sense of chaos (spoiler: chaos wins), I am the <b style="color: $white-color;">Teaching Assistant</b> for the following courses: <b style="color: $white-color;">Introduction to Behavioral Economics</b>, <b style="color: $white-color;">Game Theory</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Microeconomics</b>. Basically, I try to explain complex concepts using unlikely metaphors and fake confidence.
@@ -65,5 +65,5 @@ When I’m not trying to make sense of chaos (spoiler: chaos wins), I am the <b 
 And finally, to give meaning to this whole circus: I organize the <b style="color: $white-color;">DSE Afterwork Drinks</b>. A monthly event where we talk about academia, life, broken dreams, and calls for proposals about to expire—though with a drink in hand, which changes everything.
 
 My favorite quote?<br>
-<i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i><br>
-If you laughed, we might actually become friends. If not… try reading it again.
+<i>"There is no point in using the word “impossible” to describe something that has clearly happened."</i><br>
+Funny how obvious it seems once you notice it, right?
