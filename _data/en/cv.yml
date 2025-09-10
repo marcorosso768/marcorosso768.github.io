@@ -8,10 +8,6 @@
             <i class="fa-solid fa-graduation-cap fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1.4;"></i>
             <div style="font-variant: small-caps;">Ph.D. Candidate in Economics</div>
           </div>
-          <div style="display: flex; align-items: flex-start;">
-            <i class="fa-solid fa-chalkboard-user fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1.4;"></i>
-            <div style="font-variant: small-caps;">Teaching Assistant</div>
-          </div>
         </div>
 
 - title: field of interest
@@ -28,7 +24,7 @@
   type: time_table
   contents:
     - title: Ph.D. in Economics
-      year: "2020-"
+      year: "2026"
       institution: University of Bologna
       department: DSE - Depeartment of Economics
       location: "Bologna, Italy"
@@ -127,7 +123,7 @@
       institution: University of Bologna
       department: DSE - Department of Economics
     - title: Committee Member, International SAT Test for University Admissions
-      year: 2024-
+      year: 2024-2025
       location: "Bologna, Italy"
       institution: University of Bologna
       department: in collaboration with College Board (New York)
@@ -140,7 +136,7 @@
         <div style="font-size:11pt; display: flex; align-items: flex-start;">
           <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
           <div style="line-height: 1.2;">
-            <i>Journal of Economics &amp; Management Strategy</i>, <i>Health Economics</i>
+            <i>Journal of Economics &amp; Management Strategy</i>; <i>Health Economics</i>
           </div>
         </div>
    
