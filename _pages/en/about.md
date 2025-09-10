@@ -55,9 +55,9 @@ My <b style="color: $white-color;">research interests</b> orbit around <b style=
 
 Right now, I’m trying to make sense of things like:
 <ul>
-  <li>Who chooses to enter the public sector knowing they could steal… and why do we hire them?</li>
-  <li>Do crime-related news stories actually influence how we vote?</li>
-  <li>Does the age we become parents make us skip the ballot box… or just bedtime?</li>
+    <li>Does the age we become parents make us skip the ballot box… or just bedtime?</li>
+    <li>Do crime-related news stories actually influence how we vote?</li>ù
+    <li>Who chooses to enter the public sector knowing they could steal… and why do we hire them?</li>
 </ul>
 
 When I’m not trying to make sense of chaos (spoiler: chaos wins), I am the <b style="color: $white-color;">Teaching Assistant</b> for the following courses: <b style="color: $white-color;">Introduction to Behavioral Economics</b>, <b style="color: $white-color;">Game Theory</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Microeconomics</b>. Basically, I try to explain complex concepts using unlikely metaphors and fake confidence.
