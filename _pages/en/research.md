@@ -103,7 +103,6 @@ nav_order: 1
     </div>
   </div>
 
-
   <!-- Paper 2 -->
   <div class="entry-block">
     <div class="icon-entry indented">
@@ -166,7 +165,7 @@ nav_order: 1
       </div>  
     </div>
     <div id="abstract-corruption" class="toggle-box">
-      This paper presents a theoretical model that examines the impact of corruption opportunities on the self-selection process of individuals in the public sector. The study explores how the temptation of engaging in corruption influences individuals' career choices. The main finding of the research reveals a dual effect of corruption opportunities in the public sector. On one hand, such opportunities attract individuals with lower ambition and motivation, who are more likely to engage in unethical behavior. On the other hand, when the temptation to participate in corruption becomes significant, highly motivated individuals may be deterred from pursuing a career in the public sector due to self-control issues, leading them to opt for employment in the private sector instead. This finding highlights the importance of considering the impact of corruption and self-control problems on the quality and composition of the public sector workforce, which can have broader implications for economic outcomes.
+      This paper develops a theoretical model to study how corruption opportunities and temptation shape the self-selection of individuals into public-sector employment. The framework incorporates self-control costs into a standard model of occupational choice and shows that corruption opportunities exert a dual effect: they attract less motivated and less skilled individuals, while deterring highly motivated and skilled workers who anticipate the costs of resisting temptation. To resolve the ambiguity that arises from these opposing forces, the analysis considers benchmark cases under uniform distributions. With positive correlation between ability and motivation, predictions are sharp: corruption opportunities expand the public sector but reduce its quality when temptation is mild, and shrink it but improve its quality when temptation is strong. With negative correlation, the model generates a fundamental trade-off, as ability and motivation move in opposite directions. The independence case provides closed-form solutions and identifies a critical threshold for the temptation parameter that determines whether the public sector expands with deterioration or contracts with improvement. Overall, the findings clarify the mechanisms through which corruption opportunities affect workforce composition and provide testable predictions for different institutional environments.
     </div>
     <div id="keywords-corruption" class="toggle-box">
       public sector; self-selection; corruption; temptation; self-control.
