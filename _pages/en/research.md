@@ -105,7 +105,7 @@ nav_order: 1
     <div class="icon-entry indented">
       <i class="fa-solid fa-book-open fa-fw"></i>
       <span>
-        <em>Crime Perception and Voting Behavior</em> (with 
+        <em>Crime Perception and Voting Behavior: Evidence from Individual Data</em> (with 
         <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">
           Giovanni Prarolo</a>)
       </span>
@@ -160,6 +160,7 @@ nav_order: 1
       <div class="pill-button toggle-pill" data-target="jel-corruption">
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">JEL</span>
+      </div>  
     </div>
     <div id="abstract-corruption" class="toggle-box">
       This paper presents a theoretical model that examines the impact of corruption opportunities on the self-selection process of individuals in the public sector. The study explores how the temptation of engaging in corruption influences individuals' career choices. The main finding of the research reveals a dual effect of corruption opportunities in the public sector. On one hand, such opportunities attract individuals with lower ambition and motivation, who are more likely to engage in unethical behavior. On the other hand, when the temptation to participate in corruption becomes significant, highly motivated individuals may be deterred from pursuing a career in the public sector due to self-control issues, leading them to opt for employment in the private sector instead. This finding highlights the importance of considering the impact of corruption and self-control problems on the quality and composition of the public sector workforce, which can have broader implications for economic outcomes.
