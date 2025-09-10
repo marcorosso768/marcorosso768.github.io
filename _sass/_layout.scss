@@ -573,6 +573,23 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   }
 }
 
+.icon-entry span a:link,
+.icon-entry span a:visited,
+.icon-entry span a:hover,
+.icon-entry span a:focus,
+.icon-entry span a:active {
+  color: var(--global-theme-color) !important;
+  text-decoration: none;
+  font-style: normal;
+}
+
+/* Effetto al passaggio */
+.icon-entry span a:hover,
+.icon-entry span a:focus {
+  text-decoration: underline;
+  font-style: italic;
+}
+
 /*****************************************************************************
 * Pill Container & Pills
 *****************************************************************************/
