@@ -796,3 +796,23 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
     font-style: italic;
   }
 }
+
+/* Tutti i link dentro #latest-news e #news-section */
+#latest-news a:link,
+#latest-news a:visited,
+#news-section a:link,
+#news-section a:visited {
+  color: var(--global-theme-color);
+  text-decoration: none;
+  font-style: normal;
+  transition: font-style 0.3s ease, text-decoration 0.3s ease;
+}
+
+#latest-news a:hover,
+#latest-news a:focus,
+#news-section a:hover,
+#news-section a:focus {
+  color: var(--global-theme-color);
+  text-decoration: underline;
+  font-style: italic;
+}
