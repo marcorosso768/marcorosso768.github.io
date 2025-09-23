@@ -53,14 +53,9 @@ I’m a <b style="color: $white-color;">5<sup>th</sup>-year PhD candidate in Eco
 
 My <b style="color: $white-color;">research interests</b> orbit around <b style="color: $white-color;">Political Economy</b>, <b style="color: $white-color;">Economics of Crime</b>, <b style="color: $white-color;">Experimental Economics</b>, and <b style="color: $white-color;">Behavioral Economics</b>—perfect for anyone who enjoys uncomfortable questions, ethical dilemmas, and datasets that are impossible to find.
 
-Right now, I’m trying to make sense of things like:
-<ul>
-    <li>Does the age we become parents make us skip the ballot box… or just bedtime?</li>
-    <li>Do crime-related news stories actually influence how we vote?</li>ù
-    <li>Who chooses to enter the public sector knowing they could steal… and why do we hire them?</li>
-</ul>
+At the moment, I’m in the thrilling limbo of academia: waiting for the reviews of my Ph.D. thesis (defense scheduled for January) while scouting for the next adventure.
 
-When I’m not trying to make sense of chaos (spoiler: chaos wins), I am the <b style="color: $white-color;">Teaching Assistant</b> for the following courses: <b style="color: $white-color;">Introduction to Behavioral Economics</b>, <b style="color: $white-color;">Game Theory</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Microeconomics</b>. Basically, I try to explain complex concepts using unlikely metaphors and fake confidence.
+Mainwhile, when I’m not trying to make sense of chaos (spoiler: chaos always wins), I am the <b style="color: $white-color;">Teaching Assistant</b> for the following courses: <b style="color: $white-color;">Econometrics</b>, <b style="color: $white-color;">Industrial Organization</b> (in Italian), <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Python for Economists</b>. Basically, I try to explain complex concepts and codes using unlikely metaphors and fake confidence.
 
 And finally, to give meaning to this whole circus: I organize the <b style="color: $white-color;">DSE Afterwork Drinks</b>. A monthly event where we talk about academia, life, broken dreams, and calls for proposals about to expire—though with a drink in hand, which changes everything.
 
