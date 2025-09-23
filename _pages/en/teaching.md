@@ -83,7 +83,7 @@ nav_order: 3
     </div>
   </div>
 
-<p style="margin-left: 0.1em;"><b>2022-25</b></p>
+<p style="margin-left: 0.1em;"><b>2022/25</b></p>
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
