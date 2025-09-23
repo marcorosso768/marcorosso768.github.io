@@ -5,10 +5,10 @@ title: about me
 permalink: /
 subtitle: >
     <div style="margin-top: -20px;">
-        <p style="font-weight: 500;">Ph.D. Candidate | Unemployed</p>
+        <p style="font-weight: 500;">Ph.D. Candidate | Teaching&nbsp;Assistant</p>
     </div>
     <div style="margin: 0; padding: 0; position: relative;">
-        <!-- First row: University icon and department name | Teaching&nbsp;Assistant -->
+        <!-- First row: University icon and department name -->
         <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; margin-top: -10pt; line-height: 14pt;">
             <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color); font-size: 10pt;"></i>
         </div>
