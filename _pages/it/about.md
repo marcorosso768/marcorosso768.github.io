@@ -60,7 +60,8 @@ Quando non cerco di dare senso al caos (spoiler: il caos vince sempre), sono <b 
 E, infine, per dare un senso all'esistenza: organizzo gli <b style="color: $white-color;">Aperitivi di Dipartimento</b>. Un appuntamento mensile in cui si parla di accademia, vita, sogni infranti e bandi in scadenza—ma con un drink in mano, che cambia tutto.
 
 La mia citazione preferita?  
-<i>"Non ha senso usare la parola "impossibile" per descrivere qualcosa che è chiaramente successo."</i> (Douglas Adams — Dirk Gently, Agenzia investigativa olistica)<br>
+<i>"Non ha senso usare la parola "impossibile" per descrivere qualcosa che è chiaramente successo."</i><br>
+<span style="font-size: smaller; white-space: nowrap;">(Douglas Adams — Dirk Gently, Agenzia investigativa olistica)</span><br>
 Divertente quanto sembri ovvio una volta che ci fai caso, no?
 
 <i style="font-size: 10pt;">P.S. La versione del sito in italiano è stata pensata principalmente per la mia famiglia, così che possa capire cosa faccio e smettere di dire ai loro amici che “studio ancora” 🥰</i>
