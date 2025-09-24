@@ -61,6 +61,6 @@ Y, para no perder del todo la fe en la vida: organizo los <b style="color: $whit
 
 ¿Mi cita favorita?<br>
 <i>"No tiene sentido usar la palabra “imposible” para describir algo que claramente ya pasó."</i><br>
-<span style="font-size: smaller; white-space: nowrap; margin-top: -5px;">(Douglas Adams — Dirk Gently, Agencia de Investigación Holística)</span><br>
+<span style="font-size: smaller; white-space: nowrap; margin-top: -10px;">(Douglas Adams — Dirk Gently, Agencia de Investigación Holística)</span><br>
 Gracioso cómo parece obvio apenas te das cuenta, ¿no?
 
