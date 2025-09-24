@@ -43,12 +43,38 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/520832'>Python for Economists</a> with <a href='https://sites.google.com/site/asaia9585/alessandro-saia'>Alessandro Saia </a>
+      </div>
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        Economics and Public Policy | Applied Economics and Market — Graduate
+      </div>
+    </div>
+  </div>
+
+  <div class="teaching-entry indented">
+   <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
           <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/520826'>Econometrics</a> with <a href='https://sites.google.com/site/dennitommasi/'>Denni Tommasi </a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
         Economics and Public Policy — Graduate
+      </div>
+    </div>
+  </div>
+
+  <div class="teaching-entry indented">
+   <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/455011'>Industrial Economics</a> with <a href='https://www.unibo.it/sitoweb/vincenzo.denicolo/en'>Vincenzo Denicolò </a>
+      </div>
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        Economics, Markets and Institutions — Undergraduate
       </div>
     </div>
   </div>
