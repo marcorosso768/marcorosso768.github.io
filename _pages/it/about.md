@@ -51,21 +51,16 @@ Benvenutə nel mio sito personale—felice che tu sia arrivatə di tua spontanea
 
 Sono un <b style="color: $white-color;">dottorando al 5<sup>o</sup> anno in Economia</b> all'Università di Bologna.
 
-I miei <b style="color: $white-color;">interessi di ricerca</b> orbitano attorno a <b style="color: $white-color;">Economia Politica</b>, <b style="color: $white-color;">Economia del Crimine</b>, <b style="color: $white-color;">Economia Sperimentale</b> e <b style="color: $white-color;">Comportamentale</b>—per chi ama le domande scomode, i dilemmi etici e i dataset introvabili.
+I miei <b style="color: $white-color;">interessi di ricerca</b> ruotano attorno a <b style="color: $white-color;">Economia Politica</b>, <b style="color: $white-color;">Economia del Crimine</b>, <b style="color: $white-color;">Economia Sperimentale</b> ed <b style="color: $white-color;">Economia Comportamentale</b>—perfetti per chi ama le domande scomode, i dilemmi etici e i dataset introvabili.
 
-In questo momento sto cercando di rispondere a cose tipo:
-<ul>
-  <li>Chi sceglie di entrare nel settore pubblico sapendo di poter rubare... perché lo assumiamo?</li>
-  <li>Le notizie sui crimini influenzano davvero il nostro voto?</li>
-  <li>L’Erasmus ci cambia? (O cambia solo la nostra playlist su Spotify?)</li>
-</ul>
+Al momento mi trovo nell'emozionante limbo dell’accademia: sono in attesa delle valutazioni della mia tesi di dottorato (la discussione è prevista a gennaio) mentre esploro nuove opportunità di ricerca e lavoro.
 
-Quando non cerco di dare senso al caos (spoiler: il caos vince), sono <b style="color: $white-color;">tutor didattico</b> per i seguenti corsi: <b style="color: $white-color;">Introduzione all’Economia Comportamentale</b>, <b style="color: $white-color;">Teoria dei Giochi</b>, <b style="color: $white-color;">Economia Politica</b> e <b style="color: $white-color;">Microeconomia</b>. Cioè, cerco di spiegare concetti complessi con esempi improbabili e finta consapevolezza.
+Quando non cerco di dare senso al caos (spoiler: il caos vince sempre), sono <b style="color: $white-color;">tutor didattico</b> per i seguenti corsi: <b style="color: $white-color;">Strategie di Mercato</b>, <b style="color: $white-color;">Econometria</b>, <b style="color: $white-color;">Economia Politica</b> e <b style="color: $white-color;">Python per gli Economisit</b>. In pratica, cerco di spiegare concetti complessi e codici con metafore improbabili e una finta consapevolezza.
 
-E, infine, per dare un senso all'esistenza: organizzo gli <b style="color: $white-color;">Aperitivi di Dipartimento</b>. Un evento mensile in cui parliamo di accademia, vita, sogni infranti e bandi in scadenza—ma con un drink in mano, che cambia tutto.
+E, infine, per dare un senso all'esistenza: organizzo gli <b style="color: $white-color;">Aperitivi di Dipartimento</b>. Un appuntamento mensile in cui si parla di accademia, vita, sogni infranti e bandi in scadenza—ma con un drink in mano, che cambia tutto.
 
 La mia citazione preferita?  
-<i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i>  
-Se hai riso, sappi che potremmo anche diventare amicə. Se no... prova a rileggere.
+<i>"Non ha senso usare la parola "impossibile" per descrivere qualcosa che è chiaramente successo."</i> (Douglas Adams — Dirk Gently, Agenzia investigativa olistica)<br>
+Divertente quanto sembri ovvio una volta che ci fai caso, no?
 
 <i style="font-size: 10pt;">P.S. La versione del sito in italiano è stata pensata principalmente per la mia famiglia, così che possa capire cosa faccio e smettere di dire ai loro amici che “studio ancora” 🥰</i>
