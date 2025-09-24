@@ -77,6 +77,14 @@ td.supervisor {
   font-size: 0.8rem;
 }
 
+td.supervisor a:link,
+td.supervisor a:visited {
+  color: var(--global-theme-color);
+  text-decoration: none;
+  font-style: normal;
+  transition: font-style 0.3s ease, text-decoration 0.3s ease;
+}
+
 div.container-links {
   display: flex;
   flex-direction: row;
