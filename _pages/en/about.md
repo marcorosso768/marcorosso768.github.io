@@ -61,5 +61,5 @@ And finally, to give meaning to this whole circus: I organize the <b style="colo
 
 My favorite quote?<br>
 <i>"There is no point in using the word “impossible” to describe something that has clearly happened."</i><br>
-<span style="font-size: smaller; white-space: nowrap; margin-top: -5px;">(Douglas Adams — Dirk Gently’s Holistic Detective Agency)</span><br>
+<span style="font-size: smaller; white-space: nowrap; margin-top: -10px;">(Douglas Adams — Dirk Gently’s Holistic Detective Agency)</span><br>
 Funny how obvious it seems once you notice it, right?
