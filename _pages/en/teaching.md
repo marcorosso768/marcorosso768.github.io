@@ -74,7 +74,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics, Markets and Institutions — Undergraduate
+        Economics, Markets and Institutions — Undergraduate (in Italian)
       </div>
     </div>
   </div>
