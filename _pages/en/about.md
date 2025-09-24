@@ -51,7 +51,7 @@ Welcome to my personal website—glad you got here of your own free will (or may
 
 I’m a <b style="color: $white-color;">5<sup>th</sup>-year PhD candidate in Economics</b> at the University of Bologna.
 
-My <b style="color: $white-color;">research interests</b> orbit around <b style="color: $white-color;">Political Economy</b>, <b style="color: $white-color;">Economics of Crime</b>, <b style="color: $white-color;">Experimental Economics</b>, and <b style="color: $white-color;">Behavioral Economics</b>—perfect for anyone who enjoys uncomfortable questions, ethical dilemmas, and datasets that are impossible to find.
+My <b style="color: $white-color;">research interests</b> orbit around <b style="color: $white-color;">Political Economy</b>, <b style="color: $white-color;">Crime Economics</b>, <b style="color: $white-color;">Experimental Economics</b>, and <b style="color: $white-color;">Behavioral Economics</b>—perfect for anyone who enjoys uncomfortable questions, ethical dilemmas, and datasets that are impossible to find.
 
 At the moment, I’m in the thrilling limbo of academia: waiting for the reviews of my Ph.D. thesis (defense scheduled for January) while scouting for the next adventure.
 
