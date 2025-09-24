@@ -264,6 +264,26 @@ ul.timeline li::before {
   top: -0.5rem;
 }
 
+/* fix link behavior of supervisor tab */
+table.table-cv td.supervisor a {
+  color: var(--global-theme-color, #ffcc00) !important;
+  text-decoration: none !important;
+  font-style: normal;
+  transition: text-decoration .2s ease, font-style .2s ease;
+}
+
+table.table-cv td.supervisor a:hover,
+table.table-cv td.supervisor a:focus {
+  text-decoration: underline !important;
+  font-style: italic;
+}
+
+table.table-cv td.supervisor a.btncv {
+  color: var(--global-theme-color, #ffcc00) !important;
+  border-color: var(--global-theme-color, #ffcc00) !important;
+  text-decoration: none !important;
+}
+
 /*ul.timeline::before {
      content: "●";
      font-size: 1em;

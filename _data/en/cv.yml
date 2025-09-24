@@ -17,12 +17,12 @@
 - title: field of interest
   type: interest
   contents:
-    - field: Economics of Crime
     - field: Political Economics
+    - field: Crime Economics
     - field: Game Theory
     - field: Microeconomics
     - field: Experimental Economics
-    - field: Behavioural Economics
+    - field: Behavioral Economics
     
 - title: education
   type: time_table
