@@ -61,5 +61,5 @@ E, infine, per dare un senso all'esistenza: organizzo gli <b style="color: $whit
 
 La mia citazione preferita?  
 <i>"Non ha senso usare la parola "impossibile" per descrivere qualcosa che è chiaramente successo."</i><br>
-<span style="font-size: smaller; white-space: nowrap; margin-top: -5px;">(Douglas Adams — Dirk Gently, Agenzia investigativa olistica)</span><br>
+<span style="font-size: smaller; white-space: nowrap; margin-top: -10px;">(Douglas Adams — Dirk Gently, Agenzia investigativa olistica)</span><br>
 Divertente quanto sembri ovvio una volta che ci fai caso, no?
