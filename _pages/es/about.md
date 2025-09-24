@@ -51,19 +51,16 @@ Bienvenid@ a mi sitio personal-me alegra que hayas llegado por voluntad propia (
 
 Soy <b style="color: $white-color;">doctorando de quinto año en Economía</b> en la University of Bologna.
 
-Mis <b style="color: $white-color;">intereses de investigación</b> giran en torno a la <b style="color: $white-color;">Economía Política</b>, la <b style="color: $white-color;">Economía del Crimen</b>, la <b style="color: $white-color;">Economía Experimental</b> y la <b style="color: $white-color;">Economía del Comportamiento</b>: ideales para quienes disfrutan de preguntas incómodas, dilemas éticos y datasets imposibles de encontrar.
+Mis <b style="color: $white-color;">intereses de investigación</b> giran en torno a la <b style="color: $white-color;">Economía Política</b>, la <b style="color: $white-color;">Economía del Crimen</b>, la <b style="color: $white-color;">Economía Experimental</b> y la <b style="color: $white-color;">Economía del Comportamiento</b>—perfectos para quienes disfrutan de preguntas incómodas, dilemas éticos y bases de datos imposibles de conseguir.
 
-Actualmente, intento entender cosas como:
-<ul>
-  <li>¿Quién elige entrar al sector público sabiendo que podría robar... y por qué lo contratamos?</li>
-  <li>¿Las noticias sobre crímenes realmente afectan nuestro voto?</li>
-  <li>¿El Erasmus nos transforma? (¿O solo cambia nuestra playlist de Spotify?)</li>
-</ul>
+En este momento estoy en ese emocionante limbo de la academia: esperando las evaluaciones de mi tesis doctoral (la defensa está programada para enero) mientras exploro nuevas oportunidades de investigación y desarrollo profesional.
 
-Cuando no intento darle sentido al caos (spoiler: gana el caos), soy <b style="color: $white-color;">Asistente de Docencia</b> en los siguientes cursos: <b style="color: $white-color;">Introducción a la Economía del Comportamiento</b>, <b style="color: $white-color;">Teoría de Juegos</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Microeconomía</b>. O sea, intento explicar conceptos complejos con ejemplos improbables y falsa seguridad.
+Mientras tanto—cuando no intento darle sentido al caos (spoiler: el caos siempre gana)—soy <b style="color: $white-color;">Asistente de Docencia</b> en los siguientes cursos: <b style="color: $white-color;">Organización Industrial</b>, <b style="color: $white-color;">Econometría</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Python para Economistas</b>. ásicamente, trato de explicar conceptos y códigos complejos usando metáforas improbables y una seguridad totalmente fingida.
 
-Y, para no perder del todo la fe en la vida: organizo los <b style="color: $white-color;">Aperitivos del Departamento</b>, un evento mensual donde hablamos de academia, vida, sueños rotos y convocatorias que están por cerrarse —pero con una copa en la mano, que cambia todo.
+Y, para no perder del todo la fe en la vida: organizo los <b style="color: $white-color;">Aperitivos del Departamento</b>. Un encuentro mensual donde hablamos de academia, vida, sueños rotos y convocatorias que están por vencer—pero con un trago en la mano, lo cual cambia todo.
 
 ¿Mi cita favorita?<br>
-<i>"No, I'm not obsessive-compulsive. I just like to wash my hands."</i><br>
-Si te reíste, podríamos hasta ser amig@s. Si no… dale otra leída.
+<i>"No tiene sentido usar la palabra “imposible” para describir algo que claramente ya pasó."</i><br>
+<span style="font-size: smaller; white-space: nowrap; margin-top: -5px;">(Douglas Adams — Dirk Gently, Agencia de Investigación Holística)</span><br>
+Gracioso cómo parece obvio apenas te das cuenta, ¿no?
+
