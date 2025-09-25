@@ -69,4 +69,4 @@ Divertente quanto sembri ovvio una volta che ci fai caso, no?
   <sup><a href="#foot1">1</a></sup> Douglas Adams — <i>Dirk Gently, Agenzia investigativa olistica</i>
 </p>
 <div style="margin-top:2.5rem;"></div>
-<hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">
+<hr style="border:0; border-top:2px solid var(--global-theme-color) !important;">
