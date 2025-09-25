@@ -63,7 +63,7 @@ La mia citazione preferita?
 <i>"Non ha senso usare la parola "impossibile" per descrivere qualcosa che è chiaramente successo.<sup><a href="#fn1" id="foot1">1</a></sup>"</i><br>
 Divertente quanto sembri ovvio una volta che ci fai caso, no?
 
-<div style="margin-top:1.5rem;"></div>
+<div style="margin-top:2rem;"></div>
 
 <p id="fn1" style="font-size:small;">
   <sup><a href="#foot1">1</a></sup> Douglas Adams — <i>Dirk Gently, Agenzia investigativa olistica</i>
