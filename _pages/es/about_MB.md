@@ -1,5 +1,5 @@
 <span class="indented" style="font-size: 20pt; color: var(--global-theme-color); display: block; line-height: 1; margin-bottom: 4pt;"> Maria Bigoni </span>
-<span class="indented" style="font-size: 12pt; color: var(--global-theme-color); display: block; line-height: 1; margin-bottom: 10pt;"> <i>Supervisora del Proyecto MinUTo, anterior Directora del Doctorado</i> </span>
+<span class="indented" style="font-size: 12pt; color: var(--global-theme-color); display: block; line-height: 1; margin-bottom: 10pt;"> <i>Supervisora del Proyecto MinUTo</i> </span>
 
 <span class="indented" style="font-size: 15pt; display: block; line-height: 1; margin-bottom: 4pt;"> Profesora Titular </span>
 <span class="indented" style="display: block; line-height: 1; margin-bottom: 4pt;"> University of Bologna </span> 
