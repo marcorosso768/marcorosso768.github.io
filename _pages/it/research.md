@@ -71,7 +71,7 @@ nav_order: 1
       <i class="fa-solid fa-file-lines fa-fw"></i>
       <span>
         <em>Childcare and Civic Participation: Parental Age, Child Stage, and Voter Turnout</em><br>
-        joint with 
+        con 
         <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a>, 
         <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>, 
         <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a>, 
@@ -109,7 +109,7 @@ nav_order: 1
       <i class="fa-solid fa-file-lines fa-fw"></i>
       <span>
         <em>Crime Perception and Voting Behavior: Evidence from Individual Data</em><br>
-          join with
+          con
           <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer"> Giovanni Prarolo</a>
       </span>
     </div>
