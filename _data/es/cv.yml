@@ -17,8 +17,8 @@
 - title: áreas de interés
   type: interest
   contents:
-    - field: Economía del Crimen
     - field: Economía Política
+    - field: Economía del Crimen
     - field: Teoría de Juegos
     - field: Microeconomía
     - field: Economía Experimental
@@ -28,7 +28,7 @@
   type: time_table
   contents:
     - title: Doctorado en Economía
-      year: "2020-"
+      year: "2026"
       institution: University of Bologna
       department: DSE - Departamento de Economía
       location: "Bolonia, Italia"
@@ -70,7 +70,7 @@
   type: time_table
   contents:
     - title: "Investigador Postdoctoral: Democratización, los medios de comunicación, contexto socioeconómico y comportamiento electoral"
-      year: mayo 2024 - julio 2025
+      year: 2024-2025
       location: "Bolonia, Italia"
       institution: University of Bologna
       department: DSE - Departamento de Economía
@@ -124,7 +124,7 @@
       institution: University of Bologna
       department: DSE - Departamento de Economía
     - title: Miembro del Comité del Examen Internacional SAT para el Ingreso Universitario
-      year: 2024-
+      year: 2024-2025
       location: "Bolonia, Italia"
       institution: University of Bologna
       department: en colaboración con College Board (Nueva York)
