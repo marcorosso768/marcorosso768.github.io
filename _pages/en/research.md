@@ -109,7 +109,7 @@ nav_order: 1
       <i class="fa-solid fa-file-lines fa-fw"></i>
       <span>
         <em>Crime Perception and Voting Behavior: Evidence from Individual Data</em><br>
-          join with
+          joint with
           <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer"> Giovanni Prarolo</a>
       </span>
     </div>
