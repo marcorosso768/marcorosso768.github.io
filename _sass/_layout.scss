@@ -817,16 +817,16 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   font-style: italic;
 }
 
-.post a:link,
-.post a:visited {
+.news a:link,
+.news a:visited {
   color: var(--global-theme-color);
   text-decoration: none;
   font-style: normal;
   transition: font-style 0.3s ease, text-decoration 0.3s ease;
 }
 
-.post a:hover,
-.post a:focus {
+.news a:hover,
+.news a:focus {
   color: var(--global-theme-color);
   text-decoration: underline;
   font-style: italic;
