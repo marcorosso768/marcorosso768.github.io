@@ -63,10 +63,10 @@ My favorite quote?<br>
 <i>"There is no point in using the word “impossible” to describe something that has clearly happened.<sup><a href="#fn1" id="foot1">1</a></sup>"</i><br>
 Funny how obvious it seems once you notice it, right?
 
-<div style="margin-top:1.5rem;"></div>
-<hr style="color: var(--global-theme-color);">
+<div style="margin-top:1rem;"></div>
+<hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">
 <p id="fn1" style="font-size:small;">
   <sup><a href="#foot1">1</a></sup> Douglas Adams — <i>Dirk Gently’s Holistic Detective Agency</i>
 </p>
 <div style="margin-top:1.5rem;"></div>
-<hr style="color: var(--global-theme-color);">
+<hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">
