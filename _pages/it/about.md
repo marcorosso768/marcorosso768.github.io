@@ -27,7 +27,7 @@ subtitle: >
             </div>
             <div style="display: inline-block; padding-left: 20px; margin-top: -12pt; line-height: 14pt;">
                 <span style="font-size: 10pt;">
-                    posizione attuale: Bologna, Italia
+                    posizione attuale: Nepi (VT), Italia
                 </span>
             </div>
         </div>
@@ -60,14 +60,11 @@ Quando non cerco di dare senso al caos (spoiler: il caos vince sempre), sono <b 
 E, infine, per dare un senso all'esistenza: organizzo gli <b style="color: $white-color;">Aperitivi di Dipartimento</b>. Un appuntamento mensile in cui si parla di accademia, vita, sogni infranti e bandi in scadenza—ma con un drink in mano, che cambia tutto.
 
 La mia citazione preferita?  
-<i>"Non ha senso usare la parola "impossibile" per descrivere qualcosa che è chiaramente successo.<sup><a href="#fn1" id="ref1">1</a></sup>"</i><br>
+<i>"Non ha senso usare la parola "impossibile" per descrivere qualcosa che è chiaramente successo.<sup><a href="#fn1" id="foot1">1</a></sup>"</i><br>
 Divertente quanto sembri ovvio una volta che ci fai caso, no?
 
-<hr>
+<div style="margin-top:1.5rem;"></div>
 
-<ol>
-  <li id="fn1">
-    Douglas Adams — Dirk Gently, Agenzia investigativa olistica
-    <a href="#ref1">↩</a>
-  </li>
-</ol>
+<p id="fn1" style="font-size:small;">
+  <sup><a href="#foot1">1</a></sup> Douglas Adams — <i>Dirk Gently, Agenzia investigativa olistica</i>
+</p>
