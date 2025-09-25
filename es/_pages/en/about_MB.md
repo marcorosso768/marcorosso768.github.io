@@ -1,4 +1,4 @@
-<span class="indented" style="font-size: 20pt; color: var(--global-theme-color); display: block; line-height: 1; margin-bottom: 10pt;"> Maria Bigoni </span>
+<span class="indented" style="font-size: 20pt; color: var(--global-theme-color); display: block; line-height: 1; margin-bottom: 4pt;"> Maria Bigoni </span>
 <span class="indented" style="font-size: 12pt; color: var(--global-theme-color); display: block; line-height: 1; margin-bottom: 10pt;"> <i>MinUTo Project Supervisor, Former Ph.D. Director</i> </span>
 
 <span class="indented" style="font-size: 15pt; display: block; line-height: 1; margin-bottom: 4pt;"> Full Professor </span>
