@@ -143,7 +143,7 @@ search:
     title: Usa o tema padrão do sistema
   theme: Tema
 selected_publications: publicações selecionadas
-site_description: “Sitio web académico personal de Marco Rosso, Doctorando e Investigador Postdoctoral en la Universidad de Bolonia”
+site_description: “Sitio web personal de Marco Rosso, Doctorando en la Universidad de Bolonia”
 abstract:
   label: "Resumen"
   show: "Mostrar resumen"
