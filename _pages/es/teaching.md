@@ -37,6 +37,47 @@ nav_order: 3
 
 <div id="subsection-unibo" class="toggle-section expanded">
 
+<p style="margin-left: 0.1em;"><b>2025/26</b></p>
+
+  <div class="teaching-entry indented">
+   <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/520832'>Python para Economistas</a> con <a href='https://sites.google.com/site/asaia9585/alessandro-saia'>Alessandro Saia </a>
+      </div>
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        Economics and Public Policy & Applied Economics and Market — Maestría (en inglés)
+      </div>
+    </div>
+  </div>
+
+  <div class="teaching-entry indented">
+   <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/520826'>Econometría</a> con <a href='https://sites.google.com/site/dennitommasi/'>Denni Tommasi </a>
+      </div>
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        Economics and Public Policy — Maestría (en inglés)
+      </div>
+    </div>
+  </div>
+
+  <div class="teaching-entry indented">
+   <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/455011'>Organización Industrial</a> con <a href='https://www.unibo.it/sitoweb/vincenzo.denicolo/en'>Vincenzo Denicolò </a>
+      </div>
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        Economics, Markets and Institutions — Licenciatura (en italiano)
+      </div>
+    </div>
+  </div>
+
 <p style="margin-left: 0.1em;"><b>2024-</b></p>
 
   <div class="teaching-entry indented">
@@ -52,6 +93,8 @@ nav_order: 3
     </div>
   </div>
 
+<p style="margin-left: 0.1em;"><b>2024/25</b></p>
+
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
@@ -65,7 +108,7 @@ nav_order: 3
     </div>
   </div>
 
-<p style="margin-left: 0.1em;"><b>2022-</b></p>
+<p style="margin-left: 0.1em;"><b>2022/25</b></p>
 
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
