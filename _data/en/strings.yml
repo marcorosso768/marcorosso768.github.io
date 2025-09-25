@@ -143,7 +143,7 @@ search:
     title: Use system default theme
   theme: Theme
 selected_publications: selected publications
-site_description: Personal Academic website of Marco Rosso, Ph.D. Student and Research Fellow at the University of Bologna
+site_description: Personal Academic website of Marco Rosso, Ph.D. Candidate at the University of Bologna
 abstract:
   label: "Abstract"
   show: "Show abstract"
