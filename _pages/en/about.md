@@ -64,9 +64,9 @@ My favorite quote?<br>
 Funny how obvious it seems once you notice it, right?
 
 <div style="margin-top:1rem;"></div>
-<hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">
+<hr style="border:0; border-top:0.5px solid !important;">
 <p id="fn1" style="font-size:small;">
   <sup><a href="#foot1">1</a></sup> Douglas Adams — <i>Dirk Gently’s Holistic Detective Agency</i>
 </p>
-<div style="margin-top:3rem;"></div>
-<hr style="border:0; border-top:3px solid var(--global-theme-color) !important;">
+<div style="margin-top:2.5rem;"></div>
+<hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">
