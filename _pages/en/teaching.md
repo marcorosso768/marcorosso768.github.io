@@ -48,7 +48,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Public Policy | Applied Economics and Market — Graduate
+        Economics and Public Policy & Applied Economics and Market — Graduate
       </div>
     </div>
   </div>

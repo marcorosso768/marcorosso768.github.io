@@ -27,7 +27,7 @@ subtitle: >
             </div>
             <div style="display: inline-block; padding-left: 20px; margin-top: -12pt; line-height: 14pt;">
                 <span style="font-size: 10pt;">
-                    ubicación actual: Bolonia, Italia
+                    ubicación actual: Nepi (VT), Italia
                 </span>
             </div>
         </div>
@@ -53,14 +53,20 @@ Soy <b style="color: $white-color;">doctorando de quinto año en Economía</b> e
 
 Mis <b style="color: $white-color;">intereses de investigación</b> giran en torno a la <b style="color: $white-color;">Economía Política</b>, la <b style="color: $white-color;">Economía del Crimen</b>, la <b style="color: $white-color;">Economía Experimental</b> y la <b style="color: $white-color;">Economía del Comportamiento</b>—perfectos para quienes disfrutan de preguntas incómodas, dilemas éticos y bases de datos imposibles de conseguir.
 
-En este momento estoy en ese emocionante limbo de la academia: esperando las evaluaciones de mi tesis doctoral (la defensa está programada para enero) mientras exploro nuevas oportunidades de investigación y desarrollo profesional.
+En este momento estoy en ese emocionante limbo de la academia: esperando las evaluaciones de mi tesis doctoral (la defensa está programada para enero) mientras exploro nuevas ideas de investigación y oportunidades profesionales.
 
-Mientras tanto—cuando no intento darle sentido al caos (spoiler: el caos siempre gana)—soy <b style="color: $white-color;">Asistente de Docencia</b> en los siguientes cursos: <b style="color: $white-color;">Organización Industrial</b>, <b style="color: $white-color;">Econometría</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Python para Economistas</b>. ásicamente, trato de explicar conceptos y códigos complejos usando metáforas improbables y una seguridad totalmente fingida.
+Mientras tanto—cuando no intento darle sentido al caos (spoiler: el caos siempre gana)—soy <b style="color: $white-color;">Asistente de Docencia</b> en los siguientes cursos: <b style="color: $white-color;">Economía Industrial</b>, <b style="color: $white-color;">Econometría</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Python para Economistas</b>. ásicamente, trato de explicar conceptos y códigos complejos usando metáforas improbables y una seguridad totalmente fingida.
 
 Y, para no perder del todo la fe en la vida: organizo los <b style="color: $white-color;">Aperitivos del Departamento</b>. Un encuentro mensual donde hablamos de academia, vida, sueños rotos y convocatorias que están por vencer—pero con un trago en la mano, lo cual cambia todo.
 
-¿Mi cita favorita?<br>
-<i>"No tiene sentido usar la palabra “imposible” para describir algo que claramente ya pasó."</i><br>
-<span style="font-size: smaller; white-space: nowrap; margin-top: -10px;">(Douglas Adams — Dirk Gently, Agencia de Investigación Holística)</span><br>
-Gracioso cómo parece obvio apenas te das cuenta, ¿no?
+Mi cita favorita?<br>
+<i>"No tiene sentido usar la palabra “imposible” para describir algo que claramente ya pasó.<sup><a href="#fn1" id="foot1">1</a></sup>"</i><br>
+Gracioso cómo parece obvio apenas te das cuenta, no?
 
+<div style="margin-top:1rem;"></div>
+<hr style="border:0; border-top:0.5px solid !important;">
+<p id="fn1" style="font-size:small;">
+  <sup><a href="#foot1">1</a></sup> Douglas Adams — <i>Agencia de Investigación Holística</i>
+</p>
+<div style="margin-top:2.5rem;"></div>
+<hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">

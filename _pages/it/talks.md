@@ -75,6 +75,20 @@ nav_order: 2
 <!-- 2025 -->
 <p style="margin-left: 0.1em;"><b>2025</b></p>
 
+ <div class="seminar-entry indented">
+   <div class="seminar-entry__row seminar-entry__row--title">
+      <div class="seminar-entry__content">
+          66.ma Riunione Scientifica Annuale della Società Italiana di Economia —
+          <span class="highlight"><i>Relatore</i></span>
+      </div>
+   </div>
+    <div class="seminar-entry__row seminar-entry__row--location">
+      <div class="seminar-entry__location-text">
+        Università di Napoli Parthenope — Napoli, Italia
+      </div>
+    </div>
+  </div>
+
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">

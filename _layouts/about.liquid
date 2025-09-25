@@ -45,7 +45,7 @@ layout: default
       <!-- News -->
       {% if page.news and site.announcements.enabled %}
         <h2>
-          <a class="news-effect" href="{% case site.active_lang %}{% when 'it' %}{{ '/it/novita/' | relative_url }}{% when 'es' %}{{ '/es/novedades/' | relative_url }}{% else %}{{ '/news/' | relative_url }}{% endcase %}">
+          <a class="news-effect" href="{% case site.active_lang %}{% when 'it' %}{{ '/it/novità/' | relative_url }}{% when 'es' %}{{ '/es/novedades/' | relative_url }}{% else %}{{ '/news/' | relative_url }}{% endcase %}">
             {{ site.data[site.active_lang].strings.news }}
           </a>
         </h2>
@@ -70,6 +70,7 @@ layout: default
 
       <!-- Social -->
       {% if page.social %}
+       <hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">
         <div class="social">
           <div class="contact-note">
             {{ site.data[site.active_lang].strings.social_note }}

@@ -27,7 +27,7 @@ subtitle: >
             </div>
             <div style="display: inline-block; padding-left: 20px; margin-top: -12pt; line-height: 14pt;">
                 <span style="font-size: 10pt;">
-                    current location: Bologna, Italy
+                    current location: Nepi (VT), Italy
                 </span>
             </div>
         </div>
@@ -53,13 +53,20 @@ I’m a <b style="color: $white-color;">5<sup>th</sup>-year PhD candidate in Eco
 
 My <b style="color: $white-color;">research interests</b> orbit around <b style="color: $white-color;">Political Economy</b>, <b style="color: $white-color;">Crime Economics</b>, <b style="color: $white-color;">Experimental Economics</b>, and <b style="color: $white-color;">Behavioral Economics</b>—perfect for anyone who enjoys uncomfortable questions, ethical dilemmas, and datasets that are impossible to find.
 
-At the moment, I’m in the thrilling limbo of academia: waiting for the reviews of my Ph.D. thesis (defense scheduled for January) while exploring new research and job opportunities.
+At the moment, I’m in the thrilling limbo of academia: waiting for the reviews of my Ph.D. thesis (defense scheduled for January) while exploring new research ideas and job opportunities.
 
-Mainwhile—when I’m not trying to make sense of chaos (spoiler: chaos always wins)—I am the <b style="color: $white-color;">Teaching Assistant</b> for the following courses: <b style="color: $white-color;">Industrial Organization (in Italian)</b>, <b style="color: $white-color;">Econometrics</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Python for Economists</b>. Basically, I try to explain complex concepts and codes using unlikely metaphors and fake confidence.
+Mainwhile—when I’m not trying to make sense of chaos (spoiler: chaos always wins)—I am the <b style="color: $white-color;">Teaching Assistant</b> for the following courses: <b style="color: $white-color;">Industrial Economics</b>, <b style="color: $white-color;">Econometrics</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Python for Economists</b>. Basically, I try to explain complex concepts and codes using unlikely metaphors and fake confidence.
 
 And finally, to give meaning to this whole circus: I organize the <b style="color: $white-color;">DSE Afterwork Drinks</b>. A monthly event where we talk about academia, life, broken dreams, and calls for proposals about to expire—though with a drink in hand, which changes everything.
 
 My favorite quote?<br>
-<i>"There is no point in using the word “impossible” to describe something that has clearly happened."</i><br>
-<span style="font-size: smaller; white-space: nowrap; margin-top: -10px;">(Douglas Adams — Dirk Gently’s Holistic Detective Agency)</span><br>
+<i>"There is no point in using the word “impossible” to describe something that has clearly happened.<sup><a href="#fn1" id="foot1">1</a></sup>"</i><br>
 Funny how obvious it seems once you notice it, right?
+
+<div style="margin-top:1rem;"></div>
+<hr style="border:0; border-top:0.5px solid !important;">
+<p id="fn1" style="font-size:small;">
+  <sup><a href="#foot1">1</a></sup> Douglas Adams — <i>Dirk Gently’s Holistic Detective Agency</i>
+</p>
+<div style="margin-top:2.5rem;"></div>
+<hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">
