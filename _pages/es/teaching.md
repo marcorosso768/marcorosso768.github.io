@@ -68,7 +68,7 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/455011'>Organización Industrial</a> con <a href='https://www.unibo.it/sitoweb/vincenzo.denicolo/en'>Vincenzo Denicolò </a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/455011'>Economía Industrial</a> con <a href='https://www.unibo.it/sitoweb/vincenzo.denicolo/en'>Vincenzo Denicolò </a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
