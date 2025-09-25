@@ -53,13 +53,21 @@ Sono un <b style="color: $white-color;">dottorando al 5<sup>o</sup> anno in Econ
 
 I miei <b style="color: $white-color;">interessi di ricerca</b> ruotano attorno a <b style="color: $white-color;">Economia Politica</b>, <b style="color: $white-color;">Economia del Crimine</b>, <b style="color: $white-color;">Economia Sperimentale</b> ed <b style="color: $white-color;">Economia Comportamentale</b>—perfetti per chi ama le domande scomode, i dilemmi etici e i dataset introvabili.
 
-Al momento mi trovo nell'emozionante limbo dell’accademia: sono in attesa delle valutazioni della mia tesi di dottorato (la discussione è prevista a gennaio) mentre esploro nuove opportunità di ricerca e lavoro.
+Al momento mi trovo nell'emozionante limbo dell’accademia: sono in attesa delle valutazioni della mia tesi di dottorato (la discussione è prevista a gennaio) mentre esploro nuove idee di ricerca e opportunità di lavoro.
 
 Quando non cerco di dare senso al caos (spoiler: il caos vince sempre), sono <b style="color: $white-color;">tutor didattico</b> per i seguenti corsi: <b style="color: $white-color;">Strategie di Mercato</b>, <b style="color: $white-color;">Econometria</b>, <b style="color: $white-color;">Economia Politica</b> e <b style="color: $white-color;">Python per gli Economisit</b>. In pratica, cerco di spiegare concetti complessi e codici con metafore improbabili e una finta consapevolezza.
 
 E, infine, per dare un senso all'esistenza: organizzo gli <b style="color: $white-color;">Aperitivi di Dipartimento</b>. Un appuntamento mensile in cui si parla di accademia, vita, sogni infranti e bandi in scadenza—ma con un drink in mano, che cambia tutto.
 
 La mia citazione preferita?  
-<i>"Non ha senso usare la parola "impossibile" per descrivere qualcosa che è chiaramente successo."</i><br>
-<span style="font-size: smaller; white-space: nowrap; margin-top: -10px;">(Douglas Adams — Dirk Gently, Agenzia investigativa olistica)</span><br>
+<i>"Non ha senso usare la parola "impossibile" per descrivere qualcosa che è chiaramente successo.<sup><a href="#fn1" id="ref1">1</a></sup>"</i><br>
 Divertente quanto sembri ovvio una volta che ci fai caso, no?
+
+<hr>
+
+<ol>
+  <li id="fn1">
+    Douglas Adams — Dirk Gently, Agenzia investigativa olistica
+    <a href="#ref1">↩</a>
+  </li>
+</ol>
