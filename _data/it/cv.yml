@@ -17,8 +17,8 @@
 - title: interessi di ricerca
   type: interest
   contents:
-    - field: Economia del Crimine
     - field: Economia Politica
+    - field: Economia del Crimine
     - field: Teoria dei Giochi
     - field: Microeconomia
     - field: Economia Sperimentale
@@ -28,7 +28,7 @@
   type: time_table
   contents:
     - title: Dottorato in Economia
-      year: "2020-"
+      year: "2026"
       institution: Università di Bologna
       department: DSE - Dipartimento di Scienze Economiche
       location: "Bologna, Italia"
@@ -70,7 +70,7 @@
   type: time_table
   contents:
     - title: "Assegno di Ricerca: democratizzazione, media, fattori socio-economici e comportamento elettorale"
-      year: maggio 2024 - luglio 2025
+      year: 2024-2025
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE - Dipartimento di Scienze Economiche
@@ -127,7 +127,7 @@
       institution: Università di Bologna
       department: DSE - Dipartimento di Scienze Economiche
     - title: "Componente della Commissione SAT per l'Ammissione Universitaria Internazionale"
-      year: 2024-
+      year: 2024-2025
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: in collaborazione con College Board (New York)
