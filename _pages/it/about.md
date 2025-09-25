@@ -55,7 +55,7 @@ I miei <b style="color: $white-color;">interessi di ricerca</b> ruotano attorno 
 
 Al momento mi trovo nell'emozionante limbo dell’accademia: sono in attesa delle valutazioni della mia tesi di dottorato (la discussione è prevista a gennaio) mentre esploro nuove idee di ricerca e opportunità di lavoro.
 
-Quando non cerco di dare senso al caos (spoiler: il caos vince sempre), sono <b style="color: $white-color;">tutor didattico</b> per i seguenti corsi: <b style="color: $white-color;">Strategie di Mercato</b>, <b style="color: $white-color;">Econometria</b>, <b style="color: $white-color;">Economia Politica</b> e <b style="color: $white-color;">Python per gli Economisit</b>. In pratica, cerco di spiegare concetti complessi e codici con metafore improbabili e una finta consapevolezza.
+Quando non cerco di dare senso al caos (spoiler: il caos vince sempre), sono <b style="color: $white-color;">tutor didattico</b> per i seguenti corsi: <b style="color: $white-color;">Strategie di Mercato</b>, <b style="color: $white-color;">Econometria</b>, <b style="color: $white-color;">Economia Politica</b> e <b style="color: $white-color;">Python per gli Economisti</b>. In pratica, cerco di spiegare concetti complessi e codici con metafore improbabili e una finta consapevolezza.
 
 E, infine, per dare un senso all'esistenza: organizzo gli <b style="color: $white-color;">Aperitivi di Dipartimento</b>. Un appuntamento mensile in cui si parla di accademia, vita, sogni infranti e bandi in scadenza—ma con un drink in mano, che cambia tutto.
 
