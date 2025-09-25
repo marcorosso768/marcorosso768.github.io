@@ -60,14 +60,11 @@ Mainwhile—when I’m not trying to make sense of chaos (spoiler: chaos always 
 And finally, to give meaning to this whole circus: I organize the <b style="color: $white-color;">DSE Afterwork Drinks</b>. A monthly event where we talk about academia, life, broken dreams, and calls for proposals about to expire—though with a drink in hand, which changes everything.
 
 My favorite quote?<br>
-<i>"There is no point in using the word “impossible” to describe something that has clearly happened.<sup><a href="#fn1" id="ref1">1</a></sup>"</i><br>
+<i>"There is no point in using the word “impossible” to describe something that has clearly happened.<sup><a href="#fn1" id="foot1">1</a></sup>"</i><br>
 Funny how obvious it seems once you notice it, right?
 
-<hr>
+<div style="margin-top:1.5rem;"></div>
 
-<ol>
-  <li id="fn1">
-    Douglas Adams — Dirk Gently’s Holistic Detective Agency
-    <a href="#ref1">↩</a>
-  </li>
-</ol>
+<p id="fn1" style="font-size:small;">
+  <sup><a href="#foot1">1</a></sup> Douglas Adams — <i>Dirk Gently’s Holistic Detective Agency</i>
+</p>
