@@ -75,6 +75,12 @@
       institution: University of Bologna
       department: DSE - Departamento de Economía
       supervisor: 'supervisores: <a href="https://jnchapman.com">Jonathan Neil Chapman</a> y <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
+    - title: 'Supervisión de dos asistentes de investigación en el proyecto “Democratización, medios de comunicación, contexto socioeconómico y comportamiento electoral”'
+      year: jun—sept 2024 
+      maindescription: '<span style="color:var(--global-theme-color);">></span> Coordinación y mentoría de los asistentes en la recolección de datos, codificación y análisis preliminar'
+      location: "Bolonia, Italia"
+      institution: University of Bologna
+      department: DSE - Departamento de Economía
     - title: Implementación de Experimentos en Línea en el Contexto del Proyecto MinUTo
       year: "2024"
       location: "Bolonia, Italia"
@@ -87,11 +93,10 @@
       institution: University of Bologna
       department: DSE - Departamento de Economía
       supervisor: 'supervisores: <a href="https://www.unibo.it/sitoweb/margherita.fort/en">Margherita Fort</a> y <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
-    - title: Asistente de Investigación
+    - title: "Asistente de Investigación: Center for Research on Pensions and Welfare Policies (CeRP)"
       year: "2018"
       location: "Turín, Italia"
       institution: Collegio Carlo Alberto
-      department: Center for Research on Pensions and Welfare Policies (CeRP)
       supervisor: 'supervisora: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero</a>'
 
 - title: premios, becas y financiaciones
