@@ -71,33 +71,33 @@
   contents:
     - title: "Research Fellow: Democratization, the media, socio-economic context, and voting behavior"
       year: 2024-2025
-      supervisor: 'supervisors: <a href="https://jnchapman.com">Jonathan Neil Chapman</a> and <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
+      supervisor: 'supervisors: <a href="https://jnchapman.com">Jonathan Neil Chapman</a> and <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
     - title: 'Supervision of two research assistants on the project “Democratization, the media, socio-economic context, and voting behavior"'
       year: "Jun—Sept 2024"
-      maindescription: "Coordinated and mentored assistants in data collection, coding, and preliminary analysis"
+      maindescription: '<span style="color:var(--global-theme-color);">></span> Coordinated and mentored assistants in data collection, coding, and preliminary analysis'
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
     - title: Implementation of Online Experiments in the Context of the MinUTo Project
       year: "2024"
-      supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en">Maria Bigoni</a> and <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
+      supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en">Maria Bigoni</a> and <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
     - title: Generation and Preparation of Support Material for the Econometrics Course
       year: "2023"
-      supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/margherita.fort/en">Margherita Fort</a> and <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
+      supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/margherita.fort/en">Margherita Fort</a> and <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
     - title: "Research Assistant: Center for Research on Pensions and Welfare Policies (CeRP)"
       year: "2018"
-      supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero</a>'
       location: "Turin, Italy"
       institution: Collegio Carlo Alberto
+      supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero</a>'
 
 - title: awards, grants, and scholarships
   type: time_table
