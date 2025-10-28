@@ -12,7 +12,7 @@ subtitle: >
         <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; margin-top: -1pt; line-height: 14pt;">
             <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color); font-size: 10pt;"></i>
         </div>
-        <div style="display: inline-block; padding-left: 20px; margin-top: -10pt; line-height: 14pt;">
+        <div style="padding-left: 20px; margin-top: -10pt; line-height: 14pt;">
             <span style="color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
                 <a href="https://www.unibo.it/it">Università di Bologna,</a>
                 <a href="https://dse.unibo.it">Dipartimento di Scienze Economiche</a>
