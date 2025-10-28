@@ -16,11 +16,9 @@ subtitle: >
             <span style="color: var(--global-theme-color); font-size: 10pt;">
                 <a href="https://www.unibo.it/en/homepage">University of Bologna,</a>
                 <a href="https://dse.unibo.it/en">Department of Economics</a>
-                  <br>
-                <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna, Italy</a>
             </span>
         </div>
-        <!-- Second row: Location icon and actul location -->
+        <!-- Second row: Location icon and actul location  temp: <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna, Italy</a>-->
         <div style="margin-top: -2pt; position: relative; font-size: 10pt; margin-bottom: 15px; line-height: 14pt;">
             <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; line-height: 14pt;">
                 <i class="fa-solid fa-location-dot" style="font-size: 10pt;"></i>
