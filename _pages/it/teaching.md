@@ -74,7 +74,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Business and Economics — Laurea triennale (in inglése)
+        Business and Economics — Laurea triennale (in inglese)
       </div>
     </div>
   </div>
