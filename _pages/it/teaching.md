@@ -43,7 +43,7 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2025/520832'>Python for Economists</a> con <a href='https://sites.google.com/site/asaia9585/alessandro-saia'>Alessandro Saia </a>
+          <a href='https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2025/520832'>Python per Economisti</a> con <a href='https://sites.google.com/site/asaia9585/alessandro-saia'>Alessandro Saia </a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
@@ -92,7 +92,7 @@ nav_order: 3
     </div>
   </div>
 
-<p style="margin-left: 0.1em;"><b>2024-</b></p>
+<p style="margin-left: 0.1em;"><b>2024/26</b></p>
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
