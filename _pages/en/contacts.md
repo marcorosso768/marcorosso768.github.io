@@ -60,6 +60,11 @@ subtitle: >
   </div>
 
   <div class="icon-link indented">
+    <i><img src="https://icons.iconarchive.com/icons/academicons-team/academicons/128/clarivate-icon.png" width="1.25em" height="1.25em"></i>
+    <a href="https://www.webofscience.com/wos/author/record/OIU-6176-2025" target="_blank" rel="noopener noreferrer">Web of Science</a>
+  </div>
+
+  <div class="icon-link indented">
     <i class="ai ai-google-scholar fa-fw"></i>
     <a href="https://scholar.google.com/citations?user=KYPkHrIAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
   </div>
@@ -80,13 +85,13 @@ subtitle: >
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
     <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-3"></i>
+      <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-3"></i>
       <span>social networks</span>
     </h2>
   </a>
 </div>
 
-<div id="content-3" class="toggle-section expanded">
+<div id="content-3" class="toggle-section">
 
   <div class="icon-link indented">
     <i class="fa-brands fa-linkedin fa-fw"></i>
