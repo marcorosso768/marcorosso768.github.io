@@ -60,7 +60,7 @@ subtitle: >
   </div>
 
   <div class="icon-link indented">
-    <i class="ai ai-clarivate-square ai-fw"></i>
+    <i class="ai ai-clarivate ai-fw"></i>
     <a href="https://www.webofscience.com/wos/author/record/OIU-6176-2025" target="_blank" rel="noopener noreferrer">Web of Science</a>
   </div>
 
