@@ -60,7 +60,7 @@ subtitle: >
   </div>
 
   <div class="icon-link indented">
-    <i style:"color: var(--global-theme-color);"><img src="https://icons.iconarchive.com/icons/academicons-team/academicons/128/clarivate-icon.png" width="20" height="20"></i>
+    <i class="ai ai-clarivate-square ai-fw"></i>
     <a href="https://www.webofscience.com/wos/author/record/OIU-6176-2025" target="_blank" rel="noopener noreferrer">Web of Science</a>
   </div>
 
