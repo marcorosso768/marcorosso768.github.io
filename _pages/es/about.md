@@ -51,7 +51,7 @@ Mis <b style="color: $white-color;">intereses de investigación</b> giran en tor
 
 En este momento estoy en ese emocionante limbo de la academia: esperando las evaluaciones de mi tesis doctoral (la defensa está programada para enero) mientras exploro nuevas ideas de investigación y oportunidades profesionales.
 
-Mientras tanto—cuando no intento darle sentido al caos (spoiler: el caos siempre gana)—soy <b style="color: $white-color;">Asistente de Docencia</b> en los siguientes cursos: <b style="color: $white-color;">Economía Industrial</b>, <b style="color: $white-color;">Econometría</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Python para Economistas</b>. ásicamente, trato de explicar conceptos y códigos complejos usando metáforas improbables y una seguridad totalmente fingida.
+Mientras tanto—cuando no intento imponerle un equilibrio de Nash estrictamente superior a mi lista de pendientes para evitar la pérdida irrecuperable derivada de la inactividad—soy <b style="color: $white-color;">Asistente de Docencia</b> en los siguientes cursos: <b style="color: $white-color;">Economía Industrial</b>, <b style="color: $white-color;">Econometría</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Python para Economistas</b>. ásicamente, trato de explicar conceptos y códigos complejos usando metáforas improbables y una seguridad totalmente fingida.
 
 Y, para no perder del todo la fe en la vida: organizo los <b style="color: $white-color;">Aperitivos del Departamento</b>. Un encuentro mensual donde hablamos de academia, vida, sueños rotos y convocatorias que están por vencer—pero con un trago en la mano, lo cual cambia todo.
 
