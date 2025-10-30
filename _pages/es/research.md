@@ -130,7 +130,11 @@ nav_order: 1
       </div>
       <a href="/assets/pdf/slides/[Marco Rosso] Crime Perception and Voting Behaviour. Evidence from Individual Data (slides).pdf" class="pill-link no-external">
         <i class="fa-solid fa-download fa-2xs"></i>
-        <span class="toggle-label" title="last version: BoMoPaV Economics Meeting 2025">Diapositivas</span>
+        <span class="toggle-label" title="última versión: BoMoPaV Economics Meeting 2025">Diapositivas</span>
+      </a>
+      <a href="/assets/pdf/slides/[Marco Rosso] Crime Perception and Voting Behaviour. Evidence from Individual Data (slides short).pdf" class="pill-link no-external">
+        <i class="fa-solid fa-download fa-2xs"></i>
+        <span class="toggle-label" title="última versión: 66.ma Riunione Scientifica Annuale – Società Italiana di Economia ">Diapositivas (corte)</span>
       </a>
     </div>
     <div id="abstract-crime" class="toggle-box">
