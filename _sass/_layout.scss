@@ -831,3 +831,18 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   text-decoration: underline;
   font-style: italic;
 }
+
+.about a:link,
+.about a:visited {
+  color: var(--global-theme-color);
+  text-decoration: none;
+  font-style: normal;
+  transition: font-style 0.3s ease, text-decoration 0.3s ease;
+}
+
+.about a:hover,
+.about a:focus {
+  color: var(--global-theme-color);
+  text-decoration: underline;
+  font-style: italic;
+}
