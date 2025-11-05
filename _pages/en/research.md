@@ -151,7 +151,7 @@ nav_order: 1
     <div class="icon-entry indented">
       <i class="fa-solid fa-file-lines fa-fw" title="Working paper"></i>
       <span>
-        <em>Corruption, temptation, and self-selection in the public sector</em>
+        <em>The Tipping Point of Temptation: Selection, Integrity, and Public Service Quality</em>
       </span>
     </div>
     <div class="pill-container">
@@ -195,6 +195,22 @@ nav_order: 1
 <div id="content-3" class="toggle-section expanded">
 
   <!-- Paper 1 -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-bookmark fa-fw"></i>
+      <span>
+          <em>Bridging the Participation Gap? Public Goods as a Determinant of Electoral Engagement</em>
+          joint with 
+          <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a>, 
+          <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>, 
+          <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a>, 
+          and <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>
+      </span>
+      </span>
+    </div>
+  </div>
+
+  <!-- Paper 2 -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-bookmark fa-fw"></i>
