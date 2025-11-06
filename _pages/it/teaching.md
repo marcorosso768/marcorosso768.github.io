@@ -56,7 +56,7 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2025/520826'>Econometria</a> con <a href='https://sites.google.com/site/dennitommasi/'>Denni Tommasi </a>
+          <a href='https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2025/520826'>Misurazione e Analisi Econometrica (I.C.): Econometria</a> con <a href='https://sites.google.com/site/dennitommasi/'>Denni Tommasi </a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
@@ -127,7 +127,7 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/491971'>Teoria dei Giochi</a> con <a href='https://www.unibo.it/sitoweb/andrea.mattozzi'>Andrea Mattozzi</a>
+          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/491971'>Microeconomia (I.C.): Teoria dei Giochi</a> con <a href='https://www.unibo.it/sitoweb/andrea.mattozzi'>Andrea Mattozzi</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
@@ -185,7 +185,7 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2021/413556'>Economia e Politica della Concorrenza</a> con <a href='https://www.unibo.it/sitoweb/francesca.barigozzi'>Francesca Barigozzi</a>
+          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2021/413556'>Economia (I.C.): Economia e Politica della Concorrenza</a> con <a href='https://www.unibo.it/sitoweb/francesca.barigozzi'>Francesca Barigozzi</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
@@ -211,7 +211,7 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2021/413555'>Teoria dei Giochi</a> con <a href='https://www.unibo.it/sitoweb/natalia.montinari2'>Natalia Montinari</a>
+          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2021/413555'>Economia (I.C.): Teoria dei Giochi</a> con <a href='https://www.unibo.it/sitoweb/natalia.montinari2'>Natalia Montinari</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
