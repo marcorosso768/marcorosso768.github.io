@@ -49,7 +49,7 @@ Sono un <b style="color: $white-color;">dottorando al 5<sup>o</sup> anno in Econ
 
 I miei <b style="color: $white-color;">interessi di ricerca</b> ruotano attorno a <b style="color: $white-color;">Economia Politica</b>, <b style="color: $white-color;">Economia del Crimine</b>, <b style="color: $white-color;">Economia Sperimentale</b> ed <b style="color: $white-color;">Economia Comportamentale</b>—perfetti per chi ama le domande scomode, i dilemmi etici e i dataset introvabili.
 
-Al momento mi trovo nell'emozionante limbo dell’accademia: sono in attesa delle valutazioni della mia tesi di dottorato (la discussione è prevista a gennaio) mentre esploro nuove idee di ricerca e opportunità di lavoro.
+Al momento mi trovo nell'emozionante limbo dell’accademia: sono in attesa delle valutazioni della mia tesi di dottorato (<b style="color: $white-color;">la difesa è prevista a gennaio</b>) mentre esploro nuove idee di ricerca e opportunità di lavoro.
 
 Nel frattempo — quando non cerco di progettare un esito Pareto-superiore per la mia lista di cose da fare, così da evitare la perdita secca derivante dall’inattività — mi occupo del lancio della 
 <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">App MinUTo</a>
