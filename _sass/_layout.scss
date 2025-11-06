@@ -831,3 +831,12 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   text-decoration: underline;
   font-style: italic;
 }
+
+/* Only the About page content area */
+.post .clearfix a.external:link,
+.post .clearfix a.external:visited,
+.post .clearfix a.external:hover,
+.post .clearfix a.external:focus,
+.post .clearfix a.external:active {
+  color: var(--global-theme-color) !important;
+}
