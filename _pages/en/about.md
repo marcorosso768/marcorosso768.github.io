@@ -47,7 +47,16 @@ Welcome to my personal website—glad you got here of your own free will (or may
 
 I’m a <b style="color: $white-color;">5<sup>th</sup>-year PhD candidate in Economics</b> at the University of Bologna.
 
-My <b style="color: $white-color;">research interests</b> orbit around <b style="color: $white-color;">Political Economy</b>, <b style="color: $white-color;">Crime Economics</b>, <b style="color: $white-color;">Experimental Economics</b>, and <b style="color: $white-color;">Behavioral Economics</b>—perfect for anyone who enjoys uncomfortable questions, ethical dilemmas, and datasets that are impossible to find.
+My <b style="color: $white-color;">research</b> orbits around 
+<b style="color: $white-color;">Political Economy</b>, 
+<b style="color: $white-color;">Economics of Crime</b>, 
+<b style="color: $white-color;">Experimental</b> and 
+<b style="color: $white-color;">Behavioral Economics</b>, ideal for anyone who enjoys awkward questions, ethical dilemmas, and datasets that don’t want to be found. 
+I pair this with clean, testable <b style="color: $white-color;">theoretical framework</b> (incentives, information frictions, selection) to pin down mechanisms before chasing their empirical footprints. 
+On the tools side, I live in <b style="color: $white-color;">Python</b> (pandas, BeautifulSoup, spaCy, geopandas), 
+<b style="color: $white-color;">Stata</b> (reghdfe/hdfe, frames, rdrobust, event-study workflows, esttab), and 
+<b style="color: $white-color;">QGIS</b> or <b style="color: $white-color;">R</b>, depending on how I woke up that day. 
+This involves developing end-to-end pipelines from web-scraping and NLP to geocoding and panel construction.
 
 At the moment, I’m in the thrilling limbo of academia: waiting for the reviews of my Ph.D. thesis (defense scheduled for January) while exploring new research ideas and job opportunities.
 
