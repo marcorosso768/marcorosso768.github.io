@@ -53,10 +53,10 @@ la <b style="color: $white-color;">Economía del Crimen</b>,
 y la <b style="color: $white-color;">Economía Experimental</b> y 
 <b style="color: $white-color;">del Comportamiento</b>, ideal para quienes disfrutan de las preguntas incómodas, los dilemas éticos y los conjuntos de datos que no quieren dejarse encontrar. 
 Combino esto con un <b style="color: $white-color;">marco teórico</b> claro y comprobable (incentivos, fricciones de información, selección) para identificar los mecanismos antes de rastrear sus huellas empíricas. 
-Del lado técnico, trabajo con <b style="color: $white-color;">Python</b> (pandas, BeautifulSoup, spaCy, geopandas), 
+En el plano técnico, trabajo con <b style="color: $white-color;">Python</b> (pandas, BeautifulSoup, spaCy, geopandas), 
 <b style="color: $white-color;">Stata</b> (reghdfe/hdfe, frames, rdrobust, flujos de trabajo de event study, esttab), y 
 <b style="color: $white-color;">QGIS</b> o <b style="color: $white-color;">R</b>, según cómo me levante ese día. 
-Esto implica desarrollar pipelines completas, desde el web scraping y NLP hasta la geocodificación y la construcción de paneles.
+El trabajo también incluye el desarrollo de pipelines completas, desde las etapas de web scraping y de procesamiento del lenguaje natural (NLP) hasta la geocodificación y la construcción de datos panel.
 
 En este momento estoy en ese emocionante limbo de la academia: esperando las evaluaciones de mi tesis doctoral (<b style="color: $white-color;">la defensa está programada para enero</b>) mientras exploro nuevas ideas de investigación y oportunidades profesionales.
 
