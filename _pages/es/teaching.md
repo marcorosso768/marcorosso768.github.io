@@ -55,7 +55,7 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/520826'>Medición y Análisis Econométrico (I.C.): Econometría</a> con <a href='https://sites.google.com/site/dennitommasi/'>Denni Tommasi </a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/520826'>Medición y Análisis Econométrico (C.I.): Econometría</a> con <a href='https://sites.google.com/site/dennitommasi/'>Denni Tommasi </a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
@@ -126,7 +126,7 @@ nav_order: 3
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2024/491971'>Microeconomía (I.C.): Teoría de Juegos</a> con <a href='https://www.unibo.it/sitoweb/andrea.mattozzi/en'>Andrea Mattozzi</a>
+        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2024/491971'>Microeconomía (C.I.): Teoría de Juegos</a> con <a href='https://www.unibo.it/sitoweb/andrea.mattozzi/en'>Andrea Mattozzi</a>
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
@@ -183,7 +183,7 @@ nav_order: 3
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2021/413556'>Economía (I.C.): Economía y Política de la Competencia</a> con <a href='https://www.unibo.it/sitoweb/francesca.barigozzi/en'>Francesca Barigozzi</a>
+        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2021/413556'>Economía (C.I.): Economía y Política de la Competencia</a> con <a href='https://www.unibo.it/sitoweb/francesca.barigozzi/en'>Francesca Barigozzi</a>
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
@@ -209,7 +209,7 @@ nav_order: 3
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2021/413555'>Economía (I.C.): Teoría de Juegos</a> con <a href='https://www.unibo.it/sitoweb/natalia.montinari2/en'>Natalia Montinari</a>
+        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2021/413555'>Economía (C.I.): Teoría de Juegos</a> con <a href='https://www.unibo.it/sitoweb/natalia.montinari2/en'>Natalia Montinari</a>
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
