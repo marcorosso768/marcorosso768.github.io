@@ -96,7 +96,7 @@ nav_order: 1
      Questo studio esamina come la genitorialità e l’età dei genitori influenzino la partecipazione elettorale, utilizzando un ampio pannello amministrativo che copre l’universo degli elettori registrati a Bologna in quattro elezioni municipali e nazionali tra il 2004 e il 2013. Colleghiamo i dati individuali di affluenza elettorale a informazioni demografiche, fiscali e geospaziali dettagliate, inclusa la localizzazione e le aree di riferimento degli asili pubblici e la distanza dai seggi elettorali. Questo collegamento unico ci consente di identificare i genitori, misurare l’età del loro figlio più piccolo e controllare un ampio insieme di caratteristiche individuali e spaziali. Modelli di probabilità lineari con effetti fissi individuali e annuali non mostrano differenze medie di affluenza tra genitori e non genitori, una volta assorbita l’eterogeneità permanente. Tuttavia, emergono penalizzazioni significative quando i figli sono molto piccoli: i genitori di neonati (0–2 anni) e bambini in età prescolare (3–5 anni) votano dal tre al cinque per cento in meno rispetto ai non genitori comparabili. Queste penalizzazioni diminuiscono di circa 0,2 punti percentuali per ogni anno aggiuntivo di età dei genitori e scompaiono intorno ai quarant’anni; i genitori di figli più grandi non mostrano differenze. L’effetto negativo si concentra tra le madri, mentre l’affluenza dei padri rimane invariata. Verifiche di robustezza che includono effetti fissi di quartiere, ulteriori controlli socioeconomici e misure di prossimità residenziale agli asili confermano questi risultati e mostrano che l’accesso alle scuole non gioca alcun ruolo nel determinare l’affluenza. Nel complesso, i risultati suggeriscono che sono le intense esigenze di cura dei bambini, piuttosto che la disponibilità fisica di strutture per l’infanzia, a limitare la partecipazione politica. Essi sottolineano l’importanza dei fattori legati al ciclo di vita nei modelli di comportamento elettorale e mettono in evidenza come la fertilità posticipata e il calo delle nascite possano distorcere la rappresentanza democratica riducendo la voce politica delle famiglie più giovani.
     </div>
     <div id="keywords-ageturnout" class="toggle-box">
-       affluenza elettorale; cura dei bambini; età; partecipazione elettorale; effetti fissi.
+       affluenza elettorale, cura dei bambini, età, partecipazione elettorale, effetti fissi.
     </div>
     <div id="jel-ageturnout" class="toggle-box">
        D72; J13; J22; H75.
@@ -139,7 +139,7 @@ nav_order: 1
      Questo studio esamina l’impatto della criminalità locale sul comportamento di voto individuale, utilizzando notizie geolocalizzate legate a reati come proxy della preoccupazione pubblica per la criminalità. Basandosi su un sondaggio retrospettivo di 5000 individui in diverse tornate elettorali, la nostra analisi sfrutta il verificarsi di un evento criminoso nelle vicinanze di un elettore nei giorni precedenti alle elezioni. I risultati per le elezioni generali sono complessivamente contrastanti e non mostrano effetti sul comportamento di voto quando i reati sono commessi da italiani. Al contrario, i reati attribuiti a immigrati determinano un minore sostegno ai partiti populisti di destra, che talvolta mantengono una posizione ambigua sull’immigrazione, e un maggiore sostegno ai partiti di destra tradizionali, che enfatizzano legge e ordine. Nelle elezioni amministrative, l’effetto della criminalità è diverso: i reati commessi da italiani portano a una punizione degli incumbent, mentre i reati legati agli immigrati conducono a un aumento dell’astensione elettorale, riflettendo probabilmente lo stigma sociale associato al cambio di partito tra elettori di sinistra, il partito al governo. Questi risultati offrono nuove prospettive sulla relazione tra la salienza del tema criminalità, in particolare in relazione all’immigrazione, e il comportamento elettorale individuale.
     </div>
     <div id="keywords-crime" class="toggle-box">
-       criminalità; elezioni; partiti politici; giornali; comportamento elettorale individuale; classificazione basata su dizionario.
+       criminalità, elezioni, partiti politici, giornali, comportamento elettorale individuale, classificazione basata su dizionario.
     </div>
     <div id="jel-crime" class="toggle-box">
        D72; K42; J15; D83; L82.
@@ -151,7 +151,7 @@ nav_order: 1
     <div class="icon-entry indented">
       <i class="fa-solid fa-file-lines fa-fw" title="Working paper"></i>
       <span>
-        <em>Corruption, temptation, and self-selection in the public sector</em>
+        <em>The Tipping Point of Temptation: Selection, Integrity, and Public Service Quality</em>
       </span>
     </div>
     <div class="pill-container">
@@ -169,13 +169,13 @@ nav_order: 1
       </div>  
     </div>
     <div id="abstract-corruption" class="toggle-box">
-      Questo lavoro sviluppa un modello teorico per studiare come le opportunità di corruzione e la tentazione influenzino l’auto-selezione degli individui verso l’impiego nel settore pubblico. Il quadro analitico incorpora i costi dell’autocontrollo in un modello standard di scelta occupazionale e mostra che le opportunità di corruzione esercitano un duplice effetto: attraggono individui meno motivati e meno qualificati, mentre scoraggiano lavoratori altamente motivati e competenti che anticipano i costi di resistere alla tentazione. Per risolvere l’ambiguità che emerge da queste forze contrapposte, l’analisi considera casi di riferimento sotto distribuzioni uniformi. Con correlazione positiva tra abilità e motivazione, le previsioni sono nette: le opportunità di corruzione espandono il settore pubblico ma ne riducono la qualità quando la tentazione è lieve, e lo riducono ma ne migliorano la qualità quando la tentazione è forte. Con correlazione negativa, il modello genera un compromesso fondamentale, poiché abilità e motivazione si muovono in direzioni opposte. Il caso di indipendenza fornisce soluzioni in forma chiusa e identifica una soglia critica del parametro di tentazione che determina se il settore pubblico si espande con peggioramento o si contrae con miglioramento. Complessivamente, i risultati chiariscono i meccanismi attraverso cui le opportunità di corruzione influenzano la composizione della forza lavoro e offrono previsioni verificabili in diversi contesti istituzionali.
+      Questo lavoro propone una teoria comportamentale della selezione occupazionale che risolve la persistente ambiguità empirica riguardo alla qualità della forza lavoro del settore pubblico in contesti caratterizzati da corruzione e frizioni morali. Il modello incorpora i costi di autocontrollo e la tentazione all’interno di un quadro standard di scelta occupazionale, coerente con l’impostazione di utilità di Gul e Pesendorfer (2001). Mostriamo che gli individui intrinsecamente motivati (onesti) affrontano un costo psicologico sproporzionatamente elevato nel resistere alla tentazione, generando un duplice effetto sulla selezione: gli individui con bassa motivazione sono attratti, mentre quelli con alta motivazione risultano fortemente scoraggiati. Per risolvere l’ambiguità derivante da queste forze opposte, l’analisi stabilisce tre principi generali che governano la selezione istituzionale, supportati da derivazioni analitiche e verifiche di robustezza numeriche. Primo, identifichiamo un punto critico istituzionale, &lambda;<sup>*</sup>, che determina il regime di selezione: al di sotto di esso, la corruzione porta a un deterioramento della qualità <i>(“più ma peggio”)</i>; al di sopra, agisce come filtro selettivo, migliorando la qualità <i>(“meno ma meglio”)</i>. Secondo, mostriamo che l’esito della selezione dipende fondamentalmente dalla correlazione sociale tra abilità e onestà. Terzo, il modello offre una nuova giustificazione per gli alti salari pubblici, dimostrando che stipendi elevati mascherano o attenuano il potere selettivo della corruzione. Nel complesso, i nostri risultati chiariscono i meccanismi che determinano la composizione della forza lavoro in contesti moralmente frizionali, contribuendo alla letteratura su selezione occupazionale, motivazione al servizio pubblico e design istituzionale.
     </div>
     <div id="keywords-corruption" class="toggle-box">
-      settore pubblico; auto-selezione; corruzione; tentazione; autocontrollo.
+      selezione occupazionale, autocontrollo, corruzione, frizioni morali, qualità del settore pubblico.
     </div>
     <div id="jel-corruption" class="toggle-box">
-       D73; H83; K42; J45; D91.
+       D73; J45; D90; H83; K42.
     </div>
   </div>
 
@@ -194,7 +194,22 @@ nav_order: 1
 <!-- Content -->
 <div id="content-3" class="toggle-section expanded">
 
- <!-- Paper 1 -->
+<!-- Paper 1 -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-bookmark fa-fw"></i>
+      <span>
+          <em>Bridging the Participation Gap? Public Goods as a Determinant of Electoral Engagement</em><br>
+        con 
+        <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a>, 
+        <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>, 
+        <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a>, 
+        and <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>
+      </span>
+    </div>
+  </div>
+
+ <!-- Paper 2 -->
  <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-bookmark fa-fw"></i>
