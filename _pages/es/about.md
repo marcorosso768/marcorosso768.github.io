@@ -74,7 +74,7 @@ Gracioso cómo parece obvio apenas te das cuenta, no?
   <sup><a href="#foot1">1</a></sup> Lamentablemente, la App MinUTo está disponible solo en italiano
 </div>
 <div id="fn1" style="font-size:small;">
-  <sup><a href="#foot1">1</a></sup> Douglas Adams — <i>Agencia de Investigación Holística</i>
+  <sup><a href="#foot1">2</a></sup> Douglas Adams — <i>Agencia de Investigación Holística</i>
 </div>
 <div style="margin-top:2.5rem;"></div>
 <hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">
