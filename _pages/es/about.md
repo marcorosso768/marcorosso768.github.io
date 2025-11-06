@@ -65,7 +65,7 @@ La mayor parte del tiempo traduzco ideas y códigos complejos en metáforas poco
 Y, para no perder del todo la fe en la vida: organizo los <b style="color: $white-color;">Aperitivos del Departamento</b>. Un encuentro mensual donde hablamos de academia, vida, sueños rotos y convocatorias que están por vencer—pero con un trago en la mano, lo cual cambia todo.
 
 Mi cita favorita?<br>
-<i>"No tiene sentido usar la palabra “imposible” para describir algo que claramente ya pasó.<sup><a href="#fn2" id="foot2">&nbsp;2</a></sup>"</i><br>
+<i>"No tiene sentido usar la palabra “imposible” para describir algo que claramente ya pasó."</i><sup><a href="#fn2" id="foot2">&nbsp;2</a></sup><br>
 Gracioso cómo parece obvio apenas te das cuenta, no?
 
 <div style="margin-top:1rem;"></div>
