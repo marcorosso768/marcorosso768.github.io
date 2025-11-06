@@ -51,18 +51,30 @@ Mis <b style="color: $white-color;">intereses de investigación</b> giran en tor
 
 En este momento estoy en ese emocionante limbo de la academia: esperando las evaluaciones de mi tesis doctoral (la defensa está programada para enero) mientras exploro nuevas ideas de investigación y oportunidades profesionales.
 
-Mientras tanto—cuando no intento imponerle un equilibrio de Nash estrictamente superior a mi lista de pendientes para evitar la pérdida irrecuperable derivada de la inactividad—soy <b style="color: $white-color;">Asistente de Docencia</b> en los siguientes cursos: <b style="color: $white-color;">Economía Industrial</b>, <b style="color: $white-color;">Econometría</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Python para Economistas</b>. ásicamente, trato de explicar conceptos y códigos complejos usando metáforas improbables y una seguridad totalmente fingida.
+Mientras tanto — cuando no intento diseñar un resultado Pareto-superior para mi lista de pendientes, para evitar la pérdida irrecuperable derivada de la inactividad — trabajo en el lanzamiento de la 
+<a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">App MinUTo</a><sup><a href="#fn1" id="foot1">1</a></sup> 
+en apoyo a la crianza consciente, continuando con las entrevistas en línea que realicé para el 
+<a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">Proyecto MinUTo</a>. 
+Además, soy <b style="color: $white-color;">asistente de docencia</b> en los cursos de 
+<b style="color: $white-color;">Economía Industrial</b>, 
+<b style="color: $white-color;">Econometría</b>, 
+<b style="color: $white-color;">Economía Política</b> 
+y <b style="color: $white-color;">Python para Economistas</b>. 
+La mayor parte del tiempo traduzco ideas y códigos complejos en metáforas poco probables — con una confianza solo parcialmente justificada.
 
 Y, para no perder del todo la fe en la vida: organizo los <b style="color: $white-color;">Aperitivos del Departamento</b>. Un encuentro mensual donde hablamos de academia, vida, sueños rotos y convocatorias que están por vencer—pero con un trago en la mano, lo cual cambia todo.
 
 Mi cita favorita?<br>
-<i>"No tiene sentido usar la palabra “imposible” para describir algo que claramente ya pasó.<sup><a href="#fn1" id="foot1">1</a></sup>"</i><br>
+<i>"No tiene sentido usar la palabra “imposible” para describir algo que claramente ya pasó.<sup><a href="#fn2" id="foot2">&nbsp;2</a></sup>"</i><br>
 Gracioso cómo parece obvio apenas te das cuenta, no?
 
 <div style="margin-top:1rem;"></div>
 <hr style="border:0; border-top:0.5px solid !important;">
-<p id="fn1" style="font-size:small;">
+<div id="fn1" style="font-size:small;">
+  <sup><a href="#foot1">1</a></sup> Lamentablemente, la App MinUTo está disponible solo en italiano
+</div>
+<div id="fn1" style="font-size:small;">
   <sup><a href="#foot1">1</a></sup> Douglas Adams — <i>Agencia de Investigación Holística</i>
-</p>
+</div>
 <div style="margin-top:2.5rem;"></div>
 <hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">
