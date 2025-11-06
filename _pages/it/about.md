@@ -47,7 +47,16 @@ Benvenutə nel mio sito personale—felice che tu sia arrivatə di tua spontanea
 
 Sono un <b style="color: $white-color;">dottorando al 5<sup>o</sup> anno in Economia</b> all'Università di Bologna.
 
-I miei <b style="color: $white-color;">interessi di ricerca</b> ruotano attorno a <b style="color: $white-color;">Economia Politica</b>, <b style="color: $white-color;">Economia del Crimine</b>, <b style="color: $white-color;">Economia Sperimentale</b> ed <b style="color: $white-color;">Economia Comportamentale</b>—perfetti per chi ama le domande scomode, i dilemmi etici e i dataset introvabili.
+La mia <b style="color: $white-color;">ricerca</b> ruota attorno 
+all’<b style="color: $white-color;">Economia Politica</b>, 
+all’<b style="color: $white-color;">Economia del Crimine</b>, 
+e all’<b style="color: $white-color;">Economia Sperimentale</b> e 
+<b style="color: $white-color;">Comportamentale</b>, ideale per chi ama le domande scomode, i dilemmi etici e i dataset che sembrano non voler essere trovati. 
+Abbino a questo un <b style="color: $white-color;">quadro teorico</b> pulito e verificabile (incentivi, frizioni informative, selezione) per individuare i meccanismi prima di seguirne le tracce empiriche. 
+Sul piano tecnico, lavoro con <b style="color: $white-color;">Python</b> (pandas, BeautifulSoup, spaCy, geopandas), 
+<b style="color: $white-color;">Stata</b> (reghdfe/hdfe, frames, rdrobust, procedure di event study, esttab), e 
+<b style="color: $white-color;">QGIS</b> o <b style="color: $white-color;">R</b>, a seconda di come mi sveglio la mattina. 
+Il lavoro comprende anche lo sviluppo di pipeline complete, dalle fasi di web scraping e di elaborazione del linguaggio naturale (NLP) fino alla geocodifica e alla costruzione di dati panel.
 
 Al momento mi trovo nell'emozionante limbo dell’accademia: sono in attesa delle valutazioni della mia tesi di dottorato (<b style="color: $white-color;">la difesa è prevista a gennaio</b>) mentre esploro nuove idee di ricerca e opportunità di lavoro.
 
