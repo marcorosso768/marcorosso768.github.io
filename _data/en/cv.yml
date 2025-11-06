@@ -80,7 +80,7 @@
       supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en">Maria Bigoni</a> and <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
     - title: Generation and Preparation of Support Material for the Econometrics Course
       year: "2023"
-      maindescription: '<span style="font-size:0.8em; letter-spacing:-0.05em; line-height:0.85em;"><span style="color:var(--global-theme-color);"> > </span> <i>Designed and implemented quizzes on the mcEmpirics platform and authored an introductory Stata guide</i></span>'
+      maindescription: '<span style="font-size:0.8em; letter-spacing:-0.05em; line-height:0.85em;"><span style="color:var(--global-theme-color);"> > </span> <i>Design and implementation of quizzes on the mcEmpirics platform and authorship of an introductory Stata guide</i></span>'
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
