@@ -1,23 +1,7 @@
-- title: current positions
-  type: map
-  contents:
-    - name:
-      value: >
-        <div style="display: flex; flex-direction: column; gap: 0.6em;">
-          <div style="display: flex; align-items: flex-start;">
-            <i class="fa-solid fa-graduation-cap fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1.4;"></i>
-            <div style="font-variant: small-caps;">Ph.D. Candidate in Economics</div>
-          </div>
-          <div style="display: flex; align-items: flex-start;">
-            <i class="fa-solid fa-chalkboard-user fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1.4;"></i>
-            <div style="font-variant: small-caps;">Teaching Assistant</div>
-          </div>
-        </div>
-
 - title: field of interest
   type: interest
   contents:
-    - field: Political Economics
+    - field: Political Economy
     - field: Crime Economics
     - field: Game Theory
     - field: Microeconomics
@@ -70,38 +54,39 @@
   type: time_table
   contents:
     - title: 'Distribution of the MinUTo App in Support of Mindful Parenting'
-      year: "Nov-Dec 2024"
+      year: "Nov-Dec 2025"
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
       supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en">Maria Bigoni</a>'
     - title: "Research Fellow: Democratization, the media, socio-economic context, and voting behavior"
-      year: 2024-2025
+      year: "May 2024-Jul 2025"
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
       supervisor: 'supervisors: <a href="https://jnchapman.com">Jonathan Neil Chapman</a> and <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
     - title: 'Supervision of two research assistants on the project “Democratization, the media, socio-economic context, and voting behavior"'
       year: "Jun—Sept 2024"
-      maindescription: '<span style="color:var(--global-theme-color);">></span> <i>Coordination and mentoring in data collection, coding, and preliminary analysis</i>'
+      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Coordination and mentoring in data collection, coding, and preliminary analysis</i></p>'
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
     - title: '"At the Roots of Child Development: On the Role of Parental Beliefs, Preferences and Engagement" in the Context of the MinUTo Project'
       year: "Jan-Apr 2024"
-      maindescription: '<span style="color:var(--global-theme-color);">></span> <i>Implementation of online experiments using the Qualtrics platform, management of communications and coordination with schools and families, and delivery and collection of the materials required for the experiments</i>'
+      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Implementation of online experiments using the Qualtrics platform, management of communications and coordination with schools and families, and delivery and collection of the materials required for the experiments</i></p>'
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
       supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en">Maria Bigoni</a> and <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
     - title: Generation and Preparation of Support Material for the Econometrics Course
-      year: "2023"
+      year: "Nov-Dec 2023"
+      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Design and implementation of quizzes on the mcEmpirics platform and authorship of an introductory Stata guide</i></p>'
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE - Department of Economics
       supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/margherita.fort/en">Margherita Fort</a> and <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
     - title: "Research Assistant: Center for Research on Pensions and Welfare Policies (CeRP)"
-      year: "2018"
+      year: "Sept-Dec 2018"
       location: "Turin, Italy"
       institution: Collegio Carlo Alberto
       supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero</a>'

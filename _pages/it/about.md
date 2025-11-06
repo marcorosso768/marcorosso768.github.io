@@ -47,22 +47,41 @@ Benvenutə nel mio sito personale—felice che tu sia arrivatə di tua spontanea
 
 Sono un <b style="color: $white-color;">dottorando al 5<sup>o</sup> anno in Economia</b> all'Università di Bologna.
 
-I miei <b style="color: $white-color;">interessi di ricerca</b> ruotano attorno a <b style="color: $white-color;">Economia Politica</b>, <b style="color: $white-color;">Economia del Crimine</b>, <b style="color: $white-color;">Economia Sperimentale</b> ed <b style="color: $white-color;">Economia Comportamentale</b>—perfetti per chi ama le domande scomode, i dilemmi etici e i dataset introvabili.
+La mia <b style="color: $white-color;">ricerca</b> ruota attorno 
+all’<b style="color: $white-color;">Economia Politica</b>, 
+all’<b style="color: $white-color;">Economia del Crimine</b>, 
+e all’<b style="color: $white-color;">Economia Sperimentale</b> e 
+<b style="color: $white-color;">Comportamentale</b>, ideale per chi ama le domande scomode, i dilemmi etici e i dataset che sembrano non voler essere trovati.
 
-Al momento mi trovo nell'emozionante limbo dell’accademia: sono in attesa delle valutazioni della mia tesi di dottorato (la discussione è prevista a gennaio) mentre esploro nuove idee di ricerca e opportunità di lavoro.
+Abbino a questo un <b style="color: $white-color;">quadro teorico</b> pulito e verificabile (incentivi, frizioni informative, selezione) per individuare i meccanismi prima di seguirne le tracce empiriche. 
+Sul piano tecnico, lavoro con <b style="color: $white-color;">Python</b> (pandas, BeautifulSoup, spaCy, geopandas), 
+<b style="color: $white-color;">Stata</b> (reghdfe/hdfe, frames, rdrobust, procedure di event study, esttab), e 
+<b style="color: $white-color;">QGIS</b> o <b style="color: $white-color;">R</b>, a seconda di come mi sveglio la mattina. 
+Il lavoro comprende anche lo sviluppo di pipeline complete, dalle fasi di web scraping e di elaborazione del linguaggio naturale (NLP) fino alla geocodifica e alla costruzione di dati panel.
 
-Quando non cerco di imporre un equilibrio di Nash strettamente superiore alla mia lista di cose da fare per evitare la perdita secca derivante dall’inattività, sono <b style="color: $white-color;">tutor didattico</b> per i seguenti corsi: <b style="color: $white-color;">Strategie di Mercato</b>, <b style="color: $white-color;">Econometria</b>, <b style="color: $white-color;">Economia Politica</b> e <b style="color: $white-color;">Python per Economisti</b>. In pratica, cerco di spiegare concetti complessi e codici con metafore improbabili e una finta consapevolezza.
+Al momento mi trovo nell'emozionante limbo dell’accademia: sono in attesa delle valutazioni della mia tesi di dottorato (<b style="color: $white-color;">la difesa è prevista a gennaio</b>) mentre esploro nuove idee di ricerca e opportunità di lavoro.
+
+Nel frattempo — quando non cerco di progettare un esito Pareto-superiore per la mia lista di cose da fare, così da evitare la perdita secca derivante dall’inattività — mi occupo del lancio della 
+<a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">App MinUTo</a>
+a supporto della genitorialità consapevole, proseguendo il lavoro delle interviste online che ho condotto per il 
+<a href="https://site.unibo.it/minuto/it" target="_blank" rel="noopener noreferrer" class="external">Progetto MinUTo</a>. 
+Inoltre, sono <b style="color: $white-color;">assistente alla didattica</b> per i corsi di 
+<b style="color: $white-color;">Economia Industriale</b>, 
+<b style="color: $white-color;">Econometria</b>, 
+<b style="color: $white-color;">Economia Politica</b> 
+e <b style="color: $white-color;">Python per Economisti</b>. 
+Per lo più, traduco idee e codici complessi in metafore improbabili — con una sicurezza solo parzialmente giustificata.
 
 E, infine, per dare un senso all'esistenza: organizzo gli <b style="color: $white-color;">Aperitivi di Dipartimento</b>. Un appuntamento mensile in cui si parla di accademia, vita, sogni infranti e bandi in scadenza—ma con un drink in mano, che cambia tutto.
 
 La mia citazione preferita?  
-<i>"Non ha senso usare la parola "impossibile" per descrivere qualcosa che è chiaramente successo.<sup><a href="#fn1" id="foot1">1</a></sup>"</i><br>
+<i>"Non ha senso usare la parola "impossibile" per descrivere qualcosa che è chiaramente successo."</i><sup><a href="#fn1" id="foot1">&nbsp;1</a></sup><br>
 Divertente quanto sembri ovvio una volta che ci fai caso, no?
 
 <div style="margin-top:1rem;"></div>
 <hr style="border:0; border-top:0.5px solid !important;">
-<p id="fn1" style="font-size:small;">
+<div id="fn1" style="font-size:small;">
   <sup><a href="#foot1">1</a></sup> Douglas Adams — <i>Dirk Gently, Agenzia investigativa olistica</i>
-</p>
+</div>
 <div style="margin-top:2.5rem;"></div>
 <hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">
