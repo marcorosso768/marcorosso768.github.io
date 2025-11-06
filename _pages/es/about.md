@@ -51,7 +51,8 @@ Mi <b style="color: $white-color;">investigación</b> gira en torno a la
 <b style="color: $white-color;">Economía Política</b>, 
 la <b style="color: $white-color;">Economía del Crimen</b>, 
 y la <b style="color: $white-color;">Economía Experimental</b> y 
-<b style="color: $white-color;">del Comportamiento</b>, ideal para quienes disfrutan de las preguntas incómodas, los dilemas éticos y los conjuntos de datos que no quieren dejarse encontrar. 
+<b style="color: $white-color;">del Comportamiento</b>, ideal para quienes disfrutan de las preguntas incómodas, los dilemas éticos y los conjuntos de datos que no quieren dejarse encontrar.
+
 Combino esto con un <b style="color: $white-color;">marco teórico</b> claro y comprobable (incentivos, fricciones de información, selección) para identificar los mecanismos antes de rastrear sus huellas empíricas. 
 En el plano técnico, trabajo con <b style="color: $white-color;">Python</b> (pandas, BeautifulSoup, spaCy, geopandas), 
 <b style="color: $white-color;">Stata</b> (reghdfe/hdfe, frames, rdrobust, flujos de trabajo de event study, esttab), y 
