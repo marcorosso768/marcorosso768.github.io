@@ -49,9 +49,10 @@ I’m a <b style="color: $white-color;">5<sup>th</sup>-year PhD candidate in Eco
 
 My <b style="color: $white-color;">research</b> orbits around 
 <b style="color: $white-color;">Political Economy</b>, 
-<b style="color: $white-color;">Economics of Crime</b>, 
+<b style="color: $white-color;">Crime Economics</b>, 
 <b style="color: $white-color;">Experimental</b> and 
-<b style="color: $white-color;">Behavioral Economics</b>, ideal for anyone who enjoys awkward questions, ethical dilemmas, and datasets that don’t want to be found. 
+<b style="color: $white-color;">Behavioral Economics</b>, ideal for anyone who enjoys awkward questions, ethical dilemmas, and datasets that don’t want to be found.
+
 I pair this with clean, testable <b style="color: $white-color;">theoretical framework</b> (incentives, information frictions, selection) to pin down mechanisms before chasing their empirical footprints. 
 On the tools side, I live in <b style="color: $white-color;">Python</b> (pandas, BeautifulSoup, spaCy, geopandas), 
 <b style="color: $white-color;">Stata</b> (reghdfe/hdfe, frames, rdrobust, event-study workflows, esttab), and 
