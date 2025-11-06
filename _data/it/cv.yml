@@ -54,39 +54,39 @@
   type: time_table
   contents:
     - title: 'Distribuzione dell’App MinUTo a Supporto della Genitorialità Consapevole'
-      year: "Nov-Dic 2025"
+      year: "nov-dic 2025"
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE - Dipartimento di Scienze Economiche
       supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/maria.bigoni/it">Maria Bigoni</a>'
     - title: "Assegno di Ricerca: democratizzazione, media, fattori socio-economici e comportamento elettorale"
-      year: 2024-2025
+      year: "mag 2024-lug 2025"
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE - Dipartimento di Scienze Economiche
       supervisor: 'supervisor: <a href="https://jnchapman.com">Jonathan Neil Chapman</a> e <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
     - title: 'Supervisione di due assistenti di ricerca nel progetto “Democratizzazione, media, contesto socio-economico e comportamento elettorale”'
-      year: "Giu—Set 2024"
+      year: "giu—set 2024"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Coordinamento e formazione nelle attività di raccolta dati, scrittura di codici e analisi preliminari</i></p>'
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE - Dipartimento di Scienze Economiche
     - title: '“Alle radici dello sviluppo infantile: sul ruolo delle convinzioni, delle preferenze e del coinvolgimento genitoriale” nel contesto del Progetto MinUTo'
-      year: "Gen—Apr 2024"
+      year: "gen—apr 2024"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Implementazione di esperimenti online mediante la piattaforma Qualtrics, gestione delle comunicazioni e del coordinamento con scuole e famiglie, e consegna e raccolta dei materiali necessari alla realizzazione degli esperimenti</i></p>'
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE - Dipartimento di Scienze Economiche
       supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/maria.bigoni/it">Maria Bigoni</a> e <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
     - title: 'Generazione e preparazione di materiali di supporto all’insegnamento per il corso di Econometria'
-      year: "2023"
+      year: "nov-dic 2023"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Progettazione e implementazione di quiz sulla piattaforma mcEmpirics e redazione di una guida introduttiva a Stata</i></p>'
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE - Dipartimento di Scienze Economiche
       supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/margherita.fort/it">Margherita Fort</a> e <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'   
     - title: "Assistente di Ricerca: Centro di Ricerca sulle Pensioni e le Politiche Sociali (CeRP)"
-      year: "2018"
+      year: "set-dic 2018"
       location: "Torino, Italia"
       institution: Collegio Carlo Alberto
       supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero</a>'
