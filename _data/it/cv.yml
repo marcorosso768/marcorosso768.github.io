@@ -14,7 +14,7 @@
     - title: Dottorato in Economia
       year: "2026"
       institution: Università di Bologna
-      department: DSE - Dipartimento di Scienze Economiche
+      department: DSE — Dipartimento di Scienze Economiche
       location: "Bologna, Italia"
       supervisor: 'supervisor: <a href="https://sites.google.com/site/paolovanin/">Paolo Vanin</a>'
     - title: Master di secondo Livello in Economia
@@ -25,13 +25,13 @@
       year: "2019"
       location: "Torino, Italia"
       institution: Università degli Studi di Torino
-      department: ESOMAS - Dipartimento di Scienze Economico-Sociali e Matematico-Statistiche
+      department: ESOMAS — Dipartimento di Scienze Economico-Sociali e Matematico-Statistiche
       supervisor: 'relatore: <a href="https://sites.google.com/site/giovannimastrobuoni/">Giovanni Mastrobuoni</a>'
     - title: "Laurea triennale in Matematica"
       year: "2015"
       location: "Torino, Italia"
       institution: Università degli Studi di Torino
-      department: Dipartimento di Matematica
+      department: 'Dipartimento di Matematica "Giuseppe Peano"'
       supervisor: 'relatrice: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis</a>'
 
 - title: periodi in visita
@@ -54,39 +54,39 @@
   type: time_table
   contents:
     - title: 'Distribuzione dell’App MinUTo a Supporto della Genitorialità Consapevole'
-      year: "nov-dic 2025"
+      year: "nov—dic 2025"
       location: "Bologna, Italia"
       institution: Università di Bologna
-      department: DSE - Dipartimento di Scienze Economiche
+      department: DSE — Dipartimento di Scienze Economiche
       supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/maria.bigoni/it">Maria Bigoni</a>'
     - title: "Assegno di Ricerca: democratizzazione, media, fattori socio-economici e comportamento elettorale"
-      year: "mag 2024-lug 2025"
+      year: "mag 2024—lug 2025"
       location: "Bologna, Italia"
       institution: Università di Bologna
-      department: DSE - Dipartimento di Scienze Economiche
+      department: DSE — Dipartimento di Scienze Economiche
       supervisor: 'supervisor: <a href="https://jnchapman.com">Jonathan Neil Chapman</a> e <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
     - title: 'Supervisione di due assistenti di ricerca nel progetto “Democratizzazione, media, contesto socio-economico e comportamento elettorale”'
       year: "giu—set 2024"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Coordinamento e formazione nelle attività di raccolta dati, scrittura di codici e analisi preliminari</i></p>'
       location: "Bologna, Italia"
       institution: Università di Bologna
-      department: DSE - Dipartimento di Scienze Economiche
+      department: DSE — Dipartimento di Scienze Economiche
     - title: '“Alle radici dello sviluppo infantile: sul ruolo delle convinzioni, delle preferenze e del coinvolgimento genitoriale” nel contesto del Progetto MinUTo'
       year: "gen—apr 2024"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Implementazione di esperimenti online mediante la piattaforma Qualtrics, gestione delle comunicazioni e del coordinamento con scuole e famiglie, e consegna e raccolta dei materiali necessari alla realizzazione degli esperimenti</i></p>'
       location: "Bologna, Italia"
       institution: Università di Bologna
-      department: DSE - Dipartimento di Scienze Economiche
+      department: DSE — Dipartimento di Scienze Economiche
       supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/maria.bigoni/it">Maria Bigoni</a> e <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
     - title: 'Generazione e preparazione di materiali di supporto all’insegnamento per il corso di Econometria'
-      year: "nov-dic 2023"
+      year: "nov—dic 2023"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Progettazione e implementazione di quiz sulla piattaforma mcEmpirics e redazione di una guida introduttiva a Stata</i></p>'
       location: "Bologna, Italia"
       institution: Università di Bologna
-      department: DSE - Dipartimento di Scienze Economiche
+      department: DSE — Dipartimento di Scienze Economiche
       supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/margherita.fort/it">Margherita Fort</a> e <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'   
     - title: "Assistente di Ricerca: Centro di Ricerca sulle Pensioni e le Politiche Sociali (CeRP)"
-      year: "set-dic 2018"
+      year: "set—dic 2018"
       location: "Torino, Italia"
       institution: Collegio Carlo Alberto
       supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero</a>'
@@ -98,17 +98,17 @@
       year: "2024"
       location: "Bologna, Italia"
       institution: Università di Bologna
-      department: DSE - Dipartimento di Scienze Economiche
+      department: DSE — Dipartimento di Scienze Economiche
     - title: Borsa di Studio di 4 anni, Dottorato in Economia
       year: "2020"
       location: "Bologna, Italia"
       institution: Università di Bologna
-      department: DSE - Dipartimento di Scienze Economiche
+      department: DSE — Dipartimento di Scienze Economiche
     - title: Dignità di Stampa per la Tesi Magistrale
       year: "2019"
       location: "Torino, Italia"
       institution: Università degli Studi di Torino
-      department: ESOMAS - Dipartimento di Scienze Economico-Sociali e Matematico-Statistiche
+      department: ESOMAS — Dipartimento di Scienze Economico-Sociali e Matematico-Statistiche
 
 - title: incarichi accademici
   type: time_table
@@ -117,14 +117,14 @@
       year: "2025"
       location: "Bologna, Italia"
       institution: Università di Bologna
-      department: DSE - Dipartimento di Scienze Economiche
+      department: DSE — Dipartimento di Scienze Economiche
     - title: "Rappresentante degli Assegnisti nella Giunta di Dipartimento"
       year: "2025"
       location: "Bologna, Italia"
       institution: Università di Bologna
-      department: DSE - Dipartimento di Scienze Economiche
+      department: DSE — Dipartimento di Scienze Economiche
     - title: "Componente della Commissione SAT per l'Ammissione Universitaria Internazionale"
-      year: 2024-2025
+      year: 2024—2025
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: in collaborazione con College Board (New York)
@@ -145,25 +145,25 @@
   type: time_table
   contents:
     - title: 'Organizzatore degli "Aperitivi di Dipartimento"'
-      year: 2022-
+      year: 2022—
       location: "Bologna, Italia"
       institution: Università di Bologna
-      department: DSE - Dipartimento di Scienze Economiche
+      department: DSE — Dipartimento di Scienze Economiche
     - title: 'Fundatore e Organizzatore delle "Partite Settimanali di Calcio del Dipartimento"'
-      year: 2023-2024
+      year: 2023—2024
       location: "Bologna, Italia"
       institution: Università di Bologna
-      department: DSE - Dipartimento di Scienze Economiche
+      department: DSE — Dipartimento di Scienze Economiche
     - title: 'Co-organizzatore del "Research in Steps" (RiS), serie di seminari per gli studenti di dottorato'
-      year: 2022-2023
+      year: 2022—2023
       location: "Bologna, Italia"
       institution: Università di Bologna
-      department: DSE - Dipartimento di Scienze Economiche
+      department: DSE — Dipartimento di Scienze Economiche
     - title: 'Co-fondatore e Co-organizzatore del Gruppo di Lettura su "Political Economics of Violence and Corruption"'
-      year: 2021-2022
+      year: 2021—2022
       location: "Bologna, Italia"
       institution: Università di Bologna
-      department: DSE - Dipartimento di Scienze Economiche
+      department: DSE — Dipartimento di Scienze Economiche
     
 - title: conoscenze linguistiche
   type: list_languages
@@ -194,15 +194,15 @@
   type: time_table
   contents:
     - title: Operatore per la raccolta dati in sede e sul campo
-      year: 2016-2021
+      year: 2016—2021
       firm: Deltatre
       location: "Torino, Italia"
     - title: Allenatore di calcio giovanile
-      year: 2014-2016
+      year: 2014—2016
       soccer: A.P.D. Pecetto
       location: "Pecetto, Italia"
     - title: Allenatore di calcio giovanile
-      year: 2013-2014
+      year: 2013—2014
       soccer: C.S.F. Carmagnola
       location: "Carmagnola, Italia"
 
