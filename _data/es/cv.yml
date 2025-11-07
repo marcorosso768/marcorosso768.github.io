@@ -14,7 +14,7 @@
     - title: Doctorado en Economía
       year: "2026"
       institution: University of Bologna
-      department: DSE - Departamento de Economía
+      department: DSE — Departamento de Economía
       location: "Bolonia, Italia"
       supervisor: 'supervisor: <a href="https://sites.google.com/site/paolovanin/">Paolo Vanin</a>'
     - title: Máster en Economía
@@ -25,26 +25,26 @@
       year: "2019"
       location: "Turín, Italia"
       institution: University of Turin
-      department: ESOMAS - Departamento de Economía
+      department: ESOMAS — Departamento de Economía
       supervisor: 'director de tesis: <a href="https://sites.google.com/site/giovannimastrobuoni/">Giovanni Mastrobuoni</a>'
     - title: Licenciatura en Matemáticas
       year: "2015"
       location: "Turín, Italia"
       institution: University of Turin
-      department: Departamento de Matemáticas
+      department: 'Departamento de Matemáticas "Giuseppe Peano"'
       supervisor: 'directora de tesis: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis</a>'
 
 - title: períodos en visita
   type: time_table
   contents:
     - title: Doctorando Visitante
-      year: ago-dic 2024
+      year: ago—dic 2024
       location: "Buones Aires, Argentina"
       institution: Universidad de San Andrés
       department: Departamento de Economía
       supervisor: 'director local: <a href="https://www.tommy-e-murphy.com">Tommy E. Murphy</a>'
     - title: "Investigador de Maestría Visitante"
-      year: ene-mar 2019
+      year: ene—mar 2019
       location: "Turín, Italia"
       institution: Regional Public Health Observatory (SEPI)
       department: Departamento de Salud Pública (Junta de Salud Local TO3)
@@ -54,39 +54,39 @@
   type: time_table
   contents:
     - title: 'Distribución de la App MinUTo en Apoyo a la Crianza Consciente'
-      year: "nov-dic 2025"
+      year: "nov—dic 2025"
       location: "Bolonia, Italia"
       institution: University of Bologna
-      department: DSE - Departamento de Economía
+      department: DSE — Departamento de Economía
       supervisor: 'supervisora: <a href="https://www.unibo.it/sitoweb/maria.bigoni/es">Maria Bigoni</a>'
     - title: "Investigador Postdoctoral: Democratización, los medios de comunicación, contexto socioeconómico y comportamiento electoral"
-      year: "may 2024-jul 2025"
+      year: "may 2024—jul 2025"
       location: "Bolonia, Italia"
       institution: University of Bologna
-      department: DSE - Departamento de Economía
+      department: DSE — Departamento de Economía
       supervisor: 'supervisores: <a href="https://jnchapman.com">Jonathan Neil Chapman</a> y <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
     - title: 'Supervisión de dos asistentes de investigación en el proyecto “Democratización, medios de comunicación, contexto socioeconómico y comportamiento electoral”'
       year: "jun—sept 2024"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Coordinación y mentoría en las tareas de recolección de datos, escritura de códigos y análisis preliminares</i></p>'
       location: "Bolonia, Italia"
       institution: University of Bologna
-      department: DSE - Departamento de Economía
+      department: DSE — Departamento de Economía
     - title: '“En las raíces del desarrollo infantil: sobre el rol de las creencias, las preferencias y la participación parental” en el contexto del Proyecto MinUTo'
       year: "ene—abr 2024"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Implementación de experimentos en línea mediante la plataforma Qualtrics, gestión de las comunicaciones y coordinación con escuelas y familias, y entrega y recolección de los materiales necesarios para la realización de los experimentos</i></p>'
       location: "Bolonia, Italia"
       institution: University of Bologna
-      department: DSE - Departamento de Economía
+      department: DSE — Departamento de Economía
       supervisor: 'supervisoras: <a href="https://www.unibo.it/sitoweb/maria.bigoni/es">Maria Bigoni</a> y <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
     - title: 'Generación y preparación de materiales de apoyo a la enseñanza para el curso de Econometría'
-      year: "nov-dic 2023"
+      year: "nov—dic 2023"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Diseño e implementación de cuestionarios en la plataforma mcEmpirics y redacción de una guía introductoria de Stata</i></p>'
       location: "Bolonia, Italia"
       institution: University of Bologna
-      department: DSE - Departamento de Economía
+      department: DSE — Departamento de Economía
       supervisor: 'supervisores: <a href="https://www.unibo.it/sitoweb/margherita.fort/es">Margherita Fort</a> y <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
     - title: "Asistente de Investigación: Center for Research on Pensions and Welfare Policies (CeRP)"
-      year: "sept-dic 2018"
+      year: "sept—dic 2018"
       location: "Turín, Italia"
       institution: Collegio Carlo Alberto
       supervisor: 'supervisora: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero</a>'
@@ -114,14 +114,14 @@
       year: "2025"
       location: "Bolonia, Italia"
       institution: University of Bologna
-      department: DSE - Departamento de Economía
+      department: DSE — Departamento de Economía
     - title: "Representante de los Investigadores Postdoctorales en el Comité Ejecutivo del Departamento"
       year: "2025"
       location: "Bolonia, Italia"
       institution: University of Bologna
-      department: DSE - Departamento de Economía
+      department: DSE — Departamento de Economía
     - title: Miembro del Comité del Examen Internacional SAT para el Ingreso Universitario
-      year: 2024-2025
+      year: 2024—2025
       location: "Bolonia, Italia"
       institution: University of Bologna
       department: en colaboración con College Board (Nueva York)
@@ -142,25 +142,25 @@
   type: time_table
   contents:
     - title: 'Organizador de los Aperitivos del Departamento'
-      year: 2022-
+      year: 2022—
       location: "Bolonia, Italia"
       institution: University of Bologna
-      department: DSE - Departamento de Economía
+      department: DSE — Departamento de Economía
     - title: 'Fundador y Organizador de los "Partidos Semanales de Fútbol del Departamento"'
-      year: 2023-24
+      year: 2023—24
       location: "Bolonia, Italia"
       institution: University of Bologna
-      department: DSE - Departamento de Economía
+      department: DSE — Departamento de Economía
     - title: 'Coorganizador del Ciclo de Seminarios ``Research in Steps'' (RiS) para Doctorandos'
-      year: 2022-2023
+      year: 2022—2023
       location: "Bolonia, Italia"
       institution: University of Bologna
-      department: DSE - Departamento de Economía
+      department: DSE — Departamento de Economía
     - title: 'Cofundador y Coorganizador del Grupo de Lectura "Economía Política de la Violencia y la Corrupción"'
-      year: 2021-2022
+      year: 2021—2022
       location: "Bolonia, Italia"
       institution: University of Bologna
-      department: DSE - Departamento de Economía   
+      department: DSE — Departamento de Economía   
 
 - title: idiomas
   type: list_languages
@@ -191,15 +191,15 @@
   type: time_table
   contents:
     - title: Operador de Recolección de Datos en Sede y en Eventos en Vivo
-      year: 2016-2021
+      year: 2016—2021
       firm: Deltatre
       location: "Turín, Italia"
     - title: Entrenador de Fútbol Juvenil
-      year: 2014-2016
+      year: 2014—2016
       soccer: A.P.D. Pecetto
       location: "Pecetto, Italia"
     - title: Entrenador de Fútbol Juvenil
-      year: 2013-2014
+      year: 2013—2014
       soccer: C.S.F. Carmagnola
       location: "Carmagnola, Italia"
 
