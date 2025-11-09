@@ -75,13 +75,16 @@ Per lo più, traduco idee e codici complessi in metafore improbabili — con una
 E, infine, per dare un senso all'esistenza: organizzo gli <b style="color: $white-color;">Aperitivi di Dipartimento</b>. Un appuntamento mensile in cui si parla di accademia, vita, sogni infranti e bandi in scadenza—ma con un drink in mano, che cambia tutto.
 
 La mia citazione preferita?  
-<i>"Non ha senso usare la parola "impossibile" per descrivere qualcosa che è chiaramente successo."</i><sup><a href="#fn1" id="foot1">&nbsp;1</a></sup><br>
+<i>"Non ha senso usare la parola "impossibile" per descrivere qualcosa che è chiaramente successo."</i><sup><a href="#fn2" id="foot2">&nbsp;2</a></sup><br>
 Divertente quanto sembri ovvio una volta che ci fai caso, no?
 
 <div style="margin-top:1rem;"></div>
 <hr style="border:0; border-top:0.5px solid !important;">
 <div id="fn1" style="font-size:small;">
-  <sup><a href="#foot1">1</a></sup> Douglas Adams — <i>Dirk Gently, Agenzia investigativa olistica</i>
+  <sup><a href="#foot1">1</a></sup> L’App MinUTo è attualmente disponibile in tre lingue: italiano, inglese e francese.
+</div>
+<div id="fn2" style="font-size:small;">
+  <sup><a href="#foot2">2</a></sup> Douglas Adams — <i>Dirk Gently, Agenzia investigativa olistica</i>
 </div>
 <div style="margin-top:2.5rem;"></div>
 <hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">
