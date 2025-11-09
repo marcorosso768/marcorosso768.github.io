@@ -62,7 +62,7 @@ Il lavoro comprende anche lo sviluppo di pipeline complete, dalle fasi di web sc
 Al momento mi trovo nell'emozionante limbo dell’accademia: sono in attesa delle valutazioni della mia tesi di dottorato (<b style="color: $white-color;">la difesa è prevista a gennaio</b>) mentre esploro nuove idee di ricerca e opportunità di lavoro.
 
 Nel frattempo — quando non cerco di progettare un esito Pareto-superiore per la mia lista di cose da fare, così da evitare la perdita secca derivante dall’inattività — mi occupo del lancio della 
-<a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">App MinUTo</a>
+<a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">App MinUTo</a><sup><a href="#fn1" id="foot1">1</a></sup>
 a supporto della genitorialità consapevole, proseguendo il lavoro delle interviste online che ho condotto per il 
 <a href="https://site.unibo.it/minuto/it" target="_blank" rel="noopener noreferrer" class="external">Progetto MinUTo</a>. 
 Inoltre, sono <b style="color: $white-color;">assistente alla didattica</b> per i corsi di 
