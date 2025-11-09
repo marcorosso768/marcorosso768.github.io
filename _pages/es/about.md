@@ -81,7 +81,7 @@ Gracioso cómo parece obvio apenas te das cuenta, no?
 <div style="margin-top:1rem;"></div>
 <hr style="border:0; border-top:0.5px solid !important;">
 <div id="fn1" style="font-size:small;">
-  <sup><a href="#foot1">1</a></sup> La App MinUTo está actualmente disponible en tres idiomas: italiano, inglés y francés.
+  <sup><a href="#foot1">1</a></sup> Lamentablemente, la App MinUTo está actualmente disponible en tres idiomas: italiano, inglés y francés.
 </div>
 <div id="fn2" style="font-size:small;">
   <sup><a href="#foot2">2</a></sup> Douglas Adams — <i>Agencia de Investigación Holística</i>
