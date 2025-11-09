@@ -72,7 +72,7 @@ Funny how obvious it seems once you notice it, right?
 <div style="margin-top:1rem;"></div>
 <hr style="border:0; border-top:0.5px solid !important;">
 <div id="fn1" style="font-size:small;">
-  <sup><a href="#foot1">1</a></sup> Unfortunately, the MinUTo App is available only in Italian
+  <sup><a href="#foot1">1</a></sup> The MinUTo App is currently available in three languages: Italian, English, and French.
 </div>
 <div id="fn2" style="font-size:small;">
   <sup><a href="#foot1">2</a></sup> Douglas Adams — <i>Dirk Gently’s Holistic Detective Agency</i>
