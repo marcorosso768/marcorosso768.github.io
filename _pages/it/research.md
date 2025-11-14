@@ -98,7 +98,7 @@ nav_order: 1
       </a>
       <a href="/assets/pdf/slides/[Marco Rosso] Crime Perception and Voting Behaviour. Evidence from Individual Data (slides short).pdf" class="pill-link no-external">
         <i class="fa-solid fa-download fa-2xs"></i>
-        <span class="toggle-label" title="ultima versione: 66.ma Riunione Scientifica Annuale – Società Italiana di Economia ">Slide (breve)</span>
+        <span class="toggle-label" title="ultima versione: 66.ma Riunione Scientifica Annuale – Società Italiana di Economia ">Slide (sintesi)</span>
       </a>
     </div>
     <div id="abstract-crime" class="toggle-box">
@@ -151,7 +151,7 @@ nav_order: 1
       <a 
   href="mailto:marco.rosso4@unibo.it
         ?subject=Richiesta%20bozza%20-%20Childcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout
-        &body=Caro%20Marco,%0D%0A%0D%0Avorrei%20richiedere%20la%20bozza%20del%20tuo%20paper%20%E2%80%9CChildcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout%E2%80%9D.%0D%0A%0D%0AGrazie!%0D%0A"
+        &body=Caro%20Marco,%0D%0A%0D%0Avorrei%20chiederti%20la%20bozza%20del%20tuo%20paper%20%E2%80%9CChildcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout%E2%80%9D.%0D%0A%0D%0AGrazie!%0D%0A"
   class="pill-link no-external">
         <i class="fa-regular fa-newspaper fa-2xs"></i>
         <span class="toggle-label" title="Bozza su richiesta">Paper</span>
@@ -192,7 +192,7 @@ nav_order: 1
       <a 
   href="mailto:marco.rosso4@unibo.it
         ?subject=Richiesta%20bozza%20-%20The%20Tipping%20Point%20of%20Temptation%3A%20Selection%2C%20Integrity%2C%20and%20Public%20Service%20Quality
-        &body=Caro%20Marco,%0D%0A%0D%0Avorrei%20richiedere%20la%20bozza%20del%20tuo%20paper%20%E2%80%9CThe%20Tipping%20Point%20of%20Temptation%3A%20Selection%2C%20Integrity%2C%20and%20Public%20Service%20Quality%E2%80%9D.%0D%0A%0D%0AGrazie!%0D%0A"
+        &body=Caro%20Marco,%0D%0A%0D%0Avorrei%20chiederti%20la%20bozza%20del%20tuo%20paper%20%E2%80%9CThe%20Tipping%20Point%20of%20Temptation%3A%20Selection%2C%20Integrity%2C%20and%20Public%20Service%20Quality%E2%80%9D.%0D%0A%0D%0AGrazie!%0D%0A"
   class="pill-link no-external">
         <i class="fa-regular fa-newspaper fa-2xs"></i>
         <span class="toggle-label" title="Bozza su richiesta">Paper</span>
@@ -234,7 +234,7 @@ nav_order: 1
         <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a>, 
         <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>, 
         <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a>, 
-        and <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>
+        e <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>
       </span>
     </div>
   </div>
