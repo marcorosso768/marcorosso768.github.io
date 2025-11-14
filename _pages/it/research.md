@@ -16,16 +16,16 @@ nav_order: 1
 
 <!-- Sezione Pubblicazioni -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+  <a href="javascript:void(0);" onclick="toggleVisibility('content-0')">
     <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
       <span>pubblicazioni</span>
     </h2>
   </a>
 </div>
 
 <!-- Publications Section -->
-<div id="content-1" class="toggle-section expanded">
+<div id="content-0" class="toggle-section expanded">
 
   <!-- Paper 1 -->
   <div class="entry-block">
