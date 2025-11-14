@@ -188,7 +188,15 @@ nav_order: 1
       <div class="pill-button toggle-pill" data-target="jel-corruption">
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">JEL</span>
-      </div>  
+      </div>
+      <a 
+  href="mailto:marco.rosso4@unibo.it
+        ?subject=Request%20for%20draft%20-%20The%20Tipping%20Point%20of%20Temptation:%20Selection,%20Integrity,%20and%20Public%20Service%20Quality
+        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20paper%20%E2%80%9CThe%20Tipping%20Point%20of%20Temptation:%20Selection,%20Integrity,%20and%20Public%20Service%20Quality%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
+  class="pill-link no-external">
+        <i class="fa-regular fa-newspaper fa-2xs"></i>
+        <span class="toggle-label" title="Draft under request">Paper</span>
+      </a>
     </div>
     <div id="abstract-corruption" class="toggle-box">
       This paper establishes a behavioral theory of occupational selection that resolves the long-standing empirical ambiguity regarding the quality of the public sector workforce in environments characterized by corruption and moral friction. The framework incorporates self-control costs and temptation into a standard model of occupational choice, consistent with the utility framework of Gul and Pesendorfer (2001). We show that intrinsically motivated (honest) agents face a disproportionately higher psychological cost when resisting temptation, leading to a dual effect on selection: low-motivation types are attracted, while high-motivation types are severely deterred. To resolve the ambiguity that arises from these opposing forces, the analysis establishes three general principles that govern institutional selection, supported by analytical derivations and numerical robustness checks. First, we identify a critical institutional tipping point, &lambda;<sup>*</sup>, which dictates the selection regime: below it, corruption leads to quality deterioration (<i>"more but worse"</i>); above it, it acts as a selective filter, improving quality (<i>"less but better"</i>). Second, we show that the selection outcome is fundamentally conditional on the societal correlation between ability and honesty. Third, the model offers a novel rationale for high public wages, demonstrating that large salaries mask or attenuate the selective power of corruption. Overall, our findings clarify the mechanisms governing workforce composition in morally frictional environments, contributing to the literature on occupational selection, public service motivation, and institutional design.
