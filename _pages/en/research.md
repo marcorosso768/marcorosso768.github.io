@@ -76,10 +76,6 @@ nav_order: 1
       </span>
     </div>
     <div class="pill-container">
-      <a href="assets/pdf/papers/[Marco Rosso] Crime Perception and Voting Behavior - Evidence from Individual Data.pdf" class="pill-link no-external">
-        <i class="fa-solid fa-download fa-2xs"></i>
-        <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Paper</span>
-      </a>  
       <div class="pill-button toggle-pill" data-target="abstract-crime">
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">Abstract</span>
@@ -92,6 +88,10 @@ nav_order: 1
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">JEL</span>
       </div>
+      <a href="/assets/pdf/papers/[Marco Rosso] Crime Perception and Voting Behavior - Evidence from Individual Data.pdf" class="pill-link no-external">
+        <i class="fa-regular fa-newspaper fa-2xs"></i>
+        <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Paper</span>
+      </a>  
       <a href="/assets/pdf/slides/[Marco Rosso] Crime Perception and Voting Behaviour. Evidence from Individual Data (slides).pdf" class="pill-link no-external">
         <i class="fa-solid fa-download fa-2xs"></i>
         <span class="toggle-label" title="last version: BoMoPaV Economics Meeting 2025">Slides</span>
