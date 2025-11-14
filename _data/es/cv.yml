@@ -26,7 +26,8 @@
       location: "Turín, Italia"
       institution: University of Turin
       department: ESOMAS — Departamento de Economía
-      supervisor: 'director de tesis: <a href="https://sites.google.com/site/giovannimastrobuoni/">Giovanni Mastrobuoni</a>'
+      supervisor: 'supervisor: <a href="https://sites.google.com/site/giovannimastrobuoni/">Giovanni Mastrobuoni</a>'
+      cosupervisor: 'co-supervisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
     - title: Licenciatura en Matemáticas
       year: "2015"
       location: "Turín, Italia"

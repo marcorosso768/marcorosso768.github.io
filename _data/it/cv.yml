@@ -26,7 +26,8 @@
       location: "Torino, Italia"
       institution: Università degli Studi di Torino
       department: ESOMAS — Dipartimento di Scienze Economico-Sociali e Matematico-Statistiche
-      supervisor: 'relatore: <a href="https://sites.google.com/site/giovannimastrobuoni/">Giovanni Mastrobuoni</a>'
+      supervisor: 'supervisor: <a href="https://sites.google.com/site/giovannimastrobuoni/">Giovanni Mastrobuoni</a>'
+      cosupervisor: 'co-supervisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
     - title: "Laurea triennale in Matematica"
       year: "2015"
       location: "Torino, Italia"
