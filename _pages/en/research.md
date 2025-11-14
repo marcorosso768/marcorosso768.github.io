@@ -78,7 +78,7 @@ nav_order: 1
     <div class="pill-container">
       <a href="assets/pdf/papers/[Marco Rosso] Crime Perception and Voting Behavior - Evidence from Individual Data.pdf" class="pill-link no-external">
         <i class="fa-solid fa-download fa-2xs"></i>
-        <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Working Paper</span>
+        <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Paper</span>
       </a>  
       <div class="pill-button toggle-pill" data-target="abstract-crime">
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
