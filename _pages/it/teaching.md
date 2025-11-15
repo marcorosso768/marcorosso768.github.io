@@ -282,7 +282,9 @@ nav_order: 3
 
   <div class="icon-link indented">
     <i class="fa-regular fa-file-pdf fa-fw"></i>
-    <a href="/assets/pdf/teaching/Introduction to STATA.pdf">Introduzione a Stata (in inglese)</a> — ultimo aggiornamento: 15 novembre 2025
+    <span>  
+    <a href="/assets/pdf/teaching/Introduction to STATA.pdf" target="_blank" rel="noopener noreferrer">Introduzione a Stata (in inglese)</a> — ultimo aggiornamento: nov 2025
+    </span>
   </div>
 
 </div>
