@@ -58,7 +58,7 @@ En el plano técnico, trabajo con <b style="color: $white-color;">Python</b> (pa
 <b style="color: $white-color;">Stata</b> (reghdfe/hdfe, frames, rdrobust, flujos de trabajo de event study, esttab), y 
 <b style="color: $white-color;">QGIS</b> o <b style="color: $white-color;">R</b>, según cómo me levante ese día. 
 Esto suele implicar construir pipelines completas — desde web scraping y procesamiento de lenguaje natural (NLP) hasta geocodificación y construcción de datos panel.
-
+<div style="height: 1rem;"></div>
 En este momento estoy navegando el encantador limbo académico: entre las revisiones de mi tesis, nuevas ideas de investigación y oportunidades laborales por explorar.
 
 Mientras tanto — cuando no intento diseñar un resultado Pareto-superior para mi lista de pendientes, para evitar la pérdida irrecuperable derivada de la inactividad — trabajo en el lanzamiento de la 
