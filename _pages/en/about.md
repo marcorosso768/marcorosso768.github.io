@@ -58,7 +58,7 @@ On the tools side, I live in <b style="color: $white-color;">Python</b> (pandas,
 <b style="color: $white-color;">Stata</b> (reghdfe/hdfe, frames, rdrobust, event-study workflows, esttab), and 
 <b style="color: $white-color;">QGIS</b> or <b style="color: $white-color;">R</b>, depending on how I woke up that day. 
 This often means building end-to-end pipelines—from web-scraping and NLP to geocoding and panel construction.
-
+<br>
 
 At the moment, I am navigating the thrilling limbo of academia: working through the reviews of my PhD thesis while exploring new research ideas and job opportunities.
 
