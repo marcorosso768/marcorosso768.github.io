@@ -268,11 +268,12 @@ nav_order: 3
 
 </div>
 
+
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
-      <span>teaching materials and handbook</span>
+      <span>teaching materials and handbooks</span>
     </h2>
   </a>
 </div>
@@ -281,7 +282,7 @@ nav_order: 3
 
   <div class="icon-link indented">
     <i class="fa-regular fa-file-pdf fa-fw"></i>
-    <a href="/assets/pdf/teaching/Introduction to STATA.pdf">Introduction to Stata</a>
+    <a href="/assets/pdf/teaching/Introduction to STATA.pdf" class="no-external">Introduction to Stata</a> — last update: November 15, 2025
   </div>
 
 </div>
