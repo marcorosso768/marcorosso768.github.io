@@ -279,13 +279,9 @@ nav_order: 3
 
 <div id="content-2" class="toggle-section expanded">
 
-<div class="icon-entry indented">
-      <i class="fa-regular fa-file-pdf fa-fw"></i>
-      <span>
-          <a href="/assets/pdf/teaching/Introduction to STATA.pdf">
-             Introduction to Stata
-          </a> 
-      </span>
-</div>
+  <div class="icon-link indented">
+    <i class="fa-regular fa-file-pdf fa-fw"></i>
+    <a href="/assets/pdf/teaching/Introduction to STATA.pdf">Introduction to Stata</a>
+  </div>
 
 </div>
