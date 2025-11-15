@@ -278,7 +278,7 @@ nav_order: 3
 <div id="content-2" class="toggle-section expanded">
 
   <div class="icon-entry indented">
-    <i class="fa-regular fa-file-pdf fa-fw"></i>
+    <i class="fa-regular fa-file-pdf fa-fw" style="margin-top:-0.5px;"></i>
     <span>  
     <a href="/assets/pdf/teaching/Introduction to STATA.pdf" target="_blank" rel="noopener noreferrer">Introducción a Stata (en inglés)</a> — última actualización: nov 2025
     </span>
