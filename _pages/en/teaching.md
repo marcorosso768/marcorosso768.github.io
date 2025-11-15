@@ -282,7 +282,7 @@ nav_order: 3
 <div class="icon-entry indented">
       <i class="fa-regular fa-file-pdf fa-fw"></i>
       <span>
-          <a href="/assets/pdf/teaching/Introduction to STATA.pdf" class="pill-link no-external">
+          <a href="/assets/pdf/teaching/Introduction to STATA.pdf">
              Introduction to Stata
           </a> 
       </span>
