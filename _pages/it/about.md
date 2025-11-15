@@ -43,36 +43,37 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Benvenutə nel mio sito personale—felice che tu sia arrivatə di tua spontanea volontà (o che tu abbia cliccato per sbaglio: succede anche ai migliori).
+Benvenutə nel mio sito personale — felice che tu sia arrivatə qui di tua spontanea volontà (o forse hai cliccato per sbaglio; capita anche ai migliori).
 
-Sono un <b style="color: $white-color;">dottorando al 5<sup>o</sup> anno in Economia</b> all'Università di Bologna.
+Sono un <b style="color: $white-color;">dottorandə al quinto anno in Economia</b> presso l'Università di Bologna, e discuterò la mia tesi, <i>"Essays in Political Economy and Crime Economics"</i>, il 28 gennaio 2026.
 
 La mia <b style="color: $white-color;">ricerca</b> ruota attorno 
 all’<b style="color: $white-color;">Economia Politica</b>, 
 all’<b style="color: $white-color;">Economia del Crimine</b>, 
 e all’<b style="color: $white-color;">Economia Sperimentale</b> e 
-<b style="color: $white-color;">Comportamentale</b>, ideale per chi ama le domande scomode, i dilemmi etici e i dataset che sembrano non voler essere trovati.
+<b style="color: $white-color;">Comportamentale</b>, perfetta per chi ama domande scomode, dilemmi etici e dataset che si ostinano a non voler essere trovati.
 
-Abbino a questo un <b style="color: $white-color;">quadro teorico</b> pulito e verificabile (incentivi, frizioni informative, selezione) per individuare i meccanismi prima di seguirne le tracce empiriche. 
+Abbino a questa <b style="color: $white-color;">quadri teorici</b> puliti e verificabili (incentivi, frizioni informative, selezione) per individuare i meccanismi prima di seguirne le tracce empiriche. 
 Sul piano tecnico, lavoro con <b style="color: $white-color;">Python</b> (pandas, BeautifulSoup, spaCy, geopandas), 
 <b style="color: $white-color;">Stata</b> (reghdfe/hdfe, frames, rdrobust, procedure di event study, esttab), e 
 <b style="color: $white-color;">QGIS</b> o <b style="color: $white-color;">R</b>, a seconda di come mi sveglio la mattina. 
-Il lavoro comprende anche lo sviluppo di pipeline complete, dalle fasi di web scraping e di elaborazione del linguaggio naturale (NLP) fino alla geocodifica e alla costruzione di dati panel.
+Questo spesso significa costruire pipeline complete — dal web scraping e dall’elaborazione del linguaggio naturale (NLP) fino alla geocodifica e alla costruzione di dati panel.
 
-Al momento mi trovo nell'emozionante limbo dell’accademia: sono in attesa delle valutazioni della mia tesi di dottorato (<b style="color: $white-color;">la difesa è prevista a gennaio</b>) mentre esploro nuove idee di ricerca e opportunità di lavoro.
+Al momento sto navigando il meraviglioso limbo dell’accademia: tra la revisione della mia tesi di dottorato, nuove idee di ricerca e opportunità lavorative da esplorare.
 
-Nel frattempo — quando non cerco di progettare un esito Pareto-superiore per la mia lista di cose da fare, così da evitare la perdita secca derivante dall’inattività — mi occupo del lancio della 
+Nel frattempo — quando non cerco di progettare un esito Pareto-superiore per la mia to-do list, così da evitare la perdita secca dell’inattività — lavoro al lancio della
 <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">App MinUTo</a><sup><a href="#fn1" id="foot1">1</a></sup>
-a supporto della genitorialità consapevole, proseguendo il lavoro delle interviste online che ho condotto per il 
+a supporto della genitorialità consapevole, in continuità con le interviste online che ho condotto per il 
 <a href="https://site.unibo.it/minuto/it" target="_blank" rel="noopener noreferrer" class="external">Progetto MinUTo</a>. 
-Inoltre, sono <b style="color: $white-color;">assistente alla didattica</b> per i corsi di 
+
+Sono inoltre <b style="color: $white-color;">assistente alla didattica</b> per i corsi di 
 <b style="color: $white-color;">Economia Industriale</b>, 
 <b style="color: $white-color;">Econometria</b>, 
 <b style="color: $white-color;">Economia Politica</b> 
 e <b style="color: $white-color;">Python per Economisti</b>. 
 Per lo più, traduco idee e codici complessi in metafore improbabili — con una sicurezza solo parzialmente giustificata.
 
-E, infine, per dare un senso all'esistenza: organizzo gli <b style="color: $white-color;">Aperitivi di Dipartimento</b>. Un appuntamento mensile in cui si parla di accademia, vita, sogni infranti e bandi in scadenza—ma con un drink in mano, che cambia tutto.
+E, infine, per dare un senso all'esistenza: organizzo gli <b style="color: $white-color;">Aperitivi di Dipartimento</b>, un appuntamento mensile in cui si parla di accademia, vita, sogni infranti e bandi in scadenza—ma con un drink in mano, che cambia tutto.
 
 La mia citazione preferita?  
 <i>"Non ha senso usare la parola "impossibile" per descrivere qualcosa che è chiaramente successo."</i><sup><a href="#fn2" id="foot2">&nbsp;2</a></sup><br>
