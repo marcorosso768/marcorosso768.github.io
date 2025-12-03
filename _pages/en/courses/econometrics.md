@@ -1,8 +1,8 @@
 ---
-page_id: Econometrics
+page_id: econometrics
 layout: page
 permalink: /teaching/econometrics/
-title: Econometrics
+title: econometrics
 description:
 nav: false
 ---
