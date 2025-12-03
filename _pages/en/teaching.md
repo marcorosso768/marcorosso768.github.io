@@ -321,7 +321,7 @@ nav_order: 3
 <br>
   <div class="icon-link indented">
     <i class="fa-regular fa-folder-open fa-fw"></i>
-    <a href="#" onclick="window.location.href='https://marcorosso.com/teaching/econometrics/'; return false; target="_blank" rel="noopener noreferrer">Econometrics</a>
+    <a href="#" onclick="window.location.href='https://marcorosso.com/teaching/econometrics/'; return false;" target="_blank" rel="noopener noreferrer">Econometrics</a>
   </div>
 
 </div>
