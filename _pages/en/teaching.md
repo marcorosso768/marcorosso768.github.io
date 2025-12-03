@@ -14,6 +14,51 @@ nav: true
 nav_order: 3
 ---
 
+<!-- TEACHING -->
+<div class="projects">
+  <a href="javascript:void(0);" onclick="toggleVisibility('content-0')">
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
+      <span>teaching
+          </span>
+    </h2>
+  </a>
+</div>
+
+<div id="content-0" class="toggle-section expanded">
+
+<!-- TOGGLE TRIGGER -->
+<div class="subsection">
+  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-unibo-t')">
+    <h2 class="subsection">
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-unibo-t"></i>
+       <span>University of Bologna</span>
+    </h2>
+  </a>
+</div>
+
+<!-- TOGGLE CONTENT -->
+<div id="subsection-unibo-t" class="toggle-section expanded">
+
+<p style="margin-left: 0.1em;"><b>2025/26</b></p>
+
+ <div class="teaching-entry indented">
+   <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/406503'>Econometrics</a> with <a href='https://www.unibo.it/sitoweb/margherita.fort/en'>Margherita Fort </a>
+      </div>
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        Business and Economics — Undergraduate
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<!-- TEACHING ASSISTANT -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
     <h2 class="category">
@@ -62,19 +107,6 @@ nav_order: 3
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
         Economics and Public Policy — Graduate
-      </div>
-    </div>
-  </div>
-
- <div class="teaching-entry indented">
-   <div class="teaching-entry__row teaching-entry__row--title">
-      <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/406503'>Econometrics</a> with <a href='https://www.unibo.it/sitoweb/margherita.fort/en'>Margherita Fort </a>
-      </div>
-   </div>
-   <div class="teaching-entry__row teaching-entry__row--course">
-      <div class="teaching-entry__course-text">
-        Business and Economics — Undergraduate
       </div>
     </div>
   </div>
@@ -268,7 +300,7 @@ nav_order: 3
 
 </div>
 
-
+<!-- FILES -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
     <h2 class="category">
