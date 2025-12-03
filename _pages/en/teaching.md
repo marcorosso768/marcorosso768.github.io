@@ -313,15 +313,10 @@ nav_order: 3
 <div id="content-2" class="toggle-section expanded">
 
   <div class="icon-entry indented">
-    <i class="fa-regular fa-folder-open fa-fw"></i>
+    <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
     <span>  
      <a href="/teaching/econometrics/" target="_blank" rel="noopener noreferrer">Econometrics</a>
     </span>
-  </div>
-<br>
-  <div class="icon-link indented">
-    <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
-    <a href="#" onclick="window.location.href='https://marcorosso.com/teaching/econometrics/'; return false;" target="_blank" rel="noopener noreferrer">Econometrics</a>
   </div>
 
 </div>
