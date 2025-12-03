@@ -20,7 +20,7 @@ nav: false
 <div id="content-0" class="toggle-section expanded">
 
 <div class="icon-entry indented">
-  <i class="fa-regular fa-file-pdf fa-fw" style="margin-top:-0.5px;"></i>
+  <i class="fa-regular fa-file-pdf fa-fw" style="margin-top:0.5px;"></i>
   <span>  
   <a href="/assets/pdf/teaching/Introduction to STATA.pdf" target="_blank" rel="noopener noreferrer">Introduction to Stata</a> — last update: Nov 2025
   </span>
