@@ -64,7 +64,7 @@ nav: false
 <div class="icon-link indented">
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:-0.5px;"></i>
   <span>  
-  <a href="/assets/pdf/teaching/econometrics/Data Scaling, Functional Forms, APE, and Goodness-of-Fit in Logit:Probit.pdf" target="_blank" rel="noopener noreferrer">Data Scaling, Functional Forms, APE, and Goodness-of-Fit in Logit and Probit</a>
+  <a href="/assets/pdf/teaching/econometrics/Data Scaling, Functional Forms, APE, and Goodness-of-Fit in Logit and Probit.pdf" target="_blank" rel="noopener noreferrer">Data Scaling, Functional Forms, APE, and Goodness-of-Fit in Logit and Probit</a>
   </span>
 </div>
 
