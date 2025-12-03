@@ -1,11 +1,11 @@
 ---
+page_id: Econometrics
 layout: page
-title: Econometrics
 permalink: /teaching/econometrics/
+title: Econometrics
+description:
 nav: false
 ---
-
-## Introduction to Stata & Econometrics
 
 Here you can find useful materials for the Econometrics course.
 
