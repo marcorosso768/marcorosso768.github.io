@@ -313,9 +313,9 @@ nav_order: 3
 <div id="content-2" class="toggle-section expanded">
 
   <div class="icon-entry indented">
-    <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
+    <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
     <span>  
-     <a href="/teaching/econometrics/">Econometrics</a>
+     <a href="/en/teaching/econometrics/">Econometrics</a>
     </span>
   </div>
 
