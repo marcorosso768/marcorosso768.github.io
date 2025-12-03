@@ -41,28 +41,28 @@ nav: false
 <div id="content-1" class="toggle-section expanded">
 
 <div class="icon-link indented">
-  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:-0.5px;"></i>
   <span>  
   <a href="/assets/pdf/teaching/econometrics/Interpreting OLS Coefficients.pdf" target="_blank" rel="noopener noreferrer">Interpreting OLS Coefficients</a>
   </span>
 </div>
 
 <div class="icon-link indented">
-  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:-0.5px;"></i>
   <span>  
   <a href="/assets/pdf/teaching/econometrics/Exporting OLS Regression Results in Stata.pdf" target="_blank" rel="noopener noreferrer">Exporting OLS Regression Results in Stata</a>
   </span>
 </div>
 
 <div class="icon-link indented">
-  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:-0.5px;"></i>
   <span>  
   <a href="/assets/pdf/teaching/econometrics/Marginal Effects in Logit & Probit Models and Maximum Likelihood Tests.pdf" target="_blank" rel="noopener noreferrer">Marginal Effects in Logit and Probit Models and Maximum Likelihood Tests</a>
   </span>
 </div>
 
 <div class="icon-link indented">
-  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:-0.5px;"></i>
   <span>  
   <a href="/assets/pdf/teaching/econometrics/Data Scaling, Functional Forms, APE, and Goodness-of-Fit in Logit:Probit.pdf" target="_blank" rel="noopener noreferrer">Data Scaling, Functional Forms, APE, and Goodness-of-Fit in Logit and Probit</a>
   </span>
@@ -83,21 +83,21 @@ nav: false
 <div id="content-2" class="toggle-section expanded">
 
 <div class="icon-link indented">
-  <i class="fa-solid fa-code fa-fw" style="margin-top:0.5px;"></i>
+  <i class="fa-solid fa-code fa-fw" style="margin-top:-0.5px;"></i>
   <span>  
   <a href="/assets/pdf/teaching/econometrics/Introduction to Stata.do" target="_blank" rel="noopener noreferrer">Introduction to Stata.do</a>
   </span>
 </div>
 
 <div class="icon-link indented">
-  <i class="fa-solid fa-code fa-fw" style="margin-top:0.5px;"></i>
+  <i class="fa-solid fa-code fa-fw" style="margin-top:-0.5px;"></i>
   <span>  
   <a href="/assets/pdf/teaching/econometrics/Template - Exporting OLS Regression Results in Stata.do" target="_blank" rel="noopener noreferrer">Template: Exporting OLS Regression Results in Stata.do</a>
   </span>
 </div>
 
 <div class="icon-link indented">
-  <i class="fa-solid fa-code fa-fw" style="margin-top:0.5px;"></i>
+  <i class="fa-solid fa-code fa-fw" style="margin-top:-0.5px;"></i>
   <span>  
   <a href="/assets/pdf/teaching/econometrics/Marginal Effects in Logit & Probit Models and Maximum Likelihood Tests.do" target="_blank" rel="noopener noreferrer">Marginal Effects in Logit & Probit Models and Maximum Likelihood Tests.do</a>
   </span>
