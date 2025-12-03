@@ -3,7 +3,7 @@ page_id: econometrics
 layout: page
 permalink: /teaching/econometrics/
 title: econometrics
-description: Here you can find useful materials for the Econometrics course.
+description: <i>Here you can find useful materials for the Econometrics course.</i>
 nav: false
 ---
 
