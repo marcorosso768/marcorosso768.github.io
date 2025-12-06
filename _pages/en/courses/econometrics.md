@@ -68,6 +68,20 @@ nav: false
   </span>
 </div>
 
+<div class="icon-link indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:-0.5px;"></i>
+  <span>  
+  <a href="/assets/pdf/teaching/econometrics/Goodness-of-Fit & ML Hypothesis Testing.pdf" target="_blank" rel="noopener noreferrer">Goodness-of-Fit & ML Hypothesis Testing</a>
+  </span>
+</div>
+
+<div class="icon-link indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:-0.5px;"></i>
+  <span>  
+  <a href="/assets/pdf/teaching/econometrics/How to Develop an Economics Research Paper.pdf" target="_blank" rel="noopener noreferrer">How to Develop an Economics Research Paper</a>
+  </span>
+</div>
+
 </div>
 
 <!-- DOFILES -->
