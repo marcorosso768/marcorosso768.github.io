@@ -59,7 +59,7 @@ On the tools side, I live in <b style="color: $white-color;">Python</b> (pandas,
 <b style="color: $white-color;">QGIS</b> or <b style="color: $white-color;">R</b>, depending on how I woke up that day. 
 This often means building end-to-end pipelines—from web-scraping and NLP to geocoding and panel construction.
 
-At the moment, I am navigating the thrilling limbo of academia: working through the reviews of my PhD thesis while exploring new research ideas and job opportunities (<a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">here</a> you can find my <b style="color: $white-color;">Job Market Paper</b>).
+At the moment, I am navigating the thrilling limbo of academia: working through the reviews of my PhD thesis while exploring new research ideas and job opportunities (you can find my <b style="color: $white-color;">Job Market Paper</b> <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">here</a>).
 
 Meanwhile, I am working on the rollout of the <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="foot1">1</a></sup> in support of mindful parenting, in continuity with the online interviews I conducted for the <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a>.
 
