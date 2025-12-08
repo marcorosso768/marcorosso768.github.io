@@ -65,7 +65,7 @@ Meanwhile, I am working on the rollout of the <a href="https://appminuto.it/logi
 
 Moreover, I also serve as <b style="color: $white-color;">Teaching Assistant</b> for <b style="color: $white-color;">Industrial Economics</b>, <b style="color: $white-color;">Econometrics</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Python for Economists</b>, where I work to explain complex concepts through clear empirical examples and intuitive metaphors.
 
-And finally, I organize the <b style="color: $white-color;">DSE Afterwork Drinks</b>, a monthly event a monthly event that fosters informal discussion about research, academic life, and career opportunities within the department community.
+And finally, I organize the <b style="color: $white-color;">DSE Afterwork Drinks</b>, a monthly informal gathering where we talk about research, academic life, and everything in between—from careers and conferences to films, music, and everyday worries—with the aim of building a relaxed, supportive department community.
 
 My favorite quote?<br>
 <i>"There is no point in using the word “impossible” to describe something that has clearly happened."</i><sup><a href="#fn2" id="foot2">&nbsp;2</a></sup><br>
