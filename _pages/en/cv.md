@@ -13,8 +13,7 @@ nav: true
 nav_order: 4
 cv_pdf: /[Marco Rosso] Curriculum Vitae.pdf
 description: >
-        <span style="display:block; margin-top:8px;"></span>
-        <i>A complete and detailed version is available by clicking on the PDF icon.</i>
+        <i style="margin-top:8px;">A complete and detailed version is available by clicking on the PDF icon.</i>
 # toc:
 #   sidebar: left
 ---
