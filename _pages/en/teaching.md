@@ -3,7 +3,7 @@ page_id: teaching
 layout: page
 permalink: /teaching/
 title: teaching
-description:
+description: <i>I have experience both as lecturer and teaching assistant in undergraduate and graduate courses in econometrics, political economy, industrial organization, microeconomics, behavioral economics, game theory, and Python for economists, and I design lecture notes and materials that emphasize empirical applications and clarity.</i>
 subtitle: >
     <div class="lang-links">
         <a href="/it/insegnamento/" hreflang="it">insegnamento</a>
