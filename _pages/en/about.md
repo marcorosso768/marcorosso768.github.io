@@ -47,11 +47,11 @@ Welcome to my personal website—glad you made it here of your own free will (or
 
 I am a <b style="color: $white-color;">fifth-year PhD candidate in Economics</b> at the University of Bologna, and I will defend my thesis, <i>"Essays in Political Economy and Crime Economics"</i>, on January 28, 2026.
 
-My <b style="color: $white-color;">research</b> orbits around 
+My <b style="color: $white-color;">research</b> focuses on 
 <b style="color: $white-color;">Political Economy</b>, 
 <b style="color: $white-color;">Crime Economics</b>, 
 <b style="color: $white-color;">Experimental</b> and 
-<b style="color: $white-color;">Behavioral Economics</b>—perfect for anyone who enjoys awkward questions, ethical dilemmas, and datasets that refuse to be found.
+<b style="color: $white-color;">Behavioral Economics</b>, with a particular interest in how institutions and individual behavior interact in real-world settings.
 
 I pair this with clean, testable <b style="color: $white-color;">theoretical frameworks</b> (incentives, information frictions, selection) to pin down mechanisms before chasing their empirical footprints. 
 On the tools side, I live in <b style="color: $white-color;">Python</b> (pandas, BeautifulSoup, spaCy, geopandas), 
@@ -59,13 +59,13 @@ On the tools side, I live in <b style="color: $white-color;">Python</b> (pandas,
 <b style="color: $white-color;">QGIS</b> or <b style="color: $white-color;">R</b>, depending on how I woke up that day. 
 This often means building end-to-end pipelines—from web-scraping and NLP to geocoding and panel construction.
 <div style="height: 1rem;"></div>
-At the moment, I am navigating the thrilling limbo of academia: working through the reviews of my PhD thesis while exploring new research ideas and job opportunities.
+At the moment, I am navigating the thrilling limbo of academia: working through the reviews of my PhD thesis while exploring new research ideas and job opportunities (<a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">here</a> you can find my <b style="color: $white-color;">Job Market Paper</b>).
 
-Meanwhile—when I am not trying to engineer a Pareto-superior outcome for my to-do list to avoid the deadweight loss of downtime—I am working on the rollout of the <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="foot1">1</a></sup> in support of mindful parenting, in continuity with the online interviews I conducted for the <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a>.
+Meanwhile, I am working on the rollout of the <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="foot1">1</a></sup> in support of mindful parenting, in continuity with the online interviews I conducted for the <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a>.
 
-Moreover, I also serve as <b style="color: $white-color;">Teaching Assistant</b> for <b style="color: $white-color;">Industrial Economics</b>, <b style="color: $white-color;">Econometrics</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Python for Economists</b>. Mostly, I translate complex ideas and code into unlikely metaphors—with a confidence that is only partly justified.
+Moreover, I also serve as <b style="color: $white-color;">Teaching Assistant</b> for <b style="color: $white-color;">Industrial Economics</b>, <b style="color: $white-color;">Econometrics</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Python for Economists</b>, where I work to explain complex concepts through clear empirical examples and intuitive metaphors.
 
-And finally, to give meaning to this whole circus: I organize the <b style="color: $white-color;">DSE Afterwork Drinks</b>, a monthly event where we talk about academia, life, broken dreams, and calls for proposals about to expire—though with a drink in hand, which changes everything.
+And finally, I organize the <b style="color: $white-color;">DSE Afterwork Drinks</b>, a monthly event a monthly event that fosters informal discussion about research, academic life, and career opportunities within the department community.
 
 My favorite quote?<br>
 <i>"There is no point in using the word “impossible” to describe something that has clearly happened."</i><sup><a href="#fn2" id="foot2">&nbsp;2</a></sup><br>
