@@ -70,6 +70,13 @@
   type: time_table
   contents:
     - title: 'Distribution of the MinUTo App in Support of Mindful Parenting'
+      year: "Dec—Jan 2026"
+      location: "Naples, Italy"
+      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Analysis of open-ended responses collected from participants with the goal of identifying and categorizing the motivations that emerge, and distinguishing between respondent profiles using text analysis techniques</i></p>'
+      institution: University of Naples Federico II
+      department: DISES — Department of Economics and Statistics
+      supervisor: 'supervisor: <a href="https://sites.google.com/site/gimmordinoecon/home">Giovanni Immordino</a>'
+    - title: 'Distribution of the MinUTo App in Support of Mindful Parenting'
       year: "Nov—Dec 2025"
       location: "Bologna, Italy"
       institution: University of Bologna
