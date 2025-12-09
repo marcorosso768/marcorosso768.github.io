@@ -3,7 +3,7 @@ page_id: research
 layout: page
 permalink: /research/
 title: research
-description:
+description: <i>This page presents my research agenda, including published work, my job market paper on crime perception and voting behavior, current working papers, and projects in progress, with links to abstracts, JEL codes, keywords, papers, and slides.</i>
 subtitle: >
     <div class="lang-links">
         <a href="/it/ricerca/" hreflang="it">ricerca</a>
