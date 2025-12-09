@@ -856,3 +856,52 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
 .folder-link:hover .fa-folder-open {
   display: inline-block;
 }
+
+/*****************************************************************************
+* Icon Entry (Titolo con icona)
+*****************************************************************************/
+
+.course-entry {
+  display: flex;
+  align-items: flex-start;
+  font-size: 12pt;
+  margin-left: var(--indent-margin);
+  margin-bottom: 14pt; // ora è lo spacing di .entry-block a gestire tutto
+  overflow: hidden;
+}
+
+.course-entry i.fa-fw {
+  margin-right: var(--icon-spacing);
+  margin-top: 3px;
+  color: var(--global-theme-color);
+  flex-shrink: 0;
+}
+
+.course-entry a {
+  color: var(--global-theme-color);
+  text-decoration: none;
+  font-style: normal;
+  transition: font-style 0.3s ease, text-decoration 0.3s ease;
+
+  &:hover {
+    font-style: italic;
+    text-decoration: underline;
+  }
+}
+
+.course-entry span a:link,
+.course-entry span a:visited,
+.course-entry span a:hover,
+.course-entry span a:focus,
+.course-entry span a:active {
+  color: var(--global-theme-color) !important;
+  text-decoration: none;
+  font-style: normal;
+}
+
+/* Effetto al passaggio */
+.course-entry span a:hover,
+.course-entry span a:focus {
+  text-decoration: underline;
+  font-style: italic;
+}
