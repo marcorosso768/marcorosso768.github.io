@@ -4,7 +4,7 @@ layout: page
 permalink: /contacts/
 lang: en
 title: contacts
-description: <i>The contacts page gathers my e‑mail addresses and links to my institutional profile, online research profiles, and social networks, providing a single place to reach me and access my work.</i>
+description: <i>Contact details and links to institutional profiles, research platforms, and social networks for accessing my work or getting in touch.</i>
 subtitle: >
     <div class="lang-links">
         <a href="/it/contatti/" hreflang="it">contatti</a>
