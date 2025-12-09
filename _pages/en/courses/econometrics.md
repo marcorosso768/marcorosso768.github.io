@@ -25,7 +25,7 @@ nav: false
 
 <div class="teaching-entry indented">
   <i class="fa-regular fa-file-pdf fa-fw" style="color: var(--global-theme-color);"></i>
-  <span style="padding-left: 20px;>  
+  <span style="padding-left: 20px;">  
   <a href="/assets/pdf/teaching/econometrics/Introduction to STATA.pdf" target="_blank" rel="noopener noreferrer">Introduction to Stata</a> — last update: Nov 2025
   </span>
 </div>
