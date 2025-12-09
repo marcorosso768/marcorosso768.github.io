@@ -9,7 +9,7 @@ subtitle: >
         <span class="separator">|</span>
         <a href="/es/conferencias/" hreflang="es">conferencias</a>
     </div>
-description:
+description: <i>A record of invited talks, conference presentations, workshops, and book discussions, documenting where I have presented my research in Italy and abroad over recent years.</i>
 nav: true
 nav_order: 2
 ---

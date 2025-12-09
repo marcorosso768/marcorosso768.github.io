@@ -9,7 +9,7 @@ subtitle: >
         <span class="separator">|</span>
         <a href="/es/referencias/" hreflang="es">referencias</a>
     </div>
-description:
+description: <i>Profiles of my academic referees, including positions, research interests, and contact information for letters of recommendation.</i>
 nav: false
 nav_order:
 

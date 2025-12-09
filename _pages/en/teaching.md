@@ -3,7 +3,7 @@ page_id: teaching
 layout: page
 permalink: /teaching/
 title: teaching
-description: <i>I have experience both as lecturer and teaching assistant in undergraduate and graduate courses in econometrics, political economy, industrial organization, microeconomics, behavioral economics, game theory, and Python for economists, and I design lecture notes and materials that emphasize empirical applications and clarity.</i>
+description: <i>A summary of my teaching experience as lecturer and teaching assistant in undergraduate and graduate courses, complemented by selected teaching materials and handouts that I prepared.</i>
 subtitle: >
     <div class="lang-links">
         <a href="/it/insegnamento/" hreflang="it">insegnamento</a>
@@ -19,8 +19,7 @@ nav_order: 3
   <a href="javascript:void(0);" onclick="toggleVisibility('content-0')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
-      <span>teaching
-          </span>
+      <span>lecturer</span>
     </h2>
   </a>
 </div>
@@ -316,7 +315,7 @@ nav_order: 3
     <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
     <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
     <span>  
-     <a href="/teaching/econometrics/" target="_blank" rel="noopener noreferrer">Econometrics</a>
+     <a href="/teaching/econometrics/">Econometrics</a>
     </span>
   </div>
 
