@@ -4,7 +4,7 @@ layout: page
 permalink: /contacts/
 lang: en
 title: contacts
-description: <i>Contact details and links to institutional profiles, research platforms, and social networks for accessing my work or getting in touch.</i>
+description: <i>Details and links to institutional profiles, research platforms, and social networks for accessing my work or getting in touch.</i>
 subtitle: >
     <div class="lang-links">
         <a href="/it/contatti/" hreflang="it">contatti</a>
