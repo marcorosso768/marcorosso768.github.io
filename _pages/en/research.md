@@ -127,48 +127,7 @@ nav_order: 1
 <!-- Content -->
 <div id="content-2" class="toggle-section expanded">
 
-  <!-- Paper 1 -->
-  <div class="entry-block">
-    <div class="icon-entry indented">
-      <i class="fa-solid fa-file-lines fa-fw"></i>
-      <span>
-        <em>Childcare and Civic Participation: Parental Age, Child Stage, and Voter Turnout</em>
-      </span>
-    </div>
-    <div class="pill-container">
-      <div class="pill-button toggle-pill" data-target="abstract-ageturnout">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Abstract</span>
-      </div>
-      <div class="pill-button toggle-pill" data-target="keywords-ageturnout">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Keywords</span>
-      </div>
-      <div class="pill-button toggle-pill" data-target="jel-ageturnout">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">JEL</span>
-      </div>
-      <a 
-  href="mailto:marco.rosso4@unibo.it
-        ?subject=Request%20for%20draft%20-%20Childcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout
-        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20paper%20%E2%80%9CChildcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
-  class="pill-link no-external">
-        <i class="fa-regular fa-newspaper fa-2xs"></i>
-        <span class="toggle-label" title="Draft under request">Paper</span>
-      </a>
-    </div>
-    <div id="abstract-ageturnout" class="toggle-box">
-     This paper examines how parenthood and parental age influence voter turnout using a comprehensive administrative panel that covers the universe of registered voters in Bologna across four municipal and national elections between 2004 and 2013. We link individual turnout records to detailed demographic, fiscal, and geospatial information, including the location and catchment areas of public childcare facilities and the distance to polling stations. This unique linkage allows us to identify parents, measure the age of their youngest child, and control for a rich set of individual and spatial characteristics. Linear probability models with individual and year fixed effects show no average turnout difference between parents and non-parents once permanent heterogeneity is absorbed. However, sizable turnout penalties emerge when children are very young: parents of infants (0–2 years) and preschoolers (3–5 years) vote three to five percentage points less than comparable non-parents. These penalties diminish by roughly 0.2 percentage points per additional year of parental age and disappear around age forty; parents of older children show no gap. The negative effect is concentrated among mothers, while fathers’ turnout remains unaffected. Robustness checks including neighborhood fixed effects, additional socioeconomic controls, and measures of residential proximity to childcare facilities confirm these results and show that access to schools plays no role in shaping turnout. Taken together, the findings suggest that intensive childcare demands, rather than the physical availability of childcare infrastructure, constrain political participation. They underscore the importance of life-cycle factors in models of voter behavior and highlight how delayed fertility and declining birth rates can skew democratic representation by reducing the political voice of younger families.
-    </div>
-    <div id="keywords-ageturnout" class="toggle-box">
-       voter turnout, childcare, age, electoral participation, fixed effects.
-    </div>
-    <div id="jel-ageturnout" class="toggle-box">
-       D72; J13; J22; H75.
-    </div>
-  </div>
-
-  <!-- Paper 3 -->
+<!-- Paper 3 -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-file-lines fa-fw" title="Working paper"></i>
@@ -206,6 +165,50 @@ nav_order: 1
     </div>
     <div id="jel-corruption" class="toggle-box">
        D73; J45; D90; H83; K42.
+    </div>
+  </div>
+
+  <!-- Paper 1 -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-file-lines fa-fw"></i>
+      <span>
+        <em>Childcare and Civic Participation: Parental Age, Child Stage, and Voter Turnout</em><br>
+        joint with 
+        <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a> 
+        and <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>
+      </span>
+    </div>
+    <div class="pill-container">
+      <div class="pill-button toggle-pill" data-target="abstract-ageturnout">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Abstract</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="keywords-ageturnout">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Keywords</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="jel-ageturnout">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">JEL</span>
+      </div>
+      <a 
+  href="mailto:marco.rosso4@unibo.it
+        ?subject=Request%20for%20draft%20-%20Childcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout
+        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20paper%20%E2%80%9CChildcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
+  class="pill-link no-external">
+        <i class="fa-regular fa-newspaper fa-2xs"></i>
+        <span class="toggle-label" title="Draft under request">Paper</span>
+      </a>
+    </div>
+    <div id="abstract-ageturnout" class="toggle-box">
+     This paper examines how parenthood and parental age influence voter turnout using a comprehensive administrative panel that covers the universe of registered voters in Bologna across four municipal and national elections between 2004 and 2013. We link individual turnout records to detailed demographic, fiscal, and geospatial information, including the location and catchment areas of public childcare facilities and the distance to polling stations. This unique linkage allows us to identify parents, measure the age of their youngest child, and control for a rich set of individual and spatial characteristics. Linear probability models with individual and year fixed effects show no average turnout difference between parents and non-parents once permanent heterogeneity is absorbed. However, sizable turnout penalties emerge when children are very young: parents of infants (0–2 years) and preschoolers (3–5 years) vote three to five percentage points less than comparable non-parents. These penalties diminish by roughly 0.2 percentage points per additional year of parental age and disappear around age forty; parents of older children show no gap. The negative effect is concentrated among mothers, while fathers’ turnout remains unaffected. Robustness checks including neighborhood fixed effects, additional socioeconomic controls, and measures of residential proximity to childcare facilities confirm these results and show that access to schools plays no role in shaping turnout. Taken together, the findings suggest that intensive childcare demands, rather than the physical availability of childcare infrastructure, constrain political participation. They underscore the importance of life-cycle factors in models of voter behavior and highlight how delayed fertility and declining birth rates can skew democratic representation by reducing the political voice of younger families.
+    </div>
+    <div id="keywords-ageturnout" class="toggle-box">
+       voter turnout, childcare, age, electoral participation, fixed effects.
+    </div>
+    <div id="jel-ageturnout" class="toggle-box">
+       D72; J13; J22; H75.
     </div>
   </div>
 
