@@ -16,7 +16,7 @@ subtitle: >
             <a href="https://www.unibo.it/en/homepage">University of Bologna,</a>
             <a href="https://dse.unibo.it/en">Department of Economics</a>
         </div>
-        <div style="display: inline-block; width: 13px; text-align: center; position: absolute; margin-top: -1.5pt; line-height: 14pt;">
+        <div style="display: inline-block; width: 13px; text-align: center; position: absolute; margin-top: 2pt; line-height: 14pt;">
             <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color); font-size: 10pt;"></i>
         </div>
         <div style="padding-left: 20px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt;">
