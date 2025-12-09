@@ -3,7 +3,7 @@ page_id: teaching
 layout: page
 permalink: /teaching/
 title: teaching
-description: <i>I have experience both as lecturer and teaching assistant in undergraduate and graduate courses in econometrics, political economy, industrial organization, microeconomics, behavioral economics, game theory, and Python for economists, and I design lecture notes and materials that emphasize empirical applications and clarity.</i>
+description: <i>I have experience both as lecturer and teaching assistant in undergraduate and graduate courses in econometrics, political economy, industrial economics, microeconomics, behavioral economics, game theory, and Python for economists. On this page you can find the list of courses I have taught at the University of Bologna and other institutions, together with selected teaching materials and handouts that I prepared.</i>
 subtitle: >
     <div class="lang-links">
         <a href="/it/insegnamento/" hreflang="it">insegnamento</a>
