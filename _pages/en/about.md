@@ -5,7 +5,7 @@ title: about me
 permalink: /
 subtitle: >
     <div style="margin-top: -20px;">
-        <p style="font-weight: 500;">Ph.D. Candidate | Teaching&nbsp;Assistant</p>
+        <p style="font-weight: 500;">Ph.D. Candidate | Teaching&nbsp;Assistant | Research&nbsp;Assistant</p>
     </div>
     <div style="margin: 0; padding: 0; position: relative; margin-top: 14pt;">
         <!-- First row: University icon and department name -->
@@ -15,6 +15,12 @@ subtitle: >
         <div style="padding-left: 20px; margin-top: -10pt; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
             <a href="https://www.unibo.it/en/homepage">University of Bologna,</a>
             <a href="https://dse.unibo.it/en">Department of Economics</a>
+        </div>
+        <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+        </div>
+        <div style="padding-left: 20px; margin-top: -10pt; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
+            <a href="https://www.unina.it/en/">University of Naples Federico II,</a>
+            <a href="https://www.dises.unina.it/en_GB/home">Department of Economics and Statistics</a>
         </div>
         <!-- Second row: Location icon and actul location  temp: <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna, Italy</a>-->
         <div style="position: relative; font-size: 10pt; margin-top: 2pt; margin-bottom: 15px; line-height: 14pt;">
@@ -45,7 +51,7 @@ social: true # includes social icons at the bottom of the page
 
 Welcome to my personal website—glad you made it here of your own free will (or maybe you clicked by mistake; it happens to the best of us).
 
-I am a <b style="color: $white-color;">fifth-year PhD candidate in Economics</b> at the University of Bologna, and I will defend my thesis, <i>"Essays in Political Economy and Crime Economics"</i>, on January 28, 2026.
+I am a <b style="color: $white-color;">fifth-year PhD candidate in Economics</b> at the University of Bologna.
 
 My <b style="color: $white-color;">research</b> focuses on 
 <b style="color: $white-color;">Political Economy</b>, 
@@ -59,11 +65,11 @@ On the tools side, I live in <b style="color: $white-color;">Python</b> (pandas,
 <b style="color: $white-color;">QGIS</b> or <b style="color: $white-color;">R</b>, depending on how I woke up that day. 
 This often means building end-to-end pipelines—from web-scraping and NLP to geocoding and panel construction.
 
-At the moment, I am navigating the thrilling limbo of academia: working through the reviews of my PhD thesis while exploring new research ideas and job opportunities (you can find my <b style="color: $white-color;">Job Market Paper</b> <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">here</a>).
+At the moment, I am navigating the thrilling limbo of academia: working through the reviews of my PhD thesis—I will defend my thesis, <i>"Essays in Political Economy and Crime Economics"</i>, on January 28, 2026—while exploring new research ideas and job opportunities (you can find my <b style="color: $white-color;">Job Market Paper</b> <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">here</a>). 
 
-Meanwhile, I am working on the rollout of the <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="foot1">1</a></sup> in support of mindful parenting, in continuity with the online interviews I conducted for the <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a>.
+Meanwhile, I am working on the rollout of the <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="foot1">1</a></sup> in support of mindful parenting, in continuity with the online interviews I conducted for the <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a>. At the same time, I am temporarily serving as a <b style="color: $white-color;">Research Assistant</b> at the <b style="color: $white-color;">University of Naples Federico II</b> on the project <i>"Organized crime, political connections and firms' performance"</i>, conducting an analysis of open-ended responses collected from participants with the goal of identifying and categorizing the motivations that emerge, and distinguishing between respondent profiles using text analysis techniques.
 
-Moreover, I also serve as <b style="color: $white-color;">Teaching Assistant</b> for <b style="color: $white-color;">Industrial Economics</b>, <b style="color: $white-color;">Econometrics</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Python for Economists</b>, where I work to explain complex concepts through clear empirical examples and intuitive metaphors.
+Moreover, I also serve as <b style="color: $white-color;">Teaching Assistant</b> for <b style="color: $white-color;">Industrial Economics</b>, <b style="color: $white-color;">Econometrics</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Python for Economists</b> at University of Bologna, where I work to explain complex concepts through clear empirical examples and intuitive metaphors.
 
 And finally, I organize the <b style="color: $white-color;">DSE Afterwork Drinks</b>, a monthly informal gathering where we talk about research, academic life, and everything in between—from careers and conferences to films, music, and everyday worries—with the aim of building a relaxed, supportive department community.
 
