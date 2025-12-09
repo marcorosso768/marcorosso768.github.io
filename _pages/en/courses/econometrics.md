@@ -60,7 +60,7 @@ nav: false
 
 <div class="teaching-entry indented">
   <i class="fa-regular fa-note-sticky fa-fw" style="color: var(--global-theme-color);"></i>
-  <span style="padding-left: 20px;>  
+  <span style="padding-left: 20px;">  
   <a href="/assets/pdf/teaching/econometrics/Marginal Effects in Logit & Probit Models and Maximum Likelihood Tests.pdf" target="_blank" rel="noopener noreferrer">Marginal Effects in Logit and Probit Models and Maximum Likelihood Tests</a>
   </span>
 </div>
