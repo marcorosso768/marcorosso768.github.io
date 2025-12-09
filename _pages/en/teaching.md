@@ -316,7 +316,7 @@ nav_order: 3
     <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
     <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
     <span>  
-     <a href="/teaching/econometrics/" target="_blank" rel="noopener noreferrer">Econometrics</a>
+     <a href="/teaching/econometrics/">Econometrics</a>
     </span>
   </div>
 
