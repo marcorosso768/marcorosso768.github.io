@@ -4,6 +4,10 @@ layout: page
 permalink: /teaching/econometrics/
 title: econometrics
 description: <i>Here you can find useful materials for the Econometrics course.</i>
+subtitle: >
+    <div class="lang-links">
+        <a href="#" onclick="window.location.href='https://marcorosso.com/teaching/'; return false;">back to teaching</a>
+    </div>
 nav: false
 ---
 
@@ -20,8 +24,8 @@ nav: false
 <div id="content-0" class="toggle-section expanded">
 
 <div class="teaching-entry indented">
-  <i class="fa-regular fa-file-pdf fa-fw"></i>
-  <span>  
+  <i class="fa-regular fa-file-pdf fa-fw" style="color: var(--global-theme-color);"></i>
+  <span style="padding-left: 20px;>  
   <a href="/assets/pdf/teaching/econometrics/Introduction to STATA.pdf" target="_blank" rel="noopener noreferrer">Introduction to Stata</a> — last update: Nov 2025
   </span>
 </div>
@@ -55,8 +59,8 @@ nav: false
 </div>
 
 <div class="teaching-entry indented">
-  <i class="fa-regular fa-note-sticky fa-fw"></i>
-  <span>  
+  <i class="fa-regular fa-note-sticky fa-fw" style="color: var(--global-theme-color);"></i>
+  <span style="padding-left: 20px;>  
   <a href="/assets/pdf/teaching/econometrics/Marginal Effects in Logit & Probit Models and Maximum Likelihood Tests.pdf" target="_blank" rel="noopener noreferrer">Marginal Effects in Logit and Probit Models and Maximum Likelihood Tests</a>
   </span>
 </div>
