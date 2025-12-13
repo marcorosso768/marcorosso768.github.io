@@ -86,6 +86,20 @@ nav: false
   </span>
 </div>
 
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  <a href="assets/pdf/teaching/econometrics/Review Session - Probability and Statistics Review, Linear Regression Models, and OLS Inference.pdf" target="_blank" rel="noopener noreferrer">Review Session: Probability and Statistics Review, Linear Regression Models, and OLS Inference</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  <a href="assets/pdf/teaching/econometrics/Review Session - Heteroskedasticity, Logit and Probit Models, Maximum Likelihood Estimation, and Inference based on Maximum Likelihood.pdf" target="_blank" rel="noopener noreferrer">Review Session: Heteroskedasticity, Logit and Probit Models, Maximum Likelihood Estimation, and Inference based on Maximum Likelihood</a>
+  </span>
+</div>
+
 </div>
 
 <!-- DOFILES -->
