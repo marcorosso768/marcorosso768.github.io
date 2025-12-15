@@ -60,12 +60,6 @@ My <b style="color: $white-color;">research</b> focuses on
 <b style="color: $white-color;">Experimental</b> and 
 <b style="color: $white-color;">Behavioral Economics</b>, with a particular interest in how institutions and individual behavior interact in real-world settings.
 
-I pair this with clean, testable <b style="color: $white-color;">theoretical frameworks</b> (incentives, information frictions, selection) to pin down mechanisms before chasing their empirical footprints. 
-On the tools side, I live in <b style="color: $white-color;">Python</b> (pandas, BeautifulSoup, spaCy, geopandas), 
-<b style="color: $white-color;">Stata</b> (reghdfe/hdfe, frames, rdrobust, event-study workflows, esttab), and 
-<b style="color: $white-color;">QGIS</b> or <b style="color: $white-color;">R</b>, depending on how I woke up that day. 
-This often means building end-to-end pipelines—from web-scraping and NLP to geocoding and panel construction.
-
 At the moment, I am navigating the thrilling limbo of academia: working through the reviews of my PhD thesis—I will defend my thesis, <i>"Essays in Political Economy and Crime Economics"</i>, on January 28, 2026—while exploring new research ideas and job opportunities (you can find my <b style="color: $white-color;">Job Market Paper</b> <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">here</a>). 
 
 Meanwhile, I am working on the rollout of the <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="foot1">1</a></sup> in support of mindful parenting, in continuity with the online interviews I conducted for the <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a>. At the same time, I am temporarily serving as a <b style="color: $white-color;">Research Assistant</b> at the <b style="color: $white-color;">University of Naples Federico II</b> on the project <i>"Organized crime, political connections and firms' performance"</i>, conducting an analysis of open-ended responses collected from participants with the goal of identifying and categorizing the motivations that emerge, and distinguishing between respondent profiles using text analysis techniques.
