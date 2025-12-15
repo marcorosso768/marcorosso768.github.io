@@ -9,7 +9,7 @@ subtitle: >
         <span class="separator">|</span>
         <a href="/es/conferencias/" hreflang="es">conferencias</a>
     </div>
-description: <i>A record of invited talks, conference presentations, workshops, and book discussions, documenting where I have presented my research in Italy and abroad over recent years.</i>
+description: <i>This section documents invited talks, conference presentations, workshops, and related academic discussions. I use these venues to present work at different stages—early ideas, work in progress, and completed papers—often tailoring the emphasis toward identification, mechanisms, and external validity depending on the audience.</i>
 nav: true
 nav_order: 2
 ---
