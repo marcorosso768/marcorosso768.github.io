@@ -16,6 +16,13 @@ subtitle: >
             <a href="https://www.unibo.it/it">Università di Bologna,</a>
             <a href="https://dse.unibo.it">Dipartimento di Scienze Economiche</a>
         </div>
+        <div style="display: inline-block; width: 13px; text-align: center; position: absolute; margin-top: 1px; line-height: 14pt;">
+            <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+        </div>
+        <div style="padding-left: 20px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; margin-top: 2pt;">
+            <a href="https://www.unina.it/">Università degli Studi di Napoli Federico II,</a>
+            <a href="https://www.dises.unina.it/home">Dipartimento di Economia e Statistica (temporaneo)</a>
+        </div>
         <!-- Second row: Location icon and actula location -->
         <div style="position: relative; font-size: 10pt; margin-top: 2pt; margin-bottom: 15px; line-height: 14pt;">
             <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; line-height: 14pt;">
@@ -45,35 +52,21 @@ social: true # includes social icons at the bottom of the page
 
 Benvenutə nel mio sito personale — felice che tu sia arrivatə qui di tua spontanea volontà (o forse hai cliccato per sbaglio; capita anche ai migliori).
 
-Sono un <b style="color: $white-color;">dottorandə al quinto anno in Economia</b> presso l'Università di Bologna, e discuterò la mia tesi, <i>"Essays in Political Economy and Crime Economics"</i>, il 28 gennaio 2026.
+Sono un <b style="color: $white-color;">dottorando al quinto anno in Economia</b> presso l’Università di Bologna.
 
-La mia <b style="color: $white-color;">ricerca</b> ruota attorno 
-all’<b style="color: $white-color;">Economia Politica</b>, 
-all’<b style="color: $white-color;">Economia del Crimine</b>, 
-e all’<b style="color: $white-color;">Economia Sperimentale</b> e 
-<b style="color: $white-color;">Comportamentale</b>, perfetta per chi ama domande scomode, dilemmi etici e dataset che si ostinano a non voler essere trovati.
+La mia <b style="color: $white-color;">ricerca</b> si concentra su 
+<b style="color: $white-color;">Economia Politica</b>, 
+<b style="color: $white-color;">Economia della Criminalità</b>, 
+<b style="color: $white-color;">Economia Sperimentale</b> e 
+<b style="color: $white-color;">Comportamentale</b>, con un interesse particolare per il modo in cui le istituzioni e il comportamento individuale interagiscono nei contesti reali.
 
-Abbino a questa <b style="color: $white-color;">quadri teorici</b> puliti e verificabili (incentivi, frizioni informative, selezione) per individuare i meccanismi prima di seguirne le tracce empiriche. 
-Sul piano tecnico, lavoro con <b style="color: $white-color;">Python</b> (pandas, BeautifulSoup, spaCy, geopandas), 
-<b style="color: $white-color;">Stata</b> (reghdfe/hdfe, frames, rdrobust, procedure di event study, esttab), e 
-<b style="color: $white-color;">QGIS</b> o <b style="color: $white-color;">R</b>, a seconda di come mi sveglio la mattina. 
-Questo spesso significa costruire pipeline complete — dal web scraping e dall’elaborazione del linguaggio naturale (NLP) fino alla geocodifica e alla costruzione di dati panel.
-<div style="height: 1rem;"></div>
-Al momento sto navigando il meraviglioso limbo dell’accademia: tra la revisione della mia tesi di dottorato, nuove idee di ricerca e opportunità lavorative da esplorare.
+Al momento sto navigando l’entusiasmante limbo dell’accademia: lavorando sulle revisioni della mia tesi di dottorato — difenderò <i>"Essays in Political Economy and Crime Economics"</i> il 28 gennaio 2026 — ed esplorando nuove idee di ricerca e opportunità lavorative (qui puoi trovare il mio <b style="color: $white-color;">Job Market Paper</b> <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">qui</a>). 
 
-Nel frattempo — quando non cerco di progettare un esito Pareto-superiore per la mia to-do list, così da evitare la perdita secca dell’inattività — lavoro al lancio della
-<a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">App MinUTo</a><sup><a href="#fn1" id="foot1">1</a></sup>
-a supporto della genitorialità consapevole, in continuità con le interviste online che ho condotto per il 
-<a href="https://site.unibo.it/minuto/it" target="_blank" rel="noopener noreferrer" class="external">Progetto MinUTo</a>. 
+Nel frattempo, sto lavorando al lancio della <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="foot1">1</a></sup> a supporto della genitorialità consapevole, in continuità con le interviste online che ho condotto per il <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">Progetto MinUTo</a>. Allo stesso tempo, svolgo temporaneamente il ruolo di <b style="color: $white-color;">Research Assistant</b> presso l’<b style="color: $white-color;">Università di Napoli Federico II</b> nel progetto <i>"Organized crime, political connections and firms' performance"</i>, conducendo un’analisi delle risposte a domande aperte raccolte dai partecipanti con l’obiettivo di identificare e categorizzare le motivazioni emerse, distinguendo tra profili di rispondenti mediante tecniche di text analysis.
 
-Sono inoltre <b style="color: $white-color;">assistente alla didattica</b> per i corsi di 
-<b style="color: $white-color;">Economia Industriale</b>, 
-<b style="color: $white-color;">Econometria</b>, 
-<b style="color: $white-color;">Economia Politica</b> 
-e <b style="color: $white-color;">Python per Economisti</b>. 
-Per lo più, traduco idee e codici complessi in metafore improbabili — con una sicurezza solo parzialmente giustificata.
+Sono inoltre <b style="color: $white-color;">Teaching Assistant</b> per <b style="color: $white-color;">Economia Industriale</b>, <b style="color: $white-color;">Econometria</b>, <b style="color: $white-color;">Economia Politica</b> e <b style="color: $white-color;">Python per Economisti</b> presso l’<b style="color: $white-color;">Università di Bologna</b>.
 
-E, infine, per dare un senso all'esistenza: organizzo gli <b style="color: $white-color;">Aperitivi di Dipartimento</b>, un appuntamento mensile in cui si parla di accademia, vita, sogni infranti e bandi in scadenza—ma con un drink in mano, che cambia tutto.
+E infine, organizzo i <b style="color: $white-color;">DSE Afterwork Drinks</b>, un incontro informale mensile in cui parliamo di ricerca, vita accademica e di tutto ciò che sta nel mezzo — dalle carriere e le conferenze ai film, alla musica e alle preoccupazioni quotidiane — con l’obiettivo di costruire una comunità dipartimentale rilassata e solidale.
 
 La mia citazione preferita?  
 <i>"Non ha senso usare la parola "impossibile" per descrivere qualcosa che è chiaramente successo."</i><sup><a href="#fn2" id="foot2">&nbsp;2</a></sup><br>
