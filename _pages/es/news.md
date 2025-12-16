@@ -13,3 +13,4 @@ permalink: /novedades/
 ---
 
   {% include news.liquid %}
+
