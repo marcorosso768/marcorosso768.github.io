@@ -12,7 +12,7 @@ subtitle: >
 nav: true
 nav_order: 4
 cv_pdf: /[Marco Rosso] Curriculum Vitae_es.pdf
-description: <i>Una versión completa y detallada está disponible haciendo clic en el ícono de PDF.</i>
+description: <i>Esta sección consolida mi formación académica y mi trayectoria profesional, incluyendo formación, cargos desempeñados, actividades de servicio y otras actividades no cubiertas en las secciones de investigación, docencia y presentaciones. Para fines de completitud y citación, el CV completo está disponible a través del ícono PDF.</i>
 # toc:
  # sidebar: left
 ---
