@@ -3,7 +3,7 @@ page_id: teaching
 layout: page
 permalink: /insegnamento/
 title: insegnamento
-description:
+description: <i>La mia attività didattica copre corsi di laurea e laurea magistrale in Econometria, Economia Politica, Microeconomia, Economia Comportamentale, Teoria dei Giochi e Python per Economisti. In tutti i corsi, l’enfasi è posta sulla costruzione dell’intuizione insieme a derivazioni rigorose e flussi di lavoro empirici riproducibili, con materiali progettati per essere direttamente utilizzabili in esercitazioni e progetti applicati. La pagina elenca i corsi che ho tenuto e mette a disposizione dispense selezionate, slide e altre risorse didattiche.</i>
 subtitle: >
     <div class="lang-links">
         <a href="#" onclick="window.location.href='https://marcorosso.com/teaching/'; return false;">teaching</a>
@@ -14,11 +14,37 @@ nav: true
 nav_order: 3
 ---
 
+<!-- TEACHING -->
+<div class="projects">
+  <a href="javascript:void(0);" onclick="toggleVisibility('content-0')">
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
+      <span>docente</span>
+    </h2>
+  </a>
+</div>
+
+<div id="content-0" class="toggle-section expanded">
+
+<!-- TOGGLE TRIGGER -->
+<div class="subsection">
+  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-unibo-t')">
+    <h2 class="subsection">
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-unibo-t"></i>
+       <span>University of Bologna</span>
+    </h2>
+  </a>
+</div>
+
+</div>
+</div>
+
+<!-- TEACHING ASSISTANT -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
-      <span>assistente alla didattica</span>
+      <span>tutor didattico</span>
     </h2>
   </a>
 </div>
@@ -62,19 +88,6 @@ nav_order: 3
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
         Economics and Public Policy — Laurea magistrale (in inglese)
-      </div>
-    </div>
-  </div>
-
-   <div class="teaching-entry indented">
-   <div class="teaching-entry__row teaching-entry__row--title">
-      <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2025/406503'>Econometria</a> con <a href='https://www.unibo.it/sitoweb/margherita.fort/'>Margherita Fort </a>
-      </div>
-   </div>
-   <div class="teaching-entry__row teaching-entry__row--course">
-      <div class="teaching-entry__course-text">
-        Business and Economics — Laurea triennale (in inglese)
       </div>
     </div>
   </div>
@@ -268,22 +281,23 @@ nav_order: 3
 
 </div>
 
-
+<!-- FILES -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
-      <span>materiali didattici e manuali</span>
+      <span>teaching materials and handbooks</span>
     </h2>
   </a>
 </div>
 
 <div id="content-2" class="toggle-section expanded">
 
-  <div class="icon-entry indented">
-    <i class="fa-regular fa-file-pdf fa-fw" style="margin-top:-0.5px;"></i>
+  <div class="icon-link indented folder-link">
+    <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
+    <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
     <span>  
-    <a href="/assets/pdf/teaching/Introduction to STATA.pdf" target="_blank" rel="noopener noreferrer">Introduzione a Stata (in inglese)</a> — ultimo aggiornamento: nov 2025
+     <a href="/teaching/econometrics/">Econometrics</a>
     </span>
   </div>
 
