@@ -6,7 +6,7 @@ en:
   "/it/referenze/": "/references/"
   "/it/ricerca/": "/research/"
   "/it/conferenze/": "/talks/"
-  "/it/insegnamento/": "/teaching/"
+  "/it/didattica/": "/teaching/"
   "/it/contatti/": "/contacts/"
   # Spanish to English mappings
   "/es/": "/"
@@ -26,7 +26,7 @@ it:
   "/references/": "/it/referenze/"
   "/research/": "/it/ricerca/"
   "/talks/": "/it/conferenze/"
-  "/teaching/": "/it/insegnamento/"
+  "/teaching/": "/it/didattica/"
   "/contacts/": "it/contatti/"
   # Spanish to Italian mappings
   "/es/": "/it/"
@@ -35,7 +35,7 @@ it:
   "/es/referencias/": "/it/referenze/"
   "/es/investigación/": "/it/ricerca/"
   "/es/conferencias/": "/it/conferenze/"
-  "/es/docencia/": "/it/insegnamento/"
+  "/es/docencia/": "/it/didattica/"
   "/es/contactos/": "it/contatti/"
 
 es:
@@ -55,5 +55,5 @@ es:
   "/it/referenze/": "/es/referencias/"
   "/it/ricerca/": "/es/investigación/"
   "/it/conferenze/": "/es/conferencias/"
-  "/it/insegnamento/": "/es/docencia/"
+  "/it/didattica/": "/es/docencia/"
   "it/contatti/": "/es/contactos/"
