@@ -36,6 +36,11 @@ nav_order: 3
   </a>
 </div>
 
+<!-- TOGGLE CONTENT -->
+<div id="subsection-unibo-t" class="toggle-section expanded">
+
+<p style="margin-left: 0.1em;"><b>2025/26</b></p>
+
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
     <div class="teaching-entry__content">
@@ -291,7 +296,6 @@ nav_order: 3
   </div>
 
 </div>
-
 </div>
 
 <!-- FILES -->
@@ -310,7 +314,7 @@ nav_order: 3
     <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
     <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
     <span>  
-     <a href="/didattica/econometria/">Econometrics</a>
+     <a href="/econometria/">Econometria</a>
     </span>
   </div>
 
