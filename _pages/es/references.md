@@ -9,7 +9,7 @@ subtitle: >
        <span class="separator">|</span>
        <a href="/it/referenze/" hreflang="it">referenze</a>
     </div>
-description:
+description: <i>Esta página proporciona información sobre mis referentes académicos, incluidas afiliaciones, áreas de investigación y datos de contacto para cartas de recomendación. El objetivo es facilitar las solicitudes de referencias por parte de los comités de selección, al tiempo que se brinda contexto sobre mis principales colaboraciones y mi red de mentoría.</i>
 nav: false
 nav_order:
 
