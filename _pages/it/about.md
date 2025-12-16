@@ -5,7 +5,7 @@ title: su&nbsp;di me
 permalink: /
 subtitle: >
     <div style="margin-top: -20px;">
-        <p style="font-weight: 500;">Dottorando | Tutor&nbsp;Didattico |&nbsp;Assistente&nbsp;alla&nbsp;Ricerca</p>
+        <p style="font-weight: 500;">Dottorando | Tutor&nbsp;Didattico | Assistente&nbsp;alla&nbsp;Ricerca</p>
     </div>
     <div style="margin: 0; padding: 0; position: relative; margin-top: 14pt;">
         <!-- First row: University icon and department name -->
