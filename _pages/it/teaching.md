@@ -31,7 +31,7 @@ nav_order: 3
   <a href="javascript:void(0);" onclick="toggleVisibility('subsection-unibo-t')">
     <h2 class="subsection">
        <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-unibo-t"></i>
-       <span>University of Bologna</span>
+       <span>Università di Bologna</span>
     </h2>
   </a>
 </div>
@@ -303,7 +303,7 @@ nav_order: 3
   <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
-      <span>teaching materials and handbooks</span>
+      <span>materiale didattico</span>
     </h2>
   </a>
 </div>
@@ -314,7 +314,7 @@ nav_order: 3
     <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
     <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
     <span>  
-     <a href="econometria/">Econometria</a>
+     <a href="./econometria/">Econometria</a>
     </span>
   </div>
 
