@@ -3,7 +3,7 @@ page_id: econometrics
 layout: page
 permalink: /didattica/econometria/
 title: econometria
-description: |
+description: >
     <i>Qui sono disponibili materiali utili per il corso di Econometria.</i>
     <i>Nota: il materiale è disponibile in inglese.</i>
 subtitle: >
