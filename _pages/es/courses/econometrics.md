@@ -4,8 +4,8 @@ layout: page
 permalink: /docencia/econometría/
 title: econometría
 description: >
-    <i>Aquí se encuentran materiales útiles para el curso de Econometría.</i>
-    <i>Nota: el material está disponible en inglés.</i>
+    Aquí se encuentran materiales útiles para el curso de Econometría.
+    Nota: el material está disponible en inglés.
 description_format: multiline
 subtitle: >
     <div class="lang-links">
