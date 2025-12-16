@@ -5,7 +5,7 @@ title: su&nbsp;di me
 permalink: /
 subtitle: >
     <div style="margin-top: -20px;">
-        <p style="font-weight: 500;">Dottorando | Tutor Didattico</p>
+        <p style="font-weight: 500;">Dottorando | Tutor&nbsp;Didattico |&nbsp;Assistente&nbsp;alla&nbsp;Ricerca</p>
     </div>
     <div style="margin: 0; padding: 0; position: relative; margin-top: 14pt;">
         <!-- First row: University icon and department name -->
@@ -62,7 +62,7 @@ La mia <b style="color: $white-color;">ricerca</b> si concentra su
 
 Al momento sto navigando l’entusiasmante limbo dell’accademia: lavorando sulle revisioni della mia tesi di dottorato — difenderò il mio lavoro, <i>"Essays in Political Economy and Crime Economics"</i>, il 28 gennaio 2026 — ed esplorando nuove idee di ricerca e opportunità lavorative (<a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">qui</a> puoi trovare il mio <b style="color: $white-color;">Job Market Paper</b>). 
 
-Nel frattempo, sto lavorando al lancio della <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="foot1">1</a></sup> a supporto della genitorialità consapevole, in continuità con le interviste online che ho condotto per il <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">Progetto MinUTo</a>. Allo stesso tempo, svolgo temporaneamente il ruolo di <b style="color: $white-color;">Research Assistant</b> presso l’<b style="color: $white-color;">Università di Napoli Federico II</b> nel progetto <i>"Organized crime, political connections and firms' performance"</i>, conducendo un’analisi delle risposte a domande aperte raccolte dai partecipanti con l’obiettivo di identificare e categorizzare le motivazioni emerse, distinguendo tra profili di rispondenti mediante tecniche di text analysis.
+Nel frattempo, sto lavorando al lancio della <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="foot1">1</a></sup> a supporto della genitorialità consapevole, in continuità con le interviste online che ho condotto per il <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">Progetto MinUTo</a>. Allo stesso tempo, svolgo temporaneamente il ruolo di <b style="color: $white-color;">Assistente alla Ricerca</b> presso l’<b style="color: $white-color;">Università di Napoli Federico II</b> nel progetto <i>"Organized crime, political connections and firms' performance"</i>, conducendo un’analisi delle risposte a domande aperte raccolte dai partecipanti con l’obiettivo di identificare e categorizzare le motivazioni emerse, distinguendo tra profili di rispondenti mediante tecniche di text analysis.
 
 Sono inoltre <b style="color: $white-color;">Tutor Didattico</b> per <b style="color: $white-color;">Economia Industriale</b>, <b style="color: $white-color;">Econometria</b>, <b style="color: $white-color;">Economia Politica</b> e <b style="color: $white-color;">Python per Economisti</b> presso l’<b style="color: $white-color;">Università di Bologna</b>.
 
