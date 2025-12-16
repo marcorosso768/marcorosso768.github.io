@@ -3,7 +3,7 @@ page_id: research
 layout: page
 permalink: /ricerca/
 title: ricerca
-description:
+description: <i>La mia agenda di ricerca sviluppa quadri teorici puliti e verificabili—centrati su incentivi, frizioni informative e selezione — per chiarire i meccanismi prima di tracciarne le implicazioni empiriche. Sul piano empirico, lavoro con pipeline riproducibili end-to-end che spesso combinano web scraping e analisi del linguaggio naturale (NLP) con geocodifica e costruzione di dati panel. Il mio flusso di lavoro si basa tipicamente su Python (a es. pandas, BeautifulSoup, spaCy, GeoPandas), Stata (a es. reghdfe/hdfe, frames, rdrobust, routine di event study, esttab) e strumenti spaziali come QGIS (e, quando opportuno, R). Gli elementi riportati di seguito forniscono abstract e link a paper e slide, insieme a parole chiave e codici JEL.</i>
 subtitle: >
     <div class="lang-links">
         <a href="#" onclick="window.location.href='https://marcorosso.com/research/'; return false;">research</a>
@@ -27,7 +27,7 @@ nav_order: 1
 <!-- Publications Section -->
 <div id="content-0" class="toggle-section expanded">
 
-  <!-- Paper 1 -->
+  <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-newspaper fa-fw"></i>
@@ -65,7 +65,7 @@ nav_order: 1
 <!-- Content -->
 <div id="content-1" class="toggle-section expanded">
 
-<!-- Paper 2 -->
+<!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-file-lines fa-fw"></i>
@@ -127,48 +127,7 @@ nav_order: 1
 <!-- Content -->
 <div id="content-2" class="toggle-section expanded">
 
-  <!-- Paper 1 -->
-  <div class="entry-block">
-    <div class="icon-entry indented">
-      <i class="fa-solid fa-file-lines fa-fw"></i>
-      <span>
-        <em>Childcare and Civic Participation: Parental Age, Child Stage, and Voter Turnout</em>
-      </span>
-    </div>
-    <div class="pill-container">
-      <div class="pill-button toggle-pill" data-target="abstract-ageturnout">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Abstract</span>
-      </div>
-      <div class="pill-button toggle-pill" data-target="keywords-ageturnout">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Parole chiave</span>
-      </div>
-      <div class="pill-button toggle-pill" data-target="jel-ageturnout">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">JEL</span>
-      </div>
-      <a 
-  href="mailto:marco.rosso4@unibo.it
-        ?subject=Richiesta%20bozza%20-%20Childcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout
-        &body=Caro%20Marco,%0D%0A%0D%0Avorrei%20chiederti%20la%20bozza%20del%20tuo%20paper%20%E2%80%9CChildcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout%E2%80%9D.%0D%0A%0D%0AGrazie!%0D%0A"
-  class="pill-link no-external">
-        <i class="fa-regular fa-newspaper fa-2xs"></i>
-        <span class="toggle-label" title="Bozza su richiesta">Paper</span>
-      </a>
-    </div>
-    <div id="abstract-ageturnout" class="toggle-box">
-     Questo studio esamina come la genitorialità e l’età dei genitori influenzino la partecipazione elettorale, utilizzando un ampio pannello amministrativo che copre l’universo degli elettori registrati a Bologna in quattro elezioni municipali e nazionali tra il 2004 e il 2013. Colleghiamo i dati individuali di affluenza elettorale a informazioni demografiche, fiscali e geospaziali dettagliate, inclusa la localizzazione e le aree di riferimento degli asili pubblici e la distanza dai seggi elettorali. Questo collegamento unico ci consente di identificare i genitori, misurare l’età del loro figlio più piccolo e controllare un ampio insieme di caratteristiche individuali e spaziali. Modelli di probabilità lineari con effetti fissi individuali e annuali non mostrano differenze medie di affluenza tra genitori e non genitori, una volta assorbita l’eterogeneità permanente. Tuttavia, emergono penalizzazioni significative quando i figli sono molto piccoli: i genitori di neonati (0–2 anni) e bambini in età prescolare (3–5 anni) votano dal tre al cinque per cento in meno rispetto ai non genitori comparabili. Queste penalizzazioni diminuiscono di circa 0,2 punti percentuali per ogni anno aggiuntivo di età dei genitori e scompaiono intorno ai quarant’anni; i genitori di figli più grandi non mostrano differenze. L’effetto negativo si concentra tra le madri, mentre l’affluenza dei padri rimane invariata. Verifiche di robustezza che includono effetti fissi di quartiere, ulteriori controlli socioeconomici e misure di prossimità residenziale agli asili confermano questi risultati e mostrano che l’accesso alle scuole non gioca alcun ruolo nel determinare l’affluenza. Nel complesso, i risultati suggeriscono che sono le intense esigenze di cura dei bambini, piuttosto che la disponibilità fisica di strutture per l’infanzia, a limitare la partecipazione politica. Essi sottolineano l’importanza dei fattori legati al ciclo di vita nei modelli di comportamento elettorale e mettono in evidenza come la fertilità posticipata e il calo delle nascite possano distorcere la rappresentanza democratica riducendo la voce politica delle famiglie più giovani.
-    </div>
-    <div id="keywords-ageturnout" class="toggle-box">
-       affluenza elettorale, cura dei bambini, età, partecipazione elettorale, effetti fissi.
-    </div>
-    <div id="jel-ageturnout" class="toggle-box">
-       D72; J13; J22; H75.
-    </div>
-  </div>
-
-  <!-- Paper 3 -->
+  <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-file-lines fa-fw" title="Working paper"></i>
@@ -209,6 +168,50 @@ nav_order: 1
     </div>
   </div>
 
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-file-lines fa-fw"></i>
+      <span>
+        <em>Childcare and Civic Participation: Parental Age, Child Stage, and Voter Turnout</em><br>
+        con 
+        <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a> 
+        and <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>
+      </span>
+    </div>
+    <div class="pill-container">
+      <div class="pill-button toggle-pill" data-target="abstract-ageturnout">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Abstract</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="keywords-ageturnout">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Parole chiave</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="jel-ageturnout">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">JEL</span>
+      </div>
+      <a 
+  href="mailto:marco.rosso4@unibo.it
+        ?subject=Richiesta%20bozza%20-%20Childcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout
+        &body=Caro%20Marco,%0D%0A%0D%0Avorrei%20chiederti%20la%20bozza%20del%20tuo%20paper%20%E2%80%9CChildcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout%E2%80%9D.%0D%0A%0D%0AGrazie!%0D%0A"
+  class="pill-link no-external">
+        <i class="fa-regular fa-newspaper fa-2xs"></i>
+        <span class="toggle-label" title="Bozza su richiesta">Paper</span>
+      </a>
+    </div>
+    <div id="abstract-ageturnout" class="toggle-box">
+     Questo studio esamina come la genitorialità e l’età dei genitori influenzino la partecipazione elettorale, utilizzando un ampio pannello amministrativo che copre l’universo degli elettori registrati a Bologna in quattro elezioni municipali e nazionali tra il 2004 e il 2013. Colleghiamo i dati individuali di affluenza elettorale a informazioni demografiche, fiscali e geospaziali dettagliate, inclusa la localizzazione e le aree di riferimento degli asili pubblici e la distanza dai seggi elettorali. Questo collegamento unico ci consente di identificare i genitori, misurare l’età del loro figlio più piccolo e controllare un ampio insieme di caratteristiche individuali e spaziali. Modelli di probabilità lineari con effetti fissi individuali e annuali non mostrano differenze medie di affluenza tra genitori e non genitori, una volta assorbita l’eterogeneità permanente. Tuttavia, emergono penalizzazioni significative quando i figli sono molto piccoli: i genitori di neonati (0–2 anni) e bambini in età prescolare (3–5 anni) votano dal tre al cinque per cento in meno rispetto ai non genitori comparabili. Queste penalizzazioni diminuiscono di circa 0,2 punti percentuali per ogni anno aggiuntivo di età dei genitori e scompaiono intorno ai quarant’anni; i genitori di figli più grandi non mostrano differenze. L’effetto negativo si concentra tra le madri, mentre l’affluenza dei padri rimane invariata. Verifiche di robustezza che includono effetti fissi di quartiere, ulteriori controlli socioeconomici e misure di prossimità residenziale agli asili confermano questi risultati e mostrano che l’accesso alle scuole non gioca alcun ruolo nel determinare l’affluenza. Nel complesso, i risultati suggeriscono che sono le intense esigenze di cura dei bambini, piuttosto che la disponibilità fisica di strutture per l’infanzia, a limitare la partecipazione politica. Essi sottolineano l’importanza dei fattori legati al ciclo di vita nei modelli di comportamento elettorale e mettono in evidenza come la fertilità posticipata e il calo delle nascite possano distorcere la rappresentanza democratica riducendo la voce politica delle famiglie più giovani.
+    </div>
+    <div id="keywords-ageturnout" class="toggle-box">
+       affluenza elettorale, cura dei bambini, età, partecipazione elettorale, effetti fissi.
+    </div>
+    <div id="jel-ageturnout" class="toggle-box">
+       D72; J13; J22; H75.
+    </div>
+  </div>
+
 </div>
 
 <!-- Sezione Studi in Corso -->
@@ -224,7 +227,7 @@ nav_order: 1
 <!-- Content -->
 <div id="content-3" class="toggle-section expanded">
 
-<!-- Paper 1 -->
+<!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-bookmark fa-fw"></i>
@@ -239,7 +242,7 @@ nav_order: 1
     </div>
   </div>
 
- <!-- Paper 2 -->
+ <!-- Paper -->
  <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-bookmark fa-fw"></i>
