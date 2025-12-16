@@ -1,8 +1,8 @@
 ---
 page_id: teaching
 layout: page
-permalink: /insegnamento/
-title: insegnamento
+permalink: /didattica/
+title: didattica
 description: <i>La mia attività didattica copre corsi di laurea e laurea magistrale in Econometria, Economia Politica, Microeconomia, Economia Comportamentale, Teoria dei Giochi e Python per Economisti. In tutti i corsi, l’enfasi è posta sulla costruzione dell’intuizione insieme a derivazioni rigorose e flussi di lavoro empirici riproducibili, con materiali progettati per essere direttamente utilizzabili in esercitazioni e progetti applicati. La pagina elenca i corsi che ho tenuto e mette a disposizione dispense selezionate, slide e altre risorse didattiche.</i>
 subtitle: >
     <div class="lang-links">
