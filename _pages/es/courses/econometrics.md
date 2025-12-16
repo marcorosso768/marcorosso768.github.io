@@ -3,10 +3,10 @@ page_id: econometrics
 layout: page
 permalink: /docencia/econometría/
 title: econometría
-description: >
+description_format: multiline
+description: |
     Aquí se encuentran materiales útiles para el curso de Econometría.
     Nota: el material está disponible en inglés.
-description_format: multiline
 subtitle: >
     <div class="lang-links">
         <a href="/es/docencia/" hreflang="es">volver a docencia</a>
