@@ -109,7 +109,7 @@ nav: false
   <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
-      <span>dofile</span>
+      <span>do-file</span>
     </h2>
   </a>
 </div>
