@@ -2,11 +2,11 @@
 page_id: econometrics
 layout: page
 permalink: /didattica/econometrics/
-title: econometrics
+title: econometria
 description: <i>Qui sono disponibili materiali utili per il corso di Econometria. Tutto il materiale è disponibile esclusivamente in lingua inglese, in quanto lingua ufficiale del corso.</i>
 subtitle: >
     <div class="lang-links">
-        <a href="/it/insegnamento/" hreflang="it">torna alla didattica</a>
+        <a href="/it/didattica/" hreflang="it">torna alla didattica</a>
     </div>
 nav: false
 ---
