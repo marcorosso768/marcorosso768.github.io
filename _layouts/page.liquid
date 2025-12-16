@@ -15,7 +15,13 @@ layout: default
       <p class="desc">{{ page.subtitle }}</p>
     {% endif %}
     {% if page.description %}
-      <p class="post-description">{{ page.description }}</p>
+      <p class="post-description">
+        {% if page.description_format == "multiline" %}
+          {{ page.description | newline_to_br }}
+        {% else %}
+          {{ page.description }}
+        {% endif %}
+      </p>
     {% endif %}
   </header>
 
