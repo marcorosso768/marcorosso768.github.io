@@ -1,7 +1,7 @@
 ---
 page_id: econometrics
 layout: page
-permalink: /didattica/econometrics/
+permalink: /didattica/econometria/
 title: econometria
 description: <i>Qui sono disponibili materiali utili per il corso di Econometria. Tutto il materiale è disponibile esclusivamente in lingua inglese, in quanto lingua ufficiale del corso.</i>
 subtitle: >
