@@ -9,7 +9,7 @@ subtitle: >
         <span class="separator">|</span>
         <a href="/es/conferencias/" hreflang="es">conferencias</a>
     </div>
-description:
+description: <i>Questa sezione documenta seminari su invito, presentazioni a conferenze, workshop e altre discussioni accademiche correlate. Utilizzo questi contesti per presentare lavori in diverse fasi — idee iniziali, lavori in corso e articoli completati — modulando spesso l’enfasi su identificazione, meccanismi e validità esterna a seconda del pubblico.</i>
 nav: true
 nav_order: 2
 ---

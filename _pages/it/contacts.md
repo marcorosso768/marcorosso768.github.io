@@ -4,7 +4,7 @@ layout: page
 permalink: /contatti/
 lang: it
 title: contatti
-description:
+description: <i>In questa sezione sono raccolte le informazioni di contatto e i profili esterni, al fine di offrire un unico punto di accesso al mio lavoro e alla mia presenza istituzionale. La pagina include indirizzi e-mail e collegamenti alle piattaforme rilevanti.</i>
 subtitle: >
     <div class="lang-links">
         <a href="#" onclick="window.location.href='https://marcorosso.com/contacts/'; return false;">contacts</a>

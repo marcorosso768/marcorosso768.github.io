@@ -1,12 +1,15 @@
 ---
 page_id: econometrics
 layout: page
-permalink: /teaching/econometrics/
-title: econometrics
-description: <i>Here you can find useful materials for the Econometrics course.</i>
+permalink: /docencia/econometría/
+title: econometría
+description_format: multiline
+description: |
+    Aquí se encuentran materiales útiles para el curso de Econometría.
+    Nota: el material está disponible en inglés.
 subtitle: >
     <div class="lang-links">
-        <a href="#" onclick="window.location.href='https://marcorosso.com/teaching/'; return false;">back to teaching</a>
+        <a href="/es/docencia/" hreflang="es">volver a docencia</a>
     </div>
 nav: false
 ---
@@ -16,7 +19,7 @@ nav: false
   <a href="javascript:void(0);" onclick="toggleVisibility('content-0')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
-      <span>handbooks</span>
+      <span>manuales</span>
     </h2>
   </a>
 </div>
@@ -26,7 +29,7 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-regular fa-file-pdf fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  <a href="/assets/pdf/teaching/econometrics/Introduction to STATA.pdf" target="_blank" rel="noopener noreferrer">Introduction to Stata</a> — last update: Nov 2025
+  <a href="/assets/pdf/teaching/econometrics/Introduction to STATA.pdf" target="_blank" rel="noopener noreferrer">Introduction to Stata</a> — última actualización: nov 2025
   </span>
 </div>
 
@@ -37,7 +40,7 @@ nav: false
   <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
-      <span>slides</span>
+      <span>slide</span>
     </h2>
   </a>
 </div>
@@ -107,7 +110,7 @@ nav: false
   <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
-      <span>do-files</span>
+      <span>do-file</span>
     </h2>
   </a>
 </div>

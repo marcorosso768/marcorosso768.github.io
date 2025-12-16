@@ -6,7 +6,7 @@ title: teaching
 description: <i>My teaching spans undergraduate and graduate courses in Econometrics, Political Economy, Microeconomics, Behavioral Economics, Game Theory, and Python for Economists. Across courses, my emphasis is on building intuition alongside rigorous derivations and reproducible empirical workflows, with materials designed to be directly usable for problem sets and applied projects. The page lists the courses I have taught and provides selected handouts, slides, and other teaching resources.</i>
 subtitle: >
     <div class="lang-links">
-        <a href="/it/insegnamento/" hreflang="it">insegnamento</a>
+        <a href="/it/didattica/" hreflang="it">didattica</a>
         <span class="separator">|</span>
         <a href="/es/docencia/" hreflang="es">docencia</a>
     </div>
@@ -296,7 +296,6 @@ nav_order: 3
   </div>
 
 </div>
-
 </div>
 
 <!-- FILES -->
@@ -304,7 +303,7 @@ nav_order: 3
   <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
-      <span>teaching materials and handbooks</span>
+      <span>teaching materials</span>
     </h2>
   </a>
 </div>

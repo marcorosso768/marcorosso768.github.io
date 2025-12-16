@@ -12,8 +12,7 @@ subtitle: >
 nav: true
 nav_order: 4
 cv_pdf: /[Marco Rosso] Curriculum Vitae.pdf
-description: >
-        <i>This section consolidates my academic background and professional record, including training, positions, service, and additional activities not covered in the research, teaching, and talks pages. For completeness and citation purposes, the full CV is available via the PDF link.</i>
+description: <i>This section consolidates my academic background and professional record, including training, positions, service, and additional activities not covered in the research, teaching, and talks pages. For completeness and citation purposes, the full CV is available via the PDF icon.</i>
 # toc:
 #   sidebar: left
 ---

@@ -9,7 +9,7 @@ subtitle: >
         <span class="separator">|</span>
         <a href="/es/referencias/" hreflang="es">referencias</a>
     </div>
-description:
+description: <i>Questa pagina fornisce informazioni sui miei referenti accademici, incluse affiliazioni, aree di ricerca e recapiti per le lettere di referenza. L’obiettivo è rendere le richieste di referenze semplici per le commissioni di selezione, offrendo al contempo un contesto sulle mie principali collaborazioni e sulla mia rete di mentoring.</i>
 nav: false
 nav_order:
 
