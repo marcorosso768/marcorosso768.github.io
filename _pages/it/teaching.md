@@ -36,6 +36,19 @@ nav_order: 3
   </a>
 </div>
 
+  <div class="teaching-entry indented">
+   <div class="teaching-entry__row teaching-entry__row--title">
+    <div class="teaching-entry__content">
+          <a href='https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2025/406503'>Econometria</a> con <a href='https://www.unibo.it/sitoweb/margherita.fort/'>Margherita Fort </a>
+    </div>
+   </div>
+    <div class="teaching-entry__row teaching-entry__row--course">
+     <div class="teaching-entry__course-text">
+        Business and Economics — Laurea triennale (in inglese)
+     </div>
+    </div>
+   </div>
+
 </div>
 </div>
 
