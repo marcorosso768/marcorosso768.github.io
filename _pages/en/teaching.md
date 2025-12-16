@@ -303,7 +303,7 @@ nav_order: 3
   <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
-      <span>teaching materials and handbooks</span>
+      <span>teaching materials</span>
     </h2>
   </a>
 </div>
