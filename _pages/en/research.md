@@ -27,7 +27,7 @@ nav_order: 1
 <!-- Content -->
 <div id="content-0" class="toggle-section expanded">
 
-  <!-- Paper 1 -->
+  <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-newspaper fa-fw"></i>
@@ -65,7 +65,7 @@ nav_order: 1
 <!-- Content -->
 <div id="content-1" class="toggle-section expanded">
 
-<!-- Paper 2 -->
+<!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-file-lines fa-fw"></i>
@@ -127,7 +127,7 @@ nav_order: 1
 <!-- Content -->
 <div id="content-2" class="toggle-section expanded">
 
-<!-- Paper 3 -->
+<!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-file-lines fa-fw" title="Working paper"></i>
@@ -168,7 +168,7 @@ nav_order: 1
     </div>
   </div>
 
-  <!-- Paper 1 -->
+  <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-file-lines fa-fw"></i>
@@ -227,7 +227,7 @@ nav_order: 1
 <!-- Content -->
 <div id="content-3" class="toggle-section expanded">
 
-  <!-- Paper 1 -->
+  <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-bookmark fa-fw"></i>
@@ -242,7 +242,7 @@ nav_order: 1
     </div>
   </div>
 
-  <!-- Paper 2 -->
+  <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-bookmark fa-fw"></i>
