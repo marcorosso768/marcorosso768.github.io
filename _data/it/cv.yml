@@ -54,6 +54,13 @@
 - title: attività accademiche
   type: time_table
   contents:
+    - title: "Assistente di Ricerca: Criminalità organizzata, connessioni politiche e performance delle imprese"
+      year: "Dic—Gen 2026"
+      location: "Napoli, Italia"
+      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Analisi delle risposte a domande aperte raccolte dai partecipanti, con l’obiettivo di identificare e categorizzare le motivazioni emerse e di distinguere tra profili di rispondenti mediante tecniche di text analysis</i></p>'
+      institution: Università di Napoli Federico II
+      department: Dipartimento di Scienze Statistiche ed Economiche
+      supervisor: 'supervisor: <a href="https://sites.google.com/site/gimmordinoecon/home">Giovanni Immordino</a>'
     - title: 'Distribuzione dell’App MinUTo a Supporto della Genitorialità Consapevole'
       year: "nov—dic 2025"
       location: "Bologna, Italia"
@@ -145,8 +152,9 @@
 - title: attività di networking
   type: time_table
   contents:
-    - title: 'Organizzatore degli "Aperitivi di Dipartimento"'
+    - title: 'Organizzatore della serie di incontri di networking del Dipartimento'
       year: 2022—
+      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Coordinamento di incontri strutturati a cadenza mensile finalizzati a favorire l’integrazione verticale tra docenti, post-doc e dottorandi. Attività formalizzata nel calendario ufficiale degli eventi del Dipartimento</i></p>'
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
