@@ -102,10 +102,12 @@ nav_order: 1
       </a>
     </div>
     <div id="abstract-crime" class="toggle-box">
-     This study examines the impact of local crime on individual voting behavior, using geolocated crime-related news as a proxy for public concern about crime. Drawing on a retrospective survey of 5000 individuals across several election rounds, our analysis exploits the occurrence of a criminal event in the vicinity of a voter in the lead-up to elections. The results for general elections are mixed overall, showing no effects on voting behavior when crimes are committed by Italians. Conversely, crimes attributed to immigrants result in lower support for the populist right-wing parties, sometimes having an ambiguous stance on immigration, and instead higher support for the more traditional right-wing parties, which emphasizes law and order. In administrative elections, the effect of crime diverges. Crimes committed by Italians result in the punishment of incumbents, while immigrant-related crimes lead to increased voter abstention, possibly reflecting the social stigma associated with party-switching among left-leaning voters, the incumbent party. These findings provide novel insights into the relationship between crime salience, particularly regarding immigration, and individual voting behavior.
+     This study investigates how exposure to local crime-related news affects individual voting behavior, using geolocated newspaper coverage as a proxy for crime salience. Leveraging a retrospective panel survey of approximately 5,000 voters observed across multiple election rounds, we exploit within-individual variation in exposure to crime news occurring near voters’ residences in the pre-election
+period. Aggregate exposure measures yield weak and unstable effects on voting behavior. Disaggregating by offender nationality reveals systematic heterogeneity: in national elections, immigrant-related crime news reduces support for populist right-wing parties with ambiguous immigration stances and increases support for traditional right-wing “law and order” parties, while Italian-perpetrated
+crime has no effect. In administrative elections, Italian crime news punishes incumbents, whereas immigrant-related news increases abstention. These findings demonstrate that electoral responses to crime salience—previously obscured in aggregate measures—depend critically on media framing of offender identity.
     </div>
     <div id="keywords-crime" class="toggle-box">
-       crime, elections, political parties, newspapers, individual voting behavior, dictionary-based classification.
+       crime; elections; media; voting behavior; immigration.
     </div>
     <div id="jel-crime" class="toggle-box">
        D72; K42; J15; D83; L82.
