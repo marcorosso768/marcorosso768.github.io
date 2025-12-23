@@ -105,7 +105,7 @@ nav_order: 1
      Questo studio analizza come l’esposizione a notizie locali legate alla criminalità influenzi il comportamento di voto individuale, utilizzando la copertura giornalistica geolocalizzata come proxy della salienza del crimine. Sfruttando un’indagine panel retrospettiva su circa 5.000 elettori osservati in più tornate elettorali, identifichiamo variazione intra-individuale nell’esposizione a notizie di cronaca nera avvenute in prossimità delle residenze degli elettori nel periodo pre-elettorale. Le misure di esposizione aggregate producono effetti deboli e instabili sul comportamento di voto. La disaggregazione per nazionalità dell’autore del reato rivela invece un’eterogeneità sistematica: nelle elezioni nazionali, le notizie su crimini commessi da immigrati riducono il sostegno ai partiti populisti di destra con posizioni ambigue sull’immigrazione e aumentano il consenso per i partiti di destra tradizionali orientati a “law and order”, mentre i crimini commessi da italiani non producono effetti. Nelle elezioni amministrative, le notizie su crimini commessi da italiani puniscono gli incumbents, mentre quelle relative a crimini commessi da immigrati aumentano l’astensione. Nel complesso, i risultati mostrano che le risposte elettorali alla salienza del crimine — in precedenza occultate da misure aggregate — dipendono in modo cruciale dal framing mediatico dell’identità dell’autore del reato.
     </div>
     <div id="keywords-crime" class="toggle-box">
-       criminalità; elezioni; media; comportamento di voto; immigrazione.
+       comportamento di voto; criminalità; elezioni; immigrazione; media.
     </div>
     <div id="jel-crime" class="toggle-box">
        D72; K42; J15; D83; L82.
