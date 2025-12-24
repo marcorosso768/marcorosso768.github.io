@@ -104,10 +104,10 @@ nav_order: 1
       </a>
     </div>
     <div id="abstract-crime" class="toggle-box">
-     Este estudio analiza cómo la exposición a noticias locales vinculadas al crimen afecta el comportamiento de voto individual, utilizando la cobertura periodística geolocalizada como proxy de la saliencia del delito. A partir de una encuesta panel retrospectiva de aproximadamente 5.000 votantes observados a lo largo de múltiples rondas electorales, explotamos la variación intra-individual en la exposición a noticias criminales ocurridas cerca de los domicilios de los votantes en el período preelectoral. Las medidas agregadas de exposición muestran efectos débiles e inestables sobre el comportamiento de voto. En cambio, la desagregación por nacionalidad del autor del delito revela una heterogeneidad sistemática: en las elecciones nacionales, las noticias sobre delitos cometidos por inmigrantes reducen el apoyo a partidos populistas de derecha con posturas ambiguas sobre inmigración y aumentan el respaldo a partidos de derecha tradicionales orientados al “law and order”, mientras que los delitos cometidos por italianos no generan efectos. En las elecciones administrativas, las noticias sobre delitos cometidos por italianos castigan a los incumbents, mientras que aquellas asociadas a delitos cometidos por inmigrantes incrementan la abstención. En conjunto, estos resultados muestran que las respuestas electorales a la saliencia del crimen — previamente ocultas por medidas agregadas — dependen de manera crítica del framing mediático de la identidad del autor del delito.
+     Este estudio analiza cómo la exposición a noticias geolocalizadas vinculadas al crimen afecta el comportamiento de voto individual en las elecciones italianas. Utilizando un panel de votantes no relocados observados a lo largo de múltiples rondas electorales, explotamos la variación intra-individual en la exposición a noticias criminales ocurridas cerca del domicilio durante el mes preelectoral, mediante efectos fijos individuales y de distrito-tiempo. La exposición agregada muestra efectos débiles e inestables. En cambio, la desagregación por nacionalidad del autor del delito revela patrones sistemáticos: las noticias sobre delitos atribuidos a inmigrantes reducen el apoyo a partidos con posturas ambiguas sobre inmigración (p. ej., el Movimiento Cinco Estrellas) y aumentan el respaldo a partidos con una clara orientación de “law and order”, mientras que los delitos atribuidos a italianos presentan efectos despreciables. Los efectos son más intensos entre votantes de alta calificación que se desplazan desde el M5S y entre votantes de baja calificación que abandonan la Lega. En elecciones locales, los delitos cometidos por italianos castigan a los incumbents, mientras que los delitos atribuidos a inmigrantes incrementan la abstención. Estas respuestas asimétricas — ausentes en las medidas agregadas — indican que la saliencia del crimen opera a través del framing identitario más que por preocupaciones generales de seguridad. Los resultados destacan cómo la atribución mediática moldea la rendición de cuentas electoral.
     </div>
     <div id="keywords-crime" class="toggle-box">
-       comportamiento de voto; crimen; elecciones; inmigración; medios.
+       comportamiento de voto individual; crimen; elecciones; inmigración; medios de comunicación.
     </div>
     <div id="jel-crime" class="toggle-box">
        D72; K42; J15; D83; L82.
@@ -183,7 +183,7 @@ En conjunto, nuestros resultados aclaran los mecanismos que gobiernan la composi
         <em>Childcare and Civic Participation: Parental Age, Child Stage, and Voter Turnout</em><br>
         con 
         <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a> 
-        and <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>
+        y <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>
       </span>
     </div>
     <div class="pill-container">
@@ -243,7 +243,7 @@ En conjunto, nuestros resultados aclaran los mecanismos que gobiernan la composi
         con 
         <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a>, 
         <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>, 
-        <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a>, 
+        <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a> 
         y <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>
       </span>
     </div>
