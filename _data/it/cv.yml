@@ -35,21 +35,36 @@
       department: 'Dipartimento di Matematica "Giuseppe Peano"'
       supervisor: 'relatrice: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis</a>'
 
-- title: periodi in visita
+- title: revisioni per riviste accademiche
+  type: map
+  contents:
+    - name:
+      value: >
+        <div style="font-size:11pt; display: flex; align-items: flex-start;">
+          <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
+          <div style="line-height: 1.2;">
+            <i>Health Economics</i>, <i>Journal of Economics &amp; Management Strategy</i>
+          </div>
+        </div>
+
+- title: premi, sovvenzioni e borse di studio
   type: time_table
   contents:
-    - title: Dottorando in visita
-      year: autunno 2024
-      location: "Buones Aires, Argentina"
-      institution: Universidad de San Andrés
-      department: Dipartimento di Economia
-      supervisor: 'supervisor locale: <a href="https://www.tommy-e-murphy.com">Tommy E. Murphy</a>'
-    - title: "Master's Candidate in visita"
-      year: inverno 2019
+    - title: 'Incentivo "Marco Polo" alla Mobilità Internazionale per la Ricerca'
+      year: "2024"
+      location: "Bologna, Italia"
+      institution: Università di Bologna
+      department: DSE — Dipartimento di Scienze Economiche
+    - title: Borsa di Studio di 4 anni, Dottorato in Economia
+      year: "2020"
+      location: "Bologna, Italia"
+      institution: Università di Bologna
+      department: DSE — Dipartimento di Scienze Economiche
+    - title: Dignità di Stampa per la Tesi Magistrale
+      year: "2019"
       location: "Torino, Italia"
-      institution: Servizio Sovrazonale di Epidemiologia (SEPI)
-      department: Dipartimento di Sanità Pubblica (Azienda Sanitaria Locale TO3)
-      supervisor: 'supervisor locale: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
+      institution: Università degli Studi di Torino
+      department: ESOMAS — Dipartimento di Scienze Economico-Sociali e Matematico-Statistiche
 
 - title: attività accademiche
   type: time_table
@@ -72,7 +87,7 @@
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
-      supervisor: 'supervisor: <a href="https://jnchapman.com">Jonathan Neil Chapman</a> e <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
+      supervisor: 'supervisor: <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
     - title: 'Supervisione di due assistenti di ricerca nel progetto “Democratizzazione, media, contesto socio-economico e comportamento elettorale”'
       year: "giu—set 2024"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Coordinamento e formazione nelle attività di raccolta dati, scrittura di codici e analisi preliminari</i></p>'
@@ -99,25 +114,6 @@
       institution: Collegio Carlo Alberto
       supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero</a>'
 
-- title: premi, sovvenzioni e borse di studio
-  type: time_table
-  contents:
-    - title: 'Incentivo "Marco Polo" alla Mobilità Internazionale per la Ricerca'
-      year: "2024"
-      location: "Bologna, Italia"
-      institution: Università di Bologna
-      department: DSE — Dipartimento di Scienze Economiche
-    - title: Borsa di Studio di 4 anni, Dottorato in Economia
-      year: "2020"
-      location: "Bologna, Italia"
-      institution: Università di Bologna
-      department: DSE — Dipartimento di Scienze Economiche
-    - title: Dignità di Stampa per la Tesi Magistrale
-      year: "2019"
-      location: "Torino, Italia"
-      institution: Università degli Studi di Torino
-      department: ESOMAS — Dipartimento di Scienze Economico-Sociali e Matematico-Statistiche
-
 - title: incarichi accademici
   type: time_table
   contents:
@@ -137,29 +133,28 @@
       institution: Università di Bologna
       department: in collaborazione con College Board (New York)
 
-- title: revisioni per riviste accademiche
-  type: map
+- title: periodi in visita
+  type: time_table
   contents:
-    - name:
-      value: >
-        <div style="font-size:11pt; display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
-          <div style="line-height: 1.2;">
-            <i>Health Economics</i>, <i>Journal of Economics &amp; Management Strategy</i>
-          </div>
-        </div>
-   
+    - title: Dottorando in visita
+      year: autunno 2024
+      location: "Buones Aires, Argentina"
+      institution: Universidad de San Andrés
+      department: Dipartimento di Economia
+      supervisor: 'supervisor locale: <a href="https://www.tommy-e-murphy.com">Tommy E. Murphy</a>'
+    - title: "Master's Candidate in visita"
+      year: inverno 2019
+      location: "Torino, Italia"
+      institution: Servizio Sovrazonale di Epidemiologia (SEPI)
+      department: Dipartimento di Sanità Pubblica (Azienda Sanitaria Locale TO3)
+      supervisor: 'supervisor locale: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
+
 - title: attività di networking
   type: time_table
   contents:
     - title: 'Organizzatore della serie di incontri di networking del Dipartimento'
       year: 2022—
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Coordinamento di incontri strutturati a cadenza mensile finalizzati a favorire l’integrazione verticale tra docenti, post-doc e dottorandi. Attività formalizzata nel calendario ufficiale degli eventi del Dipartimento</i></p>'
-      location: "Bologna, Italia"
-      institution: Università di Bologna
-      department: DSE — Dipartimento di Scienze Economiche
-    - title: 'Fundatore e Organizzatore delle "Partite Settimanali di Calcio del Dipartimento"'
-      year: 2023—2024
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
