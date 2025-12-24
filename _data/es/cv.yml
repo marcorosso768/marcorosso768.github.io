@@ -54,6 +54,13 @@
 - title: actividades académicas
   type: time_table
   contents:
+    - title: "Asistente de Investigación: Crimen organizado, conexiones políticas y desempeño de las empresas"
+      year: "dic—ene 2026"
+      location: "Nápoles, Italia"
+      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Análisis de respuestas a preguntas abiertas recopiladas de participantes, con el objetivo de identificar y categorizar las motivaciones que emergen y de distinguir entre perfiles de respondentes mediante técnicas de análisis de texto</i></p>'
+      institution: University of Naples Federico II
+      department: Departamento de Ciencias Estadísticas y Económicas
+      supervisor: 'supervisor: <a href="https://sites.google.com/site/gimmordinoecon/home">Giovanni Immordino</a>'
     - title: 'Distribución de la App MinUTo en Apoyo a la Crianza Consciente'
       year: "nov—dic 2025"
       location: "Bolonia, Italia"
@@ -142,8 +149,9 @@
 - title: actividades de integración académica
   type: time_table
   contents:
-    - title: 'Organizador de los Aperitivos del Departamento'
+    - title: 'Organizador de la serie de encuentros de networking del Departamento'
       year: 2022—
+      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Coordinación de encuentros estructurados de carácter mensual orientados a fomentar la integración vertical entre docentes, post-docs y estudiantes de doctorado. Actividad formalizada en el calendario oficial de eventos del Departamento</i></p>'
       location: "Bolonia, Italia"
       institution: University of Bologna
       department: DSE — Departamento de Economía
