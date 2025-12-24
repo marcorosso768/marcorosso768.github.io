@@ -35,21 +35,33 @@
       department: 'Departamento de Matemáticas "Giuseppe Peano"'
       supervisor: 'directora de tesis: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis</a>'
 
-- title: períodos en visita
+- title: evaluación para revistas académicas
+  type: map
+  contents:
+    - name:
+      value: >
+        <div style="font-size:11pt; display: flex; align-items: flex-start;">
+          <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
+          <div style="line-height: 1.2;">
+            <i>Health Economics</i>, <i>Journal of Economics &amp; Management Strategy</i>
+          </div>
+        </div>
+
+- title: premios, becas y financiaciones
   type: time_table
   contents:
-    - title: Doctorando Visitante
-      year: ago—dic 2024
-      location: "Buones Aires, Argentina"
-      institution: Universidad de San Andrés
-      department: Departamento de Economía
-      supervisor: 'director local: <a href="https://www.tommy-e-murphy.com">Tommy E. Murphy</a>'
-    - title: "Investigador de Maestría Visitante"
-      year: ene—mar 2019
+    - title: 'Incentivo "Marco Polo" para la Movilidad Internacional en Investigación'
+      year: "2024"
+      location: "Bolonia, Italia"
+      institution: University of Bologna
+    - title: Beca Doctoral de 4 Años, Programa de Doctorado en Economía
+      year: "2020"
+      location: "Bolonia, Italia"
+      institution: University of Bologna
+    - title: Mención para Publicación de Tesis de Maestría (Título de Mérito Académico en Italia)
+      year: "2019"
       location: "Turín, Italia"
-      institution: Regional Public Health Observatory (SEPI)
-      department: Departamento de Salud Pública (Junta de Salud Local TO3)
-      supervisor: 'director local: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
+      institution: University of Turin
 
 - title: actividades académicas
   type: time_table
@@ -72,7 +84,7 @@
       location: "Bolonia, Italia"
       institution: University of Bologna
       department: DSE — Departamento de Economía
-      supervisor: 'supervisores: <a href="https://jnchapman.com">Jonathan Neil Chapman</a> y <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
+      supervisor: 'supervisor: <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
     - title: 'Supervisión de dos asistentes de investigación en el proyecto “Democratización, medios de comunicación, contexto socioeconómico y comportamiento electoral”'
       year: "jun—sept 2024"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Coordinación y mentoría en las tareas de recolección de datos, escritura de códigos y análisis preliminares</i></p>'
@@ -99,22 +111,6 @@
       institution: Collegio Carlo Alberto
       supervisor: 'supervisora: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero</a>'
 
-- title: premios, becas y financiaciones
-  type: time_table
-  contents:
-    - title: 'Incentivo "Marco Polo" para la Movilidad Internacional en Investigación'
-      year: "2024"
-      location: "Bolonia, Italia"
-      institution: University of Bologna
-    - title: Beca Doctoral de 4 Años, Programa de Doctorado en Economía
-      year: "2020"
-      location: "Bolonia, Italia"
-      institution: University of Bologna
-    - title: Mención para Publicación de Tesis de Maestría (Título de Mérito Académico en Italia)
-      year: "2019"
-      location: "Turín, Italia"
-      institution: University of Turin
-
 - title: servicio académico
   type: time_table
   contents:
@@ -134,17 +130,21 @@
       institution: University of Bologna
       department: en colaboración con College Board (Nueva York)
 
-- title: evaluación para revistas académicas
-  type: map
+- title: períodos en visita
+  type: time_table
   contents:
-    - name:
-      value: >
-        <div style="font-size:11pt; display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
-          <div style="line-height: 1.2;">
-            <i>Health Economics</i>, <i>Journal of Economics &amp; Management Strategy</i>
-          </div>
-        </div>
+    - title: Doctorando Visitante
+      year: ago—dic 2024
+      location: "Buones Aires, Argentina"
+      institution: Universidad de San Andrés
+      department: Departamento de Economía
+      supervisor: 'director local: <a href="https://www.tommy-e-murphy.com">Tommy E. Murphy</a>'
+    - title: "Investigador de Maestría Visitante"
+      year: ene—mar 2019
+      location: "Turín, Italia"
+      institution: Regional Public Health Observatory (SEPI)
+      department: Departamento de Salud Pública (Junta de Salud Local TO3)
+      supervisor: 'director local: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
 
 - title: actividades de integración académica
   type: time_table
@@ -155,12 +155,7 @@
       location: "Bolonia, Italia"
       institution: University of Bologna
       department: DSE — Departamento de Economía
-    - title: 'Fundador y Organizador de los "Partidos Semanales de Fútbol del Departamento"'
-      year: 2023—24
-      location: "Bolonia, Italia"
-      institution: University of Bologna
-      department: DSE — Departamento de Economía
-    - title: 'Coorganizador del Ciclo de Seminarios ``Research in Steps'' (RiS) para Doctorandos'
+    - title: 'Coorganizador del Ciclo de Seminarios "Research in Steps" (RiS) para Doctorandos'
       year: 2022—2023
       location: "Bolonia, Italia"
       institution: University of Bologna
