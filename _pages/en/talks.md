@@ -5,9 +5,9 @@ permalink: /talks/
 title: talks
 subtitle: >
     <div class="lang-links">
-        <a href="/it/conferenze/" hreflang="it">conferenze</a>
+        <a href="/it/presentazioni/" hreflang="it">presentazioni</a>
         <span class="separator">|</span>
-        <a href="/es/conferencias/" hreflang="es">conferencias</a>
+        <a href="/es/presentaciones/" hreflang="es">presentaciones</a>
     </div>
 description: <i>This section documents invited talks, conference presentations, workshops, and related academic discussions. I use these venues to present work at different stages—early ideas, work in progress, and completed papers—often tailoring the emphasis toward identification, mechanisms, and external validity depending on the audience.</i>
 nav: true
