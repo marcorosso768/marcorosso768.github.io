@@ -1,13 +1,13 @@
 ---
 page_id: talks
 layout: page
-permalink: /conferenze/
-title: conferenze
+permalink: /presentazioni/
+title: presentazioni
 subtitle: >
     <div class="lang-links">
         <a href="#" onclick="window.location.href='https://marcorosso.com/talks/'; return false;">talks</a>
         <span class="separator">|</span>
-        <a href="/es/conferencias/" hreflang="es">conferencias</a>
+        <a href="/es/presentaciones/" hreflang="es">presentaciones</a>
     </div>
 description: <i>Questa sezione documenta seminari su invito, presentazioni a conferenze, workshop e altre discussioni accademiche correlate. Utilizzo questi contesti per presentare lavori in diverse fasi — idee iniziali, lavori in corso e articoli completati — modulando spesso l’enfasi su identificazione, meccanismi e validità esterna a seconda del pubblico.</i>
 nav: true
