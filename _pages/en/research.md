@@ -214,6 +214,44 @@ nav_order: 1
 
 </div>
 
+<!-- Thesis -->
+<div class="projects">
+  <a href="javascript:void(0);" onclick="toggleVisibility('content-4')">
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-4"></i>
+      <span>thesis</span>
+    </h2>
+  </a>
+</div>
+
+<!-- Content -->
+<div id="content-4" class="toggle-section expanded">
+
+  <!-- Thesis -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-bookmark fa-fw"></i>
+      <span>
+          <em>Bridging the Participation Gap? Public Goods as a Determinant of Electoral Engagement</em><br>
+        joint with 
+        <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a>, 
+        <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>, 
+        <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a>, 
+        and <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>
+      </span>
+    </div>
+  </div>
+
+  <!-- Thesis -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-bookmark fa-fw"></i>
+      <span><em>The Effect of Erasmus Programs on Voting</em></span>
+    </div>
+  </div>
+
+</div>
+
 <!-- Work in Progress Section -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
@@ -230,14 +268,10 @@ nav_order: 1
   <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
-      <i class="fa-solid fa-bookmark fa-fw"></i>
+      <i class="fa-solid fa-book fa-fw"></i>
       <span>
-          <em>Bridging the Participation Gap? Public Goods as a Determinant of Electoral Engagement</em><br>
-        joint with 
-        <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a>, 
-        <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>, 
-        <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a>, 
-        and <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>
+          Ph.D. Thesis (2026),
+          <em>Essays in Political Economy and Crime Economics</em>
       </span>
     </div>
   </div>
@@ -245,8 +279,10 @@ nav_order: 1
   <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
-      <i class="fa-solid fa-bookmark fa-fw"></i>
-      <span><em>The Effect of Erasmus Programs on Voting</em></span>
+      <i class="fa-solid fa-book"></i>
+      <span>Master's Thesis (2018),
+          <em>Eﬀect of Breast and Colorectal Cancer on Earnings: Evidence from Italy</em>
+      </span>
     </div>
   </div>
 
