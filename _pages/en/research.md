@@ -279,7 +279,7 @@ nav_order: 1
   <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
-      <i class="fa-solid fa-book"></i>
+      <i class="fa-solid fa-book fa-fw"></i>
       <span>
           Master's Thesis (2018),
           <em>Effect of Breast and Colorectal Cancer on Earnings: Evidence from Italy</em>
