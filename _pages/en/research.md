@@ -214,7 +214,7 @@ nav_order: 1
 
 </div>
 
-<!-- Work in Progress Section -->
+<!-- Thesis -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
     <h2 class="category">
@@ -227,7 +227,7 @@ nav_order: 1
 <!-- Content -->
 <div id="content-3" class="toggle-section expanded">
 
-  <!-- Paper -->
+  <!-- Thesis -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-bookmark fa-fw"></i>
@@ -242,11 +242,48 @@ nav_order: 1
     </div>
   </div>
 
-  <!-- Paper -->
+  <!-- Thesis -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-bookmark fa-fw"></i>
       <span><em>The Effect of Erasmus Programs on Voting</em></span>
+    </div>
+  </div>
+
+</div>
+
+<!-- Work in Progress Section -->
+<div class="projects">
+  <a href="javascript:void(0);" onclick="toggleVisibility('content-4')">
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-4"></i>
+      <span>theses</span>
+    </h2>
+  </a>
+</div>
+
+<!-- Content -->
+<div id="content-4" class="toggle-section expanded">
+
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-book fa-fw" style="margin-top: -0.005rem;"></i>
+      <span>
+          Ph.D. Thesis (2026),
+          <em>Essays in Political Economy and Crime Economics</em>
+      </span>
+    </div>
+  </div>
+
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-book fa-fw" style="margin-top: -0.005rem;"></i>
+      <span>
+          Master's Thesis (2018),
+          <em>Effect of Breast and Colorectal Cancer on Earnings: Evidence from Italy</em>
+      </span>
     </div>
   </div>
 
