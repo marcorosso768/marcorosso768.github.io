@@ -216,16 +216,16 @@ nav_order: 1
 
 <!-- Thesis -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-4')">
+  <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
     <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-4"></i>
-      <span>thesis</span>
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-3"></i>
+      <span>work in progress</span>
     </h2>
   </a>
 </div>
 
 <!-- Content -->
-<div id="content-4" class="toggle-section expanded">
+<div id="content-3" class="toggle-section expanded">
 
   <!-- Thesis -->
   <div class="entry-block">
@@ -254,16 +254,16 @@ nav_order: 1
 
 <!-- Work in Progress Section -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
+  <a href="javascript:void(0);" onclick="toggleVisibility('content-4')">
     <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-3"></i>
-      <span>work in progress</span>
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-4"></i>
+      <span>theses</span>
     </h2>
   </a>
 </div>
 
 <!-- Content -->
-<div id="content-3" class="toggle-section expanded">
+<div id="content-4" class="toggle-section expanded">
 
   <!-- Paper -->
   <div class="entry-block">
@@ -280,8 +280,9 @@ nav_order: 1
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-book"></i>
-      <span>Master's Thesis (2018),
-          <em>Eﬀect of Breast and Colorectal Cancer on Earnings: Evidence from Italy</em>
+      <span>
+          Master's Thesis (2018),
+          <em>Effect of Breast and Colorectal Cancer on Earnings: Evidence from Italy</em>
       </span>
     </div>
   </div>
