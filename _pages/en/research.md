@@ -268,7 +268,7 @@ nav_order: 1
   <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
-      <i class="fa-solid fa-book fa-fw"></i>
+      <i class="fa-solid fa-book fa-fw" style="margin-top: -0.005rem;"></i>
       <span>
           Ph.D. Thesis (2026),
           <em>Essays in Political Economy and Crime Economics</em>
@@ -279,7 +279,7 @@ nav_order: 1
   <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
-      <i class="fa-solid fa-book fa-fw"></i>
+      <i class="fa-solid fa-book fa-fw" style="margin-top: -0.005rem;"></i>
       <span>
           Master's Thesis (2018),
           <em>Effect of Breast and Colorectal Cancer on Earnings: Evidence from Italy</em>
