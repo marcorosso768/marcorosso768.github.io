@@ -556,7 +556,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
 
 .icon-entry i.fa-fw {
   margin-right: var(--icon-spacing);
-  margin-top: 0.1825rem; // 3px
+  margin-top: 0.05rem; // 3px
   color: var(--global-theme-color);
   flex-shrink: 0;
 }
@@ -872,7 +872,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
 
 .course-entry i.fa-fw {
   margin-right: var(--icon-spacing);
-  margin-top: 3px;
+  margin-top: 0.05rem;
   color: var(--global-theme-color);
   flex-shrink: 0;
 }
