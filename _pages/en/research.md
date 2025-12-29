@@ -252,18 +252,18 @@ nav_order: 1
 
 </div>
 
-<!-- Work in Progress Section -->
+<!-- Theses Section -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-4')">
     <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-4"></i>
+      <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-4"></i>
       <span>theses</span>
     </h2>
   </a>
 </div>
 
 <!-- Content -->
-<div id="content-4" class="toggle-section expanded">
+<div id="content-4" class="toggle-section">
 
   <!-- Paper -->
   <div class="entry-block">
@@ -271,8 +271,28 @@ nav_order: 1
       <i class="fa-solid fa-book fa-fw" style="margin-top: -0.005rem;"></i>
       <span>
           Ph.D. Thesis (2026),
-          <em>Essays in Political Economy and Crime Economics</em>
+          <em>"Essays in Political Economy and Crime Economics"</em>
       </span>
+    </div>
+    <div class="pill-container">
+      <div class="pill-button toggle-pill" data-target="abstract-phd">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Abstract</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="chapters-phd">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Chapters</span>
+      </div>
+      <!-- Boxes -->
+      <div id="abstract-phd" class="toggle-box">
+          This.....
+      </div>
+      <div id="chapters-phd" class="toggle-box">
+          <span>
+              1. Bla<br>
+              2. Bla Bla
+          </span>
+      </div>  
     </div>
   </div>
 
@@ -282,8 +302,18 @@ nav_order: 1
       <i class="fa-solid fa-book fa-fw" style="margin-top: -0.005rem;"></i>
       <span>
           Master's Thesis (2018),
-          <em>Effect of Breast and Colorectal Cancer on Earnings: Evidence from Italy</em>
+          <em>"Effect of Breast and Colorectal Cancer on Earnings: Evidence from Italy"</em>
       </span>
+    </div>
+    <div class="pill-container">
+      <div class="pill-button toggle-pill" data-target="abstract-master">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Abstract</span>
+      </div>
+      <!-- Boxes -->
+      <div id="abstract-phd" class="toggle-box">
+          Using the Work History Italian Panel (WHIP) we estimate the causal eﬀects of breast and colorectal cancer on earnings, on unemployment, and on the possibility to work part-time in the following three years after the cancer diagnosis. Since cancer patients diﬀer from the rest of the population at socio-economic levels, we perform a propensity score matching to balance our observations. We analyse the eﬀect on earnings throughout an OLS regression and on part-time and unemployment using a logistic regression. We observe that colorectal and breast cancer patients have diﬀerent eﬀects on earnings. A diagnosis of colorectal cancer appears to be more disabling, leading to a total reduction in earnings up to 10,000 € after three years. On the contrary, the negative eﬀects of breast cancer are more concentrated in the short term and from the second year onwards these women are able to resume a normal working activity. This diversity is also supported by the results we achieved on unemployment and on part-time work.
+      </div>
     </div>
   </div>
 
