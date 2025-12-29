@@ -268,7 +268,7 @@ nav_order: 1
   <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
-      <i class="fa-solid fa-book fa-fw" style="margin-top: -0.005rem;"></i>
+      <i class="fa-solid fa-book fa-fw"></i>
       <span>
           Ph.D. Thesis (2026),
           <em>"Essays in Political Economy and Crime Economics"</em>
@@ -284,15 +284,15 @@ nav_order: 1
         <span class="toggle-label">Chapters</span>
       </div>
     </div>
-      <!-- Boxes -->
+      <!-- Boxes style="margin-top: -0.005rem;"-->
       <div id="abstract-phd" class="toggle-box">
-          This dissertation investigates how institutional incentives, behavioral frictions, and demographic factors shape individual decision-making in the domains of public employment and political participation. It comprises three chapters that combine theoretical modeling with empirical analysis to shed light on the interplay between corruption, crime salience, and family formation in influencing economic and political outcomes.
+          This dissertation investigates how institutional incentives, behavioral frictions, and demographic factors shape individual decision-making in the domains of public employment and political participation. It comprises three chapters that combine theoretical modeling with empirical analysis to shed light on the interplay between corruption, crime salience, and family formation in influencing economic and political outcomes.<br>
 <br>
-The first chapter develops a theoretical framework to study how corruption opportunities affect self-selection into the public sector. The model highlights a dual mechanism: corruption rents attract individuals with low intrinsic motivation, who are more prone to unethical behavior, while simultaneously deterring highly motivated candidates who anticipate self-control problems when faced with temptation. This selection pattern has important implications for the quality of the public workforce and the efficiency of state institutions.
+The first chapter develops a theoretical framework to study how corruption opportunities affect self-selection into the public sector. The model highlights a dual mechanism: corruption rents attract individuals with low intrinsic motivation, who are more prone to unethical behavior, while simultaneously deterring highly motivated candidates who anticipate self-control problems when faced with temptation. This selection pattern has important implications for the quality of the public workforce and the efficiency of state institutions.<br>
 <br>
-The second chapter examines how exposure to crime-related news shapes voting behavior. Leveraging a unique dataset that links geolocated survey responses to media coverage around five Italian elections—two national and three municipal—the study shows that crime salience has heterogeneous electoral consequences. At the national level, only crimes attributed to immigrants significantly shift voter preferences, reducing support for the populist Five Star Movement and increasing support for right-wing parties emphasizing law and order. At the municipal level, by contrast, crimes committed by Italians lead to punishment of incumbents, whereas immigrant-related crimes induce higher abstention, especially among left-leaning voters. These findings underscore the role of information shocks in driving electoral realignments and in mediating the political impact of immigration.
+The second chapter examines how exposure to crime-related news shapes voting behavior. Leveraging a unique dataset that links geolocated survey responses to media coverage around five Italian elections—two national and three municipal—the study shows that crime salience has heterogeneous electoral consequences. At the national level, only crimes attributed to immigrants significantly shift voter preferences, reducing support for the populist Five Star Movement and increasing support for right-wing parties emphasizing law and order. At the municipal level, by contrast, crimes committed by Italians lead to punishment of incumbents, whereas immigrant-related crimes induce higher abstention, especially among left-leaning voters. These findings underscore the role of information shocks in driving electoral realignments and in mediating the political impact of immigration.<br>
 <br>
-The third chapter explores how childcare responsibilities interact with parental age to shape civic participation. Using rich administrative data from Bologna that match voter turnout records to household demographics and geospatial measures of proximity to schools, the analysis documents strong age-dependent effects of parenthood on political engagement. Parents of infants and preschoolers—particularly mothers—are significantly less likely to vote compared to childless adults, with turnout penalties concentrated in early adulthood and dissipating by the late thirties. These results highlight how time-intensive childcare duties and the timing of family formation condition life-cycle patterns of civic participation, with broader implications for political representation in aging societies.
+The third chapter explores how childcare responsibilities interact with parental age to shape civic participation. Using rich administrative data from Bologna that match voter turnout records to household demographics and geospatial measures of proximity to schools, the analysis documents strong age-dependent effects of parenthood on political engagement. Parents of infants and preschoolers—particularly mothers—are significantly less likely to vote compared to childless adults, with turnout penalties concentrated in early adulthood and dissipating by the late thirties. These results highlight how time-intensive childcare duties and the timing of family formation condition life-cycle patterns of civic participation, with broader implications for political representation in aging societies.<br>
 <br>
 Taken together, the three chapters show how corruption incentives, crime perceptions, and family dynamics intersect with institutional and demographic contexts to shape individual behavior. The dissertation contributes to our understanding of the microfoundations of governance, electoral outcomes, and democratic participation, offering insights relevant for the design of public policy.
       </div>
@@ -308,7 +308,7 @@ Taken together, the three chapters show how corruption incentives, crime percept
   <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
-      <i class="fa-solid fa-book fa-fw" style="margin-top: -0.005rem;"></i>
+      <i class="fa-solid fa-book fa-fw"></i>
       <span>
           Master's Thesis (2018),
           <em>"Effect of Breast and Colorectal Cancer on Earnings: Evidence from Italy"</em>
