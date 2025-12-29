@@ -283,6 +283,7 @@ nav_order: 1
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">Chapters</span>
       </div>
+    </div>
       <!-- Boxes -->
       <div id="abstract-phd" class="toggle-box">
           This.....
@@ -292,8 +293,7 @@ nav_order: 1
               1. Bla<br>
               2. Bla Bla
           </span>
-      </div>  
-    </div>
+      </div>
   </div>
 
   <!-- Paper -->
@@ -310,10 +310,10 @@ nav_order: 1
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">Abstract</span>
       </div>
-      <!-- Boxes -->
-      <div id="abstract-phd" class="toggle-box">
-          Using the Work History Italian Panel (WHIP) we estimate the causal eﬀects of breast and colorectal cancer on earnings, on unemployment, and on the possibility to work part-time in the following three years after the cancer diagnosis. Since cancer patients diﬀer from the rest of the population at socio-economic levels, we perform a propensity score matching to balance our observations. We analyse the eﬀect on earnings throughout an OLS regression and on part-time and unemployment using a logistic regression. We observe that colorectal and breast cancer patients have diﬀerent eﬀects on earnings. A diagnosis of colorectal cancer appears to be more disabling, leading to a total reduction in earnings up to 10,000 € after three years. On the contrary, the negative eﬀects of breast cancer are more concentrated in the short term and from the second year onwards these women are able to resume a normal working activity. This diversity is also supported by the results we achieved on unemployment and on part-time work.
-      </div>
+    </div>
+    <!-- Boxes -->
+    <div id="abstract-master" class="toggle-box">
+        Using the Work History Italian Panel (WHIP) we estimate the causal eﬀects of breast and colorectal cancer on earnings, on unemployment, and on the possibility to work part-time in the following three years after the cancer diagnosis. Since cancer patients diﬀer from the rest of the population at socio-economic levels, we perform a propensity score matching to balance our observations. We analyse the eﬀect on earnings throughout an OLS regression and on part-time and unemployment using a logistic regression. We observe that colorectal and breast cancer patients have diﬀerent eﬀects on earnings. A diagnosis of colorectal cancer appears to be more disabling, leading to a total reduction in earnings up to 10,000 € after three years. On the contrary, the negative eﬀects of breast cancer are more concentrated in the short term and from the second year onwards these women are able to resume a normal working activity. This diversity is also supported by the results we achieved on unemployment and on part-time work.
     </div>
   </div>
 
