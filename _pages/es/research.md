@@ -258,3 +258,79 @@ En conjunto, nuestros resultados aclaran los mecanismos que gobiernan la composi
   </div>
   
 </div>
+
+<!-- Theses Section -->
+<div class="projects">
+  <a href="javascript:void(0);" onclick="toggleVisibility('content-4')">
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-4"></i>
+      <span>tesis</span>
+    </h2>
+  </a>
+</div>
+
+<!-- Content -->
+<div id="content-4" class="toggle-section">
+
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-book fa-fw"></i>
+      <span>
+          Tesis doctoral (2026),
+          <em>"Essays in Political Economy and Crime Economics"</em>
+      </span>
+    </div>
+    <div class="pill-container">
+      <div class="pill-button toggle-pill" data-target="abstract-phd">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Resumen</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="chapters-phd">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Capítulos</span>
+      </div>
+    </div>
+      <!-- Boxes style="margin-top: -0.005rem;"-->
+      <div id="abstract-phd" class="toggle-box">
+          Esta tesis analiza cómo los incentivos institucionales, las fricciones comportamentales y los factores demográficos influyen en la toma de decisiones individuales en los ámbitos del empleo público y la participación política. La tesis se compone de tres capítulos que combinan modelización teórica y análisis empírico para arrojar luz sobre la interacción entre corrupción, saliencia del crimen y formación familiar en la determinación de resultados económicos y políticos.<br>
+<br>
+El primer capítulo desarrolla un marco teórico para estudiar cómo las oportunidades de corrupción afectan la auto-selección en el sector público. El modelo pone de relieve un doble mecanismo: las rentas asociadas a la corrupción atraen a individuos con baja motivación intrínseca, más propensos a comportamientos no éticos, y al mismo tiempo disuaden a candidatos altamente motivados que anticipan problemas de autocontrol frente a la tentación. Este patrón de selección tiene implicancias importantes para la calidad de la fuerza laboral pública y para la eficiencia de las instituciones estatales.<br>
+<br>
+El segundo capítulo examina cómo la exposición a noticias vinculadas al crimen moldea el comportamiento de voto. A partir de un conjunto de datos único que vincula respuestas de encuestas geolocalizadas con la cobertura mediática en torno a cinco elecciones italianas — dos nacionales y tres municipales — el estudio muestra que la saliencia del crimen genera consecuencias electorales heterogéneas. A nivel nacional, solo los delitos atribuidos a inmigrantes producen cambios significativos en las preferencias electorales, reduciendo el apoyo al Movimiento Cinco Estrellas y aumentando el respaldo a partidos de derecha con una clara orientación de “law and order”. A nivel municipal, en cambio, los delitos cometidos por italianos generan castigo a los incumbents, mientras que los delitos atribuidos a inmigrantes inducen mayores niveles de abstención, especialmente entre votantes de orientación progresista. Estos resultados subrayan el papel de los shocks informativos en la generación de realineamientos electorales y en la mediación del impacto político de la inmigración.<br>
+<br>
+El tercer capítulo explora cómo las responsabilidades de cuidado infantil interactúan con la edad de los padres para moldear la participación cívica. Utilizando datos administrativos detallados de Bolonia que vinculan los registros de participación electoral con la demografía de los hogares y medidas geoespaciales de proximidad a escuelas, el análisis documenta fuertes efectos dependientes de la edad de la parentalidad sobre el compromiso político. Los padres de bebés y niños en edad preescolar — en particular las madres — presentan una probabilidad significativamente menor de votar en comparación con adultos sin hijos, con penalizaciones concentradas en la adultez temprana y que se disipan hacia finales de la treintena. Estos resultados ponen de relieve cómo las demandas temporales del cuidado infantil y el momento de la formación familiar condicionan los patrones de participación cívica a lo largo del ciclo de vida, con implicancias más amplias para la representación política en sociedades envejecidas.<br>
+<br>
+En conjunto, los tres capítulos muestran cómo los incentivos a la corrupción, las percepciones del crimen y las dinámicas familiares interactúan con contextos institucionales y demográficos para moldear el comportamiento individual. La tesis contribuye a la comprensión de las microfundaciones de la gobernanza, los resultados electorales y la participación democrática, ofreciendo aportes relevantes para el diseño de políticas públicas.
+      </div>
+      <div id="chapters-phd" class="toggle-box">
+          <span>
+              1. Corruption, temptation, and self-selection in the public sector<br>
+              2. Crime Perception and Voting Behavior: Evidence from Individual Data<br>
+              3. Childcare and Civic Participation: Parental Age, Child Stage, and Voter Turnout
+          </span>
+      </div>
+  </div>
+
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-book fa-fw"></i>
+      <span>
+          Tesis de maestría (2018),
+          <em>"Effect of Breast and Colorectal Cancer on Earnings: Evidence from Italy"</em>
+      </span>
+    </div>
+    <div class="pill-container">
+      <div class="pill-button toggle-pill" data-target="abstract-master">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Resumen</span>
+      </div>
+    </div>
+    <!-- Boxes -->
+    <div id="abstract-master" class="toggle-box">
+        Utilizando el Work History Italian Panel (WHIP), estimamos los efectos causales del cáncer de mama y del cáncer colorrectal sobre los ingresos laborales, el desempleo y la probabilidad de trabajar a tiempo parcial durante los tres años posteriores al diagnóstico de cáncer. Dado que los pacientes oncológicos difieren del resto de la población en términos socioeconómicos, implementamos un procedimiento de propensity score matching para balancear las observaciones. Analizamos el efecto sobre los ingresos mediante una regresión OLS y los efectos sobre el empleo a tiempo parcial y el desempleo mediante regresiones logísticas. Los resultados muestran que el cáncer colorrectal y el cáncer de mama generan efectos diferenciados sobre los ingresos. En particular, el diagnóstico de cáncer colorrectal resulta más incapacitante, dando lugar a una reducción total de los ingresos de hasta 10.000 euros al cabo de tres años. Por el contrario, los efectos negativos del cáncer de mama se concentran principalmente en el corto plazo y, a partir del segundo año, las mujeres afectadas logran retomar una actividad laboral normal. Esta diferencia también se ve reflejada en los resultados relativos al desempleo y al trabajo a tiempo parcial.
+    </div>
+  </div>
+
+</div>
