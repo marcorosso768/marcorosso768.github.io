@@ -270,7 +270,7 @@ nav_order: 1
     <div class="icon-entry indented">
       <i class="fa-solid fa-book fa-fw"></i>
       <span>
-          Ph.D. Thesis (2026),
+          Tesi di dottorato (2026),
           <em>"Essays in Political Economy and Crime Economics"</em>
       </span>
     </div>
@@ -281,20 +281,20 @@ nav_order: 1
       </div>
       <div class="pill-button toggle-pill" data-target="chapters-phd">
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Chapters</span>
+        <span class="toggle-label">Capitoli</span>
       </div>
     </div>
       <!-- Boxes style="margin-top: -0.005rem;"-->
       <div id="abstract-phd" class="toggle-box">
-          This dissertation investigates how institutional incentives, behavioral frictions, and demographic factors shape individual decision-making in the domains of public employment and political participation. It comprises three chapters that combine theoretical modeling with empirical analysis to shed light on the interplay between corruption, crime salience, and family formation in influencing economic and political outcomes.<br>
+          Questa tesi analizza come incentivi istituzionali, frizioni comportamentali e fattori demografici influenzino il processo decisionale individuale nei contesti dell’impiego pubblico e della partecipazione politica. La tesi si articola in tre capitoli che combinano modellizzazione teorica e analisi empirica per fare luce sull’interazione tra corruzione, salienza del crimine e formazione della famiglia nel determinare esiti economici e politici.<br>
 <br>
-The first chapter develops a theoretical framework to study how corruption opportunities affect self-selection into the public sector. The model highlights a dual mechanism: corruption rents attract individuals with low intrinsic motivation, who are more prone to unethical behavior, while simultaneously deterring highly motivated candidates who anticipate self-control problems when faced with temptation. This selection pattern has important implications for the quality of the public workforce and the efficiency of state institutions.<br>
+Il primo capitolo sviluppa un quadro teorico per studiare come le opportunità di corruzione influenzino l’auto-selezione nel settore pubblico. Il modello mette in evidenza un duplice meccanismo: le rendite corruttive attraggono individui con bassa motivazione intrinseca, più inclini a comportamenti non etici, mentre allo stesso tempo scoraggiano candidati altamente motivati che anticipano problemi di autocontrollo di fronte alla tentazione. Questo schema di selezione ha implicazioni rilevanti per la qualità della forza lavoro pubblica e per l’efficienza delle istituzioni statali.<br>
 <br>
-The second chapter examines how exposure to crime-related news shapes voting behavior. Leveraging a unique dataset that links geolocated survey responses to media coverage around five Italian elections—two national and three municipal—the study shows that crime salience has heterogeneous electoral consequences. At the national level, only crimes attributed to immigrants significantly shift voter preferences, reducing support for the populist Five Star Movement and increasing support for right-wing parties emphasizing law and order. At the municipal level, by contrast, crimes committed by Italians lead to punishment of incumbents, whereas immigrant-related crimes induce higher abstention, especially among left-leaning voters. These findings underscore the role of information shocks in driving electoral realignments and in mediating the political impact of immigration.<br>
+Il secondo capitolo analizza come l’esposizione a notizie di cronaca nera influenzi il comportamento di voto. Sfruttando un dataset unico che collega risposte di indagini geolocalizzate alla copertura mediatica relativa a cinque elezioni italiane — due nazionali e tre comunali — lo studio mostra che la salienza del crimine produce conseguenze elettorali eterogenee. A livello nazionale, solo i crimini attribuiti a immigrati modificano significativamente le preferenze elettorali, riducendo il sostegno al Movimento Cinque Stelle e aumentando il consenso per i partiti di destra orientati al “law and order”. A livello comunale, al contrario, i crimini commessi da italiani determinano una punizione degli incumbents, mentre quelli attribuiti a immigrati inducono un aumento dell’astensione, soprattutto tra gli elettori di area progressista. Questi risultati evidenziano il ruolo degli shock informativi nel guidare riallineamenti elettorali e nel mediare l’impatto politico dell’immigrazione.<br>
 <br>
-The third chapter explores how childcare responsibilities interact with parental age to shape civic participation. Using rich administrative data from Bologna that match voter turnout records to household demographics and geospatial measures of proximity to schools, the analysis documents strong age-dependent effects of parenthood on political engagement. Parents of infants and preschoolers—particularly mothers—are significantly less likely to vote compared to childless adults, with turnout penalties concentrated in early adulthood and dissipating by the late thirties. These results highlight how time-intensive childcare duties and the timing of family formation condition life-cycle patterns of civic participation, with broader implications for political representation in aging societies.<br>
+Il terzo capitolo esplora come le responsabilità di cura dei figli interagiscano con l’età dei genitori nel determinare la partecipazione civica. Utilizzando dati amministrativi dettagliati su Bologna che collegano i registri di affluenza alle urne alle caratteristiche demografiche delle famiglie e a misure geospaziali di prossimità alle scuole, l’analisi documenta forti effetti dipendenti dall’età della genitorialità sull’impegno politico. I genitori di neonati e bambini in età prescolare — in particolare le madri — presentano una probabilità significativamente più bassa di votare rispetto agli adulti senza figli, con penalizzazioni concentrate nella prima età adulta e che si attenuano verso la fine dei trent’anni. Questi risultati mostrano come l’intensità temporale della cura dei figli e la tempistica della formazione familiare condizionino i profili di partecipazione civica lungo il ciclo di vita, con implicazioni più ampie per la rappresentanza politica nelle società che invecchiano.<br>
 <br>
-Taken together, the three chapters show how corruption incentives, crime perceptions, and family dynamics intersect with institutional and demographic contexts to shape individual behavior. The dissertation contributes to our understanding of the microfoundations of governance, electoral outcomes, and democratic participation, offering insights relevant for the design of public policy.
+Nel loro insieme, i tre capitoli mostrano come incentivi alla corruzione, percezioni del crimine e dinamiche familiari interagiscano con contesti istituzionali e demografici nel plasmare il comportamento individuale. La tesi contribuisce alla comprensione delle microfondazioni della governance, degli esiti elettorali e della partecipazione democratica, offrendo spunti rilevanti per la progettazione delle politiche pubbliche.
       </div>
       <div id="chapters-phd" class="toggle-box">
           <span>
@@ -310,7 +310,7 @@ Taken together, the three chapters show how corruption incentives, crime percept
     <div class="icon-entry indented">
       <i class="fa-solid fa-book fa-fw"></i>
       <span>
-          Master's Thesis (2018),
+          Tesi di laurea magistrale (2018),
           <em>"Effect of Breast and Colorectal Cancer on Earnings: Evidence from Italy"</em>
       </span>
     </div>
@@ -322,7 +322,7 @@ Taken together, the three chapters show how corruption incentives, crime percept
     </div>
     <!-- Boxes -->
     <div id="abstract-master" class="toggle-box">
-        Using the Work History Italian Panel (WHIP) we estimate the causal effects of breast and colorectal cancer on earnings, on unemployment, and on the possibility to work part-time in the following three years after the cancer diagnosis. Since cancer patients differ from the rest of the population at socio-economic levels, we perform a propensity score matching to balance our observations. We analyse the effect on earnings throughout an OLS regression and on part-time and unemployment using a logistic regression. We observe that colorectal and breast cancer patients have different effects on earnings. A diagnosis of colorectal cancer appears to be more disabling, leading to a total reduction in earnings up to 10,000 € after three years. On the contrary, the negative effects of breast cancer are more concentrated in the short term and from the second year onwards these women are able to resume a normal working activity. This diversity is also supported by the results we achieved on unemployment and on part-time work.
+        Utilizzando il Work History Italian Panel (WHIP), stimiamo gli effetti causali del tumore al seno e del tumore del colon-retto sui redditi da lavoro, sulla disoccupazione e sulla probabilità di lavorare part-time nei tre anni successivi alla diagnosi di cancro. Poiché i pazienti oncologici differiscono dal resto della popolazione sotto il profilo socio-economico, adottiamo una procedura di propensity score matching per bilanciare le osservazioni. Analizziamo l’effetto sui redditi mediante una regressione OLS e gli effetti su lavoro part-time e disoccupazione tramite regressioni logistiche. I risultati mostrano che il tumore del colon-retto e il tumore al seno producono effetti differenti sui redditi. In particolare, una diagnosi di tumore del colon-retto risulta più invalidante, determinando una riduzione complessiva dei redditi fino a 10.000 euro dopo tre anni. Al contrario, gli effetti negativi del tumore al seno sono più concentrati nel breve periodo e, a partire dal secondo anno, le donne colpite riescono a riprendere una normale attività lavorativa. Questa eterogeneità è confermata anche dai risultati relativi alla disoccupazione e al lavoro part-time.
     </div>
   </div>
 
