@@ -270,7 +270,7 @@ nav_order: 1
     <div class="icon-entry indented">
       <i class="fa-solid fa-book fa-fw"></i>
       <span>
-          Ph.D. Thesis (2026),
+          <b>Ph.D. Thesis</b> (2026),
           <em>"Essays in Political Economy and Crime Economics"</em>
       </span>
     </div>
@@ -310,7 +310,7 @@ Taken together, the three chapters show how corruption incentives, crime percept
     <div class="icon-entry indented">
       <i class="fa-solid fa-book fa-fw"></i>
       <span>
-          Master's Thesis (2018),
+          <b>Master's Thesis</b> (2018),
           <em>"Effect of Breast and Colorectal Cancer on Earnings: Evidence from Italy"</em>
       </span>
     </div>
