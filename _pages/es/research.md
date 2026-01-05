@@ -180,10 +180,7 @@ En conjunto, nuestros resultados aclaran los mecanismos que gobiernan la composi
     <div class="icon-entry indented">
       <i class="fa-solid fa-file-lines fa-fw"></i>
       <span>
-        <em>Childcare and Civic Participation: Parental Age, Child Stage, and Voter Turnout</em><br>
-        con 
-        <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a> 
-        y <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>
+        <em>Parenthood, Age, and the Opportunity Cost of Voting: Evidence from Administrative Voter Records</em>
       </span>
     </div>
     <div class="pill-container">
@@ -202,20 +199,22 @@ En conjunto, nuestros resultados aclaran los mecanismos que gobiernan la composi
       <a 
   href="mailto:marco.rosso4@unibo.it
         ?subject=Solicitud%20de%20borrador%20-%20Childcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout
-        &body=Estimado%20Marco,%0D%0A%0D%0Ame%20gustar%C3%ADa%20solicitar%20el%20borrador%20de%20tu%20paper%20%E2%80%9CChildcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout%E2%80%9D.%0D%0A%0D%0A%C2%A1Gracias!%0D%0A"
+        &body=Estimado%20Marco,%0D%0A%0D%0Ame%20gustar%C3%ADa%20solicitar%20el%20borrador%20de%20tu%20paper%20%E2%80%9CParenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records%E2%80%9D.%0D%0A%0D%0A%C2%A1Gracias!%0D%0A"
   class="pill-link no-external">
         <i class="fa-regular fa-newspaper fa-2xs"></i>
         <span class="toggle-label" title="Borrador a pedido">Paper</span>
       </a>
     </div>
     <div id="abstract-ageturnout" class="toggle-box">
-     Este trabajo examina cómo la maternidad/paternidad y la edad de los padres influyen en la participación electoral, utilizando un panel administrativo exhaustivo que cubre el universo de votantes registrados en Bolonia a lo largo de cuatro elecciones municipales y nacionales entre 2004 y 2013. Vinculamos los registros individuales de participación con información demográfica, fiscal y geoespacial detallada, incluyendo la ubicación y las áreas de cobertura de los jardines maternales públicos y la distancia a las mesas de votación. Este enlace único nos permite identificar a los padres, medir la edad de su hijo más pequeño y controlar un amplio conjunto de características individuales y espaciales. Los modelos de probabilidad lineales con efectos fijos de individuo y de año no muestran diferencias promedio en la participación entre padres y no padres, una vez absorbida la heterogeneidad permanente. Sin embargo, aparecen penalizaciones importantes cuando lxs hijxs son muy chiquitxs: madres y padres de bebés (0–2) y niñxs en edad preescolar (3–5) votan entre tres y cinco puntos porcentuales menos que no padres comparables. Estas penalizaciones disminuyen aproximadamente 0,2 puntos porcentuales por cada año adicional de edad de los padres y desaparecen alrededor de los cuarenta; quienes tienen hijxs más grandes no muestran diferencias. El efecto negativo se concentra entre las madres, mientras que la participación de los padres varones no se ve afectada. Los chequeos de robustez, que incluyen efectos fijos de barrio, controles socioeconómicos adicionales y medidas de proximidad residencial a jardines infantiles, confirman estos resultados y muestran que el acceso a las escuelas no influye en la participación. En conjunto, los hallazgos sugieren que son las intensas demandas de cuidado infantil, y no la mera disponibilidad de infraestructura, las que limitan la participación política. Subrayan la importancia de los factores del ciclo de vida en los modelos de comportamiento electoral y ponen de relieve cómo la postergación de la maternidad/paternidad y la baja en la natalidad pueden sesgar la representación democrática al reducir la voz política de las familias jóvenes.
+     Este trabajo analiza cómo la parentalidad y la edad de los padres se asocian con la participación electoral utilizando un amplio panel administrativo que cubre el universo de votantes registrados en Bolonia en cuatro elecciones municipales y nacionales entre 2004 y 2013. Al vincular los registros individuales de turnout con información demográfica, fiscal y residencial, identificamos a los padres, seguimos la edad de sus hijos y observamos a los mismos individuos a lo largo del tiempo.
+Estimamos modelos de probabilidad lineal con efectos fijos individuales y por año electoral, explotando la variación intra-individual para controlar por diferencias permanentes en el compromiso cívico. En promedio, una vez incorporados los efectos fijos individuales, la parentalidad no se asocia con una menor participación. Sin embargo, surge una marcada heterogeneidad a lo largo del ciclo de vida parental. Los padres con hijos pequeños votan significativamente menos que no padres comparables a edades tempranas: quienes tienen hijos de 0–2 y 3–5 años presentan penalizaciones de participación de aproximadamente tres a cinco puntos porcentuales. Estas brechas disminuyen de manera sostenida — alrededor de 0,2 puntos porcentuales por cada año adicional de edad parental — y desaparecen hacia los cuarenta años. Los padres de hijos mayores no muestran déficit de participación.
+La brecha de participación está impulsada casi por completo por las madres, mientras que la participación de los padres permanece inalterada. Los resultados son robustos a especificaciones alternativas y a controles por movilidad residencial, características del barrio y distancia a los centros de votación. En conjunto, los hallazgos resaltan la importancia de los factores del ciclo de vida en la participación política y sugieren que los períodos de cuidado infantil intensivo se asocian con una reducción temporal del compromiso electoral. De manera más general, el análisis señala un canal a través del cual tendencias demográficas, como el retraso en la fecundidad, pueden tener implicancias para la representación democrática.
     </div>
     <div id="keywords-ageturnout" class="toggle-box">
-       participación electoral, cuidado infantil, edad, participación en las elecciones, efectos fijos.
+       edad; efectos fijos; participación electoral; parentalidad; participación en el voto.
     </div>
     <div id="jel-ageturnout" class="toggle-box">
-       D72; J13; J22; H75.
+       D72; J13; J22.
     </div>
   </div>
 
