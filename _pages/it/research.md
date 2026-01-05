@@ -161,7 +161,7 @@ nav_order: 1
       Questo lavoro propone una teoria comportamentale della selezione occupazionale che risolve la persistente ambiguità empirica riguardo alla qualità della forza lavoro del settore pubblico in contesti caratterizzati da corruzione e frizioni morali. Il modello incorpora i costi di autocontrollo e la tentazione all’interno di un quadro standard di scelta occupazionale, coerente con l’impostazione di utilità di Gul e Pesendorfer (2001). Mostriamo che gli individui intrinsecamente motivati (onesti) affrontano un costo psicologico sproporzionatamente elevato nel resistere alla tentazione, generando un duplice effetto sulla selezione: gli individui con bassa motivazione sono attratti, mentre quelli con alta motivazione risultano fortemente scoraggiati. Per risolvere l’ambiguità derivante da queste forze opposte, l’analisi stabilisce tre principi generali che governano la selezione istituzionale, supportati da derivazioni analitiche e verifiche di robustezza numeriche. Primo, identifichiamo un punto critico istituzionale, &lambda;<sup>*</sup>, che determina il regime di selezione: al di sotto di esso, la corruzione porta a un deterioramento della qualità <i>(“più ma peggio”)</i>; al di sopra, agisce come filtro selettivo, migliorando la qualità <i>(“meno ma meglio”)</i>. Secondo, mostriamo che l’esito della selezione dipende fondamentalmente dalla correlazione sociale tra abilità e onestà. Terzo, il modello offre una nuova giustificazione per gli alti salari pubblici, dimostrando che stipendi elevati mascherano o attenuano il potere selettivo della corruzione. Nel complesso, i nostri risultati chiariscono i meccanismi che determinano la composizione della forza lavoro in contesti moralmente frizionali, contribuendo alla letteratura su selezione occupazionale, motivazione al servizio pubblico e design istituzionale.
     </div>
     <div id="keywords-corruption" class="toggle-box">
-      selezione occupazionale, autocontrollo, corruzione, frizioni morali, qualità del settore pubblico.
+      selezione occupazionale; autocontrollo; corruzione; frizioni morali; qualità del settore pubblico.
     </div>
     <div id="jel-corruption" class="toggle-box">
        D73; J45; D90; H83; K42.
@@ -173,10 +173,7 @@ nav_order: 1
     <div class="icon-entry indented">
       <i class="fa-solid fa-file-lines fa-fw"></i>
       <span>
-        <em>Childcare and Civic Participation: Parental Age, Child Stage, and Voter Turnout</em><br>
-        con 
-        <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a> 
-        e <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>
+        <em>Parenthood, Age, and the Opportunity Cost of Voting: Evidence from Administrative Voter Records</em>
       </span>
     </div>
     <div class="pill-container">
@@ -195,20 +192,22 @@ nav_order: 1
       <a 
   href="mailto:marco.rosso4@unibo.it
         ?subject=Richiesta%20bozza%20-%20Childcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout
-        &body=Caro%20Marco,%0D%0A%0D%0Avorrei%20chiederti%20la%20bozza%20del%20tuo%20paper%20%E2%80%9CChildcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout%E2%80%9D.%0D%0A%0D%0AGrazie!%0D%0A"
+        &body=Caro%20Marco,%0D%0A%0D%0Avorrei%20chiederti%20la%20bozza%20del%20tuo%20paper%20%E2%80%9CParenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records%E2%80%9D.%0D%0A%0D%0AGrazie!%0D%0A"
   class="pill-link no-external">
         <i class="fa-regular fa-newspaper fa-2xs"></i>
         <span class="toggle-label" title="Bozza su richiesta">Paper</span>
       </a>
     </div>
     <div id="abstract-ageturnout" class="toggle-box">
-     Questo studio esamina come la genitorialità e l’età dei genitori influenzino la partecipazione elettorale, utilizzando un ampio pannello amministrativo che copre l’universo degli elettori registrati a Bologna in quattro elezioni municipali e nazionali tra il 2004 e il 2013. Colleghiamo i dati individuali di affluenza elettorale a informazioni demografiche, fiscali e geospaziali dettagliate, inclusa la localizzazione e le aree di riferimento degli asili pubblici e la distanza dai seggi elettorali. Questo collegamento unico ci consente di identificare i genitori, misurare l’età del loro figlio più piccolo e controllare un ampio insieme di caratteristiche individuali e spaziali. Modelli di probabilità lineari con effetti fissi individuali e annuali non mostrano differenze medie di affluenza tra genitori e non genitori, una volta assorbita l’eterogeneità permanente. Tuttavia, emergono penalizzazioni significative quando i figli sono molto piccoli: i genitori di neonati (0–2 anni) e bambini in età prescolare (3–5 anni) votano dal tre al cinque per cento in meno rispetto ai non genitori comparabili. Queste penalizzazioni diminuiscono di circa 0,2 punti percentuali per ogni anno aggiuntivo di età dei genitori e scompaiono intorno ai quarant’anni; i genitori di figli più grandi non mostrano differenze. L’effetto negativo si concentra tra le madri, mentre l’affluenza dei padri rimane invariata. Verifiche di robustezza che includono effetti fissi di quartiere, ulteriori controlli socioeconomici e misure di prossimità residenziale agli asili confermano questi risultati e mostrano che l’accesso alle scuole non gioca alcun ruolo nel determinare l’affluenza. Nel complesso, i risultati suggeriscono che sono le intense esigenze di cura dei bambini, piuttosto che la disponibilità fisica di strutture per l’infanzia, a limitare la partecipazione politica. Essi sottolineano l’importanza dei fattori legati al ciclo di vita nei modelli di comportamento elettorale e mettono in evidenza come la fertilità posticipata e il calo delle nascite possano distorcere la rappresentanza democratica riducendo la voce politica delle famiglie più giovani.
+     Questo lavoro analizza come la genitorialità e l’età dei genitori siano associate all’affluenza alle urne utilizzando un ampio panel amministrativo che copre l’universo degli elettori registrati a Bologna in quattro elezioni comunali e nazionali tra il 2004 e il 2013. Collegando i registri individuali di turnout a informazioni demografiche, fiscali e residenziali, identifichiamo i genitori, seguiamo l’età dei figli e osserviamo gli stessi individui nel tempo.
+Stimiamo modelli di probabilità lineare con effetti fissi individuali e per anno elettorale, sfruttando la variazione intra-individuale per tenere conto delle differenze permanenti nell’impegno civico. In media, una volta inclusi gli effetti fissi individuali, la genitorialità non è associata a una minore affluenza. Emergono tuttavia forti eterogeneità lungo il ciclo di vita dei genitori. I genitori con figli piccoli votano significativamente meno rispetto a non genitori comparabili nelle età più giovani: coloro con figli di 0–2 e 3–5 anni presentano penalizzazioni di turnout pari a circa tre–cinque punti percentuali. Tali divari si riducono gradualmente — di circa 0,2 punti percentuali per ogni anno aggiuntivo di età del genitore — e scompaiono intorno ai quarant’anni. I genitori di figli più grandi non mostrano alcun deficit di partecipazione.
+Il gap di partecipazione è quasi interamente trainato dalle madri, mentre l’affluenza dei padri rimane invariata. I risultati sono robusti a specificazioni alternative e all’inclusione di controlli per la mobilità residenziale, le caratteristiche di quartiere e la distanza dai seggi elettorali. Nel complesso, i risultati evidenziano l’importanza dei fattori di ciclo di vita nel determinare la partecipazione politica e suggeriscono che periodi di intensa cura dei figli siano associati a una riduzione temporanea dell’impegno elettorale. Più in generale, l’analisi indica un canale attraverso il quale le tendenze demografiche, come il rinvio della fecondità, possono avere implicazioni per la rappresentanza democratica.
     </div>
     <div id="keywords-ageturnout" class="toggle-box">
-       affluenza elettorale, cura dei bambini, età, partecipazione elettorale, effetti fissi.
+       affluenza alle urne; effetti fissi; età; genitorialità; partecipazione elettorale.
     </div>
     <div id="jel-ageturnout" class="toggle-box">
-       D72; J13; J22; H75.
+       D72; J13; J22.
     </div>
   </div>
 
