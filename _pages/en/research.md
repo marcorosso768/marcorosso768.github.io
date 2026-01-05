@@ -204,7 +204,7 @@ We estimate linear probability models with individual and election-year fixed ef
 The participation gap is driven almost entirely by mothers, while fathers’ turnout remains unaffected. The results are robust to alternative specifications and to controls for residential mobility, neighborhood characteristics, and distance to polling stations. Taken together, the findings highlight the importance of life-cycle factors in shaping political participation and suggest that periods of intensive childcare are associated with temporarily lower electoral engagement. More broadly, the analysis points to a channel through which demographic trends, such as delayed fertility, may have implications for democratic representation.
     </div>
     <div id="keywords-ageturnout" class="toggle-box">
-       voter turnout; parenthood; age; electoral participation; fixed effects.
+       age; electoral participation; fixed effects; parenthood; voter turnout.
     </div>
     <div id="jel-ageturnout" class="toggle-box">
        D72; J13; J22.
