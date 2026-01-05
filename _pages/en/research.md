@@ -161,7 +161,7 @@ nav_order: 1
       This paper establishes a behavioral theory of occupational selection that resolves the long-standing empirical ambiguity regarding the quality of the public sector workforce in environments characterized by corruption and moral friction. The framework incorporates self-control costs and temptation into a standard model of occupational choice, consistent with the utility framework of Gul and Pesendorfer (2001). We show that intrinsically motivated (honest) agents face a disproportionately higher psychological cost when resisting temptation, leading to a dual effect on selection: low-motivation types are attracted, while high-motivation types are severely deterred. To resolve the ambiguity that arises from these opposing forces, the analysis establishes three general principles that govern institutional selection, supported by analytical derivations and numerical robustness checks. First, we identify a critical institutional tipping point, &lambda;<sup>*</sup>, which dictates the selection regime: below it, corruption leads to quality deterioration (<i>"more but worse"</i>); above it, it acts as a selective filter, improving quality (<i>"less but better"</i>). Second, we show that the selection outcome is fundamentally conditional on the societal correlation between ability and honesty. Third, the model offers a novel rationale for high public wages, demonstrating that large salaries mask or attenuate the selective power of corruption. Overall, our findings clarify the mechanisms governing workforce composition in morally frictional environments, contributing to the literature on occupational selection, public service motivation, and institutional design.
     </div>
     <div id="keywords-corruption" class="toggle-box">
-      occupational selection, self-control, corruption, moral frictions, public sector quality.
+      occupational selection; self-control; corruption; moral frictions; public sector quality.
     </div>
     <div id="jel-corruption" class="toggle-box">
        D73; J45; D90; H83; K42.
@@ -173,10 +173,7 @@ nav_order: 1
     <div class="icon-entry indented">
       <i class="fa-solid fa-file-lines fa-fw"></i>
       <span>
-        <em>Childcare and Civic Participation: Parental Age, Child Stage, and Voter Turnout</em><br>
-        joint with 
-        <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a> 
-        and <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>
+        <em>Parenthood, Age, and the Opportunity Cost of Voting: Evidence from Administrative Voter Records</em>
       </span>
     </div>
     <div class="pill-container">
@@ -195,20 +192,22 @@ nav_order: 1
       <a 
   href="mailto:marco.rosso4@unibo.it
         ?subject=Request%20for%20draft%20-%20Childcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout
-        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20paper%20%E2%80%9CChildcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
+        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20paper%20%E2%80%9CParenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
   class="pill-link no-external">
         <i class="fa-regular fa-newspaper fa-2xs"></i>
         <span class="toggle-label" title="Draft under request">Paper</span>
       </a>
     </div>
     <div id="abstract-ageturnout" class="toggle-box">
-     This paper examines how parenthood and parental age influence voter turnout using a comprehensive administrative panel that covers the universe of registered voters in Bologna across four municipal and national elections between 2004 and 2013. We link individual turnout records to detailed demographic, fiscal, and geospatial information, including the location and catchment areas of public childcare facilities and the distance to polling stations. This unique linkage allows us to identify parents, measure the age of their youngest child, and control for a rich set of individual and spatial characteristics. Linear probability models with individual and year fixed effects show no average turnout difference between parents and non-parents once permanent heterogeneity is absorbed. However, sizable turnout penalties emerge when children are very young: parents of infants (0–2 years) and preschoolers (3–5 years) vote three to five percentage points less than comparable non-parents. These penalties diminish by roughly 0.2 percentage points per additional year of parental age and disappear around age forty; parents of older children show no gap. The negative effect is concentrated among mothers, while fathers’ turnout remains unaffected. Robustness checks including neighborhood fixed effects, additional socioeconomic controls, and measures of residential proximity to childcare facilities confirm these results and show that access to schools plays no role in shaping turnout. Taken together, the findings suggest that intensive childcare demands, rather than the physical availability of childcare infrastructure, constrain political participation. They underscore the importance of life-cycle factors in models of voter behavior and highlight how delayed fertility and declining birth rates can skew democratic representation by reducing the political voice of younger families.
+     This paper studies how parenthood and parental age are associated with voter turnout using a comprehensive administrative panel covering the universe of registered voters in Bologna across four municipal and national elections between 2004 and 2013. By linking individual turnout records to demographic, fiscal, and residential information, we identify parents, track the age of their children, and follow the same individuals over time.
+We estimate linear probability models with individual and election-year fixed effects, exploiting within-individual variation to account for permanent differences in civic engagement. On average, parenthood is not associated with lower turnout once individual fixed effects are included. However, substantial heterogeneity emerges over the parental life cycle. Parents of young children vote significantly less than comparable non-parents at younger ages: those with children aged 0--2 and 3--5 exhibit turnout penalties of approximately three to five percentage points. These gaps decline steadily---by about 0.2 percentage points per additional year of parental age---and disappear by around age forty. Parents of older children display no turnout deficit.
+The participation gap is driven almost entirely by mothers, while fathers’ turnout remains unaffected. The results are robust to alternative specifications and to controls for residential mobility, neighborhood characteristics, and distance to polling stations. Taken together, the findings highlight the importance of life-cycle factors in shaping political participation and suggest that periods of intensive childcare are associated with temporarily lower electoral engagement. More broadly, the analysis points to a channel through which demographic trends, such as delayed fertility, may have implications for democratic representation.
     </div>
     <div id="keywords-ageturnout" class="toggle-box">
-       voter turnout, childcare, age, electoral participation, fixed effects.
+       voter turnout; parenthood; age; electoral participation; fixed effects.
     </div>
     <div id="jel-ageturnout" class="toggle-box">
-       D72; J13; J22; H75.
+       D72; J13; J22.
     </div>
   </div>
 
@@ -300,7 +299,7 @@ Taken together, the three chapters show how corruption incentives, crime percept
           <span>
               1. Corruption, temptation, and self-selection in the public sector<br>
               2. Crime Perception and Voting Behavior: Evidence from Individual Data<br>
-              3. Childcare and Civic Participation: Parental Age, Child Stage, and Voter Turnout
+              3. Parenthood, Age, and the Opportunity Cost of Voting: Evidence from Administrative Voter Records
           </span>
       </div>
   </div>
