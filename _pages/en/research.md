@@ -102,7 +102,7 @@ nav_order: 1
       </a>
     </div>
     <div id="abstract-crime" class="toggle-box">
-    This paper studies how exposure to geolocated crime-related news shapes individual voting behavior in Italian elections. Using a panel of non-relocating voters observed across multiple election rounds, we exploit within-individual variation in exposure to nearby crime news during the pre-election month, controlling for individual and district-by-election fixed effects. Aggregate exposure yields weak, unstable effects. Disaggregating by offender nationality reveals systematic patterns: immigrant-attributed crime news reduces support for parties with ambiguous immigration stances (e.g., Five Star Movement) and increases support for clear “law-and-order” parties, while Italian-attributed crime has negligible effects. Effects are stronger among high-skilled voters shifting from M5S and low-skilled voters abandoning Lega. In local elections, Italian crime punishes incumbents, while immigrant crime increases abstention. These asymmetric responses—absent in aggregate measures—indicate that crime salience operates primarily through identity-based framing rather than through generalized concerns about crime or security. The findings highlight how media attribution shapes electoral accountability.
+    This paper studies how exposure to geolocated crime-related news shapes individual voting behavior in Italian elections. Using a panel of non-relocating voters observed across multiple election rounds, we exploit within-individual variation in exposure to nearby crime news during the pre-election month, controlling for individual and district-by-election fixed effects. Aggregate exposure yields weak, unstable effects. Disaggregating by offender nationality reveals systematic patterns: immigrant-attributed crime news reduces support for parties with ambiguous immigration stances (e.g., Five Star Movement) and increases support for clear "law-and-order" parties, while Italian-attributed crime has negligible effects. Effects are stronger among high-skilled voters shifting from M5S and low-skilled voters abandoning Lega. In local elections, Italian crime punishes incumbents, while immigrant crime increases abstention. These asymmetric responses—absent in aggregate measures—indicate that crime salience operates primarily through identity-based framing rather than through generalized concerns about crime or security. The findings highlight how media attribution shapes electoral accountability.
     </div>
     <div id="keywords-crime" class="toggle-box">
        crime; immigration; elections; news media; individual voting behavior.
@@ -151,7 +151,7 @@ nav_order: 1
       <a 
   href="mailto:marco.rosso4@unibo.it
         ?subject=Request%20for%20draft%20-%20The%20Tipping%20Point%20of%20Temptation:%20Selection,%20Integrity,%20and%20Public%20Service%20Quality
-        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20paper%20%E2%80%9CThe%20Tipping%20Point%20of%20Temptation:%20Selection,%20Integrity,%20and%20Public%20Service%20Quality%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
+        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20paper%20%E2%80%9CThe%20Tipping%20Point%20of%20Temptation%3A%20Occupational%20Selection%20and%20Integrity%20in%20the%20Public%20Sector%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
   class="pill-link no-external">
         <i class="fa-regular fa-newspaper fa-2xs"></i>
         <span class="toggle-label" title="Draft under request">Paper</span>
@@ -290,15 +290,15 @@ The <i>first chapter</i> develops a behavioral theory of occupational selection 
 <br>
 The <i>second chapter</i> examines how crime-related information aﬀects individual voting behavior. Using geolocated data that link retrospective voting choices to local crime news coverage in Bologna across multiple national and municipal elections, the analysis exploits within-individual variation in exposure to nearby crime reports. The results show that aggregate crime salience has weak and unstable eﬀects, while crime attributed to immigrants generates systematic electoral responses: voters shift away from parties with ambiguous positions on immigration toward parties emphasizing law and order. In local elections, immigrant-related crime increases abstention, whereas crimes committed by natives lead to punishment of incumbents. These findings highlight the role of identity-based framing in mediating the political impact of crime.<br>
 <br>
-The <i>third chapter</i>i> studies how parenthood and parental age shape electoral participation. Using administrative data covering the universe of registered voters in Bologna, the analysis follows individuals over time as their family circumstances evolve. Once permanent individual heterogeneity is accounted for, parenthood is not associated with lower turnout on average. However, substantial life-cycle heterogeneity emerges: parents of infants and preschoolers—especially mothers—exhibit sizable turnout penalties at younger ages, which decline steadily with parental age and disappear by around age forty. These results indicate that periods of intensive childcare impose temporary opportunity costs on political participation.<br>
+The <i>third chapter</i> studies how parenthood and parental age shape electoral participation. Using administrative data covering the universe of registered voters in Bologna, the analysis follows individuals over time as their family circumstances evolve. Once permanent individual heterogeneity is accounted for, parenthood is not associated with lower turnout on average. However, substantial life-cycle heterogeneity emerges: parents of infants and preschoolers—especially mothers—exhibit sizable turnout penalties at younger ages, which decline steadily with parental age and disappear by around age forty. These results indicate that periods of intensive childcare impose temporary opportunity costs on political participation.<br>
 <br>
 Taken together, the three chapters show how behavioral frictions and life-cycle constraints can generate distortions in selection and participation even in settings with low formal barriers to entry and participation. By emphasizing micro-level mechanisms rather than institutional failures alone, the dissertation contributes to the understanding of public-sector composition, electoral behavior, and democratic representation.
       </div>
       <div id="chapters-phd" class="toggle-box">
           <span>
-              1. The Tipping Point of Temptation: Occupational Selection and Integrity in the Public Sector<br>
-              2. Crime Perception and Voting Behavior: Evidence from Individual Data<br>
-              3. Parenthood, Age, and the Opportunity Cost of Voting: Evidence from Administrative Voter Records
+            1. The Tipping Point of Temptation: Occupational Selection and Integrity in the Public Sector<br>
+            2. Crime Perception and Voting Behavior: Evidence from Individual Data<br>
+            3. Parenthood, Age, and the Opportunity Cost of Voting: Evidence from Administrative Voter Records
           </span>
       </div>
   </div>
