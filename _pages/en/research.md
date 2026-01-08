@@ -88,10 +88,6 @@ nav_order: 1
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">JEL</span>
       </div>
-      <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" class="pill-link no-external">
-        <i class="fa-regular fa-newspaper fa-2xs"></i>
-        <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Paper</span>
-      </a>
       <a href="/assets/pdf/slides/[Marco Rosso] Crime Perception and Voting Behaviour. Evidence from Individual Data (slides).pdf" class="pill-link no-external">
         <i class="fa-solid fa-download fa-2xs"></i>
         <span class="toggle-label" title="last version: BoMoPaV Economics Meeting 2025">Slides</span>
@@ -100,15 +96,19 @@ nav_order: 1
         <i class="fa-solid fa-download fa-2xs"></i>
         <span class="toggle-label" title="last version: 66th Annual Conference - Italian Economic Association">Slides (short)</span>
       </a>
+      <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" class="pill-link no-external">
+        <i class="fa-regular fa-newspaper fa-2xs"></i>
+        <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Paper</span>
+      </a>
     </div>
     <div id="abstract-crime" class="toggle-box">
-     This paper examines how exposure to geolocated crime-related news affects individual voting behavior in Italian elections. Using a panel of non-relocating voters observed across multiple election rounds, we exploit within-individual variation in exposure to nearby crime news during the pre-election month, via individual and district-time fixed effects. Aggregate exposure yields weak, unstable effects Disaggregating by offender nationality reveals systematic patterns: immigrant-attributed crime news reduces support for parties with ambiguous immigration stances (e.g., Five Star Movement) and increases support for clear “law-and-order” parties, while Italian-attributed crime has negligible effects. Effects are stronger among high-skilled voters shifting from M5S and low-skilled voters abandoning Lega. In local elections, Italian crime punishes incumbents, while immigrant crime increases abstention. These asymmetric responses—absent in aggregate measures—indicate that crime salience operates through identity framing rather than general security concerns. The findings highlight how media attribution shapes electoral accountability.
+    This paper studies how exposure to geolocated crime-related news shapes individual voting behavior in Italian elections. Using a panel of non-relocating voters observed across multiple election rounds, we exploit within-individual variation in exposure to nearby crime news during the pre-election month, controlling for individual and district-by-election fixed effects. Aggregate exposure yields weak, unstable effects. Disaggregating by offender nationality reveals systematic patterns: immigrant-attributed crime news reduces support for parties with ambiguous immigration stances (e.g., Five Star Movement) and increases support for clear “law-and-order” parties, while Italian-attributed crime has negligible effects. Effects are stronger among high-skilled voters shifting from M5S and low-skilled voters abandoning Lega. In local elections, Italian crime punishes incumbents, while immigrant crime increases abstention. These asymmetric responses—absent in aggregate measures—indicate that crime salience operates primarily through identity-based framing rather than through generalized concerns about crime or security. The findings highlight how media attribution shapes electoral accountability.
     </div>
     <div id="keywords-crime" class="toggle-box">
-       crime; elections; immigration; news media; individual voting behavior.
+       crime; immigration; elections; news media; individual voting behavior.
     </div>
     <div id="jel-crime" class="toggle-box">
-       D72; K42; J15; D83; L82.
+       D72; D83; K42; L82.
     </div>
   </div>
 
@@ -132,7 +132,7 @@ nav_order: 1
     <div class="icon-entry indented">
       <i class="fa-solid fa-file-lines fa-fw" title="Working paper"></i>
       <span>
-        <em>The Tipping Point of Temptation: Selection, Integrity, and Public Service Quality</em>
+        <em>The Tipping Point of Temptation: Occupational Selection and Integrity in the Public Sector</em>
       </span>
     </div>
     <div class="pill-container">
@@ -158,13 +158,13 @@ nav_order: 1
       </a>
     </div>
     <div id="abstract-corruption" class="toggle-box">
-      This paper establishes a behavioral theory of occupational selection that resolves the long-standing empirical ambiguity regarding the quality of the public sector workforce in environments characterized by corruption and moral friction. The framework incorporates self-control costs and temptation into a standard model of occupational choice, consistent with the utility framework of Gul and Pesendorfer (2001). We show that intrinsically motivated (honest) agents face a disproportionately higher psychological cost when resisting temptation, leading to a dual effect on selection: low-motivation types are attracted, while high-motivation types are severely deterred. To resolve the ambiguity that arises from these opposing forces, the analysis establishes three general principles that govern institutional selection, supported by analytical derivations and numerical robustness checks. First, we identify a critical institutional tipping point, &lambda;<sup>*</sup>, which dictates the selection regime: below it, corruption leads to quality deterioration (<i>"more but worse"</i>); above it, it acts as a selective filter, improving quality (<i>"less but better"</i>). Second, we show that the selection outcome is fundamentally conditional on the societal correlation between ability and honesty. Third, the model offers a novel rationale for high public wages, demonstrating that large salaries mask or attenuate the selective power of corruption. Overall, our findings clarify the mechanisms governing workforce composition in morally frictional environments, contributing to the literature on occupational selection, public service motivation, and institutional design.
+      This paper develops a behavioral theory of occupational selection based on endogenous self-control costs, addressing the long-standing empirical ambiguity regarding the quality of the public sector workforce in environments characterized by corruption and moral frictions. The framework integrates self-control costs and temptation into a standard model of occupational choice, drawing on the utility framework of Gul and Pesendorfer (2001). We show that intrinsically motivated (honest) agents face disproportionately higher psychological costs when resisting temptation, generating a dual selection effect: low-motivation types are attracted to public employment, while highly motivated types are increasingly deterred. To discipline these opposing forces, the analysis establishes three general principles governing institutional selection, supported by analytical derivations and general selection arguments under weak regularity conditions. These principles are shown to extend beyond the benchmark environment and to hold under weak regularity conditions on the joint distribution of ability and honesty. First, we identify a critical institutional tipping point, &lambda;<sup>*</sup>, that determines the selection regime: below it, corruption deteriorates workforce quality <i>("more but worse")</i>; above it, corruption acts as a severe screening device, improving average quality <i>("less but better")</i>. Second, we show that selection outcomes are fundamentally conditional on the societal correlation between ability and honesty. Third, the model provides a novel rationale for high public-sector wages, demonstrating that sufficiently large salaries attenuate the selective power of corruption by shielding high-motivation agents from self-control costs. Overall, the paper clarifies the mechanisms shaping workforce composition in morally frictional environments and contributes to the literature on occupational selection, public service motivation, and institutional design.
     </div>
     <div id="keywords-corruption" class="toggle-box">
-      occupational selection; self-control; corruption; moral frictions; public sector quality.
+      occupational selection; self-control and temptation; corruption; public sector labor markets; institutional design.
     </div>
     <div id="jel-corruption" class="toggle-box">
-       D73; J45; D90; H83; K42.
+       D73; J45; D90; H83.
     </div>
   </div>
 
@@ -199,12 +199,11 @@ nav_order: 1
       </a>
     </div>
     <div id="abstract-ageturnout" class="toggle-box">
-     This paper studies how parenthood and parental age are associated with voter turnout using a comprehensive administrative panel covering the universe of registered voters in Bologna across four municipal and national elections between 2004 and 2013. By linking individual turnout records to demographic, fiscal, and residential information, we identify parents, track the age of their children, and follow the same individuals over time.
-We estimate linear probability models with individual and election-year fixed effects, exploiting within-individual variation to account for permanent differences in civic engagement. On average, parenthood is not associated with lower turnout once individual fixed effects are included. However, substantial heterogeneity emerges over the parental life cycle. Parents of young children vote significantly less than comparable non-parents at younger ages: those with children aged 0--2 and 3--5 exhibit turnout penalties of approximately three to five percentage points. These gaps decline steadily---by about 0.2 percentage points per additional year of parental age---and disappear by around age forty. Parents of older children display no turnout deficit.
-The participation gap is driven almost entirely by mothers, while fathers’ turnout remains unaffected. The results are robust to alternative specifications and to controls for residential mobility, neighborhood characteristics, and distance to polling stations. Taken together, the findings highlight the importance of life-cycle factors in shaping political participation and suggest that periods of intensive childcare are associated with temporarily lower electoral engagement. More broadly, the analysis points to a channel through which demographic trends, such as delayed fertility, may have implications for democratic representation.
+     This paper studies how parenthood and parental age are associated with voter turnout using a comprehensive administrative panel covering the universe of registered voters in Bologna across four municipal and national elections between 2004 and 2013. By linking individual turnout records to demographic, fiscal, and residential information, we identify parents, track the age of their children, and follow the same individuals over time. We estimate linear probability models with individual and election-year fixed effects, exploiting within-individual variation to account for permanent differences in civic engagement. On average, parenthood is not associated with lower turnout once individual fixed effects are included. However, substantial heterogeneity emerges over the parental life cycle. Parents of young children vote significantly less than comparable non-parents at younger ages: those with children aged 0–2 and 3–5 exhibit turnout penalties of approximately three to five percentage points. These gaps decline steadily—by about 0.2 percentage points per additional year of parental age—and disappear by around age forty. Parents of older children display no turnout deficit. The participation gap is driven
+almost entirely by mothers, while fathers’ turnout remains unaffected. The results are robust to alternative specifications and to controls for residential mobility, neighborhood characteristics, and distance to polling stations. Taken together, the findings highlight the importance of life-cycle factors in shaping political participation and suggest that periods of intensive childcare are associated with temporarily lower electoral engagement. More broadly, the analysis points to a channel through which demographic trends, such as delayed fertility, may have implications for democratic representation.
     </div>
     <div id="keywords-ageturnout" class="toggle-box">
-       age; electoral participation; fixed effects; parenthood; voter turnout.
+       parenthood; age; voter turnout; opportunity cost; administrative data.
     </div>
     <div id="jel-ageturnout" class="toggle-box">
        D72; J13; J22.
@@ -285,19 +284,19 @@ The participation gap is driven almost entirely by mothers, while fathers’ tur
     </div>
       <!-- Boxes style="margin-top: -0.005rem;"-->
       <div id="abstract-phd" class="toggle-box">
-          This dissertation investigates how institutional incentives, behavioral frictions, and demographic factors shape individual decision-making in the domains of public employment and political participation. It comprises three chapters that combine theoretical modeling with empirical analysis to shed light on the interplay between corruption, crime salience, and family formation in influencing economic and political outcomes.<br>
+          This dissertation studies how non-monetary frictions—such as temptation, information salience, and time constraints—shape individual behavior in contexts where formal institutions are otherwise well-functioning. Combining theoretical analysis with micro-level empirical evidence, the three chapters examine how these frictions aﬀect selection into public employment and participation in democratic processes.<br>
 <br>
-The first chapter develops a theoretical framework to study how corruption opportunities affect self-selection into the public sector. The model highlights a dual mechanism: corruption rents attract individuals with low intrinsic motivation, who are more prone to unethical behavior, while simultaneously deterring highly motivated candidates who anticipate self-control problems when faced with temptation. This selection pattern has important implications for the quality of the public workforce and the efficiency of state institutions.<br>
+The <i>first chapter</i> develops a behavioral theory of occupational selection in the public sector. Introducing self-control costs into a standard model of career choice, the analysis shows that corruption generates a dual selection eﬀect: while illicit rents attract low-motivation individuals, the psychological costs of resisting temptation deter highly motivated agents. The model identifies an institutional tipping point at which corruption switches from expanding public employment while degrading workforce quality to acting as a severe screening device that improves average quality but reduces participation. These results clarify why similar anti-corruption environments can produce sharply diﬀerent selection outcomes across countries.<br>
 <br>
-The second chapter examines how exposure to crime-related news shapes voting behavior. Leveraging a unique dataset that links geolocated survey responses to media coverage around five Italian elections—two national and three municipal—the study shows that crime salience has heterogeneous electoral consequences. At the national level, only crimes attributed to immigrants significantly shift voter preferences, reducing support for the populist Five Star Movement and increasing support for right-wing parties emphasizing law and order. At the municipal level, by contrast, crimes committed by Italians lead to punishment of incumbents, whereas immigrant-related crimes induce higher abstention, especially among left-leaning voters. These findings underscore the role of information shocks in driving electoral realignments and in mediating the political impact of immigration.<br>
+The <i>second chapter</i> examines how crime-related information aﬀects individual voting behavior. Using geolocated data that link retrospective voting choices to local crime news coverage in Bologna across multiple national and municipal elections, the analysis exploits within-individual variation in exposure to nearby crime reports. The results show that aggregate crime salience has weak and unstable eﬀects, while crime attributed to immigrants generates systematic electoral responses: voters shift away from parties with ambiguous positions on immigration toward parties emphasizing law and order. In local elections, immigrant-related crime increases abstention, whereas crimes committed by natives lead to punishment of incumbents. These findings highlight the role of identity-based framing in mediating the political impact of crime.<br>
 <br>
-The third chapter explores how childcare responsibilities interact with parental age to shape civic participation. Using rich administrative data from Bologna that match voter turnout records to household demographics and geospatial measures of proximity to schools, the analysis documents strong age-dependent effects of parenthood on political engagement. Parents of infants and preschoolers—particularly mothers—are significantly less likely to vote compared to childless adults, with turnout penalties concentrated in early adulthood and dissipating by the late thirties. These results highlight how time-intensive childcare duties and the timing of family formation condition life-cycle patterns of civic participation, with broader implications for political representation in aging societies.<br>
+The <i>third chapter</i>i> studies how parenthood and parental age shape electoral participation. Using administrative data covering the universe of registered voters in Bologna, the analysis follows individuals over time as their family circumstances evolve. Once permanent individual heterogeneity is accounted for, parenthood is not associated with lower turnout on average. However, substantial life-cycle heterogeneity emerges: parents of infants and preschoolers—especially mothers—exhibit sizable turnout penalties at younger ages, which decline steadily with parental age and disappear by around age forty. These results indicate that periods of intensive childcare impose temporary opportunity costs on political participation.<br>
 <br>
-Taken together, the three chapters show how corruption incentives, crime perceptions, and family dynamics intersect with institutional and demographic contexts to shape individual behavior. The dissertation contributes to our understanding of the microfoundations of governance, electoral outcomes, and democratic participation, offering insights relevant for the design of public policy.
+Taken together, the three chapters show how behavioral frictions and life-cycle constraints can generate distortions in selection and participation even in settings with low formal barriers to entry and participation. By emphasizing micro-level mechanisms rather than institutional failures alone, the dissertation contributes to the understanding of public-sector composition, electoral behavior, and democratic representation.
       </div>
       <div id="chapters-phd" class="toggle-box">
           <span>
-              1. Corruption, temptation, and self-selection in the public sector<br>
+              1. The Tipping Point of Temptation: Occupational Selection and Integrity in the Public Sector<br>
               2. Crime Perception and Voting Behavior: Evidence from Individual Data<br>
               3. Parenthood, Age, and the Opportunity Cost of Voting: Evidence from Administrative Voter Records
           </span>
