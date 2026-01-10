@@ -51,6 +51,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <i>"I may not have gone where I intended to go, but I think I have ended up where I needed to be."</i><sup><a href="#fn1" id="foot1">&nbsp;1</a></sup><br>
+Douglas Adams — <i>The Long Dark Tea-Time of the Soul</i><br>
 
 Welcome to my personal website—glad you made it here of your own free will (or maybe you clicked by mistake; it happens to the best of us).
 
