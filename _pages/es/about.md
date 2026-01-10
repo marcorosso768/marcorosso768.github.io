@@ -38,7 +38,7 @@ subtitle: >
 
 profile:
   align: center-right
-  image: profile_pictures/prof_pic_MR.jpg
+  image: profile_pictures/prof_pic_MR.webp
   image_circular: true # crops the image to make it circular
 #  more_info: >
 #       <p>555 your office number</p>
