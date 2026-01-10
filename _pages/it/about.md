@@ -50,27 +50,26 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Benvenutə nel mio sito personale — felice che tu sia arrivatə qui di tua spontanea volontà (o forse hai cliccato per sbaglio; capita anche ai migliori).
+Benvenutə nel mio sito personale — sono felice che tu sia arrivatə qui di tua spontanea volontà (o forse hai cliccato per sbaglio; capita anche ai migliorə).
 
-Sono un <b style="color: $white-color;">dottorando al quinto anno in Economia</b> presso l’Università di Bologna.
+Sono un <b style="color: $white-color;">dottorando in Economia</b> presso l’Università di Bologna e difenderò la mia tesi, <i>"Essays in Political Economy and Crime Economics"</i>, il 28 gennaio 2026.
 
 La mia <b style="color: $white-color;">ricerca</b> si concentra su 
 <b style="color: $white-color;">Economia Politica</b>, 
-<b style="color: $white-color;">Economia della Criminalità</b>, 
-<b style="color: $white-color;">Economia Sperimentale</b> e 
-<b style="color: $white-color;">Comportamentale</b>, con un interesse particolare per il modo in cui le istituzioni e il comportamento individuale interagiscono nei contesti reali.
+<b style="color: $white-color;">Economia del Crimine</b>, 
+<b style="color: $white-color;">Economia Sperimentale</b> ed 
+<b style="color: $white-color;">Economia Comportamentale</b>, con un interesse specifico per l’interazione tra istituzioni e comportamento individuale in contesti reali.
 
-Al momento sto navigando l’entusiasmante limbo dell’accademia: lavorando sulle revisioni della mia tesi di dottorato — difenderò il mio lavoro, <i>"Essays in Political Economy and Crime Economics"</i>, il 28 gennaio 2026 — ed esplorando nuove idee di ricerca e opportunità lavorative (<a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">qui</a> puoi trovare il mio <b style="color: $white-color;">Job Market Paper</b>). 
+Attualmente sono sul Job Market alla ricerca di posizioni accademiche e di ricerca (puoi trovare il mio <b style="color: $white-color;">Job Market Paper</b> <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">qui</a>). 
 
-Nel frattempo, sto lavorando al lancio della <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="foot1">1</a></sup> a supporto della genitorialità consapevole, in continuità con le interviste online che ho condotto per il <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">Progetto MinUTo</a>. Allo stesso tempo, svolgo temporaneamente il ruolo di <b style="color: $white-color;">Assistente alla Ricerca</b> presso l’<b style="color: $white-color;">Università di Napoli Federico II</b> nel progetto <i>"Organized crime, political connections and firms' performance"</i>, conducendo un’analisi delle risposte a domande aperte raccolte dai partecipanti con l’obiettivo di identificare e categorizzare le motivazioni emerse, distinguendo tra profili di rispondenti mediante tecniche di text analysis.
+Nel frattempo, sto lavorando al lancio della <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="foot1">1</a></sup> a supporto della genitorialità consapevole, in continuità con le interviste online che ho condotto per il <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">Progetto MinUTo</a>. Parallelamente, svolgo temporaneamente il ruolo di <b style="color: $white-color;">Assistente di Ricerca</b> presso l’<b style="color: $white-color;">Università di Napoli Federico II</b> nell’ambito del progetto <i>"Organized crime, political connections and firms' performance"</i>, conducendo un’analisi delle risposte a domande aperte raccolte dai partecipanti con l’obiettivo di identificare e categorizzare le motivazioni emergenti e distinguere tra profili di rispondenti mediante tecniche di text analysis.
 
-Sono inoltre <b style="color: $white-color;">Tutor Didattico</b> per <b style="color: $white-color;">Economia Industriale</b>, <b style="color: $white-color;">Econometria</b>, <b style="color: $white-color;">Economia Politica</b> e <b style="color: $white-color;">Python per Economisti</b> presso l’<b style="color: $white-color;">Università di Bologna</b>.
+Inoltre, svolgo attività di <b style="color: $white-color;">tutor didattico</b> per i corsi di <b style="color: $white-color;">Economia Industriale</b>, <b style="color: $white-color;">Econometria</b>, <b style="color: $white-color;">Economia Politica</b> e <b style="color: $white-color;">Python per Economisti</b> presso l’<b style="color: $white-color;">Università di Bologna</b>.
 
-E infine, organizzo i <b style="color: $white-color;">DSE Afterwork Drinks</b>, un incontro informale mensile in cui parliamo di ricerca, vita accademica e di tutto ciò che sta nel mezzo — dalle carriere e le conferenze ai film, alla musica e alle preoccupazioni quotidiane — con l’obiettivo di costruire una comunità dipartimentale rilassata e solidale.
+Infine, organizzo i <b style="color: $white-color;">DSE Afterwork Drinks</b>, un incontro informale mensile in cui si discute di ricerca, vita accademica e di tutto ciò che sta nel mezzo — dalle carriere e le conferenze ai film, alla musica e alle preoccupazioni quotidiane — con l’obiettivo di favorire una comunità di dipartimento rilassata e collaborativa.
 
-La mia citazione preferita?  
-<i>"Non ha senso usare la parola "impossibile" per descrivere qualcosa che è chiaramente successo."</i><sup><a href="#fn2" id="foot2">&nbsp;2</a></sup><br>
-Divertente quanto sembri ovvio una volta che ci fai caso, no?
+La mia citazione preferita?<br>
+<i>"Potrei non essere arrivato dove avevo intenzione di andare, ma credo di essere finito dove avevo bisogno di essere."</i><sup><a href="#fn2" id="foot2">&nbsp;2</a></sup><br>
 
 <div style="margin-top:1rem;"></div>
 <hr style="border:0; border-top:0.5px solid !important;">
@@ -78,7 +77,7 @@ Divertente quanto sembri ovvio una volta che ci fai caso, no?
   <sup><a href="#foot1">1</a></sup> L’App MinUTo è attualmente disponibile in tre lingue: italiano, inglese e francese.
 </div>
 <div id="fn2" style="font-size:small;">
-  <sup><a href="#foot2">2</a></sup> Douglas Adams — <i>Dirk Gently, Agenzia investigativa olistica</i>
+  <sup><a href="#foot2">2</a></sup> Douglas Adams — <i>La lunga oscura pausa caffè dell’anima</i>
 </div>
 <div style="margin-top:2.5rem;"></div>
 <hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">
