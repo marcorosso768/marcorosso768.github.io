@@ -71,6 +71,22 @@ nav_order: 2
 </div>
 
 <div id="content-2" class="toggle-section expanded">
+<!-- 2026 -->
+<p style="margin-left: 0.1em;"><b>2025</b></p>
+
+ <div class="seminar-entry indented">
+   <div class="seminar-entry__row seminar-entry__row--title">
+      <div class="seminar-entry__content">
+          PRIN Workshop on Political Economy —
+          <span class="highlight"><i>Speaker</i></span>
+      </div>
+   </div>
+    <div class="seminar-entry__row seminar-entry__row--location">
+      <div class="seminar-entry__location-text">
+        University of Bologna — Bologna, Italy
+      </div>
+    </div>
+  </div>
 
 <!-- 2025 -->
 <p style="margin-left: 0.1em;"><b>2025</b></p>
