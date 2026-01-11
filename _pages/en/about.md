@@ -55,7 +55,7 @@ social: true # includes social icons at the bottom of the page
     <div style="flex-grow:1;"></div>
     <span style="font-size:12px;">Douglas Adams — The Long Dark Tea-Time of the Soul</span>
 </div>
-<div style="height: 2.5rem;"></div>
+<div style="height: 2rem;"></div>
 
 Welcome to my personal website—glad you made it here of your own free will (or maybe you clicked by mistake; it happens to the best of us).
 
