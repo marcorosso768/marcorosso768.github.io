@@ -905,3 +905,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
   text-decoration: underline;
   font-style: italic;
 }
+
+[id^="fn"] {
+  scroll-margin-top: 3rem; /* adjust 3rem to match your header height */
+}
