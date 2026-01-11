@@ -50,7 +50,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<span style="font-family: 'Brush Script MT', cursive;">"Puede que no haya llegado a donde tenía pensado ir, pero creo que terminé donde necesitaba estar."</span><br>
+<span style="font-family: 'Tangerine', cursive;">"Puede que no haya llegado a donde tenía pensado ir, pero creo que terminé donde necesitaba estar."</span><br>
 <div style="display: flex; margin-top: -0.5rem;">
     <div style="flex-grow:1;"></div>
     <span style="font-size:12px;">Douglas Adams — The Long Dark Tea-Time of the Soul</span>
@@ -67,7 +67,7 @@ Mi <b style="color: $white-color;">investigación</b> se centra en
 
 Actualmente me encuentro en el Job Market en busca de posiciones académicas y de investigación (podés encontrar mi <b style="color: $white-color;">Job Market Paper</b> <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">acá</a>). 
 
-Mientras tanto, estoy trabajando en el lanzamiento de la <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="foot1">1</a></sup> en apoyo a la parentalidad consciente, en continuidad con las entrevistas online que realicé para el <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">Proyecto MinUTo</a>. Al mismo tiempo, desempeño temporalmente el rol de <b style="color: $white-color;">Asistente de Investigación</b> en la <b style="color: $white-color;">Universidad de Nápoles Federico II</b> en el proyecto <i>"Organized crime, political connections and firms' performance"</i>, realizando un análisis de respuestas a preguntas abiertas recolectadas entre los participantes con el objetivo de identificar y categorizar motivaciones emergentes y distinguir entre perfiles de respondentes mediante técnicas de análisis de texto.
+Mientras tanto, estoy trabajando en el lanzamiento de la <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="ref1">1</a></sup> en apoyo a la parentalidad consciente, en continuidad con las entrevistas online que realicé para el <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">Proyecto MinUTo</a>. Al mismo tiempo, desempeño temporalmente el rol de <b style="color: $white-color;">Asistente de Investigación</b> en la <b style="color: $white-color;">Universidad de Nápoles Federico II</b> en el proyecto <i>"Organized crime, political connections and firms' performance"</i>, realizando un análisis de respuestas a preguntas abiertas recolectadas entre los participantes con el objetivo de identificar y categorizar motivaciones emergentes y distinguir entre perfiles de respondentes mediante técnicas de análisis de texto.
 
 Además, me desempeño como <b style="color: $white-color;">ayudante de cátedra</b> en los cursos de <b style="color: $white-color;">Economía Industrial</b>, <b style="color: $white-color;">Econometría</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Python para Economistas</b> en la <b style="color: $white-color;">Universidad de Bolonia</b>.
 
@@ -76,7 +76,7 @@ Por último, organizo los <b style="color: $white-color;">DSE Afterwork Drinks</
 <div style="margin-top:1rem;"></div>
 <hr style="border:0; border-top:0.5px solid !important;">
 <div id="fn1" style="font-size:small;">
-  <sup><a href="#foot1">1</a></sup> Lamentablemente, la App MinUTo está actualmente disponible en tres idiomas: italiano, inglés y francés.
+  <sup><a href="#ref1">1</a></sup> Lamentablemente, la App MinUTo está actualmente disponible en tres idiomas: italiano, inglés y francés.
 </div>
 <div style="margin-top:2.5rem;"></div>
 <hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">
