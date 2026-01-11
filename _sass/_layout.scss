@@ -913,3 +913,9 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
 [id^="ref"] {
   scroll-margin-top: 3.5rem; /* adjust 3.5rem to match your header height */
 }
+
+@media (max-width: 575.98px) and (orientation: portrait) {
+  .profile {
+    margin-top: 1rem;
+  }
+}
