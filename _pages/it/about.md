@@ -59,7 +59,7 @@ social: true # includes social icons at the bottom of the page
 
 Benvenutə nel mio sito personale — sono felice che tu sia arrivatə qui di tua spontanea volontà (o forse hai cliccato per sbaglio; capita anche ai migliorə).
 
-Attualmente sono sul Job Market alla ricerca di posizioni accademiche e di ricercaa (puoi trovare il mio <b style="color: $white-color;">Job Market Paper</b> <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">qui</a>).
+Attualmente sono sul <i>Job Market</i> alla ricerca di posizioni accademiche e di ricerca (puoi trovare il mio <b style="color: $white-color;">Job Market Paper</b> <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">qui</a>).
 
 La mia <b style="color: $white-color;">ricerca</b> si concentra su 
 <b style="color: $white-color;">Economia Politica</b>, 
