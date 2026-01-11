@@ -50,8 +50,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<span style="font-family: 'Corinthia', cursive;">"Potrei non essere arrivato dove avevo intenzione di andare, ma credo di essere finito dove avevo bisogno di essere."</span><br>
-<div style="display: flex; margin-top: -0.5rem;">
+<span style="font-family: 'Corinthia', cursive; font-size:24px;">"Potrei non essere arrivato dove avevo intenzione di andare, ma credo di essere finito dove avevo bisogno di essere."</span><br>
+<div style="display: flex;">
     <div style="flex-grow:1;"></div>
     <span style="font-family: 'Courier New', monospace; font-size:12px;">Douglas Adams — La lunga oscura pausa caffè dell’anima</span>
 </div>
