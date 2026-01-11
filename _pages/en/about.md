@@ -4,10 +4,10 @@ layout: about
 title: about me
 permalink: /
 subtitle: >
-    <div style="margin-top: -20px;">
+    <div style="margin-top: -0.75rem;">
         <p style="font-weight: 500;">Ph.D. Candidate | Teaching&nbsp;Assistant | Research&nbsp;Assistant</p>
     </div>
-    <div style="margin: 0; padding: 0; position: relative; margin-top: 14pt;">
+    <div style="margin: 0; padding: 0; position: relative; margin-top: 1.5rem;">
         <!-- First row: University icon and department name -->
         <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; margin-top: -1.5pt; line-height: 14pt;">
             <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color); font-size: 10pt;"></i>
