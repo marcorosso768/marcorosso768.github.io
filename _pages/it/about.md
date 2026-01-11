@@ -50,22 +50,22 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<span style="font-family: 'Tangerine', cursive;">"Potrei non essere arrivato dove avevo intenzione di andare, ma credo di essere finito dove avevo bisogno di essere."</span><br>
+<span style="font-family: 'Corinthia', cursive;">"Potrei non essere arrivato dove avevo intenzione di andare, ma credo di essere finito dove avevo bisogno di essere."</span><br>
 <div style="display: flex; margin-top: -0.5rem;">
     <div style="flex-grow:1;"></div>
-    <span style="font-size:12px;">Douglas Adams — La lunga oscura pausa caffè dell’anima</span>
+    <span style="font-family: 'Courier New', monospace; font-size:12px;">Douglas Adams — La lunga oscura pausa caffè dell’anima</span>
 </div>
 <div style="height: 2rem;"></div>
 
 Benvenutə nel mio sito personale — sono felice che tu sia arrivatə qui di tua spontanea volontà (o forse hai cliccato per sbaglio; capita anche ai migliorə).
+
+Attualmente sono sul Job Market alla ricerca di posizioni accademiche e di ricercaa (puoi trovare il mio <b style="color: $white-color;">Job Market Paper</b> <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">qui</a>).
 
 La mia <b style="color: $white-color;">ricerca</b> si concentra su 
 <b style="color: $white-color;">Economia Politica</b>, 
 <b style="color: $white-color;">Economia del Crimine</b>, 
 <b style="color: $white-color;">Economia Sperimentale</b> ed 
 <b style="color: $white-color;">Economia Comportamentale</b>, con un interesse specifico per l’interazione tra istituzioni e comportamento individuale in contesti reali.
-
-Attualmente sono sul Job Market alla ricerca di posizioni accademiche e di ricercaa (puoi trovare il mio <b style="color: $white-color;">Job Market Paper</b> <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">qui</a>). 
 
 Nel frattempo, sto lavorando al lancio della <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="ref1">1</a></sup> a supporto della genitorialità consapevole, in continuità con le interviste online che ho condotto per il <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">Progetto MinUTo</a>. Parallelamente, svolgo temporaneamente il ruolo di <b style="color: $white-color;">Assistente di Ricerca</b> presso l’<b style="color: $white-color;">Università di Napoli Federico II</b> nell’ambito del progetto <i>"Organized crime, political connections and firms' performance"</i>, conducendo un’analisi delle risposte a domande aperte raccolte dai partecipanti con l’obiettivo di identificare e categorizzare le motivazioni emergenti e distinguere tra profili di rispondenti mediante tecniche di text analysis.
 
