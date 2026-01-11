@@ -50,7 +50,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<i>"I may not have gone where I intended to go, but I think I have ended up where I needed to be."</i><br>
+<span style="font-family: 'Tangerine', cursive;">"I may not have gone where I intended to go, but I think I have ended up where I needed to be."</span><br>
 <div style="display: flex; margin-top: -0.5rem;">
     <div style="flex-grow:1;"></div>
     <span style="font-size:12px;">Douglas Adams — The Long Dark Tea-Time of the Soul</span>
