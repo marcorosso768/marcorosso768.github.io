@@ -50,8 +50,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<i>"I may not have gone where I intended to go, but I think I have ended up where I needed to be."</i><sup><a href="#fn1" id="foot1">&nbsp;1</a></sup><br>
-Douglas Adams — The Long Dark Tea-Time of the Soul<br>
+<div style="height: 2rem; "></div>
+<i>"I may not have gone where I intended to go, but I think I have ended up where I needed to be."</i><br>
+<span style="flex-grow:1"></ span>Douglas Adams — The Long Dark Tea-Time of the Soul
+<div style="height: 2rem; "></div>
 
 Welcome to my personal website—glad you made it here of your own free will (or maybe you clicked by mistake; it happens to the best of us).
 
@@ -65,7 +67,7 @@ My <b style="color: $white-color;">research</b> focuses on
 
 I am currently on the Job Market seeking academic and research positions (you can find my <b style="color: $white-color;">Job Market Paper</b> <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">here</a>). 
 
-Meanwhile, I am working on the rollout of the <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn2" id="foot2">2</a></sup> in support of mindful parenting, in continuity with the online interviews I conducted for the <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a>. At the same time, I am temporarily serving as a <b style="color: $white-color;">Research Assistant</b> at the <b style="color: $white-color;">University of Naples Federico II</b> on the project <i>"Organized crime, political connections and firms' performance"</i>, conducting an analysis of open-ended responses collected from participants with the goal of identifying and categorizing emerging motivations and distinguishing between respondent profiles using text analysis techniques.
+Meanwhile, I am working on the rollout of the <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="foot1">1</a></sup> in support of mindful parenting, in continuity with the online interviews I conducted for the <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a>. At the same time, I am temporarily serving as a <b style="color: $white-color;">Research Assistant</b> at the <b style="color: $white-color;">University of Naples Federico II</b> on the project <i>"Organized crime, political connections and firms' performance"</i>, conducting an analysis of open-ended responses collected from participants with the goal of identifying and categorizing emerging motivations and distinguishing between respondent profiles using text analysis techniques.
 
 Moreover, I serve as a <b style="color: $white-color;">Teaching Assistant</b> for <b style="color: $white-color;">Industrial Economics</b>, <b style="color: $white-color;">Econometrics</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Python for Economists</b> at the <b style="color: $white-color;">University of Bologna</b>.
 
@@ -74,10 +76,7 @@ Finally, I organize the <b style="color: $white-color;">DSE Afterwork Drinks</b>
 <div style="margin-top:1rem;"></div>
 <hr style="border:0; border-top:0.5px solid !important;">
 <div id="fn1" style="font-size:small;">
-  <sup><a href="#foot1">1</a></sup> Douglas Adams — <i>The Long Dark Tea-Time of the Soul</i>
-</div>
-<div id="fn2" style="font-size:small;">
-  <sup><a href="#foot2">2</a></sup> The MinUTo App is currently available in three languages: Italian, English, and French.
+  <sup><a href="#foot1">1</a></sup> The MinUTo App is currently available in three languages: Italian, English, and French.
 </div>
 <div style="margin-top:2.5rem;"></div>
 <hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">
