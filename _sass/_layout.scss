@@ -919,3 +919,9 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
     margin-top: 1.25rem;
   }
 }
+
+@media (max-width: 575.98px) and (orientation: portrait) {
+  html[lang="it"] .profile {
+    margin-top: 2.05rem;  // or whatever you want
+  }
+}
