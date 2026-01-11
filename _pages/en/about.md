@@ -59,8 +59,6 @@ social: true # includes social icons at the bottom of the page
 
 Welcome to my personal website—glad you made it here of your own free will (or maybe you clicked by mistake; it happens to the best of us).
 
-I am a <b style="color: $white-color;">PhD candidate in Economics</b> at the University of Bologna, and I will defend my thesis, <i>"Essays in Political Economy and Crime Economics"</i>, on January 28, 2026.
-
 My <b style="color: $white-color;">research</b> focuses on 
 <b style="color: $white-color;">Political Economy</b>, 
 <b style="color: $white-color;">Crime Economics</b>, 
