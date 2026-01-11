@@ -50,9 +50,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<div style="height: 0.5rem;"></div>
 <i>"Potrei non essere arrivato dove avevo intenzione di andare, ma credo di essere finito dove avevo bisogno di essere."</i><br>
-<div style="display: flex; margin-top: -0.75rem;">
+<div style="display: flex; margin-top: -0.5rem;">
     <div style="flex-grow:1;"></div>
     <span style="font-size:12px;">Douglas Adams — La lunga oscura pausa caffè dell’anima</span>
 </div>
