@@ -51,11 +51,11 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <i>"I may not have gone where I intended to go, but I think I have ended up where I needed to be."</i><br>
-<div style="display: flex; margin-bottom: -1rem;">
+<div style="display: flex; margin-top: -1.5rem;">
     <div style="flex-grow:1;"></div>
     <span style="font-size:12px;">Douglas Adams — The Long Dark Tea-Time of the Soul</span>
 </div>
-<div style="height: 1rem;"></div>
+<div style="height: 1.5rem;"></div>
 
 Welcome to my personal website—glad you made it here of your own free will (or maybe you clicked by mistake; it happens to the best of us).
 
