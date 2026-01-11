@@ -50,7 +50,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<i>"Puede que no haya llegado a donde tenía pensado ir, pero creo que terminé donde necesitaba estar."</i><br>
+<span style="font-family: 'Brush Script MT', cursive;">"Puede que no haya llegado a donde tenía pensado ir, pero creo que terminé donde necesitaba estar."</span><br>
 <div style="display: flex; margin-top: -0.5rem;">
     <div style="flex-grow:1;"></div>
     <span style="font-size:12px;">Douglas Adams — The Long Dark Tea-Time of the Soul</span>
@@ -58,8 +58,6 @@ social: true # includes social icons at the bottom of the page
 <div style="height: 2rem;"></div>
 
 Bienvenid@ a mi sitio personal — me alegra que hayas llegado hasta acá por tu propia voluntad (o quizá hiciste clic por error; le pasa hasta a l@s mejores).
-
-Soy <b style="color: $white-color;">doctorando en Economía</b> en la Universidad de Bolonia y defenderé mi tesis, <i>"Essays in Political Economy and Crime Economics"</i>, el 28 de enero de 2026.
 
 Mi <b style="color: $white-color;">investigación</b> se centra en 
 <b style="color: $white-color;">Economía Política</b>, 
