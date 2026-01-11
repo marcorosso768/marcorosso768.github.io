@@ -50,6 +50,14 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
+<div style="height: 0.5rem;"></div>
+<i>"Puede que no haya llegado a donde tenía pensado ir, pero creo que terminé donde necesitaba estar."</i><br>
+<div style="display: flex; margin-top: -0.75rem;">
+    <div style="flex-grow:1;"></div>
+    <span style="font-size:12px;">Douglas Adams — The Long Dark Tea-Time of the Soul</span>
+</div>
+<div style="height: 2rem;"></div>
+
 Bienvenid@ a mi sitio personal — me alegra que hayas llegado hasta acá por tu propia voluntad (o quizá hiciste clic por error; le pasa hasta a l@s mejores).
 
 Soy <b style="color: $white-color;">doctorando en Economía</b> en la Universidad de Bolonia y defenderé mi tesis, <i>"Essays in Political Economy and Crime Economics"</i>, el 28 de enero de 2026.
@@ -68,16 +76,10 @@ Además, me desempeño como <b style="color: $white-color;">ayudante de cátedra
 
 Por último, organizo los <b style="color: $white-color;">DSE Afterwork Drinks</b>, un encuentro informal mensual en el que hablamos de investigación, vida académica y todo lo que queda en el medio — desde carreras y conferencias hasta cine, música y preocupaciones cotidianas — con el objetivo de fomentar una comunidad departamental relajada y de apoyo.
 
-¿Mi cita favorita?<br>
-<i>"Puede que no haya llegado a donde tenía pensado ir, pero creo que terminé donde necesitaba estar."</i><sup><a href="#fn2" id="foot2">&nbsp;2</a></sup><br>
-
 <div style="margin-top:1rem;"></div>
 <hr style="border:0; border-top:0.5px solid !important;">
 <div id="fn1" style="font-size:small;">
   <sup><a href="#foot1">1</a></sup> Lamentablemente, la App MinUTo está actualmente disponible en tres idiomas: italiano, inglés y francés.
-</div>
-<div id="fn2" style="font-size:small;">
-  <sup><a href="#foot2">2</a></sup> Douglas Adams — <i>The Long Dark Tea-Time of the Soul</i>
 </div>
 <div style="margin-top:2.5rem;"></div>
 <hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">
