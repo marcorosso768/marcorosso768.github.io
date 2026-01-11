@@ -50,10 +50,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<div style="height: 2rem; "></div>
+<div style="height: 3rem; "></div>
 <i>"I may not have gone where I intended to go, but I think I have ended up where I needed to be."</i><br>
-<span style="flex-grow:1"></ span>Douglas Adams — The Long Dark Tea-Time of the Soul
-<div style="height: 2rem; "></div>
+<span style="flex-grow:1"></span>Douglas Adams — The Long Dark Tea-Time of the Soul
+<div style="height: 4rem; "></div>
 
 Welcome to my personal website—glad you made it here of your own free will (or maybe you clicked by mistake; it happens to the best of us).
 
