@@ -88,13 +88,6 @@ nav_order: 1
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">JEL</span>
       </div>
-      <a href="/assets/pdf/slides/[Marco Rosso] Crime Perception and Voting Behaviour. Evidence from Individual Data (slides).pdf" class="pill-link no-external">
-        <i class="fa-solid fa-download fa-2xs"></i>
-        <span class="toggle-label" title="ultima versione: BoMoPaV Economics Meeting 2025">Slide</span>
-      </a>
-      <a href="/assets/pdf/slides/[Marco Rosso] Crime Perception and Voting Behaviour. Evidence from Individual Data (slides short).pdf" class="pill-link no-external">
-        <i class="fa-solid fa-download fa-2xs"></i>
-        <span class="toggle-label" title="ultima versione: 66.ma Riunione Scientifica Annuale – Società Italiana di Economia ">Slide (sintesi)</span>
       <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" class="pill-link no-external">
         <i class="fa-regular fa-newspaper fa-2xs"></i>
         <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Paper</span>
