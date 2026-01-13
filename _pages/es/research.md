@@ -94,14 +94,6 @@ nav_order: 1
         <i class="fa-regular fa-newspaper fa-2xs"></i>
         <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Paper</span>
       </a>
-      <a href="/assets/pdf/slides/[Marco Rosso] Crime Perception and Voting Behaviour. Evidence from Individual Data (slides).pdf" class="pill-link no-external">
-        <i class="fa-solid fa-download fa-2xs"></i>
-        <span class="toggle-label" title="última versión: BoMoPaV Economics Meeting 2025">Slide</span>
-      </a>
-      <a href="/assets/pdf/slides/[Marco Rosso] Crime Perception and Voting Behaviour. Evidence from Individual Data (slides short).pdf" class="pill-link no-external">
-        <i class="fa-solid fa-download fa-2xs"></i>
-        <span class="toggle-label" title="última versión: 66.ma Riunione Scientifica Annuale – Società Italiana di Economia ">Slide (síntesis)</span>
-      </a>
     </div>
     <div id="abstract-crime" class="toggle-box">
      Este trabajo analiza cómo la exposición a noticias geolocalizadas vinculadas al crimen moldea el comportamiento de voto individual en las elecciones italianas. Utilizando un panel de votantes no relocados observados a lo largo de múltiples rondas electorales, explotamos la variación intra-individual en la exposición a noticias criminales ocurridas cerca del domicilio durante el mes preelectoral, controlando por efectos fijos individuales y de distrito-por-elección. La exposición agregada muestra efectos débiles e inestables. En cambio, la desagregación por nacionalidad del autor del delito revela patrones sistemáticos: las noticias sobre delitos atribuidos a inmigrantes reducen el apoyo a partidos con posturas ambiguas sobre inmigración (p. ej., el Movimiento Cinco Estrellas) y aumentan el respaldo a partidos con una clara orientación de "law-and-order", mientras que los delitos atribuidos a italianos presentan efectos despreciables. Los efectos son más intensos entre votantes de alta calificación que se desplazan desde el M5S y entre votantes de baja calificación que abandonan la Lega. En elecciones locales, los delitos cometidos por italianos castigan a los incumbents, mientras que los delitos atribuidos a inmigrantes incrementan la abstención. Estas respuestas asimétricas — ausentes en las medidas agregadas — indican que la saliencia del crimen opera principalmente a través de un framing identitario y no mediante preocupaciones generalizadas sobre crimen o seguridad. Los resultados destacan cómo la atribución mediática moldea la rendición de cuentas electoral.
