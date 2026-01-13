@@ -3,7 +3,7 @@ page_id: research
 layout: page
 permalink: /research/
 title: research
-description: <i>My research agenda develops clean, testable theoretical frameworks—centered on incentives, information frictions, and selection—to clarify mechanisms before tracing their empirical implications. Empirically, I work with reproducible, end-to-end pipelines that often combine web scraping and NLP with geocoding and panel construction. My workflow typically relies on Python (e.g., pandas, BeautifulSoup, spaCy, GeoPandas), Stata (e.g., reghdfe/hdfe, frames, rdrobust, event-study routines, esttab), and spatial tools such as QGIS (and, when appropriate, R). The items collected below provide abstracts and links to papers and slides, together with keywords and JEL codes.</i>
+description: <i>My research agenda develops clean, testable theoretical frameworks—centered on incentives, information frictions, and selection—to clarify mechanisms before tracing their empirical implications. Empirically, I work with reproducible, end-to-end pipelines that often combine web scraping and NLP with geocoding and panel construction. My workflow typically relies on Python, Stata, and spatial tools such as QGIS (and, when appropriate, R). The items collected below provide abstracts and links to papers and slides, together with keywords and JEL codes.</i>
 subtitle: >
     <div class="lang-links">
         <a href="/it/ricerca/" hreflang="it">ricerca</a>
@@ -88,14 +88,6 @@ nav_order: 1
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">JEL</span>
       </div>
-      <a href="/assets/pdf/slides/[Marco Rosso] Crime Perception and Voting Behaviour. Evidence from Individual Data (slides).pdf" class="pill-link no-external">
-        <i class="fa-solid fa-download fa-2xs"></i>
-        <span class="toggle-label" title="last version: BoMoPaV Economics Meeting 2025">Slides</span>
-      </a>
-      <a href="/assets/pdf/slides/[Marco Rosso] Crime Perception and Voting Behaviour. Evidence from Individual Data (slides short).pdf" class="pill-link no-external">
-        <i class="fa-solid fa-download fa-2xs"></i>
-        <span class="toggle-label" title="last version: 66th Annual Conference - Italian Economic Association">Slides (short)</span>
-      </a>
       <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" class="pill-link no-external">
         <i class="fa-regular fa-newspaper fa-2xs"></i>
         <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Paper</span>
@@ -150,7 +142,7 @@ nav_order: 1
       </div>
       <a 
   href="mailto:marco.rosso4@unibo.it
-        ?subject=Request%20for%20draft%20-%20The%20Tipping%20Point%20of%20Temptation:%20Selection,%20Integrity,%20and%20Public%20Service%20Quality
+        ?subject=Request%20for%20draft%20-%20The%20Tipping%20Point%20of%20Temptation%3A%20Occupational%20Selection%20and%20Integrity%20in%20the%20Public%20Sector
         &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20paper%20%E2%80%9CThe%20Tipping%20Point%20of%20Temptation%3A%20Occupational%20Selection%20and%20Integrity%20in%20the%20Public%20Sector%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
   class="pill-link no-external">
         <i class="fa-regular fa-newspaper fa-2xs"></i>
@@ -191,7 +183,7 @@ nav_order: 1
       </div>
       <a 
   href="mailto:marco.rosso4@unibo.it
-        ?subject=Request%20for%20draft%20-%20Childcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout
+        ?subject=Request%20for%20draft%20-%20Parenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records
         &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20paper%20%E2%80%9CParenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
   class="pill-link no-external">
         <i class="fa-regular fa-newspaper fa-2xs"></i>
@@ -210,6 +202,52 @@ almost entirely by mothers, while fathers’ turnout remains unaffected. The res
     </div>
   </div>
 
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-file-lines fa-fw"></i>
+      <span>
+          <em>Public Goods and Political Participation: Childcare Access and Electoral Engagement</em><br>
+        joint with 
+        <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a>, 
+        <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>, 
+        <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a>, 
+        and <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>
+      </span>
+    </div>
+  <div class="pill-container">
+      <div class="pill-button toggle-pill" data-target="abstract-school">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Abstract</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="keywords-school">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Keywords</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="jel-school">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">JEL</span>
+      </div>
+      <a 
+  href="mailto:marco.rosso4@unibo.it
+        ?subject=Request%20for%20draft%20-%20Public%20Goods%20and%20Political%20Participation%3A%20Childcare%20Access%20and%20Electoral%20Engagement
+        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20paper%20%E2%80%9CPublic%20Goods%20and%20Political%20Participation%3A%20Childcare%20Access%20and%20Electoral%20Engagement%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
+  class="pill-link no-external">
+        <i class="fa-regular fa-newspaper fa-2xs"></i>
+        <span class="toggle-label" title="Draft under request">Paper</span>
+      </a>
+    </div>
+    <div id="abstract-school" class="toggle-box">
+     Unequal political participation threatens democratic representation when groups with distinct policy preferences are systematically underrepresented at the ballot box. This paper studies how access to childcare-related public goods shapes electoral participation over the life cycle. We combine universe-level administrative turnout records from the city of Bologna with a newly constructed, geocoded panel of nurseries and preschools. Exploiting within-individual variation in proximity to age-appropriate childcare facilities—generated by residential mobility, school openings and closures, and administrative re-drawings of catchment boundaries—we show that greater distance to childcare infrastructure significantly reduces voter turnout among parents of young children. The effect is concentrated in municipal elections, where education policy is directly determined, and is driven by mothers, while effects for fathers are small and statistically insignificant. The magnitude of the effect is economically meaningful and comparable to other well-documented voting costs, despite automatic voter registration and high baseline turnout. These findings highlight a mechanism through which access to local public goods shapes political participation and, in turn, democratic representation.
+    </div>
+    <div id="keywords-school" class="toggle-box">
+       voter turnout; public goods; childcare; gender; political participation; local elections.
+    </div>
+    <div id="jel-school" class="toggle-box">
+       D72; H41; J13; J16.
+    </div>
+  </div>
+
 </div>
 
 <!-- Thesis -->
@@ -225,26 +263,19 @@ almost entirely by mothers, while fathers’ turnout remains unaffected. The res
 <!-- Content -->
 <div id="content-3" class="toggle-section expanded">
 
-  <!-- Thesis -->
-  <div class="entry-block">
-    <div class="icon-entry indented">
-      <i class="fa-solid fa-bookmark fa-fw"></i>
-      <span>
-          <em>Bridging the Participation Gap? Public Goods as a Determinant of Electoral Engagement</em><br>
-        joint with 
-        <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a>, 
-        <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>, 
-        <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a>, 
-        and <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>
-      </span>
-    </div>
-  </div>
-
-  <!-- Thesis -->
+  <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-bookmark fa-fw"></i>
       <span><em>The Effect of Erasmus Programs on Voting</em></span>
+    </div>
+  </div>
+
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-bookmark fa-fw"></i>
+      <span><em>Political Selection under Temptation: Electoral Incentives and Moral Frictions</em></span>
     </div>
   </div>
 

@@ -3,7 +3,7 @@ page_id: research
 layout: page
 permalink: /investigación/
 title: investigación
-description: <i>Mi programa de investigación desarrolla marcos teóricos rigurosos y verificables — basados en incentivos, fricciones de información y selección — con el objetivo de clarificar los mecanismos antes de analizar sus implicancias empíricas. En el plano empírico, utilizo pipelines reproducibles de extremo a extremo que combinan web scraping y procesamiento del lenguaje natural (NLP) con geocodificación y construcción de datos panel. Mi flujo de trabajo se apoya principalmente en Python (p. ej., pandas, BeautifulSoup, spaCy, GeoPandas), Stata (p. ej., reghdfe/hdfe, frames, rdrobust, rutinas de event study, esttab) y herramientas espaciales como QGIS (y, cuando corresponde, R). A continuación se presentan resúmenes y enlaces a papers y slides, junto con palabras clave y códigos JEL.</i>
+description: <i>Mi programa de investigación desarrolla marcos teóricos rigurosos y verificables — basados en incentivos, fricciones de información y selección — con el objetivo de clarificar los mecanismos antes de analizar sus implicancias empíricas. En el plano empírico, utilizo pipelines reproducibles de extremo a extremo que combinan web scraping y procesamiento del lenguaje natural (NLP) con geocodificación y construcción de datos panel. Mi flujo de trabajo se apoya principalmente en Python, Stata y herramientas espaciales como QGIS (y, cuando corresponde, R). A continuación se presentan resúmenes y enlaces a papers y slides, junto con palabras clave y códigos JEL.</i>
 subtitle: >
     <div class="lang-links">
            <a href="#" onclick="window.location.href='https://marcorosso.com/research/'; return false;">research</a>
@@ -94,14 +94,6 @@ nav_order: 1
         <i class="fa-regular fa-newspaper fa-2xs"></i>
         <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Paper</span>
       </a>
-      <a href="/assets/pdf/slides/[Marco Rosso] Crime Perception and Voting Behaviour. Evidence from Individual Data (slides).pdf" class="pill-link no-external">
-        <i class="fa-solid fa-download fa-2xs"></i>
-        <span class="toggle-label" title="última versión: BoMoPaV Economics Meeting 2025">Slide</span>
-      </a>
-      <a href="/assets/pdf/slides/[Marco Rosso] Crime Perception and Voting Behaviour. Evidence from Individual Data (slides short).pdf" class="pill-link no-external">
-        <i class="fa-solid fa-download fa-2xs"></i>
-        <span class="toggle-label" title="última versión: 66.ma Riunione Scientifica Annuale – Società Italiana di Economia ">Slide (síntesis)</span>
-      </a>
     </div>
     <div id="abstract-crime" class="toggle-box">
      Este trabajo analiza cómo la exposición a noticias geolocalizadas vinculadas al crimen moldea el comportamiento de voto individual en las elecciones italianas. Utilizando un panel de votantes no relocados observados a lo largo de múltiples rondas electorales, explotamos la variación intra-individual en la exposición a noticias criminales ocurridas cerca del domicilio durante el mes preelectoral, controlando por efectos fijos individuales y de distrito-por-elección. La exposición agregada muestra efectos débiles e inestables. En cambio, la desagregación por nacionalidad del autor del delito revela patrones sistemáticos: las noticias sobre delitos atribuidos a inmigrantes reducen el apoyo a partidos con posturas ambiguas sobre inmigración (p. ej., el Movimiento Cinco Estrellas) y aumentan el respaldo a partidos con una clara orientación de "law-and-order", mientras que los delitos atribuidos a italianos presentan efectos despreciables. Los efectos son más intensos entre votantes de alta calificación que se desplazan desde el M5S y entre votantes de baja calificación que abandonan la Lega. En elecciones locales, los delitos cometidos por italianos castigan a los incumbents, mientras que los delitos atribuidos a inmigrantes incrementan la abstención. Estas respuestas asimétricas — ausentes en las medidas agregadas — indican que la saliencia del crimen opera principalmente a través de un framing identitario y no mediante preocupaciones generalizadas sobre crimen o seguridad. Los resultados destacan cómo la atribución mediática moldea la rendición de cuentas electoral.
@@ -152,7 +144,7 @@ nav_order: 1
       </div>
       <a 
   href="mailto:marco.rosso4@unibo.it
-        ?subject=Solicitud%20de%20borrador%20-%20The%20Tipping%20Point%20of%20Temptation%3A%20Selection%2C%20Integrity%2C%20and%20Public%20Service%20Quality
+        ?subject=Solicitud%20de%20borrador%20-%20The%20Tipping%20Point%20of%20Temptation%3A%20Occupational%20Selection%20and%20Integrity%20in%20the%20Public%20Sector
         &body=Estimado%20Marco,%0D%0A%0D%0Ame%20gustar%C3%ADa%20solicitar%20el%20borrador%20de%20tu%20paper%20%E2%80%9CThe%20Tipping%20Point%20of%20Temptation%3A%20Occupational%20Selection%20and%20Integrity%20in%20the%20Public%20Sector%E2%80%9D.%0D%0A%0D%0A%C2%A1Gracias!%0D%0A"
   class="pill-link no-external">
         <i class="fa-regular fa-newspaper fa-2xs"></i>
@@ -194,7 +186,7 @@ Para disciplinar estas fuerzas contrapuestas, el análisis establece tres princi
       </div>
       <a 
   href="mailto:marco.rosso4@unibo.it
-        ?subject=Solicitud%20de%20borrador%20-%20Childcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout
+        ?subject=Solicitud%20de%20borrador%20-%20Parenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records
         &body=Estimado%20Marco,%0D%0A%0D%0Ame%20gustar%C3%ADa%20solicitar%20el%20borrador%20de%20tu%20paper%20%E2%80%9CParenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records%E2%80%9D.%0D%0A%0D%0A%C2%A1Gracias!%0D%0A"
   class="pill-link no-external">
         <i class="fa-regular fa-newspaper fa-2xs"></i>
@@ -209,6 +201,52 @@ Para disciplinar estas fuerzas contrapuestas, el análisis establece tres princi
     </div>
     <div id="jel-ageturnout" class="toggle-box">
        D72; J13; J22.
+    </div>
+  </div>
+
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-file-lines fa-fw"></i>
+      <span>
+          <em>Public Goods and Political Participation: Childcare Access and Electoral Engagement</em><br>
+        joint with 
+        <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a>, 
+        <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>, 
+        <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a>, 
+        and <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>
+      </span>
+    </div>
+  <div class="pill-container">
+      <div class="pill-button toggle-pill" data-target="abstract-school">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Resumen</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="keywords-school">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Palabras clave</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="jel-school">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">JEL</span>
+      </div>
+      <a 
+  href="mailto:marco.rosso4@unibo.it
+        ?subject=Solicitud%20de%20borrador%20-%20Public%20Goods%20and%20Political%20Participation%3A%20Childcare%20Access%20and%20Electoral%20Engagement
+        &body=Estimado%20Marco,%0D%0A%0D%0Ame%20gustar%C3%ADa%20solicitar%20el%20borrador%20de%20tu%20paper%20%E2%80%9CPublic%20Goods%20and%20Political%20Participation%3A%20Childcare%20Access%20and%20Electoral%20Engagement%E2%80%9D.%0D%0A%0D%0A%C2%A1Gracias!%0D%0A"
+  class="pill-link no-external">
+        <i class="fa-regular fa-newspaper fa-2xs"></i>
+        <span class="toggle-label" title="Draft under request">Paper</span>
+      </a>
+    </div>
+    <div id="abstract-school" class="toggle-box">
+     La participación política desigual amenaza la representación democrática cuando grupos con preferencias de política pública distintas están sistemáticamente subrepresentados en las urnas. Este trabajo analiza cómo el acceso a bienes públicos vinculados al cuidado infantil moldea la participación electoral a lo largo del ciclo de vida. Combinamos registros administrativos de turnout a nivel de universo de la ciudad de Bolonia con un nuevo panel geocodificado de jardines maternales y escuelas preescolares. Explotando la variación intra-individual en la proximidad a instalaciones de cuidado infantil adecuadas a la edad — generada por movilidad residencial, aperturas y cierres de escuelas y rediseños administrativos de las áreas de influencia — mostramos que una mayor distancia a la infraestructura de cuidado infantil reduce significativamente la participación electoral entre los padres de niños pequeños. El efecto se concentra en las elecciones municipales, donde la política educativa se define de manera directa, y está impulsado por las madres, mientras que los efectos para los padres son reducidos y estadísticamente no significativos. La magnitud del efecto es económicamente relevante y comparable a otros costos de votación bien documentados, a pesar de la inscripción automática de votantes y de niveles elevados de participación de base. En conjunto, los resultados ponen de relieve un mecanismo a través del cual el acceso a bienes públicos locales influye en la participación política y, en última instancia, en la representación democrática.
+    </div>
+    <div id="keywords-school" class="toggle-box">
+       participación electoral; bienes públicos; cuidado infantil; género; participación política; elecciones locales.
+    </div>
+    <div id="jel-school" class="toggle-box">
+       D72; H41; J13; J16.
     </div>
   </div>
 
@@ -227,26 +265,19 @@ Para disciplinar estas fuerzas contrapuestas, el análisis establece tres princi
 <!-- Content -->
 <div id="content-3" class="toggle-section expanded">
 
-<!-- Paper 1 -->
-  <div class="entry-block">
-    <div class="icon-entry indented">
-      <i class="fa-solid fa-bookmark fa-fw"></i>
-      <span>
-          <em>Bridging the Participation Gap? Public Goods as a Determinant of Electoral Engagement</em><br>
-        con 
-        <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a>, 
-        <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>, 
-        <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a> 
-        y <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>
-      </span>
-    </div>
-  </div>
-
-  <!-- Paper 2 -->
+  <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-bookmark fa-fw"></i>
       <span><em>The Effect of Erasmus Programs on Voting</em></span>
+    </div>
+  </div>
+
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-bookmark fa-fw"></i>
+      <span><em>Political Selection under Temptation: Electoral Incentives and Moral Frictions</em></span>
     </div>
   </div>
   
