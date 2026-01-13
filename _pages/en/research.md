@@ -142,7 +142,7 @@ nav_order: 1
       </div>
       <a 
   href="mailto:marco.rosso4@unibo.it
-        ?subject=Request%20for%20draft%20-%20The%20Tipping%20Point%20of%20Temptation:%20Selection,%20Integrity,%20and%20Public%20Service%20Quality
+        ?subject=Request%20for%20draft%20-%20The%20Tipping%20Point%20of%20Temptation%3A%20Occupational%20Selection%20and%20Integrity%20in%20the%20Public%20Sector
         &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20paper%20%E2%80%9CThe%20Tipping%20Point%20of%20Temptation%3A%20Occupational%20Selection%20and%20Integrity%20in%20the%20Public%20Sector%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
   class="pill-link no-external">
         <i class="fa-regular fa-newspaper fa-2xs"></i>
@@ -183,7 +183,7 @@ nav_order: 1
       </div>
       <a 
   href="mailto:marco.rosso4@unibo.it
-        ?subject=Request%20for%20draft%20-%20Childcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout
+        ?subject=Request%20for%20draft%20-%20Parenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records
         &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20paper%20%E2%80%9CParenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
   class="pill-link no-external">
         <i class="fa-regular fa-newspaper fa-2xs"></i>
@@ -230,7 +230,7 @@ almost entirely by mothers, while fathers’ turnout remains unaffected. The res
       </div>
       <a 
   href="mailto:marco.rosso4@unibo.it
-        ?subject=Request%20for%20draft%20-%20Childcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout
+        ?subject=Request%20for%20draft%20-%20Public%20Goods%20and%20Political%20Participation%3A%20Childcare%20Access%20and%20Electoral%20Engagement
         &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20paper%20%E2%80%9CPublic%20Goods%20and%20Political%20Participation%3A%20Childcare%20Access%20and%20Electoral%20Engagement%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
   class="pill-link no-external">
         <i class="fa-regular fa-newspaper fa-2xs"></i>
