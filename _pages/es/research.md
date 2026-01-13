@@ -3,7 +3,7 @@ page_id: research
 layout: page
 permalink: /investigación/
 title: investigación
-description: <i>Mi programa de investigación desarrolla marcos teóricos rigurosos y verificables — basados en incentivos, fricciones de información y selección — con el objetivo de clarificar los mecanismos antes de analizar sus implicancias empíricas. En el plano empírico, utilizo pipelines reproducibles de extremo a extremo que combinan web scraping y procesamiento del lenguaje natural (NLP) con geocodificación y construcción de datos panel. Mi flujo de trabajo se apoya principalmente en Python (p. ej., pandas, BeautifulSoup, spaCy, GeoPandas), Stata (p. ej., reghdfe/hdfe, frames, rdrobust, rutinas de event study, esttab) y herramientas espaciales como QGIS (y, cuando corresponde, R). A continuación se presentan resúmenes y enlaces a papers y slides, junto con palabras clave y códigos JEL.</i>
+description: <i>Mi programa de investigación desarrolla marcos teóricos rigurosos y verificables — basados en incentivos, fricciones de información y selección — con el objetivo de clarificar los mecanismos antes de analizar sus implicancias empíricas. En el plano empírico, utilizo pipelines reproducibles de extremo a extremo que combinan web scraping y procesamiento del lenguaje natural (NLP) con geocodificación y construcción de datos panel. Mi flujo de trabajo se apoya principalmente en Python, Stata y herramientas espaciales como QGIS (y, cuando corresponde, R). A continuación se presentan resúmenes y enlaces a papers y slides, junto con palabras clave y códigos JEL.</i>
 subtitle: >
     <div class="lang-links">
            <a href="#" onclick="window.location.href='https://marcorosso.com/research/'; return false;">research</a>
