@@ -150,7 +150,7 @@ nav_order: 1
       </div>
       <a 
   href="mailto:marco.rosso4@unibo.it
-        ?subject=Richiesta%20bozza%20-%20The%20Tipping%20Point%20of%20Temptation%3A%20Selection%2C%20Integrity%2C%20and%20Public%20Service%20Quality
+        ?subject=Richiesta%20bozza%20-%20The%20Tipping%20Point%20of%20Temptation%3A%20Occupational%20Selection%20and%20Integrity%20in%20the%20Public%20Sector
         &body=Caro%20Marco,%0D%0A%0D%0Avorrei%20chiederti%20la%20bozza%20del%20tuo%20paper%20%E2%80%9CThe%20Tipping%20Point%20of%20Temptation%3A%20Occupational%20Selection%20and%20Integrity%20in%20the%20Public%20Sector%E2%80%9D.%0D%0A%0D%0AGrazie!%0D%0A"
   class="pill-link no-external">
         <i class="fa-regular fa-newspaper fa-2xs"></i>
@@ -192,7 +192,7 @@ Per disciplinare queste forze contrapposte, l’analisi stabilisce tre principi 
       </div>
       <a 
   href="mailto:marco.rosso4@unibo.it
-        ?subject=Richiesta%20bozza%20-%20Childcare%20and%20Civic%20Participation%3A%20Parental%20Age%2C%20Child%20Stage%2C%20and%20Voter%20Turnout
+        ?subject=Richiesta%20bozza%20-%20Parenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records
         &body=Caro%20Marco,%0D%0A%0D%0Avorrei%20chiederti%20la%20bozza%20del%20tuo%20paper%20%E2%80%9CParenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records%E2%80%9D.%0D%0A%0D%0AGrazie!%0D%0A"
   class="pill-link no-external">
         <i class="fa-regular fa-newspaper fa-2xs"></i>
@@ -207,6 +207,52 @@ Per disciplinare queste forze contrapposte, l’analisi stabilisce tre principi 
     </div>
     <div id="jel-ageturnout" class="toggle-box">
        D72; J13; J22.
+    </div>
+  </div>
+
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-file-lines fa-fw"></i>
+      <span>
+          <em>Public Goods and Political Participation: Childcare Access and Electoral Engagement</em><br>
+        joint with 
+        <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a>, 
+        <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>, 
+        <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a>, 
+        and <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>
+      </span>
+    </div>
+  <div class="pill-container">
+      <div class="pill-button toggle-pill" data-target="abstract-school">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Abstract</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="keywords-school">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Parole chiave</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="jel-school">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">JEL</span>
+      </div>
+      <a 
+  href="mailto:marco.rosso4@unibo.it
+        ?subject=Richiesta%20bozza%20-%20Public%20Goods%20and%20Political%20Participation%3A%20Childcare%20Access%20and%20Electoral%20Engagement
+        &body=Caro%20Marco,%0D%0A%0D%0Avorrei%20chiederti%20la%20bozza%20del%20tuo%20paper%20%E2%80%9CPublic%20Goods%20and%20Political%20Participation%3A%20Childcare%20Access%20and%20Electoral%20Engagement%E2%80%9D.%0D%0A%0D%0AGrazie!%0D%0A"
+  class="pill-link no-external">
+        <i class="fa-regular fa-newspaper fa-2xs"></i>
+        <span class="toggle-label" title="Draft under request">Paper</span>
+      </a>
+    </div>
+    <div id="abstract-school" class="toggle-box">
+     La partecipazione politica diseguale minaccia la rappresentanza democratica quando gruppi con preferenze di policy differenti risultano sistematicamente sottorappresentati alle urne. Questo lavoro analizza come l’accesso a beni pubblici legati ai servizi per l’infanzia influenzi la partecipazione elettorale lungo il ciclo di vita. Combiniamo registri amministrativi di turnout a livello di universo per la città di Bologna con un nuovo panel geocodificato di asili nido e scuole dell’infanzia. Sfruttando la variazione intra-individuale nella prossimità a strutture per l’infanzia adeguate all’età — generata da mobilità residenziale, aperture e chiusure di scuole e ridefinizioni amministrative dei bacini di utenza — mostriamo che una maggiore distanza dall’infrastruttura per l’infanzia riduce significativamente l’affluenza alle urne tra i genitori di bambini piccoli. L’effetto è concentrato nelle elezioni comunali, in cui la politica educativa è determinata direttamente, ed è trainato dalle madri, mentre gli effetti per i padri sono contenuti e statisticamente non significativi. L’ordine di grandezza dell’effetto è economicamente rilevante e comparabile ad altri costi di voto ampiamente documentati, nonostante la registrazione automatica degli elettori e livelli di affluenza di base elevati. Nel complesso, i risultati evidenziano un meccanismo attraverso il quale l’accesso ai beni pubblici locali influenza la partecipazione politica e, di conseguenza, la rappresentanza democratica.
+    </div>
+    <div id="keywords-school" class="toggle-box">
+       affluenza alle urne; beni pubblici; servizi per l’infanzia; genere; partecipazione politica; elezioni locali.
+    </div>
+    <div id="jel-school" class="toggle-box">
+       D72; H41; J13; J16.
     </div>
   </div>
 
@@ -225,26 +271,19 @@ Per disciplinare queste forze contrapposte, l’analisi stabilisce tre principi 
 <!-- Content -->
 <div id="content-3" class="toggle-section expanded">
 
-<!-- Paper -->
-  <div class="entry-block">
-    <div class="icon-entry indented">
-      <i class="fa-solid fa-bookmark fa-fw"></i>
-      <span>
-          <em>Bridging the Participation Gap? Public Goods as a Determinant of Electoral Engagement</em><br>
-        con 
-        <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a>, 
-        <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>, 
-        <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a> 
-        e <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>
-      </span>
-    </div>
-  </div>
-
  <!-- Paper -->
  <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-bookmark fa-fw"></i>
       <span><em>The Effect of Erasmus Programs on Voting</em></span>
+    </div>
+  </div>
+
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-bookmark fa-fw"></i>
+      <span><em>Political Selection under Temptation: Electoral Incentives and Moral Frictions</em></span>
     </div>
   </div>
 
