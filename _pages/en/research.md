@@ -3,7 +3,7 @@ page_id: research
 layout: page
 permalink: /research/
 title: research
-description: <i>My research agenda develops clean, testable theoretical frameworks—centered on incentives, information frictions, and selection—to clarify mechanisms before tracing their empirical implications. Empirically, I work with reproducible, end-to-end pipelines that often combine web scraping and NLP with geocoding and panel construction. My workflow typically relies on Python (e.g., pandas, BeautifulSoup, spaCy, GeoPandas), Stata (e.g., reghdfe/hdfe, frames, rdrobust, event-study routines, esttab), and spatial tools such as QGIS (and, when appropriate, R). The items collected below provide abstracts and links to papers and slides, together with keywords and JEL codes.</i>
+description: <i>My research agenda develops clean, testable theoretical frameworks—centered on incentives, information frictions, and selection—to clarify mechanisms before tracing their empirical implications. Empirically, I work with reproducible, end-to-end pipelines that often combine web scraping and NLP with geocoding and panel construction. My workflow typically relies on Python, Stata, and spatial tools such as QGIS (and, when appropriate, R). The items collected below provide abstracts and links to papers and slides, together with keywords and JEL codes.</i>
 subtitle: >
     <div class="lang-links">
         <a href="/it/ricerca/" hreflang="it">ricerca</a>
