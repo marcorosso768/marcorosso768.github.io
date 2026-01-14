@@ -286,7 +286,7 @@ almost entirely by mothers, while fathers’ turnout remains unaffected. The res
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-4')">
     <h2 class="category">
-      <i class="fa-solid fa-chevron-right" id="chevron-content-4"></i>
+      <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-4"></i>
       <span>other publications</span>
     </h2>
   </a>
