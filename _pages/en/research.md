@@ -14,7 +14,7 @@ nav: true
 nav_order: 1
 ---
 
-<!-- Publications Section -->
+<!-- Publications Section
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-0')">
     <h2 class="category">
@@ -24,10 +24,10 @@ nav_order: 1
   </a>
 </div>
 
-<!-- Content -->
+<!-- Content
 <div id="content-0" class="toggle-section expanded">
 
-  <!-- Paper -->
+  <!-- Paper
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-newspaper fa-fw"></i>
@@ -50,7 +50,7 @@ nav_order: 1
     </div>
   </div>
 
-</div>
+</div> -->
 
 <!-- JMP Section -->
 <div class="projects">
@@ -250,7 +250,7 @@ almost entirely by mothers, while fathers’ turnout remains unaffected. The res
 
 </div>
 
-<!-- Thesis -->
+<!-- Work in Progress Section -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
     <h2 class="category">
@@ -281,18 +281,57 @@ almost entirely by mothers, while fathers’ turnout remains unaffected. The res
 
 </div>
 
-<!-- Theses Section -->
+
+<!-- Other Publications Section -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-4')">
     <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-4"></i>
-      <span>theses</span>
+      <i class="fa-solid fa-chevron-right" id="chevron-content-4"></i>
+      <span>other publications</span>
     </h2>
   </a>
 </div>
 
 <!-- Content -->
 <div id="content-4" class="toggle-section">
+
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-newspaper fa-fw"></i>
+      <span>
+        Farina E., Rosso M., Dansero L., et al. (2023). 
+        <a href="https://doi.org/10.1136/jech-2022-220088" target="_blank" rel="noopener noreferrer">
+          Short-term effect of colorectal cancer on income.
+        </a> 
+        <i>Journal of Epidemiology & Community Health</i>, 77:196–201.
+      </span>
+    </div>
+    <div class="pill-container">
+      <div class="pill-button toggle-pill" data-target="abstract-crc">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Abstract</span>
+      </div>
+    </div>
+    <div id="abstract-crc" class="toggle-box">
+      <b>Introduction</b> The ability to return to work after a cancer diagnosis is a key aspect of cancer survivorship and quality of life. Studies have reported a significant risk of income loss for cancer survivors; however, there is limited evidence of the Italian context. <br> <b>Methods</b> The Work Histories Italian Panel (WHIP)-Salute database was used to select a cohort of incident cases of colorectal cancer (CRC) among workers in the private sector, based on hospital discharges. A propensity score matching was used to find a balanced control group for several confounders. Ordinary least square and logistic regressions were used to estimate the effect of a CRC diagnosis on annual income and the probability of switching from a full-time contract to a part-time one considering 3 years after the diagnosis. <br> <b>Results</b> Overall, we identified 925 CRC incident cases from 2006 until 2012. Our results confirm a statistically significant reduction in survivors’ income compared with controls. This reduction was greater in the first year and then tend to decrease, with an average income loss over 3 years of about €12 000. Stratified analyses by sex and position confirmed the overall trend while indicating a strong effect modification. Regarding the switching from full-time to part-time employment, the results were never significant. <br> <b>Conclusion</b> Income loss does not seem to be related to an increase in part-time contracts, but rather to survivors’ reduced work capacity following the invasive treatments. Further research is needed to investigate the complex dynamics behind this association.
+    </div>
+  </div>
+
+</div>
+
+<!-- Theses Section -->
+<div class="projects">
+  <a href="javascript:void(0);" onclick="toggleVisibility('content-5')">
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-5"></i>
+      <span>theses</span>
+    </h2>
+  </a>
+</div>
+
+<!-- Content -->
+<div id="content-5" class="toggle-section">
 
   <!-- Paper -->
   <div class="entry-block">
