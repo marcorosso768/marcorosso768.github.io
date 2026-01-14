@@ -286,7 +286,7 @@ Per disciplinare queste forze contrapposte, l’analisi stabilisce tre principi 
   <a href="javascript:void(0);" onclick="toggleVisibility('content-4')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-4"></i>
-      <span>pubblicazioni</span>
+      <span>altre pubblicazioni</span>
     </h2>
   </a>
 </div>
