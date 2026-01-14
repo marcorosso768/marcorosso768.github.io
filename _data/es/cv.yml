@@ -3,8 +3,7 @@
   contents:
     - field: Economía Política
     - field: Economía del Crimen
-    - field: Teoría de Juegos
-    - field: Microeconomía
+    - field: Microeconomía aplicada
     - field: Economía Experimental
     - field: Economía del Comportamiento
             
@@ -124,7 +123,7 @@
       location: "Bolonia, Italia"
       institution: University of Bologna
       department: DSE — Departamento de Economía
-    - title: Miembro del Comité del Examen Internacional SAT para el Ingreso Universitario
+    - title: Proctor de examen, SAT Internacional para Admisiones Universitarias
       year: 2024—2025
       location: "Bolonia, Italia"
       institution: University of Bologna
