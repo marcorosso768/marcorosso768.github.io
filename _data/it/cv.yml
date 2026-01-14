@@ -3,8 +3,7 @@
   contents:
     - field: Economia Politica
     - field: Economia del Crimine
-    - field: Teoria dei Giochi
-    - field: Microeconomia
+    - field: Microeconomia Applicata
     - field: Economia Sperimentale
     - field: Economia Comportamentale
     
@@ -127,7 +126,7 @@
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
-    - title: "Componente della Commissione SAT per l'Ammissione Universitaria Internazionale"
+    - title: "Supervisore al Test Internazionale SAT per l’Ammissione Universitaria"
       year: 2024—2025
       location: "Bologna, Italia"
       institution: Università di Bologna
