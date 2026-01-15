@@ -33,7 +33,7 @@ nav_order: 2
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
           Workshop on Political Economy —
-          <span class="highlight"><i>Speaker</i></span>
+          <span class="highlight"><i>Relatore</i></span>
       </div>
    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
