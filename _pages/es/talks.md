@@ -26,13 +26,13 @@ nav_order: 2
 <div id="content-1" class="toggle-section expanded">
 
 <!-- 2026 -->
-<!--<p style="margin-left: 0.1em;"><b>2026</b></p>
+<p style="margin-left: 0.1em;"><b>2026</b></p>
 
  <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
-          PRIN Workshop on Political Economy —
-          <span class="highlight"><i>Speaker</i></span>
+          Workshop on Political Economy —
+          <span class="highlight"><i>Ponente</i></span>
       </div>
    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
