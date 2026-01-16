@@ -32,7 +32,7 @@ nav_order: 2
  <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
-          Workshop on Political Economy —
+          PRIN Workshop su Economia Politica —
           <span class="highlight"><i>Relatore</i></span>
       </div>
    </div>
