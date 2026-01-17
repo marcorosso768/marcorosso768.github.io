@@ -59,17 +59,17 @@ social: true # includes social icons at the bottom of the page
 
 Bienvenid@ a mi sitio personal — me alegra que hayas llegado hasta acá por tu propia voluntad (o quizá hiciste clic por error; le pasa hasta a l@s mejores).
 
-Actualmente me encuentro en el <i>Job Market</i> en busca de posiciones académicas y de investigación (podés encontrar mi <b style="color: $white-color;">Job Market Paper</b> <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">acá</a>).
-
-Mi <b style="color: $white-color;">investigación</b> se centra en 
+Mi <b style="color: $white-color;"><a href="/es/investigación/">investigación</a></b> se centra en 
 <b style="color: $white-color;">Economía Política</b>, 
 <b style="color: $white-color;">Economía del Crimen</b>, 
 <b style="color: $white-color;">Economía Experimental</b> y 
 <b style="color: $white-color;">Economía del Comportamiento</b>, con un interés particular en cómo interactúan las instituciones y el comportamiento individual en contextos reales.
 
+Actualmente me encuentro en el <i>Job Market</i> en busca de posiciones académicas y de investigación (podés encontrar mi <b style="color: $white-color;"><a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">Job Market Paper acá</a></b>).
+
 Mientras tanto, estoy trabajando en el lanzamiento de la <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="ref1">1</a></sup> en apoyo a la parentalidad consciente, en continuidad con las entrevistas online que realicé para el <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">Proyecto MinUTo</a>. Al mismo tiempo, desempeño temporalmente el rol de <b style="color: $white-color;">Asistente de Investigación</b> en la <b style="color: $white-color;">Universidad de Nápoles Federico II</b> en el proyecto <i>"Organized crime, political connections and firms' performance"</i>, realizando un análisis de respuestas a preguntas abiertas recolectadas entre los participantes con el objetivo de identificar y categorizar motivaciones emergentes y distinguir entre perfiles de respondentes mediante técnicas de análisis de texto.
 
-Además, me desempeño como <b style="color: $white-color;">ayudante de cátedra</b> en los cursos de <b style="color: $white-color;">Economía Industrial</b>, <b style="color: $white-color;">Econometría</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Python para Economistas</b> en la <b style="color: $white-color;">Universidad de Bolonia</b>.
+Además, me desempeño como <b style="color: $white-color;"><a href="/es/docencia/">ayudante de cátedra</a></b> en los cursos de <b style="color: $white-color;">Economía Industrial</b>, <b style="color: $white-color;">Econometría</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Python para Economistas</b> en la <b style="color: $white-color;">Universidad de Bolonia</b>.
 
 Por último, organizo los <b style="color: $white-color;">DSE Afterwork Drinks</b>, un encuentro informal mensual en el que hablamos de investigación, vida académica y todo lo que queda en el medio — desde carreras y conferencias hasta cine, música y preocupaciones cotidianas — con el objetivo de fomentar una comunidad departamental relajada y de apoyo.
 

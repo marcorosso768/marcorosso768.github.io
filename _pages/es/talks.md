@@ -11,7 +11,7 @@ subtitle: >
     </div>
 description: <i>Esta sección documenta seminarios por invitación, presentaciones en conferencias, workshops y otras discusiones académicas relacionadas. Utilizo estos espacios para presentar trabajos en distintas etapas — ideas iniciales, trabajos en curso y artículos finalizados — ajustando a menudo el énfasis en identificación, mecanismos y validez externa según el público.</i>
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 <!-- PONENCIAS INVITADAS -->
 <div class="projects">
