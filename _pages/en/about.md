@@ -59,7 +59,7 @@ social: true # includes social icons at the bottom of the page
 
 Welcome to my personal website—glad you made it here of your own free will (or maybe you clicked by mistake; it happens to the best of us).
 
-I am currently on the <i>Job Market</i> seeking academic and research positions (you can find my <b style="color: $white-color;">Job Market Paper</b> <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">here</a>).
+<b style="color: $white-color;">I study how information, institutions, and moral frictions shape political behavior and public-sector quality</b> and I am currently on the <i>Job Market</i> seeking academic and research positions (you can find my <b style="color: $white-color;">Job Market Paper</b> <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">here</a>).
 
 My <b style="color: $white-color;">research</b> focuses on 
 <b style="color: $white-color;">Political Economy</b>, 
