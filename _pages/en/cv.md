@@ -2,7 +2,8 @@
 page_id: cv
 layout: cv
 permalink: /curriculum_vitae/
-title: cv
+title: curriculum vitae
+nav_title: cv
 subtitle: >
     <div class="lang-links">
         <a href="/it/curriculum_vitae/" hreflang="it">italiano</a>
