@@ -71,7 +71,7 @@ Mientras tanto, estoy trabajando en el lanzamiento de la <a href="https://appmin
 
 Además, me desempeño como <b style="color: $white-color;"><a href="/es/docencia/">ayudante de cátedra</a></b> en los cursos de <b style="color: $white-color;">Economía Industrial</b>, <b style="color: $white-color;">Econometría</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Python para Economistas</b> en la <b style="color: $white-color;">Universidad de Bolonia</b>.
 
-Por último, organizo los <b style="color: $white-color;">DSE Afterwork Drinks</b>, un encuentro informal mensual en el que hablamos de investigación, vida académica y todo lo que queda en el medio — desde carreras y conferencias hasta cine, música y preocupaciones cotidianas — con el objetivo de fomentar una comunidad departamental relajada y de apoyo.
+Por último, organizo los <b style="color: $white-color;">DSE Afterwork Drinks</b>, un encuentro informal mensual en el que hablamos de investigación, vida académica y todo lo que queda en el medio — desde carreras y conferencias hasta cine, música y preocupaciones cotidianas — con el objetivo de fomentar una comunidad departamental relajada y de apoyo. Podés acceder rápidamente a mi <b style="color: $white-color;"><a href="/assets/pdf/es/[Marco%20Rosso]%20Curriculum%20Vitae_es.pdf" target="_blank" rel="noopener noreferrer" class="external">CV acá</a></b>.
 
 <div style="margin-top:1rem;"></div>
 <hr style="border:0; border-top:0.5px solid !important;">
