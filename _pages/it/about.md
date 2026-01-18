@@ -71,7 +71,7 @@ Nel frattempo, sto lavorando al lancio della <a href="https://appminuto.it/login
 
 Inoltre, svolgo attività di <b style="color: $white-color;"><a href="/it/didattica/">tutor didattico</a></b> per i corsi di <b style="color: $white-color;">Economia Industriale</b>, <b style="color: $white-color;">Econometria</b>, <b style="color: $white-color;">Economia Politica</b> e <b style="color: $white-color;">Python per Economisti</b> presso l’<b style="color: $white-color;">Università di Bologna</b>.
 
-Infine, organizzo i <b style="color: $white-color;">DSE Afterwork Drinks</b>, un incontro informale mensile in cui si discute di ricerca, vita accademica e di tutto ciò che sta nel mezzo — dalle carriere e le conferenze ai film, alla musica e alle preoccupazioni quotidiane — con l’obiettivo di favorire una comunità di dipartimento rilassata e collaborativa.
+Infine, organizzo i <b style="color: $white-color;">DSE Afterwork Drinks</b>, un incontro informale mensile in cui si discute di ricerca, vita accademica e di tutto ciò che sta nel mezzo — dalle carriere e le conferenze ai film, alla musica e alle preoccupazioni quotidiane — con l’obiettivo di favorire una comunità di dipartimento rilassata e collaborativa. Puoi accedere rapidamente al mio <b style="color: $white-color;"><a href="/assets/pdf/it/[Marco%20Rosso]%20Curriculum%20Vitae_it.pdf" target="_blank" rel="noopener noreferrer" class="external">CV qui</a></b>.
 
 <div style="margin-top:1rem;"></div>
 <hr style="border:0; border-top:0.5px solid !important;">
