@@ -46,18 +46,18 @@
           </div>
         </div>
 
-- title: premios, becas y financiaciones
+- title: Honores y Premios
   type: time_table
   contents:
-    - title: 'Incentivo "Marco Polo" para la Movilidad Internacional en Investigación'
+    - title: 'Incentivo “Marco Polo” a la Movilidad Internacional para la Investigación'
       year: "2024"
       location: "Bolonia, Italia"
       institution: University of Bologna
-    - title: Beca Doctoral de 4 Años, Programa de Doctorado en Economía
+    - title: Beca Doctoral de Cuatro Años en Economía
       year: "2020"
       location: "Bolonia, Italia"
       institution: University of Bologna
-    - title: Mención para Publicación de Tesis de Maestría (Título de Mérito Académico en Italia)
+    - title: Premio a la Excelencia por la Tesis de Maestría
       year: "2019"
       location: "Turín, Italia"
       institution: University of Turin
