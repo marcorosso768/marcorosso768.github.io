@@ -71,7 +71,7 @@ Meanwhile, I am working on the rollout of the <a href="https://appminuto.it/logi
 
 Moreover, I serve as a <b style="color: $white-color;"><a href="/teaching/">Teaching Assistant</a></b> for <b style="color: $white-color;">Industrial Economics</b>, <b style="color: $white-color;">Econometrics</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Python for Economists</b> at the <b style="color: $white-color;">University of Bologna</b>.
 
-Finally, I organize the <b style="color: $white-color;">DSE Afterwork Drinks</b>, a monthly informal gathering where we talk about research, academic life, and everything in between—from careers and conferences to films, music, and everyday worries—with the aim of fostering a relaxed and supportive departmental community.
+Finally, I organize the <b style="color: $white-color;">DSE Afterwork Drinks</b>, a monthly informal gathering where we talk about research, academic life, and everything in between—from careers and conferences to films, music, and everyday worries—with the aim of fostering a relaxed and supportive departmental community. Here you can quickly access my <b style="color: $white-color;"><a href="/assets/pdf/en/[Marco%20Rosso]%20Curriculum%20Vitae.pdf" target="_blank" rel="noopener noreferrer" class="external">CV</a></b>.
 
 <div style="margin-top:1rem;"></div>
 <hr style="border:0; border-top:0.5px solid !important;">
