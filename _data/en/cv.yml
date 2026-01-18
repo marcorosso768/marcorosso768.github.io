@@ -46,7 +46,7 @@
           </div>
         </div>
 
-- title: awards, grants, and scholarships
+- title: honors and awards
   type: time_table
   contents:
     - title: '"Marco Polo" Incentive to International Mobility for Research'
@@ -54,12 +54,12 @@
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE — Department of Economics
-    - title: 4-Year Scholarship, Ph.D. Program in Economics
+    - title: Four-year Ph.D. fellowship in Economics
       year: "2020"
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE — Department of Economics
-    - title: Master Thesis Recommendation for Publication (Italian Merit Title)
+    - title: Award of Distinction for Master’s Thesis
       year: "2019"
       location: "Turin, Italy"
       institution: University of Turin
