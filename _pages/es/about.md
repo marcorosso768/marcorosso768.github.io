@@ -30,7 +30,7 @@ subtitle: >
             </div>
             <div style="display: inline-block; padding-left: 20px; margin-top: -12pt; line-height: 14pt;">
                 <span style="font-size: 10pt;">
-                    ubicación actual: Bologna, Italia
+                    ubicación actual: Bolonia, Italia
                 </span>
             </div>
         </div>
