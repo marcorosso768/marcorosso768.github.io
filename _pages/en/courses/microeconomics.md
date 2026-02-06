@@ -3,6 +3,7 @@ page_id: microeconomics
 layout: page
 permalink: /teaching/microeconomics/
 title: microeconomics
+description_format: multiline
 description: |
     Here you can find useful materials for the Microeconomics course.
     Note: the material is available in Italian.
