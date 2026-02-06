@@ -13,8 +13,16 @@ subtitle: >
             <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color); font-size: 10pt;"></i>
         </div>
         <div style="padding-left: 20px; margin-top: -10pt; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
-            <a href="https://www.unibo.it/en/homepage">University of Bologna</a>,
-            <a href="https://dse.unibo.it/en">Department of Economics</a> and
+            <a href="https://www.unibo.it/en/homepage">University of Bologna</a>
+        </div>
+            <i class="fa-solid fa-school" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+        </div>
+        <div style="padding-left: 20px; margin-top: -10pt; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
+            <a href="https://dse.unibo.it/en">Department of Economics</a>
+        </div>
+            <i class="fa-solid fa-school" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+        </div>
+        <div style="padding-left: 20px; margin-top: -10pt; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
             <a href="https://scienzeaziendali.unibo.it/en/index.html">Department of Management</a>
         </div>
         <!-- Second row: Location icon and actul location  temp: <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna, Italy</a>-->
@@ -63,7 +71,7 @@ I am currently on the <i>Job Market</i> seeking academic and research positions.
 
 Meanwhile, I am working on the rollout of the <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="ref1">1</a></sup> in support of mindful parenting, in continuity with the online interviews I conducted for the <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a>. At the same time, I am temporarily serving as a <b style="color: $white-color;">Research Assistant</b> at the <b style="color: $white-color;">University of Naples Federico II</b> on the project <i>"Organized crime, political connections and firms' performance"</i>, conducting an analysis of open-ended responses collected from participants with the goal of identifying and categorizing emerging motivations and distinguishing between respondent profiles using text analysis techniques.
 
-Moreover, I teach <b style="color: $white-color;">Microeconomics</b> at the Department of Management and I serve as a <b style="color: $white-color;"><a href="/teaching/">Teaching Assistant</a></b> for <b style="color: $white-color;">Industrial Economics</b>, <b style="color: $white-color;">Econometrics</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Python for Economists</b> at the <b style="color: $white-color;">University of Bologna</b>.
+Moreover, I <b style="color: $white-color;"><a href="/teaching/">teach</a></b> <b style="color: $white-color;">Microeconomics</b> at the Department of Management and I serve as a <b style="color: $white-color;">Teaching Assistant</b> for <b style="color: $white-color;">Industrial Economics</b>, <b style="color: $white-color;">Econometrics</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Python for Economists</b> at the <b style="color: $white-color;">University of Bologna</b>.
 
 Finally, I organize the <b style="color: $white-color;">DSE Afterwork Drinks</b>, a monthly informal gathering where we talk about research, academic life, and everything in between—from careers and conferences to films, music, and everyday worries—with the aim of fostering a relaxed and supportive departmental community.
 
