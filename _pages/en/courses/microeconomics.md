@@ -1,5 +1,5 @@
 ---
-page_id: econometrics
+page_id: microeconomics
 layout: page
 permalink: /teaching/microeconomics/
 title: microeconomics
