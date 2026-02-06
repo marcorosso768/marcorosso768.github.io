@@ -16,14 +16,6 @@ subtitle: >
             <a href="https://www.unibo.it/en/homepage">University of Bologna,</a>
             <a href="https://dse.unibo.it/en">Department of Economics</a>
         </div>
-        <!-- Alternative affiliation -->
-<!-- <div style="display: inline-block; width: 13px; text-align: center; position: absolute; margin-top: 1px; line-height: 14pt;">
-            <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color); font-size: 10pt;"></i>
-        </div>
-        <div style="padding-left: 20px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; margin-top: 2pt;">
-            <a href="https://www.unina.it/en/">University of Naples Federico II,</a>
-            <a href="https://www.dises.unina.it/en_GB/home">Department of Economics and Statistics (temporary)</a>
-        </div>-->
         <!-- Second row: Location icon and actul location  temp: <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna, Italy</a>-->
         <div style="position: relative; font-size: 10pt; margin-top: 2pt; margin-bottom: 15px; line-height: 14pt;">
             <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; line-height: 14pt;">
