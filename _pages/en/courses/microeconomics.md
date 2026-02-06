@@ -3,7 +3,9 @@ page_id: microeconomics
 layout: page
 permalink: /teaching/microeconomics/
 title: microeconomics
-description: <i>Here you can find useful materials for the Microeconomics course. All the material is in Italian.</i>
+description: |
+    Here you can find useful materials for the Microeconomics course.
+    Note: the material is available in Italian.
 subtitle: >
     <div class="lang-links">
         <a href="#" onclick="window.location.href='https://marcorosso.com/teaching/'; return false;">back to teaching</a>
@@ -32,7 +34,7 @@ nav: false
 
 </div>
 
-<!-- DOFILES -->
+<!-- EXERCISES -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
     <h2 class="category">
