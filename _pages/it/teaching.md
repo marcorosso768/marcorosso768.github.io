@@ -41,6 +41,19 @@ nav_order: 4
 
 <p style="margin-left: 0.1em;"><b>2025/26</b></p>
 
+<div class="teaching-entry indented">
+   <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
+          <a href='https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2025/529017'>Microeconomia</a>
+      </div>
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        Economia Aziendale — Laurea triennale
+      </div>
+    </div>
+  </div>
+
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
     <div class="teaching-entry__content">
@@ -309,6 +322,14 @@ nav_order: 4
 </div>
 
 <div id="content-2" class="toggle-section expanded">
+
+  <div class="icon-link indented folder-link">
+    <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
+    <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
+    <span>  
+     <a href="./microeconomia/">Microeconomia</a>
+    </span>
+  </div>
 
   <div class="icon-link indented folder-link">
     <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
