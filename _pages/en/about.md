@@ -5,7 +5,7 @@ title: about me
 permalink: /
 subtitle: >
     <div style="margin-top: -0.75rem;">
-        <p style="font-weight: 500;">Adjunct&nbsp;Professor | Teaching&nbsp;Assistant | Research&nbsp;Assistant</p>
+        <p style="font-weight: 500;">Adjunct&nbsp;Professor | Teaching&nbsp;Assistant</p>
     </div>
     <div style="margin: 0; padding: 0; position: relative; margin-top: 1.5rem;">
         <!-- First row: University icon and department name -->
@@ -16,13 +16,14 @@ subtitle: >
             <a href="https://www.unibo.it/en/homepage">University of Bologna,</a>
             <a href="https://dse.unibo.it/en">Department of Economics</a>
         </div>
-        <div style="display: inline-block; width: 13px; text-align: center; position: absolute; margin-top: 1px; line-height: 14pt;">
+        <!-- Alternative affiliation -->
+<!-- <div style="display: inline-block; width: 13px; text-align: center; position: absolute; margin-top: 1px; line-height: 14pt;">
             <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color); font-size: 10pt;"></i>
         </div>
         <div style="padding-left: 20px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; margin-top: 2pt;">
             <a href="https://www.unina.it/en/">University of Naples Federico II,</a>
             <a href="https://www.dises.unina.it/en_GB/home">Department of Economics and Statistics (temporary)</a>
-        </div>
+        </div>-->
         <!-- Second row: Location icon and actul location  temp: <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna, Italy</a>-->
         <div style="position: relative; font-size: 10pt; margin-top: 2pt; margin-bottom: 15px; line-height: 14pt;">
             <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; line-height: 14pt;">
@@ -69,7 +70,7 @@ I am currently on the <i>Job Market</i> seeking academic and research positions.
 
 Meanwhile, I am working on the rollout of the <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="ref1">1</a></sup> in support of mindful parenting, in continuity with the online interviews I conducted for the <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a>. At the same time, I am temporarily serving as a <b style="color: $white-color;">Research Assistant</b> at the <b style="color: $white-color;">University of Naples Federico II</b> on the project <i>"Organized crime, political connections and firms' performance"</i>, conducting an analysis of open-ended responses collected from participants with the goal of identifying and categorizing emerging motivations and distinguishing between respondent profiles using text analysis techniques.
 
-Moreover, I serve as a <b style="color: $white-color;"><a href="/teaching/">Teaching Assistant</a></b> for <b style="color: $white-color;">Industrial Economics</b>, <b style="color: $white-color;">Econometrics</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Python for Economists</b> at the <b style="color: $white-color;">University of Bologna</b>.
+Moreover, I teach <b style="color: $white-color;">Microeconomics</b> at the Department of Management and I serve as a <b style="color: $white-color;"><a href="/teaching/">Teaching Assistant</a></b> for <b style="color: $white-color;">Industrial Economics</b>, <b style="color: $white-color;">Econometrics</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Python for Economists</b> at the <b style="color: $white-color;">University of Bologna</b>.
 
 Finally, I organize the <b style="color: $white-color;">DSE Afterwork Drinks</b>, a monthly informal gathering where we talk about research, academic life, and everything in between—from careers and conferences to films, music, and everyday worries—with the aim of fostering a relaxed and supportive departmental community.
 
