@@ -10,8 +10,7 @@ subtitle: >
     <div style="margin: 0; padding: 0; position: relative; margin-top: 1.5rem;">
         <!-- First row: University icon and department name -->
         <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; margin-top: -1.5pt; line-height: 14pt;">
-            <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color); font-size: 10pt;"></i>
-        </div>
+        <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color); font-size: 10pt;"></i>
         <div style="padding-left: 20px; margin-top: -10pt; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
             <a href="https://www.unibo.it/en/homepage">University of Bologna</a>
         </div>
@@ -24,6 +23,7 @@ subtitle: >
         </div>
         <div style="padding-left: 20px; margin-top: -10pt; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
             <a href="https://scienzeaziendali.unibo.it/en/index.html">Department of Management</a>
+        </div>
         </div>
         <!-- Second row: Location icon and actul location  temp: <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna, Italy</a>-->
         <div style="position: relative; font-size: 10pt; margin-top: 2pt; margin-bottom: 15px; line-height: 14pt;">
