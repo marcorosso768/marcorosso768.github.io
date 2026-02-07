@@ -41,7 +41,7 @@ nav_order: 4
 
 <div class="year">
   <a href="javascript:void(0);" onclick="toggleVisibility('year-2025')">
-    <h2 class="year" style="margin-left: 0.1rem;">
+    <h2 class="year">
        <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-year-2025"></i>
        <span>2025/26</span>
     </h2>
@@ -107,7 +107,7 @@ nav_order: 4
 
 <div class="year">
   <a href="javascript:void(0);" onclick="toggleVisibility('year-2025-ta')">
-    <h2 class="year" style="margin-left: 0.1rem;">
+    <h2 class="year">
        <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-year-2025-ta"></i>
        <span>2025/26</span>
     </h2>
@@ -158,7 +158,7 @@ nav_order: 4
 
 <div class="year">
   <a href="javascript:void(0);" onclick="toggleVisibility('year-20246-ta')">
-    <h2 class="year" style="margin-left: 0.1rem;">
+    <h2 class="year">
        <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-year-20246-ta"></i>
        <span>2024/26</span>
     </h2>
