@@ -39,7 +39,16 @@ nav_order: 4
 <!-- TOGGLE CONTENT -->
 <div id="subsection-unibo-t" class="toggle-section expanded">
 
-<p style="margin-left: 0.1em;"><b>2025/26</b></p>
+<div class="subsection">
+  <a href="javascript:void(0);" onclick="toggleVisibility('2025')">
+    <h2 class="subsection">
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-2025"></i>
+       <span><b>2025/26</b></span>
+    </h2>
+  </a>
+</div>
+
+<div id="subsection-2025" class="toggle-section expanded">
 
 <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -67,6 +76,7 @@ nav_order: 4
     </div>
   </div>
 
+</div>
 </div>
 </div>
 
