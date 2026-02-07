@@ -751,13 +751,13 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
     //padding-top: 0.5rem;
     margin-bottom: 1rem; //0.5em; //1rem;
     text-align: left;
-    font-size: large;
+    font-size: medium;
     margin-left: 0.25em;
 
     span {
       color: inherit;
-      //font-weight: bold;
-      font-size: large;
+      font-weight: bold;
+      font-size: medium;
       margin-left: 0.25em;
     }
 
@@ -805,11 +805,11 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
     margin-bottom: 1rem; //0.5em; //1rem;
     text-align: left;
     font-size: medium;
-    margin-left: 0.25em;
+    margin-left: 0.75rem;
 
     span {
       color: inherit;
-      font-weight: bold;
+      //font-weight: bold;
       font-size: medium;
       margin-left: 0.25em;
     }
