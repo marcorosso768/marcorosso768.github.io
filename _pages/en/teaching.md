@@ -105,7 +105,16 @@ nav_order: 4
 <!-- TOGGLE CONTENT -->
 <div id="subsection-unibo" class="toggle-section expanded">
 
-<p style="margin-left: 0.1em;"><b>2025/26</b></p>
+<div class="year">
+  <a href="javascript:void(0);" onclick="toggleVisibility('year-2025-ta')">
+    <h2 class="year">
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-year-2025-ta"></i>
+       <span>2025/26</span>
+    </h2>
+  </a>
+</div>
+
+<div id="year-2025-ta" class="toggle-section expanded">
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -144,6 +153,7 @@ nav_order: 4
         Economics, Markets and Institutions — Undergraduate (in Italian)
       </div>
     </div>
+  </div>
   </div>
 
 <p style="margin-left: 0.1em;"><b>2024/26</b></p>
