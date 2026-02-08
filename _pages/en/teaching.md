@@ -291,13 +291,13 @@ nav_order: 4
 <div class="year">
   <a href="javascript:void(0);" onclick="toggleVisibility('year-202122-ta')">
     <h2 class="year">
-       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-year-202122-ta"></i>
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-year-202122-ta"></i>
        <span>2021/22</span>
     </h2>
   </a>
 </div>
 
-<div id="year-202122-ta" class="toggle-section">
+<div id="year-202122-ta" class="toggle-section expanded">
     
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -357,13 +357,13 @@ nav_order: 4
 <div class="year">
   <a href="javascript:void(0);" onclick="toggleVisibility('year-201920-ta')">
     <h2 class="year">
-       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-year-201920-ta"></i>
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-year-201920-ta"></i>
        <span>2019/20</span>
     </h2>
   </a>
 </div>
 
-<div id="year-202122-ta" class="toggle-section">
+<div id="year-202122-ta" class="toggle-section expanded">
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
