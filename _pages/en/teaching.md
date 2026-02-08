@@ -181,7 +181,16 @@ nav_order: 4
   </div>
 </div>
 
-<p style="margin-left: 0.1em;"><b>2024/25</b></p>
+<div class="year">
+  <a href="javascript:void(0);" onclick="toggleVisibility('year-2024-ta')">
+    <h2 class="year">
+       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-year-2024-ta"></i>
+       <span>2024/25</span>
+    </h2>
+  </a>
+</div>
+
+<div id="year-2024-ta" class="toggle-section">
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -196,7 +205,18 @@ nav_order: 4
     </div>
   </div>
 
-<p style="margin-left: 0.1em;"><b>2022/25</b></p>
+</div>
+
+<div class="year">
+  <a href="javascript:void(0);" onclick="toggleVisibility('year-20225-ta')">
+    <h2 class="year">
+       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-year-20225-ta"></i>
+       <span>2022/25</span>
+    </h2>
+  </a>
+</div>
+
+<div id="year-20225-ta" class="toggle-section">
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -224,7 +244,18 @@ nav_order: 4
     </div>
   </div>
 
-<p style="margin-left: 0.1em;"><b>2022/24</b></p>
+</div>
+
+<div class="year">
+  <a href="javascript:void(0);" onclick="toggleVisibility('year-20224-ta')">
+    <h2 class="year">
+       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-year-20224-ta"></i>
+       <span>2022/24</span>
+    </h2>
+  </a>
+</div>
+
+<div id="year-20224-ta" class="toggle-section">
 
 <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -240,22 +271,34 @@ nav_order: 4
   </div>
 
 </div>
+</div>
 
 <!-- TOGGLE TRIGGER -->
 <div class="subsection">
   <a href="javascript:void(0);" onclick="toggleVisibility('subsection-uniboforli')">
     <h2 class="subsection">
-       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-uniboforli"></i>
+       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-subsection-uniboforli"></i>
        <span>University of Bologna — Forlì Campus</span>
     </h2>
   </a>
 </div>
 
 <!-- TOGGLE CONTENT -->
-<div id="subsection-uniboforli" class="toggle-section expanded">
+<div id="subsection-uniboforli" class="toggle-section">
 
-<p style="margin-left: 0.1em;"><b>2021/22</b></p>
+</div>
 
+<div class="year">
+  <a href="javascript:void(0);" onclick="toggleVisibility('year-202122-ta')">
+    <h2 class="year">
+       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-year-202122-ta"></i>
+       <span>2021/22</span>
+    </h2>
+  </a>
+</div>
+
+<div id="year-202122-ta" class="toggle-section">
+    
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
@@ -296,21 +339,31 @@ nav_order: 4
   </div>
 
 </div>
+</div>
 
 <!-- TOGGLE TRIGGER -->
 <div class="subsection">
   <a href="javascript:void(0);" onclick="toggleVisibility('subsection-unito')">
     <h2 class="subsection">
-       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-unito"></i>
+       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-subsection-unito"></i>
        <span>University of Turin — SAA School of Management</span>
     </h2>
   </a>
 </div>
 
 <!-- TOGGLE CONTENT -->
-<div id="subsection-unito" class="toggle-section expanded">
+<div id="subsection-unito" class="toggle-section">
 
-<p style="margin-left: 0.1em;"><b>2019/20</b></p>
+<div class="year">
+  <a href="javascript:void(0);" onclick="toggleVisibility('year-201920-ta')">
+    <h2 class="year">
+       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-year-201920-ta"></i>
+       <span>2019/20</span>
+    </h2>
+  </a>
+</div>
+
+<div id="year-202122-ta" class="toggle-section">
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -337,6 +390,8 @@ nav_order: 4
       </div>
     </div>
   </div>
+
+</div>
 
 </div>
 </div>
