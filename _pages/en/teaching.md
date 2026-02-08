@@ -286,8 +286,6 @@ nav_order: 4
 <!-- TOGGLE CONTENT -->
 <div id="subsection-uniboforli" class="toggle-section">
 
-</div>
-
 <div class="year">
   <a href="javascript:void(0);" onclick="toggleVisibility('year-202122-ta')">
     <h2 class="year">
@@ -392,7 +390,6 @@ nav_order: 4
   </div>
 
 </div>
-
 </div>
 </div>
 
