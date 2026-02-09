@@ -23,7 +23,7 @@ subtitle: >
             <a href="https://scienzeaziendali.unibo.it/en/index.html">Departamento de Management</a>
         </div>
         <!-- Second row: Location icon and actula location -->
-        <div style="position: relative; font-size: 10pt; margin-top: 2pt; margin-bottom: 15px; line-height: 14pt;">
+        <div style="position: relative; font-size: 10pt; margin-top: 8pt; margin-bottom: 15px; line-height: 14pt;">
             <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; line-height: 14pt;">
                 <i class="fa-solid fa-location-dot" style="font-size: 10pt;"></i>
             </div>
