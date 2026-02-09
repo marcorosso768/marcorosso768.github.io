@@ -11,7 +11,7 @@ subtitle: >
         <a href="/es/curriculum_vitae/" hreflang="es">español</a>
     </div>
 nav: true
-nav_order: 2
+nav_order: 4
 cv_pdf: /[Marco Rosso] Curriculum Vitae_it.pdf
 description: <i>Questa sezione riunisce il mio background accademico e il mio percorso professionale, includendo formazione, posizioni ricoperte, attività di servizio e ulteriori attività non trattate nelle sezioni dedicate a ricerca, didattica e presentazioni. Il CV completo è disponibile tramite l’icona PDF.</i>
 # toc:
