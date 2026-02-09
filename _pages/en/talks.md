@@ -11,7 +11,7 @@ subtitle: >
     </div>
 description: <i>This section documents invited talks, conference presentations, workshops, and related academic discussions. I use these venues to present work at different stages—early ideas, work in progress, and completed papers—often tailoring the emphasis toward identification, mechanisms, and external validity depending on the audience.</i>
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 <!-- INVITED TALKS -->
