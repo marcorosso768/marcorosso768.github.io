@@ -5,23 +5,22 @@ title: sobre mí
 permalink: /
 subtitle: >
     <div style="margin-top: -0.75rem;">
-        <p style="font-weight: 500;">Profesor&nbsp;Adjunto | Asistente&nbsp;de&nbsp;Docencia | Asistente&nbsp;de&nbsp;Investigación</p>
+        <p style="font-weight: 500;">Profesor&nbsp;Adjunto | Asistente&nbsp;de&nbsp;Docencia</p>
     </div>
     <div style="margin: 0; padding: 0; position: relative; margin-top: 1.5rem;">
         <!-- First row: University icon and department name -->
         <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; margin-top: -1.5pt; line-height: 14pt;">
-            <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+            <i class="fa-solid fa-building-columns fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
         </div>
-        <div style="padding-left: 20px; margin-top: -10pt; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
-            <a href="https://www.unibo.it/en/homepage">University of Bologna,</a>
-            <a href="https://dse.unibo.it/en">Departamento de Economía</a>
+        <div style="padding-left: 22px; margin-top: -10pt; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
+            <a href="https://www.unibo.it/en/homepage">University of Bologna</a>
         </div>
         <div style="display: inline-block; width: 13px; text-align: center; position: absolute; margin-top: 1px; line-height: 14pt;">
-            <i class="fa-solid fa-building-columns" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+            <i class="fa-solid fa-school fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
         </div>
-        <div style="padding-left: 20px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; margin-top: 2pt;">
-            <a href="https://www.unina.it/en/">University of Naples Federico II,</a>
-            <a href="https://www.dises.unina.it/en_GB/home">Departamento de Economía y Estadística (temporal)</a>
+        <div style="padding-left: 22px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; margin-top: 2pt;">
+            <a href="https://dse.unibo.it/en">Departamento de Economía</a> and 
+            <a href="https://scienzeaziendali.unibo.it/en/index.html">Departamento de Management</a>
         </div>
         <!-- Second row: Location icon and actula location -->
         <div style="position: relative; font-size: 10pt; margin-top: 2pt; margin-bottom: 15px; line-height: 14pt;">
@@ -69,7 +68,7 @@ Actualmente me encuentro en el <i>Job Market</i> en busca de posiciones académi
 
 Mientras tanto, estoy trabajando en el lanzamiento de la <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="ref1">1</a></sup> en apoyo a la parentalidad consciente, en continuidad con las entrevistas online que realicé para el <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">Proyecto MinUTo</a>. Al mismo tiempo, desempeño temporalmente el rol de <b style="color: $white-color;">Asistente de Investigación</b> en la <b style="color: $white-color;">Universidad de Nápoles Federico II</b> en el proyecto <i>"Organized crime, political connections and firms' performance"</i>, realizando un análisis de respuestas a preguntas abiertas recolectadas entre los participantes con el objetivo de identificar y categorizar motivaciones emergentes y distinguir entre perfiles de respondentes mediante técnicas de análisis de texto.
 
-Además, me desempeño como <b style="color: $white-color;"><a href="/es/docencia/">ayudante de cátedra</a></b> en los cursos de <b style="color: $white-color;">Economía Industrial</b>, <b style="color: $white-color;">Econometría</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Python para Economistas</b> en la <b style="color: $white-color;">Universidad de Bolonia</b>.
+Además, <b style="color: $white-color;"><a href="/es/docencia/">dicto</a></b> <b style="color: $white-color;">Microeconomía</b> y me desempeño como <b style="color: $white-color;">Asistente de Docencia</b> en <b style="color: $white-color;">Economía Industrial</b>, <b style="color: $white-color;">Econometría</b>, <b style="color: $white-color;">Economía Política</b> y <b style="color: $white-color;">Python para Economistas</b> tanto en el <b style="color: $white-color;">Departamento de Economía</b> como en el <b style="color: $white-color;">Departamento de Management</b> de la <b style="color: $white-color;">University of Bologna</b>.
 
 Por último, organizo los <b style="color: $white-color;">DSE Afterwork Drinks</b>, un encuentro informal mensual en el que hablamos de investigación, vida académica y todo lo que queda en el medio — desde carreras y conferencias hasta cine, música y preocupaciones cotidianas — con el objetivo de fomentar una comunidad departamental relajada y de apoyo.
 
