@@ -274,13 +274,13 @@ nav_order: 3
 <div class="subsection">
   <a href="javascript:void(0);" onclick="toggleVisibility('subsection-uniboforli')">
     <h2 class="subsection">
-       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-uniboforli"></i>
+       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-subsection-uniboforli"></i>
        <span>University of Bologna — Campus de Forlì</span>
     </h2>
   </a>
 </div>
 
-<div id="subsection-uniboforli" class="toggle-section expanded">
+<div id="subsection-uniboforli" class="toggle-section">
     
 <div class="year">
   <a href="javascript:void(0);" onclick="toggleVisibility('year-202122-ta')">
@@ -339,13 +339,13 @@ nav_order: 3
 <div class="subsection">
   <a href="javascript:void(0);" onclick="toggleVisibility('subsection-unito')">
     <h2 class="subsection">
-       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-unito"></i>
+       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-subsection-unito"></i>
        <span>University of Turin — SAA Escuela de Administración de Empresas</span>
     </h2>
   </a>
 </div>
 
-<div id="subsection-unito" class="toggle-section expanded">
+<div id="subsection-unito" class="toggle-section">
 
 <div class="year">
   <a href="javascript:void(0);" onclick="toggleVisibility('year-201920-ta')">
