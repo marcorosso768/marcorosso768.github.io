@@ -39,7 +39,16 @@ nav_order: 4
 <!-- TOGGLE CONTENT -->
 <div id="subsection-unibo-t" class="toggle-section expanded">
 
-<p style="margin-left: 0.1em;"><b>2025/26</b></p>
+<div class="year">
+  <a href="javascript:void(0);" onclick="toggleVisibility('year-2025')">
+    <h2 class="year">
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-year-2025"></i>
+       <span>2025/26</span>
+    </h2>
+  </a>
+</div>
+
+<div id="year-2025" class="toggle-section expanded">
 
 <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -69,6 +78,7 @@ nav_order: 4
 
 </div>
 </div>
+</div>
 
 <!-- TEACHING ASSISTANT -->
 <div class="projects">
@@ -95,7 +105,16 @@ nav_order: 4
 <!-- TOGGLE CONTENT -->
 <div id="subsection-unibo" class="toggle-section expanded">
 
-<p style="margin-left: 0.1em;"><b>2025/26</b></p>
+<div class="year">
+  <a href="javascript:void(0);" onclick="toggleVisibility('year-2025-ta')">
+    <h2 class="year">
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-year-2025-ta"></i>
+       <span>2025/26</span>
+    </h2>
+  </a>
+</div>
+
+<div id="year-2025-ta" class="toggle-section expanded">
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -135,8 +154,18 @@ nav_order: 4
       </div>
     </div>
   </div>
+  </div>
 
-<p style="margin-left: 0.1em;"><b>2024/26</b></p>
+<div class="year">
+  <a href="javascript:void(0);" onclick="toggleVisibility('year-20246-ta')">
+    <h2 class="year">
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-year-20246-ta"></i>
+       <span>2024/26</span>
+    </h2>
+  </a>
+</div>
+
+<div id="year-20246-ta" class="toggle-section expanded">
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -150,8 +179,18 @@ nav_order: 4
       </div>
     </div>
   </div>
+</div>
 
-<p style="margin-left: 0.1em;"><b>2024/25</b></p>
+<div class="year">
+  <a href="javascript:void(0);" onclick="toggleVisibility('year-2024-ta')">
+    <h2 class="year">
+       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-year-2024-ta"></i>
+       <span>2024/25</span>
+    </h2>
+  </a>
+</div>
+
+<div id="year-2024-ta" class="toggle-section">
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -165,8 +204,18 @@ nav_order: 4
       </div>
     </div>
   </div>
+</div>
 
-<p style="margin-left: 0.1em;"><b>2022/25</b></p>
+<div class="year">
+  <a href="javascript:void(0);" onclick="toggleVisibility('year-20225-ta')">
+    <h2 class="year">
+       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-year-20225-ta"></i>
+       <span>2022/25</span>
+    </h2>
+  </a>
+</div>
+
+<div id="year-20225-ta" class="toggle-section">
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -193,8 +242,18 @@ nav_order: 4
       </div>
     </div>
   </div>
+</div>
 
-<p style="margin-left: 0.1em;"><b>2022/24</b></p>
+<div class="year">
+  <a href="javascript:void(0);" onclick="toggleVisibility('year-20224-ta')">
+    <h2 class="year">
+       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-year-20224-ta"></i>
+       <span>2022/24</span>
+    </h2>
+  </a>
+</div>
+
+<div id="year-20224-ta" class="toggle-section">
 
 <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -210,6 +269,7 @@ nav_order: 4
   </div>
 
 </div>
+</div>
 
 <!-- TOGGLE TRIGGER -->
 <div class="subsection">
@@ -224,7 +284,16 @@ nav_order: 4
 <!-- TOGGLE CONTENT -->
 <div id="subsection-uniboforli" class="toggle-section expanded">
 
-<p style="margin-left: 0.1em;"><b>2021/22</b></p>
+<div class="year">
+  <a href="javascript:void(0);" onclick="toggleVisibility('year-202122-ta')">
+    <h2 class="year">
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-year-202122-ta"></i>
+       <span>2021/22</span>
+    </h2>
+  </a>
+</div>
+
+<div id="year-202122-ta" class="toggle-section expanded">
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -266,6 +335,7 @@ nav_order: 4
   </div>
 
 </div>
+</div>
 
 <!-- TOGGLE TRIGGER -->
 <div class="subsection">
@@ -280,7 +350,16 @@ nav_order: 4
 <!-- TOGGLE CONTENT -->
 <div id="subsection-unito" class="toggle-section expanded">
 
-<p style="margin-left: 0.1em;"><b>2019/20</b></p>
+<div class="year">
+  <a href="javascript:void(0);" onclick="toggleVisibility('year-201920-ta')">
+    <h2 class="year">
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-year-201920-ta"></i>
+       <span>2019/20</span>
+    </h2>
+  </a>
+</div>
+
+<div id="year-201920-ta" class="toggle-section expanded">
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -308,6 +387,7 @@ nav_order: 4
     </div>
   </div>
 
+</div>
 </div>
 </div>
 
