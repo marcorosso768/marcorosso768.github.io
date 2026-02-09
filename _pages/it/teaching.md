@@ -275,14 +275,14 @@ nav_order: 3
 <div class="subsection">
   <a href="javascript:void(0);" onclick="toggleVisibility('subsection-uniboforli')">
     <h2 class="subsection">
-       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-uniboforli"></i>
+       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-subsection-uniboforli"></i>
        <span>Università di Bologna — Campus di Forlì</span>
     </h2>
   </a>
 </div>
 
 <!-- TOGGLE CONTENT -->
-<div id="subsection-uniboforli" class="toggle-section expanded">
+<div id="subsection-uniboforli" class="toggle-section">
 
 <div class="year">
   <a href="javascript:void(0);" onclick="toggleVisibility('year-202122-ta')">
@@ -353,13 +353,13 @@ nav_order: 3
 <div class="year">
   <a href="javascript:void(0);" onclick="toggleVisibility('year-201920-ta')">
     <h2 class="year">
-       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-year-201920-ta"></i>
+       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-year-201920-ta"></i>
        <span>2019/20</span>
     </h2>
   </a>
 </div>
 
-<div id="year-201920-ta" class="toggle-section expanded">
+<div id="year-201920-ta" class="toggle-section">
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
