@@ -19,7 +19,7 @@ subtitle: >
             <i class="fa-solid fa-school fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
         </div>
         <div style="padding-left: 22px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; margin-top: 2pt;">
-            <a href="https://dse.unibo.it">Dipartimento di Scienze Economiche</a> and 
+            <a href="https://dse.unibo.it">Dipartimento di Scienze Economiche</a> e 
             <a href="https://scienzeaziendali.unibo.it/it/index.html">Dipartimento di Scienze Aziendali</a>
         </div>
         <!-- Second row: Location icon and actula location -->
