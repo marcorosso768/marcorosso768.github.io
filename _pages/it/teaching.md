@@ -19,7 +19,7 @@ nav_order: 3
   <a href="javascript:void(0);" onclick="toggleVisibility('content-0')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
-      <span>docente</span>
+      <span>professore a contratto</span>
     </h2>
   </a>
 </div>
