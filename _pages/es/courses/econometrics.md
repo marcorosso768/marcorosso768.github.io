@@ -29,7 +29,7 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-regular fa-file-pdf fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  <a href="/assets/pdf/teaching/econometrics/Introduction to STATA.pdf" target="_blank" rel="noopener noreferrer">Introduction to Stata</a> — última actualización: nov 2025
+  <a href="/assets/pdf/teaching/econometrics/Introduction to STATA.pdf" target="_blank" rel="noopener noreferrer">Introduction to Stata</a> — última actualización: noviembre de 2025
   </span>
 </div>
 
