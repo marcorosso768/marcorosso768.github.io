@@ -19,7 +19,7 @@ nav: false
   <a href="javascript:void(0);" onclick="toggleVisibility('content-0')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
-      <span>manuales</span>
+      <span>manual</span>
     </h2>
   </a>
 </div>
@@ -29,7 +29,7 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-regular fa-file-pdf fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  <a href="/assets/pdf/teaching/econometrics/Introduction to STATA.pdf" target="_blank" rel="noopener noreferrer">Introduction to Stata</a> — última actualización: nov 2025
+  <a href="/assets/pdf/teaching/econometrics/Introduction to STATA.pdf" target="_blank" rel="noopener noreferrer">Introduction to Stata</a> — última actualización: noviembre de 2025
   </span>
 </div>
 
