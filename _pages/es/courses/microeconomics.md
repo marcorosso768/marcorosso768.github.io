@@ -50,14 +50,14 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  <a href="/assets/pdf/teaching/microeconomia/Lezione 1 - Pensare come un:una Economista.pdf" target="_blank" rel="noopener noreferrer">Lección 1 – Pensar como un/a economista</a>
+  Lección 1: <a href="/assets/pdf/teaching/microeconomia/Lezione 1 - Pensare come un:una Economista.pdf" target="_blank" rel="noopener noreferrer">Pensar como un/a economista</a>
   </span>
 </div>
 
 <div class="course-entry indented">
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  <a href="/assets/pdf/teaching/microeconomia/Lezione 2 - Preferenze e Curve di Indifferenza.pdf" target="_blank" rel="noopener noreferrer">Lección 2 – Preferencias y Curvas de Indiferencia</a>
+  Lección 2: <a href="/assets/pdf/teaching/microeconomia/Lezione 2 - Preferenze e Curve di Indifferenza.pdf" target="_blank" rel="noopener noreferrer">Preferencias y Curvas de Indiferencia</a>
   </span>
 </div>
 
