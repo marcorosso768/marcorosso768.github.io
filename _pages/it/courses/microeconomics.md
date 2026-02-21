@@ -28,7 +28,7 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-regular fa-file-pdf fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  <a href="/assets/pdf/teaching/microeconomia/Microeconomia - Appunti del corso (14 febbraio).pdf" target="_blank" rel="noopener noreferrer">Microeconomia</a> — ultimo aggiornamento: 14 febbraio 2026
+  <a href="/assets/pdf/teaching/microeconomia/Appunti di Microeconomia.pdf" target="_blank" rel="noopener noreferrer">Appunti di Microeconomia</a> — ultimo aggiornamento: 21 febbraio 2026
   </span>
 </div>
 
