@@ -60,5 +60,12 @@ nav: false
   </span>
 </div>
 
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lezione 3: <a href="/assets/pdf/teaching/microeconomia/Lezione 3 - Vincolo di Bilancio e Scelta Ottima.pdf" target="_blank" rel="noopener noreferrer">Vincolo di Bilancio e Scelta Ottima</a>
+  </span>
+</div>
+
 </div>
 <!-- Aggiungi qui altri file .do, slide, ecc. -->
