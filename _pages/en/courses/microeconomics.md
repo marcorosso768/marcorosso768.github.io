@@ -29,7 +29,7 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-regular fa-file-pdf fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  <a href="/assets/pdf/teaching/microeconomia/Microeconomia - Appunti del corso (14 febbraio).pdf" target="_blank" rel="noopener noreferrer">Microeconomics</a> — last updated: 14 Feb 2026
+  <a href="/assets/pdf/teaching/microeconomia/Appunti di Microeconomia.pdf" target="_blank" rel="noopener noreferrer">Microeconomics Course Notes</a> — last updated: 21 Feb 2026
   </span>
 </div>
 
@@ -58,6 +58,13 @@ nav: false
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
   <span>  
   Lecture 2: <a href="/assets/pdf/teaching/microeconomia/Lezione 2 - Preferenze e Curve di Indifferenza.pdf" target="_blank" rel="noopener noreferrer">Preferences and Indifference Curves</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lecture 3: <a href="/assets/pdf/teaching/microeconomia/Lezione 3 - Vincolo di Bilancio e Scelta Ottima.pdf" target="_blank" rel="noopener noreferrer">Budget Constraint and Consumer Optimization</a>
   </span>
 </div>
 
