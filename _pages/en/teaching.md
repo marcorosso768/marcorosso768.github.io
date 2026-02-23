@@ -71,7 +71,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Bachelor in Business Administration (in Italian)
+        <a href='https://corsi.unibo.it/1cycle/BusinessAdministration'>Bachelor in Business Administration</a> (in Italian)
       </div>
     </div>
   </div>
