@@ -488,24 +488,25 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
 
     & .teaching-entry__course-text {
 
-  line-height: 15px;
+    line-height: 15px;
 
-  a {
+    a {
     color: $white-color;
 
-    &:link,
-    &:visited {
-      color: $white-color;
-    }
+      &:link,
+      &:visited {
+        color: $white-color;
+      }
 
-    &:hover {
-      color: var(--global-theme-color);
-      font-style: italic;
-      text-decoration: underline;
-    }
+      &:hover {
+        color: var(--global-theme-color);
+        font-style: italic;
+        text-decoration: underline;
+      }
 
-    &:active {
-      color: var(--global-theme-color);
+      &:active {
+        color: var(--global-theme-color);
+      }
     }
   }
 }
