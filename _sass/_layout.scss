@@ -487,10 +487,28 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
     }
 
     & .teaching-entry__course-text {
-      line-height:    15px;
-      /* niente altro, il flex-gap fa già il suo lavoro */
+
+  line-height: 15px;
+
+  a {
+    color: $white-color;
+
+    &:link,
+    &:visited {
+      color: $white-color;
+    }
+
+    &:hover {
+      color: var(--global-theme-color);
+      font-style: italic;
+      text-decoration: underline;
+    }
+
+    &:active {
+      color: var(--global-theme-color);
     }
   }
+}
   
   a {
       text-decoration: none;
