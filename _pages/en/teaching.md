@@ -53,12 +53,25 @@ nav_order: 3
 <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
+          <a href=''>Introduction to Economics of the EU</a>
+      </div>
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        <a href='https://corsi.unibo.it/1cycle/EuropeanStudies'>Bachelor in European Studies</a>
+      </div>
+    </div>
+  </div>
+
+<div class="teaching-entry indented">
+   <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
           <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/529017'>Microeconomics</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Business Administration — Undergraduate (in Italian)
+        <a href='https://corsi.unibo.it/1cycle/BusinessAdministration'>Bachelor in Business Administration</a> (in Italian)
       </div>
     </div>
   </div>
@@ -66,12 +79,12 @@ nav_order: 3
  <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/406503'>Econometrics</a> joint with <a href='https://www.unibo.it/sitoweb/margherita.fort/en'>Margherita Fort </a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/406503'>Econometrics</a> (supervised by <a href='https://www.unibo.it/sitoweb/sergio.pastorello/en'>Sergio Pastorello</a>) joint with <a href='https://www.unibo.it/sitoweb/margherita.fort/en'>Margherita Fort </a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Business and Economics — Undergraduate
+        <a href='https://corsi.unibo.it/1cycle/CLaBE'>Bachelor in Business and Economics</a>
       </div>
     </div>
   </div>
@@ -124,7 +137,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Public Policy & Applied Economics and Market — Graduate
+        Two Year Master in Economics and Public Policy & Two Year Master in Applied Economics and Market
       </div>
     </div>
   </div>
@@ -137,7 +150,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Public Policy — Graduate
+        Two Year Master in Economics and Public Policy
       </div>
     </div>
   </div>
@@ -150,7 +163,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics, Markets and Institutions — Undergraduate (in Italian)
+        Bachelor in Economics, Markets and Institutions (in Italian)
       </div>
     </div>
   </div>
@@ -175,7 +188,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics, Politics and Social Sciences — Undergraduate
+        Bachelor in Economics, Politics and Social Sciences
       </div>
     </div>
   </div>
@@ -200,7 +213,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics, Politics and Social Sciences — Undergraduate
+        Bachelor in Economics, Politics and Social Sciences
       </div>
     </div>
   </div>
@@ -225,7 +238,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Econometrics — Graduate
+        Two Year Master in Economics and Econometrics
       </div>
     </div>
   </div>
@@ -238,7 +251,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Finance — Undergraduate
+        Bachelor in Economics and Finance
       </div>
     </div>
   </div>
@@ -263,7 +276,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Finance — Undergraduate
+        Bachelor in Economics and Finance
       </div>
     </div>
   </div>
@@ -303,7 +316,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Management — Graduate (in Italian)
+        Two Year Master in Economics and Management (in Italian)
       </div>
     </div>
   </div>
@@ -316,7 +329,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Business — Undergraduate
+        Bachelor in Management and Economics
       </div>
     </div>
   </div>
@@ -329,7 +342,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-         Economics and Management — Graduate (in Italian)
+         Two Year Master in Economics and Management (in Italian)
       </div>
     </div>
   </div>
@@ -369,7 +382,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Business and Management — Undegraduate
+        Bachelor Program in Business and Management
       </div>
     </div>
   </div>
@@ -382,7 +395,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Business and Management — Undergraduate
+        Bachelor Program in Business and Management
       </div>
     </div>
   </div>
