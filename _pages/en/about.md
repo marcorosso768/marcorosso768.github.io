@@ -6,7 +6,6 @@ permalink: /
 subtitle: >
     <div style="margin-top: -0.75rem;">
         <p style="font-weight: 500;">
-            Researcher in Political Economy and&nbsp;Crime&nbsp;Economics<br>
             Adjunct&nbsp;Professor | Teaching&nbsp;Assistant
         </p>
     </div>
