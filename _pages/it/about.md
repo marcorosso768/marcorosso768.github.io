@@ -5,7 +5,10 @@ title: su&nbsp;di me
 permalink: /
 subtitle: >
     <div style="margin-top: -0.75rem;">
-        <p style="font-weight: 500;">Professore&nbsp;a&nbsp;Contratto | Tutor&nbsp;Didattico</p>
+    <p style="font-weight: 500;">
+        Ricercatore in Economia Politica ed Economia del Crimine<br>
+        Professore&nbsp;a&nbsp;Contratto | Tutor&nbsp;Didattico
+    </p>
     </div>
     <div style="margin: 0; padding: 0; position: relative; margin-top: 1.5rem;">
         <!-- First row: University icon and department name -->
@@ -19,8 +22,7 @@ subtitle: >
             <i class="fa-solid fa-school fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
         </div>
         <div style="padding-left: 22px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; margin-top: 2pt;">
-            <a href="https://dse.unibo.it">Dipartimento di Scienze Economiche</a> e 
-            <a href="https://scienzeaziendali.unibo.it/it/index.html">Dipartimento di Scienze Aziendali</a>
+            <a href="https://dse.unibo.it">Dipartimento di Scienze Economiche</a>
         </div>
         <!-- Second row: Location icon and actula location -->
         <div style="position: relative; font-size: 10pt; margin-top: 8pt; margin-bottom: 15px; line-height: 14pt;">
@@ -64,13 +66,11 @@ La mia <b style="color: $white-color;"><a href="/it/ricerca/">ricerca</a></b> si
 <b style="color: $white-color;">Economia Sperimentale</b> ed 
 <b style="color: $white-color;">Economia Comportamentale</b>, con un interesse specifico per l’interazione tra istituzioni e comportamento individuale in contesti reali.
 
-Attualmente sono sul <i>Job Market</i> alla ricerca di posizioni accademiche e di ricerca. Puoi scaricare il mio <b style="color: $white-color;"><a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">Job Market Paper</a></b> e il <b style="color: $white-color;"><a href="/assets/pdf/it/[Marco%20Rosso]%20Curriculum%20Vitae_it.pdf" target="_blank" rel="noopener noreferrer" class="external">CV</a></b> qui.
+Attualmente sono sul <i>Job Market</i> alla ricerca di posizioni accademiche e di ricerca. È possibile scaricare il mio <b style="color: $white-color;"><a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">Job Market Paper</a></b> e il <b style="color: $white-color;"><a href="/assets/pdf/it/[Marco%20Rosso]%20Curriculum%20Vitae_it.pdf" target="_blank" rel="noopener noreferrer" class="external">CV</a></b> qui.
 
-Nel frattempo, sto lavorando al lancio della <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="ref1">1</a></sup> a supporto della genitorialità consapevole, in continuità con le interviste online che ho condotto per il <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">Progetto MinUTo</a>. Parallelamente, svolgo temporaneamente il ruolo di <b style="color: $white-color;">Assistente di Ricerca</b> presso l’<b style="color: $white-color;">Università di Napoli Federico II</b> nell’ambito del progetto <i>"Organized crime, political connections and firms' performance"</i>, conducendo un’analisi delle risposte a domande aperte raccolte dai partecipanti con l’obiettivo di identificare e categorizzare le motivazioni emergenti e distinguere tra profili di rispondenti mediante tecniche di text analysis.
+Nel frattempo, <b style="color: $white-color;"><a href="/it/didattica/">insegno</a></b> <b style="color: $white-color;">Microeconomia</b>, <b style="color: $white-color;">Introduzione all’Economia dell’UE</b> (in inglese), e svolgo il ruolo di <b style="color: $white-color;">Tutor Didattico</b> per <b style="color: $white-color;">Economia Politica</b> e <b style="color: $white-color;">Python per Economisti</b> presso il <b style="color: $white-color;">Dipartimento di Scienze Economiche</b>, il <b style="color: $white-color;">Dipartimento di Management</b>, e il <b style="color: $white-color;">Dipartimento di Scienze Politiche e Sociali</b> dell’<b style="color: $white-color;">Università di Bologna</b>. Allo stesso tempo, ho contribuito al lancio dell'<a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">App MinUTo</a><sup><a href="#fn1" id="ref1">1</a></sup> a supporto della genitorialità consapevole, nell’ambito del <a href="https://site.unibo.it/minuto/it" target="_blank" rel="noopener noreferrer" class="external">Progetto MinUTo</a>, per il quale ho condotto interviste online.
 
-Inoltre, <b style="color: $white-color;"><a href="/it/didattica/">insegno</a></b> <b style="color: $white-color;">Microeconomia</b> e svolgo il ruolo di <b style="color: $white-color;">Tutor Didattico</b> per i corsi di <b style="color: $white-color;">Economia Industriale</b>, <b style="color: $white-color;">Econometria</b>, <b style="color: $white-color;">Economia Politica</b> e <b style="color: $white-color;">Python per Economisti</b> presso il <b style="color: $white-color;">Dipartimento di Scienze Economiche</b> e il <b style="color: $white-color;">Dipartimento di Scienze Aziendali</b> dell’<b style="color: $white-color;">Università di Bologna</b>.
-
-Infine, organizzo i <b style="color: $white-color;">DSE Afterwork Drinks</b>, un incontro informale mensile in cui si discute di ricerca, vita accademica e di tutto ciò che sta nel mezzo — dalle carriere e le conferenze ai film, alla musica e alle preoccupazioni quotidiane — con l’obiettivo di favorire una comunità di dipartimento rilassata e collaborativa.
+Organizzo inoltre i <b style="color: $white-color;">DSE Afterwork Drinks</b>, un incontro informale mensile in cui discutiamo di ricerca, vita accademica e di tutto ciò che sta nel mezzo — dalle carriere e le conferenze ai film, alla musica e alle preoccupazioni quotidiane — con l’obiettivo di favorire una comunità dipartimentale rilassata e collaborativa.
 
 <div style="margin-top:1rem;"></div>
 <hr style="border:0; border-top:0.5px solid !important;">
