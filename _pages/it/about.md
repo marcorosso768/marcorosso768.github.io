@@ -6,7 +6,7 @@ permalink: /
 subtitle: >
     <div style="margin-top: -0.75rem;">
     <p style="font-weight: 500;">
-        Ricercatore in Economia Politica ed Economia del Crimine<br>
+        Ricercatore in Economia Politica ed&nbsp;Economia&nbsp;del&nbsp;Crimine<br>
         Professore&nbsp;a&nbsp;Contratto | Tutor&nbsp;Didattico
     </p>
     </div>
