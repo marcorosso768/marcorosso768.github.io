@@ -6,6 +6,9 @@ permalink: /
 subtitle: >
     <div style="margin-top: -0.75rem;">
         <p style="font-weight: 500;">
+            Researcher in Political Economy and Crime Economics
+        </p>
+        <p style="font-weight: 500;">
             Adjunct&nbsp;Professor | Teaching&nbsp;Assistant
         </p>
     </div>
@@ -21,9 +24,7 @@ subtitle: >
             <i class="fa-solid fa-school fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
         </div>
         <div style="padding-left: 22px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; margin-top: 2pt;">
-            <a href="https://dse.unibo.it/en">Department of Economics</a> | 
-            <a href="https://scienzeaziendali.unibo.it/en/index.html">Department of Management</a> | 
-            <a href="https://dsps.unibo.it/en">Department of Political and Social Sciences</a>
+            <a href="https://dse.unibo.it/en">Department of Economics</a>
         </div>
         <!-- Second row: Location icon and actul location temp: <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna, Italy</a>-->
         <div style="position: relative; font-size: 10pt; margin-top: 8pt; margin-bottom: 15px; line-height: 14pt;">
@@ -67,11 +68,9 @@ My <b style="color: $white-color;"><a href="/research/">research</a></b> focuses
 
 I am currently on the <i>Job Market</i> seeking academic and research positions. You can download my <b style="color: $white-color;"><a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">Job Market Paper</a></b> and <b style="color: $white-color;"><a href="/assets/pdf/en/[Marco%20Rosso]%20Curriculum%20Vitae.pdf" target="_blank" rel="noopener noreferrer" class="external">CV</a></b> here.
 
-Meanwhile, I am working on the rollout of the <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="ref1">1</a></sup> in support of mindful parenting, in continuity with the online interviews I conducted for the <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a>. At the same time, I am temporarily serving as a <b style="color: $white-color;">Research Assistant</b> at the <b style="color: $white-color;">University of Naples Federico II</b> on the project <i>"Organized crime, political connections and firms' performance"</i>, conducting an analysis of open-ended responses collected from participants with the goal of identifying and categorizing emerging motivations and distinguishing between respondent profiles using text analysis techniques.
+Meanwhile, I <b style="color: $white-color;"><a href="/teaching/">teach</a></b> <b style="color: $white-color;">Microeconomics</b>, <b style="color: $white-color;">Introduction to Economics of the EU</b>, and serve as a <b style="color: $white-color;">Teaching Assistant</b> for <b style="color: $white-color;">Political Economy</b> and <b style="color: $white-color;">Python for Economists</b> at the <b style="color: $white-color;">Department of Economics</b>, the <b style="color: $white-color;">Department of Management</b>, and the <b style="color: $white-color;">Department of Political and Social Sciences</b> at the <b style="color: $white-color;">University of Bologna</b>. At the same time, I contributed to the rollout of the <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="ref1">1</a></sup> in support of mindful parenting, within the <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a>, for which I conducted online interviews.
 
-Moreover, I <b style="color: $white-color;"><a href="/teaching/">teach</a></b> <b style="color: $white-color;">Microeconomics</b> and serve as a <b style="color: $white-color;">Teaching Assistant</b> for <b style="color: $white-color;">Industrial Economics</b>, <b style="color: $white-color;">Econometrics</b>, <b style="color: $white-color;">Political Economy</b>, and <b style="color: $white-color;">Python for Economists</b> at both the <b style="color: $white-color;">Department of Economics</b> and at the <b style="color: $white-color;">Department of Management</b> at the <b style="color: $white-color;">University of Bologna</b>.
-
-Finally, I organize the <b style="color: $white-color;">DSE Afterwork Drinks</b>, a monthly informal gathering where we talk about research, academic life, and everything in between—from careers and conferences to films, music, and everyday worries—with the aim of fostering a relaxed and supportive departmental community.
+I also organize the <b style="color: $white-color;">DSE Afterwork Drinks</b>, a monthly informal gathering where we talk about research, academic life, and everything in between—from careers and conferences to films, music, and everyday worries—with the aim of fostering a relaxed and supportive departmental community.
 
 <div style="margin-top:1rem;"></div>
 <hr style="border:0; border-top:0.5px solid !important;">
