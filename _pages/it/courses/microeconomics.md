@@ -28,7 +28,7 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-regular fa-file-pdf fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  <a href="/assets/pdf/teaching/microeconomia/Appunti di Microeconomia.pdf" target="_blank" rel="noopener noreferrer">Appunti di Microeconomia</a> — ultimo aggiornamento: 21 febbraio 2026
+  <a href="/assets/pdf/teaching/microeconomia/Appunti di Microeconomia.pdf" target="_blank" rel="noopener noreferrer">Appunti di Microeconomia</a> — ultimo aggiornamento: 28 febbraio 2026
   </span>
 </div>
 
@@ -64,6 +64,20 @@ nav: false
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
   <span>  
   Lezione 3: <a href="/assets/pdf/teaching/microeconomia/Lezione 3 - Vincolo di Bilancio e Scelta Ottima.pdf" target="_blank" rel="noopener noreferrer">Vincolo di Bilancio e Scelta Ottima</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lezione 4: <a href="/assets/pdf/teaching/microeconomia/Lezione 4 - Domanda Individuale e Statica Comparata.pdf" target="_blank" rel="noopener noreferrer">Domanda Individuale e Statica Comparata</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lezione 5: <a href="/assets/pdf/teaching/microeconomia/Lezione 5 - Elasticità della Domanda.pdf" target="_blank" rel="noopener noreferrer">Elasticità della Domanda</a>
   </span>
 </div>
 
