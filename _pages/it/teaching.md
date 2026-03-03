@@ -79,7 +79,7 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
     <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2025/406503'>Econometria</a> (sotto la supervisione di <a href='https://www.unibo.it/sitoweb/sergio.pastorello/en'>Sergio Pastorello</a>) con <a href='https://www.unibo.it/sitoweb/margherita.fort/'>Margherita Fort </a>
+          <a href='https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2025/406503'>Econometria</a> <span style="font-size: smaller;>(sotto la supervisione di <a href='https://www.unibo.it/sitoweb/sergio.pastorello/en'>Sergio Pastorello</a>)<span> con <a href='https://www.unibo.it/sitoweb/margherita.fort/'>Margherita Fort </a>
     </div>
    </div>
     <div class="teaching-entry__row teaching-entry__row--course">
@@ -163,7 +163,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economia, mercati e istituzioni — Laurea triennale
+        Laurea triennale in Economia, mercati e istituzioni
       </div>
     </div>
   </div>
@@ -188,7 +188,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics, Politics and Social Sciences — Laurea triennale (in inglese)
+        Laurea triennale in Economics, Politics and Social Sciences (in inglese)
       </div>
     </div>
   </div>
@@ -213,7 +213,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics, Politics and Social Sciences — Laurea triennale (in inglese)
+        Laurea triennale in Economics, Politics and Social Sciences (in inglese)
       </div>
     </div>
   </div>
@@ -238,7 +238,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Econometrics — Laurea magistrale (in inglese)
+        Laurea magistrale in Economics and Econometrics (in inglese)
       </div>
     </div>
   </div>
@@ -251,7 +251,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Finance — Laurea triennale (in inglese)
+        Laurea triennale in Economics and Finance (in inglese)
       </div>
     </div>
   </div>
@@ -276,7 +276,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Finance — Laurea triennale (in inglese)
+        Laurea triennale in Economics and Finance (in inglese)
       </div>
     </div>
   </div>
@@ -316,7 +316,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economia e Management — Laurea magistrale
+        Laurea magistrale in Economia e Management
       </div>
     </div>
   </div>
@@ -329,7 +329,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Business — Laurea triennale (in inglese)
+        Laurea triennale in Economics and Business (in inglese)
       </div>
     </div>
   </div>
@@ -342,7 +342,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-         Economia e Management — Laurea magistrale
+         Laurea magistrale in Economia e Management
       </div>
     </div>
   </div>
@@ -382,7 +382,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Business and Management — Laurea triennale (in inglese)
+        Laurea triennale in Business and Management (in inglese)
       </div>
     </div>
   </div>
@@ -395,7 +395,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Business and Management — Laurea triennale (in inglese)
+        Laurea triennale in Business and Management (in inglese)
       </div>
     </div>
   </div>
