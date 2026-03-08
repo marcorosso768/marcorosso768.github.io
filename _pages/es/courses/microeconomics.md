@@ -29,7 +29,7 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-regular fa-file-pdf fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  <a href="/assets/pdf/teaching/microeconomia/Appunti di Microeconomia.pdf" target="_blank" rel="noopener noreferrer">Notas de Microeconomía</a> — última actualización: 28 de febrero de 2026
+  <a href="/assets/pdf/teaching/microeconomia/Appunti di Microeconomia.pdf" target="_blank" rel="noopener noreferrer">Notas de Microeconomía</a> — última actualización: 7 de marzo de 2026
   </span>
 </div>
 
@@ -79,6 +79,20 @@ nav: false
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
   <span>  
   Lección 5: <a href="/assets/pdf/teaching/microeconomia/Lezione 5 - Elasticità della Domanda.pdf" target="_blank" rel="noopener noreferrer">Elasticidad de la Demanda</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lección 6: <a href="/assets/pdf/teaching/microeconomia/Lezione 6 - Tecnologia e Funzione di Produzione.pdf" target="_blank" rel="noopener noreferrer">Tecnología y Función de Producción</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lección 7: <a href="/assets/pdf/teaching/microeconomia/Lezione 7 - Rendimenti di Scala, Isoquanti e MRTS.pdf" target="_blank" rel="noopener noreferrer">Rendimientos a Escala, Isoquantas y MRTS</a>
   </span>
 </div>
 
