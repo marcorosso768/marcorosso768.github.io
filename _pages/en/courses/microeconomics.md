@@ -29,7 +29,7 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-regular fa-file-pdf fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  <a href="/assets/pdf/teaching/microeconomia/Appunti di Microeconomia.pdf" target="_blank" rel="noopener noreferrer">Microeconomics Course Notes</a> — last updated: 28 Feb 2026
+  <a href="/assets/pdf/teaching/microeconomia/Appunti di Microeconomia.pdf" target="_blank" rel="noopener noreferrer">Microeconomics Course Notes</a> — last updated: 7 Mar 2026
   </span>
 </div>
 
@@ -79,6 +79,21 @@ nav: false
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
   <span>  
   Lecture 5: <a href="/assets/pdf/teaching/microeconomia/Lezione 5 - Elasticità della Domanda.pdf" target="_blank" rel="noopener noreferrer">Demand Elasticity</a>
+  </span>
+</div>
+
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lecture 6: <a href="/assets/pdf/teaching/microeconomia/Lezione 6 - Tecnologia e Funzione di Produzione.pdf" target="_blank" rel="noopener noreferrer">Technology and the Production Function</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lecture 7: <a href="/assets/pdf/teaching/microeconomia/Lezione 7 - Rendimenti di Scala, Isoquanti e MRTS.pdf" target="_blank" rel="noopener noreferrer">Returns to Scale, Isoquants, and MRTS</a>
   </span>
 </div>
 
