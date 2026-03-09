@@ -50,6 +50,20 @@ nav_order: 3
 
 <div id="year-2025" class="toggle-section expanded">
 
+
+<div class="teaching-entry indented">
+   <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/522183'>Introducción a la Economía de la UE (en inglés)</a>
+      </div>
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        <a href='https://corsi.unibo.it/1cycle/EuropeanStudies'>Licenciatura en Estudios Europeos</a>
+      </div>
+    </div>
+  </div>
+
 <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
@@ -58,7 +72,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Business Administration — Licenciatura (en italiano)
+        <a href='https://corsi.unibo.it/1cycle/BusinessAdministration'>Licenciatura en Administración de Empresas</a> (en italiano)
       </div>
     </div>
   </div>
@@ -66,12 +80,12 @@ nav_order: 3
  <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/406503'>Econometría</a> con <a href='https://www.unibo.it/sitoweb/margherita.fort/en'>Margherita Fort </a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/406503'>Econometría</a> <span style="font-size: smaller;">(supervisado por <a href='https://www.unibo.it/sitoweb/sergio.pastorello/en'>Sergio Pastorello</a>)</span> en conjunto con <a href='https://www.unibo.it/sitoweb/margherita.fort/en'>Margherita Fort</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Business and Economics — Licenciatura (en inglés)
+        <a href='https://corsi.unibo.it/1cycle/CLaBE'>Licenciatura en Economía y Gestión Empresarial (en inglés)</a>
       </div>
     </div>
   </div>
@@ -85,7 +99,7 @@ nav_order: 3
   <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
-      <span>asistente de docencia</span>
+      <span>ayudante de cátedra</span>
     </h2>
   </a>
 </div>
@@ -118,12 +132,12 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/520832'>Python para Economistas</a> con <a href='https://sites.google.com/site/asaia9585/alessandro-saia'>Alessandro Saia </a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/520832'>Python para Economistas</a> con <a href='https://sites.google.com/site/asaia9585/alessandro-saia'>Alessandro Saia</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Public Policy & Applied Economics and Market — Maestría (en inglés)
+        Maestría en Economía y Políticas Públicas & Maestría en Economía Aplicada y Mercado (en inglés)
       </div>
     </div>
   </div>
@@ -131,12 +145,12 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/520826'>Medición y Análisis Econométrico (C.I.): Econometría</a> con <a href='https://sites.google.com/site/dennitommasi/'>Denni Tommasi </a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/520826'>Medición y Análisis Econométrico (I.C.): Econometría</a> con <a href='https://sites.google.com/site/dennitommasi/'>Denni Tommasi</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Public Policy — Maestría (en inglés)
+        Maestría en Economía y Políticas Públicas (en inglés)
       </div>
     </div>
   </div>
@@ -144,12 +158,12 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/455011'>Economía Industrial</a> con <a href='https://www.unibo.it/sitoweb/vincenzo.denicolo/en'>Vincenzo Denicolò </a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/455011'>Economía Industrial</a> con <a href='https://www.unibo.it/sitoweb/vincenzo.denicolo/en'>Vincenzo Denicolò</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics, Markets and Institutions — Licenciatura (en italiano)
+        Licenciatura en Economía, Mercados e Instituciones (en italiano)
       </div>
     </div>
   </div>
@@ -166,15 +180,15 @@ nav_order: 3
 
 <div id="year-20246-ta" class="toggle-section expanded">
 
-  <div class="teaching-entry indented">
-    <div class="teaching-entry__row teaching-entry__row--title">
+ <div class="teaching-entry indented">
+   <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2024/468855'>Economía Política</a> con <a href='https://www.unibo.it/sitoweb/enrico.cantoni/en'>Enrico Cantoni</a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2024/468855'>Economía Política</a> con <a href='https://www.unibo.it/sitoweb/enrico.cantoni/en'>Enrico Cantoni</a>
       </div>
-    </div>
-    <div class="teaching-entry__row teaching-entry__row--course">
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics, Politics and Social Sciences — Licenciatura (en inglés)
+        Licenciatura en Economía, Política y Ciencias Sociales (en inglés)
       </div>
     </div>
   </div>
@@ -190,16 +204,16 @@ nav_order: 3
 </div>
 
 <div id="year-2024-ta" class="toggle-section">
-    
-  <div class="teaching-entry indented">
-    <div class="teaching-entry__row teaching-entry__row--title">
+
+<div class="teaching-entry indented">
+   <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2024/502710'>Microeconomía</a> con <a href='https://www.unibo.it/sitoweb/marco.casari/en'>Marco Casari</a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2024/502710'>Microeconomía</a> con <a href='https://www.unibo.it/sitoweb/marco.casari/en'>Marco Casari</a>
       </div>
-    </div>
-    <div class="teaching-entry__row teaching-entry__row--course">
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics, Politics and Social Sciences — Licenciatura (en inglés)
+        Licenciatura en Economía, Política y Ciencias Sociales (en inglés)
       </div>
     </div>
   </div>
@@ -217,27 +231,27 @@ nav_order: 3
 <div id="year-20225-ta" class="toggle-section">
 
   <div class="teaching-entry indented">
-    <div class="teaching-entry__row teaching-entry__row--title">
+   <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2024/491971'>Microeconomía (C.I.): Teoría de Juegos</a> con <a href='https://www.unibo.it/sitoweb/andrea.mattozzi/en'>Andrea Mattozzi</a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2024/491971'>Microeconomía (I.C.): Teoría de Juegos</a> con <a href='https://www.unibo.it/sitoweb/andrea.mattozzi/en'>Andrea Mattozzi</a>
       </div>
-    </div>
-    <div class="teaching-entry__row teaching-entry__row--course">
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Econometrics — Maestría (en inglés)
+        Maestría en Economía y Econometría (en inglés)
       </div>
     </div>
   </div>
-
+  
   <div class="teaching-entry indented">
-    <div class="teaching-entry__row teaching-entry__row--title">
+   <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2024/467276'>Introducción a la Economía del Comportamiento</a> con <a href='https://www.unibo.it/sitoweb/maria.bigoni/en'>Maria Bigoni</a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2024/467276'>Introducción a la Economía del Comportamiento</a> con <a href='https://www.unibo.it/sitoweb/maria.bigoni/en'>Maria Bigoni</a>
       </div>
-    </div>
-    <div class="teaching-entry__row teaching-entry__row--course">
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Finance — Licenciatura (en inglés)
+        Licenciatura en Economía y Finanzas (en inglés)
       </div>
     </div>
   </div>
@@ -253,16 +267,16 @@ nav_order: 3
 </div>
 
 <div id="year-20224-ta" class="toggle-section">
-    
-  <div class="teaching-entry indented">
-    <div class="teaching-entry__row teaching-entry__row--title">
+
+<div class="teaching-entry indented">
+   <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2023/422038'>Globalización: Comercio, Migraciones y Multinacionales</a> con <a href='https://www.unibo.it/sitoweb/giovanni.prarolo/en'>Giovanni Prarolo</a> y <a href='https://www.unibo.it/sitoweb/rohit.ticku/en'>Rohit Ticku</a> <span style="font-size: smaller; white-space: nowrap;">(2023/24)</span>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2023/422038'>Globalización: Comercio, Migraciones y Multinacionales</a> con <a href='https://www.unibo.it/sitoweb/giovanni.prarolo/en'>Giovanni Prarolo</a> y <a href='https://www.unibo.it/sitoweb/rohit.ticku/en'>Rohit Ticku</a> <span style="font-size: smaller; white-space: nowrap;">(2023/24)</span>
       </div>
-    </div>
-    <div class="teaching-entry__row teaching-entry__row--course">
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Finance — Licenciatura (en inglés)
+        Licenciatura en Economía y Finanzas (en inglés)
       </div>
     </div>
   </div>
@@ -294,40 +308,40 @@ nav_order: 3
 <div id="year-202122-ta" class="toggle-section expanded">
 
   <div class="teaching-entry indented">
-    <div class="teaching-entry__row teaching-entry__row--title">
+   <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2021/413556'>Economía (C.I.): Economía y Política de la Competencia</a> con <a href='https://www.unibo.it/sitoweb/francesca.barigozzi/en'>Francesca Barigozzi</a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2021/413556'>Economía (I.C.): Economía de la Competencia y Políticas</a> con <a href='https://www.unibo.it/sitoweb/francesca.barigozzi/en'>Francesca Barigozzi</a>
       </div>
-    </div>
-    <div class="teaching-entry__row teaching-entry__row--course">
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Management — Maestría (en italiano)
+        Maestría en Economía y Gestión (en italiano)
       </div>
     </div>
   </div>
 
   <div class="teaching-entry indented">
-    <div class="teaching-entry__row teaching-entry__row--title">
+   <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2021/413375'>Microeconomía</a> con <a href='https://www.unibo.it/sitoweb/francesca.barigozzi/en'>Francesca Barigozzi</a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2021/413375'>Microeconomía</a> con <a href='https://www.unibo.it/sitoweb/francesca.barigozzi/en'>Francesca Barigozzi</a>
       </div>
-    </div>
-    <div class="teaching-entry__row teaching-entry__row--course">
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Economics and Business — Licenciatura (en inglés)
+        Licenciatura en Gestión y Economía (en inglés)
       </div>
     </div>
   </div>
-
+  
   <div class="teaching-entry indented">
-    <div class="teaching-entry__row teaching-entry__row--title">
+   <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2021/413555'>Economía (C.I.): Teoría de Juegos</a> con <a href='https://www.unibo.it/sitoweb/natalia.montinari2/en'>Natalia Montinari</a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2021/413555'>Economía (I.C.): Teoría de Juegos</a> con <a href='https://www.unibo.it/sitoweb/natalia.montinari2/en'>Natalia Montinari</a>
       </div>
-    </div>
-    <div class="teaching-entry__row teaching-entry__row--course">
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-         Economics and Management — Maestría (en italiano)
+         Maestría en Economía y Gestión (en italiano)
       </div>
     </div>
   </div>
@@ -359,27 +373,28 @@ nav_order: 3
 <div id="year-201920-ta" class="toggle-section expanded">
 
   <div class="teaching-entry indented">
-    <div class="teaching-entry__row teaching-entry__row--title">
+   <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <a href='https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=qeeh_1920'>Gestión Pública y Economía Pública</a> con <a href='https://www.management-en.unito.it/do/docenti.pl/Alias?francesco.figari#tab-profilo'>Francesco Figari</a>
+          <a href='https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=qeeh_1920'>Gestión Pública y Economía Pública</a> con <a href='https://www.management-en.unito.it/do/docenti.pl/Alias?francesco.figari#tab-profilo'>Francesco Figari</a>
       </div>
-    </div>
-    <div class="teaching-entry__row teaching-entry__row--course">
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Business and Management — Licenciatura (en inglés)
+        Licenciatura en Administración y Gestión Empresarial (en inglés)
       </div>
     </div>
   </div>
 
+
   <div class="teaching-entry indented">
-    <div class="teaching-entry__row teaching-entry__row--title">
+   <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <a href='https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=wwm1_1920'>Microeconomía</a> con <a href='https://www.esomas-en.unito.it/do/docenti.pl/Alias?nadia.campaniello#tab-profilo'>Nadia Campaniello</a>
+           <a href='https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=wwm1_1920'>Microeconomía</a> con <a href='https://www.esomas-en.unito.it/do/docenti.pl/Alias?nadia.campaniello#tab-profilo'>Nadia Campaniello</a>
       </div>
-    </div>
-    <div class="teaching-entry__row teaching-entry__row--course">
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Business and Management — Licenciatura (en inglés)
+        Licenciatura en Administración y Gestión Empresarial (en inglés)
       </div>
     </div>
   </div>
