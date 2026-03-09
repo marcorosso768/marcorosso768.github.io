@@ -59,7 +59,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        <a href='https://corsi.unibo.it/1cycle/EuropeanStudies'>Licenciatura en Estudios Europeos (en inglés)</a>
+        <a href='https://corsi.unibo.it/1cycle/EuropeanStudies'>Licenciatura en Estudios Europeos</a> (en inglés)
       </div>
     </div>
   </div>
@@ -85,7 +85,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        <a href='https://corsi.unibo.it/1cycle/CLaBE'>Licenciatura en Economía y Gestión Empresarial (en inglés)</a>
+        <a href='https://corsi.unibo.it/1cycle/CLaBE'>Licenciatura en Economía y Gestión Empresarial</a> (en inglés)
       </div>
     </div>
   </div>
