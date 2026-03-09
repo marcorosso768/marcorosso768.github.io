@@ -54,12 +54,12 @@ nav_order: 3
 <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/522183'>Introducción a la Economía de la UE (en inglés)</a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/522183'>Introducción a la Economía de la UE</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        <a href='https://corsi.unibo.it/1cycle/EuropeanStudies'>Licenciatura en Estudios Europeos</a>
+        <a href='https://corsi.unibo.it/1cycle/EuropeanStudies'>Licenciatura en Estudios Europeos (en inglés)</a>
       </div>
     </div>
   </div>
@@ -80,7 +80,7 @@ nav_order: 3
  <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/406503'>Econometría</a> <span style="font-size: smaller;">(supervisado por <a href='https://www.unibo.it/sitoweb/sergio.pastorello/en'>Sergio Pastorello</a>)</span> en conjunto con <a href='https://www.unibo.it/sitoweb/margherita.fort/en'>Margherita Fort</a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/406503'>Econometría</a> <span style="font-size: x-small;">(supervisado por <a href='https://www.unibo.it/sitoweb/sergio.pastorello/en'>Sergio Pastorello</a>)</span> en conjunto con <a href='https://www.unibo.it/sitoweb/margherita.fort/en'>Margherita Fort</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
@@ -271,7 +271,7 @@ nav_order: 3
 <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2023/422038'>Globalización: Comercio, Migraciones y Multinacionales</a> con <a href='https://www.unibo.it/sitoweb/giovanni.prarolo/en'>Giovanni Prarolo</a> y <a href='https://www.unibo.it/sitoweb/rohit.ticku/en'>Rohit Ticku</a> <span style="font-size: smaller; white-space: nowrap;">(2023/24)</span>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2023/422038'>Globalización: Comercio, Migraciones y Multinacionales</a> con <a href='https://www.unibo.it/sitoweb/giovanni.prarolo/en'>Giovanni Prarolo</a> y <a href='https://www.unibo.it/sitoweb/rohit.ticku/en'>Rohit Ticku</a> <span style="font-size: x-small; white-space: nowrap;">(2023/24)</span>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
