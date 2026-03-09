@@ -111,7 +111,7 @@ subtitle: >
 </div>
 
 <!-- Location Section -->
-<div class="projects">
+<!-- <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-4')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-4"></i>
@@ -126,4 +126,4 @@ subtitle: >
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5869.619707905097!2d11.352124!3d44.497203!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd4bb0ed9d74f%3A0x851bdc6a12c818e2!2sFaculty%20of%20Economics%20-%20University%20of%20Bologna!5e1!3m2!1ses!2sit!4v1747641372590!5m2!1ses!2sit" width="800" height="600" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
   
-</div>
+</div> -->
