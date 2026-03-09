@@ -79,7 +79,7 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
     <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2025/406503'>Econometria</a> <span style="font-size: smaller;">(sotto la supervisione di <a href='https://www.unibo.it/sitoweb/sergio.pastorello/en'>Sergio Pastorello</a>)</span> con <a href='https://www.unibo.it/sitoweb/margherita.fort/'>Margherita Fort</a>
+          <a href='https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2025/406503'>Econometria</a> <span style="font-size: x-small;">(sotto la supervisione di <a href='https://www.unibo.it/sitoweb/sergio.pastorello/en'>Sergio Pastorello</a>)</span> con <a href='https://www.unibo.it/sitoweb/margherita.fort/'>Margherita Fort</a>
     </div>
    </div>
     <div class="teaching-entry__row teaching-entry__row--course">
@@ -271,7 +271,7 @@ nav_order: 3
 <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2023/422038'>Globalizzazione: Commercio, Migrazioni e Multinazionali</a> con <a href='https://www.unibo.it/sitoweb/giovanni.prarolo'>Giovanni Prarolo</a> e <a href='https://www.unibo.it/sitoweb/rohit.ticku'>Rohit Ticku</a> <span style="font-size: smaller; white-space: nowrap;">(2023/24)</span>
+          <a href='https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2023/422038'>Globalizzazione: Commercio, Migrazioni e Multinazionali</a> con <a href='https://www.unibo.it/sitoweb/giovanni.prarolo'>Giovanni Prarolo</a> e <a href='https://www.unibo.it/sitoweb/rohit.ticku'>Rohit Ticku</a> <span style="font-size: x-small; white-space: nowrap;">(2023/24)</span>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
