@@ -1060,23 +1060,25 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
     }
   }
 
-  &__row--ra {
+   &__row--ra {
     align-items:   flex-start;
     margin-bottom: $gap-vertical;
     &::before {
-      content: "\f4ff";  // fa-user-pen
-      width:   $fa-fw-width;
+      content:    "\f4ff";  // fa-user-pen
+      width:      $fa-fw-width;
+      text-align: center;   // ← questo mancava
     }
   }
-
+  
   &__row--project {
     align-items: flex-start;
     font-size:   0.9em;
     font-style:  italic;
     line-height: 15px;
     &::before {
-      content: "\f15c";  // fa-file-lines
-      width:   $fa-fw-width;
+      content:    "\f05a";  // fa-circle-info
+      width:      $fa-fw-width;
+      text-align: center;   // ← anche qui
     }
   }
 }
