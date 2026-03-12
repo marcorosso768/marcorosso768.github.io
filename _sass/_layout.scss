@@ -1029,6 +1029,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
     margin-bottom: $gap-vertical;
     &::before {
       content: "\f501";  // fa-user-graduate
+      width:   $fa-fw-width;
     }
   }
 }
@@ -1064,6 +1065,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
     margin-bottom: $gap-vertical;
     &::before {
       content: "\f0c0";  // fa-users
+      width:   $fa-fw-width;
     }
   }
 
@@ -1074,6 +1076,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
     line-height: 15px;
     &::before {
       content: "\f542";  // fa-microscope
+      width:   $fa-fw-width;
     }
   }
 }
