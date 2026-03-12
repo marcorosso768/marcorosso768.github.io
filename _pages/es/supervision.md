@@ -4,7 +4,12 @@ layout: page
 permalink: /supervisión/
 title: supervisión
 description: <i>Mi supervisión abarca estudiantes de tesis de grado y asistentes de investigación a nivel de posgrado. Con los estudiantes de tesis, mi énfasis está en desarrollar una pregunta de investigación independiente y construir las herramientas metodológicas para abordarla con rigor. Con los asistentes de investigación, el foco está en la participación directa en los flujos de trabajo empíricos, desde la construcción de datos hasta el análisis. La página lista los estudiantes actuales y pasados que he supervisado.</i>
-subtitle:
+subtitle: >
+    <div class="lang-links">
+       <a href="#" onclick="window.location.href='https://marcorosso.com/supervision/'; return false;">supervision</a>
+       <span class="separator">|</span>
+       <a href="/it/supervisione/" hreflang="it">supervisione</a>
+    </div>
 nav: true
 nav_order: 4
 ---
