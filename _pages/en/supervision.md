@@ -56,7 +56,7 @@ nav_order: 4
       </span>
     </div>
     <div class="ra-entry__row ra-entry__row--project">
-      <span class="ra-entry__content">
+      <span class="ra-entry__project-text">
         "Democratization, the media, socio-economic context, and voting behavior"
       </span>
     </div>
@@ -69,7 +69,7 @@ nav_order: 4
       </span>
     </div>
     <div class="ra-entry__row ra-entry__row--project">
-      <span class="ra-entry__content">
+      <span class="ra-entry__project-text">
         "Democratization, the media, socio-economic context, and voting behavior"
       </span>
     </div>
