@@ -1036,6 +1036,7 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
       line-height: 1.2;
     }
   }
+}
 
 /*****************************************************************************
 * Research Assistant
@@ -1072,9 +1073,6 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
     // testo principale (titolo + “Speaker”)
     & .ra-entry__content {
       line-height: 1.2;
-      .highlight {
-        color: var(--global-theme-color);
-      }
     }
   }
   
@@ -1094,4 +1092,5 @@ $gap-vertical    : 0.25em;   // spazio tra le due righe
     line-height: 15px;
 
   }
+}
 }
