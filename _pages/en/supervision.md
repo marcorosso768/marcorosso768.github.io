@@ -23,7 +23,7 @@ nav_order: 4
   <div class="thesis-entry indented">
     <div class="thesis-entry__row thesis-entry__row--thesis">
       <span class="thesis-entry__content">
-        2026: Valerio D'Anselmo, <i>Bachelor in Business Administration</i>, University of Bologna <i>(ongoing)</i>
+        2026: Valerio D'Anselmo, Bachelor in Business Administration, University of Bologna <i>(ongoing)</i>
       </span>
     </div>
   </div>
@@ -31,7 +31,7 @@ nav_order: 4
   <div class="thesis-entry indented">
     <div class="thesis-entry__row thesis-entry__row--thesis">
       <span class="thesis-entry__content">
-        2026: Pietro Zanieri, <i>Bachelor in Business Administration</i>, University of Bologna <i>(ongoing)</i>
+        2026: Pietro Zanieri, Bachelor in Business Administration, University of Bologna <i>(ongoing)</i>
       </span>
     </div>
   </div>
@@ -52,7 +52,7 @@ nav_order: 4
   <div class="ra-entry indented">
     <div class="ra-entry__row ra-entry__row--ra">
       <span class="ra-entry__content">
-        2024: Tiziana Simeoni, <i>Two Year Master in Economics and Econometrics</i>, University of Bologna
+        2024: Tiziana Simeoni, Two Year Master in Economics and Econometrics, University of Bologna
       </span>
     </div>
     <div class="ra-entry__row ra-entry__row--project">
@@ -65,7 +65,7 @@ nav_order: 4
   <div class="ra-entry indented">
     <div class="ra-entry__row ra-entry__row--ra">
       <span class="ra-entry__content">
-        2024: Gabriele De Fine, <i>Two Year Master in Economics and Econometrics</i>, University of Bologna
+        2024: Gabriele De Fine, Two Year Master in Economics and Econometrics, University of Bologna
       </span>
     </div>
     <div class="ra-entry__row ra-entry__row--project">
