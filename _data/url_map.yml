@@ -8,6 +8,7 @@ en:
   "/it/presentazioni/": "/talks/"
   "/it/didattica/": "/teaching/"
   "/it/contatti/": "/contacts/"
+  "/it/supervisione/": "/supervision/"
   # teaching materials
   "/it//didattica/econometria/": "/teaching/econometrics/"
   "/it//didattica/microeconomia/": "/teaching/microeconomics/"
@@ -20,6 +21,7 @@ en:
   "/es/presentaciones/": "/talks/"
   "/es/docencia/": "/teaching/"
   "/es/contactos/": "/contacts/"
+  "/es/supervisión/": "/supervision/"
   # teaching materials
   "/es/docencia/econometría/": "/teaching/econometrics/"
   "/es/docencia/microeconomía/": "/teaching/microeconomics/"
@@ -33,7 +35,8 @@ it:
   "/research/": "/it/ricerca/"
   "/talks/": "/it/presentazioni/"
   "/teaching/": "/it/didattica/"
-  "/contacts/": "it/contatti/"
+  "/contacts/": "/it/contatti/"
+  "/supervision/": "/it/supervisione/"
   # teaching materials
   "/teaching/econometrics/": "/it/didattica/econometria/"
   "/teaching/microeconomics/": "/it/didattica/microeconomia/"
@@ -46,6 +49,7 @@ it:
   "/es/presentaciones/": "/it/presentazioni/"
   "/es/docencia/": "/it/didattica/"
   "/es/contactos/": "it/contatti/"
+  "/es/supervisión/": "/it/supervisione/"
   # teaching materials
   "/es/docencia/econometría/": "/it/didattica/econometria/"
   "/es/docencia/microeconomía/": "/it/didattica/microeconomia/"
@@ -60,6 +64,7 @@ es:
   "/talks/": "/es/presentaciones/"
   "/teaching/": "/es/docencia/"
   "/contacts/": "/es/contactos/"
+  "/supervision/": "/es/supervisión/"
   # teaching materials
   "/teaching/econometrics/": "/es/docencia/econometría/"
   "/teaching/microeconomics/": "/es/docencia/microeconomía/"
@@ -71,7 +76,8 @@ es:
   "/it/ricerca/": "/es/investigación/"
   "/it/presentazioni/": "/es/presentaciones/"
   "/it/didattica/": "/es/docencia/"
-  "it/contatti/": "/es/contactos/"
+  "/it/contatti/": "/es/contactos/"
+  "/it/supervisione/": "/es/supervisión/"
   # teaching materials
   "/it/didattica/econometria/": "/es/docencia/econometría/"
   "/it/didattica/microeconomia/": "/es/docencia/microeconomía/"

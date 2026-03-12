@@ -46,6 +46,18 @@
           </div>
         </div>
 
+- title: affiliations
+  type: map
+  contents:
+    - name:
+      value: >
+        <div style="font-size:11pt; display: flex; align-items: flex-start;">
+          <i class="fa-solid fa-id-card-clip fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
+          <div style="line-height: 1.2;">
+            Italian Econometric Association (2023), Italian Economic Association (2025-2026)
+          </div>
+        </div>
+
 - title: honors and awards
   type: time_table
   contents:
@@ -87,12 +99,6 @@
       institution: University of Bologna
       department: DSE — Department of Economics
       supervisor: 'supervisor: <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
-    - title: 'Supervision of two research assistants on the project “Democratization, the media, socio-economic context, and voting behavior"'
-      year: "Jun—Sept 2024"
-      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Coordination and mentoring in data collection, coding, and preliminary analysis</i></p>'
-      location: "Bologna, Italy"
-      institution: University of Bologna
-      department: DSE — Department of Economics
     - title: '"At the Roots of Child Development: On the Role of Parental Beliefs, Preferences and Engagement" in the Context of the MinUTo Project'
       year: "Jan—Apr 2024"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Implementation of online experiments using the Qualtrics platform, management of communications and coordination with schools and families, and delivery and collection of the materials required for the experiments</i></p>'

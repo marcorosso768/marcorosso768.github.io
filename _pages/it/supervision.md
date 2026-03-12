@@ -1,12 +1,12 @@
 ---
 page_id: supervision
 layout: page
-permalink: /supervision/
-title: supervision
-description: <i>My supervision covers undergraduate thesis students and research assistants at the master's level. With thesis students, my emphasis is on developing an independent research question and building the methodological tools to address it rigorously. With research assistants, the focus is on hands-on engagement with empirical workflows, from data construction to analysis. The page lists current and past students I have supervised.</i>
+permalink: /supervisione/
+title: supervisione
+description: <i>La mia supervisione riguarda studenti di tesi triennale e assistenti di ricerca a livello magistrale. Con gli studenti di tesi, il mio obiettivo è sviluppare una domanda di ricerca autonoma e costruire gli strumenti metodologici per affrontarla con rigore. Con gli assistenti di ricerca, il focus è sul coinvolgimento pratico nei flussi di lavoro empirici, dalla costruzione dei dati all'analisi. La pagina elenca gli studenti che ho supervisionato, attuali e passati.</i>
 subtitle: >
     <div class="lang-links">
-        <a href="/it/supervisione/" hreflang="it">supervisione</a>
+        <a href="#" onclick="window.location.href='https://marcorosso.com/supervision/'; return false;">supervision</a>
         <span class="separator">|</span>
         <a href="/es/supervisión/" hreflang="es">supervisión</a>
     </div>
@@ -19,7 +19,7 @@ nav_order: 4
   <a href="javascript:void(0);" onclick="toggleVisibility('content-0')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
-      <span>thesis supervision</span>
+      <span>supervisione tesi</span>
     </h2>
   </a>
 </div>
@@ -28,7 +28,7 @@ nav_order: 4
   <div class="thesis-entry indented">
     <div class="thesis-entry__row thesis-entry__row--thesis">
       <span class="thesis-entry__content">
-        2026: Valerio D'Anselmo, Bachelor in Business Administration, University of Bologna <i>(ongoing)</i>
+        2026: Valerio D'Anselmo, Laurea triennale in Economia Aziendale, Università di Bologna <i>(in corso)</i>
       </span>
     </div>
   </div>
@@ -36,7 +36,7 @@ nav_order: 4
   <div class="thesis-entry indented">
     <div class="thesis-entry__row thesis-entry__row--thesis">
       <span class="thesis-entry__content">
-        2026: Pietro Zanieri, Bachelor in Business Administration, University of Bologna <i>(ongoing)</i>
+        2026: Pietro Zanieri, Laurea triennale in Economia Aziendale, Università di Bologna <i>(in corso)</i>
       </span>
     </div>
   </div>
@@ -48,7 +48,7 @@ nav_order: 4
   <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
-      <span>research assistants</span>
+      <span>assistenti di ricerca</span>
     </h2>
   </a>
 </div>
@@ -57,12 +57,12 @@ nav_order: 4
   <div class="ra-entry indented">
     <div class="ra-entry__row ra-entry__row--ra">
       <span class="ra-entry__content">
-        2024: Tiziana Simeoni, Two Year Master in Economics and Econometrics, University of Bologna
+        2024: Tiziana Simeoni, Laurea Magistrale in Economia ed Econometria, Università di Bologna
       </span>
     </div>
     <div class="ra-entry__row ra-entry__row--project">
       <span class="ra-entry__project-text">
-        Democratization, the media, socio-economic context, and voting behavior
+        Democratizzazione, media, contesto socioeconomico e comportamento di voto
       </span>
     </div>
   </div>
@@ -70,12 +70,12 @@ nav_order: 4
   <div class="ra-entry indented">
     <div class="ra-entry__row ra-entry__row--ra">
       <span class="ra-entry__content">
-        2024: Gabriele De Fine, Two Year Master in Economics and Econometrics, University of Bologna
+        2024: Gabriele De Fine, Laurea Magistrale in Economia ed Econometria, Università di Bologna
       </span>
     </div>
     <div class="ra-entry__row ra-entry__row--project">
       <span class="ra-entry__project-text">
-        Democratization, the media, socio-economic context, and voting behavior
+        Democratizzazione, media, contesto socioeconomico e comportamento di voto
       </span>
     </div>
   </div>
