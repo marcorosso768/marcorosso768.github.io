@@ -46,6 +46,18 @@
           </div>
         </div>
 
+- title: affiliazioni
+  type: map
+  contents:
+    - name:
+      value: >
+        <div style="font-size:11pt; display: flex; align-items: flex-start;">
+          <i class="fa-solid fa-id-card-clip fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
+          <div style="line-height: 1.2;">
+            Società Italiana di Econometria (2023), Società Italiana di Economia (2025-2026)
+          </div>
+        </div>
+
 - title: premi e riconoscimenti
   type: time_table
   contents:
@@ -87,12 +99,6 @@
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
       supervisor: 'supervisor: <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
-    - title: 'Supervisione di due assistenti di ricerca nel progetto “Democratizzazione, media, contesto socio-economico e comportamento elettorale”'
-      year: "giu—set 2024"
-      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Coordinamento e formazione nelle attività di raccolta dati, scrittura di codici e analisi preliminari</i></p>'
-      location: "Bologna, Italia"
-      institution: Università di Bologna
-      department: DSE — Dipartimento di Scienze Economiche
     - title: '“Alle radici dello sviluppo infantile: sul ruolo delle convinzioni, delle preferenze e del coinvolgimento genitoriale” nel contesto del Progetto MinUTo'
       year: "gen—apr 2024"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Implementazione di esperimenti online mediante la piattaforma Qualtrics, gestione delle comunicazioni e del coordinamento con scuole e famiglie, e consegna e raccolta dei materiali necessari alla realizzazione degli esperimenti</i></p>'
