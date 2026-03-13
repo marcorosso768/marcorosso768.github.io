@@ -50,6 +50,18 @@ nav_order: 3
 
 <div id="year-2025" class="toggle-section expanded">
 
+  <div class="teaching-entry indented">
+   <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/520832'>Python para Economistas</a>
+      </div>
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        Maestría en Economía y Políticas Públicas & Maestría en Economía Aplicada y Mercado (en inglés)
+      </div>
+    </div>
+  </div>
 
 <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
@@ -128,19 +140,6 @@ nav_order: 3
 </div>
 
 <div id="year-2025-ta" class="toggle-section expanded">
-
-  <div class="teaching-entry indented">
-   <div class="teaching-entry__row teaching-entry__row--title">
-      <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/520832'>Python para Economistas</a> con <a href='https://sites.google.com/site/asaia9585/alessandro-saia'>Alessandro Saia</a>
-      </div>
-   </div>
-   <div class="teaching-entry__row teaching-entry__row--course">
-      <div class="teaching-entry__course-text">
-        Maestría en Economía y Políticas Públicas & Maestría en Economía Aplicada y Mercado (en inglés)
-      </div>
-    </div>
-  </div>
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
