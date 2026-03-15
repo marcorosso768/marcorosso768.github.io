@@ -28,7 +28,7 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-regular fa-file-pdf fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  <a href="/assets/pdf/teaching/microeconomia/Appunti di Microeconomia.pdf" target="_blank" rel="noopener noreferrer">Appunti di Microeconomia</a> — ultimo aggiornamento: 7 marzo 2026
+  <a href="/assets/pdf/teaching/microeconomia/Appunti di Microeconomia.pdf" target="_blank" rel="noopener noreferrer">Appunti di Microeconomia</a> — ultimo aggiornamento: 15 marzo 2026
   </span>
 </div>
 
@@ -92,6 +92,20 @@ nav: false
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
   <span>  
   Lezione 7: <a href="/assets/pdf/teaching/microeconomia/Lezione 7 - Rendimenti di Scala, Isoquanti e MRTS.pdf" target="_blank" rel="noopener noreferrer">Rendimenti di Scala, Isoquanti e MRTS</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lezione 8: <a href="/assets/pdf/teaching/microeconomia/Lezione 8 - Costi di Produzione e Curve di Costo.pdf" target="_blank" rel="noopener noreferrer">Costi di Produzione e Curve di Costo</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lezione 9: <a href="/assets/pdf/teaching/microeconomia/Lezione 9 - Minimizzazione dei Costi e Scelta Ottimale dei Fattori.pdf" target="_blank" rel="noopener noreferrer">Minimizzazione dei Costi e Scelta Ottimale dei Fattori</a>
   </span>
 </div>
 
