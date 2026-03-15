@@ -95,5 +95,19 @@ nav: false
   </span>
 </div>
 
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lezione 8: <a href="/assets/pdf/teaching/microeconomia/Lezione 8 - Costi di Produzione e Curve di Costo.pdf" target="_blank" rel="noopener noreferrer">Costi di Produzione e Curve di Costo</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lezione 9: <a href="/assets/pdf/teaching/microeconomia/Lezione 9 - Minimizzazione dei Costi e Scelta Ottimale dei Fattori.pdf" target="_blank" rel="noopener noreferrer">Minimizzazione dei Costi e Scelta Ottimale dei Fattori</a>
+  </span>
+</div>
+
 </div>
 <!-- Aggiungi qui altri file .do, slide, ecc. -->
