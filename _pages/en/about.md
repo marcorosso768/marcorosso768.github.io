@@ -6,7 +6,7 @@ permalink: /
 subtitle: >
     <div style="margin-top: -0.75rem;">
         <p style="font-weight: 500;">
-            Adjunct&nbsp;Professor | Teaching&nbsp;Assistant
+            Adjunct&nbsp;Professor | Postdoctoral&nbsp;Researcher
         </p>
     </div>
     <div style="margin: 0; padding: 0; position: relative; margin-top: 1.5rem;">
@@ -17,11 +17,11 @@ subtitle: >
         <div style="padding-left: 22px; margin-top: -10pt; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
             <a href="https://www.unibo.it/en/homepage">University of Bologna</a>
         </div>
-        <div style="display: inline-block; width: 13px; text-align: center; position: absolute; margin-top: 1px; line-height: 14pt;">
-            <i class="fa-solid fa-school fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+        <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; margin-top: -1.5pt; line-height: 14pt;">
+            <i class="fa-solid fa-building-columns fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
         </div>
-        <div style="padding-left: 22px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; margin-top: 2pt;">
-            <a href="https://dse.unibo.it/en">Department of Economics</a>
+        <div style="padding-left: 22px; margin-top: -10pt; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
+            <a href="https://en.unica.it/en">University of Cagliari</a>
         </div>
         <!-- Second row: Location icon and actul location temp: <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna, Italy</a>-->
         <div style="position: relative; font-size: 10pt; margin-top: 8pt; margin-bottom: 15px; line-height: 14pt;">
@@ -33,6 +33,8 @@ subtitle: >
             </div>
         </div>
     </div>
+<!-- hidden: <div style="display: inline-block; width: 13px; text-align: center; position: absolute; margin-top: 1px; line-height: 14pt;"><i class="fa-solid fa-school fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i></div>-->
+<!-- hidden: <div style="padding-left: 22px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; margin-top: 2pt;"><a href="https://dse.unibo.it/en">Department of Economics</a></div> -->
 
 profile:
   align: right
@@ -63,7 +65,7 @@ My <b style="color: $white-color;"><a href="/research/">research</a></b> focuses
 <b style="color: $white-color;">Experimental</b> and 
 <b style="color: $white-color;">Behavioral Economics</b>, with a particular interest in how institutions and individual behavior interact in real-world settings.
 
-I am currently on the <i>Job Market</i> seeking academic and research positions. You can download my <b style="color: $white-color;"><a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">Job Market Paper</a></b> and <b style="color: $white-color;"><a href="/assets/pdf/en/[Marco%20Rosso]%20Curriculum%20Vitae.pdf" target="_blank" rel="noopener noreferrer" class="external">CV</a></b> here.
+I am a <b style="color: $white-color;">Postdoctoral Researcher</b> at the <b style="color: $white-color;">University of Cagliari</b>, where I am working on the interactions between remote work, artificial intelligence, and local labor markets, bringing the same methodological toolkit to a new research frontier. You can find more about my work in my <b style="color: $white-color;"><a href="/assets/pdf/en/[Marco%20Rosso]%20Curriculum%20Vitae.pdf" target="_blank" rel="noopener noreferrer" class="external">CV</a></b>.
 
 Meanwhile, I <b style="color: $white-color;"><a href="/teaching/">teach</a></b> <b style="color: $white-color;">Microeconomics</b>, <b style="color: $white-color;">Introduction to Economics of the EU</b>, and <b style="color: $white-color;">Python for Economists</b>, and I serve as a <b style="color: $white-color;">Teaching Assistant</b> for <b style="color: $white-color;">Political Economy</b> at the <b style="color: $white-color;">Department of Economics</b>, the <b style="color: $white-color;">Department of Management</b>, and the <b style="color: $white-color;">Department of Political and Social Sciences</b> at the <b style="color: $white-color;">University of Bologna</b>. At the same time, I contributed to the rollout of the <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="ref1">1</a></sup> in support of mindful parenting, within the <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a>, for which I conducted online interviews.
 
