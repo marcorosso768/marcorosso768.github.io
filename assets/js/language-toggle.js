@@ -1,7 +1,7 @@
 // Function to set language, store it, and redirect based on the URL mapping
 function setLanguage(language) {
   const defaultLanguage = 'en';
-  const currentPath = window.location.pathname;
+  const currentPath = decodeURIComponent(window.location.pathname);
   const isHomepage = currentPath === '/';
   // Parse the JSON data from the HTML script element
   const urlMap = JSON.parse(document.getElementById('urlMapData').textContent);
