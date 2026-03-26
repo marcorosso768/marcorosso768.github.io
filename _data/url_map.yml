@@ -48,7 +48,7 @@ it:
   "/es/investigación/": "/it/ricerca/"
   "/es/presentaciones/": "/it/presentazioni/"
   "/es/docencia/": "/it/didattica/"
-  "/es/contactos/": "it/contatti/"
+  "/es/contactos/": "/it/contatti/"
   "/es/supervisión/": "/it/supervisione/"
   # teaching materials
   "/es/docencia/econometría/": "/it/didattica/econometria/"
