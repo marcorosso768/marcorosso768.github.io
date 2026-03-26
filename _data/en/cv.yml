@@ -80,6 +80,13 @@
 - title: academic activities
   type: time_table
   contents:
+    - title: "Postdoctoral Researcher: Remote Work, Artificial Intelligence, and Local Labor Markets"
+      year: "Mar 2026—Mar 2027"
+      location: "Cagliari, Italy"
+      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Quantitative analysis of how digital nomad attraction and AI diffusion shape local labor markets and regional inequalities, using spatial equilibrium models and granular online job-posting data</i></p>'
+      institution: University of Cagliari
+      department: SEA — Department of Economics and Business Sciences
+      supervisor: 'supervisor: <a href="https://sites.google.com/site/fabiocerina/">Fabio Cerina</a>'
     - title: "Research Assistant: Organized crime, political connections and firms' performance"
       year: "Dec—Jan 2026"
       location: "Naples, Italy"
