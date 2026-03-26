@@ -33,8 +33,9 @@ subtitle: >
             </div>
         </div>
     </div>
-<!-- hidden: <div style="display: inline-block; width: 13px; text-align: center; position: absolute; margin-top: 1px; line-height: 14pt;"><i class="fa-solid fa-school fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i></div>-->
-<!-- hidden: <div style="padding-left: 22px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; margin-top: 2pt;"><a href="https://dse.unibo.it/en">Department of Economics</a></div> -->
+    
+<!-- hidden <div style="display: inline-block; width: 13px; text-align: center; position: absolute; margin-top: 1px; line-height: 14pt;"><i class="fa-solid fa-school fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i></div>-->
+<!-- hidden <div style="padding-left: 22px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; margin-top: 2pt;"><a href="https://dse.unibo.it/en">Department of Economics</a></div> -->
 
 profile:
   align: right
