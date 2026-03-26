@@ -52,7 +52,7 @@ nav_order: 1
 
 </div> -->
 
-<!-- JMP Section -->
+<!-- JMP Section 
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
     <h2 class="category">
@@ -60,10 +60,64 @@ nav_order: 1
       <span>job market paper</span>
     </h2>
   </a>
+</div> -->
+
+<!-- Content 
+<div id="content-1" class="toggle-section expanded"> -->
+
+<!-- Paper 
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-file-lines fa-fw"></i>
+      <span>
+        <em>Crime Perception and Voting Behavior: Evidence from Individual Data</em><br>
+          joint with
+          <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer"> Giovanni Prarolo</a>
+      </span>
+    </div>
+    <div class="pill-container">
+      <div class="pill-button toggle-pill" data-target="abstract-crime">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Abstract</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="keywords-crime">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Keywords</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="jel-crime">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">JEL</span>
+      </div>
+      <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" class="pill-link no-external">
+        <i class="fa-regular fa-newspaper fa-2xs"></i>
+        <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Paper</span>
+      </a>
+    </div>
+    <div id="abstract-crime" class="toggle-box">
+    This paper studies how exposure to geolocated crime-related news shapes individual voting behavior in Italian elections. Using a panel of non-relocating voters observed across multiple election rounds, we exploit within-individual variation in exposure to nearby crime news during the pre-election month, controlling for individual and district-by-election fixed effects. Aggregate exposure yields weak, unstable effects. Disaggregating by offender nationality reveals systematic patterns: immigrant-attributed crime news reduces support for parties with ambiguous immigration stances (e.g., Five Star Movement) and increases support for clear "law-and-order" parties, while Italian-attributed crime has negligible effects. Effects are stronger among high-skilled voters shifting from M5S and low-skilled voters abandoning Lega. In local elections, Italian crime punishes incumbents, while immigrant crime increases abstention. These asymmetric responses—absent in aggregate measures—indicate that crime salience operates primarily through identity-based framing rather than through generalized concerns about crime or security. The findings highlight how media attribution shapes electoral accountability.
+    </div>
+    <div id="keywords-crime" class="toggle-box">
+       crime; immigration; elections; news media; individual voting behavior.
+    </div>
+    <div id="jel-crime" class="toggle-box">
+       D72; D83; K42; L82.
+    </div>
+  </div>
+
+</div> -->
+
+<!-- Working Papers Section -->
+<div class="projects">
+  <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
+    <h2 class="category">
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
+      <span>working papers</span>
+    </h2>
+  </a>
 </div>
 
 <!-- Content -->
-<div id="content-1" class="toggle-section expanded">
+<div id="content-2" class="toggle-section expanded">
 
 <!-- Paper -->
   <div class="entry-block">
@@ -103,21 +157,6 @@ nav_order: 1
        D72; D83; K42; L82.
     </div>
   </div>
-
-</div>
-
-<!-- Working Papers Section -->
-<div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
-    <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
-      <span>working papers</span>
-    </h2>
-  </a>
-</div>
-
-<!-- Content -->
-<div id="content-2" class="toggle-section expanded">
 
 <!-- Paper -->
   <div class="entry-block">
