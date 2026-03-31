@@ -61,7 +61,7 @@ My <b style="color: $white-color;"><a href="/research/">research</a></b> focuses
 <b style="color: $white-color;">Political Economy</b>, 
 <b style="color: $white-color;">Crime Economics</b>, 
 <b style="color: $white-color;">Experimental</b> and 
-<b style="color: $white-color;">Behavioral Economics</b>, with a particular interest in how institutions and individual behavior interact in real-world settings. More broadly, I am drawn to questions that sit at the intersection of economics and social behavior, wherever the data and the methods can speak to them.
+<b style="color: $white-color;">Behavioral Economics</b>, with a particular interest in how institutions and individual behavior interact in real-world settings. More broadly, I am drawn to questions that sit at the intersection of economics and social behavior, wherever the data and the methods can speak to them. I pursued these questions during my Ph.D. in Economics at the University of Bologna, which I completed in 2026.
 
 Currently, I am a <b style="color: $white-color;">Postdoctoral Researcher</b> at the <b style="color: $white-color;">University of Cagliari</b>, where I am working on the interactions between remote work, artificial intelligence, and local labor markets. You can find more about my work in my <b style="color: $white-color;"><a href="/assets/pdf/en/[Marco%20Rosso]%20Curriculum%20Vitae.pdf" target="_blank" rel="noopener noreferrer" class="external">CV</a></b>.
 
