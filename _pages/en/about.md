@@ -15,13 +15,7 @@ subtitle: >
             <i class="fa-solid fa-building-columns fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
         </div>
         <div style="padding-left: 22px; margin-top: -10pt; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
-            <a href="https://www.unibo.it/en/homepage">University of Bologna</a>
-        </div>
-        <div style="display: inline-block; width: 13px; text-align: center; position: absolute; margin-top: -1.5pt; line-height: 14pt;">
-            <i class="fa-solid fa-building-columns fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
-        </div>
-        <div style="padding-left: 22px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
-            <a href="https://en.unica.it/en">University of Cagliari</a>
+            <a href="https://www.unibo.it/en/homepage">University&nbsp;of&nbsp;Bologna</a> and <a href="https://en.unica.it/en">University&nbsp;of&nbsp;Cagliari</a>
         </div>
         <!-- Second row: Location icon and actul location temp: <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna, Italy</a>-->
         <div style="position: relative; font-size: 10pt; margin-top: 8pt; margin-bottom: 15px; line-height: 14pt;">
