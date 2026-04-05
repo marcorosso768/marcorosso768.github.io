@@ -34,6 +34,11 @@ subtitle: >
     <i class="fa-solid fa-envelope fa-fw"></i>
     <a href="mailto:marco.rosso4@unibo.it">marco.rosso4@unibo.it</a>
   </div>
+
+  <div class="icon-link indented">
+    <i class="fa-solid fa-envelope fa-fw"></i>
+    <a href="mailto:marco.rosso@unica.it">marco.rosso@unica.it</a>
+  </div>
   
 </div>
 
