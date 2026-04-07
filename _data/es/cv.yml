@@ -6,7 +6,7 @@
     - field: Microeconomía aplicada
     - field: Economía Experimental
     - field: Economía del Comportamiento
-            
+
 - title: formación
   type: time_table
   contents:
@@ -61,7 +61,7 @@
 - title: Honores y Premios
   type: time_table
   contents:
-    - title: 'Incentivo “Marco Polo” a la Movilidad Internacional para la Investigación'
+    - title: "Incentivo “Marco Polo” a la Movilidad Internacional para la Investigación"
       year: "2024"
       location: "Bolonia, Italia"
       institution: University of Bologna
@@ -84,7 +84,7 @@
       institution: University of Naples Federico II
       department: Departamento de Ciencias Estadísticas y Económicas
       supervisor: 'supervisor: <a href="https://sites.google.com/site/gimmordinoecon/home">Giovanni Immordino</a>'
-    - title: 'Distribución de la App MinUTo en Apoyo a la Crianza Consciente'
+    - title: "Distribución de la App MinUTo en Apoyo a la Crianza Consciente"
       year: "nov—dic 2025"
       location: "Bolonia, Italia"
       institution: University of Bologna
@@ -96,14 +96,14 @@
       institution: University of Bologna
       department: DSE — Departamento de Economía
       supervisor: 'supervisor: <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
-    - title: '“En las raíces del desarrollo infantil: sobre el rol de las creencias, las preferencias y la participación parental” en el contexto del Proyecto MinUTo'
+    - title: "“En las raíces del desarrollo infantil: sobre el rol de las creencias, las preferencias y la participación parental” en el contexto del Proyecto MinUTo"
       year: "ene—abr 2024"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Implementación de experimentos en línea mediante la plataforma Qualtrics, gestión de las comunicaciones y coordinación con escuelas y familias, y entrega y recolección de los materiales necesarios para la realización de los experimentos</i></p>'
       location: "Bolonia, Italia"
       institution: University of Bologna
       department: DSE — Departamento de Economía
       supervisor: 'supervisoras: <a href="https://www.unibo.it/sitoweb/maria.bigoni/es">Maria Bigoni</a> y <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
-    - title: 'Generación y preparación de materiales de apoyo a la enseñanza para el curso de Econometría'
+    - title: "Generación y preparación de materiales de apoyo a la enseñanza para el curso de Econometría"
       year: "nov—dic 2023"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Diseño e implementación de cuestionarios en la plataforma mcEmpirics y redacción de una guía introductoria de Stata</i></p>'
       location: "Bolonia, Italia"
@@ -154,7 +154,7 @@
 - title: actividades de integración académica
   type: time_table
   contents:
-    - title: 'Organizador de la serie de encuentros de networking del Departamento'
+    - title: "Organizador de la serie de encuentros de networking del Departamento"
       year: 2022—
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Coordinación de encuentros estructurados de carácter mensual orientados a fomentar la integración vertical entre docentes, post-docs y estudiantes de doctorado. Actividad formalizada en el calendario oficial de eventos del Departamento</i></p>'
       location: "Bolonia, Italia"
@@ -169,7 +169,7 @@
       year: 2021—2022
       location: "Bolonia, Italia"
       institution: University of Bologna
-      department: DSE — Departamento de Economía   
+      department: DSE — Departamento de Economía
 
 - title: idiomas
   type: list_languages
@@ -215,19 +215,19 @@
 - title: pasatiempos
   type: list_groups
   contents:
-    - category: 'coctelería'
+    - category: "coctelería"
       icon: "fas fa-cocktail fa-fw"
-    - category: 'correr'
+    - category: "correr"
       icon: "fa-solid fa-person-running fa-fw"
-    - category: 'tenis'
+    - category: "tenis"
       icon: "fa-solid fa-baseball fa-fw"
-    - category: 'escalada'
+    - category: "escalada"
       icon: "fa-solid fa-mountain fa-fw"
-    - category: 'fútbol'
-      icon: "fa-regular fa-futbol fa-fw" 
-    - category: 'cómics'
+    - category: "fútbol"
+      icon: "fa-regular fa-futbol fa-fw"
+    - category: "cómics"
       icon: "fa-solid fa-book fa-fw"
-    - category: 'videojuegos'
+    - category: "videojuegos"
       icon: "fa-solid fa-gamepad fa-fw"
-    - category: 'juegos de mesa'
+    - category: "juegos de mesa"
       icon: "fa-solid fa-puzzle-piece fa-fw"

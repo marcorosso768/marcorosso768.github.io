@@ -5,11 +5,11 @@ permalink: /supervisione/
 title: supervisione
 description: <i>La mia supervisione riguarda studenti di tesi triennale e assistenti di ricerca a livello magistrale. Con gli studenti di tesi, il mio obiettivo è sviluppare una domanda di ricerca autonoma e costruire gli strumenti metodologici per affrontarla con rigore. Con gli assistenti di ricerca, il focus è sul coinvolgimento pratico nei flussi di lavoro empirici, dalla costruzione dei dati all'analisi. La pagina elenca gli studenti che ho supervisionato, attuali e passati.</i>
 subtitle: >
-    <div class="lang-links">
-        <a href="#" onclick="window.location.href='https://marcorosso.com/supervision/'; return false;">supervision</a>
-        <span class="separator">|</span>
-        <a href="/es/supervisión/" hreflang="es">supervisión</a>
-    </div>
+  <div class="lang-links">
+      <a href="#" onclick="window.location.href='https://marcorosso.com/supervision/'; return false;">supervision</a>
+      <span class="separator">|</span>
+      <a href="/es/supervisión/" hreflang="es">supervisión</a>
+  </div>
 nav: true
 nav_order: 4
 ---

@@ -5,11 +5,11 @@ permalink: /research/
 title: research
 description: <i>My research agenda develops clean, testable theoretical frameworks—centered on incentives, information frictions, and selection—to clarify mechanisms before tracing their empirical implications. Empirically, I work with reproducible, end-to-end pipelines that often combine web scraping and NLP with geocoding and panel construction. My workflow typically relies on Python, Stata, and spatial tools such as QGIS (and, when appropriate, R).</i>
 subtitle: >
-    <div class="lang-links">
-        <a href="/it/ricerca/" hreflang="it">ricerca</a>
-        <span class="separator">|</span>
-        <a href="/es/investigación/" hreflang="es">investigación</a>
-    </div>
+  <div class="lang-links">
+      <a href="/it/ricerca/" hreflang="it">ricerca</a>
+      <span class="separator">|</span>
+      <a href="/es/investigación/" hreflang="es">investigación</a>
+  </div>
 nav: true
 nav_order: 1
 ---
@@ -32,10 +32,10 @@ nav_order: 1
     <div class="icon-entry indented">
       <i class="fa-solid fa-newspaper fa-fw"></i>
       <span>
-        Farina E., Rosso M., Dansero L., et al. (2023). 
+        Farina E., Rosso M., Dansero L., et al. (2023).
         <a href="https://doi.org/10.1136/jech-2022-220088" target="_blank" rel="noopener noreferrer">
           Short-term effect of colorectal cancer on income.
-        </a> 
+        </a>
         <i>Journal of Epidemiology & Community Health</i>, 77:196–201.
       </span>
     </div>
@@ -52,7 +52,7 @@ nav_order: 1
 
 </div> -->
 
-<!-- JMP Section 
+<!-- JMP Section
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
     <h2 class="category">
@@ -62,10 +62,10 @@ nav_order: 1
   </a>
 </div> -->
 
-<!-- Content 
+<!-- Content
 <div id="content-1" class="toggle-section expanded"> -->
 
-<!-- Paper 
+<!-- Paper
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-file-lines fa-fw"></i>
@@ -319,7 +319,6 @@ almost entirely by mothers, while fathers’ turnout remains unaffected. The res
   </div>
 
 </div>
-
 
 <!-- Other Publications Section -->
 <div class="projects">

@@ -119,7 +119,7 @@ div.list-group {
   align-items: flex-start;
   //margin-bottom: 2rem;
   width: 7em;
-  
+
   &.flex-item {
     flex: 1 1 calc(50% - 1em);
     padding: 8px;
@@ -130,7 +130,7 @@ div.list-group {
     flex-direction: column;
     justify-content: space-between;
   }
-  
+
   @media (min-width: 576px) {
     &.flex-item {
       all: unset;
@@ -269,7 +269,9 @@ table.table-cv td.supervisor a {
   color: var(--global-theme-color, #ffcc00) !important;
   text-decoration: none !important;
   font-style: normal;
-  transition: text-decoration .2s ease, font-style .2s ease;
+  transition:
+    text-decoration 0.2s ease,
+    font-style 0.2s ease;
 }
 
 table.table-cv td.supervisor a:hover,

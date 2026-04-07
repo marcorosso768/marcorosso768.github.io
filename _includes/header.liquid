@@ -2,7 +2,7 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {%- comment -%} Determine contact page path without extra whitespace {% endcomment %}
+      {%- comment -%} Determine contact page path without extra whitespace {%- endcomment -%}
       {%- capture contact_path -%}
         {%- if site.active_lang == 'it' -%}contatti{%- elsif site.active_lang == 'es' -%}contactos{%- else -%}contacts{%- endif -%}
       {%- endcapture -%}
@@ -24,38 +24,41 @@
             {{- site.title -}}
           {%- endif -%}
         </a>
-        <!-- Envelope icon linking to the contact page 
-        <a class="d-inline-block" style="font-size: 12pt; line-height: 24px; vertical-align: bottom; color: var(--global-theme-color); margin-left: -2.5px;" href="{{ site.baseurl }}/{{ contact_path }}/">
-            <i class="fa-regular fa-envelope"></i>
-        </a>
+        <!--
+          Envelope icon linking to the contact page
+          <a class="d-inline-block" style="font-size: 12pt; line-height: 24px; vertical-align: bottom; color: var(--global-theme-color); margin-left: -2.5px;" href="{{ site.baseurl }}/{{ contact_path }}/">
+              <i class="fa-regular fa-envelope"></i>
+          </a>
         -->
 
       {% elsif site.enable_navbar_social %}
         <!--
-        Social Icons (commented out for future reuse)
-        <div style="margin: 0; padding: 0; position: relative;">
-          <div class="navbar-brand social">
-            <div style="display: inline-block; line-height: 1.2; font-size: 12pt; color: var(--global-theme-color);">
-                <span style="font-weight: bolder; color: var(--global-theme-color);">{{ site.data[site.active_lang].strings.contact_note }}</span>
-            </div>
-            <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: 2.5px;">
-              {% include social_header.liquid %}
+          Social Icons (commented out for future reuse)
+          <div style="margin: 0; padding: 0; position: relative;">
+            <div class="navbar-brand social">
+              <div style="display: inline-block; line-height: 1.2; font-size: 12pt; color: var(--global-theme-color);">
+                  <span style="font-weight: bolder; color: var(--global-theme-color);">{{ site.data[site.active_lang].strings.contact_note }}</span>
+              </div>
+              <div style="display: inline-block; vertical-align: middle; line-height: 1; font-size: 12pt; margin-left: 2.5px;">
+                {% include social_header.liquid %}
+              </div>
             </div>
           </div>
-        </div>
         -->
         <!-- Replacement with contact_note and envelope icon, both linking to the contact page -->
         <div style="margin-left: -6pt;">
-            <ul class="navbar-nav mr-auto pl-0 ml-0">
-              <li class="nav-item">
-                <a class="nav-link d-flex align-items-center" 
-                   href="{{ site.baseurl }}/{{ contact_path }}/" 
-                   title="{{ site.data[site.active_lang].strings.contact_note }}">
-                    <i class="fa-solid fa-address-card fa-fw ml-0"></i>
-                    <span class="contact-label ml-1">{{ site.data[site.active_lang].strings.contact_note }}</span>
-                </a>
-              </li>
-            </ul>
+          <ul class="navbar-nav mr-auto pl-0 ml-0">
+            <li class="nav-item">
+              <a
+                class="nav-link d-flex align-items-center"
+                href="{{ site.baseurl }}/{{ contact_path }}/"
+                title="{{ site.data[site.active_lang].strings.contact_note }}"
+              >
+                <i class="fa-solid fa-address-card fa-fw ml-0"></i>
+                <span class="contact-label ml-1">{{ site.data[site.active_lang].strings.contact_note }}</span>
+              </a>
+            </li>
+          </ul>
         </div>
       {% endif %}
 
@@ -147,74 +150,94 @@
           <!-- <div style="display: inline-block; line-height: 1; font-size: 12pt; margin-left: -7.5px; color: var(  global-theme-color);"> -->
           <!-- <b>{{ site.data[site.active_lang].strings.lang_note }}</b> -->
           <!-- </div> -->
-            {% if site.languages.size >= 2 %}
-              <ul class="navbar-nav" style="list-style-type: none; padding-left: 0;">
-                <li class="nav-item dropdown">
-                  <!-- Dropdown Toggle (Icon Only) -->
-                  <a class="nav-link dropdown-toggle"
-                     role="button"
-                     data-toggle="dropdown"
-                     aria-expanded="false"
-                     aria-label="{% case site.active_lang %}
-                       {% when 'it' %}Seleziona lingua
-                       {% when 'es' %}Seleccionar idioma
-                       {% else %}Select language
-                     {% endcase %}"
-                     title="{% case site.active_lang %}
-                       {% when 'it' %}Seleziona lingua
-                       {% when 'es' %}Seleccionar idioma
-                       {% else %}Select language
-                     {% endcase %}"
-                     style="color: var(--global-theme-color);">
-                    <i class="fa fa-language fa-fw" aria-hidden="true" style="color: var(--global-theme-color); font-size: 14pt; vertical-align: middle;"></i>
-                  </a>
-                  <!-- Dropdown Menu (Language Options with Custom Names in Default Color) -->
-                  <div class="dropdown-menu dropdown-menu-right">
-                    {% assign lang_labels = site.data.language_names[site.active_lang] | default: site.data.language_names.en %}
-                    {% for l in site.languages %}
-                      <a class="dropdown-item {% if l == site.active_lang %}active{% endif %}"
-                         onclick="setLanguage('{{ l }}')"
-                         aria-label="{% case site.active_lang %}
-                           {% when 'it' %}Cambia lingua in {{ lang_labels[l] | escape }}
-                           {% when 'es' %}Cambiar idioma a {{ lang_labels[l] | escape }}
-                           {% else %}Change language to {{ lang_labels[l] | escape }}
-                         {% endcase %}">
-                        {% if site.country_flag %}
-                          <span class="fi fi-{{ l | split: '-' | last }}"></span>
-                        {% endif %}
-                        {{ lang_labels[l] | default: l | escape }}
-                      </a>
-                    {% endfor %}
-                  </div>
-                </li>
-              </ul>
-            {% endif %}
-            
-            {% if site.search_enabled %}
+          {% if site.languages.size >= 2 %}
+            <ul class="navbar-nav" style="list-style-type: none; padding-left: 0;">
+              <li class="nav-item dropdown">
+                <!-- Dropdown Toggle (Icon Only) -->
+                <a
+                  class="nav-link dropdown-toggle"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                  aria-label="
+                    {% case site.active_lang %}
+                      {% when 'it' %}Seleziona lingua
+                      {% when 'es' %}Seleccionar idioma
+                      {% else %}Select language
+                    {% endcase %}
+                  "
+                  title="
+                    {% case site.active_lang %}
+                      {% when 'it' %}Seleziona lingua
+                      {% when 'es' %}Seleccionar idioma
+                      {% else %}Select language
+                    {% endcase %}
+                  "
+                  style="color: var(--global-theme-color);"
+                >
+                  <i
+                    class="fa fa-language fa-fw"
+                    aria-hidden="true"
+                    style="color: var(--global-theme-color); font-size: 14pt; vertical-align: middle;"
+                  ></i>
+                </a>
+                <!-- Dropdown Menu (Language Options with Custom Names in Default Color) -->
+                <div class="dropdown-menu dropdown-menu-right">
+                  {% assign lang_labels = site.data.language_names[site.active_lang] | default: site.data.language_names.en %}
+                  {% for l in site.languages %}
+                    <a
+                      class="dropdown-item {% if l == site.active_lang %}active{% endif %}"
+                      onclick="setLanguage('{{ l }}')"
+                      aria-label="
+                        {% case site.active_lang %}
+                          {% when 'it' %}Cambia lingua in {{ lang_labels[l] | escape }}
+                          {% when 'es' %}Cambiar idioma a {{ lang_labels[l] | escape }}
+                          {% else %}Change language to {{ lang_labels[l] | escape }}
+                        {% endcase %}
+                      "
+                    >
+                      {% if site.country_flag %}
+                        <span class="fi fi-{{ l | split: '-' | last }}"></span>
+                      {% endif %}
+                      {{ lang_labels[l] | default: l | escape }}
+                    </a>
+                  {% endfor %}
+                </div>
+              </li>
+            </ul>
+          {% endif %}
+
+          {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
               <button id="search-toggle" title="Search" onclick="openSearchModal()">
                 <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
               </button>
             </li>
-            {% endif %}
+          {% endif %}
 
-            {% if site.enable_darkmode %}
+          {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container" style="margin-right:8pt;">
-              <button id="light-toggle"
-                      aria-expanded="false"
-                      aria-label="{% case site.active_lang %}
-                                   {% when 'it' %}Cambiare tema
-                                   {% when 'es' %}Cambiar tema
-                                   {% else %}Change theme
-                                  {% endcase %}"
-                      title="{% case site.active_lang %}
-                              {% when 'it' %}Cambiare tema
-                              {% when 'es' %}Cambiar tema
-                              {% else %}Change theme
-                            {% endcase %}"
-                      style="color: var(--global-theme-color); background: none; border: none;">
+              <button
+                id="light-toggle"
+                aria-expanded="false"
+                aria-label="
+                  {% case site.active_lang %}
+                   {% when 'it' %}Cambiare tema
+                   {% when 'es' %}Cambiar tema
+                   {% else %}Change theme
+                  {% endcase %}
+                "
+                title="
+                  {% case site.active_lang %}
+                    {% when 'it' %}Cambiare tema
+                    {% when 'es' %}Cambiar tema
+                    {% else %}Change theme
+                  {% endcase %}
+                "
+                style="color: var(--global-theme-color); background: none; border: none;"
+              >
                 <i class="ti ti-moon-filled fa-fw" id="light-toggle-dark" style="font-size: 14pt; vertical-align: middle;"></i>
                 <i class="ti ti-sun-filled fa-fw" id="light-toggle-light" style="font-size: 14pt; vertical-align: middle;"></i>
               </button>
@@ -224,7 +247,7 @@
       </div>
     </div>
   </nav>
-    {% if site.enable_progressbar %}
+  {% if site.enable_progressbar %}
     <!-- Scrolling Progress Bar -->
     <progress id="progress" value="0">
       <div class="progress-container">

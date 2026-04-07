@@ -5,12 +5,12 @@ permalink: /teaching/microeconomics/
 title: microeconomics
 description_format: multiline
 description: |
-    Here you can find useful materials for the Microeconomics course.
-    Note: the material is available in Italian.
+  Here you can find useful materials for the Microeconomics course.
+  Note: the material is available in Italian.
 subtitle: >
-    <div class="lang-links">
-        <a href="#" onclick="window.location.href='https://marcorosso.com/teaching/'; return false;">back to teaching</a>
-    </div>
+  <div class="lang-links">
+      <a href="#" onclick="window.location.href='https://marcorosso.com/teaching/'; return false;">back to teaching</a>
+  </div>
 nav: false
 ---
 
@@ -81,7 +81,6 @@ nav: false
   Lecture 5: <a href="/assets/pdf/teaching/microeconomia/Lezione 5 - Elasticità della Domanda.pdf" target="_blank" rel="noopener noreferrer">Demand Elasticity</a>
   </span>
 </div>
-
 
 <div class="course-entry indented">
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>

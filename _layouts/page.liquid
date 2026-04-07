@@ -16,7 +16,7 @@ layout: default
     {% endif %}
     {% if page.description %}
       <p class="post-description">
-        {% if page.description_format == "multiline" %}
+        {% if page.description_format == 'multiline' %}
           <em>{{ page.description | newline_to_br }}</em>
         {% else %}
           {{ page.description }}

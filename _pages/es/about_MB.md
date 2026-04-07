@@ -2,7 +2,7 @@
 <span class="indented" style="font-size: 12pt; color: var(--global-theme-color); display: block; line-height: 1; margin-bottom: 10pt;"> <i>Supervisora del Proyecto MinUTo</i> </span>
 
 <span class="indented" style="font-size: 15pt; display: block; line-height: 1; margin-bottom: 4pt;"> Profesora Titular </span>
-<span class="indented" style="display: block; line-height: 1; margin-bottom: 4pt;"> University of Bologna </span> 
+<span class="indented" style="display: block; line-height: 1; margin-bottom: 4pt;"> University of Bologna </span>
 <span class="indented" style="display: block; line-height: 1; margin-bottom: 6pt;"> Departamento de Economía </span>
 <span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bolonia, Italia</span>
 <span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 4pt;"> Disciplina Académica: ECON-01/A Economía </span>

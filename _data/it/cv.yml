@@ -6,7 +6,7 @@
     - field: Microeconomia Applicata
     - field: Economia Sperimentale
     - field: Economia Comportamentale
-    
+
 - title: formazione
   type: time_table
   contents:
@@ -87,7 +87,7 @@
       institution: Università di Napoli Federico II
       department: Dipartimento di Scienze Statistiche ed Economiche
       supervisor: 'supervisor: <a href="https://sites.google.com/site/gimmordinoecon/home">Giovanni Immordino</a>'
-    - title: 'Distribuzione dell’App MinUTo a Supporto della Genitorialità Consapevole'
+    - title: "Distribuzione dell’App MinUTo a Supporto della Genitorialità Consapevole"
       year: "nov—dic 2025"
       location: "Bologna, Italia"
       institution: Università di Bologna
@@ -99,20 +99,20 @@
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
       supervisor: 'supervisor: <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
-    - title: '“Alle radici dello sviluppo infantile: sul ruolo delle convinzioni, delle preferenze e del coinvolgimento genitoriale” nel contesto del Progetto MinUTo'
+    - title: "“Alle radici dello sviluppo infantile: sul ruolo delle convinzioni, delle preferenze e del coinvolgimento genitoriale” nel contesto del Progetto MinUTo"
       year: "gen—apr 2024"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Implementazione di esperimenti online mediante la piattaforma Qualtrics, gestione delle comunicazioni e del coordinamento con scuole e famiglie, e consegna e raccolta dei materiali necessari alla realizzazione degli esperimenti</i></p>'
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
       supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/maria.bigoni/it">Maria Bigoni</a> e <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
-    - title: 'Generazione e preparazione di materiali di supporto all’insegnamento per il corso di Econometria'
+    - title: "Generazione e preparazione di materiali di supporto all’insegnamento per il corso di Econometria"
       year: "nov—dic 2023"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Progettazione e implementazione di quiz sulla piattaforma mcEmpirics e redazione di una guida introduttiva a Stata</i></p>'
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
-      supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/margherita.fort/it">Margherita Fort</a> e <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'   
+      supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/margherita.fort/it">Margherita Fort</a> e <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
     - title: "Assistente di Ricerca: Centro di Ricerca sulle Pensioni e le Politiche Sociali (CeRP)"
       year: "set—dic 2018"
       location: "Torino, Italia"
@@ -157,7 +157,7 @@
 - title: attività di networking
   type: time_table
   contents:
-    - title: 'Organizzatore della serie di incontri di networking del Dipartimento'
+    - title: "Organizzatore della serie di incontri di networking del Dipartimento"
       year: 2022—
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Coordinamento di incontri strutturati a cadenza mensile finalizzati a favorire l’integrazione verticale tra docenti, post-doc e dottorandi. Attività formalizzata nel calendario ufficiale degli eventi del Dipartimento</i></p>'
       location: "Bologna, Italia"
@@ -173,7 +173,7 @@
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
-    
+
 - title: conoscenze linguistiche
   type: list_languages
   contents:
@@ -218,25 +218,19 @@
 - title: hobby
   type: list_groups
   contents:
-    - category: 'mixology'
+    - category: "mixology"
       icon: "fas fa-cocktail fa-fw"
-    - category: 'corsa'
+    - category: "corsa"
       icon: "fa-solid fa-person-running fa-fw"
-    - category: 'tennis'
+    - category: "tennis"
       icon: "fa-solid fa-baseball fa-fw"
-    - category: 'arrampicata'
+    - category: "arrampicata"
       icon: "fa-solid fa-mountain fa-fw"
-    - category: 'calcio'
-      icon: "fa-regular fa-futbol fa-fw" 
-    - category: 'fumetti'
+    - category: "calcio"
+      icon: "fa-regular fa-futbol fa-fw"
+    - category: "fumetti"
       icon: "fa-solid fa-book fa-fw"
-    - category: 'video games'
+    - category: "video games"
       icon: "fa-solid fa-gamepad fa-fw"
-    - category: 'giochi da tavolo'
+    - category: "giochi da tavolo"
       icon: "fa-solid fa-puzzle-piece fa-fw"
-
-
-
-
-
-

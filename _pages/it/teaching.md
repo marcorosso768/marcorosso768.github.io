@@ -5,11 +5,11 @@ permalink: /didattica/
 title: didattica
 description: <i>La mia attività didattica copre corsi di laurea e laurea magistrale in Econometria, Economia Politica, Microeconomia, Economia Comportamentale, Teoria dei Giochi e Python per Economisti. In tutti i corsi, l’enfasi è posta sulla costruzione dell’intuizione insieme a derivazioni rigorose e flussi di lavoro empirici riproducibili, con materiali progettati per essere direttamente utilizzabili in esercitazioni e progetti applicati. La pagina elenca i corsi che ho tenuto e mette a disposizione dispense selezionate, slide e altre risorse didattiche.</i>
 subtitle: >
-    <div class="lang-links">
-        <a href="#" onclick="window.location.href='https://marcorosso.com/teaching/'; return false;">teaching</a>
-        <span class="separator">|</span>
-        <a href="/es/docencia/" hreflang="es">docencia</a>
-    </div>
+  <div class="lang-links">
+      <a href="#" onclick="window.location.href='https://marcorosso.com/teaching/'; return false;">teaching</a>
+      <span class="separator">|</span>
+      <a href="/es/docencia/" hreflang="es">docencia</a>
+  </div>
 nav: true
 nav_order: 3
 ---

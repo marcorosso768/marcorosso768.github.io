@@ -4,38 +4,38 @@ layout: about
 title: su&nbsp;di me
 permalink: /
 subtitle: >
-    <div style="margin-top: -0.75rem;">
-    <p style="font-weight: 500;">
-        Professore&nbsp;a&nbsp;Contratto | Tutor&nbsp;Didattico
-    </p>
-    </div>
-    <div style="margin: 0; padding: 0; position: relative; margin-top: 1.5rem;">
-        <!-- First row: University icon and department name -->
-        <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; margin-top: -1.5pt; line-height: 14pt;">
-            <i class="fa-solid fa-building-columns fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
-        </div>
-        <div style="padding-left: 22px; margin-top: -10pt; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
-            <a href="https://www.unibo.it/it">Università di Bologna</a>
-        </div>
-        <div style="display: inline-block; width: 13px; text-align: center; position: absolute; margin-top: 1px; line-height: 14pt;">
-            <i class="fa-solid fa-school fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
-        </div>
-        <div style="padding-left: 22px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; margin-top: 2pt;">
-            <a href="https://dse.unibo.it">Dipartimento di Scienze Economiche</a>
-        </div>
-        <!-- Second row: Location icon and actula location -->
-        <div style="position: relative; font-size: 10pt; margin-top: 8pt; margin-bottom: 15px; line-height: 14pt;">
-            <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; line-height: 14pt;">
-                <i class="fa-solid fa-location-dot" style="font-size: 10pt;"></i>
-            </div>
-            <div style="display: inline-block; padding-left: 20px; margin-top: -12pt; line-height: 14pt;">
-                <span style="font-size: 10pt;">
-                    posizione attuale: Bologna, Italia
-                </span>
-            </div>
-        </div>
-    </div>
-    
+  <div style="margin-top: -0.75rem;">
+  <p style="font-weight: 500;">
+      Professore&nbsp;a&nbsp;Contratto | Tutor&nbsp;Didattico
+  </p>
+  </div>
+  <div style="margin: 0; padding: 0; position: relative; margin-top: 1.5rem;">
+      <!-- First row: University icon and department name -->
+      <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; margin-top: -1.5pt; line-height: 14pt;">
+          <i class="fa-solid fa-building-columns fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+      </div>
+      <div style="padding-left: 22px; margin-top: -10pt; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
+          <a href="https://www.unibo.it/it">Università di Bologna</a>
+      </div>
+      <div style="display: inline-block; width: 13px; text-align: center; position: absolute; margin-top: 1px; line-height: 14pt;">
+          <i class="fa-solid fa-school fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+      </div>
+      <div style="padding-left: 22px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; margin-top: 2pt;">
+          <a href="https://dse.unibo.it">Dipartimento di Scienze Economiche</a>
+      </div>
+      <!-- Second row: Location icon and actula location -->
+      <div style="position: relative; font-size: 10pt; margin-top: 8pt; margin-bottom: 15px; line-height: 14pt;">
+          <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; line-height: 14pt;">
+              <i class="fa-solid fa-location-dot" style="font-size: 10pt;"></i>
+          </div>
+          <div style="display: inline-block; padding-left: 20px; margin-top: -12pt; line-height: 14pt;">
+              <span style="font-size: 10pt;">
+                  posizione attuale: Bologna, Italia
+              </span>
+          </div>
+      </div>
+  </div>
+
 profile:
   align: center-right
   image: profile_pictures/prof_pic_MR.webp
@@ -51,6 +51,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <span style="font-family: 'Courier New', monospace; font-size:14px;">"Potrei non essere arrivato dove avevo intenzione di andare, ma credo di essere finito dove avevo bisogno di essere."</span>
+
 <div style="display: flex;">
     <div style="flex-grow:1;"></div>
     <span style="font-family: 'Courier New', monospace; font-size:12px;">Douglas Adams — La lunga oscura pausa caffè dell’anima</span>
@@ -59,10 +60,10 @@ social: true # includes social icons at the bottom of the page
 
 Benvenutə nel mio sito personale — sono felice che tu sia arrivatə qui di tua spontanea volontà (o forse hai cliccato per sbaglio; capita anche ai migliorə).
 
-La mia <b style="color: $white-color;"><a href="/it/ricerca/">ricerca</a></b> si concentra su 
-<b style="color: $white-color;">Economia Politica</b>, 
-<b style="color: $white-color;">Economia del Crimine</b>, 
-<b style="color: $white-color;">Economia Sperimentale</b> ed 
+La mia <b style="color: $white-color;"><a href="/it/ricerca/">ricerca</a></b> si concentra su
+<b style="color: $white-color;">Economia Politica</b>,
+<b style="color: $white-color;">Economia del Crimine</b>,
+<b style="color: $white-color;">Economia Sperimentale</b> ed
 <b style="color: $white-color;">Economia Comportamentale</b>, con un interesse specifico per l’interazione tra istituzioni e comportamento individuale in contesti reali.
 
 Attualmente sono sul <i>Job Market</i> alla ricerca di posizioni accademiche e di ricerca. È possibile scaricare il mio <b style="color: $white-color;"><a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" target="_blank" rel="noopener noreferrer" class="external">Job Market Paper</a></b> e il <b style="color: $white-color;"><a href="/assets/pdf/it/[Marco%20Rosso]%20Curriculum%20Vitae_it.pdf" target="_blank" rel="noopener noreferrer" class="external">CV</a></b> qui.

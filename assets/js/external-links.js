@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const siteOrigin = window.location.origin;
 
-  document.querySelectorAll("a[href]:not(.no-external)").forEach(link => {
+  document.querySelectorAll("a[href]:not(.no-external)").forEach((link) => {
     const href = link.getAttribute("href");
 
     if (!href || href.startsWith("#") || href.startsWith("/#") || href.startsWith("javascript:")) return;

@@ -4,11 +4,11 @@ layout: page
 permalink: /talks/
 title: talks
 subtitle: >
-    <div class="lang-links">
-        <a href="/it/presentazioni/" hreflang="it">presentazioni</a>
-        <span class="separator">|</span>
-        <a href="/es/presentaciones/" hreflang="es">presentaciones</a>
-    </div>
+  <div class="lang-links">
+      <a href="/it/presentazioni/" hreflang="it">presentazioni</a>
+      <span class="separator">|</span>
+      <a href="/es/presentaciones/" hreflang="es">presentaciones</a>
+  </div>
 description: <i>This section documents invited talks, conference presentations, workshops, and related academic discussions. I use these venues to present work at different stages—early ideas, work in progress, and completed papers—often tailoring the emphasis toward identification, mechanisms, and external validity depending on the audience.</i>
 nav: true
 nav_order: 2
@@ -121,7 +121,7 @@ nav_order: 2
     </div>
   </div>
 
-<!-- 2024 
+<!-- 2024
 <p style="margin-left: 0.1em;"><b>2024</b></p>
 
   <div class="seminar-entry indented">

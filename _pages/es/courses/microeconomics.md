@@ -5,12 +5,12 @@ permalink: /docencia/microeconomía/
 title: microeconomía
 description_format: multiline
 description: |
-    Aquí se encuentran materiales útiles para el curso de Microeconomía.
-    Nota: el material está disponible en italiano.
+  Aquí se encuentran materiales útiles para el curso de Microeconomía.
+  Nota: el material está disponible en italiano.
 subtitle: >
-    <div class="lang-links">
-        <a href="/es/docencia/" hreflang="es">volver a docencia</a>
-    </div>
+  <div class="lang-links">
+      <a href="/es/docencia/" hreflang="es">volver a docencia</a>
+  </div>
 nav: false
 ---
 

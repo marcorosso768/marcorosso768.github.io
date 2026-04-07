@@ -105,18 +105,17 @@
   <meta property="og:image" content="{{ site.url }}/assets/img/og_image/MR.png">
   <meta property="og:locale" content="{{ site.lang }}">
 
-{% if site.serve_og_meta %}
-  <!-- OpenGraph -->
-  <meta property="og:site_name" content="{{ title }}">
-  <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
-  <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
-  <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
-  <meta property="og:description" content="{{ site.data[site.active_lang].strings.site_description }}">
-  <!-- Fixed OpenGraph image for all languages -->
-  <meta property="og:image" content="{{ site.url }}/assets/img/og_image/MR.png">
-  <meta property="og:locale" content="{{ site.lang }}">
-{% endif %}
-
+  {% if site.serve_og_meta %}
+    <!-- OpenGraph -->
+    <meta property="og:site_name" content="{{ title }}">
+    <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
+    <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
+    <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
+    <meta property="og:description" content="{{ site.data[site.active_lang].strings.site_description }}">
+    <!-- Fixed OpenGraph image for all languages -->
+    <meta property="og:image" content="{{ site.url }}/assets/img/og_image/MR.png">
+    <meta property="og:locale" content="{{ site.lang }}">
+  {% endif %}
 
   <!-- Twitter card -->
   <meta name="twitter:card" content="summary">

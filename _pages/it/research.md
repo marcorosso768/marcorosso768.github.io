@@ -5,11 +5,11 @@ permalink: /ricerca/
 title: ricerca
 description: <i>Il mio programma di ricerca sviluppa quadri teorici rigorosi e verificabili — fondati su incentivi, frizioni informative e selezione — al fine di chiarire i meccanismi prima di analizzarne le implicazioni empiriche. Sul piano empirico, utilizzo pipeline riproducibili end-to-end che combinano web scraping e analisi del linguaggio naturale (NLP) con geocodifica e costruzione di dati panel. Il mio flusso di lavoro si basa prevalentemente su Python, Stata e strumenti spaziali quali QGIS (e, quando opportuno, R).</i>
 subtitle: >
-    <div class="lang-links">
-        <a href="#" onclick="window.location.href='https://marcorosso.com/research/'; return false;">research</a>
-        <span class="separator">|</span>
-        <a href="/es/investigación/" hreflang="es">investigación</a>
-    </div>
+  <div class="lang-links">
+      <a href="#" onclick="window.location.href='https://marcorosso.com/research/'; return false;">research</a>
+      <span class="separator">|</span>
+      <a href="/es/investigación/" hreflang="es">investigación</a>
+  </div>
 nav: true
 nav_order: 1
 ---
@@ -32,10 +32,10 @@ nav_order: 1
     <div class="icon-entry indented">
       <i class="fa-solid fa-newspaper fa-fw"></i>
       <span>
-        Farina E., Rosso M., Dansero L., et al. (2023). 
+        Farina E., Rosso M., Dansero L., et al. (2023).
         <a href="https://doi.org/10.1136/jech-2022-220088" target="_blank" rel="noopener noreferrer">
           Short-term effect of colorectal cancer on income.
-        </a> 
+        </a>
         <i>Journal of Epidemiology & Community Health</i>, 77:196–201.
       </span>
     </div>
