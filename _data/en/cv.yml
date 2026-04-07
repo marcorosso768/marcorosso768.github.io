@@ -6,7 +6,7 @@
     - field: Applied Microeconomics
     - field: Experimental Economics
     - field: Behavioral Economics
-    
+
 - title: education
   type: time_table
   contents:
@@ -76,7 +76,7 @@
       location: "Turin, Italy"
       institution: University of Turin
       department: ESOMAS — Department of Economics
-      
+
 - title: academic activities
   type: time_table
   contents:
@@ -94,7 +94,7 @@
       institution: University of Naples Federico II
       department: DISES — Department of Economics and Statistics
       supervisor: 'supervisor: <a href="https://sites.google.com/site/gimmordinoecon/home">Giovanni Immordino</a>'
-    - title: 'Distribution of the MinUTo App in Support of Mindful Parenting'
+    - title: "Distribution of the MinUTo App in Support of Mindful Parenting"
       year: "Nov—Dec 2025"
       location: "Bologna, Italy"
       institution: University of Bologna
@@ -160,11 +160,11 @@
       institution: Regional Public Health Observatory (SEPI)
       department: Public Health Department (Local Health Board TO3)
       supervisor: 'local advisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
-   
+
 - title: networking activities
   type: time_table
   contents:
-    - title: 'Organizer of Department Networking Series'
+    - title: "Organizer of Department Networking Series"
       year: 2022—
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Coordination of monthly structured gatherings to facilitate vertical integration between faculty, post-docs, and Ph.D. students. Formalized in the Department’s official event calendar</i></p>'
       location: "Bologna, Italy"
@@ -180,7 +180,7 @@
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE — Department of Economics
-    
+
 - title: languages
   type: list_languages
   contents:
@@ -205,7 +205,7 @@
             Stata, Python, QGIS, Qualtrics, MATLAB, R, C++, LaTeX, MS Office, &lt;HTML&gt;
           </div>
         </div>
-   
+
 - title: other experience
   type: time_table
   contents:
@@ -225,19 +225,19 @@
 - title: hobbies
   type: list_groups
   contents:
-    - category: 'mixology'
+    - category: "mixology"
       icon: "fas fa-cocktail fa-fw"
-    - category: 'running'
+    - category: "running"
       icon: "fa-solid fa-person-running fa-fw"
-    - category: 'tennis'
+    - category: "tennis"
       icon: "fa-solid fa-baseball fa-fw"
-    - category: 'climbing'
+    - category: "climbing"
       icon: "fa-solid fa-mountain fa-fw"
-    - category: 'football'
-      icon: "fa-regular fa-futbol fa-fw" 
-    - category: 'comics'
+    - category: "football"
+      icon: "fa-regular fa-futbol fa-fw"
+    - category: "comics"
       icon: "fa-solid fa-book fa-fw"
-    - category: 'video games'
+    - category: "video games"
       icon: "fa-solid fa-gamepad fa-fw"
-    - category: 'board games'
+    - category: "board games"
       icon: "fa-solid fa-puzzle-piece fa-fw"

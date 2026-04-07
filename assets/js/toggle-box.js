@@ -1,26 +1,26 @@
 function initTogglePills() {
-  document.querySelectorAll('.toggle-pill').forEach(pill => {
-    const targetId = pill.getAttribute('data-target');
+  document.querySelectorAll(".toggle-pill").forEach((pill) => {
+    const targetId = pill.getAttribute("data-target");
     const box = document.getElementById(targetId);
 
-    pill.addEventListener('click', () => {
-      const isOpen = box.classList.contains('active');
+    pill.addEventListener("click", () => {
+      const isOpen = box.classList.contains("active");
 
       // Chiudi tutto
-      document.querySelectorAll('.toggle-box').forEach(b => collapseBox(b));
-      document.querySelectorAll('.toggle-pill').forEach(p => p.classList.remove('rotated'));
+      document.querySelectorAll(".toggle-box").forEach((b) => collapseBox(b));
+      document.querySelectorAll(".toggle-pill").forEach((p) => p.classList.remove("rotated"));
 
       if (!isOpen) {
         expandBox(box);
-        pill.classList.add('rotated');
+        pill.classList.add("rotated");
       }
     });
   });
 }
 
 function expandBox(box) {
-  box.style.display = 'block';
-  box.classList.add('active');
+  box.style.display = "block";
+  box.classList.add("active");
   box.style.opacity = 1;
 
   // Forza reflow
@@ -29,7 +29,7 @@ function expandBox(box) {
   requestAnimationFrame(() => {
     box.style.maxHeight = box.scrollHeight + "em";
 
-    const section = box.closest('.toggle-section.expanded');
+    const section = box.closest(".toggle-section.expanded");
     if (section) {
       section.style.maxHeight = section.scrollHeight + "em";
     }
@@ -44,27 +44,27 @@ function expandBox(box) {
 function collapseBox(box) {
   box.style.maxHeight = box.scrollHeight + "em";
   box.offsetHeight;
-  box.style.maxHeight = '0';
+  box.style.maxHeight = "0";
   box.style.opacity = 0;
-  box.classList.remove('active');
+  box.classList.remove("active");
 
   setTimeout(() => {
-    if (!box.classList.contains('active')) {
-      box.style.display = 'none';
+    if (!box.classList.contains("active")) {
+      box.style.display = "none";
       updateSectionHeight(box);
     }
   }, 600);
 }
 
 function updateSectionHeight(box) {
-  const section = box.closest('.toggle-section.expanded');
+  const section = box.closest(".toggle-section.expanded");
   if (section) {
     section.style.maxHeight = section.scrollHeight + "em";
   }
 }
 
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initTogglePills);
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initTogglePills);
 } else {
   initTogglePills();
 }

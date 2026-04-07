@@ -12,23 +12,35 @@
 {% if include.format == 'long' %}
   {% case site.active_lang %}
     {% when 'en' %}
-      {{ month }} {{ day }}, {{ year }}
+      {{ month }}
+      {{ day }}, {{ year }}
     {% when 'es' %}
       {{ day }} de {{ month }} de {{ year }}
     {% when 'it' %}
-      {{ day }} {{ month }} {{ year }}
+      {{ day }}
+      {{ month }}
+      {{ year }}
     {% else %}
-      {{ day }} {{ month }} {{ year }}
+      {{ day }}
+      {{ month }}
+      {{ year }}
   {% endcase %}
 {% elsif include.format == 'short' %}
   {% case site.active_lang %}
     {% when 'en' %}
-      {{ month }} {{ day }}, {{ year }}
+      {{ month }}
+      {{ day }}, {{ year }}
     {% when 'es' %}
-      {{ day }} {{ month }} {{ year }}
+      {{ day }}
+      {{ month }}
+      {{ year }}
     {% when 'it' %}
-      {{ day }} {{ month }} {{ year }}
+      {{ day }}
+      {{ month }}
+      {{ year }}
     {% else %}
-      {{ day }} {{ month }} {{ year }}
+      {{ day }}
+      {{ month }}
+      {{ year }}
   {% endcase %}
 {% endif %}

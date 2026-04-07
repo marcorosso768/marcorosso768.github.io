@@ -4,11 +4,11 @@ layout: profiles
 permalink: /references/
 title: references
 subtitle: >
-    <div class="lang-links">
-        <a href="/it/referenze/" hreflang="it">referenze</a>
-        <span class="separator">|</span>
-        <a href="/es/referencias/" hreflang="es">referencias</a>
-    </div>
+  <div class="lang-links">
+      <a href="/it/referenze/" hreflang="it">referenze</a>
+      <span class="separator">|</span>
+      <a href="/es/referencias/" hreflang="es">referencias</a>
+  </div>
 description: <i>This page provides information on my academic referees, including affiliations, research areas, and contact details for letters of recommendation. The goal is to make reference requests straightforward for selection committees while giving context on my main collaborations and mentoring network.</i>
 nav: false
 nav_order:

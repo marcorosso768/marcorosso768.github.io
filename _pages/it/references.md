@@ -4,11 +4,11 @@ layout: profiles
 permalink: /referenze/
 title: referenze
 subtitle: >
-    <div class="lang-links">
-        <a href="#" onclick="window.location.href='https://marcorosso.com/references/'; return false;">references</a>
-        <span class="separator">|</span>
-        <a href="/es/referencias/" hreflang="es">referencias</a>
-    </div>
+  <div class="lang-links">
+      <a href="#" onclick="window.location.href='https://marcorosso.com/references/'; return false;">references</a>
+      <span class="separator">|</span>
+      <a href="/es/referencias/" hreflang="es">referencias</a>
+  </div>
 description: <i>Questa pagina fornisce informazioni sui miei referenti accademici, incluse affiliazioni, aree di ricerca e recapiti per le lettere di referenza. L’obiettivo è rendere le richieste di referenze semplici per le commissioni di selezione, offrendo al contempo un contesto sulle mie principali collaborazioni e sulla mia rete di mentoring.</i>
 nav: false
 nav_order:

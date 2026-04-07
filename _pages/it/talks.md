@@ -4,11 +4,11 @@ layout: page
 permalink: /presentazioni/
 title: presentazioni
 subtitle: >
-    <div class="lang-links">
-        <a href="#" onclick="window.location.href='https://marcorosso.com/talks/'; return false;">talks</a>
-        <span class="separator">|</span>
-        <a href="/es/presentaciones/" hreflang="es">presentaciones</a>
-    </div>
+  <div class="lang-links">
+      <a href="#" onclick="window.location.href='https://marcorosso.com/talks/'; return false;">talks</a>
+      <span class="separator">|</span>
+      <a href="/es/presentaciones/" hreflang="es">presentaciones</a>
+  </div>
 description: <i>Questa sezione documenta seminari su invito, presentazioni a conferenze, workshop e altre discussioni accademiche correlate. Utilizzo questi contesti per presentare lavori in diverse fasi — idee iniziali, lavori in corso e articoli completati — modulando spesso l’enfasi su identificazione, meccanismi e validità esterna a seconda del pubblico.</i>
 nav: true
 nav_order: 2
@@ -42,7 +42,6 @@ nav_order: 2
       </div>
     </div>
   </div>
-
 
 <!-- 2024 -->
 <p style="margin-left: 0.1em;"><b>2024</b></p>
@@ -121,7 +120,7 @@ nav_order: 2
     </div>
   </div>
 
-<!-- 2024 
+<!-- 2024
 <p style="margin-left: 0.1em;"><b>2024</b></p>
 
   <div class="seminar-entry indented">

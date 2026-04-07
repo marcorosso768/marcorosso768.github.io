@@ -5,11 +5,11 @@ permalink: /docencia/
 title: docencia
 description: <i>Mi actividad docente abarca cursos de grado y posgrado en Econometría, Economía Política, Microeconomía, Economía del Comportamiento, Teoría de Juegos y Python para Economistas. En todos los cursos, el énfasis está puesto en desarrollar la intuición junto con derivaciones rigurosas y flujos de trabajo empíricos reproducibles, con materiales diseñados para ser directamente utilizables en ejercicios prácticos y proyectos aplicados. La página enumera los cursos que he dictado y pone a disposición apuntes seleccionados, slides y otros recursos docentes.</i>
 subtitle: >
-    <div class="lang-links">
-       <a href="#" onclick="window.location.href='https://marcorosso.com/teaching/'; return false;">teaching</a>
-       <span class="separator">|</span>
-       <a href="/it/didattica/" hreflang="it">didattica</a>
-    </div>
+  <div class="lang-links">
+     <a href="#" onclick="window.location.href='https://marcorosso.com/teaching/'; return false;">teaching</a>
+     <span class="separator">|</span>
+     <a href="/it/didattica/" hreflang="it">didattica</a>
+  </div>
 nav: true
 nav_order: 3
 ---
@@ -383,7 +383,6 @@ nav_order: 3
       </div>
     </div>
   </div>
-
 
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">

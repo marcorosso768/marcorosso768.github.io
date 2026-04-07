@@ -5,9 +5,9 @@ permalink: /teaching/econometrics/
 title: econometrics
 description: <i>Here you can find useful materials for the Econometrics course.</i>
 subtitle: >
-    <div class="lang-links">
-        <a href="#" onclick="window.location.href='https://marcorosso.com/teaching/'; return false;">back to teaching</a>
-    </div>
+  <div class="lang-links">
+      <a href="#" onclick="window.location.href='https://marcorosso.com/teaching/'; return false;">back to teaching</a>
+  </div>
 nav: false
 ---
 

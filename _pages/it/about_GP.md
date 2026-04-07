@@ -1,6 +1,6 @@
 <span class="indented" style="font-size: 20pt; color: var(--global-theme-color); display: block; line-height: 1; margin-bottom: 4pt;"> Giovanni Prarolo </span>
 <span class="indented" style="font-size: 12pt; color: var(--global-theme-color); display: block; line-height: 1; margin-bottom: 10pt;"> <i>Supervisor dell'Assegno di Ricerca</i> </span>
-  
+
 <span class="indented" style="font-size: 15pt; display: block; line-height: 1; margin-bottom: 4pt;"> Professore Ordinario </span>
 <span class="indented" style="display: block; line-height: 1; margin-bottom: 4pt;"> Università di Bologna </span>
 <span class="indented" style="display: block; line-height: 1; margin-bottom: 6pt;"> Dipartimento di Scienze Economiche </span>

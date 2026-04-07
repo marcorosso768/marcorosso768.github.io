@@ -5,11 +5,11 @@ permalink: /didattica/microeconomia/
 title: microeconomia
 description_format: multiline
 description: |
-    Qui sono disponibili materiali utili per il corso di Microeconomia.
+  Qui sono disponibili materiali utili per il corso di Microeconomia.
 subtitle: >
-    <div class="lang-links">
-        <a href="/it/didattica/" hreflang="it">torna alla didattica</a>
-    </div>
+  <div class="lang-links">
+      <a href="/it/didattica/" hreflang="it">torna alla didattica</a>
+  </div>
 nav: false
 ---
 
