@@ -109,5 +109,12 @@ nav: false
   </span>
 </div>
 
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lezione 10: <a href="/assets/pdf/teaching/microeconomia/Lezione 10 - Ripasso Generale.pdf" target="_blank" rel="noopener noreferrer">Ripasso Generale</a>
+  </span>
+</div>
+
 </div>
 <!-- Aggiungi qui altri file .do, slide, ecc. -->
