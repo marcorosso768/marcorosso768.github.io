@@ -28,7 +28,8 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  Lecture 1: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/L1_setup_syntax.ipynb" target="_blank" rel="noopener noreferrer">Setup & Python Syntax</a> <a href="/assets/teaching_material/python_for_economists/L1_setup_syntax.ipynb" download target="_blank" rel="noopener noreferrer" class="float-right"><i class="fa-solid fa-download fa-fw"></i></a>
+  Lecture 1: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/L1_setup_syntax.ipynb" target="_blank" rel="noopener noreferrer">Setup & Python Syntax</a>
+<a href="/assets/teaching_material/python_for_economists/L1_setup_syntax.ipynb" download target="_blank" rel="noopener noreferrer" class="float-right" style="margin-left: 4px;"><i class="fa-solid fa-download fa-fw"></i></a>
   </span>
 </div>
 
