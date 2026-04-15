@@ -29,7 +29,7 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-regular fa-file-pdf fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  <a href="/assets/pdf/teaching/microeconomia/Appunti di Microeconomia.pdf" target="_blank" rel="noopener noreferrer">Notas de Microeconomía</a> — última actualización: 28 de marzo de 2026
+  <a href="/assets/teaching_material/microeconomia/Appunti di Microeconomia.pdf" target="_blank" rel="noopener noreferrer">Notas de Microeconomía</a> — última actualización: 28 de marzo de 2026
   </span>
 </div>
 
@@ -50,63 +50,63 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  Lección 1: <a href="/assets/pdf/teaching/microeconomia/Lezione 1 - Pensare come un:una Economista.pdf" target="_blank" rel="noopener noreferrer">Pensar como un/a economista</a>
+  Lección 1: <a href="/assets/teaching_material/microeconomia/Lezione 1 - Pensare come un:una Economista.pdf" target="_blank" rel="noopener noreferrer">Pensar como un/a economista</a>
   </span>
 </div>
 
 <div class="course-entry indented">
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  Lección 2: <a href="/assets/pdf/teaching/microeconomia/Lezione 2 - Preferenze e Curve di Indifferenza.pdf" target="_blank" rel="noopener noreferrer">Preferencias y Curvas de Indiferencia</a>
+  Lección 2: <a href="/assets/teaching_material/microeconomia/Lezione 2 - Preferenze e Curve di Indifferenza.pdf" target="_blank" rel="noopener noreferrer">Preferencias y Curvas de Indiferencia</a>
   </span>
 </div>
 
 <div class="course-entry indented">
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  Lección 3: <a href="/assets/pdf/teaching/microeconomia/Lezione 3 - Vincolo di Bilancio e Scelta Ottima.pdf" target="_blank" rel="noopener noreferrer">Restricción Presupuestaria y Elección del Consumidor</a>
+  Lección 3: <a href="/assets/teaching_material/microeconomia/Lezione 3 - Vincolo di Bilancio e Scelta Ottima.pdf" target="_blank" rel="noopener noreferrer">Restricción Presupuestaria y Elección del Consumidor</a>
   </span>
 </div>
 
 <div class="course-entry indented">
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  Lección 4: <a href="/assets/pdf/teaching/microeconomia/Lezione 4 - Domanda Individuale e Statica Comparata.pdf" target="_blank" rel="noopener noreferrer">Demanda Individual y Estática Comparativa</a>
+  Lección 4: <a href="/assets/teaching_material/microeconomia/Lezione 4 - Domanda Individuale e Statica Comparata.pdf" target="_blank" rel="noopener noreferrer">Demanda Individual y Estática Comparativa</a>
   </span>
 </div>
 
 <div class="course-entry indented">
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  Lección 5: <a href="/assets/pdf/teaching/microeconomia/Lezione 5 - Elasticità della Domanda.pdf" target="_blank" rel="noopener noreferrer">Elasticidad de la Demanda</a>
+  Lección 5: <a href="/assets/teaching_material/microeconomia/Lezione 5 - Elasticità della Domanda.pdf" target="_blank" rel="noopener noreferrer">Elasticidad de la Demanda</a>
   </span>
 </div>
 
 <div class="course-entry indented">
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  Lección 6: <a href="/assets/pdf/teaching/microeconomia/Lezione 6 - Tecnologia e Funzione di Produzione.pdf" target="_blank" rel="noopener noreferrer">Tecnología y Función de Producción</a>
+  Lección 6: <a href="/assets/teaching_material/microeconomia/Lezione 6 - Tecnologia e Funzione di Produzione.pdf" target="_blank" rel="noopener noreferrer">Tecnología y Función de Producción</a>
   </span>
 </div>
 
 <div class="course-entry indented">
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  Lección 7: <a href="/assets/pdf/teaching/microeconomia/Lezione 7 - Rendimenti di Scala, Isoquanti e MRTS.pdf" target="_blank" rel="noopener noreferrer">Rendimientos a Escala, Isoquantas y MRTS</a>
+  Lección 7: <a href="/assets/teaching_material/microeconomia/Lezione 7 - Rendimenti di Scala, Isoquanti e MRTS.pdf" target="_blank" rel="noopener noreferrer">Rendimientos a Escala, Isoquantas y MRTS</a>
   </span>
 </div>
 
 <div class="course-entry indented">
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  Lección 8: <a href="/assets/pdf/teaching/microeconomia/Lezione 8 - Costi di Produzione e Curve di Costo.pdf" target="_blank" rel="noopener noreferrer">Costos de Producción y Curvas de Costo</a>
+  Lección 8: <a href="/assets/teaching_material/microeconomia/Lezione 8 - Costi di Produzione e Curve di Costo.pdf" target="_blank" rel="noopener noreferrer">Costos de Producción y Curvas de Costo</a>
   </span>
 </div>
 
 <div class="course-entry indented">
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  Lección 9: <a href="/assets/pdf/teaching/microeconomia/Lezione 9 - Minimizzazione dei Costi e Scelta Ottimale dei Fattori.pdf" target="_blank" rel="noopener noreferrer">Minimización de Costos y Elección Óptima de Factores</a>
+  Lección 9: <a href="/assets/teaching_material/microeconomia/Lezione 9 - Minimizzazione dei Costi e Scelta Ottimale dei Fattori.pdf" target="_blank" rel="noopener noreferrer">Minimización de Costos y Elección Óptima de Factores</a>
   </span>
 </div>
 
