@@ -420,6 +420,14 @@ nav_order: 3
     <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
     <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
     <span>  
+     <a href="/teaching/python_for_economists/">Python for Economists</a>
+    </span>
+  </div>
+
+  <div class="icon-link indented folder-link">
+    <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
+    <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
+    <span>  
      <a href="/teaching/microeconomics/">Microeconomics (in Italian)</a>
     </span>
   </div>
