@@ -58,8 +58,15 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Two Year Master in Economics and Public Policy & Two Year Master in Applied Economics and Market
+        Two Year Master in Economics and Public Policy, Two Year Master in Applied Economics and Market, and Ph.D. in Economics
       </div>
+<div class="icon-link indented folder-link">
+    <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
+    <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
+    <span>  
+     <a href="/teaching/python_for_economists/">Teaching material</a>
+    </span>
+  </div>
     </div>
   </div>
 
