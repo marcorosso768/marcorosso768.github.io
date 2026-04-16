@@ -112,16 +112,14 @@ body.sticky-bottom-footer {
   align-items: center;
   font-size: 12pt;
   color: var(--global-text-color);
-  margin-bottom: 8px;
 
   i {
     color: var(--global-theme-color);
-    margin-right: 8px;
     line-height: 1;
   }
 
   a {
-    color: inherit;
+    color: var(--global-text-color);
     text-decoration: none;
     transition:
       color var(--transition-duration) var(--transition-easing),
