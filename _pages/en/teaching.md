@@ -55,7 +55,7 @@ nav_order: 3
       <div class="teaching-entry__content">
           <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/520832'>Python for Economists</a>
       </div>
-      <div class="icon-link indented folder-link">
+      <div class="icon-link indented folder-link" style="margin-left: auto; display: block; text-align: right;">
       	<i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
     	<i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
     	<span>  
