@@ -65,7 +65,9 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Two Year Master in Economics and Public Policy, Two Year Master in Applied Economics and Market, and Ph.D. in Economics
+        <div>Two Year Master in Economics and Public Policy,</div>
+	<div>Two Year Master in Applied Economics and Market,</div>
+	<div>and Ph.D. in Economics</div>
       </div>
     </div>
   </div>
@@ -332,7 +334,7 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2021/413556'>Economics (I.C.): Competion Economics and Policy</a> with <a href='https://www.unibo.it/sitoweb/francesca.barigozzi/en'>Francesca Barigozzi</a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2021/413556'>Economics (I.C.): Competition Economics and Policy</a> with <a href='https://www.unibo.it/sitoweb/francesca.barigozzi/en'>Francesca Barigozzi</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
