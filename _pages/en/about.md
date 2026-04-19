@@ -21,7 +21,7 @@ subtitle: >
           <i class="fa-solid fa-school fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
       </div>
      <div style="padding-left: 22px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; margin-top: 2pt;">
-          <a href="https://crenos.unica.it/crenos/">CRENoS <i>Center for North South Economic Research</i></a>
+          <a href="https://crenos.unica.it/crenos/">CRENoS <i>(Center for North South Economic Research)</i></a>
       </div>
       <!-- Second row: Location icon and actul location temp: <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna, Italy</a>-->
       <div style="position: relative; font-size: 10pt; margin-top: 8pt; margin-bottom: 15px; line-height: 14pt;">
