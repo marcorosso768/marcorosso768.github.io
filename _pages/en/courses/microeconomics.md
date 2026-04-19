@@ -29,7 +29,7 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-regular fa-file-pdf fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  <a href="/assets/teaching_material/microeconomia/Appunti di Microeconomia.pdf" target="_blank" rel="noopener noreferrer">Microeconomics Course Notes</a> — last updated: 28 Mar 2026
+  <a href="/assets/teaching_material/microeconomia/Appunti di Microeconomia.pdf" target="_blank" rel="noopener noreferrer">Microeconomics Course Notes</a> — last updated: 19 Apr 2026
   </span>
 </div>
 
@@ -107,6 +107,27 @@ nav: false
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
   <span>  
   Lecture 9: <a href="/assets/teaching_material/microeconomia/Lezione 9 - Minimizzazione dei Costi e Scelta Ottimale dei Fattori.pdf" target="_blank" rel="noopener noreferrer">Cost Minimization and Optimal Factor Choice</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lecture 10: <a href="/assets/teaching_material/microeconomia/Lezione 10 - Ripasso Generale.pdf" target="_blank" rel="noopener noreferrer">General Review</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lecture 11: <a href="/assets/teaching_material/microeconomia/Lezione 11 - Massimizzazione del Profitto.pdf" target="_blank" rel="noopener noreferrer">Profit Maximization</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lecture 12: <a href="/assets/teaching_material/microeconomia/Lezione 12 - Offerta dell’Impresa e Offerta di Mercato.pdf" target="_blank" rel="noopener noreferrer">Firm Supply and Market Supply</a>
   </span>
 </div>
 

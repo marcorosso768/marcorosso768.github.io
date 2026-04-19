@@ -59,13 +59,15 @@ nav_order: 3
       	<i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
     	<i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
     	<span>  
-    	   <a href="/teaching/python_for_economists/">Teaching material</a>
+    	   <a href="/teaching/python_for_economists/">teaching materials</a>
     	</span>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Two Year Master in Economics and Public Policy, Two Year Master in Applied Economics and Market, and Ph.D. in Economics
+        <div>Two Year Master in Economics and Public Policy,</div>
+	<div>Two Year Master in Applied Economics and Market,</div>
+	<div>and Ph.D. in Economics</div>
       </div>
     </div>
   </div>
@@ -88,6 +90,13 @@ nav_order: 3
       <div class="teaching-entry__content">
           <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/529017'>Microeconomics</a>
       </div>
+      <div class="icon-link indented folder-link" style="margin-left: auto; display: block; text-align: right;">
+      	<i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
+    	<i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
+    	<span>  
+    	   <a href="/teaching/microeconomics/">teaching materials</a>
+    	</span>
+      </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
@@ -105,7 +114,7 @@ nav_order: 3
     	<i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
     	<i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
     	<span>  
-     		<a href="/teaching/econometrics/">Econometrics</a>
+     		<a href="/teaching/econometrics/">teaching materials</a>
     	</span>
       </div>
    </div>
@@ -325,7 +334,7 @@ nav_order: 3
   <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2021/413556'>Economics (I.C.): Competion Economics and Policy</a> with <a href='https://www.unibo.it/sitoweb/francesca.barigozzi/en'>Francesca Barigozzi</a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2021/413556'>Economics (I.C.): Competition Economics and Policy</a> with <a href='https://www.unibo.it/sitoweb/francesca.barigozzi/en'>Francesca Barigozzi</a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
@@ -416,42 +425,4 @@ nav_order: 3
 
 </div>
 </div>
-</div>
-
-<!-- FILES -->
-<div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
-    <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
-      <span>teaching materials</span>
-    </h2>
-  </a>
-</div>
-
-<div id="content-2" class="toggle-section expanded">
-
-  <div class="icon-link indented folder-link">
-    <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
-    <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
-    <span>  
-     <a href="/teaching/python_for_economists/">Python for Economists</a>
-    </span>
-  </div>
-
-  <div class="icon-link indented folder-link">
-    <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
-    <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
-    <span>  
-     <a href="/teaching/microeconomics/">Microeconomics (in Italian)</a>
-    </span>
-  </div>
-
-  <div class="icon-link indented folder-link">
-    <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
-    <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
-    <span>  
-     <a href="/teaching/econometrics/">Econometrics</a>
-    </span>
-  </div>
-
 </div>
