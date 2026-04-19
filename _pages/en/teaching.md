@@ -59,7 +59,7 @@ nav_order: 3
       	<i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
     	<i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
     	<span>  
-    	   <a href="/teaching/python_for_economists/">Teaching material</a>
+    	   <a href="/teaching/python_for_economists/">teaching materials</a>
     	</span>
       </div>
    </div>
@@ -93,6 +93,13 @@ nav_order: 3
       <div class="teaching-entry__course-text">
         <a href='https://corsi.unibo.it/1cycle/BusinessAdministration'>Bachelor in Business Administration</a> (in Italian)
       </div>
+      <div class="icon-link indented folder-link" style="margin-left: auto; display: block; text-align: right;">
+      	<i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
+    	<i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
+    	<span>  
+    	   <a href="/teaching/microeconomics/">teaching materials</a>
+    	</span>
+      </div>
     </div>
   </div>
 
@@ -105,7 +112,7 @@ nav_order: 3
     	<i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
     	<i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
     	<span>  
-     		<a href="/teaching/econometrics/">Econometrics</a>
+     		<a href="/teaching/econometrics/">teaching materials</a>
     	</span>
       </div>
    </div>
@@ -416,42 +423,4 @@ nav_order: 3
 
 </div>
 </div>
-</div>
-
-<!-- FILES -->
-<div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
-    <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
-      <span>teaching materials</span>
-    </h2>
-  </a>
-</div>
-
-<div id="content-2" class="toggle-section expanded">
-
-  <div class="icon-link indented folder-link">
-    <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
-    <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
-    <span>  
-     <a href="/teaching/python_for_economists/">Python for Economists</a>
-    </span>
-  </div>
-
-  <div class="icon-link indented folder-link">
-    <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
-    <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
-    <span>  
-     <a href="/teaching/microeconomics/">Microeconomics (in Italian)</a>
-    </span>
-  </div>
-
-  <div class="icon-link indented folder-link">
-    <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
-    <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
-    <span>  
-     <a href="/teaching/econometrics/">Econometrics</a>
-    </span>
-  </div>
-
 </div>
