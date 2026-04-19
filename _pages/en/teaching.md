@@ -88,17 +88,17 @@ nav_order: 3
       <div class="teaching-entry__content">
           <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/529017'>Microeconomics</a>
       </div>
-   </div>
-   <div class="teaching-entry__row teaching-entry__row--course">
-      <div class="teaching-entry__course-text">
-        <a href='https://corsi.unibo.it/1cycle/BusinessAdministration'>Bachelor in Business Administration</a> (in Italian)
-      </div>
       <div class="icon-link indented folder-link" style="margin-left: auto; display: block; text-align: right;">
       	<i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
     	<i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
     	<span>  
     	   <a href="/teaching/microeconomics/">teaching materials</a>
     	</span>
+      </div>
+   </div>
+   <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        <a href='https://corsi.unibo.it/1cycle/BusinessAdministration'>Bachelor in Business Administration</a> (in Italian)
       </div>
     </div>
   </div>
