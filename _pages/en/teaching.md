@@ -58,7 +58,7 @@ nav_order: 3
       <div class="icon-link indented folder-link" style="margin-left: auto; display: block; text-align: right;">
       	<i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
     	<i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
-    	<span>  
+    	<span class="external">  
     	   <a href="/teaching/python_for_economists/">teaching materials</a>
     	</span>
       </div>
