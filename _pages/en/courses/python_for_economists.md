@@ -62,7 +62,28 @@ nav: false
   </span>
 </div>
 
+<div class="course-entry indented">
+  <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lecture 4: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/L4_viz_eda_dp.ipynb" target="_blank" rel="noopener noreferrer">Visualisation, EDA & Dynamic Optimisation</a>
+<a href="/assets/teaching_material/python_for_economists/L4_viz_eda_dp.ipynb" download target="_blank" rel="noopener noreferrer" class="float-right" style="margin-left: 4px;"><i class="fa-solid fa-download fa-fw"></i></a>
+  </span>
 </div>
+
+</div>
+
+<!-- TOGGLE TRIGGER -->
+<div class="subsection">
+  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-block-ii')">
+    <h2 class="subsection">
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-block-ii"></i>
+       <span>Block II: Data collection from the web</span>
+    </h2>
+  </a>
+</div>
+
+</div>
+
 </div>
 
 <!-- Extra Materials -->
@@ -88,8 +109,24 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  2: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/E2_complexity_vectorization.ipynb" target="_blank" rel="noopener noreferrer">Reproducibility, Environments, and Research Pipelines File</a>
+  2: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/E2_complexity_vectorization.ipynb" target="_blank" rel="noopener noreferrer">Data Structures, Complexity, and Vectorization</a>
 <a href="/assets/teaching_material/python_for_economists/E2_complexity_vectorization.ipynb" download target="_blank" rel="noopener noreferrer" class="float-right" style="margin-left: 4px;"><i class="fa-solid fa-download fa-fw"></i></a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  3: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/E3_pandas_integrity.ipynb" target="_blank" rel="noopener noreferrer">Pandas Joins, Keys, and Data Integrity</a>
+<a href="/assets/teaching_material/python_for_economists/E3_pandas_integrity.ipynb" download target="_blank" rel="noopener noreferrer" class="float-right" style="margin-left: 4px;"><i class="fa-solid fa-download fa-fw"></i></a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  3: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/E4_visualization_bias.ipynb" target="_blank" rel="noopener noreferrer">Visualization, EDA, and How Plots Can Mislead</a>
+<a href="/assets/teaching_material/python_for_economists/E4_visualization_bias.ipynb" download target="_blank" rel="noopener noreferrer" class="float-right" style="margin-left: 4px;"><i class="fa-solid fa-download fa-fw"></i></a>
   </span>
 </div>
 
