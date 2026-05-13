@@ -82,6 +82,66 @@ nav: false
   </a>
 </div>
 
+<!-- TOGGLE CONTENT -->
+<div id="subsection-block-ii" class="toggle-section expanded">
+
+<div class="course-entry indented">
+  <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lecture 5: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/L5_webscraping1.ipynb" target="_blank" rel="noopener noreferrer">Web Scraping I: requests & BeautifulSoup</a>
+<a href="/assets/teaching_material/python_for_economists/L5_webscraping1.ipynb" download target="_blank" rel="noopener noreferrer" class="float-right" style="margin-left: 4px;"><i class="fa-solid fa-download fa-fw"></i></a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lecture 6: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/L6_webscraping2.ipynb" target="_blank" rel="noopener noreferrer">Web Scraping II: Sessions, Headers & Selenium</a>
+<a href="/assets/teaching_material/python_for_economists/L6_webscraping2.ipynb" download target="_blank" rel="noopener noreferrer" class="float-right" style="margin-left: 4px;"><i class="fa-solid fa-download fa-fw"></i></a>
+  </span>
+</div>
+
+</div>
+
+</div>
+
+<!-- TOGGLE TRIGGER -->
+<div class="subsection">
+  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-block-iii')">
+    <h2 class="subsection">
+       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-block-iii"></i>
+       <span>Block III: NLP and Machine Learning for Text</span>
+    </h2>
+  </a>
+</div>
+
+<!-- TOGGLE CONTENT -->
+<div id="subsection-block-iii" class="toggle-section expanded">
+
+<div class="course-entry indented">
+  <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lecture 7: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/L7_nlp_representation.ipynb" target="_blank" rel="noopener noreferrer">NLP: Text Representation</a>
+<a href="/assets/teaching_material/python_for_economists/L7_nlp_representation.ipynb" download target="_blank" rel="noopener noreferrer" class="float-right" style="margin-left: 4px;"><i class="fa-solid fa-download fa-fw"></i></a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lecture 8: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/L8_sentiment_topics.ipynb" target="_blank" rel="noopener noreferrer">Sentiment Analysis & Supervised ML for Text</a>
+<a href="/assets/teaching_material/python_for_economists/L8_sentiment_topics.ipynb" download target="_blank" rel="noopener noreferrer" class="float-right" style="margin-left: 4px;"><i class="fa-solid fa-download fa-fw"></i></a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lecture 9: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/L9_ml_llms.ipynb" target="_blank" rel="noopener noreferrer">Machine Learning for Text & LLMs via API</a>
+<a href="/assets/teaching_material/python_for_economists/L9_ml_llms.ipynb" download target="_blank" rel="noopener noreferrer" class="float-right" style="margin-left: 4px;"><i class="fa-solid fa-download fa-fw"></i></a>
+  </span>
+</div>
+
 </div>
 
 </div>
@@ -101,7 +161,7 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  1: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/E1_reproducibility.ipynb" target="_blank" rel="noopener noreferrer">Reproducibility, Environments, and Research Pipelines File</a>
+  Extra L1: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/E1_reproducibility.ipynb" target="_blank" rel="noopener noreferrer">Reproducibility, Environments, and Research Pipelines File</a>
 <a href="/assets/teaching_material/python_for_economists/E1_reproducibility.ipynb" download target="_blank" rel="noopener noreferrer" class="float-right" style="margin-left: 4px;"><i class="fa-solid fa-download fa-fw"></i></a>
   </span>
 </div>
@@ -109,7 +169,7 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  2: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/E2_complexity_vectorization.ipynb" target="_blank" rel="noopener noreferrer">Data Structures, Complexity, and Vectorization</a>
+  Extra L2: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/E2_complexity_vectorization.ipynb" target="_blank" rel="noopener noreferrer">Data Structures, Complexity, and Vectorization</a>
 <a href="/assets/teaching_material/python_for_economists/E2_complexity_vectorization.ipynb" download target="_blank" rel="noopener noreferrer" class="float-right" style="margin-left: 4px;"><i class="fa-solid fa-download fa-fw"></i></a>
   </span>
 </div>
@@ -117,7 +177,7 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  3: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/E3_pandas_integrity.ipynb" target="_blank" rel="noopener noreferrer">Pandas Joins, Keys, and Data Integrity</a>
+  Extra L3: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/E3_pandas_integrity.ipynb" target="_blank" rel="noopener noreferrer">Pandas Joins, Keys, and Data Integrity</a>
 <a href="/assets/teaching_material/python_for_economists/E3_pandas_integrity.ipynb" download target="_blank" rel="noopener noreferrer" class="float-right" style="margin-left: 4px;"><i class="fa-solid fa-download fa-fw"></i></a>
   </span>
 </div>
@@ -125,8 +185,56 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  3: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/E4_visualization_bias.ipynb" target="_blank" rel="noopener noreferrer">Visualization, EDA, and How Plots Can Mislead</a>
+  Extra L4: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/E4_visualization_bias.ipynb" target="_blank" rel="noopener noreferrer">Visualization, EDA, and How Plots Can Mislead</a>
 <a href="/assets/teaching_material/python_for_economists/E4_visualization_bias.ipynb" download target="_blank" rel="noopener noreferrer" class="float-right" style="margin-left: 4px;"><i class="fa-solid fa-download fa-fw"></i></a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Extra L5: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/E5_scraping_robustness.ipynb" target="_blank" rel="noopener noreferrer">Web Scraping Robustness and HTML Fragility</a>
+<a href="/assets/teaching_material/python_for_economists/E5_scraping_robustness.ipynb" download target="_blank" rel="noopener noreferrer" class="float-right" style="margin-left: 4px;"><i class="fa-solid fa-download fa-fw"></i></a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Extra L6: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/E6_api_vs_scraping.ipynb" target="_blank" rel="noopener noreferrer">APIs vs Scraping, Pagination, and Rate Limits</a>
+<a href="/assets/teaching_material/python_for_economists/E6_api_vs_scraping.ipynb" download target="_blank" rel="noopener noreferrer" class="float-right" style="margin-left: 4px;"><i class="fa-solid fa-download fa-fw"></i></a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Extra L7: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/E7_nlp_representation_limits.ipynb" target="_blank" rel="noopener noreferrer">NLP Representation, Similarity, and What Bag-of-Words Misses</a>
+<a href="/assets/teaching_material/python_for_economists/E7_nlp_representation_limits.ipynb" download target="_blank" rel="noopener noreferrer" class="float-right" style="margin-left: 4px;"><i class="fa-solid fa-download fa-fw"></i></a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Extra L8: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/E8_sentiment_measurement_error.ipynb" target="_blank" rel="noopener noreferrer">Sentiment, Topic Models, and Measurement Error</a>
+<a href="/assets/teaching_material/python_for_economists/E8_sentiment_measurement_error.ipynb" download target="_blank" rel="noopener noreferrer" class="float-right" style="margin-left: 4px;"><i class="fa-solid fa-download fa-fw"></i></a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Extra L9: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/E9_prediction_vs_causality.ipynb" target="_blank" rel="noopener noreferrer">Prediction, Explanation, Causality</a>
+<a href="/assets/teaching_material/python_for_economists/E9_prediction_vs_causality.ipynb" download target="_blank" rel="noopener noreferrer" class="float-right" style="margin-left: 4px;"><i class="fa-solid fa-download fa-fw"></i></a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Extra: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/E_research_design_replication.ipynb" target="_blank" rel="noopener noreferrer">Research Design & Replication</a>
+<a href="/assets/teaching_material/python_for_economists/E_research_design_replication.ipynb" download target="_blank" rel="noopener noreferrer" class="float-right" style="margin-left: 4px;"><i class="fa-solid fa-download fa-fw"></i></a>
   </span>
 </div>
 
