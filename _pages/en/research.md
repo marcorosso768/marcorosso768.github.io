@@ -182,7 +182,7 @@ nav_order: 1
       <a 
   href="mailto:marco.rosso4@unibo.it
         ?subject=Request%20for%20draft%20-%20The%20Tipping%20Point%20of%20Temptation%3A%20Occupational%20Selection%20and%20Integrity%20in%20the%20Public%20Sector
-        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20paper%20%E2%80%9CThe%20Tipping%20Point%20of%20Temptation%3A%20Occupational%20Selection%20and%20Integrity%20in%20the%20Public%20Sector%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
+        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20working%20paper%20%E2%80%9CThe%20Tipping%20Point%20of%20Temptation%3A%20Occupational%20Selection%20and%20Integrity%20in%20the%20Public%20Sector%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
   class="pill-link no-external">
         <i class="fa-regular fa-newspaper fa-2xs"></i>
         <span class="toggle-label" title="Draft under request">Paper</span>
@@ -223,7 +223,7 @@ nav_order: 1
       <a 
   href="mailto:marco.rosso4@unibo.it
         ?subject=Request%20for%20draft%20-%20Parenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records
-        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20paper%20%E2%80%9CParenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
+        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20working%20paper%20%E2%80%9CParenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
   class="pill-link no-external">
         <i class="fa-regular fa-newspaper fa-2xs"></i>
         <span class="toggle-label" title="Draft under request">Paper</span>
@@ -270,7 +270,7 @@ almost entirely by mothers, while fathers’ turnout remains unaffected. The res
       <a 
   href="mailto:marco.rosso4@unibo.it
         ?subject=Request%20for%20draft%20-%20Public%20Goods%20and%20Political%20Participation%3A%20Childcare%20Access%20and%20Electoral%20Engagement
-        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20paper%20%E2%80%9CPublic%20Goods%20and%20Political%20Participation%3A%20Childcare%20Access%20and%20Electoral%20Engagement%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
+        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20yours%20working%20paper%20%E2%80%9CPublic%20Goods%20and%20Political%20Participation%3A%20Childcare%20Access%20and%20Electoral%20Engagement%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
   class="pill-link no-external">
         <i class="fa-regular fa-newspaper fa-2xs"></i>
         <span class="toggle-label" title="Draft under request">Paper</span>
@@ -287,20 +287,72 @@ almost entirely by mothers, while fathers’ turnout remains unaffected. The res
     </div>
   </div>
 
+ <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-file-lines fa-fw"></i>
+      <span>
+          <em>The Vanishing First Rung: Generative AI and Entry-Level Jobs</em><br>
+        joint with 
+        <a href="https://sites.google.com/site/fabiocerina/" target="_blank" rel="noopener noreferrer">Fabio Cerina</a>, 
+        and <a href="https://sites.google.com/view/simonenobili/home" target="_blank" rel="noopener noreferrer">Simone Nobili</a>
+      </span>
+    </div>
+  <div class="pill-container">
+      <div class="pill-button toggle-pill" data-target="abstract-ai">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Abstract</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="keywords-ai">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Keywords</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="jel-ai">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">JEL</span>
+      </div>
+      <a 
+  href="mailto:marco.rosso4@unibo.it
+        ?subject=Request%20for%20draft%20-%20The%20Vanishing%20First%20Rung%3A%20Generative%20AI%20and%20Entry-Level%20Jobs
+        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20yours%20working%20paper%20%E2%80%9CThe%20Vanishing%20First%20Rung%3A%20Generative%20AI%20and%20Entry-Level%20Jobs%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
+  class="pill-link no-external">
+        <i class="fa-regular fa-newspaper fa-2xs"></i>
+        <span class="toggle-label" title="Draft under request">Paper</span>
+      </a>
+    </div>
+    <div id="abstract-ai" class="toggle-box">
+     Generative AI may not only reduce labor demand; it may also change where careers begin. Using 368 million U.S. online job postings from Lightcast (2016--2025) and a usage-anchored measure of LLM exposure, we study how the release of ChatGPT reshaped posted labor demand across occupations and seniority tiers. Top-quartile-exposed occupations experience a -9.0 log point decline in posting volume relative to less-exposed occupations. The contraction is concentrated at the entry-level margin: junior postings fall by -6.6 log points, compared with about -2 log points for mid- and senior-tier postings. Within exposed occupations, the junior share of postings falls by 3.3 percentage points, with most of the reallocation going to mid-level roles. Event-study estimates show flat pre-trends and a gradual post-2022 divergence, consistent with enterprise diffusion of generative AI. Robustness checks excluding tech-heavy sectors and computer occupations indicate that the results are not mechanically driven by the 2022--2023 technology-sector downturn. The evidence points to a narrowing of the first rung of exposed career ladders: posted demand shifts away from junior roles while demand for more experienced workers remains comparatively intact.
+    </div>
+    <div id="keywords-ai" class="toggle-box">
+       generative AI; ChatGPT; labor demand, seniority; job postings; difference-in-differences.
+    </div>
+    <div id="jel-ai" class="toggle-box">
+       J23; J24; O33; M51.
+    </div>
+  </div>
+
 </div>
 
 <!-- Work in Progress Section -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
     <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-3"></i>
+      <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-3"></i>
       <span>work in progress</span>
     </h2>
   </a>
 </div>
 
 <!-- Content -->
-<div id="content-3" class="toggle-section expanded">
+<div id="content-3" class="toggle-section">
+
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-bookmark fa-fw"></i>
+      <span><em>Transgression as Costly Signaling: A Theory of Populist Candidate Selection</em></span>
+    </div>
+  </div>
 
   <!-- Paper -->
   <div class="entry-block">
@@ -324,14 +376,14 @@ almost entirely by mothers, while fathers’ turnout remains unaffected. The res
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-4')">
     <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-4"></i>
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-4"></i>
       <span>other publications</span>
     </h2>
   </a>
 </div>
 
 <!-- Content -->
-<div id="content-4" class="toggle-section">
+<div id="content-4" class="toggle-section expanded">
 
   <!-- Paper -->
   <div class="entry-block">
