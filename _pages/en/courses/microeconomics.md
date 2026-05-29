@@ -29,7 +29,7 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-regular fa-file-pdf fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  <a href="/assets/teaching_material/microeconomia/Appunti di Microeconomia.pdf" target="_blank" rel="noopener noreferrer">Microeconomics Course Notes</a> — last updated: 19 Apr 2026
+  <a href="/assets/teaching_material/microeconomia/Appunti di Microeconomia.pdf" target="_blank" rel="noopener noreferrer">Microeconomics Course Notes</a> — last updated: 22 May 2026
   </span>
 </div>
 
