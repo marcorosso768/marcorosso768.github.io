@@ -493,11 +493,11 @@ $gap-vertical: 0.25em; // spazio tra le due righe
       line-height: 15px;
 
       a {
-        color: $white-color;
+        color: var(--global-text--color);
 
         &:link,
         &:visited {
-          color: $white-color;
+          color: var(--global-text--color);
         }
 
         &:hover {

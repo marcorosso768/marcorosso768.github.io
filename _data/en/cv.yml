@@ -27,57 +27,14 @@
       department: ESOMAS — Department of Economics
       supervisor: 'supervisor: <a href="https://sites.google.com/site/giovannimastrobuoni/">Giovanni Mastrobuoni</a>'
       cosupervisor: 'co-supervisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
-    - title: "Bachelor's degree of Mathematics"
+    - title: "Bachelor's degree in Mathematics"
       year: "2015"
       location: "Turin, Italy"
       institution: University of Turin
       department: 'Department of Mathematics "Giuseppe Peano"'
       supervisor: 'supervisor: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis</a>'
 
-- title: refereeing for academic journals
-  type: map
-  contents:
-    - name:
-      value: >
-        <div style="font-size:11pt; display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
-          <div style="line-height: 1.2;">
-            <i>Journal of Public Economics, The B.E. Journal of Economic Analysis and Policy, Health Economics, Journal of Economics &amp; Management Strategy</i>
-          </div>
-        </div>
-
-- title: affiliations
-  type: map
-  contents:
-    - name:
-      value: >
-        <div style="font-size:11pt; display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-id-card-clip fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
-          <div style="line-height: 1.2;">
-            Italian Econometric Association (2023), Italian Economic Association (2025-2026)
-          </div>
-        </div>
-
-- title: honors and awards
-  type: time_table
-  contents:
-    - title: '"Marco Polo" Grant for International Research Mobility'
-      year: "2024"
-      location: "Bologna, Italy"
-      institution: University of Bologna
-      department: DSE — Department of Economics
-    - title: Four-Year Ph.D. Fellowship in Economics
-      year: "2020"
-      location: "Bologna, Italy"
-      institution: University of Bologna
-      department: DSE — Department of Economics
-    - title: "Award of Distinction for Master's Thesis"
-      year: "2019"
-      location: "Turin, Italy"
-      institution: University of Turin
-      department: ESOMAS — Department of Economics
-
-- title: academic activities
+- title: research and academic activities
   type: time_table
   contents:
     - title: "Postdoctoral Researcher: Remote Work, Artificial Intelligence, and Local Labor Markets"
@@ -125,6 +82,49 @@
       location: "Turin, Italy"
       institution: Collegio Carlo Alberto
       supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero</a>'
+
+- title: refereeing for academic journals
+  type: map
+  contents:
+    - name:
+      value: >
+        <div style="font-size:11pt; display: flex; align-items: flex-start;">
+          <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
+          <div style="line-height: 1.2;">
+            <i>Journal of Public Economics, The B.E. Journal of Economic Analysis and Policy, Health Economics, Journal of Economics &amp; Management Strategy</i>
+          </div>
+        </div>
+
+- title: affiliations
+  type: map
+  contents:
+    - name:
+      value: >
+        <div style="font-size:11pt; display: flex; align-items: flex-start;">
+          <i class="fa-solid fa-id-card-clip fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
+          <div style="line-height: 1.2;">
+            Italian Econometric Association (2023), Italian Economic Association (2025-2026)
+          </div>
+        </div>
+
+- title: honors and awards
+  type: time_table
+  contents:
+    - title: '"Marco Polo" Grant for International Research Mobility'
+      year: "2024"
+      location: "Bologna, Italy"
+      institution: University of Bologna
+      department: DSE — Department of Economics
+    - title: Four-Year Ph.D. Fellowship in Economics
+      year: "2020"
+      location: "Bologna, Italy"
+      institution: University of Bologna
+      department: DSE — Department of Economics
+    - title: "Award of Distinction for Master's Thesis"
+      year: "2019"
+      location: "Turin, Italy"
+      institution: University of Turin
+      department: ESOMAS — Department of Economics
 
 - title: academic service
   type: time_table
@@ -181,6 +181,16 @@
       institution: University of Bologna
       department: DSE — Department of Economics
 
+- title: software and programming
+  type: map
+  contents:
+    - name: "programming:"
+      value: Stata, Python, R, MATLAB, C++
+    - name: "data and surveys:"
+      value: QGIS, Qualtrics, HTML/CSS
+    - name: "typesetting:"
+      value: LaTeX
+
 - title: languages
   type: list_languages
   contents:
@@ -193,18 +203,6 @@
     - category: "Spanish"
       items:
         - name: "intermediate"
-
-- title: computer skills
-  type: map
-  contents:
-    - name:
-      value: >
-        <div style="font-size:11pt; display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-laptop-code fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1.2; padding-top: 1px;"></i>
-          <div style="font-variant: small-caps; line-height: 1.4;">
-            Stata, Python, QGIS, Qualtrics, MATLAB, R, C++, LaTeX, MS Office, &lt;HTML&gt;
-          </div>
-        </div>
 
 - title: other experience
   type: time_table

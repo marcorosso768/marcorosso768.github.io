@@ -28,6 +28,14 @@ nav_order: 4
   <div class="thesis-entry indented">
     <div class="thesis-entry__row thesis-entry__row--thesis">
       <span class="thesis-entry__content">
+        2026: Giorgio Minelli, Bachelor in Business Administration, University of Bologna <i>(ongoing)</i>
+      </span>
+    </div>
+  </div>
+
+  <div class="thesis-entry indented">
+    <div class="thesis-entry__row thesis-entry__row--thesis">
+      <span class="thesis-entry__content">
         2026: Valerio D'Anselmo, Bachelor in Business Administration, University of Bologna <i>(ongoing)</i>
       </span>
     </div>
