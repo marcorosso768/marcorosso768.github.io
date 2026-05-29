@@ -182,13 +182,13 @@
       department: DSE — Department of Economics
 
 - title: software and programming
-  type: map
+  type: map_list
   contents:
-    - name: "programming:"
+    - name: "Programming:"
       value: Stata, Python, R, MATLAB, C++
-    - name: "data and surveys:"
+    - name: "Data and Surveys:"
       value: QGIS, Qualtrics, HTML/CSS
-    - name: "typesetting:"
+    - name: "Typesetting:"
       value: LaTeX
 
 - title: languages
