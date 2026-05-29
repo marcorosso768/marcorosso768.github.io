@@ -333,12 +333,12 @@ almost entirely by mothers, while fathers’ turnout remains unaffected. The res
 
 </div>
 
-<!-- Work in Progress Section -->
+<!-- Research in Progress Section -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-3"></i>
-      <span>work in progress</span>
+      <span>research in progress</span>
     </h2>
   </a>
 </div>
@@ -350,7 +350,7 @@ almost entirely by mothers, while fathers’ turnout remains unaffected. The res
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-bookmark fa-fw"></i>
-      <span><em>Transgression as Costly Signaling: A Theory of Populist Candidate Selection</em></span>
+      <span><em>State Capacity, Crime Reporting, and Local Development</em></span>
     </div>
   </div>
 
@@ -358,7 +358,7 @@ almost entirely by mothers, while fathers’ turnout remains unaffected. The res
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-bookmark fa-fw"></i>
-      <span><em>The Effect of Erasmus Programs on Voting</em></span>
+      <span><em>Political Compensation under Criminal Governance</em></span>
     </div>
   </div>
 
@@ -366,7 +366,23 @@ almost entirely by mothers, while fathers’ turnout remains unaffected. The res
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-bookmark fa-fw"></i>
-      <span><em>Political Selection under Temptation: Electoral Incentives and Moral Frictions</em></span>
+      <span><em>Costly Signaling and Populist Candidate Selection</em></span>
+    </div>
+  </div>
+
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-bookmark fa-fw"></i>
+      <span><em>Political Selection and Moral Frictions</em></span>
+    </div>
+  </div>
+
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-bookmark fa-fw"></i>
+      <span><em>Student Mobility and Political Participation</em></span>
     </div>
   </div>
 
