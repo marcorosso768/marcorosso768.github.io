@@ -56,11 +56,11 @@ nav_order: 3
           <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/520832'>Python for Economists</a>
       </div>
       <div class="icon-link indented folder-link" style="margin-left: auto; display: block; text-align: right;">
-      	<i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
-    	<i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
-    	<span class="external">  
-    	   <a href="/teaching/python_for_economists/">teaching materials</a>
-    	</span>
+        <a href="/teaching/python_for_economists/">
+          <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
+          <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
+          <span class="folder-label">teaching materials</span>
+        </a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
@@ -91,11 +91,11 @@ nav_order: 3
           <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/529017'>Microeconomics</a>
       </div>
       <div class="icon-link indented folder-link" style="margin-left: auto; display: block; text-align: right;">
-      	<i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
-    	<i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
-    	<span>  
-    	   <a href="/teaching/microeconomics/">teaching materials</a>
-    	</span>
+        <a href="/teaching/microeconomics/">
+          <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
+          <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
+          <span class="folder-label">teaching materials</span>
+        </a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
@@ -108,14 +108,14 @@ nav_order: 3
  <div class="teaching-entry indented">
    <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/406503'>Econometrics</a> <span style="font-size: x-small;">(formally under <a href='https://www.unibo.it/sitoweb/sergio.pastorello/en'>Sergio Pastorello</a>)</span> joint with <a href='https://www.unibo.it/sitoweb/margherita.fort/en'>Margherita Fort </a>
+          <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/406503'>Econometrics</a> joint with <a href='https://www.unibo.it/sitoweb/margherita.fort/en'>Margherita Fort</a>
       </div>
-      <div class="icon-link indented folder-link"  style="margin-left: auto; display: block; text-align: right;">
-    	<i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
-    	<i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
-    	<span>  
-     		<a href="/teaching/econometrics/">teaching materials</a>
-    	</span>
+      <div class="icon-link indented folder-link" style="margin-left: auto; display: block; text-align: right;">
+        <a href="/teaching/econometrics/">
+          <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
+          <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
+          <span class="folder-label">teaching materials</span>
+        </a>
       </div>
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
