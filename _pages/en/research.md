@@ -500,4 +500,15 @@ Taken together, the three chapters show how behavioral frictions and life-cycle 
     </div>
   </div>
 
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-book fa-fw"></i>
+      <span>
+          Bachelor's Thesis (2014),
+          <em>"The Dual Simplex Method"</em>
+      </span>
+    </div>
+  </div>
+
 </div>

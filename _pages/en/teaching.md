@@ -65,8 +65,7 @@ nav_order: 3
    </div>
    <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        <div>Two Year Master in Economics and Public Policy,</div>
-	<div>Two Year Master in Applied Economics and Market,</div>
+        <div>Two Year Master in Economics and Public Policy and in Applied Economics and Market,</div>
 	<div>Ph.D. in Economics, and Ph.D. in Management</div>
       </div>
     </div>
