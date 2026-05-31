@@ -56,7 +56,7 @@ nav: false
   <a href="/assets/teaching_material/python_for_economists/L3_pandas_apis_econometrics.ipynb" download target="_blank" rel="noopener noreferrer" class="download-link"><i class="fa-solid fa-download fa-fw"></i></a>
 </div>
 
-<div class="course-entry indented">
+<div class="course-entry indented" style="margin-bottom: 14pt;">
   <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
   <span>Lecture 4: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/L4_viz_eda_dp.ipynb" target="_blank" rel="noopener noreferrer">Visualisation, EDA & Dynamic Optimisation</a></span>
   <a href="/assets/teaching_material/python_for_economists/L4_viz_eda_dp.ipynb" download target="_blank" rel="noopener noreferrer" class="download-link"><i class="fa-solid fa-download fa-fw"></i></a>
@@ -83,7 +83,7 @@ nav: false
   <a href="/assets/teaching_material/python_for_economists/L5_webscraping1.ipynb" download target="_blank" rel="noopener noreferrer" class="download-link"><i class="fa-solid fa-download fa-fw"></i></a>
 </div>
 
-<div class="course-entry indented">
+<div class="course-entry indented" style="margin-bottom: 14pt;">
   <i class="fa-brands fa-python fa-fw" style="margin-top:0.5px;"></i>
   <span>Lecture 6: <a href="https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master/assets/teaching_material/python_for_economists/L6_webscraping2.ipynb" target="_blank" rel="noopener noreferrer">Web Scraping II: Sessions, Headers & Selenium</a></span>
   <a href="/assets/teaching_material/python_for_economists/L6_webscraping2.ipynb" download target="_blank" rel="noopener noreferrer" class="download-link"><i class="fa-solid fa-download fa-fw"></i></a>
