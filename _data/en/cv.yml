@@ -184,11 +184,11 @@
 - title: software and programming
   type: map_list
   contents:
-    - name: "Programming:"
+    - name: "Programming"
       value: Stata, Python, R, MATLAB, C++
-    - name: "Data and Surveys:"
+    - name: "Data and Surveys"
       value: QGIS, Qualtrics, HTML/CSS
-    - name: "Typesetting:"
+    - name: "Typesetting"
       value: LaTeX
 
 - title: languages

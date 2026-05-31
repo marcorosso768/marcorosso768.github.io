@@ -2,9 +2,7 @@
   {% for content in entry.contents %}
     <tr>
       <td class="p-1 pr-2 font-weight-light">
-        <b
-          ><span style="color:var(--global-theme-color);">{{ content.name }}</span></b
-        >
+        <span style="color:var(--global-theme-color);">{{ content.name }}</span>
       </td>
       {% if content.value %}
         <td class="p-1 pl-2 font-weight-light text">
