@@ -963,6 +963,23 @@ $gap-vertical: 0.25em; // spazio tra le due righe
   margin-left: var(--indent-margin);
   margin-bottom: 6pt;
   overflow: hidden;
+
+  & > span {
+    flex: 1;
+    min-width: 0;
+  }
+
+  & > .download-link {
+    flex-shrink: 0;
+    align-self: flex-start;
+    margin-left: 6px;
+    margin-top: 0.05rem;
+    color: var(--global-theme-color);
+
+    &:hover {
+      color: var(--global-hover-color);
+    }
+  }
 }
 
 .course-entry i.fa-fw {
