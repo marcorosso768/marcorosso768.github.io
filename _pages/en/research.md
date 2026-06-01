@@ -163,7 +163,7 @@ nav_order: 1
     <div class="icon-entry indented">
       <i class="fa-solid fa-file-lines fa-fw" title="Working paper"></i>
       <span>
-        <em>The Tipping Point of Temptation: Occupational Selection and Integrity in the Public Sector</em>
+        <em>The Tipping Point of Temptation: Selection into the Public Sector</em>
       </span>
     </div>
     <div class="pill-container">
@@ -182,17 +182,17 @@ nav_order: 1
       <a 
   href="mailto:marco.rosso4@unibo.it
         ?subject=Request%20for%20draft%20-%20The%20Tipping%20Point%20of%20Temptation%3A%20Occupational%20Selection%20and%20Integrity%20in%20the%20Public%20Sector
-        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20working%20paper%20%E2%80%9CThe%20Tipping%20Point%20of%20Temptation%3A%20Occupational%20Selection%20and%20Integrity%20in%20the%20Public%20Sector%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
+        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20working%20paper%20%E2%80%9CThe%20Tipping%20Point%20of%20Temptation%3A%20Selection%20into%20the%20Public%20Sector%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
   class="pill-link no-external">
         <i class="fa-regular fa-newspaper fa-2xs"></i>
         <span class="toggle-label" title="Draft under request">Paper</span>
       </a>
     </div>
     <div id="abstract-corruption" class="toggle-box">
-      This paper develops a behavioral theory of occupational selection based on endogenous self-control costs, addressing the long-standing empirical ambiguity regarding the quality of the public sector workforce in environments characterized by corruption and moral frictions. The framework integrates self-control costs and temptation into a standard model of occupational choice, drawing on the utility framework of Gul and Pesendorfer (2001). We show that intrinsically motivated (honest) agents face disproportionately higher psychological costs when resisting temptation, generating a dual selection effect: low-motivation types are attracted to public employment, while highly motivated types are increasingly deterred. To discipline these opposing forces, the analysis establishes three general principles governing institutional selection, supported by analytical derivations and general selection arguments under weak regularity conditions. These principles are shown to extend beyond the benchmark environment and to hold under weak regularity conditions on the joint distribution of ability and honesty. First, we identify a critical institutional tipping point, &lambda;<sup>*</sup>, that determines the selection regime: below it, corruption deteriorates workforce quality <i>("more but worse")</i>; above it, corruption acts as a severe screening device, improving average quality <i>("less but better")</i>. Second, we show that selection outcomes are fundamentally conditional on the societal correlation between ability and honesty. Third, the model provides a novel rationale for high public-sector wages, demonstrating that sufficiently large salaries attenuate the selective power of corruption by shielding high-motivation agents from self-control costs. Overall, the paper clarifies the mechanisms shaping workforce composition in morally frictional environments and contributes to the literature on occupational selection, public service motivation, and institutional design.
+      Does corruption attract low-integrity types into the public sector, or deter honest ones? Existing evidence is mixed: high-corruption settings show a negative association between honesty and public-sector preference, while low-corruption settings show a positive one. This paper proposes a behavioral mechanism that organizes both patterns. Building on self-control utility, we treat corruption rents as a short-run temptation. The rent attracts low-motivation types; but it also imposes a self-control cost on an intermediate range of honest-enough agents who resist temptation at a cost, generating a “missing mass” of intermediate-integrity types who select out. These opposing forces produce a <em>tipping point</em>: corruption rents expand the public sector when temptation is mild but contract it&mdash;improving average integrity&mdash;when temptation is strong. We show this tipping logic is not an artifact of the leading benchmark, where the threshold takes the closed form &lambda;<sup>&star;</sup> = 1 + &radic;2: it is the universal small-rent limit for a broad class of type distributions, and the sign of the selection response is governed by the joint distribution of honesty and ability, which the theory treats as a primitive of the institutional environment. A model-guided exercise using five lab and field experimental samples spanning the corruption distribution shows that cross-sample variation in this joint distribution is consistent with the mechanism. The selection frontier also carries a falsifiable signature that distinguishes self-control from reputation and Roy sorting, and we characterize the data a structural test of it would require&mdash;realized entry, incentivized integrity, and ability jointly observed&mdash;which existing samples do not yet provide.
     </div>
     <div id="keywords-corruption" class="toggle-box">
-      occupational selection; self-control and temptation; corruption; public sector labor markets; institutional design.
+      occupational selection; self-control and temptation; corruption; reputation and self-image; public sector labor markets; institutional design.
     </div>
     <div id="jel-corruption" class="toggle-box">
        D73; J45; D90; H83.
