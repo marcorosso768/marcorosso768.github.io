@@ -1133,3 +1133,59 @@ $gap-vertical: 0.25em; // spazio tra le due righe
     }
   } // ← chiude &__row--project
 } // ← chiude .ra-entry
+
+/******************************************************************************
+ * Thesis Entry (supervisione tesi)
+ ******************************************************************************/
+
+.thesis-entry {
+  margin-bottom: 1.5rem;
+
+  &.indented {
+    margin-left: var(--indent-margin);
+  }
+
+  &__row {
+    display: flex;
+    column-gap: $gap-horizontal;
+    align-items: center;
+
+    &::before {
+      @include fa-base;
+      display: inline-block;
+      width: $fa-fw-width;
+      text-align: center;
+      font-size: 1em;
+      color: var(--global-theme-color);
+    }
+  }
+
+  &__row--thesis {
+    margin-bottom: $gap-vertical;
+    align-items: flex-start;
+
+    &::before {
+      content: "\f19d"; // fa-graduation-cap
+    }
+
+    & .thesis-entry__content {
+      line-height: 1.2;
+    }
+  }
+
+  &__row--title {
+    align-items: flex-start;
+    font-size: 0.9em;
+    font-style: italic;
+    line-height: 15px;
+
+    &::before {
+      content: "\f02d"; // fa-book
+      margin-left: 2px;
+    }
+
+    & .thesis-entry__title-text {
+      line-height: 15px;
+    }
+  } // ← chiude &__row--title
+} // ← chiude .thesis-entry
