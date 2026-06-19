@@ -31,6 +31,9 @@ nav_order: 4
         2026: Giorgio Minelli, Bachelor in Business Administration, University of Bologna <i>(ongoing)</i>
       </span>
     </div>
+    <div class="thesis-entry__row thesis-entry__row--title">
+      <span class="thesis-entry__title-text">From the Sugar Tax to Nudges: A Behavioral Economics Approach to Excessive Sugar Consumption in Italy</span>
+    </div>
   </div>
 
   <div class="thesis-entry indented">
@@ -46,6 +49,9 @@ nav_order: 4
       <span class="thesis-entry__content">
         2026: Pietro Zanieri, Bachelor in Business Administration, University of Bologna <i>(ongoing)</i>
       </span>
+    </div>
+    <div class="thesis-entry__row thesis-entry__row--title">
+      <span class="thesis-entry__title-text">An Analysis of International Conflicts through Game Theory</span>
     </div>
   </div>
 
