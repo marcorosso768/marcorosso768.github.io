@@ -28,26 +28,29 @@ nav_order: 4
   <div class="thesis-entry indented">
     <div class="thesis-entry__row thesis-entry__row--thesis">
       <span class="thesis-entry__content">
+        2026: Valerio D'Anselmo, Bachelor in Business Administration, University of Bologna <i>(ongoing)</i>
+      </span>
+    </div>
+    <div class="thesis-entry__row thesis-entry__row--title">
+      <span class="thesis-entry__title-text">Beyond the Median Voter: Non-Positional Competition and Party Strategy in the Issue Yield Model</span>
+    </div>
+  </div>
+
+  <div class="thesis-entry indented">
+    <div class="thesis-entry__row thesis-entry__row--thesis">
+      <span class="thesis-entry__content">
         2026: Giorgio Minelli, Bachelor in Business Administration, University of Bologna <i>(ongoing)</i>
       </span>
     </div>
     <div class="thesis-entry__row thesis-entry__row--title">
-      <span class="thesis-entry__title-text">From the Sugar Tax to Nudges: A Behavioral Economics Approach to Excessive Sugar Consumption in Italy</span>
+      <span class="thesis-entry__title-text">From Sugar Tax to Nudge: A Behavioral Economics Approach to Excessive Sugar Consumption in Italy</span>
     </div>
   </div>
 
   <div class="thesis-entry indented">
     <div class="thesis-entry__row thesis-entry__row--thesis">
       <span class="thesis-entry__content">
-        2026: Valerio D'Anselmo, Bachelor in Business Administration, University of Bologna <i>(ongoing)</i>
-      </span>
-    </div>
-  </div>
-
-  <div class="thesis-entry indented">
-    <div class="thesis-entry__row thesis-entry__row--thesis">
-      <span class="thesis-entry__content">
-        2026: Pietro Zanieri, Bachelor in Business Administration, University of Bologna <i>(ongoing)</i>
+        2026: Pietro Zanieri, Bachelor in Business Administration, University of Bologna
       </span>
     </div>
     <div class="thesis-entry__row thesis-entry__row--title">

@@ -185,9 +185,9 @@
   type: map_list
   contents:
     - name: "Programming"
-      value: Stata, Python, R, MATLAB, C++
+      value: Stata, Python, R, MATLAB
     - name: "Data and Surveys"
-      value: QGIS, Qualtrics, HTML/CSS
+      value: SQL (BigQuery), QGIS, Qualtrics, HTML/CSS
     - name: "Typesetting"
       value: LaTeX
 
