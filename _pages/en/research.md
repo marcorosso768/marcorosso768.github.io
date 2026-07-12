@@ -333,12 +333,12 @@ almost entirely by mothers, while fathers’ turnout remains unaffected. The res
 
 </div>
 
-<!-- Research in Progress Section -->
+<!-- Selected Research in Progress Section -->
 <div class="projects">
   <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-3"></i>
-      <span>research in progress</span>
+      <span>selected work in progress</span>
     </h2>
   </a>
 </div>
