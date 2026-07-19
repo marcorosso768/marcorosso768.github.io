@@ -92,7 +92,7 @@ nav_order: 1
         <i class="fa-regular fa-newspaper fa-2xs"></i>
         <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Paper</span>
       </a>
-    </div>
+      </div>
     <div id="abstract-crime" class="toggle-box">
     This paper studies how exposure to geolocated crime-related news shapes individual voting behavior in Italian elections. Using a panel of non-relocating voters observed across multiple election rounds, we exploit within-individual variation in exposure to nearby crime news during the pre-election month, controlling for individual and district-by-election fixed effects. Aggregate exposure yields weak, unstable effects. Disaggregating by offender nationality reveals systematic patterns: immigrant-attributed crime news reduces support for parties with ambiguous immigration stances (e.g., Five Star Movement) and increases support for clear "law-and-order" parties, while Italian-attributed crime has negligible effects. Effects are stronger among high-skilled voters shifting from M5S and low-skilled voters abandoning Lega. In local elections, Italian crime punishes incumbents, while immigrant crime increases abstention. These asymmetric responses—absent in aggregate measures—indicate that crime salience operates primarily through identity-based framing rather than through generalized concerns about crime or security. The findings highlight how media attribution shapes electoral accountability.
     </div>
@@ -134,6 +134,10 @@ nav_order: 1
       </span>
     </div>
   <div class="pill-container">
+       <a href="https://crenos.unica.it/bibcite/reference/8766" class="pill-link no-external">
+        <i class="fa-regular fa-newspaper fa-2xs"></i>
+        <span class="toggle-label" title="CRENoS Working Paper 26/13">Paper</span>
+       </a>
       <div class="pill-button toggle-pill" data-target="abstract-ai">
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">Abstract</span>
@@ -146,11 +150,7 @@ nav_order: 1
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">JEL</span>
       </div>
-            <a href="https://crenos.unica.it/bibcite/reference/8766" class="pill-link no-external">
-        <i class="fa-regular fa-newspaper fa-2xs"></i>
-        <span class="toggle-label" title="CRENoS Working Paper 26/13">Paper</span>
-      </a>
-    </div>
+  </div>
     <div id="abstract-ai" class="toggle-box">
      We study how the release of ChatGPT affected posted U.S. labor demand, using 368~million Lightcast job postings (2016--2025) and a usage-anchored measure of LLM exposure. While we find a negative and causal effect on the volume of postings in AI-exposed occupations, we find no post-release effect on their seniority composition. After November~2022, posting volume in top-quartile-exposed occupations contracts by 9~log points (approximately 8.6~percent) relative to less-exposed occupations within the same metropolitan market and month. The estimate survives an extensive battery of robustness checks and is concentrated in measured LLM usage rather than AI capability. In exposed occupations, junior postings fall considerably more than senior postings after the release, but the divergence predates ChatGPT: it opens in 2021--22, during the COVID recovery, and shows no break at the release. The differential that a simple pre/post comparison would attribute to ChatGPT is absorbed by predetermined remote-work exposure. Our results caution against reading exposure-based entry-level declines as evidence of AI-driven seniority-biased technological change.
     </div>
@@ -173,6 +173,10 @@ nav_order: 1
       </span>
     </div>
     <div class="pill-container">
+	      <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" class="pill-link no-external">
+        <i class="fa-regular fa-newspaper fa-2xs"></i>
+        <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Paper</span>
+      </a>
       <div class="pill-button toggle-pill" data-target="abstract-crime">
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">Abstract</span>
@@ -185,10 +189,6 @@ nav_order: 1
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">JEL</span>
       </div>
-      <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" class="pill-link no-external">
-        <i class="fa-regular fa-newspaper fa-2xs"></i>
-        <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Paper</span>
-      </a>
     </div>
     <div id="abstract-crime" class="toggle-box">
     This paper studies how exposure to geolocated crime-related news shapes individual voting behavior in Italian elections. Using a panel of non-relocating voters observed across multiple election rounds, we exploit within-individual variation in exposure to nearby crime news during the pre-election month, controlling for individual and district-by-election fixed effects. Aggregate exposure yields weak, unstable effects. Disaggregating by offender nationality reveals systematic patterns: immigrant-attributed crime news reduces support for parties with ambiguous immigration stances (e.g., Five Star Movement) and increases support for clear "law-and-order" parties, while Italian-attributed crime has negligible effects. Effects are stronger among high-skilled voters shifting from M5S and low-skilled voters abandoning Lega. In local elections, Italian crime punishes incumbents, while immigrant crime increases abstention. These asymmetric responses—absent in aggregate measures—indicate that crime salience operates primarily through identity-based framing rather than through generalized concerns about crime or security. The findings highlight how media attribution shapes electoral accountability.
@@ -210,6 +210,14 @@ nav_order: 1
       </span>
     </div>
     <div class="pill-container">
+      <a 
+  href="mailto:marco.rosso4@unibo.it
+        ?subject=Request%20for%20draft%20-%20The%20Tipping%20Point%20of%20Temptation%3A%20Occupational%20Selection%20and%20Integrity%20in%20the%20Public%20Sector
+        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20working%20paper%20%E2%80%9CThe%20Tipping%20Point%20of%20Temptation%3A%20Selection%20into%20the%20Public%20Sector%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
+  class="pill-link no-external">
+        <i class="fa-regular fa-newspaper fa-2xs"></i>
+        <span class="toggle-label" title="Draft under request">Draft</span>
+      </a>
       <div class="pill-button toggle-pill" data-target="abstract-corruption">
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">Abstract</span>
@@ -222,14 +230,6 @@ nav_order: 1
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">JEL</span>
       </div>
-      <a 
-  href="mailto:marco.rosso4@unibo.it
-        ?subject=Request%20for%20draft%20-%20The%20Tipping%20Point%20of%20Temptation%3A%20Occupational%20Selection%20and%20Integrity%20in%20the%20Public%20Sector
-        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20working%20paper%20%E2%80%9CThe%20Tipping%20Point%20of%20Temptation%3A%20Selection%20into%20the%20Public%20Sector%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
-  class="pill-link no-external">
-        <i class="fa-regular fa-newspaper fa-2xs"></i>
-        <span class="toggle-label" title="Draft under request">Paper</span>
-      </a>
     </div>
     <div id="abstract-corruption" class="toggle-box">
       Does corruption attract low-integrity types into the public sector, or deter honest ones? Existing evidence is mixed: high-corruption settings show a negative association between honesty and public-sector preference, while low-corruption settings show a positive one. This paper proposes a behavioral mechanism that organizes both patterns. Building on self-control utility, we treat corruption rents as a short-run temptation. The rent attracts low-motivation types; but it also imposes a self-control cost on an intermediate range of honest-enough agents who resist temptation at a cost, generating a “missing mass” of intermediate-integrity types who select out. These opposing forces produce a <em>tipping point</em>: corruption rents expand the public sector when temptation is mild but contract it&mdash;improving average integrity&mdash;when temptation is strong. We show this tipping logic is not an artifact of the leading benchmark, where the threshold takes the closed form &lambda;<sup>*</sup> = 1 + &radic;2: it is the universal small-rent limit for a broad class of type distributions, and the sign of the selection response is governed by the joint distribution of honesty and ability, which the theory treats as a primitive of the institutional environment. A model-guided exercise using five lab and field experimental samples spanning the corruption distribution shows that cross-sample variation in this joint distribution is consistent with the mechanism. The selection frontier also carries a falsifiable signature that distinguishes self-control from reputation and Roy sorting, and we characterize the data a structural test of it would require&mdash;realized entry, incentivized integrity, and ability jointly observed&mdash;which existing samples do not yet provide.
@@ -251,6 +251,14 @@ nav_order: 1
       </span>
     </div>
     <div class="pill-container">
+	      <a 
+  href="mailto:marco.rosso4@unibo.it
+        ?subject=Request%20for%20draft%20-%20Parenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records
+        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20working%20paper%20%E2%80%9CParenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
+  class="pill-link no-external">
+        <i class="fa-regular fa-newspaper fa-2xs"></i>
+        <span class="toggle-label" title="Draft under request">Draft</span>
+      </a>
       <div class="pill-button toggle-pill" data-target="abstract-ageturnout">
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">Abstract</span>
@@ -263,14 +271,6 @@ nav_order: 1
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">JEL</span>
       </div>
-      <a 
-  href="mailto:marco.rosso4@unibo.it
-        ?subject=Request%20for%20draft%20-%20Parenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records
-        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20working%20paper%20%E2%80%9CParenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
-  class="pill-link no-external">
-        <i class="fa-regular fa-newspaper fa-2xs"></i>
-        <span class="toggle-label" title="Draft under request">Paper</span>
-      </a>
     </div>
     <div id="abstract-ageturnout" class="toggle-box">
      This paper studies how parenthood and parental age are associated with voter turnout using a comprehensive administrative panel covering the universe of registered voters in Bologna across four municipal and national elections between 2004 and 2013. By linking individual turnout records to demographic, fiscal, and residential information, we identify parents, track the age of their children, and follow the same individuals over time. We estimate linear probability models with individual and election-year fixed effects, exploiting within-individual variation to account for permanent differences in civic engagement. On average, parenthood is not associated with lower turnout once individual fixed effects are included. However, substantial heterogeneity emerges over the parental life cycle. Parents of young children vote significantly less than comparable non-parents at younger ages: those with children aged 0–2 and 3–5 exhibit turnout penalties of approximately three to five percentage points. These gaps decline steadily—by about 0.2 percentage points per additional year of parental age—and disappear by around age forty. Parents of older children display no turnout deficit. The participation gap is driven
@@ -298,6 +298,14 @@ almost entirely by mothers, while fathers’ turnout remains unaffected. The res
       </span>
     </div>
   <div class="pill-container">
+      <a 
+  href="mailto:marco.rosso4@unibo.it
+        ?subject=Request%20for%20draft%20-%20Public%20Goods%20and%20Political%20Participation%3A%20Childcare%20Access%20and%20Electoral%20Engagement
+        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20yours%20working%20paper%20%E2%80%9CPublic%20Goods%20and%20Political%20Participation%3A%20Childcare%20Access%20and%20Electoral%20Engagement%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
+  class="pill-link no-external">
+        <i class="fa-regular fa-newspaper fa-2xs"></i>
+        <span class="toggle-label" title="Draft under request">Draft</span>
+      </a>
       <div class="pill-button toggle-pill" data-target="abstract-school">
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">Abstract</span>
@@ -310,14 +318,6 @@ almost entirely by mothers, while fathers’ turnout remains unaffected. The res
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">JEL</span>
       </div>
-      <a 
-  href="mailto:marco.rosso4@unibo.it
-        ?subject=Request%20for%20draft%20-%20Public%20Goods%20and%20Political%20Participation%3A%20Childcare%20Access%20and%20Electoral%20Engagement
-        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20yours%20working%20paper%20%E2%80%9CPublic%20Goods%20and%20Political%20Participation%3A%20Childcare%20Access%20and%20Electoral%20Engagement%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
-  class="pill-link no-external">
-        <i class="fa-regular fa-newspaper fa-2xs"></i>
-        <span class="toggle-label" title="Draft under request">Paper</span>
-      </a>
     </div>
     <div id="abstract-school" class="toggle-box">
      Unequal political participation threatens democratic representation when groups with distinct policy preferences are systematically underrepresented at the ballot box. This paper studies how access to childcare-related public goods shapes electoral participation over the life cycle. We combine universe-level administrative turnout records from the city of Bologna with a newly constructed, geocoded panel of nurseries and preschools. Exploiting within-individual variation in proximity to age-appropriate childcare facilities—generated by residential mobility, school openings and closures, and administrative re-drawings of catchment boundaries—we show that greater distance to childcare infrastructure significantly reduces voter turnout among parents of young children. The effect is concentrated in municipal elections, where education policy is directly determined, and is driven by mothers, while effects for fathers are small and statistically insignificant. The magnitude of the effect is economically meaningful and comparable to other well-documented voting costs, despite automatic voter registration and high baseline turnout. These findings highlight a mechanism through which access to local public goods shapes political participation and, in turn, democratic representation.
@@ -349,6 +349,14 @@ almost entirely by mothers, while fathers’ turnout remains unaffected. The res
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-bookmark fa-fw"></i>
+      <span><em>Costly Signaling and Populist Candidate Selection</em></span>
+    </div>
+  </div>
+
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-bookmark fa-fw"></i>
       <span><em>State Capacity, Crime Reporting, and Local Development</em></span>
     </div>
   </div>
@@ -365,23 +373,7 @@ almost entirely by mothers, while fathers’ turnout remains unaffected. The res
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-bookmark fa-fw"></i>
-      <span><em>Costly Signaling and Populist Candidate Selection</em></span>
-    </div>
-  </div>
-
-  <!-- Paper -->
-  <div class="entry-block">
-    <div class="icon-entry indented">
-      <i class="fa-solid fa-bookmark fa-fw"></i>
       <span><em>Political Selection and Moral Frictions</em></span>
-    </div>
-  </div>
-
-  <!-- Paper -->
-  <div class="entry-block">
-    <div class="icon-entry indented">
-      <i class="fa-solid fa-bookmark fa-fw"></i>
-      <span><em>Student Mobility and Political Participation</em></span>
     </div>
   </div>
 
