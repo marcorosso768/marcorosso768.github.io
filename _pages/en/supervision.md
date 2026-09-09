@@ -28,18 +28,40 @@ nav_order: 4
   <div class="thesis-entry indented">
     <div class="thesis-entry__row thesis-entry__row--thesis">
       <span class="thesis-entry__content">
-        2026: Matteo Buldini, Bachelor in Business Administration, University of Bologna <i>(ongoing)</i>
+        2026: Francesco Michetti, Bachelor in Business Administration, University of Bologna <i>(ongoing)</i>
       </span>
     </div>
     <div class="thesis-entry__row thesis-entry__row--title">
-      <span class="thesis-entry__title-text">T.B.D.</span>
+      <span class="thesis-entry__title-text">Asymmetric Information and Quality in the Used Car Market: The Role of Certification and Online Sales</span>
     </div>
   </div>
 
   <div class="thesis-entry indented">
     <div class="thesis-entry__row thesis-entry__row--thesis">
       <span class="thesis-entry__content">
-        2026: Valerio D'Anselmo, Bachelor in Business Administration, University of Bologna <i>(ongoing)</i>
+        2026: Cristian Di Marco, Bachelor in Business Administration, University of Bologna <i>(ongoing)</i>
+      </span>
+    </div>
+    <div class="thesis-entry__row thesis-entry__row--title">
+      <span class="thesis-entry__title-text">Equilibrium and Exploitability in Games of Imperfect Information: A Poker Analysis</span>
+    </div>
+  </div>
+
+  <div class="thesis-entry indented">
+    <div class="thesis-entry__row thesis-entry__row--thesis">
+      <span class="thesis-entry__content">
+        2026: Matteo Buldini, Bachelor in Business Administration, University of Bologna <i>(ongoing)</i>
+      </span>
+    </div>
+    <div class="thesis-entry__row thesis-entry__row--title">
+      <span class="thesis-entry__title-text">Price Transparency and Oligopolistic Competition: From the Bertrand Paradox to Mandatory Fuel Price Disclosure in Italy</span>
+    </div>
+  </div>
+
+  <div class="thesis-entry indented">
+    <div class="thesis-entry__row thesis-entry__row--thesis">
+      <span class="thesis-entry__content">
+        2026: Valerio D'Anselmo, Bachelor in Business Administration, University of Bologna
       </span>
     </div>
     <div class="thesis-entry__row thesis-entry__row--title">
