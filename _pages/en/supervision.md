@@ -19,7 +19,7 @@ nav_order: 4
   <a href="javascript:void(0);" onclick="toggleVisibility('content-0')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
-      <span>thesis supervision</span>
+      <span>students</span>
     </h2>
   </a>
 </div>
@@ -61,7 +61,7 @@ nav_order: 4
   <div class="thesis-entry indented">
     <div class="thesis-entry__row thesis-entry__row--thesis">
       <span class="thesis-entry__content">
-        2026: Valerio D'Anselmo, Bachelor in Business Administration, University of Bologna <i>(ongoing)</i>
+        2026: Valerio D'Anselmo, Bachelor in Business Administration, University of Bologna
       </span>
     </div>
     <div class="thesis-entry__row thesis-entry__row--title">
