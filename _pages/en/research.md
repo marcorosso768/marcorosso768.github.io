@@ -489,35 +489,6 @@ local public goods.
           <em>"Essays in Political Economy and Crime Economics"</em>
       </span>
     </div>
-    <div class="pill-container mt-2">
-      <div class="pill-button toggle-pill" data-target="abstract-phd">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Abstract</span>
-      </div>
-      <div class="pill-button toggle-pill" data-target="chapters-phd">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Chapters</span>
-      </div>
-    </div>
-      <!-- Boxes style="margin-top: -0.005rem;"-->
-      <div id="abstract-phd" class="toggle-box">
-          This dissertation studies how non-monetary frictions—such as temptation, information salience, and time constraints—shape individual behavior in contexts where formal institutions are otherwise well-functioning. Combining theoretical analysis with micro-level empirical evidence, the three chapters examine how these frictions aﬀect selection into public employment and participation in democratic processes.<br>
-<br>
-The <i>first chapter</i> develops a behavioral theory of occupational selection in the public sector. Introducing self-control costs into a standard model of career choice, the analysis shows that corruption generates a dual selection eﬀect: while illicit rents attract low-motivation individuals, the psychological costs of resisting temptation deter highly motivated agents. The model identifies an institutional tipping point at which corruption switches from expanding public employment while degrading workforce quality to acting as a severe screening device that improves average quality but reduces participation. These results clarify why similar anti-corruption environments can produce sharply diﬀerent selection outcomes across countries.<br>
-<br>
-The <i>second chapter</i> examines how crime-related information aﬀects individual voting behavior. Using geolocated data that link retrospective voting choices to local crime news coverage in Bologna across multiple national and municipal elections, the analysis exploits within-individual variation in exposure to nearby crime reports. The results show that aggregate crime salience has weak and unstable eﬀects, while crime attributed to immigrants generates systematic electoral responses: voters shift away from parties with ambiguous positions on immigration toward parties emphasizing law and order. In local elections, immigrant-related crime increases abstention, whereas crimes committed by natives lead to punishment of incumbents. These findings highlight the role of identity-based framing in mediating the political impact of crime.<br>
-<br>
-The <i>third chapter</i> studies how parenthood and parental age shape electoral participation. Using administrative data covering the universe of registered voters in Bologna, the analysis follows individuals over time as their family circumstances evolve. Once permanent individual heterogeneity is accounted for, parenthood is not associated with lower turnout on average. However, substantial life-cycle heterogeneity emerges: parents of infants and preschoolers—especially mothers—exhibit sizable turnout penalties at younger ages, which decline steadily with parental age and disappear by around age forty. These results indicate that periods of intensive childcare impose temporary opportunity costs on political participation.<br>
-<br>
-Taken together, the three chapters show how behavioral frictions and life-cycle constraints can generate distortions in selection and participation even in settings with low formal barriers to entry and participation. By emphasizing micro-level mechanisms rather than institutional failures alone, the dissertation contributes to the understanding of public-sector composition, electoral behavior, and democratic representation.
-      </div>
-      <div id="chapters-phd" class="toggle-box">
-          <span>
-            1. The Tipping Point of Temptation: Occupational Selection and Integrity in the Public Sector<br>
-            2. Crime Perception and Voting Behavior: Evidence from Individual Data<br>
-            3. Parenthood, Age, and the Opportunity Cost of Voting: Evidence from Administrative Voter Records
-          </span>
-      </div>
   </div>
 
   <!-- Paper -->
@@ -529,16 +500,6 @@ Taken together, the three chapters show how behavioral frictions and life-cycle 
           <em>"Effect of Breast and Colorectal Cancer on Earnings: Evidence from Italy"</em>
       </span>
     </div>
-    <div class="pill-container mt-2">
-      <div class="pill-button toggle-pill" data-target="abstract-master">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Abstract</span>
-      </div>
-    </div>
-    <!-- Boxes -->
-    <div id="abstract-master" class="toggle-box">
-        Using the Work History Italian Panel (WHIP) we estimate the causal effects of breast and colorectal cancer on earnings, on unemployment, and on the possibility to work part-time in the following three years after the cancer diagnosis. Since cancer patients differ from the rest of the population at socio-economic levels, we perform a propensity score matching to balance our observations. We analyse the effect on earnings throughout an OLS regression and on part-time and unemployment using a logistic regression. We observe that colorectal and breast cancer patients have different effects on earnings. A diagnosis of colorectal cancer appears to be more disabling, leading to a total reduction in earnings up to 10,000 € after three years. On the contrary, the negative effects of breast cancer are more concentrated in the short term and from the second year onwards these women are able to resume a normal working activity. This diversity is also supported by the results we achieved on unemployment and on part-time work.
-    </div>
   </div>
 
   <!-- Paper -->
@@ -549,17 +510,6 @@ Taken together, the three chapters show how behavioral frictions and life-cycle 
           Bachelor's Thesis (2015),
           <em>"The Dual Simplex Method"</em>
       </span>
-    </div>
-<div class="pill-container mt-2">
-      <div class="pill-button toggle-pill" data-target="abstract-bachelor">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Abstract</span>
-      </div>
-    </div>
-    <!-- Boxes -->
-    <div id="abstract-bachelor" class="toggle-box">
-        This thesis provides an introduction to linear programming and to the dual simplex method. After presenting the basic concepts of optimization and the standard form of a linear programming problem, the thesis introduces Jordan exchanges as an algebraic tool for transforming systems of linear equations and inequalities. These transformations are then used to describe the simplex method, both from an algebraic and a geometric perspective, with particular attention to feasibility, optimality, degeneracy, and pivoting rules. <br>
-The second part of the thesis focuses on duality in linear programming. Starting from the relationship between primal and dual linear systems, the thesis develops the dual formulation of a linear programming problem and discusses the main theoretical results, including weak duality, strong duality, and the Karush-Kuhn-Tucker conditions. Finally, the dual simplex method is presented as a natural counterpart to the primal simplex method. While the primal simplex method preserves primal feasibility and progressively improves optimality, the dual simplex method starts from a dual-feasible table and restores primal feasibility through appropriate pivot operations. The thesis thus highlights the central role of duality in both the theoretical understanding and the algorithmic solution of linear programming problems.
     </div>
   </div>
 
