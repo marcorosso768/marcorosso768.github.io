@@ -152,13 +152,13 @@ nav_order: 1
       </div>
   </div>
     <div id="abstract-ai" class="toggle-box">
-     We study how the release of ChatGPT affected posted U.S. labor demand, using 368~million Lightcast job postings (2016--2025) and a usage-anchored measure of LLM exposure. While we find a negative and causal effect on the volume of postings in AI-exposed occupations, we find no post-release effect on their seniority composition. After November~2022, posting volume in top-quartile-exposed occupations contracts by 9~log points (approximately 8.6~percent) relative to less-exposed occupations within the same metropolitan market and month. The estimate survives an extensive battery of robustness checks and is concentrated in measured LLM usage rather than AI capability. In exposed occupations, junior postings fall considerably more than senior postings after the release, but the divergence predates ChatGPT: it opens in 2021--22, during the COVID recovery, and shows no break at the release. The differential that a simple pre/post comparison would attribute to ChatGPT is absorbed by predetermined remote-work exposure. Our results caution against reading exposure-based entry-level declines as evidence of AI-driven seniority-biased technological change.
+     We study how the release of ChatGPT affected posted U.S. labor demand, using 368 million Lightcast job postings (2016–2025) and a usage-anchored measure of LLM exposure. While we find a negative and causal effect on the volume of postings in AI-exposed occupations, we find no post-release effect on their seniority composition. After November 2022, posting volume in top-quartile-exposed occupations contracts by 9 log points (approximately 8.6 percent) relative to less-exposed occupations within the same metropolitan market and month. The estimate survives an extensive battery of robustness checks and is concentrated in measured LLM usage rather than AI capability. In exposed occupations, junior postings fall considerably more than senior postings after the release, but the divergence predates ChatGPT: it opens in 2021–22, during the COVID recovery, and shows no break at the release. The differential that a simple pre/post comparison would attribute to ChatGPT is absorbed by predetermined remote-work exposure. Our results caution against reading exposure-based entry-level declines as evidence of AI-driven seniority-biased technological change.
     </div>
     <div id="keywords-ai" class="toggle-box">
        generative AI; ChatGPT; labor demand; seniority; job postings; difference-in-differences.
     </div>
     <div id="jel-ai" class="toggle-box">
-       J23; J24; 033; M51.
+       J23; J24; O33; M51.
     </div>
   </div>
 
@@ -546,7 +546,7 @@ Taken together, the three chapters show how behavioral frictions and life-cycle 
     <div class="icon-entry indented">
       <i class="fa-solid fa-book fa-fw"></i>
       <span>
-          Bachelor's Thesis (2014),
+          Bachelor's Thesis (2015),
           <em>"The Dual Simplex Method"</em>
       </span>
     </div>

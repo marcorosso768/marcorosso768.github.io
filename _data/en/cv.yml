@@ -1,4 +1,4 @@
-- title: field of interest
+- title: fields of interest
   type: interest
   contents:
     - field: Political Economy
@@ -13,7 +13,7 @@
     - title: Ph.D. in Economics
       year: "2026"
       institution: University of Bologna
-      department: DSE — Depeartment of Economics
+      department: DSE — Department of Economics
       location: "Bologna, Italy"
       supervisor: 'supervisor: <a href="https://sites.google.com/site/paolovanin/">Paolo Vanin</a>'
     - title: Master of Arts in Economics
