@@ -112,7 +112,7 @@ nav_order: 2
     </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
-        CRENoS, University of Cagliari — Cagliari, Italy
+        CRENoS (Centre for North South Economic Research) — Cagliari, Italy
       </div>
     </div>
   </div>
