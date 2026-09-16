@@ -1563,7 +1563,8 @@ main#main-content:focus {
 .post article p a,
 .post article li a,
 .teaching-entry__content a,
-.teaching-entry__course-text a {
+.teaching-entry__course-text a,
+.news td a {
   &:not(.btn):not(.pill-link):not(.icon-link):not(.nav-link) {
     text-decoration: underline;
     text-decoration-thickness: 1px;
