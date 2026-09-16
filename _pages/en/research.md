@@ -34,7 +34,7 @@ nav_order: 1
       <span>
         Farina E., Rosso M., Dansero L., et al. (2023).
         <a href="https://doi.org/10.1136/jech-2022-220088" target="_blank" rel="noopener noreferrer">
-          Short-term effect of colorectal cancer on income.
+          Short-term effect of colorectal cancer on income: analysis of an Italian cohort.
         </a>
         <i>Journal of Epidemiology & Community Health</i>, 77:196–201.
       </span>
@@ -449,7 +449,7 @@ local public goods.
       <span>
         Farina E., Rosso M., Dansero L., et al. (2023). 
         <a href="https://doi.org/10.1136/jech-2022-220088" target="_blank" rel="noopener noreferrer">
-          Short-term effect of colorectal cancer on income.
+          Short-term effect of colorectal cancer on income: analysis of an Italian cohort.
         </a> 
         <i>Journal of Epidemiology & Community Health</i>, 77:196–201.
       </span>
@@ -496,7 +496,7 @@ local public goods.
     <div class="icon-entry indented">
       <i class="fa-solid fa-book fa-fw"></i>
       <span>
-          Master's Thesis (2018),
+          Master's Thesis (2019),
           <em>"Effect of Breast and Colorectal Cancer on Earnings: Evidence from Italy"</em>
       </span>
     </div>
