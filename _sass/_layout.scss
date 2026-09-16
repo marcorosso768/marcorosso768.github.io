@@ -471,6 +471,9 @@ $gap-vertical: 0.25em; // spazio tra le due righe
     // testo principale (titolo + “Speaker”)
     & .teaching-entry__content {
       line-height: 1.2;
+      .course-title {
+        color: var(--global-theme-color);
+      }
       .highlight {
         color: var(--global-theme-color);
       }
@@ -792,11 +795,6 @@ $gap-vertical: 0.25em; // spazio tra le due righe
     }
   }
 
-  h2.subsection.subsection--static {
-    margin-top: 0.5rem;
-    margin-left: 0.75rem;
-  }
-
   h2.subsection {
     color: var(--global-text-color);
     //padding-top: 0.5rem;
@@ -848,6 +846,12 @@ $gap-vertical: 0.25em; // spazio tra le due righe
       text-decoration: none !important;
       color: inherit;
     }
+  }
+
+  h2.year.year--static {
+    margin-top: 0.25rem;
+    margin-bottom: 0.75rem;
+    font-style: italic;
   }
 
   h2.year {

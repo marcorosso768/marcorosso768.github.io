@@ -27,25 +27,29 @@ nav_order: 3
 <div id="content-0" class="toggle-section expanded">
 
 <div class="subsection">
-  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-unibo-t')">
+  <a href="javascript:void(0);" onclick="toggleVisibility('instructor-current')">
     <h2 class="subsection">
-      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-unibo-t"></i>
-      <span>University of Bologna</span>
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-instructor-current"></i>
+      <span>current courses</span>
     </h2>
   </a>
 </div>
 
-<div id="subsection-unibo-t" class="toggle-section expanded">
+<div id="instructor-current" class="toggle-section expanded">
+
+<div class="year">
+  <h2 class="year year--static"><span>University of Bologna</span></h2>
+</div>
 
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        Empirical Methods for Law and Economics
+        <span class="course-title">Empirical Methods for Law and Economics</span>
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Ph.D. course
+        European Doctorate in Law and Economics (EDLE)
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--date">
@@ -55,7 +59,7 @@ nav_order: 3
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        Pre-sessional Course in Econometrics
+        <span class="course-title">Pre-sessional Course in Econometrics</span>
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
@@ -82,6 +86,23 @@ nav_order: 3
       <div class="teaching-entry__date-text">2025–</div>
     </div>
   </div>
+</div>
+
+<div class="subsection">
+  <a href="javascript:void(0);" onclick="toggleVisibility('instructor-earlier')">
+    <h2 class="subsection">
+      <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-instructor-earlier"></i>
+      <span>earlier courses</span>
+    </h2>
+  </a>
+</div>
+
+<div id="instructor-earlier" class="toggle-section">
+
+<div class="year">
+  <h2 class="year year--static"><span>University of Bologna</span></h2>
+</div>
+
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
@@ -149,6 +170,7 @@ nav_order: 3
     </div>
   </div>
 </div>
+
 </div>
 
 <!-- TEACHING ASSISTANT -->
@@ -164,20 +186,24 @@ nav_order: 3
 <div id="content-1" class="toggle-section expanded">
 
 <div class="subsection">
-  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-unibo')">
+  <a href="javascript:void(0);" onclick="toggleVisibility('ta-current')">
     <h2 class="subsection">
-      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-unibo"></i>
-      <span>University of Bologna</span>
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-ta-current"></i>
+      <span>current courses</span>
     </h2>
   </a>
 </div>
 
-<div id="subsection-unibo" class="toggle-section expanded">
+<div id="ta-current" class="toggle-section expanded">
+
+<div class="year">
+  <h2 class="year year--static"><span>University of Bologna</span></h2>
+</div>
 
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        Advanced Course in Economic Policy and Methods with <a href='https://www.unibo.it/sitoweb/andrea.mattozzi/en'>Andrea Mattozzi</a>
+        <span class="course-title">Advanced Course in Economic Policy and Methods</span> with <a href='https://www.unibo.it/sitoweb/andrea.mattozzi/en'>Andrea Mattozzi</a>
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
@@ -192,7 +218,7 @@ nav_order: 3
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        Introduction to Behavioral Economics with <a href='https://www.unibo.it/sitoweb/maria.bigoni/en'>Maria Bigoni</a>
+        <span class="course-title">Introduction to Behavioral Economics</span> with <a href='https://www.unibo.it/sitoweb/maria.bigoni/en'>Maria Bigoni</a>
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
@@ -207,7 +233,7 @@ nav_order: 3
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        Microeconomics with Matthew John Wakefield
+        <span class="course-title">Microeconomics</span> with Matthew John Wakefield
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
@@ -222,7 +248,7 @@ nav_order: 3
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        Tutoring in Statistics and Data Analysis with <a href='https://www.unibo.it/sitoweb/margherita.fort/en'>Margherita Fort</a>
+        <span class="course-title">Tutoring in Statistics and Data Analysis</span> with <a href='https://www.unibo.it/sitoweb/margherita.fort/en'>Margherita Fort</a>
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
@@ -281,21 +307,21 @@ nav_order: 3
   </div>
 </div>
 
-<!-- EARLIER COURSES -->
-<div class="year">
-  <a href="javascript:void(0);" onclick="toggleVisibility('earlier-ta')">
-    <h2 class="year">
-      <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-earlier-ta"></i>
+<div class="subsection">
+  <a href="javascript:void(0);" onclick="toggleVisibility('ta-earlier')">
+    <h2 class="subsection">
+      <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-ta-earlier"></i>
       <span>earlier courses</span>
     </h2>
   </a>
 </div>
 
-<div id="earlier-ta" class="toggle-section">
+<div id="ta-earlier" class="toggle-section">
 
-<div class="subsection">
-  <h2 class="subsection subsection--static"><span>University of Bologna</span></h2>
+<div class="year">
+  <h2 class="year year--static"><span>University of Bologna</span></h2>
 </div>
+
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
@@ -356,9 +382,10 @@ nav_order: 3
       <div class="teaching-entry__date-text">2022–2024</div>
     </div>
   </div>
-<div class="subsection">
-  <h2 class="subsection subsection--static"><span>University of Bologna — Forlì Campus</span></h2>
+<div class="year">
+  <h2 class="year year--static"><span>University of Bologna — Forlì Campus</span></h2>
 </div>
+
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
@@ -404,9 +431,10 @@ nav_order: 3
       <div class="teaching-entry__date-text">2021–2022</div>
     </div>
   </div>
-<div class="subsection">
-  <h2 class="subsection subsection--static"><span>University of Turin — SAA School of Management</span></h2>
+<div class="year">
+  <h2 class="year year--static"><span>University of Turin — SAA School of Management</span></h2>
 </div>
+
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
@@ -438,4 +466,5 @@ nav_order: 3
     </div>
   </div>
 </div>
+
 </div>

@@ -17,14 +17,18 @@ function toggleVisibility(id) {
 
 function expandSection(section) {
   section.classList.add("expanded");
-  // 👇 HACK: uso "em" al posto di "px" per rendere la transizione visivamente più fluida.
-  // ATTENZIONE: scrollHeight è in pixel, quindi questo non è tecnicamente corretto, ma funziona..
-  section.style.maxHeight = section.scrollHeight + "em";
+  section.style.maxHeight = section.scrollHeight + "px";
   section.style.opacity = 1;
+  // a transizione conclusa rimuove il limite, così le sezioni annidate possono aprirsi senza essere tagliate
+  section.addEventListener("transitionend", function handler(e) {
+    if (e.propertyName !== "max-height") return;
+    if (section.classList.contains("expanded")) section.style.maxHeight = "none";
+    section.removeEventListener("transitionend", handler);
+  });
 }
 
 function collapseSection(section) {
-  section.style.maxHeight = section.scrollHeight + "em";
+  section.style.maxHeight = section.scrollHeight + "px";
   section.offsetHeight;
   section.style.maxHeight = "0";
   section.style.opacity = 0;
@@ -33,7 +37,7 @@ function collapseSection(section) {
 
 function initExpandedSections() {
   document.querySelectorAll(".toggle-section.expanded").forEach((section) => {
-    section.style.maxHeight = section.scrollHeight + "em";
+    section.style.maxHeight = "none";
     section.style.opacity = 1;
   });
 }
