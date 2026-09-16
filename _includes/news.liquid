@@ -45,14 +45,35 @@
       const button = e.target.closest('.embed-facade__button');
       if (!button) return;
       const box = button.closest('.embed-facade');
-      const iframe = document.createElement('iframe');
-      iframe.src = box.dataset.src;
-      iframe.height = box.dataset.height;
-      iframe.width = '504';
-      iframe.setAttribute('frameborder', '0');
-      iframe.setAttribute('allowfullscreen', '');
-      iframe.title = 'Embedded post';
-      box.replaceChildren(iframe);
+      const src = box.dataset.src;
+      const loadScript = (url, done) => {
+        const s = document.createElement('script');
+        s.async = true;
+        s.src = url;
+        if (done) s.onload = done;
+        document.body.appendChild(s);
+      };
+      if (box.dataset.type === 'x') {
+        box.innerHTML = '<blockquote class="twitter-tweet"><a href="' + src + '"></a></blockquote>';
+        if (window.twttr && window.twttr.widgets) window.twttr.widgets.load(box);
+        else loadScript('https://platform.twitter.com/widgets.js');
+      } else if (box.dataset.type === 'instagram') {
+        box.innerHTML =
+          '<blockquote class="instagram-media" data-instgrm-permalink="' +
+          src +
+          '" data-instgrm-version="14" style="max-width:540px; min-width:326px; width:100%;"></blockquote>';
+        if (window.instgrm) window.instgrm.Embeds.process();
+        else loadScript('https://www.instagram.com/embed.js');
+      } else {
+        const iframe = document.createElement('iframe');
+        iframe.src = src;
+        iframe.height = box.dataset.height;
+        iframe.width = '504';
+        iframe.setAttribute('frameborder', '0');
+        iframe.setAttribute('allowfullscreen', '');
+        iframe.title = 'Embedded post';
+        box.replaceChildren(iframe);
+      }
     });
   </script>
 {% endunless %}
