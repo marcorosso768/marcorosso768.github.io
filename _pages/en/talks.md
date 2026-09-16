@@ -272,7 +272,7 @@ nav_order: 2
   <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-3"></i>
-      <span>book discussions and other events</span>
+      <span>other academic events</span>
     </h2>
   </a>
 </div>
