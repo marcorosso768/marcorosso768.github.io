@@ -800,6 +800,8 @@ $gap-vertical: 0.25em; // spazio tra le due righe
 }
 
 .toggle-section.expanded {
+  // aperte già dal CSS: il contenuto non "salta" quando parte il JavaScript
+  max-height: none;
   opacity: 1;
 }
 

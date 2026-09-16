@@ -203,6 +203,12 @@ ul.task-list input[type="checkbox"] {
 .profile {
   width: 50%; //100%;
 
+  // dimensioni reali dichiarate nell'HTML (niente salti di layout), ma la foto riempie il riquadro come prima
+  img {
+    width: 100%;
+    height: auto;
+  }
+
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
