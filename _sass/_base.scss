@@ -1532,3 +1532,47 @@ ninja-keys::part(ninja-input-wrapper) {
   text-decoration: none !important;
   background-color: var(--global-bg-color) !important;
 }
+
+/*****************************************************************************
+* Accessibilità
+*****************************************************************************/
+
+// link "salta al contenuto", visibile solo quando riceve il focus da tastiera
+.skip-link {
+  position: absolute;
+  left: 0.5rem;
+  top: -3rem;
+  z-index: 2000;
+  padding: 0.4rem 0.8rem;
+  background: var(--global-bg-color);
+  color: var(--global-theme-color);
+  border: 1px solid var(--global-theme-color);
+  border-radius: 4px;
+  text-decoration: none;
+
+  &:focus {
+    top: 0.5rem;
+  }
+}
+
+main#main-content:focus {
+  outline: none;
+}
+
+// link dentro il testo: sottolineatura leggera anche a riposo, così non dipendono solo dal colore
+.post article p a,
+.post article li a,
+.teaching-entry__content a,
+.teaching-entry__course-text a {
+  &:not(.btn):not(.pill-link):not(.icon-link):not(.nav-link) {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+    text-decoration-color: color-mix(in srgb, var(--global-theme-color) 45%, transparent);
+  }
+
+  &:not(.btn):not(.pill-link):not(.icon-link):not(.nav-link):hover,
+  &:not(.btn):not(.pill-link):not(.icon-link):not(.nav-link):focus {
+    text-decoration-color: var(--global-theme-color);
+  }
+}

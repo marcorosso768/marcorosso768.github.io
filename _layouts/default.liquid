@@ -31,16 +31,27 @@
     </script>
     <script src="{{ '/assets/js/toggle-box.js' | relative_url }}" defer></script>
   {% endif %}
+  <script src="{{ '/assets/js/a11y.js' | relative_url }}" defer></script>
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    <a class="skip-link" href="#main-content">
+      {%- case site.active_lang -%}
+        {%- when 'it' -%}
+          Vai al contenuto
+        {%- when 'es' -%}
+          Ir al contenido
+        {%- else -%}
+          Skip to content
+      {%- endcase -%}
+    </a>
     <div class="wrapper">
       <div class="main-content">
         <!-- Header -->
         {% include header.liquid %}
 
         <!-- Content -->
-        <div class="container mt-5" role="main">
+        <main class="container mt-5" id="main-content" tabindex="-1">
           {% if page.toc and page.toc.sidebar %}
             {% if page.toc.sidebar == 'right' %}
               <div class="row">
@@ -64,7 +75,7 @@
           {% else %}
             {{ content }}
           {% endif %}
-        </div>
+        </main>
       </div>
       <!-- Footer -->
       {% include footer.liquid %}
