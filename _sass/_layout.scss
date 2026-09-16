@@ -619,6 +619,11 @@ $gap-vertical: 0.25em; // spazio tra le due righe
   overflow: hidden;
 }
 
+// interlinea più ampia: titolo e coautori sono link su righe diverse e servono almeno 24px tra un link e l'altro (touch target)
+.icon-entry > span {
+  line-height: 1.5;
+}
+
 .icon-entry i.fa-fw {
   margin-right: var(--icon-spacing);
   margin-top: 0.05rem; // 3px
