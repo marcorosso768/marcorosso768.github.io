@@ -1,6 +1,11 @@
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
 
+<!-- Connessioni anticipate ai CDN (risparmiano il tempo di apertura della connessione) -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
 <link
@@ -22,13 +27,24 @@
 {% endif %}
 
 <!-- Fonts & Icons -->
-<link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
+<!-- caricati senza bloccare la prima visualizzazione: le icone accademiche e il font compaiono appena pronti -->
 <link
-  defer
+  rel="stylesheet"
+  href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}"
+  media="print"
+  onload="this.media='all'"
+>
+<link
   rel="stylesheet"
   type="text/css"
   href="{{ site.third_party_libraries.google_fonts.url.fonts }}"
+  media="print"
+  onload="this.media='all'"
 >
+<noscript>
+  <link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
+  <link rel="stylesheet" href="{{ site.third_party_libraries.google_fonts.url.fonts }}">
+</noscript>
 
 <!-- Code Syntax Highlighting -->
 <link
@@ -94,7 +110,9 @@
 <!-- Dark Mode -->
 <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
 {% if site.icon contains 'favicons/' %}
-  <script src="{{ '/assets/js/favicon-theme.js' | relative_url | bust_file_cache }}"></script>
+  <script>
+    {% include scripts/favicon_theme.js %}
+  </script>
 {% endif %}
 {% if site.enable_darkmode %}
   <link
