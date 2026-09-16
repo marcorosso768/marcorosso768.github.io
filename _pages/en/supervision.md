@@ -3,7 +3,7 @@ page_id: supervision
 layout: page
 permalink: /supervision/
 title: supervision
-description: <i>My supervision covers undergraduate thesis students and research assistants at the master's level. With thesis students, my emphasis is on developing an independent research question and building the methodological tools to address it rigorously. With research assistants, the focus is on hands-on engagement with empirical workflows, from data construction to analysis. The page lists current and past students I have supervised.</i>
+description: <i>I supervise bachelor's theses and coordinate research assistants. With thesis students, the focus is on turning a question into a feasible research design; with research assistants, on empirical workflows from data construction to analysis.</i>
 subtitle: >
   <div class="lang-links">
       <a href="/it/supervisione/" hreflang="it">supervisione</a>

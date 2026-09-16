@@ -3,13 +3,10 @@ page_id: microeconomics
 layout: page
 permalink: /teaching/microeconomics/
 title: microeconomics
-description_format: multiline
-description: |
-  Here you can find useful materials for the Microeconomics course.
-  Note: the material is available in Italian.
+description: <i>Materials for the Microeconomics course in the Bachelor in Business Administration, University of Bologna: course notes and the slides of all twenty lectures. The material is in Italian.</i>
 subtitle: >
   <div class="lang-links">
-      <a href="#" onclick="window.location.href='https://marcorosso.com/teaching/'; return false;">back to teaching</a>
+      <a href="/teaching/">back to teaching</a>
   </div>
 nav: false
 ---
@@ -128,6 +125,62 @@ nav: false
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
   <span>  
   Lecture 12: <a href="/assets/teaching_material/microeconomia/Lezione 12 - Offerta dell’Impresa e Offerta di Mercato.pdf" target="_blank" rel="noopener noreferrer">Firm Supply and Market Supply</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lecture 13: <a href="/assets/teaching_material/microeconomia/Lezione 13 - Equilibrio Competitivo.pdf" target="_blank" rel="noopener noreferrer">Competitive Equilibrium</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lecture 14: <a href="/assets/teaching_material/microeconomia/Lezione 14 - Perdita Secca e Prezzi Amministrati.pdf" target="_blank" rel="noopener noreferrer">Deadweight Loss and Administered Prices</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lecture 15: <a href="/assets/teaching_material/microeconomia/Lezione 15 - Imposte e Sussidi.pdf" target="_blank" rel="noopener noreferrer">Taxes and Subsidies</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lecture 16: <a href="/assets/teaching_material/microeconomia/Lezione 16 - Monopolio.pdf" target="_blank" rel="noopener noreferrer">Monopoly</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lecture 17: <a href="/assets/teaching_material/microeconomia/Lezione 17 - Rent-Seeking, Indice di Lerner e Discriminazione di Prezzo.pdf" target="_blank" rel="noopener noreferrer">Rent-Seeking, Lerner Index, and Price Discrimination</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lecture 18: <a href="/assets/teaching_material/microeconomia/Lezione 18 - Oligopolio e Teoria dei Giochi.pdf" target="_blank" rel="noopener noreferrer">Oligopoly and Game Theory</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lecture 19: <a href="/assets/teaching_material/microeconomia/Lezione 19 - Asimmetrie Informative.pdf" target="_blank" rel="noopener noreferrer">Information Asymmetries</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lecture 20: <a href="/assets/teaching_material/microeconomia/Lezione 20 - Ripasso Generale.pdf" target="_blank" rel="noopener noreferrer">General Review</a>
   </span>
 </div>
 

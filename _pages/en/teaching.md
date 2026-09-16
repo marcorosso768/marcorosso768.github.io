@@ -3,7 +3,7 @@ page_id: teaching
 layout: page
 permalink: /teaching/
 title: teaching
-description: <i>My teaching spans undergraduate and graduate courses in Econometrics, Political Economy, Microeconomics, Behavioral Economics, Game Theory, and Python for Economists. Across courses, my emphasis is on building intuition alongside rigorous derivations and reproducible empirical workflows, with materials designed to be directly usable for problem sets and applied projects. The page lists the courses I have taught and provides selected handouts, slides, and other teaching resources.</i>
+description: <i>I teach econometrics, microeconomics, and empirical methods at the bachelor's, master's, and Ph.D. level, and assist in courses in economic policy, political economy, and behavioral economics. Materials for the courses I teach, including slides, notes, notebooks, and do-files, are linked from each course.</i>
 subtitle: >
   <div class="lang-links">
       <a href="/it/didattica/" hreflang="it">didattica</a>

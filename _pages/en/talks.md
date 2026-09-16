@@ -9,7 +9,7 @@ subtitle: >
       <span class="separator">|</span>
       <a href="/es/presentaciones/" hreflang="es">presentaciones</a>
   </div>
-description: <i>This section documents invited talks, conference presentations, workshops, and related academic discussions. I use these venues to present work at different stages—early ideas, work in progress, and completed papers—often tailoring the emphasis toward identification, mechanisms, and external validity depending on the audience.</i>
+description: <i>Invited talks, conference presentations, and workshops where I have presented my work, each listed with the paper presented. Upcoming events are marked as such, and book discussions and other academic events are listed separately.</i>
 nav: true
 nav_order: 2
 ---

@@ -3,12 +3,10 @@ page_id: python_for_economists
 layout: page
 permalink: /teaching/python_for_economists/
 title: python for economists
-description_format: multiline
-description: |
-  Here you can find useful materials for the Python for Economists course.
+description: <i>Materials for Python for Economists (master's and Ph.D. programs, University of Bologna): Jupyter notebooks organized in three blocks, from data handling to web scraping and text analysis, viewable online or downloadable.</i>
 subtitle: >
   <div class="lang-links">
-      <a href="#" onclick="window.location.href='https://marcorosso.com/teaching/'; return false;">back to teaching</a>
+      <a href="/teaching/">back to teaching</a>
   </div>
 nav: false
 ---

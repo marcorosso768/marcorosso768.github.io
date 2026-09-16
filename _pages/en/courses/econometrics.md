@@ -3,10 +3,10 @@ page_id: econometrics
 layout: page
 permalink: /teaching/econometrics/
 title: econometrics
-description: <i>Here you can find useful materials for the Econometrics course.</i>
+description: <i>Materials for the Econometrics course in the Bachelor in Business and Economics, University of Bologna: an introductory Stata handbook, lecture and review-session slides, and the corresponding do-files.</i>
 subtitle: >
   <div class="lang-links">
-      <a href="#" onclick="window.location.href='https://marcorosso.com/teaching/'; return false;">back to teaching</a>
+      <a href="/teaching/">back to teaching</a>
   </div>
 nav: false
 ---

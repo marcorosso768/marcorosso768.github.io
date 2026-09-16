@@ -4,7 +4,7 @@ layout: page
 permalink: /contacts/
 lang: en
 title: contacts
-description: <i>Contact information and external profiles are collected here to provide a single point of access to my work and institutional presence. The page includes e-mail addresses and links to relevant platforms.</i>
+description: <i>E-mail addresses at the University of Cagliari and the University of Bologna, together with a personal address. Below, links to my academic profiles and to LinkedIn.</i>
 subtitle: >
   <div class="lang-links">
       <a href="/it/contatti/" hreflang="it">contatti</a>
