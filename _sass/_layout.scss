@@ -1245,16 +1245,15 @@ $gap-vertical: 0.25em; // spazio tra le due righe
 *****************************************************************************/
 
 .embed-facade {
-  display: flex;
-  justify-content: center;
+  max-width: 100%;
 
   &__button {
     background: none;
     border: 1px solid var(--global-theme-color);
     border-radius: 4px;
     color: var(--global-theme-color);
-    font-size: 0.85em;
-    padding: 0.2rem 0.6rem;
+    font-size: 0.8em;
+    padding: 0.15rem 0.5rem;
     cursor: pointer;
 
     &:hover {
@@ -1262,4 +1261,23 @@ $gap-vertical: 0.25em; // spazio tra le due righe
       color: var(--global-hover-text-color);
     }
   }
+
+  // post shown below the button; wide posts scroll horizontally inside, the page keeps its width
+  &__content {
+    margin-top: 0.5rem;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    iframe {
+      display: block;
+      max-width: none;
+    }
+  }
+}
+
+// news table: fixed layout so wide embeds cannot stretch the page
+.news table {
+  table-layout: fixed;
+  width: 100%;
 }
