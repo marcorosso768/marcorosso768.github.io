@@ -16,7 +16,7 @@ nav_order: 1
 
 <!-- Sezione Pubblicazioni
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-0')">
+  <a href="#content-0" onclick="toggleVisibility('content-0'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
       <span>publications</span>
@@ -54,7 +54,7 @@ nav_order: 1
 
 <!-- JMP Section -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+  <a href="#content-1" onclick="toggleVisibility('content-1'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
       <span>job market paper</span>
@@ -108,7 +108,7 @@ nav_order: 1
 
 <!-- Sezione Articoli in Preparazione -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
+  <a href="#content-2" onclick="toggleVisibility('content-2'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
       <span>articoli in preparazione</span>
@@ -252,7 +252,7 @@ Per disciplinare queste forze contrapposte, l’analisi stabilisce tre principi 
 
 <!-- Sezione Studi in Corso -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
+  <a href="#content-3" onclick="toggleVisibility('content-3'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-3"></i>
       <span>studi in corso</span>
@@ -283,7 +283,7 @@ Per disciplinare queste forze contrapposte, l’analisi stabilisce tre principi 
 
 <!-- Altre pubblicazioni -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-4')">
+  <a href="#content-4" onclick="toggleVisibility('content-4'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-4"></i>
       <span>altre pubblicazioni</span>
@@ -320,7 +320,7 @@ Per disciplinare queste forze contrapposte, l’analisi stabilisce tre principi 
 
 <!-- Theses Section -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-5')">
+  <a href="#content-5" onclick="toggleVisibility('content-5'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-5"></i>
       <span>tesi</span>

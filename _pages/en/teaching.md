@@ -16,7 +16,7 @@ nav_order: 3
 
 <!-- INSTRUCTOR -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-0')">
+  <a href="#content-0" onclick="toggleVisibility('content-0'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
       <span>instructor</span>
@@ -27,7 +27,7 @@ nav_order: 3
 <div id="content-0" class="toggle-section expanded">
 
 <div class="subsection">
-  <a href="javascript:void(0);" onclick="toggleVisibility('instructor-current')">
+  <a href="#instructor-current" onclick="toggleVisibility('instructor-current'); return false;">
     <h2 class="subsection">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-instructor-current"></i>
       <span>current courses</span>
@@ -89,7 +89,7 @@ nav_order: 3
 </div>
 
 <div class="subsection">
-  <a href="javascript:void(0);" onclick="toggleVisibility('instructor-earlier')">
+  <a href="#instructor-earlier" onclick="toggleVisibility('instructor-earlier'); return false;">
     <h2 class="subsection">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-instructor-earlier"></i>
       <span>earlier courses</span>
@@ -175,7 +175,7 @@ nav_order: 3
 
 <!-- TEACHING ASSISTANT -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+  <a href="#content-1" onclick="toggleVisibility('content-1'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
       <span>teaching assistant</span>
@@ -186,7 +186,7 @@ nav_order: 3
 <div id="content-1" class="toggle-section expanded">
 
 <div class="subsection">
-  <a href="javascript:void(0);" onclick="toggleVisibility('ta-current')">
+  <a href="#ta-current" onclick="toggleVisibility('ta-current'); return false;">
     <h2 class="subsection">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-ta-current"></i>
       <span>current courses</span>
@@ -308,7 +308,7 @@ nav_order: 3
 </div>
 
 <div class="subsection">
-  <a href="javascript:void(0);" onclick="toggleVisibility('ta-earlier')">
+  <a href="#ta-earlier" onclick="toggleVisibility('ta-earlier'); return false;">
     <h2 class="subsection">
       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-ta-earlier"></i>
       <span>earlier courses</span>

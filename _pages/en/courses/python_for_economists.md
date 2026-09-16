@@ -13,7 +13,7 @@ nav: false
 
 <!-- Notebook -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-0')">
+  <a href="#content-0" onclick="toggleVisibility('content-0'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
       <span>notebook</span>
@@ -25,7 +25,7 @@ nav: false
 
 <!-- TOGGLE TRIGGER -->
 <div class="subsection">
-  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-block-i')">
+  <a href="#subsection-block-i" onclick="toggleVisibility('subsection-block-i'); return false;">
     <h2 class="subsection">
        <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-block-i"></i>
        <span>Block I: Python for economic data</span>
@@ -64,7 +64,7 @@ nav: false
 
 <!-- TOGGLE TRIGGER -->
 <div class="subsection">
-  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-block-ii')">
+  <a href="#subsection-block-ii" onclick="toggleVisibility('subsection-block-ii'); return false;">
     <h2 class="subsection">
        <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-block-ii"></i>
        <span>Block II: Data collection from the web</span>
@@ -91,7 +91,7 @@ nav: false
 
 <!-- TOGGLE TRIGGER -->
 <div class="subsection">
-  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-block-iii')">
+  <a href="#subsection-block-iii" onclick="toggleVisibility('subsection-block-iii'); return false;">
     <h2 class="subsection">
        <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-block-iii"></i>
        <span>Block III: NLP and Machine Learning for Text</span>
@@ -126,7 +126,7 @@ nav: false
 
 <!-- Extra Materials -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+  <a href="#content-1" onclick="toggleVisibility('content-1'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
       <span>extra materials</span>

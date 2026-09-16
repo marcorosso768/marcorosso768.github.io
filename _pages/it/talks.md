@@ -16,7 +16,7 @@ nav_order: 2
 
 <!-- INVITED TALKS -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+  <a href="#content-1" onclick="toggleVisibility('content-1'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
       <span>conferenze su invito</span>
@@ -79,7 +79,7 @@ nav_order: 2
 
 <!-- CONFERENCES AND SEMINARS -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
+  <a href="#content-2" onclick="toggleVisibility('content-2'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
       <span>conferenze e seminari</span>
@@ -276,7 +276,7 @@ nav_order: 2
 
 <!-- BOOK DISCUSSIONS AND OTHER EVENTS -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
+  <a href="#content-3" onclick="toggleVisibility('content-3'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-3"></i>
       <span>presentazioni di libri e altri eventi</span>

@@ -1568,9 +1568,9 @@ main#main-content:focus {
 // link nel contenuto: sottolineatura sottile sempre visibile, dello stesso colore del testo del link,
 // così non dipendono solo dal colore. Esclusi pulsanti, menu, titoli delle tendine e link fatti solo di icona o immagine
 main#main-content
-  a[href]:not(.btn):not(.pill-link):not(.toggle-pill):not(.nav-link):not(.dropdown-item):not(.embed-facade__button):not(.float-right):not(
-    :has(h1, h2, h3, h4, h5, h6, img)
-  ):not(:has(> i:only-child:empty)) {
+  a[href]:not(.btn):not(.pill-link):not(.toggle-pill):not(.news-effect):not(.nav-link):not(.dropdown-item):not(.embed-facade__button):not(
+    .float-right
+  ):not(:has(h1, h2, h3, h4, h5, h6, img)):not(:has(> i:only-child:empty)) {
   text-decoration-line: underline !important;
   text-decoration-thickness: 1px !important;
   text-underline-offset: 0.18em;

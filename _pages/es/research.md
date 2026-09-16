@@ -16,7 +16,7 @@ nav_order: 1
 
 <!-- Sección de Publicaciones
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-0')">
+  <a href="#content-0" onclick="toggleVisibility('content-0'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
       <span>publications</span>
@@ -54,7 +54,7 @@ nav_order: 1
 
 <!-- JMP Section -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+  <a href="#content-1" onclick="toggleVisibility('content-1'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
       <span>job market paper</span>
@@ -108,7 +108,7 @@ nav_order: 1
 
 <!-- Sección de Documentos de Trabajo -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
+  <a href="#content-2" onclick="toggleVisibility('content-2'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
       <span>documentos de trabajo</span>
@@ -252,7 +252,7 @@ Para disciplinar estas fuerzas contrapuestas, el análisis establece tres princi
 
 <!-- Sección de Trabajo en Curso -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
+  <a href="#content-3" onclick="toggleVisibility('content-3'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-3"></i>
       <span>trabajos en curso</span>
@@ -283,7 +283,7 @@ Para disciplinar estas fuerzas contrapuestas, el análisis establece tres princi
 
 <!-- otras publicaciones -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-4')">
+  <a href="#content-4" onclick="toggleVisibility('content-4'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-4"></i>
       <span>otras publicaciones</span>
@@ -324,7 +324,7 @@ Para disciplinar estas fuerzas contrapuestas, el análisis establece tres princi
 
 <!-- Theses Section -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-5')">
+  <a href="#content-5" onclick="toggleVisibility('content-5'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-5"></i>
       <span>tesis</span>
