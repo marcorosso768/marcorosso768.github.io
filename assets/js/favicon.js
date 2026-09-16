@@ -3,12 +3,12 @@ let setFavicon = () => {
   document.querySelectorAll('link[rel*="icon"], link[rel="apple-touch-icon"], link[rel="manifest"]').forEach((link) => link.remove());
 
   // Determine the current language from the URL
-  const pathSegments = window.location.pathname.split("/");
-  const lang = pathSegments[1] || "en"; // Default to 'en' if no language prefix is found
+  const firstSegment = window.location.pathname.split("/")[1];
+  const lang = ["it", "es"].includes(firstSegment) ? firstSegment : "en"; // English pages have no language prefix
 
   // Determine theme and base icon path
   const themeSetting = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-  const baseIconPath = `assets/img/favicons/${lang}/${themeSetting === "dark" ? "favicon_dark" : "favicon_light"}/`;
+  const baseIconPath = `/assets/img/favicons/${lang}/${themeSetting === "dark" ? "favicon_dark" : "favicon_light"}/`;
 
   // Cache-busting parameter
   const timestamp = new Date().getTime();
@@ -28,13 +28,6 @@ let setFavicon = () => {
     Object.keys(attrs).forEach((attr) => link.setAttribute(attr, attrs[attr]));
     document.head.appendChild(link);
   });
-
-  // Optional: Fallback static favicon for iOS, based on theme
-  const staticLink = document.createElement("link");
-  const staticIconPath = `${baseIconPath}favicon_static_${themeSetting}.png`;
-  staticLink.setAttribute("rel", "icon");
-  staticLink.setAttribute("href", staticIconPath);
-  document.head.appendChild(staticLink);
 };
 
 // Helper function to re-run favicon setting on navigation
