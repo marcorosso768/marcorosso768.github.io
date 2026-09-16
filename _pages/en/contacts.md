@@ -26,8 +26,8 @@ subtitle: >
 <div id="content-1" class="toggle-section expanded">
 
   <div class="icon-link indented">
-    <i class="fa-regular fa-envelope fa-fw"></i>
-    <a href="mailto:m.rosso@me.com">m.rosso@me.com</a>
+    <i class="fa-solid fa-envelope fa-fw"></i>
+    <a href="mailto:marco.rosso@unica.it">marco.rosso@unica.it</a>
   </div>
 
   <div class="icon-link indented">
@@ -36,10 +36,10 @@ subtitle: >
   </div>
 
   <div class="icon-link indented">
-    <i class="fa-solid fa-envelope fa-fw"></i>
-    <a href="mailto:marco.rosso@unica.it">marco.rosso@unica.it</a>
+    <i class="fa-regular fa-envelope fa-fw"></i>
+    <a href="mailto:m.rosso@me.com">m.rosso@me.com</a>
   </div>
-  
+
 </div>
 
 <!-- Online Resources Section -->
@@ -83,34 +83,10 @@ subtitle: >
     <i class="fa-brands fa-github fa-fw"></i>
     <a href="https://github.com/marcorosso768" target="_blank" rel="noopener noreferrer">GitHub</a>
   </div>
-  
-</div>
-
-<!-- Social Networks Section -->
-<div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
-    <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-3"></i>
-      <span>social networks</span>
-    </h2>
-  </a>
-</div>
-
-<div id="content-3" class="toggle-section">
 
   <div class="icon-link indented">
     <i class="fa-brands fa-linkedin fa-fw"></i>
     <a href="https://www.linkedin.com/in/marcorosso768" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-  </div>
-
-  <div class="icon-link indented">
-    <i class="fa-brands fa-bluesky fa-fw"></i>
-    <a href="https://bsky.app/profile/marcorosso.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a>
-  </div>
-
-  <div class="icon-link">
-    <i class="fa-brands fa-x-twitter fa-fw"></i>
-    <a href="https://x.com/marcorosso768" target="_blank" rel="noopener noreferrer"><em>R.I.P.</em> Twitter</a>
   </div>
   
 </div>

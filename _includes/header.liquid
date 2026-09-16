@@ -121,6 +121,9 @@
                   </a>
                   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                     {% for child in p.children %}
+                      {% if page.page_id == 'about' and child.permalink contains contact_path %}
+                        {% continue %}
+                      {% endif %}
                       {% if child.title == 'divider' %}
                         <div class="dropdown-divider"></div>
                       {% else %}
