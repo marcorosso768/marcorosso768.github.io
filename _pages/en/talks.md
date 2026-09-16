@@ -36,6 +36,9 @@ nav_order: 2
           <span class="highlight"><i>Speaker</i></span>
       </div>
    </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>Crime Perception and Voting Behavior: Evidence from Individual Data</i></div>
+    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         University of Bologna — Bologna, Italy
@@ -53,6 +56,9 @@ nav_order: 2
           <span class="highlight"><i>Speaker</i></span>
       </div>
    </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>Crime Perception and Voting Behavior: Evidence from Individual Data</i></div>
+    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         University of Modena and Reggio-Emilia — Modena, Italy
@@ -66,6 +72,9 @@ nav_order: 2
               Ciclo de Seminarios del Departamento de Economía —
               <span class="highlight"><i>Speaker</i></span>
       </div>
+    </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>Crime Perception and Voting Behavior: Evidence from Individual Data</i></div>
     </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
@@ -98,6 +107,9 @@ nav_order: 2
           <span class="highlight"><i>Speaker</i></span>
       </div>
    </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>The Tipping Point of Temptation: Corruption and Selection into Public Service</i></div>
+    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         CRENoS, University of Cagliari — Cagliari, Italy
@@ -115,6 +127,9 @@ nav_order: 2
           <span class="highlight"><i>Speaker</i></span>
       </div>
    </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>Crime Perception and Voting Behavior: Evidence from Individual Data</i></div>
+    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         University of Naples Parthenope — Naples, Italy
@@ -129,6 +144,9 @@ nav_order: 2
           <span class="highlight"><i>Speaker</i></span>
       </div>
    </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>Crime Perception and Voting Behavior: Evidence from Individual Data</i></div>
+    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         University of Modena and Reggio-Emilia — Modena, Italy
@@ -162,6 +180,9 @@ nav_order: 2
           <span class="highlight"><i>Speaker</i></span>
       </div>
    </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>Crime Perception and Voting Behavior: Evidence from Individual Data</i></div>
+    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         Le Sparne — Pitigliano (GR), Italy
@@ -176,6 +197,9 @@ nav_order: 2
           <span class="highlight"><i>Speaker and discussant</i></span>
       </div>
    </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>Crime Perception and Voting Behavior: Evidence from Individual Data</i></div>
+    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         University of Sassari — Sassari, Italy
@@ -190,6 +214,9 @@ nav_order: 2
           <span class="highlight"><i>Speaker</i></span>
       </div>
    </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>Crime Perception and Voting Behavior: Evidence from Individual Data</i></div>
+    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         Bertinoro University Center — Bertinoro (FC), Italy
@@ -207,6 +234,9 @@ nav_order: 2
           <span class="highlight"><i>Speaker</i></span>
       </div>
    </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>The Tipping Point of Temptation: Corruption and Selection into Public Service</i></div>
+    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         Le Sparne — Pitigliano (GR), Italy
@@ -224,6 +254,9 @@ nav_order: 2
           <span class="highlight"><i>Speaker</i></span>
       </div>
    </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>The Tipping Point of Temptation: Corruption and Selection into Public Service</i></div>
+    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         Le Sparne — Pitigliano (GR), Italy

@@ -413,6 +413,19 @@ $gap-vertical: 0.25em; // spazio tra le due righe
     }
   }
 
+  // riga del paper presentato
+  &__row--paper {
+    align-items: flex-start;
+    margin-bottom: $gap-vertical;
+    font-size: 0.9em;
+    line-height: 1.2;
+
+    &::before {
+      content: "\f15c"; // file-lines
+      margin-left: 2px;
+    }
+  }
+
   // la riga della location
   &__row--location {
     align-items: flex-start; //center;       // icona centrata verticalmente
