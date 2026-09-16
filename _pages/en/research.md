@@ -3,7 +3,7 @@ page_id: research
 layout: page
 permalink: /research/
 title: research
-description: <i>My research agenda develops clean, testable theoretical frameworks—centered on incentives, information frictions, and selection—to clarify mechanisms before tracing their empirical implications. Empirically, I work with reproducible, end-to-end pipelines that often combine web scraping and NLP with geocoding and panel construction. My workflow typically relies on Python, Stata, and spatial tools such as QGIS (and, when appropriate, R).</i>
+description: <i>My research develops new theoretical models of incentives, information frictions, and selection, and brings their implications to the data. Empirically, I build reproducible pipelines that combine administrative records, web scraping and text analysis, and geocoding to study political participation, crime, and labor markets.</i>
 subtitle: >
   <div class="lang-links">
       <a href="/it/ricerca/" hreflang="it">ricerca</a>
