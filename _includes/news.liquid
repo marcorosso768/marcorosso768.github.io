@@ -21,7 +21,12 @@
             </th>
             <td>
               {% if item.inline %}
-                <span style="color:var(--global-text-color);">{{ item.content | remove: '<p>' | remove: '</p>' | emojify }}</span>
+                {% if include.limit %}
+                  {% assign news_body = item.content | split: '<div class="mt-3"' | first %}
+                {% else %}
+                  {% assign news_body = item.content %}
+                {% endif %}
+                <span style="color:var(--global-text-color);">{{ news_body | remove: '<p>' | remove: '</p>' | emojify }}</span>
               {% else %}
                 <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
               {% endif %}

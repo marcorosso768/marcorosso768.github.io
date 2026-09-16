@@ -56,8 +56,6 @@ social: true # includes social icons at the bottom of the page
 </div>
 <div style="height: 2rem;"></div>
 
-Welcome to my personal website—glad you made it here of your own free will (or maybe you clicked by mistake; it happens to the best of us).
-
 My <b style="color: $white-color;"><a href="/research/">research</a></b> focuses on
 <b style="color: $white-color;">Political Economy</b>,
 <b style="color: $white-color;">Crime Economics</b>,
@@ -71,12 +69,7 @@ You can find more about myself in my <b style="color: $white-color;"><a href="/a
 
 Meanwhile, I <b style="color: $white-color;"><a href="/teaching/">teach</a></b> <b style="color: $white-color;">Empirical Methods for Law and Economics</b> in the <b style="color: $white-color;">European Doctorate in Law and Economics (EDLE)</b>, <b style="color: $white-color;">Introduction to Economics of the EU</b>, and a <b style="color: $white-color;">Pre-sessional Course in Econometrics</b> at the <b style="color: $white-color;">University of Bologna</b>, where I also serve as a <b style="color: $white-color;">Teaching Assistant</b> in econometrics, microeconomics, economic policy, political economy, and behavioral economics.
 
-Moreover, I contributed to the rollout of the <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="ref1">1</a></sup> in support of mindful parenting, as part of the <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a>, for which I also conducted online interviews with parents and children aged 4 and 5.
+Moreover, I contributed to the <b style="color: $white-color;"><a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a></b>, which studies how parental beliefs, preferences, and engagement shape early child development, and to the rollout of the <b style="color: $white-color;"><a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a></b>, a tool in support of mindful parenting available in Italian, English, and French.
 
-<div style="margin-top:1rem;"></div>
-<hr style="border:0; border-top:0.5px solid !important;">
-<div id="fn1" style="font-size:small;">
-  <sup><a href="#ref1">1</a></sup> The MinUTo App is currently available in three languages: Italian, English, and French.
-</div>
 <div style="margin-top:2.5rem;"></div>
 <hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">
