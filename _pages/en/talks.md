@@ -103,7 +103,7 @@ nav_order: 2
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
-          ASSET Annual Meeting —
+          ASSET Annual Meeting <span style="font-size: small; white-space: nowrap;">(upcoming)</span> —
           <span class="highlight"><i>Speaker</i></span>
       </div>
    </div>
