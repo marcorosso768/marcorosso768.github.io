@@ -3,7 +3,7 @@ page_id: microeconomics
 layout: page
 permalink: /teaching/microeconomics/
 title: microeconomics
-description: '<i>Materials for the Microeconomics course in the Bachelor in Business Administration, University of Bologna: course notes and the slides of all twenty lectures. The material is in Italian.</i>'
+description: "<i>Materials for the Microeconomics course in the Bachelor in Business Administration, University of Bologna: course notes and the slides of all twenty lectures. The material is in Italian.</i>"
 subtitle: >
   <div class="lang-links">
       <a href="/teaching/">back to teaching</a>
