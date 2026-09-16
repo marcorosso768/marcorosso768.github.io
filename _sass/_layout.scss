@@ -143,6 +143,12 @@ body.sticky-bottom-footer {
   }
 }
 
+// Contacts page only: breathing room between entries and between icon and label
+.contact-list .icon-link {
+  column-gap: 0.4em;
+  margin-bottom: 0.75rem;
+}
+
 .icon-link a em {
   color: inherit;
   font-style: italic;

@@ -23,7 +23,7 @@ subtitle: >
   </a>
 </div>
 
-<div id="content-1" class="toggle-section expanded">
+<div id="content-1" class="toggle-section expanded contact-list">
 
   <div class="icon-link indented">
     <i class="fa-solid fa-envelope fa-fw"></i>
@@ -52,7 +52,7 @@ subtitle: >
   </a>
 </div>
 
-<div id="content-2" class="toggle-section expanded">
+<div id="content-2" class="toggle-section expanded contact-list">
 
   <div class="icon-link indented">
     <i class="fa-solid fa-building-columns fa-fw"></i>
