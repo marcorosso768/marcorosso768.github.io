@@ -8,8 +8,8 @@ dropdown: true
 children:
   - title: referenze
     permalink: /referenze/
-  - title: contatti
-    permalink: /contatti/
   - title: novità
     permalink: /novità/
+  - title: contatti
+    permalink: /contatti/
 ---
