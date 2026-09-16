@@ -173,8 +173,8 @@ nav_order: 1
     <div class="pill-container mt-2">
       <a 
   href="mailto:marco.rosso4@unibo.it
-        ?subject=Request%20for%20draft%20-%20The%20Tipping%20Point%20of%20Temptation%3A%20Occupational%20Selection%20and%20Integrity%20in%20the%20Public%20Sector
-        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20working%20paper%20%E2%80%9CThe%20Tipping%20Point%20of%20Temptation%3A%20Selection%20into%20the%20Public%20Sector%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
+        ?subject=Request%20for%20draft%20-%20The%20Tipping%20Point%20of%20Temptation%3A%20Corruption%20and%20Selection%20into%20Public%20Service
+        &body=Dear%20Marco%2C%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20working%20paper%20%E2%80%9CThe%20Tipping%20Point%20of%20Temptation%3A%20Corruption%20and%20Selection%20into%20Public%20Service%E2%80%9D.%0D%0A%0D%0AThank%20you%21%0D%0A"
   class="pill-link no-external">
         <i class="fa-solid fa-file-lines fa-2xs"></i>
         <span class="toggle-label" title="Draft under request">Draft</span>
@@ -248,14 +248,14 @@ joint distributions, both converge to this value as rents vanish, while their fi
     <div class="icon-entry indented">
       <i class="fa-solid fa-newspaper fa-fw" title="Working paper"></i>
       <span>
-        Eroding the Female Civic Advantage: Motherhood and Turnout over the Family Life Cycle
+        Childbirth and the Erosion of the Female Turnout Advantage
       </span>
     </div>
     <div class="pill-container mt-2">
 	      <a 
   href="mailto:marco.rosso4@unibo.it
-        ?subject=Request%20for%20draft%20-%20Parenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records
-        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20working%20paper%20%E2%80%9CParenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
+        ?subject=Request%20for%20draft%20-%20Childbirth%20and%20the%20Erosion%20of%20the%20Female%20Turnout%20Advantage
+        &body=Dear%20Marco%2C%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20working%20paper%20%E2%80%9CChildbirth%20and%20the%20Erosion%20of%20the%20Female%20Turnout%20Advantage%E2%80%9D.%0D%0A%0D%0AThank%20you%21%0D%0A"
   class="pill-link no-external">
         <i class="fa-solid fa-file-lines fa-2xs"></i>
         <span class="toggle-label" title="Draft under request">Draft</span>
@@ -315,8 +315,8 @@ first weeks of parenthood.
   <div class="pill-container mt-2">
       <a 
   href="mailto:marco.rosso4@unibo.it
-        ?subject=Request%20for%20draft%20-%20Public%20Goods%20and%20Political%20Participation%3A%20Childcare%20Access%20and%20Electoral%20Engagement
-        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20yours%20working%20paper%20%E2%80%9CPublic%20Goods%20and%20Political%20Participation%3A%20Childcare%20Access%20and%20Electoral%20Engagement%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
+        ?subject=Request%20for%20draft%20-%20Provision%20without%20Participation%3F%20Proximity%20to%20Local%20Public%20Goods%20and%20Voter%20Turnout
+        &body=Dear%20Marco%2C%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20working%20paper%20%E2%80%9CProvision%20without%20Participation%3F%20Proximity%20to%20Local%20Public%20Goods%20and%20Voter%20Turnout%E2%80%9D.%0D%0A%0D%0AThank%20you%21%0D%0A"
   class="pill-link no-external">
         <i class="fa-solid fa-file-lines fa-2xs"></i>
         <span class="toggle-label" title="Draft under request">Draft</span>
