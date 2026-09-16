@@ -4,7 +4,7 @@
 <span class="indented" style="font-size: 15pt; display: block; line-height: 1; margin-bottom: 4pt;"> Full Professor </span>
 <span class="indented" style="display: block; line-height: 1; margin-bottom: 4pt;"> University of Cagliari </span>
 <span class="indented" style="display: block; line-height: 1; margin-bottom: 6pt;"> Department of Economics and Business Sciences </span>
-<span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Bologna, Italy</span>
+<span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 10pt;"> <i class="fa-solid fa-location-dot"></i> &nbsp;Cagliari, Italy</span>
 <span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 4pt;"> Academic Discipline: SECS-P/02 Economic Policy </span>
 
 <span class="indented" style="font-size: 10pt; display: block; line-height: 1; margin-bottom: 4pt;"> Research Interests: <i> Macroeconomics, Labor Economics and Urban Economics with a focus on the spatial and occupational dynamics underlying job polarization and its geographic dimension and on the labor market impact of Generative Artificial Intelligence and remote work</i></span>
