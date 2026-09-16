@@ -477,6 +477,24 @@ $gap-vertical: 0.25em; // spazio tra le due righe
     }
   }
 
+  // riga del periodo (anni accademici)
+  &__row--date {
+    align-items: flex-start;
+    margin-top: 0.2rem;
+    font-size: 0.85em;
+    line-height: 15px;
+
+    &::before {
+      content: "\f073"; // calendar-days
+      margin-left: 2px;
+    }
+
+    & .teaching-entry__date-text {
+      line-height: 15px;
+      opacity: 0.8;
+    }
+  }
+
   // la riga della location
   &__row--course {
     align-items: flex-start; //center;       // icona centrata verticalmente
@@ -772,6 +790,11 @@ $gap-vertical: 0.25em; // spazio tra le due righe
       text-decoration: none !important;
       color: inherit;
     }
+  }
+
+  h2.subsection.subsection--static {
+    margin-top: 0.5rem;
+    margin-left: 0.75rem;
   }
 
   h2.subsection {
