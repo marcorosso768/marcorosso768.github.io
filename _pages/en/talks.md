@@ -89,6 +89,21 @@ nav_order: 2
 
 <div id="content-2" class="toggle-section expanded">
 <!-- 2026 -->
+<p style="margin-left: 0.1em;"><b>2026</b></p>
+
+  <div class="seminar-entry indented">
+   <div class="seminar-entry__row seminar-entry__row--title">
+      <div class="seminar-entry__content">
+          ASSET Annual Meeting —
+          <span class="highlight"><i>Speaker</i></span>
+      </div>
+   </div>
+    <div class="seminar-entry__row seminar-entry__row--location">
+      <div class="seminar-entry__location-text">
+        CRENoS, University of Cagliari — Cagliari, Italy
+      </div>
+    </div>
+  </div>
 
 <!-- 2025 -->
 <p style="margin-left: 0.1em;"><b>2025</b></p>
@@ -171,7 +186,7 @@ nav_order: 2
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
-         Workshop for Ph.D. Students In Economentrics and Empirical Economics (WEEE) —
+         Workshop for Ph.D. Students in Econometrics and Empirical Economics (WEEE) —
           <span class="highlight"><i>Speaker</i></span>
       </div>
    </div>
@@ -182,36 +197,8 @@ nav_order: 2
     </div>
   </div>
 
-  <div class="seminar-entry indented">
-   <div class="seminar-entry__row seminar-entry__row--title">
-      <div class="seminar-entry__content">
-         Third Year Ph.D. Forum —
-          <span class="highlight"><i>Speaker</i></span>
-      </div>
-   </div>
-    <div class="seminar-entry__row seminar-entry__row--location">
-      <div class="seminar-entry__location-text">
-        University of Bologna — Bologna, Italy
-      </div>
-    </div>
-  </div>
-
 <!-- 2022 -->
 <p style="margin-left: 0.1em;"><b>2022</b></p>
-
-  <div class="seminar-entry indented">
-   <div class="seminar-entry__row seminar-entry__row--title">
-      <div class="seminar-entry__content">
-         WiP Seminar —
-          <span class="highlight"><i>Speaker</i></span>
-      </div>
-   </div>
-    <div class="seminar-entry__row seminar-entry__row--location">
-      <div class="seminar-entry__location-text">
-        University of Bologna — Bologna, Italy
-      </div>
-    </div>
-  </div>
 
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
@@ -223,20 +210,6 @@ nav_order: 2
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         Le Sparne — Pitigliano (GR), Italy
-      </div>
-    </div>
-  </div>
-
-  <div class="seminar-entry indented">
-   <div class="seminar-entry__row seminar-entry__row--title">
-      <div class="seminar-entry__content">
-         Second Year Ph.D. Forum —
-          <span class="highlight"><i>Speaker</i></span>
-      </div>
-   </div>
-    <div class="seminar-entry__row seminar-entry__row--location">
-      <div class="seminar-entry__location-text">
-        University of Bologna — Bologna, Italy
       </div>
     </div>
   </div>
@@ -254,20 +227,6 @@ nav_order: 2
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         Le Sparne — Pitigliano (GR), Italy
-      </div>
-    </div>
-  </div>
-
-  <div class="seminar-entry indented">
-   <div class="seminar-entry__row seminar-entry__row--title">
-      <div class="seminar-entry__content">
-         First Year Ph.D. Forum —
-          <span class="highlight"><i>Speaker</i></span>
-      </div>
-   </div>
-    <div class="seminar-entry__row seminar-entry__row--location">
-      <div class="seminar-entry__location-text">
-        University of Bologna — Bologna, Italy
       </div>
     </div>
   </div>
@@ -304,22 +263,5 @@ nav_order: 2
     </div>
   </div>
 
-<!-- 2021 -->
-<p style="margin-left: 0.1em;"><b>2021</b></p>
-
-  <div class="seminar-entry indented">
-    <div class="seminar-entry__row seminar-entry__row--title">
-      <div class="seminar-entry__content">
-          First Year Ph.D. Poster Session —
-          <span class="highlight"><i>Speaker</i></span>
-      </div>
-    </div>
-    <div class="seminar-entry__row seminar-entry__row--location">
-      <div class="seminar-entry__location-text">
-        University of Bologna — Bologna, Italy
-      </div>
-    </div>
-  </div>
-  
 </div>
 <!-- END OF BOOK DISCUSSIONS AND OTHER EVENTS SECTION -->
