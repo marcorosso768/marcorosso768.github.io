@@ -66,7 +66,7 @@ My <b style="color: $white-color;"><a href="/research/">research</a></b> focuses
 
 Having obtained my <b style="color: $white-color;">Ph.D. in Economics</b> at the <b style="color: $white-color;">University of Bologna</b> in 2026, I am currently <b style="color: $white-color;">Postdoctoral Researcher</b> at the <b style="color: $white-color;">University of Cagliari</b>, where I am working on the interactions between remote work, artificial intelligence, and local labor markets (<b style="color: $white-color;"><a href="https://crenos.unica.it/bibcite/reference/8766" target="_blank" rel="noopener noreferrer" class="external">CRENoS WP 26/13</a></b>).
 
-You can find more about myself in my <b style="color: $white-color;"><a href="/assets/pdf/en/[Marco%20Rosso]%20Curriculum%20Vitae.pdf" target="_blank" rel="noopener noreferrer" class="external">CV</a></b>.
+You can find more about myself in my <b style="color: $white-color;"><a href="/assets/pdf/en/curriculum_vitae_en.pdf" target="_blank" rel="noopener noreferrer" class="external">CV</a></b>.
 
 Meanwhile, I <b style="color: $white-color;"><a href="/teaching/">teach</a></b> <b style="color: $white-color;">Microeconomics</b>, <b style="color: $white-color;">Introduction to Economics of the EU</b>, and <b style="color: $white-color;">Python for Economists</b>, and I serve as a <b style="color: $white-color;">Teaching Assistant</b> for <b style="color: $white-color;">Political Economy</b> at the <b style="color: $white-color;">Department of Economics</b>, the <b style="color: $white-color;">Department of Management</b>, and the <b style="color: $white-color;">Department of Political and Social Sciences</b> at the <b style="color: $white-color;">University of Bologna</b>.
 
