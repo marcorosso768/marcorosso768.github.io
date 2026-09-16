@@ -30,3 +30,11 @@
     data-code="{{ site.pirsch_analytics }}"
   ></script>
 {% endif %}
+{% if site.enable_goatcounter_analytics and site.goatcounter_analytics %}
+  <!-- GoatCounter: statistiche senza cookie -->
+  <script
+    data-goatcounter="https://{{ site.goatcounter_analytics }}.goatcounter.com/count"
+    async
+    src="https://gc.zgo.at/count.js"
+  ></script>
+{% endif %}
