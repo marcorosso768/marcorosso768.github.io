@@ -61,6 +61,7 @@ Welcome to my personal website—glad you made it here of your own free will (or
 My <b style="color: $white-color;"><a href="/research/">research</a></b> focuses on
 <b style="color: $white-color;">Political Economy</b>,
 <b style="color: $white-color;">Crime Economics</b>,
+<b style="color: $white-color;">Applied Microeconomics</b>, and
 <b style="color: $white-color;">Experimental</b> and
 <b style="color: $white-color;">Behavioral Economics</b>, with a particular interest in how institutions and individual behavior interact in real-world settings. More broadly, I am drawn to questions that sit at the intersection of economics and social behavior, wherever the data and the methods can speak to them.
 
@@ -68,7 +69,7 @@ Having obtained my <b style="color: $white-color;">Ph.D. in Economics</b> at the
 
 You can find more about myself in my <b style="color: $white-color;"><a href="/assets/pdf/en/curriculum_vitae_en.pdf" target="_blank" rel="noopener noreferrer" class="external">CV</a></b>.
 
-Meanwhile, I <b style="color: $white-color;"><a href="/teaching/">teach</a></b> <b style="color: $white-color;">Microeconomics</b>, <b style="color: $white-color;">Introduction to Economics of the EU</b>, and <b style="color: $white-color;">Python for Economists</b>, and I serve as a <b style="color: $white-color;">Teaching Assistant</b> for <b style="color: $white-color;">Political Economy</b> at the <b style="color: $white-color;">Department of Economics</b>, the <b style="color: $white-color;">Department of Management</b>, and the <b style="color: $white-color;">Department of Political and Social Sciences</b> at the <b style="color: $white-color;">University of Bologna</b>.
+Meanwhile, I <b style="color: $white-color;"><a href="/teaching/">teach</a></b> <b style="color: $white-color;">Empirical Methods for Law and Economics</b> in the <b style="color: $white-color;">European Doctorate in Law and Economics (EDLE)</b>, <b style="color: $white-color;">Introduction to Economics of the EU</b>, and a <b style="color: $white-color;">Pre-sessional Course in Econometrics</b> at the <b style="color: $white-color;">University of Bologna</b>, where I also serve as a <b style="color: $white-color;">Teaching Assistant</b> in econometrics, microeconomics, economic policy, political economy, and behavioral economics.
 
 Moreover, I contributed to the rollout of the <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="ref1">1</a></sup> in support of mindful parenting, as part of the <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a>, for which I also conducted online interviews with parents and children aged 4 and 5.
 
