@@ -63,9 +63,7 @@ cv:
   username: Username
   volunteer: Volunteer
   work: Work
-footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  Powered by <a href="https://jekyllrb.com/" target="_blank" class="no-external"><i>Jekyll</i></a> with <a href="https://github.com/george-gca/multi-language-al-folio" class="no-external"><i>multi-language</i></a> and <a href="https://github.com/alshedivat/al-folio" class="no-external"><i>al-folio</i></a> themes.
-  Hosted by <a href="https://pages.github.com/" target="_blank" class="no-external"><i>GitHub Pages</i></a>.
+footer_text: ""
 latest_posts: latest posts
 months:
   long:

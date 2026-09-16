@@ -1,21 +1,22 @@
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
-      &copy; Copyright {{ site.time | date: '%Y' }}
-      {{ site.first_name }}
-      {{ site.middle_name }}
-      {{ site.last_name }}. {{ site.data[site.active_lang].strings.footer_text }}
+      &copy; {{ site.time | date: '%Y' }}
+      {{ site.first_name -}}
+      {%- if site.middle_name %} {{ site.middle_name }}{% endif %}
+      {{ site.last_name }}
+      {{ site.data[site.active_lang].strings.footer_text }}
       {% if site.impressum_path %}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}
       {% if site.last_updated %}
         {% assign current_lang = site.active_lang %}
         {% if current_lang == 'en' %}
-          Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+          · Last updated: {{ 'now' | date: '%B %d, %Y' }}
         {% elsif current_lang == 'it' %}
-          Ultimo aggiornamento: {{ 'now' | date: '%d %B %Y' }}.
+          · Ultimo aggiornamento: {{ 'now' | date: '%d %B %Y' }}
         {% elsif current_lang == 'es' %}
-          Última actualización: {{ 'now' | date: '%d de %B de %Y' }}.
+          · Última actualización: {{ 'now' | date: '%d de %B de %Y' }}
         {% endif %}
       {% endif %}
     </div>
@@ -27,21 +28,22 @@
     {% endif %}
 
     <div class="container mt-0">
-      &copy; Copyright {{ site.time | date: '%Y' }}
-      {{ site.first_name }}
-      {{ site.middle_name }}
-      {{ site.last_name }}. {{ site.data[site.active_lang].strings.footer_text }}
+      &copy; {{ site.time | date: '%Y' }}
+      {{ site.first_name -}}
+      {%- if site.middle_name %} {{ site.middle_name }}{% endif %}
+      {{ site.last_name }}
+      {{ site.data[site.active_lang].strings.footer_text }}
       {% if site.impressum_path %}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}
       {% if site.last_updated %}
         {% assign current_lang = site.active_lang %}
         {% if current_lang == 'en' %}
-          Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+          · Last updated: {{ 'now' | date: '%B %d, %Y' }}
         {% elsif current_lang == 'it' %}
-          Ultimo aggiornamento: {{ 'now' | date: '%d %B %Y' }}.
+          · Ultimo aggiornamento: {{ 'now' | date: '%d %B %Y' }}
         {% elsif current_lang == 'es' %}
-          Última actualización: {{ 'now' | date: '%d de %B de %Y' }}.
+          · Última actualización: {{ 'now' | date: '%d de %B de %Y' }}
         {% endif %}
       {% endif %}
     </div>
