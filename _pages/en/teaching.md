@@ -91,13 +91,13 @@ nav_order: 3
 <div class="subsection">
   <a href="javascript:void(0);" onclick="toggleVisibility('instructor-earlier')">
     <h2 class="subsection">
-      <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-instructor-earlier"></i>
+      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-instructor-earlier"></i>
       <span>earlier courses</span>
     </h2>
   </a>
 </div>
 
-<div id="instructor-earlier" class="toggle-section">
+<div id="instructor-earlier" class="toggle-section expanded">
 
 <div class="year">
   <h2 class="year year--static"><span>University of Bologna</span></h2>
