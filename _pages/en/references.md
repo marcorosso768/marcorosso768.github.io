@@ -9,7 +9,7 @@ subtitle: >
       <span class="separator">|</span>
       <a href="/es/referencias/" hreflang="es">referencias</a>
   </div>
-description: <i>This page provides information on my academic referees, including affiliations, research areas, and contact details for letters of recommendation. The goal is to make reference requests straightforward for selection committees while giving context on my main collaborations and mentoring network.</i>
+description: <i>Referees available to write letters of recommendation, with their positions, research areas, and contact details. Each profile also indicates the context in which we have worked together.</i>
 nav: false
 nav_order:
 
@@ -18,14 +18,22 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: right
     image: profile_pictures/prof_pic_PV.png
+    image_alt: Paolo Vanin
     content: about_PV.md
     image_circular: true # crops the image to make it circular
   - align: right
+    image: profile_pictures/prof_pic_FC.jpg
+    image_alt: Fabio Cerina
+    content: about_FC.md
+    image_circular: true # crops the image to make it circular
+  - align: right
     image: profile_pictures/prof_pic_GP.jpeg
+    image_alt: Giovanni Prarolo
     content: about_GP.md
     image_circular: true # crops the image to make it circular
   - align: right
     image: profile_pictures/prof_pic_MB.jpg
+    image_alt: Maria Bigoni
     content: about_MB.md
     image_circular: true # crops the image to make it circular
 ---

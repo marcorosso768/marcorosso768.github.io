@@ -3,7 +3,7 @@ page_id: research
 layout: page
 permalink: /research/
 title: research
-description: <i>My research agenda develops clean, testable theoretical frameworks—centered on incentives, information frictions, and selection—to clarify mechanisms before tracing their empirical implications. Empirically, I work with reproducible, end-to-end pipelines that often combine web scraping and NLP with geocoding and panel construction. My workflow typically relies on Python, Stata, and spatial tools such as QGIS (and, when appropriate, R).</i>
+description: <i>My research develops new theoretical models of incentives, information frictions, and selection, and brings their implications to the data. Empirically, I build reproducible pipelines that combine administrative records, web scraping and text analysis, and geocoding to study political participation, crime, and labor markets.</i>
 subtitle: >
   <div class="lang-links">
       <a href="/it/ricerca/" hreflang="it">ricerca</a>
@@ -16,7 +16,7 @@ nav_order: 1
 
 <!-- Publications Section
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-0')">
+  <a href="#content-0" onclick="toggleVisibility('content-0'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
       <span>publications</span>
@@ -34,7 +34,7 @@ nav_order: 1
       <span>
         Farina E., Rosso M., Dansero L., et al. (2023).
         <a href="https://doi.org/10.1136/jech-2022-220088" target="_blank" rel="noopener noreferrer">
-          Short-term effect of colorectal cancer on income.
+          Short-term effect of colorectal cancer on income: analysis of an Italian cohort.
         </a>
         <i>Journal of Epidemiology & Community Health</i>, 77:196–201.
       </span>
@@ -54,7 +54,7 @@ nav_order: 1
 
 <!-- JMP Section
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+  <a href="#content-1" onclick="toggleVisibility('content-1'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
       <span>job market paper</span>
@@ -108,7 +108,7 @@ nav_order: 1
 
 <!-- Working Papers Section -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
+  <a href="#content-2" onclick="toggleVisibility('content-2'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
       <span>working papers</span>
@@ -173,8 +173,8 @@ nav_order: 1
     <div class="pill-container mt-2">
       <a 
   href="mailto:marco.rosso4@unibo.it
-        ?subject=Request%20for%20draft%20-%20The%20Tipping%20Point%20of%20Temptation%3A%20Occupational%20Selection%20and%20Integrity%20in%20the%20Public%20Sector
-        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20working%20paper%20%E2%80%9CThe%20Tipping%20Point%20of%20Temptation%3A%20Selection%20into%20the%20Public%20Sector%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
+        ?subject=Request%20for%20draft%20-%20The%20Tipping%20Point%20of%20Temptation%3A%20Corruption%20and%20Selection%20into%20Public%20Service
+        &body=Dear%20Marco%2C%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20working%20paper%20%E2%80%9CThe%20Tipping%20Point%20of%20Temptation%3A%20Corruption%20and%20Selection%20into%20Public%20Service%E2%80%9D.%0D%0A%0D%0AThank%20you%21%0D%0A"
   class="pill-link no-external">
         <i class="fa-solid fa-file-lines fa-2xs"></i>
         <span class="toggle-label" title="Draft under request">Draft</span>
@@ -248,14 +248,14 @@ joint distributions, both converge to this value as rents vanish, while their fi
     <div class="icon-entry indented">
       <i class="fa-solid fa-newspaper fa-fw" title="Working paper"></i>
       <span>
-        Eroding the Female Civic Advantage: Motherhood and Turnout over the Family Life Cycle
+        Childbirth and the Erosion of the Female Turnout Advantage
       </span>
     </div>
     <div class="pill-container mt-2">
 	      <a 
   href="mailto:marco.rosso4@unibo.it
-        ?subject=Request%20for%20draft%20-%20Parenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records
-        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20working%20paper%20%E2%80%9CParenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
+        ?subject=Request%20for%20draft%20-%20Childbirth%20and%20the%20Erosion%20of%20the%20Female%20Turnout%20Advantage
+        &body=Dear%20Marco%2C%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20working%20paper%20%E2%80%9CChildbirth%20and%20the%20Erosion%20of%20the%20Female%20Turnout%20Advantage%E2%80%9D.%0D%0A%0D%0AThank%20you%21%0D%0A"
   class="pill-link no-external">
         <i class="fa-solid fa-file-lines fa-2xs"></i>
         <span class="toggle-label" title="Draft under request">Draft</span>
@@ -315,8 +315,8 @@ first weeks of parenthood.
   <div class="pill-container mt-2">
       <a 
   href="mailto:marco.rosso4@unibo.it
-        ?subject=Request%20for%20draft%20-%20Public%20Goods%20and%20Political%20Participation%3A%20Childcare%20Access%20and%20Electoral%20Engagement
-        &body=Dear%20Marco,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20yours%20working%20paper%20%E2%80%9CPublic%20Goods%20and%20Political%20Participation%3A%20Childcare%20Access%20and%20Electoral%20Engagement%E2%80%9D.%0D%0A%0D%0AThank%20you!%0D%0A"
+        ?subject=Request%20for%20draft%20-%20Provision%20without%20Participation%3F%20Proximity%20to%20Local%20Public%20Goods%20and%20Voter%20Turnout
+        &body=Dear%20Marco%2C%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20working%20paper%20%E2%80%9CProvision%20without%20Participation%3F%20Proximity%20to%20Local%20Public%20Goods%20and%20Voter%20Turnout%E2%80%9D.%0D%0A%0D%0AThank%20you%21%0D%0A"
   class="pill-link no-external">
         <i class="fa-solid fa-file-lines fa-2xs"></i>
         <span class="toggle-label" title="Draft under request">Draft</span>
@@ -367,7 +367,7 @@ local public goods.
 
 <!-- Selected Work in Progress Section -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
+  <a href="#content-3" onclick="toggleVisibility('content-3'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-3"></i>
       <span>selected work in progress</span>
@@ -431,7 +431,7 @@ local public goods.
 
 <!-- Other Publications Section -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-4')">
+  <a href="#content-4" onclick="toggleVisibility('content-4'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-4"></i>
       <span>other publications</span>
@@ -449,7 +449,7 @@ local public goods.
       <span>
         Farina E., Rosso M., Dansero L., et al. (2023). 
         <a href="https://doi.org/10.1136/jech-2022-220088" target="_blank" rel="noopener noreferrer">
-          Short-term effect of colorectal cancer on income.
+          Short-term effect of colorectal cancer on income: analysis of an Italian cohort.
         </a> 
         <i>Journal of Epidemiology & Community Health</i>, 77:196–201.
       </span>
@@ -469,7 +469,7 @@ local public goods.
 
 <!-- Theses Section -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-5')">
+  <a href="#content-5" onclick="toggleVisibility('content-5'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-5"></i>
       <span>theses</span>
@@ -496,7 +496,7 @@ local public goods.
     <div class="icon-entry indented">
       <i class="fa-solid fa-book fa-fw"></i>
       <span>
-          Master's Thesis (2018),
+          Master's Thesis (2019),
           <em>"Effect of Breast and Colorectal Cancer on Earnings: Evidence from Italy"</em>
       </span>
     </div>

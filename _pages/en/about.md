@@ -6,7 +6,7 @@ permalink: /
 subtitle: >
   <div style="margin-top: -0.75rem;">
       <p style="font-weight: 500;">
-          Adjunct&nbsp;Professor | Postdoctoral&nbsp;Researcher
+          Postdoctoral&nbsp;Researcher
       </p>
   </div>
   <div style="margin: 0; padding: 0; position: relative; margin-top: 1.5rem;">
@@ -15,7 +15,7 @@ subtitle: >
           <i class="fa-solid fa-building-columns fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
       </div>
       <div style="padding-left: 22px; margin-top: -10pt; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
-          <a href="https://www.unibo.it/en/homepage">University&nbsp;of&nbsp;Bologna</a> | <a href="https://en.unica.it/en">University&nbsp;of&nbsp;Cagliari</a>
+          <a href="https://en.unica.it/en">University&nbsp;of&nbsp;Cagliari</a> | <a href="https://www.unibo.it/en/homepage">University&nbsp;of&nbsp;Bologna</a>
       </div>
       <div style="display: inline-block; width: 13px; text-align: center; position: absolute; margin-top: 1px; line-height: 14pt;">
           <i class="fa-solid fa-school fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
@@ -36,7 +36,8 @@ subtitle: >
 
 profile:
   align: right
-  image: profile_pictures/prof_pic_MR.webp
+  image: profile_pictures/prof_pic_MR_640.webp
+  image_alt: Marco Rosso
   image_circular: true # crops the image to make it circular
 #  more_info: >
 #       <p>555 your office number</p>
@@ -56,26 +57,20 @@ social: true # includes social icons at the bottom of the page
 </div>
 <div style="height: 2rem;"></div>
 
-Welcome to my personal website—glad you made it here of your own free will (or maybe you clicked by mistake; it happens to the best of us).
-
 My <b style="color: $white-color;"><a href="/research/">research</a></b> focuses on
 <b style="color: $white-color;">Political Economy</b>,
 <b style="color: $white-color;">Crime Economics</b>,
+<b style="color: $white-color;">Applied Microeconomics</b>, and
 <b style="color: $white-color;">Experimental</b> and
 <b style="color: $white-color;">Behavioral Economics</b>, with a particular interest in how institutions and individual behavior interact in real-world settings. More broadly, I am drawn to questions that sit at the intersection of economics and social behavior, wherever the data and the methods can speak to them.
 
 Having obtained my <b style="color: $white-color;">Ph.D. in Economics</b> at the <b style="color: $white-color;">University of Bologna</b> in 2026, I am currently <b style="color: $white-color;">Postdoctoral Researcher</b> at the <b style="color: $white-color;">University of Cagliari</b>, where I am working on the interactions between remote work, artificial intelligence, and local labor markets (<b style="color: $white-color;"><a href="https://crenos.unica.it/bibcite/reference/8766" target="_blank" rel="noopener noreferrer" class="external">CRENoS WP 26/13</a></b>).
 
-You can find more about myself in my <b style="color: $white-color;"><a href="/assets/pdf/en/[Marco%20Rosso]%20Curriculum%20Vitae.pdf" target="_blank" rel="noopener noreferrer" class="external">CV</a></b>.
+You can find more about myself in my <b style="color: $white-color;"><a href="/assets/pdf/en/curriculum_vitae_en.pdf" target="_blank" rel="noopener noreferrer" class="external">CV</a></b>.
 
-Meanwhile, I <b style="color: $white-color;"><a href="/teaching/">teach</a></b> <b style="color: $white-color;">Microeconomics</b>, <b style="color: $white-color;">Introduction to Economics of the EU</b>, and <b style="color: $white-color;">Python for Economists</b>, and I serve as a <b style="color: $white-color;">Teaching Assistant</b> for <b style="color: $white-color;">Political Economy</b> at the <b style="color: $white-color;">Department of Economics</b>, the <b style="color: $white-color;">Department of Management</b>, and the <b style="color: $white-color;">Department of Political and Social Sciences</b> at the <b style="color: $white-color;">University of Bologna</b>.
+Meanwhile, I <b style="color: $white-color;"><a href="/teaching/">teach</a></b> <b style="color: $white-color;">Empirical Methods for Law and Economics</b> in the <b style="color: $white-color;">European Doctorate in Law and Economics (EDLE)</b>, <b style="color: $white-color;">Introduction to Economics of the EU</b>, and a <b style="color: $white-color;">Pre-sessional Course in Econometrics</b> at the <b style="color: $white-color;">University of Bologna</b>, where I also serve as a <b style="color: $white-color;">Teaching Assistant</b> in econometrics, microeconomics, economic policy, political economy, and behavioral economics.
 
-Moreover, I contributed to the rollout of the <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="ref1">1</a></sup> in support of mindful parenting, as part of the <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a>, for which I also conducted online interviews with parents and children aged 4 and 5.
+Moreover, I contributed to the <b style="color: $white-color;"><a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a></b>, which studies how parental beliefs, preferences, and engagement shape early child development, and to the rollout of the <b style="color: $white-color;"><a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a></b>, a tool in support of mindful parenting available in Italian, English, and French.
 
-<div style="margin-top:1rem;"></div>
-<hr style="border:0; border-top:0.5px solid !important;">
-<div id="fn1" style="font-size:small;">
-  <sup><a href="#ref1">1</a></sup> The MinUTo App is currently available in three languages: Italian, English, and French.
-</div>
 <div style="margin-top:2.5rem;"></div>
 <hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">

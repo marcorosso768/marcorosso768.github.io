@@ -1,6 +1,11 @@
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
 
+<!-- Connessioni anticipate ai CDN (risparmiano il tempo di apertura della connessione) -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
 <link
@@ -22,13 +27,24 @@
 {% endif %}
 
 <!-- Fonts & Icons -->
-<link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
+<!-- caricati senza bloccare la prima visualizzazione: le icone accademiche e il font compaiono appena pronti -->
 <link
-  defer
+  rel="stylesheet"
+  href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}"
+  media="print"
+  onload="this.media='all'"
+>
+<link
   rel="stylesheet"
   type="text/css"
   href="{{ site.third_party_libraries.google_fonts.url.fonts }}"
+  media="print"
+  onload="this.media='all'"
 >
+<noscript>
+  <link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
+  <link rel="stylesheet" href="{{ site.third_party_libraries.google_fonts.url.fonts }}">
+</noscript>
 
 <!-- Code Syntax Highlighting -->
 <link
@@ -60,8 +76,22 @@
 {% if site.icon contains 'favicons/' %}
   <!-- Add apple-mobile-web-app-title meta tag in HTML -->
   <meta name="apple-mobile-web-app-title" content="MR">
-  <!-- Include the favicon management script -->
-  <script src="{{ '/assets/js/favicon.js' | relative_url }}"></script>
+  <!--
+    Favicon statiche (Safari legge quelle presenti nell'HTML). Lo script dopo theme.js le allinea al tema del sito. Per aggiornarle, nuova cartella (v3, ...)
+  -->
+  <link rel="icon" type="image/svg+xml" data-favicon="svg" href="{{ '/assets/img/favicons/v2/favicon.svg' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="96x96" data-favicon="png" href="{{ '/assets/img/favicons/v2/favicon-96x96.png' | relative_url }}">
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="96x96"
+    data-favicon="png-dark"
+    href="{{ '/assets/img/favicons/v2/favicon-96x96-dark.png' | relative_url }}"
+    media="(prefers-color-scheme: dark)"
+  >
+  <link rel="shortcut icon" data-favicon="ico" href="{{ '/favicon.ico' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" data-favicon="apple" href="{{ '/assets/img/favicons/v2/apple-touch-icon.png' | relative_url }}">
+  <link rel="manifest" href="{{ '/assets/img/favicons/v2/site.webmanifest' | relative_url }}">
 {% else %}
   <link
     rel="shortcut icon"
@@ -75,10 +105,15 @@
 <script id="urlMapData" type="application/json">
   {{ site.data.url_map | jsonify }}
 </script>
-<script src="/assets/js/language-toggle.js"></script>
+<script src="/assets/js/language-toggle.js" defer></script>
 
 <!-- Dark Mode -->
 <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
+{% if site.icon contains 'favicons/' %}
+  <script>
+    {% include scripts/favicon_theme.js %}
+  </script>
+{% endif %}
 {% if site.enable_darkmode %}
   <link
     defer

@@ -21,7 +21,12 @@
             </th>
             <td>
               {% if item.inline %}
-                <span style="color:var(--global-text-color);">{{ item.content | remove: '<p>' | remove: '</p>' | emojify }}</span>
+                {% if include.limit %}
+                  {% assign news_body = item.content | split: '<div class="mt-2 embed-facade' | first %}
+                {% else %}
+                  {% assign news_body = item.content %}
+                {% endif %}
+                <span style="color:var(--global-text-color);">{{ news_body | remove: '<p>' | remove: '</p>' | emojify }}</span>
               {% else %}
                 <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
               {% endif %}
@@ -34,3 +39,52 @@
     <p>{{ site.data[site.active_lang].strings.no_news }}</p>
   {% endif %}
 </div>
+{% unless include.limit %}
+  <script>
+    document.addEventListener('click', function (e) {
+      const button = e.target.closest('.embed-facade__button');
+      if (!button) return;
+      const box = button.closest('.embed-facade');
+      let frame = box.querySelector('.embed-facade__content');
+      const label = button.querySelector('.embed-facade__label');
+      if (frame) {
+        const open = !frame.hidden;
+        frame.hidden = open;
+        label.textContent = open ? label.dataset.show : label.dataset.hide;
+        return;
+      }
+      frame = document.createElement('div');
+      frame.className = 'embed-facade__content';
+      box.appendChild(frame);
+      const src = box.dataset.src;
+      const loadScript = (url) => {
+        const s = document.createElement('script');
+        s.async = true;
+        s.src = url;
+        document.body.appendChild(s);
+      };
+      if (box.dataset.type === 'x') {
+        frame.innerHTML = '<blockquote class="twitter-tweet"><a href="' + src + '"></a></blockquote>';
+        if (window.twttr && window.twttr.widgets) window.twttr.widgets.load(frame);
+        else loadScript('https://platform.twitter.com/widgets.js');
+      } else if (box.dataset.type === 'instagram') {
+        frame.innerHTML =
+          '<blockquote class="instagram-media" data-instgrm-permalink="' +
+          src +
+          '" data-instgrm-version="14" style="min-width:326px; max-width:540px; width:100%;"></blockquote>';
+        if (window.instgrm) window.instgrm.Embeds.process();
+        else loadScript('https://www.instagram.com/embed.js');
+      } else {
+        const iframe = document.createElement('iframe');
+        iframe.src = src;
+        iframe.height = box.dataset.height;
+        iframe.width = '504';
+        iframe.setAttribute('frameborder', '0');
+        iframe.setAttribute('allowfullscreen', '');
+        iframe.title = 'Embedded post';
+        frame.appendChild(iframe);
+      }
+      label.textContent = label.dataset.hide;
+    });
+  </script>
+{% endunless %}

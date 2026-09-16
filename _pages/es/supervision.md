@@ -16,7 +16,7 @@ nav_order: 4
 
 <!-- THESIS SUPERVISION -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-0')">
+  <a href="#content-0" onclick="toggleVisibility('content-0'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
       <span>supervisión de tesis</span>
@@ -45,7 +45,7 @@ nav_order: 4
 
 <!-- RESEARCH ASSISTANTS -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+  <a href="#content-1" onclick="toggleVisibility('content-1'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
       <span>asistentes de investigación</span>

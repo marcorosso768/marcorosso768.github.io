@@ -5,25 +5,25 @@
 @use "sass:color";
 
 :root {
-  --global-bg-color: #{$white-mod};
+  --global-bg-color: #{$light-bg-color};
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-mod};
-  --global-footer-bg-color: #{$white-mod};
-  --global-footer-text-color: #{$purple-color};
-  --global-footer-link-color: #{$purple-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: #{$black-color};
-  --global-card-bg-color: #{$white-mod};
+  --global-text-color: #{$light-text-color};
+  --global-text-color-light: #{$light-text-muted};
+  --global-theme-color: #{$light-accent-color};
+  --global-hover-color: #{$light-accent-color};
+  --global-hover-text-color: #{$light-bg-color};
+  --global-footer-bg-color: #{$light-bg-color};
+  --global-footer-text-color: #{$light-accent-color};
+  --global-footer-link-color: #{$light-accent-color};
+  --global-distill-app-color: #{$light-text-muted};
+  --global-divider-color: #{$light-text-color};
+  --global-card-bg-color: #{$light-bg-color};
   --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
-  --global-selection-color: rgba(#{red($purple-color)}, #{green($purple-color)}, #{blue($purple-color)}, 0.7);
-  --global-back-to-top-text-color: #{$white-mod};
-  --global-newsletter-bg-color: #{$white-mod};
-  --global-newsletter-text-color: #{$black-color};
+  --global-back-to-top-bg-color: rgba(#{red($light-text-color)}, #{green($light-text-color)}, #{blue($light-text-color)}, 0.4);
+  --global-selection-color: rgba(#{red($light-accent-color)}, #{green($light-accent-color)}, #{blue($light-accent-color)}, 0.25);
+  --global-back-to-top-text-color: #{$light-bg-color};
+  --global-newsletter-bg-color: #{$light-bg-color};
+  --global-newsletter-text-color: #{$light-text-color};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -67,24 +67,24 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #{$grey-color-dark};
+  --global-bg-color: #{$dark-bg-color};
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$white-mod};
-  --global-text-color-light: #{$white-mod};
-  --global-theme-color: #{$yellow-color};
-  --global-hover-color: #{$yellow-color};
-  --global-hover-text-color: #{$white-mod};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$yellow-color};
-  --global-footer-link-color: #{$yellow-color};
+  --global-text-color: #{$dark-text-color};
+  --global-text-color-light: #{$dark-text-color};
+  --global-theme-color: #{$dark-accent-color};
+  --global-hover-color: #{$dark-accent-color};
+  --global-hover-text-color: #{$dark-bg-color};
+  --global-footer-bg-color: #{$dark-bg-color};
+  --global-footer-text-color: #{$dark-accent-color};
+  --global-footer-link-color: #{$dark-accent-color};
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #{$white-mod};
-  --global-card-bg-color: #{$grey-900};
-  --global-back-to-top-bg-color: rgba(#{red($white-color)}, #{green($white-color)}, #{blue($white-color)}, 0.5);
-  --global-selection-color: rgba(#{red($yellow-color)}, #{green($yellow-color)}, #{blue($yellow-color)}, 0.7);
-  --global-back-to-top-text-color: #{$black-color};
-  --global-newsletter-bg-color: #{$white-mod};
-  --global-newsletter-text-color: #{$grey-color-dark};
+  --global-divider-color: #{$dark-text-color};
+  --global-card-bg-color: #{$dark-card-bg-color};
+  --global-back-to-top-bg-color: rgba(#{red($dark-text-color)}, #{green($dark-text-color)}, #{blue($dark-text-color)}, 0.5);
+  --global-selection-color: rgba(#{red($dark-accent-color)}, #{green($dark-accent-color)}, #{blue($dark-accent-color)}, 0.35);
+  --global-back-to-top-text-color: #{$dark-bg-color};
+  --global-newsletter-bg-color: #{$dark-text-color};
+  --global-newsletter-text-color: #{$dark-bg-color};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;

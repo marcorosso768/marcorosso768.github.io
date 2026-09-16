@@ -9,14 +9,14 @@ subtitle: >
       <span class="separator">|</span>
       <a href="/es/presentaciones/" hreflang="es">presentaciones</a>
   </div>
-description: <i>This section documents invited talks, conference presentations, workshops, and related academic discussions. I use these venues to present work at different stages—early ideas, work in progress, and completed papers—often tailoring the emphasis toward identification, mechanisms, and external validity depending on the audience.</i>
+description: <i>Invited talks, conference presentations, and workshops where I have presented my work, each listed with the paper presented. Upcoming events are marked as such, and other academic events are listed separately.</i>
 nav: true
 nav_order: 2
 ---
 
 <!-- INVITED TALKS -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+  <a href="#content-1" onclick="toggleVisibility('content-1'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
       <span>invited talks</span>
@@ -36,6 +36,9 @@ nav_order: 2
           <span class="highlight"><i>Speaker</i></span>
       </div>
    </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>Crime Perception and Voting Behavior: Evidence from Individual Data</i></div>
+    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         University of Bologna — Bologna, Italy
@@ -53,6 +56,9 @@ nav_order: 2
           <span class="highlight"><i>Speaker</i></span>
       </div>
    </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>Crime Perception and Voting Behavior: Evidence from Individual Data</i></div>
+    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         University of Modena and Reggio-Emilia — Modena, Italy
@@ -67,6 +73,9 @@ nav_order: 2
               <span class="highlight"><i>Speaker</i></span>
       </div>
     </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>Crime Perception and Voting Behavior: Evidence from Individual Data</i></div>
+    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         Universidad de San Andrés — Buenos Aires, Argentina
@@ -79,7 +88,7 @@ nav_order: 2
 
 <!-- CONFERENCES AND SEMINARS -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
+  <a href="#content-2" onclick="toggleVisibility('content-2'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
       <span>conferences and seminars</span>
@@ -89,6 +98,24 @@ nav_order: 2
 
 <div id="content-2" class="toggle-section expanded">
 <!-- 2026 -->
+<p style="margin-left: 0.1em;"><b>2026</b></p>
+
+  <div class="seminar-entry indented">
+   <div class="seminar-entry__row seminar-entry__row--title">
+      <div class="seminar-entry__content">
+          ASSET Annual Meeting <span style="font-size: small; white-space: nowrap;">(upcoming)</span> —
+          <span class="highlight"><i>Speaker</i></span>
+      </div>
+   </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>The Tipping Point of Temptation: Corruption and Selection into Public Service</i></div>
+    </div>
+    <div class="seminar-entry__row seminar-entry__row--location">
+      <div class="seminar-entry__location-text">
+        CRENoS (Centre for North South Economic Research) — Cagliari, Italy
+      </div>
+    </div>
+  </div>
 
 <!-- 2025 -->
 <p style="margin-left: 0.1em;"><b>2025</b></p>
@@ -97,9 +124,12 @@ nav_order: 2
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
           66th Annual Meeting of the Italian Economic Association —
-          <span class="highlight"><i>Speaker</i></span>
+          <span class="highlight"><i>Speaker and discussant</i></span>
       </div>
    </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>Crime Perception and Voting Behavior: Evidence from Individual Data</i></div>
+    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         University of Naples Parthenope — Naples, Italy
@@ -114,6 +144,9 @@ nav_order: 2
           <span class="highlight"><i>Speaker</i></span>
       </div>
    </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>Crime Perception and Voting Behavior: Evidence from Individual Data</i></div>
+    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         University of Modena and Reggio-Emilia — Modena, Italy
@@ -147,6 +180,9 @@ nav_order: 2
           <span class="highlight"><i>Speaker</i></span>
       </div>
    </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>Crime Perception and Voting Behavior: Evidence from Individual Data</i></div>
+    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         Le Sparne — Pitigliano (GR), Italy
@@ -161,6 +197,9 @@ nav_order: 2
           <span class="highlight"><i>Speaker and discussant</i></span>
       </div>
    </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>Crime Perception and Voting Behavior: Evidence from Individual Data</i></div>
+    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         University of Sassari — Sassari, Italy
@@ -171,27 +210,16 @@ nav_order: 2
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
-         Workshop for Ph.D. Students In Economentrics and Empirical Economics (WEEE) —
+         Workshop for Ph.D. Students in Econometrics and Empirical Economics (WEEE) —
           <span class="highlight"><i>Speaker</i></span>
       </div>
    </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>Crime Perception and Voting Behavior: Evidence from Individual Data</i></div>
+    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         Bertinoro University Center — Bertinoro (FC), Italy
-      </div>
-    </div>
-  </div>
-
-  <div class="seminar-entry indented">
-   <div class="seminar-entry__row seminar-entry__row--title">
-      <div class="seminar-entry__content">
-         Third Year Ph.D. Forum —
-          <span class="highlight"><i>Speaker</i></span>
-      </div>
-   </div>
-    <div class="seminar-entry__row seminar-entry__row--location">
-      <div class="seminar-entry__location-text">
-        University of Bologna — Bologna, Italy
       </div>
     </div>
   </div>
@@ -202,41 +230,16 @@ nav_order: 2
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
-         WiP Seminar —
-          <span class="highlight"><i>Speaker</i></span>
-      </div>
-   </div>
-    <div class="seminar-entry__row seminar-entry__row--location">
-      <div class="seminar-entry__location-text">
-        University of Bologna — Bologna, Italy
-      </div>
-    </div>
-  </div>
-
-  <div class="seminar-entry indented">
-   <div class="seminar-entry__row seminar-entry__row--title">
-      <div class="seminar-entry__content">
          &#8546; Ph.D. Workshop —
           <span class="highlight"><i>Speaker</i></span>
       </div>
    </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>The Tipping Point of Temptation: Corruption and Selection into Public Service</i></div>
+    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         Le Sparne — Pitigliano (GR), Italy
-      </div>
-    </div>
-  </div>
-
-  <div class="seminar-entry indented">
-   <div class="seminar-entry__row seminar-entry__row--title">
-      <div class="seminar-entry__content">
-         Second Year Ph.D. Forum —
-          <span class="highlight"><i>Speaker</i></span>
-      </div>
-   </div>
-    <div class="seminar-entry__row seminar-entry__row--location">
-      <div class="seminar-entry__location-text">
-        University of Bologna — Bologna, Italy
       </div>
     </div>
   </div>
@@ -251,23 +254,12 @@ nav_order: 2
           <span class="highlight"><i>Speaker</i></span>
       </div>
    </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>The Tipping Point of Temptation: Corruption and Selection into Public Service</i></div>
+    </div>
     <div class="seminar-entry__row seminar-entry__row--location">
       <div class="seminar-entry__location-text">
         Le Sparne — Pitigliano (GR), Italy
-      </div>
-    </div>
-  </div>
-
-  <div class="seminar-entry indented">
-   <div class="seminar-entry__row seminar-entry__row--title">
-      <div class="seminar-entry__content">
-         First Year Ph.D. Forum —
-          <span class="highlight"><i>Speaker</i></span>
-      </div>
-   </div>
-    <div class="seminar-entry__row seminar-entry__row--location">
-      <div class="seminar-entry__location-text">
-        University of Bologna — Bologna, Italy
       </div>
     </div>
   </div>
@@ -277,10 +269,10 @@ nav_order: 2
 
 <!-- BOOK DISCUSSIONS AND OTHER EVENTS -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
+  <a href="#content-3" onclick="toggleVisibility('content-3'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-3"></i>
-      <span>book discussions and other events</span>
+      <span>other academic events</span>
     </h2>
   </a>
 </div>
@@ -304,22 +296,5 @@ nav_order: 2
     </div>
   </div>
 
-<!-- 2021 -->
-<p style="margin-left: 0.1em;"><b>2021</b></p>
-
-  <div class="seminar-entry indented">
-    <div class="seminar-entry__row seminar-entry__row--title">
-      <div class="seminar-entry__content">
-          First Year Ph.D. Poster Session —
-          <span class="highlight"><i>Speaker</i></span>
-      </div>
-    </div>
-    <div class="seminar-entry__row seminar-entry__row--location">
-      <div class="seminar-entry__location-text">
-        University of Bologna — Bologna, Italy
-      </div>
-    </div>
-  </div>
-  
 </div>
 <!-- END OF BOOK DISCUSSIONS AND OTHER EVENTS SECTION -->

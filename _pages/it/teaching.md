@@ -16,7 +16,7 @@ nav_order: 3
 
 <!-- TEACHING -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-0')">
+  <a href="#content-0" onclick="toggleVisibility('content-0'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
       <span>professore a contratto</span>
@@ -28,7 +28,7 @@ nav_order: 3
 
 <!-- TOGGLE TRIGGER -->
 <div class="subsection">
-  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-unibo-t')">
+  <a href="#subsection-unibo-t" onclick="toggleVisibility('subsection-unibo-t'); return false;">
     <h2 class="subsection">
        <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-unibo-t"></i>
        <span>Università di Bologna</span>
@@ -40,7 +40,7 @@ nav_order: 3
 <div id="subsection-unibo-t" class="toggle-section expanded">
 
 <div class="year">
-  <a href="javascript:void(0);" onclick="toggleVisibility('year-2025')">
+  <a href="#year-2025" onclick="toggleVisibility('year-2025'); return false;">
     <h2 class="year">
        <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-year-2025"></i>
        <span>2025/26</span>
@@ -108,7 +108,7 @@ nav_order: 3
 
 <!-- TEACHING ASSISTANT -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+  <a href="#content-1" onclick="toggleVisibility('content-1'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
       <span>tutor didattico</span>
@@ -120,7 +120,7 @@ nav_order: 3
 
 <!-- TOGGLE TRIGGER -->
 <div class="subsection">
-  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-unibo')">
+  <a href="#subsection-unibo" onclick="toggleVisibility('subsection-unibo'); return false;">
     <h2 class="subsection">
        <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-unibo"></i>
        <span>Università di Bologna</span>
@@ -132,7 +132,7 @@ nav_order: 3
 <div id="subsection-unibo" class="toggle-section expanded">
 
 <div class="year">
-  <a href="javascript:void(0);" onclick="toggleVisibility('year-2025-ta')">
+  <a href="#year-2025-ta" onclick="toggleVisibility('year-2025-ta'); return false;">
     <h2 class="year">
        <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-year-2025-ta"></i>
        <span>2025/26</span>
@@ -170,7 +170,7 @@ nav_order: 3
   </div>
 
 <div class="year">
-  <a href="javascript:void(0);" onclick="toggleVisibility('year-20246-ta')">
+  <a href="#year-20246-ta" onclick="toggleVisibility('year-20246-ta'); return false;">
     <h2 class="year">
        <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-year-20246-ta"></i>
        <span>2024/26</span>
@@ -195,7 +195,7 @@ nav_order: 3
 </div>
 
 <div class="year">
-  <a href="javascript:void(0);" onclick="toggleVisibility('year-2024-ta')">
+  <a href="#year-2024-ta" onclick="toggleVisibility('year-2024-ta'); return false;">
     <h2 class="year">
        <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-year-2024-ta"></i>
        <span>2024/25</span>
@@ -220,7 +220,7 @@ nav_order: 3
 </div>
 
 <div class="year">
-  <a href="javascript:void(0);" onclick="toggleVisibility('year-20225-ta')">
+  <a href="#year-20225-ta" onclick="toggleVisibility('year-20225-ta'); return false;">
     <h2 class="year">
        <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-year-20225-ta"></i>
        <span>2022/25</span>
@@ -258,7 +258,7 @@ nav_order: 3
 </div>
 
 <div class="year">
-  <a href="javascript:void(0);" onclick="toggleVisibility('year-20224-ta')">
+  <a href="#year-20224-ta" onclick="toggleVisibility('year-20224-ta'); return false;">
     <h2 class="year">
        <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-year-20224-ta"></i>
        <span>2022/24</span>
@@ -286,7 +286,7 @@ nav_order: 3
 
 <!-- TOGGLE TRIGGER -->
 <div class="subsection">
-  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-uniboforli')">
+  <a href="#subsection-uniboforli" onclick="toggleVisibility('subsection-uniboforli'); return false;">
     <h2 class="subsection">
        <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-subsection-uniboforli"></i>
        <span>Università di Bologna — Campus di Forlì</span>
@@ -298,7 +298,7 @@ nav_order: 3
 <div id="subsection-uniboforli" class="toggle-section">
 
 <div class="year">
-  <a href="javascript:void(0);" onclick="toggleVisibility('year-202122-ta')">
+  <a href="#year-202122-ta" onclick="toggleVisibility('year-202122-ta'); return false;">
     <h2 class="year">
        <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-year-202122-ta"></i>
        <span>2021/22</span>
@@ -352,7 +352,7 @@ nav_order: 3
 
 <!-- TOGGLE TRIGGER -->
 <div class="subsection">
-  <a href="javascript:void(0);" onclick="toggleVisibility('subsection-unito')">
+  <a href="#subsection-unito" onclick="toggleVisibility('subsection-unito'); return false;">
     <h2 class="subsection">
        <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-subsection-unito"></i>
        <span>Università degli Studi di Torino — SAA Scuola di Amministrazione Aziendale</span>
@@ -364,7 +364,7 @@ nav_order: 3
 <div id="subsection-unito" class="toggle-section expanded">
 
 <div class="year">
-  <a href="javascript:void(0);" onclick="toggleVisibility('year-201920-ta')">
+  <a href="#year-201920-ta" onclick="toggleVisibility('year-201920-ta'); return false;">
     <h2 class="year">
        <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-year-201920-ta"></i>
        <span>2019/20</span>
@@ -406,7 +406,7 @@ nav_order: 3
 
 <!-- FILES -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
+  <a href="#content-2" onclick="toggleVisibility('content-2'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
       <span>materiale didattico</span>

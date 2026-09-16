@@ -16,7 +16,7 @@ nav: false
 
 <!-- HANDBOOKS -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-0')">
+  <a href="#content-0" onclick="toggleVisibility('content-0'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
       <span>manual</span>
@@ -37,7 +37,7 @@ nav: false
 
 <!-- SLIDES -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+  <a href="#content-1" onclick="toggleVisibility('content-1'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
       <span>slide</span>
@@ -92,14 +92,14 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  <a href="assets/teaching_material/econometrics/Review Session - Probability and Statistics Review, Linear Regression Models, and OLS Inference.pdf" target="_blank" rel="noopener noreferrer">Review Session: Probability and Statistics Review, Linear Regression Models, and OLS Inference</a>
+  <a href="/assets/teaching_material/econometrics/Review Session - Probability and Statistics Review, Linear Regression Models, and OLS Inference.pdf" target="_blank" rel="noopener noreferrer">Review Session: Probability and Statistics Review, Linear Regression Models, and OLS Inference</a>
   </span>
 </div>
 
 <div class="course-entry indented">
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  <a href="assets/teaching_material/econometrics/Review Session - Heteroskedasticity, Logit and Probit Models, Maximum Likelihood Estimation, and Inference based on Maximum Likelihood.pdf" target="_blank" rel="noopener noreferrer">Review Session: Heteroskedasticity, Logit and Probit Models, Maximum Likelihood Estimation, and Inference based on Maximum Likelihood</a>
+  <a href="/assets/teaching_material/econometrics/Review Session - Heteroskedasticity, Logit and Probit Models, Maximum Likelihood Estimation, and Inference based on Maximum Likelihood.pdf" target="_blank" rel="noopener noreferrer">Review Session: Heteroskedasticity, Logit and Probit Models, Maximum Likelihood Estimation, and Inference based on Maximum Likelihood</a>
   </span>
 </div>
 
@@ -107,7 +107,7 @@ nav: false
 
 <!-- DOFILES -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
+  <a href="#content-2" onclick="toggleVisibility('content-2'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
       <span>do-file</span>

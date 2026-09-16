@@ -7,6 +7,27 @@
     - field: Experimental Economics
     - field: Behavioral Economics
 
+- title: academic positions
+  type: time_table
+  contents:
+    - title: "Postdoctoral Researcher: Remote Work, Artificial Intelligence, and Local Labor Markets"
+      year: "Mar 2026–Mar 2027"
+      location: "Cagliari, Italy"
+      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Quantitative analysis of how digital nomad attraction and AI diffusion shape local labor markets and regional inequalities, using spatial equilibrium models and granular online job-posting data</i></p>'
+      institution: University of Cagliari
+      department: SEA — Department of Economics and Business Sciences
+      supervisor: 'supervisor: <a href="https://sites.google.com/site/fabiocerina/">Fabio Cerina</a>'
+    - title: "Adjunct Professor"
+      year: "Dec 2025–"
+      location: "Bologna, Italy"
+      institution: University of Bologna
+    - title: "Research Fellow: Democratization, the media, socio-economic context, and voting behavior"
+      year: "May 2024–Jul 2025"
+      location: "Bologna, Italy"
+      institution: University of Bologna
+      department: DSE — Department of Economics
+      supervisor: 'supervisor: <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
+
 - title: education
   type: time_table
   contents:
@@ -27,58 +48,80 @@
       department: ESOMAS — Department of Economics
       supervisor: 'supervisor: <a href="https://sites.google.com/site/giovannimastrobuoni/">Giovanni Mastrobuoni</a>'
       cosupervisor: 'co-supervisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
-    - title: "Bachelor's degree in Mathematics"
+    - title: "Bachelor's Degree in Mathematics"
       year: "2015"
       location: "Turin, Italy"
       institution: University of Turin
       department: 'Department of Mathematics "Giuseppe Peano"'
       supervisor: 'supervisor: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis</a>'
 
-- title: research and academic activities
+- title: honors, grants and fellowships
   type: time_table
   contents:
-    - title: "Postdoctoral Researcher: Remote Work, Artificial Intelligence, and Local Labor Markets"
-      year: "Mar 2026—Mar 2027"
-      location: "Cagliari, Italy"
-      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Quantitative analysis of how digital nomad attraction and AI diffusion shape local labor markets and regional inequalities, using spatial equilibrium models and granular online job-posting data</i></p>'
-      institution: University of Cagliari
-      department: SEA — Department of Economics and Business Sciences
-      supervisor: 'supervisor: <a href="https://sites.google.com/site/fabiocerina/">Fabio Cerina</a>'
+    - title: '"Marco Polo" Incentive to International Mobility for Research'
+      year: "2024"
+      location: "Bologna, Italy"
+      institution: University of Bologna
+      department: DSE — Department of Economics
+    - title: Four-Year Ph.D. Fellowship in Economics
+      year: "2020"
+      location: "Bologna, Italy"
+      institution: University of Bologna
+      department: DSE — Department of Economics
+    - title: "Award of Distinction for Master's Thesis"
+      year: "2019"
+      location: "Turin, Italy"
+      institution: University of Turin
+      department: ESOMAS — Department of Economics
+
+- title: visiting periods
+  type: time_table
+  contents:
+    - title: Visiting Ph.D. Student
+      year: "Aug–Dec 2024"
+      location: "Buenos Aires, Argentina"
+      institution: Universidad de San Andrés
+      department: Departamento de Economía
+      supervisor: 'local advisor: <a href="https://www.tommy-e-murphy.com">Tommy E. Murphy</a>'
+    - title: "Visitor Master's Candidate"
+      year: "Jan–Mar 2019"
+      location: "Turin, Italy"
+      institution: Regional Public Health Observatory (SEPI)
+      department: Public Health Department (Local Health Board TO3)
+      supervisor: 'local advisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
+
+- title: research experience
+  type: time_table
+  contents:
     - title: "Research Assistant: Organized crime, political connections and firms' performance"
-      year: "Dec—Jan 2026"
+      year: "Dec 2025–Jan 2026"
       location: "Naples, Italy"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Analysis of open-ended responses collected from participants with the goal of identifying and categorizing the motivations that emerge, and distinguishing between respondent profiles using text analysis techniques</i></p>'
       institution: University of Naples Federico II
       department: DISES — Department of Economics and Statistics
       supervisor: 'supervisor: <a href="https://sites.google.com/site/gimmordinoecon/home">Giovanni Immordino</a>'
     - title: "Distribution of the MinUTo App in Support of Mindful Parenting"
-      year: "Nov—Dec 2025"
+      year: "Nov–Dec 2025"
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE — Department of Economics
       supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en">Maria Bigoni</a>'
-    - title: "Research Fellow: Democratization, the media, socio-economic context, and voting behavior"
-      year: "May 2024—Jul 2025"
-      location: "Bologna, Italy"
-      institution: University of Bologna
-      department: DSE — Department of Economics
-      supervisor: 'supervisor: <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
     - title: '"At the Roots of Child Development: On the Role of Parental Beliefs, Preferences and Engagement" in the Context of the MinUTo Project'
-      year: "Jan—Apr 2024"
+      year: "Jan–Apr 2024"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Implementation of online experiments using the Qualtrics platform, management of communications and coordination with schools and families, and delivery and collection of the materials required for the experiments</i></p>'
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE — Department of Economics
       supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en">Maria Bigoni</a> and <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
-    - title: Generation and Preparation of Support Material for the Econometrics Course
-      year: "Nov—Dec 2023"
+    - title: Creation and Preparation of Teaching Support Materials for the Econometrics Course
+      year: "Nov–Dec 2023"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Design and implementation of quizzes on the mcEmpirics platform and authorship of an introductory Stata guide</i></p>'
       location: "Bologna, Italy"
       institution: University of Bologna
-      department: DSE — Department of Economics
+      department: DISA — Department of Management
       supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/margherita.fort/en">Margherita Fort</a> and <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
     - title: "Research Assistant: Center for Research on Pensions and Welfare Policies (CeRP)"
-      year: "Sept—Dec 2018"
+      year: "Sep–Dec 2018"
       location: "Turin, Italy"
       institution: Collegio Carlo Alberto
       supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero</a>'
@@ -94,37 +137,6 @@
             <i>Electoral Studies, Economic Modelling, Journal of Public Economics, The B.E. Journal of Economic Analysis and Policy, Health Economics, Journal of Economics &amp; Management Strategy</i>
           </div>
         </div>
-
-- title: affiliations
-  type: map
-  contents:
-    - name:
-      value: >
-        <div style="font-size:11pt; display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-id-card-clip fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
-          <div style="line-height: 1.2;">
-            CRENoS <i>Centre for North South Economic Research</i> (2026-), Italian Economic Association (2025-2026), Italian Econometric Association (2023)
-          </div>
-        </div>
-
-- title: honors and awards
-  type: time_table
-  contents:
-    - title: '"Marco Polo" Grant for International Research Mobility'
-      year: "2024"
-      location: "Bologna, Italy"
-      institution: University of Bologna
-      department: DSE — Department of Economics
-    - title: Four-Year Ph.D. Fellowship in Economics
-      year: "2020"
-      location: "Bologna, Italy"
-      institution: University of Bologna
-      department: DSE — Department of Economics
-    - title: "Award of Distinction for Master's Thesis"
-      year: "2019"
-      location: "Turin, Italy"
-      institution: University of Turin
-      department: ESOMAS — Department of Economics
 
 - title: academic service
   type: time_table
@@ -144,47 +156,34 @@
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE — Department of Economics
-    - title: Exam Proctor at the International SAT Test for University Admissions
-      year: 2024—2026
-      location: "Bologna, Italy"
-      institution: University of Bologna
-      department: in collaboration with College Board (New York)
-
-- title: visiting periods
-  type: time_table
-  contents:
-    - title: Visiting Ph.D. Student
-      year: fall 2024
-      location: "Buones Aires, Argentina"
-      institution: Universidad de San Andrés
-      department: Departamento de Economía
-      supervisor: 'local advisor: <a href="https://www.tommy-e-murphy.com">Tommy E. Murphy</a>'
-    - title: "Visitor Master's Candidate"
-      year: winter 2019
-      location: "Turin, Italy"
-      institution: Regional Public Health Observatory (SEPI)
-      department: Public Health Department (Local Health Board TO3)
-      supervisor: 'local advisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
-
-- title: networking activities
-  type: time_table
-  contents:
-    - title: "Organizer of Department Networking Series"
-      year: 2022—
+    - title: "Organizer of the Department Networking Series"
+      year: "2022–"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Coordination of monthly structured gatherings to facilitate vertical integration between faculty, post-docs, and Ph.D. students. Formalized in the Department’s official event calendar</i></p>'
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE — Department of Economics
-    - title: 'Co-organizer of the "Research in Steps" (RiS) Seminars Series for Ph.D. Students'
-      year: 2022—2023
+    - title: 'Co-organizer of the "Research in Steps" (RiS) Seminar Series for Ph.D. Students'
+      year: "2022–2023"
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE — Department of Economics
     - title: 'Co-founder and Co-organizer of the Reading Group on "Political Economics of Violence and Corruption"'
-      year: 2021—2022
+      year: "2021–2022"
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE — Department of Economics
+
+- title: affiliations
+  type: map
+  contents:
+    - name:
+      value: >
+        <div style="font-size:11pt; display: flex; align-items: flex-start;">
+          <i class="fa-solid fa-id-card-clip fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
+          <div style="line-height: 1.2;">
+            CRENoS <i>Centre for North South Economic Research</i> (2026–), Italian Economic Association (2025–2026), Italian Econometric Association (2023)
+          </div>
+        </div>
 
 - title: software and programming
   type: map_list
@@ -212,16 +211,20 @@
 - title: other experience
   type: time_table
   contents:
+    - title: Exam Proctor at the International SAT Test for University Admissions
+      year: "2024–2026"
+      firm: University of Bologna, in collaboration with College Board (New York)
+      location: "Bologna, Italy"
     - title: In-House and On-Stage Data Gathering Operator
-      year: 2016—2021
+      year: "2016–2021"
       firm: Deltatre
       location: "Turin, Italy"
     - title: Youth Football Coach
-      year: 2014—2016
+      year: "2014–2016"
       soccer: A.P.D. Pecetto
       location: "Pecetto, Italy"
     - title: Youth Football Coach
-      year: 2013—2014
+      year: "2013–2014"
       soccer: C.S.F. Carmagnola
       location: "Carmagnola, Italy"
 

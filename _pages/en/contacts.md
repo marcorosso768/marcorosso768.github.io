@@ -4,7 +4,7 @@ layout: page
 permalink: /contacts/
 lang: en
 title: contacts
-description: <i>Contact information and external profiles are collected here to provide a single point of access to my work and institutional presence. The page includes e-mail addresses and links to relevant platforms.</i>
+description: <i>E-mail addresses at the University of Cagliari and the University of Bologna, together with a personal address. Below, links to my academic profiles and to LinkedIn.</i>
 subtitle: >
   <div class="lang-links">
       <a href="/it/contatti/" hreflang="it">contatti</a>
@@ -15,7 +15,7 @@ subtitle: >
 
 <!-- E-mail Section -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+  <a href="#content-1" onclick="toggleVisibility('content-1'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
       <span>e-mail</span>
@@ -23,11 +23,11 @@ subtitle: >
   </a>
 </div>
 
-<div id="content-1" class="toggle-section expanded">
+<div id="content-1" class="toggle-section expanded contact-list">
 
   <div class="icon-link indented">
-    <i class="fa-regular fa-envelope fa-fw"></i>
-    <a href="mailto:m.rosso@me.com">m.rosso@me.com</a>
+    <i class="fa-solid fa-envelope fa-fw"></i>
+    <a href="mailto:marco.rosso@unica.it">marco.rosso@unica.it</a>
   </div>
 
   <div class="icon-link indented">
@@ -36,15 +36,15 @@ subtitle: >
   </div>
 
   <div class="icon-link indented">
-    <i class="fa-solid fa-envelope fa-fw"></i>
-    <a href="mailto:marco.rosso@unica.it">marco.rosso@unica.it</a>
+    <i class="fa-regular fa-envelope fa-fw"></i>
+    <a href="mailto:m.rosso@me.com">m.rosso@me.com</a>
   </div>
-  
+
 </div>
 
 <!-- Online Resources Section -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
+  <a href="#content-2" onclick="toggleVisibility('content-2'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
       <span>online resources</span>
@@ -52,7 +52,7 @@ subtitle: >
   </a>
 </div>
 
-<div id="content-2" class="toggle-section expanded">
+<div id="content-2" class="toggle-section expanded contact-list">
 
   <div class="icon-link indented">
     <i class="fa-solid fa-building-columns fa-fw"></i>
@@ -83,41 +83,17 @@ subtitle: >
     <i class="fa-brands fa-github fa-fw"></i>
     <a href="https://github.com/marcorosso768" target="_blank" rel="noopener noreferrer">GitHub</a>
   </div>
-  
-</div>
-
-<!-- Social Networks Section -->
-<div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
-    <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-3"></i>
-      <span>social networks</span>
-    </h2>
-  </a>
-</div>
-
-<div id="content-3" class="toggle-section">
 
   <div class="icon-link indented">
     <i class="fa-brands fa-linkedin fa-fw"></i>
     <a href="https://www.linkedin.com/in/marcorosso768" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-  </div>
-
-  <div class="icon-link indented">
-    <i class="fa-brands fa-bluesky fa-fw"></i>
-    <a href="https://bsky.app/profile/marcorosso.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a>
-  </div>
-
-  <div class="icon-link">
-    <i class="fa-brands fa-x-twitter fa-fw"></i>
-    <a href="https://x.com/marcorosso768" target="_blank" rel="noopener noreferrer"><em>R.I.P.</em> Twitter</a>
   </div>
   
 </div>
 
 <!-- Location Section -->
 <!-- <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-4')">
+  <a href="#content-4" onclick="toggleVisibility('content-4'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-4"></i>
       <span>location</span>

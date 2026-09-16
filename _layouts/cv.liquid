@@ -14,7 +14,8 @@ layout: default
             target="_blank"
             rel="noopener noreferrer"
             class="float-right"
-            ><i class="fa-regular fa-file-pdf fa-fw"></i
+            aria-label="{% case site.active_lang %}{% when 'it' %}Curriculum vitae in PDF{% when 'es' %}Currículum vitae en PDF{% else %}Curriculum vitae (PDF){% endcase %}"
+            ><i class="fa-regular fa-file-pdf fa-fw" aria-hidden="true"></i
           ></a>
         {% endif %}
       </h1>
@@ -31,7 +32,7 @@ layout: default
         {% for entry in site.data[site.active_lang].cv %}
           <a class="anchor" id="{{ entry.title }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+            <h2 class="card-title font-weight-medium h3">{{ entry.title }}</h2>
             <div>
               {% if entry.type == 'list' %}
                 {% include cv/list.liquid %}

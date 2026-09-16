@@ -63,9 +63,7 @@ cv:
   username: Username
   volunteer: Volunteer
   work: Work
-footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  Realizzato con <a href="https://jekyllrb.com/" target="_blank" class="no-external"><i>Jekyll</i></a> e i temi <a href="https://github.com/george-gca/multi-language-al-folio" target="_blank" class="no-external"><i>multi-language</i></a> e <a href="https://github.com/alshedivat/al-folio" target="_blank" class="no-external"><i>al-folio</i></a>.
-  Ospitato su <a href="https://pages.github.com/" target="_blank" class="no-external"><i>GitHub Pages</i></a>.
+footer_text: ""
 latest_posts: ultime novità
 months:
   long:
@@ -143,7 +141,7 @@ search:
     title: Use system default theme
   theme: Theme
 selected_publications: selected publications
-site_description: "Sito web personale di Marco Rosso, ricercatore post-doc presso l'Università di Cagliari e professore a contratto presso l'Università di Bologna"
+site_description: "Sito web personale di Marco Rosso, ricercatore post-doc presso l'Università di Cagliari, affiliato anche a CRENoS e all'Università di Bologna"
 abstract:
   label: "Abstract"
   show: "Mostra abstract"

@@ -203,6 +203,12 @@ ul.task-list input[type="checkbox"] {
 .profile {
   width: 50%; //100%;
 
+  // dimensioni reali dichiarate nell'HTML (niente salti di layout), ma la foto riempie il riquadro come prima
+  img {
+    width: 100%;
+    height: auto;
+  }
+
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -547,31 +553,25 @@ body {
 }
 
 footer.sticky-bottom {
-  background-color: var(--global-footer-text-color); // var(--global-footer-bg-color);
+  background-color: var(--global-bg-color);
+  border-top: 1px solid var(--global-theme-color);
   font-size: 0.75rem;
-  border-top: 1px solid var(--global-footer-bg-color); // var(--global-divider-color);
-  padding-top: 2px;
-  padding-bottom: 2px;
-  width: 100%; /* Ensure the footer takes the full width of the page */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
   text-align: center;
 
-  //border-top: 1px solid var(--global-divider-color);
-  //padding-top: 40px;
-  //padding-bottom: 40px;
-  //font-size: 0.9rem;
-
   .container {
-    color: var(--global-footer-bg-color); // var(--global-footer-text-color);
-    padding-top: 2px; //9px
-    padding-bottom: 2px; //8px
+    color: var(--global-text-color);
+    opacity: 0.7;
     text-align: center;
   }
 
   a {
-    color: var(--global-footer-bg-color); // var(--global-footer-link-color);
+    color: inherit;
 
     &:hover {
-      color: var(--global-footer-bg-color); // var(--global-theme-color);
+      color: var(--global-theme-color);
       text-decoration: none;
     }
   }
@@ -1537,4 +1537,42 @@ ninja-keys::part(ninja-input-wrapper) {
   font-weight: bolder !important;
   text-decoration: none !important;
   background-color: var(--global-bg-color) !important;
+}
+
+/*****************************************************************************
+* Accessibilità
+*****************************************************************************/
+
+// link "salta al contenuto", visibile solo quando riceve il focus da tastiera
+.skip-link {
+  position: absolute;
+  left: 0.5rem;
+  top: -3rem;
+  z-index: 2000;
+  padding: 0.4rem 0.8rem;
+  background: var(--global-bg-color);
+  color: var(--global-theme-color);
+  border: 1px solid var(--global-theme-color);
+  border-radius: 4px;
+  text-decoration: none;
+
+  &:focus {
+    top: 0.5rem;
+  }
+}
+
+main#main-content:focus {
+  outline: none;
+}
+
+// link nel contenuto: sottolineatura sottile sempre visibile, dello stesso colore del testo del link,
+// così non dipendono solo dal colore. Esclusi pulsanti, menu, titoli delle tendine e link fatti solo di icona o immagine
+main#main-content
+  a[href]:not(.btn):not(.pill-link):not(.toggle-pill):not(.news-effect):not(.nav-link):not(.dropdown-item):not(.embed-facade__button):not(
+    .float-right
+  ):not(:has(h1, h2, h3, h4, h5, h6, img)):not(:has(> i:only-child:empty)) {
+  text-decoration-line: underline !important;
+  text-decoration-thickness: 1px !important;
+  text-underline-offset: 0.18em;
+  text-decoration-color: currentColor !important;
 }

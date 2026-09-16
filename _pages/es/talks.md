@@ -16,7 +16,7 @@ nav_order: 2
 
 <!-- PONENCIAS INVITADAS -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+  <a href="#content-1" onclick="toggleVisibility('content-1'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
       <span>invitaciones</span>
@@ -79,7 +79,7 @@ nav_order: 2
 
 <!-- CONGRESOS Y SEMINARIOS -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
+  <a href="#content-2" onclick="toggleVisibility('content-2'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
       <span>congresos y seminarios</span>
@@ -260,7 +260,7 @@ nav_order: 2
 
 <!-- PRESENTACIONES DE LIBROS Y OTROS EVENTOS -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
+  <a href="#content-3" onclick="toggleVisibility('content-3'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-3"></i>
       <span>presentaciones de libros y otros eventos</span>

@@ -15,7 +15,7 @@ subtitle: >
 
 <!-- E-mail Section -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-1')">
+  <a href="#content-1" onclick="toggleVisibility('content-1'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
       <span>correo electrónico</span>
@@ -44,7 +44,7 @@ subtitle: >
 
 <!-- Online Resources Section -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-2')">
+  <a href="#content-2" onclick="toggleVisibility('content-2'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
       <span>recursos en línea</span>
@@ -88,7 +88,7 @@ subtitle: >
 
 <!-- Social Networks Section -->
 <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-3')">
+  <a href="#content-3" onclick="toggleVisibility('content-3'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-3"></i>
       <span>redes sociales</span>
@@ -117,7 +117,7 @@ subtitle: >
 
 <!-- Location Section -->
 <!-- <div class="projects">
-  <a href="javascript:void(0);" onclick="toggleVisibility('content-4')">
+  <a href="#content-4" onclick="toggleVisibility('content-4'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-4"></i>
       <span>ubicación</span>

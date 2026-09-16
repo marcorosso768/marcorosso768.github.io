@@ -8,7 +8,7 @@ subtitle: >
       <span class="separator">|</span>
       <a href="/es/novedades/" hreflang="es">novedades</a>
   </div>
-description: <i>Short updates on academic activities—such as talks, conferences, publications, and milestones—are posted here as a running record. Items are intentionally brief and, when relevant, link to external posts, media, or materials for further details.</i>
+description: <i>Short updates on papers, talks, positions, and other milestones, in reverse chronological order. Linked social media posts can be shown on demand, so the page loads without external content.</i>
 permalink: /news/
 ---
 
