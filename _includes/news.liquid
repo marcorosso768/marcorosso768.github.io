@@ -22,7 +22,7 @@
             <td>
               {% if item.inline %}
                 {% if include.limit %}
-                  {% assign news_body = item.content | split: '<div class="mt-3"' | first %}
+                  {% assign news_body = item.content | split: '<div class="mt-3' | first %}
                 {% else %}
                   {% assign news_body = item.content %}
                 {% endif %}
@@ -39,3 +39,20 @@
     <p>{{ site.data[site.active_lang].strings.no_news }}</p>
   {% endif %}
 </div>
+{% unless include.limit %}
+  <script>
+    document.addEventListener('click', function (e) {
+      const button = e.target.closest('.embed-facade__button');
+      if (!button) return;
+      const box = button.closest('.embed-facade');
+      const iframe = document.createElement('iframe');
+      iframe.src = box.dataset.src;
+      iframe.height = box.dataset.height;
+      iframe.width = '504';
+      iframe.setAttribute('frameborder', '0');
+      iframe.setAttribute('allowfullscreen', '');
+      iframe.title = 'Embedded post';
+      box.replaceChildren(iframe);
+    });
+  </script>
+{% endunless %}

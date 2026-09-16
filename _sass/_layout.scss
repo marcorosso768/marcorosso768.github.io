@@ -421,8 +421,12 @@ $gap-vertical: 0.25em; // spazio tra le due righe
     line-height: 1.2;
 
     &::before {
-      content: "\f15c"; // file-lines
+      content: "\f1ea"; // newspaper, as in working papers
       margin-left: 2px;
+    }
+
+    & .seminar-entry__paper-text {
+      opacity: 0.8;
     }
   }
 
@@ -1229,3 +1233,27 @@ $gap-vertical: 0.25em; // spazio tra le due righe
     }
   } // ← chiude &__row--title
 } // ← chiude .thesis-entry
+
+/*****************************************************************************
+* News: click-to-load social embeds
+*****************************************************************************/
+
+.embed-facade {
+  display: flex;
+  justify-content: center;
+
+  &__button {
+    background: none;
+    border: 1px solid var(--global-theme-color);
+    border-radius: 4px;
+    color: var(--global-theme-color);
+    font-size: 0.85em;
+    padding: 0.2rem 0.6rem;
+    cursor: pointer;
+
+    &:hover {
+      background: var(--global-theme-color);
+      color: var(--global-hover-text-color);
+    }
+  }
+}
