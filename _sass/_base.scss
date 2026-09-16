@@ -1559,21 +1559,14 @@ main#main-content:focus {
   outline: none;
 }
 
-// link dentro il testo: sottolineatura leggera anche a riposo, così non dipendono solo dal colore
-.post article p a,
-.post article li a,
-.teaching-entry__content a,
-.teaching-entry__course-text a,
-.news td a {
-  &:not(.btn):not(.pill-link):not(.icon-link):not(.nav-link) {
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.18em;
-    text-decoration-color: color-mix(in srgb, var(--global-theme-color) 45%, transparent);
-  }
-
-  &:not(.btn):not(.pill-link):not(.icon-link):not(.nav-link):hover,
-  &:not(.btn):not(.pill-link):not(.icon-link):not(.nav-link):focus {
-    text-decoration-color: var(--global-theme-color);
-  }
+// link nel contenuto: sottolineatura sottile sempre visibile, dello stesso colore del testo del link,
+// così non dipendono solo dal colore. Esclusi pulsanti, menu, titoli delle tendine e link fatti solo di icona o immagine
+main#main-content
+  a[href]:not(.btn):not(.pill-link):not(.toggle-pill):not(.nav-link):not(.dropdown-item):not(.embed-facade__button):not(.float-right):not(
+    :has(h1, h2, h3, h4, h5, h6, img)
+  ):not(:has(> i:only-child:empty)) {
+  text-decoration-line: underline !important;
+  text-decoration-thickness: 1px !important;
+  text-underline-offset: 0.18em;
+  text-decoration-color: currentColor !important;
 }
