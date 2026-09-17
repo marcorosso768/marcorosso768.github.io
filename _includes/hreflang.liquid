@@ -21,12 +21,12 @@
     {%- assign en_path = site.data.url_map.en[current_path] -%}
   {%- endif -%}
   {%- if en_path and site.data.url_map.it[en_path] -%}
-    <link rel="alternate" hreflang="en" {% static_href %}href="{{ site.url }}{{ en_path }}"{% endstatic_href %}>
+    <link rel="alternate" {% static_href %}href="{{ site.url }}{{ en_path }}"{% endstatic_href %} hreflang="en">
     {%- for l in site.languages -%}
       {%- if l != site.default_lang and site.data.url_map[l][en_path] %}
-    <link rel="alternate" hreflang="{{ l }}" {% static_href %}href="{{ site.url }}{{ site.data.url_map[l][en_path] }}"{% endstatic_href %}>
+    <link rel="alternate" {% static_href %}href="{{ site.url }}{{ site.data.url_map[l][en_path] }}"{% endstatic_href %} hreflang="{{ l }}">
       {%- endif -%}
     {%- endfor %}
-    <link rel="alternate" hreflang="x-default" {% static_href %}href="{{ site.url }}{{ en_path }}"{% endstatic_href %}>
+    <link rel="alternate" {% static_href %}href="{{ site.url }}{{ en_path }}"{% endstatic_href %} hreflang="x-default">
   {%- endif -%}
 {%- endunless -%}
