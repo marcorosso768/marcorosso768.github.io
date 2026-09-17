@@ -1,7 +1,9 @@
 ---
 permalink: /robots.txt
+sitemap: false
+hreflang: false
 ---
 User-agent: *
-Disallow:
+Allow: /
 
 Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
