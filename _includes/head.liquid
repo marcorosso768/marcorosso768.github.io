@@ -26,6 +26,10 @@
   >
 {% endif %}
 
+<!-- Preload dei font delle icone della barra di navigazione (evita che compaiano in ritardo) -->
+<link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/webfonts/fa-solid-900.woff2' | relative_url }}">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/fonts/tabler-icons.woff2' | relative_url }}?v3.0.1">
+
 <!-- Fonts & Icons -->
 <!-- caricati senza bloccare la prima visualizzazione: le icone accademiche e il font compaiono appena pronti -->
 <link
