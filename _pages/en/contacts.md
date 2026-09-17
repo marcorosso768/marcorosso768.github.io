@@ -49,13 +49,13 @@ description: <i>E-mail addresses at the University of Cagliari and the Universit
 <div id="content-2" class="toggle-section expanded contact-list">
 
   <div class="icon-link indented">
-    <i class="fa-solid fa-building-columns fa-fw"></i>
-    <a href="https://www.unibo.it/sitoweb/marco.rosso4/en" target="_blank" rel="noopener noreferrer">personal page on UniBo website</a>
+    <i class="fa-solid fa-school fa-fw"></i>
+    <a href="https://crenos.unica.it/index.php/marco-rosso" target="_blank" rel="noopener noreferrer">personal page on CRENoS</a>
   </div>
 
   <div class="icon-link indented">
-    <i class="fa-solid fa-school fa-fw"></i>
-    <a href="https://crenos.unica.it/index.php/marco-rosso" target="_blank" rel="noopener noreferrer">personal page on CRENoS website</a>
+    <i class="fa-solid fa-building-columns fa-fw"></i>
+    <a href="https://www.unibo.it/sitoweb/marco.rosso4/en" target="_blank" rel="noopener noreferrer">personal page on UniBo</a>
   </div>
 
   <div class="icon-link indented">
