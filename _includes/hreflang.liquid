@@ -1,7 +1,7 @@
 {%- comment -%}
   Tag hreflang: collegano per Google le versioni en/it/es della stessa pagina, usando _data/url_map.yml
   (la stessa tabella del menu lingue). static_href evita che jekyll-polyglot aggiunga il prefisso di lingua ai link.
-  Una pagina senza traduzione vera (es. Python for Economists) si esclude con "hreflang: false" nel front matter.
+  Una pagina senza traduzione vera (pagine create solo in inglese) si esclude con "hreflang: false" nel front matter.
 {%- endcomment -%}
 {%- unless page.hreflang == false -%}
   {%- assign page_url = page.url | url_decode -%}

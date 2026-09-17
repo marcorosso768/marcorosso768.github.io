@@ -1,12 +1,12 @@
 ---
 page_id: python_for_economists
 layout: page
-permalink: /teaching/python_for_economists/
-title: python for economists
-description: "<i>Materials for Python for Economists (master's and Ph.D. programs, University of Bologna): Jupyter notebooks organized in three blocks, from data handling to web scraping and text analysis, viewable online or downloadable.</i>"
+permalink: /didattica/python_per_economisti/
+title: python per economisti
+description: "<i>Materiali per Python for Economists (lauree magistrali e dottorati, Università di Bologna): notebook Jupyter organizzati in tre blocchi, dalla gestione dei dati al web scraping e all'analisi testuale, consultabili online o scaricabili. I materiali sono in inglese.</i>"
 subtitle: >
   <div class="lang-links">
-      <a href="/teaching/">back to teaching</a>
+      <a href="/it/didattica/" hreflang="it">torna alla didattica</a>
   </div>
 nav: false
 ---
