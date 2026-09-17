@@ -3,10 +3,10 @@
 // prima che il browser le legga, quindi funziona anche su Safari. Il cambio "al volo" dal pulsante
 // funziona su Chrome, Edge e Firefox; Safari lo applica al caricamento della pagina successiva.
 (function () {
-  var base = "/assets/img/favicons/v2/";
+  var base = "/assets/img/favicons/v3/";
   var files = {
-    light: { svg: "favicon-light.svg", png: "favicon-96x96.png", ico: "favicon.ico", apple: "apple-touch-icon.png" },
-    dark: { svg: "favicon-dark.svg", png: "favicon-96x96-dark.png", ico: "favicon-dark.ico", apple: "apple-touch-icon-dark.png" },
+    light: { dir: "favicon_light/" },
+    dark: { dir: "favicon_dark/" },
   };
   var current = null;
 
@@ -20,14 +20,15 @@
       var kind = old.getAttribute("data-favicon");
       var link = old.cloneNode(false);
       link.removeAttribute("media");
-      if (kind === "svg") link.href = base + f.svg;
-      else if (kind === "apple") link.href = base + f.apple;
-      else if (kind === "ico") link.href = (theme === "dark" ? base : "/") + f.ico;
+      var dir = base + f.dir;
+      if (kind === "svg") link.href = dir + "favicon.svg";
+      else if (kind === "apple") link.href = dir + "apple-touch-icon.png";
+      else if (kind === "ico") link.href = theme === "dark" ? dir + "favicon.ico" : "/favicon.ico";
       else if (kind === "png-dark") {
         // la variante legata al tema di sistema non serve più: resta una sola PNG
         old.parentNode.removeChild(old);
         return;
-      } else link.href = base + f.png;
+      } else link.href = dir + "favicon-96x96.png";
       // sostituire l'elemento (non solo l'href) fa aggiornare l'icona nei browser che la memorizzano
       old.parentNode.removeChild(old);
       head.appendChild(link);
