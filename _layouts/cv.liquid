@@ -30,7 +30,7 @@ layout: default
     <article>
       <div class="cv">
         {% for entry in site.data[site.active_lang].cv %}
-          <a class="anchor" id="{{ entry.title }}"></a>
+          <a class="anchor" id="{{ entry.title | slugify }}"></a>
           <div class="card mt-3 p-3">
             <h2 class="card-title font-weight-medium h3">{{ entry.title }}</h2>
             <div>
@@ -90,7 +90,7 @@ layout: default
           {% endif %}
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
           {% assign localized_title = data[0] %}
-          <a class="anchor" id="{{ site.data[site.active_lang].strings.cv[localized_title] }}"></a>
+          <a class="anchor" id="{{ site.data[site.active_lang].strings.cv[localized_title] | slugify }}"></a>
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">{{ site.data[site.active_lang].strings.cv[localized_title] }}</h3>
             <div>
