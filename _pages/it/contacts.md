@@ -75,6 +75,11 @@ subtitle: >
   </div>
 
   <div class="icon-link indented">
+    <i class="ai ai-ideas-repec fa-fw"></i>
+    <a href="https://ideas.repec.org/f/pro1382.html" target="_blank" rel="noopener noreferrer">IDEAS/RePEc</a>
+  </div>
+
+  <div class="icon-link indented">
     <i class="ai ai-researchgate fa-fw"></i>
     <a href="https://www.researchgate.net/profile/Marco-Rosso-2" target="_blank" rel="noopener noreferrer">ResearchGate</a>
   </div>
