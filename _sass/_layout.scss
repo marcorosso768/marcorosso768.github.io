@@ -997,6 +997,12 @@ $gap-vertical: 0.25em; // spazio tra le due righe
   }
 }
 
+// colore anche sull'etichetta: Safari applica ai link già visitati il colore ereditato,
+// uno span con colore proprio resta sabbia in ogni caso
+.folder-link .folder-label {
+  color: var(--global-theme-color);
+}
+
 .folder-link .fa-folder-open {
   display: none;
 }
