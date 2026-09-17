@@ -31,13 +31,13 @@
 - title: formazione
   type: time_table
   contents:
-    - title: Dottorato di Ricerca in Economia
+    - title: Dottorato in Economia
       year: "2026"
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
       location: "Bologna, Italia"
       supervisor: 'supervisor: <a href="https://sites.google.com/site/paolovanin/">Paolo Vanin</a>'
-    - title: Master di II livello in Economia
+    - title: Master di Secondo Livello in Economia
       year: "2020"
       location: "Torino, Italia"
       institution: Collegio Carlo Alberto
@@ -87,7 +87,7 @@
       year: "gen–mar 2019"
       location: "Torino, Italia"
       institution: Servizio Sovrazonale di Epidemiologia (SEPI)
-      department: Dipartimento di Sanità Pubblica (ASL TO3)
+      department: Dipartimento di Sanità Pubblica (Azienda Sanitaria Locale TO3)
       supervisor: 'supervisor locale: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
 
 - title: esperienze di ricerca
@@ -167,7 +167,7 @@
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
-    - title: 'Co-fondatore e co-organizzatore del gruppo di lettura "Political Economics of Violence and Corruption"'
+    - title: 'Co-fondatore e co-organizzatore del reading group "Political Economics of Violence and Corruption"'
       year: "2021–2022"
       location: "Bologna, Italia"
       institution: Università di Bologna
@@ -188,11 +188,11 @@
 - title: competenze informatiche
   type: map_list
   contents:
-    - name: "Programmazione"
+    - name: "Programmi"
       value: Stata, Python, R, MATLAB
-    - name: "Dati e sondaggi"
+    - name: "Raccolta dati"
       value: SQL (BigQuery), QGIS, Qualtrics, HTML/CSS
-    - name: "Composizione tipografica"
+    - name: "Scrittura"
       value: LaTeX
 
 - title: lingue

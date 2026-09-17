@@ -26,7 +26,7 @@ nav_order: 2
  <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
-          PRIN Workshop su Economia Politica —
+          Workshop PRIN di Economia Politica —
           <span class="highlight"><i>Relatore</i></span>
       </div>
    </div>
@@ -46,7 +46,7 @@ nav_order: 2
   <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
-          PRIN Workshop su Economia della Cultura: Etnia, Genere e le loro Interazioni —
+          Workshop PRIN sull’Economia della Cultura: Etnia, Genere e le loro Interazioni —
           <span class="highlight"><i>Relatore</i></span>
       </div>
    </div>
