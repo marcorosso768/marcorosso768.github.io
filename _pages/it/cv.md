@@ -4,12 +4,6 @@ layout: cv
 permalink: /curriculum_vitae/
 title: curriculum vitae
 nav_title: cv
-subtitle: >
-  <div class="lang-links">
-      <a href="#" onclick="window.location.href='https://marcorosso.com/curriculum_vitae/'; return false;">English</a>
-      <span class="separator">|</span>
-      <a href="/es/curriculum_vitae/" hreflang="es">español</a>
-  </div>
 nav: true
 nav_order: 5
 cv_pdf: /[Marco Rosso] Curriculum Vitae_it.pdf

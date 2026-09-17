@@ -4,12 +4,6 @@ layout: cv
 permalink: /curriculum_vitae/
 title: curriculum vitae
 nav_title: cv
-subtitle: >
-  <div class="lang-links">
-      <a href="/it/curriculum_vitae/" hreflang="it">italiano</a>
-      <span class="separator">|</span>
-      <a href="/es/curriculum_vitae/" hreflang="es">español</a>
-  </div>
 nav: true
 nav_order: 5
 cv_pdf: /curriculum_vitae_en.pdf

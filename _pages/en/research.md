@@ -4,12 +4,6 @@ layout: page
 permalink: /research/
 title: research
 description: <i>My research develops new theoretical models of incentives, information frictions, and selection, and brings their implications to the data. Empirically, I build reproducible pipelines that combine administrative records, web scraping and text analysis, and geocoding to study political participation, crime, and labor markets.</i>
-subtitle: >
-  <div class="lang-links">
-      <a href="/it/ricerca/" hreflang="it">ricerca</a>
-      <span class="separator">|</span>
-      <a href="/es/investigación/" hreflang="es">investigación</a>
-  </div>
 nav: true
 nav_order: 1
 ---

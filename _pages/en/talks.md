@@ -3,12 +3,6 @@ page_id: talks
 layout: page
 permalink: /talks/
 title: talks
-subtitle: >
-  <div class="lang-links">
-      <a href="/it/presentazioni/" hreflang="it">presentazioni</a>
-      <span class="separator">|</span>
-      <a href="/es/presentaciones/" hreflang="es">presentaciones</a>
-  </div>
 description: <i>Invited talks, conference presentations, and workshops where I have presented my work, each listed with the paper presented. Upcoming events are marked as such, and other academic events are listed separately.</i>
 nav: true
 nav_order: 2

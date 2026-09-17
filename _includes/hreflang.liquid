@@ -1,0 +1,32 @@
+{%- comment -%}
+  Tag hreflang: collegano per Google le versioni en/it/es della stessa pagina, usando _data/url_map.yml
+  (la stessa tabella del menu lingue). static_href evita che jekyll-polyglot aggiunga il prefisso di lingua ai link.
+  Una pagina senza traduzione vera (es. Python for Economists) si esclude con "hreflang: false" nel front matter.
+{%- endcomment -%}
+{%- unless page.hreflang == false -%}
+  {%- assign page_url = page.url | url_decode -%}
+  {%- assign lang_prefix = '/' | append: site.active_lang | append: '/' -%}
+  {%- if site.active_lang == site.default_lang -%}
+    {%- assign current_path = page_url -%}
+  {%- elsif page_url == '/' -%}
+    {%- assign current_path = lang_prefix -%}
+  {%- elsif page_url contains lang_prefix -%}
+    {%- assign current_path = page_url -%}
+  {%- else -%}
+    {%- assign current_path = '/' | append: site.active_lang | append: page_url -%}
+  {%- endif -%}
+  {%- if site.active_lang == site.default_lang -%}
+    {%- assign en_path = current_path -%}
+  {%- else -%}
+    {%- assign en_path = site.data.url_map.en[current_path] -%}
+  {%- endif -%}
+  {%- if en_path and site.data.url_map.it[en_path] -%}
+    <link rel="alternate" hreflang="en" {% static_href %}href="{{ site.url }}{{ en_path }}"{% endstatic_href %}>
+    {%- for l in site.languages -%}
+      {%- if l != site.default_lang and site.data.url_map[l][en_path] %}
+    <link rel="alternate" hreflang="{{ l }}" {% static_href %}href="{{ site.url }}{{ site.data.url_map[l][en_path] }}"{% endstatic_href %}>
+      {%- endif -%}
+    {%- endfor %}
+    <link rel="alternate" hreflang="x-default" {% static_href %}href="{{ site.url }}{{ en_path }}"{% endstatic_href %}>
+  {%- endif -%}
+{%- endunless -%}

@@ -3,12 +3,6 @@ page_id: profiles
 layout: profiles
 permalink: /references/
 title: references
-subtitle: >
-  <div class="lang-links">
-      <a href="/it/referenze/" hreflang="it">referenze</a>
-      <span class="separator">|</span>
-      <a href="/es/referencias/" hreflang="es">referencias</a>
-  </div>
 description: <i>Referees available to write letters of recommendation, with their positions, research areas, and contact details. Each profile also indicates the context in which we have worked together.</i>
 nav: false
 nav_order:

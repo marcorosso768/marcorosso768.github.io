@@ -10,8 +10,9 @@ en:
   "/it/contatti/": "/contacts/"
   "/it/supervisione/": "/supervision/"
   # teaching materials
-  "/it//didattica/econometria/": "/teaching/econometrics/"
-  "/it//didattica/microeconomia/": "/teaching/microeconomics/"
+  "/it/didattica/econometria/": "/teaching/econometrics/"
+  "/it/didattica/microeconomia/": "/teaching/microeconomics/"
+  "/it/teaching/python_for_economists/": "/teaching/python_for_economists/"
   # Spanish to English mappings
   "/es/": "/"
   "/es/curriculum_vitae/": "/curriculum_vitae/"
@@ -25,6 +26,7 @@ en:
   # teaching materials
   "/es/docencia/econometría/": "/teaching/econometrics/"
   "/es/docencia/microeconomía/": "/teaching/microeconomics/"
+  "/es/teaching/python_for_economists/": "/teaching/python_for_economists/"
 
 it:
   # English to Italian mappings
@@ -40,6 +42,7 @@ it:
   # teaching materials
   "/teaching/econometrics/": "/it/didattica/econometria/"
   "/teaching/microeconomics/": "/it/didattica/microeconomia/"
+  "/teaching/python_for_economists/": "/it/teaching/python_for_economists/"
   # Spanish to Italian mappings
   "/es/": "/it/"
   "/es/curriculum_vitae/": "/it/curriculum_vitae/"
@@ -53,6 +56,7 @@ it:
   # teaching materials
   "/es/docencia/econometría/": "/it/didattica/econometria/"
   "/es/docencia/microeconomía/": "/it/didattica/microeconomia/"
+  "/es/teaching/python_for_economists/": "/it/teaching/python_for_economists/"
 
 es:
   # English to Spanish mappings
@@ -68,6 +72,7 @@ es:
   # teaching materials
   "/teaching/econometrics/": "/es/docencia/econometría/"
   "/teaching/microeconomics/": "/es/docencia/microeconomía/"
+  "/teaching/python_for_economists/": "/es/teaching/python_for_economists/"
   # Italian to Spanish mappings
   "/it/": "/es/"
   "/it/curriculum_vitae/": "/es/curriculum_vitae/"
@@ -81,3 +86,4 @@ es:
   # teaching materials
   "/it/didattica/econometria/": "/es/docencia/econometría/"
   "/it/didattica/microeconomia/": "/es/docencia/microeconomía/"
+  "/it/teaching/python_for_economists/": "/es/teaching/python_for_economists/"

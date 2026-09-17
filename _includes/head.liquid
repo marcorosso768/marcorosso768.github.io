@@ -102,6 +102,7 @@
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
 <!-- Language -->
+{% include hreflang.liquid %}
 <script id="urlMapData" type="application/json">
   {{ site.data.url_map | jsonify }}
 </script>

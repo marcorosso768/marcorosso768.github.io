@@ -5,12 +5,6 @@ permalink: /contacts/
 lang: en
 title: contacts
 description: <i>E-mail addresses at the University of Cagliari and the University of Bologna, together with a personal address. Below, links to my academic profiles and to LinkedIn.</i>
-subtitle: >
-  <div class="lang-links">
-      <a href="/it/contatti/" hreflang="it">contatti</a>
-      <span class="separator">|</span>
-      <a href="/es/contactos/" hreflang="es">contactos</a>
-  </div>
 ---
 
 <!-- E-mail Section -->

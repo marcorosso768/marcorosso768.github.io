@@ -9,6 +9,7 @@ subtitle: >
       <a href="/teaching/">back to teaching</a>
   </div>
 nav: false
+hreflang: false # nessuna traduzione vera: le versioni it/es sono copie in inglese
 ---
 
 <!-- Notebook -->

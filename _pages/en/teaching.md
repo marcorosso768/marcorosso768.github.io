@@ -4,12 +4,6 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: <i>I teach econometrics, microeconomics, and empirical methods at the bachelor's, master's, and Ph.D. level, and assist in courses in economic policy, political economy, and behavioral economics. Materials for the courses I teach, including slides, notes, notebooks, and do-files, are linked from each course.</i>
-subtitle: >
-  <div class="lang-links">
-      <a href="/it/didattica/" hreflang="it">didattica</a>
-      <span class="separator">|</span>
-      <a href="/es/docencia/" hreflang="es">docencia</a>
-  </div>
 nav: true
 nav_order: 3
 ---

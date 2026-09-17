@@ -4,12 +4,6 @@ layout: page
 permalink: /ricerca/
 title: ricerca
 description: <i>Il mio programma di ricerca sviluppa quadri teorici rigorosi e verificabili — fondati su incentivi, frizioni informative e selezione — al fine di chiarire i meccanismi prima di analizzarne le implicazioni empiriche. Sul piano empirico, utilizzo pipeline riproducibili end-to-end che combinano web scraping e analisi del linguaggio naturale (NLP) con geocodifica e costruzione di dati panel. Il mio flusso di lavoro si basa prevalentemente su Python, Stata e strumenti spaziali quali QGIS (e, quando opportuno, R).</i>
-subtitle: >
-  <div class="lang-links">
-      <a href="#" onclick="window.location.href='https://marcorosso.com/research/'; return false;">research</a>
-      <span class="separator">|</span>
-      <a href="/es/investigación/" hreflang="es">investigación</a>
-  </div>
 nav: true
 nav_order: 1
 ---
