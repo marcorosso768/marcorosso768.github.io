@@ -370,7 +370,7 @@ nav_order: 3
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2023/422038'>Globalization: Trade, Migrations and Multinationals</a> with <a href='https://www.unibo.it/sitoweb/giovanni.prarolo/en'>Giovanni Prarolo</a> and <a href='https://www.unibo.it/sitoweb/rohit.ticku/en'>Rohit Ticku</a> <span style="font-size: x-small; white-space: nowrap;">(2023/24)</span>
+        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2023/422038'>Globalization: Trade, Migrations and Multinationals</a> with <a href='https://www.unibo.it/sitoweb/giovanni.prarolo/en'>Giovanni Prarolo</a>
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
