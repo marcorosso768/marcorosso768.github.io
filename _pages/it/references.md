@@ -4,6 +4,7 @@ layout: profiles
 permalink: /referenze/
 title: referenze
 description: <i>Referenti disponibili a scrivere lettere di raccomandazione, con posizione, aree di ricerca e contatti. Ogni profilo indica anche il contesto in cui abbiamo lavorato insieme.</i>
+meta_description: "Referenti disponibili a scrivere lettere di raccomandazione, con posizione, aree di ricerca e contatti."
 nav: false
 nav_order:
 

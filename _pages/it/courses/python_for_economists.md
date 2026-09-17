@@ -4,6 +4,7 @@ layout: page
 permalink: /didattica/python_per_economisti/
 title: python per economisti
 description: "<i>Materiali per Python for Economists (lauree magistrali e dottorati, Università di Bologna): notebook Jupyter organizzati in tre blocchi, dalla gestione dei dati al web scraping e all'analisi testuale, consultabili online o scaricabili. I materiali sono in inglese.</i>"
+meta_description: "Materiali di Python for Economists (Università di Bologna): notebook Jupyter su gestione dei dati, web scraping e analisi testuale."
 subtitle: >
   <div class="lang-links">
       <a href="/it/didattica/" hreflang="it">torna alla didattica</a>

@@ -5,6 +5,7 @@ permalink: /contatti/
 lang: it
 title: contatti
 description: <i>Indirizzi e-mail presso l’Università di Cagliari e l’Università di Bologna, insieme a un indirizzo personale. Di seguito, i link ai miei profili accademici e a LinkedIn.</i>
+meta_description: "Indirizzi e-mail all'Università di Cagliari e all'Università di Bologna, con i link ai profili accademici e a LinkedIn."
 ---
 
 <!-- E-mail Section -->

@@ -5,6 +5,7 @@ permalink: /contacts/
 lang: en
 title: contacts
 description: <i>E-mail addresses at the University of Cagliari and the University of Bologna, together with a personal address. Below, links to my academic profiles and to LinkedIn.</i>
+meta_description: "E-mail addresses at the University of Cagliari and the University of Bologna, plus links to my academic profiles and LinkedIn."
 ---
 
 <!-- E-mail Section -->

@@ -56,7 +56,9 @@
   {% endfor %}
   {% assign page_title = title_array | join: ' ' %}
 {% endif %}
-{% if page.description %}
+{% if page.meta_description %}
+  {% assign description = page.meta_description %}
+{% elsif page.description %}
   {% assign description = page.description %}
 {% else %}
   {% assign description = site.data[site.active_lang].strings.site_description %}
