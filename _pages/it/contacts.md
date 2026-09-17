@@ -51,12 +51,12 @@ meta_description: "Indirizzi e-mail all'Universit√† di Cagliari e all'Universit√
 
   <div class="icon-link indented">
     <i class="fa-solid fa-school fa-fw"></i>
-    <a href="https://crenos.unica.it/index.php/marco-rosso" target="_blank" rel="noopener noreferrer">pagina personale sul sito del CRENoS</a>
+    <a href="https://crenos.unica.it/index.php/marco-rosso" target="_blank" rel="noopener noreferrer">pagina personale su CRENoS</a>
   </div>
 
   <div class="icon-link indented">
     <i class="fa-solid fa-building-columns fa-fw"></i>
-    <a href="https://www.unibo.it/sitoweb/marco.rosso4/" target="_blank" rel="noopener noreferrer">pagina personale sul sito di UniBo</a>
+    <a href="https://www.unibo.it/sitoweb/marco.rosso4/" target="_blank" rel="noopener noreferrer">pagina personale su UniBo</a>
   </div>
 
   <div class="icon-link indented">
