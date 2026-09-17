@@ -102,7 +102,7 @@
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
   <meta property="og:description" content="{{ site.data[site.active_lang].strings.site_description }}">
   <!-- Fixed OpenGraph image for all languages -->
-  <meta property="og:image" content="{{ site.url }}/assets/img/og_image/MR.png">
+  <meta property="og:image" content="{{ site.url }}/assets/img/og_image/MR.png?v=2">
   {% case site.active_lang -%}
     {%- when 'it' -%}
       {%- assign og_locale = 'it_IT' -%}
@@ -117,7 +117,7 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
   <meta name="twitter:description" content="{{ site.data[site.active_lang].strings.site_description }}">
-  <meta name="twitter:image" content="{{ site.url }}/assets/img/og_image/MR.png">
+  <meta name="twitter:image" content="{{ site.url }}/assets/img/og_image/MR.png?v=2">
   {% if site.x_username %}
     <meta name="twitter:site" content="@{{ site.x_username }}">
     <meta name="twitter:creator" content="@{{ site.x_username }}">
