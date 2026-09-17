@@ -1583,7 +1583,7 @@ main#main-content a[href]:has(> i:empty) {
   text-decoration-line: none !important;
 }
 
-main#main-content a[href]:has(> i:empty) > span {
+main#main-content a[href]:not(.pill-link):not(.btn):has(> i:empty) > span {
   text-decoration-line: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.18em;
