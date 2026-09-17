@@ -21,5 +21,5 @@
 
 <div class="icon-link indented">
   <i class="fa-solid fa-globe fa-fw"></i>
-  <a href="https://sites.google.com/site/fabiocerina/">personal website</a>
+  <a href="https://sites.google.com/site/fabiocerina/">website</a>
 </div>

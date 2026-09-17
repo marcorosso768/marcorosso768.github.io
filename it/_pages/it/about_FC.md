@@ -16,10 +16,10 @@
 
 <div class="icon-link indented">
   <i class="fa-solid fa-building-columns fa-fw"></i>
-  <a href="https://web.unica.it/unica/page/it/fabio_cerina">pagina personale sul sito di UniCA</a>
+  <a href="https://web.unica.it/unica/page/it/fabio_cerina">pagina personale su UniCA</a>
 </div>
 
 <div class="icon-link indented">
   <i class="fa-solid fa-globe fa-fw"></i>
-  <a href="https://sites.google.com/site/fabiocerina/">sito web personale</a>
+  <a href="https://sites.google.com/site/fabiocerina/">sito web</a>
 </div>
