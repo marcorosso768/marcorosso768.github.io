@@ -16,7 +16,7 @@
 
 <div class="icon-link indented">
   <i class="fa-solid fa-building-columns fa-fw"></i>
-  <a href="https://web.unica.it/unica/page/en/fabio_cerina">personal page on UniCA website</a>
+  <a href="https://web.unica.it/unica/page/en/fabio_cerina">personal page on UniCA</a>
 </div>
 
 <div class="icon-link indented">
