@@ -1570,19 +1570,20 @@ main#main-content:focus {
 main#main-content
   a[href]:not(.btn):not(.pill-link):not(.toggle-pill):not(.news-effect):not(.nav-link):not(.dropdown-item):not(.embed-facade__button):not(
     .float-right
-  ):not(:has(h1, h2, h3, h4, h5, h6, img)):not(:has(> i)) {
+  ):not(:has(h1, h2, h3, h4, h5, h6, img)):not(:has(> i:empty)) {
   text-decoration-line: underline !important;
   text-decoration-thickness: 1px !important;
   text-underline-offset: 0.18em;
   text-decoration-color: currentColor !important;
 }
 
-// link con icona + etichetta (es. "teaching materials"): sottolineata solo l'etichetta, non lo spazio dopo l'icona
-main#main-content a[href]:has(> i) {
+// link con icona Font Awesome (<i> vuoto) + etichetta, es. "teaching materials": sottolineata solo l'etichetta.
+// Un <i> con testo (corsivo, es. CRENoS in homepage) non conta come icona.
+main#main-content a[href]:has(> i:empty) {
   text-decoration-line: none !important;
 }
 
-main#main-content a[href]:has(> i) > span {
+main#main-content a[href]:has(> i:empty) > span {
   text-decoration-line: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.18em;

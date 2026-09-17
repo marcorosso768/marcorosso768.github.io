@@ -987,6 +987,16 @@ $gap-vertical: 0.25em; // spazio tra le due righe
  * Hover on folder only
  ******************************************************************************/
 
+// "teaching materials" nel colore d'accento, come il titolo del corso
+.icon-link.folder-link a {
+  &,
+  &:link,
+  &:visited,
+  &:hover {
+    color: var(--global-theme-color);
+  }
+}
+
 .folder-link .fa-folder-open {
   display: none;
 }
