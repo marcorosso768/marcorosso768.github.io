@@ -203,6 +203,21 @@ nav_order: 3
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
+        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2026/521599'>Econometrics A (I.C.): Microeconometrics</a> with <a href='https://www.unibo.it/sitoweb/andrea.ichino/en'>Andrea Ichino</a>
+      </div>
+    </div>
+    <div class="teaching-entry__row teaching-entry__row--course">
+      <div class="teaching-entry__course-text">
+        Two Year Master in Economics and Econometrics
+      </div>
+    </div>
+    <div class="teaching-entry__row teaching-entry__row--date">
+      <div class="teaching-entry__date-text">2026–</div>
+    </div>
+  </div>
+  <div class="teaching-entry indented">
+    <div class="teaching-entry__row teaching-entry__row--title">
+      <div class="teaching-entry__content">
         <a href='https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2026/529369'>Advanced Course in Economic Policy and Methods</a> with <a href='https://www.unibo.it/sitoweb/andrea.mattozzi/en'>Andrea Mattozzi</a>
       </div>
     </div>
