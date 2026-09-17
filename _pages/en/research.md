@@ -90,7 +90,7 @@ nav_order: 1
       </div>
       <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" class="pill-link no-external">
         <i class="fa-solid fa-file-lines fa-2xs"></i>
-        <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Paper</span>
+        <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Working Paper</span>
       </a>
       </div>
     <div id="abstract-crime" class="toggle-box">
@@ -136,7 +136,7 @@ nav_order: 1
   <div class="pill-container mt-2">
        <a href="https://crenos.unica.it/bibcite/reference/8766" class="pill-link no-external">
         <i class="fa-solid fa-file-lines fa-2xs"></i>
-        <span class="toggle-label" title="CRENoS Working Paper 26/13">Paper</span>
+        <span class="toggle-label" title="CRENoS Working Paper 26/13">Working Paper</span>
        </a>
       <div class="pill-button toggle-pill" data-target="abstract-ai">
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
@@ -216,7 +216,7 @@ nav_order: 1
     <div class="pill-container mt-2">
 	      <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" class="pill-link no-external">
         <i class="fa-solid fa-file-lines fa-2xs"></i>
-        <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Paper</span>
+        <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Working Paper</span>
       </a>
       <div class="pill-button toggle-pill" data-target="abstract-crime">
         <i class="fa-solid fa-chevron-right fa-2xs"></i>

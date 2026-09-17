@@ -44,12 +44,12 @@ nav_order: 3
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <span class="course-title">Empirical Methods for Law and Economics</span>
+        <a href='https://phd.unibo.it/economics/en/teaching/empirical-methods-for-law-and-economics'>Empirical Methods for Law and Economics</a>
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        European Doctorate in Law and Economics (EDLE)
+        Ph.D. in Law and Economics (EDLE)
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--date">
@@ -64,7 +64,7 @@ nav_order: 3
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Two Year Master in Direzione Aziendale (in Italian)
+        Two Year Master in Busness Administration (in Italian)
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--date">
@@ -74,12 +74,12 @@ nav_order: 3
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/522183'>Introduction to Economics of the EU</a>
+        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2026/522183'>Introduction to Economics of the EU</a>
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        <a href='https://corsi.unibo.it/1cycle/EuropeanStudies'>Bachelor in European Studies</a>
+        Bachelor in European Studies
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--date">
@@ -140,7 +140,7 @@ nav_order: 3
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        <a href='https://corsi.unibo.it/1cycle/BusinessAdministration'>Bachelor in Business Administration</a> (in Italian)
+        Bachelor in Business Administration (in Italian)
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--date">
@@ -150,7 +150,7 @@ nav_order: 3
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/406503'>Econometrics</a> joint with <a href='https://www.unibo.it/sitoweb/margherita.fort/en'>Margherita Fort</a>
+        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/406503'>Econometrics</a> joint with <a href='https://www.unibo.it/sitoweb/margherita.fort/en'>Margherita Fort</a> and <a href='https://www.unibo.it/sitoweb/sergio.pastorello/en'>Sergio Pastorello</a>
       </div>
       <div class="icon-link indented folder-link" style="margin-left: auto; display: block; text-align: right;">
         <a href="/teaching/econometrics/">
@@ -162,7 +162,7 @@ nav_order: 3
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        <a href='https://corsi.unibo.it/1cycle/CLaBE'>Bachelor in Business and Economics</a>
+        Bachelor in Business and Economics
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--date">
@@ -203,7 +203,7 @@ nav_order: 3
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <span class="course-title">Advanced Course in Economic Policy and Methods</span> with <a href='https://www.unibo.it/sitoweb/andrea.mattozzi/en'>Andrea Mattozzi</a>
+        <a href='https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2026/529369'>Advanced Course in Economic Policy and Methods</a> with <a href='https://www.unibo.it/sitoweb/andrea.mattozzi/en'>Andrea Mattozzi</a>
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
@@ -218,7 +218,7 @@ nav_order: 3
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <span class="course-title">Introduction to Behavioral Economics</span> with <a href='https://www.unibo.it/sitoweb/maria.bigoni/en'>Maria Bigoni</a>
+        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2026/527338'>Introduction to Behavioral Economics<a> with <a href='https://www.unibo.it/sitoweb/maria.bigoni/en'>Maria Bigoni</a>
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
@@ -233,7 +233,7 @@ nav_order: 3
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <span class="course-title">Microeconomics</span> with Matthew John Wakefield
+        <a href='https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2026/527268'>Microeconomics</a> with <a href='https://www.unibo.it/sitoweb/matthew.wakefield/en'>Matthew John Wakefield</a>
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
