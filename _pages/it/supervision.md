@@ -3,13 +3,8 @@ page_id: supervision
 layout: page
 permalink: /supervisione/
 title: supervisione
-description: <i>La mia supervisione riguarda studenti di tesi triennale e assistenti di ricerca a livello magistrale. Con gli studenti di tesi, il mio obiettivo è sviluppare una domanda di ricerca autonoma e costruire gli strumenti metodologici per affrontarla con rigore. Con gli assistenti di ricerca, il focus è sul coinvolgimento pratico nei flussi di lavoro empirici, dalla costruzione dei dati all'analisi. La pagina elenca gli studenti che ho supervisionato, attuali e passati.</i>
-subtitle: >
-  <div class="lang-links">
-      <a href="#" onclick="window.location.href='https://marcorosso.com/supervision/'; return false;">supervision</a>
-      <span class="separator">|</span>
-      <a href="/es/supervisión/" hreflang="es">supervisión</a>
-  </div>
+description: <i>Seguo tesi di laurea triennale e coordino assistenti di ricerca. Con i tesisti, il lavoro si concentra sul trasformare una domanda in un disegno di ricerca realizzabile; con gli assistenti di ricerca, sui flussi di lavoro empirici, dalla costruzione dei dati all’analisi.</i>
+meta_description: "Tesi di laurea triennale che seguo e assistenti di ricerca che coordino, con il tipo di lavoro svolto in ciascun caso."
 nav: true
 nav_order: 4
 ---
@@ -19,7 +14,7 @@ nav_order: 4
   <a href="#content-0" onclick="toggleVisibility('content-0'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
-      <span>supervisione tesi</span>
+      <span>tesisti</span>
     </h2>
   </a>
 </div>
@@ -28,16 +23,66 @@ nav_order: 4
   <div class="thesis-entry indented">
     <div class="thesis-entry__row thesis-entry__row--thesis">
       <span class="thesis-entry__content">
-        2026: Valerio D'Anselmo, Laurea triennale in Economia Aziendale, Università di Bologna <i>(in corso)</i>
+        2026: Francesco Michetti, Laurea triennale in Economia Aziendale, Università di Bologna <i>(in corso)</i>
       </span>
+    </div>
+    <div class="thesis-entry__row thesis-entry__row--title">
+      <span class="thesis-entry__title-text">Informazione Asimmetrica e Qualità nel Mercato delle Auto Usate: il Ruolo della Certificazione e delle Vendite Online</span>
     </div>
   </div>
 
   <div class="thesis-entry indented">
     <div class="thesis-entry__row thesis-entry__row--thesis">
       <span class="thesis-entry__content">
-        2026: Pietro Zanieri, Laurea triennale in Economia Aziendale, Università di Bologna <i>(in corso)</i>
+        2026: Cristian Di Marco, Laurea triennale in Economia Aziendale, Università di Bologna <i>(in corso)</i>
       </span>
+    </div>
+    <div class="thesis-entry__row thesis-entry__row--title">
+      <span class="thesis-entry__title-text">Equilibrio e Sfruttabilità nei Giochi a Informazione Imperfetta: un'Analisi del Poker</span>
+    </div>
+  </div>
+
+  <div class="thesis-entry indented">
+    <div class="thesis-entry__row thesis-entry__row--thesis">
+      <span class="thesis-entry__content">
+        2026: Matteo Buldini, Laurea triennale in Economia Aziendale, Università di Bologna <i>(in corso)</i>
+      </span>
+    </div>
+    <div class="thesis-entry__row thesis-entry__row--title">
+      <span class="thesis-entry__title-text">Trasparenza dei Prezzi e Concorrenza Oligopolistica: dal Paradosso di Bertrand all’Esposizione del Prezzo Medio dei Carburanti in Italia</span>
+    </div>
+  </div>
+
+  <div class="thesis-entry indented">
+    <div class="thesis-entry__row thesis-entry__row--thesis">
+      <span class="thesis-entry__content">
+        2026: Valerio D'Anselmo, Laurea triennale in Economia Aziendale, Università di Bologna
+      </span>
+    </div>
+    <div class="thesis-entry__row thesis-entry__row--title">
+      <span class="thesis-entry__title-text">Oltre l’Elettore Mediano: Rendimento Elettorale dei Temi e Strategia di Partito nella Competizione Non Posizionale</span>
+    </div>
+  </div>
+
+  <div class="thesis-entry indented">
+    <div class="thesis-entry__row thesis-entry__row--thesis">
+      <span class="thesis-entry__content">
+        2026: Giorgio Minelli, Laurea triennale in Economia Aziendale, Università di Bologna
+      </span>
+    </div>
+    <div class="thesis-entry__row thesis-entry__row--title">
+      <span class="thesis-entry__title-text">Dalla Sugar Tax al Nudge: Un Approccio di Economia Comportamentale al Consumo Eccessivo di Zuccheri in Italia</span>
+    </div>
+  </div>
+
+  <div class="thesis-entry indented">
+    <div class="thesis-entry__row thesis-entry__row--thesis">
+      <span class="thesis-entry__content">
+        2026: Pietro Zanieri, Laurea triennale in Economia Aziendale, Università di Bologna
+      </span>
+    </div>
+    <div class="thesis-entry__row thesis-entry__row--title">
+      <span class="thesis-entry__title-text">Analisi dei Conflitti Internazionali attraverso la Teoria dei Giochi</span>
     </div>
   </div>
 
@@ -57,7 +102,7 @@ nav_order: 4
   <div class="ra-entry indented">
     <div class="ra-entry__row ra-entry__row--ra">
       <span class="ra-entry__content">
-        2024: Tiziana Simeoni, Laurea Magistrale in Economia ed Econometria, Università di Bologna
+        2024: Tiziana Simeoni, Laurea magistrale in Economics and Econometrics, Università di Bologna
       </span>
     </div>
     <div class="ra-entry__row ra-entry__row--project">
@@ -70,7 +115,7 @@ nav_order: 4
   <div class="ra-entry indented">
     <div class="ra-entry__row ra-entry__row--ra">
       <span class="ra-entry__content">
-        2024: Gabriele De Fine, Laurea Magistrale in Economia ed Econometria, Università di Bologna
+        2024: Gabriele De Fine, Laurea magistrale in Economics and Econometrics, Università di Bologna
       </span>
     </div>
     <div class="ra-entry__row ra-entry__row--project">

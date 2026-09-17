@@ -3,13 +3,8 @@ page_id: profiles
 layout: profiles
 permalink: /referenze/
 title: referenze
-subtitle: >
-  <div class="lang-links">
-      <a href="#" onclick="window.location.href='https://marcorosso.com/references/'; return false;">references</a>
-      <span class="separator">|</span>
-      <a href="/es/referencias/" hreflang="es">referencias</a>
-  </div>
-description: <i>Questa pagina fornisce informazioni sui miei referenti accademici, incluse affiliazioni, aree di ricerca e recapiti per le lettere di referenza. L’obiettivo è rendere le richieste di referenze semplici per le commissioni di selezione, offrendo al contempo un contesto sulle mie principali collaborazioni e sulla mia rete di mentoring.</i>
+description: <i>Referenti disponibili a scrivere lettere di raccomandazione, con posizione, aree di ricerca e contatti. Ogni profilo indica anche il contesto in cui abbiamo lavorato insieme.</i>
+meta_description: "Referenti disponibili a scrivere lettere di raccomandazione, con posizione, aree di ricerca e contatti."
 nav: false
 nav_order:
 
@@ -20,6 +15,11 @@ profiles:
     image: profile_pictures/prof_pic_PV.png
     image_alt: Paolo Vanin
     content: about_PV.md
+    image_circular: true # crops the image to make it circular
+  - align: right
+    image: profile_pictures/prof_pic_FC.jpg
+    image_alt: Fabio Cerina
+    content: about_FC.md
     image_circular: true # crops the image to make it circular
   - align: right
     image: profile_pictures/prof_pic_GP.jpeg

@@ -1,0 +1,51 @@
+---
+layout: null
+permalink: /sitemap.xml
+sitemap: false
+hreflang: false
+---
+{%- comment -%}
+  Sitemap multilingua: elenca le pagine nelle tre lingue e, per ciascuna, dichiara le versioni
+  nelle altre lingue con xhtml:link (stessa tabella degli hreflang, _data/url_map.yml).
+  Generata solo nella lingua predefinita: robots.txt e sitemap.xml sono in exclude_from_localization.
+{%- endcomment -%}
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- for pair in site.data.url_map[site.default_lang] %}
+{%- assign en_path = pair[1] %}
+{%- assign source_path = pair[0] %}
+{%- assign lang_prefix = '/it/' %}
+{%- unless source_path contains lang_prefix %}{% continue %}{% endunless %}
+{%- for l in site.languages %}
+{%- if l == site.default_lang %}{% assign loc = en_path %}{% else %}{% assign loc = site.data.url_map[l][en_path] %}{% endif %}
+{%- if loc %}
+  <url>
+    <loc>{{ site.url }}{{ loc }}</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ en_path }}"/>
+{%- for a in site.languages %}
+{%- if a != site.default_lang and site.data.url_map[a][en_path] %}
+    <xhtml:link rel="alternate" hreflang="{{ a }}" href="{{ site.url }}{{ site.data.url_map[a][en_path] }}"/>
+{%- endif %}
+{%- endfor %}
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ en_path }}"/>
+  </url>
+{%- endif %}
+{%- endfor %}
+{%- endfor %}
+{%- for post in site.news %}
+{%- assign slug = post.url | split: '/' | last %}
+{%- for l in site.languages %}
+{%- if l == site.default_lang %}{% assign loc = '/news/' | append: slug | append: '/' %}{% else %}{% assign loc = '/' | append: l | append: '/news/' | append: slug | append: '/' %}{% endif %}
+  <url>
+    <loc>{{ site.url }}{{ loc }}</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}/news/{{ slug }}/"/>
+{%- for a in site.languages %}
+{%- if a != site.default_lang %}
+    <xhtml:link rel="alternate" hreflang="{{ a }}" href="{{ site.url }}/{{ a }}/news/{{ slug }}/"/>
+{%- endif %}
+{%- endfor %}
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}/news/{{ slug }}/"/>
+  </url>
+{%- endfor %}
+{%- endfor %}
+</urlset>

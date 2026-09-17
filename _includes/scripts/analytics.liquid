@@ -37,4 +37,19 @@
     async
     src="https://gc.zgo.at/count.js"
   ></script>
+  <script>
+    // download come eventi GoatCounter: un solo listener, lavora solo al clic, nessun costo al caricamento
+    document.addEventListener(
+      'click',
+      function (e) {
+        var a = e.target.closest && e.target.closest('a[href]');
+        if (!a || !window.goatcounter || !window.goatcounter.count) return;
+        var url = a.href.split(/[?#]/)[0];
+        if (!/\.(pdf|ipynb|do|dta|r|py|zip|xlsx?|csv|pptx?|docx?)$/i.test(url)) return;
+        var name = decodeURIComponent(url.split('/').pop());
+        window.goatcounter.count({ path: 'download: ' + name, title: name, event: true });
+      },
+      true
+    );
+  </script>
 {% endif %}

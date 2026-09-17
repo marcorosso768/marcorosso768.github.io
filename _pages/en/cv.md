@@ -4,16 +4,11 @@ layout: cv
 permalink: /curriculum_vitae/
 title: curriculum vitae
 nav_title: cv
-subtitle: >
-  <div class="lang-links">
-      <a href="/it/curriculum_vitae/" hreflang="it">italiano</a>
-      <span class="separator">|</span>
-      <a href="/es/curriculum_vitae/" hreflang="es">español</a>
-  </div>
 nav: true
 nav_order: 5
 cv_pdf: /curriculum_vitae_en.pdf
 description: <i>An overview of my academic positions, education, honors, visiting periods, research experience, and service. Research, teaching, talks, and supervision have dedicated pages; the full CV is available via the PDF icon.</i>
+meta_description: "Academic positions, education, honors, visiting periods, research experience, and service, with the full CV available as a PDF."
 # toc:
 #   sidebar: left
 ---

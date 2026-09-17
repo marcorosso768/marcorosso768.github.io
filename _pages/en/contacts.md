@@ -5,12 +5,7 @@ permalink: /contacts/
 lang: en
 title: contacts
 description: <i>E-mail addresses at the University of Cagliari and the University of Bologna, together with a personal address. Below, links to my academic profiles and to LinkedIn.</i>
-subtitle: >
-  <div class="lang-links">
-      <a href="/it/contatti/" hreflang="it">contatti</a>
-      <span class="separator">|</span>
-      <a href="/es/contactos/" hreflang="es">contactos</a>
-  </div>
+meta_description: "E-mail addresses at the University of Cagliari and the University of Bologna, plus links to my academic profiles and LinkedIn."
 ---
 
 <!-- E-mail Section -->
@@ -55,8 +50,13 @@ subtitle: >
 <div id="content-2" class="toggle-section expanded contact-list">
 
   <div class="icon-link indented">
+    <i class="fa-solid fa-school fa-fw"></i>
+    <a href="https://crenos.unica.it/index.php/marco-rosso" target="_blank" rel="noopener noreferrer">personal page on CRENoS</a>
+  </div>
+
+  <div class="icon-link indented">
     <i class="fa-solid fa-building-columns fa-fw"></i>
-    <a href="https://www.unibo.it/sitoweb/marco.rosso4/en" target="_blank" rel="noopener noreferrer">personal page on UniBo website</a>
+    <a href="https://www.unibo.it/sitoweb/marco.rosso4/en" target="_blank" rel="noopener noreferrer">personal page on UniBo</a>
   </div>
 
   <div class="icon-link indented">
@@ -72,6 +72,11 @@ subtitle: >
   <div class="icon-link indented">
     <i class="ai ai-google-scholar fa-fw"></i>
     <a href="https://scholar.google.com/citations?user=KYPkHrIAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+  </div>
+
+  <div class="icon-link indented">
+    <i class="ai ai-ideas-repec fa-fw"></i>
+    <a href="https://ideas.repec.org/f/pro1382.html" target="_blank" rel="noopener noreferrer">IDEAS/RePEc</a>
   </div>
 
   <div class="icon-link indented">
