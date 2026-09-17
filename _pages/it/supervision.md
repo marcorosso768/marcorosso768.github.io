@@ -26,7 +26,7 @@ nav_order: 4
       </span>
     </div>
     <div class="thesis-entry__row thesis-entry__row--title">
-      <span class="thesis-entry__title-text">Asymmetric Information and Quality in the Used Car Market: The Role of Certification and Online Sales</span>
+      <span class="thesis-entry__title-text">Informazione Asimmetrica e Qualità nel Mercato delle Auto Usate: il Ruolo della Certificazione e delle Vendite Online</span>
     </div>
   </div>
 
@@ -37,7 +37,7 @@ nav_order: 4
       </span>
     </div>
     <div class="thesis-entry__row thesis-entry__row--title">
-      <span class="thesis-entry__title-text">Equilibrium and Exploitability in Games of Imperfect Information: A Poker Analysis</span>
+      <span class="thesis-entry__title-text">Equilibrio e Sfruttabilità nei Giochi a Informazione Imperfetta: un'Analisi del Poker</span>
     </div>
   </div>
 
@@ -48,7 +48,7 @@ nav_order: 4
       </span>
     </div>
     <div class="thesis-entry__row thesis-entry__row--title">
-      <span class="thesis-entry__title-text">Price Transparency and Oligopolistic Competition: From the Bertrand Paradox to Mandatory Fuel Price Disclosure in Italy</span>
+      <span class="thesis-entry__title-text">Trasparenza dei Prezzi e Concorrenza Oligopolistica: dal Paradosso di Bertrand all’Esposizione del Prezzo Medio dei Carburanti in Italia</span>
     </div>
   </div>
 
@@ -59,7 +59,7 @@ nav_order: 4
       </span>
     </div>
     <div class="thesis-entry__row thesis-entry__row--title">
-      <span class="thesis-entry__title-text">Beyond the Median Voter: Non-Positional Competition and Party Strategy in the Issue Yield Model</span>
+      <span class="thesis-entry__title-text">Oltre l’Elettore Mediano: Rendimento Elettorale dei Temi e Strategia di Partito nella Competizione Non Posizionale</span>
     </div>
   </div>
 
@@ -70,7 +70,7 @@ nav_order: 4
       </span>
     </div>
     <div class="thesis-entry__row thesis-entry__row--title">
-      <span class="thesis-entry__title-text">From Sugar Tax to Nudge: A Behavioral Economics Approach to Excessive Sugar Consumption in Italy</span>
+      <span class="thesis-entry__title-text">Dalla Sugar Tax al Nudge: Un Approccio di Economia Comportamentale al Consumo Eccessivo di Zuccheri in Italia</span>
     </div>
   </div>
 
@@ -81,7 +81,7 @@ nav_order: 4
       </span>
     </div>
     <div class="thesis-entry__row thesis-entry__row--title">
-      <span class="thesis-entry__title-text">An Analysis of International Conflicts through Game Theory</span>
+      <span class="thesis-entry__title-text">Analisi dei Conflitti Internazionali attraverso la Teoria dei Giochi</span>
     </div>
   </div>
 
