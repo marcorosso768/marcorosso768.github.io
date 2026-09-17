@@ -4,7 +4,7 @@ layout: page
 permalink: /contatti/
 lang: it
 title: contatti
-description: <i>In questa sezione sono raccolte le informazioni di contatto e i profili esterni, al fine di offrire un unico punto di accesso al mio lavoro e alla mia presenza istituzionale. La pagina include indirizzi e-mail e collegamenti alle piattaforme rilevanti.</i>
+description: <i>Indirizzi e-mail presso l’Università di Cagliari e l’Università di Bologna, insieme a un indirizzo personale. Di seguito, i link ai miei profili accademici e a LinkedIn.</i>
 ---
 
 <!-- E-mail Section -->
@@ -17,11 +17,11 @@ description: <i>In questa sezione sono raccolte le informazioni di contatto e i 
   </a>
 </div>
 
-<div id="content-1" class="toggle-section expanded">
-    
+<div id="content-1" class="toggle-section expanded contact-list">
+
   <div class="icon-link indented">
-    <i class="fa-regular fa-envelope fa-fw"></i>
-    <a href="mailto:m.rosso@me.com">m.rosso@me.com</a>
+    <i class="fa-solid fa-envelope fa-fw"></i>
+    <a href="mailto:marco.rosso@unica.it">marco.rosso@unica.it</a>
   </div>
 
   <div class="icon-link indented">
@@ -30,8 +30,8 @@ description: <i>In questa sezione sono raccolte le informazioni di contatto e i 
   </div>
 
   <div class="icon-link indented">
-    <i class="fa-solid fa-envelope fa-fw"></i>
-    <a href="mailto:marco.rosso@unica.it">marco.rosso@unica.it</a>
+    <i class="fa-regular fa-envelope fa-fw"></i>
+    <a href="mailto:m.rosso@me.com">m.rosso@me.com</a>
   </div>
 
 </div>
@@ -46,16 +46,16 @@ description: <i>In questa sezione sono raccolte le informazioni di contatto e i 
   </a>
 </div>
 
-<div id="content-2" class="toggle-section expanded">
-    
-  <div class="icon-link indented">
-    <i class="fa-solid fa-building-columns fa-fw"></i>
-    <a href="https://www.unibo.it/sitoweb/marco.rosso4/" target="_blank" rel="noopener noreferrer">pagina personale sul sito di UniBo</a>
-  </div>
+<div id="content-2" class="toggle-section expanded contact-list">
 
   <div class="icon-link indented">
     <i class="fa-solid fa-school fa-fw"></i>
     <a href="https://crenos.unica.it/index.php/marco-rosso" target="_blank" rel="noopener noreferrer">pagina personale sul sito del CRENoS</a>
+  </div>
+
+  <div class="icon-link indented">
+    <i class="fa-solid fa-building-columns fa-fw"></i>
+    <a href="https://www.unibo.it/sitoweb/marco.rosso4/" target="_blank" rel="noopener noreferrer">pagina personale sul sito di UniBo</a>
   </div>
 
   <div class="icon-link indented">
@@ -87,34 +87,10 @@ description: <i>In questa sezione sono raccolte le informazioni di contatto e i 
     <i class="fa-brands fa-github fa-fw"></i>
     <a href="https://github.com/marcorosso768" target="_blank" rel="noopener noreferrer">GitHub</a>
   </div>
-  
-</div>
 
-<!-- Social Networks Section -->
-<div class="projects">
-  <a href="#content-3" onclick="toggleVisibility('content-3'); return false;">
-    <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-3"></i>
-      <span>social network</span>
-    </h2>
-  </a>
-</div>
-
-<div id="content-3" class="toggle-section">
-    
   <div class="icon-link indented">
     <i class="fa-brands fa-linkedin fa-fw"></i>
     <a href="https://www.linkedin.com/in/marcorosso768" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-  </div>
-
-  <div class="icon-link indented">
-    <i class="fa-brands fa-bluesky fa-fw"></i>
-    <a href="https://bsky.app/profile/marcorosso.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a>
-  </div>
-
-  <div class="icon-link">
-    <i class="fa-brands fa-x-twitter fa-fw"></i>
-    <a href="https://x.com/marcorosso768" target="_blank" rel="noopener noreferrer"><em>R.I.P.</em> Twitter</a>
   </div>
   
 </div>
@@ -132,7 +108,7 @@ description: <i>In questa sezione sono raccolte le informazioni di contatto e i 
 <div id="content-4" class="toggle-section">
 
   <div style="display: flex; justify-content: center;">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11739.239415810194!2d11.352124!3d44.497203!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd4bb0ed9d74f%3A0x851bdc6a12c818e2!2sFacolt%C3%A0%20di%20Economia%20-%20Universit%C3%A0%20di%20Bologna!5e1!3m2!1sit!2sit!4v1747641299378!5m2!1sit!2sit" width="800" height="600" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5869.619707905097!2d11.352124!3d44.497203!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd4bb0ed9d74f%3A0x851bdc6a12c818e2!2sFaculty%20of%20Economics%20-%20University%20of%20Bologna!5e1!3m2!1sen!2sit!4v1747640523184!5m2!1sen!2sit" width="800" height="600" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 
 </div> -->

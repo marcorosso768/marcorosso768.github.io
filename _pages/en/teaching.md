@@ -58,7 +58,7 @@ nav_order: 3
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Two Year Master in Busness Administration (in Italian)
+        Two Year Master in Business Administration (in Italian)
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--date">
@@ -112,7 +112,7 @@ nav_order: 3
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
       <div class="teaching-entry__course-text">
-        Two Year Master in Economics and Public Policy and in Applied Economics and Market, Ph.D. in Economics, and Ph.D. in Management
+        Two Year Master in Economics and Public Policy and in Applied Economics and Markets, Ph.D. in Economics, and Ph.D. in Management
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--date">

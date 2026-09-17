@@ -3,9 +3,7 @@ page_id: microeconomics
 layout: page
 permalink: /didattica/microeconomia/
 title: microeconomia
-description_format: multiline
-description: |
-  Qui sono disponibili materiali utili per il corso di Microeconomia.
+description: "<i>Materiali per il corso di Microeconomia della Laurea triennale in Economia Aziendale, Università di Bologna: appunti del corso e slide di tutte e venti le lezioni.</i>"
 subtitle: >
   <div class="lang-links">
       <a href="/it/didattica/" hreflang="it">torna alla didattica</a>
@@ -18,7 +16,7 @@ nav: false
   <a href="#content-0" onclick="toggleVisibility('content-0'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
-      <span>note del corso</span>
+      <span>appunti del corso</span>
     </h2>
   </a>
 </div>
@@ -28,7 +26,7 @@ nav: false
 <div class="course-entry indented">
   <i class="fa-regular fa-file-pdf fa-fw" style="margin-top:0.5px;"></i>
   <span>  
-  <a href="/assets/teaching_material/microeconomia/Appunti di Microeconomia.pdf" target="_blank" rel="noopener noreferrer">Appunti di Microeconomia</a> — ultimo aggiornamento: 28 marzo 2026
+  <a href="/assets/teaching_material/microeconomia/Appunti di Microeconomia.pdf" target="_blank" rel="noopener noreferrer">Appunti di Microeconomia</a> — ultimo aggiornamento: 22 maggio 2026
   </span>
 </div>
 
@@ -113,6 +111,76 @@ nav: false
   <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
   <span>  
   Lezione 10: <a href="/assets/teaching_material/microeconomia/Lezione 10 - Ripasso Generale.pdf" target="_blank" rel="noopener noreferrer">Ripasso Generale</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lezione 11: <a href="/assets/teaching_material/microeconomia/Lezione 11 - Massimizzazione del Profitto.pdf" target="_blank" rel="noopener noreferrer">Massimizzazione del Profitto</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lezione 12: <a href="/assets/teaching_material/microeconomia/Lezione 12 - Offerta dell’Impresa e Offerta di Mercato.pdf" target="_blank" rel="noopener noreferrer">Offerta dell’Impresa e Offerta di Mercato</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lezione 13: <a href="/assets/teaching_material/microeconomia/Lezione 13 - Equilibrio Competitivo.pdf" target="_blank" rel="noopener noreferrer">Equilibrio Competitivo</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lezione 14: <a href="/assets/teaching_material/microeconomia/Lezione 14 - Perdita Secca e Prezzi Amministrati.pdf" target="_blank" rel="noopener noreferrer">Perdita Secca e Prezzi Amministrati</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lezione 15: <a href="/assets/teaching_material/microeconomia/Lezione 15 - Imposte e Sussidi.pdf" target="_blank" rel="noopener noreferrer">Imposte e Sussidi</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lezione 16: <a href="/assets/teaching_material/microeconomia/Lezione 16 - Monopolio.pdf" target="_blank" rel="noopener noreferrer">Monopolio</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lezione 17: <a href="/assets/teaching_material/microeconomia/Lezione 17 - Rent-Seeking, Indice di Lerner e Discriminazione di Prezzo.pdf" target="_blank" rel="noopener noreferrer">Rent-Seeking, Indice di Lerner e Discriminazione di Prezzo</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lezione 18: <a href="/assets/teaching_material/microeconomia/Lezione 18 - Oligopolio e Teoria dei Giochi.pdf" target="_blank" rel="noopener noreferrer">Oligopolio e Teoria dei Giochi</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lezione 19: <a href="/assets/teaching_material/microeconomia/Lezione 19 - Asimmetrie Informative.pdf" target="_blank" rel="noopener noreferrer">Asimmetrie Informative</a>
+  </span>
+</div>
+
+<div class="course-entry indented">
+  <i class="fa-regular fa-note-sticky fa-fw" style="margin-top:0.5px;"></i>
+  <span>  
+  Lezione 20: <a href="/assets/teaching_material/microeconomia/Lezione 20 - Ripasso Generale.pdf" target="_blank" rel="noopener noreferrer">Ripasso Generale</a>
   </span>
 </div>
 

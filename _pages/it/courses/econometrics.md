@@ -3,10 +3,7 @@ page_id: econometrics
 layout: page
 permalink: /didattica/econometria/
 title: econometria
-description_format: multiline
-description: |
-  Qui sono disponibili materiali utili per il corso di Econometria.
-  Nota: il materiale è disponibile in inglese.
+description: "<i>Materiali per il corso di Econometrics della Laurea triennale in Business and Economics, Università di Bologna: un manuale introduttivo a Stata, slide delle lezioni e delle esercitazioni di ripasso, e i relativi do-file. I materiali sono in inglese.</i>"
 subtitle: >
   <div class="lang-links">
       <a href="/it/didattica/" hreflang="it">torna alla didattica</a>

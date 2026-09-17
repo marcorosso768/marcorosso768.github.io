@@ -6,7 +6,7 @@ permalink: /
 subtitle: >
   <div style="margin-top: -0.75rem;">
       <p style="font-weight: 500;">
-          Professore&nbsp;a&nbsp;Contratto | Ricercatore&nbsp;Post-Doc
+          Ricercatore&nbsp;Post-Doc
       </p>
   </div>
   <div style="margin: 0; padding: 0; position: relative; margin-top: 1.5rem;">
@@ -15,23 +15,27 @@ subtitle: >
           <i class="fa-solid fa-building-columns fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
       </div>
       <div style="padding-left: 22px; margin-top: -10pt; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
-           <a href="https://www.unibo.it/it">Università&nbsp;di&nbsp;Bologna</a> | <a href="https://en.unica.it">Università&nbsp;di&nbsp;Cagliari</a>
+          <a href="https://www.unica.it">Università&nbsp;di&nbsp;Cagliari</a> | <a href="https://www.unibo.it/it">Università&nbsp;di&nbsp;Bologna</a>
       </div>
-      <!-- Second row: Location icon and actula location -->
+      <div style="display: inline-block; width: 13px; text-align: center; position: absolute; margin-top: 1px; line-height: 14pt;">
+          <i class="fa-solid fa-school fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+      </div>
+     <div style="padding-left: 22px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; margin-top: 2pt;">
+          <a href="https://crenos.unica.it">CRENoS <i>(Centro Ricerche Economiche Nord Sud)</i></a>
+      </div>
+      <!-- Second row: Location icon and actul location temp: <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna, Italy</a>-->
       <div style="position: relative; font-size: 10pt; margin-top: 8pt; margin-bottom: 15px; line-height: 14pt;">
           <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; line-height: 14pt;">
-              <i class="fa-solid fa-location-dot" style="font-size: 10pt;"></i>
+              <i class="fa-solid fa-location-dot fa-fw" style="font-size: 10pt;"></i>
           </div>
-          <div style="display: inline-block; padding-left: 20px; margin-top: -12pt; line-height: 14pt;">
-              <span style="font-size: 10pt;">
-                  posizione attuale: Bologna, Italia
-              </span>
+          <div style="display: inline-block; padding-left: 22px; margin-top: -12pt; line-height: 14pt;">
+              <span style="font-size: 10pt;">posizione attuale: Bologna, Italia</span>
           </div>
       </div>
   </div>
 
 profile:
-  align: center-right
+  align: right
   image: profile_pictures/prof_pic_MR_640.webp
   image_alt: Marco Rosso
   image_circular: true # crops the image to make it circular
@@ -53,24 +57,20 @@ social: true # includes social icons at the bottom of the page
 </div>
 <div style="height: 2rem;"></div>
 
-Benvenutə nel mio sito personale — sono felice che tu sia arrivatə qui di tua spontanea volontà (o forse hai cliccato per sbaglio; capita anche ai migliorə).
-
 La mia <b style="color: $white-color;"><a href="/it/ricerca/">ricerca</a></b> si concentra su
 <b style="color: $white-color;">Economia Politica</b>,
 <b style="color: $white-color;">Economia del Crimine</b>,
+<b style="color: $white-color;">Microeconomia Applicata</b>,
 <b style="color: $white-color;">Economia Sperimentale</b> ed
-<b style="color: $white-color;">Economia Comportamentale</b>, con un interesse particolare per il modo in cui istituzioni e comportamento individuale interagiscono in contesti reali. Più in generale, mi attraggono le domande che si collocano all'intersezione tra economia e comportamento sociale, ovunque i dati e i metodi permettano di analizzarle.
+<b style="color: $white-color;">Economia Comportamentale</b>, con un interesse particolare per il modo in cui istituzioni e comportamento individuale interagiscono in contesti reali. Più in generale, mi interessano le domande all’intersezione tra economia e comportamento sociale, ovunque i dati e i metodi permettano di rispondere.
 
-Dopo aver conseguito il <b style="color: $white-color;">Dottorato di Ricerca in Economia</b> presso l’<b style="color: $white-color;">Università di Bologna</b> nel 2026, sono attualmente <b style="color: $white-color;">Ricercatore post-doc</b> presso l’<b style="color: $white-color;">Università di Cagliari</b>, dove mi occupo delle interazioni tra lavoro da remoto, intelligenza artificiale e mercati del lavoro locali. Maggiori informazioni sul mio lavoro sono disponibili nel mio <b style="color: $white-color;"><a href="/assets/pdf/it/[Marco%20Rosso]%20Curriculum%20Vitae_it.pdf" target="_blank" rel="noopener noreferrer" class="external">CV</a></b>.
+Dopo aver conseguito il <b style="color: $white-color;">Dottorato di Ricerca in Economia</b> presso l’<b style="color: $white-color;">Università di Bologna</b> nel 2026, sono <b style="color: $white-color;">Ricercatore Post-Doc</b> presso l’<b style="color: $white-color;">Università di Cagliari</b>, dove studio le interazioni tra lavoro da remoto, intelligenza artificiale e mercati del lavoro locali (<b style="color: $white-color;"><a href="https://crenos.unica.it/bibcite/reference/8766" target="_blank" rel="noopener noreferrer" class="external">CRENoS WP 26/13</a></b>).
 
-Nel frattempo, <b style="color: $white-color;"><a href="/it/didattica/">insegno</a></b> <b style="color: $white-color;">Microeconomia</b>, <b style="color: $white-color;">Introduzione all’Economia dell’UE</b> e <b style="color: $white-color;">Python per Economisti</b>, e svolgo il ruolo di <b style="color: $white-color;">Tutor Didattico</b> per <b style="color: $white-color;">Economia Politica</b> presso il <b style="color: $white-color;">Dipartimento di Scienze Economiche</b>, il <b style="color: $white-color;">Dipartimento di Management</b>, e il <b style="color: $white-color;">Dipartimento di Scienze Politiche e Sociali</b> dell’<b style="color: $white-color;">Università di Bologna</b>. Allo stesso tempo, ho contribuito al lancio della <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="ref1">1</a></sup> a supporto della genitorialità consapevole, nell’ambito del <a href="https://site.unibo.it/minuto/it" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a>, per il quale ho anche condotto interviste online con genitori e bambini di 4 e 5 anni.
+Maggiori informazioni sono disponibili nel mio <b style="color: $white-color;"><a href="/assets/pdf/it/curriculum_vitae_it.pdf" target="_blank" rel="noopener noreferrer" class="external">CV</a></b>.
 
-Infine, organizzo i <b style="color: $white-color;">DSE Afterwork Drinks</b>, un incontro informale mensile in cui discutiamo di ricerca, vita accademica e di tutto ciò che sta nel mezzo — dalle carriere e le conferenze ai film, alla musica e alle preoccupazioni quotidiane — con l’obiettivo di favorire una comunità dipartimentale rilassata e collaborativa.
+Nel frattempo, <b style="color: $white-color;"><a href="/it/didattica/">insegno</a></b> <b style="color: $white-color;">Empirical Methods for Law and Economics</b> nel <b style="color: $white-color;">European Doctorate in Law and Economics (EDLE)</b>, <b style="color: $white-color;">Introduzione all’Economia dell’Unione Europea</b> e un <b style="color: $white-color;">Precorso di Econometria</b> all’<b style="color: $white-color;">Università di Bologna</b>, dove svolgo anche attività di <b style="color: $white-color;">Tutor Didattico</b> in econometria, microeconomia, politica economica, economia politica ed economia comportamentale.
 
-<div style="margin-top:1rem;"></div>
-<hr style="border:0; border-top:0.5px solid !important;">
-<div id="fn1" style="font-size:small;">
-  <sup><a href="#ref1">1</a></sup> L’App MinUTo è attualmente disponibile in tre lingue: italiano, inglese e francese.
-</div>
+Inoltre, ho contribuito al <b style="color: $white-color;"><a href="https://site.unibo.it/minuto/it" target="_blank" rel="noopener noreferrer" class="external">Progetto MinUTo</a></b>, che studia come convinzioni, preferenze e coinvolgimento dei genitori influenzino lo sviluppo nella prima infanzia, e al lancio della <b style="color: $white-color;"><a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a></b>, uno strumento a supporto della genitorialità consapevole disponibile in italiano, inglese e francese.
+
 <div style="margin-top:2.5rem;"></div>
 <hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">

@@ -7,58 +7,55 @@
     - field: Economia Sperimentale
     - field: Economia Comportamentale
 
+- title: posizioni accademiche
+  type: time_table
+  contents:
+    - title: "Ricercatore Post-Doc: lavoro da remoto, intelligenza artificiale e mercati del lavoro locali"
+      year: "mar 2026–mar 2027"
+      location: "Cagliari, Italia"
+      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Analisi quantitativa di come l’attrazione di nomadi digitali e la diffusione dell’IA influenzino i mercati del lavoro locali e le disuguaglianze regionali, con modelli di equilibrio spaziale e dati granulari sugli annunci di lavoro online</i></p>'
+      institution: Università di Cagliari
+      department: SEA — Dipartimento di Scienze Economiche e Aziendali
+      supervisor: 'supervisor: <a href="https://sites.google.com/site/fabiocerina/">Fabio Cerina</a>'
+    - title: "Professore a Contratto"
+      year: "dic 2025–"
+      location: "Bologna, Italia"
+      institution: Università di Bologna
+    - title: "Assegnista di Ricerca: democratizzazione, media, contesto socioeconomico e comportamento di voto"
+      year: "mag 2024–lug 2025"
+      location: "Bologna, Italia"
+      institution: Università di Bologna
+      department: DSE — Dipartimento di Scienze Economiche
+      supervisor: 'supervisor: <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
+
 - title: formazione
   type: time_table
   contents:
-    - title: Dottorato in Economia
+    - title: Dottorato di Ricerca in Economia
       year: "2026"
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
       location: "Bologna, Italia"
       supervisor: 'supervisor: <a href="https://sites.google.com/site/paolovanin/">Paolo Vanin</a>'
-    - title: Master di secondo Livello in Economia
+    - title: Master di II livello in Economia
       year: "2020"
       location: "Torino, Italia"
       institution: Collegio Carlo Alberto
-    - title: "Laurea magistrale in Economia"
+    - title: Laurea magistrale in Economia
       year: "2019"
       location: "Torino, Italia"
-      institution: Università degli Studi di Torino
+      institution: Università di Torino
       department: ESOMAS — Dipartimento di Scienze Economico-Sociali e Matematico-Statistiche
       supervisor: 'supervisor: <a href="https://sites.google.com/site/giovannimastrobuoni/">Giovanni Mastrobuoni</a>'
       cosupervisor: 'co-supervisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
     - title: "Laurea triennale in Matematica"
       year: "2015"
       location: "Torino, Italia"
-      institution: Università degli Studi di Torino
+      institution: Università di Torino
       department: 'Dipartimento di Matematica "Giuseppe Peano"'
-      supervisor: 'relatrice: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis</a>'
+      supervisor: 'supervisor: <a href="https://dipmath.campusnet.unito.it/do/docenti.pl/Alias?vittoria.demichelis#tab-profilo">Vittoria Demichelis</a>'
 
-- title: revisioni per riviste accademiche
-  type: map
-  contents:
-    - name:
-      value: >
-        <div style="font-size:11pt; display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
-          <div style="line-height: 1.2;">
-            <i>Health Economics</i>, <i>Journal of Economics &amp; Management Strategy</i>
-          </div>
-        </div>
-
-- title: affiliazioni
-  type: map
-  contents:
-    - name:
-      value: >
-        <div style="font-size:11pt; display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-id-card-clip fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
-          <div style="line-height: 1.2;">
-            Società Italiana di Econometria (2023), Società Italiana di Economia (2025-2026)
-          </div>
-        </div>
-
-- title: premi e riconoscimenti
+- title: premi, finanziamenti e borse
   type: time_table
   contents:
     - title: 'Incentivo "Marco Polo" alla Mobilità Internazionale per la Ricerca'
@@ -71,57 +68,84 @@
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
-    - title: Dignità di Stampa per la Tesi Magistrale
+    - title: "Dignità di Stampa per la Tesi Magistrale"
       year: "2019"
       location: "Torino, Italia"
-      institution: Università degli Studi di Torino
+      institution: Università di Torino
       department: ESOMAS — Dipartimento di Scienze Economico-Sociali e Matematico-Statistiche
 
-- title: attività accademiche
+- title: periodi di visita
   type: time_table
   contents:
-    - title: "Assistente di Ricerca: Criminalità organizzata, connessioni politiche e performance delle imprese"
-      year: "Dic—Gen 2026"
+    - title: Dottorando in visita
+      year: "ago–dic 2024"
+      location: "Buenos Aires, Argentina"
+      institution: Universidad de San Andrés
+      department: Departamento de Economía
+      supervisor: 'supervisor locale: <a href="https://www.tommy-e-murphy.com">Tommy E. Murphy</a>'
+    - title: "Laureando magistrale in visita"
+      year: "gen–mar 2019"
+      location: "Torino, Italia"
+      institution: Servizio Sovrazonale di Epidemiologia (SEPI)
+      department: Dipartimento di Sanità Pubblica (ASL TO3)
+      supervisor: 'supervisor locale: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
+
+- title: esperienze di ricerca
+  type: time_table
+  contents:
+    - title: "Assistente di Ricerca: criminalità organizzata, connessioni politiche e performance delle imprese"
+      year: "dic 2025–gen 2026"
       location: "Napoli, Italia"
-      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Analisi delle risposte a domande aperte raccolte dai partecipanti, con l’obiettivo di identificare e categorizzare le motivazioni emerse e di distinguere tra profili di rispondenti mediante tecniche di text analysis</i></p>'
+      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Analisi delle risposte aperte raccolte tra i partecipanti, con l’obiettivo di individuare e classificare le motivazioni emerse e di distinguere i profili dei rispondenti con tecniche di analisi testuale</i></p>'
       institution: Università di Napoli Federico II
-      department: Dipartimento di Scienze Statistiche ed Economiche
+      department: DISES — Dipartimento di Scienze Economiche e Statistiche
       supervisor: 'supervisor: <a href="https://sites.google.com/site/gimmordinoecon/home">Giovanni Immordino</a>'
-    - title: "Distribuzione dell’App MinUTo a Supporto della Genitorialità Consapevole"
-      year: "nov—dic 2025"
+    - title: "Distribuzione dell’App MinUTo a supporto della genitorialità consapevole"
+      year: "nov–dic 2025"
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
-      supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/maria.bigoni/it">Maria Bigoni</a>'
-    - title: "Assegno di Ricerca: democratizzazione, media, fattori socio-economici e comportamento elettorale"
-      year: "mag 2024—lug 2025"
+      supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/maria.bigoni">Maria Bigoni</a>'
+    - title: '"Alle radici dello sviluppo infantile: il ruolo delle convinzioni, delle preferenze e del coinvolgimento dei genitori" nell’ambito del Progetto MinUTo'
+      year: "gen–apr 2024"
+      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Implementazione di esperimenti online sulla piattaforma Qualtrics, gestione delle comunicazioni e del coordinamento con scuole e famiglie, consegna e raccolta dei materiali necessari agli esperimenti</i></p>'
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
-      supervisor: 'supervisor: <a href="https://sites.google.com/site/giovanniprarolo/">Giovanni Prarolo</a>'
-    - title: "“Alle radici dello sviluppo infantile: sul ruolo delle convinzioni, delle preferenze e del coinvolgimento genitoriale” nel contesto del Progetto MinUTo"
-      year: "gen—apr 2024"
-      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Implementazione di esperimenti online mediante la piattaforma Qualtrics, gestione delle comunicazioni e del coordinamento con scuole e famiglie, e consegna e raccolta dei materiali necessari alla realizzazione degli esperimenti</i></p>'
-      location: "Bologna, Italia"
-      institution: Università di Bologna
-      department: DSE — Dipartimento di Scienze Economiche
-      supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/maria.bigoni/it">Maria Bigoni</a> e <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
-    - title: "Generazione e preparazione di materiali di supporto all’insegnamento per il corso di Econometria"
-      year: "nov—dic 2023"
+      supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/maria.bigoni">Maria Bigoni</a> e <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
+    - title: Creazione e preparazione di materiali didattici di supporto per il corso di Econometria
+      year: "nov–dic 2023"
       maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Progettazione e implementazione di quiz sulla piattaforma mcEmpirics e redazione di una guida introduttiva a Stata</i></p>'
       location: "Bologna, Italia"
       institution: Università di Bologna
-      department: DSE — Dipartimento di Scienze Economiche
-      supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/margherita.fort/it">Margherita Fort</a> e <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
-    - title: "Assistente di Ricerca: Centro di Ricerca sulle Pensioni e le Politiche Sociali (CeRP)"
-      year: "set—dic 2018"
+      department: DISA — Dipartimento di Scienze Aziendali
+      supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/margherita.fort">Margherita Fort</a> e <a href="https://sites.google.com/site/dennitommasi/">Denni Tommasi</a>'
+    - title: "Assistente di Ricerca: Center for Research on Pensions and Welfare Policies (CeRP)"
+      year: "set–dic 2018"
       location: "Torino, Italia"
       institution: Collegio Carlo Alberto
       supervisor: 'supervisor: <a href="http://sites.carloalberto.org/fornero/home.html">Elsa Fornero</a>'
 
+- title: attività di referaggio per riviste accademiche
+  type: map
+  contents:
+    - name:
+      value: >
+        <div style="font-size:11pt; display: flex; align-items: flex-start;">
+          <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
+          <div style="line-height: 1.2;">
+            <i>Electoral Studies, Economic Modelling, Journal of Public Economics, The B.E. Journal of Economic Analysis and Policy, Health Economics, Journal of Economics &amp; Management Strategy</i>
+          </div>
+        </div>
+
 - title: incarichi accademici
   type: time_table
   contents:
+    - title: "Membro della Commissione di Laurea, Laurea triennale in Economia Aziendale"
+      year: "2026"
+      location: "Bologna, Italia"
+      institution: Università di Bologna
+      department: DISA — Dipartimento di Scienze Aziendali
     - title: "Rappresentante degli Assegnisti nel Consiglio di Dipartimento"
       year: "2025"
       location: "Bologna, Italia"
@@ -132,49 +156,46 @@
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
-    - title: "Vigilanza d’Esame del SAT Internazionale per l’Accesso all’Università"
-      year: 2024—2025
-      location: "Bologna, Italia"
-      institution: Università di Bologna
-      department: in collaborazione con College Board (New York)
-
-- title: periodi in visita
-  type: time_table
-  contents:
-    - title: Dottorando in visita
-      year: autunno 2024
-      location: "Buones Aires, Argentina"
-      institution: Universidad de San Andrés
-      department: Dipartimento di Economia
-      supervisor: 'supervisor locale: <a href="https://www.tommy-e-murphy.com">Tommy E. Murphy</a>'
-    - title: "Master's Candidate in visita"
-      year: inverno 2019
-      location: "Torino, Italia"
-      institution: Servizio Sovrazonale di Epidemiologia (SEPI)
-      department: Dipartimento di Sanità Pubblica (Azienda Sanitaria Locale TO3)
-      supervisor: 'supervisor locale: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
-
-- title: attività di networking
-  type: time_table
-  contents:
     - title: "Organizzatore della serie di incontri di networking del Dipartimento"
-      year: 2022—
-      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Coordinamento di incontri strutturati a cadenza mensile finalizzati a favorire l’integrazione verticale tra docenti, post-doc e dottorandi. Attività formalizzata nel calendario ufficiale degli eventi del Dipartimento</i></p>'
+      year: "2022–"
+      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Coordinamento di incontri mensili strutturati per favorire l’integrazione tra docenti, post-doc e dottorandi, inseriti nel calendario ufficiale degli eventi del Dipartimento</i></p>'
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
-    - title: 'Co-organizzatore di "Research in Steps" (RiS), serie di seminari per gli studenti di dottorato'
-      year: 2022—2023
+    - title: 'Co-organizzatore del ciclo di seminari "Research in Steps" (RiS) per dottorandi'
+      year: "2022–2023"
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
-    - title: 'Co-fondatore e Co-organizzatore del Gruppo di Lettura su "Political Economics of Violence and Corruption"'
-      year: 2021—2022
+    - title: 'Co-fondatore e co-organizzatore del gruppo di lettura "Political Economics of Violence and Corruption"'
+      year: "2021–2022"
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
 
-- title: conoscenze linguistiche
+- title: affiliazioni
+  type: map
+  contents:
+    - name:
+      value: >
+        <div style="font-size:11pt; display: flex; align-items: flex-start;">
+          <i class="fa-solid fa-id-card-clip fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
+          <div style="line-height: 1.2;">
+            CRENoS <i>Centro Ricerche Economiche Nord Sud</i> (2026–), Società Italiana degli Economisti (2025–2026), Società Italiana di Econometria (2023)
+          </div>
+        </div>
+
+- title: competenze informatiche
+  type: map_list
+  contents:
+    - name: "Programmazione"
+      value: Stata, Python, R, MATLAB
+    - name: "Dati e sondaggi"
+      value: SQL (BigQuery), QGIS, Qualtrics, HTML/CSS
+    - name: "Composizione tipografica"
+      value: LaTeX
+
+- title: lingue
   type: list_languages
   contents:
     - category: "italiano"
@@ -187,31 +208,23 @@
       items:
         - name: "intermedio"
 
-- title: competenze informatiche
-  type: map
-  contents:
-    - name:
-      value: >
-        <div style="font-size:11pt; display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-laptop-code fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1.2; padding-top: 1px;"></i>
-          <div style="font-variant: small-caps; line-height: 1.4;">
-            Stata, Python, QGIS, Qualtrics, MATLAB, R, C++, LaTeX, MS Office, &lt;HTML&gt;
-          </div>
-        </div>
-
 - title: altre esperienze
   type: time_table
   contents:
+    - title: Sorvegliante d’esame del SAT internazionale per l’ammissione universitaria
+      year: "2024–2026"
+      firm: Università di Bologna, in collaborazione con College Board (New York)
+      location: "Bologna, Italia"
     - title: Operatore per la raccolta dati in sede e sul campo
-      year: 2016—2021
+      year: "2016–2021"
       firm: Deltatre
       location: "Torino, Italia"
     - title: Allenatore di calcio giovanile
-      year: 2014—2016
+      year: "2014–2016"
       soccer: A.P.D. Pecetto
       location: "Pecetto, Italia"
     - title: Allenatore di calcio giovanile
-      year: 2013—2014
+      year: "2013–2014"
       soccer: C.S.F. Carmagnola
       location: "Carmagnola, Italia"
 
