@@ -1248,6 +1248,24 @@ $gap-vertical: 0.25em; // spazio tra le due righe
 } // ← chiude .thesis-entry
 
 /*****************************************************************************
+* Coautori (Research) e docenti (Teaching): colore del testo, sottolineati come link,
+* così il titolo del paper o del corso resta l'elemento in evidenza.
+* Il titolo è sempre il primo elemento della riga; i nomi vengono dopo.
+*****************************************************************************/
+
+.icon-entry span > a:not(:first-child),
+.teaching-entry__content > a:not(:first-child) {
+  &,
+  &:link,
+  &:visited,
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--global-text-color) !important;
+  }
+}
+
+/*****************************************************************************
 * Allineamento icone nelle liste (talks, teaching, supervision, RA)
 * La colonna dell'icona ha larghezza fissa in rem: non si restringe con i testi lunghi
 * e non cambia nelle righe secondarie più piccole, così tutti i testi partono dallo stesso punto.
