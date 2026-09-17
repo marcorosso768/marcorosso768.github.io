@@ -53,7 +53,7 @@ nav_order: 3
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <span class="course-title">Precorso di Econometria</span>
+        <span class="course-title">Corso di Allineamento in Econometria</span>
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
@@ -257,7 +257,7 @@ nav_order: 3
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <span class="course-title">Tutoring in Statistics and Data Analysis</span> con <a href='https://www.unibo.it/sitoweb/margherita.fort'>Margherita Fort</a>
+        <span class="course-title">Attività di Tutorato nell’Area Statistica e dei Dati</span> con <a href='https://www.unibo.it/sitoweb/margherita.fort'>Margherita Fort</a>
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">

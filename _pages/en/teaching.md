@@ -257,7 +257,7 @@ nav_order: 3
   <div class="teaching-entry indented">
     <div class="teaching-entry__row teaching-entry__row--title">
       <div class="teaching-entry__content">
-        <span class="course-title">Tutoring in Statistics and Data Analysis</span> with <a href='https://www.unibo.it/sitoweb/margherita.fort/en'>Margherita Fort</a>
+        <span class="course-title">Tutoring Activities in the Statistics and Data Area</span> with <a href='https://www.unibo.it/sitoweb/margherita.fort/en'>Margherita Fort</a>
       </div>
     </div>
     <div class="teaching-entry__row teaching-entry__row--course">
