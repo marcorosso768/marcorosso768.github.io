@@ -117,7 +117,7 @@ nav_order: 2
  <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">
-          66ª Riunione Scientifica Annuale della Società Italiana degli Economisti —
+          66ª Riunione Scientifica Annuale della Società Italiana di Economia —
           <span class="highlight"><i>Relatore e discussant</i></span>
       </div>
    </div>
