@@ -131,6 +131,8 @@ nav_order: 1
         joint with 
         <a href="https://sites.google.com/site/fabiocerina/" target="_blank" rel="noopener noreferrer">Fabio Cerina</a> 
         and <a href="https://sites.google.com/view/simonenobili/home" target="_blank" rel="noopener noreferrer">Simone Nobili</a>
+        <br>
+        <span class="paper-series">CRENoS Working Paper 26/13 · ISBN 978-88-6851-699-4</span>
       </span>
     </div>
   <div class="pill-container mt-2">
