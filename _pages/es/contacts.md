@@ -54,6 +54,11 @@ description: <i>Aquí se reúnen la información de contacto y los perfiles exte
   </div>
 
   <div class="icon-link indented">
+    <i class="fa-solid fa-school fa-fw"></i>
+    <a href="https://crenos.unica.it/index.php/marco-rosso" target="_blank" rel="noopener noreferrer">página personal en el sitio web de CRENoS</a>
+  </div>
+
+  <div class="icon-link indented">
     <i class="ai ai-orcid fa-fw"></i>
     <a href="https://orcid.org/0000-0002-3814-2210" target="_blank" rel="noopener noreferrer">ORCID</a>
   </div>
