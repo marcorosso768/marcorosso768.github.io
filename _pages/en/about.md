@@ -40,13 +40,14 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
+<div style="height: 1.5rem;"></div>
 <span style="font-family: 'Courier New', monospace; font-size:14px;">"I may not have gone where I intended to go, but I think I have ended up where I needed to be."</span>
 
 <div style="display: flex;">
     <div style="flex-grow:1;"></div>
     <span style="font-family: 'Courier New', monospace; font-size:12px;">Douglas Adams — The Long Dark Tea-Time of the Soul</span>
 </div>
-<div style="height: 2rem;"></div>
+<div style="height: 1.25rem;"></div>
 
 My <b style="color: $white-color;"><a href="/research/">research</a></b> focuses on
 <b style="color: $white-color;">Political Economy</b>,
