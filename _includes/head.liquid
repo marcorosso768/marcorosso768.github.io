@@ -6,14 +6,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<!-- Bootstrap & MDB -->
+<!-- Bootstrap + sottoinsieme di MDB usato dal sito (vedi assets/css/mdb-subset.css) -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
-<link
-  rel="stylesheet"
-  href="{{ site.third_party_libraries.mdb.url.css }}"
-  integrity="{{ site.third_party_libraries.mdb.integrity.css }}"
-  crossorigin="anonymous"
->
+<link rel="stylesheet" href="{{ '/assets/css/mdb-subset.css' | relative_url | bust_file_cache }}">
 
 <!-- Bootstrap Table -->
 {% if page.pretty_table %}
