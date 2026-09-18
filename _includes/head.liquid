@@ -23,6 +23,7 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/webfonts/fa-solid-900.woff2' | relative_url }}">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/fonts/tabler-icons.woff2' | relative_url }}?v3.0.1">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/fonts/roboto/roboto-latin-300.woff2' | relative_url }}">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/fonts/roboto/roboto-latin-400.woff2' | relative_url }}">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/fonts/roboto/roboto-latin-700.woff2' | relative_url }}">
 
 <!-- Fonts & Icons -->
@@ -33,7 +34,24 @@
   media="print"
   onload="this.media='all'"
 >
-<link rel="stylesheet" href="{{ '/assets/css/roboto.css' | relative_url | bust_file_cache }}">
+{% comment %}
+  Roboto in locale: le @font-face sono in linea perche' un foglio separato sarebbe
+  una richiesta bloccante in piu' sul percorso critico. I file sono in assets/fonts/roboto
+  (SIL Open Font License, licenza nella stessa cartella).
+{% endcomment %}
+{% capture roboto_range %}U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD{% endcapture %}
+<style>
+  {% for w in "300,400,500,700" | split: "," %}
+    @font-face {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: {{ w }};
+      font-display: swap;
+      src: url("{{ '/assets/fonts/roboto/roboto-latin-' | append: w | append: '.woff2' | relative_url }}") format("woff2");
+      unicode-range: {{ roboto_range }};
+    }
+  {% endfor %}
+</style>
 <noscript>
   <link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
 </noscript>
