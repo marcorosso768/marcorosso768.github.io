@@ -68,6 +68,28 @@ body.sticky-bottom-footer {
   max-width: $max-content-width;
 }
 
+/******************************************************************************
+ * Link di affiliazione nel sottotitolo
+ *
+ * Sono righe di testo da 10pt: l'area cliccabile sarebbe alta 16px, sotto i 24px
+ * richiesti da WCAG 2.5.8. Il padding la porta a 24px e il margine negativo lo
+ * compensa, così il testo non si sposta di un pixel. La prima riga cresce verso
+ * l'alto e la seconda verso il basso, per non sovrapporsi.
+ ******************************************************************************/
+
+.header-link {
+  display: inline-block;
+  padding-top: 8px;
+  margin-top: -8px;
+}
+
+.header-link--down {
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 8px;
+  margin-bottom: -8px;
+}
+
 // Profile
 .profile {
   img {

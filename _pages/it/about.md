@@ -15,13 +15,13 @@ subtitle: >
           <i class="fa-solid fa-building-columns fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
       </div>
       <div style="padding-left: 22px; margin-top: -10pt; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
-          <a href="https://www.unica.it">Università&nbsp;di&nbsp;Cagliari</a> | <a href="https://www.unibo.it/it">Università&nbsp;di&nbsp;Bologna</a>
+          <a class="header-link" href="https://www.unica.it">Università&nbsp;di&nbsp;Cagliari</a> | <a class="header-link" href="https://www.unibo.it/it">Università&nbsp;di&nbsp;Bologna</a>
       </div>
       <div style="display: inline-block; width: 13px; text-align: center; position: absolute; margin-top: 1px; line-height: 14pt;">
           <i class="fa-solid fa-school fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
       </div>
      <div style="padding-left: 22px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; margin-top: 2pt;">
-          <a href="https://crenos.unica.it">CRENoS <i>(Centro Ricerche Economiche Nord Sud)</i></a>
+          <a class="header-link header-link--down" href="https://crenos.unica.it">CRENoS <i>(Centro Ricerche Economiche Nord Sud)</i></a>
       </div>
   </div>
 
