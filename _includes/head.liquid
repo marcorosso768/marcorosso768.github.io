@@ -3,8 +3,6 @@
 
 <!-- Connessioni anticipate ai CDN (risparmiano il tempo di apertura della connessione) -->
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <!-- Bootstrap + sottoinsieme di MDB usato dal sito (vedi assets/css/mdb-subset.css) -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
@@ -24,6 +22,8 @@
 <!-- Preload dei font delle icone della barra di navigazione (evita che compaiano in ritardo) -->
 <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/webfonts/fa-solid-900.woff2' | relative_url }}">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/fonts/tabler-icons.woff2' | relative_url }}?v3.0.1">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/fonts/roboto/roboto-latin-300.woff2' | relative_url }}">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/fonts/roboto/roboto-latin-700.woff2' | relative_url }}">
 
 <!-- Fonts & Icons -->
 <!-- caricati senza bloccare la prima visualizzazione: le icone accademiche e il font compaiono appena pronti -->
@@ -33,26 +33,25 @@
   media="print"
   onload="this.media='all'"
 >
-<link
-  rel="stylesheet"
-  type="text/css"
-  href="{{ site.third_party_libraries.google_fonts.url.fonts }}"
-  media="print"
-  onload="this.media='all'"
->
+<link rel="stylesheet" href="{{ '/assets/css/roboto.css' | relative_url | bust_file_cache }}">
 <noscript>
   <link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
-  <link rel="stylesheet" href="{{ site.third_party_libraries.google_fonts.url.fonts }}">
 </noscript>
 
-<!-- Code Syntax Highlighting -->
-<link
-  defer
-  rel="stylesheet"
-  href="{{ '/assets/css/jekyll-pygments-themes-github.css' | relative_url | bust_file_cache }}"
-  media=""
-  id="highlight_theme_light"
->
+<!-- Code Syntax Highlighting: solo nelle pagine che contengono codice -->
+{% assign has_code = false %}
+{% if page.content contains '<pre' or page.content contains '```' or page.content contains 'language-' or page.pseudocode or page.code_diff %}
+  {% assign has_code = true %}
+{% endif %}
+{% if has_code %}
+  <link
+    defer
+    rel="stylesheet"
+    href="{{ '/assets/css/jekyll-pygments-themes-github.css' | relative_url | bust_file_cache }}"
+    media=""
+    id="highlight_theme_light"
+  >
+{% endif %}
 
 {% if page.toc and page.toc.sidebar %}
   <!-- Sidebar Table of Contents -->
@@ -126,13 +125,15 @@
   </script>
 {% endif %}
 {% if site.enable_darkmode %}
-  <link
-    defer
-    rel="stylesheet"
-    href="{{ '/assets/css/jekyll-pygments-themes-native.css' | relative_url | bust_file_cache }}"
-    media="none"
-    id="highlight_theme_dark"
-  >
+  {% if has_code %}
+    <link
+      defer
+      rel="stylesheet"
+      href="{{ '/assets/css/jekyll-pygments-themes-native.css' | relative_url | bust_file_cache }}"
+      media="none"
+      id="highlight_theme_dark"
+    >
+  {% endif %}
   <script>
     initTheme();
   </script>
