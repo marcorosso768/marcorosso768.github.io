@@ -40,7 +40,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<div style="height: 1.5rem;"></div>
 <span style="font-family: 'Courier New', monospace; font-size:14px;">"Potrei non essere arrivato dove avevo intenzione di andare, ma credo di essere finito dove avevo bisogno di essere."</span>
 
 <div style="display: flex;">

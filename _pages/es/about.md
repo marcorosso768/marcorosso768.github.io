@@ -34,7 +34,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<div style="height: 1.5rem;"></div>
 <span style="font-family: 'Courier New', monospace; font-size:14px;">"Puede que no haya llegado a donde tenía pensado ir, pero creo que terminé donde necesitaba estar."</span>
 
 <div style="display: flex;">
