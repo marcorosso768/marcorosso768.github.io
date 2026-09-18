@@ -626,7 +626,7 @@ $gap-vertical: 0.25em; // spazio tra le due righe
 
 .icon-entry i.fa-fw {
   margin-right: var(--icon-spacing);
-  margin-top: 0.05rem; // 3px
+  line-height: 1.5; // stessa interlinea del testo: l'icona resta centrata sulla prima riga
   color: var(--global-theme-color);
   flex-shrink: 0;
 }

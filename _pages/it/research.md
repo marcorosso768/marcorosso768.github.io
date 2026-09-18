@@ -25,7 +25,7 @@ nav_order: 1
   <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
-      <i class="fa-solid fa-file-lines fa-fw"></i>
+      <i class="fa-solid fa-newspaper fa-fw"></i>
       <span><i>In arrivo.</i></span>
     </div>
   </div>
