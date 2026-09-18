@@ -9,45 +9,7 @@ nav: true
 nav_order: 1
 ---
 
-<!-- Publications Section
-<div class="projects">
-  <a href="#content-0" onclick="toggleVisibility('content-0'); return false;">
-    <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
-      <span>pubblicazioni</span>
-    </h2>
-  </a>
-</div>
-
-<!-- Content
-<div id="content-0" class="toggle-section expanded">
-
-  <!-- Paper
-  <div class="entry-block">
-    <div class="icon-entry indented">
-      <i class="fa-solid fa-newspaper fa-fw"></i>
-      <span>
-        Farina E., Rosso M., Dansero L., et al. (2023).
-        <a href="https://doi.org/10.1136/jech-2022-220088" target="_blank" rel="noopener noreferrer">
-          Short-term effect of colorectal cancer on income: analysis of an Italian cohort.
-        </a>
-        <i>Journal of Epidemiology & Community Health</i>, 77:196–201.
-      </span>
-    </div>
-    <div class="pill-container">
-      <div class="pill-button toggle-pill" data-target="abstract-crc">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Abstract</span>
-      </div>
-    </div>
-    <div id="abstract-crc" class="toggle-box">
-      <b>Introduction</b> The ability to return to work after a cancer diagnosis is a key aspect of cancer survivorship and quality of life. Studies have reported a significant risk of income loss for cancer survivors; however, there is limited evidence of the Italian context. <br> <b>Methods</b> The Work Histories Italian Panel (WHIP)-Salute database was used to select a cohort of incident cases of colorectal cancer (CRC) among workers in the private sector, based on hospital discharges. A propensity score matching was used to find a balanced control group for several confounders. Ordinary least square and logistic regressions were used to estimate the effect of a CRC diagnosis on annual income and the probability of switching from a full-time contract to a part-time one considering 3 years after the diagnosis. <br> <b>Results</b> Overall, we identified 925 CRC incident cases from 2006 until 2012. Our results confirm a statistically significant reduction in survivors’ income compared with controls. This reduction was greater in the first year and then tend to decrease, with an average income loss over 3 years of about €12 000. Stratified analyses by sex and position confirmed the overall trend while indicating a strong effect modification. Regarding the switching from full-time to part-time employment, the results were never significant. <br> <b>Conclusion</b> Income loss does not seem to be related to an increase in part-time contracts, but rather to survivors’ reduced work capacity following the invasive treatments. Further research is needed to investigate the complex dynamics behind this association.
-    </div>
-  </div>
-
-</div> -->
-
-<!-- JMP Section
+<!-- JMP Section -->
 <div class="projects">
   <a href="#content-1" onclick="toggleVisibility('content-1'); return false;">
     <h2 class="category">
@@ -55,51 +17,20 @@ nav_order: 1
       <span>job market paper</span>
     </h2>
   </a>
-</div> -->
+</div>
 
-<!-- Content
-<div id="content-1" class="toggle-section expanded"> -->
+<!-- Content -->
+<div id="content-1" class="toggle-section expanded">
 
-<!-- Paper
+  <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-file-lines fa-fw"></i>
-      <span>
-        <em>Crime Perception and Voting Behavior: Evidence from Individual Data</em><br>
-          con
-          <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer"> Giovanni Prarolo</a>
-      </span>
-    </div>
-    <div class="pill-container">
-      <div class="pill-button toggle-pill" data-target="abstract-crime">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Abstract</span>
-      </div>
-      <div class="pill-button toggle-pill" data-target="keywords-crime">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Parole chiave</span>
-      </div>
-      <div class="pill-button toggle-pill" data-target="jel-crime">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">JEL</span>
-      </div>
-      <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" class="pill-link no-external">
-        <i class="fa-solid fa-file-lines fa-2xs"></i>
-        <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Working Paper</span>
-      </a>
-      </div>
-    <div id="abstract-crime" class="toggle-box">
-     Questo lavoro analizza se l’esposizione a notizie di cronaca geolocalizzate modifichi il comportamento di voto individuale nelle elezioni italiane. Utilizzando un panel di elettori bolognesi che non cambiano residenza, osservati in più tornate elettorali, sfruttiamo la variazione intra-individuale nell’esposizione a notizie di cronaca vicine alla residenza nel mese precedente il voto, controllando per effetti fissi individuali e di elezione. L’esposizione aggregata alle notizie di cronaca produce associazioni deboli e imprecise. La disaggregazione per nazionalità percepita dell’autore del reato rivela invece una netta asimmetria. Nelle elezioni nazionali, l’esposizione a notizie di reati attribuiti a immigrati vicino alla residenza dell’elettore è associata a un calo intra-individuale di circa 2 punti percentuali nel sostegno al Movimento Cinque Stelle, il principale partito senza una posizione chiara sull’immigrazione nel periodo considerato, e a un aumento comparabile dell’astensione; le notizie di reati attribuiti a cittadini italiani non mostrano un’associazione analoga. La risposta è specifica al contenuto criminale: notizie locali comparabili non legate alla cronaca non producono spostamenti analoghi. Queste risposte asimmetriche, assenti nelle misure aggregate, sono più coerenti con un segnale di nazionalità nella cronaca che attiva un frame immigrazione-sicurezza che con una reazione uniforme alla salienza del crimine. L’evidenza indica che a contare per il comportamento elettorale è l’attribuzione del reato nelle notizie locali, più che il suo semplice verificarsi. Un test di falsificazione sui tempi conferma la lettura legata alla campagna elettorale, ma è sensibile al classificatore della nazionalità dell’autore; interpretiamo quindi le stime come associazioni, con una replicazione su fonti diverse in corso per chiarire l’interpretazione causale.
-    </div>
-    <div id="keywords-crime" class="toggle-box">
-       criminalità; immigrazione; elezioni; mezzi di informazione; comportamento di voto individuale.
-    </div>
-    <div id="jel-crime" class="toggle-box">
-       D72; D83; K42; L82.
+      <span><i>In arrivo.</i></span>
     </div>
   </div>
 
-</div> -->
+</div>
 
 <!-- Working Papers Section -->
 <div class="projects">

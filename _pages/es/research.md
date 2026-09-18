@@ -9,45 +9,7 @@ nav: true
 nav_order: 1
 ---
 
-<!-- Publications Section
-<div class="projects">
-  <a href="#content-0" onclick="toggleVisibility('content-0'); return false;">
-    <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
-      <span>publicaciones</span>
-    </h2>
-  </a>
-</div>
-
-<!-- Content
-<div id="content-0" class="toggle-section expanded">
-
-  <!-- Paper
-  <div class="entry-block">
-    <div class="icon-entry indented">
-      <i class="fa-solid fa-newspaper fa-fw"></i>
-      <span>
-        Farina E., Rosso M., Dansero L., et al. (2023).
-        <a href="https://doi.org/10.1136/jech-2022-220088" target="_blank" rel="noopener noreferrer">
-          Short-term effect of colorectal cancer on income: analysis of an Italian cohort.
-        </a>
-        <i>Journal of Epidemiology & Community Health</i>, 77:196–201.
-      </span>
-    </div>
-    <div class="pill-container">
-      <div class="pill-button toggle-pill" data-target="abstract-crc">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Abstract</span>
-      </div>
-    </div>
-    <div id="abstract-crc" class="toggle-box">
-    <b>Introduction</b> The ability to return to work after a cancer diagnosis is a key aspect of cancer survivorship and quality of life. Studies have reported a significant risk of income loss for cancer survivors; however, there is limited evidence of the Italian context. <br> <b>Methods</b> The Work Histories Italian Panel (WHIP)-Salute database was used to select a cohort of incident cases of colorectal cancer (CRC) among workers in the private sector, based on hospital discharges. A propensity score matching was used to find a balanced control group for several confounders. Ordinary least square and logistic regressions were used to estimate the effect of a CRC diagnosis on annual income and the probability of switching from a full-time contract to a part-time one considering 3 years after the diagnosis. <br> <b>Results</b> Overall, we identified 925 CRC incident cases from 2006 until 2012. Our results confirm a statistically significant reduction in survivors’ income compared with controls. This reduction was greater in the first year and then tend to decrease, with an average income loss over 3 years of about €12 000. Stratified analyses by sex and position confirmed the overall trend while indicating a strong effect modification. Regarding the switching from full-time to part-time employment, the results were never significant. <br> <b>Conclusion</b> Income loss does not seem to be related to an increase in part-time contracts, but rather to survivors’ reduced work capacity following the invasive treatments. Further research is needed to investigate the complex dynamics behind this association.
-    </div>
-  </div>
-
-</div> -->
-
-<!-- JMP Section
+<!-- JMP Section -->
 <div class="projects">
   <a href="#content-1" onclick="toggleVisibility('content-1'); return false;">
     <h2 class="category">
@@ -55,51 +17,20 @@ nav_order: 1
       <span>job market paper</span>
     </h2>
   </a>
-</div> -->
+</div>
 
-<!-- Content
-<div id="content-1" class="toggle-section expanded"> -->
+<!-- Content -->
+<div id="content-1" class="toggle-section expanded">
 
-<!-- Paper
+  <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-file-lines fa-fw"></i>
-      <span>
-        <em>Crime Perception and Voting Behavior: Evidence from Individual Data</em><br>
-          junto con
-          <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer"> Giovanni Prarolo</a>
-      </span>
-    </div>
-    <div class="pill-container">
-      <div class="pill-button toggle-pill" data-target="abstract-crime">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Abstract</span>
-      </div>
-      <div class="pill-button toggle-pill" data-target="keywords-crime">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Palabras clave</span>
-      </div>
-      <div class="pill-button toggle-pill" data-target="jel-crime">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">JEL</span>
-      </div>
-      <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" class="pill-link no-external">
-        <i class="fa-solid fa-file-lines fa-2xs"></i>
-        <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Working Paper</span>
-      </a>
-      </div>
-    <div id="abstract-crime" class="toggle-box">
-    Este trabajo estudia cómo la exposición a noticias policiales geolocalizadas moldea el comportamiento electoral individual en las elecciones italianas. A partir de un panel de votantes que no cambian de residencia, observados a lo largo de varias rondas electorales, explotamos la variación intraindividual en la exposición a noticias policiales cercanas durante el mes previo a la elección, controlando por efectos fijos individuales y de distrito por elección. La exposición agregada arroja efectos débiles e inestables. Al desagregar por nacionalidad del autor del delito surgen patrones sistemáticos: las noticias de delitos atribuidos a personas inmigrantes reducen el apoyo a los partidos con posiciones ambiguas sobre inmigración (por ejemplo, el Movimiento Cinco Estrellas) y aumentan el apoyo a los partidos con un discurso claro de "mano dura", mientras que los delitos atribuidos a personas italianas tienen efectos insignificantes. Los efectos son más fuertes entre votantes de alta calificación que abandonan el M5S y votantes de baja calificación que abandonan la Lega. En las elecciones locales, el delito atribuido a italianos castiga a quienes gobiernan, mientras que el delito atribuido a inmigrantes aumenta la abstención. Estas respuestas asimétricas, ausentes en las medidas agregadas, indican que la saliencia del delito opera principalmente a través de un encuadre identitario y no de una preocupación generalizada por el delito o la seguridad. Los resultados muestran cómo la atribución mediática moldea la rendición de cuentas electoral.
-    </div>
-    <div id="keywords-crime" class="toggle-box">
-    crimen; inmigración; elecciones; medios de comunicación; comportamiento electoral individual.
-    </div>
-    <div id="jel-crime" class="toggle-box">
-    D72; D83; K42; L82.
+      <span><i>Próximamente.</i></span>
     </div>
   </div>
 
-</div> -->
+</div>
 
 <!-- Working Papers Section -->
 <div class="projects">
