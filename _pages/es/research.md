@@ -3,17 +3,18 @@ page_id: research
 layout: page
 permalink: /investigación/
 title: investigación
-description: <i>Mi programa de investigación desarrolla marcos teóricos rigurosos y verificables — basados en incentivos, fricciones de información y selección — con el objetivo de clarificar los mecanismos antes de analizar sus implicancias empíricas. En el plano empírico, utilizo pipelines reproducibles de extremo a extremo que combinan web scraping y procesamiento del lenguaje natural (NLP) con geocodificación y construcción de datos panel. Mi flujo de trabajo se apoya principalmente en Python, Stata y herramientas espaciales como QGIS (y, cuando corresponde, R).</i>
+description: <i>Mi investigación desarrolla nuevos modelos teóricos de incentivos, fricciones informativas y selección, y lleva sus implicancias a los datos. En el plano empírico, construyo flujos de trabajo reproducibles que combinan registros administrativos, web scraping y análisis de texto, y geocodificación para estudiar la participación política, el crimen y los mercados laborales.</i>
+meta_description: "Modelos teóricos de incentivos, fricciones informativas y selección, contrastados con datos administrativos, geocodificados y textuales."
 nav: true
 nav_order: 1
 ---
 
-<!-- Sección de Publicaciones
+<!-- Publications Section
 <div class="projects">
   <a href="#content-0" onclick="toggleVisibility('content-0'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-0"></i>
-      <span>publications</span>
+      <span>publicaciones</span>
     </h2>
   </a>
 </div>
@@ -28,7 +29,7 @@ nav_order: 1
       <span>
         Farina E., Rosso M., Dansero L., et al. (2023).
         <a href="https://doi.org/10.1136/jech-2022-220088" target="_blank" rel="noopener noreferrer">
-          Short-term effect of colorectal cancer on income.
+          Short-term effect of colorectal cancer on income: analysis of an Italian cohort.
         </a>
         <i>Journal of Epidemiology & Community Health</i>, 77:196–201.
       </span>
@@ -40,13 +41,13 @@ nav_order: 1
       </div>
     </div>
     <div id="abstract-crc" class="toggle-box">
-      <b>Introduction</b> The ability to return to work after a cancer diagnosis is a key aspect of cancer survivorship and quality of life. Studies have reported a significant risk of income loss for cancer survivors; however, there is limited evidence of the Italian context. <br> <b>Methods</b> The Work Histories Italian Panel (WHIP)-Salute database was used to select a cohort of incident cases of colorectal cancer (CRC) among workers in the private sector, based on hospital discharges. A propensity score matching was used to find a balanced control group for several confounders. Ordinary least square and logistic regressions were used to estimate the effect of a CRC diagnosis on annual income and the probability of switching from a full-time contract to a part-time one considering 3 years after the diagnosis. <br> <b>Results</b> Overall, we identified 925 CRC incident cases from 2006 until 2012. Our results confirm a statistically significant reduction in survivors’ income compared with controls. This reduction was greater in the first year and then tend to decrease, with an average income loss over 3 years of about €12 000. Stratified analyses by sex and position confirmed the overall trend while indicating a strong effect modification. Regarding the switching from full-time to part-time employment, the results were never significant. <br> <b>Conclusion</b> Income loss does not seem to be related to an increase in part-time contracts, but rather to survivors’ reduced work capacity following the invasive treatments. Further research is needed to investigate the complex dynamics behind this association.
+    <b>Introduction</b> The ability to return to work after a cancer diagnosis is a key aspect of cancer survivorship and quality of life. Studies have reported a significant risk of income loss for cancer survivors; however, there is limited evidence of the Italian context. <br> <b>Methods</b> The Work Histories Italian Panel (WHIP)-Salute database was used to select a cohort of incident cases of colorectal cancer (CRC) among workers in the private sector, based on hospital discharges. A propensity score matching was used to find a balanced control group for several confounders. Ordinary least square and logistic regressions were used to estimate the effect of a CRC diagnosis on annual income and the probability of switching from a full-time contract to a part-time one considering 3 years after the diagnosis. <br> <b>Results</b> Overall, we identified 925 CRC incident cases from 2006 until 2012. Our results confirm a statistically significant reduction in survivors’ income compared with controls. This reduction was greater in the first year and then tend to decrease, with an average income loss over 3 years of about €12 000. Stratified analyses by sex and position confirmed the overall trend while indicating a strong effect modification. Regarding the switching from full-time to part-time employment, the results were never significant. <br> <b>Conclusion</b> Income loss does not seem to be related to an increase in part-time contracts, but rather to survivors’ reduced work capacity following the invasive treatments. Further research is needed to investigate the complex dynamics behind this association.
     </div>
   </div>
 
 </div> -->
 
-<!-- JMP Section -->
+<!-- JMP Section
 <div class="projects">
   <a href="#content-1" onclick="toggleVisibility('content-1'); return false;">
     <h2 class="category">
@@ -54,25 +55,25 @@ nav_order: 1
       <span>job market paper</span>
     </h2>
   </a>
-</div>
+</div> -->
 
-<!-- Content -->
-<div id="content-1" class="toggle-section expanded">
+<!-- Content
+<div id="content-1" class="toggle-section expanded"> -->
 
- <!-- Paper -->
+<!-- Paper
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-file-lines fa-fw"></i>
       <span>
         <em>Crime Perception and Voting Behavior: Evidence from Individual Data</em><br>
-          con
+          junto con
           <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer"> Giovanni Prarolo</a>
       </span>
     </div>
     <div class="pill-container">
       <div class="pill-button toggle-pill" data-target="abstract-crime">
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Resumen</span>
+        <span class="toggle-label">Abstract</span>
       </div>
       <div class="pill-button toggle-pill" data-target="keywords-crime">
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
@@ -83,24 +84,24 @@ nav_order: 1
         <span class="toggle-label">JEL</span>
       </div>
       <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" class="pill-link no-external">
-        <i class="fa-regular fa-newspaper fa-2xs"></i>
-        <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Paper</span>
+        <i class="fa-solid fa-file-lines fa-2xs"></i>
+        <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Working Paper</span>
       </a>
-    </div>
+      </div>
     <div id="abstract-crime" class="toggle-box">
-     Este trabajo analiza cómo la exposición a noticias geolocalizadas vinculadas al crimen moldea el comportamiento de voto individual en las elecciones italianas. Utilizando un panel de votantes no relocados observados a lo largo de múltiples rondas electorales, explotamos la variación intra-individual en la exposición a noticias criminales ocurridas cerca del domicilio durante el mes preelectoral, controlando por efectos fijos individuales y de distrito-por-elección. La exposición agregada muestra efectos débiles e inestables. En cambio, la desagregación por nacionalidad del autor del delito revela patrones sistemáticos: las noticias sobre delitos atribuidos a inmigrantes reducen el apoyo a partidos con posturas ambiguas sobre inmigración (p. ej., el Movimiento Cinco Estrellas) y aumentan el respaldo a partidos con una clara orientación de "law-and-order", mientras que los delitos atribuidos a italianos presentan efectos despreciables. Los efectos son más intensos entre votantes de alta calificación que se desplazan desde el M5S y entre votantes de baja calificación que abandonan la Lega. En elecciones locales, los delitos cometidos por italianos castigan a los incumbents, mientras que los delitos atribuidos a inmigrantes incrementan la abstención. Estas respuestas asimétricas — ausentes en las medidas agregadas — indican que la saliencia del crimen opera principalmente a través de un framing identitario y no mediante preocupaciones generalizadas sobre crimen o seguridad. Los resultados destacan cómo la atribución mediática moldea la rendición de cuentas electoral.
+    Este trabajo estudia cómo la exposición a noticias policiales geolocalizadas moldea el comportamiento electoral individual en las elecciones italianas. A partir de un panel de votantes que no cambian de residencia, observados a lo largo de varias rondas electorales, explotamos la variación intraindividual en la exposición a noticias policiales cercanas durante el mes previo a la elección, controlando por efectos fijos individuales y de distrito por elección. La exposición agregada arroja efectos débiles e inestables. Al desagregar por nacionalidad del autor del delito surgen patrones sistemáticos: las noticias de delitos atribuidos a personas inmigrantes reducen el apoyo a los partidos con posiciones ambiguas sobre inmigración (por ejemplo, el Movimiento Cinco Estrellas) y aumentan el apoyo a los partidos con un discurso claro de "mano dura", mientras que los delitos atribuidos a personas italianas tienen efectos insignificantes. Los efectos son más fuertes entre votantes de alta calificación que abandonan el M5S y votantes de baja calificación que abandonan la Lega. En las elecciones locales, el delito atribuido a italianos castiga a quienes gobiernan, mientras que el delito atribuido a inmigrantes aumenta la abstención. Estas respuestas asimétricas, ausentes en las medidas agregadas, indican que la saliencia del delito opera principalmente a través de un encuadre identitario y no de una preocupación generalizada por el delito o la seguridad. Los resultados muestran cómo la atribución mediática moldea la rendición de cuentas electoral.
     </div>
     <div id="keywords-crime" class="toggle-box">
-       crimen; inmigración; elecciones; medios de comunicación; comportamiento de voto individual.
+    crimen; inmigración; elecciones; medios de comunicación; comportamiento electoral individual.
     </div>
     <div id="jel-crime" class="toggle-box">
-       D72; D83; K42; L82.
+    D72; D83; K42; L82.
     </div>
   </div>
 
-</div>
+</div> -->
 
-<!-- Sección de Documentos de Trabajo -->
+<!-- Working Papers Section -->
 <div class="projects">
   <a href="#content-2" onclick="toggleVisibility('content-2'); return false;">
     <h2 class="category">
@@ -113,18 +114,71 @@ nav_order: 1
 <!-- Content -->
 <div id="content-2" class="toggle-section expanded">
 
+ <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-newspaper fa-fw" title="Working paper"></i>
+      <span>
+	<a href="https://crenos.unica.it/sites/default/files/2026-07/WP26-13_0.pdf" target="_blank" rel="noopener noreferrer">
+          Generative AI and Posted Labor Demand: Volume, Seniority and Timing
+        </a>
+        <br>
+        junto con
+        <a href="https://sites.google.com/site/fabiocerina/" target="_blank" rel="noopener noreferrer">Fabio Cerina</a> 
+        y <a href="https://sites.google.com/view/simonenobili/home" target="_blank" rel="noopener noreferrer">Simone Nobili</a>
+        <br>
+        <span class="paper-series">CRENoS Working Paper 26/13 · ISBN 978-88-6851-699-4</span>
+      </span>
+    </div>
+  <div class="pill-container mt-2">
+       <a href="https://crenos.unica.it/bibcite/reference/8766" class="pill-link no-external">
+        <i class="fa-solid fa-file-lines fa-2xs"></i>
+        <span class="toggle-label" title="CRENoS Working Paper 26/13">Working Paper</span>
+       </a>
+      <div class="pill-button toggle-pill" data-target="abstract-ai">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Abstract</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="keywords-ai">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Palabras clave</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="jel-ai">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">JEL</span>
+      </div>
+  </div>
+    <div id="abstract-ai" class="toggle-box">
+    Estudiamos cómo el lanzamiento de ChatGPT afectó la demanda laboral publicada en Estados Unidos, utilizando 368 millones de avisos de empleo de Lightcast (2016–2025) y una medida de exposición a los LLM anclada en el uso efectivo. Si bien encontramos un efecto negativo y causal sobre el volumen de avisos en las ocupaciones expuestas a la IA, no hallamos ningún efecto posterior al lanzamiento sobre su composición por antigüedad. Después de noviembre de 2022, el volumen de avisos en las ocupaciones del cuartil superior de exposición se contrae 9 puntos logarítmicos (aproximadamente 8,6 por ciento) respecto de las ocupaciones menos expuestas dentro del mismo mercado metropolitano y mes. La estimación resiste una amplia batería de controles de robustez y se concentra en el uso medido de los LLM más que en la capacidad de la IA. En las ocupaciones expuestas, los avisos junior caen bastante más que los senior tras el lanzamiento, pero la divergencia es anterior a ChatGPT: se abre en 2021–22, durante la recuperación de la COVID, y no muestra un quiebre en el momento del lanzamiento. El diferencial que una simple comparación antes/después atribuiría a ChatGPT queda absorbido por la exposición predeterminada al trabajo remoto. Nuestros resultados advierten contra leer las caídas en puestos de entrada basadas en la exposición como evidencia de un cambio tecnológico sesgado por antigüedad impulsado por la IA.
+    </div>
+    <div id="keywords-ai" class="toggle-box">
+    IA generativa; ChatGPT; demanda laboral; antigüedad; avisos de empleo; diferencias en diferencias.
+    </div>
+    <div id="jel-ai" class="toggle-box">
+    J23, J24, O33, M51.
+    </div>
+  </div>
+
 <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
-      <i class="fa-solid fa-file-lines fa-fw" title="Working paper"></i>
+      <i class="fa-solid fa-newspaper fa-fw" title="Working paper"></i>
       <span>
-        <em>The Tipping Point of Temptation: Occupational Selection and Integrity in the Public Sector</em>
+        The Tipping Point of Temptation: Corruption and Selection into Public Service
       </span>
     </div>
-    <div class="pill-container">
+    <div class="pill-container mt-2">
+      <a 
+  href="mailto:marco.rosso4@unibo.it
+        ?subject=Solicitud%20de%20borrador%20-%20The%20Tipping%20Point%20of%20Temptation%3A%20Corruption%20and%20Selection%20into%20Public%20Service
+        &body=Hola%20Marco%3A%0D%0A%0D%0AQuisiera%20pedirte%20el%20borrador%20de%20tu%20documento%20de%20trabajo%20%E2%80%9CThe%20Tipping%20Point%20of%20Temptation%3A%20Corruption%20and%20Selection%20into%20Public%20Service%E2%80%9D.%0D%0A%0D%0A%C2%A1Gracias%21%0D%0A"
+  class="pill-link no-external">
+        <i class="fa-solid fa-file-lines fa-2xs"></i>
+        <span class="toggle-label" title="Borrador disponible a pedido">Borrador</span>
+      </a>
       <div class="pill-button toggle-pill" data-target="abstract-corruption">
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Resumen</span>
+        <span class="toggle-label">Abstract</span>
       </div>
       <div class="pill-button toggle-pill" data-target="keywords-corruption">
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
@@ -134,39 +188,77 @@ nav_order: 1
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">JEL</span>
       </div>
-      <a 
-  href="mailto:marco.rosso4@unibo.it
-        ?subject=Solicitud%20de%20borrador%20-%20The%20Tipping%20Point%20of%20Temptation%3A%20Occupational%20Selection%20and%20Integrity%20in%20the%20Public%20Sector
-        &body=Estimado%20Marco,%0D%0A%0D%0Ame%20gustar%C3%ADa%20solicitar%20el%20borrador%20de%20tu%20paper%20%E2%80%9CThe%20Tipping%20Point%20of%20Temptation%3A%20Occupational%20Selection%20and%20Integrity%20in%20the%20Public%20Sector%E2%80%9D.%0D%0A%0D%0A%C2%A1Gracias!%0D%0A"
-  class="pill-link no-external">
-        <i class="fa-regular fa-newspaper fa-2xs"></i>
-        <span class="toggle-label" title="Borrador a pedido">Paper</span>
-      </a>
     </div>
     <div id="abstract-corruption" class="toggle-box">
-      Este trabajo desarrolla una teoría comportamental de la selección ocupacional basada en costos endógenos de autocontrol, abordando la persistente ambigüedad empírica en torno a la calidad de la fuerza laboral del sector público en entornos caracterizados por corrupción y fricciones morales. El marco integra costos de autocontrol y tentación en un modelo estándar de elección ocupacional, apoyándose en la estructura de utilidad de Gul y Pesendorfer (2001). Mostramos que los agentes intrínsecamente motivados (honestos) enfrentan costos psicológicos desproporcionadamente más altos al resistir la tentación, lo que genera un doble efecto de selección: los individuos con baja motivación son atraídos al empleo público, mientras que los altamente motivados se ven crecientemente disuadidos.
-Para disciplinar estas fuerzas contrapuestas, el análisis establece tres principios generales que gobiernan la selección institucional, respaldados por derivaciones analíticas y argumentos generales de selección bajo condiciones de regularidad débiles. Se muestra que estos principios se extienden más allá del entorno de referencia y se mantienen bajo supuestos de regularidad débiles sobre la distribución conjunta de habilidad y honestidad. En primer lugar, identificamos un punto crítico institucional, &lambda;<sup>*</sup>, que determina el régimen de selección: por debajo de dicho umbral, la corrupción deteriora la calidad de la fuerza laboral <i>("más pero peor")</i>; por encima, la corrupción actúa como un severo mecanismo de screening, mejorando la calidad promedio <i>("menos pero mejor")</i>. En segundo lugar, mostramos que los resultados de selección dependen de manera fundamental de la correlación social entre habilidad y honestidad. En tercer lugar, el modelo ofrece una justificación novedosa para salarios elevados en el sector público, demostrando que remuneraciones suficientemente altas atenúan el poder selectivo de la corrupción al proteger a los agentes altamente motivados de los costos de autocontrol. En conjunto, el trabajo clarifica los mecanismos que moldean la composición de la fuerza laboral en entornos con fricciones morales y contribuye a la literatura sobre selección ocupacional, motivación por el servicio público y diseño institucional.
+    ¿Por qué la corrupción puede atraer al servicio público a trabajadores deshonestos y, al mismo tiempo, disuadir a los honestos? Incorporamos el autocontrol a la elección ocupacional. Los agentes de baja integridad entran por las rentas de corrupción, los de alta integridad permanecen ajenos a la tentación y los intermedios resisten a un costo en utilidad. Esto genera un déficit interior en la frontera de entrada, a diferencia de los patrones de selección que producen los modelos de referencia de reputación y de Roy considerados aquí. El mecanismo distingue la prevención de rentas de las sanciones diferidas. Manteniendo fijo el pago de compromiso, la prevención aumenta débilmente la entrada y reduce la masa y la proporción de entrantes corruptos respecto de las sanciones, porque la tentación subpondera el castigo diferido. Bajo tentación severa, la prevención produce un doble dividendo en el caso de referencia uniforme: menos corrupción y más empleo público. En el modelo lineal, la geometría genera umbrales de quiebre distintos para el empleo público y para la integridad promedio. Ambos convergen a 1&nbsp;+&nbsp;√2 cuando las rentas se anulan bajo distribuciones conjuntas de tipos regulares. Para rentas positivas suficientemente pequeñas, el umbral de integridad se ubica por encima del umbral de empleo, lo que crea una región en la que el empleo se contrae mientras la integridad se deteriora. Solo el umbral de empleo permanece exactamente en 1&nbsp;+&nbsp;√2 en el caso de referencia uniforme independiente. La frontera con dos quiebres también identifica los parámetros de tentación bajo las condiciones de soporte enunciadas y con medidas cardinales conmensurables de integridad y de oportunidades externas, observadas junto con la entrada efectiva. Los experimentos existentes ofrecen una motivación descriptiva, pero no implementan esta prueba estructural.
     </div>
     <div id="keywords-corruption" class="toggle-box">
-      selección ocupacional; autocontrol y tentación; corrupción; mercados laborales del sector público; diseño institucional.
+    selección ocupacional; autocontrol y tentación; corrupción; reputación y autoimagen; mercados laborales del sector público; diseño institucional.
     </div>
     <div id="jel-corruption" class="toggle-box">
-       D73; J45; D90; H83.
+    D73, J45, D90, H83.
     </div>
   </div>
 
-  <!-- Paper  -->
+<!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
-      <i class="fa-solid fa-file-lines fa-fw"></i>
+      <i class="fa-solid fa-newspaper fa-fw" title="Working paper"></i>
       <span>
-        <em>Parenthood, Age, and the Opportunity Cost of Voting: Evidence from Administrative Voter Records</em>
+        Crime Perception and Voting Behavior: Evidence from Individual Data<br>
+          junto con
+          <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer"> Giovanni Prarolo</a>
       </span>
     </div>
-    <div class="pill-container">
+    <div class="pill-container mt-2">
+	      <a href="/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf" class="pill-link no-external">
+        <i class="fa-solid fa-file-lines fa-2xs"></i>
+        <span class="toggle-label" title="Crime Perception and Voting Behavior: Evidence from Individual Data">Working Paper</span>
+      </a>
+      <div class="pill-button toggle-pill" data-target="abstract-crime">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Abstract</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="keywords-crime">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">Palabras clave</span>
+      </div>
+      <div class="pill-button toggle-pill" data-target="jel-crime">
+        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        <span class="toggle-label">JEL</span>
+      </div>
+    </div>
+    <div id="abstract-crime" class="toggle-box">
+    Este trabajo analiza si la exposición a noticias policiales geolocalizadas modifica el comportamiento electoral individual en las elecciones italianas. A partir de un panel de votantes boloñeses que no cambian de residencia, observados a lo largo de varias rondas electorales, explotamos la variación intraindividual en la exposición a noticias policiales cercanas durante el mes previo a la elección, manteniendo constantes los efectos fijos individuales y de elección. La exposición agregada a noticias policiales arroja asociaciones débiles e imprecisas. La desagregación por nacionalidad percibida del autor del delito revela una asimetría marcada. En las elecciones nacionales, la exposición a noticias de delitos atribuidos a personas inmigrantes cerca del domicilio de quien vota se asocia con una caída intraindividual de alrededor de 2 puntos porcentuales en el apoyo al Movimiento Cinco Estrellas, el mayor partido sin una posición clara sobre inmigración durante el período analizado, y con un aumento comparable de la abstención; las noticias de delitos atribuidos a ciudadanos italianos no presentan una asociación comparable. La respuesta es específica del contenido policial: noticias locales comparables ajenas al delito no producen ningún desplazamiento análogo. Estas respuestas asimétricas, ausentes en las medidas agregadas, resultan más compatibles con una señal de nacionalidad en la cobertura policial que activa un encuadre de inmigración y seguridad que con una reacción uniforme a la saliencia del delito. La evidencia señala que lo que importa para el comportamiento electoral es la atribución del delito en las noticias locales, más que su mera ocurrencia. Una falsificación temporal respalda la lectura ligada a la ventana de campaña, pero es sensible al clasificador de nacionalidad del autor; en consecuencia, leemos las estimaciones como asociaciones, con una replicación en fuentes alternativas en curso para resolver la interpretación causal.
+    </div>
+    <div id="keywords-crime" class="toggle-box">
+    crimen; inmigración; elecciones; medios de comunicación; comportamiento electoral individual.
+    </div>
+    <div id="jel-crime" class="toggle-box">
+    D72, D83, K42, L82.
+    </div>
+  </div>
+
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-newspaper fa-fw" title="Working paper"></i>
+      <span>
+        Childbirth and the Erosion of the Female Turnout Advantage
+      </span>
+    </div>
+    <div class="pill-container mt-2">
+	      <a 
+  href="mailto:marco.rosso4@unibo.it
+        ?subject=Solicitud%20de%20borrador%20-%20Childbirth%20and%20the%20Erosion%20of%20the%20Female%20Turnout%20Advantage
+        &body=Hola%20Marco%3A%0D%0A%0D%0AQuisiera%20pedirte%20el%20borrador%20de%20tu%20documento%20de%20trabajo%20%E2%80%9CChildbirth%20and%20the%20Erosion%20of%20the%20Female%20Turnout%20Advantage%E2%80%9D.%0D%0A%0D%0A%C2%A1Gracias%21%0D%0A"
+  class="pill-link no-external">
+        <i class="fa-solid fa-file-lines fa-2xs"></i>
+        <span class="toggle-label" title="Borrador disponible a pedido">Borrador</span>
+      </a>
       <div class="pill-button toggle-pill" data-target="abstract-ageturnout">
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Resumen</span>
+        <span class="toggle-label">Abstract</span>
       </div>
       <div class="pill-button toggle-pill" data-target="keywords-ageturnout">
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
@@ -176,43 +268,43 @@ Para disciplinar estas fuerzas contrapuestas, el análisis establece tres princi
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">JEL</span>
       </div>
-      <a 
-  href="mailto:marco.rosso4@unibo.it
-        ?subject=Solicitud%20de%20borrador%20-%20Parenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records
-        &body=Estimado%20Marco,%0D%0A%0D%0Ame%20gustar%C3%ADa%20solicitar%20el%20borrador%20de%20tu%20paper%20%E2%80%9CParenthood%2C%20Age%2C%20and%20the%20Opportunity%20Cost%20of%20Voting%3A%20Evidence%20from%20Administrative%20Voter%20Records%E2%80%9D.%0D%0A%0D%0A%C2%A1Gracias!%0D%0A"
-  class="pill-link no-external">
-        <i class="fa-regular fa-newspaper fa-2xs"></i>
-        <span class="toggle-label" title="Borrador a pedido">Paper</span>
-      </a>
     </div>
     <div id="abstract-ageturnout" class="toggle-box">
-     Este trabajo analiza cómo la parentalidad y la edad de los padres se asocian con la participación electoral utilizando un amplio panel administrativo que cubre el universo de votantes registrados en Bolonia en cuatro elecciones municipales y nacionales entre 2004 y 2013. Al vincular los registros individuales de turnout con información demográfica, fiscal y residencial, identificamos a los padres, seguimos la edad de sus hijos y observamos a los mismos individuos a lo largo del tiempo. Estimamos modelos de probabilidad lineal con efectos fijos individuales y por año electoral, explotando la variación intra-individual para dar cuenta de diferencias permanentes en el compromiso cívico. En promedio, una vez incorporados los efectos fijos individuales, la parentalidad no se asocia con una menor participación. Sin embargo, surge una heterogeneidad sustancial a lo largo del ciclo de vida parental. Los padres con hijos pequeños votan significativamente menos que no padres comparables a edades tempranas: quienes tienen hijos de 0–2 y 3–5 años exhiben penalizaciones de participación de aproximadamente tres a cinco puntos porcentuales. Estas brechas disminuyen de manera sostenida — alrededor de 0,2 puntos porcentuales por cada año adicional de edad parental — y desaparecen hacia los cuarenta años. Los padres de hijos mayores no muestran déficit de participación. La brecha de participación está impulsada casi por completo por las madres, mientras que la participación de los padres permanece inalterada. Los resultados son robustos a especificaciones alternativas y a controles por movilidad residencial, características del barrio y distancia a los centros de votación. En conjunto, los hallazgos resaltan la importancia de los factores del ciclo de vida en la participación política y sugieren que los períodos de cuidado infantil intensivo se asocian con una reducción temporal del compromiso electoral. De manera más general, el análisis señala un canal a través del cual tendencias demográficas, como el retraso en la fecundidad, pueden tener implicancias para la representación democrática.
+    A partir de registros administrativos de participación electoral de Bolonia, Italia (2004–2013), vinculados a los padrones anuales de población, examinamos cómo el nacimiento de un hijo modifica la brecha de participación entre madre y padre. Al vincular a ambos progenitores con el mismo hijo, encontramos que la brecha se amplía en contra de la madre en 5,7 puntos porcentuales en el primer mes posterior al parto y se atenúa a lo largo del primer año. En una comparación separada, las madres que dan a luz en la semana previa al período de votación tienen 16 puntos menos de probabilidad de votar que quienes dan a luz en la semana posterior. El déficit de participación materna respecto del nivel previo a la maternidad disminuye con el tiempo, pero la evidencia no permite establecer una recuperación completa. Entre dos y cinco años después del primer nacimiento identificado, las estimaciones son de −0,9 puntos en la muestra completa y de +0,3 en una muestra de alta confiabilidad. La especificación principal en la muestra completa descarta pérdidas superiores a aproximadamente 2,4 puntos con un 95 por ciento de confianza; esta cota es sensible a las elecciones de referencia utilizadas.
     </div>
     <div id="keywords-ageturnout" class="toggle-box">
-       parentalidad; edad; participación electoral; costo de oportunidad; datos administrativos.
+    participación electoral; maternidad; nacimiento; género; participación política; producción doméstica.
     </div>
     <div id="jel-ageturnout" class="toggle-box">
-       D72; J13; J22.
+    D72, J13, J16, J22.
     </div>
   </div>
 
   <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
-      <i class="fa-solid fa-file-lines fa-fw"></i>
+	<i class="fa-solid fa-newspaper fa-fw" title="Working paper"></i>
       <span>
-          <em>Public Goods and Political Participation: Childcare Access and Electoral Engagement</em><br>
-        joint with 
+        Provision without Participation? Proximity to Local Public Goods and Voter Turnout<br>
+        junto con
         <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a>, 
         <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>, 
         <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">Martín Gonzalez-Eiras</a>, 
-        and <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>
+        y <a href="https://sites.google.com/site/giovanniprarolo/" target="_blank" rel="noopener noreferrer">Giovanni Prarolo</a>
       </span>
     </div>
-  <div class="pill-container">
+  <div class="pill-container mt-2">
+      <a 
+  href="mailto:marco.rosso4@unibo.it
+        ?subject=Solicitud%20de%20borrador%20-%20Provision%20without%20Participation%3F%20Proximity%20to%20Local%20Public%20Goods%20and%20Voter%20Turnout
+        &body=Hola%20Marco%3A%0D%0A%0D%0AQuisiera%20pedirte%20el%20borrador%20de%20tu%20documento%20de%20trabajo%20%E2%80%9CProvision%20without%20Participation%3F%20Proximity%20to%20Local%20Public%20Goods%20and%20Voter%20Turnout%E2%80%9D.%0D%0A%0D%0A%C2%A1Gracias%21%0D%0A"
+  class="pill-link no-external">
+        <i class="fa-solid fa-file-lines fa-2xs"></i>
+        <span class="toggle-label" title="Borrador disponible a pedido">Borrador</span>
+      </a>
       <div class="pill-button toggle-pill" data-target="abstract-school">
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Resumen</span>
+        <span class="toggle-label">Abstract</span>
       </div>
       <div class="pill-button toggle-pill" data-target="keywords-school">
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
@@ -222,34 +314,26 @@ Para disciplinar estas fuerzas contrapuestas, el análisis establece tres princi
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
         <span class="toggle-label">JEL</span>
       </div>
-      <a 
-  href="mailto:marco.rosso4@unibo.it
-        ?subject=Solicitud%20de%20borrador%20-%20Public%20Goods%20and%20Political%20Participation%3A%20Childcare%20Access%20and%20Electoral%20Engagement
-        &body=Estimado%20Marco,%0D%0A%0D%0Ame%20gustar%C3%ADa%20solicitar%20el%20borrador%20de%20tu%20paper%20%E2%80%9CPublic%20Goods%20and%20Political%20Participation%3A%20Childcare%20Access%20and%20Electoral%20Engagement%E2%80%9D.%0D%0A%0D%0A%C2%A1Gracias!%0D%0A"
-  class="pill-link no-external">
-        <i class="fa-regular fa-newspaper fa-2xs"></i>
-        <span class="toggle-label" title="Draft under request">Paper</span>
-      </a>
     </div>
     <div id="abstract-school" class="toggle-box">
-     La participación política desigual amenaza la representación democrática cuando grupos con preferencias de política pública distintas están sistemáticamente subrepresentados en las urnas. Este trabajo analiza cómo el acceso a bienes públicos vinculados al cuidado infantil moldea la participación electoral a lo largo del ciclo de vida. Combinamos registros administrativos de turnout a nivel de universo de la ciudad de Bolonia con un nuevo panel geocodificado de jardines maternales y escuelas preescolares. Explotando la variación intra-individual en la proximidad a instalaciones de cuidado infantil adecuadas a la edad — generada por movilidad residencial, aperturas y cierres de escuelas y rediseños administrativos de las áreas de influencia — mostramos que una mayor distancia a la infraestructura de cuidado infantil reduce significativamente la participación electoral entre los padres de niños pequeños. El efecto se concentra en las elecciones municipales, donde la política educativa se define de manera directa, y está impulsado por las madres, mientras que los efectos para los padres son reducidos y estadísticamente no significativos. La magnitud del efecto es económicamente relevante y comparable a otros costos de votación bien documentados, a pesar de la inscripción automática de votantes y de niveles elevados de participación de base. En conjunto, los resultados ponen de relieve un mecanismo a través del cual el acceso a bienes públicos locales influye en la participación política y, en última instancia, en la representación democrática.
+    ¿La cercanía a bienes públicos de provisión local aumenta la participación política de los hogares a los que están destinados? Estudiamos Bolonia, Italia, con registros administrativos de participación de todas las personas habilitadas para votar en cuatro elecciones (2004–2013), vinculados a los padrones anuales de población, al ingreso, a las fechas exactas de nacimiento y a un censo geocodificado de establecimientos de cuidado infantil construido para este trabajo. Nuestra especificación de base sigue a madres y padres con un hijo conviviente en el padrón anual a medida que el hijo crece y atraviesa distintos regímenes de servicio, de modo que la distancia relevante cambia dentro de la misma persona, y estima pendientes de distancia separadas para las elecciones locales y nacionales. La pendiente de distancia a los establecimientos municipales en las elecciones locales es estadísticamente indistinguible de cero, con una cota de equivalencia simétrica de 0,47 puntos porcentuales por cada 100 metros, 1,25 puntos a lo largo del rango intercuartílico de la distancia; el contraste local–nacional que restringe la hipótesis de rendición de cuentas es menos preciso, con una cota de 0,79 puntos por cada 100 metros, y efectos moderados sobre él siguen siendo compatibles con la evidencia. No detectamos una moderación estadísticamente significativa de la penalidad por maternidad y paternidad según la cercanía, ninguna interacción por género sobrevive al ajuste por multiplicidad, y una cohorte que cambia de régimen, una discontinuidad en el corte de inscripción y seis medidas adicionales de servicios arrojan la misma no detección. Un contraste marginal anterior entre madres y padres con continuidad de domicilio verificada no es robusto a la especificación y se reporta como exploratorio. Medimos cercanía, no admisión ni asistencia: las estimaciones acotan el efecto movilizador de vivir cerca de un establecimiento, no el de obtener una vacante en él.
     </div>
     <div id="keywords-school" class="toggle-box">
-       participación electoral; bienes públicos; cuidado infantil; género; participación política; elecciones locales.
+    participación electoral; bienes públicos; cuidado infantil; género; elecciones locales.
     </div>
     <div id="jel-school" class="toggle-box">
-       D72; H41; J13; J16.
+    D72, H41, J13, J16.
     </div>
   </div>
 
 </div>
 
-<!-- Sección de Trabajo en Curso -->
+<!-- Selected Work in Progress Section -->
 <div class="projects">
   <a href="#content-3" onclick="toggleVisibility('content-3'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-3"></i>
-      <span>trabajos en curso</span>
+      <span>trabajos en curso (selección)</span>
     </h2>
   </a>
 </div>
@@ -260,22 +344,55 @@ Para disciplinar estas fuerzas contrapuestas, el análisis establece tres princi
   <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
-      <i class="fa-solid fa-bookmark fa-fw"></i>
-      <span><em>The Effect of Erasmus Programs on Voting</em></span>
+      <i class="fa-solid fa-file-lines fa-fw"></i>
+      <span>Costly Signaling and Populist Candidate Selection</span>
     </div>
   </div>
 
   <!-- Paper -->
   <div class="entry-block">
     <div class="icon-entry indented">
-      <i class="fa-solid fa-bookmark fa-fw"></i>
-      <span><em>Political Selection under Temptation: Electoral Incentives and Moral Frictions</em></span>
+      <i class="fa-solid fa-file-lines fa-fw"></i>
+      <span>State Capacity, Crime Reporting, and Local Development
+	<br>
+        junto con
+        <a href="https://sites.google.com/udesa.edu.ar/gabrielaertolanavajas/home" target="_blank" rel="noopener noreferrer">Gabriela Ertola Navajas</a>
+      </span>
     </div>
   </div>
-  
+
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-file-lines fa-fw"></i>
+      <span>Political Compensation under Criminal Governance
+	<br>
+        junto con
+        <a href="https://alessiocm.github.io" target="_blank" rel="noopener noreferrer">Alessio Carrozzo Magli</a> 
+        y <a href="https://sites.google.com/site/paolovanin/home" target="_blank" rel="noopener noreferrer">Paolo Vanin</a>
+      </span>
+    </div>
+  </div>
+
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-file-lines fa-fw"></i>
+      <span>Beyond the Tipping Point: Rent Feedback and Corruption Traps in Public-Sector Selection</span>
+    </div>
+  </div>
+
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-file-lines fa-fw"></i>
+      <span>Political Selection and Moral Frictions</span>
+    </div>
+  </div>
+
 </div>
 
-<!-- otras publicaciones -->
+<!-- Other Publications Section -->
 <div class="projects">
   <a href="#content-4" onclick="toggleVisibility('content-4'); return false;">
     <h2 class="category">
@@ -295,22 +412,19 @@ Para disciplinar estas fuerzas contrapuestas, el análisis establece tres princi
       <span>
         Farina E., Rosso M., Dansero L., et al. (2023). 
         <a href="https://doi.org/10.1136/jech-2022-220088" target="_blank" rel="noopener noreferrer">
-          Short-term effect of colorectal cancer on income.
+          Short-term effect of colorectal cancer on income: analysis of an Italian cohort.
         </a> 
         <i>Journal of Epidemiology & Community Health</i>, 77:196–201.
       </span>
     </div>
-    <div class="pill-container">
+    <div class="pill-container mt-2">
       <div class="pill-button toggle-pill" data-target="abstract-crc">
         <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Resumen</span>
+        <span class="toggle-label">Abstract</span>
       </div>
     </div>
     <div id="abstract-crc" class="toggle-box">
-      <b>Introducción</b> La capacidad de volver al trabajo después de un diagnóstico de cáncer es un aspecto clave de la supervivencia al cáncer y de la calidad de vida. Varios estudios han informado de un riesgo significativo de pérdida de ingresos para los supervivientes de cáncer; sin embargo, existen evidencias limitadas en el contexto italiano. <br>
-      <b>Métodos</b> Se utilizó la base de datos Work Histories Italian Panel (WHIP)-Salute para seleccionar una cohorte de casos incidentes de cáncer colorrectal (CCR) entre trabajadores del sector privado, basándose en altas hospitalarias. Se empleó un emparejamiento por puntuación de propensión para encontrar un grupo control equilibrado en varios factores de confusión. Se realizaron regresiones de mínimos cuadrados ordinarios y logísticas para estimar el efecto de un diagnóstico de CCR sobre los ingresos anuales y la probabilidad de pasar de un contrato a tiempo completo a uno a tiempo parcial, considerando los 3 años posteriores al diagnóstico. <br>
-      <b>Resultados</b> En total, identificamos 925 casos incidentes de CCR desde 2006 hasta 2012. Nuestros resultados confirman una reducción estadísticamente significativa en los ingresos de los supervivientes en comparación con los controles. Esta reducción fue mayor en el primer año y luego tendió a disminuir, con una pérdida media de ingresos en 3 años de aproximadamente 12 000 € . Los análisis estratificados por sexo y posición confirmaron la tendencia general, indicando una fuerte modificación del efecto. En cuanto al cambio de empleo de tiempo completo a tiempo parcial, los resultados no fueron significativos. <br>
-      <b>Conclusión</b> La pérdida de ingresos no parece estar relacionada con un aumento de contratos a tiempo parcial, sino con la capacidad de trabajo reducida de los supervivientes tras los tratamientos invasivos. Se necesitan más investigaciones para analizar las complejas dinámicas detrás de esta asociación.
+    <b>Introduction</b> The ability to return to work after a cancer diagnosis is a key aspect of cancer survivorship and quality of life. Studies have reported a significant risk of income loss for cancer survivors; however, there is limited evidence of the Italian context. <br> <b>Methods</b> The Work Histories Italian Panel (WHIP)-Salute database was used to select a cohort of incident cases of colorectal cancer (CRC) among workers in the private sector, based on hospital discharges. A propensity score matching was used to find a balanced control group for several confounders. Ordinary least square and logistic regressions were used to estimate the effect of a CRC diagnosis on annual income and the probability of switching from a full-time contract to a part-time one considering 3 years after the diagnosis. <br> <b>Results</b> Overall, we identified 925 CRC incident cases from 2006 until 2012. Our results confirm a statistically significant reduction in survivors’ income compared with controls. This reduction was greater in the first year and then tend to decrease, with an average income loss over 3 years of about €12 000. Stratified analyses by sex and position confirmed the overall trend while indicating a strong effect modification. Regarding the switching from full-time to part-time employment, the results were never significant. <br> <b>Conclusion</b> Income loss does not seem to be related to an increase in part-time contracts, but rather to survivors’ reduced work capacity following the invasive treatments. Further research is needed to investigate the complex dynamics behind this association.
     </div>
   </div>
 
@@ -334,39 +448,10 @@ Para disciplinar estas fuerzas contrapuestas, el análisis establece tres princi
     <div class="icon-entry indented">
       <i class="fa-solid fa-book fa-fw"></i>
       <span>
-          Tesis doctoral (2026),
+          Tesis Doctoral (2026),
           <em>"Essays in Political Economy and Crime Economics"</em>
       </span>
     </div>
-    <div class="pill-container">
-      <div class="pill-button toggle-pill" data-target="abstract-phd">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Resumen</span>
-      </div>
-      <div class="pill-button toggle-pill" data-target="chapters-phd">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Capítulos</span>
-      </div>
-    </div>
-      <!-- Boxes style="margin-top: -0.005rem;"-->
-      <div id="abstract-phd" class="toggle-box">
-          Esta tesis analiza cómo fricciones no monetarias — tales como la tentación, la saliencia de la información y las restricciones de tiempo — moldean el comportamiento individual en contextos en los que las instituciones formales funcionan adecuadamente. Combinando análisis teórico con evidencia empírica a nivel micro, los tres capítulos examinan cómo estas fricciones afectan la selección hacia el empleo público y la participación en los procesos democráticos.<br>
-<br>
-El <i>primer capítulo</i> desarrolla una teoría comportamental de la selección ocupacional en el sector público. Al introducir costos de autocontrol en un modelo estándar de elección de carrera, el análisis muestra que la corrupción genera un doble efecto de selección: mientras las rentas ilícitas atraen a individuos con baja motivación, los costos psicológicos de resistir la tentación disuaden a agentes altamente motivados. El modelo identifica un punto de inflexión institucional en el que la corrupción pasa de expandir el empleo público degradando la calidad de la fuerza laboral a actuar como un severo mecanismo de screening que mejora la calidad promedio pero reduce la participación. Estos resultados explican por qué entornos anti-corrupción aparentemente similares pueden producir resultados de selección marcadamente distintos entre países.<br>
-<br>
-El <i>segundo capítulo</i> analiza cómo la información vinculada al crimen afecta el comportamiento de voto individual. Utilizando datos geolocalizados que vinculan decisiones de voto retrospectivas con la cobertura mediática local de noticias de crimen en Bolonia a lo largo de múltiples elecciones nacionales y municipales, el análisis explota la variación intra-individual en la exposición a noticias criminales ocurridas cerca del domicilio. Los resultados muestran que la saliencia agregada del crimen presenta efectos débiles e inestables, mientras que los delitos atribuidos a inmigrantes generan respuestas electorales sistemáticas: los votantes se desplazan desde partidos con posturas ambiguas sobre inmigración hacia partidos que enfatizan el law and order. En elecciones locales, los delitos vinculados a inmigrantes incrementan la abstención, mientras que los delitos cometidos por nativos generan castigo a los incumbents. Estos hallazgos destacan el papel del framing identitario en la mediación del impacto político del crimen.<br>
-<br>
-El <i>tercer capítulo</i> analiza cómo la parentalidad y la edad de los padres influyen en la participación electoral. Utilizando datos administrativos que cubren el universo de votantes registrados en Bolonia, el análisis sigue a los individuos a lo largo del tiempo a medida que evolucionan sus circunstancias familiares. Una vez controlada la heterogeneidad individual permanente, la parentalidad no se asocia en promedio con una menor participación. Sin embargo, emerge una marcada heterogeneidad a lo largo del ciclo de vida: los padres de bebés y niños en edad preescolar — especialmente las madres — exhiben penalizaciones significativas de turnout a edades tempranas, que disminuyen de forma sostenida con la edad parental y desaparecen hacia los cuarenta años. Estos resultados indican que los períodos de cuidado infantil intensivo imponen costos de oportunidad temporarios a la participación política.<br>
-<br>
-En conjunto, los tres capítulos muestran cómo las fricciones comportamentales y las restricciones del ciclo de vida pueden generar distorsiones en la selección y la participación incluso en contextos con bajas barreras formales de entrada y participación. Al enfatizar mecanismos a nivel micro más que fallas institucionales por sí solas, la tesis contribuye a la comprensión de la composición del sector público, el comportamiento electoral y la representación democrática.
-      </div>
-      <div id="chapters-phd" class="toggle-box">
-          <span>
-            1. The Tipping Point of Temptation: Occupational Selection and Integrity in the Public Sector<br>
-            2. Crime Perception and Voting Behavior: Evidence from Individual Data<br>
-            3. Parenthood, Age, and the Opportunity Cost of Voting: Evidence from Administrative Voter Records
-          </span>
-      </div>
   </div>
 
   <!-- Paper -->
@@ -374,19 +459,20 @@ En conjunto, los tres capítulos muestran cómo las fricciones comportamentales 
     <div class="icon-entry indented">
       <i class="fa-solid fa-book fa-fw"></i>
       <span>
-          Tesis de maestría (2018),
+          Tesis de Maestría (2019),
           <em>"Effect of Breast and Colorectal Cancer on Earnings: Evidence from Italy"</em>
       </span>
     </div>
-    <div class="pill-container">
-      <div class="pill-button toggle-pill" data-target="abstract-master">
-        <i class="fa-solid fa-chevron-right fa-2xs"></i>
-        <span class="toggle-label">Resumen</span>
-      </div>
-    </div>
-    <!-- Boxes -->
-    <div id="abstract-master" class="toggle-box">
-        Utilizando el Work History Italian Panel (WHIP), estimamos los efectos causales del cáncer de mama y del cáncer colorrectal sobre los ingresos laborales, el desempleo y la probabilidad de trabajar a tiempo parcial durante los tres años posteriores al diagnóstico de cáncer. Dado que los pacientes oncológicos difieren del resto de la población en términos socioeconómicos, implementamos un procedimiento de propensity score matching para balancear las observaciones. Analizamos el efecto sobre los ingresos mediante una regresión OLS y los efectos sobre el empleo a tiempo parcial y el desempleo mediante regresiones logísticas. Los resultados muestran que el cáncer colorrectal y el cáncer de mama generan efectos diferenciados sobre los ingresos. En particular, el diagnóstico de cáncer colorrectal resulta más incapacitante, dando lugar a una reducción total de los ingresos de hasta 10.000 euros al cabo de tres años. Por el contrario, los efectos negativos del cáncer de mama se concentran principalmente en el corto plazo y, a partir del segundo año, las mujeres afectadas logran retomar una actividad laboral normal. Esta diferencia también se ve reflejada en los resultados relativos al desempleo y al trabajo a tiempo parcial.
+  </div>
+
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-book fa-fw"></i>
+      <span>
+          Tesis de Licenciatura (2015),
+          <em>"The Dual Simplex Method"</em>
+      </span>
     </div>
   </div>
 

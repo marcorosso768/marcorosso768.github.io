@@ -6,7 +6,7 @@ permalink: /
 subtitle: >
   <div style="margin-top: -0.75rem;">
       <p style="font-weight: 500;">
-          Profesor&nbsp;Adjunto | Investigador&nbsp;Postdoctoral
+          Investigador&nbsp;Postdoctoral
       </p>
   </div>
   <div style="margin: 0; padding: 0; position: relative; margin-top: 1.5rem;">
@@ -15,12 +15,18 @@ subtitle: >
           <i class="fa-solid fa-building-columns fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
       </div>
       <div style="padding-left: 22px; margin-top: -10pt; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
-          <a href="https://www.unibo.it/en/homepage">University&nbsp;of&nbsp;Bologna</a> | <a href="https://en.unica.it/en">University&nbsp;of&nbsp;Cagliari</a>
+          <a href="https://en.unica.it/en">University&nbsp;of&nbsp;Cagliari</a> | <a href="https://www.unibo.it/en/homepage">University&nbsp;of&nbsp;Bologna</a>
+      </div>
+      <div style="display: inline-block; width: 13px; text-align: center; position: absolute; margin-top: 1px; line-height: 14pt;">
+          <i class="fa-solid fa-school fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+      </div>
+     <div style="padding-left: 22px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; margin-top: 2pt;">
+          <a href="https://crenos.unica.it">CRENoS <i>(Center for North South Economic Research)</i></a>
       </div>
   </div>
 
 profile:
-  align: center-right
+  align: right
   image: profile_pictures/prof_pic_MR_640.webp
   image_alt: Marco Rosso
   image_circular: true # crops the image to make it circular
@@ -42,24 +48,20 @@ social: true # includes social icons at the bottom of the page
 </div>
 <div style="height: 1.25rem;"></div>
 
-Bienvenid@ a mi sitio personal — me alegra que hayas llegado hasta acá por tu propia voluntad (o quizá hiciste clic por error; le pasa hasta a l@s mejores).
-
 Mi <b style="color: $white-color;"><a href="/es/investigación/">investigación</a></b> se centra en
 <b style="color: $white-color;">Economía Política</b>,
 <b style="color: $white-color;">Economía del Crimen</b>,
+<b style="color: $white-color;">Microeconomía Aplicada</b>,
 <b style="color: $white-color;">Economía Experimental</b> y
-<b style="color: $white-color;">Economía del Comportamiento</b>, con un interés particular en cómo interactúan las instituciones y el comportamiento individual en contextos reales. Más en general, me interesan preguntas que se sitúan en la intersección entre la economía y el comportamiento social, allí donde los datos y los métodos permiten abordarlas.
+<b style="color: $white-color;">Economía del Comportamiento</b>, con un interés particular en cómo interactúan las instituciones y el comportamiento individual en contextos reales. Más en general, me interesan las preguntas que se sitúan en la intersección entre la economía y el comportamiento social, allí donde los datos y los métodos permiten abordarlas.
 
-Tras haber obtenido mi <b style="color: $white-color;">Doctorado en Economía</b> en la <b style="color: $white-color;">University of Bologna</b> en 2026, actualmente soy <b style="color: $white-color;">Investigador Postdoctoral</b> en la <b style="color: $white-color;">University of Cagliari</b>, donde trabajo sobre las interacciones entre el trabajo remoto, la inteligencia artificial y los mercados laborales locales. Podés encontrar más información sobre mi trabajo en mi <b style="color: $white-color;"><a href="/assets/pdf//es/[Marco%20Rosso]%20Curriculum%20Vitae_es.pdf" target="_blank" rel="noopener noreferrer" class="external">CV</a></b>.
+Tras obtener el <b style="color: $white-color;">Doctorado en Economía</b> en la <b style="color: $white-color;">University of Bologna</b> en 2026, actualmente soy <b style="color: $white-color;">Investigador Postdoctoral</b> en la <b style="color: $white-color;">University of Cagliari</b>, donde estudio las interacciones entre el trabajo remoto, la inteligencia artificial y los mercados laborales locales (<b style="color: $white-color;"><a href="https://crenos.unica.it/bibcite/reference/8766" target="_blank" rel="noopener noreferrer" class="external">CRENoS WP 26/13</a></b>).
 
-Mientras tanto, <b style="color: $white-color;"><a href="/es/docencia/">doy clases</a></b> de <b style="color: $white-color;">Microeconomía</b>, <b style="color: $white-color;">Introducción a la Economía de la UE</b> y <b style="color: $white-color;">Python para Economistas</b>, y me desempeño como <b style="color: $white-color;">Ayudante de Cátedra</b> en <b style="color: $white-color;">Economía Política</b> en el <b style="color: $white-color;">Departamento de Economía</b>, el <b style="color: $white-color;">Departamento de Management</b> y el <b style="color: $white-color;">Departamento de Ciencias Políticas y Sociales</b> de la <b style="color: $white-color;">University of Bologna</b>. Al mismo tiempo, contribuí al lanzamiento de la <a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a><sup><a href="#fn1" id="ref1">1</a></sup> en apoyo a la parentalidad consciente, en el marco del <a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a>, para el cual también realicé entrevistas online con padres y niños de 4 y 5 años.
+Podés encontrar más información sobre mí en mi <b style="color: $white-color;"><a href="/assets/pdf/es/curriculum_vitae_es.pdf" target="_blank" rel="noopener noreferrer" class="external">CV</a></b>.
 
-También organizo los <b style="color: $white-color;">DSE Afterwork Drinks</b>, un encuentro informal mensual donde hablamos de investigación, vida académica y de todo lo demás—desde carreras y congresos hasta películas, música y preocupaciones cotidianas—con el objetivo de fomentar una comunidad departamental abierta y solidaria.
+Mientras tanto, <b style="color: $white-color;"><a href="/es/docencia/">doy clases</a></b> de <b style="color: $white-color;">Métodos Empíricos para el Derecho y la Economía</b> en el <b style="color: $white-color;">Doctorado Europeo en Derecho y Economía (EDLE)</b>, <b style="color: $white-color;">Introducción a la Economía de la UE</b> y un <b style="color: $white-color;">Curso de Nivelación en Econometría</b> en la <b style="color: $white-color;">University of Bologna</b>, donde además me desempeño como <b style="color: $white-color;">Ayudante de Cátedra</b> en econometría, microeconomía, política económica, economía política y economía del comportamiento.
 
-<div style="margin-top:1rem;"></div>
-<hr style="border:0; border-top:0.5px solid !important;">
-<div id="fn1" style="font-size:small;">
-  <sup><a href="#ref1">1</a></sup> Lamentablemente, la App MinUTo está actualmente disponible en tres idiomas: italiano, inglés y francés.
-</div>
+Además, colaboré en el <b style="color: $white-color;"><a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a></b>, que estudia cómo las creencias, las preferencias y el involucramiento de las familias influyen en el desarrollo en la primera infancia, y en el lanzamiento de la <b style="color: $white-color;"><a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a></b>, una herramienta de apoyo a la parentalidad consciente disponible en italiano, inglés y francés.
+
 <div style="margin-top:2.5rem;"></div>
 <hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">

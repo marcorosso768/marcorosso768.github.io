@@ -3,7 +3,8 @@ page_id: profiles
 layout: profiles
 permalink: /referencias/
 title: referencias
-description: <i>Esta página proporciona información sobre mis referentes académicos, incluidas afiliaciones, áreas de investigación y datos de contacto para cartas de recomendación. El objetivo es facilitar las solicitudes de referencias por parte de los comités de selección, al tiempo que se brinda contexto sobre mis principales colaboraciones y mi red de mentoría.</i>
+description: <i>Personas dispuestas a escribir cartas de recomendación, con su cargo, sus áreas de investigación y sus datos de contacto. Cada perfil indica además el contexto en el que trabajamos juntos.</i>
+meta_description: "Personas dispuestas a escribir cartas de recomendación, con su cargo, sus áreas de investigación y sus datos de contacto."
 nav: false
 nav_order:
 
@@ -14,6 +15,11 @@ profiles:
     image: profile_pictures/prof_pic_PV.png
     image_alt: Paolo Vanin
     content: about_PV.md
+    image_circular: true # crops the image to make it circular
+  - align: right
+    image: profile_pictures/prof_pic_FC.jpg
+    image_alt: Fabio Cerina
+    content: about_FC.md
     image_circular: true # crops the image to make it circular
   - align: right
     image: profile_pictures/prof_pic_GP.jpeg

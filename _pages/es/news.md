@@ -2,7 +2,8 @@
 page_id: news
 layout: page
 title: novedades
-description: <i>Aquí se publican actualizaciones breves sobre actividades académicas — como charlas, conferencias, publicaciones y hitos — a modo de registro continuo. Los ítems son intencionalmente concisos y, cuando corresponde, incluyen enlaces a publicaciones externas, medios o materiales para ampliar la información.</i>
+description: <i>Actualizaciones breves sobre papers, presentaciones, cargos y otros hitos, en orden cronológico inverso. Las publicaciones de redes sociales enlazadas se muestran a pedido, de modo que la página carga sin contenido externo.</i>
+meta_description: "Actualizaciones breves sobre papers, presentaciones, cargos y otros hitos, en orden cronológico inverso."
 permalink: /novedades/
 ---
 
