@@ -31,7 +31,8 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1
         rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
+          {% comment %}larghezze misurate sul rendering reale: 270px oltre i 930, ~29vw fra 576 e 930, ~45vw sotto{% endcomment %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 45vw{% endcapture %}
           {% assign profile_base = page.profile.image | split: '_640.webp' | first %}
           {% if page.profile.image contains '_640.webp' %}
             {% capture profile_srcset %}{{ profile_base | prepend: '/assets/img/' | append: '_360.webp' | relative_url }} 360w, {{ profile_base | prepend: '/assets/img/' | append: '_540.webp' | relative_url }} 540w, {{ page.profile.image | prepend: '/assets/img/' | relative_url }} 640w{% endcapture %}
