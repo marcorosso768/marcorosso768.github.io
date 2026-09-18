@@ -4,7 +4,8 @@ layout: page
 permalink: /contactos/
 lang: es
 title: contactos
-description: <i>Aquí se reúnen la información de contacto y los perfiles externos, con el objetivo de ofrecer un único punto de acceso a mi trabajo y a mi presencia institucional. La página incluye direcciones de correo electrónico y enlaces a las plataformas relevantes.</i>
+description: <i>Direcciones de correo electrónico en la University of Cagliari y en la University of Bologna, junto con una dirección personal. Más abajo, los enlaces a mis perfiles académicos y a LinkedIn.</i>
+meta_description: "Direcciones de correo electrónico en la University of Cagliari y en la University of Bologna, con enlaces a mis perfiles académicos y a LinkedIn."
 ---
 
 <!-- E-mail Section -->
@@ -17,11 +18,11 @@ description: <i>Aquí se reúnen la información de contacto y los perfiles exte
   </a>
 </div>
 
-<div id="content-1" class="toggle-section expanded">
-    
+<div id="content-1" class="toggle-section expanded contact-list">
+
   <div class="icon-link indented">
-    <i class="fa-regular fa-envelope fa-fw"></i>
-    <a href="mailto:m.rosso@me.com">m.rosso@me.com</a>
+    <i class="fa-solid fa-envelope fa-fw"></i>
+    <a href="mailto:marco.rosso@unica.it">marco.rosso@unica.it</a>
   </div>
 
   <div class="icon-link indented">
@@ -30,10 +31,10 @@ description: <i>Aquí se reúnen la información de contacto y los perfiles exte
   </div>
 
   <div class="icon-link indented">
-    <i class="fa-solid fa-envelope fa-fw"></i>
-    <a href="mailto:marco.rosso@unica.it">marco.rosso@unica.it</a>
+    <i class="fa-regular fa-envelope fa-fw"></i>
+    <a href="mailto:m.rosso@me.com">m.rosso@me.com</a>
   </div>
-  
+
 </div>
 
 <!-- Online Resources Section -->
@@ -46,16 +47,16 @@ description: <i>Aquí se reúnen la información de contacto y los perfiles exte
   </a>
 </div>
 
-<div id="content-2" class="toggle-section expanded">
-    
-  <div class="icon-link indented">
-    <i class="fa-solid fa-building-columns fa-fw"></i>
-    <a href="https://www.unibo.it/sitoweb/marco.rosso4/en/" target="_blank" rel="noopener noreferrer">página personal en el sitio web de UniBo</a>
-  </div>
+<div id="content-2" class="toggle-section expanded contact-list">
 
   <div class="icon-link indented">
     <i class="fa-solid fa-school fa-fw"></i>
     <a href="https://crenos.unica.it/index.php/marco-rosso" target="_blank" rel="noopener noreferrer">página personal en el sitio web de CRENoS</a>
+  </div>
+
+  <div class="icon-link indented">
+    <i class="fa-solid fa-building-columns fa-fw"></i>
+    <a href="https://www.unibo.it/sitoweb/marco.rosso4/en" target="_blank" rel="noopener noreferrer">página personal en el sitio web de UniBo</a>
   </div>
 
   <div class="icon-link indented">
@@ -87,34 +88,10 @@ description: <i>Aquí se reúnen la información de contacto y los perfiles exte
     <i class="fa-brands fa-github fa-fw"></i>
     <a href="https://github.com/marcorosso768" target="_blank" rel="noopener noreferrer">GitHub</a>
   </div>
-  
-</div>
-
-<!-- Social Networks Section -->
-<div class="projects">
-  <a href="#content-3" onclick="toggleVisibility('content-3'); return false;">
-    <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-3"></i>
-      <span>redes sociales</span>
-    </h2>
-  </a>
-</div>
-
-<div id="content-3" class="toggle-section">
 
   <div class="icon-link indented">
     <i class="fa-brands fa-linkedin fa-fw"></i>
     <a href="https://www.linkedin.com/in/marcorosso768" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-  </div>
-
-  <div class="icon-link indented">
-    <i class="fa-brands fa-bluesky fa-fw"></i>
-    <a href="https://bsky.app/profile/marcorosso.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a>
-  </div>
-
-  <div class="icon-link">
-    <i class="fa-brands fa-x-twitter fa-fw"></i>
-    <a href="https://x.com/marcorosso768" target="_blank" rel="noopener noreferrer"><em>Q.E.P.D.</em> Twitter</a>
   </div>
   
 </div>
@@ -132,7 +109,7 @@ description: <i>Aquí se reúnen la información de contacto y los perfiles exte
 <div id="content-4" class="toggle-section">
 
   <div style="display: flex; justify-content: center;">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5869.619707905097!2d11.352124!3d44.497203!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd4bb0ed9d74f%3A0x851bdc6a12c818e2!2sFaculty%20of%20Economics%20-%20University%20of%20Bologna!5e1!3m2!1ses!2sit!4v1747641372590!5m2!1ses!2sit" width="800" height="600" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5869.619707905097!2d11.352124!3d44.497203!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd4bb0ed9d74f%3A0x851bdc6a12c818e2!2sFaculty%20of%20Economics%20-%20University%20of%20Bologna!5e1!3m2!1sen!2sit!4v1747640523184!5m2!1sen!2sit" width="800" height="600" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 
 </div> -->

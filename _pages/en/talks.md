@@ -149,22 +149,6 @@ nav_order: 2
     </div>
   </div>
 
-<!-- 2024
-<p style="margin-left: 0.1em;"><b>2024</b></p>
-
-  <div class="seminar-entry indented">
-   <div class="seminar-entry__row seminar-entry__row--title">
-      <div class="seminar-entry__content">
-          &#8548; Ph.D. Workshop
-      </div>
-   </div>
-    <div class="seminar-entry__row seminar-entry__row--location">
-      <div class="seminar-entry__location-text">
-        Le Sparne — Pitigliano (GR), Italy
-      </div>
-    </div>
-  </div> -->
-
 <!-- 2023 -->
 <p style="margin-left: 0.1em;"><b>2023</b></p>
 

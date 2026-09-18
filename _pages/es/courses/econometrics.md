@@ -3,10 +3,8 @@ page_id: econometrics
 layout: page
 permalink: /docencia/econometría/
 title: econometría
-description_format: multiline
-description: |
-  Aquí se encuentran materiales útiles para el curso de Econometría.
-  Nota: el material está disponible en inglés.
+description: "<i>Materiales del curso de Econometría de la Licenciatura en Negocios y Economía, University of Bologna: un manual introductorio de Stata, slides de las clases y de las prácticas, y los do-files correspondientes.</i>"
+meta_description: "Materiales del curso de Econometría (University of Bologna): manual de Stata, slides de clases y prácticas, y los do-files correspondientes."
 subtitle: >
   <div class="lang-links">
       <a href="/es/docencia/" hreflang="es">volver a docencia</a>
@@ -40,7 +38,7 @@ nav: false
   <a href="#content-1" onclick="toggleVisibility('content-1'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
-      <span>slide</span>
+      <span>slides</span>
     </h2>
   </a>
 </div>
@@ -110,7 +108,7 @@ nav: false
   <a href="#content-2" onclick="toggleVisibility('content-2'); return false;">
     <h2 class="category">
       <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
-      <span>do-file</span>
+      <span>do-files</span>
     </h2>
   </a>
 </div>

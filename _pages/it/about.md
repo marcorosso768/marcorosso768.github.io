@@ -15,22 +15,13 @@ subtitle: >
           <i class="fa-solid fa-building-columns fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
       </div>
       <div style="padding-left: 22px; margin-top: -10pt; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
-          <a href="https://www.unica.it">Università&nbsp;di&nbsp;Cagliari</a> | <a href="https://www.unibo.it/it">Università&nbsp;di&nbsp;Bologna</a>
+          <a class="header-link" href="https://www.unica.it">Università&nbsp;di&nbsp;Cagliari</a> | <a class="header-link" href="https://www.unibo.it/it">Università&nbsp;di&nbsp;Bologna</a>
       </div>
       <div style="display: inline-block; width: 13px; text-align: center; position: absolute; margin-top: 1px; line-height: 14pt;">
           <i class="fa-solid fa-school fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
       </div>
      <div style="padding-left: 22px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; margin-top: 2pt;">
-          <a href="https://crenos.unica.it">CRENoS <i>(Centro Ricerche Economiche Nord Sud)</i></a>
-      </div>
-      <!-- Second row: Location icon and actul location temp: <a href="https://goo.gl/maps/1icot9p1g97AWCD37">Piazza Scaravilli 2, 40126, Bologna, Italy</a>-->
-      <div style="position: relative; font-size: 10pt; margin-top: 8pt; margin-bottom: 15px; line-height: 14pt;">
-          <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; line-height: 14pt;">
-              <i class="fa-solid fa-location-dot fa-fw" style="font-size: 10pt;"></i>
-          </div>
-          <div style="display: inline-block; padding-left: 22px; margin-top: -12pt; line-height: 14pt;">
-              <span style="font-size: 10pt;">posizione attuale: Bologna, Italia</span>
-          </div>
+          <a class="header-link header-link--down" href="https://crenos.unica.it">CRENoS <i>(Centro Ricerche Economiche Nord Sud)</i></a>
       </div>
   </div>
 
@@ -55,7 +46,7 @@ social: true # includes social icons at the bottom of the page
     <div style="flex-grow:1;"></div>
     <span style="font-family: 'Courier New', monospace; font-size:12px;">Douglas Adams — La lunga oscura pausa caffè dell’anima</span>
 </div>
-<div style="height: 2rem;"></div>
+<div style="height: 1.25rem;"></div>
 
 La mia <b style="color: $white-color;"><a href="/it/ricerca/">ricerca</a></b> si concentra su
 <b style="color: $white-color;">Economia Politica</b>,
