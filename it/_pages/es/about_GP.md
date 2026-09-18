@@ -1,5 +1,5 @@
 <span class="indented" style="font-size: 20pt; color: var(--global-theme-color); display: block; line-height: 1; margin-bottom: 4pt;"> Giovanni Prarolo </span>
-<span class="indented" style="font-size: 12pt; color: var(--global-theme-color); display: block; line-height: 1; margin-bottom: 10pt;"> <i>Supervisor de Postdoctorado</i> </span>
+<span class="indented" style="font-size: 12pt; color: var(--global-theme-color); display: block; line-height: 1; margin-bottom: 10pt;"> <i>Supervisor de la Beca de Investigación</i> </span>
 
 <span class="indented" style="font-size: 15pt; display: block; line-height: 1; margin-bottom: 4pt;"> Profesor Titular </span>
 <span class="indented" style="display: block; line-height: 1; margin-bottom: 4pt;"> University of Bologna </span>
