@@ -16,5 +16,5 @@
 
 <div class="icon-link indented">
   <i class="fa-solid fa-building-columns fa-fw"></i>
-  <a href="https://www.unibo.it/sitoweb/maria.bigoni/en">página personal en el sitio web de UniBo</a>
+  <a href="https://www.unibo.it/sitoweb/maria.bigoni/en">página personal en UniBo</a>
 </div>
