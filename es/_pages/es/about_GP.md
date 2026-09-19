@@ -16,10 +16,10 @@
 
 <div class="icon-link indented">
   <i class="fa-solid fa-building-columns fa-fw"></i>
-  <a href="https://www.unibo.it/sitoweb/giovanni.prarolo/en">página personal en el sitio web de UniBo</a>
+  <a href="https://www.unibo.it/sitoweb/giovanni.prarolo/en">página personal en UniBo</a>
 </div>
 
 <div class="icon-link indented">
   <i class="fa-solid fa-globe fa-fw"></i>
-  <a href="https://sites.google.com/site/giovanniprarolo/">sitio web personal</a>
+  <a href="https://sites.google.com/site/giovanniprarolo/">sitio web</a>
 </div>
