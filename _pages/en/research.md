@@ -321,6 +321,14 @@ nav_order: 1
     </div>
   </div>
 
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-file-lines fa-fw"></i>
+      <span>Political Expression and the Boundaries of Legal Enforcement</span>
+    </div>
+  </div>
+
 </div>
 
 <!-- Other Publications Section -->
