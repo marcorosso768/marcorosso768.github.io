@@ -276,6 +276,14 @@ nav_order: 1
   <div class="entry-block">
     <div class="icon-entry indented">
       <i class="fa-solid fa-file-lines fa-fw"></i>
+      <span>Political Expression and the Boundaries of Legal Enforcement</span>
+    </div>
+  </div>
+
+  <!-- Paper -->
+  <div class="entry-block">
+    <div class="icon-entry indented">
+      <i class="fa-solid fa-file-lines fa-fw"></i>
       <span>Costly Signaling and Populist Candidate Selection</span>
     </div>
   </div>
@@ -318,14 +326,6 @@ nav_order: 1
     <div class="icon-entry indented">
       <i class="fa-solid fa-file-lines fa-fw"></i>
       <span>Political Selection and Moral Frictions</span>
-    </div>
-  </div>
-
-  <!-- Paper -->
-  <div class="entry-block">
-    <div class="icon-entry indented">
-      <i class="fa-solid fa-file-lines fa-fw"></i>
-      <span>Political Expression and the Boundaries of Legal Enforcement</span>
     </div>
   </div>
 
