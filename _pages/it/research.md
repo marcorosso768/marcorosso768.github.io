@@ -50,7 +50,7 @@ nav_order: 1
     <div class="icon-entry indented">
       <i class="fa-solid fa-newspaper fa-fw" title="Working paper"></i>
       <span>
-	<a href="https://crenos.unica.it/sites/default/files/2026-07/WP26-13_0.pdf" target="_blank" rel="noopener noreferrer">
+	<a href="https://crenos.unica.it/sites/default/files/2026-09/WP26-13.pdf" target="_blank" rel="noopener noreferrer">
           Generative AI and Posted Labor Demand: Volume, Seniority and Timing
         </a>
         <br>
