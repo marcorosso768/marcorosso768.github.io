@@ -216,7 +216,7 @@ nav_order: 1
     <div class="icon-entry indented">
 	<i class="fa-solid fa-newspaper fa-fw" title="Working paper"></i>
       <span>
-        Provision without Participation? Proximity to Local Public Goods and Voter Turnout<br>
+        Proximity to Public Childcare and Voter Turnout: Evidence from Bologna<br>
         con 
         <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a>, 
         <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>, 
@@ -227,8 +227,8 @@ nav_order: 1
   <div class="pill-container mt-2">
       <a 
   href="mailto:marco.rosso4@unibo.it
-        ?subject=Richiesta%20bozza%20-%20Provision%20without%20Participation%3F%20Proximity%20to%20Local%20Public%20Goods%20and%20Voter%20Turnout
-        &body=Caro%20Marco%2C%0D%0A%0D%0Avorrei%20chiederti%20la%20bozza%20del%20tuo%20working%20paper%20%E2%80%9CProvision%20without%20Participation%3F%20Proximity%20to%20Local%20Public%20Goods%20and%20Voter%20Turnout%E2%80%9D.%0D%0A%0D%0AGrazie%21%0D%0A"
+        ?subject=Richiesta%20bozza%20-%20Proximity%20to%20Public%20Childcare%20and%20Voter%20Turnout%3A%20Evidence%20from%20Bologna
+        &body=Caro%20Marco%2C%0D%0A%0D%0Avorrei%20chiederti%20la%20bozza%20del%20tuo%20working%20paper%20%E2%80%9CProximity%20to%20Public%20Childcare%20and%20Voter%20Turnout%3A%20Evidence%20from%20Bologna%E2%80%9D.%0D%0A%0D%0AGrazie%21%0D%0A"
   class="pill-link no-external">
         <i class="fa-solid fa-file-lines fa-2xs"></i>
         <span class="toggle-label" title="Bozza disponibile su richiesta">Bozza</span>
@@ -247,7 +247,7 @@ nav_order: 1
       </div>
     </div>
     <div id="abstract-school" class="toggle-box">
-     La vicinanza a beni pubblici forniti localmente aumenta la partecipazione politica delle famiglie a cui sono destinati? Studiamo il caso di Bologna, con dati amministrativi sulla partecipazione elettorale di tutti gli elettori iscritti in quattro elezioni (2004–2013), collegati ai registri anagrafici annuali, ai redditi, alle date di nascita esatte e a un censimento geocodificato dei servizi per l’infanzia costruito ad hoc. La specificazione di base segue i genitori con un solo figlio convivente nel registro annuale man mano che il figlio attraversa i diversi regimi di servizio, così che la distanza rilevante cambi per la stessa persona, e stima pendenze distinte rispetto alla distanza per le elezioni locali e nazionali. La pendenza rispetto alla distanza dalle strutture comunali nelle elezioni locali è statisticamente indistinguibile da zero, con un limite di equivalenza simmetrico di 0,47 punti percentuali ogni 100 metri, pari a 1,25 punti sull’intervallo interquartile della distanza; il contrasto tra elezioni locali e nazionali, su cui l’ipotesi di accountability pone restrizioni, è meno preciso, con un limite di 0,79 punti ogni 100 metri, e restano compatibili con l’evidenza effetti moderati. Non rileviamo una moderazione statisticamente significativa della penalizzazione legata alla genitorialità da parte della vicinanza, nessuna interazione di genere sopravvive alla correzione per test multipli, e una coorte di transizione, una discontinuità legata alla soglia di iscrizione e altre sei misure di dotazione di servizi portano allo stesso risultato nullo. Un precedente contrasto marginale tra i genitori con continuità di indirizzo verificata non è robusto alla specificazione ed è riportato come esplorativo. Misuriamo la vicinanza, non l’ammissione o la frequenza: le stime delimitano l’effetto mobilitante del vivere vicino a una struttura, non quello di ottenervi un posto.
+     La vicinanza a beni pubblici forniti localmente aumenta la partecipazione politica delle famiglie a cui sono destinati? Studiamo il caso di Bologna, con dati amministrativi sulla partecipazione elettorale di tutti gli elettori iscritti in quattro elezioni (2004–2013), collegati ai registri anagrafici annuali, ai redditi, alle date di nascita esatte e a un censimento geocodificato dei servizi per l’infanzia costruito ad hoc. La specificazione di base segue i genitori con un solo figlio convivente nel registro annuale man mano che il figlio attraversa i diversi regimi di servizio, così che la distanza rilevante cambi per la stessa persona, e stima pendenze distinte rispetto alla distanza per le elezioni locali e nazionali. La pendenza rispetto alla distanza dalle strutture comunali nelle elezioni locali è statisticamente indistinguibile da zero, con un limite di equivalenza simmetrico di 0,47 punti percentuali ogni 100 metri, pari a 1,25 punti sull’intervallo interquartile della distanza. Il contrasto tra elezioni locali e nazionali, su cui l’ipotesi di accountability pone restrizioni, è stimato con minore precisione: il suo limite è di 0,79 punti ogni 100 metri, e restano compatibili con l’evidenza effetti moderati. La vicinanza non modera in misura rilevabile la penalizzazione legata alla genitorialità, nessuna interazione di genere sopravvive alla correzione per test multipli, e una coorte di transizione e altri sei servizi e dotazioni locali portano allo stesso risultato. Un precedente contrasto marginale tra i genitori con continuità di indirizzo verificata non è robusto alla specificazione ed è riportato come esplorativo. L’oggetto della stima è la vicinanza: le stime delimitano l’effetto mobilitante del vivere vicino a una struttura e lasciano non misurato l’effetto di ottenervi un posto.
     </div>
     <div id="keywords-school" class="toggle-box">
        partecipazione elettorale; beni pubblici; servizi per l’infanzia; genere; elezioni locali.

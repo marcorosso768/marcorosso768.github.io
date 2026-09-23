@@ -216,7 +216,7 @@ nav_order: 1
     <div class="icon-entry indented">
 	<i class="fa-solid fa-newspaper fa-fw" title="Working paper"></i>
       <span>
-        Provision without Participation? Proximity to Local Public Goods and Voter Turnout<br>
+        Proximity to Public Childcare and Voter Turnout: Evidence from Bologna<br>
         joint with 
         <a href="https://sites.google.com/site/giorgiobellettiniwebpage" target="_blank" rel="noopener noreferrer">Giorgio Bellettini</a>, 
         <a href="https://www.unibo.it/sitoweb/carlotta.berticeroni" target="_blank" rel="noopener noreferrer">Carlotta Berti Ceroni</a>, 
@@ -227,8 +227,8 @@ nav_order: 1
   <div class="pill-container mt-2">
       <a 
   href="mailto:marco.rosso4@unibo.it
-        ?subject=Request%20for%20draft%20-%20Provision%20without%20Participation%3F%20Proximity%20to%20Local%20Public%20Goods%20and%20Voter%20Turnout
-        &body=Dear%20Marco%2C%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20working%20paper%20%E2%80%9CProvision%20without%20Participation%3F%20Proximity%20to%20Local%20Public%20Goods%20and%20Voter%20Turnout%E2%80%9D.%0D%0A%0D%0AThank%20you%21%0D%0A"
+        ?subject=Request%20for%20draft%20-%20Proximity%20to%20Public%20Childcare%20and%20Voter%20Turnout%3A%20Evidence%20from%20Bologna
+        &body=Dear%20Marco%2C%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20draft%20of%20your%20working%20paper%20%E2%80%9CProximity%20to%20Public%20Childcare%20and%20Voter%20Turnout%3A%20Evidence%20from%20Bologna%E2%80%9D.%0D%0A%0D%0AThank%20you%21%0D%0A"
   class="pill-link no-external">
         <i class="fa-solid fa-file-lines fa-2xs"></i>
         <span class="toggle-label" title="Draft under request">Draft</span>
@@ -247,7 +247,7 @@ nav_order: 1
       </div>
     </div>
     <div id="abstract-school" class="toggle-box">
-     Does proximity to locally provided public goods raise the political participation of the households they are meant to serve? We study Bologna, Italy, with administrative turnout records for all registered voters at four elections (2004–2013), linked to annual population registers, income, exact dates of birth, and a purpose-built geocoded census of childcare facilities. Our baseline follows parents with one co-resident child in the annual register as the child ages across service regimes, so that the relevant distance switches within person, and estimates separate distance slopes for local and national elections. The municipal-facility distance slope in local elections is statistically indistinguishable from zero, with a symmetric equivalence bound of 0.47 percentage points per 100 meters, 1.25 points across the interquartile range of distance; the local–national contrast that the accountability hypothesis restricts is less precise, with a bound of 0.79 points per 100 meters, and moderate effects on it remain compatible with the evidence. We do not detect statistically significant moderation of the parenthood penalty by proximity, no gender interaction survives multiplicity adjustment, and a switching cohort, an enrollment-cutoff discontinuity, and six further amenity measures yield the same non-detection. An earlier marginal contrast among parents with verified address continuity is not robust to specification and is reported as exploratory. We measure proximity, not admission or attendance: the estimates bound the mobilizing effect of living near a facility, not of obtaining a place in it.
+     Does proximity to locally provided public goods raise the political participation of the households they are meant to serve? We study Bologna, Italy, with administrative turnout records for all registered voters at four elections (2004–2013), linked to annual population registers, income, exact dates of birth, and a purpose-built geocoded census of childcare facilities. Our baseline follows parents with one co-resident child in the annual register as the child ages across service regimes, so that the relevant distance switches within person, and estimates separate distance slopes for local and national elections. The municipal-facility distance slope in local elections is statistically indistinguishable from zero, with a symmetric equivalence bound of 0.47 percentage points per 100 meters, or 1.25 points across the interquartile range of distance. The local–national contrast that the accountability hypothesis restricts is estimated less precisely: its bound is 0.79 points per 100 meters, and moderate effects on it remain compatible with the evidence. Proximity does not measurably moderate the parenthood penalty, no gender interaction survives multiplicity adjustment, and a switching cohort and six additional local amenities and services yield the same result. An earlier marginal contrast among parents with verified address continuity is not robust to specification and is reported as exploratory. The estimand is proximity: the estimates bound the mobilizing effect of living near a facility and leave the effect of obtaining a place in it unmeasured.
     </div>
     <div id="keywords-school" class="toggle-box">
        voter turnout; public goods; childcare; gender; local elections.
