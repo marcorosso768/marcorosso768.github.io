@@ -32,20 +32,4 @@ hreflang: false
 {%- endif %}
 {%- endfor %}
 {%- endfor %}
-{%- for post in site.news %}
-{%- assign slug = post.url | split: '/' | last %}
-{%- for l in site.languages %}
-{%- if l == site.default_lang %}{% assign loc = '/news/' | append: slug | append: '/' %}{% else %}{% assign loc = '/' | append: l | append: '/news/' | append: slug | append: '/' %}{% endif %}
-  <url>
-    <loc>{{ site.url }}{{ loc }}</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}/news/{{ slug }}/"/>
-{%- for a in site.languages %}
-{%- if a != site.default_lang %}
-    <xhtml:link rel="alternate" hreflang="{{ a }}" href="{{ site.url }}/{{ a }}/news/{{ slug }}/"/>
-{%- endif %}
-{%- endfor %}
-    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}/news/{{ slug }}/"/>
-  </url>
-{%- endfor %}
-{%- endfor %}
 </urlset>

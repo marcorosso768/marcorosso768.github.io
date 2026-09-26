@@ -42,15 +42,6 @@ function initExpandedSections() {
   });
 }
 
-function resetSubsectionsIn(section) {
-  section.querySelectorAll(".toggle-subsection").forEach((subsection) => {
-    collapseSubsection(subsection);
-    subsection.style.color = "";
-    subsection.style.fontStyle = "";
-    subsection.style.textDecoration = "";
-  });
-}
-
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", initExpandedSections);
 } else {

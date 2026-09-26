@@ -5,7 +5,7 @@ title: su&nbsp;di me
 permalink: /
 subtitle: >
   <div style="margin-top: -0.75rem;">
-      <p style="font-weight: 500;">
+      <p style="font-weight: 400;">
           Ricercatore&nbsp;Post-Doc
       </p>
   </div>

@@ -6,12 +6,6 @@
   {% if site.enable_bing_verification %}
     <meta name="msvalidate.01" content="{{ site.bing_site_verification }}">
   {% endif %}
-  <!--
-    Avoid warning on Google Chrome Error with Permissions-Policy header:
-    Origin trial controlled feature not enabled: 'interest-cohort'.
-    see https://stackoverflow.com/a/75119417
-  -->
-  <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
 {% endif %}
 
 {% capture author_name %}{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% endcapture %}
@@ -19,7 +13,6 @@
 <!-- Standard metadata -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
 {% if site.title == 'blank' %}
   {% capture title %}{{ author_name }}{% endcapture %}
 {% else %}
@@ -101,8 +94,20 @@
   <meta property="og:site_name" content="{{ title }}">
   <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
   <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
-  <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
-  <meta property="og:description" content="{{ site.data[site.active_lang].strings.site_description }}">
+  {% comment %}
+    og:url con il prefisso di lingua: jekyll-polyglot aggiunge /it/ e /es/ agli attributi href (come il canonical), non a content
+  {% endcomment %}
+  {% assign og_path = page.url | remove_first: 'index.html' %}
+  {% if site.active_lang != site.default_lang %}
+    {% assign og_lang_prefix = '/' | append: site.active_lang | append: '/' %}
+    {% assign og_lang_prefix_size = og_lang_prefix | size %}
+    {% assign og_path_start = og_path | slice: 0, og_lang_prefix_size %}
+    {% unless og_path_start == og_lang_prefix %}
+      {% assign og_path = og_path | prepend: site.active_lang | prepend: '/' %}
+    {% endunless %}
+  {% endif %}
+  <meta property="og:url" content="{{ og_path | absolute_url }}">
+  <meta property="og:description" content="{{ description | strip_html | strip }}">
   <!-- Fixed OpenGraph image for all languages -->
   <meta property="og:image" content="{{ site.url }}/assets/img/og_image/MR.png?v=2">
   {% case site.active_lang -%}
@@ -118,7 +123,7 @@
   <!-- Twitter card -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
-  <meta name="twitter:description" content="{{ site.data[site.active_lang].strings.site_description }}">
+  <meta name="twitter:description" content="{{ description | strip_html | strip }}">
   <meta name="twitter:image" content="{{ site.url }}/assets/img/og_image/MR.png?v=2">
   {% if site.x_username %}
     <meta name="twitter:site" content="@{{ site.x_username }}">

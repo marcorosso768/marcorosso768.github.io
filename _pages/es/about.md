@@ -5,7 +5,7 @@ title: sobre mí
 permalink: /
 subtitle: >
   <div style="margin-top: -0.75rem;">
-      <p style="font-weight: 500;">
+      <p style="font-weight: 400;">
           Investigador&nbsp;Postdoctoral
       </p>
   </div>

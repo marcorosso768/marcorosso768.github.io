@@ -24,6 +24,23 @@ nav_order: 2
 <!-- 2026 -->
 <p style="margin-left: 0.1em;"><b>2026</b></p>
 
+  <div class="seminar-entry indented">
+   <div class="seminar-entry__row seminar-entry__row--title">
+      <div class="seminar-entry__content">
+          Lightcast Research Community, reunión inaugural <span style="font-size: small; white-space: nowrap;">(próximamente)</span> —
+          <span class="highlight"><i>Expositor</i></span>
+      </div>
+   </div>
+    <div class="seminar-entry__row seminar-entry__row--paper">
+      <div class="seminar-entry__paper-text"><i>Generative AI and Posted Labor Demand: Volume, Seniority and Timing</i></div>
+    </div>
+    <div class="seminar-entry__row seminar-entry__row--location">
+      <div class="seminar-entry__location-text">
+        Lightcast — online
+      </div>
+    </div>
+  </div>
+
  <div class="seminar-entry indented">
    <div class="seminar-entry__row seminar-entry__row--title">
       <div class="seminar-entry__content">

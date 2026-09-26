@@ -1,2 +1,1 @@
-npx prettier . --write
-git add -u
+node .husky/format-staged.mjs
