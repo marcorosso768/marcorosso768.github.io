@@ -1,0 +1,45 @@
+{%- comment -%}
+  Pagina talks generata dai dati: _data/talks.yml (struttura comune), _data/<lingua>/talks_text.yml (testi),
+  _data/research.yml (titoli dei paper presentati). Sezione (h2) → anno (h3) → talk (h4).
+  Niente commenti HTML qui: nelle pagine .md kramdown li trasformerebbe in paragrafi vuoti.
+{%- endcomment -%}
+{%- assign texts = site.data[site.active_lang].talks_text -%}
+{%- for section in site.data.talks.sections -%}
+  {%- assign n = forloop.index %}
+  {%- assign section_id = 'content-' | append: n -%}
+  {%- assign section_title = texts.sections[section.key] -%}
+  {%- include section-toggle.liquid id=section_id title=section_title expanded=section.expanded %}
+  <div id="content-{{ n }}" class="toggle-section{% if section.expanded %} expanded{% endif %}">
+    {%- for group in section.years %}
+      <h3 class="talks-year">{{ group.year }}</h3>
+      {%- for key in group.talks -%}
+        {%- assign talk = site.data.talks.talks[key] -%}
+        {%- assign text = texts.talks[key] %}
+        <div class="seminar-entry indented">
+          <div class="seminar-entry__row seminar-entry__row--title">
+            <h4 class="seminar-entry__content">
+              {{ text.event }}
+              {%- if talk.upcoming %}
+                <span style="font-size: small; white-space: nowrap;">{{ texts.upcoming }}</span>
+              {%- endif %}
+              —
+              <span class="highlight"
+                ><i>{{ texts.roles[talk.role] }}</i></span
+              >
+            </h4>
+          </div>
+          {%- if talk.paper %}
+            <div class="seminar-entry__row seminar-entry__row--paper">
+              <div class="seminar-entry__paper-text">
+                <i>{{ site.data.research.entries[talk.paper].title }}</i>
+              </div>
+            </div>
+          {%- endif %}
+          <div class="seminar-entry__row seminar-entry__row--location">
+            <div class="seminar-entry__location-text">{{ text.location }}</div>
+          </div>
+        </div>
+      {%- endfor -%}
+    {%- endfor %}
+  </div>
+{% endfor -%}

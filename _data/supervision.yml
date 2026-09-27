@@ -1,0 +1,84 @@
+# Pagina supervision: struttura comune (sezioni, ordine) e dati che non si traducono.
+# I testi tradotti (titoli delle tesi, progetti, corsi di laurea, etichette) sono in _data/<lingua>/supervision_text.yml.
+# Per aggiungere una persona: una voce in "people", la sua chiave nella sezione giusta, e i testi nelle tre lingue
+# (titolo della tesi sotto theses, con la stessa chiave; per gli assistenti il progetto sotto projects).
+#
+# Campi di una persona:
+#   name, year: nome e anno
+#   program, university: chiavi di programs e universities nei testi
+#   ongoing: true se la tesi è in corso (mostra "(ongoing)" / "(in corso)" / "(en curso)")
+#   language: it se la tesi è scritta in italiano (mostra "(in Italian)" / "(en italiano)"; niente sulla pagina italiana)
+#   project: chiave del progetto (solo assistenti di ricerca)
+
+sections:
+  - key: theses
+    id: content-0
+    expanded: true
+    kind: thesis
+    entries:
+      - francesco-michetti
+      - cristian-di-marco
+      - matteo-buldini
+      - valerio-danselmo
+      - giorgio-minelli
+      - pietro-zanieri
+  - key: research-assistants
+    id: content-1
+    expanded: true
+    kind: ra
+    entries:
+      - tiziana-simeoni
+      - gabriele-de-fine
+
+people:
+  francesco-michetti:
+    name: "Francesco Michetti"
+    year: 2026
+    program: business-administration
+    university: unibo
+    language: it
+    ongoing: true
+  cristian-di-marco:
+    name: "Cristian Di Marco"
+    year: 2026
+    program: business-administration
+    university: unibo
+    language: it
+    ongoing: true
+  matteo-buldini:
+    name: "Matteo Buldini"
+    year: 2026
+    program: business-administration
+    university: unibo
+    language: it
+    ongoing: true
+  valerio-danselmo:
+    name: "Valerio D'Anselmo"
+    year: 2026
+    program: business-administration
+    university: unibo
+    language: it
+  giorgio-minelli:
+    name: "Giorgio Minelli"
+    year: 2026
+    program: business-administration
+    university: unibo
+    language: it
+  pietro-zanieri:
+    name: "Pietro Zanieri"
+    year: 2026
+    program: business-administration
+    university: unibo
+    language: it
+  tiziana-simeoni:
+    name: "Tiziana Simeoni"
+    year: 2024
+    program: economics-econometrics
+    university: unibo
+    project: democratization-media-voting
+  gabriele-de-fine:
+    name: "Gabriele De Fine"
+    year: 2024
+    program: economics-econometrics
+    university: unibo
+    project: democratization-media-voting

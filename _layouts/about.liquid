@@ -15,7 +15,16 @@ layout: default
       {% endif %}
     </h1>
     {% if page.subtitle != 'blank' %}
-      <p class="desc">{{ page.subtitle }}</p>
+      {% comment %}
+        Un sottotitolo con blocchi (<div>) non può stare dentro <p>: il browser chiuderebbe il <p> prima del
+        <div> e aggiungerebbe un <p> vuoto alla fine. Si scrive direttamente la struttura che il browser costruiva.
+      {% endcomment %}
+      {% if page.subtitle contains '<div' %}
+        <p class="desc"></p>
+        {{ page.subtitle }}
+      {% else %}
+        <p class="desc">{{ page.subtitle }}</p>
+      {% endif %}
     {% endif %}
   </header>
 
@@ -71,16 +80,6 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: var(--global-theme-color)">
-          {{- site.data[site.active_lang].strings.selected_publications -}}
-        </a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
-
     <!-- Social -->
     {% if page.social %}
       <hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">
@@ -90,7 +89,7 @@ layout: default
         </div>
 
         <div class="contact-icons" style="margin-top: 5px;">
-          <div style="display: text-align: center; position: center;">
+          <div>
             {% include social.liquid %}
           </div>
         </div>

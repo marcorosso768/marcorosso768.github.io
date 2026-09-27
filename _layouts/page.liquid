@@ -14,7 +14,16 @@ layout: default
       <h1 class="post-title" style="color: var(--global-theme-color);">{{ page.title }}</h1>
     {% endif %}
     {% if page.subtitle %}
-      <p class="desc">{{ page.subtitle }}</p>
+      {% comment %}
+        Un sottotitolo con blocchi (<div>) non può stare dentro <p>: il browser chiuderebbe il <p> prima del
+        <div> e aggiungerebbe un <p> vuoto alla fine. Si scrive direttamente la struttura che il browser costruiva.
+      {% endcomment %}
+      {% if page.subtitle contains '<div' %}
+        <p class="desc"></p>
+        {{ page.subtitle }}
+      {% else %}
+        <p class="desc">{{ page.subtitle }}</p>
+      {% endif %}
     {% endif %}
     {% if page.description %}
       <p class="post-description">
@@ -30,13 +39,6 @@ layout: default
   <article>
     {{ content }}
   </article>
-
-  {% if page.related_publications %}
-    <h2>{{ site.data[site.active_lang].strings.references }}</h2>
-    <div class="publications">
-      {% bibliography --cited_in_order %}
-    </div>
-  {% endif %}
 
   {% if site.giscus and page.giscus_comments %}
     {% include giscus.liquid %}

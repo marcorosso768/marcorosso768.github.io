@@ -20,7 +20,16 @@ layout: default
         {% endif %}
       </h1>
       {% if page.subtitle %}
-        <p class="desc">{{ page.subtitle }}</p>
+        {% comment %}
+          Un sottotitolo con blocchi (<div>) non può stare dentro <p>: il browser chiuderebbe il <p> prima del
+          <div> e aggiungerebbe un <p> vuoto alla fine. Si scrive direttamente la struttura che il browser costruiva.
+        {% endcomment %}
+        {% if page.subtitle contains '<div' %}
+          <p class="desc"></p>
+          {{ page.subtitle }}
+        {% else %}
+          <p class="desc">{{ page.subtitle }}</p>
+        {% endif %}
       {% endif %}
       {% if page.description %}
         <p class="post-description">{{ page.description }}</p>

@@ -1,0 +1,55 @@
+# Pagina talks: testi in questa lingua. Struttura e dati comuni in _data/talks.yml.
+# Il nome è diverso da talks.yml di proposito: jekyll-polyglot unisce _data/<lingua>/X.yml a site.data.X.
+
+sections:
+  invited: "seminari su invito"
+  conferences: "conferenze e seminari"
+  other: "altri eventi accademici"
+
+upcoming: "(in programma)"
+
+roles:
+  speaker: "Relatore"
+  speaker_discussant: "Relatore e discussant"
+  discussant: "Discussant"
+
+talks:
+  lightcast-2026:
+    event: "Lightcast Research Community: Incontro Inaugurale"
+    location: "Lightcast — online"
+  prin-political-economy-2026:
+    event: "Workshop PRIN di Economia Politica"
+    location: "Università di Bologna — Bologna, Italia"
+  prin-economics-of-culture-2024:
+    event: "Workshop PRIN sull’Economia della Cultura: Etnia, Genere e le loro Interazioni"
+    location: "Università di Modena e Reggio Emilia — Modena, Italia"
+  udesa-seminar-2024:
+    event: "Ciclo de Seminarios del Departamento de Economía"
+    location: "Universidad de San Andrés — Buenos Aires, Argentina"
+  asset-2026:
+    event: "ASSET Annual Meeting"
+    location: "CRENoS (Centro Ricerche Economiche Nord Sud) — Cagliari, Italia"
+  sie-annual-meeting-2025:
+    event: "66ª Riunione Scientifica Annuale della Società Italiana di Economia"
+    location: "Università di Napoli Parthenope — Napoli, Italia"
+  bomopav-2025:
+    event: "BoMoPaV Economics Meeting"
+    location: "Università di Modena e Reggio Emilia — Modena, Italia"
+  phd-workshop-2023:
+    event: "Ⅳ Ph.D. Workshop"
+    location: "Le Sparne — Pitigliano (GR), Italia"
+  sasca-2023:
+    event: "SAsCA Ph.D. Conference in Economics"
+    location: "Università di Sassari — Sassari, Italia"
+  weee-2023:
+    event: "Workshop per Dottorandi in Econometria ed Economia Empirica (WEEE)"
+    location: "Centro Residenziale Universitario di Bertinoro — Bertinoro (FC), Italia"
+  phd-workshop-2022:
+    event: "Ⅲ Ph.D. Workshop"
+    location: "Le Sparne — Pitigliano (GR), Italia"
+  phd-workshop-2021:
+    event: "Ⅱ Ph.D. Workshop"
+    location: "Le Sparne — Pitigliano (GR), Italia"
+  book-economics-of-crime-2023:
+    event: "<i>“A Modern Guide to the Economics of Crime”</i> (Elgar, 2022)"
+    location: "Biblioteca “Walter Bigiavi” — Bologna, Italia"

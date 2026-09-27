@@ -454,7 +454,7 @@ $gap-vertical: 0.25em; // spazio tra le due righe
     }
 
     & .seminar-entry__paper-text {
-      opacity: 0.8;
+      opacity: 0.75;
     }
   }
 
@@ -539,7 +539,7 @@ $gap-vertical: 0.25em; // spazio tra le due righe
 
     & .teaching-entry__date-text {
       line-height: 15px;
-      opacity: 0.8;
+      opacity: 0.65;
     }
   }
 
@@ -642,8 +642,18 @@ $gap-vertical: 0.25em; // spazio tra le due righe
 }
 
 // interlinea più ampia: titolo e coautori sono link su righe diverse e servono almeno 24px tra un link e l'altro (touch target)
-.icon-entry > span {
+.icon-entry > span,
+.icon-entry > .entry-text {
   line-height: 1.5;
+}
+
+// titolo della voce (paper, tesi, pubblicazione): h3 per la struttura della pagina, stesso aspetto del testo
+.icon-entry .entry-title {
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+  text-transform: none;
+  margin: 0;
 }
 
 .icon-entry i.fa-fw {
@@ -671,7 +681,12 @@ $gap-vertical: 0.25em; // spazio tra le due righe
 .icon-entry span a:visited,
 .icon-entry span a:hover,
 .icon-entry span a:focus,
-.icon-entry span a:active {
+.icon-entry span a:active,
+.icon-entry .entry-text a:link,
+.icon-entry .entry-text a:visited,
+.icon-entry .entry-text a:hover,
+.icon-entry .entry-text a:focus,
+.icon-entry .entry-text a:active {
   color: var(--global-theme-color) !important;
   text-decoration: none;
   font-style: normal;
@@ -679,7 +694,9 @@ $gap-vertical: 0.25em; // spazio tra le due righe
 
 /* Effetto al passaggio */
 .icon-entry span a:hover,
-.icon-entry span a:focus {
+.icon-entry span a:focus,
+.icon-entry .entry-text a:hover,
+.icon-entry .entry-text a:focus {
   text-decoration: underline;
   font-style: italic;
 }
@@ -778,38 +795,196 @@ $gap-vertical: 0.25em; // spazio tra le due righe
 * Toggle Box (Abstract / Keywords / Other)
 *****************************************************************************/
 
+// Chiusa: altezza, padding verticale, margini e bordi orizzontali a zero. Aperta: toggle-box.js anima
+// l'altezza fra due valori in px misurati; padding, margini e bordi seguono con la stessa durata e curva,
+// così la casella e il testo sotto si muovono in un solo movimento, senza scatti all'inizio o alla fine.
 .toggle-box {
   display: none;
-  max-height: 0;
+  height: 0;
   overflow: hidden;
   opacity: 0;
   padding-top: 0;
   padding-bottom: 0;
   margin-left: var(--toggle-spacing);
   margin-right: var(--indent-margin);
-  margin-top: 6px;
+  margin-top: 0;
   margin-bottom: 0;
   padding-left: 1em;
   padding-right: 1em;
   background-color: var(--global-card-bg-color);
   border: 1px solid var(--global-theme-color);
+  border-top-width: 0;
+  border-bottom-width: 0;
   border-radius: var(--toggle-radius);
   font-size: 10pt;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   pointer-events: none;
+  // stessa durata e stessa curva in apertura e in chiusura, per tutte le proprietà
   transition:
-    max-height 0.6s ease,
-    opacity 0.4s ease,
-    padding 0.4s ease; //0.6s
+    height 0.4s ease-in-out,
+    padding 0.4s ease-in-out,
+    margin 0.4s ease-in-out,
+    border-width 0.4s ease-in-out,
+    opacity 0.4s ease-in-out;
+}
+
+// Niente "scroll anchoring" del browser: quando una casella si chiude, il testo sotto sale in modo
+// continuo; con l'ancoraggio attivo il browser correggeva lo scorrimento a ogni passo e la pagina scattava.
+html {
+  overflow-anchor: none;
 }
 
 .toggle-box.active {
   display: block;
   opacity: 1;
   pointer-events: auto;
-  margin-bottom: 1rem;
+  margin-top: 6px;
+  // niente margine sotto: lo spazio dopo l'ultima casella è il margine di .entry-block (1rem, come prima).
+  // Con un margine sotto, alla fine della chiusura di una casella preceduta da un'altra aperta i margini
+  // si ricombinavano (1rem + 1rem → 1rem) e il testo sotto saltava di 16 px.
+  margin-bottom: 0;
   padding-top: 1em;
   padding-bottom: 1em;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
+// casella di citazione: BibTeX su più righe, scorrimento orizzontale se non entra
+.toggle-box pre.bibtex {
+  margin: 0 0 0.75em;
+  padding: 0;
+  background: none;
+  color: var(--global-text-color);
+  font-size: 9pt;
+  line-height: 1.45;
+  white-space: pre;
+  overflow-x: auto;
+}
+
+.copy-bibtex,
+.download-bibtex {
+  min-height: 24px; // minimo per il tocco su mobile
+  padding: 0.15em 0.9em;
+  border: 1px solid var(--global-theme-color);
+  border-radius: var(--toggle-radius);
+  background: none;
+  color: var(--global-theme-color);
+  font-size: 9pt;
+  cursor: pointer;
+
+  &:hover,
+  &:focus-visible {
+    background-color: var(--global-theme-color);
+    color: var(--global-bg-color);
+  }
+}
+
+.download-bibtex + .copy-bibtex {
+  margin-left: 0.4em;
+}
+
+// tra due caselle aperte, 1rem come prima (allora veniva dal margine sotto della casella precedente)
+.toggle-box.active ~ .toggle-box.active {
+  margin-top: 1rem;
+}
+
+// talks: anno (h3) e titolo del talk (h4) con l'aspetto del testo di prima (paragrafo in grassetto e riga normale)
+.talks-year {
+  font: inherit;
+  font-weight: 700;
+  letter-spacing: inherit;
+  margin: 0 0 1rem 0.1em;
+}
+
+h4.seminar-entry__content {
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+  margin: 0;
+}
+
+// pagine dei corsi: elenco dei materiali (ul/li) con l'aspetto delle righe di prima; un blocco seguito da un altro
+// (notebook di Python) lascia 14pt di spazio dopo l'ultimo file
+.course-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.course-list--spaced > .course-entry:last-child {
+  margin-bottom: 14pt;
+}
+
+// titolo delle sezioni apribili (_includes/section-toggle.liquid): il pulsante dentro h2/h3 ha l'aspetto del titolo
+// e occupa tutta la riga, come prima il link che conteneva il titolo
+.section-toggle {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+  text-align: inherit;
+  text-transform: inherit;
+  cursor: pointer;
+}
+
+// pillole apribili: <button> con lo stesso testo di prima (il browser dà ai pulsanti un proprio carattere)
+button.toggle-pill {
+  margin: 0;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+}
+
+// supervision: studente o assistente (h3) con l'aspetto del testo di prima
+h3.thesis-entry__content,
+h3.ra-entry__content {
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+  margin: 0;
+}
+
+// teaching: titolo del corso (h5) con l'aspetto del testo di prima; line-height resta quello della riga del titolo
+h5.teaching-entry__content {
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+  margin: 0;
+}
+
+// pulsante "×" aggiunto da toggle-box.js: 24 px (minimo WCAG per il tocco), alto quanto la prima riga,
+// così una casella di una riga non diventa più alta
+.toggle-box-close {
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin: -8px -8px -8px 8px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  color: var(--global-theme-color);
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  user-select: none;
+  opacity: 0.75;
+
+  &:hover,
+  &:focus-visible {
+    opacity: 1;
+    background-color: var(--global-bg-color);
+  }
 }
 
 /*****************************************************************************
@@ -820,9 +995,10 @@ $gap-vertical: 0.25em; // spazio tra le due righe
   max-height: 0;
   overflow: hidden;
   opacity: 0;
+  // stessa durata per altezza e opacità ed ease-in-out (simmetrica): apertura e chiusura hanno lo stesso andamento
   transition:
-    max-height 0.6s ease,
-    opacity 0.4s ease; //max-height 0.6s ease, opacity 0.4s ease; //, padding 0.4s ease;
+    max-height 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
   line-height: 1.2;
 }
 
@@ -847,7 +1023,8 @@ $gap-vertical: 0.25em; // spazio tra le due righe
     }
   }
 
-  h2.subsection {
+  h2.subsection,
+  h3.subsection {
     color: var(--global-text-color);
     //padding-top: 0.5rem;
     margin-bottom: 1rem; //0.5em; //1rem;
@@ -900,13 +1077,27 @@ $gap-vertical: 0.25em; // spazio tra le due righe
     }
   }
 
-  h2.year.year--static {
+  h2.year.year--static,
+  h4.year.year--static {
     margin-top: 0.25rem;
     margin-bottom: 0.75rem;
     font-style: italic;
   }
 
-  h2.year {
+  // teaching: ateneo attenuato come il testo secondario (0.75; le date, solo metadati, sono a 0.65);
+  // il nome inizia dove iniziano le icone dei corsi e la freccia di "corsi attuali/precedenti"
+  h4.year.year--static {
+    margin-left: var(--indent-margin);
+    opacity: 0.75;
+
+    span {
+      margin-left: 0;
+    }
+  }
+
+  h2.year,
+  h4.year {
+    font-weight: 300; // il peso che MDB dà a h1-h3: in teaching il titolo dell'ateneo è un h4
     color: var(--global-text-color);
     //padding-top: 0.5rem;
     margin-bottom: 1rem; //0.5em; //1rem;
@@ -1145,45 +1336,6 @@ $gap-vertical: 0.25em; // spazio tra le due righe
 }
 
 /*****************************************************************************
-* Thesis Supervision
-*****************************************************************************/
-.thesis-entry {
-  margin-bottom: 1.5rem;
-
-  &.indented {
-    margin-left: var(--indent-margin);
-  }
-
-  &__row {
-    display: flex;
-    column-gap: $gap-horizontal;
-    align-items: center;
-
-    &::before {
-      @include fa-base;
-      display: inline-block;
-      width: $fa-fw-width;
-      text-align: center;
-      font-size: 1em;
-      color: var(--global-theme-color);
-    }
-  }
-
-  &__row--thesis {
-    margin-bottom: $gap-vertical;
-    align-items: flex-start;
-
-    &::before {
-      content: "\f501"; // fa-user-graduate
-    }
-
-    & .thesis-entry__content {
-      line-height: 1.2;
-    }
-  }
-} // ← chiude .thesis-entry
-
-/*****************************************************************************
 * Research Assistant
 *****************************************************************************/
 .ra-entry {
@@ -1234,6 +1386,7 @@ $gap-vertical: 0.25em; // spazio tra le due righe
 
     & .ra-entry__project-text {
       line-height: 15px;
+      opacity: 0.75;
     }
   } // ← chiude &__row--project
 } // ← chiude .ra-entry
@@ -1290,6 +1443,7 @@ $gap-vertical: 0.25em; // spazio tra le due righe
 
     & .thesis-entry__title-text {
       line-height: 15px;
+      opacity: 0.75;
     }
   } // ← chiude &__row--title
 } // ← chiude .thesis-entry
@@ -1301,6 +1455,7 @@ $gap-vertical: 0.25em; // spazio tra le due righe
 *****************************************************************************/
 
 .icon-entry span > a:not(:first-child),
+.icon-entry .entry-text > a,
 .teaching-entry__content > a:not(:first-child) {
   &,
   &:link,
@@ -1312,10 +1467,10 @@ $gap-vertical: 0.25em; // spazio tra le due righe
   }
 }
 
-// serie e ISBN dei working paper: riga secondaria, piccola e attenuata come le date
+// serie e ISBN dei working paper: riga secondaria, piccola e più attenuata delle date (0.65 contro 0.8)
 .icon-entry .paper-series {
   font-size: 0.85em;
-  opacity: 0.8;
+  opacity: 0.65;
 }
 
 /*****************************************************************************

@@ -1,0 +1,116 @@
+{%- comment -%}
+  Una voce della pagina research. Parametro: key (chiave in _data/research.yml → entries).
+  Ordine fisso: titolo (h3), coautori, serie; pillole-link; pillole delle caselle; caselle.
+{%- endcomment -%}
+{%- assign key = include.key -%}
+{%- assign e = site.data.research.entries[key] -%}
+{%- assign t = site.data[site.active_lang].research_text.entries[key] -%}
+{%- assign labels = site.data[site.active_lang].research_text.labels -%}
+{%- case e.icon -%}
+  {%- when 'working_paper', 'publication' -%}
+    {%- assign icon = 'fa-newspaper' -%}
+  {%- when 'thesis' -%}
+    {%- assign icon = 'fa-book' -%}
+  {%- else -%}
+    {%- assign icon = 'fa-file-lines' -%}
+{%- endcase %}
+<div class="entry-block">
+  <div class="icon-entry indented">
+    <i
+      class="fa-solid {{ icon }} fa-fw"
+      {% if e.icon == 'working_paper' %}
+        title="{{ labels.icon_working_paper }}"
+      {% endif %}
+    ></i>
+    <div class="entry-text">
+      <h3 class="entry-title">
+        {%- case e.icon -%}
+          {%- when 'publication' -%}
+            {{ e.authors | escape }} ({{ e.year }}). <a href="{{ e.url }}" target="_blank" rel="noopener noreferrer">{{ e.title | escape }}</a>
+            <i>{{ e.journal | escape }}</i>, {{ e.details | escape }}
+          {%- when 'thesis' -%}
+            {{ site.data[site.active_lang].research_text.degrees[e.degree] }} ({{ e.year }}), <em>"{{ e.title | escape }}"</em>
+          {%- else -%}
+            {%- if e.url -%}
+              <a href="{{ e.url }}" target="_blank" rel="noopener noreferrer">{{ e.title | escape }}</a>
+            {%- else -%}
+              {{ e.title | escape }}
+            {%- endif -%}
+        {%- endcase -%}
+      </h3>
+      {%- if e.coauthors %}
+        {{ labels.joint_with }}
+        {%- assign count = e.coauthors | size -%}
+        {%- for person_key in e.coauthors -%}
+          {%- assign person = site.data.people[person_key] -%}
+          {%- if forloop.first -%}
+            {{ ' ' }}
+          {%- elsif forloop.last -%}
+            {%- if count > 2 %}, {{ labels.and }} {% else %} {{ labels.and }} {% endif -%}
+          {%- else -%}
+            {{ ', ' }}
+          {%- endif -%}
+          <a href="{{ person.url }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>
+        {%- endfor -%}
+      {%- endif -%}
+      {%- if e.series %}
+        <br>
+        <span class="paper-series">{{ e.series }}</span>
+      {%- endif %}
+    </div>
+  </div>
+  {%- if e.links or e.panels %}
+    <div class="pill-container mt-2">
+      {%- for link in e.links -%}
+        {%- if link.type == 'draft_request' -%}
+          {%- assign subject = labels.draft_subject | replace: '{title}', e.title | url_encode | replace: '+', '%20' -%}
+          {%- assign body = labels.draft_body | replace: '{title}', e.title | url_encode | replace: '+', '%20' %}
+          <a href="mailto:{{ labels.draft_email }}?subject={{ subject }}&amp;body={{ body }}" class="pill-link no-external">
+            <i class="fa-solid fa-file-lines fa-2xs"></i>
+            <span class="toggle-label" title="{{ labels.draft_title }}">{{ labels.draft }}</span>
+          </a>
+        {%- else %}
+          <a href="{{ link.url }}" class="pill-link no-external">
+            <i class="fa-solid fa-file-lines fa-2xs"></i>
+            <span class="toggle-label" title="{{ link.title | escape }}">{{ labels.working_paper }}</span>
+          </a>
+        {%- endif -%}
+      {%- endfor -%}
+      {%- for panel in e.panels %}
+        <button
+          type="button"
+          class="pill-button toggle-pill"
+          data-target="{{ panel }}-{{ key }}"
+          aria-controls="{{ panel }}-{{ key }}"
+          aria-expanded="false"
+        >
+          <i class="fa-solid fa-chevron-right fa-2xs" aria-hidden="true"></i>
+          <span class="toggle-label">{{ labels[panel] }}</span>
+        </button>
+      {%- endfor %}
+    </div>
+  {%- endif -%}
+  {%- for panel in e.panels -%}
+    {%- case panel -%}
+      {%- when 'abstract' -%}
+        {%- assign content = t.abstract | default: e.abstract -%}
+      {%- when 'keywords' -%}
+        {%- assign content = t.keywords | default: e.keywords -%}
+      {%- when 'jel' -%}
+        {%- assign content = e.jel -%}
+    {%- endcase -%}
+    {%- if panel == 'cite' %}
+      <div id="cite-{{ key }}" class="toggle-box">
+        <pre class="bibtex" id="bibtex-{{ key }}">{{ e.bibtex | escape }}</pre>
+        <button type="button" class="download-bibtex" data-copy-target="bibtex-{{ key }}" aria-label="{{ labels.download_aria }}">
+          {{- labels.download -}}
+        </button>
+        <button type="button" class="copy-bibtex" data-copy-target="bibtex-{{ key }}" aria-label="{{ labels.copy_aria }}">{{ labels.copy }}</button>
+      </div>
+    {%- else %}
+      <div id="{{ panel }}-{{ key }}" class="toggle-box">
+        {{ content }}
+      </div>
+    {%- endif -%}
+  {%- endfor %}
+</div>

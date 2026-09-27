@@ -1,0 +1,29 @@
+# Configurazione del controllo dei link (workflow "Check for broken links on site").
+# Si controlla il sito già pubblicato (ramo gh-pages): link interni come file, link esterni via rete.
+
+max_concurrency = 8
+timeout = 30
+max_retries = 3
+retry_wait_time = 5
+user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+
+# Codici accettati. 403 e 999 sono le risposte dei sistemi anti-bot (ResearchGate, SSRN, riviste,
+# LinkedIn) a un programma che controlla la pagina: il profilo esiste, il controllo viene respinto.
+# 429 è "troppe richieste" (Google Scholar): la pagina esiste. Un link rotto dà 404 o 410, che restano errori.
+accept = ["200..=299", "403", "429", "999"]
+
+exclude = [
+  # link del sito verso se stesso (canonical, hreflang, og:url): le pagine si controllano come file
+  '^https://marcorosso\.com',
+  # conteggio visite GoatCounter
+  '^https://marcorosso\.goatcounter\.com',
+  '^https://gc\.zgo\.at',
+  # nbviewer risponde 503 ai controlli automatici; per i visitatori le pagine funzionano
+  '^https://nbviewer\.org',
+  # CRENoS: certificato SSL senza catena intermedia; i browser lo accettano, lychee no
+  '^https?://crenos\.unica\.it',
+  # UniTo: irraggiungibile dai server di GitHub (timeout), raggiungibile dai browser
+  '^https?://([a-z0-9-]+\.)*unito\.it',
+  # Collegio Carlo Alberto (Torino): stesso comportamento di UniTo
+  '^https?://([a-z0-9-]+\.)*carloalberto\.org',
+]

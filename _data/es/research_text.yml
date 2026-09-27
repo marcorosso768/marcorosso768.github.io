@@ -1,0 +1,134 @@
+# Pagina research: testi in questa lingua. Struttura, link e dati comuni in _data/research.yml.
+# Il nome è diverso da research.yml di proposito: jekyll-polyglot unisce _data/<lingua>/X.yml a site.data.X,
+# e con lo stesso nome i dati comuni verrebbero sovrascritti dai testi.
+
+sections:
+  jmp: "job market paper"
+  working_papers: "documentos de trabajo"
+  wip: "trabajos en curso (selección)"
+  other_publications: "otras publicaciones"
+  theses: "tesis"
+
+coming_soon: "Próximamente."
+
+degrees:
+  phd: "Tesis Doctoral"
+  master: "Tesis de Maestría"
+  bachelor: "Tesis de Licenciatura"
+
+labels:
+  abstract: "Abstract"
+  keywords: "Palabras clave"
+  jel: "JEL"
+  cite: "Citar"
+  working_paper: "Working Paper"
+  draft: "Borrador"
+  draft_title: "Borrador disponible a pedido"
+  icon_working_paper: "Working paper"
+  download: "Descargar"
+  download_aria: "Descargar el BibTeX (.bib)"
+  copy: "Copiar"
+  copy_aria: "Copiar el BibTeX"
+  joint_with: "junto con"
+  and: "y"
+  draft_subject: "Solicitud de borrador - {title}"
+  draft_body: "Hola Marco:\r\n\r\nQuisiera pedirte el borrador de tu documento de trabajo “{title}”.\r\n\r\n¡Gracias!\r\n"
+  draft_email: "marco.rosso4@unibo.it"
+
+entries:
+  ai-labor-demand:
+    abstract: >-
+      Estudiamos cómo el lanzamiento de ChatGPT afectó la demanda laboral publicada en Estados Unidos, utilizando
+      368 millones de avisos de empleo de Lightcast (2016–2025) y una medida de exposición a los LLM anclada en el
+      uso efectivo. Si bien encontramos un efecto negativo y causal sobre el volumen de avisos en las ocupaciones
+      expuestas a la IA, no hallamos ningún efecto posterior al lanzamiento sobre su composición por antigüedad.
+      Después de noviembre de 2022, el volumen de avisos en las ocupaciones del cuartil superior de exposición se
+      contrae 9 puntos logarítmicos (aproximadamente 8,6 por ciento) respecto de las ocupaciones menos expuestas
+      dentro del mismo mercado metropolitano y mes. La estimación resiste una amplia batería de controles de
+      robustez y se concentra en el uso medido de los LLM más que en la capacidad de la IA. En las ocupaciones
+      expuestas, los avisos junior caen bastante más que los senior tras el lanzamiento, pero la divergencia es
+      anterior a ChatGPT: se abre en 2021–22, durante la recuperación de la COVID, y no muestra un quiebre en el
+      momento del lanzamiento. El diferencial que una simple comparación antes/después atribuiría a ChatGPT queda
+      absorbido por la exposición predeterminada al trabajo remoto. Nuestros resultados advierten contra leer las
+      caídas en puestos de entrada basadas en la exposición como evidencia de un cambio tecnológico sesgado por
+      antigüedad impulsado por la IA.
+    keywords: "IA generativa; ChatGPT; demanda laboral; antigüedad; avisos de empleo; diferencias en diferencias."
+  tipping-point:
+    abstract: >-
+      ¿Por qué la corrupción puede atraer al servicio público a trabajadores deshonestos y, al mismo tiempo,
+      disuadir a los honestos? Incorporamos el autocontrol a la elección ocupacional. Los agentes de baja integridad
+      entran por las rentas de corrupción, los de alta integridad permanecen ajenos a la tentación y los intermedios
+      resisten a un costo en utilidad. Esto genera un déficit interior en la frontera de entrada, a diferencia de
+      los patrones de selección que producen los modelos de referencia de reputación y de Roy considerados aquí. El
+      mecanismo distingue la prevención de rentas de las sanciones diferidas. Manteniendo fijo el pago de
+      compromiso, la prevención aumenta débilmente la entrada y reduce la masa y la proporción de entrantes
+      corruptos respecto de las sanciones, porque la tentación subpondera el castigo diferido. Bajo tentación
+      severa, la prevención produce un doble dividendo en el caso de referencia uniforme: menos corrupción y más
+      empleo público. En el modelo lineal, la geometría genera umbrales de quiebre distintos para el empleo público
+      y para la integridad promedio. Ambos convergen a 1 + √2 cuando las rentas se anulan bajo distribuciones
+      conjuntas de tipos regulares. Para rentas positivas suficientemente pequeñas, el umbral de integridad se ubica
+      por encima del umbral de empleo, lo que crea una región en la que el empleo se contrae mientras la integridad
+      se deteriora. Solo el umbral de empleo permanece exactamente en 1 + √2 en el caso de referencia uniforme
+      independiente. La frontera con dos quiebres también identifica los parámetros de tentación bajo las
+      condiciones de soporte enunciadas y con medidas cardinales conmensurables de integridad y de oportunidades
+      externas, observadas junto con la entrada efectiva. Los experimentos existentes ofrecen una motivación
+      descriptiva, pero no implementan esta prueba estructural.
+    keywords: "selección ocupacional; autocontrol y tentación; corrupción; reputación y autoimagen; mercados laborales del sector público; diseño institucional."
+  crime-voting:
+    abstract: >-
+      Este trabajo analiza si la exposición a noticias policiales geolocalizadas modifica el comportamiento
+      electoral individual en las elecciones italianas. A partir de un panel de votantes boloñeses que no cambian de
+      residencia, observados a lo largo de varias rondas electorales, explotamos la variación intraindividual en la
+      exposición a noticias policiales cercanas durante el mes previo a la elección, manteniendo constantes los
+      efectos fijos individuales y de elección. La exposición agregada a noticias policiales arroja asociaciones
+      débiles e imprecisas. La desagregación por nacionalidad percibida del autor del delito revela una asimetría
+      marcada. En las elecciones nacionales, la exposición a noticias de delitos atribuidos a personas inmigrantes
+      cerca del domicilio de quien vota se asocia con una caída intraindividual de alrededor de 2 puntos
+      porcentuales en el apoyo al Movimiento Cinco Estrellas, el mayor partido sin una posición clara sobre
+      inmigración durante el período analizado, y con un aumento comparable de la abstención; las noticias de
+      delitos atribuidos a ciudadanos italianos no presentan una asociación comparable. La respuesta es específica
+      del contenido policial: noticias locales comparables ajenas al delito no producen ningún desplazamiento
+      análogo. Estas respuestas asimétricas, ausentes en las medidas agregadas, resultan más compatibles con una
+      señal de nacionalidad en la cobertura policial que activa un encuadre de inmigración y seguridad que con una
+      reacción uniforme a la saliencia del delito. La evidencia señala que lo que importa para el comportamiento
+      electoral es la atribución del delito en las noticias locales, más que su mera ocurrencia. Una falsificación
+      temporal respalda la lectura ligada a la ventana de campaña, pero es sensible al clasificador de nacionalidad
+      del autor; en consecuencia, leemos las estimaciones como asociaciones, con una replicación en fuentes
+      alternativas en curso para resolver la interpretación causal.
+    keywords: "crimen; inmigración; elecciones; medios de comunicación; comportamiento electoral individual."
+  childbirth-turnout:
+    abstract: >-
+      A partir de registros administrativos de participación electoral de Bolonia, Italia (2004–2013), vinculados a
+      los padrones anuales de población, examinamos cómo el nacimiento de un hijo modifica la brecha de
+      participación entre madre y padre. Al vincular a ambos progenitores con el mismo hijo, encontramos que la
+      brecha se amplía en contra de la madre en 5,7 puntos porcentuales en el primer mes posterior al parto y se
+      atenúa a lo largo del primer año. En una comparación separada, las madres que dan a luz en la semana previa al
+      período de votación tienen 16 puntos menos de probabilidad de votar que quienes dan a luz en la semana
+      posterior. El déficit de participación materna respecto del nivel previo a la maternidad disminuye con el
+      tiempo, pero la evidencia no permite establecer una recuperación completa. Entre dos y cinco años después del
+      primer nacimiento identificado, las estimaciones son de −0,9 puntos en la muestra completa y de +0,3 en una
+      muestra de alta confiabilidad. La especificación principal en la muestra completa descarta pérdidas superiores
+      a aproximadamente 2,4 puntos con un 95 por ciento de confianza; esta cota es sensible a las elecciones de
+      referencia utilizadas.
+    keywords: "participación electoral; maternidad; nacimiento; género; participación política; producción doméstica."
+  childcare-turnout:
+    abstract: >-
+      ¿La cercanía a bienes públicos de provisión local aumenta la participación política de los hogares a los que
+      están destinados? Estudiamos Bolonia, Italia, con registros administrativos de participación de todas las
+      personas habilitadas para votar en cuatro elecciones (2004–2013), vinculados a los padrones anuales de
+      población, al ingreso, a las fechas exactas de nacimiento y a un censo geocodificado de establecimientos de
+      cuidado infantil construido para este trabajo. Nuestra especificación de base sigue a madres y padres con un
+      hijo conviviente en el padrón anual a medida que el hijo crece y atraviesa distintos regímenes de servicio, de
+      modo que la distancia relevante cambia dentro de la misma persona, y estima pendientes de distancia separadas
+      para las elecciones locales y nacionales. La pendiente de distancia a los establecimientos municipales en las
+      elecciones locales es estadísticamente indistinguible de cero, con una cota de equivalencia simétrica de 0,47
+      puntos porcentuales por cada 100 metros, o 1,25 puntos a lo largo del rango intercuartílico de la distancia.
+      El contraste local–nacional que restringe la hipótesis de rendición de cuentas se estima con menor precisión:
+      su cota es de 0,79 puntos por cada 100 metros, y efectos moderados sobre él siguen siendo compatibles con la
+      evidencia. La cercanía no modera de manera detectable la penalidad por maternidad y paternidad, ninguna
+      interacción por género sobrevive al ajuste por multiplicidad, y una cohorte que cambia de régimen y otros seis
+      servicios y equipamientos locales arrojan el mismo resultado. Un contraste marginal anterior entre madres y
+      padres con continuidad de domicilio verificada no es robusto a la especificación y se reporta como
+      exploratorio. El estimando es la cercanía: las estimaciones acotan el efecto movilizador de vivir cerca de un
+      establecimiento y dejan sin medir el de obtener una vacante en él.
+    keywords: "participación electoral; bienes públicos; cuidado infantil; género; elecciones locales."

@@ -1,0 +1,31 @@
+{%- comment -%}
+  Pagina dei materiali di un corso, generata dai dati: _data/courses.yml (struttura comune) e
+  _data/<lingua>/courses_text.yml (testi). Uso: {% include courses/page.liquid course="econometrics" %}.
+  Sezione (h2) → blocco (h3, solo per i notebook) → elenco dei file (ul/li).
+  Niente commenti HTML qui: nelle pagine .md kramdown li trasformerebbe in paragrafi vuoti.
+{%- endcomment -%}
+{%- assign course = site.data.courses[include.course] -%}
+{%- assign texts = site.data[site.active_lang].courses_text -%}
+{%- assign labels = texts.labels -%}
+{%- assign course_text = texts[include.course] -%}
+{%- for section in course.sections %}
+  {%- assign section_title = course_text.sections[section.key] -%}
+  {%- include section-toggle.liquid id=section.id title=section_title expanded=true %}
+  <div id="{{ section.id }}" class="toggle-section expanded">
+    {%- if section.blocks -%}
+      {%- for block in section.blocks %}
+        {%- include section-toggle.liquid id=block.id title=block.title expanded=true tag='h3' class='subsection' wrapper='subsection' %}
+        <div id="{{ block.id }}" class="toggle-section expanded">
+          {%- unless forloop.last -%}
+            {%- assign list_class = 'course-list course-list--spaced' -%}
+          {%- else -%}
+            {%- assign list_class = 'course-list' -%}
+          {%- endunless -%}
+          {%- include courses/list.liquid items=block.items icon=section.icon list_class=list_class %}
+        </div>
+      {%- endfor -%}
+    {%- else -%}
+      {%- include courses/list.liquid items=section.items icon=section.icon list_class='course-list' %}
+    {%- endif %}
+  </div>
+{%- endfor %}

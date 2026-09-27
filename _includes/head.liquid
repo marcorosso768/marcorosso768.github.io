@@ -1,9 +1,6 @@
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
 
-<!-- Connessioni anticipate ai CDN (risparmiano il tempo di apertura della connessione) -->
-<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-
 <!-- Bootstrap + sottoinsieme di MDB usato dal sito (vedi assets/css/mdb-subset.css) -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
 <link rel="stylesheet" href="{{ '/assets/css/mdb-subset.css' | relative_url | bust_file_cache }}">
@@ -59,7 +56,9 @@
 
 <!-- Code Syntax Highlighting: solo nelle pagine che contengono codice -->
 {% assign has_code = false %}
-{% if page.content contains '<pre' or page.content contains '```' or page.content contains 'language-' or page.pseudocode or page.code_diff %}
+{% comment %}il BibTeX delle pillole Cite è in un <pre class="bibtex"> ma non è codice da evidenziare{% endcomment %}
+{% assign content_for_code = page.content | remove: '<pre class="bibtex"' %}
+{% if content_for_code contains '<pre' or page.content contains '```' or page.content contains 'language-' or page.pseudocode or page.code_diff %}
   {% assign has_code = true %}
 {% endif %}
 {% if has_code %}

@@ -1,0 +1,159 @@
+# Pagina teaching: struttura comune (sezioni, gruppi, atenei, ordine dei corsi) e dati che non si traducono.
+# I testi tradotti (titoli, corsi di laurea, nomi degli atenei) sono in _data/<lingua>/teaching_text.yml.
+# Per aggiungere un corso: una voce in "courses", la sua chiave sotto l'ateneo giusto, e i testi nelle tre lingue.
+#
+# Campi di un corso:
+#   unibo: anno/codice del catalogo degli insegnamenti di Bologna (il link cambia con la lingua: /en/ o /it/)
+#   url: link al corso, se non è nel catalogo di Bologna (uguale in tutte le lingue)
+#   with: docenti con cui è tenuto il corso, chiavi di _data/people.yml
+#   materials: true se il corso ha una pagina di materiali (l'indirizzo è nei testi di ogni lingua)
+#   dates: anni accademici
+
+sections:
+  - key: instructor
+    expanded: true
+    groups:
+      - key: current
+        id: instructor-current
+        expanded: true
+        institutions:
+          - key: unibo
+            courses:
+              - empirical-methods-law-economics
+              - pre-sessional-econometrics
+              - economics-eu
+      - key: earlier
+        id: instructor-earlier
+        expanded: true
+        institutions:
+          - key: unibo
+            courses:
+              - python-for-economists
+              - microeconomics-business-administration
+              - econometrics-business-economics
+  - key: teaching-assistant
+    expanded: true
+    groups:
+      - key: current
+        id: ta-current
+        expanded: true
+        institutions:
+          - key: unibo
+            courses:
+              - microeconometrics
+              - economic-policy-methods
+              - behavioral-economics-2026
+              - microeconomics-economics-finance
+              - statistics-data-tutoring
+              - econometrics-public-policy
+              - industrial-economics
+              - political-economy
+      - key: earlier
+        id: ta-earlier
+        expanded: false
+        institutions:
+          - key: unibo
+            courses:
+              - microeconomics-economics-politics
+              - game-theory-economics-econometrics
+              - behavioral-economics-2022
+              - globalization
+          - key: unibo-forli
+            courses:
+              - competition-economics-policy
+              - microeconomics-forli
+              - game-theory-forli
+          - key: unito-saa
+            courses:
+              - public-management
+              - microeconomics-turin
+
+courses:
+  empirical-methods-law-economics:
+    url: https://phd.unibo.it/economics/en/teaching/empirical-methods-for-law-and-economics
+    dates: "2026–"
+  pre-sessional-econometrics:
+    dates: "2026–"
+  economics-eu:
+    unibo: "2026/522183"
+    dates: "2025–"
+  python-for-economists:
+    unibo: "2025/520832"
+    materials: true
+    dates: "2025–2026"
+  microeconomics-business-administration:
+    unibo: "2025/529017"
+    materials: true
+    dates: "2025–2026"
+  econometrics-business-economics:
+    unibo: "2025/406503"
+    with: [fort, pastorello]
+    materials: true
+    dates: "2025–2026"
+  microeconometrics:
+    unibo: "2026/521599"
+    with: [ichino]
+    dates: "2026–"
+  economic-policy-methods:
+    url: https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2026/529369
+    with: [mattozzi]
+    dates: "2026–"
+  behavioral-economics-2026:
+    unibo: "2026/527338"
+    with: [bigoni]
+    dates: "2026–"
+  microeconomics-economics-finance:
+    unibo: "2026/527268"
+    with: [wakefield]
+    dates: "2026–"
+  statistics-data-tutoring:
+    with: [fort]
+    dates: "2026–"
+  econometrics-public-policy:
+    unibo: "2025/520826"
+    with: [tommasi]
+    dates: "2025–"
+  industrial-economics:
+    unibo: "2025/455011"
+    with: [denicolo]
+    dates: "2025–"
+  political-economy:
+    unibo: "2024/468855"
+    with: [cantoni]
+    dates: "2024–"
+  microeconomics-economics-politics:
+    unibo: "2024/502710"
+    with: [casari]
+    dates: "2024–2025"
+  game-theory-economics-econometrics:
+    unibo: "2024/491971"
+    with: [mattozzi]
+    dates: "2022–2025"
+  behavioral-economics-2022:
+    unibo: "2024/467276"
+    with: [bigoni]
+    dates: "2022–2025"
+  globalization:
+    unibo: "2023/422038"
+    with: [prarolo]
+    dates: "2022–2024"
+  competition-economics-policy:
+    unibo: "2021/413556"
+    with: [barigozzi]
+    dates: "2021–2022"
+  microeconomics-forli:
+    unibo: "2021/413375"
+    with: [barigozzi]
+    dates: "2021–2022"
+  game-theory-forli:
+    unibo: "2021/413555"
+    with: [montinari]
+    dates: "2021–2022"
+  public-management:
+    url: https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=qeeh_1920
+    with: [figari]
+    dates: "2019–2020"
+  microeconomics-turin:
+    url: https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=wwm1_1920
+    with: [campaniello]
+    dates: "2019–2020"

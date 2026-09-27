@@ -1,0 +1,66 @@
+# Anteprima delle modifiche strutturali (fase C): sui branch refactor/* il sito viene costruito come in
+# produzione e pubblicato sul branch "preview", che GitHub Pages non serve. Il sito online non cambia
+# finché il branch non viene unito a master.
+# Nella cartella _report del branch preview: validatore W3C (Nu) e controllo dei titoli h1-h6.
+# Il job fallisce se ci sono errori, ma l'anteprima viene pubblicata comunque per poterla esaminare.
+name: Preview build
+
+on:
+  push:
+    branches:
+      - "refactor/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: preview
+  cancel-in-progress: true
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2.2"
+          bundler-cache: true
+      - name: Install ImageMagick 📸
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+      - name: Build 🔧
+        run: |
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+      - name: Purge unused CSS 🧹
+        run: |
+          npm install -g purgecss
+          purgecss -c purgecss.config.js
+      - name: Check HTML 🔍
+        id: check
+        continue-on-error: true
+        run: |
+          mkdir -p _site/_report
+          npm install --no-save vnu-jar@26.9.16
+          find _site -name '*.html' -not -path '_site/_pages/*' -not -path '_site/*/_pages/*' -not -path '_site/_report/*' > pages.txt
+          java -jar node_modules/vnu-jar/build/dist/vnu.jar --format json --stdout $(cat pages.txt) > vnu.json || true
+          status=0
+          python3 tools/vnu-report.py vnu.json _site > _site/_report/w3c.md || status=1
+          python3 tools/check-headings.py _site '_pages/*' '*/_pages/*' > _site/_report/headings.md || status=1
+          echo "branch: ${GITHUB_REF_NAME}, commit: ${GITHUB_SHA}" > _site/_report/source.txt
+          cat _site/_report/w3c.md _site/_report/headings.md >> "$GITHUB_STEP_SUMMARY"
+          exit $status
+      - name: Publish preview 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: _site
+          branch: preview
+          commit-message: "Preview of ${{ github.ref_name }} @ ${{ github.sha }}"
+      - name: Fail on HTML errors
+        if: steps.check.outcome == 'failure'
+        run: |
+          echo "::error::HTML non valido o titoli non corretti: vedi _report nel branch preview."
+          exit 1

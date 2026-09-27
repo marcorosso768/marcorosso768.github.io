@@ -1,0 +1,76 @@
+# Persone citate nel sito (coautori, docenti dei corsi): nome e pagina personale, scritti una volta sola.
+# La chiave (a sinistra) è quella usata in _data/research.yml e _data/teaching.yml.
+# url: pagina personale (research); unibo: nome del profilo su unibo.it/sitoweb, usato da teaching
+# (link in inglese, in italiano sulla pagina italiana); url_it: pagina da usare sulla pagina italiana, se diversa.
+cerina:
+  name: "Fabio Cerina"
+  url: https://sites.google.com/site/fabiocerina/
+nobili:
+  name: "Simone Nobili"
+  url: https://sites.google.com/view/simonenobili/home
+prarolo:
+  name: "Giovanni Prarolo"
+  url: https://sites.google.com/site/giovanniprarolo/
+  unibo: giovanni.prarolo
+bellettini:
+  name: "Giorgio Bellettini"
+  url: https://sites.google.com/site/giorgiobellettiniwebpage
+berti-ceroni:
+  name: "Carlotta Berti Ceroni"
+  url: https://www.unibo.it/sitoweb/carlotta.berticeroni
+gonzalez-eiras:
+  name: "Martín Gonzalez-Eiras"
+  url: https://sites.google.com/view/mgeiras/inicio
+ertola-navajas:
+  name: "Gabriela Ertola Navajas"
+  url: https://sites.google.com/udesa.edu.ar/gabrielaertolanavajas/home
+carrozzo-magli:
+  name: "Alessio Carrozzo Magli"
+  url: https://alessiocm.github.io
+vanin:
+  name: "Paolo Vanin"
+  url: https://sites.google.com/site/paolovanin/home
+fort:
+  name: "Margherita Fort"
+  unibo: margherita.fort
+pastorello:
+  name: "Sergio Pastorello"
+  unibo: sergio.pastorello
+ichino:
+  name: "Andrea Ichino"
+  unibo: andrea.ichino
+mattozzi:
+  name: "Andrea Mattozzi"
+  unibo: andrea.mattozzi
+bigoni:
+  name: "Maria Bigoni"
+  unibo: maria.bigoni
+wakefield:
+  name: "Matthew John Wakefield"
+  unibo: matthew.wakefield
+tommasi:
+  name: "Denni Tommasi"
+  url: https://sites.google.com/site/dennitommasi/
+denicolo:
+  name: "Vincenzo Denicolò"
+  unibo: vincenzo.denicolo
+cantoni:
+  name: "Enrico Cantoni"
+  unibo: enrico.cantoni
+casari:
+  name: "Marco Casari"
+  unibo: marco.casari
+barigozzi:
+  name: "Francesca Barigozzi"
+  unibo: francesca.barigozzi
+montinari:
+  name: "Natalia Montinari"
+  unibo: natalia.montinari2
+figari:
+  name: "Francesco Figari"
+  url: https://www.management-en.unito.it/do/docenti.pl/Alias?francesco.figari#tab-profilo
+  url_it: https://www.management.unito.it/do/docenti.pl/Alias?francesco.figari#tab-profilo
+campaniello:
+  name: "Nadia Campaniello"
+  url: https://www.esomas-en.unito.it/do/docenti.pl/Alias?nadia.campaniello#tab-profilo
+  url_it: https://www.esomas.unito.it/do/docenti.pl/Alias?nadia.campaniello#tab-profilo

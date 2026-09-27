@@ -1,0 +1,100 @@
+# Pagina teaching: testi in questa lingua. Struttura e dati comuni in _data/teaching.yml.
+# Il nome è diverso da teaching.yml di proposito: jekyll-polyglot unisce _data/<lingua>/X.yml a site.data.X.
+
+# inizio dei link al catalogo degli insegnamenti di Bologna (campo unibo dei corsi)
+catalogue_url: https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/
+
+sections:
+  instructor:
+    title: "instructor"
+    with: "joint with"
+  teaching-assistant:
+    title: "teaching assistant"
+    with: "with"
+
+groups:
+  current: "current courses"
+  earlier: "earlier courses"
+
+institutions:
+  unibo: "University of Bologna"
+  unibo-forli: "University of Bologna — Forlì Campus"
+  unito-saa: "University of Turin — SAA School of Management"
+
+labels:
+  materials: "teaching materials"
+  and: "and"
+
+courses:
+  empirical-methods-law-economics:
+    title: "Empirical Methods for Law and Economics"
+    program: "Ph.D. in Law and Economics (EDLE)"
+  pre-sessional-econometrics:
+    title: "Pre-sessional Course in Econometrics"
+    program: "Two Year Master in Business Administration (in Italian)"
+  economics-eu:
+    title: "Introduction to Economics of the EU"
+    program: "Bachelor in European Studies"
+  python-for-economists:
+    title: "Python for Economists"
+    program: "Two Year Master in Economics and Public Policy and in Applied Economics and Markets, Ph.D. in Economics, and Ph.D. in Management"
+    materials: /teaching/python_for_economists/
+  microeconomics-business-administration:
+    title: "Microeconomics"
+    program: "Bachelor in Business Administration (in Italian)"
+    materials: /teaching/microeconomics/
+  econometrics-business-economics:
+    title: "Econometrics"
+    program: "Bachelor in Business and Economics"
+    materials: /teaching/econometrics/
+  microeconometrics:
+    title: "Econometrics A (I.C.): Microeconometrics"
+    program: "Two Year Master in Economics and Econometrics"
+  economic-policy-methods:
+    title: "Advanced Course in Economic Policy and Methods"
+    program: "Two Year Master in Statistics, Economics and Business (in Italian)"
+  behavioral-economics-2026:
+    title: "Introduction to Behavioral Economics"
+    program: "Bachelor in Economics and Finance"
+  microeconomics-economics-finance:
+    title: "Microeconomics"
+    program: "Bachelor in Economics and Finance"
+  statistics-data-tutoring:
+    title: "Tutoring Activities in the Statistics and Data Area"
+    program: "Bachelor in Business and Economics"
+  econometrics-public-policy:
+    title: "Measurement and Econometric Analysis (I.C.): Econometrics"
+    program: "Two Year Master in Economics and Public Policy"
+  industrial-economics:
+    title: "Industrial Economics"
+    program: "Bachelor in Economics, Markets and Institutions (in Italian)"
+  political-economy:
+    title: "Political Economy"
+    program: "Bachelor in Economics, Politics and Social Sciences"
+  microeconomics-economics-politics:
+    title: "Microeconomics"
+    program: "Bachelor in Economics, Politics and Social Sciences"
+  game-theory-economics-econometrics:
+    title: "Microeconomics (I.C.): Game Theory"
+    program: "Two Year Master in Economics and Econometrics"
+  behavioral-economics-2022:
+    title: "Introduction to Behavioral Economics"
+    program: "Bachelor in Economics and Finance"
+  globalization:
+    title: "Globalization: Trade, Migrations and Multinationals"
+    program: "Bachelor in Economics and Finance"
+  competition-economics-policy:
+    title: "Economics (I.C.): Competition Economics and Policy"
+    program: "Two Year Master in Economics and Management (in Italian)"
+  microeconomics-forli:
+    title: "Microeconomics"
+    program: "Bachelor in Management and Economics"
+  game-theory-forli:
+    title: "Economics (I.C.): Game Theory"
+    program: "Two Year Master in Economics and Management (in Italian)"
+  public-management:
+    title: "Public Management and Public Economics"
+    program: "Bachelor Program in Business and Management"
+  microeconomics-turin:
+    title: "Microeconomics"
+    program: "Bachelor Program in Business and Management"

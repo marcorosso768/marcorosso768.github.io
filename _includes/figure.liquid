@@ -1,4 +1,4 @@
-{% assign img_path = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' %}
+{% assign img_path = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' | remove: '.webp' %}
 {% assign parts = include.path | split: '.' %}
 {% assign ext = parts.last %}
 
@@ -19,8 +19,8 @@
         {% if include.srcset %}
           srcset="{{ include.srcset }}"
           type="image/webp"
-        {% elsif ext == 'gif' or ext == 'jpeg' or ext == 'jpg' or ext == 'png' or ext == 'tiff' %}
-          srcset="{% for i in site.imagemagick.widths %}{{ img_path | relative_url }}-{{ i }}.webp {{ i }}w,{% endfor %}"
+        {% elsif ext == 'gif' or ext == 'jpeg' or ext == 'jpg' or ext == 'png' or ext == 'tiff' or ext == 'webp' %}
+          srcset="{% for i in site.imagemagick.widths %}{{ img_path | relative_url }}-{{ i }}.webp {{ i }}w{% unless forloop.last %},{% endunless %}{% endfor %}"
           type="image/webp"
         {% else %}
           srcset="{{ include.path | relative_url }}"

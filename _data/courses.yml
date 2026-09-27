@@ -1,0 +1,185 @@
+# Pagine dei materiali dei corsi (_pages/<lingua>/courses/): struttura comune e dati che non si traducono.
+# I testi tradotti (titoli delle sezioni, titoli dei file tradotti, "Lecture", date) sono in _data/<lingua>/courses_text.yml.
+# Per aggiungere un file: una voce nella sezione giusta; se il titolo cambia con la lingua, va nei tre courses_text.yml
+# (sotto titles, con il nome del file come chiave) invece che qui.
+#
+# Campi di un file:
+#   file: nome del file nella cartella del corso (gli spazi diventano %20 nel link)
+#   notebook: nome del notebook .ipynb (link al visualizzatore indicato in viewer, più il pulsante per scaricarlo)
+#   title: titolo, se è uguale in tutte le lingue
+#   lecture: numero della lezione (mostra "Lecture 3:" / "Lezione 3:" / "Clase 3:")
+#   prefix: etichetta fissa prima del titolo, uguale in tutte le lingue (es. "Extra L1")
+#   updated: data dell'ultimo aggiornamento, AAAA-MM oppure AAAA-MM-GG
+# Una sezione ha items oppure blocks (sottosezioni con titolo, id e items); icon è l'icona di tutti i suoi file.
+
+econometrics:
+  folder: /assets/teaching_material/econometrics/
+  sections:
+    - key: handbook
+      id: content-0
+      icon: fa-regular fa-file-pdf
+      items:
+        - file: "Introduction to STATA.pdf"
+          title: "Introduction to Stata"
+          updated: "2025-11"
+    - key: slides
+      id: content-1
+      icon: fa-regular fa-note-sticky
+      items:
+        - file: "Interpreting OLS Coefficients.pdf"
+          title: "Interpreting OLS Coefficients"
+        - file: "Exporting OLS Regression Results in Stata.pdf"
+          title: "Exporting OLS Regression Results in Stata"
+        - file: "Marginal Effects in Logit & Probit Models and Maximum Likelihood Tests.pdf"
+          title: "Marginal Effects in Logit and Probit Models and Maximum Likelihood Tests"
+        - file: "Data Scaling, Functional Forms, APE, and Goodness-of-Fit in Logit and Probit.pdf"
+          title: "Data Scaling, Functional Forms, APE, and Goodness-of-Fit in Logit and Probit"
+        - file: "Goodness-of-Fit & ML Hypothesis Testing.pdf"
+          title: "Goodness-of-Fit & ML Hypothesis Testing"
+        - file: "How to Develop an Economics Research Paper.pdf"
+          title: "How to Develop an Economics Research Paper"
+        - file: "Review Session - Probability and Statistics Review, Linear Regression Models, and OLS Inference.pdf"
+          title: "Review Session: Probability and Statistics Review, Linear Regression Models, and OLS Inference"
+        - file: "Review Session - Heteroskedasticity, Logit and Probit Models, Maximum Likelihood Estimation, and Inference based on Maximum Likelihood.pdf"
+          title: "Review Session: Heteroskedasticity, Logit and Probit Models, Maximum Likelihood Estimation, and Inference based on Maximum Likelihood"
+    - key: do-files
+      id: content-2
+      icon: fa-solid fa-code
+      items:
+        - file: "Introduction to Stata.do"
+          title: "Introduction to Stata.do"
+        - file: "Template - Exporting OLS Regression Results in Stata.do"
+          title: "Template: Exporting OLS Regression Results in Stata.do"
+        - file: "Marginal Effects in Logit & Probit Models and Maximum Likelihood Tests.do"
+          title: "Marginal Effects in Logit & Probit Models and Maximum Likelihood Tests.do"
+microeconomics:
+  folder: /assets/teaching_material/microeconomia/
+  sections:
+    - key: notes
+      id: content-0
+      icon: fa-regular fa-file-pdf
+      items:
+        - file: "Appunti di Microeconomia.pdf"
+          updated: "2026-05-22"
+    - key: slides
+      id: content-1
+      icon: fa-regular fa-note-sticky
+      items:
+        - file: "Lezione 1 - Pensare come un:una Economista.pdf"
+          lecture: 1
+        - file: "Lezione 2 - Preferenze e Curve di Indifferenza.pdf"
+          lecture: 2
+        - file: "Lezione 3 - Vincolo di Bilancio e Scelta Ottima.pdf"
+          lecture: 3
+        - file: "Lezione 4 - Domanda Individuale e Statica Comparata.pdf"
+          lecture: 4
+        - file: "Lezione 5 - Elasticità della Domanda.pdf"
+          lecture: 5
+        - file: "Lezione 6 - Tecnologia e Funzione di Produzione.pdf"
+          lecture: 6
+        - file: "Lezione 7 - Rendimenti di Scala, Isoquanti e MRTS.pdf"
+          lecture: 7
+        - file: "Lezione 8 - Costi di Produzione e Curve di Costo.pdf"
+          lecture: 8
+        - file: "Lezione 9 - Minimizzazione dei Costi e Scelta Ottimale dei Fattori.pdf"
+          lecture: 9
+        - file: "Lezione 10 - Ripasso Generale.pdf"
+          lecture: 10
+        - file: "Lezione 11 - Massimizzazione del Profitto.pdf"
+          lecture: 11
+        - file: "Lezione 12 - Offerta dell’Impresa e Offerta di Mercato.pdf"
+          lecture: 12
+        - file: "Lezione 13 - Equilibrio Competitivo.pdf"
+          lecture: 13
+        - file: "Lezione 14 - Perdita Secca e Prezzi Amministrati.pdf"
+          lecture: 14
+        - file: "Lezione 15 - Imposte e Sussidi.pdf"
+          lecture: 15
+        - file: "Lezione 16 - Monopolio.pdf"
+          lecture: 16
+        - file: "Lezione 17 - Rent-Seeking, Indice di Lerner e Discriminazione di Prezzo.pdf"
+          lecture: 17
+        - file: "Lezione 18 - Oligopolio e Teoria dei Giochi.pdf"
+          lecture: 18
+        - file: "Lezione 19 - Asimmetrie Informative.pdf"
+          lecture: 19
+        - file: "Lezione 20 - Ripasso Generale.pdf"
+          lecture: 20
+python_for_economists:
+  folder: /assets/teaching_material/python_for_economists/
+  viewer: https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master # i notebook si aprono qui
+  sections:
+    - key: notebooks
+      id: content-0
+      icon: fa-brands fa-python
+      blocks:
+        - id: subsection-block-i
+          title: "Block I: Python for economic data"
+          items:
+            - notebook: "L1_setup_syntax.ipynb"
+              title: "Setup & Python Syntax"
+              lecture: 1
+            - notebook: "L2_data_structures.ipynb"
+              title: "Data Structures & Object-Oriented Programming"
+              lecture: 2
+            - notebook: "L3_pandas_apis_econometrics.ipynb"
+              title: "Pandas, APIs & Econometrics"
+              lecture: 3
+            - notebook: "L4_viz_eda_dp.ipynb"
+              title: "Visualisation, EDA & Dynamic Optimisation"
+              lecture: 4
+        - id: subsection-block-ii
+          title: "Block II: Data collection from the web"
+          items:
+            - notebook: "L5_webscraping1.ipynb"
+              title: "Web Scraping I: requests & BeautifulSoup"
+              lecture: 5
+            - notebook: "L6_webscraping2.ipynb"
+              title: "Web Scraping II: Sessions, Headers & Selenium"
+              lecture: 6
+        - id: subsection-block-iii
+          title: "Block III: NLP and Machine Learning for Text"
+          items:
+            - notebook: "L7_nlp_representation.ipynb"
+              title: "NLP: Text Representation"
+              lecture: 7
+            - notebook: "L8_sentiment_topics.ipynb"
+              title: "Sentiment Analysis & Supervised ML for Text"
+              lecture: 8
+            - notebook: "L9_ml_llms.ipynb"
+              title: "Machine Learning for Text & LLMs via API"
+              lecture: 9
+    - key: extra
+      id: content-1
+      icon: fa-brands fa-python
+      items:
+        - notebook: "E1_reproducibility.ipynb"
+          title: "Reproducibility, Environments, and Research Pipelines"
+          prefix: "Extra L1"
+        - notebook: "E2_complexity_vectorization.ipynb"
+          title: "Data Structures, Complexity, and Vectorization"
+          prefix: "Extra L2"
+        - notebook: "E3_pandas_integrity.ipynb"
+          title: "Pandas Joins, Keys, and Data Integrity"
+          prefix: "Extra L3"
+        - notebook: "E4_visualization_bias.ipynb"
+          title: "Visualization, EDA, and How Plots Can Mislead"
+          prefix: "Extra L4"
+        - notebook: "E5_scraping_robustness.ipynb"
+          title: "Web Scraping Robustness and HTML Fragility"
+          prefix: "Extra L5"
+        - notebook: "E6_api_vs_scraping.ipynb"
+          title: "APIs vs Scraping, Pagination, and Rate Limits"
+          prefix: "Extra L6"
+        - notebook: "E7_nlp_representation_limits.ipynb"
+          title: "NLP Representation, Similarity, and What Bag-of-Words Misses"
+          prefix: "Extra L7"
+        - notebook: "E8_sentiment_measurement_error.ipynb"
+          title: "Sentiment, Topic Models, and Measurement Error"
+          prefix: "Extra L8"
+        - notebook: "E9_prediction_vs_causality.ipynb"
+          title: "Prediction, Explanation, Causality"
+          prefix: "Extra L9"
+        - notebook: "E_research_design_replication.ipynb"
+          title: "Research Design & Replication"
+          prefix: "Extra"

@@ -1,29 +1,23 @@
 source 'https://rubygems.org'
+# base64 e csv arrivavano come dipendenze di jekyll-scholar; restano espliciti perché da Ruby 3.4
+# (immagine Docker ruby:latest) non sono più inclusi in Ruby e Jekyll li usa (csv per i file dati .csv)
+gem 'base64'
+gem 'csv'
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
-    gem 'jekyll-get-json'
     gem 'jekyll-imagemagick'
-    gem 'jekyll-jupyter-notebook'
-    gem 'jekyll-link-attributes'
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
     gem 'jekyll-polyglot'
-    gem 'jekyll-regex-replace'
-    gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
-    gem 'jekyll-tabs'
     gem 'jekyll-toc'
-    gem 'jekyll-twitter-plugin'
-    gem 'jemoji'
     gem 'unicode_utils'
     gem 'webrick'
 end
 group :other_plugins do
     gem 'css_parser'
-    gem 'feedjira'
-    gem 'httparty'
 end

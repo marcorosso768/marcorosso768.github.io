@@ -1,0 +1,41 @@
+{%- comment -%}
+  Pagina supervision generata dai dati: _data/supervision.yml (struttura comune) e
+  _data/<lingua>/supervision_text.yml (testi). Sezione (h2) → persona (h3), con la tesi o il progetto sotto.
+  Niente commenti HTML qui: nelle pagine .md kramdown li trasformerebbe in paragrafi vuoti.
+{%- endcomment -%}
+{%- assign texts = site.data[site.active_lang].supervision_text -%}
+{%- for section in site.data.supervision.sections -%}
+  {%- assign kind = section.kind %}
+  {%- assign section_title = texts.sections[section.key] -%}
+  {%- include section-toggle.liquid id=section.id title=section_title expanded=section.expanded %}
+  <div id="{{ section.id }}" class="toggle-section{% if section.expanded %} expanded{% endif %}">
+    {%- for key in section.entries -%}
+      {%- assign person = site.data.supervision.people[key] %}
+      <div class="{{ kind }}-entry indented">
+        <div class="{{ kind }}-entry__row {{ kind }}-entry__row--{{ kind }}">
+          <h3 class="{{ kind }}-entry__content">
+            {{ person.year }}: {{ person.name }}, {{ texts.programs[person.program] }},
+            {{ texts.universities[person.university] }}
+            {%- if person.ongoing %}
+              <i>{{ texts.labels.ongoing }}</i>
+            {%- endif %}
+          </h3>
+        </div>
+        {%- if kind == 'thesis' %}
+          <div class="thesis-entry__row thesis-entry__row--title">
+            <span class="thesis-entry__title-text">
+              {{- texts.theses[key] }}
+              {%- if person.language == 'it' and texts.labels.written_in_it %}
+                <i>{{ texts.labels.written_in_it }}</i>
+              {%- endif -%}
+            </span>
+          </div>
+        {%- else %}
+          <div class="ra-entry__row ra-entry__row--project">
+            <span class="ra-entry__project-text">{{ texts.projects[person.project] }}</span>
+          </div>
+        {%- endif %}
+      </div>
+    {%- endfor %}
+  </div>
+{% endfor -%}

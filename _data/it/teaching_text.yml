@@ -1,0 +1,100 @@
+# Pagina teaching: testi in questa lingua. Struttura e dati comuni in _data/teaching.yml.
+# Il nome è diverso da teaching.yml di proposito: jekyll-polyglot unisce _data/<lingua>/X.yml a site.data.X.
+
+# inizio dei link al catalogo degli insegnamenti di Bologna (campo unibo dei corsi)
+catalogue_url: https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/
+
+sections:
+  instructor:
+    title: "docente"
+    with: "con"
+  teaching-assistant:
+    title: "tutor didattico"
+    with: "con"
+
+groups:
+  current: "corsi attuali"
+  earlier: "corsi precedenti"
+
+institutions:
+  unibo: "Università di Bologna"
+  unibo-forli: "Università di Bologna — Campus di Forlì"
+  unito-saa: "Università di Torino — SAA School of Management"
+
+labels:
+  materials: "materiali didattici"
+  and: "e"
+
+courses:
+  empirical-methods-law-economics:
+    title: "Empirical Methods for Law and Economics"
+    program: "Dottorato in Law and Economics (EDLE) (in inglese)"
+  pre-sessional-econometrics:
+    title: "Corso di Allineamento in Econometria"
+    program: "Laurea magistrale in Direzione Aziendale"
+  economics-eu:
+    title: "Introduction to Economics of the EU"
+    program: "Laurea triennale in European Studies (in inglese)"
+  python-for-economists:
+    title: "Python for Economists"
+    program: "Lauree magistrali in Economics and Public Policy e in Applied Economics and Markets, Dottorati in Economics e in Management (in inglese)"
+    materials: /it/didattica/python_per_economisti/
+  microeconomics-business-administration:
+    title: "Microeconomia"
+    program: "Laurea triennale in Economia Aziendale"
+    materials: /it/didattica/microeconomia/
+  econometrics-business-economics:
+    title: "Econometrics"
+    program: "Laurea triennale in Business and Economics (in inglese)"
+    materials: /it/didattica/econometria/
+  microeconometrics:
+    title: "Econometrics A (I.C.): Microeconometrics"
+    program: "Laurea magistrale in Economics and Econometrics (in inglese)"
+  economic-policy-methods:
+    title: "Politica Economica C.A. e Metodi"
+    program: "Laurea magistrale in Statistica, Economia e Impresa"
+  behavioral-economics-2026:
+    title: "Introduction to Behavioral Economics"
+    program: "Laurea triennale in Economics and Finance (in inglese)"
+  microeconomics-economics-finance:
+    title: "Microeconomics"
+    program: "Laurea triennale in Economics and Finance (in inglese)"
+  statistics-data-tutoring:
+    title: "Attività di Tutorato nell’Area Statistica e dei Dati"
+    program: "Laurea triennale in Business and Economics (in inglese)"
+  econometrics-public-policy:
+    title: "Measurement and Econometric Analysis (I.C.): Econometrics"
+    program: "Laurea magistrale in Economics and Public Policy (in inglese)"
+  industrial-economics:
+    title: "Strategie di Mercato"
+    program: "Laurea triennale in Economia, Mercati e Istituzioni"
+  political-economy:
+    title: "Political Economy"
+    program: "Laurea triennale in Economics, Politics and Social Sciences (in inglese)"
+  microeconomics-economics-politics:
+    title: "Microeconomics"
+    program: "Laurea triennale in Economics, Politics and Social Sciences (in inglese)"
+  game-theory-economics-econometrics:
+    title: "Microeconomics (I.C.): Game Theory"
+    program: "Laurea magistrale in Economics and Econometrics (in inglese)"
+  behavioral-economics-2022:
+    title: "Introduction to Behavioral Economics"
+    program: "Laurea triennale in Economics and Finance (in inglese)"
+  globalization:
+    title: "Globalization: Trade, Migrations and Multinationals"
+    program: "Laurea triennale in Economics and Finance (in inglese)"
+  competition-economics-policy:
+    title: "Economia (C.I.): Economia e Politica della Concorrenza"
+    program: "Laurea magistrale in Economia e Management"
+  microeconomics-forli:
+    title: "Microeconomics"
+    program: "Laurea triennale in Economia e Commercio (in inglese)"
+  game-theory-forli:
+    title: "Economia (C.I.): Teoria dei Giochi"
+    program: "Laurea magistrale in Economia e Management"
+  public-management:
+    title: "Public Management and Public Economics"
+    program: "Laurea triennale in Business & Management (in inglese)"
+  microeconomics-turin:
+    title: "Microeconomics"
+    program: "Laurea triennale in Business & Management (in inglese)"

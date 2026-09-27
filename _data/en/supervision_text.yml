@@ -1,0 +1,28 @@
+# Pagina supervision: testi in questa lingua. Struttura e dati comuni in _data/supervision.yml.
+# Il nome è diverso da supervision.yml di proposito: jekyll-polyglot unisce _data/<lingua>/X.yml a site.data.X.
+
+sections:
+  theses: "students"
+  research-assistants: "research assistants"
+
+programs:
+  business-administration: "Bachelor in Business Administration"
+  economics-econometrics: "Two Year Master in Economics and Econometrics"
+
+universities:
+  unibo: "University of Bologna"
+
+labels:
+  ongoing: "(ongoing)"
+  written_in_it: "(in Italian)"
+
+theses:
+  francesco-michetti: "Asymmetric Information and Quality in the Used Car Market: The Role of Certification and Online Sales"
+  cristian-di-marco: "Equilibrium and Exploitability in Games of Imperfect Information: A Poker Analysis"
+  matteo-buldini: "Price Transparency and Oligopolistic Competition: From the Bertrand Paradox to Mandatory Fuel Price Disclosure in Italy"
+  valerio-danselmo: "Beyond the Median Voter: Non-Positional Competition and Party Strategy in the Issue Yield Model"
+  giorgio-minelli: "From Sugar Tax to Nudge: A Behavioral Economics Approach to Excessive Sugar Consumption in Italy"
+  pietro-zanieri: "An Analysis of International Conflicts through Game Theory"
+
+projects:
+  democratization-media-voting: "Democratization, the media, socio-economic context, and voting behavior"

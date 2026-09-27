@@ -36,7 +36,6 @@ profile:
 #       <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
@@ -48,20 +47,20 @@ social: true # includes social icons at the bottom of the page
 </div>
 <div style="height: 1.25rem;"></div>
 
-My <b style="color: $white-color;"><a href="/research/">research</a></b> focuses on
-<b style="color: $white-color;">Political Economy</b>,
-<b style="color: $white-color;">Crime Economics</b>,
-<b style="color: $white-color;">Applied Microeconomics</b>, and
-<b style="color: $white-color;">Experimental</b> and
-<b style="color: $white-color;">Behavioral Economics</b>, with a particular interest in how institutions and individual behavior interact in real-world settings. More broadly, I am drawn to questions that sit at the intersection of economics and social behavior, wherever the data and the methods can speak to them.
+My <b><a href="/research/">research</a></b> focuses on
+<b>Political Economy</b>,
+<b>Crime Economics</b>,
+<b>Applied Microeconomics</b>, and
+<b>Experimental</b> and
+<b>Behavioral Economics</b>, with a particular interest in how institutions and individual behavior interact in real-world settings. More broadly, I am drawn to questions that sit at the intersection of economics and social behavior, wherever the data and the methods can speak to them.
 
-Having obtained my <b style="color: $white-color;">Ph.D. in Economics</b> at the <b style="color: $white-color;">University of Bologna</b> in 2026, I am currently <b style="color: $white-color;">Postdoctoral Researcher</b> at the <b style="color: $white-color;">University of Cagliari</b>, where I am working on the interactions between remote work, artificial intelligence, and local labor markets (<b style="color: $white-color;"><a href="https://crenos.unica.it/bibcite/reference/8766" target="_blank" rel="noopener noreferrer" class="external">CRENoS WP 26/13</a></b>).
+Having obtained my <b>Ph.D. in Economics</b> at the <b>University of Bologna</b> in 2026, I am currently <b>Postdoctoral Researcher</b> at the <b>University of Cagliari</b>, where I am working on the interactions between remote work, artificial intelligence, and local labor markets (<b><a href="https://crenos.unica.it/bibcite/reference/8766" target="_blank" rel="noopener noreferrer" class="external">CRENoS WP 26/13</a></b>).
 
-You can find more about myself in my <b style="color: $white-color;"><a href="/assets/pdf/en/curriculum_vitae_en.pdf" target="_blank" rel="noopener noreferrer" class="external">CV</a></b>.
+You can find more about myself in my <b><a href="/assets/pdf/en/curriculum_vitae_en.pdf" target="_blank" rel="noopener noreferrer" class="external">CV</a></b>.
 
-Meanwhile, I <b style="color: $white-color;"><a href="/teaching/">teach</a></b> <b style="color: $white-color;">Empirical Methods for Law and Economics</b> in the <b style="color: $white-color;">European Doctorate in Law and Economics (EDLE)</b>, <b style="color: $white-color;">Introduction to Economics of the EU</b>, and a <b style="color: $white-color;">Pre-sessional Course in Econometrics</b> at the <b style="color: $white-color;">University of Bologna</b>, where I also serve as a <b style="color: $white-color;">Teaching Assistant</b> in econometrics, microeconomics, economic policy, political economy, and behavioral economics.
+Meanwhile, I <b><a href="/teaching/">teach</a></b> <b>Empirical Methods for Law and Economics</b> in the <b>European Doctorate in Law and Economics (EDLE)</b>, <b>Introduction to Economics of the EU</b>, and a <b>Pre-sessional Course in Econometrics</b> at the <b>University of Bologna</b>, where I also serve as a <b>Teaching Assistant</b> in econometrics, microeconomics, economic policy, political economy, and behavioral economics.
 
-Moreover, I contributed to the <b style="color: $white-color;"><a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a></b>, which studies how parental beliefs, preferences, and engagement shape early child development, and to the rollout of the <b style="color: $white-color;"><a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a></b>, a tool in support of mindful parenting available in Italian, English, and French.
+Moreover, I contributed to the <b><a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a></b>, which studies how parental beliefs, preferences, and engagement shape early child development, and to the rollout of the <b><a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a></b>, a tool in support of mindful parenting available in Italian, English, and French.
 
 <div style="margin-top:2.5rem;"></div>
 <hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">

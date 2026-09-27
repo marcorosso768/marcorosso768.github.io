@@ -1,0 +1,175 @@
+# Pagina research: tutto ciò che non si traduce (ordine delle sezioni, titoli, coautori, link, JEL, BibTeX).
+# I testi tradotti (titoli delle sezioni, abstract, keywords, etichette) sono in _data/<lingua>/research_text.yml.
+# Per aggiungere un paper: una voce in "entries", la sua chiave nella sezione giusta, e i testi nelle tre lingue.
+#
+# Campi di una voce:
+#   icon: working_paper | wip | publication | thesis
+#   title, url (link del titolo), coauthors (chiavi di _data/people.yml), series (riga sotto i coautori)
+#   links: pillole-link, in quest'ordine: working_paper (url, title) | draft_request (mail precompilata)
+#   panels: pillole che aprono una casella, nell'ordine: abstract, keywords, jel, cite
+#   jel, bibtex: testo delle caselle JEL e Cite
+#   abstract / keywords qui solo se uguali in tutte le lingue; altrimenti nei file delle lingue
+#   publication: authors, year, title, url, journal, details — thesis: degree (phd | master | bachelor), year, title
+
+sections:
+  - key: jmp
+    expanded: true
+  - key: working_papers
+    expanded: true
+    entries:
+      - ai-labor-demand
+      - tipping-point
+      - crime-voting
+      - childbirth-turnout
+      - childcare-turnout
+  - key: wip
+    expanded: true
+    entries:
+      - political-expression
+      - populist-selection
+      - crime-reporting
+      - criminal-governance
+      - corruption-traps
+      - moral-frictions
+  - key: other_publications
+    expanded: false
+    entries:
+      - colorectal-cancer-income
+  - key: theses
+    expanded: false
+    entries:
+      - thesis-phd
+      - thesis-master
+      - thesis-bachelor
+
+entries:
+  ai-labor-demand:
+    icon: "working_paper"
+    title: "Generative AI and Posted Labor Demand: Volume, Seniority and Timing"
+    url: "https://crenos.unica.it/sites/default/files/2026-09/WP26-13.pdf"
+    coauthors: [cerina, nobili]
+    series: "CRENoS Working Paper 26/13 · ISBN 978-88-6851-699-4"
+    links:
+      - { type: working_paper, url: "https://crenos.unica.it/bibcite/reference/8766", title: "CRENoS Working Paper 26/13" }
+    panels: [abstract, keywords, jel, cite]
+    jel: "J23, J24, O33, M51."
+    bibtex: |-
+      @techreport{cerina2026generative,
+        author      = {Cerina, Fabio and Nobili, Simone and Rosso, Marco},
+        title       = {Generative {AI} and Posted Labor Demand: Volume, Seniority and Timing},
+        institution = {CRENoS},
+        type        = {Working Paper},
+        number      = {26/13},
+        isbn        = {978-88-6851-699-4},
+        year        = {2026},
+        url         = {https://crenos.unica.it/sites/default/files/2026-09/WP26-13.pdf}
+      }
+
+  tipping-point:
+    icon: "working_paper"
+    title: "The Tipping Point of Temptation: Corruption and Selection into Public Service"
+    links:
+      - { type: draft_request }
+    panels: [abstract, keywords, jel]
+    jel: "D73, J45, D90, H83."
+
+  crime-voting:
+    icon: "working_paper"
+    title: "Crime Perception and Voting Behavior: Evidence from Individual Data"
+    coauthors: [prarolo]
+    links:
+      - {
+          type: working_paper,
+          url: "/assets/pdf/papers/Marco_Rosso_Crime_Perception_and_Voting_Behavior.pdf",
+          title: "Crime Perception and Voting Behavior: Evidence from Individual Data",
+        }
+    panels: [abstract, keywords, jel]
+    jel: "D72, D83, K42, L82."
+
+  childbirth-turnout:
+    icon: "working_paper"
+    title: "Childbirth and the Erosion of the Female Turnout Advantage"
+    links:
+      - { type: draft_request }
+    panels: [abstract, keywords, jel]
+    jel: "D72, J13, J16, J22."
+
+  childcare-turnout:
+    icon: "working_paper"
+    title: "Proximity to Public Childcare and Voter Turnout: Evidence from Bologna"
+    coauthors: [bellettini, berti-ceroni, gonzalez-eiras, prarolo]
+    links:
+      - { type: draft_request }
+    panels: [abstract, keywords, jel]
+    jel: "D72, H41, J13, J16."
+
+  political-expression:
+    icon: "wip"
+    title: "Political Expression and the Boundaries of Legal Enforcement"
+
+  populist-selection:
+    icon: "wip"
+    title: "Costly Signaling and Populist Candidate Selection"
+
+  crime-reporting:
+    icon: "wip"
+    title: "State Capacity, Crime Reporting, and Local Development"
+    coauthors: [ertola-navajas]
+
+  criminal-governance:
+    icon: "wip"
+    title: "Political Compensation under Criminal Governance"
+    coauthors: [carrozzo-magli, vanin]
+
+  corruption-traps:
+    icon: "wip"
+    title: "Beyond the Tipping Point: Rent Feedback and Corruption Traps in Public-Sector Selection"
+
+  moral-frictions:
+    icon: "wip"
+    title: "Political Selection and Moral Frictions"
+
+  colorectal-cancer-income:
+    icon: "publication"
+    authors: "Farina E., Rosso M., Dansero L., et al."
+    year: "2023"
+    title: "Short-term effect of colorectal cancer on income: analysis of an Italian cohort."
+    url: "https://doi.org/10.1136/jech-2022-220088"
+    journal: "Journal of Epidemiology & Community Health"
+    details: "77:196–201."
+    panels: [abstract]
+    abstract: >-
+      <b>Introduction</b> The ability to return to work after a cancer diagnosis is a key aspect of cancer
+      survivorship and quality of life. Studies have reported a significant risk of income loss for cancer
+      survivors; however, there is limited evidence of the Italian context. <br> <b>Methods</b> The Work Histories
+      Italian Panel (WHIP)-Salute database was used to select a cohort of incident cases of colorectal cancer (CRC)
+      among workers in the private sector, based on hospital discharges. A propensity score matching was used to
+      find a balanced control group for several confounders. Ordinary least square and logistic regressions were
+      used to estimate the effect of a CRC diagnosis on annual income and the probability of switching from a
+      full-time contract to a part-time one considering 3 years after the diagnosis. <br> <b>Results</b> Overall, we
+      identified 925 CRC incident cases from 2006 until 2012. Our results confirm a statistically significant
+      reduction in survivors’ income compared with controls. This reduction was greater in the first year and then
+      tend to decrease, with an average income loss over 3 years of about €12 000. Stratified analyses by sex and
+      position confirmed the overall trend while indicating a strong effect modification. Regarding the switching
+      from full-time to part-time employment, the results were never significant. <br> <b>Conclusion</b> Income loss
+      does not seem to be related to an increase in part-time contracts, but rather to survivors’ reduced work
+      capacity following the invasive treatments. Further research is needed to investigate the complex dynamics
+      behind this association.
+
+  thesis-phd:
+    icon: "thesis"
+    degree: "phd"
+    year: "2026"
+    title: "Essays in Political Economy and Crime Economics"
+
+  thesis-master:
+    icon: "thesis"
+    degree: "master"
+    year: "2019"
+    title: "Effect of Breast and Colorectal Cancer on Earnings: Evidence from Italy"
+
+  thesis-bachelor:
+    icon: "thesis"
+    degree: "bachelor"
+    year: "2015"
+    title: "The Dual Simplex Method"

@@ -9,14 +9,8 @@ meta_description: "E-mail addresses at the University of Cagliari and the Univer
 ---
 
 <!-- E-mail Section -->
-<div class="projects">
-  <a href="#content-1" onclick="toggleVisibility('content-1'); return false;">
-    <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
-      <span>e-mail</span>
-    </h2>
-  </a>
-</div>
+
+{% include section-toggle.liquid id="content-1" title="e-mail" expanded=true %}
 
 <div id="content-1" class="toggle-section expanded contact-list">
 
@@ -38,14 +32,8 @@ meta_description: "E-mail addresses at the University of Cagliari and the Univer
 </div>
 
 <!-- Online Resources Section -->
-<div class="projects">
-  <a href="#content-2" onclick="toggleVisibility('content-2'); return false;">
-    <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
-      <span>online resources</span>
-    </h2>
-  </a>
-</div>
+
+{% include section-toggle.liquid id="content-2" title="online resources" expanded=true %}
 
 <div id="content-2" class="toggle-section expanded contact-list">
 
@@ -97,14 +85,7 @@ meta_description: "E-mail addresses at the University of Cagliari and the Univer
 </div>
 
 <!-- Location Section -->
-<!-- <div class="projects">
-  <a href="#content-4" onclick="toggleVisibility('content-4'); return false;">
-    <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-4"></i>
-      <span>location</span>
-    </h2>
-  </a>
-</div>
+<!-- {% include section-toggle.liquid id="content-4" title="location" %}
 
 <div id="content-4" class="toggle-section">
 

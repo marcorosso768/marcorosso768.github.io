@@ -1,56 +1,67 @@
 name: Check for broken links on site
 
+# Controlla i link del sito pubblicato (ramo gh-pages, lo stesso che serve GitHub Pages).
+# Parte dopo ogni deploy riuscito e una volta a settimana, perché i link esterni si rompono anche
+# senza commit (pagine personali, programmi di convegni). Se trova link rotti il run fallisce e
+# GitHub manda una mail; l'elenco è nel riepilogo del run. Il deploy non viene mai bloccato.
+
 on:
   workflow_run:
     workflows: [Deploy site]
     types: [completed]
+  schedule:
+    - cron: "0 6 * * 1" # lunedì alle 6 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write # il rapporto finisce in una issue pubblica, leggibile anche senza login
 
 jobs:
   check-links-on-site:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
+      - name: Checkout configuration 🛎️
         uses: actions/checkout@v4
-
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.2.2"
-          bundler-cache: true
-
-      - name: Update _config.yml ⚙️
-        uses: fjogeleit/yaml-update-action@main
+          sparse-checkout: .github
+      - name: Checkout published site 🛎️
+        uses: actions/checkout@v4
         with:
-          commitChange: false
-          valueFile: "_config.yml"
-          changes: |
-            {
-              "giscus.repo": "${{ github.repository }}",
-              "baseurl": ""
-            }
-
-      - name: Install and Build 🔧
-        run: |
-          pip3 install --upgrade jupyter
-          export JEKYLL_ENV=production
-          bundle exec jekyll build
-
-      - name: Purge unused CSS 🧹
-        run: |
-          npm install -g purgecss
-          purgecss -c purgecss.config.js
-
+          ref: gh-pages
+          path: _site
       - name: Link Checker 🔗
-        uses: lycheeverse/lychee-action@v1.9.0
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
         with:
           args: >
-            --offline
-            --no-fail
-            --exclude linkedin.com
-            --exclude "javascript:*"
-            --exclude twitter.com
-            --remap '_site(/?.*)/assets/(.*) _site/assets/$2'
-            --verbose
+            --config .github/lychee.toml
+            --root-dir "${{ github.workspace }}/_site"
             --no-progress
             '_site/**/*.html'
+          output: lychee/out.md
+          fail: false
+          jobSummary: true
+      # Il riepilogo dei run è visibile solo con login: il rapporto va anche in una issue "broken-links",
+      # aggiornata a ogni run e chiusa da sola quando i link tornano tutti validi. Il run fallisce se ci sono errori.
+      # I timeout da soli non contano come link rotti (siti lenti o che ignorano i server di GitHub): avviso nel run.
+      - name: Report in an issue 📝
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          EXIT_CODE: ${{ steps.lychee.outputs.exit_code }}
+        run: |
+          gh label create broken-links --color d73a4a --description "Link rotti trovati dal controllo automatico" --force -R "$REPO"
+          n=$(gh issue list -R "$REPO" --label broken-links --state open --json number --jq '.[0].number')
+          errors=$(grep -E '🚫 Errors' lychee/out.md | grep -oE '[0-9]+' | head -1)
+          if [ "$EXIT_CODE" != "0" ] && [ "${errors:-1}" = "0" ]; then
+            echo "::warning::Solo timeout, nessun link rotto: vedi il riepilogo del run."
+            EXIT_CODE=0
+          fi
+          if [ "$EXIT_CODE" != "0" ]; then
+            if [ -n "$n" ]; then gh issue edit "$n" -R "$REPO" --body-file lychee/out.md; else gh issue create -R "$REPO" --title "Broken links on marcorosso.com" --label broken-links --body-file lychee/out.md; fi
+            exit 1
+          elif [ -n "$n" ]; then
+            gh issue close "$n" -R "$REPO" --comment "All links OK ($(date -u +%F))."
+          fi

@@ -1,0 +1,48 @@
+# Pagine dei materiali dei corsi: testi in questa lingua. Struttura e dati comuni in _data/courses.yml.
+
+labels:
+  updated: "last updated"
+  download: "Download notebook"
+  # date di aggiornamento: formati con {day}, {month}, {year}; month_year usa i nomi brevi dei mesi
+  month_year: "{month} {year}"
+  day_month_year: "{day} {month} {year}"
+  months: [January, February, March, April, May, June, July, August, September, October, November, December]
+  months_short: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+
+econometrics:
+  sections:
+    handbook: "handbook"
+    slides: "slides"
+    do-files: "do-files"
+microeconomics:
+  lecture: "Lecture"
+  sections:
+    notes: "course notes"
+    slides: "slides"
+  titles:
+    "Appunti di Microeconomia.pdf": "Microeconomics Course Notes"
+    "Lezione 1 - Pensare come un:una Economista.pdf": "Thinking Like an Economist"
+    "Lezione 2 - Preferenze e Curve di Indifferenza.pdf": "Preferences and Indifference Curves"
+    "Lezione 3 - Vincolo di Bilancio e Scelta Ottima.pdf": "Budget Constraint and Consumer Optimization"
+    "Lezione 4 - Domanda Individuale e Statica Comparata.pdf": "Individual Demand and Comparative Statics"
+    "Lezione 5 - Elasticità della Domanda.pdf": "Demand Elasticity"
+    "Lezione 6 - Tecnologia e Funzione di Produzione.pdf": "Technology and the Production Function"
+    "Lezione 7 - Rendimenti di Scala, Isoquanti e MRTS.pdf": "Returns to Scale, Isoquants, and MRTS"
+    "Lezione 8 - Costi di Produzione e Curve di Costo.pdf": "Production Costs and Cost Curves"
+    "Lezione 9 - Minimizzazione dei Costi e Scelta Ottimale dei Fattori.pdf": "Cost Minimization and Optimal Factor Choice"
+    "Lezione 10 - Ripasso Generale.pdf": "General Review"
+    "Lezione 11 - Massimizzazione del Profitto.pdf": "Profit Maximization"
+    "Lezione 12 - Offerta dell’Impresa e Offerta di Mercato.pdf": "Firm Supply and Market Supply"
+    "Lezione 13 - Equilibrio Competitivo.pdf": "Competitive Equilibrium"
+    "Lezione 14 - Perdita Secca e Prezzi Amministrati.pdf": "Deadweight Loss and Administered Prices"
+    "Lezione 15 - Imposte e Sussidi.pdf": "Taxes and Subsidies"
+    "Lezione 16 - Monopolio.pdf": "Monopoly"
+    "Lezione 17 - Rent-Seeking, Indice di Lerner e Discriminazione di Prezzo.pdf": "Rent-Seeking, Lerner Index, and Price Discrimination"
+    "Lezione 18 - Oligopolio e Teoria dei Giochi.pdf": "Oligopoly and Game Theory"
+    "Lezione 19 - Asimmetrie Informative.pdf": "Information Asymmetries"
+    "Lezione 20 - Ripasso Generale.pdf": "General Review"
+python_for_economists:
+  lecture: "Lecture"
+  sections:
+    notebooks: "notebook"
+    extra: "extra materials"

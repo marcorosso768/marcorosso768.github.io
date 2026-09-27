@@ -1,0 +1,90 @@
+# Pagina talks: struttura comune (sezioni, anni, ordine) e dati che non si traducono.
+# I testi tradotti (nome dell'evento, luogo, ruoli, titoli delle sezioni) sono in _data/<lingua>/talks_text.yml.
+# Per aggiungere un talk: una voce in "talks", la sua chiave sotto l'anno giusto, e i testi nelle tre lingue.
+#
+# Campi di un talk:
+#   role: speaker | speaker_discussant | discussant
+#   paper: chiave del paper in _data/research.yml (il titolo viene da lì); assente se non c'è un paper
+#   upcoming: true se l'evento deve ancora svolgersi (mostra "(upcoming)" / "(in programma)" / "(próximamente)")
+
+sections:
+  - key: invited
+    expanded: true
+    years:
+      - year: 2026
+        talks:
+          - lightcast-2026
+          - prin-political-economy-2026
+      - year: 2024
+        talks:
+          - prin-economics-of-culture-2024
+          - udesa-seminar-2024
+  - key: conferences
+    expanded: true
+    years:
+      - year: 2026
+        talks:
+          - asset-2026
+      - year: 2025
+        talks:
+          - sie-annual-meeting-2025
+          - bomopav-2025
+      - year: 2023
+        talks:
+          - phd-workshop-2023
+          - sasca-2023
+          - weee-2023
+      - year: 2022
+        talks:
+          - phd-workshop-2022
+      - year: 2021
+        talks:
+          - phd-workshop-2021
+  - key: other
+    expanded: true
+    years:
+      - year: 2023
+        talks:
+          - book-economics-of-crime-2023
+
+talks:
+  lightcast-2026:
+    role: speaker
+    paper: ai-labor-demand
+    upcoming: true
+  prin-political-economy-2026:
+    role: speaker
+    paper: crime-voting
+  prin-economics-of-culture-2024:
+    role: speaker
+    paper: crime-voting
+  udesa-seminar-2024:
+    role: speaker
+    paper: crime-voting
+  asset-2026:
+    role: speaker
+    paper: tipping-point
+    upcoming: true
+  sie-annual-meeting-2025:
+    role: speaker_discussant
+    paper: crime-voting
+  bomopav-2025:
+    role: speaker
+    paper: crime-voting
+  phd-workshop-2023:
+    role: speaker
+    paper: crime-voting
+  sasca-2023:
+    role: speaker_discussant
+    paper: crime-voting
+  weee-2023:
+    role: speaker
+    paper: crime-voting
+  phd-workshop-2022:
+    role: speaker
+    paper: tipping-point
+  phd-workshop-2021:
+    role: speaker
+    paper: tipping-point
+  book-economics-of-crime-2023:
+    role: discussant

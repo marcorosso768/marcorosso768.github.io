@@ -1,6 +1,2 @@
-<!-- jQuery -->
-<script
-  src="{{ site.third_party_libraries.jquery.url.js }}"
-  integrity="{{ site.third_party_libraries.jquery.integrity.js }}"
-  crossorigin="anonymous"
-></script>
+<!-- jQuery 3.6.0, servito dal sito (stesso file del CDN: sha256 identico a third_party_libraries.jquery.integrity.js) -->
+<script src="{{ '/assets/js/jquery.min.js' | relative_url | bust_file_cache }}"></script>

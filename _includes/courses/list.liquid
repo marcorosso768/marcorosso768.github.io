@@ -1,0 +1,53 @@
+{%- comment -%}
+  Elenco dei file di una sezione (usato da courses/page.liquid). Parametri: items, icon, list_class.
+  Usa le variabili course, course_text e labels assegnate in courses/page.liquid.
+{%- endcomment -%}
+<ul class="{{ include.list_class }}">
+  {%- for item in include.items -%}
+    {%- assign name = item.file | default: item.notebook -%}
+    {%- assign title = course_text.titles[name] | default: item.title -%}
+    {%- if item.notebook -%}
+      {%- assign url = course.folder | append: item.notebook | prepend: course.viewer -%}
+    {%- else -%}
+      {%- assign url = course.folder | append: item.file | replace: ' ', '%20' -%}
+    {%- endif %}
+    <li class="course-entry indented">
+      <i class="{{ include.icon }} fa-fw" style="margin-top:0.5px;"></i>
+      <span>
+        {%- if item.lecture -%}
+          {{- course_text.lecture }}
+          {{ item.lecture }}:
+        {% elsif item.prefix -%}
+          {{- item.prefix }}:
+        {% endif -%}
+        <a href="{{ url }}" target="_blank" rel="noopener noreferrer">{{ title | escape }}</a>
+        {%- if item.updated -%}
+          {%- assign date = item.updated | split: '-' -%}
+          {%- assign month_index = date[1] | plus: 0 | minus: 1 -%}
+          {%- if date.size > 2 -%}
+            {%- assign day = date[2] | plus: 0 -%}
+            {%- assign month = labels.months[month_index] -%}
+            {%- assign formatted = labels.day_month_year | replace: '{day}', day | replace: '{month}', month -%}
+          {%- else -%}
+            {%- assign month = labels.months_short[month_index] -%}
+            {%- assign formatted = labels.month_year | replace: '{month}', month -%}
+          {%- endif -%}
+          {%- assign formatted = formatted | replace: '{year}', date[0] %}
+          — {{ labels.updated }}: {{ formatted }}
+        {%- endif -%}
+      </span>
+      {%- if item.notebook %}
+        <a
+          href="{{ course.folder }}{{ item.notebook }}"
+          download
+          target="_blank"
+          rel="noopener noreferrer"
+          class="download-link"
+          aria-label="{{ labels.download }} {{ item.notebook }}"
+          title="{{ labels.download }}"
+          ><i class="fa-solid fa-download fa-fw" aria-hidden="true"></i
+        ></a>
+      {%- endif %}
+    </li>
+  {%- endfor %}
+</ul>

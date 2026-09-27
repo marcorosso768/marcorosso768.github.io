@@ -1,0 +1,28 @@
+{%- comment -%}
+  Pagina research generata dai dati: _data/research.yml (comune), _data/<lingua>/research.yml (testi),
+  _data/people.yml (coautori). Una sezione apribile per ogni voce di "sections", una voce per paper.
+{%- endcomment -%}
+{%- assign research = site.data.research -%}
+{%- assign texts = site.data[site.active_lang].research_text -%}
+{%- for section in research.sections -%}
+  {%- assign n = forloop.index -%}
+  {%- assign section_title = texts.sections[section.key] %}
+  {%- assign section_id = 'content-' | append: n -%}
+  {%- include section-toggle.liquid id=section_id title=section_title expanded=section.expanded %}
+  <div id="content-{{ n }}" class="toggle-section{% if section.expanded %} expanded{% endif %}">
+    {%- if section.entries -%}
+      {%- for key in section.entries -%}
+        {%- include research/entry.liquid key=key -%}
+      {%- endfor -%}
+    {%- else %}
+      <div class="entry-block">
+        <div class="icon-entry indented">
+          <i class="fa-solid fa-newspaper fa-fw"></i>
+          <span
+            ><i>{{ texts.coming_soon }}</i></span
+          >
+        </div>
+      </div>
+    {%- endif %}
+  </div>
+{% endfor -%}

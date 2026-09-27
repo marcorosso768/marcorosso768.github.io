@@ -1,0 +1,24 @@
+{%- comment -%}
+  Titolo di una sezione apribile: un pulsante dentro il titolo (non il titolo dentro un link), così il titolo resta
+  un titolo per i lettori di schermo e il pulsante dichiara se la sezione è aperta (aria-expanded) e quale sezione
+  controlla (aria-controls). Il comportamento è in assets/js/toggle-sections.js.
+  Parametri: id (id della sezione), title, expanded (true se aperta al caricamento),
+  tag (h2 o h3, predefinito h2), class (category o subsection, predefinito category),
+  wrapper (classe del contenitore: projects o subsection, predefinito projects).
+{%- endcomment -%}
+{%- assign toggle_tag = include.tag | default: 'h2' -%}
+{%- assign toggle_class = include.class | default: 'category' -%}
+{%- assign toggle_wrapper = include.wrapper | default: 'projects' %}
+<div class="{{ toggle_wrapper }}">
+  <{{ toggle_tag }} class="{{ toggle_class }}">
+    <button
+      type="button"
+      class="section-toggle"
+      aria-expanded="{% if include.expanded %}true{% else %}false{% endif %}"
+      aria-controls="{{ include.id }}"
+    >
+      <i class="fa-solid fa-chevron-right fa-2xs{% if include.expanded %} rotated{% endif %}" id="chevron-{{ include.id }}" aria-hidden="true"></i>
+      <span>{{ include.title }}</span>
+    </button>
+  </{{ toggle_tag }}>
+</div>

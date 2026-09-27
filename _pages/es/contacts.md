@@ -9,14 +9,8 @@ meta_description: "Direcciones de correo electrónico en la University of Caglia
 ---
 
 <!-- E-mail Section -->
-<div class="projects">
-  <a href="#content-1" onclick="toggleVisibility('content-1'); return false;">
-    <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-1"></i>
-      <span>correo electrónico</span>
-    </h2>
-  </a>
-</div>
+
+{% include section-toggle.liquid id="content-1" title="correo electrónico" expanded=true %}
 
 <div id="content-1" class="toggle-section expanded contact-list">
 
@@ -38,14 +32,8 @@ meta_description: "Direcciones de correo electrónico en la University of Caglia
 </div>
 
 <!-- Online Resources Section -->
-<div class="projects">
-  <a href="#content-2" onclick="toggleVisibility('content-2'); return false;">
-    <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs rotated" id="chevron-content-2"></i>
-      <span>recursos en línea</span>
-    </h2>
-  </a>
-</div>
+
+{% include section-toggle.liquid id="content-2" title="recursos en línea" expanded=true %}
 
 <div id="content-2" class="toggle-section expanded contact-list">
 
@@ -97,14 +85,7 @@ meta_description: "Direcciones de correo electrónico en la University of Caglia
 </div>
 
 <!-- Location Section -->
-<!-- <div class="projects">
-  <a href="#content-4" onclick="toggleVisibility('content-4'); return false;">
-    <h2 class="category">
-      <i class="fa-solid fa-chevron-right fa-2xs" id="chevron-content-4"></i>
-      <span>ubicación</span>
-    </h2>
-  </a>
-</div>
+<!-- {% include section-toggle.liquid id="content-4" title="ubicación" %}
 
 <div id="content-4" class="toggle-section">
 

@@ -12,7 +12,7 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: profile_pictures/prof_pic_PV.png
+    image: profile_pictures/prof_pic_PV.webp
     image_alt: Paolo Vanin
     content: about_PV.md
     image_circular: true # crops the image to make it circular
@@ -22,7 +22,7 @@ profiles:
     content: about_FC.md
     image_circular: true # crops the image to make it circular
   - align: right
-    image: profile_pictures/prof_pic_GP.jpeg
+    image: profile_pictures/prof_pic_GP.webp
     image_alt: Giovanni Prarolo
     content: about_GP.md
     image_circular: true # crops the image to make it circular

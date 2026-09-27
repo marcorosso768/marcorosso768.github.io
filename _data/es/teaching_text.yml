@@ -1,0 +1,100 @@
+# Pagina teaching: testi in questa lingua. Struttura e dati comuni in _data/teaching.yml.
+# Il nome è diverso da teaching.yml di proposito: jekyll-polyglot unisce _data/<lingua>/X.yml a site.data.X.
+
+# inizio dei link al catalogo degli insegnamenti di Bologna (campo unibo dei corsi)
+catalogue_url: https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/
+
+sections:
+  instructor:
+    title: "docente"
+    with: "junto con"
+  teaching-assistant:
+    title: "ayudante de cátedra"
+    with: "con"
+
+groups:
+  current: "cursos actuales"
+  earlier: "cursos anteriores"
+
+institutions:
+  unibo: "University of Bologna"
+  unibo-forli: "University of Bologna — Forlì Campus"
+  unito-saa: "University of Turin — SAA School of Management"
+
+labels:
+  materials: "materiales didácticos"
+  and: "y"
+
+courses:
+  empirical-methods-law-economics:
+    title: "Métodos Empíricos para el Derecho y la Economía"
+    program: "Doctorado en Derecho y Economía (EDLE) (en inglés)"
+  pre-sessional-econometrics:
+    title: "Curso de Nivelación en Econometría"
+    program: "Maestría en Dirección de Empresas (en italiano)"
+  economics-eu:
+    title: "Introducción a la Economía de la UE"
+    program: "Licenciatura en Estudios Europeos (en inglés)"
+  python-for-economists:
+    title: "Python para Economistas"
+    program: "Maestrías en Economía y Políticas Públicas y en Economía Aplicada y Mercados, Doctorados en Economía y en Administración (en inglés)"
+    materials: /es/docencia/python_para_economistas/
+  microeconomics-business-administration:
+    title: "Microeconomía"
+    program: "Licenciatura en Administración de Empresas (en italiano)"
+    materials: /es/docencia/microeconomía/
+  econometrics-business-economics:
+    title: "Econometría"
+    program: "Licenciatura en Negocios y Economía (en inglés)"
+    materials: /es/docencia/econometría/
+  microeconometrics:
+    title: "Econometría A (C.I.): Microeconometría"
+    program: "Maestría en Economía y Econometría (en inglés)"
+  economic-policy-methods:
+    title: "Curso Avanzado de Política Económica y Métodos"
+    program: "Maestría en Estadística, Economía y Empresa (en italiano)"
+  behavioral-economics-2026:
+    title: "Introducción a la Economía del Comportamiento"
+    program: "Licenciatura en Economía y Finanzas (en inglés)"
+  microeconomics-economics-finance:
+    title: "Microeconomía"
+    program: "Licenciatura en Economía y Finanzas (en inglés)"
+  statistics-data-tutoring:
+    title: "Actividades de Tutoría en el Área de Estadística y Datos"
+    program: "Licenciatura en Negocios y Economía (en inglés)"
+  econometrics-public-policy:
+    title: "Medición y Análisis Econométrico (C.I.): Econometría"
+    program: "Maestría en Economía y Políticas Públicas (en inglés)"
+  industrial-economics:
+    title: "Economía Industrial"
+    program: "Licenciatura en Economía, Mercados e Instituciones (en italiano)"
+  political-economy:
+    title: "Economía Política"
+    program: "Licenciatura en Economía, Política y Ciencias Sociales (en inglés)"
+  microeconomics-economics-politics:
+    title: "Microeconomía"
+    program: "Licenciatura en Economía, Política y Ciencias Sociales (en inglés)"
+  game-theory-economics-econometrics:
+    title: "Microeconomía (C.I.): Teoría de Juegos"
+    program: "Maestría en Economía y Econometría (en inglés)"
+  behavioral-economics-2022:
+    title: "Introducción a la Economía del Comportamiento"
+    program: "Licenciatura en Economía y Finanzas (en inglés)"
+  globalization:
+    title: "Globalización: Comercio, Migraciones y Multinacionales"
+    program: "Licenciatura en Economía y Finanzas (en inglés)"
+  competition-economics-policy:
+    title: "Economía (C.I.): Economía y Política de la Competencia"
+    program: "Maestría en Economía y Administración de Empresas (en italiano)"
+  microeconomics-forli:
+    title: "Microeconomía"
+    program: "Licenciatura en Administración y Economía (en inglés)"
+  game-theory-forli:
+    title: "Economía (C.I.): Teoría de Juegos"
+    program: "Maestría en Economía y Administración de Empresas (en italiano)"
+  public-management:
+    title: "Gestión Pública y Economía Pública"
+    program: "Licenciatura en Negocios y Administración (en inglés)"
+  microeconomics-turin:
+    title: "Microeconomía"
+    program: "Licenciatura en Negocios y Administración (en inglés)"

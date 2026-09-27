@@ -1,0 +1,86 @@
+{%- comment -%}
+  Pagina teaching generata dai dati: _data/teaching.yml (struttura comune), _data/<lingua>/teaching_text.yml (testi),
+  _data/people.yml (docenti). Ruolo (h2) → corsi attuali/precedenti (h3) → ateneo (h4) → corso (h5).
+  Niente commenti HTML qui: nelle pagine .md kramdown li trasformerebbe in paragrafi vuoti.
+{%- endcomment -%}
+{%- assign texts = site.data[site.active_lang].teaching_text -%}
+{%- for section in site.data.teaching.sections -%}
+  {%- assign n = forloop.index0 -%}
+  {%- assign section_text = texts.sections[section.key] %}
+  {%- assign section_id = 'content-' | append: n -%}
+  {%- include section-toggle.liquid id=section_id title=section_text.title expanded=section.expanded %}
+  <div id="content-{{ n }}" class="toggle-section{% if section.expanded %} expanded{% endif %}">
+    {%- for group in section.groups %}
+      {%- assign group_title = texts.groups[group.key] -%}
+      {%- include section-toggle.liquid id=group.id title=group_title expanded=group.expanded tag='h3' class='subsection' wrapper='subsection' %}
+      <div id="{{ group.id }}" class="toggle-section{% if group.expanded %} expanded{% endif %}">
+        {%- for institution in group.institutions %}
+          <div class="year">
+            <h4 class="year year--static">
+              <span>{{ texts.institutions[institution.key] }}</span>
+            </h4>
+          </div>
+          {%- for key in institution.courses -%}
+            {%- assign course = site.data.teaching.courses[key] -%}
+            {%- assign text = texts.courses[key] -%}
+            {%- if course.unibo -%}
+              {%- assign course_url = texts.catalogue_url | append: course.unibo -%}
+            {%- else -%}
+              {%- assign course_url = course.url -%}
+            {%- endif %}
+            <div class="teaching-entry indented">
+              <div class="teaching-entry__row teaching-entry__row--title">
+                <h5 class="teaching-entry__content">
+                  {%- if course_url %}
+                    <a href="{{ course_url }}">{{ text.title }}</a>
+                  {%- else %}
+                    <span class="course-title">{{ text.title }}</span>
+                  {%- endif -%}
+                  {%- if course.with %}
+                    {{ section_text.with }}
+                    {%- assign count = course.with | size -%}
+                    {%- for person_key in course.with -%}
+                      {%- assign person = site.data.people[person_key] -%}
+                      {%- if person.unibo -%}
+                        {%- capture person_url -%}
+                          https://www.unibo.it/sitoweb/{{ person.unibo }}{% unless site.active_lang == 'it' %}/en{% endunless %}
+                        {%- endcapture -%}
+                      {%- elsif site.active_lang == 'it' and person.url_it -%}
+                        {%- assign person_url = person.url_it -%}
+                      {%- else -%}
+                        {%- assign person_url = person.url -%}
+                      {%- endif -%}
+                      {%- if forloop.last and count > 1 -%}
+                        {%- if count > 2 %}, {{ texts.labels.and }} {% else %} {{ texts.labels.and }} {% endif -%}
+                      {%- elsif forloop.first == false -%}
+                        ,{{ ' ' }}
+                      {%- else %}
+
+                      {% endif -%}
+                      <a href="{{ person_url }}">{{ person.name }}</a>
+                    {%- endfor -%}
+                  {%- endif %}
+                </h5>
+                {%- if course.materials %}
+                  <div class="icon-link indented folder-link" style="margin-left: auto; display: block; text-align: right;">
+                    <a href="{{ text.materials }}">
+                      <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
+                      <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
+                      <span class="folder-label">{{ texts.labels.materials }}</span>
+                    </a>
+                  </div>
+                {%- endif %}
+              </div>
+              <div class="teaching-entry__row teaching-entry__row--course">
+                <div class="teaching-entry__course-text">{{ text.program }}</div>
+              </div>
+              <div class="teaching-entry__row teaching-entry__row--date">
+                <div class="teaching-entry__date-text">{{ course.dates }}</div>
+              </div>
+            </div>
+          {%- endfor -%}
+        {%- endfor %}
+      </div>
+    {%- endfor %}
+  </div>
+{% endfor -%}
