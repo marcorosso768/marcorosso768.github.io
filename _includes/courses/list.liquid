@@ -12,7 +12,7 @@
       {%- assign url = course.folder | append: item.file | replace: ' ', '%20' -%}
     {%- endif %}
     <li class="course-entry indented">
-      <i class="{{ include.icon }} fa-fw" style="margin-top:0.5px;"></i>
+      <i class="{{ include.icon }} fa-fw"></i>
       <span>
         {%- if item.lecture -%}
           {{- course_text.lecture }}
@@ -20,7 +20,7 @@
         {% elsif item.prefix -%}
           {{- item.prefix }}:
         {% endif -%}
-        <a href="{{ url }}" target="_blank" rel="noopener noreferrer">{{ title | escape }}</a>
+        <a href="{{ url }}">{{ title | escape }}</a>
         {%- if item.updated -%}
           {%- assign date = item.updated | split: '-' -%}
           {%- assign month_index = date[1] | plus: 0 | minus: 1 -%}
@@ -40,8 +40,6 @@
         <a
           href="{{ course.folder }}{{ item.notebook }}"
           download
-          target="_blank"
-          rel="noopener noreferrer"
           class="download-link"
           aria-label="{{ labels.download }} {{ item.notebook }}"
           title="{{ labels.download }}"

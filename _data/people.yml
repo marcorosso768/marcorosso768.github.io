@@ -1,10 +1,13 @@
-# Persone citate nel sito (coautori, docenti dei corsi): nome e pagina personale, scritti una volta sola.
-# La chiave (a sinistra) è quella usata in _data/research.yml e _data/teaching.yml.
-# url: pagina personale (research); unibo: nome del profilo su unibo.it/sitoweb, usato da teaching
-# (link in inglese, in italiano sulla pagina italiana); url_it: pagina da usare sulla pagina italiana, se diversa.
+# Persone citate nel sito (coautori, docenti dei corsi, referenze): nome e pagine, scritti una volta sola.
+# La chiave (a sinistra) è quella usata in _data/research.yml, _data/teaching.yml e _data/references.yml.
+# url: pagina personale (research, references); unibo: nome del profilo su unibo.it/sitoweb (teaching, references)
+# (link in inglese, in italiano sulla pagina italiana); url_it: pagina da usare sulla pagina italiana, se diversa;
+# profile / profile_it: pagina istituzionale fuori da unibo.it (references), in inglese e in italiano.
 cerina:
   name: "Fabio Cerina"
   url: https://sites.google.com/site/fabiocerina/
+  profile: https://web.unica.it/unica/page/en/fabio_cerina
+  profile_it: https://web.unica.it/unica/page/it/fabio_cerina
 nobili:
   name: "Simone Nobili"
   url: https://sites.google.com/view/simonenobili/home
@@ -30,6 +33,7 @@ carrozzo-magli:
 vanin:
   name: "Paolo Vanin"
   url: https://sites.google.com/site/paolovanin/home
+  unibo: paolo.vanin
 fort:
   name: "Margherita Fort"
   unibo: margherita.fort

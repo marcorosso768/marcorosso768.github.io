@@ -12,3 +12,8 @@ node_modules/
 vendor
 .idea
 Claude outputs/
+
+# istruzioni per gli assistenti di programmazione: solo in locale, non nel repository pubblico
+CLAUDE.md
+# archivio personale (contenuti tolti dal sito ma conservati): solo in locale
+_archivio/

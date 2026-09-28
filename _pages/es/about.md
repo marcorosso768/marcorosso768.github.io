@@ -4,23 +4,23 @@ layout: about
 title: sobre mí
 permalink: /
 subtitle: >
-  <div style="margin-top: -0.75rem;">
-      <p style="font-weight: 400;">
+  <div class="about-position">
+      <p class="about-position__text">
           Investigador&nbsp;Postdoctoral
       </p>
   </div>
-  <div style="margin: 0; padding: 0; position: relative; margin-top: 1.5rem;">
+  <div class="about-affiliations">
       <!-- First row: University icon and department name -->
-      <div style="display: inline-block; width: 13px; text-align: center; position: absolute; top: 0; margin-top: -1.5pt; line-height: 14pt;">
-          <i class="fa-solid fa-building-columns fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+      <div class="about-affiliations__icon about-affiliations__icon--first">
+          <i class="fa-solid fa-building-columns fa-fw about-affiliations__glyph"></i>
       </div>
-      <div style="padding-left: 22px; margin-top: -10pt; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; white-space: nowrap;">
-          <a class="header-link" href="https://en.unica.it/en">University&nbsp;of&nbsp;Cagliari</a> | <a class="header-link" href="https://www.unibo.it/en/homepage">University&nbsp;of&nbsp;Bologna</a>
+      <div class="about-affiliations__text about-affiliations__text--first">
+          <a class="header-link" href="https://en.unica.it/en">University&nbsp;of&nbsp;Cagliari</a> <span class="about-affiliations__sep" aria-hidden="true">•</span> <a class="header-link" href="https://www.unibo.it/en/homepage">University&nbsp;of&nbsp;Bologna</a>
       </div>
-      <div style="display: inline-block; width: 13px; text-align: center; position: absolute; margin-top: 1px; line-height: 14pt;">
-          <i class="fa-solid fa-school fa-fw" style="color: var(--global-theme-color); font-size: 10pt;"></i>
+      <div class="about-affiliations__icon about-affiliations__icon--second">
+          <i class="fa-solid fa-school fa-fw about-affiliations__glyph"></i>
       </div>
-     <div style="padding-left: 22px; line-height: 14pt; color: var(--global-theme-color); font-size: 10pt; margin-top: 2pt;">
+     <div class="about-affiliations__text about-affiliations__text--second">
           <a class="header-link header-link--down" href="https://crenos.unica.it">CRENoS <i>(Center for North South Economic Research)</i></a>
       </div>
   </div>
@@ -39,13 +39,13 @@ news: true # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
 
-<span style="font-family: 'Courier New', monospace; font-size:14px;">"Puede que no haya llegado a donde tenía pensado ir, pero creo que terminé donde necesitaba estar."</span>
+<span class="about-quote">"Puede que no haya llegado a donde tenía pensado ir, pero creo que terminé donde necesitaba estar."</span>
 
-<div style="display: flex;">
-    <div style="flex-grow:1;"></div>
-    <span style="font-family: 'Courier New', monospace; font-size:12px;">Douglas Adams — The Long Dark Tea-Time of the Soul</span>
+<div class="about-quote-source">
+    <div class="about-quote-source__spacer"></div>
+    <span class="about-quote-source__text">Douglas Adams — The Long Dark Tea-Time of the Soul</span>
 </div>
-<div style="height: 1.25rem;"></div>
+<div class="about-gap about-gap--quote"></div>
 
 Mi <b><a href="/es/investigación/">investigación</a></b> se centra en
 <b>Economía Política</b>,
@@ -54,13 +54,13 @@ Mi <b><a href="/es/investigación/">investigación</a></b> se centra en
 <b>Economía Experimental</b> y
 <b>Economía del Comportamiento</b>, con un interés particular en cómo interactúan las instituciones y el comportamiento individual en contextos reales. Más en general, me interesan las preguntas que se sitúan en la intersección entre la economía y el comportamiento social, allí donde los datos y los métodos permiten abordarlas.
 
-Tras obtener el <b>Doctorado en Economía</b> en la <b>University of Bologna</b> en 2026, actualmente soy <b>Investigador Postdoctoral</b> en la <b>University of Cagliari</b>, donde estudio las interacciones entre el trabajo remoto, la inteligencia artificial y los mercados laborales locales (<b><a href="https://crenos.unica.it/bibcite/reference/8766" target="_blank" rel="noopener noreferrer" class="external">CRENoS WP 26/13</a></b>).
+Tras obtener el <b>Doctorado en Economía</b> en la <b>University of Bologna</b> en 2026, actualmente soy <b>Investigador Postdoctoral</b> en la <b>University of Cagliari</b>, donde estudio las interacciones entre el trabajo remoto, la inteligencia artificial y los mercados laborales locales (<b><a href="https://crenos.unica.it/bibcite/reference/8766" class="external">CRENoS WP 26/13</a></b>).
 
-Podés encontrar más información sobre mí en mi <b><a href="/assets/pdf/es/curriculum_vitae_es.pdf" target="_blank" rel="noopener noreferrer" class="external">CV</a></b>.
+Podés encontrar más información sobre mí en mi <b><a href="/assets/pdf/es/curriculum_vitae_es.pdf" class="external">CV</a></b>.
 
 Mientras tanto, <b><a href="/es/docencia/">doy clases</a></b> de <b>Métodos Empíricos para el Derecho y la Economía</b> en el <b>Doctorado Europeo en Derecho y Economía (EDLE)</b>, <b>Introducción a la Economía de la UE</b> y un <b>Curso de Nivelación en Econometría</b> en la <b>University of Bologna</b>, donde además me desempeño como <b>Ayudante de Cátedra</b> en econometría, microeconomía, política económica, economía política y economía del comportamiento.
 
-Además, colaboré en el <b><a href="https://site.unibo.it/minuto/en" target="_blank" rel="noopener noreferrer" class="external">MinUTo Project</a></b>, que estudia cómo las creencias, las preferencias y el involucramiento de las familias influyen en el desarrollo en la primera infancia, y en el lanzamiento de la <b><a href="https://appminuto.it/login" target="_blank" rel="noopener noreferrer" class="external">MinUTo App</a></b>, una herramienta de apoyo a la parentalidad consciente disponible en italiano, inglés y francés.
+Además, colaboré en el <b><a href="https://site.unibo.it/minuto/en" class="external">MinUTo Project</a></b>, que estudia cómo las creencias, las preferencias y el involucramiento de las familias influyen en el desarrollo en la primera infancia, y en el lanzamiento de la <b><a href="https://appminuto.it/login" class="external">MinUTo App</a></b>, una herramienta de apoyo a la parentalidad consciente disponible en italiano, inglés y francés.
 
-<div style="margin-top:2.5rem;"></div>
-<hr style="border:0; border-top:1px solid var(--global-theme-color) !important;">
+<div class="about-gap about-gap--end"></div>
+<hr class="about-rule">

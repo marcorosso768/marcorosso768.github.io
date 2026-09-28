@@ -39,58 +39,70 @@ meta_description: "E-mail addresses at the University of Cagliari and the Univer
 
   <div class="icon-link indented">
     <i class="fa-solid fa-school fa-fw"></i>
-    <a href="https://crenos.unica.it/index.php/marco-rosso" target="_blank" rel="noopener noreferrer">personal page on CRENoS</a>
+    <a href="https://crenos.unica.it/index.php/marco-rosso">personal page on CRENoS</a>
   </div>
 
   <div class="icon-link indented">
     <i class="fa-solid fa-building-columns fa-fw"></i>
-    <a href="https://www.unibo.it/sitoweb/marco.rosso4/en" target="_blank" rel="noopener noreferrer">personal page on UniBo</a>
+    <a href="https://www.unibo.it/sitoweb/marco.rosso4/en">personal page on UniBo</a>
   </div>
 
   <div class="icon-link indented">
     <i class="ai ai-orcid fa-fw"></i>
-    <a href="https://orcid.org/0000-0002-3814-2210" target="_blank" rel="noopener noreferrer">ORCID</a>
+    <a href="https://orcid.org/0000-0002-3814-2210">ORCID</a>
   </div>
 
   <div class="icon-link indented">
     <i class="ai ai-clarivate ai-fw"></i>
-    <a href="https://www.webofscience.com/wos/author/record/OIU-6176-2025" target="_blank" rel="noopener noreferrer">Web of Science</a>
+    <a href="https://www.webofscience.com/wos/author/record/OIU-6176-2025">Web of Science</a>
   </div>
 
   <div class="icon-link indented">
     <i class="ai ai-google-scholar fa-fw"></i>
-    <a href="https://scholar.google.com/citations?user=KYPkHrIAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+    <a href="https://scholar.google.com/citations?user=KYPkHrIAAAAJ">Google Scholar</a>
   </div>
 
   <div class="icon-link indented">
     <i class="ai ai-ideas-repec fa-fw"></i>
-    <a href="https://ideas.repec.org/f/pro1382.html" target="_blank" rel="noopener noreferrer">IDEAS/RePEc</a>
+    <a href="https://ideas.repec.org/f/pro1382.html">IDEAS/RePEc</a>
   </div>
 
   <div class="icon-link indented">
     <i class="ai ai-researchgate fa-fw"></i>
-    <a href="https://www.researchgate.net/profile/Marco-Rosso-2" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+    <a href="https://www.researchgate.net/profile/Marco-Rosso-2">ResearchGate</a>
   </div>
 
   <div class="icon-link indented">
     <i class="fa-brands fa-github fa-fw"></i>
-    <a href="https://github.com/marcorosso768" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a href="https://github.com/marcorosso768">GitHub</a>
   </div>
 
   <div class="icon-link indented">
     <i class="fa-brands fa-linkedin fa-fw"></i>
-    <a href="https://www.linkedin.com/in/marcorosso768" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a href="https://www.linkedin.com/in/marcorosso768">LinkedIn</a>
   </div>
   
 </div>
 
-<!-- Location Section -->
-<!-- {% include section-toggle.liquid id="content-4" title="location" %}
+{% comment %}
+Sezione "location", pronta ma disattivata: per mostrarla togliere le due righe comment ed endcomment che racchiudono la sezione qui sotto.
+Da completare: l'indirizzo (al posto del testo tra parentesi quadre) e in data-src l'indirizzo di incorporamento
+della mappa (Google Maps, Condividi > Incorpora una mappa, solo l'URL dentro src="..."). La mappa si carica
+solo quando si preme il pulsante, così senza clic il browser non contatta Google.
+{% endcomment %}
+{% comment %}
+{% include section-toggle.liquid id="content-4" title="location" %}
 
 <div id="content-4" class="toggle-section">
 
-  <div style="display: flex; justify-content: center;">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5869.619707905097!2d11.352124!3d44.497203!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd4bb0ed9d74f%3A0x851bdc6a12c818e2!2sFaculty%20of%20Economics%20-%20University%20of%20Bologna!5e1!3m2!1sen!2sit!4v1747640523184!5m2!1sen!2sit" width="800" height="600" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="icon-link indented">
+    <i class="fa-solid fa-location-dot fa-fw"></i>
+    <span class="contact-address">[address to be added]</span>
   </div>
 
-</div> -->
+  <div class="embed-facade contact-map" data-type="map" data-src="" data-height="450">
+    <button type="button" class="embed-facade__button" aria-expanded="false"><i class="fa-solid fa-map-location-dot fa-fw"></i> <span class="embed-facade__label" data-title="Map" data-show="Show map" data-hide="Hide map">Show map</span></button>
+  </div>
+
+</div>
+{% endcomment %}

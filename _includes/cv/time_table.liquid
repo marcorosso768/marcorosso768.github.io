@@ -1,10 +1,10 @@
-<ul class="card-text font-weight-light list-group list-group-flush">
+<ul class="card-text fw-light list-group list-group-flush">
   {% for content in entry.contents %}
     <li class="list-group-item">
       <div class="row">
         <div class="col-12 col-md-2 d-flex flex-column align-items-center mb-2 mb-md-0">
           {% if content.year %}
-            <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
+            <span class="badge fw-bold danger-color-dark text-uppercase align-middle cv-badge">
               {{- content.year -}}
             </span>
           {% endif %}
@@ -18,30 +18,30 @@
 
         <div class="col-12 col-md-10 mt-2 mt-md-0">
           {% if content.title %}
-            <h3 class="title font-weight-bold ml-1 ml-md-4 h6">{{ content.title }}</h3>
+            <h3 class="title fw-bold ms-1 ms-md-4 h6">{{ content.title }}</h3>
           {% endif %}
           {% if content.department or content.institution or content.firm or content.soccer or content.supervisor or content.cosupervisor %}
-            <table class="table-cv ml-1 ml-md-4 institution">
+            <table class="table-cv ms-1 ms-md-4 institution">
               <tbody>
                 {% if content.soccer %}
                   <tr>
-                    <td style="vertical-align: top; text-align: center" class="soccer">
-                      <i class="fa-regular fa-futbol fa-fw" style="color:var(--global-theme-color);"></i>
+                    <td class="cv-icon-cell soccer">
+                      <i class="fa-regular fa-futbol fa-fw text-theme"></i>
                     </td>
                     <td class="soccer">{{ content.soccer }}</td>
                   </tr>
                 {% endif %}
                 {% if content.firm %}
                   <tr>
-                    <td style="vertical-align: top; text-align: center" class="firm">
-                      <i class="fa-solid fa-briefcase fa-fw" style="color:var(--global-theme-color);"></i>
+                    <td class="cv-icon-cell firm">
+                      <i class="fa-solid fa-briefcase fa-fw text-theme"></i>
                     </td>
                     <td class="firm">{{ content.firm }}</td>
                   </tr>
                 {% endif %}
                 {% if content.institution %}
                   <tr>
-                    <td style="vertical-align: top; text-align: center" class="institution">
+                    <td class="cv-icon-cell institution">
                       <i class="fa-solid fa-building-columns iconinstitution fa-fw"></i>
                     </td>
                     <td class="institution">{{ content.institution }}</td>
@@ -49,7 +49,7 @@
                 {% endif %}
                 {% if content.department %}
                   <tr>
-                    <td style="vertical-align: top; text-align: center" class="department">
+                    <td class="cv-icon-cell department">
                       <i class="fa-solid fa-school icondepartment fa-fw"></i>
                     </td>
                     <td class="department">{{ content.department }}</td>
@@ -57,7 +57,7 @@
                 {% endif %}
                 {% if content.supervisor %}
                   <tr>
-                    <td style="vertical-align: top; text-align: center" class="supervisor">
+                    <td class="cv-icon-cell supervisor">
                       <i class="fa-solid fa-circle-user iconsupervisor fa-fw"></i>
                     </td>
                     <td class="supervisor">{{ content.supervisor }}</td>
@@ -65,7 +65,7 @@
                 {% endif %}
                 {% if content.cosupervisor %}
                   <tr>
-                    <td style="vertical-align: top; text-align: center" class="supervisor">
+                    <td class="cv-icon-cell supervisor">
                       <i class="fa-solid fa-circle-user iconsupervisor fa-fw"></i>
                     </td>
                     <td class="supervisor">{{ content.cosupervisor }}</td>
@@ -75,7 +75,13 @@
             </table>
           {% endif %}
           {% if content.maindescription %}
-            <div class="ml-1 ml-md-4">{{ content.maindescription }}</div>
+            {% comment %} descrizione del ruolo: in cv.yml solo il testo, l'aspetto è qui e in _cv.scss {% endcomment %}
+            <div class="ms-1 ms-md-4">
+              <p class="cv-description">
+                <span class="cv-description__marker" aria-hidden="true">&gt;</span>
+                <i class="cv-description__text">{{ content.maindescription }}</i>
+              </p>
+            </div>
           {% endif %}
           {% if content.description %}
             <ul class="items">
@@ -118,14 +124,14 @@
             </ul>
           {% endif %}
           {% if content.linkitems %}
-            <div class="container-links ml-1 ml-md-4">
+            <div class="container-links ms-1 ms-md-4">
               {% for item in content.linkitems %}
                 {% if item.link %}
                   <div class="container-link-button">
                     {% if item.linkname %}
-                      <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">{{ item.linkname }}</a>
+                      <a href="{{ item.link }}" class="btncv z-depth-0">{{ item.linkname }}</a>
                     {% else %}
-                      <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">doc</a>
+                      <a href="{{ item.link }}" class="btncv z-depth-0">doc</a>
                     {% endif %}
                   </div>
                 {% endif %}

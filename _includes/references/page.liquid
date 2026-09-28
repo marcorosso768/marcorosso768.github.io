@@ -1,0 +1,66 @@
+{%- comment -%}
+  Referenze: foto a destra, nome (h2), ruolo, posizione e contatti. Usato da _layouts/references.liquid.
+{%- endcomment -%}
+{%- assign texts = site.data[site.active_lang].references_text -%}
+{%- for referee in site.data.references.referees -%}
+  {%- assign person = site.data.people[referee.key] -%}
+  {%- assign text = texts.referees[referee.key] -%}
+  {%- assign institution = texts.institutions[referee.institution] -%}
+  {%- if person.unibo -%}
+    {%- capture profile_url -%}
+      https://www.unibo.it/sitoweb/{{ person.unibo }}{% unless site.active_lang == 'it' %}/en{% endunless %}
+    {%- endcapture -%}
+  {%- elsif site.active_lang == 'it' and person.profile_it -%}
+    {%- assign profile_url = person.profile_it -%}
+  {%- else -%}
+    {%- assign profile_url = person.profile -%}
+  {%- endif -%}
+  {%- assign image_path = referee.image | prepend: 'assets/img/' -%}
+  {%- capture sizes -%}
+    (min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 45vw
+  {%- endcapture %}
+  <hr class="profile">
+  <div class="profile float-end">
+    {% include figure.liquid loading="eager" path=image_path class="img-fluid z-depth-1 rounded-circle" sizes=sizes alt=person.name %}
+  </div>
+  <div class="clearfix">
+    <div class="referee-group">
+      <h2 class="indented referee-name">{{ person.name }}</h2>
+      <p class="indented referee-role">
+        <i>{{ text.role }}</i>
+      </p>
+    </div>
+    <div class="referee-group">
+      <p class="indented referee-position">{{ text.position }}</p>
+      <p class="indented">{{ institution.name }}</p>
+      <p class="indented referee-department">{{ institution.department }}</p>
+      <p class="indented referee-small referee-location"><i class="fa-solid fa-location-dot"></i> &nbsp;{{ institution.city }}</p>
+      <p class="indented referee-small">
+        {{ texts.labels.discipline }}: {{ referee.discipline }}
+        {{ texts.disciplines[referee.discipline] }}
+      </p>
+    </div>
+    <div class="referee-group">
+      <p class="indented referee-small">
+        {{ texts.labels.interests }}: <i>{{ text.interests }}</i>
+      </p>
+    </div>
+    <div class="icon-link indented">
+      <i class="fa-solid fa-envelope fa-fw"></i>
+      <a href="mailto:{{ referee.email }}">{{ referee.email }}</a>
+    </div>
+    <div class="icon-link indented">
+      <i class="fa-solid fa-building-columns fa-fw"></i>
+      <a href="{{ profile_url }}">
+        {{- texts.labels.profile }}
+        {{ institution.site -}}
+      </a>
+    </div>
+    {%- if person.url %}
+      <div class="icon-link indented">
+        <i class="fa-solid fa-globe fa-fw"></i>
+        <a href="{{ person.url }}">{{ texts.labels.website }}</a>
+      </div>
+    {%- endif %}
+  </div>
+{%- endfor -%}

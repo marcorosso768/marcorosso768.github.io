@@ -13,7 +13,7 @@
     - title: "Investigador Postdoctoral: Trabajo Remoto, Inteligencia Artificial y Mercados Laborales Locales"
       year: "mar 2026–mar 2027"
       location: "Cagliari, Italia"
-      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Análisis cuantitativo de cómo la atracción de nómades digitales y la difusión de la IA moldean los mercados laborales locales y las desigualdades regionales, con modelos de equilibrio espacial y datos granulares de avisos de empleo online</i></p>'
+      maindescription: "Análisis cuantitativo de cómo la atracción de nómades digitales y la difusión de la IA moldean los mercados laborales locales y las desigualdades regionales, con modelos de equilibrio espacial y datos granulares de avisos de empleo online"
       institution: University of Cagliari
       department: SEA — Departamento de Ciencias Económicas y Empresariales
       supervisor: 'supervisor: <a href="https://sites.google.com/site/fabiocerina/">Fabio Cerina</a>'
@@ -96,7 +96,7 @@
     - title: "Asistente de Investigación: Crimen organizado, conexiones políticas y desempeño de las empresas"
       year: "dic 2025–ene 2026"
       location: "Nápoles, Italia"
-      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Análisis de respuestas abiertas recogidas entre participantes, con el objetivo de identificar y categorizar las motivaciones que emergen y de distinguir perfiles de respuesta mediante técnicas de análisis de texto</i></p>'
+      maindescription: "Análisis de respuestas abiertas recogidas entre participantes, con el objetivo de identificar y categorizar las motivaciones que emergen y de distinguir perfiles de respuesta mediante técnicas de análisis de texto"
       institution: University of Naples Federico II
       department: DISES — Departamento de Economía y Estadística
       supervisor: 'supervisor: <a href="https://sites.google.com/site/gimmordinoecon/home">Giovanni Immordino</a>'
@@ -108,14 +108,14 @@
       supervisor: 'supervisora: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en">Maria Bigoni</a>'
     - title: '"En las raíces del desarrollo infantil: sobre el papel de las creencias, las preferencias y el involucramiento de las familias", en el marco del Proyecto MinUTo'
       year: "ene–abr 2024"
-      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Implementación de experimentos online en la plataforma Qualtrics, gestión de las comunicaciones y coordinación con escuelas y familias, y entrega y recolección de los materiales necesarios para los experimentos</i></p>'
+      maindescription: "Implementación de experimentos online en la plataforma Qualtrics, gestión de las comunicaciones y coordinación con escuelas y familias, y entrega y recolección de los materiales necesarios para los experimentos"
       location: "Bolonia, Italia"
       institution: University of Bologna
       department: DSE — Departamento de Economía
       supervisor: 'supervisoras: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en">Maria Bigoni</a> y <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
     - title: Creación y preparación de materiales de apoyo a la docencia para el curso de Econometría
       year: "nov–dic 2023"
-      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Diseño e implementación de cuestionarios en la plataforma mcEmpirics y autoría de una guía introductoria de Stata</i></p>'
+      maindescription: "Diseño e implementación de cuestionarios en la plataforma mcEmpirics y autoría de una guía introductoria de Stata"
       location: "Bolonia, Italia"
       institution: University of Bologna
       department: DISA — Departamento de Administración
@@ -130,13 +130,9 @@
   type: map
   contents:
     - name:
+      icon: fa-solid fa-newspaper
       value: >
-        <div style="font-size:11pt; display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
-          <div style="line-height: 1.2;">
-            <i>Electoral Studies, Economic Modelling, Journal of Public Economics, The B.E. Journal of Economic Analysis and Policy, Health Economics, Journal of Economics &amp; Management Strategy</i>
-          </div>
-        </div>
+        <i>Electoral Studies, Economic Modelling, Journal of Public Economics, The B.E. Journal of Economic Analysis and Policy, Health Economics, Journal of Economics &amp; Management Strategy</i>
 
 - title: servicio académico
   type: time_table
@@ -158,7 +154,7 @@
       department: DSE — Departamento de Economía
     - title: "Organizador del ciclo de encuentros del Departamento"
       year: "2022–"
-      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Coordinación de encuentros mensuales estructurados para facilitar la integración vertical entre docentes, postdoctorandos y doctorandos. Formalizados en el calendario oficial de actividades del Departamento</i></p>'
+      maindescription: "Coordinación de encuentros mensuales estructurados para facilitar la integración vertical entre docentes, postdoctorandos y doctorandos. Formalizados en el calendario oficial de actividades del Departamento"
       location: "Bolonia, Italia"
       institution: University of Bologna
       department: DSE — Departamento de Economía
@@ -177,13 +173,9 @@
   type: map
   contents:
     - name:
+      icon: fa-solid fa-id-card-clip
       value: >
-        <div style="font-size:11pt; display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-id-card-clip fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
-          <div style="line-height: 1.2;">
-            CRENoS <i>Centre for North South Economic Research</i> (2026–), Italian Economic Association (2025–2026), Italian Econometric Association (2023)
-          </div>
-        </div>
+        CRENoS <i>Centre for North South Economic Research</i> (2026–), Italian Economic Association (2025–2026), Italian Econometric Association (2023)
 
 - title: software y programación
   type: map_list

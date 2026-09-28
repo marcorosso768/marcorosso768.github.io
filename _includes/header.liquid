@@ -9,16 +9,16 @@
 
       {% if page.permalink != '/' %}
         <!-- Main brand with name -->
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+        <a class="navbar-brand title fw-lighter" href="{{ site.baseurl }}/">
           {%- if site.title != 'blank' -%}
             {% if site.first_name %}
-              <span style="color: var(--global-theme-color);">{{- site.first_name -}}</span>
+              <span class="text-theme">{{- site.first_name -}}</span>
             {% endif %}
             {% if site.middle_name %}
-              <span style="color: var(--global-theme-color);">{{- site.middle_name -}}</span>
+              <span class="text-theme">{{- site.middle_name -}}</span>
             {% endif %}
             {% if site.last_name %}
-              <span class="font-weight-bold" style="color: var(--global-theme-color);">{{- site.last_name -}}</span>
+              <span class="fw-bold text-theme">{{- site.last_name -}}</span>
             {% endif %}
           {%- else -%}
             {{- site.title -}}
@@ -46,16 +46,16 @@
           </div>
         -->
         <!-- Replacement with contact_note and envelope icon, both linking to the contact page -->
-        <div style="margin-left: -6pt;">
-          <ul class="navbar-nav mr-auto pl-0 ml-0">
+        <div class="navbar-contact">
+          <ul class="navbar-nav me-auto ps-0 ms-0">
             <li class="nav-item">
               <a
                 class="nav-link d-flex align-items-center"
                 href="{{ site.baseurl }}/{{ contact_path }}/"
                 title="{{ site.data[site.active_lang].strings.contact_note }}"
               >
-                <i class="fa-solid fa-address-card fa-fw ml-0"></i>
-                <span class="contact-label ml-1">{{ site.data[site.active_lang].strings.contact_note }}</span>
+                <i class="fa-solid fa-address-card fa-fw ms-0"></i>
+                <span class="contact-label ms-1">{{ site.data[site.active_lang].strings.contact_note }}</span>
               </a>
             </li>
           </ul>
@@ -64,22 +64,22 @@
 
       <!-- Navbar Toggle -->
       <button
-        class="navbar-toggler collapsed ml-auto"
+        class="navbar-toggler collapsed ms-auto"
         type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
         aria-controls="navbarNav"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="sr-only">Toggle navigation</span>
+        <span class="visually-hidden">Toggle navigation</span>
         <span class="icon-bar top-bar"></span>
         <span class="icon-bar middle-bar"></span>
         <span class="icon-bar bottom-bar"></span>
       </button>
 
-      <div class="collapse navbar-collapse text-right" id="navbarNav">
-        <ul class="navbar-nav ml-auto flex-nowrap">
+      <div class="collapse navbar-collapse text-end" id="navbarNav">
+        <ul class="navbar-nav ms-auto flex-nowrap">
           {% for page in site.pages %}
             {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
           {% endfor %}
@@ -89,7 +89,7 @@
             <a class="nav-link" href="{{ '/' | relative_url }}">
               {{- about_title }}
               {% if page.permalink == '/' %}
-                <span class="sr-only">(current)</span>
+                <span class="visually-hidden">(current)</span>
               {% endif %}
             </a>
           </li>
@@ -110,16 +110,16 @@
                     class="nav-link dropdown-toggle"
                     id="navbarDropdown"
                     role="button"
-                    data-toggle="dropdown"
+                    data-bs-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
                     {{- p.nav_title | default: p.title -}}
                     {% if page.title == p.title or has_active_child %}
-                      <span class="sr-only">(current)</span>
+                      <span class="visually-hidden">(current)</span>
                     {% endif %}
                   </a>
-                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                  <div class="dropdown-menu dropdown-menu-end">
                     {% for child in p.children %}
                       {% if page.page_id == 'about' and child.permalink contains contact_path %}
                         {% continue %}
@@ -141,7 +141,7 @@
                   <a class="nav-link" href="{{ url | relative_url }}">
                     {{- p.nav_title | default: p.title -}}
                     {% if page.url contains p.url %}
-                      <span class="sr-only">(current)</span>
+                      <span class="visually-hidden">(current)</span>
                     {% endif %}
                   </a>
                 </li>
@@ -157,9 +157,9 @@
             <li class="nav-item dropdown">
               <!-- Dropdown Toggle (Icon Only) -->
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle text-theme"
                 role="button"
-                data-toggle="dropdown"
+                data-bs-toggle="dropdown"
                 aria-expanded="false"
                 aria-label="
                   {% case site.active_lang %}
@@ -175,22 +175,17 @@
                     {% else %}Select language
                   {% endcase %}
                 "
-                style="color: var(--global-theme-color);"
               >
-                <i
-                  class="fa fa-language fa-fw"
-                  aria-hidden="true"
-                  style="color: var(--global-theme-color); font-size: 14pt; vertical-align: middle;"
-                ></i>
+                <i class="fa fa-language fa-fw nav-icon text-theme" aria-hidden="true"></i>
               </a>
               <!-- Dropdown Menu (Language Options with Custom Names in Default Color) -->
-              <div class="dropdown-menu dropdown-menu-right">
+              <div class="dropdown-menu dropdown-menu-end">
                 {% assign lang_labels = site.data.language_names[site.active_lang] | default: site.data.language_names.en %}
                 {% for l in site.languages %}
                   <a
                     class="dropdown-item {% if l == site.active_lang %}active{% endif %}"
                     href="#"
-                    onclick="setLanguage('{{ l }}'); return false;"
+                    data-lang="{{ l }}"
                     aria-label="
                       {% case site.active_lang %}
                         {% when 'it' %}Cambia lingua in {{ lang_labels[l] | escape }}
@@ -212,7 +207,7 @@
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
-              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+              <button id="search-toggle" title="Search">
                 <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
               </button>
             </li>
@@ -220,10 +215,9 @@
 
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
-            <li class="toggle-container" style="margin-right:8pt;">
+            <li class="toggle-container">
               <button
                 id="light-toggle"
-                aria-expanded="false"
                 aria-label="
                   {% case site.active_lang %}
                    {% when 'it' %}Cambiare tema
@@ -238,10 +232,10 @@
                     {% else %}Change theme
                   {% endcase %}
                 "
-                style="color: var(--global-theme-color); background: none; border: none;"
+                class="text-theme"
               >
-                <i class="ti ti-moon-filled fa-fw" id="light-toggle-dark" style="font-size: 14pt; vertical-align: middle;"></i>
-                <i class="ti ti-sun-filled fa-fw" id="light-toggle-light" style="font-size: 14pt; vertical-align: middle;"></i>
+                <i class="ti ti-moon-filled fa-fw nav-icon" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled fa-fw nav-icon" id="light-toggle-light"></i>
               </button>
             </li>
           {% endif %}

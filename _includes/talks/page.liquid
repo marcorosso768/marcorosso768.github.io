@@ -20,7 +20,7 @@
             <h4 class="seminar-entry__content">
               {{ text.event }}
               {%- if talk.upcoming %}
-                <span style="font-size: small; white-space: nowrap;">{{ texts.upcoming }}</span>
+                <span class="talk-upcoming">{{ texts.upcoming }}</span>
               {%- endif %}
               —
               <span class="highlight"
@@ -31,7 +31,8 @@
           {%- if talk.paper %}
             <div class="seminar-entry__row seminar-entry__row--paper">
               <div class="seminar-entry__paper-text">
-                <i>{{ site.data.research.entries[talk.paper].title }}</i>
+                {% comment %} i titoli dei paper sono in inglese in tutte le lingue: lang="en" per lettori di schermo e validatore (ridondante, ma valido, nella versione inglese) {% endcomment %}
+                <i lang="en">{{ site.data.research.entries[talk.paper].title }}</i>
               </div>
             </div>
           {%- endif %}

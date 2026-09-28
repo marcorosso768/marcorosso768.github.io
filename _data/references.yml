@@ -1,0 +1,27 @@
+# Pagina references: referenze in ordine, con i dati che non si traducono.
+# Nome, pagina istituzionale e sito personale sono in _data/people.yml (stessa chiave); i testi tradotti
+# (ruolo, posizione, interessi di ricerca, ateneo) sono in _data/<lingua>/references_text.yml.
+#
+# Campi: image (in assets/img/), email, institution (chiave di institutions nei testi), discipline (codice del settore)
+
+referees:
+  - key: vanin
+    image: profile_pictures/prof_pic_PV.webp
+    email: paolo.vanin@unibo.it
+    institution: unibo
+    discipline: ECON-01/A
+  - key: cerina
+    image: profile_pictures/prof_pic_FC.webp
+    email: fcerina@unica.it
+    institution: unica
+    discipline: SECS-P/02
+  - key: prarolo
+    image: profile_pictures/prof_pic_GP.webp
+    email: giovanni.prarolo@unibo.it
+    institution: unibo
+    discipline: ECON-02/A
+  - key: bigoni
+    image: profile_pictures/prof_pic_MB.webp
+    email: maria.bigoni@unibo.it
+    institution: unibo
+    discipline: ECON-01/A

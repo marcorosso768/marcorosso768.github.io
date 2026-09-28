@@ -6,8 +6,10 @@
 #   unibo: anno/codice del catalogo degli insegnamenti di Bologna (il link cambia con la lingua: /en/ o /it/)
 #   url: link al corso, se non è nel catalogo di Bologna (uguale in tutte le lingue)
 #   with: docenti con cui è tenuto il corso, chiavi di _data/people.yml
-#   materials: true se il corso ha una pagina di materiali (l'indirizzo è nei testi di ogni lingua)
+#   materials: chiave del corso in _data/courses.yml, se il corso ha una pagina di materiali (l'indirizzo è nei testi
+#     di ogni lingua); il corso compare anche nella pagina "materials" (menu more)
 #   dates: anni accademici
+# Un ateneo si apre e si chiude cliccando sul nome; expanded: false lo tiene chiuso al caricamento (predefinito: aperto).
 
 sections:
   - key: instructor
@@ -53,17 +55,20 @@ sections:
         expanded: false
         institutions:
           - key: unibo
+            expanded: false
             courses:
               - microeconomics-economics-politics
               - game-theory-economics-econometrics
               - behavioral-economics-2022
               - globalization
           - key: unibo-forli
+            expanded: false
             courses:
               - competition-economics-policy
               - microeconomics-forli
               - game-theory-forli
           - key: unito-saa
+            expanded: false
             courses:
               - public-management
               - microeconomics-turin
@@ -79,16 +84,16 @@ courses:
     dates: "2025–"
   python-for-economists:
     unibo: "2025/520832"
-    materials: true
+    materials: python_for_economists
     dates: "2025–2026"
   microeconomics-business-administration:
     unibo: "2025/529017"
-    materials: true
+    materials: microeconomics
     dates: "2025–2026"
   econometrics-business-economics:
     unibo: "2025/406503"
     with: [fort, pastorello]
-    materials: true
+    materials: econometrics
     dates: "2025–2026"
   microeconometrics:
     unibo: "2026/521599"

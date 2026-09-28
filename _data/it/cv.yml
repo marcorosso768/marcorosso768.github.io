@@ -13,7 +13,7 @@
     - title: "Ricercatore Post-Doc: lavoro da remoto, intelligenza artificiale e mercati del lavoro locali"
       year: "mar 2026–mar 2027"
       location: "Cagliari, Italia"
-      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Analisi quantitativa di come l’attrazione di nomadi digitali e la diffusione dell’IA influenzino i mercati del lavoro locali e le disuguaglianze regionali, con modelli di equilibrio spaziale e dati granulari sugli annunci di lavoro online</i></p>'
+      maindescription: "Analisi quantitativa di come l’attrazione di nomadi digitali e la diffusione dell’IA influenzino i mercati del lavoro locali e le disuguaglianze regionali, con modelli di equilibrio spaziale e dati granulari sugli annunci di lavoro online"
       institution: Università di Cagliari
       department: SEA — Dipartimento di Scienze Economiche e Aziendali
       supervisor: 'supervisor: <a href="https://sites.google.com/site/fabiocerina/">Fabio Cerina</a>'
@@ -96,7 +96,7 @@
     - title: "Assistente di Ricerca: criminalità organizzata, connessioni politiche e performance delle imprese"
       year: "dic 2025–gen 2026"
       location: "Napoli, Italia"
-      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Analisi delle risposte aperte raccolte tra i partecipanti, con l’obiettivo di individuare e classificare le motivazioni emerse e di distinguere i profili dei rispondenti con tecniche di analisi testuale</i></p>'
+      maindescription: "Analisi delle risposte aperte raccolte tra i partecipanti, con l’obiettivo di individuare e classificare le motivazioni emerse e di distinguere i profili dei rispondenti con tecniche di analisi testuale"
       institution: Università di Napoli Federico II
       department: DISES — Dipartimento di Scienze Economiche e Statistiche
       supervisor: 'supervisor: <a href="https://sites.google.com/site/gimmordinoecon/home">Giovanni Immordino</a>'
@@ -108,14 +108,14 @@
       supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/maria.bigoni">Maria Bigoni</a>'
     - title: '"Alle radici dello sviluppo infantile: il ruolo delle convinzioni, delle preferenze e del coinvolgimento dei genitori" nell’ambito del Progetto MinUTo'
       year: "gen–apr 2024"
-      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Implementazione di esperimenti online sulla piattaforma Qualtrics, gestione delle comunicazioni e del coordinamento con scuole e famiglie, consegna e raccolta dei materiali necessari agli esperimenti</i></p>'
+      maindescription: "Implementazione di esperimenti online sulla piattaforma Qualtrics, gestione delle comunicazioni e del coordinamento con scuole e famiglie, consegna e raccolta dei materiali necessari agli esperimenti"
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
       supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/maria.bigoni">Maria Bigoni</a> e <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
     - title: Creazione e preparazione di materiali didattici di supporto per il corso di Econometria
       year: "nov–dic 2023"
-      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Progettazione e implementazione di quiz sulla piattaforma mcEmpirics e redazione di una guida introduttiva a Stata</i></p>'
+      maindescription: "Progettazione e implementazione di quiz sulla piattaforma mcEmpirics e redazione di una guida introduttiva a Stata"
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DISA — Dipartimento di Scienze Aziendali
@@ -130,13 +130,9 @@
   type: map
   contents:
     - name:
+      icon: fa-solid fa-newspaper
       value: >
-        <div style="font-size:11pt; display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
-          <div style="line-height: 1.2;">
-            <i>Electoral Studies, Economic Modelling, Journal of Public Economics, The B.E. Journal of Economic Analysis and Policy, Health Economics, Journal of Economics &amp; Management Strategy</i>
-          </div>
-        </div>
+        <i>Electoral Studies, Economic Modelling, Journal of Public Economics, The B.E. Journal of Economic Analysis and Policy, Health Economics, Journal of Economics &amp; Management Strategy</i>
 
 - title: incarichi accademici
   type: time_table
@@ -158,7 +154,7 @@
       department: DSE — Dipartimento di Scienze Economiche
     - title: "Organizzatore della serie di incontri di networking del Dipartimento"
       year: "2022–"
-      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Coordinamento di incontri mensili strutturati per favorire l’integrazione tra docenti, post-doc e dottorandi, inseriti nel calendario ufficiale degli eventi del Dipartimento</i></p>'
+      maindescription: "Coordinamento di incontri mensili strutturati per favorire l’integrazione tra docenti, post-doc e dottorandi, inseriti nel calendario ufficiale degli eventi del Dipartimento"
       location: "Bologna, Italia"
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
@@ -177,13 +173,9 @@
   type: map
   contents:
     - name:
+      icon: fa-solid fa-id-card-clip
       value: >
-        <div style="font-size:11pt; display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-id-card-clip fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
-          <div style="line-height: 1.2;">
-            CRENoS <i>Centro Ricerche Economiche Nord Sud</i> (2026–), Società Italiana di Economia (2025–2026), Società Italiana di Econometria (2023)
-          </div>
-        </div>
+        CRENoS <i>Centro Ricerche Economiche Nord Sud</i> (2026–), Società Italiana di Economia (2025–2026), Società Italiana di Econometria (2023)
 
 - title: competenze informatiche
   type: map_list

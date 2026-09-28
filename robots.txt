@@ -3,6 +3,20 @@ permalink: /robots.txt
 sitemap: false
 hreflang: false
 ---
+# Crawler che raccolgono testi per addestrare modelli di intelligenza artificiale: non ammessi.
+# Restano ammessi i motori di ricerca e i crawler con cui gli assistenti AI cercano e citano pagine
+# per rispondere a una domanda (OAI-SearchBot, ChatGPT-User, Claude-SearchBot, Claude-User, PerplexityBot).
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: meta-externalagent
+User-agent: Bytespider
+User-agent: cohere-training-data-crawler
+Disallow: /
+
 User-agent: *
 Allow: /
 

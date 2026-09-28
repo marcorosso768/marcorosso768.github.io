@@ -1,4 +1,4 @@
-<div class="list-groups flex-container ml-2 ml-sm-4">
+<div class="list-groups flex-container ms-2 ms-sm-4">
   {% for content in entry.contents %}
     <div class="list-group flex-item">
       <table class="table-cv list-group-table">
@@ -37,7 +37,7 @@
               {% endif %}
               {% if item.link %}
                 <td class="list-group-link">
-                  <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">
+                  <a href="{{ item.link }}" class="btncv z-depth-0">
                     {% if item.linkname %}{{ item.linkname }}{% else %}DOC{% endif %}
                   </a>
                 </td>

@@ -1,15 +1,11 @@
-<div class="list-languages flex-container ml-2 ml-sm-4">
+<div class="list-languages flex-container ms-2 ms-sm-4">
   {% for content in entry.contents %}
     <div class="list-language flex-item">
       <table class="table-cv list-language-table">
         <tbody>
           <tr>
-            <!-- Calculate colspan number for category title -->
-            {% assign i = 1 %}
-            {% for item in content.items %}
-              {% assign i = i | plus: 1 %}
-            {% endfor %}
-            <td colspan="{{ i }}" class="list-language-category">{{ content.category }}</td>
+            {% comment %} una sola colonna: niente colspan (prima valeva voci + 1 e rendeva la tabella non valida) {% endcomment %}
+            <td class="list-language-category">{{ content.category }}</td>
           </tr>
           {% for item in content.items %}
             <tr>

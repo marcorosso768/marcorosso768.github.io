@@ -17,7 +17,7 @@ layout: default
               {% if post.redirect == blank %}
                 <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
               {% elsif post.redirect contains '://' %}
-                <a class="post-link" href="{{ post.redirect }}" target="_blank">{{ post.title }}</a>
+                <a class="post-link" href="{{ post.redirect }}">{{ post.title }}</a>
               {% else %}
                 <a class="post-link" href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
               {% endif %}

@@ -1,26 +1,35 @@
-<table class="table table-cv table-sm table-borderless table-responsive ml-1 ml-sm-3">
+<table class="table table-cv table-sm table-borderless table-responsive ms-1 ms-sm-3">
   {% for content in entry.contents %}
     <tr>
-      <td class="p-1 pr-2 font-weight-bold">
+      <td class="p-1 pe-2 fw-bold">
         <b
-          ><span style="color:var(--global-text-color);">{{ content.name }}</span></b
+          ><span class="cv-value">{{ content.name }}</span></b
         >
       </td>
       {% if content.value %}
-        <td class="p-1 pl-2 font-weight-light text">
-          <span style="color:var(--global-text-color);">{{ content.value }}</span>
+        <td class="p-1 ps-2 fw-light text">
+          {% comment %} div e non span: il valore può contenere blocchi (div), non ammessi dentro uno span {% endcomment %}
+          {% if content.icon %}
+            {% comment %} voce con icona (riviste, affiliazioni): icona e testo in cv.yml, aspetto in _cv.scss {% endcomment %}
+            <div class="cv-value cv-icon-item">
+              <i class="{{ content.icon }} fa-fw cv-icon-item__icon"></i>
+              <div class="cv-icon-item__text">{{ content.value }}</div>
+            </div>
+          {% else %}
+            <div class="cv-value">{{ content.value }}</div>
+          {% endif %}
         </td>
       {% endif %}
       {% if content.links %}
-        <td class="p-1 pl-2 font-weight-light text">
+        <td class="p-1 ps-2 fw-light text">
           <div class="container-pdf">
             {% for item in content.links %}
               {% if item.link %}
                 <div class="container-link-button">
                   {% if item.name %}
-                    <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">{{ item.name }}</a>
+                    <a href="{{ item.link }}" class="btncv z-depth-0">{{ item.name }}</a>
                   {% else %}
-                    <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">doc</a>
+                    <a href="{{ item.link }}" class="btncv z-depth-0">doc</a>
                   {% endif %}
                 </div>
               {% endif %}

@@ -215,6 +215,54 @@ td.list-language-category {
   margin-bottom: 0.5rem;
 }
 
+// descrizione di un ruolo (maindescription): testo secondario a 0.75, freccia nel colore del tema
+.cv-description {
+  font-size: 0.8em;
+  line-height: 1.2;
+}
+
+.cv-description__marker {
+  color: var(--global-theme-color);
+}
+
+.cv-description__text {
+  opacity: 0.75;
+}
+
+// badge con le date nelle voci del CV
+.cv-badge {
+  min-width: 75px;
+}
+
+// colonna delle icone (ateneo, dipartimento, supervisore...) nelle tabelle del CV
+td.cv-icon-cell {
+  vertical-align: top;
+  text-align: center;
+}
+
+// voce "map" con icona (riviste per cui faccio referee, affiliazioni)
+.cv-icon-item {
+  font-size: 11pt;
+  display: flex;
+  align-items: flex-start;
+}
+
+.cv-icon-item__icon {
+  color: var(--global-theme-color);
+  margin-right: 0.75em;
+  line-height: 1;
+  padding-top: 1px;
+}
+
+.cv-icon-item__text {
+  line-height: 1.2;
+}
+
+// valore delle voci "map" del CV (div perché può contenere blocchi)
+.cv-value {
+  color: var(--global-text-color);
+}
+
 td.list-language-name {
   font-size: 0.8rem;
 }

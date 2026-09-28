@@ -26,13 +26,13 @@
       <h3 class="entry-title">
         {%- case e.icon -%}
           {%- when 'publication' -%}
-            {{ e.authors | escape }} ({{ e.year }}). <a href="{{ e.url }}" target="_blank" rel="noopener noreferrer">{{ e.title | escape }}</a>
-            <i>{{ e.journal | escape }}</i>, {{ e.details | escape }}
+            {{ e.authors | escape }} ({{ e.year }}). <a href="{{ e.url }}">{{ e.title | escape }}</a> <i>{{ e.journal | escape }}</i>,
+            {{ e.details | escape }}
           {%- when 'thesis' -%}
             {{ site.data[site.active_lang].research_text.degrees[e.degree] }} ({{ e.year }}), <em>"{{ e.title | escape }}"</em>
           {%- else -%}
             {%- if e.url -%}
-              <a href="{{ e.url }}" target="_blank" rel="noopener noreferrer">{{ e.title | escape }}</a>
+              <a href="{{ e.url }}">{{ e.title | escape }}</a>
             {%- else -%}
               {{ e.title | escape }}
             {%- endif -%}
@@ -50,7 +50,7 @@
           {%- else -%}
             {{ ', ' }}
           {%- endif -%}
-          <a href="{{ person.url }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>
+          <a href="{{ person.url }}">{{ person.name }}</a>
         {%- endfor -%}
       {%- endif -%}
       {%- if e.series %}

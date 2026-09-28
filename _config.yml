@@ -228,27 +228,15 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
-  - bin/
-  - CONTRIBUTING.md
-  - CUSTOMIZE.md
-  - Dockerfile
-  - docker-compose.yml
-  - docker-compose-slim.yml
-  - FAQ.md
+  - CLAUDE.md
   - Gemfile
   - Gemfile.lock
-  - INSTALL.md
   - LICENSE
-  - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/en-us/about_einstein.md
-  - _pages/pt-br/about_einstein.md
   - purgecss.config.js
   - README.md
-  - readme_preview/
   - tools/
-  - UPGRADING.md
   - vendor
 keep_files:
   - CNAME
@@ -311,9 +299,10 @@ display_categories: ["external-services"] # these categories will be displayed o
 # senza nofollow: i link ai profili, ai coautori e alle riviste sono link che il sito garantisce
 external_links:
   enabled: true
-  rel: external noopener
+  rel: external noopener noreferrer
   target: _blank
   exclude:
+  new_tab_extensions: [pdf, do, ipynb] # file del sito che si aprono in una nuova scheda
 
 # -----------------------------------------------------------------------------
 # Jekyll Polyglot

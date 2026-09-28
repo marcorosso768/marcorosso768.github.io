@@ -1,0 +1,9 @@
+---
+layout: page
+---
+{% comment %}
+  Pagina references generata dai dati: _data/references.yml (ordine, foto, email, ateneo), _data/people.yml
+  (nome e link) e _data/<lingua>/references_text.yml (testi). Ogni referenza ha il nome come titolo (h2).
+  Direttamente nell'<article> del layout page: niente secondo <article> annidato, così i titoli appartengono alla pagina.
+{% endcomment %}
+{% include references/page.liquid %}

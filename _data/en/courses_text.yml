@@ -17,7 +17,7 @@ econometrics:
 microeconomics:
   lecture: "Lecture"
   sections:
-    notes: "course notes"
+    handbook: "handbook"
     slides: "slides"
   titles:
     "Appunti di Microeconomia.pdf": "Microeconomics Course Notes"

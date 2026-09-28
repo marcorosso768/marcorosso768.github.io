@@ -1,0 +1,43 @@
+# Pagina references: testi in questa lingua. Dati comuni in _data/references.yml e _data/people.yml.
+# Il nome è diverso da references.yml di proposito: jekyll-polyglot unisce _data/<lingua>/X.yml a site.data.X.
+
+labels:
+  discipline: "Academic Discipline"
+  interests: "Research Interests"
+  profile: "personal page on"
+  website: "website"
+
+institutions:
+  unibo:
+    name: "University of Bologna"
+    department: "Department of Economics"
+    city: "Bologna, Italy"
+    site: "UniBo"
+  unica:
+    name: "University of Cagliari"
+    department: "Department of Economics and Business Sciences"
+    city: "Cagliari, Italy"
+    site: "UniCA"
+
+disciplines:
+  ECON-01/A: "Economics"
+  SECS-P/02: "Economic Policy"
+  ECON-02/A: "Economic Policy"
+
+referees:
+  vanin:
+    role: "Ph.D. Supervisor"
+    position: "Full Professor"
+    interests: "Theory and Empirics of Long-Term Development, Political Economics, Social Economics, Crime Economics, and Microeconomic Theory"
+  cerina:
+    role: "Post-Doc Supervisor"
+    position: "Full Professor"
+    interests: "Macroeconomics, Labor Economics and Urban Economics with a focus on the spatial and occupational dynamics underlying job polarization and its geographic dimension and on the labor market impact of Generative Artificial Intelligence and remote work"
+  prarolo:
+    role: "Research Fellowship Supervisor"
+    position: "Full Professor"
+    interests: "Question-, Data-, and Tool-Driven, erratic around the themes of Political Economics, Long-Term Development, the Role of Trade, and Cultural Diversity"
+  bigoni:
+    role: "MinUTo Project Supervisor"
+    position: "Full Professor"
+    interests: "Experimental Economics, applied to the study of Cooperation in Repeated Social Dilemmas, Industrial Organization, and Learning"

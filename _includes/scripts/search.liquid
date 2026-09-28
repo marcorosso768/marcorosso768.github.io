@@ -13,12 +13,14 @@
 
     const openSearchModal = () => {
       // collapse navbarNav if expanded on mobile
-      const $navbarNav = $('#navbarNav');
-      if ($navbarNav.hasClass('show')) {
-        $navbarNav.collapse('hide');
+      const navbarNav = document.getElementById('navbarNav');
+      if (navbarNav && navbarNav.classList.contains('show')) {
+        bootstrap.Collapse.getOrCreateInstance(navbarNav).hide();
       }
       ninjaKeys.open();
     };
+    // pulsante di ricerca nella barra (prima con onclick scritto nel markup)
+    document.getElementById('search-toggle')?.addEventListener('click', openSearchModal);
   </script>
   <script>
     // get the ninja-keys element

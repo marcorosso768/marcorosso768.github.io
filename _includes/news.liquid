@@ -2,89 +2,39 @@
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
     <div
-      class="table-responsive"
-      {% if include.limit and site.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
-      {% endif %}
+      class="table-responsive{% if include.limit and site.announcements.scrollable and news_size > 3 %} news-scrollable{% endif %}"
     >
-      <table class="table table-sm table-borderless">
-        {% assign news = site.news | reverse %}
-        {% if include.limit and site.announcements.limit %}
+      {% assign news = site.news | reverse %}
+      {% if include.limit %}
+        {% comment %} homepage: le ultime notizie in un'unica tabella {% endcomment %}
+        {% if site.announcements.limit %}
           {% assign news_limit = site.announcements.limit %}
         {% else %}
           {% assign news_limit = news_size %}
         {% endif %}
-        {% for item in news limit: news_limit %}
-          <tr>
-            <th scope="row" style="width: 20%">
-              <span style="color:var(--global-text-color);">{% include date_format.liquid format='short' date=item.date %}</span>
-            </th>
-            <td>
-              {% if item.inline %}
-                {% if include.limit %}
-                  {% assign news_body = item.content | split: '<div class="mt-2 embed-facade' | first %}
-                {% else %}
-                  {% assign news_body = item.content %}
-                {% endif %}
-                <span style="color:var(--global-text-color);">{{ news_body | remove: '<p>' | remove: '</p>' | emojify }}</span>
-              {% else %}
-                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-              {% endif %}
-            </td>
-          </tr>
+        <table class="table table-sm table-borderless">
+          {% for item in news limit: news_limit %}
+            {% include news/row.liquid item=item limit='true' %}
+          {% endfor %}
+        </table>
+      {% else %}
+        {% comment %} pagina news: notizie raggruppate per anno, con l'anno come titolo (h2) {% endcomment %}
+        {% comment %} un titolo e una tabella nuova a ogni cambio d'anno (le notizie sono già in ordine di data) {% endcomment %}
+        {% assign current_year = '' %}
+        {% for item in news %}
+          {% assign item_year = item.date | date: '%Y' %}
+          {% if item_year != current_year %}
+            {% unless forloop.first %}</table>{% endunless %}
+            <h2 class="news-year">{{ item_year }}</h2>
+            <table class="table table-sm table-borderless">
+              {% assign current_year = item_year %}
+          {% endif %}
+          {% include news/row.liquid item=item %}
+          {% if forloop.last %}</table>{% endif %}
         {% endfor %}
-      </table>
+      {% endif %}
     </div>
   {% else %}
     <p>{{ site.data[site.active_lang].strings.no_news }}</p>
   {% endif %}
 </div>
-{% unless include.limit %}
-  <script>
-    document.addEventListener('click', function (e) {
-      const button = e.target.closest('.embed-facade__button');
-      if (!button) return;
-      const box = button.closest('.embed-facade');
-      let frame = box.querySelector('.embed-facade__content');
-      const label = button.querySelector('.embed-facade__label');
-      if (frame) {
-        const open = !frame.hidden;
-        frame.hidden = open;
-        label.textContent = open ? label.dataset.show : label.dataset.hide;
-        return;
-      }
-      frame = document.createElement('div');
-      frame.className = 'embed-facade__content';
-      box.appendChild(frame);
-      const src = box.dataset.src;
-      const loadScript = (url) => {
-        const s = document.createElement('script');
-        s.async = true;
-        s.src = url;
-        document.body.appendChild(s);
-      };
-      if (box.dataset.type === 'x') {
-        frame.innerHTML = '<blockquote class="twitter-tweet"><a href="' + src + '"></a></blockquote>';
-        if (window.twttr && window.twttr.widgets) window.twttr.widgets.load(frame);
-        else loadScript('https://platform.twitter.com/widgets.js');
-      } else if (box.dataset.type === 'instagram') {
-        frame.innerHTML =
-          '<blockquote class="instagram-media" data-instgrm-permalink="' +
-          src +
-          '" data-instgrm-version="14" style="min-width:326px; max-width:540px; width:100%;"></blockquote>';
-        if (window.instgrm) window.instgrm.Embeds.process();
-        else loadScript('https://www.instagram.com/embed.js');
-      } else {
-        const iframe = document.createElement('iframe');
-        iframe.src = src;
-        iframe.height = box.dataset.height;
-        iframe.width = '504';
-        iframe.setAttribute('frameborder', '0');
-        iframe.setAttribute('allowfullscreen', '');
-        iframe.title = 'Embedded post';
-        frame.appendChild(iframe);
-      }
-      label.textContent = label.dataset.hide;
-    });
-  </script>
-{% endunless %}

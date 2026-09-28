@@ -1,0 +1,43 @@
+# Pagina references: testi in questa lingua. Dati comuni in _data/references.yml e _data/people.yml.
+# Il nome è diverso da references.yml di proposito: jekyll-polyglot unisce _data/<lingua>/X.yml a site.data.X.
+
+labels:
+  discipline: "Settore Scientifico Disciplinare"
+  interests: "Interessi di Ricerca"
+  profile: "pagina personale su"
+  website: "sito web"
+
+institutions:
+  unibo:
+    name: "Università di Bologna"
+    department: "Dipartimento di Scienze Economiche"
+    city: "Bologna, Italia"
+    site: "UniBo"
+  unica:
+    name: "Università di Cagliari"
+    department: "Dipartimento di Scienze Economiche e Aziendali"
+    city: "Cagliari, Italia"
+    site: "UniCA"
+
+disciplines:
+  ECON-01/A: "Economia Politica"
+  SECS-P/02: "Politica Economica"
+  ECON-02/A: "Politica Economica"
+
+referees:
+  vanin:
+    role: "Supervisor del Dottorato"
+    position: "Professore Ordinario"
+    interests: "teoria e evidenze empiriche dello Sviluppo a Lungo Periodo, Economia Politica, Economia Sociale, Economia della Criminalità e Teoria Microeconomica"
+  cerina:
+    role: "Supervisor del Post-Doc"
+    position: "Professore Ordinario"
+    interests: "Macroeconomia, Economia del Lavoro ed Economia Urbana, con particolare attenzione alle dinamiche spaziali e occupazionali alla base della polarizzazione del lavoro e della sua dimensione geografica, e all’impatto sul mercato del lavoro dell’Intelligenza Artificiale Generativa e del lavoro da remoto"
+  prarolo:
+    role: "Supervisor dell’Assegno di Ricerca"
+    position: "Professore Ordinario"
+    interests: "guidati da domande, dati e strumenti, si sviluppano in modo erratico attorno ai temi dell’Economia Politica, dello Sviluppo a Lungo Periodo, del Ruolo del Commercio e della Diversità Culturale"
+  bigoni:
+    role: "Supervisor del Progetto MinUTo"
+    position: "Professoressa Ordinaria"
+    interests: "Economia Sperimentale, applicata allo studio della Cooperazione nei Dilemmi Sociali Ripetuti, Organizzazione Industriale e Apprendimento"

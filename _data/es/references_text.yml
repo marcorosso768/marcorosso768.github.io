@@ -1,0 +1,43 @@
+# Pagina references: testi in questa lingua. Dati comuni in _data/references.yml e _data/people.yml.
+# Il nome è diverso da references.yml di proposito: jekyll-polyglot unisce _data/<lingua>/X.yml a site.data.X.
+
+labels:
+  discipline: "Disciplina Académica"
+  interests: "Áreas de Investigación"
+  profile: "página personal en"
+  website: "sitio web"
+
+institutions:
+  unibo:
+    name: "University of Bologna"
+    department: "Departamento de Economía"
+    city: "Bolonia, Italia"
+    site: "UniBo"
+  unica:
+    name: "University of Cagliari"
+    department: "Departamento de Ciencias Económicas y Empresariales"
+    city: "Cagliari, Italia"
+    site: "UniCA"
+
+disciplines:
+  ECON-01/A: "Economía"
+  SECS-P/02: "Política Económica"
+  ECON-02/A: "Política Económica"
+
+referees:
+  vanin:
+    role: "Supervisor de Doctorado"
+    position: "Profesor Titular"
+    interests: "Teoría y Empírica del Desarrollo a Largo Plazo, Economía Política, Economía Social, Economía del Crimen y Teoría Microeconómica"
+  cerina:
+    role: "Supervisor del Postdoctorado"
+    position: "Profesor Titular"
+    interests: "Macroeconomía, Economía Laboral y Economía Urbana, con foco en las dinámicas espaciales y ocupacionales que subyacen a la polarización del empleo y su dimensión geográfica, y en el impacto de la Inteligencia Artificial Generativa y el trabajo remoto sobre el mercado laboral"
+  prarolo:
+    role: "Supervisor de la Beca de Investigación"
+    position: "Profesor Titular"
+    interests: "Impulsado por Preguntas, Datos y Herramientas, errático en torno a los temas de Economía Política, Desarrollo a Largo Plazo, el Papel del Comercio y la Diversidad Cultural"
+  bigoni:
+    role: "Supervisora del Proyecto MinUTo"
+    position: "Profesora Titular"
+    interests: "Economía Experimental, aplicada al estudio de la Cooperación en Dilemas Sociales Repetidos, Organización Industrial y Aprendizaje"

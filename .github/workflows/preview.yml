@@ -58,6 +58,7 @@ jobs:
         with:
           folder: _site
           branch: preview
+          single-commit: true
           commit-message: "Preview of ${{ github.ref_name }} @ ${{ github.sha }}"
       - name: Fail on HTML errors
         if: steps.check.outcome == 'failure'

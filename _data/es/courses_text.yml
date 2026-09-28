@@ -17,7 +17,7 @@ econometrics:
 microeconomics:
   lecture: "Clase"
   sections:
-    notes: "apuntes del curso"
+    handbook: "manual"
     slides: "slides"
   titles:
     "Appunti di Microeconomia.pdf": "Apuntes de Microeconomía"
@@ -45,4 +45,4 @@ python_for_economists:
   lecture: "Lecture"
   sections:
     notebooks: "notebook"
-    extra: "extra materials"
+    extra: "materiales adicionales"

@@ -18,8 +18,10 @@
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
     {% include head.liquid %}
-    <script src="{{ '/assets/js/external-links.js' | relative_url | bust_file_cache }}" defer></script>
     <script src="{{ '/assets/js/toggle-sections.js' | relative_url | bust_file_cache }}" defer></script>
+    {% if content contains 'embed-facade' %}
+      <script src="{{ '/assets/js/embed-facade.js' | relative_url | bust_file_cache }}" defer></script>
+    {% endif %}
     {% if page.page_id == 'research' %}
       <script src="{{ '/assets/js/toggle-box.js' | relative_url | bust_file_cache }}" defer></script>
     {% endif %}
@@ -74,7 +76,6 @@
     </div>
 
     <!-- JavaScripts -->
-    {% include scripts/jquery.liquid %}
     {% include scripts/bootstrap.liquid %}
     {% include scripts/masonry.liquid %}
     {% include scripts/mermaid.liquid %}

@@ -15,70 +15,90 @@
       {%- include section-toggle.liquid id=group.id title=group_title expanded=group.expanded tag='h3' class='subsection' wrapper='subsection' %}
       <div id="{{ group.id }}" class="toggle-section{% if group.expanded %} expanded{% endif %}">
         {%- for institution in group.institutions %}
+          {%- assign institution_id = group.id | append: '-' | append: institution.key -%}
+          {%- if institution.expanded == false -%}
+            {%- assign institution_open = false -%}
+          {%- else -%}
+            {%- assign institution_open = true -%}
+          {%- endif %}
           <div class="year">
             <h4 class="year year--static">
-              <span>{{ texts.institutions[institution.key] }}</span>
+              <button
+                type="button"
+                class="section-toggle institution-toggle"
+                aria-expanded="{{ institution_open }}"
+                aria-controls="{{ institution_id }}"
+              >
+                <span>{{ texts.institutions[institution.key] }}</span>
+                <i
+                  class="fa-solid fa-chevron-right fa-2xs institution-chevron{% if institution_open %} rotated{% endif %}"
+                  id="chevron-{{ institution_id }}"
+                  aria-hidden="true"
+                ></i>
+              </button>
             </h4>
           </div>
-          {%- for key in institution.courses -%}
-            {%- assign course = site.data.teaching.courses[key] -%}
-            {%- assign text = texts.courses[key] -%}
-            {%- if course.unibo -%}
-              {%- assign course_url = texts.catalogue_url | append: course.unibo -%}
-            {%- else -%}
-              {%- assign course_url = course.url -%}
-            {%- endif %}
-            <div class="teaching-entry indented">
-              <div class="teaching-entry__row teaching-entry__row--title">
-                <h5 class="teaching-entry__content">
-                  {%- if course_url %}
-                    <a href="{{ course_url }}">{{ text.title }}</a>
-                  {%- else %}
-                    <span class="course-title">{{ text.title }}</span>
-                  {%- endif -%}
-                  {%- if course.with %}
-                    {{ section_text.with }}
-                    {%- assign count = course.with | size -%}
-                    {%- for person_key in course.with -%}
-                      {%- assign person = site.data.people[person_key] -%}
-                      {%- if person.unibo -%}
-                        {%- capture person_url -%}
+          <div id="{{ institution_id }}" class="toggle-section{% if institution_open %} expanded{% endif %}">
+            {%- for key in institution.courses -%}
+              {%- assign course = site.data.teaching.courses[key] -%}
+              {%- assign text = texts.courses[key] -%}
+              {%- if course.unibo -%}
+                {%- assign course_url = texts.catalogue_url | append: course.unibo -%}
+              {%- else -%}
+                {%- assign course_url = course.url -%}
+              {%- endif %}
+              <div class="teaching-entry indented">
+                <div class="teaching-entry__row teaching-entry__row--title">
+                  <h5 class="teaching-entry__content">
+                    {%- if course_url %}
+                      <a href="{{ course_url }}">{{ text.title }}</a>
+                    {%- else %}
+                      <span class="course-title">{{ text.title }}</span>
+                    {%- endif -%}
+                    {%- if course.with %}
+                      {{ section_text.with }}
+                      {%- assign count = course.with | size -%}
+                      {%- for person_key in course.with -%}
+                        {%- assign person = site.data.people[person_key] -%}
+                        {%- if person.unibo -%}
+                          {%- capture person_url -%}
                           https://www.unibo.it/sitoweb/{{ person.unibo }}{% unless site.active_lang == 'it' %}/en{% endunless %}
                         {%- endcapture -%}
-                      {%- elsif site.active_lang == 'it' and person.url_it -%}
-                        {%- assign person_url = person.url_it -%}
-                      {%- else -%}
-                        {%- assign person_url = person.url -%}
-                      {%- endif -%}
-                      {%- if forloop.last and count > 1 -%}
-                        {%- if count > 2 %}, {{ texts.labels.and }} {% else %} {{ texts.labels.and }} {% endif -%}
-                      {%- elsif forloop.first == false -%}
-                        ,{{ ' ' }}
-                      {%- else %}
+                        {%- elsif site.active_lang == 'it' and person.url_it -%}
+                          {%- assign person_url = person.url_it -%}
+                        {%- else -%}
+                          {%- assign person_url = person.url -%}
+                        {%- endif -%}
+                        {%- if forloop.last and count > 1 -%}
+                          {%- if count > 2 %}, {{ texts.labels.and }} {% else %} {{ texts.labels.and }} {% endif -%}
+                        {%- elsif forloop.first == false -%}
+                          ,{{ ' ' }}
+                        {%- else %}
 
-                      {% endif -%}
-                      <a href="{{ person_url }}">{{ person.name }}</a>
-                    {%- endfor -%}
+                        {% endif -%}
+                        <a href="{{ person_url }}">{{ person.name }}</a>
+                      {%- endfor -%}
+                    {%- endif %}
+                  </h5>
+                  {%- if course.materials %}
+                    <div class="icon-link indented folder-link">
+                      <a href="{{ text.materials }}">
+                        <i class="fa-regular fa-folder fa-fw"></i>
+                        <i class="fa-regular fa-folder-open fa-fw"></i>
+                        <span class="folder-label">{{ texts.labels.materials }}</span>
+                      </a>
+                    </div>
                   {%- endif %}
-                </h5>
-                {%- if course.materials %}
-                  <div class="icon-link indented folder-link" style="margin-left: auto; display: block; text-align: right;">
-                    <a href="{{ text.materials }}">
-                      <i class="fa-regular fa-folder fa-fw" style="margin-top:-0.5px;"></i>
-                      <i class="fa-regular fa-folder-open fa-fw" style="margin-top:-0.5px;"></i>
-                      <span class="folder-label">{{ texts.labels.materials }}</span>
-                    </a>
-                  </div>
-                {%- endif %}
+                </div>
+                <div class="teaching-entry__row teaching-entry__row--course">
+                  <div class="teaching-entry__course-text">{{ text.program }}</div>
+                </div>
+                <div class="teaching-entry__row teaching-entry__row--date">
+                  <div class="teaching-entry__date-text">{{ course.dates }}</div>
+                </div>
               </div>
-              <div class="teaching-entry__row teaching-entry__row--course">
-                <div class="teaching-entry__course-text">{{ text.program }}</div>
-              </div>
-              <div class="teaching-entry__row teaching-entry__row--date">
-                <div class="teaching-entry__date-text">{{ course.dates }}</div>
-              </div>
-            </div>
-          {%- endfor -%}
+            {%- endfor %}
+          </div>
         {%- endfor %}
       </div>
     {%- endfor %}

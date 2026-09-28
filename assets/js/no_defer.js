@@ -1,24 +1,12 @@
-// add bootstrap classes to tables
-$(document).ready(function () {
-  $("table").each(function () {
-    if (determineComputedTheme() == "dark") {
-      $(this).addClass("table-dark");
-    } else {
-      $(this).removeClass("table-dark");
-    }
-
-    // only select tables that are not inside an element with "news" (about page) or "card" (cv page) class
-    if (
-      $(this).parents('[class*="news"]').length == 0 &&
-      $(this).parents('[class*="card"]').length == 0 &&
-      $(this).parents('[class*="archive"]').length == 0 &&
-      $(this).parents("code").length == 0
-    ) {
-      // make table use bootstrap-table
-      $(this).attr("data-toggle", "table");
-      // add some classes to make the table look better
-      // $(this).addClass('table-sm');
-      $(this).addClass("table-hover");
+// Classi Bootstrap sulle tabelle (prima con jQuery): table-dark nel tema scuro (la cambia anche theme.js)
+// e table-hover sulle tabelle fuori da news, card, archivi e blocchi di codice.
+document.addEventListener("DOMContentLoaded", function () {
+  const dark = determineComputedTheme() == "dark";
+  document.querySelectorAll("table").forEach(function (table) {
+    table.classList.toggle("table-dark", dark);
+    if (!table.closest('[class*="news"], [class*="card"], [class*="archive"], code')) {
+      table.setAttribute("data-toggle", "table");
+      table.classList.add("table-hover");
     }
   });
 });

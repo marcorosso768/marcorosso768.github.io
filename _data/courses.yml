@@ -55,7 +55,7 @@ econometrics:
 microeconomics:
   folder: /assets/teaching_material/microeconomia/
   sections:
-    - key: notes
+    - key: handbook
       id: content-0
       icon: fa-regular fa-file-pdf
       items:

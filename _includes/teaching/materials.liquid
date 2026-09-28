@@ -1,0 +1,52 @@
+{%- comment -%}
+  Pagina "materials": indice dei corsi con materiali, generato dai dati. Ordine e dati del corso da _data/teaching.yml
+  (campo materials = chiave del corso in _data/courses.yml), testi da _data/<lingua>/teaching_text.yml, sezioni e numero
+  di file da _data/courses.yml e _data/<lingua>/courses_text.yml. Si aggiorna da sola quando si aggiunge un file o un corso.
+  Niente commenti HTML qui: nelle pagine .md kramdown li trasformerebbe in paragrafi vuoti.
+{%- endcomment -%}
+{%- assign texts = site.data[site.active_lang].teaching_text -%}
+{%- assign course_texts = site.data[site.active_lang].courses_text -%}
+<ul class="materials-index">
+  {%- for section in site.data.teaching.sections -%}
+    {%- for group in section.groups -%}
+      {%- for institution in group.institutions -%}
+        {%- for course_key in institution.courses -%}
+          {%- assign course = site.data.teaching.courses[course_key] -%}
+          {%- unless course.materials -%}
+            {%- continue -%}
+          {%- endunless -%}
+          {%- assign text = texts.courses[course_key] -%}
+          {%- assign files = site.data.courses[course.materials] -%}
+          {%- assign files_text = course_texts[course.materials] %}
+          <li class="materials-entry">
+            <h2 class="materials-entry__title">
+              <a href="{{ text.materials }}">
+                <i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i>
+                <i class="fa-regular fa-folder-open fa-fw" aria-hidden="true"></i>
+                {{ text.title -}}
+              </a>
+            </h2>
+            <div class="materials-entry__meta">{{ course.dates }} · {{ texts.institutions[institution.key] }}</div>
+            <div class="materials-entry__meta">{{ text.program }}</div>
+            <div class="materials-entry__sections">
+              {%- for part in files.sections -%}
+                {%- assign count = 0 -%}
+                {%- if part.blocks -%}
+                  {%- for block in part.blocks -%}
+                    {%- assign count = count | plus: block.items.size -%}
+                  {%- endfor -%}
+                {%- else -%}
+                  {%- assign count = part.items.size -%}
+                {%- endif -%}
+                {%- unless forloop.first -%}
+                  <span class="materials-entry__sep" aria-hidden="true">•</span>
+                {%- endunless %}
+                <span>{{ files_text.sections[part.key] }} ({{ count }})</span>
+              {%- endfor %}
+            </div>
+          </li>
+        {%- endfor -%}
+      {%- endfor -%}
+    {%- endfor -%}
+  {%- endfor %}
+</ul>

@@ -1,0 +1,24 @@
+{%- comment -%}
+  Una notizia (riga della tabella in news.liquid). Parametri: item, limit (homepage: senza il pulsante dei post).
+{%- endcomment -%}
+{%- assign news_item = include.item %}
+<tr>
+  <th scope="row" class="news-date">
+    {% include date_format.liquid format='short' date=news_item.date %}
+  </th>
+  <td>
+    {% if news_item.inline %}
+      {% if include.limit %}
+        {% assign news_body = news_item.content | split: '<div class="mt-2 embed-facade' | first %}
+      {% else %}
+        {% assign news_body = news_item.content %}
+      {% endif %}
+      {% comment %}
+        <div> e non <span>: il testo può contenere blocchi (il pulsante dei post LinkedIn), che in uno span non sono validi
+      {% endcomment %}
+      <div class="news-text">{{ news_body | remove: '<p>' | remove: '</p>' | emojify }}</div>
+    {% else %}
+      <a class="news-title" href="{{ news_item.url | relative_url }}">{{ news_item.title }}</a>
+    {% endif %}
+  </td>
+</tr>

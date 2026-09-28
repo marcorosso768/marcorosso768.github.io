@@ -33,6 +33,14 @@ function setLanguage(language) {
   window.location.href = newPath;
 }
 
+// Voci del menu delle lingue: <a data-lang="it"> (prima con onclick scritto nel markup)
+document.addEventListener("click", function (event) {
+  const item = event.target.closest(".dropdown-item[data-lang]");
+  if (!item) return;
+  event.preventDefault();
+  setLanguage(item.getAttribute("data-lang"));
+});
+
 // Apply language preference on homepage load
 document.addEventListener("DOMContentLoaded", function () {
   const userLanguage = localStorage.getItem("userLanguage") || "en";

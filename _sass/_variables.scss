@@ -65,3 +65,14 @@ $back-to-top-right: 30px;
 $back-to-top-diameter: 40px;
 $back-to-top-height: $back-to-top-diameter;
 $back-to-top-width: $back-to-top-diameter;
+
+// Icone Font Awesome usate nei ::before di _layout.scss (codepoint dal font; nomi come in font-awesome/_variables.scss)
+$icon-book: "\f02d";
+$icon-building-columns: "\f19c";
+$icon-calendar-days: "\f073";
+$icon-chalkboard-user: "\f51c";
+$icon-graduation-cap: "\f19d";
+$icon-location-dot: "\f3c5";
+$icon-newspaper: "\f1ea";
+$icon-paperclip: "\f0c6";
+$icon-user-pen: "\f4ff";

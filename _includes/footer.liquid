@@ -10,14 +10,18 @@
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}
       {% if site.last_updated %}
+        {% comment %}
+          Data con i mesi nella lingua della pagina (date_format.liquid): il filtro date di Ruby scrive i mesi solo in inglese
+        {% endcomment %}
         {% assign current_lang = site.active_lang %}
         {% if current_lang == 'en' %}
-          · Last updated: {{ 'now' | date: '%B %d, %Y' }}
+          · Last updated:
         {% elsif current_lang == 'it' %}
-          · Ultimo aggiornamento: {{ 'now' | date: '%d %B %Y' }}
+          · Ultimo aggiornamento:
         {% elsif current_lang == 'es' %}
-          · Última actualización: {{ 'now' | date: '%d de %B de %Y' }}
+          · Última actualización:
         {% endif %}
+        {% include date_format.liquid format='long' date='now' %}
       {% endif %}
     </div>
   </footer>
@@ -37,14 +41,18 @@
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}
       {% if site.last_updated %}
+        {% comment %}
+          Data con i mesi nella lingua della pagina (date_format.liquid): il filtro date di Ruby scrive i mesi solo in inglese
+        {% endcomment %}
         {% assign current_lang = site.active_lang %}
         {% if current_lang == 'en' %}
-          · Last updated: {{ 'now' | date: '%B %d, %Y' }}
+          · Last updated:
         {% elsif current_lang == 'it' %}
-          · Ultimo aggiornamento: {{ 'now' | date: '%d %B %Y' }}
+          · Ultimo aggiornamento:
         {% elsif current_lang == 'es' %}
-          · Última actualización: {{ 'now' | date: '%d de %B de %Y' }}
+          · Última actualización:
         {% endif %}
+        {% include date_format.liquid format='long' date='now' %}
       {% endif %}
     </div>
   </footer>

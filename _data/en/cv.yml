@@ -13,7 +13,7 @@
     - title: "Postdoctoral Researcher: Remote Work, Artificial Intelligence, and Local Labor Markets"
       year: "Mar 2026–Mar 2027"
       location: "Cagliari, Italy"
-      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Quantitative analysis of how digital nomad attraction and AI diffusion shape local labor markets and regional inequalities, using spatial equilibrium models and granular online job-posting data</i></p>'
+      maindescription: "Quantitative analysis of how digital nomad attraction and AI diffusion shape local labor markets and regional inequalities, using spatial equilibrium models and granular online job-posting data"
       institution: University of Cagliari
       department: SEA — Department of Economics and Business Sciences
       supervisor: 'supervisor: <a href="https://sites.google.com/site/fabiocerina/">Fabio Cerina</a>'
@@ -96,7 +96,7 @@
     - title: "Research Assistant: Organized crime, political connections and firms' performance"
       year: "Dec 2025–Jan 2026"
       location: "Naples, Italy"
-      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Analysis of open-ended responses collected from participants with the goal of identifying and categorizing the motivations that emerge, and distinguishing between respondent profiles using text analysis techniques</i></p>'
+      maindescription: "Analysis of open-ended responses collected from participants with the goal of identifying and categorizing the motivations that emerge, and distinguishing between respondent profiles using text analysis techniques"
       institution: University of Naples Federico II
       department: DISES — Department of Economics and Statistics
       supervisor: 'supervisor: <a href="https://sites.google.com/site/gimmordinoecon/home">Giovanni Immordino</a>'
@@ -108,14 +108,14 @@
       supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en">Maria Bigoni</a>'
     - title: '"At the Roots of Child Development: On the Role of Parental Beliefs, Preferences and Engagement" in the Context of the MinUTo Project'
       year: "Jan–Apr 2024"
-      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Implementation of online experiments using the Qualtrics platform, management of communications and coordination with schools and families, and delivery and collection of the materials required for the experiments</i></p>'
+      maindescription: "Implementation of online experiments using the Qualtrics platform, management of communications and coordination with schools and families, and delivery and collection of the materials required for the experiments"
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE — Department of Economics
       supervisor: 'supervisors: <a href="https://www.unibo.it/sitoweb/maria.bigoni/en">Maria Bigoni</a> and <a href="https://sites.google.com/site/stefaniabortolotti/home">Stefania Bortolotti</a>'
     - title: Creation and Preparation of Teaching Support Materials for the Econometrics Course
       year: "Nov–Dec 2023"
-      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Design and implementation of quizzes on the mcEmpirics platform and authorship of an introductory Stata guide</i></p>'
+      maindescription: "Design and implementation of quizzes on the mcEmpirics platform and authorship of an introductory Stata guide"
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DISA — Department of Management
@@ -130,13 +130,9 @@
   type: map
   contents:
     - name:
+      icon: fa-solid fa-newspaper
       value: >
-        <div style="font-size:11pt; display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-newspaper fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
-          <div style="line-height: 1.2;">
-            <i>Electoral Studies, Economic Modelling, Journal of Public Economics, The B.E. Journal of Economic Analysis and Policy, Health Economics, Journal of Economics &amp; Management Strategy</i>
-          </div>
-        </div>
+        <i>Electoral Studies, Economic Modelling, Journal of Public Economics, The B.E. Journal of Economic Analysis and Policy, Health Economics, Journal of Economics &amp; Management Strategy</i>
 
 - title: academic service
   type: time_table
@@ -158,7 +154,7 @@
       department: DSE — Department of Economics
     - title: "Organizer of the Department Networking Series"
       year: "2022–"
-      maindescription: '<p style="font-size:0.8em; line-height:1.2;"><span style="color:var(--global-theme-color);"> > </span> <i>Coordination of monthly structured gatherings to facilitate vertical integration between faculty, post-docs, and Ph.D. students. Formalized in the Department’s official event calendar</i></p>'
+      maindescription: "Coordination of monthly structured gatherings to facilitate vertical integration between faculty, post-docs, and Ph.D. students. Formalized in the Department’s official event calendar"
       location: "Bologna, Italy"
       institution: University of Bologna
       department: DSE — Department of Economics
@@ -177,13 +173,9 @@
   type: map
   contents:
     - name:
+      icon: fa-solid fa-id-card-clip
       value: >
-        <div style="font-size:11pt; display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-id-card-clip fa-fw" style="color:var(--global-theme-color); margin-right: 0.75em; line-height: 1; padding-top: 1px;"></i>
-          <div style="line-height: 1.2;">
-            CRENoS <i>Centre for North South Economic Research</i> (2026–), Italian Economic Association (2025–2026), Italian Econometric Association (2023)
-          </div>
-        </div>
+        CRENoS <i>Centre for North South Economic Research</i> (2026–), Italian Economic Association (2025–2026), Italian Econometric Association (2023)
 
 - title: software and programming
   type: map_list
