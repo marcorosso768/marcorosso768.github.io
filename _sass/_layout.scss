@@ -1433,7 +1433,7 @@ h5.teaching-entry__content {
 #latest-news a:visited,
 #news-section a:link,
 #news-section a:visited {
-  color: var(--global-theme-color);
+  color: var(--global-text-color);
   text-decoration: none;
   font-style: normal;
   transition:
@@ -1452,7 +1452,7 @@ h5.teaching-entry__content {
 
 .news a:link,
 .news a:visited {
-  color: var(--global-theme-color);
+  color: var(--global-text-color);
   text-decoration: none;
   font-style: normal;
   transition:
@@ -1468,7 +1468,7 @@ h5.teaching-entry__content {
 }
 
 /* Only the About page content area */
-.post .clearfix {
+.post .about-content {
   a.external,
   a[rel~="external"]:not(.no-external),
   a[href^="mailto:"]:not(.no-external) {
@@ -1908,4 +1908,40 @@ h2.materials-entry__title {
 .icon-link i.fa-envelope {
   position: relative;
   top: 0.09em;
+}
+
+/******************************************************************************
+ * Colore dei link: giallo (colore del tema) per le cose di Marco (paper, progetti, corsi, materiali,
+ * profili, contatti), colore del testo per persone e istituzioni degli altri. Visitati o no, stesso colore.
+ * Nelle news e nelle descrizioni delle pagine i link sono del colore del testo; class="link-own" li rende gialli.
+ ******************************************************************************/
+
+// news: colore del testo anche per i link esterni (la regola dei link esterni, in cima, li farebbe gialli)
+#latest-news a:not(.link-own),
+#news-section a:not(.link-own),
+.news a:not(.link-own) {
+  &:link,
+  &:visited {
+    color: var(--global-text-color);
+  }
+}
+
+#latest-news a.link-own,
+#news-section a.link-own,
+.news a.link-own,
+.post-description a.link-own {
+  &:link,
+  &:visited {
+    color: var(--global-theme-color);
+  }
+}
+
+// CV: i supervisori sono in _cv.scss (td.supervisor)
+
+// references: e-mail e pagine dei referee
+.referee-page .icon-link a {
+  &:link,
+  &:visited {
+    color: var(--global-text-color);
+  }
 }

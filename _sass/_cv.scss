@@ -312,9 +312,9 @@ ul.timeline li::before {
   top: -0.5rem;
 }
 
-/* fix link behavior of supervisor tab */
+/* supervisori: persone, quindi colore del testo (il giallo è per le cose di Marco) */
 table.table-cv td.supervisor a {
-  color: var(--global-theme-color, #ffcc00) !important;
+  color: var(--global-text-color) !important;
   text-decoration: none !important;
   font-style: normal;
   transition:

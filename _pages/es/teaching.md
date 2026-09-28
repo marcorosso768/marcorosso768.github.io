@@ -3,7 +3,7 @@ page_id: teaching
 layout: page
 permalink: /docencia/
 title: docencia
-description: <i>Doy clases de econometría, microeconomía y métodos empíricos en carreras de grado, maestría y doctorado, y me desempeño como ayudante de cátedra en cursos de política económica, economía política y economía del comportamiento. Los materiales de los cursos que dicto, entre ellos slides, apuntes, notebooks y do-files, están enlazados desde cada curso y reunidos en la página <a href="/es/materiales/">materiales</a>.</i>
+description: <i>Doy clases de econometría, microeconomía y métodos empíricos en carreras de grado, maestría y doctorado, y me desempeño como ayudante de cátedra en cursos de política económica, economía política y economía del comportamiento. Los materiales de los cursos que dicto, entre ellos slides, apuntes, notebooks y do-files, están enlazados desde cada curso y reunidos en la página <a class="link-own" href="/es/materiales/">materiales</a>.</i>
 meta_description: "Cursos de econometría, microeconomía y métodos empíricos en Bolonia, con slides, apuntes y código para cada curso."
 nav: true
 nav_order: 3
