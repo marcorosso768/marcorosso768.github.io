@@ -19,38 +19,38 @@ econometrics:
       id: content-0
       icon: fa-regular fa-file-pdf
       items:
-        - file: "Introduction to STATA.pdf"
+        - file: "Introduction_to_STATA.pdf"
           title: "Introduction to Stata"
-          updated: "2025-11"
+          updated: "2026-09"
     - key: slides
       id: content-1
       icon: fa-regular fa-note-sticky
       items:
-        - file: "Interpreting OLS Coefficients.pdf"
+        - file: "Interpreting_OLS_Coefficients.pdf"
           title: "Interpreting OLS Coefficients"
-        - file: "Exporting OLS Regression Results in Stata.pdf"
+        - file: "Exporting_OLS_Regression_Results_in_Stata.pdf"
           title: "Exporting OLS Regression Results in Stata"
-        - file: "Marginal Effects in Logit & Probit Models and Maximum Likelihood Tests.pdf"
+        - file: "Marginal_Effects_and_Maximum_Likelihood_Tests.pdf"
           title: "Marginal Effects in Logit and Probit Models and Maximum Likelihood Tests"
-        - file: "Data Scaling, Functional Forms, APE, and Goodness-of-Fit in Logit and Probit.pdf"
+        - file: "Data_Scaling_Functional_Forms_APE_and_Goodness_of_Fit.pdf"
           title: "Data Scaling, Functional Forms, APE, and Goodness-of-Fit in Logit and Probit"
-        - file: "Goodness-of-Fit & ML Hypothesis Testing.pdf"
+        - file: "Goodness_of_Fit_and_ML_Hypothesis_Testing.pdf"
           title: "Goodness-of-Fit & ML Hypothesis Testing"
-        - file: "How to Develop an Economics Research Paper.pdf"
+        - file: "How_to_Develop_an_Economics_Research_Paper.pdf"
           title: "How to Develop an Economics Research Paper"
-        - file: "Review Session - Probability and Statistics Review, Linear Regression Models, and OLS Inference.pdf"
+        - file: "Review_Session_pt1.pdf"
           title: "Review Session: Probability and Statistics Review, Linear Regression Models, and OLS Inference"
-        - file: "Review Session - Heteroskedasticity, Logit and Probit Models, Maximum Likelihood Estimation, and Inference based on Maximum Likelihood.pdf"
+        - file: "Review_Session_pt2.pdf"
           title: "Review Session: Heteroskedasticity, Logit and Probit Models, Maximum Likelihood Estimation, and Inference based on Maximum Likelihood"
     - key: do-files
       id: content-2
       icon: fa-solid fa-code
       items:
-        - file: "Introduction to Stata.do"
+        - file: "Introduction_to_Stata.do"
           title: "Introduction to Stata.do"
-        - file: "Template - Exporting OLS Regression Results in Stata.do"
+        - file: "Exporting_OLS_Regression_Results_in_Stata.do"
           title: "Template: Exporting OLS Regression Results in Stata.do"
-        - file: "Marginal Effects in Logit & Probit Models and Maximum Likelihood Tests.do"
+        - file: "Marginal_Effects_and_Maximum_Likelihood_Tests.do"
           title: "Marginal Effects in Logit & Probit Models and Maximum Likelihood Tests.do"
 microeconomics:
   folder: /assets/teaching_material/microeconomia/
