@@ -357,3 +357,15 @@ table.table-cv td.supervisor a.btncv {
      color: var(--global-text-color);
 }
 */
+
+// fields of interest su schermi piccoli: una colonna di etichette della stessa larghezza, invece di righe
+// con due, una, una, una etichetta di larghezze diverse
+@media (max-width: 575.98px) {
+  .interests-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+    max-width: 16rem;
+    margin: 0 auto;
+  }
+}
