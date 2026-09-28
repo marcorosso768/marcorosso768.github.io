@@ -6,7 +6,11 @@
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
+// Bootstrap 5 e il sottoinsieme di MDB (file CSS in _sass/lib) inclusi qui, prima di tutto il resto:
+// un solo foglio di stile invece di tre, quindi meno richieste che bloccano la prima visualizzazione
 @import
+  "lib/bootstrap.min",
+  "lib/mdb-subset",
   "variables",
   "themes",
   "bootstrap5",

@@ -47,7 +47,7 @@ layout: default
             {% capture profile_srcset %}{{ profile_base | prepend: '/assets/img/' | append: '_360.webp' | relative_url }} 360w, {{ profile_base | prepend: '/assets/img/' | append: '_540.webp' | relative_url }} 540w, {{ page.profile.image | prepend: '/assets/img/' | relative_url }} 640w{% endcapture %}
           {% endif %}
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes srcset=profile_srcset alt=page.profile.image_alt width="640" height="640"
+            include figure.liquid loading="eager" fetchpriority="high" path=profile_image_path class=profile_image_class sizes=sizes srcset=profile_srcset alt=page.profile.image_alt width="640" height="640"
             cache_bust=true
           %}
         {% endif %}

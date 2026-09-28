@@ -1,9 +1,7 @@
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
 
-<!-- Bootstrap + sottoinsieme di MDB usato dal sito (vedi assets/css/mdb-subset.css) -->
-<link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
-<link rel="stylesheet" href="{{ '/assets/css/mdb-subset.css' | relative_url | bust_file_cache }}">
+<!-- Bootstrap e il sottoinsieme di MDB sono dentro main.css (vedi assets/css/main.scss e _sass/lib) -->
 
 <!-- Bootstrap Table -->
 {% if page.pretty_table %}
@@ -136,7 +134,10 @@
 <script src="{{ '/assets/js/language-toggle.js' | relative_url | bust_file_cache }}" defer></script>
 
 <!-- Dark Mode -->
-<script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
+{% comment %} in linea e non come file: deve partire prima della prima visualizzazione (evita il lampo del tema sbagliato), e un file a parte sarebbe una richiesta bloccante in più {% endcomment %}
+<script>
+  {% include scripts/theme.js %}
+</script>
 {% if site.icon contains 'favicons/' %}
   <script>
     {% include scripts/favicon_theme.js %}

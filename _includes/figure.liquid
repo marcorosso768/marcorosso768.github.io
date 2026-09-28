@@ -75,6 +75,9 @@
       {% elsif site.lazy_loading_images %}
         loading="lazy"
       {% endif %}
+      {% if include.fetchpriority %}
+        fetchpriority="{{ include.fetchpriority }}"
+      {% endif %}
       onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (el) { el.remove(); });"
     >
   </picture>
