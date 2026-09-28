@@ -15,12 +15,11 @@ a[href^="tel:"]:not(.no-external) {
     color var(--transition-duration) var(--transition-easing),
     font-style var(--transition-duration) var(--transition-easing);
 
-  &:link {
-    color: var(--global-theme-color);
-  }
-
+  // stesso colore anche per i link già visitati: prima diventavano del colore del testo, e nella stessa
+  // lista (per esempio i contatti) alcuni link erano chiari e altri colorati
+  &:link,
   &:visited {
-    color: inherit;
+    color: var(--global-theme-color);
   }
 
   &:hover {
