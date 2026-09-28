@@ -1903,3 +1903,10 @@ h2.materials-entry__title {
 .news-scrollable {
   max-height: 60vw;
 }
+
+// buste accanto agli indirizzi e-mail: il testo è tutto minuscolo e il suo centro visivo è più basso di quello
+// delle altre righe; la busta, bassa e larga, sembrerebbe alta. Scende di poco più di 1px.
+.icon-link i.fa-envelope {
+  position: relative;
+  top: 0.09em;
+}
