@@ -358,14 +358,42 @@ table.table-cv td.supervisor a.btncv {
 }
 */
 
-// fields of interest su schermi piccoli: una colonna di etichette della stessa larghezza, invece di righe
-// con due, una, una, una etichetta di larghezze diverse
-@media (max-width: 575.98px) {
+// fields of interest sotto i 992px: etichette tutte larghe come la più lunga (griglia con colonne 1fr in un
+// contenitore largo quanto il contenuto). Tra 576 e 991px tre sopra e due sotto, centrate; sotto i 576px una colonna.
+// Sopra i 992px restano in fila con la loro larghezza naturale.
+@media (max-width: 991.98px) {
   .interests-container {
     display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: max-content;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .interest-badge {
+    grid-column: span 2;
+    white-space: nowrap;
+  }
+
+  // quinta etichetta e quarta: nella seconda riga, centrate sotto le tre della prima
+  .interest-badge:nth-child(4):nth-last-child(2) {
+    grid-column: 2 / span 2;
+  }
+
+  .interest-badge:nth-child(5):last-child {
+    grid-column: 4 / span 2;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .interests-container {
     grid-template-columns: 1fr;
     gap: 0.4rem;
-    max-width: 16rem;
-    margin: 0 auto;
+  }
+
+  .interest-badge,
+  .interest-badge:nth-child(4):nth-last-child(2),
+  .interest-badge:nth-child(5):last-child {
+    grid-column: auto;
   }
 }
