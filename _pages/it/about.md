@@ -43,7 +43,7 @@ social: true # includes social icons at the bottom of the page
 
 <div class="about-quote-source">
     <div class="about-quote-source__spacer"></div>
-    <span class="about-quote-source__text">Douglas Adams — La lunga oscura pausa caffè dell’anima</span>
+    <span class="about-quote-source__text">Douglas Adams, <cite>La lunga oscura pausa caffè dell’anima</cite></span>
 </div>
 <div class="about-gap about-gap--quote"></div>
 
@@ -58,7 +58,7 @@ Dopo aver conseguito il <b>Dottorato di Ricerca in Economia</b> presso l’<b>Un
 
 Maggiori informazioni sono disponibili nel mio <b><a href="/assets/pdf/it/curriculum_vitae_it.pdf" class="external">CV</a></b>.
 
-Nel frattempo, <b><a href="/it/didattica/">insegno</a></b> <b>Empirical Methods for Law and Economics</b> al <b>Dottorato in Law and Economics (EDLE)</b>, <b>Introduction to Economics of the EU</b> e un <b>Corso di Allineamento in Econometria</b> all’<b>Università di Bologna</b>, dove svolgo anche attività di <b>Tutor Didattico</b> in econometria, microeconomia, politica economica, economia politica ed economia comportamentale.
+Nel frattempo, <b><a href="/it/didattica/">insegno</a></b> <b>Empirical Methods for Law and Economics</b> al <b>Dottorato Europeo in Law and Economics (EDLE)</b>, <b>Introduction to Economics of the EU</b> e un <b>Corso di Allineamento in Econometria</b> all’<b>Università di Bologna</b>, dove svolgo anche attività di <b>Tutor Didattico</b> in econometria, microeconomia, politica economica, economia politica ed economia comportamentale.
 
 Inoltre, ho contribuito al <b><a href="https://site.unibo.it/minuto/it">Progetto MinUTo</a></b>, che studia come convinzioni, preferenze e coinvolgimento dei genitori influenzino lo sviluppo nella prima infanzia, e al lancio della <b><a href="https://appminuto.it/login">MinUTo App</a></b>, uno strumento a supporto della genitorialità consapevole disponibile in italiano, inglese e francese.
 

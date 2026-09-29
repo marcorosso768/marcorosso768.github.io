@@ -43,7 +43,7 @@ social: true # includes social icons at the bottom of the page
 
 <div class="about-quote-source">
     <div class="about-quote-source__spacer"></div>
-    <span class="about-quote-source__text">Douglas Adams — Iras celestiales</span>
+    <span class="about-quote-source__text">Douglas Adams, <cite>Iras celestiales</cite></span>
 </div>
 <div class="about-gap about-gap--quote"></div>
 
