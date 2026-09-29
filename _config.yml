@@ -64,7 +64,7 @@ og_image: assets/img/og_image/MR.png # The site-wide (default for all links) Ope
 # Contact integration
 # -----------------------------------------------------------------------------
 
-personal_email: m.rosso@me.com
+personal_email: marco@marcorosso.com
 whatsapp_number: # 393403117583 # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 telegram_username: # your Telegram user name
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)

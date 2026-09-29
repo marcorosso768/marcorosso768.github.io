@@ -26,7 +26,7 @@ meta_description: "E-mail addresses at the University of Cagliari and the Univer
 
   <div class="icon-link indented">
     <i class="fa-regular fa-envelope fa-fw"></i>
-    <a href="mailto:m.rosso@me.com">m.rosso@me.com</a>
+    <a href="mailto:marco@marcorosso.com">marco@marcorosso.com</a>
   </div>
 
 </div>
