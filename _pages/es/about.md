@@ -43,7 +43,7 @@ social: true # includes social icons at the bottom of the page
 
 <div class="about-quote-source">
     <div class="about-quote-source__spacer"></div>
-    <span class="about-quote-source__text">Douglas Adams — The Long Dark Tea-Time of the Soul</span>
+    <span class="about-quote-source__text">Douglas Adams — Iras celestiales</span>
 </div>
 <div class="about-gap about-gap--quote"></div>
 
