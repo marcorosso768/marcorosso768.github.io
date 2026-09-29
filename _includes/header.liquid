@@ -181,10 +181,38 @@
               <!-- Dropdown Menu (Language Options with Custom Names in Default Color) -->
               <div class="dropdown-menu dropdown-menu-end">
                 {% assign lang_labels = site.data.language_names[site.active_lang] | default: site.data.language_names.en %}
+                {% comment %}
+                  Link veri alla stessa pagina nelle altre lingue (li segue anche Google), con la tabella
+                  _data/url_map.yml usata per gli hreflang; senza traduzione si va alla home della lingua.
+                  static_href evita che jekyll-polyglot aggiunga di nuovo il prefisso di lingua.
+                {% endcomment %}
+                {% assign ls_page_url = page.url | url_decode | replace: 'index.html', '' %}
+                {% assign ls_prefix = '/' | append: site.active_lang | append: '/' %}
+                {% if site.active_lang == site.default_lang %}
+                  {% assign ls_en_path = ls_page_url %}
+                {% else %}
+                  {% if ls_page_url == '/' %}
+                    {% assign ls_current = ls_prefix %}
+                  {% elsif ls_page_url contains ls_prefix %}
+                    {% assign ls_current = ls_page_url %}
+                  {% else %}
+                    {% assign ls_current = '/' | append: site.active_lang | append: ls_page_url %}
+                  {% endif %}
+                  {% assign ls_en_path = site.data.url_map.en[ls_current] %}
+                {% endif %}
                 {% for l in site.languages %}
+                  {% if l == site.default_lang %}
+                    {% assign ls_target = ls_en_path | default: '/' %}
+                  {% else %}
+                    {% assign ls_home = '/' | append: l | append: '/' %}
+                    {% assign ls_target = site.data.url_map[l][ls_en_path] | default: ls_home %}
+                  {% endif %}
                   <a
                     class="dropdown-item {% if l == site.active_lang %}active{% endif %}"
-                    href="#"
+                    {% static_href -%}
+                    href="{{ ls_target }}"
+                    {% endstatic_href %}
+                    hreflang="{{ l }}"
                     data-lang="{{ l }}"
                     aria-label="
                       {% case site.active_lang %}

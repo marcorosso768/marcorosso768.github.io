@@ -7,6 +7,7 @@ hreflang: false
 {%- comment -%}
   Sitemap multilingua: elenca le pagine nelle tre lingue e, per ciascuna, dichiara le versioni
   nelle altre lingue con xhtml:link (stessa tabella degli hreflang, _data/url_map.yml).
+  Gli indirizzi con lettere accentate (novità, investigación) sono codificati (uri_escape), come chiede lo standard.
   Generata solo nella lingua predefinita: robots.txt e sitemap.xml sono in exclude_from_localization.
 {%- endcomment -%}
 <?xml version="1.0" encoding="UTF-8"?>
@@ -20,14 +21,14 @@ hreflang: false
 {%- if l == site.default_lang %}{% assign loc = en_path %}{% else %}{% assign loc = site.data.url_map[l][en_path] %}{% endif %}
 {%- if loc %}
   <url>
-    <loc>{{ site.url }}{{ loc }}</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ en_path }}"/>
+    <loc>{{ site.url }}{{ loc | uri_escape }}</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ en_path | uri_escape }}"/>
 {%- for a in site.languages %}
 {%- if a != site.default_lang and site.data.url_map[a][en_path] %}
-    <xhtml:link rel="alternate" hreflang="{{ a }}" href="{{ site.url }}{{ site.data.url_map[a][en_path] }}"/>
+    <xhtml:link rel="alternate" hreflang="{{ a }}" href="{{ site.url }}{{ site.data.url_map[a][en_path] | uri_escape }}"/>
 {%- endif %}
 {%- endfor %}
-    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ en_path }}"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ en_path | uri_escape }}"/>
   </url>
 {%- endif %}
 {%- endfor %}
