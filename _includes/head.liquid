@@ -19,10 +19,14 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/fonts/tabler-icons.woff2' | relative_url }}?v3.0.1">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/fonts/roboto/roboto-latin-400.woff2' | relative_url }}">
 {% comment %}
-  Esperimento PageSpeed (30/09/2026): tolti i preload di Roboto 300/700 e dei font delle icone dei profili
-  (fa-brands, academicons) perche' nella simulazione mobile competono con la foto (elemento LCP).
-  Per tornare indietro: git revert di questo commit.
+  Icone dei profili (GitHub, LinkedIn, Bluesky, X: Font Awesome Brands; Scholar, ORCID, RePEc: Academicons),
+  solo nelle pagine che le mostrano: senza preload compaiono in ritardo. Roboto 300/700 senza preload
+  (competevano con la foto, elemento LCP): usano font-display: optional, quindi niente cambio di font visibile.
 {% endcomment %}
+{% if page.layout == 'about' or page.page_id == 'contacts' %}
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/webfonts/fa-brands-400.woff2' | relative_url }}">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/fonts/academicons.woff2' | relative_url }}">
+{% endif %}
 
 {% comment %}
   Roboto in locale: le @font-face sono in linea perche' un foglio separato sarebbe
@@ -37,7 +41,7 @@
       font-family: "Roboto";
       font-style: normal;
       font-weight: {{ w }};
-      font-display: swap;
+      font-display: {% if w == '400' %}swap{% else %}optional{% endif %};
       src: url("{{ '/assets/fonts/roboto/roboto-latin-' | append: w | append: '.woff2' | relative_url }}") format("woff2");
       unicode-range: {{ roboto_range }};
     }
