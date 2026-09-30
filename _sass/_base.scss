@@ -707,10 +707,16 @@ footer.sticky-bottom {
 
   // sottotitolo del blog: una riga descrittiva, non un secondo titolo
   h2 {
-    font-size: 1.15rem;
+    font-size: 1rem;
     font-weight: 300;
-    color: var(--global-text-color-light);
+    opacity: 0.65;
   }
+}
+
+// link di ritorno all'indice del blog, in cima ai post
+.post-back {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
 }
 
 .tag-category-list {
