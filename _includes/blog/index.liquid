@@ -3,6 +3,9 @@
   I post sono solo in inglese: l'elenco viene da site.data.blog_posts (_plugins/blog-posts-all-langs.rb),
   perche' nelle build it/es site.posts e' vuoto.
 {% endcomment %}
+{% comment %}archivi di tag e anni nella lingua della pagina: /it/blog/tag/... (static_href: polyglot non aggiunge il prefisso a /blog/){% endcomment %}
+{% assign blog_prefix = '' %}
+{% if site.active_lang != site.default_lang %}{% assign blog_prefix = '/' | append: site.active_lang %}{% endif %}
 <div class="post">
   <div class="header-bar">
     <h1>{{ page.blog_name }}</h1>
@@ -17,7 +20,14 @@
       <ul class="p-0 m-0">
         {% for tag in site.display_tags %}
           <li>
-            <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
+            <i class="fa-solid fa-hashtag fa-sm"></i>
+            <a
+              {% static_href -%}
+              href="{{ blog_prefix }}{{ tag | slugify | prepend: '/blog/tag/' | append: '/' | relative_url }}"
+              {% endstatic_href %}
+            >
+              {{- tag -}}
+            </a>
           </li>
           {% unless forloop.last %}
             <p>&bull;</p>
@@ -28,7 +38,14 @@
         {% endif %}
         {% for category in site.display_categories %}
           <li>
-            <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
+            <i class="fa-solid fa-tag fa-sm"></i>
+            <a
+              {% static_href -%}
+              href="{{ blog_prefix }}{{ category | slugify | prepend: '/blog/category/' | append: '/' | relative_url }}"
+              {% endstatic_href %}
+            >
+              {{- category -}}
+            </a>
           </li>
           {% unless forloop.last %}
             <p>&bull;</p>
@@ -79,11 +96,18 @@
           {% include date_format.liquid format="long" date=post.date %}
         </p>
         <p class="post-tags">
-          <a href="{{ year | prepend: '/blog/' | relative_url }}"><i class="fa-solid fa-calendar fa-sm"></i> {{ year }}</a>
+          <a {% static_href %} href="{{ blog_prefix }}{{ year | prepend: '/blog/' | append: '/' | relative_url }}" {% endstatic_href %}
+            ><i class="fa-solid fa-calendar fa-sm"></i> {{ year -}}
+          </a>
           {% if post.tags.size > 0 %}
             &nbsp; &middot; &nbsp;
             {% for tag in post.tags %}
-              <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}"><i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>
+              <a
+                {% static_href -%}
+                href="{{ blog_prefix }}{{ tag | slugify | prepend: '/blog/tag/' | append: '/' | relative_url }}"
+                {% endstatic_href %}
+                ><i class="fa-solid fa-hashtag fa-sm"></i> {{ tag -}}
+              </a>
               {% unless forloop.last %}&nbsp;{% endunless %}
             {% endfor %}
           {% endif %}

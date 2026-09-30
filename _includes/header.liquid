@@ -211,16 +211,25 @@
                   {% endif %}
                   {% assign ls_en_path = site.data.url_map.en[ls_current] %}
                 {% endif %}
-                {% comment %}post e archivi del blog (solo in inglese): le altre lingue portano all'indice tradotto del blog{% endcomment %}
-                {% assign ls_lookup = ls_en_path %}
-                {% assign ls_head = ls_en_path | slice: 0, 6 %}
-                {% if ls_head == '/blog/' %}{% assign ls_lookup = '/blog/' %}{% endif %}
+                {% comment %}
+                  Blog: indice e archivi (tag, anni) esistono con lo stesso percorso in ogni lingua (/blog/..., /it/blog/...);
+                  i post solo in inglese: dalle altre lingue si va all'indice tradotto del blog.
+                {% endcomment %}
+                {% assign ls_head = ls_page_url | slice: 0, 6 %}
                 {% for l in site.languages %}
-                  {% if l == site.default_lang %}
+                  {% if ls_head == '/blog/' %}
+                    {% if l == site.default_lang %}
+                      {% assign ls_target = ls_page_url %}
+                    {% elsif page.collection == 'posts' %}
+                      {% assign ls_target = '/' | append: l | append: '/blog/' %}
+                    {% else %}
+                      {% assign ls_target = '/' | append: l | append: ls_page_url %}
+                    {% endif %}
+                  {% elsif l == site.default_lang %}
                     {% assign ls_target = ls_en_path | default: '/' %}
                   {% else %}
                     {% assign ls_home = '/' | append: l | append: '/' %}
-                    {% assign ls_target = site.data.url_map[l][ls_lookup] | default: ls_home %}
+                    {% assign ls_target = site.data.url_map[l][ls_en_path] | default: ls_home %}
                   {% endif %}
                   <a
                     class="dropdown-item {% if l == site.active_lang %}active{% endif %}"

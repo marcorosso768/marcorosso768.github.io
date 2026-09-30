@@ -1,6 +1,6 @@
-archive_category: an archive of posts in this category
-archive_tag: an archive of posts with this tag
-archive_year: an archive of posts from this year
+archive_category: "archivio dei post di questa categoria"
+archive_tag: "archivio dei post con questo tag"
+archive_year: "archivio dei post di quest'anno"
 blog:
   navigation_title: blog
 categories:
