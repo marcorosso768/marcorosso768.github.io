@@ -40,6 +40,16 @@ a[href^="tel:"]:not(.no-external) {
   //}
 }
 
+// link interni nel testo delle pagine (per esempio research e teach nella home): al passaggio del mouse
+// diventano corsivi come quelli esterni; il colore non cambia
+article p a:not(.btn):not(.badge),
+article li a:not(.btn):not(.badge) {
+  &:hover,
+  &:focus {
+    font-style: italic;
+  }
+}
+
 /******************************************************************************
  * Content
  ******************************************************************************/
@@ -1907,12 +1917,11 @@ article.post-content a:not(.link-own) {
     color: var(--global-text-color);
   }
 
-  // al passaggio del mouse solo corsivo e sottolineatura: il colore resta quello del testo
+  // al passaggio del mouse solo corsivo: il colore resta quello del testo
   &:hover,
   &:focus {
     color: var(--global-text-color);
     font-style: italic;
-    text-decoration: underline;
   }
 }
 
@@ -1927,7 +1936,6 @@ article.post-content a.link-own {
   &:hover,
   &:focus {
     font-style: italic;
-    text-decoration: underline;
   }
 }
 
