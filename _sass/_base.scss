@@ -723,8 +723,21 @@ footer.sticky-bottom {
 
 // link di ritorno all'indice del blog, in cima ai post
 .post-back {
-  font-size: 0.9rem;
-  margin-bottom: 0.5rem;
+  // stesso carattere delle voci del menu (Roboto 300, 1rem)
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 0.75rem;
+
+  // navigazione, non link nel testo: senza sottolineatura; corsivo al passaggio del mouse come gli altri link
+  a {
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      font-style: italic;
+    }
+  }
 }
 
 .tag-category-list {
