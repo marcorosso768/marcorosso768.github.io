@@ -20,15 +20,15 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/fonts/roboto/roboto-latin-300.woff2' | relative_url }}">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/fonts/roboto/roboto-latin-400.woff2' | relative_url }}">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/fonts/roboto/roboto-latin-700.woff2' | relative_url }}">
+{% comment %}
+  Icone dei profili (GitHub, LinkedIn, Bluesky, X: Font Awesome Brands; Scholar, ORCID, RePEc: Academicons),
+  solo nelle pagine che le mostrano: senza preload il browser scopre questi font solo dopo aver letto main.css.
+{% endcomment %}
+{% if page.layout == 'about' or page.page_id == 'contacts' %}
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/webfonts/fa-brands-400.woff2' | relative_url }}">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/fonts/academicons.woff2' | relative_url }}">
+{% endif %}
 
-<!-- Fonts & Icons -->
-<!-- caricati senza bloccare la prima visualizzazione: le icone accademiche e il font compaiono appena pronti -->
-<link
-  rel="stylesheet"
-  href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}"
-  media="print"
-  onload="this.media='all'"
->
 {% comment %}
   Roboto in locale: le @font-face sono in linea perche' un foglio separato sarebbe
   una richiesta bloccante in piu' sul percorso critico. I file sono in assets/fonts/roboto
@@ -48,9 +48,6 @@
     }
   {% endfor %}
 </style>
-<noscript>
-  <link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
-</noscript>
 
 <!-- Code Syntax Highlighting: solo nelle pagine che contengono codice -->
 {% assign has_code = false %}

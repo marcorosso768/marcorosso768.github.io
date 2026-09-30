@@ -133,7 +133,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-#permalink: /blog/:year/:title/
+permalink: /blog/:year/:title/
 #lsi: false # produce an index for related posts
 
 # Pagination
@@ -145,20 +145,20 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 #  enabled: false
 #  max_related: 5
 
-# Giscus comments (RECOMMENDED)
-# Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
-#giscus:
-#  repo: marcorosso768/marcorosso768.github.io
-#  repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
-#  category: Comments # name of the category under which discussions will be created
-#  category_id: # leave empty or specify your category_id (see https://giscus.app/)
-#  mapping: title # identify discussions by post title
-#  strict: 1 # use strict identification mode
-#  reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
-#  input_position: bottom # whether to display input form below (bottom) or above (top) the comments
-#  theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
-#  emit_metadata: 0
-#  lang: en
+# Commenti ai post del blog con giscus (discussioni GitHub del repository, categoria Announcements:
+# solo il proprietario apre le discussioni, i lettori rispondono). Valori generati da https://giscus.app/
+giscus:
+  repo: marcorosso768/marcorosso768.github.io
+  repo_id: R_kgDOMs6gLw
+  category: Announcements
+  category_id: DIC_kwDOMs6gL84DGwKy
+  mapping: pathname # una discussione per indirizzo del post
+  strict: 0
+  reactions_enabled: 1
+  input_position: bottom
+  theme: preferred_color_scheme
+  emit_metadata: 0
+  lang: en
 
 # Disqus comments (DEPRECATED)
 #disqus_shortname: multi-language-al-folio # put your disqus shortname
@@ -260,6 +260,15 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  # Blog solo in inglese: i post non vengono generati nelle versioni it/es (lang-exclusive di jekyll-polyglot)
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      lang: en
+      lang-exclusive: ["en"]
+      giscus_comments: true
 
 sass:
   sourcemap: never
@@ -289,8 +298,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["academia"] # tag mostrati in cima alla pagina del blog (aggiungerne man mano, es. "cocktails")
+display_categories: [] # categorie mostrate in cima alla pagina del blog
 
 # -----------------------------------------------------------------------------
 # Link esterni (_plugins/external-links.rb, al posto di jekyll-link-attributes)
@@ -310,7 +319,7 @@ external_links:
 
 languages: ["en", "it", "es"]
 default_lang: "en"
-exclude_from_localization: ["assets", "404.html", "robots.txt", "sitemap.xml"]
+exclude_from_localization: ["assets", "404.html", "robots.txt", "sitemap.xml", "blog"] # "blog": i link a /blog/ restano senza prefisso di lingua (il blog è solo in inglese)
 lang_from_path: true
 country_flag: false # set true for allowing flag symbol in language toggle
 parallel_localization: false

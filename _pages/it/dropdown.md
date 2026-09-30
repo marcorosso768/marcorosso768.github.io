@@ -12,6 +12,8 @@ children:
     permalink: /referenze/
   - title: novità
     permalink: /novità/
+  - title: blog
+    permalink: /blog/
   - title: contatti
     permalink: /contatti/
 ---

@@ -351,42 +351,6 @@ a.float-end:active i {
 * Talks
 *****************************************************************************/
 
-@font-face {
-  font-family: "Font Awesome 6 Brands";
-  font-style: normal;
-  font-weight: 400;
-  src:
-    url("/assets/webfonts/fa-brands-400.woff2") format("woff2"),
-    url("/assets/webfonts/fa-brands-400.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Font Awesome 6 Free";
-  font-style: normal;
-  font-weight: 400; // regular
-  src:
-    url("/assets/webfonts/fa-regular-400.woff2") format("woff2"),
-    url("/assets/webfonts/fa-regular-400.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Font Awesome 6 Free";
-  font-style: normal;
-  font-weight: 900; // solid
-  src:
-    url("/assets/webfonts/fa-solid-900.woff2") format("woff2"),
-    url("/assets/webfonts/fa-solid-900.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Font Awesome 6 Free";
-  font-style: normal;
-  font-weight: 400; // v4 compatibility shim
-  src:
-    url("/assets/webfonts/fa-v4compatibility.woff2") format("woff2"),
-    url("/assets/webfonts/fa-v4compatibility.ttf") format("truetype");
-}
-
 $fa-family: "Font Awesome 6 Free";
 $fa-solid-weight: 900;
 $fa-fw-width: 1.25em; // larghezza di .fa-fw
