@@ -1900,6 +1900,26 @@ h2.materials-entry__title {
   }
 }
 
+// post del blog: link del colore del testo (siti e persone degli altri); class="link-own" per le cose di Marco
+article.post-content a:not(.link-own) {
+  &:link,
+  &:visited {
+    color: var(--global-text-color);
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--global-hover-color);
+  }
+}
+
+article.post-content a.link-own {
+  &:link,
+  &:visited {
+    color: var(--global-theme-color);
+  }
+}
+
 // CV: i supervisori sono in _cv.scss (td.supervisor)
 
 // references: e-mail e pagine dei referee
