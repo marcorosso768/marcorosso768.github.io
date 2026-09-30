@@ -25,7 +25,7 @@ Let’s start with some real examples—from ultra-formal to… yikes.
 _For those aiming to impress either the Academy or the Royal Family_
 
 > **Subject:** Econometrics: slides for lecture 10<br>
-> Dear Professor Smith,<br>
+> Dear Professor Lecter,<br>
 > My name is C-3PO, and I am enrolled in your Econometrics course.<br>
 > I am writing to ask whether the slides for lecture 10 will be made available online.<br>
 > Thank you in advance for your time.<br>
@@ -41,7 +41,7 @@ _For those aiming to impress either the Academy or the Royal Family_
 _Human, polite, effective—my favorite_
 
 > **Subject:** Econometrics: slides for lecture 10<br>
-> Dear Professor Smith,<br>
+> Dear Professor Lecter,<br>
 > I’m C-3PO, a student in your Econometrics course. I was wondering if the slides for lecture 10 will be uploaded to the course page soon.<br>
 > Thanks in advance, and have a great day!<br>
 > C-3PO
@@ -83,14 +83,15 @@ _Yes, it exists. No, it shouldn’t._
 - **Cons:** not the tone for an email to someone you’ll ask for a recommendation letter one day.
 - **Reader’s reaction:** shock, resignation, existential crisis.
 
-<div class="gif-container" style="text-align: center; margin-top: 1rem;">
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHFsb2ZoYnViOTZveDdjdHRhNWZmaTJrcnh6MXNkdDZlMnVlMGZuMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wrXAtc0QHEZ4WpSKpw/giphy.gif" alt="Professor's reaction" style="max-width: 100%; height: auto; border-radius: 8px;">
-</div>
+<figure class="text-center my-4">
+  <video src="{{ '/assets/video/blog/smetto-quando-voglio.mp4' | relative_url }}" width="400" height="194" style="max-width: 100%; height: auto; border-radius: 8px;" autoplay muted loop playsinline aria-label="Scene from the film Smetto quando voglio: a job applicant admits he is a graduate, calling it a youthful mistake"></video>
+  <figcaption class="small"><i>Smetto quando voglio</i> (Sydney Sibilia, 2014). English subtitles mine.</figcaption>
+</figure>
 
 ## If you want to be formal…
 
 - **Subject:** Make it say what the email is about, course included: "Econometrics: slides for lecture 10", not "Question" (and never empty).
-- **Greeting:** "Hi Prof" isn’t formal. It’s the email version of a shrug. Go with "Dear Professor Smith": title _and_ surname.
+- **Greeting:** "Hi Prof" isn’t formal. It’s the email version of a shrug. Go with "Dear Professor Lecter": title _and_ surname.
 - **Content:** Introduce yourself (name, course) and get to the point. Avoid stuff like "I hereby write to inquire regarding…"—this isn’t a Victorian novel.
 - **Before writing:** Check the syllabus and the course page. Half of the answers are already there.
 - **Address:** Write from your university account. Emails from "xXdarklordXx@…" tend to end up in spam, or worse, get read.
