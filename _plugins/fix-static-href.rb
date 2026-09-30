@@ -9,7 +9,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
     content = File.read(path, encoding: 'UTF-8')
     next unless content.include?('ferh=')
 
-    fixed = content.gsub(/(<link rel="alternate"[^>]*?)\sferh=/, '\1 href=')
+    fixed = content.gsub(/(<link rel="(?:alternate|canonical)"[^>]*?)\sferh=/, '\1 href=')
     File.write(path, fixed) if fixed != content
   end
 end

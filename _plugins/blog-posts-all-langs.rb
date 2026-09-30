@@ -1,10 +1,9 @@
 # frozen_string_literal: true
 
-# Il blog e' solo in inglese: i post hanno lang-exclusive: ["en"] e jekyll-polyglot li toglie dalle build
-# it/es nel suo hook :site :post_read. Gli indici tradotti /it/blog/ e /es/blog/ devono pero' elencarli.
-# Questo hook, a priorita' alta, gira prima di quello di polyglot e mette l'elenco completo dei post
-# (dal piu' recente) in site.data['blog_posts'], con il tempo di lettura calcolato sul testo sorgente,
-# cosi' e' lo stesso nelle tre lingue. I link ai post restano /blog/... (blog e' in exclude_from_localization).
+# Elenco completo dei post del blog (solo in inglese), uguale nelle tre build di jekyll-polyglot: gli indici
+# /blog/, /it/blog/ e /es/blog/ lo leggono da site.data['blog_posts'] (dal piu' recente). L'hook gira prima
+# del coordinamento dei documenti di polyglot e calcola il tempo di lettura sul testo sorgente, cosi' e' lo
+# stesso nelle tre lingue.
 Jekyll::Hooks.register :site, :post_read, priority: :high do |site|
   posts = site.posts.docs.sort_by(&:date).reverse
   posts.each do |post|

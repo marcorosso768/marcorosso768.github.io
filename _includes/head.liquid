@@ -117,7 +117,12 @@
   >
 {% endif %}
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
-<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+{% if page.collection == 'posts' and site.active_lang != site.default_lang %}
+  {% comment %}post in inglese anche sotto /it/ e /es/: il canonical indica la versione inglese (static_href: senza prefisso){% endcomment %}
+  <link rel="canonical" {% static_href %} href="{{ site.url }}{{ page.url }}" {% endstatic_href %}>
+{% else %}
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+{% endif %}
 
 <!-- Language -->
 {% include hreflang.liquid %}

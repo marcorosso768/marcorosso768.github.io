@@ -212,16 +212,13 @@
                   {% assign ls_en_path = site.data.url_map.en[ls_current] %}
                 {% endif %}
                 {% comment %}
-                  Blog: indice e archivi (tag, anni) esistono con lo stesso percorso in ogni lingua (/blog/..., /it/blog/...);
-                  i post solo in inglese: dalle altre lingue si va all'indice tradotto del blog.
+                  Blog: indice, archivi e post esistono con lo stesso percorso in ogni lingua (/blog/..., /it/blog/...).
                 {% endcomment %}
                 {% assign ls_head = ls_page_url | slice: 0, 6 %}
                 {% for l in site.languages %}
                   {% if ls_head == '/blog/' %}
                     {% if l == site.default_lang %}
                       {% assign ls_target = ls_page_url %}
-                    {% elsif page.collection == 'posts' %}
-                      {% assign ls_target = '/' | append: l | append: '/blog/' %}
                     {% else %}
                       {% assign ls_target = '/' | append: l | append: ls_page_url %}
                     {% endif %}

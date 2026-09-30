@@ -152,7 +152,7 @@ giscus:
   repo_id: R_kgDOMs6gLw
   category: Announcements
   category_id: DIC_kwDOMs6gL84DGwKy
-  mapping: pathname # una discussione per indirizzo del post
+  mapping: specific # una discussione per post, la stessa in /blog/, /it/blog/ e /es/blog/ (termine: percorso inglese)
   strict: 0
   reactions_enabled: 1
   input_position: bottom
@@ -260,14 +260,14 @@ defaults:
       path: "assets"
     values:
       sitemap: false
-  # Blog solo in inglese: i post non vengono generati nelle versioni it/es (lang-exclusive di jekyll-polyglot)
+  # Post solo in inglese, ma pubblicati anche in /it/ e /es/ (ripiego di jekyll-polyglot) con menu e cornice
+  # nella lingua del sito: chi naviga in italiano resta sul sito italiano. Il canonical punta alla versione inglese.
   - scope:
       path: ""
       type: posts
     values:
       layout: post
       lang: en
-      lang-exclusive: ["en"]
       giscus_comments: true
 
 sass:
@@ -319,7 +319,7 @@ external_links:
 
 languages: ["en", "it", "es"]
 default_lang: "en"
-exclude_from_localization: ["assets", "404.html", "robots.txt", "sitemap.xml", "blog"] # "blog": i link a /blog/ restano senza prefisso di lingua (il blog è solo in inglese)
+exclude_from_localization: ["assets", "404.html", "robots.txt", "sitemap.xml"] # il blog esiste nelle tre lingue (/blog/, /it/blog/, /es/blog/): i link a /blog/ prendono il prefisso
 lang_from_path: true
 country_flag: false # set true for allowing flag symbol in language toggle
 parallel_localization: false
