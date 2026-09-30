@@ -1907,16 +1907,27 @@ article.post-content a:not(.link-own) {
     color: var(--global-text-color);
   }
 
+  // al passaggio del mouse solo corsivo e sottolineatura: il colore resta quello del testo
   &:hover,
   &:focus {
-    color: var(--global-hover-color);
+    color: var(--global-text-color);
+    font-style: italic;
+    text-decoration: underline;
   }
 }
 
 article.post-content a.link-own {
   &:link,
-  &:visited {
+  &:visited,
+  &:hover,
+  &:focus {
     color: var(--global-theme-color);
+  }
+
+  &:hover,
+  &:focus {
+    font-style: italic;
+    text-decoration: underline;
   }
 }
 
