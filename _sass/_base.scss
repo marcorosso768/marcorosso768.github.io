@@ -704,6 +704,13 @@ footer.sticky-bottom {
     color: var(--global-theme-color);
     font-size: 5rem;
   }
+
+  // sottotitolo del blog: una riga descrittiva, non un secondo titolo
+  h2 {
+    font-size: 1.15rem;
+    font-weight: 300;
+    color: var(--global-text-color-light);
+  }
 }
 
 .tag-category-list {
