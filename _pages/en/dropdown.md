@@ -12,6 +12,8 @@ children:
     permalink: /references/
   - title: news
     permalink: /news/
+  - title: blog
+    permalink: /blog/
   - title: contacts
     permalink: /contacts/
 ---

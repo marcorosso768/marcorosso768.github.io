@@ -33,4 +33,16 @@ hreflang: false
 {%- endif %}
 {%- endfor %}
 {%- endfor %}
+{%- comment -%} Blog: solo in inglese, quindi senza versioni alternative {%- endcomment -%}
+{%- if site.posts.size > 0 %}
+  <url>
+    <loc>{{ site.url }}/blog/</loc>
+  </url>
+{%- for post in site.posts %}
+  <url>
+    <loc>{{ site.url }}{{ post.url | uri_escape }}</loc>
+    <lastmod>{{ post.last_updated | default: post.date | date_to_xmlschema }}</lastmod>
+  </url>
+{%- endfor %}
+{%- endif %}
 </urlset>
