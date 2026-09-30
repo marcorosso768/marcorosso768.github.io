@@ -13,7 +13,8 @@ children:
   - title: novità
     permalink: /novità/
   - title: blog
-    permalink: /blog/
+    permalink: /it/blog/
+    static: true # indirizzo gia' completo: polyglot non deve toccarlo (blog e' in exclude_from_localization)
   - title: contatti
     permalink: /contatti/
 ---

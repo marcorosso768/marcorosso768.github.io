@@ -33,11 +33,8 @@ hreflang: false
 {%- endif %}
 {%- endfor %}
 {%- endfor %}
-{%- comment -%} Blog: solo in inglese, quindi senza versioni alternative {%- endcomment -%}
+{%- comment -%} Post del blog: solo in inglese, senza versioni alternative (l'indice /blog/ e' nella tabella url_map, con /it/blog/ e /es/blog/) {%- endcomment -%}
 {%- if site.posts.size > 0 %}
-  <url>
-    <loc>{{ site.url }}/blog/</loc>
-  </url>
 {%- for post in site.posts %}
   <url>
     <loc>{{ site.url }}{{ post.url | uri_escape }}</loc>
