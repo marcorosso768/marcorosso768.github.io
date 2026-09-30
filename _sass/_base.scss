@@ -728,14 +728,18 @@ footer.sticky-bottom {
   font-weight: 300;
   margin-bottom: 0.75rem;
 
-  // navigazione, non link nel testo: senza sottolineatura; corsivo al passaggio del mouse come gli altri link
-  a {
+  // navigazione, non link nel testo: come le voci del menu, senza sottolineatura e ingrandimento al passaggio del mouse
+  // (class nav-back: esclusa dalla sottolineatura dei link del contenuto)
+  a.nav-back {
+    display: inline-block;
     text-decoration: none;
+    transform-origin: left center;
+    transition: transform var(--transition-duration, 0.2s) var(--transition-easing, ease-in-out);
 
     &:hover,
     &:focus {
       text-decoration: none;
-      font-style: italic;
+      transform: scale(var(--hover-scale));
     }
   }
 }
@@ -1603,8 +1607,8 @@ main#main-content:focus {
 // così non dipendono solo dal colore. Esclusi pulsanti, menu, titoli delle tendine e link fatti solo di icona o immagine
 main#main-content
   a[href]:not(.btn):not(.pill-link):not(.toggle-pill):not(.news-effect):not(.nav-link):not(.dropdown-item):not(.embed-facade__button):not(
-    .float-end
-  ):not(:has(h1, h2, h3, h4, h5, h6, img)):not(:has(> i:empty)) {
+    .nav-back
+  ):not(.float-end):not(:has(h1, h2, h3, h4, h5, h6, img)):not(:has(> i:empty)) {
   text-decoration-line: underline !important;
   text-decoration-thickness: 1px !important;
   text-underline-offset: 0.18em;
