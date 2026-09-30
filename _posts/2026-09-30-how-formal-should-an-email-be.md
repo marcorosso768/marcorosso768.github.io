@@ -14,7 +14,7 @@ _(Spoiler: most universities have a **dedicated** page with this information, up
 
 Every year, thousands of students email their professors. And very often—not out of malice, but out of inexperience—the result is a small communicative disaster: awkward greetings, insurance-contract phrasing, missing punctuation.
 
-So, taking inspiration from <a href="https://sites.google.com/site/davidedragone/scrivere-una-mail">"Poche semplici regole per scrivere una e-mail ad un professore"</a> (_A few simple rules for writing an email to a professor_) by Professor Davide Dragone, here’s a guide to writing good emails to faculty. Because between overly formal wording, impersonal verbs, and the panic of not remembering whether the professor told me to use their first name... I’ve struggled too.
+So, taking inspiration from <a href="https://sites.google.com/site/davidedragone/scrivere-una-mail">"Poche semplici regole per scrivere una e-mail ad un professore"</a> (_A few simple rules for writing an email to a professor_) by Professor Davide Dragone, here’s my personal take on how to write good emails to faculty. Because between overly formal wording, impersonal verbs, and the panic of not remembering whether the professor told me to use their first name... I’ve struggled too.
 
 Let’s start with some real examples—from ultra-formal to… yikes.
 
@@ -84,9 +84,29 @@ _Yes, it exists. No, it shouldn’t._
 - **Reader’s reaction:** shock, resignation, existential crisis.
 
 <figure class="text-center my-4">
-  <video src="{{ '/assets/video/blog/smetto-quando-voglio.mp4' | relative_url }}" width="548" height="222" style="max-width: 100%; height: auto; border-radius: 8px;" autoplay muted loop playsinline aria-label="Scene from the film Smetto quando voglio: a job applicant admits he is a graduate, calls it a youthful mistake, and says he has filed a request to renounce his degree"></video>
+  <video class="blog-clip" preload="auto" disablepictureinpicture src="{{ '/assets/video/blog/smetto-quando-voglio.mp4' | relative_url }}" width="548" height="222" style="max-width: 100%; height: auto; border-radius: 8px;" autoplay muted loop playsinline aria-label="Scene from the film Smetto quando voglio: a job applicant admits he is a graduate, calls it a youthful mistake, and says he has filed a request to renounce his degree"></video>
   <figcaption class="small" style="opacity: 0.65;"><i>The professor, after reading email no. 5.</i><br><i>Smetto quando voglio</i> (Sydney Sibilia, 2014)</figcaption>
 </figure>
+
+<script>
+  // Autoplay when the clip is on screen; if the browser blocks it (e.g. low-power or data-saver mode), show the play controls instead.
+  (function () {
+    var v = document.querySelector('video.blog-clip');
+    if (!v) return;
+    v.muted = true;
+    var start = function () {
+      var p = v.play();
+      if (p && p.catch) p.catch(function () { v.controls = true; });
+    };
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) { if (e.isIntersecting) { start(); } else { v.pause(); } });
+      }, { threshold: 0.4 }).observe(v);
+    } else {
+      start();
+    }
+  })();
+</script>
 
 ## If you want to be formal…
 
