@@ -85,7 +85,7 @@ _Yes, it exists. No, it shouldn’t._
 
 <figure class="text-center my-4">
   <video src="{{ '/assets/video/blog/smetto-quando-voglio.mp4' | relative_url }}" width="548" height="222" style="max-width: 100%; height: auto; border-radius: 8px;" autoplay muted loop playsinline aria-label="Scene from the film Smetto quando voglio: a job applicant admits he is a graduate, calls it a youthful mistake, and says he has filed a request to renounce his degree"></video>
-  <figcaption class="small"><i>The professor, after reading email no. 5.</i><br><i>Smetto quando voglio</i> (Sydney Sibilia, 2014), subtitles translated from the Italian.</figcaption>
+  <figcaption class="small" style="font-size: 0.65em;"><i>The professor, after reading email no. 5.</i><br><i>Smetto quando voglio</i> (Sydney Sibilia, 2014)</figcaption>
 </figure>
 
 ## If you want to be formal…
