@@ -16,17 +16,17 @@ meta_description: "E-mail addresses at the University of Cagliari and the Univer
 
   <div class="icon-link indented">
     <i class="fa-solid fa-envelope fa-fw"></i>
-    <a href="mailto:marco.rosso@unica.it">marco.rosso@unica.it</a>
+    <a href="mailto:{{ "marco.rosso@unica.it" | encode_email }}">{{ "marco.rosso@unica.it" | email_entities }}</a>
   </div>
 
   <div class="icon-link indented">
     <i class="fa-solid fa-envelope fa-fw"></i>
-    <a href="mailto:marco.rosso4@unibo.it">marco.rosso4@unibo.it</a>
+    <a href="mailto:{{ "marco.rosso4@unibo.it" | encode_email }}">{{ "marco.rosso4@unibo.it" | email_entities }}</a>
   </div>
 
   <div class="icon-link indented">
     <i class="fa-regular fa-envelope fa-fw"></i>
-    <a href="mailto:marco@marcorosso.com">marco@marcorosso.com</a>
+    <a href="mailto:{{ "marco@marcorosso.com" | encode_email }}">{{ "marco@marcorosso.com" | email_entities }}</a>
   </div>
 
 </div>
