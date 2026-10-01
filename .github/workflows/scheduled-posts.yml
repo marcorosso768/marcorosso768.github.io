@@ -1,0 +1,39 @@
+name: Publish scheduled posts
+
+# Posts dated in the future are not published (future: false in _config.yml). To schedule a post,
+# push it with a future "date:" (e.g. date: 2026-12-01): every morning this job checks whether a post
+# is dated today (Rome time) and, if so, starts "Deploy site", which puts it online.
+
+on:
+  schedule:
+    - cron: "15 6 * * *" # 06:15 UTC = 07:15 / 08:15 in Rome
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  publish-if-due:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout posts
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: _posts
+
+      - name: Is a post dated today?
+        id: due
+        run: |
+          today=$(TZ=Europe/Rome date +%F)
+          if grep -lE "^date: *${today}" _posts/*.md 2>/dev/null; then
+            echo "due=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "No post scheduled for ${today}"
+          fi
+
+      - name: Rebuild and deploy the site
+        if: steps.due.outputs.due == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref master --repo "${GITHUB_REPOSITORY}"
