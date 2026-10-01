@@ -793,11 +793,13 @@ footer.sticky-bottom {
       padding-bottom: 0;
     }
 
+    // titoli, anno e tag rimandano a cose di Marco: colore del tema, fisso anche al passaggio del mouse
+    // (prima passavano dal colore del testo al giallo); niente corsivo sui titoli
     a {
-      color: var(--global-text-color);
-      text-decoration: none;
+      color: var(--global-theme-color);
 
-      &:hover {
+      &:hover,
+      &:focus {
         color: var(--global-theme-color);
       }
     }
@@ -1131,15 +1133,22 @@ html.transition *:after {
     padding-top: 0.25rem;
     padding-bottom: 1rem;
 
+    // anno e tag sotto il titolo del post: colore del tema, fisso
     a {
-      color: var(--global-text-color-light);
+      color: var(--global-theme-color);
       text-decoration: none;
 
-      &:hover {
+      &:hover,
+      &:focus {
         color: var(--global-theme-color);
       }
     }
   }
+}
+
+// titolo del post aperto: colore del tema, non sottolineato (non è un link)
+.post-header h1.post-title {
+  color: var(--global-theme-color);
 }
 
 progress {
