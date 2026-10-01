@@ -1,0 +1,5 @@
+# Etichette dei tag del blog nelle altre lingue. Si traducono solo i tag che si scrivono in modo diverso;
+# gli altri (per esempio email) restano come sono. L'indirizzo dell'archivio non cambia: /it/blog/tag/academia/.
+# Formato: tag (come nel front matter dei post) -> lingua -> etichetta.
+academia:
+  it: accademia

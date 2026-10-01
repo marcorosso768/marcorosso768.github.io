@@ -42,10 +42,10 @@ layout: default
         {% for tag in page.tags %}
           {% if url_beginning == '/blog/' %}
             <a href="{{ tag | slugify | prepend: '/blog/tag/' | append: '/' | prepend: site.baseurl}}">
-              <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag -}}
+              <i class="fa-solid fa-hashtag fa-sm"></i> {{ site.data.blog_tags[tag][site.active_lang] | default: tag -}}
             </a>
           {% else %}
-            <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}
+            <i class="fa-solid fa-hashtag fa-sm"></i> {{ site.data.blog_tags[tag][site.active_lang] | default: tag }}
           {% endif %}
           {% unless forloop.last %}
             &nbsp;

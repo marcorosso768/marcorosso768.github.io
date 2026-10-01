@@ -26,7 +26,7 @@
               href="{{ blog_prefix }}{{ tag | slugify | prepend: '/blog/tag/' | append: '/' | relative_url }}"
               {% endstatic_href %}
             >
-              {{- tag -}}
+              {{- site.data.blog_tags[tag][site.active_lang] | default: tag -}}
             </a>
           </li>
           {% unless forloop.last %}
@@ -106,7 +106,7 @@
                 {% static_href -%}
                 href="{{ blog_prefix }}{{ tag | slugify | prepend: '/blog/tag/' | append: '/' | relative_url }}"
                 {% endstatic_href %}
-                ><i class="fa-solid fa-hashtag fa-sm"></i> {{ tag -}}
+                ><i class="fa-solid fa-hashtag fa-sm"></i> {{ site.data.blog_tags[tag][site.active_lang] | default: tag -}}
               </a>
               {% unless forloop.last %}&nbsp;{% endunless %}
             {% endfor %}

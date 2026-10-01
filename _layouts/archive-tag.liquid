@@ -3,7 +3,9 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title"><i class="fa-solid fa-hashtag fa-sm"></i> {{ page.title }}</h1>
+    <h1 class="post-title">
+      <i class="fa-solid fa-hashtag fa-sm"></i> {{ site.data.blog_tags[page.title][site.active_lang] | default: page.title }}
+    </h1>
     <p class="post-description">{{ site.data[site.active_lang].strings.archive_tag }}</p>
   </header>
 

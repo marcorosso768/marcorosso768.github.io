@@ -21,6 +21,9 @@
 {% if page.title != null and page.title != '' %}
   {% if page.url == '/blog/index.html' %}
     {% capture page_title %}{{ site.data[site.active_lang].strings.blog.navigation_title }}{% endcapture %}
+  {% elsif page.type == 'tag' %}
+    {% comment %}archivio di un tag: etichetta tradotta (_data/blog_tags.yml){% endcomment %}
+    {% assign page_title = site.data.blog_tags[page.title][site.active_lang] | default: page.title %}
   {% else %}
     {% assign page_title = page.title %}
   {% endif %}
