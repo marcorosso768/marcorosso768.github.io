@@ -10,6 +10,8 @@
 #   lecture: numero della lezione (mostra "Lecture 3:" / "Lezione 3:" / "Clase 3:")
 #   prefix: etichetta fissa prima del titolo, uguale in tutte le lingue (es. "Extra L1")
 #   updated: data dell'ultimo aggiornamento, AAAA-MM oppure AAAA-MM-GG
+#   translations: lo stesso documento in un'altra lingua, per lingua del sito (percorso completo del file); nelle
+#     pagine di quelle lingue il link punta lì invece che a file. Il titolo resta quello di courses_text.yml.
 # Una sezione ha items oppure blocks (sottosezioni con titolo, id e items); icon è l'icona di tutti i suoi file.
 
 econometrics:
@@ -59,8 +61,11 @@ microeconomics:
       id: content-0
       icon: fa-regular fa-file-pdf
       items:
-        - file: "Appunti di Microeconomia.pdf"
-          updated: "2026-05-22"
+        - file: "Note_di_Microeconomia.pdf"
+          updated: "2026-09-28"
+          translations:
+            en: /assets/teaching_material/microeconomics/Lecture_Notes_in_Microeconomics.pdf
+            es: /assets/teaching_material/microeconomics/Lecture_Notes_in_Microeconomics.pdf
     - key: slides
       id: content-1
       icon: fa-regular fa-note-sticky

@@ -8,6 +8,8 @@
     {%- assign title = course_text.titles[name] | default: item.title -%}
     {%- if item.notebook -%}
       {%- assign url = course.folder | append: item.notebook | prepend: course.viewer -%}
+    {%- elsif item.translations[site.active_lang] -%}
+      {%- assign url = item.translations[site.active_lang] | replace: ' ', '%20' -%}
     {%- else -%}
       {%- assign url = course.folder | append: item.file | replace: ' ', '%20' -%}
     {%- endif %}
