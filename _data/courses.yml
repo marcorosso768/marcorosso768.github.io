@@ -70,18 +70,36 @@ microeconomics:
       id: content-1
       icon: fa-regular fa-note-sticky
       items:
-        - file: "Lezione 1 - Pensare come un:una Economista.pdf"
+        - file: "Lezione_01.pdf"
           lecture: 1
-        - file: "Lezione 2 - Preferenze e Curve di Indifferenza.pdf"
+          translations:
+            en: /assets/teaching_material/microeconomics/Lecture_01.pdf
+            es: /assets/teaching_material/microeconomics/Lecture_01.pdf
+        - file: "Lezione_02.pdf"
           lecture: 2
-        - file: "Lezione 3 - Vincolo di Bilancio e Scelta Ottima.pdf"
+          translations:
+            en: /assets/teaching_material/microeconomics/Lecture_02.pdf
+            es: /assets/teaching_material/microeconomics/Lecture_02.pdf
+        - file: "Lezione_03.pdf"
           lecture: 3
-        - file: "Lezione 4 - Domanda Individuale e Statica Comparata.pdf"
+          translations:
+            en: /assets/teaching_material/microeconomics/Lecture_03.pdf
+            es: /assets/teaching_material/microeconomics/Lecture_03.pdf
+        - file: "Lezione_04.pdf"
           lecture: 4
-        - file: "Lezione 5 - Elasticità della Domanda.pdf"
+          translations:
+            en: /assets/teaching_material/microeconomics/Lecture_04.pdf
+            es: /assets/teaching_material/microeconomics/Lecture_04.pdf
+        - file: "Lezione_05.pdf"
           lecture: 5
-        - file: "Lezione 6 - Tecnologia e Funzione di Produzione.pdf"
+          translations:
+            en: /assets/teaching_material/microeconomics/Lecture_05.pdf
+            es: /assets/teaching_material/microeconomics/Lecture_05.pdf
+        - file: "Lezione_06.pdf"
           lecture: 6
+          translations:
+            en: /assets/teaching_material/microeconomics/Lecture_06.pdf
+            es: /assets/teaching_material/microeconomics/Lecture_06.pdf
         - file: "Lezione 7 - Rendimenti di Scala, Isoquanti e MRTS.pdf"
           lecture: 7
         - file: "Lezione 8 - Costi di Produzione e Curve di Costo.pdf"
