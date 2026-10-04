@@ -100,34 +100,76 @@ microeconomics:
           translations:
             en: /assets/teaching_material/microeconomics/Lecture_06.pdf
             es: /assets/teaching_material/microeconomics/Lecture_06.pdf
-        - file: "Lezione 7 - Rendimenti di Scala, Isoquanti e MRTS.pdf"
+        - file: "Lezione_07.pdf"
           lecture: 7
-        - file: "Lezione 8 - Costi di Produzione e Curve di Costo.pdf"
+          translations:
+            en: /assets/teaching_material/microeconomics/Lecture_07.pdf
+            es: /assets/teaching_material/microeconomics/Lecture_07.pdf
+        - file: "Lezione_08.pdf"
           lecture: 8
-        - file: "Lezione 9 - Minimizzazione dei Costi e Scelta Ottimale dei Fattori.pdf"
+          translations:
+            en: /assets/teaching_material/microeconomics/Lecture_08.pdf
+            es: /assets/teaching_material/microeconomics/Lecture_08.pdf
+        - file: "Lezione_09.pdf"
           lecture: 9
-        - file: "Lezione 10 - Ripasso Generale.pdf"
+          translations:
+            en: /assets/teaching_material/microeconomics/Lecture_09.pdf
+            es: /assets/teaching_material/microeconomics/Lecture_09.pdf
+        - file: "Lezione_10.pdf"
           lecture: 10
-        - file: "Lezione 11 - Massimizzazione del Profitto.pdf"
+          translations:
+            en: /assets/teaching_material/microeconomics/Lecture_10.pdf
+            es: /assets/teaching_material/microeconomics/Lecture_10.pdf
+        - file: "Lezione_11.pdf"
           lecture: 11
-        - file: "Lezione 12 - Offerta dell’Impresa e Offerta di Mercato.pdf"
+          translations:
+            en: /assets/teaching_material/microeconomics/Lecture_11.pdf
+            es: /assets/teaching_material/microeconomics/Lecture_11.pdf
+        - file: "Lezione_12.pdf"
           lecture: 12
-        - file: "Lezione 13 - Equilibrio Competitivo.pdf"
+          translations:
+            en: /assets/teaching_material/microeconomics/Lecture_12.pdf
+            es: /assets/teaching_material/microeconomics/Lecture_12.pdf
+        - file: "Lezione_13.pdf"
           lecture: 13
-        - file: "Lezione 14 - Perdita Secca e Prezzi Amministrati.pdf"
+          translations:
+            en: /assets/teaching_material/microeconomics/Lecture_13.pdf
+            es: /assets/teaching_material/microeconomics/Lecture_13.pdf
+        - file: "Lezione_14.pdf"
           lecture: 14
-        - file: "Lezione 15 - Imposte e Sussidi.pdf"
+          translations:
+            en: /assets/teaching_material/microeconomics/Lecture_14.pdf
+            es: /assets/teaching_material/microeconomics/Lecture_14.pdf
+        - file: "Lezione_15.pdf"
           lecture: 15
-        - file: "Lezione 16 - Monopolio.pdf"
+          translations:
+            en: /assets/teaching_material/microeconomics/Lecture_15.pdf
+            es: /assets/teaching_material/microeconomics/Lecture_15.pdf
+        - file: "Lezione_16.pdf"
           lecture: 16
-        - file: "Lezione 17 - Rent-Seeking, Indice di Lerner e Discriminazione di Prezzo.pdf"
+          translations:
+            en: /assets/teaching_material/microeconomics/Lecture_16.pdf
+            es: /assets/teaching_material/microeconomics/Lecture_16.pdf
+        - file: "Lezione_17.pdf"
           lecture: 17
-        - file: "Lezione 18 - Oligopolio e Teoria dei Giochi.pdf"
+          translations:
+            en: /assets/teaching_material/microeconomics/Lecture_17.pdf
+            es: /assets/teaching_material/microeconomics/Lecture_17.pdf
+        - file: "Lezione_18.pdf"
           lecture: 18
-        - file: "Lezione 19 - Asimmetrie Informative.pdf"
+          translations:
+            en: /assets/teaching_material/microeconomics/Lecture_18.pdf
+            es: /assets/teaching_material/microeconomics/Lecture_18.pdf
+        - file: "Lezione_19.pdf"
           lecture: 19
-        - file: "Lezione 20 - Ripasso Generale.pdf"
+          translations:
+            en: /assets/teaching_material/microeconomics/Lecture_19.pdf
+            es: /assets/teaching_material/microeconomics/Lecture_19.pdf
+        - file: "Lezione_20.pdf"
           lecture: 20
+          translations:
+            en: /assets/teaching_material/microeconomics/Lecture_20.pdf
+            es: /assets/teaching_material/microeconomics/Lecture_20.pdf
 python_for_economists:
   folder: /assets/teaching_material/python_for_economists/
   viewer: https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master # i notebook si aprono qui
