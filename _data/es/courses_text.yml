@@ -19,28 +19,7 @@ microeconomics:
   sections:
     handbook: "manual"
     slides: "slides"
-  titles:
-    "Note_di_Microeconomia.pdf": "Lecture Notes in Microeconomics"
-    "Lezione_01.pdf": "Pensar como Economista"
-    "Lezione_02.pdf": "Preferencias y Curvas de Indiferencia"
-    "Lezione_03.pdf": "Restricción Presupuestaria y Elección Óptima"
-    "Lezione_04.pdf": "Demanda Individual y Estática Comparada"
-    "Lezione_05.pdf": "Elasticidad de la Demanda"
-    "Lezione_06.pdf": "Tecnología y Función de Producción"
-    "Lezione_07.pdf": "Rendimientos a Escala, Isocuantas y RMST"
-    "Lezione_08.pdf": "Costos de Producción y Curvas de Costo"
-    "Lezione_09.pdf": "Minimización de Costos y Elección Óptima de Factores"
-    "Lezione_10.pdf": "Repaso General"
-    "Lezione_11.pdf": "Maximización del Beneficio"
-    "Lezione_12.pdf": "Oferta de la Empresa y Oferta de Mercado"
-    "Lezione_13.pdf": "Equilibrio Competitivo"
-    "Lezione_14.pdf": "Pérdida de Eficiencia y Precios Administrados"
-    "Lezione_15.pdf": "Impuestos y Subsidios"
-    "Lezione_16.pdf": "Monopolio"
-    "Lezione_17.pdf": "Búsqueda de Rentas, Índice de Lerner y Discriminación de Precios"
-    "Lezione_18.pdf": "Oligopolio y Teoría de Juegos"
-    "Lezione_19.pdf": "Asimetrías de Información"
-    "Lezione_20.pdf": "Repaso General"
+  # titles: nessuno, i file sono in inglese e i titoli vengono da _data/en/courses_text.yml
 python_for_economists:
   lecture: "Lecture"
   sections:

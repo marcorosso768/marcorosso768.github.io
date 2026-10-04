@@ -1,11 +1,20 @@
 {%- comment -%}
   Elenco dei file di una sezione (usato da courses/page.liquid). Parametri: items, icon, list_class.
-  Usa le variabili course, course_text e labels assegnate in courses/page.liquid.
+  Usa le variabili course, course_text, course_text_en e labels assegnate in courses/page.liquid.
+  Titolo: quello di courses_text.yml nella lingua della pagina; se manca, quello inglese (courses_text.yml in
+  inglese, poi title in courses.yml). Un titolo inglese in una pagina it/es ha lang="en" (lettori di schermo).
 {%- endcomment -%}
 <ul class="{{ include.list_class }}">
   {%- for item in include.items -%}
     {%- assign name = item.file | default: item.notebook -%}
-    {%- assign title = course_text.titles[name] | default: item.title -%}
+    {%- assign title = course_text.titles[name] -%}
+    {%- assign title_lang = null -%}
+    {%- unless title -%}
+      {%- assign title = course_text_en.titles[name] | default: item.title -%}
+      {%- unless site.active_lang == 'en' -%}
+        {%- assign title_lang = 'en' -%}
+      {%- endunless -%}
+    {%- endunless %}
     {%- if item.notebook -%}
       {%- assign url = course.folder | append: item.notebook | prepend: course.viewer -%}
     {%- elsif item.translations[site.active_lang] -%}
@@ -22,7 +31,14 @@
         {% elsif item.prefix -%}
           {{- item.prefix }}:
         {% endif -%}
-        <a href="{{ url }}">{{ title | escape }}</a>
+        <a
+          href="{{ url }}"
+          {% if title_lang %}
+            lang="{{ title_lang }}"
+          {% endif %}
+        >
+          {{- title | escape -}}
+        </a>
         {%- if item.updated -%}
           {%- assign date = item.updated | split: '-' -%}
           {%- assign month_index = date[1] | plus: 0 | minus: 1 -%}

@@ -8,6 +8,7 @@
 {%- assign texts = site.data[site.active_lang].courses_text -%}
 {%- assign labels = texts.labels -%}
 {%- assign course_text = texts[include.course] -%}
+{%- assign course_text_en = site.data.en.courses_text[include.course] -%}
 {%- for section in course.sections %}
   {%- assign section_title = course_text.sections[section.key] -%}
   {%- include section-toggle.liquid id=section.id title=section_title expanded=true %}
