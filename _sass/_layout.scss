@@ -1591,10 +1591,17 @@ h5.teaching-entry__content {
   list-style: none;
 }
 
-// nota in cima alla sezione (note_first): vicina al titolo della sezione, staccata dall'elenco che segue
+// nota in cima alla sezione (note_first): introduce la sezione, quindi parte dal bordo come il titolo (niente rientro);
+// vicina al titolo della sezione, staccata dall'elenco che segue
 .course-note--first {
   margin-top: 4pt;
   margin-bottom: 14pt;
+  margin-left: 0;
+  padding-left: 0;
+
+  & > p {
+    margin-left: 0;
+  }
 }
 
 .course-entry i.fa-fw {
