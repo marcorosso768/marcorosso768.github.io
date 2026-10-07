@@ -62,13 +62,19 @@ empirical_methods_for_law_and_economics:
     - key: lecture-notes
       id: content-0
       icon: fa-regular fa-note-sticky
-      items:
-        - file: "lecture_notes/Lecture_01.pdf"
-          title: "From a Legal Question to Data"
-          lecture: 1
-        - file: "lecture_notes/Lecture_02.pdf"
-          title: "Samples, Standard Errors, and Confidence Intervals"
-          lecture: 2
+      blocks:
+        - id: subsection-week-1
+          title: "Week 1"
+          items:
+            - file: "lecture_notes/week_1/lecture_01.pdf"
+              title: "From a Legal Question to Data"
+              lecture: 1
+            - file: "lecture_notes/week_1/lecture_02.pdf"
+              title: "Samples, Standard Errors, and Confidence Intervals"
+              lecture: 2
+            - file: "lecture_notes/week_1/lab_companion_describing_data_and_sampling.pdf"
+              title: "Describing Data and Sampling"
+              prefix: "Lab companion"
     - key: do-files
       id: content-1
       icon: fa-solid fa-code
