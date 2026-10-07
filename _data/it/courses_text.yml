@@ -21,7 +21,7 @@ empirical_methods_for_law_and_economics:
     do-files: "do-file"
     dataset: "dataset"
   notes:
-    do-files: "I file vanno tenuti in un'unica cartella del corso, con la stessa struttura di questa pagina: i do-file in <code>do/</code> (la simulazione in <code>do/provided/</code>) e il dataset in <code>data/</code>. Ogni do-file va eseguito con quella cartella come directory di lavoro di Stata."
+    do-files: "I file vanno tenuti in un'unica cartella del corso, con la stessa struttura di questa pagina: il do-file di setup in <code>do/</code>, gli esercizi in <code>do/exercises/</code>, la simulazione in <code>do/ready_to_run/</code> e il dataset in <code>data/</code>. Ogni do-file va eseguito con quella cartella come directory di lavoro di Stata."
     dataset: 'Fonte: Banca Mondiale, <i>Doing Business 2020</i>, indicatori “Enforcing contracts” (dati al 1° maggio 2019), con licenza <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Serie selezionate, ristrutturate e rietichettate; valori invariati. Doing Business è stato sospeso nel 2021: sono dati storici, a uso didattico.'
   details:
     dataset:
