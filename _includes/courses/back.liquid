@@ -1,0 +1,30 @@
+{%- comment -%}
+  Freccia di ritorno sopra il titolo delle pagine dei corsi (front matter course_back: true), stile del blog.
+  Indirizzo ufficiale della pagina: sotto materials, quindi di norma "← materials". Dalla pagina teaching il link
+  aggiunge ?from=teaching: lo script mostra "← teaching" e passa l'indicazione anche al menu delle lingue.
+  Senza JavaScript resta "← materials". hreflang: il plugin delle lingue non riscrive questi indirizzi.
+{%- endcomment -%}
+{%- assign back = site.data[site.active_lang].courses_text.labels -%}
+<p class="post-back">
+  <a class="nav-back" data-back="materials" href="{{ back.back_materials_url }}" hreflang="{{ site.active_lang }}"
+    >&larr; {{ back.back_materials -}}
+  </a>
+  <a class="nav-back" data-back="teaching" href="{{ back.back_teaching_url }}" hreflang="{{ site.active_lang }}" hidden
+    >&larr; {{ back.back_teaching -}}
+  </a>
+</p>
+<script>
+  (function () {
+    if (new URLSearchParams(window.location.search).get('from') !== 'teaching') return;
+    var box = document.currentScript.previousElementSibling;
+    box.querySelector('[data-back="materials"]').hidden = true;
+    box.querySelector('[data-back="teaching"]').hidden = false;
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('.dropdown-item[data-lang]').forEach(function (a) {
+        var u = new URL(a.getAttribute('href'), window.location.href);
+        u.searchParams.set('from', 'teaching');
+        a.setAttribute('href', u.pathname + u.search);
+      });
+    });
+  })();
+</script>

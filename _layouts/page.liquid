@@ -9,6 +9,9 @@ layout: default
 {% endif %}
 
 <div class="post">
+  {% if page.course_back %}
+    {% include courses/back.liquid %}
+  {% endif %}
   <header class="post-header">
     {% if page.title and page.title != '' %}
       <h1 class="post-title text-theme">{{ page.title }}</h1>

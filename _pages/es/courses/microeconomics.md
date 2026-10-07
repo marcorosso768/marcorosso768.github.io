@@ -1,14 +1,11 @@
 ---
 page_id: microeconomics
 layout: page
-permalink: /docencia/microeconomía/
+permalink: /materiales/microeconomía/
 title: microeconomía
 description: "<i>Materiales del curso de Microeconomía de la Licenciatura en Administración de Empresas, University of Bologna: apuntes del curso y slides de las veinte clases. El material está traducido al inglés.</i>"
 meta_description: "Materiales del curso de Microeconomía (University of Bologna): apuntes del curso y slides de las veinte clases, traducidos al inglés."
-subtitle: >
-  <div class="lang-links">
-      <a href="/es/docencia/" hreflang="es">volver a docencia</a>
-  </div>
+course_back: true # freccia sopra il titolo: ← materials, oppure ← teaching se si arriva da teaching (?from=teaching)
 nav: false
 ---
 
