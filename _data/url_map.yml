@@ -15,6 +15,7 @@ en:
   "/it/didattica/econometria/": "/teaching/econometrics/"
   "/it/didattica/microeconomia/": "/teaching/microeconomics/"
   "/it/didattica/python_per_economisti/": "/teaching/python_for_economists/"
+  "/it/didattica/metodi_empirici_per_law_and_economics/": "/teaching/empirical_methods_for_law_and_economics/"
   # Spanish to English mappings
   "/es/": "/"
   "/es/curriculum_vitae/": "/curriculum_vitae/"
@@ -31,6 +32,7 @@ en:
   "/es/docencia/econometría/": "/teaching/econometrics/"
   "/es/docencia/microeconomía/": "/teaching/microeconomics/"
   "/es/docencia/python_para_economistas/": "/teaching/python_for_economists/"
+  "/es/docencia/métodos_empíricos_para_derecho_y_economía/": "/teaching/empirical_methods_for_law_and_economics/"
 
 it:
   # English to Italian mappings
@@ -49,6 +51,7 @@ it:
   "/teaching/econometrics/": "/it/didattica/econometria/"
   "/teaching/microeconomics/": "/it/didattica/microeconomia/"
   "/teaching/python_for_economists/": "/it/didattica/python_per_economisti/"
+  "/teaching/empirical_methods_for_law_and_economics/": "/it/didattica/metodi_empirici_per_law_and_economics/"
   # Spanish to Italian mappings
   "/es/": "/it/"
   "/es/curriculum_vitae/": "/it/curriculum_vitae/"
@@ -65,6 +68,7 @@ it:
   "/es/docencia/econometría/": "/it/didattica/econometria/"
   "/es/docencia/microeconomía/": "/it/didattica/microeconomia/"
   "/es/docencia/python_para_economistas/": "/it/didattica/python_per_economisti/"
+  "/es/docencia/métodos_empíricos_para_derecho_y_economía/": "/it/didattica/metodi_empirici_per_law_and_economics/"
 
 es:
   # English to Spanish mappings
@@ -83,6 +87,7 @@ es:
   "/teaching/econometrics/": "/es/docencia/econometría/"
   "/teaching/microeconomics/": "/es/docencia/microeconomía/"
   "/teaching/python_for_economists/": "/es/docencia/python_para_economistas/"
+  "/teaching/empirical_methods_for_law_and_economics/": "/es/docencia/métodos_empíricos_para_derecho_y_economía/"
   # Italian to Spanish mappings
   "/it/": "/es/"
   "/it/curriculum_vitae/": "/es/curriculum_vitae/"
@@ -99,3 +104,4 @@ es:
   "/it/didattica/econometria/": "/es/docencia/econometría/"
   "/it/didattica/microeconomia/": "/es/docencia/microeconomía/"
   "/it/didattica/python_per_economisti/": "/es/docencia/python_para_economistas/"
+  "/it/didattica/metodi_empirici_per_law_and_economics/": "/es/docencia/métodos_empíricos_para_derecho_y_economía/"

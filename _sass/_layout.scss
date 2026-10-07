@@ -1548,6 +1548,13 @@ h5.teaching-entry__content {
   }
 }
 
+// nota sotto l'elenco di una sezione (es. fonte e licenza di un dataset): testo secondario, allineato ai titoli dei file
+.course-note {
+  margin: 2pt 0 10pt calc(var(--indent-margin) + 1.25em + var(--icon-spacing));
+  font-size: 11pt;
+  opacity: 0.65;
+}
+
 .course-entry i.fa-fw {
   margin-right: var(--icon-spacing);
   margin-top: 0.5px;
@@ -1893,7 +1900,8 @@ h2.materials-entry__title {
 // news: colore del testo anche per i link esterni (la regola dei link esterni, in cima, li farebbe gialli)
 #latest-news a:not(.link-own),
 #news-section a:not(.link-own),
-.news a:not(.link-own) {
+.news a:not(.link-own),
+.course-note a:not(.link-own) {
   &:link,
   &:visited {
     color: var(--global-text-color);
@@ -1903,7 +1911,8 @@ h2.materials-entry__title {
 #latest-news a.link-own,
 #news-section a.link-own,
 .news a.link-own,
-.post-description a.link-own {
+.post-description a.link-own,
+.course-note a.link-own {
   &:link,
   &:visited {
     color: var(--global-theme-color);

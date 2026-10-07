@@ -29,6 +29,7 @@ courses:
   empirical-methods-law-economics:
     title: "Empirical Methods for Law and Economics"
     program: "Dottorato Europeo in Law and Economics (EDLE) (in inglese)"
+    materials: /it/didattica/metodi_empirici_per_law_and_economics/
   pre-sessional-econometrics:
     title: "Corso di Allineamento in Econometria"
     program: "Laurea magistrale in Direzione Aziendale"

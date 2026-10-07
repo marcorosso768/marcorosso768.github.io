@@ -76,6 +76,7 @@ sections:
 courses:
   empirical-methods-law-economics:
     url: https://phd.unibo.it/economics/en/teaching/empirical-methods-for-law-and-economics
+    materials: empirical_methods_for_law_and_economics
     dates: "2026–"
   pre-sessional-econometrics:
     dates: "2026–"

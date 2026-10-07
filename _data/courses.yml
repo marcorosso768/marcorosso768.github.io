@@ -13,6 +13,7 @@
 #   translations: lo stesso documento in un'altra lingua, per lingua del sito (percorso completo del file); nelle
 #     pagine di quelle lingue il link punta lì invece che a file. Il titolo resta quello di courses_text.yml.
 # Una sezione ha items oppure blocks (sottosezioni con titolo, id e items); icon è l'icona di tutti i suoi file.
+# Se courses_text.yml ha un testo sotto notes con la chiave della sezione, compare come nota sotto l'elenco.
 
 econometrics:
   folder: /assets/teaching_material/econometrics/
@@ -54,6 +55,41 @@ econometrics:
           title: "Template: Exporting OLS Regression Results in Stata.do"
         - file: "Marginal_Effects_and_Maximum_Likelihood_Tests.do"
           title: "Marginal Effects in Logit & Probit Models and Maximum Likelihood Tests.do"
+empirical_methods_for_law_and_economics:
+  folder: /assets/teaching_material/empirical_methods_for_law_and_economics/
+  # i do-file si aspettano questa struttura: data/, do/, do/provided/ (results/ la crea do/00_setup.do)
+  sections:
+    - key: lecture-notes
+      id: content-0
+      icon: fa-regular fa-note-sticky
+      items:
+        - file: "pdf/Lecture_01.pdf"
+          title: "From a Legal Question to Data"
+          lecture: 1
+        - file: "pdf/Lecture_02.pdf"
+          title: "Samples, Standard Errors, and Confidence Intervals"
+          lecture: 2
+    - key: do-files
+      id: content-1
+      icon: fa-solid fa-code
+      items:
+        - file: "do/00_setup.do"
+          title: "Setup (run first).do"
+        - file: "do/01_data_and_description_student.do"
+          title: "Data and Description: Student Worksheet.do"
+          lecture: 1
+        - file: "do/02_sampling_and_inference_student.do"
+          title: "Sampling and Inference: Student Worksheet.do"
+          lecture: 2
+        - file: "do/provided/02_sampling_demo.do"
+          title: "Sampling Simulation (supplied).do"
+          lecture: 2
+    - key: dataset
+      id: content-2
+      icon: fa-solid fa-database
+      items:
+        - file: "data/contracts_2019.dta"
+          title: "Enforcing Contracts, Doing Business 2020 (contracts_2019.dta)"
 microeconomics:
   folder: /assets/teaching_material/microeconomia/
   sections:

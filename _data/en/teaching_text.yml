@@ -29,6 +29,7 @@ courses:
   empirical-methods-law-economics:
     title: "Empirical Methods for Law and Economics"
     program: "European Doctorate in Law and Economics (EDLE)"
+    materials: /teaching/empirical_methods_for_law_and_economics/
   pre-sessional-econometrics:
     title: "Pre-sessional Course in Econometrics"
     program: "Two Year Master in Business Administration (in Italian)"

@@ -29,6 +29,7 @@ courses:
   empirical-methods-law-economics:
     title: "Métodos Empíricos para el Derecho y la Economía"
     program: "Doctorado Europeo en Derecho y Economía (EDLE) (en inglés)"
+    materials: /es/docencia/métodos_empíricos_para_derecho_y_economía/
   pre-sessional-econometrics:
     title: "Curso de Nivelación en Econometría"
     program: "Maestría en Dirección de Empresas (en italiano)"

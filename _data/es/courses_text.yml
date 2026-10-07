@@ -14,6 +14,15 @@ econometrics:
     handbook: "manual"
     slides: "slides"
     do-files: "do-files"
+empirical_methods_for_law_and_economics:
+  lecture: "Lecture"
+  sections:
+    lecture-notes: "apuntes de clase"
+    do-files: "do-files"
+    dataset: "dataset"
+  notes:
+    do-files: "Guardá los archivos en una sola carpeta del curso, con la misma estructura que acá: los do-files en <code>do/</code> (la simulación en <code>do/provided/</code>) y el dataset en <code>data/</code>. Cada do-file se corre con esa carpeta como directorio de trabajo de Stata."
+    dataset: 'Fuente: World Bank, <i>Doing Business 2020</i>, indicadores “Enforcing contracts” (datos al 1 de mayo de 2019), con licencia <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Series seleccionadas, reestructuradas y reetiquetadas; valores sin cambios. Doing Business se discontinuó en 2021: son datos históricos, para uso didáctico. Detalles en <a class="link-own" href="/assets/teaching_material/empirical_methods_for_law_and_economics/data/SOURCE_AND_LICENCE.txt">SOURCE_AND_LICENCE.txt</a>.'
 microeconomics:
   lecture: "Clase"
   sections:
