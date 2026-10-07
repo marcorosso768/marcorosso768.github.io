@@ -1553,6 +1553,27 @@ h5.teaching-entry__content {
   margin: 2pt 0 10pt calc(var(--indent-margin) + 1.25em + var(--icon-spacing));
   font-size: 11pt;
   opacity: 0.65;
+
+  p {
+    margin: 0 0 4pt;
+  }
+
+  // dettagli che si aprono sotto la nota (<details>): l'etichetta è un comando del sito, colore del tema, corsivo al passaggio
+  summary {
+    display: list-item;
+    cursor: pointer;
+    color: var(--global-theme-color);
+    width: fit-content;
+
+    &:hover,
+    &:focus-visible {
+      font-style: italic;
+    }
+  }
+
+  details[open] > summary {
+    margin-bottom: 4pt;
+  }
 }
 
 .course-entry i.fa-fw {

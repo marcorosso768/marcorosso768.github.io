@@ -29,8 +29,19 @@
       {%- include courses/list.liquid items=section.items icon=section.icon list_class='course-list' %}
     {%- endif %}
     {%- assign note = course_text.notes[section.key] -%}
-    {%- if note %}
-      <p class="course-note">{{ note }}</p>
+    {%- assign details = course_text.details[section.key] -%}
+    {%- if note or details %}
+      <div class="course-note">
+        {%- if note %}
+          <p>{{ note }}</p>
+        {%- endif -%}
+        {%- if details %}
+          <details>
+            <summary>{{ details.summary }}</summary>
+            {{ details.body }}
+          </details>
+        {%- endif %}
+      </div>
     {%- endif %}
   </div>
 {%- endfor %}
