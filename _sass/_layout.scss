@@ -1584,6 +1584,13 @@ h5.teaching-entry__content {
   }
 }
 
+// dettagli sotto un singolo file (details nel file): attaccati alla riga del file
+.course-note--item {
+  margin-top: -2pt;
+  margin-bottom: 8pt;
+  list-style: none;
+}
+
 // nota in cima alla sezione (note_first): vicina al titolo della sezione, staccata dall'elenco che segue
 .course-note--first {
   margin-top: 4pt;

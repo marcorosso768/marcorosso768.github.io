@@ -3,6 +3,7 @@
   Usa le variabili course, course_text, course_text_en e labels assegnate in courses/page.liquid.
   Titolo: quello di courses_text.yml nella lingua della pagina; se manca, quello inglese (courses_text.yml in
   inglese, poi title in courses.yml). Un titolo inglese in una pagina it/es ha lang="en" (lettori di schermo).
+  Un file con details: <chiave> ha subito sotto i dettagli che si aprono, presi da courses_text.yml (details.<chiave>).
 {%- endcomment -%}
 <ul class="{{ include.list_class }}">
   {%- for item in include.items -%}
@@ -65,5 +66,16 @@
         ></a>
       {%- endif %}
     </li>
+    {%- if item.details -%}
+      {%- assign item_details = course_text.details[item.details] -%}
+      {%- if item_details %}
+        <li class="course-note course-note--item">
+          <details>
+            <summary>{{ item_details.summary }}</summary>
+            {{ item_details.body }}
+          </details>
+        </li>
+      {%- endif -%}
+    {%- endif -%}
   {%- endfor %}
 </ul>

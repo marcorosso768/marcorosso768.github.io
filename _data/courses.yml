@@ -16,6 +16,7 @@
 # Una sezione può avere sia items (in cima, es. il setup) sia blocks (es. le settimane).
 # Se courses_text.yml ha un testo sotto notes con la chiave della sezione, compare come nota sotto l'elenco
 # (sopra, con note_first: true); un testo sotto details compare in fondo, come dettagli che si aprono.
+# Un singolo file può avere details: <chiave>: i dettagli (courses_text.yml, details.<chiave>) compaiono sotto il file.
 
 econometrics:
   folder: /assets/teaching_material/econometrics/
@@ -116,6 +117,7 @@ empirical_methods_for_law_and_economics:
             - file: "data/contracts_2019.dta"
               title: "Enforcing Contracts, Doing Business 2020 (contracts_2019.dta)"
               prefix: "Data"
+              details: contracts_2019 # fonte e licenza, testo in courses_text.yml
 microeconomics:
   folder: /assets/teaching_material/microeconomia/
   sections:

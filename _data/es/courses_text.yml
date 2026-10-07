@@ -24,7 +24,7 @@ empirical_methods_for_law_and_economics:
   notes:
     do-files: "Guardá los archivos en una sola carpeta del curso, con la misma estructura que acá: el do-file de setup en <code>do/</code>, los ejercicios en <code>do/exercises/</code>, la simulación en <code>do/ready_to_run/</code> y el dataset en <code>data/</code>. Cada do-file se corre con esa carpeta como directorio de trabajo de Stata."
   details:
-    dataset:
+    contracts_2019:
       summary: "fuente y licencia"
       body: |
         <p><b>Fuente.</b> World Bank Group, <i>Doing Business</i>, indicadores “Enforcing contracts”. Edición: <i>Doing Business 2020</i> (datos al 1 de mayo de 2019); en los archivos del World Bank ese año figura como “2019”. <a href="https://datacatalog.worldbank.org/search/dataset/0038564/doing-business">Catálogo</a>; descargado el 6 de octubre de 2026 (DB_CSV.zip).</p>
