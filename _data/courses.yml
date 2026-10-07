@@ -92,8 +92,8 @@ empirical_methods_for_law_and_economics:
       note_first: true
       items:
         - file: "do/00_setup.do"
-          title: "Working Directory and Results Folders (run first).do"
-          prefix: "Setup"
+          title: "Working Directory and Results Folders.do"
+          prefix: "Setup (run first)"
       blocks:
         - id: subsection-do-week-1
           title: "Week 1"
