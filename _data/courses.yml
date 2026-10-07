@@ -63,10 +63,10 @@ empirical_methods_for_law_and_economics:
       id: content-0
       icon: fa-regular fa-note-sticky
       items:
-        - file: "pdf/Lecture_01.pdf"
+        - file: "lecture_notes/Lecture_01.pdf"
           title: "From a Legal Question to Data"
           lecture: 1
-        - file: "pdf/Lecture_02.pdf"
+        - file: "lecture_notes/Lecture_02.pdf"
           title: "Samples, Standard Errors, and Confidence Intervals"
           lecture: 2
     - key: do-files
