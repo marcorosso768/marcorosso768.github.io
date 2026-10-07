@@ -74,7 +74,8 @@ empirical_methods_for_law_and_economics:
       icon: fa-solid fa-code
       items:
         - file: "do/00_setup.do"
-          title: "Setup (run first).do"
+          title: "Working Directory and Results Folders (run first).do"
+          prefix: "Setup"
         - file: "do/01_data_and_description_student.do"
           title: "Data and Description: Student Worksheet.do"
           lecture: 1

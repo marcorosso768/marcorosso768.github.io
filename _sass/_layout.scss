@@ -1549,12 +1549,20 @@ h5.teaching-entry__content {
 }
 
 // nota sotto l'elenco di una sezione (es. fonte e licenza di un dataset): testo secondario, allineato ai titoli dei file
+// (rientro della riga + icona larga 1.25em a 12pt = 15pt + spazio dopo l'icona). Niente calc(): il minificatore del CSS
+// toglie gli spazi intorno al + e la regola diventa non valida.
 .course-note {
-  margin: 2pt 0 10pt calc(var(--indent-margin) + 1.25em + var(--icon-spacing));
+  margin: 10pt 0 12pt var(--indent-margin);
+  padding-left: 15pt;
   font-size: 11pt;
   opacity: 0.65;
 
-  p {
+  & > p,
+  & > details {
+    margin: 0 0 4pt var(--icon-spacing);
+  }
+
+  details p {
     margin: 0 0 4pt;
   }
 

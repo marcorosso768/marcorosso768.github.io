@@ -6,7 +6,7 @@ do "do/00_setup.do"
 
 * TASK 1. Run the supplied simulation (it takes a few seconds and saves 3 graphs
 * in results/figures: population, sampling distributions, forty intervals).
-do "do/provided/02_sampling_demo.do"
+do "do/ready_to_run/02_sampling_demo.do"
 
 log using "$course_results/logs/02_student.log", text replace
 use "$course_results/tables/02_sampling_results.dta", clear

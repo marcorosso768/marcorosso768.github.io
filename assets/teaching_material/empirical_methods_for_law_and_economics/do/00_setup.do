@@ -2,7 +2,7 @@
 * Run every do-file with the UNPACKED COURSE FOLDER as Stata's working directory,
 * i.e. the folder that contains the subfolders data/ and do/.
 * Example (adapt the path): cd "C:/Users/yourname/Documents/EDLE_week1"
-version 16.0
+version 19.0
 clear all
 set more off
 set linesize 120
