@@ -730,6 +730,11 @@ footer.sticky-bottom {
 
   // navigazione, non link nel testo: come le voci del menu, senza sottolineatura e ingrandimento al passaggio del mouse
   // (class nav-back: esclusa dalla sottolineatura dei link del contenuto)
+  // due frecce alternative nelle pagine dei corsi (← materials / ← teaching): quella con hidden non si vede
+  a.nav-back[hidden] {
+    display: none;
+  }
+
   a.nav-back {
     display: inline-block;
     text-decoration: none;

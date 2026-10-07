@@ -29,7 +29,7 @@ courses:
   empirical-methods-law-economics:
     title: "Empirical Methods for Law and Economics"
     program: "Dottorato Europeo in Law and Economics (EDLE) (in inglese)"
-    materials: /it/didattica/metodi_empirici_per_law_and_economics/
+    materials: /it/materiali/metodi_empirici_per_law_and_economics/
   pre-sessional-econometrics:
     title: "Corso di Allineamento in Econometria"
     program: "Laurea magistrale in Direzione Aziendale"
@@ -39,15 +39,15 @@ courses:
   python-for-economists:
     title: "Python for Economists"
     program: "Lauree magistrali in Economics and Public Policy e in Applied Economics and Markets, Dottorati in Economics e in Management (in inglese)"
-    materials: /it/didattica/python_per_economisti/
+    materials: /it/materiali/python_per_economisti/
   microeconomics-business-administration:
     title: "Microeconomia"
     program: "Laurea triennale in Economia Aziendale"
-    materials: /it/didattica/microeconomia/
+    materials: /it/materiali/microeconomia/
   econometrics-business-economics:
     title: "Econometrics"
     program: "Laurea triennale in Business and Economics (in inglese)"
-    materials: /it/didattica/econometria/
+    materials: /it/materiali/econometria/
   microeconometrics:
     title: "Econometrics A (I.C.): Microeconometrics"
     program: "Laurea magistrale in Economics and Econometrics (in inglese)"

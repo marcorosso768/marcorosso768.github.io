@@ -29,7 +29,7 @@ courses:
   empirical-methods-law-economics:
     title: "Métodos Empíricos para el Derecho y la Economía"
     program: "Doctorado Europeo en Derecho y Economía (EDLE) (en inglés)"
-    materials: /es/docencia/métodos_empíricos_para_derecho_y_economía/
+    materials: /es/materiales/métodos_empíricos_para_derecho_y_economía/
   pre-sessional-econometrics:
     title: "Curso de Nivelación en Econometría"
     program: "Maestría en Dirección de Empresas (en italiano)"
@@ -39,15 +39,15 @@ courses:
   python-for-economists:
     title: "Python para Economistas"
     program: "Maestrías en Economía y Políticas Públicas y en Economía Aplicada y Mercados, Doctorados en Economía y en Administración (en inglés)"
-    materials: /es/docencia/python_para_economistas/
+    materials: /es/materiales/python_para_economistas/
   microeconomics-business-administration:
     title: "Microeconomía"
     program: "Licenciatura en Administración de Empresas (en italiano)"
-    materials: /es/docencia/microeconomía/
+    materials: /es/materiales/microeconomía/
   econometrics-business-economics:
     title: "Econometría"
     program: "Licenciatura en Negocios y Economía (en inglés)"
-    materials: /es/docencia/econometría/
+    materials: /es/materiales/econometría/
   microeconometrics:
     title: "Econometría A (C.I.): Microeconometría"
     program: "Maestría en Economía y Econometría (en inglés)"

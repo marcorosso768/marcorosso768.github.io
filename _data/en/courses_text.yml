@@ -1,6 +1,11 @@
 # Pagine dei materiali dei corsi: testi in questa lingua. Struttura e dati comuni in _data/courses.yml.
 
 labels:
+  # freccia sopra il titolo (_includes/courses/back.liquid): verso materials, o verso teaching se si arriva da lì
+  back_materials: "materials"
+  back_materials_url: /materials/
+  back_teaching: "teaching"
+  back_teaching_url: /teaching/
   updated: "last updated"
   download: "Download notebook"
   # date di aggiornamento: formati con {day}, {month}, {year}; month_year usa i nomi brevi dei mesi
