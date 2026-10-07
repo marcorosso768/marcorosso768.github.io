@@ -1,4 +1,4 @@
-* LESSON 2 - SUPPLIED SIMULATION (students run it; no programming required)
+* LECTURE 2 - READY-TO-RUN SIMULATION (students run it; no programming required)
 * ALL DATA IN THIS FILE ARE ARTIFICIAL.
 * Artificial population: durations of commercial cases in days, right-skewed
 * (lognormal), population mean 300 days and population SD 150 days.
@@ -106,4 +106,3 @@ graph export "$course_results/figures/02_forty_intervals.png", replace width(160
 save "$course_results/tables/02_sampling_results.dta", replace
 export delimited using "$course_results/tables/02_sampling_results.csv", replace
 log close sampling_demo
-display "SAMPLING_DEMO_COMPLETE"

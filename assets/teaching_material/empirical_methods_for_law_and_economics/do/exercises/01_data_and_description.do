@@ -1,5 +1,5 @@
-* LESSON 1 - STUDENT WORKSHEET
-* Before running: use cd to move to the unpacked course folder
+* LECTURE 1 - STUDENT WORKSHEET
+* Before running: use cd to move to the course folder
 * (the folder that contains data/ and do/). Save this file under a new name
 * (e.g. 01_yourname.do) and complete the TODO lines.
 * Data: World Bank Doing Business 2020 edition (data 1 May 2019), CC BY 4.0.

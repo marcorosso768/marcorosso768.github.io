@@ -1,10 +1,10 @@
-* LESSON 2 - STUDENT WORKSHEET
-* Before running: cd to the unpacked course folder. Save this file under a new name.
+* LECTURE 2 - STUDENT WORKSHEET
+* Before running: cd to the course folder. Save this file under a new name.
 * All data in this lab are ARTIFICIAL (simulated). Do not describe them as findings.
 
 do "do/00_setup.do"
 
-* TASK 1. Run the supplied simulation (it takes a few seconds and saves 3 graphs
+* TASK 1. Run the ready-to-run simulation (it takes a few seconds and saves 3 graphs
 * in results/figures: population, sampling distributions, forty intervals).
 do "do/ready_to_run/02_sampling_demo.do"
 
