@@ -59,8 +59,16 @@ empirical_methods_for_law_and_economics:
   folder: /assets/teaching_material/empirical_methods_for_law_and_economics/
   # i do-file si aspettano questa struttura: data/, do/, do/exercises/, do/ready_to_run/ (results/ la crea do/00_setup.do)
   sections:
-    - key: lecture-notes
+    - key: course-info
       id: content-0
+      icon: fa-regular fa-file-pdf
+      items:
+        - file: "course_info/syllabus.pdf"
+          title: "Syllabus"
+        - file: "course_info/required_readings.pdf"
+          title: "Required Readings and Discussion Questions"
+    - key: lecture-notes
+      id: content-1
       icon: fa-regular fa-note-sticky
       blocks:
         - id: subsection-week-1
@@ -76,7 +84,7 @@ empirical_methods_for_law_and_economics:
               title: "Describing Data and Sampling"
               prefix: "Lab companion"
     - key: do-files
-      id: content-1
+      id: content-2
       icon: fa-solid fa-code
       items:
         - file: "do/00_setup.do"
@@ -92,7 +100,7 @@ empirical_methods_for_law_and_economics:
           title: "Sampling Simulation (ready to run).do"
           lecture: 2
     - key: dataset
-      id: content-2
+      id: content-3
       icon: fa-solid fa-database
       items:
         - file: "data/contracts_2019.dta"

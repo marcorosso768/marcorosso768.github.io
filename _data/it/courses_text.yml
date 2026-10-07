@@ -17,6 +17,7 @@ econometrics:
 empirical_methods_for_law_and_economics:
   lecture: "Lecture"
   sections:
+    course-info: "informazioni sul corso"
     lecture-notes: "dispense"
     do-files: "do-file"
     dataset: "dataset"
