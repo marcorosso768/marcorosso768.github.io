@@ -1584,6 +1584,12 @@ h5.teaching-entry__content {
   }
 }
 
+// nota in cima alla sezione (note_first): vicina al titolo della sezione, staccata dall'elenco che segue
+.course-note--first {
+  margin-top: 4pt;
+  margin-bottom: 14pt;
+}
+
 .course-entry i.fa-fw {
   margin-right: var(--icon-spacing);
   margin-top: 0.5px;

@@ -1,7 +1,9 @@
 {%- comment -%}
   Pagina dei materiali di un corso, generata dai dati: _data/courses.yml (struttura comune) e
   _data/<lingua>/courses_text.yml (testi). Uso: {% include courses/page.liquid course="econometrics" %}.
-  Sezione (h2) → blocco (h3, solo per i notebook) → elenco dei file (ul/li).
+  Sezione (h2) → file della sezione (items) e/o blocchi (h3, es. settimane) → elenco dei file (ul/li).
+  Nota della sezione (courses_text.yml, notes): sotto l'elenco, o sopra se la sezione ha note_first: true.
+  Dettagli che si aprono (courses_text.yml, details): sempre in fondo alla sezione.
   Niente commenti HTML qui: nelle pagine .md kramdown li trasformerebbe in paragrafi vuoti.
 {%- endcomment -%}
 {%- assign course = site.data.courses[include.course] -%}
@@ -13,6 +15,21 @@
   {%- assign section_title = course_text.sections[section.key] -%}
   {%- include section-toggle.liquid id=section.id title=section_title expanded=true %}
   <div id="{{ section.id }}" class="toggle-section expanded">
+    {%- assign note = course_text.notes[section.key] -%}
+    {%- assign details = course_text.details[section.key] -%}
+    {%- if note and section.note_first %}
+      <div class="course-note course-note--first">
+        <p>{{ note }}</p>
+      </div>
+    {%- endif -%}
+    {%- if section.items -%}
+      {%- if section.blocks -%}
+        {%- assign list_class = 'course-list course-list--spaced' -%}
+      {%- else -%}
+        {%- assign list_class = 'course-list' -%}
+      {%- endif -%}
+      {%- include courses/list.liquid items=section.items icon=section.icon list_class=list_class %}
+    {%- endif -%}
     {%- if section.blocks -%}
       {%- for block in section.blocks %}
         {%- include section-toggle.liquid id=block.id title=block.title expanded=true tag='h3' class='subsection' wrapper='subsection' %}
@@ -25,11 +42,10 @@
           {%- include courses/list.liquid items=block.items icon=section.icon list_class=list_class %}
         </div>
       {%- endfor -%}
-    {%- else -%}
-      {%- include courses/list.liquid items=section.items icon=section.icon list_class='course-list' %}
     {%- endif %}
-    {%- assign note = course_text.notes[section.key] -%}
-    {%- assign details = course_text.details[section.key] -%}
+    {%- if section.note_first -%}
+      {%- assign note = null -%}
+    {%- endif -%}
     {%- if note or details %}
       <div class="course-note">
         {%- if note %}

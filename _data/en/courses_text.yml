@@ -23,10 +23,9 @@ empirical_methods_for_law_and_economics:
     dataset: "dataset"
   notes:
     do-files: "Keep the files in one course folder, with the same structure as here: the setup do-file in <code>do/</code>, the worksheets in <code>do/exercises/</code>, the simulation in <code>do/ready_to_run/</code>, and the dataset in <code>data/</code>. Run every do-file with that folder as Stata's working directory."
-    dataset: 'Source: World Bank, <i>Doing Business 2020</i>, “Enforcing contracts” indicators (data as of 1 May 2019), licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Selected series, reshaped and relabelled; values unchanged. Doing Business was discontinued in 2021: use these as historical teaching data.'
   details:
     dataset:
-      summary: "source and licence details"
+      summary: "source and licence"
       body: |
         <p><b>Source.</b> World Bank Group, <i>Doing Business</i>, “Enforcing contracts” indicators. Edition: <i>Doing Business 2020</i> (data as of 1 May 2019); the World Bank’s data files label this year “2019”. <a href="https://datacatalog.worldbank.org/search/dataset/0038564/doing-business">Catalogue</a>; downloaded on 6 October 2026 (DB_CSV.zip).</p>
         <p><b>Licence.</b> <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 (CC BY 4.0)</a>. Attribution required. No endorsement by the World Bank is implied.</p>

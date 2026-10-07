@@ -23,10 +23,9 @@ empirical_methods_for_law_and_economics:
     dataset: "dataset"
   notes:
     do-files: "I file vanno tenuti in un'unica cartella del corso, con la stessa struttura di questa pagina: il do-file di setup in <code>do/</code>, gli esercizi in <code>do/exercises/</code>, la simulazione in <code>do/ready_to_run/</code> e il dataset in <code>data/</code>. Ogni do-file va eseguito con quella cartella come directory di lavoro di Stata."
-    dataset: 'Fonte: Banca Mondiale, <i>Doing Business 2020</i>, indicatori “Enforcing contracts” (dati al 1° maggio 2019), con licenza <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Serie selezionate, ristrutturate e rietichettate; valori invariati. Doing Business è stato sospeso nel 2021: sono dati storici, a uso didattico.'
   details:
     dataset:
-      summary: "dettagli su fonte e licenza"
+      summary: "fonte e licenza"
       body: |
         <p><b>Fonte.</b> Gruppo Banca Mondiale, <i>Doing Business</i>, indicatori “Enforcing contracts”. Edizione: <i>Doing Business 2020</i> (dati al 1° maggio 2019); nei file della Banca Mondiale quest’anno è indicato come “2019”. <a href="https://datacatalog.worldbank.org/search/dataset/0038564/doing-business">Catalogo</a>; scaricato il 6 ottobre 2026 (DB_CSV.zip).</p>
         <p><b>Licenza.</b> <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribuzione 4.0 (CC BY 4.0)</a>. È richiesta l’attribuzione. La Banca Mondiale non avalla in alcun modo questo uso dei dati.</p>
