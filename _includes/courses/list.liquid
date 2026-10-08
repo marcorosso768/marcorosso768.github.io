@@ -3,6 +3,7 @@
   Usa le variabili course, course_text, course_text_en e labels assegnate in courses/page.liquid.
   Titolo: quello di courses_text.yml nella lingua della pagina; se manca, quello inglese (courses_text.yml in
   inglese, poi title in courses.yml). Un titolo inglese in una pagina it/es ha lang="en" (lettori di schermo).
+  Un esercizio con solution: <file> ha sulla stessa riga un secondo link, alla soluzione (etichetta labels.solution).
   Un file con details: <chiave> ha subito sotto i dettagli che si aprono, presi da courses_text.yml (details.<chiave>).
 {%- endcomment -%}
 <ul class="{{ include.list_class }}">
@@ -40,6 +41,10 @@
         >
           {{- title | escape -}}
         </a>
+        {%- if item.solution %}
+          <span class="course-entry__sep" aria-hidden="true">·</span>
+          <a href="{{ course.folder }}{{ item.solution }}">{{ labels.solution }}</a>
+        {%- endif -%}
         {%- if item.updated -%}
           {%- assign date = item.updated | split: '-' -%}
           {%- assign month_index = date[1] | plus: 0 | minus: 1 -%}

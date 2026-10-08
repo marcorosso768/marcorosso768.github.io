@@ -1,6 +1,7 @@
 # Pagine dei materiali dei corsi: testi in questa lingua. Struttura e dati comuni in _data/courses.yml.
 
 labels:
+  solution: "solution" # link alla soluzione accanto a un esercizio (corsi in inglese: stessa parola nelle tre lingue)
   # freccia sopra il titolo (_includes/courses/back.liquid): verso materials, o verso teaching se si arriva da lì
   back_materials: "materiales"
   back_materials_url: /es/materiales/

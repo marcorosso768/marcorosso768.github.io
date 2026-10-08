@@ -1604,6 +1604,12 @@ h5.teaching-entry__content {
   }
 }
 
+// separatore tra il file e il link alla soluzione sulla stessa riga
+.course-entry__sep {
+  margin: 0 0.3em;
+  opacity: 0.65;
+}
+
 .course-entry i.fa-fw {
   margin-right: var(--icon-spacing);
   margin-top: 0.5px;

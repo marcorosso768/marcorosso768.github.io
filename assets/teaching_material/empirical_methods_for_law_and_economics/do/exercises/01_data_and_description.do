@@ -1,11 +1,17 @@
 * LECTURE 1 - STUDENT WORKSHEET
-* Before running: use cd to move to the course folder
-* (the folder that contains data/ and do/). Save this file under a new name
-* (e.g. 01_yourname.do) and complete the TODO lines.
 * Data: World Bank Doing Business 2020 edition (data 1 May 2019), CC BY 4.0.
 
+* Before running: save this file under a new name (e.g. 01_yourname.do) and complete the TODO lines.
+
+* Set your own course-folder path ONCE in Stata before running this file.
+* The course folder is the one containing the subfolders data/ and do/; replace the placeholder below with its path.
+cd "path_to_the_main_folder"
+
+* Run the named do-file from the course working folder; quoted paths can contain spaces. Setup clears memory, so run it before analysis.
 do "do/00_setup.do"
+* Start a text log of commands and output; replace overwrites the previous log, and name() identifies a separate named log.
 log using "$course_results/logs/01_student.log", text replace
+* Load this saved .dta file into memory; clear permits replacing the current in-memory data.
 use "$course_data/contracts_2019.dta", clear
 
 * TASK 1. Inspect the data. What does ONE ROW represent? Which edition?

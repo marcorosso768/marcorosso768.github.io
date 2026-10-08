@@ -16,6 +16,7 @@
 # Una sezione può avere sia items (in cima, es. il setup) sia blocks (es. le settimane).
 # Se courses_text.yml ha un testo sotto notes con la chiave della sezione, compare come nota sotto l'elenco
 # (sopra, con note_first: true); un testo sotto details compare in fondo, come dettagli che si aprono.
+# Un esercizio può avere solution: <file nella cartella del corso>: link "solution" sulla stessa riga.
 # Un singolo file può avere details: <chiave>: i dettagli (courses_text.yml, details.<chiave>) compaiono sotto il file.
 
 econometrics:
@@ -101,6 +102,7 @@ empirical_methods_for_law_and_economics:
             - file: "do/exercises/01_data_and_description.do"
               title: "Data and Description.do"
               prefix: "Lecture 1 (exercise)"
+              solution: "do/exercises/01_data_and_description_solved.do"
             - file: "do/ready_to_run/02_sampling_demo.do"
               title: "Sampling Simulation.do"
               prefix: "Lecture 2 (ready to run)"

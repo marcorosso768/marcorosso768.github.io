@@ -1,7 +1,13 @@
 * LECTURE 2 - STUDENT WORKSHEET
-* Before running: cd to the course folder. Save this file under a new name.
 * All data in this lab are ARTIFICIAL (simulated). Do not describe them as findings.
 
+* Before running: save this file under a new name (e.g. 02_yourname.do) and complete the TODO lines.
+
+* Set your own course-folder path ONCE in Stata before running this file.
+* The course folder is the one containing the subfolders data/ and do/; replace the placeholder below with its path.
+cd "path_to_the_main_folder"
+
+* Run the named do-file from the course working folder; quoted paths can contain spaces. Setup clears memory, so run it before analysis.
 do "do/00_setup.do"
 
 * TASK 1. Run the ready-to-run simulation (it takes a few seconds and saves 3 graphs
