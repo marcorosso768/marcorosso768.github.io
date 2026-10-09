@@ -37,21 +37,18 @@ people:
     program: business-administration
     university: unibo
     language: it
-    ongoing: true
   cristian-di-marco:
     name: "Cristian Di Marco"
     year: 2026
     program: business-administration
     university: unibo
     language: it
-    ongoing: true
   matteo-buldini:
     name: "Matteo Buldini"
     year: 2026
     program: business-administration
     university: unibo
     language: it
-    ongoing: true
   valerio-danselmo:
     name: "Valerio D'Anselmo"
     year: 2026
