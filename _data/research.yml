@@ -14,13 +14,14 @@
 sections:
   - key: jmp
     expanded: true
+    entries:
+      - tipping-point
   - key: working_papers
     expanded: true
     entries:
       - ai-labor-demand
-      - tipping-point
-      - crime-voting
       - childbirth-turnout
+      - crime-voting
       - childcare-turnout
   - key: wip
     expanded: true
@@ -67,7 +68,7 @@ entries:
 
   tipping-point:
     icon: "working_paper"
-    title: "The Tipping Point of Temptation: Corruption and Selection into Public Service"
+    title: "The Tipping Point of Temptation: Prevention, Sanctions, and Selection into Public Service"
     links:
       - { type: draft_request }
     panels: [abstract, keywords, jel]
@@ -88,11 +89,11 @@ entries:
 
   childbirth-turnout:
     icon: "working_paper"
-    title: "Childbirth and the Erosion of the Female Turnout Advantage"
+    title: "Who Misses the Election? Childbirth and Turnout within Couples"
     links:
       - { type: draft_request }
     panels: [abstract, keywords, jel]
-    jel: "D72, J13, J16, J22."
+    jel: "D72, J12, J13, J16."
 
   childcare-turnout:
     icon: "working_paper"

@@ -89,17 +89,18 @@ entries:
     keywords: "crime; immigration; elections; news media; individual voting behavior."
   childbirth-turnout:
     abstract: >-
-      Using administrative turnout records from Bologna, Italy (2004–2013), linked to annual population registers,
-      we examine how childbirth changes the mother–father turnout gap. Linking both parents to the same child, we
-      find that the gap worsens for the mother by 5.7 percentage points in the first month after a birth and
-      attenuates over the first year. In a separate comparison, mothers delivering in the week before the polling
-      period are 16 points less likely to vote than those delivering in the week after. The maternal turnout
-      shortfall relative to the pre-maternity benchmark diminishes over time, but the evidence does not establish
-      full recovery. At two to five years after the first identified birth, estimates are −0.9 points in the full
-      sample and +0.3 in a high-confidence sample. The main full-sample specification excludes losses exceeding
-      approximately 2.4 points at the 95 percent confidence level; this bound is sensitive to the reference
-      elections used.
-    keywords: "voter turnout; motherhood; childbirth; gender; political participation; household production."
+      Childbirth is a temporary shock that hits two voters in one household. I ask how the resulting change in
+      turnout is distributed within the couple. Using administrative turnout records for Bologna, where voting is in
+      person on fixed days, linked to registers that connect both parents to the same birth, I compare couples whose
+      child is born in the weeks before the polling days with couples whose child is born after. Couples whose child
+      is born in the four weeks before the vote have 11.5 fewer recorded votes per 100; the probability that both
+      parents are recorded as voting is nine points lower and father-only voting five points more likely, while
+      mother-only voting differs little. Excluding the births most exposed to possible misclassification of hospital
+      votes reduces these differences, and in the most restrictive sample only the father-only difference survives
+      correction for multiple testing. Relative to the couple’s own pre-birth turnout, recorded participation is
+      also lower in the month of birth, in a descriptive comparison that is sensitive to the same exclusions. From
+      three months onward, the estimated mother–father gap is close to its pre-birth level.
+    keywords: "voter turnout; voting costs; childbirth; couples; household; gender; political participation."
   childcare-turnout:
     abstract: >-
       Does proximity to locally provided public goods raise the political participation of the households they are

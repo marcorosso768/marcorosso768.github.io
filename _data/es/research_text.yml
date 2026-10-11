@@ -98,19 +98,20 @@ entries:
     keywords: "crimen; inmigración; elecciones; medios de comunicación; comportamiento electoral individual."
   childbirth-turnout:
     abstract: >-
-      A partir de registros administrativos de participación electoral de Bolonia, Italia (2004–2013), vinculados a
-      los padrones anuales de población, examinamos cómo el nacimiento de un hijo modifica la brecha de
-      participación entre madre y padre. Al vincular a ambos progenitores con el mismo hijo, encontramos que la
-      brecha se amplía en contra de la madre en 5,7 puntos porcentuales en el primer mes posterior al parto y se
-      atenúa a lo largo del primer año. En una comparación separada, las madres que dan a luz en la semana previa al
-      período de votación tienen 16 puntos menos de probabilidad de votar que quienes dan a luz en la semana
-      posterior. El déficit de participación materna respecto del nivel previo a la maternidad disminuye con el
-      tiempo, pero la evidencia no permite establecer una recuperación completa. Entre dos y cinco años después del
-      primer nacimiento identificado, las estimaciones son de −0,9 puntos en la muestra completa y de +0,3 en una
-      muestra de alta confiabilidad. La especificación principal en la muestra completa descarta pérdidas superiores
-      a aproximadamente 2,4 puntos con un 95 por ciento de confianza; esta cota es sensible a las elecciones de
-      referencia utilizadas.
-    keywords: "participación electoral; maternidad; nacimiento; género; participación política; producción doméstica."
+      El nacimiento de un hijo es un shock transitorio que afecta a dos votantes de un mismo hogar. Me pregunto cómo
+      se reparte dentro de la pareja el cambio en la participación electoral que provoca. Con registros
+      administrativos de participación de Bolonia, donde se vota en persona en días fijos, vinculados a padrones que
+      conectan a ambos progenitores con el mismo nacimiento, comparo las parejas cuyo hijo nace en las semanas
+      previas a la votación con aquellas cuyo hijo nace después. Las parejas con un hijo nacido en las cuatro
+      semanas anteriores a la votación registran 11,5 votos menos cada 100: la probabilidad de que ambos
+      progenitores figuren como votantes es nueve puntos menor y la de que vote solo el padre, cinco puntos mayor,
+      mientras que el voto de la madre sola apenas cambia. Al excluir los nacimientos más expuestos a una posible
+      clasificación errónea de los votos emitidos en el hospital, estas diferencias se reducen, y en la muestra más
+      restrictiva solo la diferencia en el voto exclusivo del padre sobrevive a la corrección por pruebas múltiples.
+      Respecto de la participación previa al nacimiento de la propia pareja, la participación registrada también es
+      menor en el mes del nacimiento, en una comparación descriptiva sensible a las mismas exclusiones. A partir del
+      tercer mes, la brecha estimada entre madre y padre vuelve a acercarse a su nivel previo al nacimiento.
+    keywords: "participación electoral; costos del voto; nacimiento; parejas; hogar; género; participación política."
   childcare-turnout:
     abstract: >-
       ¿La cercanía a bienes públicos de provisión local aumenta la participación política de los hogares a los que

@@ -97,18 +97,20 @@ entries:
     keywords: "criminalità; immigrazione; elezioni; mezzi di informazione; comportamento di voto individuale."
   childbirth-turnout:
     abstract: >-
-      Utilizzando dati amministrativi sulla partecipazione elettorale a Bologna (2004–2013), collegati ai registri
-      anagrafici annuali, analizziamo come la nascita di un figlio modifichi il divario di partecipazione tra madre
-      e padre. Collegando entrambi i genitori allo stesso figlio, troviamo che il divario peggiora per la madre di
-      5,7 punti percentuali nel primo mese dopo la nascita e si attenua nel corso del primo anno. In un confronto
-      distinto, le madri che partoriscono nella settimana precedente le votazioni hanno una probabilità di votare
-      inferiore di 16 punti rispetto a quelle che partoriscono nella settimana successiva. Il calo della
-      partecipazione materna rispetto al periodo precedente la maternità si riduce nel tempo, ma l’evidenza non
-      dimostra un recupero completo. Da due a cinque anni dopo la prima nascita identificata, le stime sono pari a
-      −0,9 punti nel campione completo e a +0,3 in un campione ad alta affidabilità. La specificazione principale
-      sul campione completo esclude, al livello di confidenza del 95 per cento, perdite superiori a circa 2,4 punti;
-      questo limite è sensibile alle elezioni di riferimento utilizzate.
-    keywords: "partecipazione elettorale; maternità; nascita; genere; partecipazione politica; produzione domestica."
+      La nascita di un figlio è uno shock temporaneo che colpisce due elettori della stessa famiglia. Mi chiedo come
+      la variazione della partecipazione elettorale che ne deriva si distribuisca all’interno della coppia. Uso i
+      dati amministrativi sulla partecipazione al voto a Bologna, dove si vota di persona in giorni prestabiliti,
+      collegati ai registri che associano entrambi i genitori alla stessa nascita, e confronto le coppie il cui
+      figlio nasce nelle settimane precedenti il voto con quelle il cui figlio nasce dopo. Le coppie con un figlio
+      nato nelle quattro settimane prima del voto registrano 11,5 voti in meno ogni 100: la probabilità che entrambi
+      i genitori risultino votanti è inferiore di nove punti e quella che voti solo il padre è superiore di cinque,
+      mentre il voto della sola madre cambia poco. Escludendo le nascite più esposte a un possibile errore di
+      classificazione dei voti espressi in ospedale, queste differenze si riducono, e nel campione più restrittivo
+      solo quella relativa al voto del solo padre resiste alla correzione per test multipli. Rispetto alla
+      partecipazione della coppia prima della nascita, anche nel mese della nascita la partecipazione registrata è
+      più bassa, in un confronto descrittivo sensibile alle stesse esclusioni. Dal terzo mese in poi, il divario
+      stimato tra madre e padre torna vicino al livello precedente la nascita.
+    keywords: "partecipazione elettorale; costi del voto; nascita; coppie; famiglia; genere; partecipazione politica."
   childcare-turnout:
     abstract: >-
       La vicinanza a beni pubblici forniti localmente aumenta la partecipazione politica delle famiglie a cui sono
