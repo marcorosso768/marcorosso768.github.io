@@ -54,13 +54,13 @@ Mi <b><a href="/es/investigación/">investigación</a></b> se centra en
 <b>Economía Experimental</b> y
 <b>Economía del Comportamiento</b>, con un interés particular en cómo interactúan las instituciones y el comportamiento individual en contextos reales. Más en general, me interesan las preguntas que se sitúan en la intersección entre la economía y el comportamiento social, allí donde los datos y los métodos permiten abordarlas.
 
-Estoy en el <b>mercado laboral académico 2026–2027</b>. Mi <b>job market paper</b>, <b><a href="https://drive.google.com/file/d/1jNssBLkHiNGftb_r8ujWEBS-c-Jdonwh/view?usp=sharing">The Tipping Point of Temptation: Prevention, Sanctions, and Selection into Public Service</a></b>, estudia cómo las oportunidades de corrupción influyen en quiénes eligen ingresar al sector público y compara la eliminación de esas oportunidades con las sanciones a posteriori.
-
 Tras obtener el <b>Doctorado en Economía</b> en la <b>University of Bologna</b> en 2026, actualmente soy <b>Investigador Postdoctoral</b> en la <b>University of Cagliari</b>, donde estudio las interacciones entre el trabajo remoto, la inteligencia artificial y los mercados laborales locales (<b><a href="https://crenos.unica.it/bibcite/reference/8766">CRENoS WP 26/13</a></b>).
+
+Estoy en el <b>mercado laboral académico 2026–2027</b>. Mi <b>job market paper</b>, <b><a href="https://drive.google.com/file/d/1jNssBLkHiNGftb_r8ujWEBS-c-Jdonwh/view?usp=sharing">The Tipping Point of Temptation: Prevention, Sanctions, and Selection into Public Service</a></b>, estudia cómo las oportunidades de corrupción influyen en quiénes eligen ingresar al sector público y compara la eliminación de esas oportunidades con las sanciones a posteriori.
 
 Podés encontrar más información sobre mí en mi <b><a href="/assets/pdf/es/curriculum_vitae_es.pdf" class="external">CV</a></b>.
 
-Mientras tanto, <b><a href="/es/docencia/">doy clases</a></b> de <b>Métodos Empíricos para el Derecho y la Economía</b> en el <b>Doctorado Europeo en Derecho y Economía (EDLE)</b>, <b>Introducción a la Economía de la UE</b> y un <b>Curso de Nivelación en Econometría</b> en la <b>University of Bologna</b>, donde además me desempeño como <b>Ayudante de Cátedra</b> en econometría, microeconomía, política económica, economía política y economía del comportamiento.
+Junto con la investigación, <b><a href="/es/docencia/">doy clases</a></b> de <b>Métodos Empíricos para el Derecho y la Economía</b> en el <b>Doctorado Europeo en Derecho y Economía (EDLE)</b>, <b>Introducción a la Economía de la UE</b> y un <b>Curso de Nivelación en Econometría</b> en la <b>University of Bologna</b>, donde además me desempeño como <b>Ayudante de Cátedra</b> en econometría, microeconomía, política económica, economía política y economía del comportamiento.
 
 Además, colaboré en el <b><a href="https://site.unibo.it/minuto/en">MinUTo Project</a></b>, que estudia cómo las creencias, las preferencias y el involucramiento de las familias influyen en el desarrollo en la primera infancia, y en el lanzamiento de la <b><a href="https://appminuto.it/login">MinUTo App</a></b>, una herramienta de apoyo a la parentalidad consciente disponible en italiano, inglés y francés.
 
