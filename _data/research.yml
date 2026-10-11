@@ -69,10 +69,15 @@ entries:
   tipping-point:
     icon: "working_paper"
     title: "The Tipping Point of Temptation: Prevention, Sanctions, and Selection into Public Service"
+    url: "https://drive.google.com/file/d/1jNssBLkHiNGftb_r8ujWEBS-c-Jdonwh/view?usp=sharing"
     links:
-      - { type: draft_request }
+      - {
+          type: working_paper,
+          url: "https://drive.google.com/file/d/1jNssBLkHiNGftb_r8ujWEBS-c-Jdonwh/view?usp=sharing",
+          title: "The Tipping Point of Temptation: Prevention, Sanctions, and Selection into Public Service",
+        }
     panels: [abstract, keywords, jel]
-    jel: "D73, J45, D90, H83."
+    jel: "D73, J45, D91, H83."
 
   crime-voting:
     icon: "working_paper"

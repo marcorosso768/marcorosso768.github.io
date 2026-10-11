@@ -55,25 +55,20 @@ entries:
     keywords: "IA generativa; ChatGPT; demanda laboral; antigüedad; avisos de empleo; diferencias en diferencias."
   tipping-point:
     abstract: >-
-      ¿Por qué la corrupción puede atraer al servicio público a trabajadores deshonestos y, al mismo tiempo,
-      disuadir a los honestos? Incorporamos el autocontrol a la elección ocupacional. Los agentes de baja integridad
-      entran por las rentas de corrupción, los de alta integridad permanecen ajenos a la tentación y los intermedios
-      resisten a un costo en utilidad. Esto genera un déficit interior en la frontera de entrada, a diferencia de
-      los patrones de selección que producen los modelos de referencia de reputación y de Roy considerados aquí. El
-      mecanismo distingue la prevención de rentas de las sanciones diferidas. Manteniendo fijo el pago de
-      compromiso, la prevención aumenta débilmente la entrada y reduce la masa y la proporción de entrantes
-      corruptos respecto de las sanciones, porque la tentación subpondera el castigo diferido. Bajo tentación
-      severa, la prevención produce un doble dividendo en el caso de referencia uniforme: menos corrupción y más
-      empleo público. En el modelo lineal, la geometría genera umbrales de quiebre distintos para el empleo público
-      y para la integridad promedio. Ambos convergen a 1 + √2 cuando las rentas se anulan bajo distribuciones
-      conjuntas de tipos regulares. Para rentas positivas suficientemente pequeñas, el umbral de integridad se ubica
-      por encima del umbral de empleo, lo que crea una región en la que el empleo se contrae mientras la integridad
-      se deteriora. Solo el umbral de empleo permanece exactamente en 1 + √2 en el caso de referencia uniforme
-      independiente. La frontera con dos quiebres también identifica los parámetros de tentación bajo las
-      condiciones de soporte enunciadas y con medidas cardinales conmensurables de integridad y de oportunidades
-      externas, observadas junto con la entrada efectiva. Los experimentos existentes ofrecen una motivación
-      descriptiva, pero no implementan esta prueba estructural.
-    keywords: "selección ocupacional; autocontrol y tentación; corrupción; reputación y autoimagen; mercados laborales del sector público; diseño institucional."
+      Las oportunidades de corrupción atraen a quienes las aprovecharían y alejan a quienes anticipan el costo de
+      resistirlas. Estudio estos dos márgenes en un modelo de elección ocupacional con costos de autocontrol. Sin
+      sanciones, para distribuciones de tipos regulares con densidad positiva en el origen, las rentas pequeñas
+      desplazan la participación cuando la sobrevaloración de la renta inducida por la tentación supera un umbral
+      determinado por la intensidad del conflicto de autocontrol. Con rentas pequeñas existe además un rango de
+      tentación en el que la participación se contrae mientras la integridad promedio sigue cayendo, de modo que una
+      dotación estable puede ocultar un plantel que se deteriora. Con igual excedente neto de la corrupción,
+      eliminar las oportunidades genera una corrupción débilmente menor que las sanciones diferidas, tanto con un
+      salario dado como con un número fijo de puestos. Con puestos fijos y un costo de resistencia convexo, la
+      selección ocupacional atenúa esta ventaja relativa para cualquier distribución de tipos. Cuando las rentas
+      aumentan con la proporción de corruptos entre quienes ocupan los puestos, el ordenamiento se traslada a los
+      estados estacionarios, y un ejemplo muestra cómo la prevención elimina un estado estacionario de alta
+      corrupción que una sanción de excedente equivalente mantiene.
+    keywords: "selección ocupacional; autocontrol y tentación; corrupción; disuasión; mercados laborales del sector público; equilibrios múltiples."
   crime-voting:
     abstract: >-
       Este trabajo analiza si la exposición a noticias policiales geolocalizadas modifica el comportamiento

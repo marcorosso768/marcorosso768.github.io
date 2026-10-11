@@ -55,25 +55,20 @@ entries:
     keywords: "IA generativa; ChatGPT; domanda di lavoro; seniority; annunci di lavoro; differenze nelle differenze."
   tipping-point:
     abstract: >-
-      Perché la corruzione può attrarre lavoratori disonesti nel settore pubblico e allo stesso tempo scoraggiare
-      quelli onesti? Introduciamo l’autocontrollo nella scelta occupazionale. Gli agenti con bassa integrità entrano
-      per le rendite da corruzione, quelli con alta integrità non sono tentati, e quelli intermedi resistono
-      sostenendo un costo in termini di utilità. Ne deriva un deficit interno nella frontiera di ingresso, diverso
-      dai pattern di selezione generati dai benchmark reputazionale e di Roy qui considerati. Il meccanismo
-      distingue la prevenzione delle rendite dalle sanzioni differite. A parità di payoff di commitment, la
-      prevenzione aumenta debolmente l’ingresso e riduce la massa e la quota di entranti corrotti rispetto alle
-      sanzioni, perché la tentazione sottopesa la punizione differita. In presenza di forte tentazione, nel
-      benchmark uniforme la prevenzione produce un doppio dividendo: meno corruzione e più occupazione pubblica. Nel
-      modello lineare, la geometria genera soglie di svolta distinte per l’occupazione pubblica e per l’integrità
-      media. Entrambe convergono a 1 + √2 al tendere a zero delle rendite, per distribuzioni congiunte regolari dei
-      tipi. Per rendite positive sufficientemente piccole, la soglia dell’integrità si colloca al di sopra di quella
-      dell’occupazione, creando una regione in cui l’occupazione si contrae mentre l’integrità peggiora. Solo la
-      soglia dell’occupazione resta esattamente pari a 1 + √2 nel benchmark uniforme indipendente. La frontiera con
-      due punti angolosi identifica inoltre i parametri di tentazione, sotto condizioni di supporto esplicitate e
-      con misure cardinali commensurabili di integrità e opportunità esterne, osservate congiuntamente all’ingresso
-      effettivo. Gli esperimenti esistenti offrono una motivazione descrittiva ma non implementano questo test
-      strutturale.
-    keywords: "selezione occupazionale; autocontrollo e tentazione; corruzione; reputazione e immagine di sé; mercato del lavoro nel settore pubblico; disegno istituzionale."
+      Le opportunità di corruzione attraggono chi le sfrutterebbe e allontanano chi prevede il costo di resistervi.
+      Studio questi due margini in un modello di scelta occupazionale con costi di autocontrollo. In assenza di
+      sanzioni, per distribuzioni regolari dei tipi con densità positiva nell’origine, rendite piccole riducono la
+      partecipazione quando la sopravvalutazione della rendita indotta dalla tentazione supera una soglia fissata
+      dall’intensità del conflitto di autocontrollo. Per rendite piccole esiste inoltre un intervallo di tentazione
+      in cui la partecipazione si contrae mentre l’integrità media continua a diminuire: un organico stabile può
+      nascondere un personale che peggiora. A parità di surplus netto da corruzione, eliminare le opportunità
+      produce una corruzione debolmente inferiore rispetto alle sanzioni differite, sia a salario dato sia con un
+      numero fisso di posti. Con posti fissi e un costo di resistenza convesso, la selezione occupazionale attenua
+      questo vantaggio relativo per qualsiasi distribuzione dei tipi. Quando le rendite crescono con la quota di
+      corrotti tra chi è in servizio, l’ordinamento si estende agli stati stazionari, e un esempio mostra come la
+      prevenzione elimini uno stato stazionario ad alta corruzione che una sanzione con surplus equivalente lascia
+      in piedi.
+    keywords: "selezione occupazionale; autocontrollo e tentazione; corruzione; deterrenza; mercato del lavoro nel settore pubblico; equilibri multipli."
   crime-voting:
     abstract: >-
       Questo lavoro analizza se l’esposizione a notizie di cronaca geolocalizzate modifichi il comportamento di voto

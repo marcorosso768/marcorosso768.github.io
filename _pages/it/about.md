@@ -54,6 +54,8 @@ La mia <b><a href="/it/ricerca/">ricerca</a></b> si concentra su
 <b>Economia Sperimentale</b> ed
 <b>Economia Comportamentale</b>, con un interesse particolare per il modo in cui istituzioni e comportamento individuale interagiscono in contesti reali. Più in generale, mi interessano le domande all’intersezione tra economia e comportamento sociale, ovunque i dati e i metodi permettano di rispondere.
 
+Sono sul <b>job market accademico 2026–2027</b>. Il mio <b>job market paper</b>, <b><a href="https://drive.google.com/file/d/1jNssBLkHiNGftb_r8ujWEBS-c-Jdonwh/view?usp=sharing">The Tipping Point of Temptation: Prevention, Sanctions, and Selection into Public Service</a></b>, studia come le opportunità di corruzione influenzino chi sceglie di entrare nel settore pubblico e confronta l’eliminazione di queste opportunità con le sanzioni a posteriori.
+
 Dopo aver conseguito il <b>Dottorato di Ricerca in Economia</b> presso l’<b>Università di Bologna</b> nel 2026, sono <b>Ricercatore Post-Doc</b> presso l’<b>Università di Cagliari</b>, dove studio le interazioni tra lavoro da remoto, intelligenza artificiale e mercati del lavoro locali (<b><a href="https://crenos.unica.it/bibcite/reference/8766">CRENoS WP 26/13</a></b>).
 
 Maggiori informazioni sono disponibili nel mio <b><a href="/assets/pdf/it/curriculum_vitae_it.pdf" class="external">CV</a></b>.
