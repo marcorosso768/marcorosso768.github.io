@@ -1616,6 +1616,11 @@ h5.teaching-entry__content {
   margin-top: 10pt;
 }
 
+// primo sottotitolo di una settimana: vicino al titolo della settimana (h3, che ha già 1rem di margine sotto)
+.toggle-section > .course-group:first-child {
+  margin-top: -0.5rem;
+}
+
 // separatore tra il file e il link alla soluzione sulla stessa riga
 .course-entry__sep {
   margin: 0 0.3em;
