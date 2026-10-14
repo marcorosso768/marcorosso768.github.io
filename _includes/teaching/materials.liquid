@@ -33,6 +33,9 @@
                 {%- assign count = part.items.size | default: 0 -%}
                 {%- for block in part.blocks -%}
                   {%- assign count = count | plus: block.items.size -%}
+                  {%- for group in block.groups -%}
+                    {%- assign count = count | plus: group.items.size -%}
+                  {%- endfor -%}
                 {%- endfor -%}
                 {%- unless forloop.first -%}
                   <span class="materials-entry__sep" aria-hidden="true">•</span>

@@ -1604,6 +1604,18 @@ h5.teaching-entry__content {
   }
 }
 
+// sottotitolo fisso dentro un blocco (es. "exercises" / "ready to run" in una settimana): testo secondario, piccolo
+.course-group {
+  margin: 4pt 0 6pt var(--indent-margin);
+  font-size: 11pt;
+  font-style: italic;
+  opacity: 0.65;
+}
+
+.course-list + .course-group {
+  margin-top: 10pt;
+}
+
 // separatore tra il file e il link alla soluzione sulla stessa riga
 .course-entry__sep {
   margin: 0 0.3em;

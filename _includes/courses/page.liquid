@@ -2,6 +2,7 @@
   Pagina dei materiali di un corso, generata dai dati: _data/courses.yml (struttura comune) e
   _data/<lingua>/courses_text.yml (testi). Uso: {% include courses/page.liquid course="econometrics" %}.
   Sezione (h2) → file della sezione (items) e/o blocchi (h3, es. settimane) → elenco dei file (ul/li).
+  Un blocco può dividere i file in gruppi (groups: key + items), con un sottotitolo fisso da courses_text.yml (groups.<key>).
   Nota della sezione (courses_text.yml, notes): sotto l'elenco, o sopra se la sezione ha note_first: true.
   Dettagli che si aprono (courses_text.yml, details): sempre in fondo alla sezione.
   Niente commenti HTML qui: nelle pagine .md kramdown li trasformerebbe in paragrafi vuoti.
@@ -39,7 +40,20 @@
           {%- else -%}
             {%- assign list_class = 'course-list' -%}
           {%- endunless -%}
-          {%- include courses/list.liquid items=block.items icon=section.icon list_class=list_class %}
+          {%- if block.groups -%}
+            {%- for group in block.groups -%}
+              {%- assign group_label = course_text.groups[group.key] | default: course_text_en.groups[group.key] -%}
+              {%- if forloop.last -%}
+                {%- assign group_class = list_class -%}
+              {%- else -%}
+                {%- assign group_class = 'course-list' -%}
+              {%- endif %}
+              <p class="course-group">{{ group_label }}</p>
+              {%- include courses/list.liquid items=group.items icon=section.icon list_class=group_class %}
+            {%- endfor -%}
+          {%- else -%}
+            {%- include courses/list.liquid items=block.items icon=section.icon list_class=list_class %}
+          {%- endif %}
         </div>
       {%- endfor -%}
     {%- endif %}
