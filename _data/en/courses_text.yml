@@ -31,7 +31,7 @@ empirical_methods_for_law_and_economics:
     exercises: "exercises"
     ready_to_run: "ready to run"
   notes:
-    do-files: "Keep the files in one course folder, with the same structure as here: <code>00_setup.do</code> in the folder itself, the exercises in <code>exercises/</code>, their solutions in <code>solutions/</code>, the simulation in <code>ready_to_run/</code>, and the datasets in <code>data/</code>. Run every do-file with that folder as Stata's working directory."
+    do-files: "Keep the files in one folder (e.g. <code>stata/do/</code>), with the same structure as here: <code>00_setup.do</code> in the folder itself, the exercises in <code>exercises/</code>, their solutions in <code>solutions/</code>, the simulation in <code>ready_to_run/</code>, and the datasets in <code>data/</code>. Run every do-file with that folder as Stata's working directory."
   details:
     contracts_2019:
       summary: "source and licence"
