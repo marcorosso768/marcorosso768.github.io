@@ -1616,9 +1616,14 @@ h5.teaching-entry__content {
   margin-top: 10pt;
 }
 
-// primo sottotitolo di una settimana: vicino al titolo della settimana (h3, che ha già 1rem di margine sotto)
+// primo sottotitolo di una settimana: vicino al titolo della settimana. Non con un margine negativo sul sottotitolo
+// (la sezione ha overflow: hidden e lo taglierebbe): si riduce il margine sotto il titolo h3 della settimana
 .toggle-section > .course-group:first-child {
-  margin-top: -0.5rem;
+  margin-top: 0;
+}
+
+.subsection:has(+ .toggle-section > .course-group:first-child) h3.subsection {
+  margin-bottom: 0.5rem;
 }
 
 // separatore tra il file e il link alla soluzione sulla stessa riga
