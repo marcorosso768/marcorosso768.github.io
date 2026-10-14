@@ -6,12 +6,12 @@
 * each sample compute the mean, the SD, the standard error and a 95% t interval.
 
 * Usually launched from exercises/02_sampling_and_inference.do, which has already set the course folder.
-* If you run it on its own, Stata's working directory must be the course folder (the one containing data/ and do/).
+* If you run it on its own, Stata's working directory must be the course folder (the one containing data/ and 00_setup.do).
 
 * Run setup only if the global results-folder path has not yet been defined.
 if "$course_results" == "" {
 * Run the named do-file from the course working folder; quoted paths can contain spaces. Setup clears memory, so run it before analysis.
-    do "do/00_setup.do"
+    do "00_setup.do"
 * End the preceding conditional block; subsequent lines run outside that block.
 }
 * Close the named simulation log if open; capture suppresses an error if it is not open.

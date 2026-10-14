@@ -4,13 +4,13 @@
 * Before running: save this solution file under your own name if you want to add notes.
 
 * Set your own course-folder path ONCE in Stata before running this file.
-* The course folder is the one containing the subfolders data/ and do/; replace the placeholder below with its path.
+* The course folder is the do/ folder, the one containing data/ and 00_setup.do; replace the placeholder below with its path.
 cd "path_to_the_main_folder"
 
 * Run the named do-file from the course working folder; quoted paths can contain spaces. Setup clears memory, so run it before analysis.
-do "do/00_setup.do"
+do "00_setup.do"
 * Start a text log of commands and output; replace overwrites the previous log, and name() identifies a separate named log.
-log using "$course_results/logs/01_solutions.log", text replace
+log using "$course_results/logs/01_answer.log", text replace
 * Load this saved .dta file into memory; clear permits replacing the current in-memory data.
 use "$course_data/contracts_2019.dta", clear
 
@@ -100,8 +100,8 @@ histogram time_days, percent width(100) start(100) ///
     /* Set the graph title; text in quotes is a label and not a variable name. */ title("Contract enforcement time, Doing Business 2020") ///
     /* Label the horizontal axis and, if present, the vertical axis with its units. */ xtitle("Days to enforce the standardized claim") ytitle("Percent of economies") ///
     /* Add a graph footnote identifying the sample, reference lines or the artificial-data scope. */ note("Solid line: mean. Dashed line: median. N = 191 economies.")
-* Save the active graph as a PNG; width() specifies image pixels and replace allows overwriting it.
-graph export "$course_results/figures/01_hist_time.png", replace width(1600)
+* Save the active graph as a PNG; the _answer suffix keeps it apart from the figure you save in the exercise; width() sets image pixels.
+graph export "$course_results/figures/01_hist_time_answer.png", replace width(1600)
 
 * [slide: Logarithms: a change of scale]
 * Create natural log of time only for positive known values; double uses high numerical precision.
@@ -114,8 +114,8 @@ count if !missing(ln_time)
 * Plot a distribution; if restricts rows, percent scales bars as percentages, width()/start() set bins, xline() marks a reference and name() retains this graph.
 histogram ln_time, percent title("Log enforcement time") xtitle("ln(days)") ///
     /* Label the numerical axis and, if present, add a graph title. */ ytitle("Percent of economies")
-* Save the active graph as a PNG; width() specifies image pixels and replace allows overwriting it.
-graph export "$course_results/figures/01_hist_logtime.png", replace width(1600)
+* Save the active graph as a PNG; the _answer suffix keeps it apart from the figure you save in the exercise; width() sets image pixels.
+graph export "$course_results/figures/01_hist_logtime_answer.png", replace width(1600)
 * INSTRUCTOR EXTRA. A log difference is an approximate proportional difference
 * Calculate a difference of natural logs; it equals log of a ratio and approximates percentage change only for small changes.
 display ln(1120) - ln(575)
@@ -147,8 +147,8 @@ graph hbar (asis) filing_days trial_days enforcement_days ///
     /* Create one bar per economy and sort the bars by total time; stack combines the three phase lengths. */ over(economy, sort(time_days)) stack ///
     /* Give plot layers human-readable labels and put the legend on one row. */ legend(order(1 "Filing and service" 2 "Trial and judgment" 3 "Enforcement") rows(1)) ///
     /* Label the numerical axis and, if present, add a graph title. */ ytitle("Days") title("Where the time goes")
-* Save the active graph as a PNG; width() specifies image pixels and replace allows overwriting it.
-graph export "$course_results/figures/01_decomposition.png", replace width(1600)
+* Save the active graph as a PNG; the _answer suffix keeps it apart from the figure you save in the exercise; width() sets image pixels.
+graph export "$course_results/figures/01_decomposition_answer.png", replace width(1600)
 
 * TASK 6. Compare regions (description, not explanation).
 * [slide: Comparing groups is still description]
@@ -157,8 +157,8 @@ tabstat time_days cost_pct_claim, by(region) statistics(n mean p50) format(%9.1f
 * Draw a horizontal box plot for each region, ordered by the graph's summary; boxes describe distributions, not causal effects.
 graph hbox time_days, over(region, sort(1) descending) ///
     /* Label the numerical axis and, if present, add a graph title. */ ytitle("Days to enforce the standardized claim") title("Enforcement time by region")
-* Save the active graph as a PNG; width() specifies image pixels and replace allows overwriting it.
-graph export "$course_results/figures/01_box_region.png", replace width(1600)
+* Save the active graph as a PNG; the _answer suffix keeps it apart from the figure you save in the exercise; width() sets image pixels.
+graph export "$course_results/figures/01_box_region_answer.png", replace width(1600)
 * ANSWER: read the region with the highest median from the tabstat output and
 *         state the number of economies it is based on (column N).
 
@@ -178,8 +178,8 @@ graph export "$course_results/figures/01_box_region.png", replace width(1600)
 scatter trial_days judicial_quality, ///
     /* Set the graph title; text in quotes is a label and not a variable name. */ title("Trial time and judicial-process quality") ///
     /* Label the horizontal axis and, if present, the vertical axis with its units. */ xtitle("Quality of judicial processes index (0-18)") ytitle("Trial and judgment (days)")
-* Save the active graph as a PNG; width() specifies image pixels and replace allows overwriting it.
-graph export "$course_results/figures/01_scatter_extension.png", replace width(1600)
+* Save the active graph as a PNG; the _answer suffix keeps it apart from the figure you save in the exercise; width() sets image pixels.
+graph export "$course_results/figures/01_scatter_extension_answer.png", replace width(1600)
 
 * Close the current unnamed text log and finish writing its output.
 log close

@@ -17,3 +17,7 @@ Claude outputs/
 CLAUDE.md
 # archivio personale (contenuti tolti dal sito ma conservati): solo in locale
 _archivio/
+# materiali dei corsi: note su fonti, licenze e provenienza dei dati, tenute accanto ai dataset ma solo in locale
+# (le informazioni per gli studenti sono nella pagina del corso, pannello "source and licence")
+assets/teaching_material/**/SOURCE_AND_LICENCE*.txt
+assets/teaching_material/**/*provenance*.json

@@ -4,13 +4,13 @@
 * Before running: save this file under a new name (e.g. 01_yourname.do) and complete the TODO lines.
 
 * Set your own course-folder path ONCE in Stata before running this file.
-* The course folder is the one containing the subfolders data/ and do/; replace the placeholder below with its path.
+* The course folder is the do/ folder, the one containing data/ and 00_setup.do; replace the placeholder below with its path.
 cd "path_to_the_main_folder"
 
 * Run the named do-file from the course working folder; quoted paths can contain spaces. Setup clears memory, so run it before analysis.
-do "do/00_setup.do"
+do "00_setup.do"
 * Start a text log of commands and output; replace overwrites the previous log, and name() identifies a separate named log.
-log using "$course_results/logs/01_student.log", text replace
+log using "$course_results/logs/01_exercise.log", text replace
 * Load this saved .dta file into memory; clear permits replacing the current in-memory data.
 use "$course_data/contracts_2019.dta", clear
 
@@ -37,9 +37,10 @@ describe
 
 * TASK 4. Shape.
 * TODO: histogram of time_days with the option percent
+* TODO: graph export "$course_results/figures/01_hist_time.png", replace
 * TODO: generate ln_time = ln(time_days) only if time_days > 0 & !missing(time_days)
 * TODO: histogram of ln_time; count how many observations it uses
-* TODO: graph export "$course_results/figures/01_my_histogram.png", replace
+* TODO: graph export "$course_results/figures/01_hist_logtime.png", replace
 
 * TASK 5. One economy in the distribution.
 * TODO: list economy time_days filing_days trial_days enforcement_days
@@ -50,6 +51,7 @@ describe
 * TASK 6. Compare regions (description, not explanation).
 * TODO: tabstat time_days cost_pct_claim, by(region) statistics(n mean p50)
 * TODO: graph hbox time_days, over(region, sort(1) descending)
+* TODO: graph export "$course_results/figures/01_box_region.png", replace
 * WRITE: which region has the highest median time? How many economies is that based on?
 
 * TASK 7. Five sentences (write them below as comments):

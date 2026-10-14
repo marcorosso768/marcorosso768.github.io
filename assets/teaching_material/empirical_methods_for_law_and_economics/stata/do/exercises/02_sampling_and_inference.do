@@ -4,17 +4,17 @@
 * Before running: save this file under a new name (e.g. 02_yourname.do) and complete the TODO lines.
 
 * Set your own course-folder path ONCE in Stata before running this file.
-* The course folder is the one containing the subfolders data/ and do/; replace the placeholder below with its path.
+* The course folder is the do/ folder, the one containing data/ and 00_setup.do; replace the placeholder below with its path.
 cd "path_to_the_main_folder"
 
 * Run the named do-file from the course working folder; quoted paths can contain spaces. Setup clears memory, so run it before analysis.
-do "do/00_setup.do"
+do "00_setup.do"
 
 * TASK 1. Run the ready-to-run simulation (it takes a few seconds and saves 3 graphs
 * in results/figures: population, sampling distributions, forty intervals).
-do "do/ready_to_run/02_sampling_demo.do"
+do "ready_to_run/02_sampling_demo.do"
 
-log using "$course_results/logs/02_student.log", text replace
+log using "$course_results/logs/02_exercise.log", text replace
 use "$course_results/tables/02_sampling_results.dta", clear
 
 * TASK 2. What does one row of this results file represent?
