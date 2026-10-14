@@ -22,8 +22,9 @@
   {%- unless has_materials -%}
     {%- continue -%}
   {%- endunless -%}
-  {%- assign section_id = 'materials-' | append: section.key %}
-  {%- include section-toggle.liquid id=section_id title=texts.sections[section.key].title expanded=true %}
+  {%- assign section_id = 'materials-' | append: section.key -%}
+  {%- assign section_title = texts.sections[section.key].title %}
+  {%- include section-toggle.liquid id=section_id title=section_title expanded=true %}
   <div id="{{ section_id }}" class="toggle-section expanded">
     <ul class="materials-index">
       {%- for group in section.groups -%}
