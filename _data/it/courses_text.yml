@@ -25,10 +25,10 @@ empirical_methods_for_law_and_economics:
   sections:
     course-info: "informazioni sul corso"
     lecture-notes: "dispense"
-    do-files: "I file vanno tenuti in un'unica cartella del corso, con la stessa struttura di questa pagina: <code>00_setup.do</code> nella cartella stessa, gli esercizi in <code>exercises/</code>, le soluzioni in <code>solutions/</code>, la simulazione in <code>ready_to_run/</code> e i dataset in <code>data/</code>. Ogni do-file va eseguito con quella cartella come directory di lavoro di Stata."
+    do-files: "do-file"
     dataset: "dataset"
   notes:
-    do-files: "I file vanno tenuti in un'unica cartella del corso, con la stessa struttura di questa pagina: il do-file di setup in <code>do/</code>, gli esercizi in <code>do/exercises/</code>, la simulazione in <code>do/ready_to_run/</code> e il dataset in <code>data/</code>. Ogni do-file va eseguito con quella cartella come directory di lavoro di Stata."
+    do-files: "I file vanno tenuti in un'unica cartella del corso, con la stessa struttura di questa pagina: <code>00_setup.do</code> nella cartella stessa, gli esercizi in <code>exercises/</code>, le soluzioni in <code>solutions/</code>, la simulazione in <code>ready_to_run/</code> e i dataset in <code>data/</code>. Ogni do-file va eseguito con quella cartella come directory di lavoro di Stata."
   details:
     contracts_2019:
       summary: "fonte e licenza"
