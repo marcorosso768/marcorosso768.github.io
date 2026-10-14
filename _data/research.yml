@@ -69,15 +69,23 @@ entries:
   tipping-point:
     icon: "working_paper"
     title: "The Tipping Point of Temptation: Prevention, Sanctions, and Selection into Public Service"
-    url: "https://drive.google.com/file/d/1jNssBLkHiNGftb_r8ujWEBS-c-Jdonwh/view?usp=sharing"
+    url: "https://drive.google.com/file/d/1jNssBLkHiNGftb_r8ujWEBS-c-Jdonwh/view?usp=sharing" # titolo: ultima versione su Drive
+    series: "CRENoS Working Paper 26/15 · ISBN 978-88-6851-718-2"
     links:
-      - {
-          type: working_paper,
-          url: "https://drive.google.com/file/d/1jNssBLkHiNGftb_r8ujWEBS-c-Jdonwh/view?usp=sharing",
-          title: "The Tipping Point of Temptation: Prevention, Sanctions, and Selection into Public Service",
-        }
-    panels: [abstract, keywords, jel]
+      - { type: working_paper, url: "https://crenos.unica.it/bibcite/reference/8781", title: "CRENoS Working Paper 26/15" }
+    panels: [abstract, keywords, jel, cite]
     jel: "D73, J45, D91, H83."
+    bibtex: |-
+      @techreport{rosso2026tipping,
+        author      = {Rosso, Marco},
+        title       = {The Tipping Point of Temptation: Prevention, Sanctions, and Selection into Public Service},
+        institution = {CRENoS},
+        type        = {Working Paper},
+        number      = {26/15},
+        isbn        = {978-88-6851-718-2},
+        year        = {2026},
+        url         = {https://crenos.unica.it/bibcite/reference/8781}
+      }
 
   crime-voting:
     icon: "working_paper"
