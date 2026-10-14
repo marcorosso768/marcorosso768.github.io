@@ -22,7 +22,7 @@ labels:
   jel: "JEL"
   cite: "Citar"
   working_paper: "Working Paper"
-  draft: "Borrador"
+  draft: "Pedir borrador"
   draft_title: "Borrador disponible a pedido"
   icon_working_paper: "Working paper"
   download: "Descargar"
