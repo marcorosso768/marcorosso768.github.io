@@ -1828,7 +1828,8 @@ h5.teaching-entry__content {
   opacity: 0.65;
 }
 
-// link sul nome della serie: stesso colore e opacità della riga, niente sottolineatura; corsivo al passaggio
+// link nella riga della serie (SSRN, CRENoS): stesso colore e opacità della riga; sottolineati come gli altri
+// link (su telefono è l'unico segnale che sono cliccabili); corsivo al passaggio
 .icon-entry .entry-text .paper-series a {
   &,
   &:link,
@@ -1837,7 +1838,6 @@ h5.teaching-entry__content {
   &:focus,
   &:active {
     color: inherit !important;
-    text-decoration: none;
   }
 
   &:hover,

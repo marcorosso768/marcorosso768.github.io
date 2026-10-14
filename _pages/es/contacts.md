@@ -39,12 +39,12 @@ meta_description: "Direcciones de correo electrónico en la University of Caglia
 
   <div class="icon-link indented">
     <i class="fa-solid fa-school fa-fw"></i>
-    <a href="https://crenos.unica.it/index.php/marco-rosso">CRENoS</a>
+    <a href="https://crenos.unica.it/index.php/marco-rosso">perfil en CRENoS</a>
   </div>
 
   <div class="icon-link indented">
     <i class="fa-solid fa-building-columns fa-fw"></i>
-    <a href="https://www.unibo.it/sitoweb/marco.rosso4/en">UniBo</a>
+    <a href="https://www.unibo.it/sitoweb/marco.rosso4/en">perfil en UniBo</a>
   </div>
 
   <div class="icon-link indented">

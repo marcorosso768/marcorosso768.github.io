@@ -4,7 +4,7 @@
 labels:
   discipline: "Disciplina Académica"
   interests: "Áreas de Investigación"
-  profile: "página personal en"
+  profile: "perfil en {site}"
   website: "sitio web"
 
 institutions:

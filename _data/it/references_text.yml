@@ -4,7 +4,7 @@
 labels:
   discipline: "Settore Scientifico Disciplinare"
   interests: "Interessi di Ricerca"
-  profile: "pagina personale su"
+  profile: "profilo {site}"
   website: "sito web"
 
 institutions:

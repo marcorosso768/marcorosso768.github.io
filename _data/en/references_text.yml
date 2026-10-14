@@ -4,7 +4,7 @@
 labels:
   discipline: "Academic Discipline"
   interests: "Research Interests"
-  profile: "personal page on"
+  profile: "{site} profile"
   website: "website"
 
 institutions:

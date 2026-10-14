@@ -39,12 +39,12 @@ meta_description: "E-mail addresses at the University of Cagliari and the Univer
 
   <div class="icon-link indented">
     <i class="fa-solid fa-school fa-fw"></i>
-    <a href="https://crenos.unica.it/index.php/marco-rosso">CRENoS</a>
+    <a href="https://crenos.unica.it/index.php/marco-rosso">CRENoS profile</a>
   </div>
 
   <div class="icon-link indented">
     <i class="fa-solid fa-building-columns fa-fw"></i>
-    <a href="https://www.unibo.it/sitoweb/marco.rosso4/en">UniBo</a>
+    <a href="https://www.unibo.it/sitoweb/marco.rosso4/en">UniBo profile</a>
   </div>
 
   <div class="icon-link indented">
