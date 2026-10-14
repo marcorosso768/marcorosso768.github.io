@@ -58,10 +58,10 @@
         {%- if e.coauthors %}<br>{% endif %}
         <span class="paper-series">
           {%- if e.ssrn -%}
-            <a href="{{ e.ssrn }}">SSRN</a> |{{ ' ' }}
+            <a class="paper-series__link" href="{{ e.ssrn }}">SSRN</a> |{{ ' ' }}
           {%- endif -%}
           {%- if e.series_url -%}
-            <a href="{{ e.series_url }}">{{ e.series }}</a>
+            <a class="paper-series__link" href="{{ e.series_url }}">{{ e.series }}</a>
           {%- else -%}
             {{ e.series }}
           {%- endif -%}
