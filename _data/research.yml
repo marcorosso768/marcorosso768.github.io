@@ -48,7 +48,7 @@ entries:
   ai-labor-demand:
     icon: "working_paper"
     title: "Generative AI and Posted Labor Demand: Volume, Seniority and Timing"
-    url: "https://crenos.unica.it/sites/default/files/2026-09/WP26-13.pdf"
+    url: "https://drive.google.com/file/d/1QTy7b4TNHjOA7ZznoOGeIsQaqhtakdJp/view" # titolo: ultima versione su Drive
     coauthors: [cerina, nobili]
     series: "CRENoS Working Paper 26/13"
     series_url: "https://crenos.unica.it/bibcite/reference/8766"
@@ -64,7 +64,7 @@ entries:
         number      = {26/13},
         isbn        = {978-88-6851-699-4},
         year        = {2026},
-        url         = {https://crenos.unica.it/sites/default/files/2026-09/WP26-13.pdf}
+        url         = {https://crenos.unica.it/bibcite/reference/8766}
       }
 
   tipping-point:
