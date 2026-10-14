@@ -2,14 +2,15 @@
 // Dentro main.css invece che in un foglio a parte: una richiesta in meno. Il font si scarica solo
 // nelle pagine che usano le icone (.ai), e lì è anticipato da un preload in head.liquid.
 @font-face {
+  // ?v=2: versione del sottoinsieme; aumentarla quando si aggiungono icone, se no i browser tengono il font vecchio
   font-family: "Academicons";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src:
-    url("../fonts/academicons.woff2") format("woff2"),
-    url("../fonts/academicons.woff") format("woff"),
-    url("../fonts/academicons.ttf") format("truetype");
+    url("../fonts/academicons.woff2?v=2") format("woff2"),
+    url("../fonts/academicons.woff?v=2") format("woff"),
+    url("../fonts/academicons.ttf?v=2") format("truetype");
 }
 .ai {
   font-family: "Academicons";

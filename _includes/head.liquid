@@ -19,12 +19,12 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/fonts/tabler-icons.woff2' | relative_url }}?v3.0.1">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/fonts/roboto/roboto-latin-var.woff2' | relative_url }}">
 {% comment %}
-  Icone dei profili (GitHub, LinkedIn, Bluesky, X: Font Awesome Brands; Scholar, ORCID, RePEc: Academicons),
+  Icone dei profili (GitHub, LinkedIn, Bluesky, X: Font Awesome Brands; Scholar, ORCID, RePEc, SSRN: Academicons),
   solo nelle pagine che le mostrano: senza preload compaiono in ritardo.
 {% endcomment %}
 {% if page.layout == 'about' or page.page_id == 'contacts' %}
   <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/webfonts/fa-brands-400.woff2' | relative_url }}">
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/fonts/academicons.woff2' | relative_url }}">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ '/assets/fonts/academicons.woff2?v=2' | relative_url }}">
 {% endif %}
 
 {% comment %}
