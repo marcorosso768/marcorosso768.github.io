@@ -51,7 +51,8 @@
     </div>
     <div class="icon-link indented">
       <i class="fa-solid fa-building-columns fa-fw"></i>
-      <a href="{{ profile_url }}">{{ texts.labels.profile | replace: '{site}', institution.site }}</a>
+      {%- assign profile_label = texts.labels.profile | replace: '{site}', institution.site %}
+      <a href="{{ profile_url }}">{{ profile_label }}</a>
     </div>
     {%- if person.url %}
       <div class="icon-link indented">
