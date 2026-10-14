@@ -5,7 +5,7 @@
 # Campi di una voce:
 #   icon: working_paper | wip | publication | thesis
 #   title, url (link del titolo: la versione pubblica del paper), coauthors (chiavi di _data/people.yml)
-#   series (riga sotto i coautori), series_url (link sul nome della serie), isbn
+#   series (riga sotto i coautori), series_url (link sul nome della serie), isbn, ssrn (link alla pagina SSRN)
 #   links: pillole-link: working_paper (url, title) | draft_request (mail precompilata, sempre ultima pillola)
 #   panels: pillole che aprono una casella, nell'ordine: abstract, keywords, jel, cite
 #   jel, bibtex: testo delle caselle JEL e Cite
@@ -74,6 +74,7 @@ entries:
     series: "CRENoS Working Paper 26/15"
     series_url: "https://crenos.unica.it/bibcite/reference/8781"
     isbn: "978-88-6851-718-2"
+    ssrn: "https://ssrn.com/abstract=7610318"
     panels: [abstract, keywords, jel, cite]
     jel: "D73, J45, D91, H83."
     bibtex: |-
