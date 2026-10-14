@@ -86,8 +86,8 @@ empirical_methods_for_law_and_economics:
               title: "Samples, Standard Errors, and Confidence Intervals"
               lecture: 2
             - file: "lecture_notes/week_01/lab_companion_week_01.pdf"
-              title: "Describing Data and Sampling"
-              prefix: "Lab companion"
+              title: "Lab Companion"
+              prefix: "Lectures 1–2"
         - id: subsection-week-2
           title: "Week 2"
           items:
@@ -98,8 +98,8 @@ empirical_methods_for_law_and_economics:
               title: "Simple Regression"
               lecture: 4
             - file: "lecture_notes/week_02/lab_companion_week_02.pdf"
-              title: "Relationships and Regression"
-              prefix: "Lab companion"
+              title: "Lab Companion"
+              prefix: "Lectures 3–4"
     - key: do-files
       id: content-2
       icon: fa-solid fa-code
