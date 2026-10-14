@@ -1,6 +1,6 @@
 {%- comment -%}
   Una voce della pagina research. Parametro: key (chiave in _data/research.yml → entries).
-  Ordine fisso: titolo (h3), coautori, serie (prima il link ssrn, poi | e series con link series_url · isbn); pillole-link; pillole delle caselle;
+  Ordine fisso: titolo (h3), coautori, serie (prima il link ssrn, poi | e series · isbn, tutto nel link series_url: l'ISBN è del WP); pillole-link; pillole delle caselle;
   per ultima la pillola della bozza su richiesta (draft_request: il paper esiste ma non è pubblico); caselle.
 {%- endcomment -%}
 {%- assign key = include.key -%}
@@ -60,12 +60,14 @@
           {%- if e.ssrn -%}
             <a class="paper-series__link" href="{{ e.ssrn }}">SSRN</a> |{{ ' ' }}
           {%- endif -%}
+          {%- capture series_text -%}
+            {{ e.series }}{% if e.isbn %} · ISBN {{ e.isbn }}{% endif %}
+          {%- endcapture -%}
           {%- if e.series_url -%}
-            <a class="paper-series__link" href="{{ e.series_url }}">{{ e.series }}</a>
+            <a class="paper-series__link" href="{{ e.series_url }}">{{ series_text }}</a>
           {%- else -%}
-            {{ e.series }}
+            {{ series_text }}
           {%- endif -%}
-          {%- if e.isbn %} · ISBN {{ e.isbn }}{% endif -%}
         </span>
       {%- endif %}
     </div>
