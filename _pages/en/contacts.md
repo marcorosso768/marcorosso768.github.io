@@ -39,12 +39,12 @@ meta_description: "E-mail addresses at the University of Cagliari and the Univer
 
   <div class="icon-link indented">
     <i class="fa-solid fa-school fa-fw"></i>
-    <a href="https://crenos.unica.it/index.php/marco-rosso">personal page on CRENoS</a>
+    <a href="https://crenos.unica.it/index.php/marco-rosso">CRENoS</a>
   </div>
 
   <div class="icon-link indented">
     <i class="fa-solid fa-building-columns fa-fw"></i>
-    <a href="https://www.unibo.it/sitoweb/marco.rosso4/en">personal page on UniBo</a>
+    <a href="https://www.unibo.it/sitoweb/marco.rosso4/en">UniBo</a>
   </div>
 
   <div class="icon-link indented">
@@ -65,6 +65,11 @@ meta_description: "E-mail addresses at the University of Cagliari and the Univer
   <div class="icon-link indented">
     <i class="ai ai-ideas-repec fa-fw"></i>
     <a href="https://ideas.repec.org/f/pro1382.html">IDEAS/RePEc</a>
+  </div>
+
+  <div class="icon-link indented">
+    <i class="ai ai-ssrn-square fa-fw"></i>
+    <a href="https://ssrn.com/author=4602100">SSRN</a>
   </div>
 
   <div class="icon-link indented">
