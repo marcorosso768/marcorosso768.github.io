@@ -57,6 +57,7 @@ courses:
   behavioral-economics-2026:
     title: "Introduction to Behavioral Economics"
     program: "Bachelor in Economics and Finance"
+    materials: /materials/introduction_to_behavioral_economics/
   microeconomics-economics-finance:
     title: "Microeconomics"
     program: "Bachelor in Economics and Finance"

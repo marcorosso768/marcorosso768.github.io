@@ -53,6 +53,10 @@ empirical_methods_for_law_and_economics:
         <p><b>Licence.</b> Free re-use under the <a href="https://ec.europa.eu/eurostat/about-us/policies/copyright">Eurostat copyright notice</a>, provided the source is acknowledged and changes are stated. Data for countries outside the EU, EFTA and candidate countries may be subject to restrictions on commercial reuse; this file is for teaching only. The changes below are the instructor’s; Eurostat is not responsible for them.</p>
         <p><b>Changes made.</b> Selected 2 personnel categories and 6 offence categories; kept 2019; one row per country (37 European countries); merged by ISO3 code with time to enforce contracts and the judicial quality index from Doing Business 2020 (World Bank, CC BY 4.0) and with World Bank GDP per capita for 2019. No imputation; values unchanged.</p>
         <p><b>Scope.</b> Recorded offences count offences reported to and recorded by the police under national legal definitions: they do not measure how widespread crime is. Professional judges are counted under national definitions. The United Kingdom and Bosnia and Herzegovina have no 2019 values. Kosovo: this designation is without prejudice to positions on status, and is in line with UNSCR 1244/1999 and the ICJ Opinion on the Kosovo declaration of independence.</p>
+introduction_to_behavioral_economics:
+  solution: "step-by-step solutions" # link accanto a ogni esercitazione (corso in inglese: stessa etichetta nelle tre lingue)
+  sections:
+    tutorials: "tutorials"
 microeconomics:
   lecture: "Lecture"
   sections:

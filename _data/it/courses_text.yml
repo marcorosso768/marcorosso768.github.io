@@ -53,6 +53,10 @@ empirical_methods_for_law_and_economics:
         <p><b>Licenza.</b> Riutilizzo libero secondo l’<a href="https://ec.europa.eu/eurostat/about-us/policies/copyright">avviso sul copyright di Eurostat</a>, a condizione di citare la fonte e di indicare le modifiche. I dati dei paesi esterni all’UE, all’EFTA e ai paesi candidati possono essere soggetti a restrizioni per il riutilizzo commerciale; questo file è solo a uso didattico. Le modifiche indicate sotto sono del docente; Eurostat non ne è responsabile.</p>
         <p><b>Modifiche.</b> Selezionate 2 categorie di personale e 6 categorie di reati; tenuto il 2019; una riga per paese (37 paesi europei); uniti tramite codice ISO3 ai tempi di esecuzione dei contratti e all’indice di qualità giudiziaria di Doing Business 2020 (Banca Mondiale, CC BY 4.0) e al PIL pro capite 2019 della Banca Mondiale. Nessuna imputazione; valori invariati.</p>
         <p><b>Ambito.</b> I reati registrati contano i reati denunciati e registrati dalla polizia secondo le definizioni giuridiche nazionali: non misurano quanto il crimine sia diffuso. I magistrati professionali sono contati secondo le definizioni nazionali. Regno Unito e Bosnia ed Erzegovina non hanno valori per il 2019. Kosovo: questa designazione non pregiudica le posizioni sullo status ed è conforme alla risoluzione 1244/1999 del Consiglio di Sicurezza dell’ONU e al parere della Corte internazionale di giustizia sulla dichiarazione di indipendenza del Kosovo.</p>
+introduction_to_behavioral_economics:
+  solution: "step-by-step solutions" # link accanto a ogni esercitazione (corso in inglese: stessa etichetta nelle tre lingue)
+  sections:
+    tutorials: "esercitazioni"
 microeconomics:
   lecture: "Lezione"
   sections:

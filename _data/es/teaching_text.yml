@@ -57,6 +57,7 @@ courses:
   behavioral-economics-2026:
     title: "Introducción a la Economía del Comportamiento"
     program: "Licenciatura en Economía y Finanzas (en inglés)"
+    materials: /es/materiales/introducción_a_la_economía_del_comportamiento/
   microeconomics-economics-finance:
     title: "Microeconomía"
     program: "Licenciatura en Economía y Finanzas (en inglés)"
