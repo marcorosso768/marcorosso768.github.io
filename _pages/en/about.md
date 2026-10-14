@@ -47,6 +47,10 @@ social: true # includes social icons at the bottom of the page
 </div>
 <div class="about-gap about-gap--quote"></div>
 
+I am on the <b>2026–2027 academic job market</b>. My <b>job market paper</b>, <b><a href="https://drive.google.com/file/d/1jNssBLkHiNGftb_r8ujWEBS-c-Jdonwh/view?usp=sharing">The Tipping Point of Temptation: Prevention, Sanctions, and Selection into Public Service</a></b> (<b><a href="https://crenos.unica.it/bibcite/reference/8781">CRENoS WP 26/15</a></b> and <b><a href="https://ssrn.com/abstract=7610318">SSRN</a></b>), studies how corruption opportunities shape who selects into public service, and compares removing those opportunities with sanctioning corruption after the fact.
+
+You can find more about me in my <b><a href="/assets/pdf/en/curriculum_vitae_en.pdf" class="external">CV</a></b>.
+
 My <b><a href="/research/">research</a></b> focuses on
 <b>Political Economy</b>,
 <b>Crime Economics</b>,
@@ -55,10 +59,6 @@ My <b><a href="/research/">research</a></b> focuses on
 <b>Behavioral Economics</b>, with a particular interest in how institutions and individual behavior interact in real-world settings. More broadly, I am drawn to questions that sit at the intersection of economics and social behavior, wherever the data and the methods can speak to them.
 
 Having obtained my <b>Ph.D. in Economics</b> at the <b>University of Bologna</b> in 2026, I am currently a <b>Postdoctoral Researcher</b> at the <b>University of Cagliari</b>, where I am working on the interactions between remote work, artificial intelligence, and local labor markets (<b><a href="https://crenos.unica.it/bibcite/reference/8766">CRENoS WP 26/13</a></b>).
-
-I am on the <b>2026–2027 academic job market</b>. My <b>job market paper</b>, <b><a href="https://drive.google.com/file/d/1jNssBLkHiNGftb_r8ujWEBS-c-Jdonwh/view?usp=sharing">The Tipping Point of Temptation: Prevention, Sanctions, and Selection into Public Service</a></b> (<b><a href="https://crenos.unica.it/bibcite/reference/8781">CRENoS WP 26/15</a></b> and <b><a href="https://ssrn.com/abstract=7610318">SSRN</a></b>), studies how corruption opportunities shape who selects into public service, and compares removing those opportunities with sanctioning corruption after the fact.
-
-You can find more about me in my <b><a href="/assets/pdf/en/curriculum_vitae_en.pdf" class="external">CV</a></b>.
 
 Alongside my research, I <b><a href="/teaching/">teach</a></b> <b>Empirical Methods for Law and Economics</b> in the <b>European Doctorate in Law and Economics (EDLE)</b>, <b>Introduction to Economics of the EU</b>, and a <b>Pre-sessional Course in Econometrics</b> at the <b>University of Bologna</b>, where I also serve as a <b>Teaching Assistant</b> in econometrics, microeconomics, economic policy, political economy, and behavioral economics.
 
