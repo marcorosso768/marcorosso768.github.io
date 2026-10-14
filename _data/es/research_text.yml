@@ -56,18 +56,15 @@ entries:
   tipping-point:
     abstract: >-
       Las oportunidades de corrupción atraen a quienes las aprovecharían y alejan a quienes anticipan el costo de
-      resistirlas. Estudio estos dos márgenes en un modelo de elección ocupacional con costos de autocontrol. Sin
-      sanciones, para distribuciones de tipos regulares con densidad positiva en el origen, las rentas pequeñas
-      desplazan la participación cuando la sobrevaloración de la renta inducida por la tentación supera un umbral
-      determinado por la intensidad del conflicto de autocontrol. Con rentas pequeñas existe además un rango de
-      tentación en el que la participación se contrae mientras la integridad promedio sigue cayendo, de modo que una
-      dotación estable puede ocultar un plantel que se deteriora. Con igual excedente neto de la corrupción,
-      eliminar las oportunidades genera una corrupción débilmente menor que las sanciones diferidas, tanto con un
-      salario dado como con un número fijo de puestos. Con puestos fijos y un costo de resistencia convexo, la
-      selección ocupacional atenúa esta ventaja relativa para cualquier distribución de tipos. Cuando las rentas
-      aumentan con la proporción de corruptos entre quienes ocupan los puestos, el ordenamiento se traslada a los
-      estados estacionarios, y un ejemplo muestra cómo la prevención elimina un estado estacionario de alta
-      corrupción que una sanción de excedente equivalente mantiene.
+      resistirlas. Estudio ambos márgenes en un modelo de elección ocupacional con costos de autocontrol. Se
+      destacan tres resultados. Primero, cuando la tentación es fuerte, rentas de corrupción pequeñas pueden achicar
+      el grupo de quienes ingresan. Segundo, el sector público puede perder integridad mientras se reduce, de modo
+      que una dotación estable o en baja puede ocultar un plantel que se deteriora. Tercero, con igual excedente
+      neto de la corrupción, eliminar las oportunidades de corrupción genera una corrupción débilmente menor que las
+      sanciones diferidas, tanto con un salario dado como con un número fijo de puestos. Cuando las rentas aumentan
+      con la proporción de corruptos entre quienes ocupan los puestos, el ordenamiento se traslada a los estados
+      estacionarios, y la prevención puede eliminar un equilibrio de alta corrupción que una sanción equivalente
+      mantiene.
     keywords: "selección ocupacional; autocontrol y tentación; corrupción; disuasión; mercados laborales del sector público; equilibrios múltiples."
   crime-voting:
     abstract: >-

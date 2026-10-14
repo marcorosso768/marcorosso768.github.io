@@ -53,16 +53,13 @@ entries:
   tipping-point:
     abstract: >-
       Corruption opportunities attract people who would exploit them and repel people who anticipate the cost of
-      resisting them. I study these margins in a model of occupational choice with self-control costs. Absent
-      sanctions, for regular type distributions with positive density at the origin, small rents crowd out
-      participation when the tempted overvaluation of the rent exceeds a threshold set by the intensity of the
-      self-control conflict. At small rents there is also a range of temptation in which participation contracts
-      while average integrity still declines, so a stable headcount can conceal a deteriorating workforce. At equal
-      net corrupt surplus, removing opportunities yields weakly lower corruption than deferred sanctions, both at a
-      given wage and with a fixed number of posts. With fixed posts and a convex cost of resisting, occupational
-      selection attenuates this relative advantage for every type distribution. When rents rise with the corrupt
-      share of incumbents, the ordering carries over to steady states, and an example shows prevention removing a
-      high-corruption steady state that a surplus-equivalent sanction preserves.
+      resisting them. I study both margins in a model of occupational choice with self-control costs. Three results
+      stand out. First, when temptation is strong, small corruption rents can shrink the pool of entrants. Second,
+      the public sector can lose integrity while it shrinks, so a stable or falling headcount can conceal a
+      deteriorating workforce. Third, at equal net corrupt surplus, removing corruption opportunities yields weakly
+      lower corruption than deferred sanctions, both at a given wage and with a fixed number of posts. When rents
+      rise with the share of corrupt incumbents, the ranking carries over to steady states, and prevention can
+      eliminate a high-corruption equilibrium that an equivalent sanction preserves.
     keywords: "occupational selection; self-control and temptation; corruption; deterrence; public-sector labor markets; multiple equilibria."
   crime-voting:
     abstract: >-

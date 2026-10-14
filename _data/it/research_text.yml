@@ -56,18 +56,14 @@ entries:
   tipping-point:
     abstract: >-
       Le opportunità di corruzione attraggono chi le sfrutterebbe e allontanano chi prevede il costo di resistervi.
-      Studio questi due margini in un modello di scelta occupazionale con costi di autocontrollo. In assenza di
-      sanzioni, per distribuzioni regolari dei tipi con densità positiva nell’origine, rendite piccole riducono la
-      partecipazione quando la sopravvalutazione della rendita indotta dalla tentazione supera una soglia fissata
-      dall’intensità del conflitto di autocontrollo. Per rendite piccole esiste inoltre un intervallo di tentazione
-      in cui la partecipazione si contrae mentre l’integrità media continua a diminuire: un organico stabile può
-      nascondere un personale che peggiora. A parità di surplus netto da corruzione, eliminare le opportunità
-      produce una corruzione debolmente inferiore rispetto alle sanzioni differite, sia a salario dato sia con un
-      numero fisso di posti. Con posti fissi e un costo di resistenza convesso, la selezione occupazionale attenua
-      questo vantaggio relativo per qualsiasi distribuzione dei tipi. Quando le rendite crescono con la quota di
-      corrotti tra chi è in servizio, l’ordinamento si estende agli stati stazionari, e un esempio mostra come la
-      prevenzione elimini uno stato stazionario ad alta corruzione che una sanzione con surplus equivalente lascia
-      in piedi.
+      Studio entrambi i margini in un modello di scelta occupazionale con costi di autocontrollo. Emergono tre
+      risultati. Primo, quando la tentazione è forte, piccole rendite da corruzione possono ridurre il bacino di chi
+      entra nel settore pubblico. Secondo, il settore pubblico può perdere integrità mentre si restringe, per cui un
+      organico stabile o in calo può nascondere un personale che peggiora. Terzo, a parità di surplus netto da
+      corruzione, eliminare le opportunità di corruzione produce una corruzione debolmente inferiore rispetto alle
+      sanzioni differite, sia a salario dato sia con un numero fisso di posti. Quando le rendite crescono con la
+      quota di corrotti tra chi è in servizio, l’ordinamento si estende agli stati stazionari, e la prevenzione può
+      eliminare un equilibrio ad alta corruzione che una sanzione equivalente lascia in piedi.
     keywords: "selezione occupazionale; autocontrollo e tentazione; corruzione; deterrenza; mercato del lavoro nel settore pubblico; equilibri multipli."
   crime-voting:
     abstract: >-
