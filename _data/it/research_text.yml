@@ -33,7 +33,7 @@ labels:
   and: "e"
   draft_subject: "Richiesta bozza - {title}"
   draft_body: "Caro Marco,\r\n\r\nvorrei chiederti la bozza del tuo working paper “{title}”.\r\n\r\nGrazie!\r\n"
-  draft_email: "marco.rosso4@unibo.it"
+  draft_email: "marco@marcorosso.com"
 
 entries:
   ai-labor-demand:

@@ -33,7 +33,7 @@ labels:
   and: "y"
   draft_subject: "Solicitud de borrador - {title}"
   draft_body: "Hola Marco:\r\n\r\nQuisiera pedirte el borrador de tu documento de trabajo “{title}”.\r\n\r\n¡Gracias!\r\n"
-  draft_email: "marco.rosso4@unibo.it"
+  draft_email: "marco@marcorosso.com"
 
 entries:
   ai-labor-demand:

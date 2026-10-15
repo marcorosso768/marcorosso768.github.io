@@ -33,7 +33,7 @@ labels:
   and: "and"
   draft_subject: "Request for draft - {title}"
   draft_body: "Dear Marco,\r\n\r\nI would like to request the draft of your working paper “{title}”.\r\n\r\nThank you!\r\n"
-  draft_email: "marco.rosso4@unibo.it"
+  draft_email: "marco@marcorosso.com"
 
 entries:
   ai-labor-demand:
