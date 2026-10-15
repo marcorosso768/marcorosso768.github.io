@@ -136,6 +136,7 @@ empirical_methods_for_law_and_economics:
                 - file: "stata/do/exercises/03_relationships_and_tests.do"
                   title: "Relationships and Tests.do"
                   lecture: 3
+                  solution: "stata/do/solutions/03_relationships_and_tests_solved.do"
                 - file: "stata/do/exercises/04_simple_regression.do"
                   title: "Simple Regression.do"
                   lecture: 4

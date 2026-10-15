@@ -4,7 +4,7 @@ layout: page
 permalink: /contactos/
 lang: es
 title: contactos
-description: <i>Direcciones de correo electrónico en la University of Cagliari y en la University of Bologna, junto con una dirección personal. Más abajo, los enlaces a mis perfiles académicos y a LinkedIn.</i>
+description: <i>Una dirección de correo electrónico personal, junto con las de la University of Cagliari y la University of Bologna. Más abajo, los enlaces a mis perfiles académicos y a LinkedIn.</i>
 meta_description: "Direcciones de correo electrónico en la University of Cagliari y en la University of Bologna, con enlaces a mis perfiles académicos y a LinkedIn."
 ---
 
@@ -15,6 +15,11 @@ meta_description: "Direcciones de correo electrónico en la University of Caglia
 <div id="content-1" class="toggle-section expanded contact-list">
 
   <div class="icon-link indented">
+    <i class="fa-regular fa-envelope fa-fw"></i>
+    <a href="mailto:{{ "marco@marcorosso.com" | encode_email }}">{{ "marco@marcorosso.com" | email_entities }}</a>
+  </div>
+
+  <div class="icon-link indented">
     <i class="fa-solid fa-envelope fa-fw"></i>
     <a href="mailto:{{ "marco.rosso@unica.it" | encode_email }}">{{ "marco.rosso@unica.it" | email_entities }}</a>
   </div>
@@ -22,11 +27,6 @@ meta_description: "Direcciones de correo electrónico en la University of Caglia
   <div class="icon-link indented">
     <i class="fa-solid fa-envelope fa-fw"></i>
     <a href="mailto:{{ "marco.rosso4@unibo.it" | encode_email }}">{{ "marco.rosso4@unibo.it" | email_entities }}</a>
-  </div>
-
-  <div class="icon-link indented">
-    <i class="fa-regular fa-envelope fa-fw"></i>
-    <a href="mailto:{{ "marco@marcorosso.com" | encode_email }}">{{ "marco@marcorosso.com" | email_entities }}</a>
   </div>
 
 </div>
