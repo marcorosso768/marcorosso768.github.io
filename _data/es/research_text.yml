@@ -17,6 +17,7 @@ degrees:
   bachelor: "Tesis de Licenciatura"
 
 labels:
+  coverage: "Citado por"
   abstract: "Abstract"
   keywords: "Palabras clave"
   jel: "JEL"

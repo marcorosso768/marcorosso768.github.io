@@ -17,6 +17,7 @@ degrees:
   bachelor: "Tesi di laurea triennale"
 
 labels:
+  coverage: "Citato da"
   abstract: "Abstract"
   keywords: "Parole chiave"
   jel: "JEL"

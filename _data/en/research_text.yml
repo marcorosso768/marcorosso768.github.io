@@ -17,6 +17,7 @@ degrees:
   bachelor: "Bachelor's Thesis"
 
 labels:
+  coverage: "Featured in"
   abstract: "Abstract"
   keywords: "Keywords"
   jel: "JEL"
