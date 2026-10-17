@@ -58,7 +58,7 @@ Mi <b><a href="/es/investigación/">investigación</a></b> se centra en
 <b>Economía Experimental</b> y
 <b>Economía del Comportamiento</b>, con un interés particular en cómo interactúan las instituciones y el comportamiento individual en contextos reales. Más en general, me interesan las preguntas que se sitúan en la intersección entre la economía y el comportamiento social, allí donde los datos y los métodos permiten abordarlas.
 
-Tras obtener el <b>Doctorado en Economía</b> en la <b>University of Bologna</b> en 2026, actualmente soy <b>Investigador Postdoctoral</b> en la <b>University of Cagliari</b> y en el <b>CRENoS</b>, donde estudio las interacciones entre el trabajo remoto, la inteligencia artificial y los mercados laborales locales (<b><a href="https://crenos.unica.it/bibcite/reference/8766">CRENoS WP 26/13</a></b>).
+Tras obtener el <b>Doctorado en Economía</b> en la <b>University of Bologna</b> en 2026, actualmente soy <b>Investigador Postdoctoral</b> en la <b>University of Cagliari</b> y en <b>CRENoS</b>, donde estudio las interacciones entre el trabajo remoto, la inteligencia artificial y los mercados laborales locales (<b><a href="https://crenos.unica.it/bibcite/reference/8766">CRENoS WP 26/13</a></b>).
 
 Junto con la investigación, <b><a href="/es/docencia/">doy clases</a></b> de <b>Métodos Empíricos para el Derecho y la Economía</b> en el <b>Doctorado Europeo en Derecho y Economía (EDLE)</b>, <b>Introducción a la Economía de la UE</b> y un <b>Curso de Nivelación en Econometría</b> en la <b>University of Bologna</b>, donde además me desempeño como <b>Ayudante de Cátedra</b> en econometría, microeconomía, política económica, economía política y economía del comportamiento.
 
