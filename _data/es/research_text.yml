@@ -17,6 +17,8 @@ degrees:
   bachelor: "Tesis de Licenciatura"
 
 labels:
+  months: ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
+  month_year: "{month} de {year}"
   coverage: "Citado por"
   abstract: "Abstract"
   keywords: "Palabras clave"

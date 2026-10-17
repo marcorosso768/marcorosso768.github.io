@@ -17,6 +17,8 @@ degrees:
   bachelor: "Tesi di laurea triennale"
 
 labels:
+  months: ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"]
+  month_year: "{month} {year}"
   coverage: "Citato da"
   abstract: "Abstract"
   keywords: "Parole chiave"

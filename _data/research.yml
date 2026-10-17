@@ -6,7 +6,8 @@
 #   icon: working_paper | wip | publication | thesis
 #   title, url (link del titolo: la versione pubblica del paper), coauthors (chiavi di _data/people.yml)
 #   series (riga sotto i coautori), series_url (link sul nome della serie), isbn, ssrn (link alla pagina SSRN)
-#   coverage: chi ha ripreso il paper fuori dall'accademia (name, url), riga secondaria sotto la serie
+#   coverage: chi ha ripreso il paper fuori dall'accademia (name, url, date AAAA-MM-GG: tra parentesi mese e anno),
+#   riga secondaria sotto la serie
 #   links: pillole-link: working_paper (url, title) | draft_request (mail precompilata, sempre ultima pillola)
 #   panels: pillole che aprono una casella, nell'ordine: abstract, keywords, jel, cite
 #   jel, bibtex: testo delle caselle JEL e Cite
@@ -55,7 +56,11 @@ entries:
     series_url: "https://crenos.unica.it/bibcite/reference/8766"
     isbn: "978-88-6851-699-4"
     coverage:
-      - { name: "Lightcast", url: "https://www.linkedin.com/pulse/one-two-punch-thats-kept-entry-level-postings-lagging-behind-tkfpe/" }
+      - {
+          name: "Lightcast",
+          url: "https://www.linkedin.com/pulse/one-two-punch-thats-kept-entry-level-postings-lagging-behind-tkfpe/",
+          date: "2026-10-14",
+        }
     panels: [abstract, keywords, jel, cite]
     jel: "J23, J24, O33, M51."
     bibtex: |-

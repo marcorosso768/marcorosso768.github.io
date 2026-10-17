@@ -17,6 +17,8 @@ degrees:
   bachelor: "Bachelor's Thesis"
 
 labels:
+  months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+  month_year: "{month} {year}"
   coverage: "Featured in"
   abstract: "Abstract"
   keywords: "Keywords"
