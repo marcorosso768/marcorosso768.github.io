@@ -47,7 +47,7 @@ social: true # includes social icons at the bottom of the page
 </div>
 <div class="about-gap about-gap--quote"></div>
 
-I am on the <b>2026–2027 academic job market</b>. My <b>job market paper</b>, <b><a href="https://drive.google.com/file/d/1jNssBLkHiNGftb_r8ujWEBS-c-Jdonwh/view?usp=sharing">The Tipping Point of Temptation: Prevention, Sanctions, and Selection into Public Service</a></b> (<b><a href="https://crenos.unica.it/bibcite/reference/8781">CRENoS WP 26/15</a></b> and <b><a href="https://ssrn.com/abstract=7610318">SSRN</a></b>), studies how corruption opportunities shape who selects into public service, and compares removing those opportunities with sanctioning corruption after the fact.
+I am on the <b><a href="https://www.europeanjobmarketofeconomists.org/candidates?field_candidate_name_target_id=Marco+Rosso&amp;field_phd_granting_institution_target_id=University+of+Bologna">2026–2027 academic job market</a></b>. My <b>job market paper</b>, <b><a href="https://drive.google.com/file/d/1jNssBLkHiNGftb_r8ujWEBS-c-Jdonwh/view?usp=sharing">The Tipping Point of Temptation: Prevention, Sanctions, and Selection into Public Service</a></b> (<b><a href="https://crenos.unica.it/bibcite/reference/8781">CRENoS WP 26/15</a></b> and <b><a href="https://ssrn.com/abstract=7610318">SSRN</a></b>), studies how corruption opportunities shape who selects into public service, and compares removing those opportunities with sanctioning corruption after the fact.
 
 You can find more about me in my <b><a href="/assets/pdf/en/curriculum_vitae_en.pdf" class="external">CV</a></b>.
 

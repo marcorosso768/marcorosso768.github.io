@@ -47,7 +47,7 @@ social: true # includes social icons at the bottom of the page
 </div>
 <div class="about-gap about-gap--quote"></div>
 
-Estoy en el <b>mercado laboral académico 2026–2027</b>. Mi <b>job market paper</b>, <b><a href="https://drive.google.com/file/d/1jNssBLkHiNGftb_r8ujWEBS-c-Jdonwh/view?usp=sharing">The Tipping Point of Temptation: Prevention, Sanctions, and Selection into Public Service</a></b> (<b><a href="https://crenos.unica.it/bibcite/reference/8781">CRENoS WP 26/15</a></b> y <b><a href="https://ssrn.com/abstract=7610318">SSRN</a></b>), estudia cómo las oportunidades de corrupción influyen en quiénes eligen ingresar al sector público y compara la eliminación de esas oportunidades con las sanciones a posteriori.
+Estoy en el <b><a href="https://www.europeanjobmarketofeconomists.org/candidates?field_candidate_name_target_id=Marco+Rosso&amp;field_phd_granting_institution_target_id=University+of+Bologna">mercado laboral académico 2026–2027</a></b>. Mi <b>job market paper</b>, <b><a href="https://drive.google.com/file/d/1jNssBLkHiNGftb_r8ujWEBS-c-Jdonwh/view?usp=sharing">The Tipping Point of Temptation: Prevention, Sanctions, and Selection into Public Service</a></b> (<b><a href="https://crenos.unica.it/bibcite/reference/8781">CRENoS WP 26/15</a></b> y <b><a href="https://ssrn.com/abstract=7610318">SSRN</a></b>), estudia cómo las oportunidades de corrupción influyen en quiénes eligen ingresar al sector público y compara la eliminación de esas oportunidades con las sanciones a posteriori.
 
 Podés encontrar más información sobre mí en mi <b><a href="/assets/pdf/es/curriculum_vitae_es.pdf" class="external">CV</a></b>.
 
