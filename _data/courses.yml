@@ -4,7 +4,8 @@
 # (sotto titles, con il nome del file come chiave) invece che qui.
 #
 # Campi di un file:
-#   file: nome del file nella cartella del corso (gli spazi diventano %20 nel link)
+#   file: nome del file nella cartella del corso (gli spazi diventano %20 nel link), oppure percorso completo
+#     /assets/... per un file che sta nella cartella di un altro corso
 #   notebook: nome del notebook .ipynb (link al visualizzatore indicato in viewer, più il pulsante per scaricarlo)
 #   title: titolo, se è uguale in tutte le lingue
 #   lecture: numero della lezione (mostra "Lecture 3:" / "Lezione 3:" / "Clase 3:")
@@ -21,7 +22,7 @@
 # Un singolo file può avere details: <chiave>: i dettagli (courses_text.yml, details.<chiave>) compaiono sotto il file.
 
 econometrics:
-  folder: /assets/teaching_material/econometrics/
+  folder: /assets/teaching_material/instructor/econometrics/
   sections:
     - key: handbook
       id: content-0
@@ -61,7 +62,7 @@ econometrics:
         - file: "Marginal_Effects_and_Maximum_Likelihood_Tests.do"
           title: "Marginal Effects in Logit & Probit Models and Maximum Likelihood Tests.do"
 empirical_methods_for_law_and_economics:
-  folder: /assets/teaching_material/empirical_methods_for_law_and_economics/
+  folder: /assets/teaching_material/instructor/empirical_methods_for_law_and_economics/
   # i do-file stanno in stata/do/, la cartella del corso per gli studenti: 00_setup.do, data/, exercises/,
   # solutions/, ready_to_run/ (results/ la crea 00_setup.do)
   sections:
@@ -163,7 +164,7 @@ empirical_methods_for_law_and_economics:
               prefix: "Data"
               details: justice_europe_2019
 introduction_to_behavioral_economics:
-  folder: /assets/teaching_material/introduction_to_behavioral_economics/
+  folder: /assets/teaching_material/teaching_assistant/introduction_to_behavioral_economics/
   sections:
     - key: tutorials
       id: content-0
@@ -178,7 +179,7 @@ introduction_to_behavioral_economics:
           prefix: "Tutorial 2"
           solution: "tutorial_2_step_by_step.pdf"
 microeconomics:
-  folder: /assets/teaching_material/microeconomia/
+  folder: /assets/teaching_material/instructor/microeconomia/
   sections:
     - key: handbook
       id: content-0
@@ -187,8 +188,8 @@ microeconomics:
         - file: "Note_di_Microeconomia.pdf"
           updated: "2026-09-28"
           translations:
-            en: /assets/teaching_material/microeconomics/Lecture_Notes_in_Microeconomics.pdf
-            es: /assets/teaching_material/microeconomics/Lecture_Notes_in_Microeconomics.pdf
+            en: /assets/teaching_material/instructor/microeconomics/Lecture_Notes_in_Microeconomics.pdf
+            es: /assets/teaching_material/instructor/microeconomics/Lecture_Notes_in_Microeconomics.pdf
     - key: slides
       id: content-1
       icon: fa-regular fa-note-sticky
@@ -196,105 +197,105 @@ microeconomics:
         - file: "Lezione_01.pdf"
           lecture: 1
           translations:
-            en: /assets/teaching_material/microeconomics/Lecture_01.pdf
-            es: /assets/teaching_material/microeconomics/Lecture_01.pdf
+            en: /assets/teaching_material/instructor/microeconomics/Lecture_01.pdf
+            es: /assets/teaching_material/instructor/microeconomics/Lecture_01.pdf
         - file: "Lezione_02.pdf"
           lecture: 2
           translations:
-            en: /assets/teaching_material/microeconomics/Lecture_02.pdf
-            es: /assets/teaching_material/microeconomics/Lecture_02.pdf
+            en: /assets/teaching_material/instructor/microeconomics/Lecture_02.pdf
+            es: /assets/teaching_material/instructor/microeconomics/Lecture_02.pdf
         - file: "Lezione_03.pdf"
           lecture: 3
           translations:
-            en: /assets/teaching_material/microeconomics/Lecture_03.pdf
-            es: /assets/teaching_material/microeconomics/Lecture_03.pdf
+            en: /assets/teaching_material/instructor/microeconomics/Lecture_03.pdf
+            es: /assets/teaching_material/instructor/microeconomics/Lecture_03.pdf
         - file: "Lezione_04.pdf"
           lecture: 4
           translations:
-            en: /assets/teaching_material/microeconomics/Lecture_04.pdf
-            es: /assets/teaching_material/microeconomics/Lecture_04.pdf
+            en: /assets/teaching_material/instructor/microeconomics/Lecture_04.pdf
+            es: /assets/teaching_material/instructor/microeconomics/Lecture_04.pdf
         - file: "Lezione_05.pdf"
           lecture: 5
           translations:
-            en: /assets/teaching_material/microeconomics/Lecture_05.pdf
-            es: /assets/teaching_material/microeconomics/Lecture_05.pdf
+            en: /assets/teaching_material/instructor/microeconomics/Lecture_05.pdf
+            es: /assets/teaching_material/instructor/microeconomics/Lecture_05.pdf
         - file: "Lezione_06.pdf"
           lecture: 6
           translations:
-            en: /assets/teaching_material/microeconomics/Lecture_06.pdf
-            es: /assets/teaching_material/microeconomics/Lecture_06.pdf
+            en: /assets/teaching_material/instructor/microeconomics/Lecture_06.pdf
+            es: /assets/teaching_material/instructor/microeconomics/Lecture_06.pdf
         - file: "Lezione_07.pdf"
           lecture: 7
           translations:
-            en: /assets/teaching_material/microeconomics/Lecture_07.pdf
-            es: /assets/teaching_material/microeconomics/Lecture_07.pdf
+            en: /assets/teaching_material/instructor/microeconomics/Lecture_07.pdf
+            es: /assets/teaching_material/instructor/microeconomics/Lecture_07.pdf
         - file: "Lezione_08.pdf"
           lecture: 8
           translations:
-            en: /assets/teaching_material/microeconomics/Lecture_08.pdf
-            es: /assets/teaching_material/microeconomics/Lecture_08.pdf
+            en: /assets/teaching_material/instructor/microeconomics/Lecture_08.pdf
+            es: /assets/teaching_material/instructor/microeconomics/Lecture_08.pdf
         - file: "Lezione_09.pdf"
           lecture: 9
           translations:
-            en: /assets/teaching_material/microeconomics/Lecture_09.pdf
-            es: /assets/teaching_material/microeconomics/Lecture_09.pdf
+            en: /assets/teaching_material/instructor/microeconomics/Lecture_09.pdf
+            es: /assets/teaching_material/instructor/microeconomics/Lecture_09.pdf
         - file: "Lezione_10.pdf"
           lecture: 10
           translations:
-            en: /assets/teaching_material/microeconomics/Lecture_10.pdf
-            es: /assets/teaching_material/microeconomics/Lecture_10.pdf
+            en: /assets/teaching_material/instructor/microeconomics/Lecture_10.pdf
+            es: /assets/teaching_material/instructor/microeconomics/Lecture_10.pdf
         - file: "Lezione_11.pdf"
           lecture: 11
           translations:
-            en: /assets/teaching_material/microeconomics/Lecture_11.pdf
-            es: /assets/teaching_material/microeconomics/Lecture_11.pdf
+            en: /assets/teaching_material/instructor/microeconomics/Lecture_11.pdf
+            es: /assets/teaching_material/instructor/microeconomics/Lecture_11.pdf
         - file: "Lezione_12.pdf"
           lecture: 12
           translations:
-            en: /assets/teaching_material/microeconomics/Lecture_12.pdf
-            es: /assets/teaching_material/microeconomics/Lecture_12.pdf
+            en: /assets/teaching_material/instructor/microeconomics/Lecture_12.pdf
+            es: /assets/teaching_material/instructor/microeconomics/Lecture_12.pdf
         - file: "Lezione_13.pdf"
           lecture: 13
           translations:
-            en: /assets/teaching_material/microeconomics/Lecture_13.pdf
-            es: /assets/teaching_material/microeconomics/Lecture_13.pdf
+            en: /assets/teaching_material/instructor/microeconomics/Lecture_13.pdf
+            es: /assets/teaching_material/instructor/microeconomics/Lecture_13.pdf
         - file: "Lezione_14.pdf"
           lecture: 14
           translations:
-            en: /assets/teaching_material/microeconomics/Lecture_14.pdf
-            es: /assets/teaching_material/microeconomics/Lecture_14.pdf
+            en: /assets/teaching_material/instructor/microeconomics/Lecture_14.pdf
+            es: /assets/teaching_material/instructor/microeconomics/Lecture_14.pdf
         - file: "Lezione_15.pdf"
           lecture: 15
           translations:
-            en: /assets/teaching_material/microeconomics/Lecture_15.pdf
-            es: /assets/teaching_material/microeconomics/Lecture_15.pdf
+            en: /assets/teaching_material/instructor/microeconomics/Lecture_15.pdf
+            es: /assets/teaching_material/instructor/microeconomics/Lecture_15.pdf
         - file: "Lezione_16.pdf"
           lecture: 16
           translations:
-            en: /assets/teaching_material/microeconomics/Lecture_16.pdf
-            es: /assets/teaching_material/microeconomics/Lecture_16.pdf
+            en: /assets/teaching_material/instructor/microeconomics/Lecture_16.pdf
+            es: /assets/teaching_material/instructor/microeconomics/Lecture_16.pdf
         - file: "Lezione_17.pdf"
           lecture: 17
           translations:
-            en: /assets/teaching_material/microeconomics/Lecture_17.pdf
-            es: /assets/teaching_material/microeconomics/Lecture_17.pdf
+            en: /assets/teaching_material/instructor/microeconomics/Lecture_17.pdf
+            es: /assets/teaching_material/instructor/microeconomics/Lecture_17.pdf
         - file: "Lezione_18.pdf"
           lecture: 18
           translations:
-            en: /assets/teaching_material/microeconomics/Lecture_18.pdf
-            es: /assets/teaching_material/microeconomics/Lecture_18.pdf
+            en: /assets/teaching_material/instructor/microeconomics/Lecture_18.pdf
+            es: /assets/teaching_material/instructor/microeconomics/Lecture_18.pdf
         - file: "Lezione_19.pdf"
           lecture: 19
           translations:
-            en: /assets/teaching_material/microeconomics/Lecture_19.pdf
-            es: /assets/teaching_material/microeconomics/Lecture_19.pdf
+            en: /assets/teaching_material/instructor/microeconomics/Lecture_19.pdf
+            es: /assets/teaching_material/instructor/microeconomics/Lecture_19.pdf
         - file: "Lezione_20.pdf"
           lecture: 20
           translations:
-            en: /assets/teaching_material/microeconomics/Lecture_20.pdf
-            es: /assets/teaching_material/microeconomics/Lecture_20.pdf
+            en: /assets/teaching_material/instructor/microeconomics/Lecture_20.pdf
+            es: /assets/teaching_material/instructor/microeconomics/Lecture_20.pdf
 python_for_economists:
-  folder: /assets/teaching_material/python_for_economists/
+  folder: /assets/teaching_material/instructor/python_for_economists/
   viewer: https://nbviewer.org/github/marcorosso768/marcorosso768.github.io/blob/master # i notebook si aprono qui
   sections:
     - key: notebooks
@@ -371,3 +372,58 @@ python_for_economists:
         - notebook: "E_research_design_replication.ipynb"
           title: "Research Design & Replication"
           prefix: "Extra"
+measurement_and_econometric_analysis:
+  # Measurement and Econometric Analysis (I.C.): Econometrics, Denni Tommasi (tutor didattico)
+  folder: /assets/teaching_material/teaching_assistant/econometrics/
+  sections:
+    - key: handbook
+      id: content-0
+      icon: fa-regular fa-file-pdf
+      items:
+        - file: "/assets/teaching_material/instructor/econometrics/Introduction_to_STATA.pdf"
+          title: "Introduction to Stata"
+          updated: "2026-09"
+    - key: lecture-notes
+      id: content-1
+      icon: fa-regular fa-note-sticky
+      blocks:
+        - id: subsection-introduction-to-stata
+          title: "Introduction to Stata"
+          items:
+            - file: "introduction_to_stata/lecture_notes/lecture_1.pdf"
+              title: "Workflow and Getting Data into Stata"
+              lecture: 1
+            - file: "introduction_to_stata/lecture_notes/lecture_2.pdf"
+              title: "Creating Variables and Combining Datasets"
+              lecture: 2
+            - file: "introduction_to_stata/lecture_notes/lecture_3.pdf"
+              title: "Descriptive Statistics, Tests, and Graphs"
+              lecture: 3
+            - file: "introduction_to_stata/lecture_notes/lecture_4.pdf"
+              title: "Linear Regression (OLS)"
+              lecture: 4
+    - key: do-files
+      id: content-2
+      icon: fa-solid fa-code
+      note_first: true
+      blocks:
+        - id: subsection-do-introduction-to-stata
+          title: "Introduction to Stata"
+          items:
+            - file: "introduction_to_stata/stata/L1_exercises.do"
+              title: "Workflow and Getting Data into Stata.do"
+              lecture: 1
+              solution: "introduction_to_stata/stata/L1_solutions.do"
+            - file: "introduction_to_stata/stata/L2_exercises.do"
+              title: "Creating Variables and Combining Datasets.do"
+              lecture: 2
+              solution: "introduction_to_stata/stata/L2_solutions.do"
+            - file: "introduction_to_stata/stata/L3_exercises.do"
+              title: "Descriptive Statistics, Tests, and Graphs.do"
+              lecture: 3
+              solution: "introduction_to_stata/stata/L3_solutions.do"
+            - file: "introduction_to_stata/stata/L4_exercises.do"
+              title: "Linear Regression (OLS).do"
+              lecture: 4
+              solution: "introduction_to_stata/stata/L4_solutions.do"
+        # L5-L6 (replication di paper): un blocco "Replications" con id subsection-replications, qui e in lecture-notes

@@ -67,6 +67,7 @@ courses:
   econometrics-public-policy:
     title: "Measurement and Econometric Analysis (I.C.): Econometrics"
     program: "Laurea magistrale in Economics and Public Policy (in inglese)"
+    materials: /it/materiali/measurement_and_econometric_analysis/
   industrial-economics:
     title: "Strategie di Mercato"
     program: "Laurea triennale in Economia, Mercati e Istituzioni"

@@ -4,6 +4,7 @@
   Titolo: quello di courses_text.yml nella lingua della pagina; se manca, quello inglese (courses_text.yml in
   inglese, poi title in courses.yml). Un titolo inglese in una pagina it/es ha lang="en" (lettori di schermo).
   Un esercizio con solution: <file> ha sulla stessa riga un secondo link, alla soluzione (etichetta labels.solution, o solution del corso in courses_text.yml).
+  Un file con percorso completo (/assets/…) è linkato così com'è: serve per un file di un altro corso (es. un manuale comune).
   Un file con details: <chiave> ha subito sotto i dettagli che si aprono, presi da courses_text.yml (details.<chiave>).
 {%- endcomment -%}
 <ul class="{{ include.list_class }}">
@@ -21,6 +22,8 @@
       {%- assign url = course.folder | append: item.notebook | prepend: course.viewer -%}
     {%- elsif item.translations[site.active_lang] -%}
       {%- assign url = item.translations[site.active_lang] | replace: ' ', '%20' -%}
+    {%- elsif item.file contains '/assets/' -%}
+      {%- assign url = item.file | replace: ' ', '%20' -%}
     {%- else -%}
       {%- assign url = course.folder | append: item.file | replace: ' ', '%20' -%}
     {%- endif %}

@@ -89,3 +89,11 @@ python_for_economists:
   sections:
     notebooks: "notebook"
     extra: "extra materials"
+measurement_and_econometric_analysis:
+  lecture: "Lecture"
+  sections:
+    handbook: "handbook"
+    lecture-notes: "lecture notes"
+    do-files: "do-files"
+  notes:
+    do-files: "Create a folder <code>Stata</code> on your computer and save the do-files in its subfolder <code>do/</code>. Open each do-file and, in the line <code>global root</code>, replace the example path with the path of your <code>Stata</code> folder. We will download the data together in class."

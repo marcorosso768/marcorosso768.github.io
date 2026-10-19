@@ -68,3 +68,11 @@ python_for_economists:
   sections:
     notebooks: "notebook"
     extra: "materiales adicionales"
+measurement_and_econometric_analysis:
+  lecture: "Lecture"
+  sections:
+    handbook: "manual"
+    lecture-notes: "apuntes de clase"
+    do-files: "do-files"
+  notes:
+    do-files: "Creá en tu computadora una carpeta <code>Stata</code> y guardá los do-files en su subcarpeta <code>do/</code>. Abrí cada do-file y, en la línea <code>global root</code>, reemplazá la ruta de ejemplo por la de tu carpeta <code>Stata</code>. Los datos los vamos a descargar juntos en clase."

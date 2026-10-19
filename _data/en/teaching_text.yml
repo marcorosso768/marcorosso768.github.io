@@ -67,6 +67,7 @@ courses:
   econometrics-public-policy:
     title: "Measurement and Econometric Analysis (I.C.): Econometrics"
     program: "Two Year Master in Economics and Public Policy"
+    materials: /materials/measurement_and_econometric_analysis/
   industrial-economics:
     title: "Industrial Economics"
     program: "Bachelor in Economics, Markets and Institutions (in Italian)"
