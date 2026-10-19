@@ -75,4 +75,4 @@ measurement_and_econometric_analysis:
     lecture-notes: "apuntes de clase"
     do-files: "do-files"
   notes:
-    do-files: "Creá en tu computadora una carpeta <code>Stata</code> y guardá los do-files en su subcarpeta <code>do/</code>. Abrí cada do-file y, en la línea <code>global root</code>, reemplazá la ruta de ejemplo por la de tu carpeta <code>Stata</code>. Los datos los vamos a descargar juntos en clase."
+    do-files: "Creá en tu computadora una carpeta <code>Stata_Lectures_2026</code> y guardá los do-files en su subcarpeta <code>do/</code>. Abrí cada do-file y, en la línea <code>global root</code>, reemplazá la ruta de ejemplo por la de tu carpeta <code>Stata_Lectures_2026</code>. Los datos los vamos a descargar juntos en clase."

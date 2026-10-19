@@ -96,4 +96,4 @@ measurement_and_econometric_analysis:
     lecture-notes: "dispense"
     do-files: "do-file"
   notes:
-    do-files: "Sul proprio computer va creata una cartella <code>Stata</code>, con i do-file nella sottocartella <code>do/</code>. In ogni do-file, nella riga <code>global root</code>, va sostituito il percorso di esempio con quello della propria cartella <code>Stata</code>. I dati si scaricano insieme in classe."
+    do-files: "Sul proprio computer va creata una cartella <code>Stata_Lectures_2026</code>, con i do-file nella sottocartella <code>do/</code>. In ogni do-file, nella riga <code>global root</code>, va sostituito il percorso di esempio con quello della propria cartella <code>Stata_Lectures_2026</code>. I dati si scaricano insieme in classe."
