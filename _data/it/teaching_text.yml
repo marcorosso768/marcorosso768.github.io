@@ -49,7 +49,7 @@ courses:
     program: "Laurea triennale in Business and Economics (in inglese)"
     materials: /it/materiali/econometria/
   microeconometrics:
-    title: "Econometrics A (I.C.): Microeconometrics"
+    title: "Econometrics A (C.I.): Microeconometrics"
     program: "Laurea magistrale in Economics and Econometrics (in inglese)"
   economic-policy-methods:
     title: "Politica Economica C.A. e Metodi"
@@ -78,7 +78,7 @@ courses:
     title: "Microeconomics"
     program: "Laurea triennale in Economics, Politics and Social Sciences (in inglese)"
   game-theory-economics-econometrics:
-    title: "Microeconomics (I.C.): Game Theory"
+    title: "Microeconomics (C.I.): Game Theory"
     program: "Laurea magistrale in Economics and Econometrics (in inglese)"
   behavioral-economics-2022:
     title: "Introduction to Behavioral Economics"
