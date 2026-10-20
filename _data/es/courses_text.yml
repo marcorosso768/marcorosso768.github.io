@@ -24,6 +24,7 @@ empirical_methods_for_law_and_economics:
   lecture: "Lecture"
   sections:
     course-info: "información del curso"
+    handbook: "manual"
     lecture-notes: "apuntes de clase"
     do-files: "do-files"
     dataset: "dataset"

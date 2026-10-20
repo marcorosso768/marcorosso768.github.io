@@ -74,6 +74,13 @@ empirical_methods_for_law_and_economics:
           title: "Syllabus"
         - file: "course_info/required_readings.pdf"
           title: "Required Readings and Discussion Questions"
+    - key: handbook
+      id: content-handbook
+      icon: fa-regular fa-file-pdf
+      items:
+        - file: "/assets/teaching_material/instructor/econometrics/Introduction_to_STATA.pdf"
+          title: "Introduction to Stata"
+          updated: "2026-09"
     - key: lecture-notes
       id: content-1
       icon: fa-regular fa-note-sticky
