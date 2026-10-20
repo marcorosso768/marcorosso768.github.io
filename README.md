@@ -31,6 +31,10 @@ polyglot would merge a file with the same name). Each data file starts with a co
 | about, contacts              | `_pages/<lang>/about.md`, `_pages/<lang>/contacts.md`         |
 | URLs across languages        | `_data/url_map.yml` (language switch and `hreflang` tags)     |
 
+The files of the course pages are in `assets/teaching_material/instructor/<course>/` (courses taught as instructor)
+and `assets/teaching_material/teaching_assistant/<course>/` (tutorials as teaching assistant); `_data/courses.yml`
+gives each course's folder, and a file shared between courses (such as the Stata handbook) is linked by its full path.
+
 ## Build and checks
 
 - **Deploy**: every push to `master` builds the site with GitHub Actions and publishes it on the `gh-pages` branch.
@@ -40,8 +44,9 @@ polyglot would merge a file with the same name). Each data file starts with a co
 - **Formatting**: Prettier (`npx prettier . --check`), also run by a GitHub Action.
 - **JavaScript**: files in `assets/js` must stay readable by the minifier (uglify-es): `node .husky/check-js.mjs`.
 - **Performance**: [PageSpeed Insights](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fmarcorosso.com%2F&form_factor=mobile)
-  runs a fresh test of the home page. Scores vary from run to run: on mobile they ranged from 96 to 100 in
-  September 2026.
+  runs a fresh test of the home page. Scores vary from run to run: on mobile, four consecutive runs on 20 October
+  2026 scored 100 in all four categories (performance, accessibility, best practices, SEO); in September 2026
+  performance ranged from 96 to 100.
 
 ## License
 
