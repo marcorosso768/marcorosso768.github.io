@@ -61,6 +61,7 @@ courses:
   microeconomics-economics-finance:
     title: "Microeconomía"
     program: "Licenciatura en Economía y Finanzas (en inglés)"
+    materials: /es/materiales/microeconomía_economía_y_finanzas/
   statistics-data-tutoring:
     title: "Actividades de Tutoría en el Área de Estadística y Datos"
     program: "Licenciatura en Negocios y Economía (en inglés)"

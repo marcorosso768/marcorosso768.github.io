@@ -61,6 +61,7 @@ courses:
   microeconomics-economics-finance:
     title: "Microeconomics"
     program: "Bachelor in Economics and Finance"
+    materials: /materials/microeconomics_economics_and_finance/
   statistics-data-tutoring:
     title: "Tutoring Activities in the Statistics and Data Area"
     program: "Bachelor in Business and Economics"

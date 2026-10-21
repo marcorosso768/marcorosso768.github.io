@@ -77,3 +77,7 @@ measurement_and_econometric_analysis:
     do-files: "do-files"
   notes:
     do-files: "Creá en tu computadora una carpeta <code>Stata_Lectures_2026</code> y guardá los do-files en su subcarpeta <code>do/</code>. Abrí cada do-file y, en la línea <code>global root</code>, reemplazá la ruta de ejemplo por la de tu carpeta <code>Stata_Lectures_2026</code>. Los datos los vamos a descargar juntos en clase."
+microeconomics_economics_and_finance:
+  solution: "step-by-step solutions" # corso in inglese: stessa etichetta nelle tre lingue
+  sections:
+    revision-tutorials: "prácticas de repaso"

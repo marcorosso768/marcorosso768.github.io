@@ -61,6 +61,7 @@ courses:
   microeconomics-economics-finance:
     title: "Microeconomics"
     program: "Laurea triennale in Economics and Finance (in inglese)"
+    materials: /it/materiali/microeconomics_economics_and_finance/
   statistics-data-tutoring:
     title: "Attività di Tutorato nell’Area Statistica e dei Dati"
     program: "Laurea triennale in Business and Economics (in inglese)"

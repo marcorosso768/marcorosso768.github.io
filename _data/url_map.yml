@@ -18,6 +18,7 @@ en:
   "/it/materiali/metodi_empirici_per_law_and_economics/": "/materials/empirical_methods_for_law_and_economics/"
   "/it/materiali/introduzione_all_economia_comportamentale/": "/materials/introduction_to_behavioral_economics/"
   "/it/materiali/measurement_and_econometric_analysis/": "/materials/measurement_and_econometric_analysis/"
+  "/it/materiali/microeconomics_economics_and_finance/": "/materials/microeconomics_economics_and_finance/"
   # Spanish to English mappings
   "/es/": "/"
   "/es/curriculum_vitae/": "/curriculum_vitae/"
@@ -37,6 +38,7 @@ en:
   "/es/materiales/métodos_empíricos_para_derecho_y_economía/": "/materials/empirical_methods_for_law_and_economics/"
   "/es/materiales/introducción_a_la_economía_del_comportamiento/": "/materials/introduction_to_behavioral_economics/"
   "/es/materiales/medición_y_análisis_econométrico/": "/materials/measurement_and_econometric_analysis/"
+  "/es/materiales/microeconomía_economía_y_finanzas/": "/materials/microeconomics_economics_and_finance/"
 
 it:
   # English to Italian mappings
@@ -58,6 +60,7 @@ it:
   "/materials/empirical_methods_for_law_and_economics/": "/it/materiali/metodi_empirici_per_law_and_economics/"
   "/materials/introduction_to_behavioral_economics/": "/it/materiali/introduzione_all_economia_comportamentale/"
   "/materials/measurement_and_econometric_analysis/": "/it/materiali/measurement_and_econometric_analysis/"
+  "/materials/microeconomics_economics_and_finance/": "/it/materiali/microeconomics_economics_and_finance/"
   # Spanish to Italian mappings
   "/es/": "/it/"
   "/es/curriculum_vitae/": "/it/curriculum_vitae/"
@@ -77,6 +80,7 @@ it:
   "/es/materiales/métodos_empíricos_para_derecho_y_economía/": "/it/materiali/metodi_empirici_per_law_and_economics/"
   "/es/materiales/introducción_a_la_economía_del_comportamiento/": "/it/materiali/introduzione_all_economia_comportamentale/"
   "/es/materiales/medición_y_análisis_econométrico/": "/it/materiali/measurement_and_econometric_analysis/"
+  "/es/materiales/microeconomía_economía_y_finanzas/": "/it/materiali/microeconomics_economics_and_finance/"
 
 es:
   # English to Spanish mappings
@@ -98,6 +102,7 @@ es:
   "/materials/empirical_methods_for_law_and_economics/": "/es/materiales/métodos_empíricos_para_derecho_y_economía/"
   "/materials/introduction_to_behavioral_economics/": "/es/materiales/introducción_a_la_economía_del_comportamiento/"
   "/materials/measurement_and_econometric_analysis/": "/es/materiales/medición_y_análisis_econométrico/"
+  "/materials/microeconomics_economics_and_finance/": "/es/materiales/microeconomía_economía_y_finanzas/"
   # Italian to Spanish mappings
   "/it/": "/es/"
   "/it/curriculum_vitae/": "/es/curriculum_vitae/"
@@ -117,3 +122,4 @@ es:
   "/it/materiali/metodi_empirici_per_law_and_economics/": "/es/materiales/métodos_empíricos_para_derecho_y_economía/"
   "/it/materiali/introduzione_all_economia_comportamentale/": "/es/materiales/introducción_a_la_economía_del_comportamiento/"
   "/it/materiali/measurement_and_econometric_analysis/": "/es/materiales/medición_y_análisis_econométrico/"
+  "/it/materiali/microeconomics_economics_and_finance/": "/es/materiales/microeconomía_economía_y_finanzas/"

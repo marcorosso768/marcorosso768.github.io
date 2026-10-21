@@ -111,6 +111,7 @@ courses:
     dates: "2026–"
   microeconomics-economics-finance:
     unibo: "2026/527268"
+    materials: microeconomics_economics_and_finance
     with: [wakefield]
     dates: "2026–"
   statistics-data-tutoring:
