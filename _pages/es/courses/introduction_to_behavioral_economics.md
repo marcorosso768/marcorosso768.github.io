@@ -1,7 +1,7 @@
 ---
 page_id: introduction_to_behavioral_economics
 layout: page
-permalink: /materiales/introducción_a_la_economía_del_comportamiento/
+permalink: /materiales/ta_introducción_a_la_economía_del_comportamiento/
 title: introducción a la economía del comportamiento
 description: "<i>Materiales de las prácticas de Introducción a la Economía del Comportamiento, Licenciatura en Economía y Finanzas (CLEF), University of Bologna: slides de las prácticas, cada una disponible también con soluciones paso a paso. Los materiales están en inglés y se van sumando a medida que avanza el curso.</i>"
 meta_description: "Introducción a la Economía del Comportamiento (CLEF, University of Bologna): slides de las prácticas con soluciones paso a paso, en inglés."

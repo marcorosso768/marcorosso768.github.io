@@ -57,18 +57,18 @@ courses:
   behavioral-economics-2026:
     title: "Introduction to Behavioral Economics"
     program: "Laurea triennale in Economics and Finance (in inglese)"
-    materials: /it/materiali/introduzione_all_economia_comportamentale/
+    materials: /it/materiali/ta_introduzione_all_economia_comportamentale/
   microeconomics-economics-finance:
     title: "Microeconomics"
     program: "Laurea triennale in Economics and Finance (in inglese)"
-    materials: /it/materiali/microeconomics_economics_and_finance/
+    materials: /it/materiali/ta_microeconomics/
   statistics-data-tutoring:
     title: "Attività di Tutorato nell’Area Statistica e dei Dati"
     program: "Laurea triennale in Business and Economics (in inglese)"
   econometrics-public-policy:
     title: "Measurement and Econometric Analysis (C.I.): Econometrics"
     program: "Laurea magistrale in Economics and Public Policy (in inglese)"
-    materials: /it/materiali/measurement_and_econometric_analysis/
+    materials: /it/materiali/ta_measurement_and_econometric_analysis/
   industrial-economics:
     title: "Strategie di Mercato"
     program: "Laurea triennale in Economia, Mercati e Istituzioni"

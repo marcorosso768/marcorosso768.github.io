@@ -1,8 +1,8 @@
 ---
 page_id: microeconomics_economics_and_finance
 layout: page
-permalink: /materiales/microeconomía_economía_y_finanzas/
-title: microeconomía (economía y finanzas)
+permalink: /materiales/ta_microeconomía/
+title: microeconomía
 description: "<i>Materiales de las prácticas de repaso de Microeconomía, Licenciatura en Economía y Finanzas (CLEF), University of Bologna: slides de las prácticas, cada una disponible también con soluciones paso a paso. Los materiales están en inglés y se van sumando a medida que avanza el curso.</i>"
 meta_description: "Microeconomía (CLEF, University of Bologna): slides de las prácticas de repaso con soluciones paso a paso, en inglés."
 course_back: true # freccia sopra il titolo: ← materials, oppure ← teaching se si arriva da teaching (?from=teaching)

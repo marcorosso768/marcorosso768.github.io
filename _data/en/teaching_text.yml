@@ -57,18 +57,18 @@ courses:
   behavioral-economics-2026:
     title: "Introduction to Behavioral Economics"
     program: "Bachelor in Economics and Finance"
-    materials: /materials/introduction_to_behavioral_economics/
+    materials: /materials/ta_introduction_to_behavioral_economics/
   microeconomics-economics-finance:
     title: "Microeconomics"
     program: "Bachelor in Economics and Finance"
-    materials: /materials/microeconomics_economics_and_finance/
+    materials: /materials/ta_microeconomics/
   statistics-data-tutoring:
     title: "Tutoring Activities in the Statistics and Data Area"
     program: "Bachelor in Business and Economics"
   econometrics-public-policy:
     title: "Measurement and Econometric Analysis (I.C.): Econometrics"
     program: "Two Year Master in Economics and Public Policy"
-    materials: /materials/measurement_and_econometric_analysis/
+    materials: /materials/ta_measurement_and_econometric_analysis/
   industrial-economics:
     title: "Industrial Economics"
     program: "Bachelor in Economics, Markets and Institutions (in Italian)"

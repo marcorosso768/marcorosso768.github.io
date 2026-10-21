@@ -57,18 +57,18 @@ courses:
   behavioral-economics-2026:
     title: "Introducción a la Economía del Comportamiento"
     program: "Licenciatura en Economía y Finanzas (en inglés)"
-    materials: /es/materiales/introducción_a_la_economía_del_comportamiento/
+    materials: /es/materiales/ta_introducción_a_la_economía_del_comportamiento/
   microeconomics-economics-finance:
     title: "Microeconomía"
     program: "Licenciatura en Economía y Finanzas (en inglés)"
-    materials: /es/materiales/microeconomía_economía_y_finanzas/
+    materials: /es/materiales/ta_microeconomía/
   statistics-data-tutoring:
     title: "Actividades de Tutoría en el Área de Estadística y Datos"
     program: "Licenciatura en Negocios y Economía (en inglés)"
   econometrics-public-policy:
     title: "Medición y Análisis Econométrico (C.I.): Econometría"
     program: "Maestría en Economía y Políticas Públicas (en inglés)"
-    materials: /es/materiales/medición_y_análisis_econométrico/
+    materials: /es/materiales/ta_medición_y_análisis_econométrico/
   industrial-economics:
     title: "Economía Industrial"
     program: "Licenciatura en Economía, Mercados e Instituciones (en italiano)"
