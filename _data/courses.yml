@@ -109,6 +109,18 @@ empirical_methods_for_law_and_economics:
             - file: "lecture_notes/week_02/lab_companion_week_02.pdf"
               title: "Lab Companion"
               prefix: "Lectures 3–4"
+        - id: subsection-week-3
+          title: "Week 3"
+          items:
+            - file: "lecture_notes/week_03/lecture_05.pdf"
+              title: "Multiple Regression and the Referee Report"
+              lecture: 5
+            - file: "lecture_notes/week_03/lecture_06.pdf"
+              title: "Assumptions, Standard Errors, and Changing Samples"
+              lecture: 6
+            - file: "lecture_notes/week_03/lab_companion_week_03.pdf"
+              title: "Lab Companion"
+              prefix: "Lectures 5–6"
     - key: do-files
       id: content-2
       icon: fa-solid fa-code
@@ -148,6 +160,18 @@ empirical_methods_for_law_and_economics:
                 - file: "stata/do/exercises/04_simple_regression.do"
                   title: "Simple Regression.do"
                   lecture: 4
+                  solution: "stata/do/solutions/04_simple_regression_solved.do"
+        - id: subsection-do-week-3
+          title: "Week 3"
+          groups:
+            - key: exercises
+              items:
+                - file: "stata/do/exercises/05_multiple_regression.do"
+                  title: "Multiple Regression.do"
+                  lecture: 5
+                - file: "stata/do/exercises/06_assumptions_and_samples.do"
+                  title: "Assumptions and Samples.do"
+                  lecture: 6
     - key: dataset
       id: content-3
       icon: fa-solid fa-database
