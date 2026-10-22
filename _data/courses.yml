@@ -477,7 +477,7 @@ microeconomics_economics_and_finance:
       id: content-0
       icon: fa-regular fa-note-sticky
       items:
-        - file: "revision_tutorial_1.pdf"
+        - file: "revision_session_1.pdf"
           title: "Preferences, Demand, and Labour Supply"
           prefix: "Revision Session 1"
-          solution: "revision_tutorial_1_with_solutions.pdf"
+          solution: "revision_session_1_with_solutions.pdf"
