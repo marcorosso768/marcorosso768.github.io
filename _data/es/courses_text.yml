@@ -32,7 +32,7 @@ empirical_methods_for_law_and_economics:
     exercises: "ejercicios"
     ready_to_run: "listos para correr"
   notes:
-    data-week-3: "Las clases 5–6 reutilizan contracts_2019.dta (semana 1) y justice_europe_2019.dta (semana 2)."
+    data-week-3: "Las clases 5–6 reutilizan <code>contracts_2019.dta</code> (semana 1) y <code>justice_europe_2019.dta</code> (semana 2)."
     do-files: "Guardá los archivos en una sola carpeta (por ejemplo, <code>stata/do/</code>), con la misma estructura que acá: <code>00_setup.do</code> en la carpeta misma, los ejercicios en <code>exercises/</code>, sus soluciones en <code>solutions/</code>, la simulación en <code>ready_to_run/</code> y los datasets en <code>data/</code>. Cada do-file se corre con esa carpeta como directorio de trabajo de Stata."
   details:
     contracts_2019:
