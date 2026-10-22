@@ -169,9 +169,11 @@ empirical_methods_for_law_and_economics:
                 - file: "stata/do/exercises/05_multiple_regression.do"
                   title: "Multiple Regression.do"
                   lecture: 5
+                  solution: "stata/do/solutions/05_multiple_regression_solved.do"
                 - file: "stata/do/exercises/06_assumptions_and_samples.do"
                   title: "Assumptions and Samples.do"
                   lecture: 6
+                  solution: "stata/do/solutions/06_assumptions_and_samples_solved.do"
     - key: dataset
       id: content-3
       icon: fa-solid fa-database
