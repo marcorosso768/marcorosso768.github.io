@@ -7,7 +7,7 @@ layout: default
     <p class="post-description">{{ site.data[site.active_lang].strings.archive_tag }}</p>
   </header>
 
-  <article class="archive">
+  <div class="archive">
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
         {% for post in page.posts %}
@@ -27,5 +27,5 @@ layout: default
         {% endfor %}
       </table>
     </div>
-  </article>
+  </div>
 </div>
