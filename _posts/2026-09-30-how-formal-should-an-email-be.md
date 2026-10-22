@@ -84,7 +84,11 @@ _Yes, it exists. No, it shouldn’t._
 - **Reader’s reaction:** shock, resignation, existential crisis.
 
 <figure class="text-center my-4">
-  <video class="blog-clip" preload="auto" disablepictureinpicture src="{{ '/assets/video/blog/smetto-quando-voglio.mp4' | relative_url }}" width="548" height="222" style="max-width: 100%; height: auto; border-radius: 8px;" autoplay muted loop playsinline aria-label="Scene from the film Smetto quando voglio: a job applicant admits he is a graduate, calls it a youthful mistake, and says he has filed a request to renounce his degree"></video>
+  <video class="blog-clip" preload="auto" src="{{ '/assets/video/blog/smetto-quando-voglio.mp4' | relative_url }}" width="548" height="222" style="max-width: 100%; height: auto; border-radius: 8px;" autoplay muted loop playsinline aria-label="Scene from the film Smetto quando voglio: a job applicant admits he is a graduate, calls it a youthful mistake, and says he has filed a request to renounce his degree"></video>
+  <script>
+    // niente picture-in-picture per la clip: l'attributo disablepictureinpicture non è HTML valido, la proprietà sì
+    document.querySelectorAll("video.blog-clip").forEach((v) => (v.disablePictureInPicture = true));
+  </script>
   <figcaption class="small" style="opacity: 0.65;"><i>Smetto quando voglio</i> (Sydney Sibilia, 2014)</figcaption>
 </figure>
 
