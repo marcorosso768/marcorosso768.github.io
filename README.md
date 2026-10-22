@@ -38,6 +38,8 @@ gives each course's folder, and a file shared between courses (such as the Stata
 ## Build and checks
 
 - **Deploy**: every push to `master` builds the site with GitHub Actions and publishes it on the `gh-pages` branch.
+  The workflows that build the site (deploy, preview, axe) run on `ubuntu-24.04`: since October 2026 `ubuntu-latest`
+  is Ubuntu 26.04, where `setup-ruby` only provides the latest patch of each Ruby series, not Ruby 3.2.2.
 - **Preview**: a push to a `refactor/**` branch builds the site and publishes it on the `preview` branch (not served),
   with a W3C validator report and a heading check in `_report/`.
 - **Links**: after every deploy and every Monday, a link check on the published site; the report goes to an issue.

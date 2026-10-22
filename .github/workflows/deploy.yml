@@ -69,7 +69,7 @@ permissions:
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04 # Ruby 3.2.2 non è disponibile su ubuntu-latest (26.04): vedi README
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
