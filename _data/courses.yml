@@ -468,11 +468,11 @@ microeconomics_economics_and_finance:
   # Microeconomics, Economics and Finance (CLEF), Matthew John Wakefield (tutor didattico)
   folder: /assets/teaching_material/teaching_assistant/microeconomics/
   sections:
-    - key: revision-tutorials
+    - key: tutorials
       id: content-0
       icon: fa-regular fa-note-sticky
       items:
         - file: "revision_tutorial_1.pdf"
           title: "Preferences, Demand, and Labour Supply"
-          prefix: "Revision Tutorial 1"
+          prefix: "Revision Session 1"
           solution: "revision_tutorial_1_with_solutions.pdf"

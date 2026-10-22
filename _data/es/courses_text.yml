@@ -80,4 +80,4 @@ measurement_and_econometric_analysis:
 microeconomics_economics_and_finance:
   solution: "step-by-step solutions" # corso in inglese: stessa etichetta nelle tre lingue
   sections:
-    revision-tutorials: "prácticas de repaso"
+    tutorials: "prácticas"
