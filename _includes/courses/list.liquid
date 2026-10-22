@@ -12,7 +12,7 @@
 <ul class="{{ include.list_class }}">
   {%- for item in include.items -%}
     {%- if item.note %}
-      <li class="course-entry indented">
+      <li class="course-entry course-entry--text indented">
         <i class="{{ include.icon }} fa-fw"></i>
         <span>{{ course_text.notes[item.note] | default: course_text_en.notes[item.note] }}</span>
       </li>

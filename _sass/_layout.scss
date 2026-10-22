@@ -1585,6 +1585,11 @@ h5.teaching-entry__content {
 }
 
 // dettagli sotto un singolo file (details nel file): attaccati alla riga del file
+// voce di solo testo (note: nei dati): niente overflow nascosto, che tagliava l'ultima riga del testo
+.course-entry--text {
+  overflow: visible;
+}
+
 .course-note--item {
   margin-top: -2pt;
   margin-bottom: 8pt;
