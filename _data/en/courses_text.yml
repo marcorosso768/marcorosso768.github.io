@@ -32,7 +32,6 @@ empirical_methods_for_law_and_economics:
   groups: # sottotitoli fissi dentro le settimane dei do-file
     exercises: "exercises"
     ready_to_run: "ready to run"
-    data_sets: "data sets"
     text_corpus: "how to build the text corpus from the PDFs"
   notes:
     data-week-3: "Lectures 5–6 reuse <code>contracts_2019.dta</code> (Week 1) and <code>justice_europe_2019.dta</code> (Week 2)."
