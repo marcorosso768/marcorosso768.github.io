@@ -10,6 +10,7 @@
 #   title: titolo, se è uguale in tutte le lingue
 #   lecture: numero della lezione (mostra "Lecture 3:" / "Lezione 3:" / "Clase 3:")
 #   prefix: etichetta fissa prima del titolo, uguale in tutte le lingue (es. "Extra L1")
+#   icon: icona del solo file, se diversa da quella della sezione (es. uno script tra i dati)
 #   updated: data dell'ultimo aggiornamento, AAAA-MM oppure AAAA-MM-GG
 #   translations: lo stesso documento in un'altra lingua, per lingua del sito (percorso completo del file); nelle
 #     pagine di quelle lingue il link punta lì invece che a file. Il titolo resta quello di courses_text.yml.
@@ -243,19 +244,25 @@ empirical_methods_for_law_and_economics:
               items:
                 - file: "text_analysis/constitutions_pdf.zip"
                   title: "Original PDFs, Constitute Project (constitutions_pdf.zip)"
+                  prefix: "Raw data"
                 - file: "text_analysis/constitutions_txt.zip"
                   title: "Text Files, One Sentence per Line (constitutions_txt.zip)"
+                  prefix: "Data"
                 - file: "text_analysis/pdf_to_txt.py"
                   title: "From PDF to Text (pdf_to_txt.py)"
+                  lecture: 8
+                  icon: fa-solid fa-code
                   details: constitutions
     - key: supplementary
       id: content-4
       icon: fa-regular fa-file-pdf
       items:
         - file: "supplementary_materials/extra_adding_controls.pdf"
+          prefix: "Extra"
           title: "What Happens to a Coefficient When We Add a Control?"
           do_file: "supplementary_materials/extra_adding_controls.do"
         - file: "supplementary_materials/extra_missing_values.pdf"
+          prefix: "Extra"
           title: "Missing Values in a Control Variable"
           do_file: "supplementary_materials/extra_missing_values.do"
 introduction_to_behavioral_economics:

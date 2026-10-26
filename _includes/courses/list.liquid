@@ -8,6 +8,7 @@
   Una voce con note: <chiave> è solo testo, con l'icona della sezione (courses_text.yml, notes.<chiave>): es. una
   settimana senza file nuovi.
   Un file con do_file: <file> ha sulla stessa riga un secondo link "do-file" (es. materiale supplementare: PDF + do-file).
+  Un file con icon: <classi> ha un'icona diversa da quella della sezione (es. uno script Python tra i dati).
   Un file con details: <chiave> ha subito sotto i dettagli che si aprono, presi da courses_text.yml (details.<chiave>).
 {%- endcomment -%}
 <ul class="{{ include.list_class }}">
@@ -38,7 +39,7 @@
       {%- assign url = course.folder | append: item.file | replace: ' ', '%20' -%}
     {%- endif %}
     <li class="course-entry indented">
-      <i class="{{ include.icon }} fa-fw"></i>
+      <i class="{{ item.icon | default: include.icon }} fa-fw"></i>
       <span>
         {%- if item.lecture -%}
           {{- course_text.lecture }}
