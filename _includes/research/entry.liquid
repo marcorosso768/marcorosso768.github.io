@@ -1,7 +1,7 @@
 {%- comment -%}
   Una voce della pagina research. Parametro: key (chiave in _data/research.yml → entries).
   Ordine fisso: titolo (h3), coautori, serie (prima il link ssrn, poi | e series · isbn, tutto nel link series_url: l'ISBN è del WP);
-  sotto, la riga coverage (chi ha ripreso il paper: Featured in / Citato da); pillole-link; pillole delle caselle;
+  sotto, la riga coverage (chi ha ripreso il paper: Featured in / Citato da; link su nome e data); pillole-link; pillole delle caselle;
   per ultima la pillola della bozza su richiesta (draft_request: il paper esiste ma non è pubblico); caselle.
 {%- endcomment -%}
 {%- assign key = include.key -%}
@@ -76,13 +76,21 @@
         <span class="paper-series">
           {{- labels.coverage }}:{{ ' ' }}
           {%- for item in e.coverage -%}
-            <a class="paper-series__link" href="{{ item.url }}">{{ item.name }}</a>
+            {%- assign when = '' -%}
             {%- if item.date -%}
               {%- assign month_index = item.date | slice: 5, 2 | plus: 0 | minus: 1 -%}
               {%- assign year = item.date | slice: 0, 4 -%}
-              {%- assign when = labels.month_year | replace: '{month}', labels.months[month_index] | replace: '{year}', year -%}
-              {{ ' ' }}({{ when }})
+              {%- assign when = labels.month_year
+                | replace: '{month}', labels.months[month_index]
+                | replace: '{year}', year
+                | prepend: ' ('
+                | append: ')'
+              -%}
             {%- endif -%}
+            <a class="paper-series__link" href="{{ item.url }}">
+              {{- item.name -}}
+              {{- when -}}
+            </a>
             {%- unless forloop.last %}, {% endunless -%}
           {%- endfor -%}
         </span>
