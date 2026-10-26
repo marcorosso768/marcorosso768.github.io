@@ -246,7 +246,7 @@ empirical_methods_for_law_and_economics:
                   prefix: "PDF"
                 - file: "text_analysis/constitutions_txt.zip"
                   title: "Text Files, One Sentence per Line (constitutions_txt.zip)"
-                  prefix: "Raw data"
+                  prefix: "Text"
                 - file: "text_analysis/pdf_to_txt.py"
                   title: "From PDF to Text.py"
                   prefix: "Python"

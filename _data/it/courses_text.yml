@@ -32,7 +32,7 @@ empirical_methods_for_law_and_economics:
   groups: # sottotitoli fissi dentro le settimane dei do-file
     exercises: "esercizi"
     ready_to_run: "pronti da eseguire"
-    text_corpus: "come costruire il corpus di testi dai PDF"
+    text_corpus: "dati grezzi: come costruire il corpus di testi dai PDF"
   notes:
     data-week-3: "Le lezioni 5–6 riusano <code>contracts_2019.dta</code> (settimana 1) e <code>justice_europe_2019.dta</code> (settimana 2)."
     do-files: "I file vanno tenuti in un'unica cartella (per esempio <code>stata/do/</code>), con la stessa struttura di questa pagina: <code>00_setup.do</code> nella cartella stessa, gli esercizi in <code>exercises/</code>, le soluzioni in <code>solutions/</code>, la simulazione in <code>ready_to_run/</code> e i dataset in <code>data/</code>. Ogni do-file va eseguito con quella cartella come directory di lavoro di Stata."
