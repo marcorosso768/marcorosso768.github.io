@@ -23,6 +23,7 @@
 # Un file può avere do_file: <file nella cartella del corso>: link "do-file" sulla stessa riga.
 # Una voce può essere solo testo: note: <chiave> (courses_text.yml, notes.<chiave>), con l'icona della sezione.
 # Un singolo file può avere details: <chiave>: i dettagli (courses_text.yml, details.<chiave>) compaiono sotto il file.
+# Una sezione con in_summary: false non compare nel riepilogo della pagina materials (es. informazioni sul corso).
 
 econometrics:
   folder: /assets/teaching_material/instructor/econometrics/
@@ -72,6 +73,7 @@ empirical_methods_for_law_and_economics:
     - key: course-info
       id: content-0
       icon: fa-regular fa-file-pdf
+      in_summary: false # syllabus e letture: non compaiono nel riepilogo della pagina materials
       items:
         - file: "course_info/syllabus.pdf"
           title: "Syllabus"

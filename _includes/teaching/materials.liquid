@@ -4,6 +4,8 @@
   di file da _data/courses.yml e _data/<lingua>/courses_text.yml. Si aggiorna da sola quando si aggiunge un file o un corso.
   Diviso per ruolo come la pagina teaching (docente / tutor didattico): una sezione apribile per ruolo, solo se ha corsi
   con materiali.
+  Riepilogo per corso: sezioni con il numero di file (le voci di solo testo, note, non contano); una sezione con
+  in_summary: false in courses.yml non compare (es. informazioni sul corso).
   Niente commenti HTML qui: nelle pagine .md kramdown li trasformerebbe in paragrafi vuoti.
 {%- endcomment -%}
 {%- assign texts = site.data[site.active_lang].teaching_text -%}
@@ -48,17 +50,29 @@
               <div class="materials-entry__meta">{{ course.dates }} · {{ texts.institutions[institution.key] }}</div>
               <div class="materials-entry__meta">{{ text.program }}</div>
               <div class="materials-entry__sections">
+                {%- assign shown = 0 -%}
                 {%- for part in files.sections -%}
-                  {%- assign count = part.items.size | default: 0 -%}
+                  {%- if part.in_summary == false -%}
+                    {%- continue -%}
+                  {%- endif -%}
+                  {%- assign count = 0 -%}
+                  {%- for item in part.items -%}
+                    {%- unless item.note -%}{%- assign count = count | plus: 1 -%}{%- endunless -%}
+                  {%- endfor -%}
                   {%- for block in part.blocks -%}
-                    {%- assign count = count | plus: block.items.size -%}
-                    {%- for group in block.groups -%}
-                      {%- assign count = count | plus: group.items.size -%}
+                    {%- for item in block.items -%}
+                      {%- unless item.note -%}{%- assign count = count | plus: 1 -%}{%- endunless -%}
+                    {%- endfor -%}
+                    {%- for item_group in block.groups -%}
+                      {%- for item in item_group.items -%}
+                        {%- unless item.note -%}{%- assign count = count | plus: 1 -%}{%- endunless -%}
+                      {%- endfor -%}
                     {%- endfor -%}
                   {%- endfor -%}
-                  {%- unless forloop.first -%}
+                  {%- if shown > 0 -%}
                     <span class="materials-entry__sep" aria-hidden="true">•</span>
-                  {%- endunless %}
+                  {%- endif %}
+                  {%- assign shown = shown | plus: 1 %}
                   <span>{{ files_text.sections[part.key] }} ({{ count }})</span>
                 {%- endfor %}
               </div>
