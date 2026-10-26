@@ -106,7 +106,7 @@ python_for_economists:
   lecture: "Lecture"
   sections:
     notebooks: "notebook"
-    extra: "extra materials"
+    extra: "supplementary materials"
 measurement_and_econometric_analysis:
   lecture: "Lecture"
   sections:
