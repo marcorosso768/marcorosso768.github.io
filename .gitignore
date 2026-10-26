@@ -21,3 +21,4 @@ _archivio/
 # (le informazioni per gli studenti sono nella pagina del corso, pannello "source and licence")
 assets/teaching_material/**/SOURCE_AND_LICENCE*.txt
 assets/teaching_material/**/*provenance*.json
+assets/teaching_material/**/LICENCE_AND_SOURCE*.txt

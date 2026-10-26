@@ -19,6 +19,7 @@
 # (sopra, con note_first: true); un testo sotto details compare in fondo, come dettagli che si aprono.
 # Un blocco può avere groups (key + items) invece di items: file divisi sotto sottotitoli fissi (testi in courses_text.yml, groups).
 # Un esercizio può avere solution: <file nella cartella del corso>: link "solution" sulla stessa riga.
+# Un file può avere do_file: <file nella cartella del corso>: link "do-file" sulla stessa riga.
 # Una voce può essere solo testo: note: <chiave> (courses_text.yml, notes.<chiave>), con l'icona della sezione.
 # Un singolo file può avere details: <chiave>: i dettagli (courses_text.yml, details.<chiave>) compaiono sotto il file.
 
@@ -122,6 +123,18 @@ empirical_methods_for_law_and_economics:
             - file: "lecture_notes/week_03/lab_companion_week_03.pdf"
               title: "Lab Companion"
               prefix: "Lectures 5–6"
+        - id: subsection-week-4
+          title: "Week 4"
+          items:
+            - file: "lecture_notes/week_04/lecture_07.pdf"
+              title: "Experiments and What Random Assignment Buys"
+              lecture: 7
+            - file: "lecture_notes/week_04/lecture_08.pdf"
+              title: "Legal Texts as Data"
+              lecture: 8
+            - file: "lecture_notes/week_04/lab_companion_week_04.pdf"
+              title: "Lab Companion"
+              prefix: "Lectures 7–8"
     - key: do-files
       id: content-2
       icon: fa-solid fa-code
@@ -175,6 +188,19 @@ empirical_methods_for_law_and_economics:
                   title: "Assumptions and Samples.do"
                   lecture: 6
                   solution: "stata/do/solutions/06_assumptions_and_samples_solved.do"
+        - id: subsection-do-week-4
+          title: "Week 4"
+          groups:
+            - key: exercises
+              items:
+                - file: "stata/do/exercises/07_experiments.do"
+                  title: "Experiments.do"
+                  lecture: 7
+                  solution: "stata/do/solutions/07_experiments_solved.do"
+                - file: "stata/do/exercises/08_text_as_data.do"
+                  title: "Text as Data.do"
+                  lecture: 8
+                  solution: "stata/do/solutions/08_text_as_data_solved.do"
     - key: dataset
       id: content-3
       icon: fa-solid fa-database
@@ -201,6 +227,37 @@ empirical_methods_for_law_and_economics:
           title: "Week 3"
           items:
             - note: data-week-3 # nessun dato nuovo: testo in courses_text.yml (notes)
+        - id: subsection-data-week-4
+          title: "Week 4"
+          groups:
+            - key: data_sets
+              items:
+                - file: "stata/do/data/daycare_fines.dta"
+                  title: "Late Pick-Ups at Day-Care Centres, Gneezy and Rustichini 2000 (daycare_fines.dta)"
+                  prefix: "Data"
+                  details: daycare_fines
+                - file: "stata/do/data/constitutions_text.dta"
+                  title: "Constitutions of 25 European Countries, One Row per Sentence (constitutions_text.dta)"
+                  prefix: "Data"
+            - key: text_corpus # Lezione 8: un solo pannello fonte e licenza per tutto il materiale delle costituzioni
+              items:
+                - file: "text_analysis/constitutions_pdf.zip"
+                  title: "Original PDFs, Constitute Project (constitutions_pdf.zip)"
+                - file: "text_analysis/constitutions_txt.zip"
+                  title: "Text Files, One Sentence per Line (constitutions_txt.zip)"
+                - file: "text_analysis/pdf_to_txt.py"
+                  title: "From PDF to Text (pdf_to_txt.py)"
+                  details: constitutions
+    - key: supplementary
+      id: content-4
+      icon: fa-regular fa-file-pdf
+      items:
+        - file: "supplementary_materials/extra_adding_controls.pdf"
+          title: "What Happens to a Coefficient When We Add a Control?"
+          do_file: "supplementary_materials/extra_adding_controls.do"
+        - file: "supplementary_materials/extra_missing_values.pdf"
+          title: "Missing Values in a Control Variable"
+          do_file: "supplementary_materials/extra_missing_values.do"
 introduction_to_behavioral_economics:
   folder: /assets/teaching_material/teaching_assistant/introduction_to_behavioral_economics/
   sections:

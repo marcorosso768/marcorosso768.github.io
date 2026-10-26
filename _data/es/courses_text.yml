@@ -28,9 +28,12 @@ empirical_methods_for_law_and_economics:
     lecture-notes: "apuntes de clase"
     do-files: "do-files"
     dataset: "dataset"
+    supplementary: "materiales complementarios"
   groups: # sottotitoli fissi dentro le settimane dei do-file
     exercises: "ejercicios"
     ready_to_run: "listos para correr"
+    data_sets: "datasets"
+    text_corpus: "corpus de textos (clase 8)"
   notes:
     data-week-3: "Las clases 5–6 reutilizan <code>contracts_2019.dta</code> (semana 1) y <code>justice_europe_2019.dta</code> (semana 2)."
     do-files: "Guardá los archivos en una sola carpeta (por ejemplo, <code>stata/do/</code>), con la misma estructura que acá: <code>00_setup.do</code> en la carpeta misma, los ejercicios en <code>exercises/</code>, sus soluciones en <code>solutions/</code>, la simulación en <code>ready_to_run/</code> y los datasets en <code>data/</code>. Cada do-file se corre con esa carpeta como directorio de trabajo de Stata."
@@ -55,6 +58,20 @@ empirical_methods_for_law_and_economics:
         <p><b>Licencia.</b> Reutilización libre según el <a href="https://ec.europa.eu/eurostat/web/main/help/copyright-notice">aviso de copyright de Eurostat</a>, siempre que se cite la fuente y se indiquen los cambios. Los datos de países fuera de la UE, la AELC y los países candidatos pueden tener restricciones para el uso comercial; este archivo es solo para uso didáctico. Los cambios indicados abajo son del docente; Eurostat no es responsable de ellos.</p>
         <p><b>Cambios.</b> Se seleccionaron 2 categorías de personal y 6 categorías de delitos; se conservó 2019; una fila por país (37 países europeos); se unieron por código ISO3 con el tiempo de ejecución de contratos y el índice de calidad judicial de Doing Business 2020 (World Bank, CC BY 4.0) y con el PIB per cápita 2019 del World Bank. Sin imputación; valores sin cambios.</p>
         <p><b>Alcance.</b> Los delitos registrados cuentan los delitos denunciados y registrados por la policía según las definiciones legales de cada país: no miden cuán extendido está el delito. Los jueces profesionales se cuentan según las definiciones nacionales. El Reino Unido y Bosnia y Herzegovina no tienen valores para 2019. Kosovo: esta designación no prejuzga las posiciones sobre su estatus y se ajusta a la resolución 1244/1999 del Consejo de Seguridad de la ONU y a la opinión de la Corte Internacional de Justicia sobre la declaración de independencia de Kosovo.</p>
+    daycare_fines:
+      summary: "fuente"
+      body: |
+        <p><b>Fuente.</b> Gneezy, U. y Rustichini, A. (2000). “A Fine Is a Price.” <i>Journal of Legal Studies</i> 29(1): 1–17, tabla 1 (“Number of late-coming parents per week according to day-care centers”), p. 6.</p>
+        <p><b>Cambios.</b> Los 200 conteos (10 jardines maternales × 20 semanas) y la cantidad de chicos por jardín fueron transcriptos por el docente a partir de la tabla 1 y organizados con una fila por jardín y semana. Las variables fine_group y period se agregaron según el diseño del estudio (sección II.B): la multa se introdujo al comienzo de la semana 5 en los jardines 1–6 y se eliminó al comienzo de la semana 17. La transcripción se controló con los promedios por período de la tabla 2.</p>
+        <p><b>Notas.</b> Según los autores, el estudio duró 21 semanas, con una semana de vacaciones después de la 14; la semana 11 tuvo solo cuatro días y los autores multiplicaron sus conteos por 5/4. Otros dos jardines fueron excluidos por los autores porque sus registros estaban incompletos. Uso didáctico; citar el artículo original.</p>
+    constitutions:
+      summary: "fuente y licencia (constituciones)"
+      body: |
+        <p><b>Fuente.</b> <a href="https://www.constituteproject.org">Constitute Project</a>: Elkins, Zachary, Tom Ginsburg y James Melton, <i>Constitute: The World’s Constitutions to Read, Search, and Compare</i>. Versiones en inglés de 25 constituciones europeas, descargadas en octubre de 2026. Cada PDF indica que fue “generated from excerpts of texts from the repository of the Comparative Constitutions Project, and distributed on constituteproject.org”.</p>
+        <p><b>Licencia.</b> <a href="https://creativecommons.org/licenses/by-nc/3.0/deed.es">Creative Commons Atribución-NoComercial 3.0 (CC BY-NC 3.0)</a>: reutilización y adaptación solo con fines no comerciales, citando a Constitute Project. Los archivos de texto y constitutions_text.dta son una adaptación de estos textos y se distribuyen con la misma licencia. Constitute Project y el Comparative Constitutions Project no respaldan este uso.</p>
+        <p><b>Cambios.</b> Los PDF no se modificaron. Los archivos de texto fueron extraídos por el docente con pdftotext (pdf_to_txt.py): se quitaron la portada, el índice, el índice temático, los encabezados y pies de página, las etiquetas temáticas del margen y los títulos en tipografía más grande; se unieron las palabras cortadas al final de línea; el texto se dividió en oraciones o incisos numerados, uno por línea (18.853 líneas); constitutions_list.csv tiene una fila por constitución. constitutions_text.dta contiene el mismo texto como dataset de Stata, una fila por oración. No se tradujo, corrigió ni editó ninguna palabra; la extracción automática deja algunos errores.</p>
+        <p><b>Alcance.</b> Casi todas las versiones en inglés son traducciones, no los textos jurídicamente vinculantes, y algunas pueden no incluir las últimas enmiendas. Italia: se usa la versión con enmiendas hasta 2012, porque el PDF de la versión 2020 en Constitute Project contenía solo el índice y el índice temático. Suiza: texto provisto por la Cancillería Federal suiza; el inglés no es un idioma oficial de la Confederación y la traducción no tiene valor legal. Los cambios son del docente; Constitute Project no es responsable de ellos.</p>
+
 introduction_to_behavioral_economics:
   solution: "step-by-step solutions" # link accanto a ogni esercitazione (corso in inglese: stessa etichetta nelle tre lingue)
   sections:

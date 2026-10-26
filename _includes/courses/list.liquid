@@ -7,6 +7,7 @@
   Un file con percorso completo (/assets/…) è linkato così com'è: serve per un file di un altro corso (es. un manuale comune).
   Una voce con note: <chiave> è solo testo, con l'icona della sezione (courses_text.yml, notes.<chiave>): es. una
   settimana senza file nuovi.
+  Un file con do_file: <file> ha sulla stessa riga un secondo link "do-file" (es. materiale supplementare: PDF + do-file).
   Un file con details: <chiave> ha subito sotto i dettagli che si aprono, presi da courses_text.yml (details.<chiave>).
 {%- endcomment -%}
 <ul class="{{ include.list_class }}">
@@ -56,6 +57,10 @@
         {%- if item.solution %}
           <span class="course-entry__sep" aria-hidden="true">·</span>
           <a href="{{ course.folder }}{{ item.solution }}">{{ course_text.solution | default: labels.solution }}</a>
+        {%- endif -%}
+        {%- if item.do_file %}
+          <span class="course-entry__sep" aria-hidden="true">·</span>
+          <a href="{{ course.folder }}{{ item.do_file }}">do-file</a>
         {%- endif -%}
         {%- if item.updated -%}
           {%- assign date = item.updated | split: '-' -%}
