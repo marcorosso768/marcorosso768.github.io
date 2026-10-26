@@ -53,6 +53,15 @@ entries:
       attribute to ChatGPT is absorbed by predetermined remote-work exposure. Our results caution against reading
       exposure-based entry-level declines as evidence of AI-driven seniority-biased technological change.
     keywords: "generative AI; ChatGPT; labor demand; seniority; job postings; difference-in-differences."
+  labels-outcomes:
+    abstract: >-
+      Is the decline in junior postings in AI-exposed occupations a change in the positions firms open or in the
+      words they use to describe them? Seniority is read from text, and a label read from text is an outcome:
+      rewording moves the labeled junior count with no change in hiring. We show that a difference-in-differences
+      estimate on such a count mixes a hiring and a labeling response, that the labeling rate identifies only the
+      part common to all tiers, and that the rest is identified with reference labels on a sample stratified on the
+      design, unlabeled postings included.
+    keywords: "job postings; text-derived measurement; seniority; entry-level work; generative AI; large language models; partial identification."
   tipping-point:
     abstract: >-
       Corruption opportunities attract people who would exploit them and repel people who anticipate the cost of

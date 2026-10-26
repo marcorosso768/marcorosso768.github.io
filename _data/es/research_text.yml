@@ -56,6 +56,16 @@ entries:
       caídas en puestos de entrada basadas en la exposición como evidencia de un cambio tecnológico sesgado por
       antigüedad impulsado por la IA.
     keywords: "IA generativa; ChatGPT; demanda laboral; antigüedad; avisos de empleo; diferencias en diferencias."
+  labels-outcomes:
+    abstract: >-
+      ¿La caída de los avisos junior en las ocupaciones expuestas a la IA es un cambio en los puestos que abren las
+      empresas o en las palabras con que los describen? La antigüedad se lee en el texto, y una etiqueta leída en el
+      texto es un resultado: reformular un aviso mueve la cantidad de avisos etiquetados como junior sin que cambie
+      la contratación. Mostramos que una estimación de diferencias en diferencias sobre ese conteo mezcla una
+      respuesta de la contratación y una del etiquetado, que la tasa de etiquetado identifica solo la parte común a
+      todos los niveles de antigüedad, y que el resto se identifica con etiquetas de referencia en una muestra
+      estratificada según el diseño, incluidos los avisos sin etiqueta.
+    keywords: "avisos de empleo; medición a partir de texto; antigüedad; puestos de entrada; IA generativa; modelos de lenguaje de gran escala; identificación parcial."
   tipping-point:
     abstract: >-
       Las oportunidades de corrupción atraen a quienes las aprovecharían y alejan a quienes anticipan el costo de

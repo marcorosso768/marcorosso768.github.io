@@ -56,6 +56,16 @@ entries:
       cali degli annunci per posizioni di ingresso, misurati tramite l’esposizione, come evidenza di un cambiamento
       tecnologico distorto a sfavore dei lavoratori junior e guidato dall’IA.
     keywords: "IA generativa; ChatGPT; domanda di lavoro; seniority; annunci di lavoro; differenze nelle differenze."
+  labels-outcomes:
+    abstract: >-
+      Il calo degli annunci per profili junior nelle occupazioni esposte all’IA riflette un cambiamento nelle
+      posizioni che le imprese aprono o nelle parole con cui le descrivono? La seniority si ricava dal testo, e
+      un’etichetta ricavata dal testo è a sua volta un esito: riformulare un annuncio sposta il numero di annunci
+      etichettati come junior senza che cambino le assunzioni. Mostriamo che una stima a differenze nelle differenze
+      su questo conteggio mescola una risposta delle assunzioni e una dell’etichettatura, che il tasso di
+      etichettatura identifica solo la parte comune a tutti i livelli di seniority, e che il resto si identifica con
+      etichette di riferimento su un campione stratificato secondo il disegno, compresi gli annunci senza etichetta.
+    keywords: "annunci di lavoro; misure derivate dal testo; seniority; posizioni di ingresso; IA generativa; modelli linguistici di grandi dimensioni; identificazione parziale."
   tipping-point:
     abstract: >-
       Le opportunità di corruzione attraggono chi le sfrutterebbe e allontanano chi prevede il costo di resistervi.

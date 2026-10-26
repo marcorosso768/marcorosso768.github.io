@@ -22,19 +22,20 @@ sections:
   - key: working_papers
     expanded: true
     entries:
-      - ai-labor-demand
       - childbirth-turnout
-      - crime-voting
       - childcare-turnout
+      - crime-voting
+      - ai-labor-demand
+      - labels-outcomes
   - key: wip
     expanded: true
     entries:
-      - political-expression
-      - populist-selection
-      - crime-reporting
-      - criminal-governance
       - corruption-traps
-      - moral-frictions
+      - temptation-selection
+      - disaster-relief
+      - criminal-governance
+      - political-expression
+      - crime-reporting
   - key: other_publications
     expanded: false
     entries:
@@ -74,6 +75,15 @@ entries:
         year        = {2026},
         url         = {https://crenos.unica.it/bibcite/reference/8766}
       }
+
+  labels-outcomes:
+    icon: "working_paper"
+    title: "Labels Are Outcomes: Measuring Seniority in Job Postings and the Entry-Level Effects of Generative AI"
+    coauthors: [cerina, nobili]
+    links:
+      - { type: draft_request }
+    panels: [abstract, keywords, jel]
+    jel: "C81, J23, J24, O33."
 
   tipping-point:
     icon: "working_paper"
@@ -127,7 +137,7 @@ entries:
     icon: "wip"
     title: "Political Expression and the Boundaries of Legal Enforcement"
 
-  populist-selection:
+  populist-selection: # al momento fuori dalla pagina (non è in nessuna sezione)
     icon: "wip"
     title: "Costly Signaling and Populist Candidate Selection"
 
@@ -145,9 +155,14 @@ entries:
     icon: "wip"
     title: "Beyond the Tipping Point: Rent Feedback and Corruption Traps in Public-Sector Selection"
 
-  moral-frictions:
+  temptation-selection:
     icon: "wip"
-    title: "Political Selection and Moral Frictions"
+    title: "Political Selection under Temptation"
+
+  disaster-relief:
+    icon: "wip"
+    title: "Disaster Relief as Discretionary Redistribution"
+    coauthors: [amati]
 
   colorectal-cancer-income:
     icon: "publication"
