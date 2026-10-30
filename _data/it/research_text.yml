@@ -19,6 +19,8 @@ degrees:
 labels:
   months: ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"]
   month_year: "{month} {year}"
+  status:
+    submitted: "Sottoposto a rivista"
   coverage: "Citato da"
   abstract: "Abstract"
   keywords: "Parole chiave"

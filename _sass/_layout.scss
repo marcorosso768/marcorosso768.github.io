@@ -1833,6 +1833,11 @@ h5.teaching-entry__content {
   opacity: 0.65;
 }
 
+// stato del paper (submitted…): stessa riga secondaria, in corsivo
+.icon-entry .paper-status {
+  font-style: italic;
+}
+
 // link nella riga della serie (SSRN, CRENoS): stesso colore e opacità della riga, senza sottolineatura
 // (classe paper-series__link, esclusa dalla regola generale in _base.scss); corsivo al passaggio
 .icon-entry .entry-text .paper-series a {
