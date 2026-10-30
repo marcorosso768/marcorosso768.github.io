@@ -67,8 +67,7 @@ entries:
       los avisos sin etiqueta. Proponemos un estimador y una asignación de etiquetas. Sobre 314 millones de avisos
       de Estados Unidos, con la composición por nivel sin cambios, la mayor caída anual de la tasa de etiquetado de
       un clasificador basado en reglas después de ChatGPT ubica este componente en alrededor de −0,7 puntos
-      logarítmicos en el panel de la aplicación empírica (−1,5 en un panel más agregado, donde los años de
-      experiencia declarados dan +5 desde la pandemia). Con 252 etiquetas humanas, el cambio corregido en la
+      logarítmicos en el panel de la aplicación empírica (−1,5 en un panel más agregado, donde la lectura basada en los años de experiencia requeridos da +5 desde la pandemia). Con 252 etiquetas humanas, el cambio corregido en la
       proporción junior no tiene un signo estable entre las distintas lecturas con LLM; las simulaciones indican que
       hacen falta miles de etiquetas.
     keywords: "avisos de empleo; medición a partir de texto; antigüedad; puestos de entrada; IA generativa; modelos de lenguaje de gran escala; identificación parcial."

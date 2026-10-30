@@ -68,7 +68,7 @@ entries:
       regola di allocazione delle etichette. Su 314 milioni di annunci statunitensi, a composizione per livello
       invariata, il calo annuo più ampio del tasso di etichettatura di un classificatore basato su regole dopo
       ChatGPT colloca questa componente a circa −0,7 punti logaritmici nel panel dell’applicazione empirica (−1,5 in
-      un panel più aggregato, dove gli anni di esperienza dichiarati danno +5 dalla pandemia in poi). Con 252
+      un panel più aggregato, dove la lettura basata sugli anni di esperienza richiesti dà +5 dalla pandemia in poi). Con 252
       etichette umane, la variazione corretta della quota junior non ha un segno stabile tra le diverse letture con
       LLM; le simulazioni indicano che servono migliaia di etichette.
     keywords: "annunci di lavoro; misure derivate dal testo; seniority; posizioni di ingresso; IA generativa; modelli linguistici di grandi dimensioni; identificazione parziale."
