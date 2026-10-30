@@ -50,9 +50,10 @@ entries:
       and loads on measured LLM usage beyond <i>ex ante</i> capability. The seniority composition had moved before
       the release: the junior share of classified postings in exposed occupations fell by 3.5 percentage points
       between early 2021 and the quarter before ChatGPT, in step with remote-work exposure, which accounts for about
-      1.5 points of the decline. After the release the share does not move further relative to the last pre-release
-      quarter. Our results confirm the decline in junior postings in exposed occupations, but date it to the two
-      years before the release; the measurable effect of generative AI to date is on the number of openings.
+      1.5 points of the decline. After the release the share is 0.4 points below the last pre-release quarter, a
+      difference that cannot be distinguished from zero. Our results confirm the decline in junior postings in
+      exposed occupations, but date it to the two years before the release; the measurable effect of generative AI
+      to date is on the number of openings.
     keywords: "generative AI; ChatGPT; labor demand; seniority; job postings; difference-in-differences."
   labels-outcomes:
     abstract: >-
