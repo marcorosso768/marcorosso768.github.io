@@ -129,21 +129,23 @@ entries:
     keywords: "partecipazione elettorale; costi del voto; nascita; coppie; famiglia; genere; partecipazione politica."
   childcare-turnout:
     abstract: >-
-      La vicinanza a beni pubblici forniti localmente aumenta la partecipazione politica delle famiglie a cui sono
-      destinati? Studiamo il caso di Bologna, con dati amministrativi sulla partecipazione elettorale di tutti gli
-      elettori iscritti in quattro elezioni (2004–2013), collegati ai registri anagrafici annuali, ai redditi, alle
-      date di nascita esatte e a un censimento geocodificato dei servizi per l’infanzia costruito ad hoc. La
-      specificazione di base segue i genitori con un solo figlio convivente nel registro annuale man mano che il
-      figlio attraversa i diversi regimi di servizio, così che la distanza rilevante cambi per la stessa persona, e
-      stima pendenze distinte rispetto alla distanza per le elezioni locali e nazionali. La pendenza rispetto alla
-      distanza dalle strutture comunali nelle elezioni locali è statisticamente indistinguibile da zero, con un
-      limite di equivalenza simmetrico di 0,47 punti percentuali ogni 100 metri, pari a 1,25 punti sull’intervallo
-      interquartile della distanza. Il contrasto tra elezioni locali e nazionali, su cui l’ipotesi di accountability
-      pone restrizioni, è stimato con minore precisione: il suo limite è di 0,79 punti ogni 100 metri, e restano
-      compatibili con l’evidenza effetti moderati. La vicinanza non modera in misura rilevabile la penalizzazione
-      legata alla genitorialità, nessuna interazione di genere sopravvive alla correzione per test multipli, e una
-      coorte di transizione e altri sei servizi e dotazioni locali portano allo stesso risultato. Un precedente
-      contrasto marginale tra i genitori con continuità di indirizzo verificata non è robusto alla specificazione ed
-      è riportato come esplorativo. L’oggetto della stima è la vicinanza: le stime delimitano l’effetto mobilitante
-      del vivere vicino a una struttura e lasciano non misurato l’effetto di ottenervi un posto.
+      Abitare vicino a un bene pubblico fornito a livello locale aumenta la partecipazione elettorale delle famiglie
+      a cui è destinato? Studiamo i servizi pubblici per l’infanzia a Bologna, con dati amministrativi sulla
+      partecipazione in quattro elezioni (2004–2013) collegati ai registri anagrafici e a un censimento
+      geocodificato delle strutture. Seguiamo i genitori con un solo figlio dal nido alla scuola dell’infanzia fino
+      alla scuola primaria, così che la struttura rilevante, e la sua distanza da casa, cambi con l’età del figlio.
+      Se la vicinanza porta i genitori a chiedere conto al Comune, la partecipazione dovrebbe diminuire con la
+      distanza dai servizi comunali (nido e scuola dell’infanzia) solo nelle elezioni locali, e non con la distanza
+      dalla scuola primaria statale. Confrontando ciascun genitore con sé stesso, non troviamo un gradiente di
+      questo tipo. I test di equivalenza escludono effetti superiori a 0,56 punti percentuali ogni 100 metri (1,5
+      punti sull’intervallo interquartile della distanza), e quindi effetti grandi quanto il calo di 2,6 punti nella
+      partecipazione delle madri da uno a due anni dopo la prima nascita, stimato in un lavoro collegato sugli
+      stessi registri, ma non effetti di un punto. Nei limiti della precisione dei dati, la vicinanza non modifica
+      nemmeno la penalizzazione della genitorialità sulla partecipazione. Quando i genitori sono confrontati anche
+      all’interno della stessa sezione elettorale e della stessa elezione, la partecipazione alle elezioni locali
+      diminuisce con la distanza dalla scuola statale e, tra i genitori che non cambiano indirizzo, con quella dai
+      servizi comunali, in modo significativo solo nel 2009, ma senza differenze distinguibili dal 2004. Poiché il
+      gradiente compare anche per la scuola statale e i due livelli non si possono distinguere, il disegno non
+      permette di attribuirlo all’accountability. Le stime delimitano l’effetto di abitare vicino a una struttura,
+      non quello di ottenervi un posto.
     keywords: "partecipazione elettorale; beni pubblici; servizi per l’infanzia; genere; elezioni locali."

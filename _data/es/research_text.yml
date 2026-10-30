@@ -129,22 +129,23 @@ entries:
     keywords: "participación electoral; costos del voto; nacimiento; parejas; hogar; género; participación política."
   childcare-turnout:
     abstract: >-
-      ¿La cercanía a bienes públicos de provisión local aumenta la participación política de los hogares a los que
-      están destinados? Estudiamos Bolonia, Italia, con registros administrativos de participación de todas las
-      personas habilitadas para votar en cuatro elecciones (2004–2013), vinculados a los padrones anuales de
-      población, al ingreso, a las fechas exactas de nacimiento y a un censo geocodificado de establecimientos de
-      cuidado infantil construido para este trabajo. Nuestra especificación de base sigue a madres y padres con un
-      hijo conviviente en el padrón anual a medida que el hijo crece y atraviesa distintos regímenes de servicio, de
-      modo que la distancia relevante cambia dentro de la misma persona, y estima pendientes de distancia separadas
-      para las elecciones locales y nacionales. La pendiente de distancia a los establecimientos municipales en las
-      elecciones locales es estadísticamente indistinguible de cero, con una cota de equivalencia simétrica de 0,47
-      puntos porcentuales por cada 100 metros, o 1,25 puntos a lo largo del rango intercuartílico de la distancia.
-      El contraste local–nacional que restringe la hipótesis de rendición de cuentas se estima con menor precisión:
-      su cota es de 0,79 puntos por cada 100 metros, y efectos moderados sobre él siguen siendo compatibles con la
-      evidencia. La cercanía no modera de manera detectable la penalidad por maternidad y paternidad, ninguna
-      interacción por género sobrevive al ajuste por multiplicidad, y una cohorte que cambia de régimen y otros seis
-      servicios y equipamientos locales arrojan el mismo resultado. Un contraste marginal anterior entre madres y
-      padres con continuidad de domicilio verificada no es robusto a la especificación y se reporta como
-      exploratorio. El estimando es la cercanía: las estimaciones acotan el efecto movilizador de vivir cerca de un
-      establecimiento y dejan sin medir el de obtener una vacante en él.
+      ¿Vivir cerca de un bien público provisto localmente aumenta la participación electoral de los hogares a los
+      que está destinado? Estudiamos el cuidado infantil público en Bolonia, Italia, con registros administrativos
+      de participación de cuatro elecciones (2004–2013) vinculados a padrones de población y a un censo
+      georreferenciado de establecimientos. Seguimos a padres y madres con un solo hijo desde el jardín maternal
+      hasta el jardín de infantes y la escuela primaria, de modo que el establecimiento relevante, y su distancia
+      del hogar, cambia con la edad del hijo. Si la cercanía lleva a los padres a pedirle cuentas al municipio, la
+      participación debería caer con la distancia a los servicios municipales (jardín maternal y jardín de infantes)
+      solo en las elecciones locales, y no con la distancia a la escuela primaria estatal. Comparando a cada
+      progenitor consigo mismo, no detectamos ese gradiente. Las pruebas de equivalencia descartan efectos mayores a
+      0,56 puntos porcentuales cada 100 metros (1,5 puntos sobre el rango intercuartílico de la distancia) y, por lo
+      tanto, efectos tan grandes como la caída de 2,6 puntos en la participación de las madres entre uno y dos años
+      después del primer nacimiento, estimada en un trabajo complementario con los mismos padrones, pero no efectos
+      de un punto. Dentro de la precisión de los datos, la cercanía tampoco modifica la penalización de la
+      parentalidad sobre la participación. Cuando además se compara a los progenitores dentro de la misma sección
+      electoral y elección, la participación en las elecciones locales cae con la distancia a la escuela estatal y,
+      entre quienes no cambian de domicilio, con la distancia a los servicios municipales, de forma significativa
+      solo en 2009, aunque sin diferenciarse de 2004. Como la escuela estatal también muestra el gradiente y los dos
+      niveles no se pueden distinguir, el diseño no permite atribuirlo a la rendición de cuentas. Las estimaciones
+      acotan el efecto de vivir cerca de un establecimiento, no el de conseguir una vacante en él.
     keywords: "participación electoral; bienes públicos; cuidado infantil; género; elecciones locales."

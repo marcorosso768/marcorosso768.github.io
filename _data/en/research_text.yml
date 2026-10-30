@@ -118,19 +118,20 @@ entries:
     keywords: "voter turnout; voting costs; childbirth; couples; household; gender; political participation."
   childcare-turnout:
     abstract: >-
-      Does proximity to locally provided public goods raise the political participation of the households they are
-      meant to serve? We study Bologna, Italy, with administrative turnout records for all registered voters at four
-      elections (2004–2013), linked to annual population registers, income, exact dates of birth, and a
-      purpose-built geocoded census of childcare facilities. Our baseline follows parents with one co-resident child
-      in the annual register as the child ages across service regimes, so that the relevant distance switches within
-      person, and estimates separate distance slopes for local and national elections. The municipal-facility
-      distance slope in local elections is statistically indistinguishable from zero, with a symmetric equivalence
-      bound of 0.47 percentage points per 100 meters, or 1.25 points across the interquartile range of distance. The
-      local–national contrast that the accountability hypothesis restricts is estimated less precisely: its bound is
-      0.79 points per 100 meters, and moderate effects on it remain compatible with the evidence. Proximity does not
-      measurably moderate the parenthood penalty, no gender interaction survives multiplicity adjustment, and a
-      switching cohort and six additional local amenities and services yield the same result. An earlier marginal
-      contrast among parents with verified address continuity is not robust to specification and is reported as
-      exploratory. The estimand is proximity: the estimates bound the mobilizing effect of living near a facility
-      and leave the effect of obtaining a place in it unmeasured.
+      Does living near a locally provided public good raise the turnout of the households it serves? We study public
+      childcare in Bologna, Italy, with administrative turnout records for four elections (2004–2013) linked to
+      population registers and to a geocoded census of facilities. We follow parents with a single child from
+      nursery to preschool to primary school, so that the facility that matters, and its distance from home, changes
+      with the child’s age. If proximity leads parents to hold the municipality accountable, turnout should fall
+      with distance to the municipal services (nursery and preschool) in local elections only, and not with distance
+      to the state primary school. Comparing each parent with themselves, we detect no such gradient. Equivalence
+      tests rule out effects larger than 0.56 percentage points per 100 meters (1.5 points over the interquartile
+      range of distance), and hence effects as large as the 2.6-point turnout loss of mothers one to two years after
+      a first birth, estimated in companion work on the same registers, but not effects of one point. Within the
+      precision of the data, proximity also leaves the turnout penalty of parenthood unchanged. When parents are
+      also compared within polling precinct and election, turnout in local elections falls with distance to the
+      state school and, among parents with an unchanged address, to the municipal services, significantly only in
+      2009, though not distinguishably from 2004. Because the state school shows the gradient too and the two tiers
+      cannot be told apart, the design cannot attribute it to accountability. The estimates bound the effect of
+      living near a facility, not of obtaining a place in it.
     keywords: "voter turnout; public goods; childcare; gender; local elections."
