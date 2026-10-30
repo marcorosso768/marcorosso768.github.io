@@ -45,17 +45,17 @@ entries:
       Uniti, distinguendo il numero di posizioni che le imprese pubblicizzano dalla loro composizione per seniority.
       Utilizzando 314 milioni di annunci di lavoro (2016–2025) e una misura di esposizione ai LLM ancorata al loro
       utilizzo effettivo, confrontiamo occupazioni dello stesso settore, mercato metropolitano e mese in quattro
-      regimi: pre-pandemia, shock pandemico, ripresa post-pandemica e post-rilascio. Dopo il rilascio, la domanda
-      espressa negli annunci nelle occupazioni più esposte cala di 6,8 punti logaritmici rispetto alla ripresa
-      post-pandemica di marzo 2021–ottobre 2022; la contrazione si amplia fino al 2025, resiste ai controlli per il
-      lavoro da remoto ed è legata all’utilizzo misurato dei LLM più che alle capacità <i>ex ante</i>. La
-      composizione per seniority si era mossa prima del rilascio: la quota junior degli annunci classificati nelle
-      occupazioni esposte è scesa di 3,5 punti percentuali tra l’inizio del 2021 e il trimestre precedente ChatGPT,
-      in parallelo con l’esposizione al lavoro da remoto, che spiega circa 1,5 punti del calo. Dopo il rilascio la
-      quota è inferiore di 0,4 punti rispetto all’ultimo trimestre precedente, una differenza non distinguibile da
-      zero. I risultati confermano il calo degli annunci junior nelle occupazioni esposte, ma lo collocano nei due
-      anni precedenti il rilascio; finora l’effetto misurabile dell’IA generativa riguarda il numero di posizioni
-      aperte.
+      regimi: pre-pandemia, shock pandemico, ripresa post-pandemica e post-rilascio. Dalla ripresa di marzo
+      2021–ottobre 2022 al periodo successivo al rilascio, il divario negli annunci tra le occupazioni del quartile
+      più esposto e le altre si allarga di 6,8 punti logaritmici. La contrazione cresce fino al 2025, resiste ai
+      controlli per il lavoro da remoto ed è prevista dall’utilizzo osservato dei LLM, al di là delle misure ex ante
+      di ciò che i LLM sono in grado di fare. La composizione per seniority si era mossa prima del rilascio: tra gli
+      annunci che il nostro classificatore assegna a un livello di seniority, la quota junior nelle occupazioni
+      esposte è scesa di 3,5 punti percentuali rispetto alle altre tra l’inizio del 2021 e il trimestre precedente
+      ChatGPT, e l’esposizione al lavoro da remoto spiega circa 1,5 di questi punti. Dopo il rilascio la quota è
+      inferiore di 0,4 punti rispetto all’ultimo trimestre precedente, una differenza non distinguibile da zero. Gli
+      annunci junior sono effettivamente diminuiti nelle occupazioni esposte rispetto alle altre, ma nei due anni
+      precedenti il rilascio; finora l’effetto misurabile dell’IA generativa riguarda il numero di posizioni aperte.
     keywords: "IA generativa; ChatGPT; domanda di lavoro; seniority; annunci di lavoro; differenze nelle differenze."
   labels-outcomes:
     abstract: >-

@@ -45,17 +45,18 @@ entries:
       cantidad de vacantes que las empresas publican de su composición por antigüedad. Con 314 millones de avisos de
       empleo (2016–2025) y una medida de exposición a los LLM anclada en el uso efectivo, comparamos ocupaciones
       dentro del mismo sector, mercado metropolitano y mes a lo largo de cuatro regímenes: prepandemia, shock
-      pandémico, recuperación pospandemia y poslanzamiento. Tras el lanzamiento, la demanda publicada en las
-      ocupaciones más expuestas cae 6,8 puntos logarítmicos respecto de la recuperación pospandemia de marzo de
-      2021–octubre de 2022; la contracción se amplía hasta 2025, resiste los controles por trabajo remoto y se
-      concentra en el uso medido de los LLM más que en la capacidad <i>ex ante</i>. La composición por antigüedad ya
-      se había movido antes del lanzamiento: la proporción de avisos junior entre los avisos clasificados de las
-      ocupaciones expuestas cayó 3,5 puntos porcentuales entre principios de 2021 y el trimestre previo a ChatGPT,
-      en sintonía con la exposición al trabajo remoto, que explica alrededor de 1,5 puntos de la caída. Después del
-      lanzamiento, la proporción queda 0,4 puntos por debajo del último trimestre previo, una diferencia que no se
-      puede distinguir de cero. Nuestros resultados confirman la caída de los avisos junior en las ocupaciones
-      expuestas, pero la ubican en los dos años anteriores al lanzamiento; hasta ahora, el efecto medible de la IA
-      generativa está en la cantidad de vacantes.
+      pandémico, recuperación pospandemia y poslanzamiento. Entre la recuperación de marzo de 2021–octubre de 2022 y
+      el período posterior al lanzamiento, la brecha en los avisos entre las ocupaciones del cuartil de mayor
+      exposición y el resto se amplía 6,8 puntos logarítmicos. La contracción crece hasta 2025, resiste los
+      controles por trabajo remoto y la predice el uso observado de los LLM, más allá de las medidas ex ante de lo
+      que los LLM pueden hacer. La composición por antigüedad ya se había movido antes del lanzamiento: entre los
+      avisos que nuestro clasificador asigna a un nivel de antigüedad, la proporción junior en las ocupaciones
+      expuestas cayó 3,5 puntos porcentuales respecto del resto entre principios de 2021 y el trimestre previo a
+      ChatGPT, y la exposición al trabajo remoto explica alrededor de 1,5 de esos puntos. Después del lanzamiento,
+      la proporción queda 0,4 puntos por debajo del último trimestre previo, una diferencia que no se puede
+      distinguir de cero. Los avisos junior sí cayeron en las ocupaciones expuestas respecto del resto, pero en los
+      dos años anteriores al lanzamiento; hasta ahora, el efecto medible de la IA generativa está en la cantidad de
+      vacantes.
     keywords: "IA generativa; ChatGPT; demanda laboral; antigüedad; avisos de empleo; diferencias en diferencias."
   labels-outcomes:
     abstract: >-
