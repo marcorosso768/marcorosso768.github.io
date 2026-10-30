@@ -49,11 +49,12 @@ entries:
       top-quartile-exposed occupations and the rest widens by 6.8 log points. The contraction grows through 2025,
       survives remote-work controls, and is predicted by observed LLM usage over and above ex ante measures of what
       LLMs can do. The seniority composition had moved before the release: among postings our classifier assigns to
-      a seniority tier, the junior share in exposed occupations fell by 3.5 percentage points relative to the rest
-      between early 2021 and the quarter before ChatGPT, and remote-work exposure accounts for about 1.5 of these
-      points. After the release the share is 0.4 points below the last pre-release quarter, a difference that cannot
-      be distinguished from zero. Junior postings did decline in exposed occupations relative to the rest, but in
-      the two years before the release; the measurable effect of generative AI to date is on the number of openings.
+      a seniority tier, the junior share in exposed occupations fell by about 3.5 percentage points relative to the
+      rest between early 2021 and the quarter before ChatGPT, with remote-work exposure accounting for about 1.5 of
+      these points. After the release the share is 0.4 points below the last pre-release quarter, a difference that
+      cannot be distinguished from zero. The junior share did decline in exposed occupations relative to the rest,
+      but in the two years before the release; the measurable effect of generative AI to date is on the number of
+      openings.
     keywords: "generative AI; ChatGPT; labor demand; seniority; job postings; difference-in-differences."
   labels-outcomes:
     abstract: >-

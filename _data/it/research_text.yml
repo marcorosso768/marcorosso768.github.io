@@ -51,11 +51,12 @@ entries:
       controlli per il lavoro da remoto ed è prevista dall’utilizzo osservato dei LLM, al di là delle misure ex ante
       di ciò che i LLM sono in grado di fare. La composizione per seniority si era mossa prima del rilascio: tra gli
       annunci che il nostro classificatore assegna a un livello di seniority, la quota junior nelle occupazioni
-      esposte è scesa di 3,5 punti percentuali rispetto alle altre tra l’inizio del 2021 e il trimestre precedente
-      ChatGPT, e l’esposizione al lavoro da remoto spiega circa 1,5 di questi punti. Dopo il rilascio la quota è
-      inferiore di 0,4 punti rispetto all’ultimo trimestre precedente, una differenza non distinguibile da zero. Gli
-      annunci junior sono effettivamente diminuiti nelle occupazioni esposte rispetto alle altre, ma nei due anni
-      precedenti il rilascio; finora l’effetto misurabile dell’IA generativa riguarda il numero di posizioni aperte.
+      esposte è scesa di circa 3,5 punti percentuali rispetto alle altre tra l’inizio del 2021 e il trimestre
+      precedente ChatGPT, e circa 1,5 di questi punti si devono all’esposizione al lavoro da remoto. Dopo il
+      rilascio la quota è inferiore di 0,4 punti rispetto all’ultimo trimestre precedente, una differenza non
+      distinguibile da zero. La quota junior è effettivamente diminuita nelle occupazioni esposte rispetto alle
+      altre, ma nei due anni precedenti il rilascio; finora l’effetto misurabile dell’IA generativa riguarda il
+      numero di posizioni aperte.
     keywords: "IA generativa; ChatGPT; domanda di lavoro; seniority; annunci di lavoro; differenze nelle differenze."
   labels-outcomes:
     abstract: >-

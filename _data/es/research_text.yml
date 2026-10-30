@@ -51,12 +51,12 @@ entries:
       controles por trabajo remoto y la predice el uso observado de los LLM, más allá de las medidas ex ante de lo
       que los LLM pueden hacer. La composición por antigüedad ya se había movido antes del lanzamiento: entre los
       avisos que nuestro clasificador asigna a un nivel de antigüedad, la proporción junior en las ocupaciones
-      expuestas cayó 3,5 puntos porcentuales respecto del resto entre principios de 2021 y el trimestre previo a
-      ChatGPT, y la exposición al trabajo remoto explica alrededor de 1,5 de esos puntos. Después del lanzamiento,
-      la proporción queda 0,4 puntos por debajo del último trimestre previo, una diferencia que no se puede
-      distinguir de cero. Los avisos junior sí cayeron en las ocupaciones expuestas respecto del resto, pero en los
-      dos años anteriores al lanzamiento; hasta ahora, el efecto medible de la IA generativa está en la cantidad de
-      vacantes.
+      expuestas cayó alrededor de 3,5 puntos porcentuales respecto del resto entre principios de 2021 y el trimestre
+      previo a ChatGPT, y alrededor de 1,5 de esos puntos se explican por la exposición al trabajo remoto. Después
+      del lanzamiento, la proporción queda 0,4 puntos por debajo del último trimestre previo, una diferencia que no
+      se puede distinguir de cero. La proporción junior sí cayó en las ocupaciones expuestas respecto del resto,
+      pero en los dos años anteriores al lanzamiento; hasta ahora, el efecto medible de la IA generativa está en la
+      cantidad de vacantes.
     keywords: "IA generativa; ChatGPT; demanda laboral; antigüedad; avisos de empleo; diferencias en diferencias."
   labels-outcomes:
     abstract: >-
