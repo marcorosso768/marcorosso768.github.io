@@ -6,7 +6,7 @@
 #   icon: working_paper | wip | publication | thesis
 #   title, url (link del titolo: la versione pubblica del paper), coauthors (chiavi di _data/people.yml)
 #   series (riga sotto i coautori), series_url (link sul nome della serie), isbn, ssrn (link alla pagina SSRN)
-#   status: stato del paper (submitted…), etichetta a riquadro accanto alla serie; testo in labels.status delle lingue
+#   status: stato del paper (submitted…), etichetta a riquadro dopo il titolo; testo in labels.status delle lingue
 #   coverage: chi ha ripreso il paper fuori dall'accademia (name, url, date AAAA-MM-GG: tra parentesi mese e anno),
 #   riga secondaria sotto la serie
 #   links: pillole-link: working_paper (url, title) | draft_request (mail precompilata, sempre ultima pillola)
@@ -54,7 +54,7 @@ entries:
     title: "Generative AI and Posted Labor Demand: Volume, Seniority and Timing"
     url: "https://drive.google.com/file/d/1QTy7b4TNHjOA7ZznoOGeIsQaqhtakdJp/view" # titolo: ultima versione su Drive
     coauthors: [cerina, nobili]
-    status: submitted # etichetta a riquadro sulla riga della serie (testo in labels.status)
+    status: submitted # etichetta a riquadro dopo il titolo (testo in labels.status)
     series: "CRENoS Working Paper 26/13"
     series_url: "https://crenos.unica.it/bibcite/reference/8766"
     isbn: "978-88-6851-699-4"

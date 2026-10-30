@@ -1833,11 +1833,11 @@ h5.teaching-entry__content {
   opacity: 0.65;
 }
 
-// stato del paper (submitted…): etichetta a riquadro sulla riga della serie, bordo e testo dello stesso colore
-// e della stessa attenuazione della riga (0.65), stessi angoli delle pillole
+// stato del paper (submitted…): etichetta a riquadro dopo il titolo, bordo e testo del colore del testo attenuato
+// come la riga della serie (0.65), stessi angoli delle pillole
 .icon-entry .paper-status {
   display: inline-block;
-  margin-left: 0.25em; // più lo spazio tra i due span
+  margin-left: 0.25em; // più lo spazio dopo il titolo
   padding: 0 0.4em;
   font-size: 0.75em;
   line-height: 1.5;
@@ -1846,10 +1846,6 @@ h5.teaching-entry__content {
   border: 1px solid currentColor;
   border-radius: var(--toggle-radius);
   white-space: nowrap;
-}
-
-.icon-entry .paper-status--line-start {
-  margin-left: 0;
 }
 
 // link nella riga della serie (SSRN, CRENoS): stesso colore e opacità della riga, senza sottolineatura
