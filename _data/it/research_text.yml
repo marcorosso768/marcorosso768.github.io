@@ -42,41 +42,50 @@ entries:
   ai-labor-demand:
     abstract: >-
       Studiamo come il rilascio di ChatGPT abbia influenzato la domanda di lavoro espressa negli annunci negli Stati
-      Uniti, utilizzando 368 milioni di annunci di lavoro Lightcast (2016–2025) e una misura di esposizione ai LLM
-      ancorata al loro utilizzo effettivo. Troviamo un effetto negativo e causale sul volume degli annunci nelle
-      occupazioni esposte all’IA, ma nessun effetto successivo al rilascio sulla loro composizione per seniority.
-      Dopo novembre 2022, il volume degli annunci nelle occupazioni del quartile più esposto si contrae di 9 punti
-      logaritmici (circa l’8,6 per cento) rispetto alle occupazioni meno esposte nello stesso mercato metropolitano
-      e nello stesso mese. La stima resiste a un’ampia batteria di controlli di robustezza ed è concentrata
-      nell’utilizzo misurato dei LLM più che nelle capacità dell’IA. Nelle occupazioni esposte, gli annunci per
-      profili junior diminuiscono molto più di quelli per profili senior dopo il rilascio, ma la divergenza precede
-      ChatGPT: si apre nel 2021–22, durante la ripresa post-COVID, e non mostra discontinuità al momento del
-      rilascio. Il differenziale che un semplice confronto pre/post attribuirebbe a ChatGPT è assorbito
-      dall’esposizione predeterminata al lavoro da remoto. I risultati invitano alla cautela nell’interpretare i
-      cali degli annunci per posizioni di ingresso, misurati tramite l’esposizione, come evidenza di un cambiamento
-      tecnologico distorto a sfavore dei lavoratori junior e guidato dall’IA.
+      Uniti, distinguendo il numero di posizioni che le imprese pubblicizzano dalla loro composizione per seniority.
+      Utilizzando 314 milioni di annunci di lavoro (2016–2025) e una misura di esposizione ai LLM ancorata al loro
+      utilizzo effettivo, confrontiamo occupazioni dello stesso settore, mercato metropolitano e mese in quattro
+      regimi: pre-pandemia, shock pandemico, ripresa post-pandemica e post-rilascio. Dopo il rilascio, la domanda
+      espressa negli annunci nelle occupazioni più esposte cala di 6,8 punti logaritmici rispetto alla ripresa
+      post-pandemica di marzo 2021–ottobre 2022; la contrazione si amplia fino al 2025, resiste ai controlli per il
+      lavoro da remoto ed è legata all’utilizzo misurato dei LLM più che alle capacità <i>ex ante</i>. La
+      composizione per seniority si era mossa prima del rilascio: la quota junior degli annunci classificati nelle
+      occupazioni esposte è scesa di 3,5 punti percentuali tra l’inizio del 2021 e il trimestre precedente ChatGPT,
+      in parallelo con l’esposizione al lavoro da remoto, che spiega circa 1,5 punti del calo. Dopo il rilascio la
+      quota non si muove ulteriormente rispetto all’ultimo trimestre precedente. I risultati confermano il calo
+      degli annunci junior nelle occupazioni esposte, ma lo collocano nei due anni precedenti il rilascio; finora
+      l’effetto misurabile dell’IA generativa riguarda il numero di posizioni aperte.
     keywords: "IA generativa; ChatGPT; domanda di lavoro; seniority; annunci di lavoro; differenze nelle differenze."
   labels-outcomes:
     abstract: >-
-      Il calo degli annunci per profili junior nelle occupazioni esposte all’IA riflette un cambiamento nelle
-      posizioni che le imprese aprono o nelle parole con cui le descrivono? La seniority si ricava dal testo, e
-      un’etichetta ricavata dal testo è a sua volta un esito: riformulare un annuncio sposta il numero di annunci
-      etichettati come junior senza che cambino le assunzioni. Mostriamo che una stima a differenze nelle differenze
-      su questo conteggio mescola una risposta delle assunzioni e una dell’etichettatura, che il tasso di
-      etichettatura identifica solo la parte comune a tutti i livelli di seniority, e che il resto si identifica con
-      etichette di riferimento su un campione stratificato secondo il disegno, compresi gli annunci senza etichetta.
+      Gli annunci per profili junior sembrano diminuire nelle occupazioni esposte all’IA, ma la seniority si ricava
+      da un testo che le imprese possono riformulare senza cambiare il lavoro. Una stima a differenze nelle
+      differenze su un conteggio di annunci junior mescola una variazione dei posti offerti con una componente di
+      etichettatura, dovuta alla formulazione e agli errori del classificatore. La quota di annunci che un
+      classificatore etichetta, il suo tasso di etichettatura, rivela solo la componente comune a tutti i livelli;
+      la parte specifica di ciascun livello richiede etichette umane su un campione stratificato per gruppo di
+      esposizione, periodo e livello assegnato, compresi gli annunci senza etichetta. Proponiamo uno stimatore e una
+      regola di allocazione delle etichette. Su 314 milioni di annunci statunitensi, a composizione per livello
+      invariata, il calo annuo più ampio del tasso di etichettatura di un classificatore basato su regole dopo
+      ChatGPT colloca questa componente a circa −0,7 punti logaritmici nel panel dell’applicazione empirica (−1,5 in
+      un panel più aggregato, dove gli anni di esperienza dichiarati danno +5 dalla pandemia in poi). Con 252
+      etichette umane, la variazione corretta della quota junior non ha un segno stabile tra le diverse letture con
+      LLM; le simulazioni indicano che servono migliaia di etichette.
     keywords: "annunci di lavoro; misure derivate dal testo; seniority; posizioni di ingresso; IA generativa; modelli linguistici di grandi dimensioni; identificazione parziale."
   tipping-point:
     abstract: >-
       Le opportunità di corruzione attraggono chi le sfrutterebbe e allontanano chi prevede il costo di resistervi.
       Studio entrambi i margini in un modello di scelta occupazionale con costi di autocontrollo. Emergono tre
-      risultati. Primo, quando la tentazione è forte, piccole rendite da corruzione possono ridurre il bacino di chi
-      entra nel settore pubblico. Secondo, il settore pubblico può perdere integrità mentre si restringe, per cui un
-      organico stabile o in calo può nascondere un personale che peggiora. Terzo, a parità di surplus netto da
-      corruzione, eliminare le opportunità di corruzione produce una corruzione debolmente inferiore rispetto alle
-      sanzioni differite, sia a salario dato sia con un numero fisso di posti. Quando le rendite crescono con la
-      quota di corrotti tra chi è in servizio, l’ordinamento si estende agli stati stazionari, e la prevenzione può
-      eliminare un equilibrio ad alta corruzione che una sanzione equivalente lascia in piedi.
+      risultati. Primo, in assenza di sanzioni, piccole rendite da corruzione riducono il bacino di chi entra nel
+      settore pubblico quando meno della metà del valore del servizio onesto viene percepita al momento della
+      decisione e il conflitto di autocontrollo è abbastanza forte rispetto a questa quota. Secondo, il settore
+      pubblico può perdere integrità media mentre si restringe, per cui un organico stabile o in calo può nascondere
+      un personale che peggiora. Terzo, a parità di surplus netto da corruzione, eliminare le opportunità di
+      corruzione produce una quota di corrotti debolmente inferiore rispetto alle sanzioni differite, sia a salario
+      dato sia con un numero fisso di posti, anche se non necessariamente un’integrità media più alta. Quando le
+      rendite crescono con la quota di corrotti tra chi è in servizio, l’ordinamento si estende agli stati
+      stazionari, e la prevenzione può eliminare uno stato stazionario ad alta corruzione che una sanzione
+      equivalente lascia in piedi.
     keywords: "selezione occupazionale; autocontrollo e tentazione; corruzione; deterrenza; mercato del lavoro nel settore pubblico; equilibri multipli."
   crime-voting:
     abstract: >-
@@ -103,17 +112,20 @@ entries:
     abstract: >-
       La nascita di un figlio è uno shock temporaneo che colpisce due elettori della stessa famiglia. Mi chiedo come
       la variazione della partecipazione elettorale che ne deriva si distribuisca all’interno della coppia. Uso i
-      dati amministrativi sulla partecipazione al voto a Bologna, dove si vota di persona in giorni prestabiliti,
-      collegati ai registri che associano entrambi i genitori alla stessa nascita, e confronto le coppie il cui
-      figlio nasce nelle settimane precedenti il voto con quelle il cui figlio nasce dopo. Le coppie con un figlio
-      nato nelle quattro settimane prima del voto registrano 11,5 voti in meno ogni 100: la probabilità che entrambi
-      i genitori risultino votanti è inferiore di nove punti e quella che voti solo il padre è superiore di cinque,
-      mentre il voto della sola madre cambia poco. Escludendo le nascite più esposte a un possibile errore di
-      classificazione dei voti espressi in ospedale, queste differenze si riducono, e nel campione più restrittivo
-      solo quella relativa al voto del solo padre resiste alla correzione per test multipli. Rispetto alla
-      partecipazione della coppia prima della nascita, anche nel mese della nascita la partecipazione registrata è
-      più bassa, in un confronto descrittivo sensibile alle stesse esclusioni. Dal terzo mese in poi, il divario
-      stimato tra madre e padre torna vicino al livello precedente la nascita.
+      dati amministrativi sulla partecipazione al voto in quattro elezioni a Bologna (2004–2013), dove si vota di
+      persona in giorni prestabiliti e l’unica alternativa è il voto in ospedale per chi vi è ricoverato, collegati
+      ai registri che associano entrambi i genitori alla stessa nascita. Confronto le coppie il cui figlio nasce
+      poco prima del voto con quelle il cui figlio nasce poco dopo. La perdita di voti si concentra nelle nascite
+      dell’ultima settimana prima del voto. Rispetto alle coppie il cui figlio nasce nelle quattro settimane
+      successive al voto, queste coppie esprimono 33,9 voti in meno ogni 100 coppie (su un massimo di 200), e la
+      probabilità che votino entrambi i genitori è inferiore di 23,6 punti; il voto del solo padre e l’astensione di
+      entrambi sono ciascuno più probabili di circa dieci punti, mentre il voto della sola madre cambia poco. Per le
+      nascite da una a quattro settimane prima del voto, le differenze sono piccole. Un secondo disegno,
+      descrittivo, segue le coppie attorno alla nascita del primo figlio: nel primo mese dopo la nascita la loro
+      partecipazione è inferiore al livello precedente, e dal terzo mese in poi il divario tra la partecipazione
+      della madre e quella del padre torna vicino al valore precedente la nascita. Le misure che facilitano il voto
+      attorno alla nascita vanno quindi valutate in base al loro effetto sulla partecipazione di entrambi i
+      genitori.
     keywords: "partecipazione elettorale; costi del voto; nascita; coppie; famiglia; genere; partecipazione politica."
   childcare-turnout:
     abstract: >-

@@ -78,7 +78,7 @@ entries:
 
   labels-outcomes:
     icon: "working_paper"
-    title: "Labels Are Outcomes: Measuring Seniority in Job Postings and the Entry-Level Effects of Generative AI"
+    title: "Labels Are Outcomes: Measuring Seniority in Job Postings around the Release of ChatGPT"
     coauthors: [cerina, nobili]
     links:
       - { type: draft_request }

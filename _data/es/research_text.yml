@@ -41,43 +41,51 @@ labels:
 entries:
   ai-labor-demand:
     abstract: >-
-      Estudiamos cómo el lanzamiento de ChatGPT afectó la demanda laboral publicada en Estados Unidos, utilizando
-      368 millones de avisos de empleo de Lightcast (2016–2025) y una medida de exposición a los LLM anclada en el
-      uso efectivo. Si bien encontramos un efecto negativo y causal sobre el volumen de avisos en las ocupaciones
-      expuestas a la IA, no hallamos ningún efecto posterior al lanzamiento sobre su composición por antigüedad.
-      Después de noviembre de 2022, el volumen de avisos en las ocupaciones del cuartil superior de exposición se
-      contrae 9 puntos logarítmicos (aproximadamente 8,6 por ciento) respecto de las ocupaciones menos expuestas
-      dentro del mismo mercado metropolitano y mes. La estimación resiste una amplia batería de controles de
-      robustez y se concentra en el uso medido de los LLM más que en la capacidad de la IA. En las ocupaciones
-      expuestas, los avisos junior caen bastante más que los senior tras el lanzamiento, pero la divergencia es
-      anterior a ChatGPT: se abre en 2021–22, durante la recuperación de la COVID, y no muestra un quiebre en el
-      momento del lanzamiento. El diferencial que una simple comparación antes/después atribuiría a ChatGPT queda
-      absorbido por la exposición predeterminada al trabajo remoto. Nuestros resultados advierten contra leer las
-      caídas en puestos de entrada basadas en la exposición como evidencia de un cambio tecnológico sesgado por
-      antigüedad impulsado por la IA.
+      Estudiamos cómo el lanzamiento de ChatGPT afectó la demanda laboral publicada en Estados Unidos, separando la
+      cantidad de vacantes que las empresas publican de su composición por antigüedad. Con 314 millones de avisos de
+      empleo (2016–2025) y una medida de exposición a los LLM anclada en el uso efectivo, comparamos ocupaciones
+      dentro del mismo sector, mercado metropolitano y mes a lo largo de cuatro regímenes: prepandemia, shock
+      pandémico, recuperación pospandemia y poslanzamiento. Tras el lanzamiento, la demanda publicada en las
+      ocupaciones más expuestas cae 6,8 puntos logarítmicos respecto de la recuperación pospandemia de marzo de
+      2021–octubre de 2022; la contracción se amplía hasta 2025, resiste los controles por trabajo remoto y se
+      concentra en el uso medido de los LLM más que en la capacidad <i>ex ante</i>. La composición por antigüedad ya
+      se había movido antes del lanzamiento: la proporción de avisos junior entre los avisos clasificados de las
+      ocupaciones expuestas cayó 3,5 puntos porcentuales entre principios de 2021 y el trimestre previo a ChatGPT,
+      en sintonía con la exposición al trabajo remoto, que explica alrededor de 1,5 puntos de la caída. Después del
+      lanzamiento, la proporción no se mueve más respecto del último trimestre previo. Nuestros resultados confirman
+      la caída de los avisos junior en las ocupaciones expuestas, pero la ubican en los dos años anteriores al
+      lanzamiento; hasta ahora, el efecto medible de la IA generativa está en la cantidad de vacantes.
     keywords: "IA generativa; ChatGPT; demanda laboral; antigüedad; avisos de empleo; diferencias en diferencias."
   labels-outcomes:
     abstract: >-
-      ¿La caída de los avisos junior en las ocupaciones expuestas a la IA es un cambio en los puestos que abren las
-      empresas o en las palabras con que los describen? La antigüedad se lee en el texto, y una etiqueta leída en el
-      texto es un resultado: reformular un aviso mueve la cantidad de avisos etiquetados como junior sin que cambie
-      la contratación. Mostramos que una estimación de diferencias en diferencias sobre ese conteo mezcla una
-      respuesta de la contratación y una del etiquetado, que la tasa de etiquetado identifica solo la parte común a
-      todos los niveles de antigüedad, y que el resto se identifica con etiquetas de referencia en una muestra
-      estratificada según el diseño, incluidos los avisos sin etiqueta.
+      Los avisos junior parecen caer en las ocupaciones expuestas a la IA, pero la antigüedad se lee en un texto que
+      las empresas pueden reformular sin cambiar el puesto. Una estimación de diferencias en diferencias sobre un
+      conteo de avisos junior mezcla un cambio en los puestos publicados con un componente de etiquetado, debido a
+      la redacción y a los errores del clasificador. La proporción de avisos que un clasificador etiqueta, su tasa
+      de etiquetado, revela solo el componente común a todos los niveles; la parte específica de cada nivel requiere
+      etiquetas humanas en una muestra estratificada por grupo de exposición, período y nivel asignado, incluidos
+      los avisos sin etiqueta. Proponemos un estimador y una asignación de etiquetas. Sobre 314 millones de avisos
+      de Estados Unidos, con la composición por nivel sin cambios, la mayor caída anual de la tasa de etiquetado de
+      un clasificador basado en reglas después de ChatGPT ubica este componente en alrededor de −0,7 puntos
+      logarítmicos en el panel de la aplicación empírica (−1,5 en un panel más agregado, donde los años de
+      experiencia declarados dan +5 desde la pandemia). Con 252 etiquetas humanas, el cambio corregido en la
+      proporción junior no tiene un signo estable entre las distintas lecturas con LLM; las simulaciones indican que
+      hacen falta miles de etiquetas.
     keywords: "avisos de empleo; medición a partir de texto; antigüedad; puestos de entrada; IA generativa; modelos de lenguaje de gran escala; identificación parcial."
   tipping-point:
     abstract: >-
       Las oportunidades de corrupción atraen a quienes las aprovecharían y alejan a quienes anticipan el costo de
       resistirlas. Estudio ambos márgenes en un modelo de elección ocupacional con costos de autocontrol. Se
-      destacan tres resultados. Primero, cuando la tentación es fuerte, rentas de corrupción pequeñas pueden achicar
-      el grupo de quienes ingresan. Segundo, el sector público puede perder integridad mientras se reduce, de modo
-      que una dotación estable o en baja puede ocultar un plantel que se deteriora. Tercero, con igual excedente
-      neto de la corrupción, eliminar las oportunidades de corrupción genera una corrupción débilmente menor que las
-      sanciones diferidas, tanto con un salario dado como con un número fijo de puestos. Cuando las rentas aumentan
-      con la proporción de corruptos entre quienes ocupan los puestos, el ordenamiento se traslada a los estados
-      estacionarios, y la prevención puede eliminar un equilibrio de alta corrupción que una sanción equivalente
-      mantiene.
+      destacan tres resultados. Primero, sin sanciones, rentas de corrupción pequeñas achican el grupo de quienes
+      ingresan cuando menos de la mitad del valor del servicio honesto se recibe en el momento de la decisión y el
+      conflicto de autocontrol es lo bastante fuerte en relación con esa proporción. Segundo, el sector público
+      puede perder integridad media mientras se reduce, de modo que una dotación estable o en baja puede ocultar un
+      plantel que se deteriora. Tercero, con igual excedente neto de la corrupción, eliminar las oportunidades de
+      corrupción genera una proporción de corruptos débilmente menor que las sanciones diferidas, tanto con un
+      salario dado como con un número fijo de puestos, aunque no necesariamente una integridad media mayor. Cuando
+      las rentas aumentan con la proporción de corruptos entre quienes ocupan los puestos, el ordenamiento se
+      traslada a los estados estacionarios, y la prevención puede eliminar un estado estacionario de alta corrupción
+      que una sanción equivalente mantiene.
     keywords: "selección ocupacional; autocontrol y tentación; corrupción; disuasión; mercados laborales del sector público; equilibrios múltiples."
   crime-voting:
     abstract: >-
@@ -104,18 +112,21 @@ entries:
   childbirth-turnout:
     abstract: >-
       El nacimiento de un hijo es un shock transitorio que afecta a dos votantes de un mismo hogar. Me pregunto cómo
-      se reparte dentro de la pareja el cambio en la participación electoral que provoca. Con registros
-      administrativos de participación de Bolonia, donde se vota en persona en días fijos, vinculados a padrones que
-      conectan a ambos progenitores con el mismo nacimiento, comparo las parejas cuyo hijo nace en las semanas
-      previas a la votación con aquellas cuyo hijo nace después. Las parejas con un hijo nacido en las cuatro
-      semanas anteriores a la votación registran 11,5 votos menos cada 100: la probabilidad de que ambos
-      progenitores figuren como votantes es nueve puntos menor y la de que vote solo el padre, cinco puntos mayor,
-      mientras que el voto de la madre sola apenas cambia. Al excluir los nacimientos más expuestos a una posible
-      clasificación errónea de los votos emitidos en el hospital, estas diferencias se reducen, y en la muestra más
-      restrictiva solo la diferencia en el voto exclusivo del padre sobrevive a la corrección por pruebas múltiples.
-      Respecto de la participación previa al nacimiento de la propia pareja, la participación registrada también es
-      menor en el mes del nacimiento, en una comparación descriptiva sensible a las mismas exclusiones. A partir del
-      tercer mes, la brecha estimada entre madre y padre vuelve a acercarse a su nivel previo al nacimiento.
+      se reparte dentro de la pareja el cambio en la participación electoral que provoca. Uso registros
+      administrativos de participación de cuatro elecciones en Bolonia (2004–2013), donde se vota en persona en días
+      fijos y la única alternativa es el voto en el hospital para quien está internado, vinculados a padrones que
+      conectan a ambos progenitores con el mismo nacimiento. Comparo las parejas cuyo hijo nace justo antes de la
+      votación con aquellas cuyo hijo nace justo después. La pérdida de votos se concentra en los nacimientos de la
+      última semana previa a la votación. Respecto de las parejas cuyo hijo nace en las cuatro semanas posteriores,
+      estas parejas emiten 33,9 votos menos cada 100 parejas (sobre un máximo de 200), y la probabilidad de que
+      voten ambos progenitores es 23,6 puntos menor; el voto exclusivo del padre y la abstención de ambos son cada
+      uno unos diez puntos más probables, mientras que el voto de la madre sola apenas cambia. Para los nacimientos
+      entre una y cuatro semanas antes de la votación, las diferencias son pequeñas. Un segundo diseño, descriptivo,
+      sigue a las parejas alrededor del nacimiento de su primer hijo: en el primer mes posterior al nacimiento su
+      participación está por debajo de su propio nivel previo, y a partir del tercer mes la brecha entre la
+      participación de la madre y la del padre vuelve a acercarse a su valor previo al nacimiento. Por eso, las
+      medidas que facilitan el voto en torno al nacimiento deberían evaluarse por su efecto sobre la participación
+      de ambos progenitores.
     keywords: "participación electoral; costos del voto; nacimiento; parejas; hogar; género; participación política."
   childcare-turnout:
     abstract: >-

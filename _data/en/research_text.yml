@@ -41,37 +41,44 @@ labels:
 entries:
   ai-labor-demand:
     abstract: >-
-      We study how the release of ChatGPT affected posted U.S. labor demand, using 368 million Lightcast job
-      postings (2016–2025) and a usage-anchored measure of LLM exposure. While we find a negative and causal effect
-      on the volume of postings in AI-exposed occupations, we find no post-release effect on their seniority
-      composition. After November 2022, posting volume in top-quartile-exposed occupations contracts by 9 log points
-      (approximately 8.6 percent) relative to less-exposed occupations within the same metropolitan market and
-      month. The estimate survives an extensive battery of robustness checks and is concentrated in measured LLM
-      usage rather than AI capability. In exposed occupations, junior postings fall considerably more than senior
-      postings after the release, but the divergence predates ChatGPT: it opens in 2021–22, during the COVID
-      recovery, and shows no break at the release. The differential that a simple pre/post comparison would
-      attribute to ChatGPT is absorbed by predetermined remote-work exposure. Our results caution against reading
-      exposure-based entry-level declines as evidence of AI-driven seniority-biased technological change.
+      We study how the release of ChatGPT affected posted labor demand in the United States, separating the number
+      of openings firms advertise from their seniority composition. Using 314 million job postings over 2016–2025
+      and a usage-anchored measure of LLM exposure, we compare occupations within the same sector, metropolitan
+      market and month across four regimes: pre-pandemic, pandemic shock, pandemic recovery and post-release. After
+      the release, posted demand in the most exposed occupations falls by 6.8 log points relative to the pandemic
+      recovery of March 2021–October 2022, a contraction that widens through 2025, survives remote-work controls,
+      and loads on measured LLM usage beyond <i>ex ante</i> capability. The seniority composition had moved before
+      the release: the junior share of classified postings in exposed occupations fell by 3.5 percentage points
+      between early 2021 and the quarter before ChatGPT, in step with remote-work exposure, which accounts for about
+      1.5 points of the decline. After the release the share does not move further relative to the last pre-release
+      quarter. Our results confirm the decline in junior postings in exposed occupations, but date it to the two
+      years before the release; the measurable effect of generative AI to date is on the number of openings.
     keywords: "generative AI; ChatGPT; labor demand; seniority; job postings; difference-in-differences."
   labels-outcomes:
     abstract: >-
-      Is the decline in junior postings in AI-exposed occupations a change in the positions firms open or in the
-      words they use to describe them? Seniority is read from text, and a label read from text is an outcome:
-      rewording moves the labeled junior count with no change in hiring. We show that a difference-in-differences
-      estimate on such a count mixes a hiring and a labeling response, that the labeling rate identifies only the
-      part common to all tiers, and that the rest is identified with reference labels on a sample stratified on the
-      design, unlabeled postings included.
+      Junior postings appear to decline in AI-exposed occupations, but seniority is read from text firms can reword
+      without changing the job. A difference-in-differences estimate on a junior count mixes a change in jobs posted
+      with a labeling component, from wording and classifier errors. The share of postings a classifier labels, its
+      labeling rate, reveals only the component common to all tiers; the tier-specific part needs human labels on a
+      sample stratified by exposure group, period and assigned tier, unlabeled postings included. We give an
+      estimator and label allocation. On 314 million U.S. postings, with tier mix unchanged, the largest yearly fall
+      in a rule-based classifier’s labeling rate after ChatGPT puts this component at about −0.7 log points on the
+      application panel (−1.5 on a coarser panel, where stated years give +5 from the pandemic on). With 252 human
+      labels the corrected junior-share change has no stable sign across LLM readings; simulations call for
+      thousands of labels.
     keywords: "job postings; text-derived measurement; seniority; entry-level work; generative AI; large language models; partial identification."
   tipping-point:
     abstract: >-
       Corruption opportunities attract people who would exploit them and repel people who anticipate the cost of
       resisting them. I study both margins in a model of occupational choice with self-control costs. Three results
-      stand out. First, when temptation is strong, small corruption rents can shrink the pool of entrants. Second,
-      the public sector can lose integrity while it shrinks, so a stable or falling headcount can conceal a
-      deteriorating workforce. Third, at equal net corrupt surplus, removing corruption opportunities yields weakly
-      lower corruption than deferred sanctions, both at a given wage and with a fixed number of posts. When rents
-      rise with the share of corrupt incumbents, the ranking carries over to steady states, and prevention can
-      eliminate a high-corruption equilibrium that an equivalent sanction preserves.
+      stand out. First, without sanctions, small corruption rents shrink the pool of entrants when less than half of
+      the value of honest service is received at the moment of decision and the self-control conflict is strong
+      enough relative to that share. Second, the public sector can lose average integrity while it shrinks, so a
+      stable or falling headcount can conceal a deteriorating workforce. Third, at equal net corrupt surplus,
+      removing corruption opportunities yields a weakly lower corrupt share than deferred sanctions, both at a given
+      wage and with a fixed number of posts, although not necessarily higher average integrity. When rents rise with
+      the share of corrupt incumbents, the ranking extends to steady states, and prevention can remove a
+      high-corruption steady state that an equivalent sanction preserves.
     keywords: "occupational selection; self-control and temptation; corruption; deterrence; public-sector labor markets; multiple equilibria."
   crime-voting:
     abstract: >-
@@ -95,16 +102,19 @@ entries:
   childbirth-turnout:
     abstract: >-
       Childbirth is a temporary shock that hits two voters in one household. I ask how the resulting change in
-      turnout is distributed within the couple. Using administrative turnout records for Bologna, where voting is in
-      person on fixed days, linked to registers that connect both parents to the same birth, I compare couples whose
-      child is born in the weeks before the polling days with couples whose child is born after. Couples whose child
-      is born in the four weeks before the vote have 11.5 fewer recorded votes per 100; the probability that both
-      parents are recorded as voting is nine points lower and father-only voting five points more likely, while
-      mother-only voting differs little. Excluding the births most exposed to possible misclassification of hospital
-      votes reduces these differences, and in the most restrictive sample only the father-only difference survives
-      correction for multiple testing. Relative to the couple’s own pre-birth turnout, recorded participation is
-      also lower in the month of birth, in a descriptive comparison that is sensitive to the same exclusions. From
-      three months onward, the estimated mother–father gap is close to its pre-birth level.
+      turnout is distributed within the couple. I use administrative turnout records for four elections in Bologna
+      (2004–2013), where voting is in person on fixed days and the only alternative is a vote in hospital for the
+      admitted patient, linked to registers that connect both parents to the same birth. I compare couples whose
+      child is born just before the polling days with couples whose child is born just after. The loss of votes is
+      concentrated in births in the last week before the vote. Relative to couples whose child is born in the four
+      weeks after the vote, these couples cast 33.9 fewer votes per 100 couples (out of a possible 200), and the
+      probability that both parents vote is 23.6 points lower; father-only voting and abstention by both parents are
+      each about ten points more likely, while mother-only voting differs little. For births one to four weeks
+      before the vote, the differences are small. A second, descriptive design follows couples around their first
+      birth: in the first month after the birth their turnout is below their own pre-birth level, and from three
+      months onward the gap between the mother’s and the father’s turnout is back near its pre-birth value.
+      Accommodations for voters around childbirth should therefore be evaluated by their effect on the turnout of
+      both parents.
     keywords: "voter turnout; voting costs; childbirth; couples; household; gender; political participation."
   childcare-turnout:
     abstract: >-
