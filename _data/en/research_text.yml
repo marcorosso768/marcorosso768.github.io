@@ -60,16 +60,20 @@ entries:
     keywords: "generative AI; ChatGPT; labor demand; seniority; job postings; difference-in-differences."
   labels-outcomes:
     abstract: >-
-      Junior postings appear to decline in AI-exposed occupations, but seniority is read from text firms can reword
-      without changing the job. A difference-in-differences estimate on a junior count mixes a change in jobs posted
-      with a labeling component, from wording and classifier errors. The share of postings a classifier labels, its
-      labeling rate, reveals only the component common to all tiers; the tier-specific part needs human labels on a
-      sample stratified by exposure group, period and assigned tier, unlabeled postings included. We give an
-      estimator and label allocation. On 314 million U.S. postings, with tier mix unchanged, the largest yearly fall
-      in a rule-based classifier’s labeling rate after ChatGPT puts this component at about −0.7 log points on the
-      application panel (−1.5 on a coarser panel, where stated years give +5 from the pandemic on). With 252 human
-      labels the corrected junior-share change has no stable sign across LLM readings; simulations call for
-      thousands of labels.
+      A label read from the text of a job posting is an outcome: the firms under study can change the wording
+      without changing the position. Seniority is such a label, so a difference-in-differences estimate on a labeled
+      junior count mixes a posted-demand component with a labeling component, from firms’ wording and classifier
+      errors. The share of postings a classifier labels, its labeling rate, identifies at most the part of that
+      component common to all tiers; the part that moves postings between tiers requires reference labels on a
+      sample stratified by treatment group, period and assigned tier, unlabeled postings included. We give an
+      estimator and an allocation rule that places most reference labels in the unlabeled strata. On 314 million
+      U.S. postings around the release of ChatGPT, the labeling rate of a rule-based classifier moves after the
+      release by at most about half a percentage point in any year relative to the recovery, under one log point and
+      not distinguishable from zero. For the stated-years reading behind providers’ structured fields it rises by
+      about 5 log points, starting with the pandemic. With 252 human labels, the sign of the corrected change in the
+      junior share depends on which model reading is corrected. In a semi-synthetic exercise, a classifier with
+      fixed errors produces a tier-specific component of about 15 log points from changes in stratum sizes alone,
+      and validation samples of the usual size detect an injected relabeling in at most one replication in five.
     keywords: "job postings; text-derived measurement; seniority; entry-level work; generative AI; large language models; partial identification."
   tipping-point:
     abstract: >-
@@ -131,14 +135,15 @@ entries:
       nursery to preschool to primary school, so that the facility that matters, and its distance from home, changes
       with the child’s age. If proximity leads parents to hold the municipality accountable, turnout should fall
       with distance to the municipal services (nursery and preschool) in local elections only, and not with distance
-      to the state primary school. Comparing each parent with themselves, we detect no such gradient. Equivalence
-      tests rule out effects larger than 0.56 percentage points per 100 meters (1.5 points over the interquartile
-      range of distance), and hence effects as large as the previously documented 2.6-point turnout loss of mothers
-      one to two years after a first birth, but not effects of one point. Within the precision of the data,
-      proximity also leaves the turnout penalty of parenthood unchanged. When parents are also compared within
-      polling precinct and election, turnout in local elections falls with distance to the state school and, among
-      parents with an unchanged address, to the municipal services, significantly only in 2009, though not
-      distinguishably from 2004. Because the state school shows the gradient too and the two tiers cannot be told
-      apart, the design cannot attribute it to accountability. The estimates bound the effect of living near a
-      facility, not of obtaining a place in it.
+      to the state primary school. In the baseline, which follows each parent across elections, turnout does not
+      fall with distance. Equivalence tests rule out effects larger than 0.56 percentage points per 100 meters, or
+      1.5 points over the interquartile range of distance: over that range, effects as large as the previously
+      documented 2.6-point turnout loss of mothers one to two years after a first birth are ruled out. Effects of
+      one point are not. Within the precision of the data, proximity also leaves the turnout penalty of parenthood
+      unchanged. When parents are also compared within polling precinct and election, turnout in local elections
+      falls with distance to the state school and, among parents with an unchanged address, to the municipal
+      services. This fall is significant only in 2009, though not distinguishably from 2004. Because the state
+      school shows it too and the municipal and state tiers cannot be told apart, the design can neither attribute
+      it to accountability nor rule that reading out. The estimates bound the effect of living near a facility, not
+      of obtaining a place in it.
     keywords: "voter turnout; public goods; childcare; gender; local elections."

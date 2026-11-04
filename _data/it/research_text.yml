@@ -62,19 +62,25 @@ entries:
     keywords: "IA generativa; ChatGPT; domanda di lavoro; seniority; annunci di lavoro; differenze nelle differenze."
   labels-outcomes:
     abstract: >-
-      Gli annunci per profili junior sembrano diminuire nelle occupazioni esposte all’IA, ma la seniority si ricava
-      da un testo che le imprese possono riformulare senza cambiare il lavoro. Una stima a differenze nelle
-      differenze su un conteggio di annunci junior mescola una variazione dei posti offerti con una componente di
-      etichettatura, dovuta alla formulazione e agli errori del classificatore. La quota di annunci che un
-      classificatore etichetta, il suo tasso di etichettatura, rivela solo la componente comune a tutti i livelli;
-      la parte specifica di ciascun livello richiede etichette umane su un campione stratificato per gruppo di
-      esposizione, periodo e livello assegnato, compresi gli annunci senza etichetta. Proponiamo uno stimatore e una
-      regola di allocazione delle etichette. Su 314 milioni di annunci statunitensi, a composizione per livello
-      invariata, il calo annuo più ampio del tasso di etichettatura di un classificatore basato su regole dopo
-      ChatGPT colloca questa componente a circa −0,7 punti logaritmici nel panel dell’applicazione empirica (−1,5 in
-      un panel più aggregato, dove la lettura basata sugli anni di esperienza richiesti dà +5 dalla pandemia in poi). Con 252
-      etichette umane, la variazione corretta della quota junior non ha un segno stabile tra le diverse letture con
-      LLM; le simulazioni indicano che servono migliaia di etichette.
+      Un’etichetta ricavata dal testo di un annuncio di lavoro è un esito: le imprese studiate possono cambiare la
+      formulazione senza cambiare la posizione. La seniority è un’etichetta di questo tipo, per cui una stima a
+      differenze nelle differenze su un conteggio di annunci etichettati come junior mescola una componente di
+      domanda espressa negli annunci con una componente di etichettatura, dovuta alla formulazione delle imprese e
+      agli errori del classificatore. La quota di annunci che un classificatore etichetta, il suo tasso di
+      etichettatura, identifica al più la parte di questa componente comune a tutti i livelli; la parte che sposta
+      gli annunci da un livello all’altro richiede etichette di riferimento su un campione stratificato per gruppo
+      di trattamento, periodo e livello assegnato, compresi gli annunci senza etichetta. Proponiamo uno stimatore e
+      una regola di allocazione che colloca la maggior parte delle etichette di riferimento negli strati senza
+      etichetta. Su 314 milioni di annunci statunitensi attorno al rilascio di ChatGPT, dopo il rilascio il tasso di
+      etichettatura di un classificatore basato su regole si sposta al più di circa mezzo punto percentuale in
+      ciascun anno rispetto alla ripresa, meno di un punto logaritmico e non distinguibile da zero. Per la lettura
+      basata sugli anni di esperienza richiesti, alla base dei campi strutturati dei fornitori di dati, il tasso
+      aumenta di circa 5 punti logaritmici, a partire dalla pandemia. Con 252 etichette umane, il segno della
+      variazione corretta della quota junior dipende da quale lettura del modello viene corretta. In un esercizio
+      semi-sintetico, un classificatore con errori fissi produce una componente specifica per livello di circa 15
+      punti logaritmici solo per effetto dei cambiamenti nella dimensione degli strati, e campioni di validazione di
+      dimensione usuale rilevano una rietichettatura introdotta artificialmente al più in una replicazione su
+      cinque.
     keywords: "annunci di lavoro; misure derivate dal testo; seniority; posizioni di ingresso; IA generativa; modelli linguistici di grandi dimensioni; identificazione parziale."
   tipping-point:
     abstract: >-
@@ -143,16 +149,17 @@ entries:
       alla scuola primaria statale, così che la struttura rilevante, e la sua distanza da casa, cambia con l’età del
       figlio. Se la vicinanza induce i genitori a chiedere conto al Comune, la partecipazione dovrebbe diminuire con
       la distanza dai servizi comunali (nido e scuola dell’infanzia) solo nelle elezioni locali, e non con la
-      distanza dalla scuola primaria statale. Confrontando ciascun genitore con sé stesso, non rileviamo alcun
-      gradiente di questo tipo. I test di equivalenza escludono effetti superiori a 0,56 punti percentuali ogni 100
-      metri (1,5 punti sull’intervallo interquartile della distanza). Escludono quindi effetti grandi quanto il calo
-      di 2,6 punti, già documentato, nella partecipazione delle madri da uno a due anni dopo la nascita del primo
-      figlio, ma non effetti di un punto. Nei limiti di precisione dei dati, la vicinanza lascia invariato anche il
-      calo di partecipazione legato alla genitorialità. Quando i genitori vengono confrontati anche all’interno
-      della stessa sezione elettorale e della stessa elezione, la partecipazione alle elezioni locali diminuisce con
-      la distanza dalla scuola statale e, tra i genitori che non hanno cambiato indirizzo, con la distanza dai
-      servizi comunali. Entrambi i cali sono significativi solo nel 2009, ma non si distinguono da quelli del 2004.
-      Poiché il gradiente compare anche per la scuola statale e i due livelli di governo non si possono distinguere,
-      il disegno non consente di attribuirlo all’accountability. Le stime delimitano l’effetto di vivere vicino a
-      una struttura, non quello di ottenervi un posto.
+      distanza dalla scuola primaria statale. Nella specificazione di base, che segue ciascun genitore nelle diverse
+      elezioni, la partecipazione non diminuisce con la distanza. I test di equivalenza escludono effetti superiori
+      a 0,56 punti percentuali ogni 100 metri, ovvero 1,5 punti sull’intervallo interquartile della distanza: su
+      questo intervallo sono esclusi effetti grandi quanto il calo di 2,6 punti, già documentato, nella
+      partecipazione delle madri da uno a due anni dopo la nascita del primo figlio. Effetti di un punto non lo
+      sono. Nei limiti di precisione dei dati, la vicinanza lascia invariato anche il calo di partecipazione legato
+      alla genitorialità. Quando i genitori vengono confrontati anche all’interno della stessa sezione elettorale e
+      della stessa elezione, la partecipazione alle elezioni locali diminuisce con la distanza dalla scuola statale
+      e, tra i genitori che non hanno cambiato indirizzo, con la distanza dai servizi comunali. Entrambi i cali sono
+      significativi solo nel 2009, ma non si distinguono da quelli del 2004. Poiché il calo compare anche per la
+      scuola statale e i livelli comunale e statale non si possono distinguere, il disegno non consente né di
+      attribuirlo all’accountability né di escludere questa lettura. Le stime delimitano l’effetto di vivere vicino
+      a una struttura, non quello di ottenervi un posto.
     keywords: "partecipazione elettorale; beni pubblici; servizi per l’infanzia; genere; elezioni locali."

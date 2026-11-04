@@ -62,18 +62,24 @@ entries:
     keywords: "IA generativa; ChatGPT; demanda laboral; antigüedad; avisos de empleo; diferencias en diferencias."
   labels-outcomes:
     abstract: >-
-      Los avisos junior parecen caer en las ocupaciones expuestas a la IA, pero la antigüedad se lee en un texto que
-      las empresas pueden reformular sin cambiar el puesto. Una estimación de diferencias en diferencias sobre un
-      conteo de avisos junior mezcla un cambio en los puestos publicados con un componente de etiquetado, debido a
-      la redacción y a los errores del clasificador. La proporción de avisos que un clasificador etiqueta, su tasa
-      de etiquetado, revela solo el componente común a todos los niveles; la parte específica de cada nivel requiere
-      etiquetas humanas en una muestra estratificada por grupo de exposición, período y nivel asignado, incluidos
-      los avisos sin etiqueta. Proponemos un estimador y una asignación de etiquetas. Sobre 314 millones de avisos
-      de Estados Unidos, con la composición por nivel sin cambios, la mayor caída anual de la tasa de etiquetado de
-      un clasificador basado en reglas después de ChatGPT ubica este componente en alrededor de −0,7 puntos
-      logarítmicos en el panel de la aplicación empírica (−1,5 en un panel más agregado, donde la lectura basada en los años de experiencia requeridos da +5 desde la pandemia). Con 252 etiquetas humanas, el cambio corregido en la
-      proporción junior no tiene un signo estable entre las distintas lecturas con LLM; las simulaciones indican que
-      hacen falta miles de etiquetas.
+      Una etiqueta leída en el texto de un aviso de empleo es un resultado: las empresas estudiadas pueden cambiar
+      la redacción sin cambiar el puesto. La antigüedad es una etiqueta de ese tipo, así que una estimación de
+      diferencias en diferencias sobre un conteo de avisos etiquetados como junior mezcla un componente de demanda
+      publicada con un componente de etiquetado, debido a la redacción de las empresas y a los errores del
+      clasificador. La proporción de avisos que un clasificador etiqueta, su tasa de etiquetado, identifica como
+      máximo la parte de ese componente común a todos los niveles; la parte que mueve avisos entre niveles requiere
+      etiquetas de referencia en una muestra estratificada por grupo de tratamiento, período y nivel asignado,
+      incluidos los avisos sin etiqueta. Proponemos un estimador y una regla de asignación que ubica la mayoría de
+      las etiquetas de referencia en los estratos sin etiqueta. Sobre 314 millones de avisos de Estados Unidos en
+      torno al lanzamiento de ChatGPT, la tasa de etiquetado de un clasificador basado en reglas se mueve después
+      del lanzamiento como máximo alrededor de medio punto porcentual en cualquier año respecto de la recuperación,
+      menos de un punto logarítmico y sin diferenciarse de cero. Para la lectura basada en los años de experiencia
+      requeridos, que está detrás de los campos estructurados de los proveedores de datos, sube alrededor de 5
+      puntos logarítmicos, a partir de la pandemia. Con 252 etiquetas humanas, el signo del cambio corregido en la
+      proporción junior depende de qué lectura del modelo se corrige. En un ejercicio semisintético, un clasificador
+      con errores fijos genera un componente específico de cada nivel de alrededor de 15 puntos logarítmicos solo
+      por cambios en el tamaño de los estratos, y muestras de validación del tamaño habitual detectan un
+      reetiquetado inyectado como máximo en una de cada cinco réplicas.
     keywords: "avisos de empleo; medición a partir de texto; antigüedad; puestos de entrada; IA generativa; modelos de lenguaje de gran escala; identificación parcial."
   tipping-point:
     abstract: >-
@@ -145,16 +151,17 @@ entries:
       establecimiento relevante, y su distancia al hogar, cambia con la edad del hijo. Si la cercanía lleva a los
       padres a pedirle cuentas al municipio, la participación debería caer con la distancia a los servicios
       municipales (jardín maternal y jardín de infantes) solo en las elecciones locales, y no con la distancia a la
-      escuela primaria estatal. Al comparar a cada padre o madre consigo mismo, no detectamos tal gradiente. Las
-      pruebas de equivalencia descartan efectos mayores a 0,56 puntos porcentuales cada 100 metros (1,5 puntos sobre
-      el rango intercuartílico de la distancia). Descartan, por lo tanto, efectos tan grandes como la caída de 2,6
-      puntos, ya documentada, en la participación de las madres entre uno y dos años después del nacimiento del
-      primer hijo, pero no efectos de un punto. Dentro de la precisión de los datos, la cercanía tampoco modifica la
-      caída de la participación asociada a tener hijos. Cuando además se compara a los padres dentro de la misma
-      sección electoral y la misma elección, la participación en las elecciones locales cae con la distancia a la
-      escuela estatal y, entre los padres que no cambiaron de domicilio, con la distancia a los servicios
-      municipales. Ambas caídas son significativas solo en 2009, pero no se distinguen de las de 2004. Dado que la
-      escuela estatal también muestra el gradiente y los dos niveles de gobierno no pueden distinguirse, el diseño
-      no permite atribuirlo a la rendición de cuentas. Las estimaciones acotan el efecto de vivir cerca de un
+      escuela primaria estatal. En la especificación de base, que sigue a cada padre o madre a lo largo de las
+      elecciones, la participación no cae con la distancia. Las pruebas de equivalencia descartan efectos mayores a
+      0,56 puntos porcentuales cada 100 metros, es decir, 1,5 puntos sobre el rango intercuartílico de la distancia:
+      sobre ese rango, quedan descartados efectos tan grandes como la caída de 2,6 puntos, ya documentada, en la
+      participación de las madres entre uno y dos años después del nacimiento del primer hijo. Los efectos de un
+      punto, no. Dentro de la precisión de los datos, la cercanía tampoco modifica la caída de la participación
+      asociada a tener hijos. Cuando además se compara a los padres dentro de la misma sección electoral y la misma
+      elección, la participación en las elecciones locales cae con la distancia a la escuela estatal y, entre los
+      padres que no cambiaron de domicilio, con la distancia a los servicios municipales. Ambas caídas son
+      significativas solo en 2009, pero no se distinguen de las de 2004. Dado que la escuela estatal también muestra
+      esa caída y los niveles municipal y estatal no pueden distinguirse, el diseño no permite ni atribuirla a la
+      rendición de cuentas ni descartar esa lectura. Las estimaciones acotan el efecto de vivir cerca de un
       establecimiento, no el de obtener una vacante en él.
     keywords: "participación electoral; bienes públicos; cuidado infantil; género; elecciones locales."
