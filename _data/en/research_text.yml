@@ -107,18 +107,19 @@ entries:
     abstract: >-
       Childbirth is a temporary shock that hits two voters in one household. I ask how the resulting change in
       turnout is distributed within the couple. I use administrative turnout records for four elections in Bologna
-      (2004–2013), where voting is in person on fixed days and the only alternative is a vote in hospital for the
-      admitted patient, linked to registers that connect both parents to the same birth. I compare couples whose
-      child is born just before the polling days with couples whose child is born just after. The loss of votes is
-      concentrated in births in the last week before the vote. Relative to couples whose child is born in the four
+      (2004–2013), linked to population registers that connect both parents to the same birth. Voting is in person
+      on fixed days, and the only alternative is a vote in hospital for the admitted patient. I compare couples
+      whose child is born just before the polling days with couples whose child is born just after. The loss of
+      votes comes from births in the last week before the vote. Relative to couples whose child is born in the four
       weeks after the vote, these couples cast 33.9 fewer votes per 100 couples (out of a possible 200), and the
       probability that both parents vote is 23.6 points lower; father-only voting and abstention by both parents are
-      each about ten points more likely, while mother-only voting differs little. For births one to four weeks
-      before the vote, the differences are small. A second, descriptive design follows couples around their first
-      birth: in the first month after the birth their turnout is below their own pre-birth level, and from three
-      months onward the gap between the mother’s and the father’s turnout is back near its pre-birth value.
-      Accommodations for voters around childbirth should therefore be evaluated by their effect on the turnout of
-      both parents.
+      each about ten points more likely, while mother-only voting differs little. Most of the fathers’ additional
+      abstention occurs in couples in which the mother also abstains, but the data cannot tell whether the birth
+      changes the dependence between the partners’ decisions. For births eight to 28 days before the vote, the
+      differences are much smaller. A second, descriptive design follows couples around their first birth: in the
+      first month after the birth their turnout is below their own pre-birth level, and from three months onward the
+      gap between the mother’s and the father’s turnout is back near its pre-birth value. Accommodations for voters
+      around childbirth should therefore be evaluated by their effect on the turnout of both parents.
     keywords: "voter turnout; voting costs; childbirth; couples; household; gender; political participation."
   childcare-turnout:
     abstract: >-
