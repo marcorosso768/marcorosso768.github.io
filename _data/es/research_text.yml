@@ -77,18 +77,20 @@ entries:
     keywords: "avisos de empleo; medición a partir de texto; antigüedad; puestos de entrada; IA generativa; modelos de lenguaje de gran escala; identificación parcial."
   tipping-point:
     abstract: >-
-      Las oportunidades de corrupción atraen a quienes las aprovecharían y alejan a quienes anticipan el costo de
-      resistirlas. Estudio ambos márgenes en un modelo de elección ocupacional con costos de autocontrol. Se
-      destacan tres resultados. Primero, sin sanciones, rentas de corrupción pequeñas achican el grupo de quienes
-      ingresan cuando menos de la mitad del valor del servicio honesto se recibe en el momento de la decisión y el
-      conflicto de autocontrol es lo bastante fuerte en relación con esa proporción. Segundo, el sector público
-      puede perder integridad media mientras se reduce, de modo que una dotación estable o en baja puede ocultar un
-      plantel que se deteriora. Tercero, con igual excedente neto de la corrupción, eliminar las oportunidades de
-      corrupción genera una proporción de corruptos débilmente menor que las sanciones diferidas, tanto con un
-      salario dado como con un número fijo de puestos, aunque no necesariamente una integridad media mayor. Cuando
-      las rentas aumentan con la proporción de corruptos entre quienes ocupan los puestos, el ordenamiento se
-      traslada a los estados estacionarios, y la prevención puede eliminar un estado estacionario de alta corrupción
-      que una sanción equivalente mantiene.
+      La posibilidad de aceptar un soborno atrae a quienes lo aceptarían y aleja a quienes tendrían que seguir
+      rechazándolo. Estudio ambos efectos en un modelo de elección ocupacional en el que el costo de resistir
+      responde al soborno, que se recibe en el momento, y no a una sanción que llega después. Primero, un soborno
+      pequeño reduce la cantidad de personas que quieren un empleo público cuando la proporción del valor de la
+      honestidad que se percibe en el momento de elegir es lo bastante baja; a primer orden, el umbral depende de
+      los dos parámetros de la tentación, no de la distribución de tipos. Segundo, el tamaño no revela la
+      composición: en ese umbral la dotación no cambia mientras los ingresantes honestos son reemplazados por
+      corruptos, y apenas por encima el sector se achica y empeora a la vez. Tercero, entre reformas que reducen en
+      la misma medida la ganancia neta de la corrupción, eliminar la oportunidad deja una proporción de corruptos no
+      mayor que una sanción diferida, con un salario dado y con un número fijo de puestos; con puestos fijos, dejar
+      que las personas elijan si ingresar diluye esta ventaja y nunca la amplifica. Con sobornos que aumentan con la
+      proporción de corruptos entre quienes ocupan los puestos, el ordenamiento se traslada a los estados
+      estacionarios, y la prevención puede eliminar un estado estacionario de alta corrupción que una sanción
+      equivalente mantiene.
     keywords: "selección ocupacional; autocontrol y tentación; corrupción; disuasión; mercados laborales del sector público; equilibrios múltiples."
   crime-voting:
     abstract: >-

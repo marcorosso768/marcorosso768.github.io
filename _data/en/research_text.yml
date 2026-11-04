@@ -73,16 +73,18 @@ entries:
     keywords: "job postings; text-derived measurement; seniority; entry-level work; generative AI; large language models; partial identification."
   tipping-point:
     abstract: >-
-      Corruption opportunities attract people who would exploit them and repel people who anticipate the cost of
-      resisting them. I study both margins in a model of occupational choice with self-control costs. Three results
-      stand out. First, without sanctions, small corruption rents shrink the pool of entrants when less than half of
-      the value of honest service is received at the moment of decision and the self-control conflict is strong
-      enough relative to that share. Second, the public sector can lose average integrity while it shrinks, so a
-      stable or falling headcount can conceal a deteriorating workforce. Third, at equal net corrupt surplus,
-      removing corruption opportunities yields a weakly lower corrupt share than deferred sanctions, both at a given
-      wage and with a fixed number of posts, although not necessarily higher average integrity. When rents rise with
-      the share of corrupt incumbents, the ranking extends to steady states, and prevention can remove a
-      high-corruption steady state that an equivalent sanction preserves.
+      A chance to take a bribe attracts the people who would take it and repels the people who would have to keep
+      refusing it. I study both effects in a model of occupational choice in which the cost of resisting responds to
+      the bribe, received now, and not to a sanction that comes later. First, a small bribe reduces the number of
+      people who want a public job when the share of the value of honesty felt at the moment of choice is low
+      enough; to leading order the threshold depends on the two parameters of temptation, not on the distribution of
+      types. Second, size does not reveal composition: at that threshold the headcount stands still while honest
+      entrants are replaced by corrupt ones, and just above it the sector shrinks and worsens together. Third, for
+      reforms that lower the net gain from corruption by the same amount, removing the opportunity leaves a corrupt
+      share no higher than a deferred sanction does, at a given wage and with a fixed number of posts; with fixed
+      posts, letting people choose whether to enter dilutes this advantage and never amplifies it. With bribes that
+      rise with the share of corrupt incumbents, the ranking extends to steady states, and prevention can remove a
+      high-corruption steady state that an equal sanction preserves.
     keywords: "occupational selection; self-control and temptation; corruption; deterrence; public-sector labor markets; multiple equilibria."
   crime-voting:
     abstract: >-

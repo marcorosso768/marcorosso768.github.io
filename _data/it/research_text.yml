@@ -78,18 +78,19 @@ entries:
     keywords: "annunci di lavoro; misure derivate dal testo; seniority; posizioni di ingresso; IA generativa; modelli linguistici di grandi dimensioni; identificazione parziale."
   tipping-point:
     abstract: >-
-      Le opportunità di corruzione attraggono chi le sfrutterebbe e allontanano chi prevede il costo di resistervi.
-      Studio entrambi i margini in un modello di scelta occupazionale con costi di autocontrollo. Emergono tre
-      risultati. Primo, in assenza di sanzioni, piccole rendite da corruzione riducono il bacino di chi entra nel
-      settore pubblico quando meno della metà del valore del servizio onesto viene percepita al momento della
-      decisione e il conflitto di autocontrollo è abbastanza forte rispetto a questa quota. Secondo, il settore
-      pubblico può perdere integrità media mentre si restringe, per cui un organico stabile o in calo può nascondere
-      un personale che peggiora. Terzo, a parità di surplus netto da corruzione, eliminare le opportunità di
-      corruzione produce una quota di corrotti debolmente inferiore rispetto alle sanzioni differite, sia a salario
-      dato sia con un numero fisso di posti, anche se non necessariamente un’integrità media più alta. Quando le
-      rendite crescono con la quota di corrotti tra chi è in servizio, l’ordinamento si estende agli stati
-      stazionari, e la prevenzione può eliminare uno stato stazionario ad alta corruzione che una sanzione
-      equivalente lascia in piedi.
+      La possibilità di intascare una tangente attrae chi la intascherebbe e allontana chi dovrebbe continuare a
+      rifiutarla. Studio entrambi gli effetti in un modello di scelta occupazionale in cui il costo di resistere
+      risponde alla tangente, ricevuta subito, e non a una sanzione che arriva dopo. Primo, una piccola tangente
+      riduce il numero di persone che vogliono un impiego pubblico quando la quota del valore dell’onestà percepita
+      al momento della scelta è abbastanza bassa; al primo ordine la soglia dipende dai due parametri della
+      tentazione, non dalla distribuzione dei tipi. Secondo, la dimensione non rivela la composizione: a quella
+      soglia l’organico resta fermo mentre gli entranti onesti sono sostituiti da entranti corrotti, e appena sopra
+      di essa il settore si restringe e insieme peggiora. Terzo, tra riforme che riducono della stessa misura il
+      guadagno netto dalla corruzione, eliminare l’opportunità lascia una quota di corrotti non superiore a quella
+      di una sanzione differita, a salario dato e con un numero fisso di posti; con posti fissi, lasciare che le
+      persone scelgano se entrare attenua questo vantaggio e non lo amplifica mai. Con tangenti che crescono con la
+      quota di corrotti tra chi è in servizio, l’ordinamento si estende agli stati stazionari, e la prevenzione può
+      eliminare uno stato stazionario ad alta corruzione che una sanzione equivalente lascia in piedi.
     keywords: "selezione occupazionale; autocontrollo e tentazione; corruzione; deterrenza; mercato del lavoro nel settore pubblico; equilibri multipli."
   crime-voting:
     abstract: >-
