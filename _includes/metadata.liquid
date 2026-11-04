@@ -147,7 +147,7 @@
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
   {% if site.ssrn_author_id %}
-    {% capture link %}https://ssrn.com/author={{ site.ssrn_author_id }}{% endcapture %}
+    {% capture link %}https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id={{ site.ssrn_author_id }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
   {% if site.semanticscholar_id %}

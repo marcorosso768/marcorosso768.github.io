@@ -69,7 +69,7 @@ meta_description: "Indirizzi e-mail all'Universit√† di Cagliari e all'Universit√
 
   <div class="icon-link indented">
     <i class="ai ai-ssrn-square fa-fw"></i>
-    <a href="https://ssrn.com/author=4602100">SSRN</a>
+    <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4602100">SSRN</a>
   </div>
 
   <div class="icon-link indented">

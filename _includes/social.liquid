@@ -13,7 +13,9 @@
   <a href="https://ideas.repec.org/f/{{ site.repec_id }}.html" title="IDEAS/RePEc"><i class="ai ai-ideas-repec fa-fw"></i></a>
 {% endif %}
 {% if site.ssrn_author_id %}
-  <a href="https://ssrn.com/author={{ site.ssrn_author_id }}" title="SSRN"><i class="ai ai-ssrn-square fa-fw"></i></a>
+  <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id={{ site.ssrn_author_id }}" title="SSRN"
+    ><i class="ai ai-ssrn-square fa-fw"></i
+  ></a>
 {% endif %}
 {% if site.research_gate_profile %}
   <a href="https://www.researchgate.net/profile/{{ site.research_gate_profile }}" title="ResearchGate"><i class="ai ai-researchgate fa-fw"></i></a>
