@@ -62,24 +62,22 @@ entries:
     keywords: "IA generativa; ChatGPT; demanda laboral; antigüedad; avisos de empleo; diferencias en diferencias."
   labels-outcomes:
     abstract: >-
-      Una etiqueta leída en el texto de un aviso de empleo es un resultado: las empresas estudiadas pueden cambiar
-      la redacción sin cambiar el puesto. La antigüedad es una etiqueta de ese tipo, así que una estimación de
-      diferencias en diferencias sobre un conteo de avisos etiquetados como junior mezcla un componente de demanda
-      publicada con un componente de etiquetado, debido a la redacción de las empresas y a los errores del
-      clasificador. La proporción de avisos que un clasificador etiqueta, su tasa de etiquetado, identifica como
-      máximo la parte de ese componente común a todos los niveles; la parte que mueve avisos entre niveles requiere
-      etiquetas de referencia en una muestra estratificada por grupo de tratamiento, período y nivel asignado,
-      incluidos los avisos sin etiqueta. Proponemos un estimador y una regla de asignación que ubica la mayoría de
-      las etiquetas de referencia en los estratos sin etiqueta. Sobre 314 millones de avisos de Estados Unidos en
-      torno al lanzamiento de ChatGPT, la tasa de etiquetado de un clasificador basado en reglas se mueve después
-      del lanzamiento como máximo alrededor de medio punto porcentual en cualquier año respecto de la recuperación,
-      menos de un punto logarítmico y sin diferenciarse de cero. Para la lectura basada en los años de experiencia
-      requeridos, que está detrás de los campos estructurados de los proveedores de datos, sube alrededor de 5
-      puntos logarítmicos, a partir de la pandemia. Con 252 etiquetas humanas, el signo del cambio corregido en la
-      proporción junior depende de qué lectura del modelo se corrige. En un ejercicio semisintético, un clasificador
-      con errores fijos genera un componente específico de cada nivel de alrededor de 15 puntos logarítmicos solo
-      por cambios en el tamaño de los estratos, y muestras de validación del tamaño habitual detectan un
-      reetiquetado inyectado como máximo en una de cada cinco réplicas.
+      Una etiqueta leída en el texto de un aviso de empleo es un resultado: las empresas pueden cambiar la redacción
+      sin cambiar el puesto. La antigüedad es una etiqueta de ese tipo, así que una estimación de diferencias en
+      diferencias sobre un conteo de avisos etiquetados como junior mezcla un componente de demanda publicada con un
+      componente de etiquetado, debido a la redacción de las empresas y a los errores del clasificador. La tasa de
+      etiquetado, es decir, la proporción de avisos que un clasificador etiqueta, identifica como máximo la parte
+      común a todos los niveles; el resto requiere etiquetas de referencia en una muestra estratificada por grupo de
+      tratamiento, período y nivel asignado, incluidos los avisos sin etiqueta. Proponemos un estimador y una regla
+      de asignación, que ubica la mayoría de las etiquetas de referencia en los estratos sin etiqueta. Sobre 314
+      millones de avisos de Estados Unidos, después del lanzamiento de ChatGPT la tasa de etiquetado de un
+      clasificador basado en reglas se mueve menos de un punto logarítmico en el panel de la aplicación empírica,
+      sin diferenciarse de cero; la lectura basada en los años de experiencia requeridos, que está detrás de los
+      campos estructurados de los proveedores de datos, sube alrededor de 5 puntos logarítmicos desde la pandemia.
+      Con 252 etiquetas humanas, el signo del cambio corregido en la proporción junior depende de qué lectura del
+      modelo se corrige. En las simulaciones, los errores fijos del clasificador por sí solos generan un componente
+      específico de cada nivel de alrededor de 15 puntos logarítmicos, y las muestras de validación del tamaño
+      habitual rara vez detectan un reetiquetado.
     keywords: "avisos de empleo; medición a partir de texto; antigüedad; puestos de entrada; IA generativa; modelos de lenguaje de gran escala; identificación parcial."
   tipping-point:
     abstract: >-

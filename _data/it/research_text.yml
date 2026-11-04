@@ -62,25 +62,22 @@ entries:
     keywords: "IA generativa; ChatGPT; domanda di lavoro; seniority; annunci di lavoro; differenze nelle differenze."
   labels-outcomes:
     abstract: >-
-      Un’etichetta ricavata dal testo di un annuncio di lavoro è un esito: le imprese studiate possono cambiare la
+      Un’etichetta ricavata dal testo di un annuncio di lavoro è un esito: le imprese possono cambiare la
       formulazione senza cambiare la posizione. La seniority è un’etichetta di questo tipo, per cui una stima a
       differenze nelle differenze su un conteggio di annunci etichettati come junior mescola una componente di
       domanda espressa negli annunci con una componente di etichettatura, dovuta alla formulazione delle imprese e
-      agli errori del classificatore. La quota di annunci che un classificatore etichetta, il suo tasso di
-      etichettatura, identifica al più la parte di questa componente comune a tutti i livelli; la parte che sposta
-      gli annunci da un livello all’altro richiede etichette di riferimento su un campione stratificato per gruppo
-      di trattamento, periodo e livello assegnato, compresi gli annunci senza etichetta. Proponiamo uno stimatore e
-      una regola di allocazione che colloca la maggior parte delle etichette di riferimento negli strati senza
-      etichetta. Su 314 milioni di annunci statunitensi attorno al rilascio di ChatGPT, dopo il rilascio il tasso di
-      etichettatura di un classificatore basato su regole si sposta al più di circa mezzo punto percentuale in
-      ciascun anno rispetto alla ripresa, meno di un punto logaritmico e non distinguibile da zero. Per la lettura
-      basata sugli anni di esperienza richiesti, alla base dei campi strutturati dei fornitori di dati, il tasso
-      aumenta di circa 5 punti logaritmici, a partire dalla pandemia. Con 252 etichette umane, il segno della
-      variazione corretta della quota junior dipende da quale lettura del modello viene corretta. In un esercizio
-      semi-sintetico, un classificatore con errori fissi produce una componente specifica per livello di circa 15
-      punti logaritmici solo per effetto dei cambiamenti nella dimensione degli strati, e campioni di validazione di
-      dimensione usuale rilevano una rietichettatura introdotta artificialmente al più in una replicazione su
-      cinque.
+      agli errori del classificatore. Il tasso di etichettatura, cioè la quota di annunci che un classificatore
+      etichetta, identifica al più la parte comune a tutti i livelli; il resto richiede etichette di riferimento su
+      un campione stratificato per gruppo di trattamento, periodo e livello assegnato, compresi gli annunci senza
+      etichetta. Proponiamo uno stimatore e una regola di allocazione, che colloca la maggior parte delle etichette
+      di riferimento negli strati senza etichetta. Su 314 milioni di annunci statunitensi, dopo il rilascio di
+      ChatGPT il tasso di etichettatura di un classificatore basato su regole si sposta di meno di un punto
+      logaritmico nel panel dell’applicazione empirica, in modo non distinguibile da zero; la lettura basata sugli
+      anni di esperienza richiesti, alla base dei campi strutturati dei fornitori di dati, aumenta di circa 5 punti
+      logaritmici dalla pandemia in poi. Con 252 etichette umane, il segno della variazione corretta della quota
+      junior dipende da quale lettura del modello viene corretta. Nelle simulazioni, i soli errori fissi del
+      classificatore producono una componente specifica per livello di circa 15 punti logaritmici, e campioni di
+      validazione di dimensione usuale raramente rilevano una rietichettatura.
     keywords: "annunci di lavoro; misure derivate dal testo; seniority; posizioni di ingresso; IA generativa; modelli linguistici di grandi dimensioni; identificazione parziale."
   tipping-point:
     abstract: >-
