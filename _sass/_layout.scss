@@ -1444,7 +1444,7 @@ h5.teaching-entry__content {
 /* Only the About page content area */
 .post .about-content {
   a.external,
-  a[rel~="external"]:not(.no-external),
+  a[rel~="external"]:not(.no-external):not(.link-other),
   a[href^="mailto:"]:not(.no-external) {
     &:link,
     &:visited,
@@ -1453,6 +1453,17 @@ h5.teaching-entry__content {
     &:active {
       color: var(--global-theme-color) !important;
     }
+  }
+}
+
+// homepage: link a persone e istituzioni degli altri (es. coautori) del colore del testo; al passaggio solo corsivo
+.post .about-content a.link-other {
+  &:link,
+  &:visited,
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--global-text-color) !important;
   }
 }
 
