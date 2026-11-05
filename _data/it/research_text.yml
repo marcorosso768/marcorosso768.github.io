@@ -65,35 +65,38 @@ entries:
       Un’etichetta ricavata dal testo di un annuncio di lavoro è un esito: le imprese possono cambiare la
       formulazione senza cambiare la posizione. La seniority è un’etichetta di questo tipo, per cui una stima a
       differenze nelle differenze su un conteggio di annunci etichettati come junior mescola una componente di
-      domanda espressa negli annunci con una componente di etichettatura, dovuta alla formulazione delle imprese e
-      agli errori del classificatore. Il tasso di etichettatura, cioè la quota di annunci che un classificatore
-      etichetta, identifica al più la parte comune a tutti i livelli; il resto richiede etichette di riferimento su
-      un campione stratificato per gruppo di trattamento, periodo e livello assegnato, compresi gli annunci senza
-      etichetta. Proponiamo uno stimatore e una regola di allocazione, che colloca la maggior parte delle etichette
-      di riferimento negli strati senza etichetta. Su 314 milioni di annunci statunitensi, dopo il rilascio di
-      ChatGPT il tasso di etichettatura di un classificatore basato su regole si sposta di meno di un punto
-      logaritmico nel panel dell’applicazione empirica, in modo non distinguibile da zero; la lettura basata sugli
-      anni di esperienza richiesti, alla base dei campi strutturati dei fornitori di dati, aumenta di circa 5 punti
-      logaritmici dalla pandemia in poi. Con 252 etichette umane, il segno della variazione corretta della quota
-      junior dipende da quale lettura del modello viene corretta. Nelle simulazioni, i soli errori fissi del
-      classificatore producono una componente specifica per livello di circa 15 punti logaritmici, e campioni di
+      domanda espressa negli annunci con una componente di etichettatura, dovuta alla formulazione e agli errori del
+      classificatore. Il tasso di etichettatura, cioè la quota di annunci che un classificatore etichetta,
+      identifica al più la parte comune a tutti i livelli; il resto richiede etichette di riferimento su un campione
+      stratificato per gruppo di trattamento, periodo e livello assegnato, compresi gli annunci senza etichetta.
+      Proponiamo uno stimatore e una regola di allocazione; la maggior parte delle etichette di riferimento va agli
+      strati senza etichetta. Su 314 milioni di annunci statunitensi, dopo il rilascio di ChatGPT il tasso di
+      etichettatura di un classificatore basato su regole si sposta di meno di un punto logaritmico nel panel
+      dell’applicazione empirica, in modo non distinguibile da zero; un tasso basato sugli anni di esperienza
+      richiesti, ricostruito dal testo, aumenta di circa 5 punti logaritmici dalla pandemia in poi. Con 252
+      etichette umane, la variazione corretta della quota junior resta indeterminata: il suo segno dipende dalla
+      lettura del modello usata come input. Nelle simulazioni, errori fissi del classificatore producono una
+      componente specifica per livello di circa 15 punti logaritmici ai tassi di errore ipotizzati, e campioni di
       validazione di dimensione usuale raramente rilevano una rietichettatura.
     keywords: "annunci di lavoro; misure derivate dal testo; seniority; posizioni di ingresso; IA generativa; modelli linguistici di grandi dimensioni; identificazione parziale."
   tipping-point:
     abstract: >-
       La possibilità di intascare una tangente attrae chi la intascherebbe e allontana chi dovrebbe continuare a
       rifiutarla. Studio entrambi gli effetti in un modello di scelta occupazionale in cui il costo di resistere
-      risponde alla tangente, ricevuta subito, e non a una sanzione che arriva dopo. Primo, una piccola tangente
-      riduce il numero di persone che vogliono un impiego pubblico quando la quota del valore dell’onestà percepita
-      al momento della scelta è abbastanza bassa; al primo ordine la soglia dipende dai due parametri della
-      tentazione, non dalla distribuzione dei tipi. Secondo, la dimensione non rivela la composizione: a quella
-      soglia l’organico resta fermo mentre gli entranti onesti sono sostituiti da entranti corrotti, e appena sopra
-      di essa il settore si restringe e insieme peggiora. Terzo, tra riforme che riducono della stessa misura il
-      guadagno netto dalla corruzione, eliminare l’opportunità lascia una quota di corrotti non superiore a quella
-      di una sanzione differita, a salario dato e con un numero fisso di posti; con posti fissi, lasciare che le
-      persone scelgano se entrare attenua questo vantaggio e non lo amplifica mai. Con tangenti che crescono con la
-      quota di corrotti tra chi è in servizio, l’ordinamento si estende agli stati stazionari, e la prevenzione può
-      eliminare uno stato stazionario ad alta corruzione che una sanzione equivalente lascia in piedi.
+      risponde alla tangente, ricevuta subito, e non a una sanzione che arriva dopo. Primo, si consideri una
+      tangente senza sanzioni, e si supponga che alcune persone con un’integrità quasi nulla siano vicine
+      all’indifferenza riguardo all’ingresso. Una piccola tangente riduce allora il numero di persone che vogliono
+      un impiego pubblico quando la quota del valore dell’onestà percepita al momento della scelta è abbastanza
+      bassa, e la soglia dipende, al primo ordine, dai due parametri della tentazione, non dalla distribuzione dei
+      tipi. Secondo, la dimensione non rivela la composizione: dove un aumento marginale della tangente lascia
+      invariato l’organico, sostituisce entranti onesti con entranti corrotti, e vicino a quel punto il settore può
+      restringersi e insieme peggiorare. Terzo, tra riforme che riducono della stessa misura il guadagno netto dalla
+      corruzione, eliminare l’opportunità lascia una quota di corrotti non superiore a quella di una sanzione
+      differita, a salario dato e con un numero fisso di posti; con posti fissi, un costo di resistere lineare o
+      convesso e riforme piccole, lasciare che le persone scelgano se entrare può solo ridurre il vantaggio relativo
+      della prevenzione. Con tangenti che crescono con la quota di corrotti tra chi è in servizio, l’ordinamento si
+      estende agli stati stazionari, e la prevenzione può eliminare uno stato stazionario ad alta corruzione che una
+      sanzione equivalente lascia in piedi.
     keywords: "selezione occupazionale; autocontrollo e tentazione; corruzione; deterrenza; mercato del lavoro nel settore pubblico; equilibri multipli."
   crime-voting:
     abstract: >-
@@ -122,20 +125,20 @@ entries:
       la variazione della partecipazione elettorale che ne deriva si distribuisca all’interno della coppia. Uso i
       dati amministrativi sulla partecipazione al voto in quattro elezioni a Bologna (2004–2013), collegati ai
       registri anagrafici che associano entrambi i genitori alla stessa nascita. Si vota di persona in giorni
-      prestabiliti, e l’unica alternativa è il voto in ospedale per chi vi è ricoverato. Confronto le coppie il cui
-      figlio nasce poco prima del voto con quelle il cui figlio nasce poco dopo. La perdita di voti viene dalle
-      nascite dell’ultima settimana prima del voto. Rispetto alle coppie il cui figlio nasce nelle quattro settimane
-      successive al voto, queste coppie esprimono 33,9 voti in meno ogni 100 coppie (su un massimo di 200), e la
-      probabilità che votino entrambi i genitori è inferiore di 23,6 punti; il voto del solo padre e l’astensione di
-      entrambi sono ciascuno più probabili di circa dieci punti, mentre il voto della sola madre cambia poco. Gran
-      parte dell’astensione aggiuntiva dei padri si verifica nelle coppie in cui si astiene anche la madre, ma i
-      dati non permettono di stabilire se la nascita modifichi la dipendenza tra le decisioni dei due partner. Per
-      le nascite avvenute da otto a 28 giorni prima del voto, le differenze sono molto più piccole. Un secondo
-      disegno, descrittivo, segue le coppie attorno alla nascita del primo figlio: nel primo mese dopo la nascita la
-      loro partecipazione è inferiore al livello precedente, e dal terzo mese in poi il divario tra la
-      partecipazione della madre e quella del padre torna vicino al valore precedente la nascita. Le misure che
-      facilitano il voto attorno alla nascita vanno quindi valutate in base al loro effetto sulla partecipazione di
-      entrambi i genitori.
+      prestabiliti, e l’unica misura che facilita il voto attorno alla nascita è il voto in ospedale per chi vi è
+      ricoverato. Confronto le coppie il cui figlio nasce poco prima del voto con quelle il cui figlio nasce poco
+      dopo. La perdita di voti viene soprattutto dalle nascite dell’ultima settimana prima del voto. Rispetto alle
+      coppie il cui figlio nasce nelle quattro settimane successive al voto, queste coppie esprimono 33,9 voti in
+      meno ogni 100 coppie, e la probabilità che votino entrambi i genitori è inferiore di 23,6 punti; il voto del
+      solo padre e l’astensione di entrambi sono ciascuno più probabili di circa dieci punti, mentre il voto della
+      sola madre cambia poco; l’aumento delle coppie in cui nessuno vota è in linea con quanto implicano le perdite
+      dei due genitori se il legame tra le loro decisioni resta invariato. Per le nascite avvenute da otto a 28
+      giorni prima del voto, le differenze sono molto più piccole. Un secondo disegno, descrittivo, segue le coppie
+      attorno alla nascita del primo figlio: nel primo mese dopo la nascita la loro partecipazione è inferiore al
+      livello precedente, e dal terzo mese in poi il divario tra la partecipazione della madre e quella del padre
+      torna vicino al valore precedente la nascita, mentre il voto congiunto resta leggermente al di sotto. Le
+      misure che facilitano il voto attorno alla nascita vanno quindi valutate in base al loro effetto sulla
+      partecipazione di entrambi i genitori.
     keywords: "partecipazione elettorale; costi del voto; nascita; coppie; famiglia; genere; partecipazione politica."
   childcare-turnout:
     abstract: >-

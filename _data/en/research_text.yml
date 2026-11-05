@@ -62,31 +62,33 @@ entries:
     abstract: >-
       A label read from the text of a job posting is an outcome: firms can change the wording without changing the
       position. Seniority is such a label, so a difference-in-differences estimate on a labeled junior count mixes a
-      posted-demand component with a labeling component, from firms’ wording and classifier errors. The labeling
-      rate, the share of postings a classifier labels, identifies at most the part common to all tiers; the rest
-      requires reference labels on a sample stratified by treatment group, period and assigned tier, unlabeled
-      postings included. We give an estimator and an allocation rule, which places most reference labels in the
-      unlabeled strata. On 314 million U.S. postings, after the release of ChatGPT a rule-based classifier’s
-      labeling rate moves by under one log point on the application panel, not distinguishably from zero; the
-      stated-years reading behind providers’ structured fields rises by about 5 log points from the pandemic on.
-      With 252 human labels, the sign of the corrected junior-share change depends on which model reading is
-      corrected. In simulations, fixed classifier errors alone produce a tier-specific component of about 15 log
-      points, and validation samples of the usual size rarely detect a relabeling.
+      posted-demand component with a labeling component, from wording and classifier errors. The labeling rate, the
+      share of postings a classifier labels, identifies at most the part common to all tiers; the rest requires
+      reference labels on a sample stratified by treatment group, period and assigned tier, unlabeled postings
+      included. We give an estimator and an allocation rule; most reference labels go to the unlabeled strata. On
+      314 million U.S. postings, after ChatGPT’s release a rule-based classifier’s labeling rate moves by under one
+      log point on the application panel, not distinguishably from zero; a stated-years rate reproduced from the
+      text rises by about 5 log points from the pandemic on. With 252 human labels, the corrected junior-share
+      change is undetermined: its sign depends on the model reading used as input. In simulations, fixed classifier
+      errors produce a tier-specific component of about 15 log points at assumed error rates, and usual-size
+      validation samples rarely detect a relabeling.
     keywords: "job postings; text-derived measurement; seniority; entry-level work; generative AI; large language models; partial identification."
   tipping-point:
     abstract: >-
       A chance to take a bribe attracts the people who would take it and repels the people who would have to keep
       refusing it. I study both effects in a model of occupational choice in which the cost of resisting responds to
-      the bribe, received now, and not to a sanction that comes later. First, a small bribe reduces the number of
-      people who want a public job when the share of the value of honesty felt at the moment of choice is low
-      enough; to leading order the threshold depends on the two parameters of temptation, not on the distribution of
-      types. Second, size does not reveal composition: at that threshold the headcount stands still while honest
-      entrants are replaced by corrupt ones, and just above it the sector shrinks and worsens together. Third, for
-      reforms that lower the net gain from corruption by the same amount, removing the opportunity leaves a corrupt
-      share no higher than a deferred sanction does, at a given wage and with a fixed number of posts; with fixed
-      posts, letting people choose whether to enter dilutes this advantage and never amplifies it. With bribes that
-      rise with the share of corrupt incumbents, the ranking extends to steady states, and prevention can remove a
-      high-corruption steady state that an equal sanction preserves.
+      the bribe, received now, and not to a sanction that comes later. First, consider a bribe without sanctions,
+      and suppose some people with almost no integrity are close to indifferent about entering. A small bribe then
+      reduces the number of people who want a public job when the share of the value of honesty felt at the moment
+      of choice is low enough, and the threshold depends, to leading order, on the two parameters of temptation, not
+      on the distribution of types. Second, size does not reveal composition: where a marginal increase in the bribe
+      leaves the headcount unchanged, it replaces honest entrants with corrupt ones, and close to that point the
+      sector can shrink and worsen together. Third, for reforms that lower the net gain from corruption by the same
+      amount, removing the opportunity leaves a corrupt share no higher than a deferred sanction does, at a given
+      wage and with a fixed number of posts; with fixed posts, a cost of resisting that is linear or convex, and
+      small reforms, letting people choose whether to enter can only shrink the relative advantage of prevention.
+      With bribes that rise with the share of corrupt incumbents, the ranking extends to steady states, and
+      prevention can remove a high-corruption steady state that an equal sanction preserves.
     keywords: "occupational selection; self-control and temptation; corruption; deterrence; public-sector labor markets; multiple equilibria."
   crime-voting:
     abstract: >-
@@ -112,18 +114,18 @@ entries:
       Childbirth is a temporary shock that hits two voters in one household. I ask how the resulting change in
       turnout is distributed within the couple. I use administrative turnout records for four elections in Bologna
       (2004–2013), linked to population registers that connect both parents to the same birth. Voting is in person
-      on fixed days, and the only alternative is a vote in hospital for the admitted patient. I compare couples
-      whose child is born just before the polling days with couples whose child is born just after. The loss of
-      votes comes from births in the last week before the vote. Relative to couples whose child is born in the four
-      weeks after the vote, these couples cast 33.9 fewer votes per 100 couples (out of a possible 200), and the
+      on fixed days, and the only accommodation around childbirth is a vote in hospital for the admitted patient. I
+      compare couples whose child is born just before the polling days with couples whose child is born just after.
+      The loss of votes comes mostly from births in the last week before the vote. Relative to couples whose child
+      is born in the four weeks after the vote, these couples cast 33.9 fewer votes per 100 couples, and the
       probability that both parents vote is 23.6 points lower; father-only voting and abstention by both parents are
-      each about ten points more likely, while mother-only voting differs little. Most of the fathers’ additional
-      abstention occurs in couples in which the mother also abstains, but the data cannot tell whether the birth
-      changes the dependence between the partners’ decisions. For births eight to 28 days before the vote, the
-      differences are much smaller. A second, descriptive design follows couples around their first birth: in the
-      first month after the birth their turnout is below their own pre-birth level, and from three months onward the
-      gap between the mother’s and the father’s turnout is back near its pre-birth value. Accommodations for voters
-      around childbirth should therefore be evaluated by their effect on the turnout of both parents.
+      each about ten points more likely, while mother-only voting differs little; the rise in couples with no voter
+      is in line with what the two parents’ losses imply if the link between their decisions is unchanged. For
+      births eight to 28 days before the vote, the differences are much smaller. A second, descriptive design
+      follows couples around their first birth: in the first month after the birth their turnout is below their own
+      pre-birth level, and from three months onward the gap between the mother’s and the father’s turnout is back
+      near its pre-birth value, while joint voting stays slightly below it. Accommodations for voters around
+      childbirth should therefore be evaluated by their effect on the turnout of both parents.
     keywords: "voter turnout; voting costs; childbirth; couples; household; gender; political participation."
   childcare-turnout:
     abstract: >-
