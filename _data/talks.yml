@@ -63,7 +63,6 @@ talks:
   asset-2026:
     role: speaker
     paper: tipping-point
-    upcoming: true
   sie-annual-meeting-2025:
     role: speaker_discussant
     paper: crime-voting
