@@ -2,7 +2,12 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
+  {% comment %}
+    Intestazione a griglia: a sinistra nome, posizione e affiliazioni, a destra la foto (centrata nello spazio libero).
+    La citazione (front matter: quote.text e quote.source) chiude il testo, prima della riga e delle news.
+    Stili in _layout.scss (.about-header).
+  {% endcomment %}
+  <header class="post-header about-header">
     <h1 class="post-title">
       {% if site.title != 'blank' %}
         <span class="about-first-name">
@@ -26,12 +31,8 @@ layout: default
         <p class="desc">{{ page.subtitle }}</p>
       {% endif %}
     {% endif %}
-  </header>
-
-  <article>
     {% if page.profile %}
-      <div class="about-gap about-gap--profile"></div>
-      <div class="profile float-{% if page.profile.align == 'left' %}start{% else %}end{% endif %}">
+      <div class="profile">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
@@ -40,8 +41,8 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1
         rounded' %}
           {% endif %}
-          {% comment %}larghezze misurate sul rendering reale: 270px oltre i 930, ~29vw fra 576 e 930, ~45vw sotto{% endcomment %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 45vw{% endcapture %}
+          {% comment %}larghezza della foto nell'intestazione (_layout.scss, .about-header): 158px, 88px sotto i 576px{% endcomment %}
+          {% capture sizes %}(min-width: 576px) 158px, 88px{% endcapture %}
           {% assign profile_base = page.profile.image | split: '_640.webp' | first %}
           {% if page.profile.image contains '_640.webp' %}
             {% capture profile_srcset %}{{ profile_base | prepend: '/assets/img/' | append: '_360.webp' | relative_url }} 360w, {{ profile_base | prepend: '/assets/img/' | append: '_540.webp' | relative_url }} 540w, {{ page.profile.image | prepend: '/assets/img/' | relative_url }} 640w{% endcapture %}
@@ -56,8 +57,21 @@ layout: default
         {% endif %}
       </div>
     {% endif %}
+  </header>
 
+  <article>
     <div class="clearfix about-content">{{ content }}</div>
+    {% if page.quote %}
+      <div class="about-quote-block">
+        <p class="about-quote">{{ page.quote.text }}</p>
+        <div class="about-quote-source">
+          <div class="about-quote-source__spacer"></div>
+          <span class="about-quote-source__text">{{ page.quote.source }}</span>
+        </div>
+      </div>
+    {% endif %}
+    <div class="about-gap about-gap--end"></div>
+    <hr class="about-rule">
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}

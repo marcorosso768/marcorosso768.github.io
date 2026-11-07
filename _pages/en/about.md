@@ -25,6 +25,10 @@ subtitle: >
       </div>
   </div>
 
+quote:
+  text: "“I may not have gone where I intended to go, but I think I have ended up where I needed to be.”"
+  source: "Douglas Adams, <cite>The Long Dark Tea-Time of the Soul</cite>"
+
 profile:
   align: right
   image: profile_pictures/prof_pic_MR_640.webp
@@ -39,14 +43,6 @@ news: true # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
 
-<span class="about-quote">"I may not have gone where I intended to go, but I think I have ended up where I needed to be."</span>
-
-<div class="about-quote-source">
-    <div class="about-quote-source__spacer"></div>
-    <span class="about-quote-source__text">Douglas Adams, <cite>The Long Dark Tea-Time of the Soul</cite></span>
-</div>
-<div class="about-gap about-gap--quote"></div>
-
 I am an applied microeconomist working on <b>political economy</b> and <b>crime economics</b> with both theoretical models and empirical methods, and I am on the <b><a href="https://www.europeanjobmarketofeconomists.org/candidates?field_candidate_name_target_id=Marco+Rosso&amp;field_phd_granting_institution_target_id=University+of+Bologna">2026–2027 academic job market</a></b>.
 
 My <b>job market paper</b>, <b><a href="https://drive.google.com/file/d/1jNssBLkHiNGftb_r8ujWEBS-c-Jdonwh/view?usp=sharing">The Tipping Point of Temptation: Prevention, Sanctions, and Selection into Public Service</a></b> (<b><a href="https://crenos.unica.it/bibcite/reference/8781">CRENoS WP 26/15</a></b> and <b><a href="https://ssrn.com/abstract=7610318">SSRN</a></b>), asks whether the chance to take a bribe brings more people into public jobs or fewer. A bribe pays today, while the rewards of honesty, and any punishment, come later. In a model built on this timing, a bribe attracts the people who would take it and repels those who would have to keep refusing it.
@@ -58,6 +54,3 @@ A small bribe can therefore shrink the pool of applicants, and the pool can keep
 I received my <b>PhD in Economics</b> from the <b>University of Bologna</b> in 2026, and my postdoctoral project in <b>Cagliari</b> covers remote work, artificial intelligence and local labor markets. With <a class="link-other" href="https://sites.google.com/site/fabiocerina/">Fabio Cerina</a> and <a class="link-other" href="https://sites.google.com/view/simonenobili/home">Simone Nobili</a>, I wrote a paper on ChatGPT and job postings (<b><a href="https://crenos.unica.it/bibcite/reference/8766">CRENoS WP 26/13</a></b>), now submitted to a journal and featured by the labor-market analytics firm Lightcast. My other <b><a href="/research/">research</a></b> studies how voter turnout responds to childbirth and to the distance from public childcare, how local crime news relates to voting, and who runs for office.
 
 In Bologna I <b><a href="/teaching/">teach</a></b> <b>Empirical Methods for Law and Economics</b> in the <b>European Doctorate in Law and Economics (EDLE)</b>, <b>Introduction to Economics of the European Union</b> in the BA in European Studies, and other courses, and I also work as a teaching assistant.
-
-<div class="about-gap about-gap--end"></div>
-<hr class="about-rule">
