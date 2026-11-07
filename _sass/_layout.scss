@@ -935,7 +935,7 @@ h4.seminar-entry__content {
 }
 
 // homepage, intestazione a griglia (_layouts/about.liquid): a sinistra nome, posizione e affiliazioni, a destra la foto,
-// centrata nello spazio libero e alta quanto la colonna (dal nome all'ultima affiliazione).
+// a 3rem dalla colonna di testo (centrata su telefono) e alta quanto la colonna (dal nome all'ultima affiliazione).
 // Spazi verticali uguali fra nome, posizione, affiliazioni e testo: circa 26px misurati sulle lettere
 // (margini di .about-affiliations e .about-content). La citazione chiude il testo (.about-quote-block).
 // .post-header.about-header: più specifico delle regole su .profile per telefono (margine sopra), che valgono per le referenze
@@ -953,9 +953,9 @@ h4.seminar-entry__content {
   > .profile {
     grid-column: 2;
     grid-row: 1 / span 4;
-    justify-self: center;
+    justify-self: start; // vicino alla colonna di testo (3rem), non centrata nello spazio libero: resta parte dell'intestazione
     width: 158px;
-    margin: 0;
+    margin: 0 0 0 3rem;
 
     figure,
     picture,
@@ -969,7 +969,9 @@ h4.seminar-entry__content {
     column-gap: 0.75rem;
 
     > .profile {
+      justify-self: center; // su telefono lo spazio a destra è stretto: la foto sta al centro
       width: 88px;
+      margin: 0;
     }
   }
 }
