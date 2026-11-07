@@ -937,14 +937,14 @@ h4.seminar-entry__content {
 // homepage, intestazione a griglia (_layouts/about.liquid).
 // Da 768px: a sinistra nome, posizione, affiliazioni e citazione; a destra la foto, centrata (in orizzontale e in
 // verticale) nella colonna che va dal nome alla fine della citazione.
-// Sotto i 768px: foto piccola accanto al nome, allineata in alto alle lettere; citazione sotto, a tutta larghezza.
+// Sotto i 768px: nome su tutta la riga; foto accanto a posizione e affiliazioni, centrata in verticale; citazione sotto,
+// a tutta larghezza.
 // Spazi verticali misurati sulle lettere: circa 14px fra nome, posizione e affiliazioni; circa 26px fra affiliazioni,
 // citazione e testo (margini di .about-quote-block e .about-content).
 // .post-header.about-header: più specifico delle regole su .profile per telefono (margine sopra), che valgono per le referenze
 .post-header.about-header {
   display: grid;
   grid-template-columns: auto 1fr;
-  grid-template-rows: auto auto auto 1fr; // la riga che si allunga, se la foto è più alta, è l'ultima affiliazione
   column-gap: 0.75rem;
   align-items: start;
 
@@ -952,12 +952,17 @@ h4.seminar-entry__content {
     grid-column: 1;
   }
 
+  > .post-title {
+    grid-column: 1 / -1; // su telefono il nome usa tutta la riga, la foto sta sotto, accanto alle affiliazioni
+  }
+
   > .profile {
     grid-column: 2;
-    grid-row: 1 / span 4;
+    grid-row: 2 / span 3; // righe di sottotitolo, posizione e affiliazioni
+    align-self: center;
     justify-self: center;
-    width: 100px; // più grande "Marco Rosso" andrebbe a capo
-    margin: 9px 0 0; // in alto allineata alle lettere del nome, non al bordo della riga
+    width: 112px;
+    margin: 0;
 
     figure,
     picture,
@@ -973,14 +978,15 @@ h4.seminar-entry__content {
 
   @media (min-width: 768px) {
     grid-template-columns: minmax(0, 1fr) 220px;
-    grid-template-rows: none;
     column-gap: 1.5rem;
+
+    > .post-title {
+      grid-column: 1;
+    }
 
     > .profile {
       grid-row: 1 / span 5; // dal nome alla citazione
-      align-self: center;
       width: 170px;
-      margin: 0;
     }
 
     > .about-quote-block {
@@ -1023,6 +1029,7 @@ h4.seminar-entry__content {
 
 // citazione in apertura: attenuata come il testo secondario (0.75), autore compreso
 .about-quote {
+  text-wrap: pretty; // niente parola sola sull'ultima riga
   font-family: "Courier New", monospace;
   font-size: 14px;
   opacity: 0.75;
