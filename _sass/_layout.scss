@@ -905,17 +905,19 @@ h4.seminar-entry__content {
 
 .about-position__text {
   font-weight: 400;
+  margin-bottom: 0; // lo spazio sotto la posizione lo dà solo .about-affiliations (niente margini che si sommano)
 }
 
+// spazio dalla posizione: circa quello tra nome e posizione (testo a testo, circa 9px)
 .about-affiliations {
-  margin: 1.5rem 0 0;
+  margin: 0.8rem 0 0;
   padding: 0;
   color: var(--global-theme-color);
   font-size: 10pt;
   line-height: 14pt;
 }
 
-// una riga per istituzione: icona in una colonna fissa (13px) e nome accanto, allineati sulla linea di base
+// una riga per istituzione: icona in una colonna fissa (1.25em) e nome accanto, allineati sulla linea di base
 .about-affiliations__row {
   display: flex;
   align-items: baseline;
@@ -927,7 +929,7 @@ h4.seminar-entry__content {
 }
 
 .about-affiliations__glyph {
-  flex: 0 0 13px;
+  flex: 0 0 1.25em; // larghezza di fa-fw: con 13px l'icona di CRENoS, più larga, spostava il testo a destra
   text-align: center;
   color: var(--global-theme-color);
   font-size: 10pt;
