@@ -10,18 +10,18 @@ subtitle: >
       </p>
   </div>
   <div class="about-affiliations">
-      <!-- First row: University icon and department name -->
-      <div class="about-affiliations__icon about-affiliations__icon--first">
-          <i class="fa-solid fa-building-columns fa-fw about-affiliations__glyph"></i>
+      <!-- una riga per istituzione: prima la posizione (Cagliari, CRENoS), poi la didattica (Bologna) -->
+      <div class="about-affiliations__row">
+          <i class="fa-solid fa-building-columns fa-fw about-affiliations__glyph" aria-hidden="true"></i>
+          <a class="header-link" href="https://www.unica.it">Università&nbsp;di&nbsp;Cagliari</a>
       </div>
-      <div class="about-affiliations__text about-affiliations__text--first">
-          <a class="header-link" href="https://www.unica.it">Università&nbsp;di&nbsp;Cagliari</a> <span class="about-affiliations__sep" aria-hidden="true">•</span> <a class="header-link" href="https://www.unibo.it/it">Università&nbsp;di&nbsp;Bologna</a>
-      </div>
-      <div class="about-affiliations__icon about-affiliations__icon--second">
-          <i class="fa-solid fa-school fa-fw about-affiliations__glyph"></i>
-      </div>
-     <div class="about-affiliations__text about-affiliations__text--second">
+      <div class="about-affiliations__row">
+          <i class="fa-solid fa-school fa-fw about-affiliations__glyph" aria-hidden="true"></i>
           <a class="header-link header-link--down" href="https://crenos.unica.it">CRENoS <i>(Centro Ricerche Economiche Nord Sud)</i></a>
+      </div>
+      <div class="about-affiliations__row">
+          <i class="fa-solid fa-building-columns fa-fw about-affiliations__glyph" aria-hidden="true"></i>
+          <a class="header-link" href="https://www.unibo.it/it">Università&nbsp;di&nbsp;Bologna</a>
       </div>
   </div>
 

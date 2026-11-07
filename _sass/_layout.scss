@@ -910,51 +910,27 @@ h4.seminar-entry__content {
 .about-affiliations {
   margin: 1.5rem 0 0;
   padding: 0;
-  position: relative;
-}
-
-.about-affiliations__icon {
-  display: inline-block;
-  width: 13px;
-  text-align: center;
-  position: absolute;
+  color: var(--global-theme-color);
+  font-size: 10pt;
   line-height: 14pt;
 }
 
-.about-affiliations__icon--first {
-  top: 0;
-  margin-top: -1.5pt;
+// una riga per istituzione: icona in una colonna fissa (13px) e nome accanto, allineati sulla linea di base
+.about-affiliations__row {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
 }
 
-.about-affiliations__icon--second {
-  margin-top: 1px;
+.about-affiliations__row + .about-affiliations__row {
+  margin-top: 2pt;
 }
 
 .about-affiliations__glyph {
+  flex: 0 0 13px;
+  text-align: center;
   color: var(--global-theme-color);
   font-size: 10pt;
-}
-
-.about-affiliations__text {
-  padding-left: 22px;
-  line-height: 14pt;
-  color: var(--global-theme-color);
-  font-size: 10pt;
-}
-
-.about-affiliations__text--first {
-  margin-top: -10pt;
-  white-space: nowrap;
-}
-
-// pallino (•) tra i due atenei: stesso colore dei nomi; line-height 0 per non alzare la riga
-.about-affiliations__sep {
-  color: inherit;
-  line-height: 0;
-}
-
-.about-affiliations__text--second {
-  margin-top: 2pt;
 }
 
 // citazione in apertura: attenuata come il testo secondario (0.75), autore compreso
