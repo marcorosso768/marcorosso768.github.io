@@ -935,9 +935,9 @@ h4.seminar-entry__content {
 }
 
 // homepage, intestazione a griglia (_layouts/about.liquid).
-// Da 768px: a sinistra nome, posizione, affiliazioni e citazione; a destra la foto, centrata (in orizzontale e in
-// verticale) nella colonna che va dal nome alla fine della citazione.
-// Sotto i 768px: nome su tutta la riga; foto accanto a posizione e affiliazioni, centrata in verticale; citazione sotto,
+// Da 576px (compreso il telefono in orizzontale): a sinistra nome, posizione, affiliazioni e citazione; a destra la foto,
+// centrata (in orizzontale e in verticale) nella colonna che va dal nome alla fine della citazione.
+// Sotto i 576px: nome su tutta la riga; foto accanto a posizione e affiliazioni, centrata in verticale; citazione sotto,
 // a tutta larghezza.
 // Spazi verticali misurati sulle lettere: circa 14px fra nome, posizione e affiliazioni; circa 26px fra affiliazioni,
 // citazione e testo (margini di .about-quote-block e .about-content).
@@ -976,8 +976,9 @@ h4.seminar-entry__content {
     grid-column: 1 / -1;
   }
 
-  @media (min-width: 768px) {
-    grid-template-columns: minmax(0, 1fr) 220px;
+  // da 576px (anche telefono in orizzontale): due colonne, foto centrata accanto a nome, affiliazioni e citazione
+  @media (min-width: 576px) {
+    grid-template-columns: minmax(0, 1fr) 200px;
     column-gap: 1.5rem;
 
     > .post-title {
@@ -986,11 +987,19 @@ h4.seminar-entry__content {
 
     > .profile {
       grid-row: 1 / span 5; // dal nome alla citazione
-      width: 170px;
+      width: 150px;
     }
 
     > .about-quote-block {
       grid-column: 1;
+    }
+  }
+
+  @media (min-width: 768px) {
+    grid-template-columns: minmax(0, 1fr) 220px;
+
+    > .profile {
+      width: 170px;
     }
   }
 
