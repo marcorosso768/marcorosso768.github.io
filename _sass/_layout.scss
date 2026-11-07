@@ -934,16 +934,18 @@ h4.seminar-entry__content {
   font-size: 10pt;
 }
 
-// homepage, intestazione a griglia (_layouts/about.liquid): a sinistra nome, posizione e affiliazioni, a destra la foto,
-// a 3rem dalla colonna di testo (centrata su telefono) e alta quanto la colonna (dal nome all'ultima affiliazione).
+// homepage, intestazione a griglia (_layouts/about.liquid).
+// Da 768px: a sinistra nome, posizione, affiliazioni e citazione; a destra la foto, centrata (in orizzontale e in
+// verticale) nella colonna che va dal nome alla fine della citazione.
+// Sotto i 768px: foto piccola accanto al nome, allineata in alto alle lettere; citazione sotto, a tutta larghezza.
 // Spazi verticali misurati sulle lettere: circa 14px fra nome, posizione e affiliazioni; circa 26px fra affiliazioni,
-// citazione (sotto, a tutta larghezza) e testo (margini di .about-quote-block e .about-content).
+// citazione e testo (margini di .about-quote-block e .about-content).
 // .post-header.about-header: più specifico delle regole su .profile per telefono (margine sopra), che valgono per le referenze
 .post-header.about-header {
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: auto auto auto 1fr; // la riga che si allunga, se la foto è più alta, è l'ultima affiliazione
-  column-gap: 1.5rem;
+  column-gap: 0.75rem;
   align-items: start;
 
   > * {
@@ -953,10 +955,9 @@ h4.seminar-entry__content {
   > .profile {
     grid-column: 2;
     grid-row: 1 / span 4;
-    justify-self: start; // vicino alla colonna di testo (3rem), non centrata nello spazio libero: resta parte dell'intestazione
-    // in alto allineata alle lettere del nome (non al bordo della riga), in basso all'ultima affiliazione
-    width: 125px;
-    margin: 9px 0 0 3rem;
+    justify-self: center;
+    width: 100px; // più grande "Marco Rosso" andrebbe a capo
+    margin: 9px 0 0; // in alto allineata alle lettere del nome, non al bordo della riga
 
     figure,
     picture,
@@ -970,30 +971,29 @@ h4.seminar-entry__content {
     grid-column: 1 / -1;
   }
 
-  // da 992px: citazione a destra della foto, centrata in verticale rispetto al blocco del nome (più stretto resta sotto)
-  @media (min-width: 992px) {
-    grid-template-columns: auto auto minmax(0, 1fr);
+  @media (min-width: 768px) {
+    grid-template-columns: minmax(0, 1fr) 220px;
+    grid-template-rows: none;
+    column-gap: 1.5rem;
+
+    > .profile {
+      grid-row: 1 / span 5; // dal nome alla citazione
+      align-self: center;
+      width: 170px;
+      margin: 0;
+    }
 
     > .about-quote-block {
-      grid-column: 3;
-      grid-row: 1 / span 4;
-      align-self: center;
-      margin: 0 0 0 2.5rem;
-
-      .about-quote-source {
-        display: block;
-        text-align: right;
-      }
+      grid-column: 1;
     }
   }
 
-  @media (max-width: 575.98px) {
-    column-gap: 0.75rem;
+  @media (min-width: 992px) {
+    grid-template-columns: minmax(0, 1fr) 300px;
+    column-gap: 2rem;
 
     > .profile {
-      justify-self: center; // su telefono lo spazio a destra è stretto: la foto sta al centro
-      width: 100px;
-      margin: 9px 0 0;
+      width: 190px;
     }
   }
 }
