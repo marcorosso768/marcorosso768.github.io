@@ -4,7 +4,7 @@ layout: default
 <div class="post">
   {% comment %}
     Intestazione a griglia: a sinistra nome, posizione e affiliazioni, a destra la foto.
-    La citazione (front matter: quote.text e quote.source) chiude il testo, prima della riga e delle news.
+    Sotto, a tutta larghezza, la citazione (front matter: quote.text e quote.source).
     Stili in _layout.scss (.about-header).
   {% endcomment %}
   <header class="post-header about-header">
@@ -41,8 +41,8 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1
         rounded' %}
           {% endif %}
-          {% comment %}larghezza della foto nell'intestazione (_layout.scss, .about-header): 158px, 88px sotto i 576px{% endcomment %}
-          {% capture sizes %}(min-width: 576px) 158px, 88px{% endcapture %}
+          {% comment %}larghezza della foto nell'intestazione (_layout.scss, .about-header): 125px, 100px sotto i 576px{% endcomment %}
+          {% capture sizes %}(min-width: 576px) 125px, 100px{% endcapture %}
           {% assign profile_base = page.profile.image | split: '_640.webp' | first %}
           {% if page.profile.image contains '_640.webp' %}
             {% capture profile_srcset %}{{ profile_base | prepend: '/assets/img/' | append: '_360.webp' | relative_url }} 360w, {{ profile_base | prepend: '/assets/img/' | append: '_540.webp' | relative_url }} 540w, {{ page.profile.image | prepend: '/assets/img/' | relative_url }} 640w{% endcapture %}
@@ -57,10 +57,6 @@ layout: default
         {% endif %}
       </div>
     {% endif %}
-  </header>
-
-  <article>
-    <div class="clearfix about-content">{{ content }}</div>
     {% if page.quote %}
       <div class="about-quote-block">
         <p class="about-quote">{{ page.quote.text }}</p>
@@ -70,6 +66,10 @@ layout: default
         </div>
       </div>
     {% endif %}
+  </header>
+
+  <article>
+    <div class="clearfix about-content">{{ content }}</div>
     <div class="about-gap about-gap--end"></div>
     <hr class="about-rule">
 
