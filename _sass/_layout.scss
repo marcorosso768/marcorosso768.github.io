@@ -976,6 +976,19 @@ h4.seminar-entry__content {
     grid-column: 1 / -1;
   }
 
+  // telefono da 360px: la foto sale accanto al nome, centrata fra la cima delle lettere del nome e l'ultima
+  // affiliazione (margin-top: compensa lo spazio sopra le lettere del nome); sotto i 360px toccherebbe "Rosso"
+  @media (min-width: 360px) and (max-width: 575.98px) {
+    > .post-title {
+      grid-row: 1;
+    }
+
+    > .profile {
+      grid-row: 1 / span 4; // nome, sottotitolo, posizione e affiliazioni
+      margin-top: 9px;
+    }
+  }
+
   // da 576px (anche telefono in orizzontale): due colonne, foto centrata accanto a nome, affiliazioni e citazione
   @media (min-width: 576px) {
     grid-template-columns: minmax(0, 1fr) 200px;
