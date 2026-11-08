@@ -1008,21 +1008,18 @@ h4.seminar-entry__content {
     }
   }
 
+  // da 768px (telefono grande in orizzontale, tablet, desktop) la foto è di 190px: l'intestazione è alta uguale
   @media (min-width: 768px) {
     grid-template-columns: minmax(0, 1fr) 220px;
 
     > .profile {
-      width: 170px;
+      width: 190px;
     }
   }
 
   @media (min-width: 992px) {
     grid-template-columns: minmax(0, 1fr) 300px;
     column-gap: 2rem;
-
-    > .profile {
-      width: 190px;
-    }
   }
 }
 
