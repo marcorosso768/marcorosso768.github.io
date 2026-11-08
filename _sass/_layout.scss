@@ -1002,6 +1002,8 @@ h4.seminar-entry__content {
     > .profile {
       grid-row: 1 / span 5; // dal nome alla citazione
       width: 150px;
+      // come su telefono: centrata fra la cima delle minuscole del nome e la linea di base della fonte della citazione
+      margin-top: 10px;
     }
 
     > .about-quote-block {
