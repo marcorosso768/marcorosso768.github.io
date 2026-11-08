@@ -976,8 +976,9 @@ h4.seminar-entry__content {
     grid-column: 1 / -1;
   }
 
-  // telefono da 360px: la foto sale accanto al nome, centrata fra la cima delle lettere del nome e l'ultima
-  // affiliazione (margin-top: compensa lo spazio sopra le lettere del nome); sotto i 360px toccherebbe "Rosso"
+  // telefono da 360px: la foto sale accanto al nome, centrata fra la cima delle minuscole del nome (non delle
+  // maiuscole M e R, che la farebbero sembrare alta) e l'ultima affiliazione. margin-top: 16px = 9px per lo spazio
+  // sopra le maiuscole + 7px fra maiuscole e minuscole (nome a 40px). Sotto i 360px toccherebbe "Rosso".
   @media (min-width: 360px) and (max-width: 575.98px) {
     > .post-title {
       grid-row: 1;
@@ -985,7 +986,7 @@ h4.seminar-entry__content {
 
     > .profile {
       grid-row: 1 / span 4; // nome, sottotitolo, posizione e affiliazioni
-      margin-top: 9px;
+      margin-top: 16px;
     }
   }
 
