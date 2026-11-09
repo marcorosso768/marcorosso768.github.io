@@ -1099,6 +1099,16 @@ hr.about-rule {
   border-top: 1px solid var(--global-theme-color) !important;
 }
 
+// riga fra news e ultimi post: stesso spazio (40px) che c'è sopra la riga prima delle news
+hr.about-rule--posts {
+  margin-top: 1.5rem;
+}
+
+// ultimi post in homepage: sono cose mie, quindi link nel colore del tema
+.latest-posts a.news-title {
+  color: var(--global-theme-color);
+}
+
 .about-link {
   color: var(--global-theme-color);
 }
