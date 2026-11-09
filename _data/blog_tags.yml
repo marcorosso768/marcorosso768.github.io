@@ -3,3 +3,9 @@
 # Formato: tag (come nel front matter dei post) -> lingua -> etichetta.
 academia:
   it: accademia
+family:
+  it: famiglia
+  es: familia
+side-projects:
+  it: progetti personali
+  es: proyectos personales
