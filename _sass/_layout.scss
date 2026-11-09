@@ -2184,14 +2184,28 @@ article.post-content a.link-own {
   }
 }
 
-// Note a piè di pagina nei post (kramdown): riga gialla prima delle note, richiamo giallo e senza sottolineatura
-.post-content {
+// Note a piè di pagina nei post (kramdown): riga gialla prima delle note; richiamo, numero della nota e freccia
+// di ritorno gialli e senza sottolineatura. article.post-content e :link/:visited servono a prevalere sulla regola
+// che nei post colora del testo i link non .link-own (kramdown non permette di aggiungere la classe alle note).
+article.post-content {
   sup a.footnote,
-  a.reversefootnote {
-    color: var(--global-theme-color);
-    text-decoration: none;
+  .footnotes a.reversefootnote {
+    &:link,
+    &:visited,
+    &:hover,
+    &:focus {
+      color: var(--global-theme-color);
+      font-style: normal;
+      text-decoration: none;
+    }
   }
 
+  .footnotes li::marker {
+    color: var(--global-theme-color);
+  }
+}
+
+.post-content {
   .footnotes {
     margin-top: 2.5rem;
     padding-top: 1rem;

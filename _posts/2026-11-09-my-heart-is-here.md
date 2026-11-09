@@ -74,7 +74,7 @@ What stayed with me is this: with children, what works is what they can see, tou
 
 ## Where to get it
 
-The app is on [GitHub](https://github.com/marcorosso768/magic-calendar): just download the latest version for your computer. It’s free for personal and educational use.
+The app is on <a class="link-own" href="https://github.com/marcorosso768/magic-calendar">GitHub</a>: just download the latest version for your computer. It’s free for personal and educational use.
 
 If you use it and find a bug, open an issue on GitHub or leave a comment below. And if you use it and don’t find any bugs, write anyway: that doesn’t happen often.
 
