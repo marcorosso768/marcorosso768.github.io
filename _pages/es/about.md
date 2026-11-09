@@ -31,7 +31,7 @@ quote:
 
 profile:
   align: right
-  image: profile_pictures/prof_pic_MR_640.webp
+  image: profile_pictures/prof_pic_MR_2026.webp
   image_alt: Marco Rosso
   image_circular: true # crops the image to make it circular
 #  more_info: >
