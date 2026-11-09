@@ -1103,7 +1103,9 @@ hr.about-rule {
 // delle news (colonna della data: 20% della tabella, più il padding della cella, 0.3rem) e lascia lo stesso
 // spazio a destra. I link sono .link-own, gialli.
 .latest-posts-sep {
-  margin: 1.75rem calc(20% + 0.3rem) 1.5rem;
+  // spazio uguale sopra e sotto, misurato sulle lettere: circa 30px dall'ultima riga delle news e dal titolo
+  // (sopra c'è già il margine della tabella delle news, quindi qui -2px)
+  margin: -2px calc(20% + 0.3rem) 1.5rem;
   border-top: 1px solid var(--global-theme-color);
 }
 
