@@ -3,7 +3,7 @@ title: "How formal should an email be?"
 description: "Writing an email to a professor can make you question every grammatical rule and life choice you’ve ever made. Real (and tragic) examples, practical tips, and one key principle: politeness always beats empty formalism."
 date: 2026-09-30
 tags: [academia, email]
-featured: false
+featured: true
 ---
 
 Every professor has received this email:
