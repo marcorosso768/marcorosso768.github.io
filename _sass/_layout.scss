@@ -1001,7 +1001,8 @@ h4.seminar-entry__content {
 
     > .profile {
       grid-row: 1 / span 5; // dal nome alla citazione
-      width: 150px;
+      // 190px come su desktop: l'intestazione è alta uguale (iPhone in orizzontale è largo circa 734px senza i bordi)
+      width: 190px;
       // come su telefono: centrata fra la cima delle minuscole del nome e la linea di base della fonte della citazione
       margin-top: 10px;
     }
@@ -1011,13 +1012,8 @@ h4.seminar-entry__content {
     }
   }
 
-  // da 768px (telefono grande in orizzontale, tablet, desktop) la foto è di 190px: l'intestazione è alta uguale
   @media (min-width: 768px) {
     grid-template-columns: minmax(0, 1fr) 220px;
-
-    > .profile {
-      width: 190px;
-    }
   }
 
   @media (min-width: 992px) {
