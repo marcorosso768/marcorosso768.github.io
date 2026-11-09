@@ -88,8 +88,7 @@ layout: default
 
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
-      {% if page.news and site.announcements.enabled %}<hr class="about-rule about-rule--posts">{% endif %}
-      <h2>
+      <h2 class="latest-posts-title">
         <a class="news-effect" href="{{ '/blog/' | relative_url }}">{{ site.data[site.active_lang].strings.latest_posts }}</a>
       </h2>
       {% include latest_posts.liquid %}

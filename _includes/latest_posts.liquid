@@ -14,7 +14,7 @@
               {% include date_format.liquid format='short' date=item.date %}
             </th>
             <td>
-              <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              <a class="news-title link-own" href="{{ item.url | relative_url }}">{{ item.title }}</a>
             </td>
           </tr>
         {% endfor %}
