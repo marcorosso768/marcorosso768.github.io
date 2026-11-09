@@ -1103,10 +1103,13 @@ hr.about-rule {
 // delle news (colonna della data: 20% della tabella, più il padding della cella, 0.3rem) e lascia lo stesso
 // spazio a destra. I link sono .link-own, gialli.
 .latest-posts-sep {
-  // spazio uguale sopra e sotto, misurato sulle lettere: circa 30px dall'ultima riga delle news e dal titolo
-  // (sopra c'è già il margine della tabella delle news, quindi qui -2px)
-  margin: -2px calc(20% + 0.3rem) 1.5rem;
-  border-top: 1px solid var(--global-theme-color);
+  // niente calc() con "+": la minificazione del CSS sul sito toglie gli spazi ("calc(20%+.3rem)"), la regola
+  // diventa non valida e il browser la ignora. Quindi: margini del 20% e linea disegnata dentro il padding (0.3rem).
+  // Spazio uguale sopra e sotto, misurato sulle lettere: circa 30px (sopra c'è già il margine della tabella: -2px).
+  height: 1px;
+  margin: -2px 20% 1.5rem;
+  padding: 0 0.3rem;
+  background: var(--global-theme-color) content-box;
 }
 
 .latest-posts-title {
