@@ -1099,12 +1099,12 @@ hr.about-rule {
   border-top: 1px solid var(--global-theme-color) !important;
 }
 
-// ultimi post in homepage: separati dalle news da un tratto giallo breve, allineato all'inizio dei testi delle news
-// (colonna della data: 20% della tabella, più il padding della cella, 0.3rem). I link sono .link-own, gialli.
+// ultimi post in homepage: separati dalle news da un tratto giallo centrato, che parte dove iniziano i testi
+// delle news (colonna della data: 20% della tabella, più il padding della cella, 0.3rem) e lascia lo stesso
+// spazio a destra. I link sono .link-own, gialli.
 .latest-posts-sep {
-  width: 3rem;
-  margin: 1.75rem 0 1.5rem calc(20% + 0.3rem);
-  border-top: 2px solid var(--global-theme-color);
+  margin: 1.75rem calc(20% + 0.3rem) 1.5rem;
+  border-top: 1px solid var(--global-theme-color);
 }
 
 .latest-posts-title {
