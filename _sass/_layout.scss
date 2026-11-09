@@ -1099,17 +1099,15 @@ hr.about-rule {
   border-top: 1px solid var(--global-theme-color) !important;
 }
 
-// ultimi post in homepage: separati dalle news da un tratto giallo centrato, che parte dove iniziano i testi
-// delle news (colonna della data: 20% della tabella, più il padding della cella, 0.3rem) e lascia lo stesso
-// spazio a destra. I link sono .link-own, gialli.
+// ultimi post in homepage: separati dalle news da un tratto giallo centrato, che parte dalla fine della colonna
+// delle date (20% della tabella meno il padding della cella, 0.3rem: su telefono è dove finisce la data) e lascia
+// lo stesso spazio a destra. I link sono .link-own, gialli.
 .latest-posts-sep {
-  // niente calc() con "+": la minificazione del CSS sul sito toglie gli spazi ("calc(20%+.3rem)"), la regola
-  // diventa non valida e il browser la ignora. Quindi: margini del 20% e linea disegnata dentro il padding (0.3rem).
+  // calc() solo con "-": la minificazione del CSS sul sito toglie gli spazi attorno a "+" ("calc(20%+.3rem)" non
+  // è valido e il browser ignora la regola), quelli attorno a "-" li lascia.
   // Spazio uguale sopra e sotto, misurato sulle lettere: circa 30px (sopra c'è già il margine della tabella: -2px).
-  height: 1px;
-  margin: -2px 20% 1.5rem;
-  padding: 0 0.3rem;
-  background: var(--global-theme-color) content-box;
+  margin: -2px calc(20% - 0.3rem) 1.5rem;
+  border-top: 1px solid var(--global-theme-color);
 }
 
 .latest-posts-title {
