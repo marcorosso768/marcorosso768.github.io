@@ -2165,3 +2165,19 @@ article.post-content a.link-own {
     color: var(--global-text-color);
   }
 }
+
+// Note a piè di pagina nei post (kramdown): riga gialla prima delle note, richiamo giallo e senza sottolineatura
+.post-content {
+  sup a.footnote,
+  a.reversefootnote {
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+
+  .footnotes {
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--global-theme-color);
+    font-size: 0.9em;
+  }
+}

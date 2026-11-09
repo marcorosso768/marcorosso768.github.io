@@ -207,8 +207,8 @@ announcements:
   limit: 3 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  enabled: true # homepage: gli ultimi post del blog sotto le news
+  scrollable: false
   limit: 3 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
@@ -220,6 +220,7 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
+  footnote_backlink: "&#8617;&#xFE0E;" # freccia di ritorno delle note come testo: senza FE0E iOS la mostra come emoji
   syntax_highlighter_opts:
     css_class: "highlight"
     span:

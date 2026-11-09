@@ -1,48 +1,24 @@
+{% comment %}
+  Homepage: gli ultimi post del blog, nella stessa tabella delle news (data breve nella lingua della pagina).
+  I post sono solo in inglese: l'elenco viene da site.data.blog_posts (_plugins/blog-posts-all-langs.rb),
+  perché nelle build it/es site.posts è vuoto.
+{% endcomment %}
 <div class="news">
-  {% if site.latest_posts != blank %}
-    {% assign latest_posts_size = site.posts | size %}
-    <div
-      class="table-responsive"
-      {% if site.latest_posts.scrollable and latest_posts_size > 3 %}
-        style="max-height: 60vw"
-      {% endif %}
-    >
+  {% assign latest_posts_all = site.data.blog_posts %}
+  {% if latest_posts_all.size > 0 %}
+    <div class="table-responsive">
       <table class="table table-sm table-borderless">
-        {% assign latest_posts = site.posts %}
-        {% if site.latest_posts.limit %}
-          {% assign latest_posts_limit = site.latest_posts.limit %}
-        {% else %}
-          {% assign latest_posts_limit = latest_posts_size %}
-        {% endif %}
-        {% for item in latest_posts limit: latest_posts_limit %}
+        {% for item in latest_posts_all limit: site.latest_posts.limit %}
           <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+            <th scope="row" class="news-date">
+              {% include date_format.liquid format='short' date=item.date %}
+            </th>
             <td>
-              {% if item.redirect == blank %}
-                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-              {% elsif item.redirect contains '://' %}
-                <a class="news-title" href="{{ item.redirect }}">{{ item.title }}</a>
-                <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9"
-                    class="icon_svg-stroke"
-                    stroke="#999"
-                    stroke-width="1.5"
-                    fill="none"
-                    fill-rule="evenodd"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ></path>
-                </svg>
-              {% else %}
-                <a class="news-title" href="{{ item.redirect | relative_url }}">{{ item.title }}</a>
-              {% endif %}
+              <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
             </td>
           </tr>
         {% endfor %}
       </table>
     </div>
-  {% else %}
-    <p>No posts so far...</p>
   {% endif %}
 </div>

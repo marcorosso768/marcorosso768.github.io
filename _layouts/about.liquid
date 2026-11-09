@@ -89,7 +89,7 @@ layout: default
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" class="about-link">{{ site.data[site.active_lang].strings.latest_posts }}</a>
+        <a class="news-effect" href="{{ '/blog/' | relative_url }}">{{ site.data[site.active_lang].strings.latest_posts }}</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
