@@ -2332,3 +2332,118 @@ article.post-content {
     border: 0;
   }
 }
+
+/*****************************************************************************
+* Talks: una voce per talk. Ruolo in un riquadro a sinistra (come il livello dei corsi in teaching), evento e paper
+* al centro, a destra luogo e anno e sotto l'istituzione. Il blocco di destra è flottante: evento e paper gli scorrono
+* accanto e, finito il blocco, usano tutta la larghezza.
+*****************************************************************************/
+
+.talk-entry {
+  --talk-role-width: 4.6rem; // larga quanto "Discussant"
+  position: relative;
+  min-height: 2.6rem;
+  margin: 0 0 0.85rem var(--indent-margin);
+  padding-left: 5.3rem; // riquadro del ruolo (4.6rem) + 0.7rem
+
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .level-badge {
+    min-width: var(--talk-role-width);
+  }
+
+  &__role {
+    position: absolute;
+    top: 0.2em;
+    left: 0;
+  }
+
+  &__side {
+    float: right;
+    margin-left: 1.5rem;
+    font-size: 0.85em;
+    text-align: right;
+    opacity: 0.65;
+  }
+
+  &__place {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.6rem;
+    white-space: nowrap;
+  }
+
+  &__institution {
+    font-size: 0.92em;
+    line-height: 1.3;
+    margin-top: 1px;
+  }
+
+  h4.talk-entry__event {
+    font: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    margin: 0;
+    line-height: 1.35;
+  }
+
+  &__paper {
+    margin-top: 2px;
+    font-size: 0.85em;
+    line-height: 1.3;
+    opacity: 0.75;
+  }
+
+  // telefono: in colonna, evento, poi luogo, anno e istituzione, poi il paper
+  @media (max-width: 575.98px) {
+    display: flex;
+    flex-direction: column;
+
+    h4.talk-entry__event {
+      order: 1;
+    }
+
+    .talk-entry__side {
+      order: 2;
+      float: none;
+      margin-left: 0;
+      text-align: left;
+    }
+
+    .talk-entry__place {
+      justify-content: flex-start;
+    }
+
+    .talk-entry__paper {
+      order: 3;
+    }
+  }
+}
+
+// spagnolo: "Comentarista" è più lungo di "Discussant"
+html[lang="es"] .talk-entry {
+  --talk-role-width: 5.5rem;
+  padding-left: 6.2rem;
+}
+
+// riquadro doppio (relatore e discussant): alto quanto due riquadri singoli, "and" piccolo in mezzo
+.level-badge--double {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 2.525rem;
+  padding: 0 0.3em;
+  line-height: 1.15;
+
+  small {
+    font-size: 0.6em;
+    font-weight: 400;
+    line-height: 0.9;
+    opacity: 0.85;
+  }
+}

@@ -8,6 +8,9 @@ sections:
 
 upcoming: "(in programma)"
 
+# tra i due ruoli nel riquadro "speaker_discussant" (piccolo, fra i due nomi)
+roles_and: "e"
+
 roles:
   speaker: "Relatore"
   speaker_discussant: "Relatore e discussant"
@@ -28,7 +31,7 @@ talks:
     location: "Universidad de San Andrés — Buenos Aires, Argentina"
   asset-2026:
     event: "ASSET Annual Meeting"
-    location: "CRENoS (Centro Ricerche Economiche Nord Sud) — Cagliari, Italia"
+    location: "CRENoS — Cagliari, Italia"
   sie-annual-meeting-2025:
     event: "66ª Riunione Scientifica Annuale della Società Italiana di Economia"
     location: "Università di Napoli Parthenope — Napoli, Italia"

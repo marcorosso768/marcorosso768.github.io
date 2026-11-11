@@ -1,6 +1,8 @@
 {%- comment -%}
   Pagina talks generata dai dati: _data/talks.yml (struttura comune), _data/<lingua>/talks_text.yml (testi),
-  _data/research.yml (titoli dei paper presentati). Sezione (h2) → anno (h3) → talk (h4).
+  _data/research.yml (titoli dei paper presentati). Sezione (h2) → talk (h4); l'anno è a destra di ogni talk.
+  Ogni talk: ruolo in un riquadro a sinistra (come il livello dei corsi in teaching); evento e, sotto, il paper;
+  a destra luogo e anno e, sotto, l'istituzione (location in talks_text.yml: "istituzione — luogo").
   Niente commenti HTML qui: nelle pagine .md kramdown li trasformerebbe in paragrafi vuoti.
 {%- endcomment -%}
 {%- assign texts = site.data[site.active_lang].talks_text -%}
@@ -11,34 +13,47 @@
   {%- include section-toggle.liquid id=section_id title=section_title expanded=section.expanded %}
   <div id="content-{{ n }}" class="toggle-section{% if section.expanded %} expanded{% endif %}">
     {%- for group in section.years %}
-      <h3 class="talks-year">{{ group.year }}</h3>
       {%- for key in group.talks -%}
         {%- assign talk = site.data.talks.talks[key] -%}
-        {%- assign text = texts.talks[key] %}
-        <div class="seminar-entry indented">
-          <div class="seminar-entry__row seminar-entry__row--title">
-            <h4 class="seminar-entry__content">
-              {{ text.event }}
-              {%- if talk.upcoming %}
-                <span class="talk-upcoming">{{ texts.upcoming }}</span>
-              {%- endif %}
-              —
-              <span class="highlight"
-                ><i>{{ texts.roles[talk.role] }}</i></span
-              >
-            </h4>
+        {%- assign text = texts.talks[key] -%}
+        {%- assign location_parts = text.location | split: ' — ' -%}
+        {%- assign place = location_parts | last -%}
+        {%- if location_parts.size > 1 -%}
+          {%- assign institution = location_parts | first -%}
+        {%- else -%}
+          {%- assign institution = null -%}
+        {%- endif %}
+        <div class="talk-entry">
+          <div class="talk-entry__role">
+            {%- if talk.role == 'speaker_discussant' -%}
+              <span class="level-badge level-badge--double">
+                {{- texts.roles.speaker -}}
+                <small>{{ texts.roles_and }}</small>{{ texts.roles.discussant -}}
+              </span>
+            {%- else -%}
+              <span class="level-badge">{{ texts.roles[talk.role] }}</span>
+            {%- endif -%}
           </div>
+          <div class="talk-entry__side">
+            <div class="talk-entry__place">
+              <span>{{ place }}</span><span>{{ group.year }}</span>
+            </div>
+            {%- if institution %}
+              <div class="talk-entry__institution">{{ institution }}</div>
+            {%- endif %}
+          </div>
+          <h4 class="talk-entry__event">
+            {{ text.event }}
+            {%- if talk.upcoming %}
+              <span class="talk-upcoming">{{ texts.upcoming }}</span>
+            {%- endif %}
+          </h4>
           {%- if talk.paper %}
-            <div class="seminar-entry__row seminar-entry__row--paper">
-              <div class="seminar-entry__paper-text">
-                {% comment %} i titoli dei paper sono in inglese in tutte le lingue: lang="en" per lettori di schermo e validatore (ridondante, ma valido, nella versione inglese) {% endcomment %}
-                <i lang="en">{{ site.data.research.entries[talk.paper].title }}</i>
-              </div>
+            {% comment %} i titoli dei paper sono in inglese in tutte le lingue: lang="en" per lettori di schermo e validatore {% endcomment %}
+            <div class="talk-entry__paper">
+              <i lang="en">{{ site.data.research.entries[talk.paper].title }}</i>
             </div>
           {%- endif %}
-          <div class="seminar-entry__row seminar-entry__row--location">
-            <div class="seminar-entry__location-text">{{ text.location }}</div>
-          </div>
         </div>
       {%- endfor -%}
     {%- endfor %}
