@@ -2290,13 +2290,32 @@ article.post-content {
   white-space: nowrap;
 }
 
-// teaching: stesso spazio sopra e sotto "current courses" / "earlier courses" (circa 28px misurati sulle lettere,
-// dalla riga della sezione o dall'ultimo corso, e fino al nome dell'ateneo)
+// teaching: stesso spazio sopra e sotto "current courses" / "earlier courses", circa 28px a vista: sopra dalla riga
+// della sezione o dal fondo dell'ultimo corso (etichetta del livello, sottolineatura), sotto fino al nome dell'ateneo
 .subsection:has(+ .toggle-section .teaching-entry) h3.subsection {
   margin-top: 8px;
 }
 
+.toggle-section + .subsection:has(+ .toggle-section .teaching-entry) h3.subsection {
+  margin-top: 13px;
+}
+
 // teaching: nome dell'ateneo più piccolo dei titoli dei corsi
 .year h4.year.year--static .institution-toggle span {
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
+}
+
+// teaching: sotto i 992px dei materiali resta solo la cartella (l'etichetta resta per gli screen reader)
+@media (max-width: 991.98px) {
+  .teaching-entry .folder-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
 }

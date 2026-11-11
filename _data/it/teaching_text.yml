@@ -35,7 +35,6 @@ labels:
 courses:
   empirical-methods-law-economics:
     title: "Empirical Methods for Law and Economics"
-    note: "EDLE" # dopo il titolo, come "(in Italian)"
     program: "Dottorato Europeo in Law and Economics (EDLE) (in inglese)"
     materials: /it/materiali/metodi_empirici_per_law_and_economics/
   pre-sessional-econometrics:
