@@ -464,7 +464,9 @@ $gap-vertical: 0.25em; // spazio tra le due righe
 .teaching-entry {
   display: grid;
   // prima colonna larga quanto l'etichetta più lunga ("MA·PhD"), così tutti i titoli partono dallo stesso punto
-  grid-template-columns: 3.6rem minmax(0, 1fr) auto 5.5rem;
+  // ultima colonna larga quanto "2025–2026" (circa 69px): gli anni, allineati a sinistra, partono tutti dallo stesso
+  // punto, che il corso sia chiuso ("2025–2026") o ancora attivo ("2026–")
+  grid-template-columns: 3.6rem minmax(0, 1fr) auto 4.4rem;
   column-gap: 0.75rem;
   align-items: baseline;
   margin-bottom: 0.7rem;
@@ -511,7 +513,7 @@ $gap-vertical: 0.25em; // spazio tra le due righe
   }
 
   &__date {
-    text-align: right;
+    text-align: left;
     white-space: nowrap;
     font-size: 0.85em;
     opacity: 0.65;
