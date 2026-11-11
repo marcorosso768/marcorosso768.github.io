@@ -14,10 +14,20 @@ meta_description: "Indirizzi e-mail all'Universit√† di Cagliari e all'Universit√
 
 <div id="content-1" class="toggle-section expanded contact-list">
 
+{% include section-toggle.liquid id="content-1-personal" title="personale" expanded=true tag='h3' class='subsection' wrapper='subsection' %}
+
+<div id="content-1-personal" class="toggle-section expanded">
+
   <div class="icon-link indented">
     <i class="fa-regular fa-envelope fa-fw"></i>
     <a href="mailto:{{ "marco@marcorosso.com" | encode_email }}">{{ "marco@marcorosso.com" | email_entities }}</a>
   </div>
+
+</div>
+
+{% include section-toggle.liquid id="content-1-academic" title="accademiche" expanded=true tag='h3' class='subsection' wrapper='subsection' %}
+
+<div id="content-1-academic" class="toggle-section expanded">
 
   <div class="icon-link indented">
     <i class="fa-solid fa-envelope fa-fw"></i>
@@ -28,6 +38,8 @@ meta_description: "Indirizzi e-mail all'Universit√† di Cagliari e all'Universit√
     <i class="fa-solid fa-envelope fa-fw"></i>
     <a href="mailto:{{ "marco.rosso4@unibo.it" | encode_email }}">{{ "marco.rosso4@unibo.it" | email_entities }}</a>
   </div>
+
+</div>
 
 </div>
 

@@ -186,6 +186,16 @@ body.sticky-bottom-footer {
   margin-bottom: 0.75rem;
 }
 
+// contatti: e-mail divise in "personal" e "academic", con più aria prima del secondo gruppo
+.contact-list h3.subsection {
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.contact-list .toggle-section + .subsection h3.subsection {
+  margin-top: 1.25rem;
+}
+
 .icon-link a em {
   color: inherit;
   font-style: italic;
@@ -2122,9 +2132,19 @@ h5.teaching-entry__content {
   margin: 0;
 }
 
+// riquadro del livello a sinistra (come in teaching), allineato alla prima riga del titolo
 .materials-entry {
+  display: grid;
+  grid-template-columns: 3.2rem minmax(0, 1fr);
+  column-gap: 0.7rem;
+  align-items: baseline;
   margin: 0 0 1.5rem var(--indent-margin);
   line-height: 1.3;
+
+  .level-badge {
+    position: relative;
+    top: -0.1rem;
+  }
 }
 
 // h2 per la struttura dei titoli, con l'aspetto del titolo di un corso
@@ -2135,23 +2155,6 @@ h2.materials-entry__title {
 
   a {
     color: var(--global-theme-color);
-  }
-
-  // cartella chiusa; aperta al passaggio del mouse, al tocco e con la tastiera (come "teaching materials")
-  .fa-folder-open {
-    display: none;
-  }
-
-  a:hover,
-  a:focus-visible,
-  a:active {
-    .fa-folder {
-      display: none;
-    }
-
-    .fa-folder-open {
-      display: inline-block;
-    }
   }
 }
 

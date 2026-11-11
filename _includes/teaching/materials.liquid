@@ -4,6 +4,7 @@
   di file da _data/courses.yml e _data/<lingua>/courses_text.yml. Si aggiorna da sola quando si aggiunge un file o un corso.
   Diviso per ruolo come la pagina teaching (docente / tutor didattico): una sezione apribile per ruolo, solo se ha corsi
   con materiali.
+  Ogni corso: riquadro del livello (BA/MA/PhD, come in teaching), titolo, anni e ateneo, poi i materiali.
   Riepilogo per corso: sezioni con il numero di file (le voci di solo testo, note, non contano); una sezione con
   in_summary: false in courses.yml non compare (es. informazioni sul corso).
   Niente commenti HTML qui: nelle pagine .md kramdown li trasformerebbe in paragrafi vuoti.
@@ -39,42 +40,49 @@
             {%- assign text = texts.courses[course_key] -%}
             {%- assign files = site.data.courses[course.materials] -%}
             {%- assign files_text = course_texts[course.materials] %}
+            {%- assign level_labels = '' -%}
+            {%- for level in course.level -%}
+              {%- unless forloop.first -%}{%- assign level_labels = level_labels | append: '·' -%}{%- endunless -%}
+              {%- assign level_labels = level_labels | append: texts.labels.levels[level] -%}
+            {%- endfor %}
             <li class="materials-entry">
-              <h2 class="materials-entry__title">
-                <a href="{{ text.materials }}">
-                  <i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i>
-                  <i class="fa-regular fa-folder-open fa-fw" aria-hidden="true"></i>
-                  {{ text.title -}}
-                </a>
-              </h2>
-              <div class="materials-entry__meta">{{ course.dates }} · {{ texts.institutions[institution.key] }}</div>
-              <div class="materials-entry__meta">{{ text.program }}</div>
-              <div class="materials-entry__sections">
-                {%- assign shown = 0 -%}
-                {%- for part in files.sections -%}
-                  {%- if part.in_summary == false -%}
-                    {%- continue -%}
-                  {%- endif -%}
-                  {%- assign count = 0 -%}
-                  {%- for item in part.items -%}
-                    {%- unless item.note -%}{%- assign count = count | plus: 1 -%}{%- endunless -%}
-                  {%- endfor -%}
-                  {%- for block in part.blocks -%}
-                    {%- for item in block.items -%}
+              <div class="materials-entry__level">
+                {%- if level_labels != '' -%}
+                  <span class="level-badge">{{ level_labels }}</span>
+                {%- endif -%}
+              </div>
+              <div class="materials-entry__body">
+                <h2 class="materials-entry__title">
+                  <a href="{{ text.materials }}">{{ text.title }}</a>
+                </h2>
+                <div class="materials-entry__meta">{{ course.dates }} · {{ texts.institutions[institution.key] }}</div>
+                <div class="materials-entry__sections">
+                  {%- assign shown = 0 -%}
+                  {%- for part in files.sections -%}
+                    {%- if part.in_summary == false -%}
+                      {%- continue -%}
+                    {%- endif -%}
+                    {%- assign count = 0 -%}
+                    {%- for item in part.items -%}
                       {%- unless item.note -%}{%- assign count = count | plus: 1 -%}{%- endunless -%}
                     {%- endfor -%}
-                    {%- for item_group in block.groups -%}
-                      {%- for item in item_group.items -%}
+                    {%- for block in part.blocks -%}
+                      {%- for item in block.items -%}
                         {%- unless item.note -%}{%- assign count = count | plus: 1 -%}{%- endunless -%}
                       {%- endfor -%}
+                      {%- for item_group in block.groups -%}
+                        {%- for item in item_group.items -%}
+                          {%- unless item.note -%}{%- assign count = count | plus: 1 -%}{%- endunless -%}
+                        {%- endfor -%}
+                      {%- endfor -%}
                     {%- endfor -%}
-                  {%- endfor -%}
-                  {%- if shown > 0 -%}
-                    <span class="materials-entry__sep" aria-hidden="true">•</span>
-                  {%- endif %}
-                  {%- assign shown = shown | plus: 1 %}
-                  <span>{{ files_text.sections[part.key] }} ({{ count }})</span>
-                {%- endfor %}
+                    {%- if shown > 0 -%}
+                      <span class="materials-entry__sep" aria-hidden="true">•</span>
+                    {%- endif %}
+                    {%- assign shown = shown | plus: 1 %}
+                    <span>{{ files_text.sections[part.key] }} ({{ count }})</span>
+                  {%- endfor %}
+                </div>
               </div>
             </li>
           {%- endfor -%}
