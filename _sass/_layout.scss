@@ -494,7 +494,7 @@ $gap-vertical: 0.25em; // spazio tra le due righe
       grid-column: 3;
       grid-row: 1;
       align-self: start;
-      justify-self: end;
+      justify-self: start; // cartella allineata all'inizio degli anni, sotto
     }
 
     > .teaching-entry__date {
@@ -2525,19 +2525,20 @@ html[lang="es"] .talk-entry {
 *****************************************************************************/
 
 .entry-block--badge {
-  // inizio del testo: rientro (8px, --indent-margin) + riquadro (4.6rem) + 0.7rem = 92.8px (senza calc: la
-  // minificazione del CSS toglie gli spazi attorno a "+" e la formula non sarebbe più valida)
-  --toggle-spacing: 92.8px;
+  // riquadro largo come in teaching (3.2rem). Inizio del testo: rientro (8px, --indent-margin) + riquadro + 0.7rem
+  // = 70.4px (senza calc: la minificazione del CSS toglie gli spazi attorno a "+" e la formula non sarebbe più valida)
+  --toggle-spacing: 70.4px;
+  --research-badge-width: 3.2rem;
 
   .research-badge {
-    flex: 0 0 4.6rem;
-    width: 4.6rem;
+    flex: 0 0 var(--research-badge-width);
+    width: var(--research-badge-width);
     margin-right: 0.7rem;
     position: relative;
     top: -2px; // riquadro centrato sulle maiuscole della prima riga (misurato: scarto 0.3px)
 
     .level-badge {
-      min-width: 4.6rem;
+      min-width: var(--research-badge-width);
     }
   }
 
@@ -2549,6 +2550,12 @@ html[lang="es"] .talk-entry {
     line-height: 1.75;
     opacity: 0.65;
   }
+}
+
+// spagnolo: "Borrador" è più lungo di "Draft"
+html[lang="es"] .entry-block--badge {
+  --toggle-spacing: 76.8px;
+  --research-badge-width: 3.6rem;
 }
 
 .entry-block--reference {

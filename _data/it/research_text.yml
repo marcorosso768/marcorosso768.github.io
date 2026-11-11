@@ -18,13 +18,12 @@ degrees:
 
 labels:
   # riquadro a sinistra di ogni voce: job market paper, working paper pubblico (url), work in progress, bozza non
-  # ancora pubblica, stato (status) se c'è; le tesi usano le etichette del livello di teaching_text.yml
+  # ancora pubblica; le tesi usano le etichette del livello di teaching_text.yml
   badges:
     jmp: "JMP"
     wp: "WP"
     wip: "WiP"
     draft: "Bozza"
-    submitted: "Sottoposto"
   months: ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"]
   month_year: "{month} {year}"
   status:
