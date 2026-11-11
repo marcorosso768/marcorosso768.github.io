@@ -2567,10 +2567,15 @@ html[lang="es"] .entry-block--badge {
   }
 }
 
-// homepage: date delle news e degli ultimi post attenuate e non in grassetto, come le date (anni) delle altre pagine;
-// la pagina news resta com'è
-.about-header ~ article .news .news-date {
+// date delle news (homepage e pagina news) e degli ultimi post: attenuate e non in grassetto, come le date (anni)
+// delle altre pagine
+.news .news-date {
   font-weight: 400;
+  opacity: 0.65;
+}
+
+// blog: tempo di lettura e data (elenco, post in evidenza, pagina del post) attenuati allo stesso modo
+.post-meta {
   opacity: 0.65;
 }
 
