@@ -4,8 +4,8 @@ layout: page
 permalink: /contatti/
 lang: it
 title: contatti
-description: <i>Un indirizzo e-mail personale, insieme a quelli presso l’Università di Cagliari e l’Università di Bologna. Di seguito, i link ai miei profili accademici e a LinkedIn.</i>
-meta_description: "Indirizzi e-mail all'Università di Cagliari e all'Università di Bologna, con i link ai profili accademici e a LinkedIn."
+description: <i>Il mio indirizzo e-mail. Di seguito, i link ai miei profili accademici e a LinkedIn.</i>
+meta_description: "Il mio indirizzo e-mail, con i link ai profili accademici e a LinkedIn."
 ---
 
 <!-- E-mail Section -->
@@ -14,32 +14,10 @@ meta_description: "Indirizzi e-mail all'Università di Cagliari e all'Universit�
 
 <div id="content-1" class="toggle-section expanded contact-list">
 
-{% include section-toggle.liquid id="content-1-personal" title="personale" expanded=true tag='h3' class='subsection' wrapper='subsection' %}
-
-<div id="content-1-personal" class="toggle-section expanded">
-
   <div class="icon-link indented">
     <i class="fa-regular fa-envelope fa-fw"></i>
     <a href="mailto:{{ "marco@marcorosso.com" | encode_email }}">{{ "marco@marcorosso.com" | email_entities }}</a>
   </div>
-
-</div>
-
-{% include section-toggle.liquid id="content-1-academic" title="accademiche" expanded=true tag='h3' class='subsection' wrapper='subsection' %}
-
-<div id="content-1-academic" class="toggle-section expanded">
-
-  <div class="icon-link indented">
-    <i class="fa-solid fa-envelope fa-fw"></i>
-    <a href="mailto:{{ "marco.rosso@unica.it" | encode_email }}">{{ "marco.rosso@unica.it" | email_entities }}</a>
-  </div>
-
-  <div class="icon-link indented">
-    <i class="fa-solid fa-envelope fa-fw"></i>
-    <a href="mailto:{{ "marco.rosso4@unibo.it" | encode_email }}">{{ "marco.rosso4@unibo.it" | email_entities }}</a>
-  </div>
-
-</div>
 
 </div>
 
