@@ -2567,8 +2567,24 @@ html[lang="es"] .entry-block--badge {
   }
 }
 
-// homepage: date delle news e degli ultimi post attenuate come le date (anni) delle altre pagine, in grassetto;
+// homepage: date delle news e degli ultimi post attenuate e non in grassetto, come le date (anni) delle altre pagine;
 // la pagina news resta com'è
 .about-header ~ article .news .news-date {
+  font-weight: 400;
   opacity: 0.65;
+}
+
+// research: stato del paper (submitted…) come ultima pillola, piena nel colore del tema (si distingue dai pulsanti,
+// che sono vuoti) e non cliccabile
+.pill-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10pt;
+  padding: 5px 8px;
+  color: var(--global-bg-color);
+  background-color: var(--global-theme-color);
+  border: 1px solid var(--global-theme-color);
+  border-radius: var(--toggle-radius);
+  cursor: default;
 }

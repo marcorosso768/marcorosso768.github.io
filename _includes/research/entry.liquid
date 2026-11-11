@@ -11,7 +11,7 @@
 {%- comment -%}
   Riquadro a sinistra (come il livello dei corsi in teaching): JMP nella sezione del job market paper; WiP per i work in progress; WP se il paper è pubblico (url); Draft se non lo è ancora;
   per le tesi il livello (PhD/MA/BA, etichette di teaching_text.yml). Le pubblicazioni non hanno riquadro.
-  Lo stato (status: submitted…) resta un'etichetta dopo il titolo.
+  Lo stato (status: submitted…) è l'ultima pillola, piena e non cliccabile.
 {%- endcomment -%}
 {%- assign badge = null -%}
 {%- if include.section == 'jmp' -%}
@@ -57,9 +57,6 @@
               <a href="{{ e.url }}">{{ e.title | escape }}</a>
             {%- else -%}
               {{ e.title | escape }}
-            {%- endif -%}
-            {%- if e.status %}
-              <span class="paper-status">{{ labels.status[e.status] }}</span>
             {%- endif -%}
         {%- endcase -%}
       </h3>
@@ -123,7 +120,7 @@
       <span class="entry-year">{{ e.year }}</span>
     {%- endif %}
   </div>
-  {%- if e.links or e.panels %}
+  {%- if e.links or e.panels or e.status %}
     <div class="pill-container mt-2">
       {%- for link in e.links -%}
         {%- if link.type == 'draft_request' -%}{%- continue -%}{%- endif %}
@@ -154,6 +151,10 @@
           </a>
         {%- endif -%}
       {%- endfor %}
+      {%- if e.status %}
+        {% comment %} stato del paper (submitted…): ultima pillola, piena e non cliccabile {% endcomment %}
+        <span class="pill-status">{{ labels.status[e.status] }}</span>
+      {%- endif %}
     </div>
   {%- endif -%}
   {%- for panel in e.panels -%}
