@@ -1,40 +1,68 @@
 {%- comment -%}
   Pagina supervision generata dai dati: _data/supervision.yml (struttura comune) e
-  _data/<lingua>/supervision_text.yml (testi). Sezione (h2) → persona (h3), con la tesi o il progetto sotto.
+  _data/<lingua>/supervision_text.yml (testi). Sezione (h2) → tesi o progetto (h3).
+  Ogni voce, come in teaching: livello in un riquadro a sinistra (etichette di teaching_text.yml), titolo della tesi o del
+  progetto, anno a destra; sotto, il nome (per i progetti, tutti gli assistenti che ci hanno lavorato).
   Niente commenti HTML qui: nelle pagine .md kramdown li trasformerebbe in paragrafi vuoti.
 {%- endcomment -%}
 {%- assign texts = site.data[site.active_lang].supervision_text -%}
+{%- assign teaching_labels = site.data[site.active_lang].teaching_text.labels -%}
 {%- for section in site.data.supervision.sections -%}
   {%- assign kind = section.kind %}
   {%- assign section_title = texts.sections[section.key] -%}
   {%- include section-toggle.liquid id=section.id title=section_title expanded=section.expanded %}
   <div id="{{ section.id }}" class="toggle-section{% if section.expanded %} expanded{% endif %}">
+    {%- assign done_projects = '|' -%}
     {%- for key in section.entries -%}
-      {%- assign person = site.data.supervision.people[key] %}
-      <div class="{{ kind }}-entry indented">
-        <div class="{{ kind }}-entry__row {{ kind }}-entry__row--{{ kind }}">
-          <h3 class="{{ kind }}-entry__content">
-            {{ person.year }}: {{ person.name }}, {{ texts.programs[person.program] }},
-            {{ texts.universities[person.university] }}
-            {%- if person.ongoing %}
-              <i>{{ texts.labels.ongoing }}</i>
-            {%- endif %}
-          </h3>
+      {%- assign person = site.data.supervision.people[key] -%}
+      {%- assign level = site.data.supervision.program_levels[person.program] -%}
+      {%- if kind == 'ra' -%}
+        {%- assign project_mark = '|' | append: person.project | append: '|' -%}
+        {%- if done_projects contains project_mark -%}{%- continue -%}{%- endif -%}
+        {%- assign done_projects = done_projects | append: person.project | append: '|' -%}
+        {%- assign names = '' -%}
+        {%- assign count = 0 -%}
+        {%- for other_key in section.entries -%}
+          {%- assign other = site.data.supervision.people[other_key] -%}
+          {%- if other.project == person.project -%}{%- assign count = count | plus: 1 -%}{%- endif -%}
+        {%- endfor -%}
+        {%- assign i = 0 -%}
+        {%- for other_key in section.entries -%}
+          {%- assign other = site.data.supervision.people[other_key] -%}
+          {%- if other.project == person.project -%}
+            {%- assign i = i | plus: 1 -%}
+            {%- if i > 1 and i == count -%}
+              {%- assign names = names | append: ' ' | append: teaching_labels.and | append: ' ' -%}
+            {%- elsif i > 1 -%}
+              {%- assign names = names | append: ', ' -%}
+            {%- endif -%}
+            {%- assign names = names | append: other.name -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- else -%}
+        {%- assign names = person.name -%}
+      {%- endif %}
+      <div class="supervision-entry">
+        <div class="supervision-entry__level">
+          {%- if level -%}
+            <span class="level-badge">{{ teaching_labels.levels[level] }}</span>
+          {%- endif -%}
         </div>
-        {%- if kind == 'thesis' %}
-          <div class="thesis-entry__row thesis-entry__row--title">
-            <span class="thesis-entry__title-text">
-              {{- texts.theses[key] }}
-              {%- if person.language == 'it' and texts.labels.written_in_it %}
-                <i>{{ texts.labels.written_in_it }}</i>
-              {%- endif -%}
-            </span>
-          </div>
-        {%- else %}
-          <div class="ra-entry__row ra-entry__row--project">
-            <span class="ra-entry__project-text">{{ texts.projects[person.project] }}</span>
-          </div>
-        {%- endif %}
+        <div class="supervision-entry__year">{{ person.year }}</div>
+        <h3 class="supervision-entry__title">
+          {%- if kind == 'thesis' -%}
+            {{ texts.theses[key] }}
+            {%- if person.language == 'it' and texts.labels.written_in_it %}
+              <span class="supervision-entry__note">{{ texts.labels.written_in_it }}</span>
+            {%- endif -%}
+          {%- else -%}
+            {{ texts.projects[person.project] }}
+          {%- endif -%}
+          {%- if person.ongoing %}
+            <span class="supervision-entry__note">{{ texts.labels.ongoing }}</span>
+          {%- endif -%}
+        </h3>
+        <div class="supervision-entry__names">{{ names }}</div>
       </div>
     {%- endfor %}
   </div>

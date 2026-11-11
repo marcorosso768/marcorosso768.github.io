@@ -8,7 +8,12 @@
 #   program, university: chiavi di programs e universities nei testi
 #   ongoing: true se la tesi è in corso (mostra "(ongoing)" / "(in corso)" / "(en curso)")
 #   language: it se la tesi è scritta in italiano (mostra "(in Italian)" / "(en italiano)"; niente sulla pagina italiana)
-#   project: chiave del progetto (solo assistenti di ricerca)
+#   project: chiave del progetto (solo assistenti di ricerca); assistenti con lo stesso progetto compaiono in una sola voce
+# Il livello (riquadro BA/MA/PhD a sinistra, etichette da teaching_text.yml) dipende dal corso di laurea: program_levels.
+
+program_levels:
+  business-administration: ba
+  economics-econometrics: ma
 
 sections:
   - key: theses
