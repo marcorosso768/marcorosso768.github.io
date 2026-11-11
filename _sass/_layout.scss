@@ -2290,10 +2290,12 @@ article.post-content {
 .level-badge {
   display: inline-block;
   min-width: 3.2rem; // tutte larghe come "MA·PhD"
-  padding: 0 0.3em;
+  // testo centrato in verticale a vista: le maiuscole non scendono sotto la linea di base, quindi con padding uguali
+  // il testo sembrava in alto (3px sopra, 5px sotto); 0.1em in più sopra e riga più bassa: circa 4px e 4px, stessa altezza
+  padding: 0.1em 0.3em 0;
   font-size: 0.7rem;
   font-weight: 600;
-  line-height: 1.45;
+  line-height: 1.35;
   text-align: center;
   color: var(--global-theme-color);
   border: 1px solid var(--global-theme-color);
