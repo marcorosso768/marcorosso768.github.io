@@ -2398,28 +2398,38 @@ article.post-content {
     opacity: 0.75;
   }
 
-  // telefono: in colonna, evento, poi luogo, anno e istituzione, poi il paper
+  // solo su telefono (dove il blocco di destra è nascosto: una sola delle due versioni è visibile e leggibile)
+  &__year-mobile,
+  &__meta-mobile {
+    display: none;
+  }
+
+  // telefono: anno in alto a destra accanto all'evento (come gli anni in teaching); sotto, luogo e istituzione su
+  // una riga, piccoli; poi il paper. Il blocco di destra del desktop è nascosto.
   @media (max-width: 575.98px) {
-    display: flex;
-    flex-direction: column;
-
-    h4.talk-entry__event {
-      order: 1;
-    }
-
     .talk-entry__side {
-      order: 2;
-      float: none;
-      margin-left: 0;
-      text-align: left;
+      display: none;
     }
 
-    .talk-entry__place {
-      justify-content: flex-start;
+    .talk-entry__year-mobile {
+      display: block;
+      float: right;
+      margin-left: 0.75rem;
+      font-size: 0.85em;
+      line-height: 1.6;
+      opacity: 0.65;
+    }
+
+    .talk-entry__meta-mobile {
+      display: block;
+      margin-top: 1px;
+      font-size: 0.8em;
+      line-height: 1.35;
+      opacity: 0.65;
     }
 
     .talk-entry__paper {
-      order: 3;
+      margin-top: 3px;
     }
   }
 }

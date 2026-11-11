@@ -42,12 +42,18 @@
               <div class="talk-entry__institution">{{ institution }}</div>
             {%- endif %}
           </div>
+          {% comment %} solo su telefono: anno in alto a destra, luogo e istituzione su una riga sotto l'evento {% endcomment %}
+          <div class="talk-entry__year-mobile">{{ group.year }}</div>
           <h4 class="talk-entry__event">
             {{ text.event }}
             {%- if talk.upcoming %}
               <span class="talk-upcoming">{{ texts.upcoming }}</span>
             {%- endif %}
           </h4>
+          <div class="talk-entry__meta-mobile">
+            {{- place -}}
+            {%- if institution %} · {{ institution }}{% endif -%}
+          </div>
           {%- if talk.paper %}
             {% comment %} i titoli dei paper sono in inglese in tutte le lingue: lang="en" per lettori di schermo e validatore {% endcomment %}
             <div class="talk-entry__paper">
