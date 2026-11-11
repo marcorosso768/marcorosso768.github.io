@@ -2566,3 +2566,9 @@ html[lang="es"] .entry-block--badge {
     text-indent: -1.5rem;
   }
 }
+
+// homepage: date delle news e degli ultimi post attenuate come le date (anni) delle altre pagine, in grassetto;
+// la pagina news resta com'è
+.about-header ~ article .news .news-date {
+  opacity: 0.65;
+}
