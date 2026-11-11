@@ -460,8 +460,69 @@ $gap-vertical: 0.25em; // spazio tra le due righe
 * Teaching
 *****************************************************************************/
 
+// una riga per corso: livello (BA/MA/PhD), titolo con docenti e note, materiali, anni
 .teaching-entry {
-  margin-bottom: 1.5rem;
+  display: grid;
+  // prima colonna larga quanto l'etichetta più lunga ("MA·PhD"), così tutti i titoli partono dallo stesso punto
+  grid-template-columns: 3.6rem minmax(0, 1fr) auto 5.5rem;
+  column-gap: 0.75rem;
+  align-items: baseline;
+  margin-bottom: 0.7rem;
+
+  // telefono: anni sotto il titolo (piccoli), così il titolo ha più spazio; cartella dei materiali a destra
+  @media (max-width: 575.98px) {
+    grid-template-columns: 3.6rem minmax(0, 1fr) auto;
+    row-gap: 1px;
+    margin-bottom: 0.8rem;
+
+    > .teaching-entry__level {
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+    > h5.teaching-entry__content {
+      grid-column: 2;
+      grid-row: 1;
+    }
+
+    > .teaching-entry__materials {
+      grid-column: 3;
+      grid-row: 1;
+    }
+
+    > .teaching-entry__date {
+      grid-column: 2;
+      grid-row: 2;
+      text-align: left;
+    }
+  }
+
+  > h5.teaching-entry__content {
+    line-height: 1.35;
+  }
+
+  &__materials {
+    white-space: nowrap;
+    font-size: 0.9em;
+
+    .folder-link {
+      margin: 0;
+    }
+  }
+
+  &__date {
+    text-align: right;
+    white-space: nowrap;
+    font-size: 0.85em;
+    opacity: 0.65;
+  }
+
+  // "(EDLE)", "(in Italian)": dopo il titolo, piccoli e attenuati
+  &__note {
+    font-size: 0.85em;
+    font-style: italic;
+    opacity: 0.75;
+  }
 
   &.indented {
     margin-left: var(--indent-margin);
@@ -2212,4 +2273,30 @@ article.post-content {
     border-top: 1px solid var(--global-theme-color);
     font-size: 0.9em;
   }
+}
+
+// teaching: livello del corso, riquadro nel colore del tema come lo stato dei paper (.paper-status)
+.level-badge {
+  display: inline-block;
+  min-width: 2.6rem;
+  padding: 0 0.35em;
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1.45;
+  text-align: center;
+  color: var(--global-theme-color);
+  border: 1px solid var(--global-theme-color);
+  border-radius: var(--toggle-radius);
+  white-space: nowrap;
+}
+
+// teaching: stesso spazio sopra e sotto "current courses" / "earlier courses" (circa 28px misurati sulle lettere,
+// dalla riga della sezione o dall'ultimo corso, e fino al nome dell'ateneo)
+.subsection:has(+ .toggle-section .teaching-entry) h3.subsection {
+  margin-top: 8px;
+}
+
+// teaching: nome dell'ateneo più piccolo dei titoli dei corsi
+.year h4.year.year--static .institution-toggle span {
+  font-size: 0.875rem;
 }

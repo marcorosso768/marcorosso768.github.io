@@ -1,4 +1,4 @@
-# Pagina teaching: testi in questa lingua. Struttura e dati comuni in _data/teaching.yml.
+# Pagina teaching: testi in questa lingua. program non compare nella pagina teaching (c'è il livello), solo in materials. Struttura e dati comuni in _data/teaching.yml.
 # Il nome è diverso da teaching.yml di proposito: jekyll-polyglot unisce _data/<lingua>/X.yml a site.data.X.
 
 # inizio dei link al catalogo degli insegnamenti di Bologna (campo unibo dei corsi)
@@ -24,10 +24,18 @@ institutions:
 labels:
   materials: "materiali didattici"
   and: "e"
+  # etichette del livello (campo level in _data/teaching.yml)
+  levels:
+    ba: "L"
+    ma: "LM"
+    phd: "PhD"
+  # dopo il titolo dei corsi in italiano (campo italian)
+  italian: "in italiano"
 
 courses:
   empirical-methods-law-economics:
     title: "Empirical Methods for Law and Economics"
+    note: "EDLE" # dopo il titolo, come "(in Italian)"
     program: "Dottorato Europeo in Law and Economics (EDLE) (in inglese)"
     materials: /it/materiali/metodi_empirici_per_law_and_economics/
   pre-sessional-econometrics:

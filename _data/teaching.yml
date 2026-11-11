@@ -9,6 +9,9 @@
 #   materials: chiave del corso in _data/courses.yml, se il corso ha una pagina di materiali (l'indirizzo è nei testi
 #     di ogni lingua); il corso compare anche nella pagina "materials" (menu more)
 #   dates: anni accademici
+#   level: livelli del corso (ba, ma, phd; etichette nei testi di ogni lingua, labels.levels), più di uno se il corso è
+#     comune (es. [ma, phd])
+#   italian: true se il corso è in italiano: nella pagina "(in Italian)" / "(in italiano)" / "(en italiano)" dopo il titolo
 # Un ateneo si apre e si chiude cliccando sul nome; expanded: false lo tiene chiuso al caricamento (predefinito: aperto).
 
 sections:
@@ -78,91 +81,120 @@ courses:
     url: https://phd.unibo.it/economics/en/teaching/empirical-methods-for-law-and-economics
     materials: empirical_methods_for_law_and_economics
     dates: "2026–"
+    level: [phd]
   pre-sessional-econometrics:
     dates: "2026–"
+    level: [ma]
+    italian: true
   economics-eu:
     unibo: "2026/522183"
     dates: "2025–"
+    level: [ba]
   python-for-economists:
     unibo: "2025/520832"
     materials: python_for_economists
     dates: "2025–2026"
+    level: [ma, phd]
   microeconomics-business-administration:
     unibo: "2025/529017"
     materials: microeconomics
     dates: "2025–2026"
+    level: [ba]
+    italian: true
   econometrics-business-economics:
     unibo: "2025/406503"
     with: [fort, pastorello]
     materials: econometrics
     dates: "2025–2026"
+    level: [ba]
   microeconometrics:
     unibo: "2026/521599"
     with: [ichino]
     dates: "2026–"
+    level: [ma]
   economic-policy-methods:
     url: https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2026/529369
     with: [mattozzi]
     dates: "2026–"
+    level: [ma]
+    italian: true
   behavioral-economics-2026:
     unibo: "2026/527338"
     materials: introduction_to_behavioral_economics
     with: [bigoni]
     dates: "2026–"
+    level: [ba]
   microeconomics-economics-finance:
     unibo: "2026/527268"
     materials: microeconomics_economics_and_finance
     with: [wakefield]
     dates: "2026–"
+    level: [ba]
   statistics-data-tutoring:
     with: [fort]
     dates: "2026–"
+    level: [ba]
   econometrics-public-policy:
     unibo: "2026/520826"
     materials: measurement_and_econometric_analysis
     with: [tommasi]
     dates: "2025–"
+    level: [ma]
   industrial-economics:
     unibo: "2025/455011"
     with: [denicolo]
     dates: "2025–"
+    level: [ba]
+    italian: true
   political-economy:
     unibo: "2024/468855"
     with: [cantoni]
     dates: "2024–"
+    level: [ba]
   microeconomics-economics-politics:
     unibo: "2024/502710"
     with: [casari]
     dates: "2024–2025"
+    level: [ba]
   game-theory-economics-econometrics:
     unibo: "2024/491971"
     with: [mattozzi]
     dates: "2022–2025"
+    level: [ma, phd]
   behavioral-economics-2022:
     unibo: "2024/467276"
     with: [bigoni]
     dates: "2022–2025"
+    level: [ba]
   globalization:
     unibo: "2023/422038"
     with: [prarolo]
     dates: "2022–2024"
+    level: [ba]
   competition-economics-policy:
     unibo: "2021/413556"
     with: [barigozzi]
     dates: "2021–2022"
+    level: [ma]
+    italian: true
   microeconomics-forli:
     unibo: "2021/413375"
     with: [barigozzi]
     dates: "2021–2022"
+    level: [ba]
   game-theory-forli:
     unibo: "2021/413555"
     with: [montinari]
     dates: "2021–2022"
+    level: [ma]
+    italian: true
   public-management:
     url: https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=qeeh_1920
     with: [figari]
     dates: "2019–2020"
+    level: [ba]
   microeconomics-turin:
     url: https://www.business-management.unito.it/do/storicocorsi.pl/Show?_id=wwm1_1920
     with: [campaniello]
     dates: "2019–2020"
+    level: [ba]

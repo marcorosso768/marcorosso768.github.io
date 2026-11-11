@@ -1,6 +1,7 @@
 {%- comment -%}
   Pagina teaching generata dai dati: _data/teaching.yml (struttura comune), _data/<lingua>/teaching_text.yml (testi),
   _data/people.yml (docenti). Ruolo (h2) → corsi attuali/precedenti (h3) → ateneo (h4) → corso (h5).
+  Ogni corso è una riga: livello (BA/MA/PhD), titolo con docenti e note, materiali, anni.
   Niente commenti HTML qui: nelle pagine .md kramdown li trasformerebbe in paragrafi vuoti.
 {%- endcomment -%}
 {%- assign texts = site.data[site.active_lang].teaching_text -%}
@@ -47,41 +48,57 @@
               {%- else -%}
                 {%- assign course_url = course.url -%}
               {%- endif %}
+              {%- assign level_labels = '' -%}
+              {%- for level in course.level -%}
+                {%- unless forloop.first -%}{%- assign level_labels = level_labels | append: '·' -%}{%- endunless -%}
+                {%- assign level_labels = level_labels | append: texts.labels.levels[level] -%}
+              {%- endfor %}
               <div class="teaching-entry indented">
-                <div class="teaching-entry__row teaching-entry__row--title">
-                  <h5 class="teaching-entry__content">
-                    {%- if course_url %}
-                      <a href="{{ course_url }}">{{ text.title }}</a>
-                    {%- else %}
-                      <span class="course-title">{{ text.title }}</span>
-                    {%- endif -%}
-                    {%- if course.with %}
-                      {{ section_text.with }}
-                      {%- assign count = course.with | size -%}
-                      {%- for person_key in course.with -%}
-                        {%- assign person = site.data.people[person_key] -%}
-                        {%- if person.unibo -%}
-                          {%- capture person_url -%}
-                          https://www.unibo.it/sitoweb/{{ person.unibo }}{% unless site.active_lang == 'it' %}/en{% endunless %}
-                        {%- endcapture -%}
-                        {%- elsif site.active_lang == 'it' and person.url_it -%}
-                          {%- assign person_url = person.url_it -%}
-                        {%- else -%}
-                          {%- assign person_url = person.url -%}
-                        {%- endif -%}
-                        {%- if forloop.last and count > 1 -%}
-                          {%- if count > 2 %}, {{ texts.labels.and }} {% else %} {{ texts.labels.and }} {% endif -%}
-                        {%- elsif forloop.first == false -%}
-                          ,{{ ' ' }}
-                        {%- else %}
+                <div class="teaching-entry__level">
+                  {%- if level_labels != '' -%}
+                    <span class="level-badge">{{ level_labels }}</span>
+                  {%- endif -%}
+                </div>
+                <h5 class="teaching-entry__content">
+                  {%- if course_url %}
+                    <a href="{{ course_url }}">{{ text.title }}</a>
+                  {%- else %}
+                    <span class="course-title">{{ text.title }}</span>
+                  {%- endif -%}
+                  {%- if course.with %}
+                    {{ section_text.with }}
+                    {%- assign count = course.with | size -%}
+                    {%- for person_key in course.with -%}
+                      {%- assign person = site.data.people[person_key] -%}
+                      {%- if person.unibo -%}
+                        {%- capture person_url -%}
+                        https://www.unibo.it/sitoweb/{{ person.unibo }}{% unless site.active_lang == 'it' %}/en{% endunless %}
+                      {%- endcapture -%}
+                      {%- elsif site.active_lang == 'it' and person.url_it -%}
+                        {%- assign person_url = person.url_it -%}
+                      {%- else -%}
+                        {%- assign person_url = person.url -%}
+                      {%- endif -%}
+                      {%- if forloop.last and count > 1 -%}
+                        {%- if count > 2 %}, {{ texts.labels.and }} {% else %} {{ texts.labels.and }} {% endif -%}
+                      {%- elsif forloop.first == false -%}
+                        ,{{ ' ' }}
+                      {%- else %}
 
-                        {% endif -%}
-                        <a href="{{ person_url }}">{{ person.name }}</a>
-                      {%- endfor -%}
-                    {%- endif %}
-                  </h5>
+                      {% endif -%}
+                      <a href="{{ person_url }}">{{ person.name }}</a>
+                    {%- endfor -%}
+                  {%- endif %}
+                  {%- if text.note %}
+                    <span class="teaching-entry__note">({{ text.note }})</span>
+                  {%- endif %}
+                  {%- if course.italian %}
+                    <span class="teaching-entry__note">({{ texts.labels.italian }})</span>
+                  {%- endif %}
+                </h5>
+                <div class="teaching-entry__materials">
                   {%- if course.materials %}
-                    <div class="icon-link indented folder-link">
+                    <div class="icon-link folder-link">
                       <a href="{{ text.materials }}?from=teaching">
                         <i class="fa-regular fa-folder fa-fw"></i>
                         <i class="fa-regular fa-folder-open fa-fw"></i>
@@ -90,12 +107,7 @@
                     </div>
                   {%- endif %}
                 </div>
-                <div class="teaching-entry__row teaching-entry__row--course">
-                  <div class="teaching-entry__course-text">{{ text.program }}</div>
-                </div>
-                <div class="teaching-entry__row teaching-entry__row--date">
-                  <div class="teaching-entry__date-text">{{ course.dates }}</div>
-                </div>
+                <div class="teaching-entry__date">{{ course.dates }}</div>
               </div>
             {%- endfor %}
           </div>
