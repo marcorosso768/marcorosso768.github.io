@@ -472,8 +472,8 @@ $gap-vertical: 0.25em; // spazio tra le due righe
   align-items: baseline;
   margin-bottom: 0.7rem;
 
-  // telefono: cartella in alto a destra e anni in basso a destra, nella stessa colonna: se il titolo va a capo, gli
-  // anni stanno sulla sua ultima riga; se il titolo è di una riga sola, sulla seconda (margin-top: altezza della cartella)
+  // telefono: nella colonna di destra anni sulla prima riga e cartella dei materiali sulla seconda, sempre nella stessa
+  // posizione (non legate all'ultima riga del titolo)
   @media (max-width: 575.98px) {
     grid-template-columns: 3.2rem minmax(0, 1fr) 4.4rem; // ultima colonna larga quanto "2025–2026"
     column-gap: 0.6rem;
@@ -490,20 +490,20 @@ $gap-vertical: 0.25em; // spazio tra le due righe
       grid-row: 1;
     }
 
+    > .teaching-entry__date {
+      grid-column: 3;
+      grid-row: 1;
+      align-self: start;
+      padding-left: 0;
+      text-align: left; // come su desktop: "2026–" parte dove parte "2025–2026"
+    }
+
     > .teaching-entry__materials {
       grid-column: 3;
       grid-row: 1;
       align-self: start;
-      justify-self: start; // cartella allineata all'inizio degli anni, sotto
-    }
-
-    > .teaching-entry__date {
-      grid-column: 3;
-      grid-row: 1;
-      align-self: end;
-      margin-top: 1.45rem;
-      padding-left: 0;
-      text-align: left; // come su desktop: "2026–" parte dove parte "2025–2026"
+      justify-self: start; // allineata all'inizio degli anni
+      margin-top: 1.45rem; // seconda riga
     }
   }
 
