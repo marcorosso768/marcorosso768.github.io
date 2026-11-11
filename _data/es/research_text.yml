@@ -17,6 +17,14 @@ degrees:
   bachelor: "Tesis de Licenciatura"
 
 labels:
+  # riquadro a sinistra di ogni voce: job market paper, working paper pubblico (url), work in progress, bozza non
+  # ancora pubblica, stato (status) se c'è; le tesi usano le etichette del livello di teaching_text.yml
+  badges:
+    jmp: "JMP"
+    wp: "WP"
+    wip: "WiP"
+    draft: "Borrador"
+    submitted: "Enviado"
   months: ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
   month_year: "{month} de {year}"
   status:

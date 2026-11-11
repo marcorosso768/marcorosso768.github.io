@@ -1,29 +1,49 @@
 {%- comment -%}
   Una voce della pagina research. Parametro: key (chiave in _data/research.yml → entries).
   Ordine fisso: titolo (h3), coautori, serie (prima il link ssrn, poi | e series · isbn, tutto nel link series_url: l'ISBN è del WP);
-  sotto, lo stato (status: submitted…, testo da labels.status) come etichetta a riquadro dopo il titolo, fuori dal link; la riga coverage (chi ha ripreso il paper: Featured in / Citato da; link su nome e data); pillole-link; pillole delle caselle;
+  sotto, la riga coverage (chi ha ripreso il paper: Featured in / Citato da; link su nome e data); pillole-link; pillole delle caselle;
   per ultima la pillola della bozza su richiesta (draft_request: il paper esiste ma non è pubblico); caselle.
 {%- endcomment -%}
 {%- assign key = include.key -%}
 {%- assign e = site.data.research.entries[key] -%}
 {%- assign t = site.data[site.active_lang].research_text.entries[key] -%}
 {%- assign labels = site.data[site.active_lang].research_text.labels -%}
-{%- case e.icon -%}
-  {%- when 'working_paper', 'publication' -%}
-    {%- assign icon = 'fa-newspaper' -%}
-  {%- when 'thesis' -%}
-    {%- assign icon = 'fa-book' -%}
-  {%- else -%}
-    {%- assign icon = 'fa-file-lines' -%}
-{%- endcase %}
-<div class="entry-block">
+{%- comment -%}
+  Riquadro a sinistra (come il livello dei corsi in teaching): JMP nella sezione del job market paper; altrimenti lo
+  stato (status) se c'è; WiP per i work in progress; WP se il paper è pubblico (url); Draft se non lo è ancora;
+  per le tesi il livello (PhD/MA/BA, etichette di teaching_text.yml). Le pubblicazioni non hanno riquadro.
+{%- endcomment -%}
+{%- assign badge = null -%}
+{%- if include.section == 'jmp' -%}
+  {%- assign badge = labels.badges.jmp -%}
+{%- elsif e.status -%}
+  {%- assign badge = labels.badges[e.status] | default: labels.status[e.status] -%}
+{%- elsif e.icon == 'wip' -%}
+  {%- assign badge = labels.badges.wip -%}
+{%- elsif e.icon == 'working_paper' and e.url -%}
+  {%- assign badge = labels.badges.wp -%}
+{%- elsif e.icon == 'working_paper' -%}
+  {%- assign badge = labels.badges.draft -%}
+{%- elsif e.icon == 'thesis' -%}
+  {%- case e.degree -%}
+    {%- when 'phd' -%}
+      {%- assign level = 'phd' -%}
+    {%- when 'master' -%}
+      {%- assign level = 'ma' -%}
+    {%- else -%}
+      {%- assign level = 'ba' -%}
+  {%- endcase -%}
+  {%- assign badge = site.data[site.active_lang].teaching_text.labels.levels[level] -%}
+{%- endif %}
+<div class="entry-block{% if e.icon == 'publication' %} entry-block--reference{% else %} entry-block--badge{% endif %}">
   <div class="icon-entry indented">
-    <i
-      class="fa-solid {{ icon }} fa-fw"
-      {% if e.icon == 'working_paper' %}
-        title="{{ labels.icon_working_paper }}"
-      {% endif %}
-    ></i>
+    {%- unless e.icon == 'publication' %}
+      <span class="research-badge">
+        {%- if badge -%}
+          <span class="level-badge">{{ badge }}</span>
+        {%- endif -%}
+      </span>
+    {%- endunless %}
     <div class="entry-text">
       <h3 class="entry-title">
         {%- case e.icon -%}
@@ -31,15 +51,13 @@
             {{ e.authors | escape }} ({{ e.year }}). <a href="{{ e.url }}">{{ e.title | escape }}</a> <i>{{ e.journal | escape }}</i>,
             {{ e.details | escape }}
           {%- when 'thesis' -%}
-            {{ site.data[site.active_lang].research_text.degrees[e.degree] }} ({{ e.year }}), <em>"{{ e.title | escape }}"</em>
+            <span class="visually-hidden">{{ site.data[site.active_lang].research_text.degrees[e.degree] }}: </span>
+            {{- e.title | escape -}}
           {%- else -%}
             {%- if e.url -%}
               <a href="{{ e.url }}">{{ e.title | escape }}</a>
             {%- else -%}
               {{ e.title | escape }}
-            {%- endif -%}
-            {%- if e.status %}
-              <span class="paper-status">{{ labels.status[e.status] }}</span>
             {%- endif -%}
         {%- endcase -%}
       </h3>
@@ -99,6 +117,9 @@
         </span>
       {%- endif %}
     </div>
+    {%- if e.icon == 'thesis' %}
+      <span class="entry-year">{{ e.year }}</span>
+    {%- endif %}
   </div>
   {%- if e.links or e.panels %}
     <div class="pill-container mt-2">

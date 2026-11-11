@@ -12,7 +12,7 @@
   <div id="content-{{ n }}" class="toggle-section{% if section.expanded %} expanded{% endif %}">
     {%- if section.entries -%}
       {%- for key in section.entries -%}
-        {%- include research/entry.liquid key=key -%}
+        {%- include research/entry.liquid key=key section=section.key -%}
       {%- endfor -%}
     {%- else %}
       <div class="entry-block">

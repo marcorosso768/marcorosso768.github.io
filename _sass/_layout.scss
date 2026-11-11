@@ -2517,3 +2517,45 @@ html[lang="es"] .talk-entry {
     opacity: 0.75;
   }
 }
+
+/*****************************************************************************
+* Research: riquadro a sinistra al posto dell'icona (JMP, WP, WiP, Draft, stato; livello per le tesi), come in
+* teaching, talks e supervision. Pillole e caselle partono dove parte il testo. Le pubblicazioni sono riferimenti
+* bibliografici, senza riquadro, con il rientro sporgente.
+*****************************************************************************/
+
+.entry-block--badge {
+  // inizio del testo: rientro (8px, --indent-margin) + riquadro (4.6rem) + 0.7rem = 92.8px (senza calc: la
+  // minificazione del CSS toglie gli spazi attorno a "+" e la formula non sarebbe più valida)
+  --toggle-spacing: 92.8px;
+
+  .research-badge {
+    flex: 0 0 4.6rem;
+    width: 4.6rem;
+    margin-right: 0.7rem;
+    position: relative;
+    top: -2px; // riquadro centrato sulle maiuscole della prima riga (misurato: scarto 0.3px)
+
+    .level-badge {
+      min-width: 4.6rem;
+    }
+  }
+
+  .entry-year {
+    flex: 0 0 auto;
+    margin-left: auto;
+    padding-left: 1.5rem;
+    font-size: 0.85em;
+    line-height: 1.75;
+    opacity: 0.65;
+  }
+}
+
+.entry-block--reference {
+  --toggle-spacing: 32px; // rientro (8px) + rientro sporgente (1.5rem)
+
+  .entry-text {
+    padding-left: 1.5rem;
+    text-indent: -1.5rem;
+  }
+}
