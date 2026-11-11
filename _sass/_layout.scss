@@ -463,17 +463,19 @@ $gap-vertical: 0.25em; // spazio tra le due righe
 // una riga per corso: livello (BA/MA/PhD), titolo con docenti e note, materiali, anni
 .teaching-entry {
   display: grid;
-  // prima colonna larga quanto l'etichetta più lunga ("MA·PhD"), così tutti i titoli partono dallo stesso punto
+  // prima colonna larga quanto le etichette, tutte della stessa larghezza (quella di "MA·PhD"): niente vuoto
+  // diverso fra etichetta e titolo da una riga all'altra
   // ultima colonna larga quanto "2025–2026" (circa 69px): gli anni, allineati a sinistra, partono tutti dallo stesso
   // punto, che il corso sia chiuso ("2025–2026") o ancora attivo ("2026–")
-  grid-template-columns: 3.6rem minmax(0, 1fr) auto 4.4rem;
-  column-gap: 0.75rem;
+  grid-template-columns: 3.2rem minmax(0, 1fr) auto 4.4rem;
+  column-gap: 0.7rem;
   align-items: baseline;
   margin-bottom: 0.7rem;
 
   // telefono: anni sotto il titolo (piccoli), così il titolo ha più spazio; cartella dei materiali a destra
   @media (max-width: 575.98px) {
-    grid-template-columns: 3.6rem minmax(0, 1fr) auto;
+    grid-template-columns: 3.2rem minmax(0, 1fr) auto;
+    column-gap: 0.6rem;
     row-gap: 1px;
     margin-bottom: 0.8rem;
 
@@ -2280,8 +2282,8 @@ article.post-content {
 // teaching: livello del corso, riquadro nel colore del tema come lo stato dei paper (.paper-status)
 .level-badge {
   display: inline-block;
-  min-width: 2.6rem;
-  padding: 0 0.35em;
+  min-width: 3.2rem; // tutte larghe come "MA·PhD"
+  padding: 0 0.3em;
   font-size: 0.7rem;
   font-weight: 600;
   line-height: 1.45;
