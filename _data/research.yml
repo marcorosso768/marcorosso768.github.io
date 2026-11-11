@@ -13,7 +13,8 @@
 #   panels: pillole che aprono una casella, nell'ordine: abstract, keywords, jel, cite
 #   jel, bibtex: testo delle caselle JEL e Cite
 #   abstract / keywords qui solo se uguali in tutte le lingue; altrimenti nei file delle lingue
-#   publication: authors, year, title, url, journal, details — thesis: degree (phd | master | bachelor), year, title
+#   publication: authors, year, title, url, journal, details (il mio nome, "Rosso M.", è in grassetto)
+#   thesis: degree (phd | master | bachelor), year, title
 
 sections:
   - key: jmp
@@ -174,7 +175,8 @@ entries:
     url: "https://doi.org/10.1136/jech-2022-220088"
     journal: "Journal of Epidemiology & Community Health"
     details: "77:196–201."
-    panels: [abstract]
+    # niente pillola Abstract: è un articolo pubblicato, l'abstract è sulla pagina della rivista (link del titolo);
+    # il testo resta qui nel caso si voglia rimettere (panels: [abstract])
     abstract: >-
       <b>Introduction</b> The ability to return to work after a cancer diagnosis is a key aspect of cancer
       survivorship and quality of life. Studies have reported a significant risk of income loss for cancer

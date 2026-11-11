@@ -48,7 +48,8 @@
       <h3 class="entry-title">
         {%- case e.icon -%}
           {%- when 'publication' -%}
-            {{ e.authors | escape }} ({{ e.year }}). <a href="{{ e.url }}">{{ e.title | escape }}</a> <i>{{ e.journal | escape }}</i>,
+            {{ e.authors | escape | replace: 'Rosso M.', '<b>Rosso M.</b>' }} ({{ e.year }}). <a href="{{ e.url }}">{{ e.title | escape }}</a>
+            <i>{{ e.journal | escape }}</i>,
             {{ e.details | escape }}
           {%- when 'thesis' -%}
             <span class="visually-hidden">{{ site.data[site.active_lang].research_text.degrees[e.degree] }}: </span>
