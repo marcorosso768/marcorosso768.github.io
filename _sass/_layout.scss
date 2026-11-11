@@ -472,7 +472,8 @@ $gap-vertical: 0.25em; // spazio tra le due righe
   align-items: baseline;
   margin-bottom: 0.7rem;
 
-  // telefono: anni sulla seconda riga, a destra (sotto la cartella), così il titolo ha più spazio
+  // telefono: cartella in alto a destra e anni in basso a destra, nella stessa colonna: se il titolo va a capo, gli
+  // anni stanno sulla sua ultima riga; se il titolo è di una riga sola, sulla seconda (margin-top: altezza della cartella)
   @media (max-width: 575.98px) {
     grid-template-columns: 3.2rem minmax(0, 1fr) auto;
     column-gap: 0.6rem;
@@ -492,11 +493,15 @@ $gap-vertical: 0.25em; // spazio tra le due righe
     > .teaching-entry__materials {
       grid-column: 3;
       grid-row: 1;
+      align-self: start;
+      justify-self: end;
     }
 
     > .teaching-entry__date {
-      grid-column: 2 / -1;
-      grid-row: 2;
+      grid-column: 3;
+      grid-row: 1;
+      align-self: end;
+      margin-top: 1.45rem;
       padding-left: 0;
       text-align: right;
     }
