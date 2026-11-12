@@ -21,9 +21,9 @@ meta_description: "Mi dirección de correo electrónico, con enlaces a mis perfi
 
 </div>
 
-<!-- Online Resources Section -->
+<!-- Profiles Section -->
 
-{% include section-toggle.liquid id="content-2" title="recursos en línea" expanded=true %}
+{% include section-toggle.liquid id="content-2" title="perfiles" expanded=true %}
 
 <div id="content-2" class="toggle-section expanded contact-list">
 
@@ -38,14 +38,22 @@ meta_description: "Mi dirección de correo electrónico, con enlaces a mis perfi
   </div>
 
   <div class="icon-link indented">
-    <i class="ai ai-orcid fa-fw"></i>
-    <a href="https://orcid.org/0000-0002-3814-2210">ORCID</a>
+    <i class="fa-brands fa-linkedin fa-fw"></i>
+    <a href="https://www.linkedin.com/in/marcorosso768">LinkedIn</a>
   </div>
 
   <div class="icon-link indented">
-    <i class="ai ai-clarivate ai-fw"></i>
-    <a href="https://www.webofscience.com/wos/author/record/OIU-6176-2025">Web of Science</a>
+    <i class="fa-brands fa-github fa-fw"></i>
+    <a href="https://github.com/marcorosso768">GitHub</a>
   </div>
+
+</div>
+
+<!-- Research Section -->
+
+{% include section-toggle.liquid id="content-3" title="investigación" expanded=true %}
+
+<div id="content-3" class="toggle-section expanded contact-list">
 
   <div class="icon-link indented">
     <i class="ai ai-google-scholar fa-fw"></i>
@@ -63,20 +71,20 @@ meta_description: "Mi dirección de correo electrónico, con enlaces a mis perfi
   </div>
 
   <div class="icon-link indented">
+    <i class="ai ai-orcid fa-fw"></i>
+    <a href="https://orcid.org/0000-0002-3814-2210">ORCID</a>
+  </div>
+
+  <div class="icon-link indented">
+    <i class="ai ai-clarivate ai-fw"></i>
+    <a href="https://www.webofscience.com/wos/author/record/OIU-6176-2025">Web of Science</a>
+  </div>
+
+  <div class="icon-link indented">
     <i class="ai ai-researchgate fa-fw"></i>
     <a href="https://www.researchgate.net/profile/Marco-Rosso-2">ResearchGate</a>
   </div>
 
-  <div class="icon-link indented">
-    <i class="fa-brands fa-github fa-fw"></i>
-    <a href="https://github.com/marcorosso768">GitHub</a>
-  </div>
-
-  <div class="icon-link indented">
-    <i class="fa-brands fa-linkedin fa-fw"></i>
-    <a href="https://www.linkedin.com/in/marcorosso768">LinkedIn</a>
-  </div>
-  
 </div>
 
 {% comment %}
