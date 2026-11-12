@@ -2250,12 +2250,12 @@ article.post-content a.link-own {
 
 // CV: i supervisori sono in _cv.scss (td.supervisor)
 
-// references: da tablet in su foto al 20% (non 30% come le altre foto profilo): con le schede accorciate la foto
-// al 30% era alta quanto tutto il testo; al 20% la scheda si legge dal testo. Su telefono resta com'è
-@media (min-width: 576px) {
-  hr.profile + .profile.float-end {
-    width: 20%;
-  }
+// references: foto della stessa misura su ogni schermo (147 px), allineata in alto al nome e alta quanto il blocco
+// nome → località su desktop (su telefono, dove il dipartimento può andare a capo, finisce al più sulla località).
+// Sostituisce il 30% generico di .profile e il margine sopra del telefono
+hr.profile + .profile.float-end {
+  width: 147px;
+  margin-top: 0;
 }
 
 // references: e-mail e pagine dei referee; tra icona e testo lo stesso spazio della pagina contatti
