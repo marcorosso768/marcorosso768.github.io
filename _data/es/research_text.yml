@@ -69,22 +69,22 @@ entries:
     keywords: "IA generativa; ChatGPT; demanda laboral; seniority; avisos de empleo; diferencias en diferencias."
   labels-outcomes:
     abstract: >-
-      Una etiqueta leída en el texto de un aviso de empleo es un resultado: las empresas pueden cambiar la redacción
-      sin cambiar el puesto. La seniority es una etiqueta de ese tipo, así que una estimación de diferencias en
-      diferencias sobre un conteo de avisos etiquetados como junior mezcla un componente de demanda publicada con un
-      componente de etiquetado, debido a la redacción y a los errores del clasificador. La tasa de etiquetado, es
-      decir, la proporción de avisos que un clasificador etiqueta, identifica como máximo la parte común a todos los
-      niveles; el resto requiere etiquetas de referencia en una muestra estratificada por grupo de tratamiento,
-      período y nivel asignado, incluidos los avisos sin etiqueta. Proponemos un estimador y una regla de
-      asignación; la mayoría de las etiquetas de referencia va a los estratos sin etiqueta. Sobre 314 millones de
-      avisos de Estados Unidos, después del lanzamiento de ChatGPT la tasa de etiquetado de un clasificador basado
-      en reglas se mueve menos de un punto logarítmico en el panel de la aplicación empírica, sin diferenciarse de
-      cero; una tasa basada en los años de experiencia requeridos, reconstruida a partir del texto, sube alrededor
-      de 5 puntos logarítmicos desde la pandemia. Con 252 etiquetas humanas, el cambio corregido en la proporción
-      junior queda indeterminado: su signo depende de la lectura del modelo que se usa como insumo. En las
-      simulaciones, errores fijos del clasificador generan un componente específico de cada nivel de alrededor de 15
-      puntos logarítmicos con las tasas de error supuestas, y las muestras de validación del tamaño habitual rara
-      vez detectan un reetiquetado.
+      Una etiqueta leída en el texto de un aviso de empleo es un resultado: las empresas pueden cambiar la
+      redacción sin cambiar el puesto. La seniority es una etiqueta de ese tipo, así que una estimación de
+      diferencias en diferencias sobre un conteo de avisos etiquetados como junior mezcla un componente de demanda
+      publicada con un componente de etiquetado, debido a la redacción y a los errores del clasificador. La
+      proporción de avisos que un clasificador etiqueta identifica como máximo el componente de etiquetado común;
+      el resto requiere etiquetas de referencia en cada celda definida por grupo de tratamiento, período y nivel
+      asignado, incluidos los avisos sin etiqueta. Proponemos un estimador y una regla de asignación que favorece
+      los estratos grandes y ruidosos, en este caso los que no tienen etiqueta. Sobre 314 millones de avisos de
+      Estados Unidos, después del lanzamiento de ChatGPT la tasa de etiquetado de un clasificador basado en reglas
+      se mueve menos de un punto logarítmico en el panel de la aplicación empírica, sin diferenciarse de cero; en
+      un panel más agregado, una tasa basada en los años de experiencia requeridos, reconstruida a partir del
+      texto, sube alrededor de 5 puntos logarítmicos desde la pandemia. Con 252 etiquetas humanas, el cambio
+      corregido en la proporción junior queda indeterminado: su signo depende de la lectura del modelo que se usa
+      como insumo. En las simulaciones, errores fijos del clasificador generan un componente específico de cada
+      nivel de alrededor de −15 puntos logarítmicos con las tasas de error supuestas, y las muestras de validación
+      del tamaño habitual rara vez distinguen un reetiquetado de su ausencia.
     keywords: "avisos de empleo; medición a partir de texto; seniority; puestos de entrada; IA generativa; modelos de lenguaje de gran escala; identificación parcial."
   tipping-point:
     abstract: >-
