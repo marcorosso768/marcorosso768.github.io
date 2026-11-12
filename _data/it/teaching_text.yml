@@ -56,7 +56,7 @@ courses:
     program: "Laurea triennale in Business and Economics (in inglese)"
     materials: /it/materiali/econometria/
   microeconometrics:
-    title: "Econometrics A (C.I.): Microeconometrics"
+    title: "Econometrics A (I.C.): Microeconometrics"
     program: "Laurea magistrale in Economics and Econometrics (in inglese)"
   economic-policy-methods:
     title: "Politica Economica C.A. e Metodi"
@@ -73,7 +73,7 @@ courses:
     title: "Attività di Tutorato nell’Area Statistica e dei Dati"
     program: "Laurea triennale in Business and Economics (in inglese)"
   econometrics-public-policy:
-    title: "Measurement and Econometric Analysis (C.I.): Econometrics"
+    title: "Measurement and Econometric Analysis (I.C.): Econometrics"
     program: "Laurea magistrale in Economics and Public Policy (in inglese)"
     materials: /it/materiali/ta_measurement_and_econometric_analysis/
   industrial-economics:
@@ -86,7 +86,7 @@ courses:
     title: "Microeconomics"
     program: "Laurea triennale in Economics, Politics and Social Sciences (in inglese)"
   game-theory-economics-econometrics:
-    title: "Microeconomics (C.I.): Game Theory"
+    title: "Microeconomics (I.C.): Game Theory"
     program: "Laurea magistrale in Economics and Econometrics (in inglese)"
   behavioral-economics-2022:
     title: "Introduction to Behavioral Economics"
