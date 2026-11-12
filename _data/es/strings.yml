@@ -108,7 +108,7 @@ pagination:
   older: Older
   page: page
 post:
-  created_in: Created in
+  created_in: Publicado el
   created_by: by
   last_updated: last updated in
 references: References
