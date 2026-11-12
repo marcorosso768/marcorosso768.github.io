@@ -2576,6 +2576,20 @@ html[lang="es"] .entry-block--badge {
   opacity: 0.65;
 }
 
+// tema chiaro: attenuazioni ricalibrate sul contrasto minimo per il testo (4.5:1, WCAG AA), misurato sul fondo chiaro.
+// Nel tema scuro le stesse opacità restano sopra la soglia e non cambiano. Qui la data dei post ha già il colore
+// attenuato (--global-text-color-light, 5:1 da solo): con l'opacità in più scendeva a 2.6:1; i conteggi dei
+// materiali a 0.55 erano a 3.5:1, a 0.65 sono a 4.7:1
+html:not([data-theme="dark"]) {
+  .post-meta {
+    opacity: 1;
+  }
+
+  .materials-entry__sections {
+    opacity: 0.65;
+  }
+}
+
 // research: stato del paper (submitted…) come ultima pillola, piena nel colore del tema (si distingue dai pulsanti,
 // che sono vuoti) e non cliccabile
 .pill-status {
