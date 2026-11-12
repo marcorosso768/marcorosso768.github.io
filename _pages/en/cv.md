@@ -7,7 +7,7 @@ nav_title: cv
 nav: true
 nav_order: 5
 cv_pdf: /curriculum_vitae_en.pdf
-description: <i>An overview of my academic positions, education, honors, visiting periods, research experience, and service. Research, teaching, talks, and supervision have dedicated pages; the full CV is available via the PDF icon.</i>
+description: <i>Positions, education, honors, and research experience. The full CV is available as a PDF.</i>
 meta_description: "Academic positions, education, honors, visiting periods, research experience, and service, with the full CV available as a PDF."
 # toc:
 #   sidebar: left

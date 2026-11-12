@@ -3,7 +3,7 @@ page_id: materials
 layout: page
 permalink: /materials/
 title: materials
-description: "<i>All the teaching materials I make available, course by course: notes, slides, notebooks, and do-files. Each course links to its page with the full list of files.</i>"
+description: "<i>Notes, slides, notebooks, and do-files from the courses I teach.</i>"
 meta_description: "Teaching materials by Marco Rosso, course by course: notes, slides, notebooks, and do-files."
 nav: false
 ---
