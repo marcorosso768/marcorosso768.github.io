@@ -76,15 +76,15 @@ entries:
       del classificatore. La quota di annunci che un classificatore etichetta identifica al più la componente di
       etichettatura comune; il resto richiede etichette di riferimento in ogni cella definita da gruppo di
       trattamento, periodo e livello assegnato, compresi gli annunci senza etichetta. Proponiamo uno stimatore e
-      una regola di allocazione che privilegia gli strati grandi e rumorosi, qui quelli senza etichetta. Su 314
-      milioni di annunci statunitensi, dopo il rilascio di ChatGPT il tasso di etichettatura di un classificatore
-      basato su regole si sposta di meno di un punto logaritmico nel panel dell’applicazione empirica, in modo non
-      distinguibile da zero; in un panel più aggregato, un tasso basato sugli anni di esperienza richiesti,
-      ricostruito dal testo, aumenta di circa 5 punti logaritmici dalla pandemia in poi. Con 252 etichette umane,
-      la variazione corretta della quota junior resta indeterminata: il suo segno dipende dalla lettura del
-      modello usata come input. Nelle simulazioni, errori fissi del classificatore producono una componente
-      specifica per livello di circa −15 punti logaritmici ai tassi di errore ipotizzati, e campioni di
-      validazione di dimensioni consuete raramente distinguono una rietichettatura dalla sua assenza.
+      una regola di allocazione che privilegia gli strati grandi e rumorosi. Su 314 milioni di annunci
+      statunitensi, dopo il rilascio di ChatGPT il tasso di etichettatura di un classificatore basato su regole si
+      sposta di meno di un punto logaritmico nel panel dell’applicazione empirica, in modo non distinguibile da
+      zero; in un panel per occupazione e settore, un tasso basato sugli anni di esperienza richiesti, ricostruito
+      dal testo, aumenta di circa 5 punti logaritmici dalla pandemia in poi. Con 252 etichette umane, la
+      variazione corretta della quota junior resta indeterminata: il suo segno dipende dalla lettura del modello
+      usata come input. Nelle simulazioni, errori fissi del classificatore producono una componente specifica per
+      livello di circa −15 punti logaritmici ai tassi di errore ipotizzati, e campioni di validazione di
+      dimensioni consuete raramente distinguono una rietichettatura dalla sua assenza.
     keywords: "annunci di lavoro; misure derivate dal testo; seniority; posizioni di ingresso; IA generativa; modelli linguistici di grandi dimensioni; identificazione parziale."
   tipping-point:
     abstract: >-

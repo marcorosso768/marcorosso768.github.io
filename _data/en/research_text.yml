@@ -72,13 +72,13 @@ entries:
       a posted-demand component with a labeling component, from wording and classifier errors. The share of
       postings a classifier labels identifies at most the common labeling component; the rest requires reference
       labels in every cell of treatment group, period and assigned tier, unlabeled postings included. We give an
-      estimator and an allocation rule favoring large, noisy strata, here the unlabeled ones. On 314 million U.S.
-      postings, a rule-based classifier’s labeling rate moves by under one log point on the application panel
-      after ChatGPT’s release, not distinguishably from zero; on a coarser panel, a stated-years rate reproduced
-      from the text rises by about 5 log points from the pandemic on. With 252 human labels, the corrected
-      junior-share change is undetermined: its sign depends on the model reading used as input. In simulations,
-      fixed classifier errors produce a tier-specific component of about −15 log points at assumed error rates,
-      and usual-size validation samples rarely tell a relabeling from none.
+      estimator and an allocation rule favoring large, noisy strata. On 314 million U.S. postings, a rule-based
+      classifier’s labeling rate moves by under one log point on the application panel after ChatGPT’s release,
+      not distinguishably from zero; on an occupation-by-industry panel, a stated-years rate reproduced from the
+      text rises by about 5 log points from the pandemic on. With 252 human labels, the corrected junior-share
+      change is undetermined: its sign depends on the model reading used as input. In simulations, fixed
+      classifier errors produce a tier-specific component of about −15 log points at assumed error rates, and
+      usual-size validation samples rarely tell a relabeling from none.
     keywords: "job postings; text-derived measurement; seniority; entry-level work; generative AI; large language models; partial identification."
   tipping-point:
     abstract: >-
