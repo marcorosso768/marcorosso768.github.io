@@ -2250,6 +2250,15 @@ article.post-content a.link-own {
 
 // CV: i supervisori sono in _cv.scss (td.supervisor)
 
+// references: linea tra i profili con lo stesso spazio sopra (dalla sottolineatura dell'ultimo link) e sotto (fino
+// alle maiuscole del nome), 23 px a vista. Margini espliciti su ogni schermo: prima sul telefono la linea prendeva per
+// caso il margine sopra di .profile pensato per le foto (1.25rem, 2.05rem in italiano). html[lang] serve a prevalere
+// su html[lang="it"] .profile
+html[lang] hr.profile {
+  margin-top: 20px;
+  margin-bottom: 21px;
+}
+
 // references: foto della stessa misura su ogni schermo (147 px), allineata in alto al nome e alta quanto il blocco
 // nome → località su desktop (su telefono, dove il dipartimento può andare a capo, finisce al più sulla località).
 // Sostituisce il 30% generico di .profile e il margine sopra del telefono
