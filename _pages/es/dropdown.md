@@ -6,10 +6,10 @@ nav: true
 nav_order: 6
 dropdown: true
 children:
-  - title: materiales
-    permalink: /materiales/
   - title: referencias
     permalink: /referencias/
+  - title: materiales
+    permalink: /materiales/
   - title: novedades
     permalink: /novedades/
   - title: blog
