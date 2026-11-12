@@ -4,7 +4,7 @@ layout: page
 permalink: /contactos/
 lang: es
 title: contactos
-description: <i>Mi dirección de correo electrónico. Más abajo, los enlaces a mis perfiles académicos y a LinkedIn.</i>
+description: <i>Contactame, o encontrame online.</i>
 meta_description: "Mi dirección de correo electrónico, con enlaces a mis perfiles académicos y a LinkedIn."
 ---
 

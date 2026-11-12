@@ -4,7 +4,7 @@ layout: page
 permalink: /contatti/
 lang: it
 title: contatti
-description: <i>Il mio indirizzo e-mail. Di seguito, i link ai miei profili accademici e a LinkedIn.</i>
+description: <i>Contattami, o trovami online.</i>
 meta_description: "Il mio indirizzo e-mail, con i link ai profili accademici e a LinkedIn."
 ---
 
