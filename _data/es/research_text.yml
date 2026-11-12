@@ -51,26 +51,26 @@ entries:
   ai-labor-demand:
     abstract: >-
       Estudiamos cómo el lanzamiento de ChatGPT afectó la demanda laboral publicada en Estados Unidos, separando la
-      cantidad de vacantes que las empresas publican de su composición por antigüedad. Con 314 millones de avisos de
+      cantidad de vacantes que las empresas publican de su composición por seniority. Con 314 millones de avisos de
       empleo (2016–2025) y una medida de exposición a los LLM anclada en el uso efectivo, comparamos ocupaciones
       dentro del mismo sector, mercado metropolitano y mes a lo largo de cuatro regímenes: prepandemia, shock
       pandémico, recuperación pospandemia y poslanzamiento. Entre la recuperación de marzo de 2021–octubre de 2022 y
       el período posterior al lanzamiento, la brecha en los avisos entre las ocupaciones del cuartil de mayor
       exposición y el resto se amplía 6,8 puntos logarítmicos. La contracción crece hasta 2025, resiste los
       controles por trabajo remoto y la predice el uso observado de los LLM, más allá de las medidas ex ante de lo
-      que los LLM pueden hacer. La composición por antigüedad ya se había movido antes del lanzamiento: entre los
-      avisos que nuestro clasificador asigna a un nivel de antigüedad, la proporción junior en las ocupaciones
+      que los LLM pueden hacer. La composición por seniority ya se había movido antes del lanzamiento: entre los
+      avisos que nuestro clasificador asigna a un nivel de seniority, la proporción junior en las ocupaciones
       expuestas cayó alrededor de 3,5 puntos porcentuales respecto del resto entre principios de 2021 y el trimestre
       previo a ChatGPT, y alrededor de 1,5 de esos puntos se explican por la exposición al trabajo remoto. Después
       del lanzamiento, la proporción queda 0,4 puntos por debajo del último trimestre previo, una diferencia que no
       se puede distinguir de cero. La proporción junior sí cayó en las ocupaciones expuestas respecto del resto,
       pero en los dos años anteriores al lanzamiento; hasta ahora, el efecto medible de la IA generativa está en la
       cantidad de vacantes.
-    keywords: "IA generativa; ChatGPT; demanda laboral; antigüedad; avisos de empleo; diferencias en diferencias."
+    keywords: "IA generativa; ChatGPT; demanda laboral; seniority; avisos de empleo; diferencias en diferencias."
   labels-outcomes:
     abstract: >-
       Una etiqueta leída en el texto de un aviso de empleo es un resultado: las empresas pueden cambiar la redacción
-      sin cambiar el puesto. La antigüedad es una etiqueta de ese tipo, así que una estimación de diferencias en
+      sin cambiar el puesto. La seniority es una etiqueta de ese tipo, así que una estimación de diferencias en
       diferencias sobre un conteo de avisos etiquetados como junior mezcla un componente de demanda publicada con un
       componente de etiquetado, debido a la redacción y a los errores del clasificador. La tasa de etiquetado, es
       decir, la proporción de avisos que un clasificador etiqueta, identifica como máximo la parte común a todos los
@@ -85,7 +85,7 @@ entries:
       simulaciones, errores fijos del clasificador generan un componente específico de cada nivel de alrededor de 15
       puntos logarítmicos con las tasas de error supuestas, y las muestras de validación del tamaño habitual rara
       vez detectan un reetiquetado.
-    keywords: "avisos de empleo; medición a partir de texto; antigüedad; puestos de entrada; IA generativa; modelos de lenguaje de gran escala; identificación parcial."
+    keywords: "avisos de empleo; medición a partir de texto; seniority; puestos de entrada; IA generativa; modelos de lenguaje de gran escala; identificación parcial."
   tipping-point:
     abstract: >-
       La posibilidad de aceptar un soborno atrae a quienes lo aceptarían y aleja a quienes tendrían que seguir
@@ -107,25 +107,21 @@ entries:
     keywords: "selección ocupacional; autocontrol y tentación; corrupción; disuasión; mercados laborales del sector público; equilibrios múltiples."
   crime-voting:
     abstract: >-
-      Este trabajo analiza si la exposición a noticias policiales geolocalizadas modifica el comportamiento
-      electoral individual en las elecciones italianas. A partir de un panel de votantes boloñeses que no cambian de
-      residencia, observados a lo largo de varias rondas electorales, explotamos la variación intraindividual en la
-      exposición a noticias policiales cercanas durante el mes previo a la elección, manteniendo constantes los
-      efectos fijos individuales y de elección. La exposición agregada a noticias policiales arroja asociaciones
-      débiles e imprecisas. La desagregación por nacionalidad percibida del autor del delito revela una asimetría
-      marcada. En las elecciones nacionales, la exposición a noticias de delitos atribuidos a personas inmigrantes
-      cerca del domicilio de quien vota se asocia con una caída intraindividual de alrededor de 2 puntos
-      porcentuales en el apoyo al Movimiento Cinco Estrellas, el mayor partido sin una posición clara sobre
-      inmigración durante el período analizado, y con un aumento comparable de la abstención; las noticias de
-      delitos atribuidos a ciudadanos italianos no presentan una asociación comparable. La respuesta es específica
-      del contenido policial: noticias locales comparables ajenas al delito no producen ningún desplazamiento
-      análogo. Estas respuestas asimétricas, ausentes en las medidas agregadas, resultan más compatibles con una
-      señal de nacionalidad en la cobertura policial que activa un encuadre de inmigración y seguridad que con una
-      reacción uniforme a la saliencia del delito. La evidencia señala que lo que importa para el comportamiento
-      electoral es la atribución del delito en las noticias locales, más que su mera ocurrencia. Una falsificación
-      temporal respalda la lectura ligada a la ventana de campaña, pero es sensible al clasificador de nacionalidad
-      del autor; en consecuencia, leemos las estimaciones como asociaciones, con una replicación en fuentes
-      alternativas en curso para resolver la interpretación causal.
+      Este trabajo estudia cómo la exposición a noticias policiales geolocalizadas incide en el comportamiento
+      electoral individual en las elecciones italianas. A partir de un panel de votantes que no cambian de
+      residencia, observados a lo largo de varias rondas electorales, explotamos la variación intraindividual en
+      la exposición a noticias policiales cercanas durante el mes previo a la elección, con efectos fijos
+      individuales y de distrito por elección. La exposición agregada arroja efectos débiles e inestables. La
+      desagregación según la nacionalidad del autor del delito revela patrones sistemáticos: las noticias de
+      delitos atribuidos a inmigrantes reducen el apoyo a los partidos con posiciones ambiguas sobre la
+      inmigración (por ejemplo, el Movimiento Cinco Estrellas) y aumentan el apoyo a los partidos claramente de
+      “mano dura”, mientras que los delitos atribuidos a italianos tienen efectos insignificantes. Los efectos son
+      más fuertes entre los votantes de alta calificación que se alejan del M5S y entre los de baja calificación
+      que abandonan la Lega. En las elecciones locales, los delitos cometidos por italianos castigan a los
+      oficialismos, mientras que los cometidos por inmigrantes aumentan la abstención. Estas respuestas
+      asimétricas, ausentes en las medidas agregadas, indican que la saliencia del delito opera sobre todo a
+      través de un encuadre identitario más que de una preocupación general por el delito o la seguridad. Los
+      resultados muestran cómo la atribución mediática de los delitos moldea la rendición de cuentas electoral.
     keywords: "crimen; inmigración; elecciones; medios de comunicación; comportamiento electoral individual."
   childbirth-turnout:
     abstract: >-

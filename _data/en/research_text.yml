@@ -99,22 +99,18 @@ entries:
     keywords: "occupational selection; self-control and temptation; corruption; deterrence; public-sector labor markets; multiple equilibria."
   crime-voting:
     abstract: >-
-      This paper studies whether exposure to geolocated crime news shifts individual voting behavior in Italian
-      elections. Using a panel of non-relocating Bologna voters observed across multiple election rounds, we exploit
-      within-individual variation in exposure to nearby crime news during the pre-election month, holding constant
-      individual and election fixed effects. Aggregate crime-news exposure yields weak and imprecise associations.
-      Disaggregating by the offender’s perceived nationality reveals a sharp asymmetry. At national elections,
-      exposure to immigrant-attributed crime news near a voter’s residence is associated with a within-individual
-      decline of roughly 2 percentage points in support for the Five Star Movement—the largest party without a clear
-      immigration stance during the sample period—and with a comparable rise in abstention; crime news attributed to
-      Italian citizens carries no comparable association. The response is specific to crime content: comparable
-      local non-crime news produces no analogous shift. These asymmetric responses, absent in aggregate measures,
-      are more consistent with a nationality cue in crime reporting that activates an immigration-and-security frame
-      than with a uniform reaction to crime salience. The evidence points to the attribution of crime in local news,
-      rather than its mere occurrence, as the margin that matters for electoral behavior. A timing falsification
-      supports the campaign-window reading but is sensitive to the offender-nationality classifier; we accordingly
-      read the estimates as associations, with a cross-source replication under way to settle the causal
-      interpretation.
+      This paper studies how exposure to geolocated crime-related news shapes individual voting behavior in
+      Italian elections. Using a panel of non-relocating voters observed across multiple election rounds, we
+      exploit within-individual variation in exposure to nearby crime news during the pre-election month,
+      controlling for individual and district-by-election fixed effects. Aggregate exposure yields weak, unstable
+      effects. Disaggregating by offender nationality reveals systematic patterns: immigrant-attributed crime news
+      reduces support for parties with ambiguous immigration stances (e.g., Five Star Movement) and increases
+      support for clear “law-and-order” parties, while Italian-attributed crime has negligible effects. Effects
+      are stronger among high-skilled voters shifting from M5S and low-skilled voters abandoning Lega. In local
+      elections, Italian crime punishes incumbents, while immigrant crime increases abstention. These asymmetric
+      responses—absent in aggregate measures—indicate that crime salience operates primarily through
+      identity-based framing rather than through generalized concerns about crime or security. The findings
+      highlight how media attribution shapes electoral accountability.
     keywords: "crime; immigration; elections; news media; individual voting behavior."
   childbirth-turnout:
     abstract: >-

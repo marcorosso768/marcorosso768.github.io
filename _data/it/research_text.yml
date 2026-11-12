@@ -107,24 +107,21 @@ entries:
     keywords: "selezione occupazionale; autocontrollo e tentazione; corruzione; deterrenza; mercato del lavoro nel settore pubblico; equilibri multipli."
   crime-voting:
     abstract: >-
-      Questo lavoro analizza se l’esposizione a notizie di cronaca geolocalizzate modifichi il comportamento di voto
-      individuale nelle elezioni italiane. Utilizzando un panel di elettori bolognesi che non cambiano residenza,
-      osservati in più tornate elettorali, sfruttiamo la variazione intra-individuale nell’esposizione a notizie di
-      cronaca vicine alla residenza nel mese precedente il voto, controllando per effetti fissi individuali e di
-      elezione. L’esposizione aggregata alle notizie di cronaca produce associazioni deboli e imprecise. La
-      disaggregazione per nazionalità percepita dell’autore del reato rivela invece una netta asimmetria. Nelle
-      elezioni nazionali, l’esposizione a notizie di reati attribuiti a immigrati vicino alla residenza
-      dell’elettore è associata a un calo intra-individuale di circa 2 punti percentuali nel sostegno al Movimento
-      Cinque Stelle, il principale partito senza una posizione chiara sull’immigrazione nel periodo considerato, e a
-      un aumento comparabile dell’astensione; le notizie di reati attribuiti a cittadini italiani non mostrano
-      un’associazione analoga. La risposta è specifica al contenuto criminale: notizie locali comparabili non legate
-      alla cronaca non producono spostamenti analoghi. Queste risposte asimmetriche, assenti nelle misure aggregate,
-      sono più coerenti con un segnale di nazionalità nella cronaca che attiva un frame immigrazione-sicurezza che
-      con una reazione uniforme alla salienza del crimine. L’evidenza indica che a contare per il comportamento
-      elettorale è l’attribuzione del reato nelle notizie locali, più che il suo semplice verificarsi. Un test di
-      falsificazione sui tempi conferma la lettura legata alla campagna elettorale, ma è sensibile al classificatore
-      della nazionalità dell’autore; interpretiamo quindi le stime come associazioni, con una replicazione su fonti
-      diverse in corso per chiarire l’interpretazione causale.
+      Questo lavoro studia come l’esposizione a notizie di cronaca nera geolocalizzate influenzi il comportamento
+      di voto individuale nelle elezioni italiane. Utilizzando un panel di elettori che non cambiano residenza,
+      osservati in più tornate elettorali, sfruttiamo la variazione intra-individuale nell’esposizione a notizie
+      di cronaca nera vicine alla residenza nel mese precedente il voto, controllando per effetti fissi
+      individuali e di quartiere per elezione. L’esposizione aggregata produce effetti deboli e instabili. La
+      disaggregazione per nazionalità dell’autore del reato rivela andamenti sistematici: le notizie di reati
+      attribuiti a immigrati riducono il sostegno ai partiti con posizioni ambigue sull’immigrazione (per esempio
+      il Movimento Cinque Stelle) e aumentano quello ai partiti chiaramente orientati a “legge e ordine”, mentre i
+      reati attribuiti a italiani hanno effetti trascurabili. Gli effetti sono più forti tra gli elettori ad alta
+      qualificazione che si allontanano dal M5S e tra quelli a bassa qualificazione che abbandonano la Lega. Nelle
+      elezioni locali, i reati commessi da italiani penalizzano gli amministratori uscenti, mentre quelli commessi
+      da immigrati aumentano l’astensione. Queste risposte asimmetriche, assenti nelle misure aggregate, indicano
+      che la salienza del crimine agisce soprattutto attraverso un inquadramento identitario, più che attraverso
+      una preoccupazione generica per la criminalità o la sicurezza. I risultati mostrano come l’attribuzione dei
+      reati da parte dei media incida sull’accountability elettorale.
     keywords: "criminalità; immigrazione; elezioni; mezzi di informazione; comportamento di voto individuale."
   childbirth-turnout:
     abstract: >-
