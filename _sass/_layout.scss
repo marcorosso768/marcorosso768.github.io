@@ -2244,6 +2244,14 @@ article.post-content a.link-own {
 
 // CV: i supervisori sono in _cv.scss (td.supervisor)
 
+// references: da tablet in su foto al 20% (non 30% come le altre foto profilo): con le schede accorciate la foto
+// al 30% era alta quanto tutto il testo; al 20% la scheda si legge dal testo. Su telefono resta com'è
+@media (min-width: 576px) {
+  hr.profile + .profile.float-end {
+    width: 20%;
+  }
+}
+
 // references: e-mail e pagine dei referee; tra icona e testo lo stesso spazio della pagina contatti
 .referee-page .icon-link {
   column-gap: 0.4em;

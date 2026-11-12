@@ -17,7 +17,7 @@
   {%- endif -%}
   {%- assign image_path = referee.image | prepend: 'assets/img/' -%}
   {%- capture sizes -%}
-    (min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 45vw
+    (min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.2 }}px, (min-width: 576px) 20vw, 45vw
   {%- endcapture %}
   <hr class="profile">
   <div class="profile float-end">
