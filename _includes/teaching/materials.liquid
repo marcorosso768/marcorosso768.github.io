@@ -77,10 +77,10 @@
                       {%- endfor -%}
                     {%- endfor -%}
                     {%- if shown > 0 -%}
-                      <span class="materials-entry__sep" aria-hidden="true">•</span>
-                    {%- endif %}
-                    {%- assign shown = shown | plus: 1 %}
-                    <span>{{ files_text.sections[part.key] }} ({{ count }})</span>
+                      <span class="visually-hidden">, </span><span class="materials-entry__sep" aria-hidden="true">•</span><wbr>
+                    {%- endif -%}
+                    {%- assign shown = shown | plus: 1 -%}
+                    <span class="materials-entry__item">{{ files_text.sections[part.key] }} ({{ count }})</span>
                   {%- endfor %}
                 </div>
               </div>

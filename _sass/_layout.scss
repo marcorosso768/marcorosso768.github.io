@@ -2163,8 +2163,14 @@ h2.materials-entry__title {
   margin-top: 0.2rem;
 }
 
+// pallino tra le sezioni: stesso spazio prima e dopo (solo margini, niente spazi nel codice); una voce non si spezza
+// mai ("do-files (10)" resta intera), si va a capo solo dopo un pallino
 .materials-entry__sep {
-  margin: 0 0.35em;
+  margin: 0 0.4em;
+}
+
+.materials-entry__item {
+  white-space: nowrap;
 }
 
 // talks: etichetta "upcoming" accanto al titolo (prima stile in linea)
@@ -2588,17 +2594,49 @@ html[lang="es"] .entry-block--badge {
   opacity: 0.65;
 }
 
-// tema chiaro: attenuazioni ricalibrate sul contrasto minimo per il testo (4.5:1, WCAG AA), misurato sul fondo chiaro.
-// Nel tema scuro le stesse opacità restano sopra la soglia e non cambiano. Qui la data dei post ha già il colore
-// attenuato (--global-text-color-light, 5:1 da solo): con l'opacità in più scendeva a 2.6:1; i conteggi dei
-// materiali a 0.55 erano a 3.5:1, a 0.65 sono a 4.7:1
+// tema chiaro: attenuazioni ricalibrate. Le opacità sono tarate sul tema scuro, dove il testo chiaro a peso 300 sembra
+// più spesso; su fondo chiaro lo stesso testo sottile sembra più leggero e con le stesse opacità risultava sbiadito.
+// Ogni livello sale di un gradino (0.75 → 0.9, 0.65 → 0.78, 0.55 → 0.72), la gerarchia resta. Il tema scuro non cambia.
+// La data dei post ha già il colore attenuato (--global-text-color-light, 5:1 da solo): niente opacità in più
 html:not([data-theme="dark"]) {
   .post-meta {
     opacity: 1;
   }
 
+  // 0.75 → 0.9
+  .seminar-entry__paper-text,
+  .teaching-entry__note,
+  .about-quote,
+  .about-quote-source__text,
+  .year h4.year.year--static,
+  .ra-entry__project-text,
+  .thesis-entry__title-text,
+  .materials-entry__meta,
+  .talk-entry__paper,
+  .supervision-entry__note,
+  .supervision-entry__names {
+    opacity: 0.9;
+  }
+
+  // 0.65 → 0.78
+  .teaching-entry__date,
+  .teaching-entry__date-text,
+  .course-note,
+  .course-group,
+  .course-entry__sep,
+  .icon-entry .paper-series,
+  .talk-entry__side,
+  .talk-entry__year-mobile,
+  .talk-entry__meta-mobile,
+  .supervision-entry__year,
+  .entry-block--badge .entry-year,
+  .news .news-date {
+    opacity: 0.78;
+  }
+
+  // 0.55 → 0.72
   .materials-entry__sections {
-    opacity: 0.65;
+    opacity: 0.72;
   }
 }
 
