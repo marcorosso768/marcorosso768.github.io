@@ -94,6 +94,13 @@
 - title: esperienze di ricerca
   type: time_table
   contents:
+    - title: '"La domanda di competenze nell’era dell’intelligenza artificiale generativa: classificazione umana e con l’IA a confronto"'
+      year: "nov–dic 2026"
+      maindescription: "Classificazione manuale di un sottoinsieme di competenze in base alla potenziale esposizione all’intelligenza artificiale generativa, analisi descrittive sulla base dati ottenuta e reportistica"
+      location: "Bologna, Italia"
+      institution: Università di Bologna
+      department: DSE — Dipartimento di Scienze Economiche
+      supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/margherita.fort">Margherita Fort</a>'
     - title: "Assistente di Ricerca: criminalità organizzata, connessioni politiche e performance delle imprese"
       year: "dic 2025–gen 2026"
       location: "Napoli, Italia"

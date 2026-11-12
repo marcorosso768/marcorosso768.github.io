@@ -94,6 +94,13 @@
 - title: experiencia de investigación
   type: time_table
   contents:
+    - title: '"La demanda de habilidades en la era de la inteligencia artificial generativa: clasificación humana frente a la IA"'
+      year: "nov–dic 2026"
+      maindescription: "Clasificación manual de un subconjunto de habilidades según su potencial exposición a la inteligencia artificial generativa, análisis descriptivos de la base de datos resultante y elaboración de informes"
+      location: "Bolonia, Italia"
+      institution: University of Bologna
+      department: DSE — Departamento de Economía
+      supervisor: 'supervisora: <a href="https://www.unibo.it/sitoweb/margherita.fort/en">Margherita Fort</a>'
     - title: "Asistente de Investigación: Crimen organizado, conexiones políticas y desempeño de las empresas"
       year: "dic 2025–ene 2026"
       location: "Nápoles, Italia"

@@ -94,6 +94,13 @@
 - title: research experience
   type: time_table
   contents:
+    - title: '"Demand for Skills in the Age of Generative AI: Human vs AI Classification"'
+      year: "Nov–Dec 2026"
+      maindescription: "Manual classification of a subset of skills by their potential exposure to generative AI, descriptive analyses of the resulting database, and reporting"
+      location: "Bologna, Italy"
+      institution: University of Bologna
+      department: DSE — Department of Economics
+      supervisor: 'supervisor: <a href="https://www.unibo.it/sitoweb/margherita.fort/en">Margherita Fort</a>'
     - title: "Research Assistant: Organized crime, political connections and firms' performance"
       year: "Dec 2025–Jan 2026"
       location: "Naples, Italy"
