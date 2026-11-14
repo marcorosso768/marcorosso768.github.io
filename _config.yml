@@ -302,7 +302,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["academia", "apps"] # tag mostrati in cima alla pagina del blog (aggiungerne man mano, es. "cocktails")
+display_tags: ["academia", "apps", "film"] # tag mostrati in cima alla pagina del blog (aggiungerne man mano, es. "cocktails")
 display_categories: [] # categorie mostrate in cima alla pagina del blog
 
 # -----------------------------------------------------------------------------

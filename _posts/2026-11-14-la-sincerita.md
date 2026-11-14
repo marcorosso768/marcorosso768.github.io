@@ -1,8 +1,8 @@
 ---
 title: "La sincerità? Santa Maradona, still a generation’s portrait twenty-five years on"
-description: "Quoting Santa Maradona in a job interview, twenty-five years after the film came out: sincerity, Turin, Australia, and the target."
+description: "What do you answer when asked for your greatest strength and your worst weakness? A cult Italian film from 2001, a run through a square in Turin, and the target I believe I hit."
 date: 2026-11-14
-tags: [film, turin, personal]
+tags: [film, personal, family]
 featured: false
 ---
 
@@ -14,7 +14,7 @@ I had always wanted to quote _Santa Maradona_ in an interview, and that day, str
 
 ## The film
 
-_Santa Maradona_ is a film by Marco Ponti, released in 2001. It is set in Turin among disillusioned thirty-somethings, a generation that keeps missing the target, then as now. It follows Andrea (Stefano Accorsi), who drifts from one job interview to the next. Bart (Libero De Rienzo), his flatmate, calls himself a literary critic: a cousin in Sicily emails him reviews from a local paper, and Bart signs and sends them on without reading either the book or the review. They share a flat, and before long being precarious becomes almost something to boast about:
+_Santa Maradona_ is a film by Marco Ponti, released in 2001. It is set among disillusioned young graduates in Turin, a generation that keeps missing the target, then as now. It follows Andrea (Stefano Accorsi), who drifts from one job interview to the next. Bart (Libero De Rienzo), his flatmate, calls himself a literary critic: a cousin in Sicily emails him reviews from a local paper, and Bart signs and sends them on without reading either the book or the review. They share a flat, and before long being precarious becomes almost something to boast about:
 
 > **Andrea:** The rent is off the books. We don’t work, we’re not on any unemployment register… technically, we don’t exist!
 > **Bart:** I’d say it with a bit less pride, though.
@@ -42,7 +42,7 @@ But the scene almost everyone remembers is the run. It’s a game among friends.
 
 <figure class="text-center my-4">
   <img src="{{ '/assets/img/blog/santa-maradona.webp' | relative_url }}" width="1200" height="895" loading="lazy" style="max-width: 100%; height: auto; border-radius: 8px;" alt="Film still: four young people run laughing across Piazza Castello in Turin, one of them in a wedding dress">
-  <figcaption class="small" style="opacity: 0.65;"><i>Santa Maradona</i> (Marco Ponti, 2001). The run through Piazza Castello.</figcaption>
+  <figcaption class="small" style="opacity: 0.65;"><i>Santa Maradona</i> (Marco Ponti, 2001). The run through Piazza Castello. Photo: Rai Cinema.</figcaption>
 </figure>
 
 For anyone who grew up in Turin, that square means something specific: on the last day of high school, we all met there, whatever school we came from, for water fights. Watching that run takes me back there.
@@ -71,7 +71,7 @@ My partner and I always say “Australia” whenever we plan our future, elsewhe
 
 In the end, they offered me a position, in Milan or in Turin. I turned it down. Not because I didn’t like programming: I liked it then and I still do, and programming languages have always fascinated me. But after years of mathematics I wasn’t ready to stop studying. The master’s took me down another road: to the PhD, to research, to my partner, and to where I am now and the people I share it with.
 
-Today, a quarter of a century after the film came out, I’m on the academic job market. This time, the job I’m looking for is the one I chose back then, by turning down the other.
+Today, [a quarter of a century after the film came out](https://www.rollingstone.it/cinema-tv/film/santa-maradona-prega-ancora-per-noi/1043256/), I’m on the academic job market. This time, the job I’m looking for is the one I chose back then, by turning down the other.
 
 _Santa Maradona_ is the portrait of a generation that kept missing the target: interviews that went nowhere, CVs nobody answered, irony as a shield. Some things haven’t changed: most contracts have an end date, mine included. But I have a partner I love and who loves me, a daughter who isn’t mine by blood but is in every other way, and another one due in January. And I’m enjoying every bit of it. When I think of my family, I believe I hit the target.
 
