@@ -16,19 +16,11 @@ I had always wanted to quote _Santa Maradona_ in an interview, and that day, str
 
 _Santa Maradona_ is a film by Marco Ponti, released in 2001. It is set among disillusioned young graduates in Turin, a generation that keeps missing the target, then as now. It follows Andrea (Stefano Accorsi), who drifts from one job interview to the next. Bart (Libero De Rienzo), his flatmate, calls himself a literary critic: a cousin in Sicily emails him reviews from a local paper, and Bart signs and sends them on without reading either the book or the review. They share a flat, and before long being precarious becomes almost something to boast about:
 
-> **Andrea:** The rent is off the books. We don’t work, we’re not on any unemployment register… technically, we don’t exist!
-> **Bart:** I’d say it with a bit less pride, though.
+> **Andrea:** The rent is off the books. We don’t work, we’re not on any unemployment register… technically, we don’t exist!<br> > **Bart:** I’d say it with a bit less pride, though.
 
 The film opens with one of Andrea’s interviews:
 
-> **Employer:** What would you say is your greatest strength?
-> **Andrea:** Sincerity.
-> **Employer:** And your main weakness?
-> **Andrea:** Sincerity.
-> **Employer:** What is your highest aspiration?
-> **Andrea:** Sincerity.
-> **Employer:** You’re a sharp young man, I see. So tell me: what is your family’s annual income?
-> **Andrea:** Sincerity?
+> **Employer:** What would you say is your greatest strength?<br> > **Andrea:** Sincerity.<br> > **Employer:** And your main weakness?<br> > **Andrea:** Sincerity.<br> > **Employer:** What is your highest aspiration?<br> > **Andrea:** Sincerity.<br> > **Employer:** You’re a sharp young man, I see. So tell me: what is your family’s annual income?<br> > **Andrea:** Sincerity?
 
 ## A hundred times
 
@@ -51,19 +43,7 @@ For anyone who grew up in Turin, that square means something specific: on the la
 
 Throughout the film, Andrea’s safety net is a job in his uncle’s family business, which sells shower cubicles: the emblem of settling for less. In the final scene, Andrea and Bart are watching _Butch Cassidy and the Sundance Kid_ on TV:
 
-> **Andrea:** What if it really is too late?
-> **Bart:** What do you think?
-> **Andrea:** I don’t know. Let’s turn everything off and get far away from here.
-> **Bart:** And go where?
-> **Butch Cassidy (on TV):** Australia.
-> **Andrea:** Australia.
-> **Bart:** Australia?
-> **Andrea:** Yes, Australia.
-> **Bart:** Australia’s no better than here, Butch.
-> **Andrea:** Australia, Sundance. Endless places to hide. Good weather, good sea… think about it.
-> **Bart:** All right, I’ll think about it.
-> […] > **Bart:** And now? Shower cubicle?
-> **Andrea:** No. Now let’s try to fix things.
+> **Andrea:** What if it really is too late?<br> > **Bart:** What do you think?<br> > **Andrea:** I don’t know. Let’s turn everything off and get far away from here.<br> > **Bart:** And go where?<br> > **Butch Cassidy (on TV):** Australia.<br> > **Andrea:** Australia.<br> > **Bart:** Australia?<br> > **Andrea:** Yes, Australia.<br> > **Bart:** Australia’s no better than here, Butch.<br> > **Andrea:** Australia, Sundance. Endless places to hide. Good weather, good sea… think about it.<br> > **Bart:** All right, I’ll think about it.<br> > […]<br> > **Bart:** And now? Shower cubicle?<br> > **Andrea:** No. Now let’s try to fix things.
 
 My partner and I always say “Australia” whenever we plan our future, elsewhere, anywhere, together. The film means a lot to us. Our first purchase as a couple was a reproduction of the original script, with the shooting notes and stills. It was a limited edition, and the proceeds went to the [Candiolo cancer research centre](https://fprc.it).[^candiolo]
 
