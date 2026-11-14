@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){const e="dark"==determineComputedTheme();document.querySelectorAll("table").forEach(function(t){t.classList.toggle("table-dark",e),t.closest('[class*="news"], [class*="card"], [class*="archive"], code')||(t.setAttribute("data-toggle","table"),t.classList.add("table-hover"))})});
