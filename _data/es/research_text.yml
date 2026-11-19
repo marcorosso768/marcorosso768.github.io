@@ -72,11 +72,11 @@ entries:
       Una etiqueta leída en el texto de un aviso de empleo es un resultado: las empresas pueden cambiar la
       redacción sin cambiar el puesto. La seniority es una etiqueta de ese tipo, así que una estimación de
       diferencias en diferencias sobre un conteo de avisos etiquetados como junior mezcla un componente de demanda
-      publicada con un componente de etiquetado, debido a la redacción y a los errores del clasificador. La
+      publicada con un componente de etiquetado, debido a la redacción, al formato del texto y a los errores del clasificador. La
       proporción de avisos que un clasificador etiqueta identifica como máximo el componente de etiquetado común;
       el resto requiere etiquetas de referencia en cada celda definida por grupo de tratamiento, período y nivel
       asignado, incluidos los avisos sin etiqueta. Proponemos un estimador y una regla de asignación que favorece
-      los estratos grandes y ruidosos. Sobre 314 millones de avisos de Estados Unidos, después del lanzamiento de
+      los estratos grandes y ruidosos. Sobre más de 300 millones de avisos de Estados Unidos, después del lanzamiento de
       ChatGPT la tasa de etiquetado de un clasificador basado en reglas se mueve menos de un punto logarítmico en
       el panel de la aplicación empírica, sin diferenciarse de cero; en un panel por ocupación y sector, una tasa
       basada en los años de experiencia requeridos, reconstruida a partir del texto, sube alrededor de 5 puntos

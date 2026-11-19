@@ -69,10 +69,10 @@ entries:
     abstract: >-
       A label read from the text of a job posting is an outcome: firms can change the wording without changing the
       position. Seniority is such a label, so a difference-in-differences estimate on a labeled junior count mixes
-      a posted-demand component with a labeling component, from wording and classifier errors. The share of
+      a posted-demand component with a labeling component, from wording, text format and classifier errors. The share of
       postings a classifier labels identifies at most the common labeling component; the rest requires reference
       labels in every cell of treatment group, period and assigned tier, unlabeled postings included. We give an
-      estimator and an allocation rule favoring large, noisy strata. On 314 million U.S. postings, a rule-based
+      estimator and an allocation rule favoring large, noisy strata. On over 300 million U.S. postings, a rule-based
       classifier’s labeling rate moves by under one log point on the application panel after ChatGPT’s release,
       not distinguishably from zero; on an occupation-by-industry panel, a stated-years rate reproduced from the
       text rises by about 5 log points from the pandemic on. With 252 human labels, the corrected junior-share
