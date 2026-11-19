@@ -113,6 +113,7 @@ measurement_and_econometric_analysis:
     handbook: "handbook"
     lecture-notes: "lecture notes"
     do-files: "do-files"
+    replication-tutorials: "replication tutorials"
   notes:
     do-files: "Lectures 1–4: create a folder <code>Stata_Lectures_2026</code> on your computer and save the do-files in its subfolder <code>do/</code>. Open each do-file and, in the line <code>global root</code>, replace the example path with the path of your <code>Stata_Lectures_2026</code> folder. We will download the data together in class."
   details:
