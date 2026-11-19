@@ -114,7 +114,15 @@ measurement_and_econometric_analysis:
     lecture-notes: "lecture notes"
     do-files: "do-files"
   notes:
-    do-files: "Create a folder <code>Stata_Lectures_2026</code> on your computer and save the do-files in its subfolder <code>do/</code>. Open each do-file and, in the line <code>global root</code>, replace the example path with the path of your <code>Stata_Lectures_2026</code> folder. We will download the data together in class."
+    do-files: "Lectures 1–4: create a folder <code>Stata_Lectures_2026</code> on your computer and save the do-files in its subfolder <code>do/</code>. Open each do-file and, in the line <code>global root</code>, replace the example path with the path of your <code>Stata_Lectures_2026</code> folder. We will download the data together in class."
+  details:
+    replication_t1:
+      summary: "about this tutorial"
+      body: |
+        <p>Paper: Autor and Dorn (2009), <i>AER: P&amp;P</i> 99(2): 45–51 (<a href="https://doi.org/10.1257/aer.99.2.45">doi:10.1257/aer.99.2.45</a>)<br>
+        <a href="/assets/teaching_material/teaching_assistant/econometrics/replications/README.txt">Setup instructions (README.txt)</a><br>
+        Replication archive: <a href="https://ddorn.net/data.htm">David Dorn’s data page</a>, entry P1 (not hosted here)<br>
+        Written for Stata 19: with an earlier version, change the line <code>version 19</code> in the do-file</p>
 microeconomics_economics_and_finance:
   solution: "step-by-step solutions" # corso in inglese: stessa etichetta nelle tre lingue
   sections:

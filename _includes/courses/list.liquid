@@ -10,6 +10,7 @@
   Un file con do_file: <file> ha sulla stessa riga un secondo link "do-file" (es. materiale supplementare: PDF + do-file).
   Un file con icon: <classi> ha un'icona diversa da quella della sezione (es. uno script Python tra i dati).
   Un file con details: <chiave> ha subito sotto i dettagli che si aprono, presi da courses_text.yml (details.<chiave>).
+  Un file con download: true ha l'attributo download nel link: il browser lo scarica invece di aprirlo (es. un do-file).
 {%- endcomment -%}
 <ul class="{{ include.list_class }}">
   {%- for item in include.items -%}
@@ -49,6 +50,9 @@
         {% endif -%}
         <a
           href="{{ url }}"
+          {% if item.download %}
+            download
+          {% endif %}
           {% if title_lang %}
             lang="{{ title_lang }}"
           {% endif %}
@@ -57,7 +61,14 @@
         </a>
         {%- if item.solution %}
           <span class="course-entry__sep" aria-hidden="true">·</span>
-          <a href="{{ course.folder }}{{ item.solution }}">{{ course_text.solution | default: labels.solution }}</a>
+          <a
+            href="{{ course.folder }}{{ item.solution }}"
+            {% if item.download %}
+              download
+            {% endif %}
+          >
+            {{- course_text.solution | default: labels.solution -}}
+          </a>
         {%- endif -%}
         {%- if item.do_file %}
           <span class="course-entry__sep" aria-hidden="true">·</span>

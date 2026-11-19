@@ -509,6 +509,13 @@ measurement_and_econometric_analysis:
             - file: "introduction_to_stata/lecture_notes/lecture_4.pdf"
               title: "Linear Regression (OLS)"
               lecture: 4
+        - id: subsection-replications
+          title: "Replications"
+          items:
+            - file: "replications/Replication Tutorial 1 - Autor and Dorn (2009).pdf"
+              title: "Autor and Dorn (2009)"
+              prefix: "Tutorial 1"
+              details: replication_t1
     - key: do-files
       id: content-2
       icon: fa-solid fa-code
@@ -533,7 +540,14 @@ measurement_and_econometric_analysis:
               title: "Linear Regression (OLS).do"
               lecture: 4
               solution: "introduction_to_stata/stata/L4_solutions.do"
-        # L5-L6 (replication di paper): un blocco "Replications" con id subsection-replications, qui e in lecture-notes
+        - id: subsection-do-replications
+          title: "Replications"
+          items:
+            - file: "replications/T1_exercises.do"
+              title: "Autor and Dorn (2009).do"
+              prefix: "Tutorial 1"
+              solution: "replications/T1_solutions.do"
+              download: true # i do-file si scaricano così come sono, non si aprono come testo nel browser
 microeconomics_economics_and_finance:
   # Microeconomics, Economics and Finance (CLEF), Matthew John Wakefield (tutor didattico)
   folder: /assets/teaching_material/teaching_assistant/microeconomics/
