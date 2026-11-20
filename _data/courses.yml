@@ -285,6 +285,10 @@ introduction_to_behavioral_economics:
           title: "Randomized Strategies and Noisy Best Responses"
           prefix: "Tutorial 3"
           solution: "tutorial_3_step_by_step.pdf"
+        - file: "tutorial_4.pdf"
+          title: "Social Dilemmas, Bargaining, Trust, and Public Goods"
+          prefix: "Tutorial 4"
+          solution: "tutorial_4_step_by_step.pdf"
 microeconomics:
   folder: /assets/teaching_material/instructor/microeconomia/
   sections:
