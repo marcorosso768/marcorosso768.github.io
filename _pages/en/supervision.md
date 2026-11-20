@@ -5,7 +5,7 @@ permalink: /supervision/
 title: supervision
 description: <i>Theses I supervise and research assistants I coordinate.</i>
 meta_description: "Bachelor's theses I supervise and research assistants I coordinate, with the focus of the work in each case."
-nav: true
+nav: false # job market: supervision in "more" (dopo il JM: nav: true, nav_order 4, e via dai children di dropdown.md)
 nav_order: 4
 ---
 

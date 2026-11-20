@@ -3,11 +3,11 @@ id: dropdown
 layout: page
 title: altro
 nav: true
-nav_order: 6
+nav_order: 7
 dropdown: true
 children:
-  - title: referenze
-    permalink: /referenze/
+  - title: supervisione
+    permalink: /supervisione/
   - title: materiali
     permalink: /materiali/
   - title: novità
