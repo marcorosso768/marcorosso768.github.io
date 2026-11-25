@@ -32,6 +32,9 @@ talks:
   asset-2026:
     event: "ASSET Annual Meeting"
     location: "CRENoS — Cagliari, Italia"
+  unibo-internal-seminar-2026:
+    event: "Seminario interno"
+    location: "Università di Bologna — Bologna, Italia"
   sie-annual-meeting-2025:
     event: "66ª Riunione Scientifica Annuale della Società Italiana di Economia"
     location: "Università di Napoli Parthenope — Napoli, Italia"
@@ -47,6 +50,9 @@ talks:
   weee-2023:
     event: "Workshop per Dottorandi in Econometria ed Economia Empirica (WEEE)"
     location: "Centro Residenziale Universitario di Bertinoro — Bertinoro (FC), Italia"
+  unibo-wip-seminar-2023:
+    event: "Seminario WiP"
+    location: "Università di Bologna — Bologna, Italia"
   phd-workshop-2022:
     event: "Ⅲ Ph.D. Workshop"
     location: "Le Sparne — Pitigliano (GR), Italia"
