@@ -24,8 +24,8 @@ sections:
     years:
       - year: 2026
         talks:
-          - asset-2026
           - unibo-internal-seminar-2026
+          - asset-2026
       - year: 2025
         talks:
           - sie-annual-meeting-2025
@@ -37,8 +37,8 @@ sections:
           - weee-2023
       - year: 2022
         talks:
-          - phd-workshop-2022
           - unibo-wip-seminar-2022
+          - phd-workshop-2022
       - year: 2021
         talks:
           - phd-workshop-2021
