@@ -35,10 +35,10 @@ sections:
           - phd-workshop-2023
           - sasca-2023
           - weee-2023
-          - unibo-wip-seminar-2023
       - year: 2022
         talks:
           - phd-workshop-2022
+          - unibo-wip-seminar-2022
       - year: 2021
         talks:
           - phd-workshop-2021
@@ -68,7 +68,7 @@ talks:
   unibo-internal-seminar-2026:
     role: speaker
     paper: tipping-point
-  unibo-wip-seminar-2023:
+  unibo-wip-seminar-2022:
     role: speaker
     paper: tipping-point
   sie-annual-meeting-2025:
