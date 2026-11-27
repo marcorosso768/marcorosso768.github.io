@@ -77,6 +77,7 @@ courses:
   econometrics-public-policy:
     title: "Medición y Análisis Econométrico (C.I.): Econometría"
     program: "Maestría en Economía y Políticas Públicas (en inglés)"
+    materials_title: "Econometría" # titolo nella pagina materials (il modulo di Econometrics)
     materials: /es/materiales/ta_lmepp_econometrics/
   industrial-economics:
     title: "Economía Industrial"

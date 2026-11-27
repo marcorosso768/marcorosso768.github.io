@@ -77,6 +77,7 @@ courses:
   econometrics-public-policy:
     title: "Measurement and Econometric Analysis (I.C.): Econometrics"
     program: "Two Year Master in Economics and Public Policy"
+    materials_title: "Econometrics" # titolo nella pagina materials (il modulo di Econometrics)
     materials: /materials/ta_lmepp_econometrics/
   industrial-economics:
     title: "Industrial Economics"
