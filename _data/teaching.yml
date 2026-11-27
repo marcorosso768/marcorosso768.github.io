@@ -131,6 +131,7 @@ courses:
     dates: "2026–"
     level: [ba]
   statistics-data-tutoring:
+    unibo: "2026/406503" # Econometrics (Fort, Pastorello): le esercitazioni sono per questo corso
     materials: ta_econometrics
     with: [fort]
     dates: "2026–"

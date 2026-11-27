@@ -2,7 +2,7 @@
 page_id: ta_econometrics
 layout: page
 permalink: /materials/ta_clabe_econometrics/
-title: econometrics
+title: tutoring activities in the statistics and data area
 description: "<i>Materials for the tutorials of Econometrics, Bachelor in Business and Economics, University of Bologna: tutorial slides, also available with solutions, R scripts with their solutions, and the data. Materials are added as the course progresses.</i>"
 meta_description: "Econometrics tutorials (Bachelor in Business and Economics, University of Bologna): slides with solutions, R scripts and data."
 course_back: true # freccia sopra il titolo: ← materials, oppure ← teaching se si arriva da teaching (?from=teaching)

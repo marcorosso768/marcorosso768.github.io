@@ -138,3 +138,11 @@ microeconomics_economics_and_finance:
 ta_econometrics:
   sections:
     tutorials: "tutorials"
+    r-scripts: "R scripts"
+    data: "data"
+  details:
+    firms:
+      summary: "about the data"
+      body: |
+        <p><a href="/assets/teaching_material/teaching_assistant/clabe_econometrics/tutorial_1/firms_codebook.txt">Codebook</a><br>
+        Simulated data: 800 firms observed every year from 2019 to 2023, generated to resemble a business survey.</p>

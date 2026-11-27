@@ -540,29 +540,27 @@ measurement_and_econometric_analysis:
     - key: replication-tutorials
       id: content-3
       icon: fa-regular fa-note-sticky
-      blocks:
-        - id: subsection-tutorial-1
-          title: "Tutorial 1: Autor and Dorn (2009)"
-          items:
-            - file: "replications/replication_1.pdf"
-              title: "Slides"
-            - file: "replications/T1_exercises.do"
-              title: "Autor and Dorn (2009).do"
-              icon: fa-solid fa-code
-              solution: "replications/T1_solutions.do"
-              download: true # i do-file si scaricano così come sono, non si aprono come testo nel browser
-              details: replication_t1
-        - id: subsection-tutorial-2
-          title: "Tutorial 2: Dorn and Zweimüller (2021)"
-          items:
-            - file: "replications/replication_2.pdf"
-              title: "Slides"
-            - file: "replications/T2_exercises.do"
-              title: "Dorn and Zweimüller (2021).do"
-              solution: "replications/T2_solutions.do"
-              icon: fa-solid fa-code
-              download: true
-              details: replication_t2
+      items:
+        - file: "replications/replication_1.pdf"
+          title: "Autor and Dorn (2009)"
+          prefix: "Tutorial 1"
+        - file: "replications/T1_exercises.do"
+          title: "Autor and Dorn (2009).do"
+          prefix: "Tutorial 1"
+          solution: "replications/T1_solutions.do"
+          icon: fa-solid fa-code
+          download: true # i do-file si scaricano così come sono, non si aprono come testo nel browser
+          details: replication_t1
+        - file: "replications/replication_2.pdf"
+          title: "Dorn and Zweimüller (2021)"
+          prefix: "Tutorial 2"
+        - file: "replications/T2_exercises.do"
+          title: "Dorn and Zweimüller (2021).do"
+          prefix: "Tutorial 2"
+          solution: "replications/T2_solutions.do"
+          icon: fa-solid fa-code
+          download: true
+          details: replication_t2
 microeconomics_economics_and_finance:
   # Microeconomics, Economics and Finance (CLEF), Matthew John Wakefield (tutor didattico)
   folder: /assets/teaching_material/teaching_assistant/clef_microeconomics/
@@ -576,28 +574,32 @@ microeconomics_economics_and_finance:
           prefix: "Revision Session 1"
           solution: "revision_session_1_with_solutions.pdf"
 ta_econometrics:
-  # Econometrics (CLABE), Margherita Fort: esercitazioni in R (tutor didattico)
+  # Econometrics (CLABE), Margherita Fort: esercitazioni in R (tutor didattico, Tutoring Activities in the Statistics and Data Area)
   folder: /assets/teaching_material/teaching_assistant/clabe_econometrics/
   sections:
     - key: tutorials
       id: content-0
       icon: fa-regular fa-note-sticky
-      blocks:
-        - id: subsection-tutorial-1
-          title: "Tutorial 1: Panel Data and Binary Dependent Variables in R"
-          items:
-            - file: "tutorial_1/tutorial_1.pdf"
-              title: "Slides"
-              solution: "tutorial_1/tutorial_1_with_solutions.pdf"
-            - file: "tutorial_1/tutorial_1.R"
-              title: "R script (tutorial_1.R)"
-              icon: fa-solid fa-code
-              solution: "tutorial_1/tutorial_1_solutions.R"
-              download: true
-            - file: "tutorial_1/firms.csv"
-              title: "Data (firms.csv, simulated)"
-              icon: fa-solid fa-database
-              download: true
-            - file: "tutorial_1/firms_codebook.txt"
-              title: "Codebook (firms_codebook.txt)"
-              icon: fa-regular fa-file-lines
+      items:
+        - file: "tutorial_1/tutorial_1.pdf"
+          title: "Panel Data and Binary Dependent Variables in R"
+          prefix: "Tutorial 1"
+          solution: "tutorial_1/tutorial_1_with_solutions.pdf"
+    - key: r-scripts
+      id: content-1
+      icon: fa-solid fa-code
+      items:
+        - file: "tutorial_1/tutorial_1.R"
+          title: "Panel Data and Binary Dependent Variables.R"
+          prefix: "Tutorial 1"
+          solution: "tutorial_1/tutorial_1_solutions.R"
+          download: true
+    - key: data
+      id: content-2
+      icon: fa-solid fa-database
+      items:
+        - file: "tutorial_1/firms.csv"
+          title: "Firms, 2019–2023"
+          prefix: "Tutorial 1"
+          download: true
+          details: firms
