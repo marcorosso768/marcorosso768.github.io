@@ -2,7 +2,7 @@
 page_id: python_for_economists
 layout: page
 permalink: /materiali/lmepp_python_for_economists/
-title: python per economisti
+title: python for economists
 description: "<i>Materiali per Python for Economists (lauree magistrali e dottorati, Università di Bologna): notebook Jupyter organizzati in tre blocchi, dalla gestione dei dati al web scraping e all'analisi testuale, consultabili online o scaricabili. I materiali sono in inglese.</i>"
 meta_description: "Materiali di Python for Economists (Università di Bologna): notebook Jupyter su gestione dei dati, web scraping e analisi testuale."
 course_back: true # freccia sopra il titolo: ← materials, oppure ← teaching se si arriva da teaching (?from=teaching)
