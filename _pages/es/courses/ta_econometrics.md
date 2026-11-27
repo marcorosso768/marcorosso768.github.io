@@ -3,8 +3,8 @@ page_id: ta_econometrics
 layout: page
 permalink: /materiales/ta_clabe_econometrics/
 title: econometrics
-description: "<i>Materiales de las prácticas de Econometrics, Licenciatura en Business and Economics, University of Bologna: slides de las prácticas, disponibles también con las soluciones, scripts de R con sus soluciones y los datos. Los materiales están en inglés y se van sumando a medida que avanza el curso.</i>"
-meta_description: "Prácticas de Econometrics (Licenciatura en Business and Economics, University of Bologna): slides con soluciones, scripts de R y datos, en inglés."
+description: "<i>Materiales de las prácticas de Econometrics, Bachelor in Business and Economics, University of Bologna: slides de las prácticas, disponibles también con las soluciones, scripts de R con sus soluciones y los datos. Los materiales están en inglés y se van sumando a medida que avanza el curso.</i>"
+meta_description: "Prácticas de Econometrics (Bachelor in Business and Economics, University of Bologna): slides con soluciones, scripts de R y datos, en inglés."
 course_back: true # freccia sopra il titolo: ← materials, oppure ← teaching se si arriva da teaching (?from=teaching)
 nav: false
 ---

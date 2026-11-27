@@ -3,7 +3,7 @@ page_id: introduction_to_behavioral_economics
 layout: page
 permalink: /materiali/ta_clef_introduction_to_behavioral_economics/
 title: introduction to behavioral economics
-description: "<i>Materiali delle esercitazioni di Introduction to Behavioral Economics, Laurea triennale in Economics and Finance (CLEF), Università di Bologna: slide delle esercitazioni, ciascuna disponibile anche con le soluzioni passo per passo. I materiali sono in inglese e vengono aggiunti man mano che il corso procede.</i>"
+description: "<i>Materiali delle esercitazioni di Introduction to Behavioral Economics, Bachelor in Economics and Finance (CLEF), Università di Bologna: slide delle esercitazioni, ciascuna disponibile anche con le soluzioni passo per passo. I materiali sono in inglese e vengono aggiunti man mano che il corso procede.</i>"
 meta_description: "Introduction to Behavioral Economics (CLEF, Università di Bologna): slide delle esercitazioni con soluzioni passo per passo, in inglese."
 course_back: true # freccia sopra il titolo: ← materials, oppure ← teaching se si arriva da teaching (?from=teaching)
 nav: false

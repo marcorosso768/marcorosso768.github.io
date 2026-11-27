@@ -35,17 +35,17 @@ labels:
 courses:
   empirical-methods-law-economics:
     title: "Empirical Methods for Law and Economics"
-    program: "European Doctorate in Law and Economics (EDLE) (en inglés)"
+    program: "European Doctorate in Law and Economics (EDLE)"
     materials: /es/materiales/edle_empirical_methods_for_law_and_economics/
   pre-sessional-econometrics:
     title: "Curso de Nivelación en Econometría"
     program: "Maestría en Dirección de Empresas (en italiano)"
   economics-eu:
     title: "Introduction to Economics of the EU"
-    program: "Licenciatura en European Studies (en inglés)"
+    program: "Bachelor in European Studies"
   python-for-economists:
     title: "Python for Economists"
-    program: "Maestrías en Economics and Public Policy y en Applied Economics and Markets, Doctorados en Economics y en Management (en inglés)"
+    program: "Two Year Master in Economics and Public Policy and in Applied Economics and Markets, Ph.D. in Economics, and Ph.D. in Management"
     materials: /es/materiales/lmepp_python_for_economists/
   microeconomics-business-administration:
     title: "Microeconomía"
@@ -53,30 +53,30 @@ courses:
     materials: /es/materiales/clea_microeconomics/
   econometrics-business-economics:
     title: "Econometrics"
-    program: "Licenciatura en Business and Economics (en inglés)"
+    program: "Bachelor in Business and Economics"
     materials: /es/materiales/clabe_econometrics/
   microeconometrics:
     title: "Econometrics A (I.C.): Microeconometrics"
-    program: "Maestría en Economics and Econometrics (en inglés)"
+    program: "Two Year Master in Economics and Econometrics"
   economic-policy-methods:
     title: "Curso Avanzado de Política Económica y Métodos"
     program: "Maestría en Estadística, Economía y Empresa (en italiano)"
   behavioral-economics-2026:
     title: "Introduction to Behavioral Economics"
-    program: "Licenciatura en Economics and Finance (en inglés)"
+    program: "Bachelor in Economics and Finance"
     materials: /es/materiales/ta_clef_introduction_to_behavioral_economics/
   microeconomics-economics-finance:
     title: "Microeconomics"
-    program: "Licenciatura en Economics and Finance (en inglés)"
+    program: "Bachelor in Economics and Finance"
     materials: /es/materiales/ta_clef_microeconomics/
   statistics-data-tutoring:
     title: "Tutoring Activities in the Statistics and Data Area"
-    program: "Licenciatura en Business and Economics (en inglés)"
+    program: "Bachelor in Business and Economics"
     materials_title: "Econometrics" # titolo nella pagina materials (il corso a cui si riferiscono le esercitazioni)
     materials: /es/materiales/ta_clabe_econometrics/
   econometrics-public-policy:
     title: "Measurement and Econometric Analysis (I.C.): Econometrics"
-    program: "Maestría en Economics and Public Policy (en inglés)"
+    program: "Two Year Master in Economics and Public Policy"
     materials_title: "Econometrics" # titolo nella pagina materials (il modulo di Econometrics)
     materials: /es/materiales/ta_lmepp_econometrics/
   industrial-economics:
@@ -84,31 +84,31 @@ courses:
     program: "Licenciatura en Economía, Mercados e Instituciones (en italiano)"
   political-economy:
     title: "Political Economy"
-    program: "Licenciatura en Economics, Politics and Social Sciences (en inglés)"
+    program: "Bachelor in Economics, Politics and Social Sciences"
   microeconomics-economics-politics:
     title: "Microeconomics"
-    program: "Licenciatura en Economics, Politics and Social Sciences (en inglés)"
+    program: "Bachelor in Economics, Politics and Social Sciences"
   game-theory-economics-econometrics:
     title: "Microeconomics (I.C.): Game Theory"
-    program: "Maestría en Economics and Econometrics (en inglés)"
+    program: "Two Year Master in Economics and Econometrics"
   behavioral-economics-2022:
     title: "Introduction to Behavioral Economics"
-    program: "Licenciatura en Economics and Finance (en inglés)"
+    program: "Bachelor in Economics and Finance"
   globalization:
     title: "Globalization: Trade, Migrations and Multinationals"
-    program: "Licenciatura en Economics and Finance (en inglés)"
+    program: "Bachelor in Economics and Finance"
   competition-economics-policy:
     title: "Economía (C.I.): Economía y Política de la Competencia"
     program: "Maestría en Economía y Administración de Empresas (en italiano)"
   microeconomics-forli:
     title: "Microeconomics"
-    program: "Licenciatura en Management and Economics (en inglés)"
+    program: "Bachelor in Management and Economics"
   game-theory-forli:
     title: "Economía (C.I.): Teoría de Juegos"
     program: "Maestría en Economía y Administración de Empresas (en italiano)"
   public-management:
     title: "Public Management and Public Economics"
-    program: "Licenciatura en Business & Management (en inglés)"
+    program: "Bachelor Program in Business and Management"
   microeconomics-turin:
     title: "Microeconomics"
-    program: "Licenciatura en Business & Management (en inglés)"
+    program: "Bachelor Program in Business and Management"

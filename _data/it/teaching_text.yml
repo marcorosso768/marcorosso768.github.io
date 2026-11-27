@@ -35,17 +35,17 @@ labels:
 courses:
   empirical-methods-law-economics:
     title: "Empirical Methods for Law and Economics"
-    program: "European Doctorate in Law and Economics (EDLE) (in inglese)"
+    program: "European Doctorate in Law and Economics (EDLE)"
     materials: /it/materiali/edle_empirical_methods_for_law_and_economics/
   pre-sessional-econometrics:
     title: "Corso di Allineamento in Econometria"
     program: "Laurea magistrale in Direzione Aziendale"
   economics-eu:
     title: "Introduction to Economics of the EU"
-    program: "Laurea triennale in European Studies (in inglese)"
+    program: "Bachelor in European Studies"
   python-for-economists:
     title: "Python for Economists"
-    program: "Lauree magistrali in Economics and Public Policy e in Applied Economics and Markets, Dottorati in Economics e in Management (in inglese)"
+    program: "Two Year Master in Economics and Public Policy and in Applied Economics and Markets, Ph.D. in Economics, and Ph.D. in Management"
     materials: /it/materiali/lmepp_python_for_economists/
   microeconomics-business-administration:
     title: "Microeconomia"
@@ -53,30 +53,30 @@ courses:
     materials: /it/materiali/clea_microeconomics/
   econometrics-business-economics:
     title: "Econometrics"
-    program: "Laurea triennale in Business and Economics (in inglese)"
+    program: "Bachelor in Business and Economics"
     materials: /it/materiali/clabe_econometrics/
   microeconometrics:
     title: "Econometrics A (I.C.): Microeconometrics"
-    program: "Laurea magistrale in Economics and Econometrics (in inglese)"
+    program: "Two Year Master in Economics and Econometrics"
   economic-policy-methods:
     title: "Politica Economica C.A. e Metodi"
     program: "Laurea magistrale in Statistica, Economia e Impresa"
   behavioral-economics-2026:
     title: "Introduction to Behavioral Economics"
-    program: "Laurea triennale in Economics and Finance (in inglese)"
+    program: "Bachelor in Economics and Finance"
     materials: /it/materiali/ta_clef_introduction_to_behavioral_economics/
   microeconomics-economics-finance:
     title: "Microeconomics"
-    program: "Laurea triennale in Economics and Finance (in inglese)"
+    program: "Bachelor in Economics and Finance"
     materials: /it/materiali/ta_clef_microeconomics/
   statistics-data-tutoring:
     title: "Attività di Tutorato nell’Area Statistica e dei Dati"
-    program: "Laurea triennale in Business and Economics (in inglese)"
+    program: "Bachelor in Business and Economics"
     materials_title: "Econometrics" # titolo nella pagina materials (il corso a cui si riferiscono le esercitazioni)
     materials: /it/materiali/ta_clabe_econometrics/
   econometrics-public-policy:
     title: "Measurement and Econometric Analysis (I.C.): Econometrics"
-    program: "Laurea magistrale in Economics and Public Policy (in inglese)"
+    program: "Two Year Master in Economics and Public Policy"
     materials_title: "Econometrics" # titolo nella pagina materials (il modulo di Econometrics)
     materials: /it/materiali/ta_lmepp_econometrics/
   industrial-economics:
@@ -84,31 +84,31 @@ courses:
     program: "Laurea triennale in Economia, Mercati e Istituzioni"
   political-economy:
     title: "Political Economy"
-    program: "Laurea triennale in Economics, Politics and Social Sciences (in inglese)"
+    program: "Bachelor in Economics, Politics and Social Sciences"
   microeconomics-economics-politics:
     title: "Microeconomics"
-    program: "Laurea triennale in Economics, Politics and Social Sciences (in inglese)"
+    program: "Bachelor in Economics, Politics and Social Sciences"
   game-theory-economics-econometrics:
     title: "Microeconomics (I.C.): Game Theory"
-    program: "Laurea magistrale in Economics and Econometrics (in inglese)"
+    program: "Two Year Master in Economics and Econometrics"
   behavioral-economics-2022:
     title: "Introduction to Behavioral Economics"
-    program: "Laurea triennale in Economics and Finance (in inglese)"
+    program: "Bachelor in Economics and Finance"
   globalization:
     title: "Globalization: Trade, Migrations and Multinationals"
-    program: "Laurea triennale in Economics and Finance (in inglese)"
+    program: "Bachelor in Economics and Finance"
   competition-economics-policy:
     title: "Economia (C.I.): Economia e Politica della Concorrenza"
     program: "Laurea magistrale in Economia e Management"
   microeconomics-forli:
     title: "Microeconomics"
-    program: "Laurea triennale in Management and Economics (in inglese)"
+    program: "Bachelor in Management and Economics"
   game-theory-forli:
     title: "Economia (C.I.): Teoria dei Giochi"
     program: "Laurea magistrale in Economia e Management"
   public-management:
     title: "Public Management and Public Economics"
-    program: "Laurea triennale in Business & Management (in inglese)"
+    program: "Bachelor Program in Business and Management"
   microeconomics-turin:
     title: "Microeconomics"
-    program: "Laurea triennale in Business & Management (in inglese)"
+    program: "Bachelor Program in Business and Management"

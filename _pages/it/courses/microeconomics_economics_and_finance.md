@@ -3,7 +3,7 @@ page_id: microeconomics_economics_and_finance
 layout: page
 permalink: /materiali/ta_clef_microeconomics/
 title: microeconomics
-description: "<i>Materiali delle esercitazioni di Microeconomics, Laurea triennale in Economics and Finance (CLEF), Università di Bologna: slide delle esercitazioni, ciascuna disponibile anche con le soluzioni passo per passo. I materiali sono in inglese e vengono aggiunti man mano che il corso procede.</i>"
+description: "<i>Materiali delle esercitazioni di Microeconomics, Bachelor in Economics and Finance (CLEF), Università di Bologna: slide delle esercitazioni, ciascuna disponibile anche con le soluzioni passo per passo. I materiali sono in inglese e vengono aggiunti man mano che il corso procede.</i>"
 meta_description: "Microeconomics (CLEF, Università di Bologna): slide delle esercitazioni con soluzioni passo per passo, in inglese."
 course_back: true # freccia sopra il titolo: ← materials, oppure ← teaching se si arriva da teaching (?from=teaching)
 nav: false
