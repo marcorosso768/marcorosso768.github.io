@@ -32,24 +32,24 @@
 - title: formación
   type: time_table
   contents:
-    - title: Doctorado en Economía
+    - title: Ph.D. in Economics
       year: "2026"
       institution: University of Bologna
       department: DSE — Departamento de Economía
       location: "Bolonia, Italia"
       supervisor: 'supervisor: <a href="https://sites.google.com/site/paolovanin/">Paolo Vanin</a>'
-    - title: Máster en Economía
+    - title: Master of Arts in Economics
       year: "2020"
       location: "Turín, Italia"
       institution: Collegio Carlo Alberto
-    - title: Maestría en Economía
+    - title: Two-Year Master Degree in Economics
       year: "2019"
       location: "Turín, Italia"
       institution: University of Turin
       department: ESOMAS — Departamento de Economía
       supervisor: 'supervisor: <a href="https://sites.google.com/site/giovannimastrobuoni/">Giovanni Mastrobuoni</a>'
       cosupervisor: 'co-supervisor: <a href="https://www.clinbio.unito.it/do/docenti.pl/Show?_id=fricceri#tab-profilo">Fulvio Ricceri</a>'
-    - title: "Licenciatura en Matemáticas"
+    - title: "Licenciatura en Matemáticas (en italiano)"
       year: "2015"
       location: "Turín, Italia"
       institution: University of Turin
@@ -147,7 +147,7 @@
 - title: servicio académico
   type: time_table
   contents:
-    - title: "Miembro del Tribunal de Tesis, Licenciatura en Administración de Empresas"
+    - title: "Miembro del Tribunal de Tesis, Licenciatura en Administración de Empresas (en italiano)"
       year: "2026"
       location: "Bolonia, Italia"
       institution: University of Bologna

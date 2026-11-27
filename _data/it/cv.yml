@@ -32,17 +32,17 @@
 - title: formazione
   type: time_table
   contents:
-    - title: Dottorato di Ricerca in Economia
+    - title: Ph.D. in Economics
       year: "2026"
       institution: Università di Bologna
       department: DSE — Dipartimento di Scienze Economiche
       location: "Bologna, Italia"
       supervisor: 'supervisor: <a href="https://sites.google.com/site/paolovanin/">Paolo Vanin</a>'
-    - title: Master di Secondo Livello in Economia
+    - title: Master of Arts in Economics
       year: "2020"
       location: "Torino, Italia"
       institution: Collegio Carlo Alberto
-    - title: Laurea magistrale in Economia
+    - title: Two-Year Master Degree in Economics
       year: "2019"
       location: "Torino, Italia"
       institution: Università di Torino
