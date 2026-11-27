@@ -36,7 +36,7 @@ courses:
   empirical-methods-law-economics:
     title: "Empirical Methods for Law and Economics"
     program: "Dottorato Europeo in Law and Economics (EDLE) (in inglese)"
-    materials: /it/materiali/metodi_empirici_per_law_and_economics/
+    materials: /it/materiali/edle_empirical_methods_for_law_and_economics/
   pre-sessional-econometrics:
     title: "Corso di Allineamento in Econometria"
     program: "Laurea magistrale in Direzione Aziendale"
@@ -46,15 +46,15 @@ courses:
   python-for-economists:
     title: "Python for Economists"
     program: "Lauree magistrali in Economics and Public Policy e in Applied Economics and Markets, Dottorati in Economics e in Management (in inglese)"
-    materials: /it/materiali/python_per_economisti/
+    materials: /it/materiali/lmepp_python_for_economists/
   microeconomics-business-administration:
     title: "Microeconomia"
     program: "Laurea triennale in Economia Aziendale"
-    materials: /it/materiali/microeconomia/
+    materials: /it/materiali/clea_microeconomics/
   econometrics-business-economics:
     title: "Econometrics"
     program: "Laurea triennale in Business and Economics (in inglese)"
-    materials: /it/materiali/econometria/
+    materials: /it/materiali/clabe_econometrics/
   microeconometrics:
     title: "Econometrics A (I.C.): Microeconometrics"
     program: "Laurea magistrale in Economics and Econometrics (in inglese)"
@@ -64,19 +64,19 @@ courses:
   behavioral-economics-2026:
     title: "Introduction to Behavioral Economics"
     program: "Laurea triennale in Economics and Finance (in inglese)"
-    materials: /it/materiali/ta_introduzione_all_economia_comportamentale/
+    materials: /it/materiali/ta_clef_introduction_to_behavioral_economics/
   microeconomics-economics-finance:
     title: "Microeconomics"
     program: "Laurea triennale in Economics and Finance (in inglese)"
-    materials: /it/materiali/ta_microeconomics/
+    materials: /it/materiali/ta_clef_microeconomics/
   statistics-data-tutoring:
     title: "Attività di Tutorato nell’Area Statistica e dei Dati"
     program: "Laurea triennale in Business and Economics (in inglese)"
-    materials: /it/materiali/ta_econometria/
+    materials: /it/materiali/ta_clabe_econometrics/
   econometrics-public-policy:
     title: "Measurement and Econometric Analysis (I.C.): Econometrics"
     program: "Laurea magistrale in Economics and Public Policy (in inglese)"
-    materials: /it/materiali/ta_measurement_and_econometric_analysis/
+    materials: /it/materiali/ta_lmepp_econometrics/
   industrial-economics:
     title: "Strategie di Mercato"
     program: "Laurea triennale in Economia, Mercati e Istituzioni"

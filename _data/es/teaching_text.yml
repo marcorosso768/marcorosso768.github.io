@@ -36,7 +36,7 @@ courses:
   empirical-methods-law-economics:
     title: "Métodos Empíricos para el Derecho y la Economía"
     program: "Doctorado Europeo en Derecho y Economía (EDLE) (en inglés)"
-    materials: /es/materiales/métodos_empíricos_para_derecho_y_economía/
+    materials: /es/materiales/edle_empirical_methods_for_law_and_economics/
   pre-sessional-econometrics:
     title: "Curso de Nivelación en Econometría"
     program: "Maestría en Dirección de Empresas (en italiano)"
@@ -46,15 +46,15 @@ courses:
   python-for-economists:
     title: "Python para Economistas"
     program: "Maestrías en Economía y Políticas Públicas y en Economía Aplicada y Mercados, Doctorados en Economía y en Administración (en inglés)"
-    materials: /es/materiales/python_para_economistas/
+    materials: /es/materiales/lmepp_python_for_economists/
   microeconomics-business-administration:
     title: "Microeconomía"
     program: "Licenciatura en Administración de Empresas (en italiano)"
-    materials: /es/materiales/microeconomía/
+    materials: /es/materiales/clea_microeconomics/
   econometrics-business-economics:
     title: "Econometría"
     program: "Licenciatura en Negocios y Economía (en inglés)"
-    materials: /es/materiales/econometría/
+    materials: /es/materiales/clabe_econometrics/
   microeconometrics:
     title: "Econometría A (C.I.): Microeconometría"
     program: "Maestría en Economía y Econometría (en inglés)"
@@ -64,19 +64,19 @@ courses:
   behavioral-economics-2026:
     title: "Introducción a la Economía del Comportamiento"
     program: "Licenciatura en Economía y Finanzas (en inglés)"
-    materials: /es/materiales/ta_introducción_a_la_economía_del_comportamiento/
+    materials: /es/materiales/ta_clef_introduction_to_behavioral_economics/
   microeconomics-economics-finance:
     title: "Microeconomía"
     program: "Licenciatura en Economía y Finanzas (en inglés)"
-    materials: /es/materiales/ta_microeconomía/
+    materials: /es/materiales/ta_clef_microeconomics/
   statistics-data-tutoring:
     title: "Actividades de Tutoría en el Área de Estadística y Datos"
     program: "Licenciatura en Negocios y Economía (en inglés)"
-    materials: /es/materiales/ta_econometría/
+    materials: /es/materiales/ta_clabe_econometrics/
   econometrics-public-policy:
     title: "Medición y Análisis Econométrico (C.I.): Econometría"
     program: "Maestría en Economía y Políticas Públicas (en inglés)"
-    materials: /es/materiales/ta_medición_y_análisis_econométrico/
+    materials: /es/materiales/ta_lmepp_econometrics/
   industrial-economics:
     title: "Economía Industrial"
     program: "Licenciatura en Economía, Mercados e Instituciones (en italiano)"

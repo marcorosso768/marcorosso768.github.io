@@ -1,7 +1,7 @@
 ---
 page_id: microeconomics
 layout: page
-permalink: /materiali/microeconomia/
+permalink: /materiali/clea_microeconomics/
 title: microeconomia
 description: "<i>Materiali per il corso di Microeconomia della Laurea triennale in Economia Aziendale, Università di Bologna: appunti del corso e slide di tutte e venti le lezioni.</i>"
 meta_description: "Materiali del corso di Microeconomia (Università di Bologna): appunti del corso e slide di tutte e venti le lezioni."

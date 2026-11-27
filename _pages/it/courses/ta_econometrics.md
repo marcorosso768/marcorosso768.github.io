@@ -1,7 +1,7 @@
 ---
 page_id: ta_econometrics
 layout: page
-permalink: /materiali/ta_econometria/
+permalink: /materiali/ta_clabe_econometrics/
 title: econometria
 description: "<i>Materiali delle esercitazioni di Econometrics, Laurea triennale in Business and Economics, Università di Bologna: slide delle esercitazioni, disponibili anche con le soluzioni, script R con le soluzioni e i dati. I materiali sono in inglese e vengono aggiunti man mano che il corso procede.</i>"
 meta_description: "Esercitazioni di Econometrics (Laurea triennale in Business and Economics, Università di Bologna): slide con soluzioni, script R e dati, in inglese."

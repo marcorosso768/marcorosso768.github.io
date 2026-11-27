@@ -36,7 +36,7 @@ courses:
   empirical-methods-law-economics:
     title: "Empirical Methods for Law and Economics"
     program: "European Doctorate in Law and Economics (EDLE)"
-    materials: /materials/empirical_methods_for_law_and_economics/
+    materials: /materials/edle_empirical_methods_for_law_and_economics/
   pre-sessional-econometrics:
     title: "Pre-sessional Course in Econometrics"
     program: "Two Year Master in Business Administration (in Italian)"
@@ -46,15 +46,15 @@ courses:
   python-for-economists:
     title: "Python for Economists"
     program: "Two Year Master in Economics and Public Policy and in Applied Economics and Markets, Ph.D. in Economics, and Ph.D. in Management"
-    materials: /materials/python_for_economists/
+    materials: /materials/lmepp_python_for_economists/
   microeconomics-business-administration:
     title: "Microeconomics"
     program: "Bachelor in Business Administration (in Italian)"
-    materials: /materials/microeconomics/
+    materials: /materials/clea_microeconomics/
   econometrics-business-economics:
     title: "Econometrics"
     program: "Bachelor in Business and Economics"
-    materials: /materials/econometrics/
+    materials: /materials/clabe_econometrics/
   microeconometrics:
     title: "Econometrics A (I.C.): Microeconometrics"
     program: "Two Year Master in Economics and Econometrics"
@@ -64,19 +64,19 @@ courses:
   behavioral-economics-2026:
     title: "Introduction to Behavioral Economics"
     program: "Bachelor in Economics and Finance"
-    materials: /materials/ta_introduction_to_behavioral_economics/
+    materials: /materials/ta_clef_introduction_to_behavioral_economics/
   microeconomics-economics-finance:
     title: "Microeconomics"
     program: "Bachelor in Economics and Finance"
-    materials: /materials/ta_microeconomics/
+    materials: /materials/ta_clef_microeconomics/
   statistics-data-tutoring:
     title: "Tutoring Activities in the Statistics and Data Area"
     program: "Bachelor in Business and Economics"
-    materials: /materials/ta_econometrics/
+    materials: /materials/ta_clabe_econometrics/
   econometrics-public-policy:
     title: "Measurement and Econometric Analysis (I.C.): Econometrics"
     program: "Two Year Master in Economics and Public Policy"
-    materials: /materials/ta_measurement_and_econometric_analysis/
+    materials: /materials/ta_lmepp_econometrics/
   industrial-economics:
     title: "Industrial Economics"
     program: "Bachelor in Economics, Markets and Institutions (in Italian)"
