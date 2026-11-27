@@ -26,7 +26,7 @@ labels:
   and: "e"
   # etichette del livello (campo level in _data/teaching.yml)
   levels:
-    ba: "L"
+    ba: "CL"
     ma: "LM"
     phd: "PhD"
   # dopo il titolo dei corsi in italiano (campo italian)
