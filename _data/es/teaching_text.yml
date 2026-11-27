@@ -72,6 +72,7 @@ courses:
   statistics-data-tutoring:
     title: "Actividades de Tutoría en el Área de Estadística y Datos"
     program: "Licenciatura en Negocios y Economía (en inglés)"
+    materials: /es/materiales/ta_econometría/
   econometrics-public-policy:
     title: "Medición y Análisis Econométrico (C.I.): Econometría"
     program: "Maestría en Economía y Políticas Públicas (en inglés)"

@@ -557,8 +557,9 @@ measurement_and_econometric_analysis:
           items:
             - file: "replications/replication_2.pdf"
               title: "Slides"
-            - file: "replications/T2_solutions.do"
-              title: "Dorn and Zweimüller (2021), solutions.do"
+            - file: "replications/T2_exercises.do"
+              title: "Dorn and Zweimüller (2021).do"
+              solution: "replications/T2_solutions.do"
               icon: fa-solid fa-code
               download: true
               details: replication_t2

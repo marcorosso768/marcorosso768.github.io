@@ -131,6 +131,7 @@ courses:
     dates: "2026–"
     level: [ba]
   statistics-data-tutoring:
+    materials: ta_econometrics
     with: [fort]
     dates: "2026–"
     level: [ba]

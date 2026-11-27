@@ -72,6 +72,7 @@ courses:
   statistics-data-tutoring:
     title: "Attività di Tutorato nell’Area Statistica e dei Dati"
     program: "Laurea triennale in Business and Economics (in inglese)"
+    materials: /it/materiali/ta_econometria/
   econometrics-public-policy:
     title: "Measurement and Econometric Analysis (I.C.): Econometrics"
     program: "Laurea magistrale in Economics and Public Policy (in inglese)"

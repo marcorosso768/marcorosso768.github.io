@@ -3,7 +3,7 @@ REPLICATION TUTORIAL 2 - DORN AND ZWEIMUELLER (2021)
 Perspectives 35(2): 49-76. https://doi.org/10.1257/jep.35.2.49
 
 Files on this page
-  T2_slides.pdf      slides of the tutorial
+  replication_2.pdf  slides of the tutorial
   T2_exercises.do    demonstration (Part 1) and exercises (Part 2)
 
 SETUP (10 minutes, internet needed once)
