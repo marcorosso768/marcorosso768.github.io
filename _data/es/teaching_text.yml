@@ -72,6 +72,7 @@ courses:
   statistics-data-tutoring:
     title: "Actividades de Tutoría en el Área de Estadística y Datos"
     program: "Licenciatura en Negocios y Economía (en inglés)"
+    materials_title: "Econometría" # titolo nella pagina materials (il corso a cui si riferiscono le esercitazioni)
     materials: /es/materiales/ta_clabe_econometrics/
   econometrics-public-policy:
     title: "Medición y Análisis Econométrico (C.I.): Econometría"

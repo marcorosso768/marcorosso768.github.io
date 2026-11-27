@@ -72,6 +72,7 @@ courses:
   statistics-data-tutoring:
     title: "Tutoring Activities in the Statistics and Data Area"
     program: "Bachelor in Business and Economics"
+    materials_title: "Econometrics" # titolo nella pagina materials (il corso a cui si riferiscono le esercitazioni)
     materials: /materials/ta_clabe_econometrics/
   econometrics-public-policy:
     title: "Measurement and Econometric Analysis (I.C.): Econometrics"

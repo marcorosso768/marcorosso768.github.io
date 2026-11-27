@@ -4,7 +4,8 @@
   di file da _data/courses.yml e _data/<lingua>/courses_text.yml. Si aggiorna da sola quando si aggiunge un file o un corso.
   Diviso per ruolo come la pagina teaching (docente / tutor didattico): una sezione apribile per ruolo, solo se ha corsi
   con materiali.
-  Ogni corso: riquadro del livello (BA/MA/PhD, come in teaching), titolo, ateneo e anni, poi i materiali.
+  Ogni corso: riquadro del livello (BA/MA/PhD, come in teaching), titolo (materials_title nei testi, se c'è, altrimenti
+  title), ateneo e anni, poi i materiali.
   Riepilogo per corso: sezioni con il numero di file (le voci di solo testo, note, non contano); una sezione con
   in_summary: false in courses.yml non compare (es. informazioni sul corso).
   Niente commenti HTML qui: nelle pagine .md kramdown li trasformerebbe in paragrafi vuoti.
@@ -53,7 +54,7 @@
               </div>
               <div class="materials-entry__body">
                 <h2 class="materials-entry__title">
-                  <a href="{{ text.materials }}">{{ text.title }}</a>
+                  <a href="{{ text.materials }}">{{ text.materials_title | default: text.title }}</a>
                 </h2>
                 <div class="materials-entry__meta">{{ texts.institutions[institution.key] }} · {{ course.dates }}</div>
                 <div class="materials-entry__sections">

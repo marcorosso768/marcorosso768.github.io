@@ -2,7 +2,7 @@
 page_id: ta_econometrics
 layout: page
 permalink: /materiales/ta_clabe_econometrics/
-title: tutoring activities in the statistics and data area
+title: econometría
 description: "<i>Materiales de las prácticas de Econometría, Licenciatura en Negocios y Economía, University of Bologna: slides de las prácticas, disponibles también con las soluciones, scripts de R con sus soluciones y los datos. Los materiales están en inglés y se van sumando a medida que avanza el curso.</i>"
 meta_description: "Prácticas de Econometría (Licenciatura en Negocios y Economía, University of Bologna): slides con soluciones, scripts de R y datos, en inglés."
 course_back: true # freccia sopra il titolo: ← materials, oppure ← teaching se si arriva da teaching (?from=teaching)
