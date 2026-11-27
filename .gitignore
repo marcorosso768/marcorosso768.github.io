@@ -22,3 +22,6 @@ _archivio/
 assets/teaching_material/**/SOURCE_AND_LICENCE*.txt
 assets/teaching_material/**/*provenance*.json
 assets/teaching_material/**/LICENCE_AND_SOURCE*.txt
+
+# file di lavoro di R (cronologia dei comandi): non vanno pubblicati
+.Rhistory

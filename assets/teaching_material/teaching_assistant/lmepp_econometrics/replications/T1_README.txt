@@ -4,7 +4,7 @@ Occupational Age Structure", American Economic Review: Papers and Proceedings
 99(2): 45-51. https://doi.org/10.1257/aer.99.2.45
 
 Files on this page
-  Replication Tutorial 1 - Autor and Dorn (2009).pdf    slides of the tutorial
+  replication_1.pdf  slides of the tutorial
   T1_exercises.do    demonstration (Part 1) and exercises (Part 2)
 
 SETUP (5 minutes)

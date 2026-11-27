@@ -121,10 +121,20 @@ measurement_and_econometric_analysis:
       summary: "il tutorial"
       body: |
         <p>Paper: Autor e Dorn (2009), <i>AER: P&amp;P</i> 99(2): 45–51 (<a href="https://doi.org/10.1257/aer.99.2.45">doi:10.1257/aer.99.2.45</a>)<br>
-        <a href="/assets/teaching_material/teaching_assistant/econometrics/replications/README.txt">Istruzioni per la configurazione (README.txt)</a><br>
+        <a href="/assets/teaching_material/teaching_assistant/lmepp_econometrics/replications/T1_README.txt">Istruzioni per la configurazione (README.txt)</a><br>
         Archivio di replicazione: <a href="https://ddorn.net/data.htm">pagina dei dati di David Dorn</a>, voce P1 (non ospitato qui)<br>
+        Scritto per Stata 19: con una versione precedente, va cambiata la riga <code>version 19</code> del do-file</p>
+    replication_t2:
+      summary: "il tutorial"
+      body: |
+        <p>Paper: Dorn e Zweimüller (2021), <i>JEP</i> 35(2): 49–76 (<a href="https://doi.org/10.1257/jep.35.2.49">doi:10.1257/jep.35.2.49</a>)<br>
+        <a href="/assets/teaching_material/teaching_assistant/lmepp_econometrics/replications/T2_README.txt">Istruzioni per la configurazione (README.txt)</a><br>
+        Archivio di replicazione: <a href="https://ddorn.net/data.htm">pagina dei dati di David Dorn</a>, voce P11 (non ospitato qui)<br>
         Scritto per Stata 19: con una versione precedente, va cambiata la riga <code>version 19</code> del do-file</p>
 microeconomics_economics_and_finance:
   solution: "step-by-step solutions" # corso in inglese: stessa etichetta nelle tre lingue
+  sections:
+    tutorials: "esercitazioni"
+ta_econometrics:
   sections:
     tutorials: "esercitazioni"
